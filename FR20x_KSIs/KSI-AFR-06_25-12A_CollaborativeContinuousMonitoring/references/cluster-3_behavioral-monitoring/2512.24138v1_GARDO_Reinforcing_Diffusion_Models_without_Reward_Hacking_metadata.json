@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.24138v1",
+  "title": "GARDO: Reinforcing Diffusion Models without Reward Hacking",
+  "authors": [
+    "Haoran He",
+    "Yuxiao Ye",
+    "Jie Liu",
+    "Jiajun Liang",
+    "Zhiyong Wang"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24138v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "Fine-tuning diffusion models via online reinforcement learning (RL) has shown great potential for enhancing text-to-image alignment. However, since precisely specifying a ground-truth objective for visual tasks remains challenging, the models are often optimized using a proxy reward that only partially captures the true goal. This mismatch often leads to reward hacking, where proxy scores increase while real image quality deteriorates and generation diversity collapses. While common solutions ad..."
+}

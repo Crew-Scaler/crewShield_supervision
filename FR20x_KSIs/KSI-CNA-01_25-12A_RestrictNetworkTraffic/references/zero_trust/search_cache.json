@@ -1,0 +1,810 @@
+{
+  "papers": [
+    {
+      "title": "Astra: General Interactive World Model with Autoregressive Denoising",
+      "authors": [
+        "Yixuan Zhu",
+        "Jiaqi Feng",
+        "Wenzhao Zheng",
+        "Yuan Gao",
+        "Xin Tao",
+        "Pengfei Wan",
+        "Jie Zhou",
+        "Jiwen Lu"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Recent advances in diffusion transformers have empowered video generation models to generate high-quality video clips from texts or images. However, world models with the ability to predict long-horizon futures from past observations and actions remain underexplored, especially for general-purpose scenarios and various forms of actions. To bridge this gap, we introduce Astra, an interactive general world model that generates real-world futures for diverse scenarios (e.g., autonomous driving, robot grasping) with precise action interactions (e.g., camera motion, robot action). We propose an autoregressive denoising architecture and use temporal causal attention to aggregate past observations and support streaming outputs. We use a noise-augmented history memory to avoid over-reliance on past frames to balance responsiveness with temporal coherence. For precise action control, we introduce an action-aware adapter that directly injects action signals into the denoising process. We further develop a mixture of action experts that dynamically route heterogeneous action modalities, enhancing versatility across diverse real-world tasks such as exploration, manipulation, and camera control. Astra achieves interactive, consistent, and general long-term video prediction and supports various forms of interactions. Experiments across multiple datasets demonstrate the improvements of Astra in fidelity, long-range prediction, and action alignment over existing state-of-the-art world models.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08931v1",
+      "arxiv_id": "2512.08931v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Efficiently Reconstructing Dynamic Scenes One D4RT at a Time",
+      "authors": [
+        "Chuhan Zhang",
+        "Guillaume Le Moing",
+        "Skanda Koppula",
+        "Ignacio Rocco",
+        "Liliane Momeni",
+        "Junyu Xie",
+        "Shuyang Sun",
+        "Rahul Sukthankar",
+        "Jo\u00eblle K Barral",
+        "Raia Hadsell",
+        "Zoubin Ghahramani",
+        "Andrew Zisserman",
+        "Junlin Zhang",
+        "Mehdi SM Sajjadi"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Understanding and reconstructing the complex geometry and motion of dynamic scenes from video remains a formidable challenge in computer vision. This paper introduces D4RT, a simple yet powerful feedforward model designed to efficiently solve this task. D4RT utilizes a unified transformer architecture to jointly infer depth, spatio-temporal correspondence, and full camera parameters from a single video. Its core innovation is a novel querying mechanism that sidesteps the heavy computation of dense, per-frame decoding and the complexity of managing multiple, task-specific decoders. Our decoding interface allows the model to independently and flexibly probe the 3D position of any point in space and time. The result is a lightweight and highly scalable method that enables remarkably efficient training and inference. We demonstrate that our approach sets a new state of the art, outperforming previous methods across a wide spectrum of 4D reconstruction tasks. We refer to the project webpage for animated results: https://d4rt-paper.github.io/.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08924v1",
+      "arxiv_id": "2512.08924v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Autonomous multi-ion optical clock with on-chip integrated photonic light delivery",
+      "authors": [
+        "Tharon D. Morrison",
+        "Joonhyuk Kwon",
+        "Matthew A. Delaney",
+        "David R. Leibrandt",
+        "Daniel Stick",
+        "Hayden J. McGuinness"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Integrated photonics in trapped-ion systems are critical for the realization of applications such as portable optical atomic clocks and scalable quantum computers. However, system-level integration of all required functionalities remains a key challenge. In this work, we demonstrate an autonomously operating optical clock having a short-term frequency instability of $3.14(5)\\times 10^{-14} / \\sqrt\u03c4$ using an ensemble of four \\ybion ions trapped in a multi-site surface-electrode trap at room temperature. All clock operations are performed with light delivered via on-chip waveguides. We showcase the system's resilience through sustained, autonomous operation featuring automated ion shuttling and reloading to mitigate ion loss during interleaved clock measurements. This work paves the way beyond component-level functionality to establish a viable and robust architecture for the next generation of portable, multi-ion quantum sensors and computers.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08921v1",
+      "arxiv_id": "2512.08921v1",
+      "categories": [
+        "quant-ph"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Improved Pseudorandom Codes from Permuted Puzzles",
+      "authors": [
+        "Miranda Christ",
+        "Noah Golowich",
+        "Sam Gunn",
+        "Ankur Moitra",
+        "Daniel Wichs"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Watermarks are an essential tool for identifying AI-generated content. Recently, Christ and Gunn (CRYPTO '24) introduced pseudorandom error-correcting codes (PRCs), which are equivalent to watermarks with strong robustness and quality guarantees. A PRC is a pseudorandom encryption scheme whose decryption algorithm tolerates a high rate of errors. Pseudorandomness ensures quality preservation of the watermark, and error tolerance of decryption translates to the watermark's ability to withstand modification of the content.\n  In the short time since the introduction of PRCs, several works (NeurIPS '24, RANDOM '25, STOC '25) have proposed new constructions. Curiously, all of these constructions are vulnerable to quasipolynomial-time distinguishing attacks. Furthermore, all lack robustness to edits over a constant-sized alphabet, which is necessary for a meaningfully robust LLM watermark. Lastly, they lack robustness to adversaries who know the watermarking detection key. Until now, it was not clear whether any of these properties was achievable individually, let alone together.\n  We construct pseudorandom codes that achieve all of the above: plausible subexponential pseudorandomness security, robustness to worst-case edits over a binary alphabet, and robustness against even computationally unbounded adversaries that have the detection key. Pseudorandomness rests on a new assumption that we formalize, the permuted codes conjecture, which states that a distribution of permuted noisy codewords is pseudorandom. We show that this conjecture is implied by the permuted puzzles conjecture used previously to construct doubly efficient private information retrieval. To give further evidence, we show that the conjecture holds against a broad class of simple distinguishers, including read-once branching programs.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08918v1",
+      "arxiv_id": "2512.08918v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "SAQ: Stabilizer-Aware Quantum Error Correction Decoder",
+      "authors": [
+        "David Zenati",
+        "Eliya Nachmani"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Quantum Error Correction (QEC) decoding faces a fundamental accuracy-efficiency tradeoff. Classical methods like Minimum Weight Perfect Matching (MWPM) exhibit variable performance across noise models and suffer from polynomial complexity, while tensor network decoders achieve high accuracy but at prohibitively high computational cost. Recent neural decoders reduce complexity but lack the accuracy needed to compete with computationally expensive classical methods. We introduce SAQ-Decoder, a unified framework combining transformer-based learning with constraint aware post-processing that achieves both near Maximum Likelihood (ML) accuracy and linear computational scalability with respect to the syndrome size. Our approach combines a dual-stream transformer architecture that processes syndromes and logical information with asymmetric attention patterns, and a novel differentiable logical loss that directly optimizes Logical Error Rates (LER) through smooth approximations over finite fields. SAQ-Decoder achieves near-optimal performance, with error thresholds of 10.99% (independent noise) and 18.6% (depolarizing noise) on toric codes that approach the ML bounds of 11.0% and 18.9% while outperforming existing neural and classical baselines in accuracy, complexity, and parameter efficiency. Our findings establish that learned decoders can simultaneously achieve competitive decoding accuracy and computational efficiency, addressing key requirements for practical fault-tolerant quantum computing systems.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08914v1",
+      "arxiv_id": "2512.08914v1",
+      "categories": [
+        "quant-ph",
+        "cs.AI"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "LiDAS: Lighting-driven Dynamic Active Sensing for Nighttime Perception",
+      "authors": [
+        "Simon de Moreau",
+        "Andrei Bursuc",
+        "Hafid El-Idrissi",
+        "Fabien Moutarde"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Nighttime environments pose significant challenges for camera-based perception, as existing methods passively rely on the scene lighting. We introduce Lighting-driven Dynamic Active Sensing (LiDAS), a closed-loop active illumination system that combines off-the-shelf visual perception models with high-definition headlights. Rather than uniformly brightening the scene, LiDAS dynamically predicts an optimal illumination field that maximizes downstream perception performance, i.e., decreasing light on empty areas to reallocate it on object regions. LiDAS enables zero-shot nighttime generalization of daytime-trained models through adaptive illumination control. Trained on synthetic data and deployed zero-shot in real-world closed-loop driving scenarios, LiDAS enables +18.7% mAP50 and +5.0% mIoU over standard low-beam at equal power. It maintains performances while reducing energy use by 40%. LiDAS complements domain-generalization methods, further strengthening robustness without retraining. By turning readily available headlights into active vision actuators, LiDAS offers a cost-effective solution to robust nighttime perception.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08912v1",
+      "arxiv_id": "2512.08912v1",
+      "categories": [
+        "cs.CV",
+        "cs.RO"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Architecture Design for Rise/Fall Asymmetry Glitch Minimization in Current-Steering DACs",
+      "authors": [
+        "Ramin Babaee",
+        "Shahab Oveis Gharan",
+        "Martin Bouchard"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Current-steering digital-to-analog converter (DAC) is a prominent architecture that is commonly used in high-speed applications such as optical communications. One of the shortcomings of this architecture is the output glitches that are input dependent and degrade the dynamic performance of the DAC. We investigate DAC glitches that arise from asymmetry in the fall/rise response of DAC switches. We formulate a glitch metric that defines the overall DAC performance, which is then used to find a novel DAC weighting scheme. Numerical simulations show that the proposed architecture can potentially provide a significant performance advantage compared to the segmented structure.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08909v1",
+      "arxiv_id": "2512.08909v1",
+      "categories": [
+        "eess.SP"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Timing-Error Optimized Architecture for Current-Steering DACs",
+      "authors": [
+        "Ramin Babaee",
+        "Shahab Oveis Gharan",
+        "Martin Bouchard"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "We propose a novel digital-to-analog converter (DAC) weighting architecture that statistically minimizes the distortion caused by random timing mismatches among current sources. To decode the DAC input codewords into corresponding DAC switches, we present three algorithms with varying computational complexities. We perform high-level Matlab simulations to illustrate the dynamic performance improvement over the segmented structure.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08903v1",
+      "arxiv_id": "2512.08903v1",
+      "categories": [
+        "eess.SP"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "A Unified Symmetry Classification of Magnetic Orders via Spin Space Groups: Prediction of Coplanar Even-Wave Phases",
+      "authors": [
+        "Ziyin Song",
+        "Ziyue Qi",
+        "Chen Fang",
+        "Zhong Fang",
+        "Hongming Weng"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Spin space groups (SSGs) impose fundamentally different constraints on magnetic configurations in real and reciprocal spaces. As a consequence, the correspondence between real-space and momentum-space spin arrangements is far richer than traditionally assumed. Building on the complete enumeration of SSGs, we develop a systematic, symmetry-based framework that classifies all possible spin arrangements allowed by these groups. This unified approach naturally incorporates conventional magnetic orders, altermagnetism, and p-wave magnetism as distinct symmetry classes. Crucially, our classification predicts a variety of novel magnetic phases, highlighted by the discovery of the coplanar even-wave magnet: a state that is non-collinear in real space but hosts a collinear even-wave spin polarization in k-space. Analysis of a minimal model reveals that this phase is characterized by non-quantized spin polarization and exhibits a novel mechanism for symmetry-enforced zero polarization on non-degenerate bands. Extending the framework from bulk crystals to layer SSGs appropriate for two-dimensional systems, we further predict layered counterparts and provide symmetry guidelines for designing bilayer coplanar p-wave and even-wave magnets. We further validate this finding through first-principles calculations and propose CoCrO4 as a promising candidate for its experimental realization, thereby demonstrating the completeness and predictive power of the SSG-based classification of magnetic orders.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08901v1",
+      "arxiv_id": "2512.08901v1",
+      "categories": [
+        "cond-mat.mtrl-sci"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Modelling and valuation of catastrophe bonds across multiple regions",
+      "authors": [
+        "Krzysztof Burnecki",
+        "Marek Teuerle",
+        "Martyna Zdeb"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "The insurance-linked securities (ILS) market, as a form of alternative risk transfer, has been at the forefront of innovative risk-transfer solutions. The catastrophe bond (CAT bond) market now represents almost half of the entire ILS market and is growing steadily. Since CAT bonds are often tied to risks in different regions, we follow this idea by constructing different pricing models that incorporate various scenarios of dependence between catastrophe losses in different areas. Namely, we consider independent, proportional, and arbitrary two-dimensional distribution cases. We also derive a normal approximation of the prices. Finally, to include the market price of risk, we apply Wang's transform. We illustrate the differences between the scenarios and the performance of the approximation on the Property Claim Services data.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08890v1",
+      "arxiv_id": "2512.08890v1",
+      "categories": [
+        "q-fin.PR"
+      ],
+      "query": "zero trust architecture network security"
+    },
+    {
+      "title": "Open Polymer Challenge: Post-Competition Report",
+      "authors": [
+        "Gang Liu",
+        "Sobin Alosious",
+        "Subhamoy Mahajan",
+        "Eric Inae",
+        "Yihan Zhu",
+        "Yuhan Liu",
+        "Renzheng Zhang",
+        "Jiaxin Xu",
+        "Addison Howard",
+        "Ying Li",
+        "Tengfei Luo",
+        "Meng Jiang"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Machine learning (ML) offers a powerful path toward discovering sustainable polymer materials, but progress has been limited by the lack of large, high-quality, and openly accessible polymer datasets. The Open Polymer Challenge (OPC) addresses this gap by releasing the first community-developed benchmark for polymer informatics, featuring a dataset with 10K polymers and 5 properties: thermal conductivity, radius of gyration, density, fractional free volume, and glass transition temperature. The challenge centers on multi-task polymer property prediction, a core step in virtual screening pipelines for materials discovery. Participants developed models under realistic constraints that include small data, label imbalance, and heterogeneous simulation sources, using techniques such as feature-based augmentation, transfer learning, self-supervised pretraining, and targeted ensemble strategies. The competition also revealed important lessons about data preparation, distribution shifts, and cross-group simulation consistency, informing best practices for future large-scale polymer datasets. The resulting models, analysis, and released data create a new foundation for molecular AI in polymer science and are expected to accelerate the development of sustainable and energy-efficient materials. Along with the competition, we release the test dataset at https://www.kaggle.com/datasets/alexliu99/neurips-open-polymer-prediction-2025-test-data. We also release the data generation pipeline at https://github.com/sobinalosious/ADEPT, which simulates more than 25 properties, including thermal conductivity, radius of gyration, and density.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08896v1",
+      "arxiv_id": "2512.08896v1",
+      "categories": [
+        "cs.LG"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "Decentralized Trust for Space AI: Blockchain-Based Federated Learning Across Multi-Vendor LEO Satellite Networks",
+      "authors": [
+        "Mohamed Elmahallawy",
+        "Asma Jodeiri Akbarfam"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "The rise of space AI is reshaping government and industry through applications such as disaster detection, border surveillance, and climate monitoring, powered by massive data from commercial and governmental low Earth orbit (LEO) satellites. Federated satellite learning (FSL) enables joint model training without sharing raw data, but suffers from slow convergence due to intermittent connectivity and introduces critical trust challenges--where biased or falsified updates can arise across satellite constellations, including those injected through cyberattacks on inter-satellite or satellite-ground communication links. We propose OrbitChain, a blockchain-backed framework that empowers trustworthy multi-vendor collaboration in LEO networks. OrbitChain (i) offloads consensus to high-altitude platforms (HAPs) with greater computational capacity, (ii) ensures transparent, auditable provenance of model updates from different orbits owned by different vendors, and (iii) prevents manipulated or incomplete contributions from affecting global FSL model aggregation. Extensive simulations show that OrbitChain reduces computational and communication overhead while improving privacy, security, and global model accuracy. Its permissioned proof-of-authority ledger finalizes over 1000 blocks with sub-second latency (0.16,s, 0.26,s, 0.35,s for 1-of-5, 3-of-5, and 5-of-5 quorums). Moreover, OrbitChain reduces convergence time by up to 30 hours on real satellite datasets compared to single-vendor, demonstrating its effectiveness for real-time, multi-vendor learning. Our code is available at https://github.com/wsu-cyber-security-lab-ai/OrbitChain.git",
+      "pdf_url": "https://arxiv.org/pdf/2512.08882v1",
+      "arxiv_id": "2512.08882v1",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "Floquet Topological Frequency-Converting Amplifier",
+      "authors": [
+        "Adrian Parra-Rodriguez",
+        "Miguel Clavero-Rubio",
+        "Philippe Gigon",
+        "Tom\u00e1s Ramos",
+        "\u00c1lvaro G\u00f3mez-Le\u00f3n",
+        "Diego Porras"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "We introduce a driven-dissipative Floquet model in which a single harmonic oscillator with modulated frequency and decay realizes a non-Hermitian synthetic lattice with an effective electric field gradient in frequency space. Using the Floquet-Green's function and its doubled-space representation, we identify a topological regime that supports directional amplification and frequency conversion, accurately captured by a local winding number. The underlying mode structure is well described by a Jackiw-Rebbi-like continuum theory with Dirac cones and solitonic zero modes in synthetic frequency. Our results establish a simple and experimentally feasible route to non-Hermitian topological amplification, naturally implementable in current quantum technologies such as superconducting circuits.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08880v1",
+      "arxiv_id": "2512.08880v1",
+      "categories": [
+        "quant-ph",
+        "cond-mat.mes-hall"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "Spreading processes on heterogeneous active systems: spreading threshold, immunization strategies, and vaccination noise",
+      "authors": [
+        "Benjam\u00edn Marcolongo",
+        "Gustavo J. Sibona",
+        "Fernando Peruani"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "We study spreading processes in two-dimensional systems of heterogeneous active agents that exhibit different individual active speeds. We obtain, combining kinetic and complex network theory, an analytical expression for the spreading threshold that depends not only on the first but also second moment of the speed distribution. Moreover, we prove that spreading can even occur for vanishing average active speed. Furthermore, we find that random vaccination strategies are ineffective in heterogeneous active systems, whereas targeted ones are effective. We also show that vaccination acts as (quenched) noise: it can decrease or increase the outbreak size. Our results offer insights into how information propagates in heterogeneous populations of active agents.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08878v1",
+      "arxiv_id": "2512.08878v1",
+      "categories": [
+        "physics.bio-ph"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "Platform Competition with User-Generated Content",
+      "authors": [
+        "Bohan Zhang"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "This paper develops a theoretical model of platform competition where user-generated content (UGC) quality arises endogenously from the composition of the user base. Users differ in their relative preferences for content quality and network size, and platforms compete by choosing advertising intensity, which affects user utility through perceived quality. We characterize equilibrium platform choice, identifying conditions under which equilibria are stable. The model captures how platforms' strategic decisions shape user allocation and market outcomes, including coexistence and dominance scenarios. We consider two types of equilibria in advertising levels: Nash equilibria and Stackelberg equilibria, and discuss the industry and policy implications of our results.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08876v1",
+      "arxiv_id": "2512.08876v1",
+      "categories": [
+        "econ.TH"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "When Tables Leak: Attacking String Memorization in LLM-Based Tabular Data Generation",
+      "authors": [
+        "Joshua Ward",
+        "Bochao Gu",
+        "Chi-Hua Wang",
+        "Guang Cheng"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Large Language Models (LLMs) have recently demonstrated remarkable performance in generating high-quality tabular synthetic data. In practice, two primary approaches have emerged for adapting LLMs to tabular data generation: (i) fine-tuning smaller models directly on tabular datasets, and (ii) prompting larger models with examples provided in context. In this work, we show that popular implementations from both regimes exhibit a tendency to compromise privacy by reproducing memorized patterns of numeric digits from their training data. To systematically analyze this risk, we introduce a simple No-box Membership Inference Attack (MIA) called LevAtt that assumes adversarial access to only the generated synthetic data and targets the string sequences of numeric digits in synthetic observations. Using this approach, our attack exposes substantial privacy leakage across a wide range of models and datasets, and in some cases, is even a perfect membership classifier on state-of-the-art models. Our findings highlight a unique privacy vulnerability of LLM-based synthetic data generation and the need for effective defenses. To this end, we propose two methods, including a novel sampling strategy that strategically perturbs digits during generation. Our evaluation demonstrates that this approach can defeat these attacks with minimal loss of fidelity and utility of the synthetic data.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08875v1",
+      "arxiv_id": "2512.08875v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "Siamese-Driven Optimization for Low-Resolution Image Latent Embedding in Image Captioning",
+      "authors": [
+        "Jing Jie Tan",
+        "Anissa Mokraoui",
+        "Ban-Hoe Kwan",
+        "Danny Wee-Kiat Ng",
+        "Yan-Chai Hum"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Image captioning is essential in many fields including assisting visually impaired individuals, improving content management systems, and enhancing human-computer interaction. However, a recent challenge in this domain is dealing with low-resolution image (LRI). While performance can be improved by using larger models like transformers for encoding, these models are typically heavyweight, demanding significant computational resources and memory, leading to challenges in retraining. To address this, the proposed SOLI (Siamese-Driven Optimization for Low-Resolution Image Latent Embedding in Image Captioning) approach presents a solution specifically designed for lightweight, low-resolution images captioning. It employs a Siamese network architecture to optimize latent embeddings, enhancing the efficiency and accuracy of the image-to-text translation process. By focusing on a dual-pathway neural network structure, SOLI minimizes computational overhead without sacrificing performance, making it an ideal choice for training on resource-constrained scenarios.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08873v1",
+      "arxiv_id": "2512.08873v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "query": "zero trust network access ZTNA"
+    },
+    {
+      "title": "Hot Jupiters are Inflated Primarily by Shallow Heating",
+      "authors": [
+        "Stephen P. Schmidt",
+        "Daniel P. Thorngren",
+        "Kevin C. Schlaufman"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "The unexpectedly large radii of transiting hot Jupiters have led to many proposals for the physical mechanisms responsible for heating their interiors. While it has been shown that hot Jupiters reinflate as their host stars brighten due to heating deep in planetary interiors, young hot Jupiters also exhibit signs of delayed cooling possibly related to heating closer to their surfaces. To investigate this tension, we enhance our previously published hot Jupiter thermal evolution model by adding a parameter that allows for both deep heating and delayed cooling. We fit our thermal evolution models to a homogeneous, physically self-consistent catalog of accurate and precise hot Jupiter system properties in a hierarchical Bayesian framework. We find that hot Jupiters' interior cooling rates are reduced on average by 95\\%--98\\% compared to simpler anomalous heating models. The most plausible explanation for this inference is substantial shallow heating just below their radiative--convective boundaries that enables reinflation with much less deep heating. Shallow heating by Ohmic dissipation and/or temperature advection are therefore important components of accurate models of hot Jupiter atmospheres, especially in circulation models. If hot Jupiters are inflated primarily by shallow heating as we propose, then we predict that their observed phase curve offsets should increase with temperature in the range $T_{\\text{eq}}~\\lesssim1500~\\text{K}$, peak in the range $1500~\\text{K}~\\lesssim~T_{\\text{eq}}~\\lesssim~1800~\\text{K}$, and decrease in the range $T_{\\text{eq}}~\\gtrsim~1800~\\text{K}$.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08932v1",
+      "arxiv_id": "2512.08932v1",
+      "categories": [
+        "astro-ph.EP"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Selfi: Self Improving Reconstruction Engine via 3D Geometric Feature Alignment",
+      "authors": [
+        "Youming Deng",
+        "Songyou Peng",
+        "Junyi Zhang",
+        "Kathryn Heal",
+        "Tiancheng Sun",
+        "John Flynn",
+        "Steve Marschner",
+        "Lucy Chai"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Novel View Synthesis (NVS) has traditionally relied on models with explicit 3D inductive biases combined with known camera parameters from Structure-from-Motion (SfM) beforehand. Recent vision foundation models like VGGT take an orthogonal approach -- 3D knowledge is gained implicitly through training data and loss objectives, enabling feed-forward prediction of both camera parameters and 3D representations directly from a set of uncalibrated images. While flexible, VGGT features lack explicit multi-view geometric consistency, and we find that improving such 3D feature consistency benefits both NVS and pose estimation tasks. We introduce Selfi, a self-improving 3D reconstruction pipeline via feature alignment, transforming a VGGT backbone into a high-fidelity 3D reconstruction engine by leveraging its own outputs as pseudo-ground-truth. Specifically, we train a lightweight feature adapter using a reprojection-based consistency loss, which distills VGGT outputs into a new geometrically-aligned feature space that captures spatial proximity in 3D. This enables state-of-the-art performance in both NVS and camera pose estimation, demonstrating that feature alignment is a highly beneficial step for downstream 3D reasoning.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08930v1",
+      "arxiv_id": "2512.08930v1",
+      "categories": [
+        "cs.CV",
+        "cs.GR"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "On a cross-diffusion hybrid model: Cancer Invasion Tissue with Normal Cell Involved",
+      "authors": [
+        "Guanjun Pan",
+        "Hong-Ming Yin"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "In this paper, we study a well-posedness problem on a new mathematical model for cancer invasion within the plasminogen activation system, which explicitly incorporates cooperation with host normal cells. Key biological mechanisms--including chemotaxis, haptotaxis, recruitment, logistic growth, and natural degradation of normal cells--along with other primary components (cancer cells, vitronectin, uPA, uPAI-1 and plasmin) are modeled via a continuum framework of cancer cell invasion of the extracellular matrix. The resulting model constitutes a strongly coupled, cross-diffusion hybrid system of differential equations. The primary mathematical challenges arise from the strongly coupled cross-diffusion terms, the parabolic operators of divergence form, and the interaction between the cross-diffusion fluxes and the ODE components. We address these by deriving several a priori estimates for dimensions d less or equal to 3. Subsequently, we employ a decoupling strategy to split the system into proper sub-problems, establishing the existence (and uniqueness) for each subsystem. Finally, we demonstrate the global existence and uniqueness of the solution for dimensions d less or equal to 2 and the global existence of a solution for dimension d = 3.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08929v1",
+      "arxiv_id": "2512.08929v1",
+      "categories": [
+        "math.AP"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Resolving the (Debate About) Nozzle Shocks in Tidal Disruption Events",
+      "authors": [
+        "Zachary L. Andalman",
+        "Eliot Quataert",
+        "Eric R. Coughlin",
+        "C. J. Nixon"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "When a star passes within the Roche limit of a supermassive black hole (SMBH), it is pulled apart by the BH's tidal field in a tidal disruption event (TDE). The resulting flare is powered by the circularization and accretion of bound stellar debris, which initially returns to the BH on eccentric orbits in a thin debris stream. The returning fluid elements follow inclined orbits that converge near pericenter, resulting in extreme vertical compression to scales $10^{-4}~R_\\odot$ and the formation of a nozzle shock. Dissipation at the nozzle shock may affect circularization by altering the properties of the debris stream, but its role is the subject of ongoing debate. We develop an idealized model for the debris stream evolution combining 3D smoothed-particle hydrodynamics simulations, the semi-analytic affine model, and 1D finite-volume hydrodynamic simulations. Because our model is computationally cheap, we can unambiguously resolve the nozzle shock, use a realistic equation of state, and follow the debris stream evolution at many different times. Near peak fallback, Hydrogen recombination and molecular Hydrogen formation broaden the stream by a factor $\\sim 5$, enhancing dissipation at the nozzle. However, the dissipation is still insufficient to directly circularize the debris by in-plane pressure gradients. Instead, the thicker stream substantially increases the likelihood that the stream self-intersects on the second orbit, despite relativistic nodal precession. The stream properties at self-intersection are sensitive to dissipation at the nozzle and the timing of focal points where the ballistic trajectories of the debris converge. Our results clarify the nozzle shock's role in circularization in TDEs, providing a foundation for more realistic circularization and emission models.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08928v1",
+      "arxiv_id": "2512.08928v1",
+      "categories": [
+        "astro-ph.HE"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Strong Mode Coupling via Quasi-Bound States in the Continuum in Bianisotropic Metasurfaces",
+      "authors": [
+        "Luis Manuel M\u00e1\u00f1ez-Espina",
+        "Bahman Amrahi",
+        "Viktar Asadchy",
+        "Ana D\u00edaz-Rubio"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Electromagnetic mode coupling plays a key role in many resonant effects in nanophotonics. This coupling is also responsible for the appearance of bianisotropy, where electric and magnetic responses become interconnected through the interaction of their respective modes. In this work, we develop a simple and general temporal coupled-mode theory model to describe off-diagonal chiral bianisotropy. Using quasi-bound states in the continuum (q-BICs), we demonstrate how to control the hybridization of modes with opposite symmetries, resulting in Rabi-like splitting between the hybrid states in the regime of strong electromagnetic mode coupling. Beyond revealing the physical origin of the hybrid modes, our model predicts and explains the emergence of dual-band asymmetric reflection and absorption, and how to achieve maximum directional absorption difference. The theoretical predictions are verified by full-wave simulations, showing very good agreement with theory. Furthermore, very strong reciprocal bianisotropy is demonstrated with the use of q-BICs in a deeply subwavelength metasurface in the optical frequency range. Our results provide a clear physical picture of the interaction process between modes, offering a compact theoretical framework for understanding and designing bianisotropic dielectric metasurfaces not only in the traditional regime but also in the strong coupling regime.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08927v1",
+      "arxiv_id": "2512.08927v1",
+      "categories": [
+        "physics.optics"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Failure of the Markov property for stochastic Volterra equations",
+      "authors": [
+        "Martin Friesen",
+        "Stefan Gerhold",
+        "Kristof Wiedermann"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Memory-driven stochastic dynamics arise naturally in many applications, and stochastic Volterra equations (SVEs) offer a flexible framework for modeling such systems. Their convolution structure with Volterra kernels endows the dynamics with a formal path-dependency, which suggests the failure of the Markov property. While this has previously been rigorously established only for Gaussian Volterra processes, by constructing nondegenerate admissible perturbations through Markovian lifts, we prove that also general SVEs with H\u00f6lder-continuous coefficients do not possess the Markov property for a broad class of Volterra kernels. Moreover, we show that the associated Markovian lift is, in general, necessarily infinite-dimensional. These observations reflect the intrinsic infinite-dimensionality of memory effects in SVEs and underscore the need for analytical and probabilistic tools beyond the classical Markovian framework.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08926v1",
+      "arxiv_id": "2512.08926v1",
+      "categories": [
+        "math.PR"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Toward Practical Forecasts of Public Sentiments via Convexification for Mean Field Games: Evidence from Real World COVID-19 Discussion Data",
+      "authors": [
+        "Shi Chen",
+        "Michael V. Klibanov",
+        "Kevin McGoff",
+        "Trung Truong",
+        "Wangjiaxuan Xin",
+        "Shuhua Yin"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "We apply a convexification-based numerical method to forecast public sentiment dynamics using Mean Field Games (MFGs). The theoretical foundation for the convexification approach, established in our prior work, guarantees global convergence to the unique solution to the MFG system. The present work demonstrates the practical potential of this framework using real-world sentiment data extracted from social media public discussion during the COVID-19 pandemic. The results show that the MFG model with appropriate parameters and convexification yields sentiment density predictions that align closely with observed data and satisfy the governing equations. While current parameter selection relies on manual calibration, our findings establish the first proof-of-concept evidence that MFG models can capture complex temporal patterns in public sentiment, laying the groundwork for future work on systematic parameter identification methods, i.e. solutions of coefficient inverse problems for the MFG system.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08925v1",
+      "arxiv_id": "2512.08925v1",
+      "categories": [
+        "math.NA"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Same Content, Different Answers: Cross-Modal Inconsistency in MLLMs",
+      "authors": [
+        "Angela van Sprang",
+        "Laurens Samson",
+        "Ana Lucic",
+        "Erman Acar",
+        "Sennay Ghebreab",
+        "Yuki M. Asano"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "We introduce two new benchmarks REST and REST+(Render-Equivalence Stress Tests) to enable systematic evaluation of cross-modal inconsistency in multimodal large language models (MLLMs). MLLMs are trained to represent vision and language in the same embedding space, yet they cannot perform the same tasks in both modalities. Our benchmarks contain samples with the same semantic information in three modalities (image, text, mixed) and we show that state-of-the-art MLLMs cannot consistently reason over these different modalities. We evaluate 15 MLLMs and find that the degree of modality inconsistency varies substantially, even when accounting for problems with text recognition (OCR). Neither rendering text as image nor rendering an image as text solves the inconsistency. Even if OCR is correct, we find that visual characteristics (text colour and resolution, but not font) and the number of vision tokens have an impact on model performance. Finally, we find that our consistency score correlates with the modality gap between text and images, highlighting a mechanistic interpretation of cross-modal inconsistent MLLMs.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08923v1",
+      "arxiv_id": "2512.08923v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "query": "zero trust model implementation"
+    },
+    {
+      "title": "Differentially Private Synthetic Data Generation Using Context-Aware GANs",
+      "authors": [
+        "Anantaa Kotal",
+        "Anupam Joshi"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "The widespread use of big data across sectors has raised major privacy concerns, especially when sensitive information is shared or analyzed. Regulations such as GDPR and HIPAA impose strict controls on data handling, making it difficult to balance the need for insights with privacy requirements. Synthetic data offers a promising solution by creating artificial datasets that reflect real patterns without exposing sensitive information. However, traditional synthetic data methods often fail to capture complex, implicit rules that link different elements of the data and are essential in domains like healthcare. They may reproduce explicit patterns but overlook domain-specific constraints that are not directly stated yet crucial for realism and utility. For example, prescription guidelines that restrict certain medications for specific conditions or prevent harmful drug interactions may not appear explicitly in the original data. Synthetic data generated without these implicit rules can lead to medically inappropriate or unrealistic profiles. To address this gap, we propose ContextGAN, a Context-Aware Differentially Private Generative Adversarial Network that integrates domain-specific rules through a constraint matrix encoding both explicit and implicit knowledge. The constraint-aware discriminator evaluates synthetic data against these rules to ensure adherence to domain constraints, while differential privacy protects sensitive details from the original data. We validate ContextGAN across healthcare, security, and finance, showing that it produces high-quality synthetic data that respects domain rules and preserves privacy. Our results demonstrate that ContextGAN improves realism and utility by enforcing domain constraints, making it suitable for applications that require compliance with both explicit patterns and implicit rules under strict privacy guarantees.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08869v1",
+      "arxiv_id": "2512.08869v1",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "query": "microsegmentation network security"
+    },
+    {
+      "title": "Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety",
+      "authors": [
+        "Mohamed Elmahallawy",
+        "Sanjay Madria",
+        "Samuel Frimpong"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Underground mining operations depend on sensor networks to monitor critical parameters such as temperature, gas concentration, and miner movement, enabling timely hazard detection and safety decisions. However, transmitting raw sensor data to a centralized server for machine learning (ML) model training raises serious privacy and security concerns. Federated Learning (FL) offers a promising alternative by enabling decentralized model training without exposing sensitive local data. Yet, applying FL in underground mining presents unique challenges: (i) Adversaries may eavesdrop on shared model updates to launch model inversion or membership inference attacks, compromising data privacy and operational safety; (ii) Non-IID data distributions across mines and sensor noise can hinder model convergence. To address these issues, we propose FedMining--a privacy-preserving FL framework tailored for underground mining. FedMining introduces two core innovations: (1) a Decentralized Functional Encryption (DFE) scheme that keeps local models encrypted, thwarting unauthorized access and inference attacks; and (2) a balancing aggregation mechanism to mitigate data heterogeneity and enhance convergence. Evaluations on real-world mining datasets demonstrate FedMining's ability to safeguard privacy while maintaining high model accuracy and achieving rapid convergence with reduced communication and computation overhead. These advantages make FedMining both secure and practical for real-time underground safety monitoring.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08862v1",
+      "arxiv_id": "2512.08862v1",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "query": "microsegmentation network security"
+    },
+    {
+      "title": "NecoFuzz: Effective Fuzzing of Nested Virtualization via Fuzz-Harness Virtual Machines",
+      "authors": [
+        "Reima Ishii",
+        "Takaaki Fukai",
+        "Takahiro Shinagawa"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Nested virtualization is now widely supported by major cloud vendors, allowing users to leverage virtualization-based technologies in the cloud. However, supporting nested virtualization significantly increases host hypervisor complexity and introduces a new attack surface in cloud platforms. While many prior studies have explored hypervisor fuzzing, none has explicitly addressed nested virtualization due to the challenge of generating effective virtual machine (VM) instances with a vast state space as fuzzing inputs.\n  We present NecoFuzz, the first fuzzing framework that systematically targets nested virtualization-specific logic in hypervisors. NecoFuzz synthesizes executable fuzz-harness VMs with internal states near the boundary between valid and invalid, guided by an approximate model of hardware-assisted virtualization specifications. Since vulnerabilities in nested virtualization often stem from incorrect handling of unexpected VM states, this specification-guided, boundary-oriented generation significantly improves coverage of security-critical code across different hypervisors.\n  We implemented NecoFuzz on Intel VT-x and AMD-V by extending AFL++ to support fuzz-harness VMs. NecoFuzz achieved 84.7% and 74.2% code coverage for nested virtualization-specific code on Intel VT-x and AMD-V, respectively, and uncovered six previously unknown vulnerabilities across three hypervisors, including two assigned CVEs.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08858v1",
+      "arxiv_id": "2512.08858v1",
+      "categories": [
+        "cs.OS",
+        "cs.CR"
+      ],
+      "query": "microsegmentation network security"
+    },
+    {
+      "title": "Axial Symmetric Navier Stokes Equations and the Beltrami /anti Beltrami spectrum in view of Physics Informed Neural Networks",
+      "authors": [
+        "Pietro Fr\u00e9"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "In this paper, I further continue an investigation on Beltrami Flows began in 2015 with A. Sorin and amply reprised and developed in 2022 with M. Trigiante. Instead of a compact $3$-torus $T^3=\\mathbb{R}^3/\u039b$ where $\u039b$ is a crystallographic lattice, as done in previous work, here I considered flows confined in a cylinder with identified opposite bases. In this topology I considered axial symmetric flows and found a complete basis of axial symmetric harmonic $1$-forms that, for each energy level, decomposes into six components: two Beltrami, two anti-Beltrami and two closed forms. These objects, that are written in terms of trigonometric and Bessel functions, constitute a function basis for an $L^2$ space of axial symmetric flows. I have presented a general scheme for the search of axial symmetric solutions of Navier Stokes equation by reducing the latter to an hierachy of quadratic relations on the development coefficients of the flow in the above described functional basis. It is proposed that the coefficients can be determined by means of a Physics Informed like Neural Network optimization recursive algorithm. Indeed the present paper provides the theoretical foundations for such a algorithmic construction that is planned for a future publication.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08846v1",
+      "arxiv_id": "2512.08846v1",
+      "categories": [
+        "physics.flu-dyn",
+        "cs.IT",
+        "math-ph",
+        "math.OC"
+      ],
+      "query": "network microsegmentation cloud"
+    },
+    {
+      "title": "Multi state neurons",
+      "authors": [
+        "Robert Worden"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Neurons, as eukaryotic cells, have powerful internal computation capabilities. One neuron can have many distinct states, and brains can use this capability. Processes of neuron growth and maintenance use chemical signalling between cell bodies and synapses, ferrying chemical messengers over microtubules and actin fibres within cells. These processes are computations which, while slower than neural electrical signalling, could allow any neuron to change its state over intervals of seconds or minutes. Based on its state, a single neuron can selectively de-activate some of its synapses, sculpting a dynamic neural net from the static neural connections of the brain. Without this dynamic selection, the static neural networks in brains are too amorphous and dilute to do the computations of neural cognitive models. The use of multi-state neurons in animal brains is illustrated in hierarchical Bayesian object recognition. Multi-state neurons may support a design which is more efficient than two-state neurons, and scales better as object complexity increases. Brains could have evolved to use multi-state neurons. Multi-state neurons could be used in artificial neural networks, to use a kind of non-Hebbian learning which is faster and more focused and controllable than traditional neural net learning. This possibility has not yet been explored in computational models.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08815v1",
+      "arxiv_id": "2512.08815v1",
+      "categories": [
+        "q-bio.NC"
+      ],
+      "query": "network microsegmentation cloud"
+    },
+    {
+      "title": "Self-Evolving 3D Scene Generation from a Single Image",
+      "authors": [
+        "Kaizhi Zheng",
+        "Yue Fan",
+        "Jing Gu",
+        "Zishuo Xu",
+        "Xuehai He",
+        "Xin Eric Wang"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Generating high-quality, textured 3D scenes from a single image remains a fundamental challenge in vision and graphics. Recent image-to-3D generators recover reasonable geometry from single views, but their object-centric training limits generalization to complex, large-scale scenes with faithful structure and texture. We present EvoScene, a self-evolving, training-free framework that progressively reconstructs complete 3D scenes from single images. The key idea is combining the complementary strengths of existing models: geometric reasoning from 3D generation models and visual knowledge from video generation models. Through three iterative stages--Spatial Prior Initialization, Visual-guided 3D Scene Mesh Generation, and Spatial-guided Novel View Generation--EvoScene alternates between 2D and 3D domains, gradually improving both structure and appearance. Experiments on diverse scenes demonstrate that EvoScene achieves superior geometric stability, view-consistent textures, and unseen-region completion compared to strong baselines, producing ready-to-use 3D meshes for practical applications.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08905v1",
+      "arxiv_id": "2512.08905v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "query": "service mesh security microsegmentation"
+    },
+    {
+      "title": "Can the GPC standard eliminate consent banners in the EU?",
+      "authors": [
+        "Sebastian Zimmeck",
+        "Harshvardhan J. Pandit",
+        "Frederik Zuiderveen Borgesius",
+        "Cristiana Teixeira Santos",
+        "Konrad Kollnig",
+        "Robin Berjon"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "In the EU, the General Data Protection Regulation and the ePrivacy Directive mandate informed consent for behavioural advertising and use of tracking technologies. However, the ubiquity of consent banners and popups has led to widespread consent fatigue and questions regarding the effectiveness of these mechanisms in protecting users' data. In contrast, users in California and other US jurisdictions can utilize Global Privacy Control (GPC), a browser-based privacy signal that automatically broadcasts a legally binding opt-out request to websites. In this paper we explore whether, and to what extent, GPC can be adapted to the EU legal framework to mitigate consent fatigue and improve privacy protections for EU residents.\n  We analyse GPC as a technical specification standardized at the World Wide Web Consortium and examine its standing under current EU data protection law. Generally, GPC can be mapped to the various legal bases for processing under the GDPR. However, our evaluation also identifies friction between the GPC specification and EU data protection law as it stands. These discrepancies are resolvable and present an opportunity for EU legislators and regulators to interpret GPC in alignment with EU data protection requirements, particularly, considering the European Commission's recent Digital Omnibus proposal. We conclude that while GPC is not a silver bullet, its adoption -- supported by clear authoritative guidance and specification updates -- can offer a pragmatic path toward more automated and effective data protection in the EU.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08856v1",
+      "arxiv_id": "2512.08856v1",
+      "categories": [
+        "cs.CY",
+        "cs.CR"
+      ],
+      "query": "service mesh security microsegmentation"
+    },
+    {
+      "title": "Space-time discretization for barotropic flow stemming from a multisymplectic variational formulation",
+      "authors": [
+        "Mukthesh Mahadev",
+        "Marc Gerritsma"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "This study proposes and analyses a novel higher-order, structure preserving discretization method for inviscid barotropic flows from a Lagrangian perspective. The method is built on a multisymplectic variational principle discretized over a full space-time domain. Flow variables are encoded on a staggered space-time mesh, leveraging the principles of mimetic spectral element discretization. Unlike standard Lagrangian methods, which are prone to mesh distortion, this framework computes fluid deformations in a fixed reference configuration and systematically maps them to the physical domain via the Piola-Kirchhoff stress. Further, the structure preserving design ensures that the discrete analogues of the fundamental conservation laws for mass, momentum, and energy are satisfied up to machine precision. The formulation also inherently handles low-Mach number flows without specialized preconditioning. Numerical experiments on expansion and compression flows confirm the accuracy, stability, and exact conservation properties of the discretization.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08841v1",
+      "arxiv_id": "2512.08841v1",
+      "categories": [
+        "math.NA",
+        "physics.flu-dyn"
+      ],
+      "query": "service mesh security microsegmentation"
+    },
+    {
+      "title": "PrivTune: Efficient and Privacy-Preserving Fine-Tuning of Large Language Models via Device-Cloud Collaboration",
+      "authors": [
+        "Yi Liu",
+        "Weixiang Han",
+        "Chengjun Cai",
+        "Xingliang Yuan",
+        "Cong Wang"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "With the rise of large language models, service providers offer language models as a service, enabling users to fine-tune customized models via uploaded private datasets. However, this raises concerns about sensitive data leakage. Prior methods, relying on differential privacy within device-cloud collaboration frameworks, struggle to balance privacy and utility, exposing users to inference attacks or degrading fine-tuning performance. To address this, we propose PrivTune, an efficient and privacy-preserving fine-tuning framework via Split Learning (SL). The key idea of PrivTune is to inject crafted noise into token representations from the SL bottom model, making each token resemble the $n$-hop indirect neighbors. PrivTune formulates this as an optimization problem to compute the optimal noise vector, aligning with defense-utility goals. On this basis, it then adjusts the parameters (i.e., mean) of the $d_\u03c7$-Privacy noise distribution to align with the optimization direction and scales the noise according to token importance to minimize distortion. Experiments on five datasets (covering both classification and generation tasks) against three embedding inversion and three attribute inference attacks show that, using RoBERTa on the Stanford Sentiment Treebank dataset, PrivTune reduces the attack success rate to 10% with only a 3.33% drop in utility performance, outperforming state-of-the-art baselines.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08809v1",
+      "arxiv_id": "2512.08809v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "query": "service mesh security microsegmentation"
+    },
+    {
+      "title": "OSMO: Open-Source Tactile Glove for Human-to-Robot Skill Transfer",
+      "authors": [
+        "Jessica Yin",
+        "Haozhi Qi",
+        "Youngsun Wi",
+        "Sayantan Kundu",
+        "Mike Lambeta",
+        "William Yang",
+        "Changhao Wang",
+        "Tingfan Wu",
+        "Jitendra Malik",
+        "Tess Hellebrekers"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Human video demonstrations provide abundant training data for learning robot policies, but video alone cannot capture the rich contact signals critical for mastering manipulation. We introduce OSMO, an open-source wearable tactile glove designed for human-to-robot skill transfer. The glove features 12 three-axis tactile sensors across the fingertips and palm and is designed to be compatible with state-of-the-art hand-tracking methods for in-the-wild data collection. We demonstrate that a robot policy trained exclusively on human demonstrations collected with OSMO, without any real robot data, is capable of executing a challenging contact-rich manipulation task. By equipping both the human and the robot with the same glove, OSMO minimizes the visual and tactile embodiment gap, enabling the transfer of continuous shear and normal force feedback while avoiding the need for image inpainting or other vision-based force inference. On a real-world wiping task requiring sustained contact pressure, our tactile-aware policy achieves a 72% success rate, outperforming vision-only baselines by eliminating contact-related failure modes. We release complete hardware designs, firmware, and assembly instructions to support community adoption.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08920v1",
+      "arxiv_id": "2512.08920v1",
+      "categories": [
+        "cs.RO",
+        "cs.LG"
+      ],
+      "query": "kubernetes network policy enforcement"
+    },
+    {
+      "title": "AI Didn't Start the Fire: Examining the Stack Exchange Moderator and Contributor Strike",
+      "authors": [
+        "Yiwei Wu",
+        "Leah Ajmani",
+        "Nathan TeBlunthuis",
+        "Hanlin Li"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Online communities and their host platforms are mutually dependent yet conflict-prone. When platform policies clash with community values, communities have resisted through strikes, blackouts, and even migration to other platforms. Through such collective actions, communities have sometimes won concessions but these have frequently proved temporary. Prior research has investigated strike events and migration chains, but the processes by which community-platform conflict unfolds remain obscure. How do community-platform relationships deteriorate? How do communities organize collective action? How do participants proceed in the aftermath? We investigate a conflict between the Stack Exchange platform and community that occurred in 2023 around an emergency arising from the release of large language models (LLMs). Based on a qualitative thematic analysis of 2,070 messages on Meta Stack Exchange and 14 interviews with community members, we surface how the 2023 conflict was preceded by a long-term deterioration in the community-platform relationship driven in particular by the platform's disregard for the community's highly-valued participatory role in governance. Moreover, the platform's policy response to LLMs aggravated the community's sense of crisis triggering the strike mobilization. We analyze how the mobilization was coordinated through a tiered leadership and communication structure, as well as how community members pivoted in the aftermath. Building on recent theoretical scholarship in social computing, we use Hirshman's exit, voice and loyalty framework to theorize the challenges of community-platform relations evinced in our data. Finally, we recommend ways that platforms and communities can institute participatory governance to be durable and effective.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08884v1",
+      "arxiv_id": "2512.08884v1",
+      "categories": [
+        "cs.CY"
+      ],
+      "query": "kubernetes network policy enforcement"
+    },
+    {
+      "title": "IPPO Learns the Game, Not the Team: A Study on Generalization in Heterogeneous Agent Teams",
+      "authors": [
+        "Ryan LeRoy",
+        "Jack Kolb"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Multi-Agent Reinforcement Learning (MARL) is commonly deployed in settings where agents are trained via self-play with homogeneous teammates, often using parameter sharing and a single policy architecture. This opens the question: to what extent do self-play PPO agents learn general coordination strategies grounded in the underlying game, compared to overfitting to their training partners' behaviors? This paper investigates the question using the Heterogeneous Multi-Agent Challenge (HeMAC) environment, which features distinct Observer and Drone agents with complementary capabilities. We introduce Rotating Policy Training (RPT), an approach that rotates heterogeneous teammate policies of different learning algorithms during training, to expose the agent to a broader range of partner strategies. When playing alongside a withheld teammate policy (DDQN), we find that RPT achieves similar performance to a standard self-play baseline, IPPO, where all agents were trained sharing a single PPO policy. This result indicates that in this heterogeneous multi-agent setting, the IPPO baseline generalizes to novel teammate algorithms despite not experiencing teammate diversity during training. This shows that a simple IPPO baseline may possess the level of generalization to novel teammates that a diverse training regimen was designed to achieve.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08877v1",
+      "arxiv_id": "2512.08877v1",
+      "categories": [
+        "cs.RO"
+      ],
+      "query": "kubernetes network policy enforcement"
+    },
+    {
+      "title": "UniLayDiff: A Unified Diffusion Transformer for Content-Aware Layout Generation",
+      "authors": [
+        "Zeyang Liu",
+        "Le Wang",
+        "Sanping Zhou",
+        "Yuxuan Wu",
+        "Xiaolong Sun",
+        "Gang Hua",
+        "Haoxiang Li"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Content-aware layout generation is a critical task in graphic design automation, focused on creating visually appealing arrangements of elements that seamlessly blend with a given background image. The variety of real-world applications makes it highly challenging to develop a single model capable of unifying the diverse range of input-constrained generation sub-tasks, such as those conditioned by element types, sizes, or their relationships. Current methods either address only a subset of these tasks or necessitate separate model parameters for different conditions, failing to offer a truly unified solution. In this paper, we propose UniLayDiff: a Unified Diffusion Transformer, that for the first time, addresses various content-aware layout generation tasks with a single, end-to-end trainable model. Specifically, we treat layout constraints as a distinct modality and employ Multi-Modal Diffusion Transformer framework to capture the complex interplay between the background image, layout elements, and diverse constraints. Moreover, we integrate relation constraints through fine-tuning the model with LoRA after pretraining the model on other tasks. Such a schema not only achieves unified conditional generation but also enhances overall layout quality. Extensive experiments demonstrate that UniLayDiff achieves state-of-the-art performance across from unconditional to various conditional generation tasks and, to the best of our knowledge, is the first model to unify the full range of content-aware layout generation tasks.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08897v1",
+      "arxiv_id": "2512.08897v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "query": "network policy automation security"
+    },
+    {
+      "title": "Unsupervised Learning of Density Estimates with Topological Optimization",
+      "authors": [
+        "Suina Tanweer",
+        "Firas A. Khasawneh"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Kernel density estimation is a key component of a wide variety of algorithms in machine learning, Bayesian inference, stochastic dynamics and signal processing. However, the unsupervised density estimation technique requires tuning a crucial hyperparameter: the kernel bandwidth. The choice of bandwidth is critical as it controls the bias-variance trade-off by over- or under-smoothing the topological features. Topological data analysis provides methods to mathematically quantify topological characteristics, such as connected components, loops, voids et cetera, even in high dimensions where visualization of density estimates is impossible. In this paper, we propose an unsupervised learning approach using a topology-based loss function for the automated and unsupervised selection of the optimal bandwidth and benchmark it against classical techniques -- demonstrating its potential across different dimensions.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08895v1",
+      "arxiv_id": "2512.08895v1",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "query": "network policy automation security"
+    },
+    {
+      "title": "No Labels, No Problem: Training Visual Reasoners with Multimodal Verifiers",
+      "authors": [
+        "Damiano Marsili",
+        "Georgia Gkioxari"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "summary": "Visual reasoning is challenging, requiring both precise object grounding and understanding complex spatial relationships. Existing methods fall into two camps: language-only chain-of-thought approaches, which demand large-scale (image, query, answer) supervision, and program-synthesis approaches which use pre-trained models and avoid training, but suffer from flawed logic and erroneous grounding. We propose an annotation-free training framework that improves both reasoning and grounding. Our framework uses AI-powered verifiers: an LLM verifier refines LLM reasoning via reinforcement learning, while a VLM verifier strengthens visual grounding through automated hard-negative mining, eliminating the need for ground truth labels. This design combines the strengths of modern AI systems: advanced language-only reasoning models for decomposing spatial queries into simpler subtasks, and strong vision specialist models improved via performant VLM critics. We evaluate our approach across diverse spatial reasoning tasks, and show that our method improves visual reasoning and surpasses open-source and proprietary models, while with our improved visual grounding model we further outperform recent text-only visual reasoning methods. Project webpage: https://glab-caltech.github.io/valor/",
+      "pdf_url": "https://arxiv.org/pdf/2512.08889v1",
+      "arxiv_id": "2512.08889v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "query": "network policy automation security"
+    }
+  ],
+  "downloaded_ids": [
+    "2512.08877v1",
+    "2512.08924v1",
+    "2512.08809v1",
+    "2512.08905v1",
+    "2512.08923v1",
+    "2512.08931v1",
+    "2512.08925v1",
+    "2512.08858v1",
+    "2512.08896v1",
+    "2512.08884v1",
+    "2512.08856v1",
+    "2512.08841v1",
+    "2512.08869v1",
+    "2512.08889v1",
+    "2512.08876v1",
+    "2512.08926v1",
+    "2512.08897v1",
+    "2512.08927v1",
+    "2512.08895v1",
+    "2512.08890v1",
+    "2512.08929v1",
+    "2512.08914v1",
+    "2512.08882v1",
+    "2512.08918v1",
+    "2512.08920v1",
+    "2512.08878v1",
+    "2512.08875v1",
+    "2512.08912v1",
+    "2512.08862v1",
+    "2512.08932v1",
+    "2512.08901v1",
+    "2512.08846v1",
+    "2512.08815v1",
+    "2512.08880v1",
+    "2512.08909v1",
+    "2512.08873v1",
+    "2512.08921v1",
+    "2512.08903v1",
+    "2512.08928v1",
+    "2512.08930v1"
+  ],
+  "total_papers": 40,
+  "successful_downloads": 40
+}

@@ -1,0 +1,180 @@
+[
+  {
+    "rank": 1,
+    "id": "http://arxiv.org/abs/2509.01731v1",
+    "arxiv_id": "2509.01731v1",
+    "title": "Are Enterprises Ready for Quantum-Safe Cybersecurity?",
+    "summary": "Quantum computing threatens to undermine classical cryptography by breaking widely deployed encryption and signature schemes. This paper examines enterprise readiness for quantum-safe cybersecurity through three perspectives: (i) the technologist view, assessing the maturity of post-quantum cryptography (PQC) and quantum key distribution (QKD); (ii) the enterprise (CISO/CIO) view, analyzing organizational awareness, risk management, and operational barriers; and (iii) the threat actor view, evaluating the evolving quantum threat and the urgency of migration. Using recent standards (e.g., NIST's 2024 PQC algorithms), industry surveys, and threat intelligence, we synthesize findings via a SWOT analysis to map strengths, weaknesses, opportunities, and threats. Results indicate uneven and generally insufficient preparedness: while PQC standards and niche QKD deployments signal technical progress, fewer than 5% of enterprises have formal quantum-transition plans, and many underestimate \"harvest now, decrypt later\" risks. Financial, telecom, and government sectors have begun migration, but most industries remain exploratory or stalled by costs, complexity, and skills gaps. Expert consensus places cryptanalytically relevant quantum computers in the 2030s, yet delayed preparation could leave today's data vulnerable for decades.",
+    "published": "2025-09-01T19:27:06Z",
+    "authors": [
+      "Tran Duc Le",
+      "Phuc Hao Do",
+      "Truong Duy Dinh",
+      "Van Dai Pham"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 2,
+    "id": "http://arxiv.org/abs/2503.15678v1",
+    "arxiv_id": "2503.15678v1",
+    "title": "Cyber Threats in Financial Transactions -- Addressing the Dual Challenge of AI and Quantum Computing",
+    "summary": "The financial sector faces escalating cyber threats amplified by artificial intelligence (AI) and the advent of quantum computing. AI is being weaponized for sophisticated attacks like deepfakes and AI-driven malware, while quantum computing threatens to render current encryption methods obsolete. This report analyzes these threats, relevant frameworks, and possible countermeasures like quantum cryptography. AI enhances social engineering and phishing attacks via personalized content, lowers entry barriers for cybercriminals, and introduces risks like data poisoning and adversarial AI. Quantum computing, particularly Shor's algorithm, poses a fundamental threat to current encryption standards (RSA and ECC), with estimates suggesting cryptographically relevant quantum computers could emerge within the next 5-30 years. The \"harvest now, decrypt later\" scenario highlights the urgency of transitioning to quantum-resistant cryptography.",
+    "published": "2025-03-19T20:16:27Z",
+    "authors": [
+      "Ahmed M. Elmisery",
+      "Mirela Sertovic",
+      "Andrew Zayin",
+      "Paul Watson"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 3,
+    "id": "http://arxiv.org/abs/2512.12989v1",
+    "arxiv_id": "2512.12989v1",
+    "title": "Quantigence: A Multi-Agent AI Framework for Quantum Security Research",
+    "summary": "Cryptographically Relevant Quantum Computers (CRQCs) pose a structural threat to the global digital economy. Algorithms like Shor's factoring and Grover's search threaten to dismantle the public-key infrastructure (PKI) securing sovereign communications and financial transactions. While the timeline for fault-tolerant CRQCs remains probabilistic, the \"Store-Now, Decrypt-Later\" (SNDL) model necessitates immediate migration to Post-Quantum Cryptography (PQC). This transition is hindered by the velocity of research, evolving NIST standards, and heterogeneous deployment environments. To address this, we present Quantigence, a theory-driven multi-agent AI framework for structured quantum-security analysis.",
+    "published": "2025-12-15T05:27:10Z",
+    "authors": [
+      "Abdulmalik Alquwayfili"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.MA",
+    "relevance_score": 18.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 4,
+    "id": "http://arxiv.org/abs/2509.15653v2",
+    "arxiv_id": "2509.15653v2",
+    "title": "Future-Proofing Cloud Security Against Quantum Attacks: Risk, Transition, and Mitigation Strategies",
+    "summary": "Quantum Computing (QC) introduces a transformative threat to digital security, with the potential to compromise widely deployed classical cryptographic systems. This survey offers a comprehensive and systematic examination of quantum-safe security for Cloud Computing (CC), focusing on the vulnerabilities, transition strategies, and mitigation mechanisms required to secure cloud infrastructures in the quantum era. We evaluated the landscape of quantum threats across the entire CC stack, demonstrating how quantum algorithms can undermine classical encryption and compromise cloud security at multiple architectural layers.",
+    "published": "2025-09-19T06:25:12Z",
+    "authors": [
+      "Yaser Baseri",
+      "Abdelhakim Hafid",
+      "Arash Habibi Lashkari"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 5,
+    "id": "http://arxiv.org/abs/2508.01694v5",
+    "arxiv_id": "2508.01694v5",
+    "title": "Performance and Storage Analysis of CRYSTALS Kyber as a Post Quantum Replacement for RSA and ECC",
+    "summary": "The steady advancement in quantum computer error correction technology has pushed the current record to 48 stable logical qubits, bringing us closer to machines capable of running Shor's algorithm at scales that threaten RSA and ECC cryptography. While the timeline for developing such quantum computers remains uncertain, the cryptographic community must prepare for the transition to quantum-resistant algorithms. CRYSTALS-Kyber, standardized by NIST in 2022, represents a leading post-quantum cryptographic solution.",
+    "published": "2025-08-03T09:53:45Z",
+    "authors": [
+      "Nicolas Rodriguez-Alvarez",
+      "Fernando Rodriguez-Merino"
+    ],
+    "affiliations": [
+      "ies parquesol, valladolid, spain",
+      "department of theoretical, atomic and optical physics, university of valladolid, valladolid, spain"
+    ],
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 6,
+    "id": "http://arxiv.org/abs/2512.13333v1",
+    "arxiv_id": "2512.13333v1",
+    "title": "Quantum Disruption: An SOK of How Post-Quantum Attackers Reshape Blockchain Security and Performance",
+    "summary": "As quantum computing advances toward practical deployment, it threatens a wide range of classical cryptographic mechanisms, including digital signatures, key exchange protocols, public-key encryption, and certain hash-based constructions that underpin modern network infrastructures. These primitives form the security backbone of most blockchain platforms, raising serious concerns about the long-term viability of blockchain systems in a post-quantum world.",
+    "published": "2025-12-15T13:48:14Z",
+    "authors": [
+      "Tushin Mallick",
+      "Maya Zeldin",
+      "Murat Cenk",
+      "Cristina Nita-Rotaru"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 7,
+    "id": "http://arxiv.org/abs/2511.00111v1",
+    "arxiv_id": "2511.00111v1",
+    "title": "A Comparative Study of Hybrid Post-Quantum Cryptographic X.509 Certificate Schemes",
+    "summary": "As quantum computing hardware continues to advance, the integration of such technology with quantum algorithms is anticipated to enable the decryption of ciphertexts produced by RSA and Elliptic Curve Cryptography (ECC) within polynomial time. In response to this emerging threat, the U.S. National Institute of Standards and Technology (NIST) finalized a series of Post-Quantum Cryptography (PQC) standards in August 2024 and outlined a roadmap for PQC migration.",
+    "published": "2025-10-30T21:51:36Z",
+    "authors": [
+      "Abel C. H. Chen"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 8,
+    "id": "http://arxiv.org/abs/2510.19982v1",
+    "arxiv_id": "2510.19982v1",
+    "title": "QORE: Quantum Secure 5G/B5G Core",
+    "summary": "Quantum computing is reshaping the security landscape of modern telecommunications. The cryptographic foundations that secure today's 5G systems, including RSA, Elliptic Curve Cryptography (ECC), and Diffie-Hellman (DH), are all susceptible to attacks enabled by Shor's algorithm. Protecting 5G networks against future quantum adversaries has therefore become an urgent engineering and research priority. In this paper we introduce QORE, a quantum-secure 5G and Beyond 5G (B5G) Core framework.",
+    "published": "2025-10-22T19:28:58Z",
+    "authors": [
+      "Vipin Rathi",
+      "Lakshya Chopra",
+      "Rudraksh Rawal",
+      "Nitin Rajput",
+      "Shiva Valia",
+      "Madhav Aggarwal",
+      "Aditya Gairola"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 9,
+    "id": "http://arxiv.org/abs/2510.10436v1",
+    "arxiv_id": "2510.10436v1",
+    "title": "Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey",
+    "summary": "Post-quantum cryptography (PQC) is moving from evaluation to deployment as NIST finalizes standards for ML-KEM, ML-DSA, and SLH-DSA. This survey maps the space from foundations to practice. We first develop a taxonomy across lattice-, code-, hash-, multivariate-, isogeny-, and MPC-in-the-Head families, summarizing security assumptions, cryptanalysis, and standardization status.",
+    "published": "2025-10-12T04:00:01Z",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Pavan Hebli",
+      "Shamyo Brotee",
+      "Subasish Das"
+    ],
+    "affiliations": [],
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "query_source": "query2"
+  },
+  {
+    "rank": 10,
+    "id": "http://arxiv.org/abs/2508.14011v1",
+    "arxiv_id": "2508.14011v1",
+    "title": "Brace for impact: ECDLP challenges for quantum cryptanalysis",
+    "summary": "Precise suites of benchmarks are required to assess the progress of early fault-tolerant quantum computers at economically impactful applications such as cryptanalysis. Appropriate challenges exist for factoring but those for elliptic curve cryptography are either too sparse or inadequate for standard applications of Shor's algorithm. We introduce a difficulty-graded suite of elliptic curve discrete logarithm (ECDLP) challenges that use Bitcoin's curve y²=x³+7 (mod p) while incrementally lowering the prime field from 256 down to 6 bits.",
+    "published": "2025-08-19T17:16:31Z",
+    "authors": [
+      "Pierre-Luc Dallaire-Demers",
+      "William Doyle",
+      "Timothy Foo"
+    ],
+    "affiliations": [],
+    "primary_category": "quant-ph",
+    "relevance_score": 16.0,
+    "query_source": "query2",
+    "critical_finding": "Full 256-bit ECDLP instance within 2027-2033 window"
+  }
+]

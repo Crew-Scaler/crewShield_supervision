@@ -1,0 +1,21 @@
+Title: One Token Embedding Is Enough to Deadlock Your Large Reasoning Model
+
+Authors: Mohan Zhang, Yihua Zhang, Jinghan Jia, Zhangyang Wang, Sijia Liu
+
+
+Published: 2025-10-12
+
+Query ID: D-2.3
+
+Relevance Color: Green
+Relevance Score: 0.89
+
+Pages: 26
+
+URL: https://arxiv.org/pdf/2510.15965.pdf
+
+Abstract:
+Modern large reasoning models (LRMs) exhibit impressive multi-step problem-solving via chain-of-thought (CoT) reasoning. However, this iterative thinking mechanism introduces a new vulnerability surface. We present the Deadlock Attack, a resource exhaustion method that hijacks an LRM's generative control flow by training a malicious adversarial embedding to induce perpetual reasoning loops. Specifically, the optimized embedding encourages transitional tokens (e.g., "Wait", "But") after reasoning...
+
+Relevance Justification:
+Discusses backdoor attacks in ML models; Addresses RAG pipeline attacks; Covers embedding-based attacks

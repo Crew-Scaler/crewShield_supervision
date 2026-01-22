@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2511.07123v2",
+  "title": "Harnessing Sparsification in Federated Learning: A Secure, Efficient, and Differentially Private Realization",
+  "authors": [
+    "Shuangqing Xu",
+    "Yifeng Zheng",
+    "Zhongyun Hua"
+  ],
+  "published": "2025-11-10T14:10:48Z",
+  "url": "http://arxiv.org/abs/2511.07123v2",
+  "pdf_url": "http://arxiv.org/pdf/2511.07123v2.pdf",
+  "relevance_score": 85,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Federated learning (FL) enables multiple clients to jointly train a model by sharing only gradient updates for aggregation instead of raw data. Due to the transmission of very high-dimensional gradient updates from many clients, FL is known to suffer from a communication bottleneck. Meanwhile, the gradients shared by clients as well as the trained model may also be exploited for inferring private local datasets, making privacy still a critical concern in FL. We present Clover, a novel system fra"
+}

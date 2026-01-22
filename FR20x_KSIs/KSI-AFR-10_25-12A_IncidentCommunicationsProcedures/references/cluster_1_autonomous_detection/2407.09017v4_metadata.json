@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2407.09017v4",
+  "title": "AI-Driven Guided Response for Security Operation Centers with Microsoft Copilot for Security",
+  "authors": [
+    "Scott Freitas",
+    "Jovan Kalajdjieski",
+    "Amir Gharib",
+    "Robert McCann"
+  ],
+  "published": "2024-07-12T06:10:01Z",
+  "url": "http://arxiv.org/abs/2407.09017v4",
+  "pdf_url": "http://arxiv.org/pdf/2407.09017v4.pdf",
+  "relevance_score": 95,
+  "summary": "Security operation centers contend with a constant stream of security incidents, ranging from straightforward to highly complex. To address this, we developed Microsoft Copilot for Security Guided Response (CGR), an industry-scale ML architecture that guides security analysts across three key tasks -- (1) investigation, providing essential historical context by identifying similar incidents; (2) triaging to ascertain the nature of the incident -- whether it is a true positive, false positive, or benign positive; and (3) remediation, recommending tailored containment actions. CGR is integrated into the Microsoft Defender XDR product and deployed worldwide, generating millions of recommendations across thousands of customers. Our extensive evaluation, incorporating internal evaluation, collaboration with security experts, and customer feedback, demonstrates that CGR delivers high-quality recommendations across all three tasks. We provide a comprehensive overview of the CGR architecture, setting a precedent as the first cybersecurity company to openly discuss these capabilities in such depth. Additionally, we release GUIDE, the largest public collection of real-world security incidents, spanning 13M evidences across 1M incidents annotated with ground-truth triage labels by customer security analysts. This dataset represents the first large-scale cybersecurity resource of its kind, supporting the development and evaluation of guided response systems and beyond."
+}

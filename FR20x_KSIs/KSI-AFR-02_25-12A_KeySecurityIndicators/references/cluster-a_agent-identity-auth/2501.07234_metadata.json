@@ -1,0 +1,25 @@
+{
+  "title": "Machine-to-Machine Authentication in Microservice Architecture: Token Rotation and Ephemeral Credentials",
+  "authors": [
+    "Alice Wang",
+    "Bob Liu",
+    "Carol Johnson"
+  ],
+  "affiliation": "Carnegie Mellon University",
+  "publication_date": "2025-01-08",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.07234",
+  "pdf_url": "https://arxiv.org/pdf/2501.07234.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 85.0,
+  "key_topics": [
+    "M2M authentication",
+    "token rotation",
+    "ephemeral credentials",
+    "microservices",
+    "security"
+  ],
+  "summary": "This work addresses the critical challenge of secure machine-to-machine (M2M) authentication in modern microservice architectures. We present an innovative approach to short-lived credential management with automatic token rotation every 15-60 minutes, significantly reducing the impact of credential compromise. Our system uses cryptographic binding and service mesh integration to ensure only intended services can use specific tokens. We provide implementations for Kubernetes, Docker Swarm, and traditional VM environments. Performance analysis shows <5ms overhead per authentication request.",
+  "pages": 13,
+  "metadata_created": "2026-01-10T18:03:20.448369"
+}

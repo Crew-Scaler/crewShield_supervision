@@ -1,0 +1,307 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2502.03614v1",
+    "arxiv_id": "2502.03614v1",
+    "title": "A Novel Zero-Touch, Zero-Trust, AI/ML Enablement Framework for IoT Network Security",
+    "summary": "The IoT facilitates a connected, intelligent, and sustainable society; therefore, it is imperative to protect the IoT ecosystem. The IoT-based 5G and 6G will leverage the use of machine learning and artificial intelligence (ML/AI) more to pave the way for autonomous and collaborative secure IoT networks. Zero-touch, zero-trust IoT security with AI and machine learning (ML) enablement frameworks offers a powerful approach to securing the expanding landscape of Internet of Things (IoT) devices. This paper presents a novel framework based on the integration of Zero Trust, Zero Touch, and AI/ML powered for the detection, mitigation, and prevention of DDoS attacks in modern IoT ecosystems. The focus will be on the new integrated framework by establishing zero trust for all IoT traffic, fixed and mobile 5G/6G IoT network traffic, and data security (quarantine-zero touch and dynamic policy enforcement). We perform a comparative analysis of five machine learning models, namely, XGBoost, Random Forest, K-Nearest Neighbors, Stochastic Gradient Descent, and Native Bayes, by comparing these models based on accuracy, precision, recall, F1-score, and ROC-AUC. Results show that the best performance in detecting and mitigating different DDoS vectors comes from the ensemble-based approaches.",
+    "published": "2025-02-05T21:03:07Z",
+    "updated": "2025-02-05T21:03:07Z",
+    "authors": [
+      "Sushil Shakya",
+      "Robert Abbas",
+      "Sasa Maric"
+    ],
+    "affiliations": [],
+    "first_author": "Sushil Shakya",
+    "pdf_url": "https://arxiv.org/pdf/2502.03614v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.18568v1",
+    "arxiv_id": "2511.18568v1",
+    "title": "Zero-Trust Strategies for O-RAN Cellular Networks: Principles, Challenges and Research Directions",
+    "summary": "Cellular networks have become foundational to modern communication, supporting a broad range of applications, from civilian use to enterprise systems and military tactical networks. The advent of fifth-generation and beyond cellular networks (B5G) introduces emerging compute capabilities into the Radio Access Network (RAN), transforming it from a traditionally closed, vendor-locked infrastructure into an open and programmable ecosystem. This evolution, exemplified by Open-RAN (O-RAN), enables the deployment of control-plane applications from diverse sources, which can dynamically influence user-plane traffic in response to real-time events. As cellular infrastructures become more disaggregated and software-driven, security becomes an increasingly critical concern. Zero-Trust Architecture (ZTA) has emerged as a promising security paradigm that discards implicit trust assumptions by acknowledging that threats may arise from both external and internal sources. ZTA mandates comprehensive and fine-grained security mechanisms across both control and user planes to contain adversarial movements and enhance breach detection and attack response actions. In this paper, we explore the adoption of ZTA in the context of 5G and beyond, with a particular focus on O-RAN as an architectural enabler. We analyze how ZTA principles align with the architectural and operational characteristics of O-RAN, and identify key challenges and opportunities for embedding zero-trust mechanisms within O-RAN-based cellular networks.",
+    "published": "2025-11-23T18:25:19Z",
+    "updated": "2025-11-23T18:25:19Z",
+    "authors": [
+      "Charalampos Katsis",
+      "Imtiaz Karim",
+      "Elisa Bertino"
+    ],
+    "affiliations": [],
+    "first_author": "Charalampos Katsis",
+    "pdf_url": "https://arxiv.org/pdf/2511.18568v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.09005v1",
+    "arxiv_id": "2509.09005v1",
+    "title": "6G Resilience -- White Paper",
+    "summary": "6G must be designed to withstand, adapt to, and evolve amid prolonged, complex disruptions. Mobile networks' shift from efficiency-first to sustainability-aware has motivated this white paper to assert that resilience is a primary design goal, alongside sustainability and efficiency, encompassing technology, architecture, and economics. We promote resilience by analysing dependencies between mobile networks and other critical systems, such as energy, transport, and emergency services, and illustrate how cascading failures spread through infrastructures. We formalise resilience using the 3R framework: reliability, robustness, resilience. Subsequently, we translate this into measurable capabilities: graceful degradation, situational awareness, rapid reconfiguration, and learning-driven improvement and recovery.   Architecturally, we promote edge-native and locality-aware designs, open interfaces, and programmability to enable islanded operations, fallback modes, and multi-layer diversity (radio, compute, energy, timing). Key enablers include AI-native control loops with verifiable behaviour, zero-trust security rooted in hardware and supply-chain integrity, and networking techniques that prioritise critical traffic, time-sensitive flows, and inter-domain coordination.   Resilience also has a techno-economic aspect: open platforms and high-quality complementors generate ecosystem externalities that enhance resilience while opening new markets. We identify nine business-model groups and several patterns aligned with the 3R objectives, and we outline governance and standardisation. This white paper serves as an initial step and catalyst for 6G resilience. It aims to inspire researchers, professionals, government officials, and the public, providing them with the essential components to understand and shape the development of 6G resilience.",
+    "published": "2025-09-10T21:09:03Z",
+    "updated": "2025-09-10T21:09:03Z",
+    "authors": [
+      "Hirley Alves",
+      "Nurul H. Mahmood",
+      "Onel L. A. L\u00f3pez",
+      "Sumudu Samarakoon",
+      "Seppo Yrj\u00f6l\u00e4",
+      "Matti Latva-Aho",
+      "Markku Juntti",
+      "Ari Pouttu",
+      "Armin Dekorsy",
+      "Arthur Sousa de Sena",
+      "Aydin Sezgin",
+      "Bho Matthiesen",
+      "Chafika Benzaid",
+      "Chathuranga Weeraddana",
+      "David Hutchison",
+      "Dileepa Marasinghe",
+      "Doganalp Ergenc",
+      "Eduard Jorswieck",
+      "Erkki Harjula",
+      "Falko Dressler",
+      "Harri Saarnisaari",
+      "Italo Atzeni",
+      "Jaap Van De Beek",
+      "Jacek Rak",
+      "Konstantin Mikhaylov",
+      "Lauri Loven",
+      "Madhusanka Liyanage",
+      "Marcos Katz",
+      "Marja Matinmikko-Blue",
+      "Mehdi Rasti",
+      "Mika Ylianttila",
+      "Nhan Nguyen",
+      "Pawani Porambage",
+      "Petar Popovski",
+      "Petri Ahokangas",
+      "Premanandana Rajatheva",
+      "Robert-Jeron Reifert",
+      "Tharaka Hewa",
+      "Tommy Svensson"
+    ],
+    "affiliations": [],
+    "first_author": "Hirley Alves",
+    "pdf_url": "https://arxiv.org/pdf/2509.09005v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.05707v1",
+    "arxiv_id": "2508.05707v1",
+    "title": "System Security Framework for 5G Advanced /6G IoT Integrated Terrestrial Network-Non-Terrestrial Network (TN-NTN) with AI-Enabled Cloud Security",
+    "summary": "The integration of Terrestrial Networks (TN) and Non-Terrestrial Networks (NTN), including 5G Advanced/6G and the Internet of Things (IoT) technologies, using Low Earth Orbit (LEO) satellites, high-altitude platforms (HAPS), and Unmanned Aerial Vehicles (UAVs), is redefining the landscape of global connectivity. This paper introduces a new system-level security framework for 5G Advanced/6G IoT-integrated TN-NTN architectures with AI-native-enabled cloud security. Due to the heterogeneity, scale, and distributed nature of these networks, new security challenges have emerged. Leveraging AI-native cloud platforms offers powerful capabilities for real-time threat detection, security automation, and intelligent policy enforcement. The NTN satellite access function enhances security for discontinuous coverage via satellite connections. In addition, this paper explores the security risks associated with integrated 5G Advanced/6G IoT TN-NTN systems, including full network segmentation, network slicing, and the cloudification of the RAN and core. We present a comprehensive AI-enabled cloud security framework and conclude with proposals for implementing AI-powered, satellite-based NTN within future 5G Advanced/6G IoT networks. Our approach emphasizes zero-trust principles, federated learning, secure orchestration, a layered security framework, and resilience against adversarial threats.",
+    "published": "2025-08-07T04:04:57Z",
+    "updated": "2025-08-07T04:04:57Z",
+    "authors": [
+      "Sasa Maric",
+      "Rasil Baidar",
+      "Robert Abbas",
+      "Sam Reisenfeld"
+    ],
+    "affiliations": [],
+    "first_author": "Sasa Maric",
+    "pdf_url": "https://arxiv.org/pdf/2508.05707v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.04526v3",
+    "arxiv_id": "2508.04526v3",
+    "title": "Policy Design in Zero-Trust Distributed Networks: Challenges and Solutions",
+    "summary": "Traditional security architectures are becoming more vulnerable to distributed attacks due to significant dependence on trust. This will further escalate when implementing agentic AI within the systems, as more components must be secured over a similar distributed space. These scenarios can be observed in consumer technologies, such as the dense Internet of things (IoT). Here, zero-trust architecture (ZTA) can be seen as a potential solution, which relies on a key principle of not giving users explicit trust, instead always verifying their privileges whenever a request is made. However, the overall security in ZTA is managed through its policies, and unverified policies can lead to unauthorized access. Thus, this paper explores challenges and solutions for ZTA policy design in the context of distributed networks, which is referred to as zero-trust distributed networks (ZTDN). This is followed by a case-study on formal verification of policies using UPPAAL. Subsequently, the importance of accountability and responsibility in the system's security is discussed.",
+    "published": "2025-08-06T15:08:48Z",
+    "updated": "2025-09-26T08:42:42Z",
+    "authors": [
+      "Fannya R. Sandjaja",
+      "Ayesha A. Majeed",
+      "Abdullah Abdullah",
+      "Gyan Wickremasinghe",
+      "Karen Rafferty",
+      "Vishal Sharma"
+    ],
+    "affiliations": [],
+    "first_author": "Fannya R. Sandjaja",
+    "pdf_url": "https://arxiv.org/pdf/2508.04526v3",
+    "primary_category": "cs.NI",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.09033v1",
+    "arxiv_id": "2501.09033v1",
+    "title": "Adaptive Cybersecurity: Dynamically Retrainable Firewalls for Real-Time Network Protection",
+    "summary": "The growing complexity of cyber attacks has necessitated the evolution of firewall technologies from static models to adaptive, machine learning-driven systems. This research introduces \"Dynamically Retrainable Firewalls\", which respond to emerging threats in real-time. Unlike traditional firewalls that rely on static rules to inspect traffic, these advanced systems leverage machine learning algorithms to analyze network traffic pattern dynamically and identify threats. The study explores architectures such as micro-services and distributed systems for real-time adaptability, data sources for model retraining, and dynamic threat identification through reinforcement and continual learning. It also discusses strategies to improve performance, reduce latency, optimize resource utilization, and address integration issues with present-day concepts such as Zero Trust and mixed environments. By critically assessing the literature, analyzing case studies, and elucidating areas of future research, this work suggests dynamically retrainable firewalls as a more robust form of network security. Additionally, it considers emerging trends such as advancements in AI and quantum computing, ethical issues, and other regulatory questions surrounding future AI systems. These findings provide valuable information on the future state of adaptive cyber security, focusing on the need for proactive and adaptive measures that counter cyber threats that continue to evolve.",
+    "published": "2025-01-14T00:04:35Z",
+    "updated": "2025-01-14T00:04:35Z",
+    "authors": [
+      "Sina Ahmadi"
+    ],
+    "affiliations": [],
+    "first_author": "Sina Ahmadi",
+    "pdf_url": "https://arxiv.org/pdf/2501.09033v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.06281v1",
+    "arxiv_id": "2501.06281v1",
+    "title": "Autonomous Identity-Based Threat Segmentation in Zero Trust Architectures",
+    "summary": "Zero Trust Architectures (ZTA) fundamentally redefine network security by adopting a \"trust nothing, verify everything\" approach that requires identity verification for all access. Conventional discrete access control measures have proven inadequate since they do not consider evolving user activities and contextual threats, leading to internal threats and enhanced attacks. This research applies the proposed AI-driven, autonomous, identity-based threat segmentation in ZTA, along with real-time identity analytics for fine-grained, real-time mechanisms. Some of the sharp practices include using the behavioral analytics approach to provide real-time risk scores, such as analyzing the patterns used for logging into the system, the access sought, and the resources used. Permissions are adjusted using machine learning models that take into account context-aware factors like geolocation, device type, and access time. Automated threat segmentation helps analysts identify multiple compromised identities in real-time, thus minimizing the likelihood of a breach advancing. The system's use cases are based on real scenarios; for example, insider threats in global offices demonstrate how compromised accounts are detected and locked. This work outlines measures to address privacy issues, false positives, and scalability concerns. This research enhances the security of other critical areas of computer systems by providing dynamic access governance, minimizing insider threats, and supporting dynamic policy enforcement while ensuring that the needed balance between security and user productivity remains a top priority. We prove via comparative analyses that the model is precise and scalable.",
+    "published": "2025-01-10T15:35:02Z",
+    "updated": "2025-01-10T15:35:02Z",
+    "authors": [
+      "Sina Ahmadi"
+    ],
+    "affiliations": [],
+    "first_author": "Sina Ahmadi",
+    "pdf_url": "https://arxiv.org/pdf/2501.06281v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19563v1",
+    "arxiv_id": "2512.19563v1",
+    "title": "On Network-Aware Semantic Communication and Edge-Cloud Collaborative Intelligence Systems",
+    "summary": "Semantic communication and edge-cloud collaborative intelligence are increasingly recognized as foundational enablers for next-generation intelligent services operating under stringent bandwidth, latency, and resource constraints. By shifting the communication objective from bit-perfect delivery toward the transmission of task-relevant semantic representations, semantic communication enables adaptive tradeoffs among communication overhead, inference accuracy, computational load, and end-to-end latency. This survey provides a comprehensive and system-level synthesis of recent advances in semantic communication at the edge-cloud interface, encompassing architectural models for collaborative intelligence, representation learning and semantic abstraction techniques, network-aware and resource-adaptive semantic encoding strategies, and learning-driven optimization and orchestration mechanisms. Beyond efficiency considerations, the survey situates semantic communication within practical operational contexts, including security, trust, resilience, and scalability, drawing connections to zero-trust networking, physical-layer security, and emerging edge-cloud control paradigms. Finally, open challenges and research directions are identified, highlighting the role of semantic communication as a key building block for AI-native networking and 6G-ready intelligent systems.",
+    "published": "2025-12-22T16:44:32Z",
+    "updated": "2025-12-22T16:44:32Z",
+    "authors": [
+      "Murdadha Nasif",
+      "Ahmed Refaey Hussein"
+    ],
+    "affiliations": [],
+    "first_author": "Murdadha Nasif",
+    "pdf_url": "https://arxiv.org/pdf/2512.19563v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10280v1",
+    "arxiv_id": "2512.10280v1",
+    "title": "Graph Neural Network Based Adaptive Threat Detection for Cloud Identity and Access Management Logs",
+    "summary": "The rapid expansion of cloud infrastructures and distributed identity systems has significantly increased the complexity and attack surface of modern enterprises. Traditional rule based or signature driven detection systems are often inadequate in identifying novel or evolving threats within Identity and Access Management logs, where anomalous behavior may appear statistically benign but contextually malicious. This paper presents a Graph Neural Network Based Adaptive Threat Detection framework designed to learn latent user resource interaction patterns from IAM audit trails in real time. By modeling IAM logs as heterogeneous dynamic graphs, the proposed system captures temporal, relational, and contextual dependencies across entities such as users, roles, sessions, and access actions. The model incorporates attention based aggregation and graph embedding updates to enable continual adaptation to changing cloud environments. Experimental evaluation on synthesized and real world IAM datasets demonstrates that the proposed method achieves higher detection precision and recall than baseline LSTM and GCN classifiers, while maintaining scalability across multi tenant cloud environments. The frameworks adaptability enables proactive mitigation of insider threats, privilege escalation, and lateral movement attacks, contributing to the foundation of AI driven zero trust access analytics. This work bridges the gap between graph based machine learning and operational cloud security intelligence.",
+    "published": "2025-12-11T04:44:02Z",
+    "updated": "2025-12-11T04:44:02Z",
+    "authors": [
+      "Venkata Tanuja Madireddy"
+    ],
+    "affiliations": [],
+    "first_author": "Venkata Tanuja Madireddy",
+    "pdf_url": "https://arxiv.org/pdf/2512.10280v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.21024v1",
+    "arxiv_id": "2510.21024v1",
+    "title": "JSTprove: Pioneering Verifiable AI for a Trustless Future",
+    "summary": "The integration of machine learning (ML) systems into critical industries such as healthcare, finance, and cybersecurity has transformed decision-making processes, but it also brings new challenges around trust, security, and accountability. As AI systems become more ubiquitous, ensuring the transparency and correctness of AI-driven decisions is crucial, especially when they have direct consequences on privacy, security, or fairness. Verifiable AI, powered by Zero-Knowledge Machine Learning (zkML), offers a robust solution to these challenges. zkML enables the verification of AI model inferences without exposing sensitive data, providing an essential layer of trust and privacy. However, traditional zkML systems typically require deep cryptographic expertise, placing them beyond the reach of most ML engineers. In this paper, we introduce JSTprove, a specialized zkML toolkit, built on Polyhedra Network's Expander backend, to enable AI developers and ML engineers to generate and verify proofs of AI inference. JSTprove provides an end-to-end verifiable AI inference pipeline that hides cryptographic complexity behind a simple command-line interface while exposing auditable artifacts for reproducibility. We present the design, innovations, and real-world use cases of JSTprove as well as our blueprints and tooling to encourage community review and extension. JSTprove therefore serves both as a usable zkML product for current engineering needs and as a reproducible foundation for future research and production deployments of verifiable AI.",
+    "published": "2025-10-23T22:22:38Z",
+    "updated": "2025-10-23T22:22:38Z",
+    "authors": [
+      "Jonathan Gold",
+      "Tristan Freiberg",
+      "Haruna Isah",
+      "Shirin Shahabi"
+    ],
+    "affiliations": [],
+    "first_author": "Jonathan Gold",
+    "pdf_url": "https://arxiv.org/pdf/2510.21024v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.09494v1",
+    "arxiv_id": "2510.09494v1",
+    "title": "The Data Enclave Advantage: A New Paradigm for Least-Privileged Data Access in a Zero-Trust World",
+    "summary": "As cloud infrastructure evolves to support dynamic and distributed workflows, accelerated now by AI-driven processes, the outdated model of standing permissions has become a critical vulnerability. Based on the Cloud Security Alliance (CSA) Top Threats to Cloud Computing Deep Dive 2025 Report, our analysis details how standing permissions cause catastrophic cloud breaches. While current security tools are addressing network and API security, the challenge of securing granular data access remains. Removing standing permissions at the data level is as critical as it is at the network level, especially for companies handling valuable data at scale.   In this white paper, we introduce an innovative architecture based on on-demand data enclaves to address this gap directly. Our approach enables Zero Standing Privilege (ZSP) and Just-in-Time (JIT) principles at the data level. We replace static permissions with temporary data contracts that enforce proactive protection. This means separation is built around the data requested on-demand, providing precise access and real time monitoring for individual records instead of datasets. This solution drastically reduces the attack surface, prevents privilege creep, and simplifies auditing, offering a vital path for enterprises to transition to a more secure and resilient data environment.",
+    "published": "2025-10-10T15:54:58Z",
+    "updated": "2025-10-10T15:54:58Z",
+    "authors": [
+      "Nico Bistolfi",
+      "Andreea Georgescu",
+      "Dave Hodson"
+    ],
+    "affiliations": [],
+    "first_author": "Nico Bistolfi",
+    "pdf_url": "https://arxiv.org/pdf/2510.09494v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.18461v1",
+    "arxiv_id": "2509.18461v1",
+    "title": "Zero-Shot Visual Deepfake Detection: Can AI Predict and Prevent Fake Content Before It's Created?",
+    "summary": "Generative adversarial networks (GANs) and diffusion models have dramatically advanced deepfake technology, and its threats to digital security, media integrity, and public trust have increased rapidly. This research explored zero-shot deepfake detection, an emerging method even when the models have never seen a particular deepfake variation. In this work, we studied self-supervised learning, transformer-based zero-shot classifier, generative model fingerprinting, and meta-learning techniques that better adapt to the ever-evolving deepfake threat. In addition, we suggested AI-driven prevention strategies that mitigated the underlying generation pipeline of the deepfakes before they occurred. They consisted of adversarial perturbations for creating deepfake generators, digital watermarking for content authenticity verification, real-time AI monitoring for content creation pipelines, and blockchain-based content verification frameworks. Despite these advancements, zero-shot detection and prevention faced critical challenges such as adversarial attacks, scalability constraints, ethical dilemmas, and the absence of standardized evaluation benchmarks. These limitations were addressed by discussing future research directions on explainable AI for deepfake detection, multimodal fusion based on image, audio, and text analysis, quantum AI for enhanced security, and federated learning for privacy-preserving deepfake detection. This further highlighted the need for an integrated defense framework for digital authenticity that utilized zero-shot learning in combination with preventive deepfake mechanisms. Finally, we highlighted the important role of interdisciplinary collaboration between AI researchers, cybersecurity experts, and policymakers to create resilient defenses against the rising tide of deepfake attacks.",
+    "published": "2025-09-22T22:33:16Z",
+    "updated": "2025-09-22T22:33:16Z",
+    "authors": [
+      "Ayan Sar",
+      "Sampurna Roy",
+      "Tanupriya Choudhury",
+      "Ajith Abraham"
+    ],
+    "affiliations": [],
+    "first_author": "Ayan Sar",
+    "pdf_url": "https://arxiv.org/pdf/2509.18461v1",
+    "primary_category": "cs.GR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.01863v1",
+    "arxiv_id": "2508.01863v1",
+    "title": "Hard-Earned Lessons in Access Control at Scale: Enforcing Identity and Policy Across Trust Boundaries with Reverse Proxies and mTLS",
+    "summary": "In today's enterprise environment, traditional access methods such as Virtual Private Networks (VPNs) and application-specific Single Sign-On (SSO) often fall short when it comes to securely scaling access for a distributed and dynamic workforce. This paper presents our experience implementing a modern, Zero Trust-aligned architecture that leverages a reverse proxy integrated with Mutual TLS (mTLS) and centralized SSO, along with the key challenges we encountered and lessons learned during its deployment and scaling. This multidimensional solution involves both per-device and per-user authentication, centralized enforcement of security policies, and comprehensive observability, hence enabling organizations to deliver secure and seamless access to their internal applications.",
+    "published": "2025-08-03T17:32:11Z",
+    "updated": "2025-08-03T17:32:11Z",
+    "authors": [
+      "Sanjay Singh",
+      "Mitendra Mahto"
+    ],
+    "affiliations": [],
+    "first_author": "Sanjay Singh",
+    "pdf_url": "https://arxiv.org/pdf/2508.01863v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.22745v1",
+    "arxiv_id": "2506.22745v1",
+    "title": "Trusted Routing for Blockchain-Enabled Low-Altitude Intelligent Networks",
+    "summary": "Due to the scalability and portability, the low-altitude intelligent networks (LAINs) are essential in various fields such as surveillance and disaster rescue. However, in LAINs, unmanned aerial vehicles (UAVs) are characterized by the distributed topology and high dynamic mobility, and vulnerable to security threats, which may degrade the routing performance for data transmission. Hence, how to ensure the routing stability and security of LAINs is a challenge. In this paper, we focus on the routing process in LAINs with multiple UAV clusters and propose the blockchain-enabled zero-trust architecture to manage the joining and exiting of UAVs. Furthermore, we formulate the routing problem to minimize the end-to-end (E2E) delay, which is an integer linear programming and intractable to solve. Therefore, considering the distribution of LAINs, we reformulate the routing problem into a decentralized partially observable Markov decision process. With the proposed soft hierarchical experience replay buffer, the multi-agent double deep Q-network based adaptive routing algorithm is designed. Finally, simulations are conducted and numerical results show that the total E2E delay of the proposed mechanism decreases by 22.38\\% than the benchmark on average.",
+    "published": "2025-06-28T03:42:46Z",
+    "updated": "2025-06-28T03:42:46Z",
+    "authors": [
+      "Sijie He",
+      "Ziye Jia",
+      "Qiuming Zhu",
+      "Fuhui Zhou",
+      "Qihui Wu"
+    ],
+    "affiliations": [],
+    "first_author": "Sijie He",
+    "pdf_url": "https://arxiv.org/pdf/2506.22745v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.09418v1",
+    "arxiv_id": "2506.09418v1",
+    "title": "Securing Open RAN: A Survey of Cryptographic Challenges and Emerging Solutions for 5G",
+    "summary": "The advent of Open Radio Access Networks (O-RAN) introduces modularity and flexibility into 5G deployments but also surfaces novel security challenges across disaggregated interfaces. This literature review synthesizes recent research across thirteen academic and industry sources, examining vulnerabilities such as cipher bidding-down attacks, partial encryption exposure on control/user planes, and performance trade-offs in securing O-RAN interfaces like E2 and O1. The paper surveys key cryptographic tools -- SNOW-V, AES-256, and ZUC-256 -- evaluating their throughput, side-channel resilience, and adaptability to heterogeneous slices (eMBB, URLLC, mMTC). Emphasis is placed on emerging testbeds and AI-driven controllers that facilitate dynamic orchestration, anomaly detection, and secure configuration. We conclude by outlining future research directions, including hardware offloading, cross-layer cipher adaptation, and alignment with 3GPP TS 33.501 and O-RAN Alliance security mandates, all of which point toward the need for integrated, zero-trust architectures in 6G.",
+    "published": "2025-06-11T06:04:40Z",
+    "updated": "2025-06-11T06:04:40Z",
+    "authors": [
+      "Ryan Barker",
+      "Fatemeh Afghah"
+    ],
+    "affiliations": [],
+    "first_author": "Ryan Barker",
+    "pdf_url": "https://arxiv.org/pdf/2506.09418v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

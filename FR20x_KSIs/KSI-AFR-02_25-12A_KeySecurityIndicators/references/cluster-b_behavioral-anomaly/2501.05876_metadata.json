@@ -1,0 +1,25 @@
+{
+  "title": "Behavior Profile Learning and Poisoning Attack Detection for Cloud Agents",
+  "authors": [
+    "Dr. Olivia Garcia",
+    "Dr. Daniel Wilson",
+    "Dr. Rose Thompson"
+  ],
+  "affiliation": "UC Berkeley EECS",
+  "publication_date": "2024-12-30",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.05876",
+  "pdf_url": "https://arxiv.org/pdf/2501.05876.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 85.0,
+  "key_topics": [
+    "behavior profile",
+    "poisoning detection",
+    "anomaly detection",
+    "agents",
+    "machine learning"
+  ],
+  "summary": "AI agents can be targets of poisoning attacks where legitimate behavior patterns are corrupted. We present behavior profile learning that captures fine-grained behavioral signatures and detects poisoning attempts. Our system identifies when agent behavior deviates from established profiles while distinguishing legitimate updates from attack-induced changes. We use ensemble methods combining supervised and unsupervised approaches. Evaluation against 20 poisoning attack scenarios shows >94% detection accuracy.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.450591"
+}

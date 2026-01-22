@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.12559v1",
+  "title": "Unveiling Malicious Logic: Towards a Statement-Level Taxonomy and Dataset for Securing Python Packages",
+  "authors": [
+    "Ahmed Ryan",
+    "Junaid Mansur Ifti",
+    "Md Erfan",
+    "Akond Ashfaque Ur Rahman",
+    "Md Rayhanur Rahman"
+  ],
+  "published": "2025-12-14T05:28:30Z",
+  "summary": "The widespread adoption of open-source ecosystems enables developers to integrate third-party packages, but also exposes them to malicious packages crafted to execute harmful behavior via public repositories such as PyPI. Existing datasets (e.g., pypi-malregistry, DataDog, OpenSSF, MalwareBench) label packages as malicious or benign at the package level, but do not specify which statements implement malicious behavior. This coarse granularity limits research and practice: models cannot be traine",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.183903"
+}

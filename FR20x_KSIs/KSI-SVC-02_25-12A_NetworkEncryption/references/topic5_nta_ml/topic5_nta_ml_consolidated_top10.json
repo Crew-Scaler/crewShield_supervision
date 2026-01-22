@@ -1,0 +1,188 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2503.04174v2",
+    "arxiv_id": "2503.04174v2",
+    "title": "UniNet: A Unified Multi-granular Traffic Modeling Framework for Network Security",
+    "summary": "As modern networks grow increasingly complex--driven by diverse devices, encrypted protocols, and evolving threats--network traffic analysis has become critically important. Existing machine learning models often rely only on a single representation of packets or flows, limiting their ability to capture the contextual relationships essential for robust analysis. Furthermore, task-specific architectures for supervised, semi-supervised, and unsupervised learning lead to inefficiencies in adapting to varying data formats and security tasks. To address these gaps, we propose UniNet, a unified framework that introduces a novel multi-granular traffic representation (T-Matrix), integrating session, flow, and packet-level features to provide comprehensive contextual information. Combined with T-Attent, a lightweight attention-based model, UniNet efficiently learns latent embeddings for diverse security tasks. Extensive evaluations across four key network security and privacy problems--anomaly detection, attack classification, IoT device identification, and encrypted website fingerprinting--demonstrate UniNet's significant performance gain over state-of-the-art methods, achieving higher accuracy, lower false positive rates, and improved scalability. By addressing the limitations of single-level models and unifying traffic analysis paradigms, UniNet sets a new benchmark for modern network security.",
+    "published": "2025-03-06T07:39:37Z",
+    "updated": "2025-07-03T06:09:01Z",
+    "authors": [
+      "Binghui Wu",
+      "Dinil Mon Divakaran",
+      "Mohan Gurusamy"
+    ],
+    "affiliations": [],
+    "first_author": "Binghui Wu",
+    "pdf_url": "https://arxiv.org/pdf/2503.04174v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.15694v1",
+    "arxiv_id": "2509.15694v1",
+    "title": "Inference Attacks on Encrypted Online Voting via Traffic Analysis",
+    "summary": "Online voting enables individuals to participate in elections remotely, offering greater efficiency and accessibility in both governmental and organizational settings. As this method gains popularity, ensuring the security of online voting systems becomes increasingly vital, as the systems supporting it must satisfy a demanding set of security requirements. Most research in this area emphasizes the design and verification of cryptographic protocols to protect voter integrity and system confidentiality. However, other vectors, such as network traffic analysis, remain relatively understudied, even though they may pose significant threats to voter privacy and the overall trustworthiness of the system.   In this paper, we examine how adversaries can exploit metadata from encrypted network traffic to uncover sensitive information during online voting. Our analysis reveals that, even without accessing the encrypted content, it is possible to infer critical voter actions, such as whether a person votes, the exact moment a ballot is submitted, and whether the ballot is valid or spoiled. We test these attacks with both rule-based techniques and machine learning methods. We evaluate our attacks on two widely used online voting platforms, one proprietary and one partially open source, achieving classification accuracy as high as 99.5%. These results expose a significant privacy vulnerability that threatens key properties of secure elections, including voter secrecy and protection against coercion or vote-buying. We explore mitigations to our attacks, demonstrating that countermeasures such as payload padding and timestamp equalization can substantially limit their effectiveness.",
+    "published": "2025-09-19T07:14:01Z",
+    "updated": "2025-09-19T07:14:01Z",
+    "authors": [
+      "Anastasiia Belousova",
+      "Francesco Marchiori",
+      "Mauro Conti"
+    ],
+    "affiliations": [],
+    "first_author": "Anastasiia Belousova",
+    "pdf_url": "https://arxiv.org/pdf/2509.15694v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.22161v4",
+    "arxiv_id": "2503.22161v4",
+    "title": "AI-based Traffic Modeling for Network Security and Privacy: Challenges Ahead",
+    "summary": "Network traffic analysis using AI (machine learning and deep learning) models made significant progress over the past decades. Traffic analysis addresses various challenging problems in network security, ranging from detection of anomalies and attacks to countering of Internet censorship. AI models are also developed to expose user privacy risks as demonstrated by the research works on fingerprinting of user-visiting websites, IoT devices, and different applications, even when payloads are encrypted.   Despite these advancements, significant challenges remain in the domain of network traffic analysis to effectively secure our networks from evolving threats and attacks. After briefly reviewing the relevant tasks and recent AI models for traffic analysis, we discuss the challenges that lie ahead.",
+    "published": "2025-03-28T05:54:17Z",
+    "updated": "2025-12-23T05:40:28Z",
+    "authors": [
+      "Dinil Mon Divakaran"
+    ],
+    "affiliations": [],
+    "first_author": "Dinil Mon Divakaran",
+    "pdf_url": "https://arxiv.org/pdf/2503.22161v4",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.01365v1",
+    "arxiv_id": "2512.01365v1",
+    "title": "Modeling Wavelet Transformed Quantum Support Vector for Network Intrusion Detection",
+    "summary": "Network traffic anomaly detection is a critical cybersecurity challenge requiring robust solutions for complex Internet of Things (IoT) environments. We present a novel hybrid quantum-classical framework integrating an enhanced Quantum Support Vector Machine (QSVM) with the Quantum Haar Wavelet Packet Transform (QWPT) for superior anomaly classification under realistic noisy intermediate-scale Quantum conditions. Our methodology employs amplitude-encoded quantum state preparation, multi-level QWPT feature extraction, and behavioral analysis via Shannon Entropy profiling and Chi-square testing. Features are classified using QSVM with fidelity-based quantum kernels optimized through hybrid training with simultaneous perturbation stochastic approximation (SPSA) optimizer. Evaluation under noiseless and depolarizing noise conditions demonstrates exceptional performance: 96.67% accuracy on BoT-IoT and 89.67% on IoT-23 datasets, surpassing quantum autoencoder approaches by over 7 percentage points.",
+    "published": "2025-12-01T07:23:20Z",
+    "updated": "2025-12-01T07:23:20Z",
+    "authors": [
+      "Swati Kumari",
+      "Shiva Raj Pokhrel",
+      "Swathi Chandrasekhar",
+      "Navneet Singh",
+      "Hridoy Sankar Dutta",
+      "Adnan Anwar",
+      "Sutharshan Rajasegarar",
+      "Robin Doss"
+    ],
+    "affiliations": [],
+    "first_author": "Swati Kumari",
+    "pdf_url": "https://arxiv.org/pdf/2512.01365v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.21932v1",
+    "arxiv_id": "2511.21932v1",
+    "title": "Modeling Quantum Autoencoder Trainable Kernel for IoT Anomaly Detection",
+    "summary": "Escalating cyber threats and the high-dimensional complexity of IoT traffic have outpaced classical anomaly detection methods. While deep learning offers improvements, computational bottlenecks limit real-time deployment at scale. We present a quantum autoencoder (QAE) framework that compresses network traffic into discriminative latent representations and employs quantum support vector classification (QSVC) for intrusion detection. Evaluated on three datasets, our approach achieves improved accuracy on ideal simulators and on the IBM Quantum hardware demonstrating practical quantum advantage on current NISQ devices. Crucially, moderate depolarizing noise acts as implicit regularization, stabilizing training and enhancing generalization. This work establishes quantum machine learning as a viable, hardware-ready solution for real-world cybersecurity challenges.",
+    "published": "2025-11-26T21:45:02Z",
+    "updated": "2025-11-26T21:45:02Z",
+    "authors": [
+      "Swathi Chandrasekhar",
+      "Shiva Raj Pokhrel",
+      "Swati Kumari",
+      "Navneet Singh"
+    ],
+    "affiliations": [],
+    "first_author": "Swathi Chandrasekhar",
+    "pdf_url": "https://arxiv.org/pdf/2511.21932v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.07793v1",
+    "arxiv_id": "2511.07793v1",
+    "title": "HybridGuard: Enhancing Minority-Class Intrusion Detection in Dew-Enabled Edge-of-Things Networks",
+    "summary": "Securing Dew-Enabled Edge-of-Things (EoT) networks against sophisticated intrusions is a critical challenge. This paper presents HybridGuard, a framework that integrates machine learning and deep learning to improve intrusion detection. HybridGuard addresses data imbalance through mutual information based feature selection, ensuring that the most relevant features are used to improve detection performance, especially for minority attack classes. The framework leverages Wasserstein Conditional Generative Adversarial Networks with Gradient Penalty (WCGAN-GP) to further reduce class imbalance and enhance detection precision. It adopts a two-phase architecture called DualNetShield to support advanced traffic analysis and anomaly detection, improving the granular identification of threats in complex EoT environments. HybridGuard is evaluated on the UNSW-NB15, CIC-IDS-2017, and IOTID20 datasets, where it demonstrates strong performance across diverse attack scenarios and outperforms existing solutions in adapting to evolving cybersecurity threats. This approach establishes HybridGuard as an effective tool for protecting EoT networks against modern intrusions.",
+    "published": "2025-11-11T03:19:25Z",
+    "updated": "2025-11-11T03:19:25Z",
+    "authors": [
+      "Binayak Kara",
+      "Ujjwal Sahua",
+      "Ciza Thomas",
+      "Jyoti Prakash Sahoo"
+    ],
+    "affiliations": [],
+    "first_author": "Binayak Kara",
+    "pdf_url": "https://arxiv.org/pdf/2511.07793v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.00828v1",
+    "arxiv_id": "2511.00828v1",
+    "title": "Towards Ultra-Low Latency: Binarized Neural Network Architectures for In-Vehicle Network Intrusion Detection",
+    "summary": "The Control Area Network (CAN) protocol is essential for in-vehicle communication, facilitating high-speed data exchange among Electronic Control Units (ECUs). However, its inherent design lacks robust security features, rendering vehicles susceptible to cyberattacks. While recent research has investigated machine learning and deep learning techniques to enhance network security, their practical applicability remains uncertain. This paper presents a lightweight intrusion detection technique based on Binarized Neural Networks (BNNs), which utilizes payload data, message IDs, and CAN message frequencies for effective intrusion detection. Additionally, we develop hybrid binary encoding techniques to integrate non-binary features, such as message IDs and frequencies. The proposed method, namely the BNN framework specifically optimized for in-vehicle intrusion detection combined with hybrid binary quantization techniques for non-payload attributes, demonstrates efficacy in both anomaly detection and multi-class network traffic classification. The system is well-suited for deployment on micro-controllers and Gateway ECUs, aligning with the real-time requirements of CAN bus safety applications.",
+    "published": "2025-11-02T06:47:56Z",
+    "updated": "2025-11-02T06:47:56Z",
+    "authors": [
+      "Huiyao Dong",
+      "Igor Kotenko"
+    ],
+    "affiliations": [],
+    "first_author": "Huiyao Dong",
+    "pdf_url": "https://arxiv.org/pdf/2511.00828v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.20589v1",
+    "arxiv_id": "2502.20589v1",
+    "title": "LLMs Have Rhythm: Fingerprinting Large Language Models Using Inter-Token Times and Network Traffic Analysis",
+    "summary": "As Large Language Models (LLMs) become increasingly integrated into many technological ecosystems across various domains and industries, identifying which model is deployed or being interacted with is critical for the security and trustworthiness of the systems. Current verification methods typically rely on analyzing the generated output to determine the source model. However, these techniques are susceptible to adversarial attacks, operate in a post-hoc manner, and may require access to the model weights to inject a verifiable fingerprint. In this paper, we propose a novel passive and non-invasive fingerprinting technique that operates in real-time and remains effective even under encrypted network traffic conditions. Our method leverages the intrinsic autoregressive generation nature of language models, which generate text one token at a time based on all previously generated tokens, creating a unique temporal pattern like a rhythm or heartbeat that persists even when the output is streamed over a network. We find that measuring the Inter-Token Times (ITTs)-time intervals between consecutive tokens-can identify different language models with high accuracy. We develop a Deep Learning (DL) pipeline to capture these timing patterns using network traffic analysis and evaluate it on 16 Small Language Models (SLMs) and 10 proprietary LLMs across different deployment scenarios, including local host machine (GPU/CPU), Local Area Network (LAN), Remote Network, and Virtual Private Network (VPN). The experimental results confirm that our proposed technique is effective and maintains high accuracy even when tested in different network conditions. This work opens a new avenue for model identification in real-world scenarios and contributes to more secure and trustworthy language model deployment.",
+    "published": "2025-02-27T23:22:01Z",
+    "updated": "2025-02-27T23:22:01Z",
+    "authors": [
+      "Saeif Alhazbi",
+      "Ahmed Mohamed Hussain",
+      "Gabriele Oligeri",
+      "Panos Papadimitratos"
+    ],
+    "affiliations": [],
+    "first_author": "Saeif Alhazbi",
+    "pdf_url": "https://arxiv.org/pdf/2502.20589v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.15395v1",
+    "arxiv_id": "2501.15395v1",
+    "title": "Hiding in Plain Sight: An IoT Traffic Camouflage Framework for Enhanced Privacy",
+    "summary": "The rapid growth of Internet of Things (IoT) devices has introduced significant challenges to privacy, particularly as network traffic analysis techniques evolve. While encryption protects data content, traffic attributes such as packet size and timing can reveal sensitive information about users and devices. Existing single-technique obfuscation methods, such as packet padding, often fall short in dynamic environments like smart homes due to their predictability, making them vulnerable to machine learning-based attacks. This paper introduces a multi-technique obfuscation framework designed to enhance privacy by disrupting traffic analysis. The framework leverages six techniques-Padding, Padding with XORing, Padding with Shifting, Constant Size Padding, Fragmentation, and Delay Randomization-to obscure traffic patterns effectively. Evaluations on three public datasets demonstrate significant reductions in classifier performance metrics, including accuracy, precision, recall, and F1 score. We assess the framework's robustness against adversarial tactics by retraining and fine-tuning neural network classifiers on obfuscated traffic. The results reveal a notable degradation in classifier performance, underscoring the framework's resilience against adaptive attacks. Furthermore, we evaluate communication and system performance, showing that higher obfuscation levels enhance privacy but may increase latency and communication overhead.",
+    "published": "2025-01-26T04:33:44Z",
+    "updated": "2025-01-26T04:33:44Z",
+    "authors": [
+      "Daniel Adu Worae",
+      "Spyridon Mastorakis"
+    ],
+    "affiliations": [],
+    "first_author": "Daniel Adu Worae",
+    "pdf_url": "https://arxiv.org/pdf/2501.15395v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19037v1",
+    "arxiv_id": "2512.19037v1",
+    "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+    "summary": "The proliferation of IoT devices and their reliance on Wi-Fi networks have introduced significant security vulnerabilities, particularly the KRACK and Kr00k attacks, which exploit weaknesses in WPA2 encryption to intercept and manipulate sensitive data. Traditional IDS using classifiers face challenges such as model overfitting, incomplete feature extraction, and high false positive rates, limiting their effectiveness in real-world deployments. To address these challenges, this study proposes a robust multiclass machine learning based intrusion detection framework. The methodology integrates advanced feature selection techniques to identify critical attributes, mitigating redundancy and enhancing detection accuracy. Two distinct ML architectures are implemented: a baseline classifier pipeline and a stacked ensemble model combining noise injection, Principal Component Analysis (PCA), and meta learning to improve generalization and reduce false positives. Evaluated on the AWID3 data set, the proposed ensemble architecture achieves superior performance, with an accuracy of 98%, precision of 98%, recall of 98%, and a false positive rate of just 2%, outperforming existing state-of-the-art methods. This work demonstrates the efficacy of combining preprocessing strategies with ensemble learning to fortify network security against sophisticated Wi-Fi attacks, offering a scalable and reliable solution for IoT environments. Future directions include real-time deployment and adversarial resilience testing to further enhance the model's adaptability.",
+    "published": "2025-12-22T05:14:26Z",
+    "updated": "2025-12-22T05:14:26Z",
+    "authors": [
+      "Md Minhazul Islam Munna",
+      "Md Mahbubur Rahman",
+      "Jaroslav Frnda",
+      "Muhammad Shahid Anwar",
+      "Alpamis Kutlimuratov"
+    ],
+    "affiliations": [],
+    "first_author": "Md Minhazul Islam Munna",
+    "pdf_url": "https://arxiv.org/pdf/2512.19037v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  }
+]

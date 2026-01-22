@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.23367v2",
+  "title": "Post-Training Quantization of OpenPangu Models for Efficient Deployment on Atlas A2",
+  "authors": [
+    "Yilun Luo",
+    "Huaqing Zheng",
+    "Haoqian Meng",
+    "Wenyuan Liu",
+    "Peng Zhang"
+  ],
+  "published": "2025-12-29T10:50:23Z",
+  "url": "http://arxiv.org/abs/2512.23367v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.23367v2.pdf",
+  "relevance_score": 68,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Huawei's openPangu-Embedded-1B and openPangu-Embedded-7B are variants of the openPangu large language model, designed for efficient deployment on Ascend NPUs. The 7B variant supports three distinct Chain-of-Thought (CoT) reasoning paradigms, namely slow_think, auto_think, and no_think, while the 1B variant operates exclusively in the no_think mode, which employs condensed reasoning for higher efficiency. Although CoT reasoning enhances capability, the generation of extended reasoning traces intr"
+}

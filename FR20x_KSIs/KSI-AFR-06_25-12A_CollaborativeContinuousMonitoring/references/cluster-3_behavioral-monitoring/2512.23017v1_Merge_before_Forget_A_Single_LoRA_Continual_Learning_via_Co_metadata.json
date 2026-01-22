@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.23017v1",
+  "title": "Merge before Forget: A Single LoRA Continual Learning via Continual Merging",
+  "authors": [
+    "Fuli Qiao",
+    "Mehrdad Mahdavi"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23017v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Parameter-efficient continual learning has emerged as a promising approach for large language models (LLMs) to mitigate catastrophic forgetting while enabling adaptation to new tasks. Current Low-Rank Adaptation (LoRA) continual learning techniques often retain and freeze previously learned LoRAs or generate data representations to overcome forgetting, typically utilizing these to support new LoRAs learn new tasks. However, these methods not only ignore growing computational memory with tasks an..."
+}

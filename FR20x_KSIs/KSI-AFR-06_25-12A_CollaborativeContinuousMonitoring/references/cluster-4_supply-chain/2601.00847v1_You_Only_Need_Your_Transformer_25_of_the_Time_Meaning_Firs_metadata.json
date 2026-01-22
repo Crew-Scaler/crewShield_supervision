@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2601.00847v1",
+  "title": "You Only Need Your Transformer 25% of the Time: Meaning-First Execution for Eliminating Unnecessary Inference",
+  "authors": [
+    "Ryan Shamim"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2601.00847v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "AI governance"
+  ],
+  "summary": "Modern AI inference systems treat transformer execution as mandatory, conflating model capability with execution necessity. We reframe inference as a control-plane decision problem: determining when execution is necessary versus when correctness can be preserved through alternative pathways. We introduce Meaning-First Execution (MFEE), a control-plane architecture implementing this framework, selectively invoking transformer inference only when required. MFEE operates as a gating layer above exi..."
+}

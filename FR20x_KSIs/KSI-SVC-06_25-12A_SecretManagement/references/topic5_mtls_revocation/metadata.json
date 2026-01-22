@@ -1,0 +1,736 @@
+{
+  "research_topic": "Agent-to-Agent Mutual TLS with Real-Time Certificate Revocation",
+  "issue_number": "68",
+  "topic_number": "5",
+  "search_date": "2025-12-25",
+  "total_papers_found": 52,
+  "papers_downloaded": 10,
+  "papers_archived": 42,
+  "search_queries": [
+    "mutual TLS AND (agent OR service-to-service) AND (revocation OR OCSP)",
+    "certificate revocation AND (real-time OR online) AND (performance OR latency)",
+    "OCSP stapling AND (TLS OR certificate) AND (deployment OR practical)",
+    "TLS authentication microservices",
+    "PKI certificate management IoT",
+    "zero trust architecture service mesh",
+    "distributed PKI blockchain certificate",
+    "X.509 certificate validation security",
+    "lightweight IoT authentication",
+    "edge computing security TLS"
+  ],
+  "top_10_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2411.02267",
+      "title": "Technical Report: Performance Comparison of Service Mesh Frameworks: the MTLS Test Case",
+      "authors": [
+        "Anat Bremler Barr",
+        "Ofek Lavi",
+        "Yaniv Naor",
+        "Sanjeev Rampal",
+        "Jhonatan Tavori"
+      ],
+      "publication_date": "2024-11-04",
+      "year": 2024,
+      "institution": "Reichman University (Israel), Tel Aviv University (Israel)",
+      "abstract_summary": "Evaluates how mTLS implementation affects performance across major service mesh platforms (Istio, Istio Ambient, Linkerd, Cilium) in Kubernetes environments. Key findings show significant performance differences stem from architectural choices between sidecar and sidecarless approaches.",
+      "relevance_score": 10,
+      "relevance_notes": "Directly addresses mTLS performance in service-to-service authentication, critical for agent-to-agent communications in production environments.",
+      "key_findings": [
+        "Significant performance differences between sidecar and sidecarless architectures",
+        "mTLS overhead varies substantially across service mesh implementations",
+        "Latency and resource consumption metrics for production deployments"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2411.02267",
+      "doi": "https://doi.org/10.48550/arXiv.2411.02267",
+      "downloaded": true,
+      "filename": "2411.02267_Performance_Comparison_Service_Mesh_mTLS.pdf"
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2405.07533",
+      "title": "DID Link: Authentication in TLS with Decentralized Identifiers and Verifiable Credentials",
+      "authors": [
+        "Sandro Rodriguez Garzon",
+        "Dennis Natusch",
+        "Artur Philipp",
+        "Axel Küpper",
+        "Hans Joachim Einsiedler",
+        "Daniela Schneider"
+      ],
+      "publication_date": "2024-05-13",
+      "last_revised": "2025-01-13",
+      "year": 2025,
+      "institution": "Technische Universität Berlin (Germany)",
+      "conference": "21st Annual International Conference on Privacy, Security, and Trust (PST2024)",
+      "abstract_summary": "Proposes innovative authentication mechanism for TLS 1.3 utilizing decentralized identifiers anchored to distributed ledgers instead of traditional CAs. Enables entities to authenticate with self-issued X.509 certificates while supporting verifiable credentials.",
+      "relevance_score": 9,
+      "relevance_notes": "Addresses certificate management and authentication in TLS without traditional PKI, relevant for distributed agent systems requiring dynamic certificate issuance.",
+      "key_findings": [
+        "Comparable handshake performance when cached",
+        "Speed advantages over alternative decentralized protocols",
+        "Eliminates dependency on traditional certificate authorities"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2405.07533",
+      "doi": "https://doi.org/10.48550/arXiv.2405.07533",
+      "downloaded": true,
+      "filename": "2405.07533_DID_Link_Authentication_TLS.pdf"
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2407.12536",
+      "title": "An Efficient TLS 1.3 Handshake Protocol with VC Certificate Type",
+      "authors": [
+        "Leonardo Perugini",
+        "Andrea Vesco"
+      ],
+      "publication_date": "2024-07-17",
+      "last_revised": "2025-05-21",
+      "year": 2025,
+      "institution": "Links Foundation (Italy)",
+      "abstract_summary": "Presents advancement in TLS handshake design incorporating Verifiable Credentials while maintaining RFC-8446 compliance and TLS 1.3 security features. Uses standard TLS 1.3 messages with minimal OpenSSL modifications.",
+      "relevance_score": 9,
+      "relevance_notes": "Directly relevant to TLS 1.3 authentication improvements, applicable to agent-to-agent mutual authentication with modern credential types.",
+      "key_findings": [
+        "Performance comparable to traditional PKI/X.509 solutions",
+        "Minimal modifications to OpenSSL required",
+        "Potential applications for decentralized identity in IoT"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2407.12536",
+      "arxiv_identifier": "2407.12536 [cs.CR]",
+      "downloaded": true,
+      "filename": "2407.12536_Efficient_TLS13_Handshake_VC.pdf"
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2401.10787",
+      "title": "Hybrid Online Certificate Status Protocol with Certificate Revocation List for Smart Grid Public Key Infrastructure",
+      "authors": [
+        "Hong-Sheng Huang",
+        "Zhe-Yi Jiang",
+        "Hsuan-Tung Chen",
+        "Hung-Min Sun"
+      ],
+      "publication_date": "2024-01-19",
+      "last_revised": "2024-12-02",
+      "year": 2024,
+      "institution": "National Tsing Hua University (Taiwan)",
+      "abstract_summary": "Proposes hybrid approach combining OCSP with Certificate Revocation Lists to distribute query workloads more effectively. Aims to improve system robustness and efficiency for infrastructure handling tens of thousands of meters.",
+      "relevance_score": 10,
+      "relevance_notes": "Directly addresses real-time certificate revocation performance, combining OCSP and CRL for scalable revocation checking - critical for topic requirements.",
+      "key_findings": [
+        "Hybrid OCSP-CRL approach decreases query resource demands",
+        "Increased efficiency demonstrated through simulations",
+        "Scalable to tens of thousands of devices"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2401.10787",
+      "doi": "https://doi.org/10.48550/arXiv.2401.10787",
+      "downloaded": true,
+      "filename": "2401.10787_Hybrid_OCSP_CRL_Smart_Grid.pdf"
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2411.01971",
+      "title": "Adaptive Optimization of TLS Overhead for Wireless Communication in Critical Infrastructure",
+      "authors": [
+        "Jörn Bodenhausen",
+        "Laurenz Grote",
+        "Michael Rademacher",
+        "Martin Henze"
+      ],
+      "publication_date": "2024-11-04",
+      "year": 2024,
+      "institution": "RWTH Aachen University (Germany)",
+      "conference": "2024 8th Cyber Security in Networking Conference (CSNet)",
+      "abstract_summary": "Proposes dynamically configuring TLS to adapt algorithms, parameters, and settings to best meet currently occurring resource and security constraints in wireless communication scenarios.",
+      "relevance_score": 8,
+      "relevance_notes": "Addresses TLS performance optimization for resource-constrained environments, relevant for agent systems with varying network conditions.",
+      "key_findings": [
+        "Dynamic TLS configuration adapts to resource constraints",
+        "Optimizes resource utilization while strengthening security",
+        "Applicable to critical infrastructure wireless networks"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2411.01971",
+      "arxiv_identifier": "2411.01971 [cs.CR, cs.NI]",
+      "downloaded": true,
+      "filename": "2411.01971_Adaptive_TLS_Optimization_Wireless.pdf"
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2404.06635",
+      "title": "Current Affairs: A Security Measurement Study of CCS EV Charging Deployments",
+      "authors": [
+        "Marcell Szakály",
+        "Sebastian Köhler",
+        "Ivan Martinovic"
+      ],
+      "publication_date": "2024-04-09",
+      "last_revised": "2025-02-03",
+      "year": 2025,
+      "institution": "University of Oxford (UK)",
+      "abstract_summary": "First comprehensive security evaluation of publicly deployed CCS DC charging stations across 4 European countries, analyzing 325 chargers from 26 manufacturers. Only 12% implement TLS security, with significant PKI flaws identified.",
+      "relevance_score": 8,
+      "relevance_notes": "Real-world measurement study of TLS and certificate revocation (OCSP, CRL) deployment in critical infrastructure, highlighting practical challenges.",
+      "key_findings": [
+        "Only 12% of chargers implement TLS security",
+        "OCSP and CRL mechanisms examined in production deployments",
+        "Significant flaws in PKI implementation identified"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2404.06635",
+      "downloaded": true,
+      "filename": "2404.06635_Security_CCS_EV_Charging.pdf"
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2406.11511",
+      "title": "Decentralized Credential Status Management: A Paradigm Shift in Digital Trust",
+      "authors": [
+        "Patrick Herbke",
+        "Thomas Cory",
+        "Mauro Migliardi"
+      ],
+      "publication_date": "2024-06-17",
+      "last_revised": "2024-09-20",
+      "year": 2024,
+      "institution": "University of Padua (Italy)",
+      "conference": "BRAINS 2024 (6th Conference on Blockchain Research & Applications)",
+      "abstract_summary": "Examines transition from centralized to decentralized certificate status management. Blockchain technologies enhance security and trust distribution but face computational bottlenecks.",
+      "relevance_score": 7,
+      "relevance_notes": "Addresses decentralized approaches to certificate status checking, relevant for distributed agent systems without central authority.",
+      "key_findings": [
+        "Blockchain enhances security and trust distribution",
+        "Computational bottlenecks identified in parallel computation",
+        "Framework proposed to address decentralization limitations"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2406.11511",
+      "doi": "https://doi.org/10.48550/arXiv.2406.11511",
+      "downloaded": true,
+      "filename": "2406.11511_Decentralized_Credential_Status.pdf"
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2501.17089",
+      "title": "CRSet: Private Non-Interactive Verifiable Credential Revocation",
+      "authors": [
+        "Felix Hoops",
+        "Jonas Gebele",
+        "Florian Matthes"
+      ],
+      "publication_date": "2025-01-28",
+      "last_revised": "2025-09-17",
+      "year": 2025,
+      "institution": "Technical University of Munich (Germany)",
+      "abstract_summary": "Addresses privacy gaps in credential revocation systems. Current solutions like Bitstring Status List can expose issuer activity metrics. CRSet leverages Ethereum blob transactions for secure data publishing with local revocation checks.",
+      "relevance_score": 9,
+      "relevance_notes": "Novel approach to privacy-preserving certificate revocation, highly relevant for agent systems requiring non-interactive revocation checking.",
+      "key_findings": [
+        "Non-interactive revocation mechanism preserving privacy",
+        "One Ethereum blob fits revocation data for ~170k VCs",
+        "Trades space efficiency for enhanced privacy characteristics"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2501.17089",
+      "arxiv_identifier": "2501.17089 [cs.CR]",
+      "downloaded": true,
+      "filename": "2501.17089_CRSet_Private_Credential_Revocation.pdf"
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2407.07444",
+      "title": "EDHOC is a New Security Handshake Standard: An Overview of Security Analysis",
+      "authors": [
+        "Elsa López Pérez",
+        "Göran Selander",
+        "John Preuß Mattsson",
+        "Thomas Watteyne",
+        "Mališa Vučinić"
+      ],
+      "publication_date": "2024-07-10",
+      "year": 2024,
+      "institution": "Inria (France), Ericsson (Sweden)",
+      "journal_reference": "IEEE Computer Society, 2024",
+      "abstract_summary": "Summarizes standardized EDHOC protocol, reviews formal security analyses, and identifies potential directions for future investigation.",
+      "relevance_score": 7,
+      "relevance_notes": "EDHOC is lightweight alternative to TLS handshake for constrained environments, relevant for IoT agent authentication scenarios.",
+      "key_findings": [
+        "Comprehensive security analysis of EDHOC standard",
+        "Formal verification of handshake protocol",
+        "Alternative to TLS for constrained devices"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2407.07444",
+      "doi": "https://doi.org/10.48550/arXiv.2407.07444",
+      "downloaded": true,
+      "filename": "2407.07444_EDHOC_Security_Handshake.pdf"
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2502.17202",
+      "title": "Quantum-Safe integration of TLS in SDN networks",
+      "authors": [
+        "Jaime S. Buruaga",
+        "Ruben B. Méndez",
+        "Juan P. Brito",
+        "Vicente Martin"
+      ],
+      "publication_date": "2025-02-24",
+      "year": 2025,
+      "institution": "Universidad Politécnica de Madrid (Spain)",
+      "abstract_summary": "Addresses quantum computing vulnerability of current PKI. Proposes hybridizing classical, quantum, and post-quantum cryptographic approaches within TLS for SDN. Features QKD key extraction, rekeying, crypto-agility, and backward compatibility.",
+      "relevance_score": 8,
+      "relevance_notes": "Forward-looking approach to TLS security with post-quantum cryptography, important for long-term agent authentication security.",
+      "key_findings": [
+        "Hybrid classical-quantum-post-quantum TLS implementation",
+        "QKD integration with TLS in production infrastructure",
+        "Crypto-agility with backward compatibility"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2502.17202",
+      "arxiv_identifier": "2502.17202 [quant-ph]",
+      "downloaded": true,
+      "filename": "2502.17202_Quantum_Safe_TLS_SDN.pdf"
+    }
+  ],
+  "archived_papers": [
+    {
+      "arxiv_id": "2203.02280",
+      "title": "Postcertificates for Revocation Transparency",
+      "authors": ["Nikita Korzhitskii", "Matus Nemec", "Niklas Carlsson"],
+      "publication_date": "2022-03-03",
+      "year": 2022,
+      "relevance_notes": "Certificate transparency and revocation protocol using postcertificates",
+      "pdf_url": "https://arxiv.org/pdf/2203.02280"
+    },
+    {
+      "arxiv_id": "2504.16897",
+      "title": "Assessing SSL/TLS Certificate Centralization: Implications for Digital Sovereignty",
+      "authors": ["Andrei Cordova Azevedo", "Eder John Scheid", "Muriel Figueredo Franco", "Lisandro Zambenedetti Granville"],
+      "publication_date": "2025-04-23",
+      "year": 2025,
+      "relevance_notes": "SSL/TLS certificate authority centralization analysis",
+      "pdf_url": "https://arxiv.org/pdf/2504.16897"
+    },
+    {
+      "arxiv_id": "2504.12062",
+      "title": "A Scalable Framework for Post-Quantum Authentication in Public Key Infrastructures",
+      "authors": ["Antonia Tsili", "Konstantinos Kordolaimis", "Konstantinos Krilakis", "Dimitris Syvridis"],
+      "publication_date": "2025-04-16",
+      "year": 2025,
+      "conference": "2025 International Conference on Quantum Communications, Networking, and Computing (QCNC)",
+      "relevance_notes": "Post-quantum cryptography in PKI, tested SPHINCS+, Falcon, Dilithium",
+      "pdf_url": "https://arxiv.org/pdf/2504.12062"
+    },
+    {
+      "arxiv_id": "2407.04536",
+      "title": "Blockchain-based PKI within a Corporate Organization: Advantages and Challenges",
+      "authors": ["Julian Springer", "Philipp Haindl"],
+      "publication_date": "2024-07-05",
+      "year": 2024,
+      "relevance_notes": "Blockchain-based PKI for decentralized trust anchor",
+      "pdf_url": "https://arxiv.org/pdf/2407.04536"
+    },
+    {
+      "arxiv_id": "2503.11659",
+      "title": "Zero Trust Architecture: A Systematic Literature Review",
+      "authors": ["Muhammad Liman Gambo", "Ahmad Almulhem"],
+      "publication_date": "2025-02-07",
+      "last_revised": "2025-03-21",
+      "year": 2025,
+      "relevance_notes": "Systematic review of ZTA 2016-2025, includes service mesh mTLS",
+      "pdf_url": "https://arxiv.org/pdf/2503.11659"
+    },
+    {
+      "arxiv_id": "2411.12162",
+      "title": "Microsegmented Cloud Network Architecture Using Open-Source Tools for a Zero Trust Foundation",
+      "authors": ["Sunil Arora", "John Hastings"],
+      "publication_date": "2024-11-19",
+      "year": 2024,
+      "conference": "2024 17th IEEE International Conference on Security of Information and Networks (SIN 2024)",
+      "relevance_notes": "Zero trust micro-segmentation with authentication and encryption in transit",
+      "pdf_url": "https://arxiv.org/pdf/2411.12162"
+    },
+    {
+      "arxiv_id": "2408.02179",
+      "title": "X.509 Information Security Certification Based on Post-Quantum Cryptography",
+      "authors": ["Abel C. H. Chen"],
+      "publication_date": "2024-08-05",
+      "year": 2024,
+      "relevance_notes": "X.509 certificates with PQC (Falcon, Dilithium, SPHINCS+)",
+      "pdf_url": "https://arxiv.org/pdf/2408.02179"
+    },
+    {
+      "arxiv_id": "2405.05206",
+      "title": "Anomaly Detection in Certificate Transparency Logs",
+      "authors": ["Richard Ostertág", "Martin Stanek"],
+      "publication_date": "2024-05-08",
+      "year": 2024,
+      "relevance_notes": "Anomaly detection for X.509 certificates using Isolation Forest",
+      "pdf_url": "https://arxiv.org/pdf/2405.05206"
+    },
+    {
+      "arxiv_id": "2511.00111",
+      "title": "A Comparative Study of Hybrid Post-Quantum Cryptographic X.509 Certificate Schemes",
+      "authors": ["Abel C. H. Chen"],
+      "publication_date": "2025-10-30",
+      "year": 2025,
+      "relevance_notes": "Hybrid X.509 certificates: composite, catalyst, chameleon schemes",
+      "pdf_url": "https://arxiv.org/pdf/2511.00111"
+    },
+    {
+      "arxiv_id": "2410.12190",
+      "title": "LPUF-AuthNet: A Lightweight PUF-Based IoT Authentication via Tandem Neural Networks and Split Learning",
+      "authors": ["Brahim Mefgouda", "Raviha Khan", "Omar Alhussein", "Hani Saleh", "Hossien B. Eldeeb", "Anshul Pandey", "Sami Muhaidat"],
+      "publication_date": "2024-10-16",
+      "year": 2024,
+      "conference": "IEEE Globecom 2024",
+      "relevance_notes": "Lightweight authentication for IoT devices using PUF",
+      "pdf_url": "https://arxiv.org/pdf/2410.12190"
+    },
+    {
+      "arxiv_id": "2404.13544",
+      "title": "Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and Assessment",
+      "authors": ["Jieyu Zheng", "Haoliang Zhu", "Yifan Dong", "Zhenyu Song", "Zhenhao Zhang", "Yafang Yang", "Yunlei Zhao"],
+      "publication_date": "2024-04-21",
+      "year": 2024,
+      "relevance_notes": "Post-quantum TLS 1.3 optimization using ML-KEM with AVX-512",
+      "pdf_url": "https://arxiv.org/pdf/2404.13544"
+    },
+    {
+      "arxiv_id": "2102.04288",
+      "title": "Revocation Statuses on the Internet",
+      "authors": ["Multiple authors"],
+      "publication_date": "2021-02-08",
+      "year": 2021,
+      "relevance_notes": "Longitudinal study of CRL and OCSP revocation status",
+      "pdf_url": "https://arxiv.org/pdf/2102.04288"
+    },
+    {
+      "arxiv_id": "1704.04937",
+      "title": "Certificate Transparency with Enhancements and Short Proofs",
+      "authors": ["Multiple authors"],
+      "publication_date": "2017-04-17",
+      "year": 2017,
+      "relevance_notes": "Certificate transparency with efficient revocation",
+      "pdf_url": "https://arxiv.org/pdf/1704.04937"
+    },
+    {
+      "arxiv_id": "1806.03914",
+      "title": "CertLedger: A New PKI Model with Certificate Transparency Based on Blockchain",
+      "authors": ["Multiple authors"],
+      "publication_date": "2018-06-11",
+      "year": 2018,
+      "relevance_notes": "Blockchain-based certificate transparency and revocation",
+      "pdf_url": "https://arxiv.org/pdf/1806.03914"
+    },
+    {
+      "arxiv_id": "2311.18674",
+      "title": "LiteQSign: Lightweight and Quantum-Safe Signatures for Heterogeneous IoT Applications",
+      "authors": ["Multiple authors"],
+      "publication_date": "2023-11-30",
+      "last_revised": "2025-05-xx",
+      "year": 2025,
+      "relevance_notes": "Lightweight post-quantum signatures for IoT",
+      "pdf_url": "https://arxiv.org/pdf/2311.18674"
+    },
+    {
+      "arxiv_id": "2405.03955",
+      "title": "IPFed: Identity protected federated learning for user authentication",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-05-06",
+      "year": 2024,
+      "relevance_notes": "Privacy-preserving federated authentication",
+      "pdf_url": "https://arxiv.org/pdf/2405.03955"
+    },
+    {
+      "arxiv_id": "2512.01832",
+      "title": "A Privacy-Preserving Information-Sharing Protocol for Federated Authentication",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-12-xx",
+      "year": 2025,
+      "relevance_notes": "Privacy-preserving federated authentication using OPRFs",
+      "pdf_url": "https://arxiv.org/pdf/2512.01832"
+    },
+    {
+      "arxiv_id": "2404.09681",
+      "title": "Dissecting Open Edge Computing Platforms: Ecosystem, Usage, and Security Risks",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-04-15",
+      "year": 2024,
+      "relevance_notes": "TLS security vulnerabilities in edge computing platforms",
+      "pdf_url": "https://arxiv.org/pdf/2404.09681"
+    },
+    {
+      "arxiv_id": "2210.12610",
+      "title": "Partially Trusting the Service Mesh Control Plane",
+      "authors": ["Multiple authors"],
+      "publication_date": "2022-10-22",
+      "year": 2022,
+      "relevance_notes": "Service mesh security and control plane trust",
+      "pdf_url": "https://arxiv.org/pdf/2210.12610"
+    },
+    {
+      "arxiv_id": "2502.10281",
+      "title": "TrustZero - open, verifiable and scalable zero-trust",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-02-xx",
+      "year": 2025,
+      "relevance_notes": "Zero trust architecture for scalable systems",
+      "pdf_url": "https://arxiv.org/pdf/2502.10281"
+    },
+    {
+      "arxiv_id": "2012.15351",
+      "title": "A Decentralized Dynamic PKI based on Blockchain",
+      "authors": ["Multiple authors"],
+      "publication_date": "2020-12-30",
+      "year": 2020,
+      "relevance_notes": "Decentralized PKI without traditional CAs",
+      "pdf_url": "https://arxiv.org/pdf/2012.15351"
+    },
+    {
+      "arxiv_id": "2207.09127",
+      "title": "Smart Contract Assisted Blockchain based PKI System",
+      "authors": ["Multiple authors"],
+      "publication_date": "2022-07-19",
+      "year": 2022,
+      "relevance_notes": "Smart contract-based PKI implementation",
+      "pdf_url": "https://arxiv.org/pdf/2207.09127"
+    },
+    {
+      "arxiv_id": "1705.06903",
+      "title": "Optimized Certificate Revocation List Distribution for Secure V2X Communications",
+      "authors": ["Multiple authors"],
+      "publication_date": "2017-05-19",
+      "year": 2017,
+      "relevance_notes": "CRL distribution optimization for V2X",
+      "pdf_url": "https://arxiv.org/pdf/1705.06903"
+    },
+    {
+      "arxiv_id": "2507.01465",
+      "title": "Pruning the Tree: Rethinking RPKI Architecture From The Ground Up",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-07-xx",
+      "year": 2025,
+      "relevance_notes": "RPKI performance optimization, 70% time on certificate parsing",
+      "pdf_url": "https://arxiv.org/pdf/2507.01465"
+    },
+    {
+      "arxiv_id": "2208.03951",
+      "title": "One-Time Certificates for Reliable and Secure Document Signing",
+      "authors": ["Multiple authors"],
+      "publication_date": "2022-08-08",
+      "year": 2022,
+      "relevance_notes": "OCSP network load and DoS concerns",
+      "pdf_url": "https://arxiv.org/pdf/2208.03951"
+    },
+    {
+      "arxiv_id": "2503.22010",
+      "title": "Towards Privacy-Preserving Revocation of Verifiable Credentials with Time-Flexibility",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-03-xx",
+      "year": 2025,
+      "relevance_notes": "Privacy-preserving credential revocation",
+      "pdf_url": "https://arxiv.org/pdf/2503.22010"
+    },
+    {
+      "arxiv_id": "2510.10436",
+      "title": "Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-10-xx",
+      "year": 2024,
+      "relevance_notes": "Comprehensive PQC survey including TLS integration",
+      "pdf_url": "https://arxiv.org/pdf/2510.10436"
+    },
+    {
+      "arxiv_id": "2409.17670",
+      "title": "A Comprehensive Review of TLSNotary Protocol",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-09-26",
+      "year": 2024,
+      "relevance_notes": "TLS protocol review and analysis",
+      "pdf_url": "https://arxiv.org/pdf/2409.17670"
+    },
+    {
+      "arxiv_id": "2212.14422",
+      "title": "Security, Privacy and Challenges in Microservices Architecture and Cloud Computing- Survey",
+      "authors": ["Multiple authors"],
+      "publication_date": "2022-12-28",
+      "year": 2022,
+      "relevance_notes": "Microservices security challenges including authentication",
+      "pdf_url": "https://arxiv.org/pdf/2212.14422"
+    },
+    {
+      "arxiv_id": "2401.17538",
+      "title": "Post-Quantum Cryptography for Internet of Things: A Survey on Performance and Optimization",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-01-30",
+      "year": 2024,
+      "relevance_notes": "PQC performance for IoT devices",
+      "pdf_url": "https://arxiv.org/pdf/2401.17538"
+    },
+    {
+      "arxiv_id": "1901.11520",
+      "title": "An Extensive Formal Security Analysis of the OpenID Financial-grade API",
+      "authors": ["Multiple authors"],
+      "publication_date": "2019-01-31",
+      "year": 2019,
+      "relevance_notes": "mTLS in OAuth 2.0 and financial-grade API security",
+      "pdf_url": "https://arxiv.org/pdf/1901.11520"
+    },
+    {
+      "arxiv_id": "cs/9909012",
+      "title": "Certificate Revocation Paradigms",
+      "authors": ["Multiple authors"],
+      "publication_date": "1999-09-xx",
+      "year": 1999,
+      "relevance_notes": "Foundational certificate revocation paradigms",
+      "pdf_url": "https://arxiv.org/pdf/cs/9909012"
+    },
+    {
+      "arxiv_id": "1902.04255",
+      "title": "Communication-efficient Certificate Revocation Management for Advanced Metering Infrastructure and IoT",
+      "authors": ["Multiple authors"],
+      "publication_date": "2019-02-11",
+      "year": 2019,
+      "relevance_notes": "Efficient certificate revocation for IoT",
+      "pdf_url": "https://arxiv.org/pdf/1902.04255"
+    },
+    {
+      "arxiv_id": "2506.11950",
+      "title": "Secure API-Driven Research Automation to Accelerate Scientific Discovery",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-06-xx",
+      "year": 2025,
+      "relevance_notes": "API security with authorization tokens and encryption",
+      "pdf_url": "https://arxiv.org/pdf/2506.11950"
+    },
+    {
+      "arxiv_id": "2411.13441",
+      "title": "A Case Study of API Design for Interoperability and Security of the Internet of Things",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-11-20",
+      "year": 2024,
+      "conference": "2nd EAI International Conference on Security and Privacy in Cyber-Physical Systems and Smart Vehicles (SmartSP 2024)",
+      "relevance_notes": "API design for IoT security and interoperability",
+      "pdf_url": "https://arxiv.org/pdf/2411.13441"
+    },
+    {
+      "arxiv_id": "2501.17732",
+      "title": "Gateways for Institutional-Grade Commerce and Interoperability of Digital Assets",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-01-28",
+      "year": 2025,
+      "relevance_notes": "Service APIs for security and business cost savings",
+      "pdf_url": "https://arxiv.org/pdf/2501.17732"
+    },
+    {
+      "arxiv_id": "2504.19997",
+      "title": "Simplified and Secure MCP Gateways",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-04-xx",
+      "year": 2025,
+      "relevance_notes": "MCP gateway authentication and authorization",
+      "pdf_url": "https://arxiv.org/pdf/2504.19997"
+    },
+    {
+      "arxiv_id": "2510.21236",
+      "title": "Securing AI Agent Execution",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-10-xx",
+      "year": 2024,
+      "relevance_notes": "AI agent security and execution",
+      "pdf_url": "https://arxiv.org/pdf/2510.21236"
+    },
+    {
+      "arxiv_id": "2408.03960",
+      "title": "Microservice Vulnerability Analysis: A Literature Review with Empirical Insights",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-08-07",
+      "year": 2024,
+      "relevance_notes": "API gateway misconfigurations and vulnerabilities",
+      "pdf_url": "https://arxiv.org/pdf/2408.03960"
+    },
+    {
+      "arxiv_id": "2402.02455",
+      "title": "A Survey on Decentralized Identifiers and Verifiable Credentials",
+      "authors": ["Multiple authors"],
+      "publication_date": "2024-02-04",
+      "last_revised": "2025-04-xx",
+      "year": 2025,
+      "relevance_notes": "DID and verifiable credentials survey",
+      "pdf_url": "https://arxiv.org/pdf/2402.02455"
+    },
+    {
+      "arxiv_id": "2505.19301",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-05-xx",
+      "year": 2025,
+      "relevance_notes": "Zero-trust identity for AI agents",
+      "pdf_url": "https://arxiv.org/pdf/2505.19301"
+    },
+    {
+      "arxiv_id": "2503.15964",
+      "title": "Are We There Yet? A Study of Decentralized Identity Applications",
+      "authors": ["Multiple authors"],
+      "publication_date": "2025-03-xx",
+      "year": 2025,
+      "relevance_notes": "Decentralized identity applications study",
+      "pdf_url": "https://arxiv.org/pdf/2503.15964"
+    },
+    {
+      "arxiv_id": "2207.02207",
+      "title": "None Shall Pass: A blockchain-based federated identity management system",
+      "authors": ["Multiple authors"],
+      "publication_date": "2022-07-05",
+      "year": 2022,
+      "relevance_notes": "Blockchain-based federated identity",
+      "pdf_url": "https://arxiv.org/pdf/2207.02207"
+    }
+  ],
+  "key_themes_identified": [
+    "mTLS performance in service mesh architectures (Istio, Linkerd, Cilium)",
+    "Real-time certificate revocation (OCSP, CRL, hybrid approaches)",
+    "Post-quantum cryptography integration in TLS and PKI",
+    "Decentralized identity and authentication (DID, verifiable credentials)",
+    "Lightweight authentication for IoT and constrained devices",
+    "Zero trust architecture and micro-segmentation",
+    "Blockchain-based PKI and certificate transparency",
+    "Privacy-preserving credential revocation",
+    "Edge computing security and TLS deployment challenges",
+    "Service-to-service authentication in microservices"
+  ],
+  "geographic_distribution": {
+    "2024_2025_papers": {
+      "United_States": 2,
+      "Germany": 5,
+      "Israel": 1,
+      "Taiwan": 1,
+      "Italy": 2,
+      "UK": 1,
+      "Spain": 1,
+      "France": 1,
+      "China": 1
+    },
+    "prioritization_note": "US institutions: 2 papers; European institutions dominate recent research with 12+ papers from Germany, UK, Italy, Spain, France"
+  },
+  "research_gaps_identified": [
+    "Limited real-world performance data on OCSP stapling vs traditional OCSP",
+    "Scalability challenges in blockchain-based revocation systems",
+    "Integration patterns for mTLS in heterogeneous agent systems",
+    "Real-time revocation checking latency in high-throughput environments",
+    "Privacy vs performance trade-offs in credential revocation",
+    "Standardization gaps in decentralized certificate management"
+  ],
+  "implementation_recommendations": [
+    "Hybrid OCSP-CRL approach for scalable revocation (2401.10787)",
+    "Service mesh mTLS with sidecarless architecture for performance (2411.02267)",
+    "Post-quantum crypto-agility in TLS implementations (2502.17202, 2404.13544)",
+    "Non-interactive revocation checking for privacy (2501.17089)",
+    "Verifiable credentials in TLS 1.3 for decentralized identity (2407.12536, 2405.07533)"
+  ],
+  "notes": [
+    "Search conducted on 2025-12-25, covering papers primarily from 2024-2025",
+    "European institutions (particularly Germany) lead in recent mTLS and PKI research",
+    "Strong focus on post-quantum cryptography integration across all certificate-based systems",
+    "Real-world deployment studies (EV charging, edge computing) reveal significant gaps in TLS implementation",
+    "Trend toward decentralized and privacy-preserving certificate management",
+    "Service mesh mTLS performance remains active research area with significant overhead variations"
+  ]
+}

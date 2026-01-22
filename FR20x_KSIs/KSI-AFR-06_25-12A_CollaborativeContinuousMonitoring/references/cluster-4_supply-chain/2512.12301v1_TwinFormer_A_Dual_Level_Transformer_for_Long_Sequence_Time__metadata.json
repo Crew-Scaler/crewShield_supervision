@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.12301v1",
+  "title": "TwinFormer: A Dual-Level Transformer for Long-Sequence Time-Series Forecasting",
+  "authors": [
+    "Mahima Kumavat",
+    "Aditya Maheshwari"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.12301v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "TwinFormer is a hierarchical Transformer for long-sequence time-series forecasting. It divides the input into non-overlapping temporal patches and processes them in two stages: (1) a Local Informer with top-$k$ Sparse Attention models intra-patch dynamics, followed by mean pooling; (2) a Global Informer captures long-range inter-patch dependencies using the same top-$k$ attention. A lightweight GRU aggregates the globally contextualized patch tokens for direct multi-horizon prediction. The resul..."
+}

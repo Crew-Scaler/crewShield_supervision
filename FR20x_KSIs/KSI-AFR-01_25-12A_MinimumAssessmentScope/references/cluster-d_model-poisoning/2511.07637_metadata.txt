@@ -1,0 +1,21 @@
+Title: Private-RAG: Answering Multiple Queries with LLMs while Keeping Your Data Private
+
+Authors: Ruihan Wu, Erchi Wang, Zhiyuan Zhang, Yu-Xiang Wang
+
+
+Published: 2025-11-10
+
+Query ID: D-2.8
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 26
+
+URL: https://arxiv.org/pdf/2511.07637.pdf
+
+Abstract:
+Retrieval-augmented generation (RAG) enhances large language models (LLMs) by retrieving documents from an external corpus at inference time. When this corpus contains sensitive information, however, unprotected RAG systems are at risk of leaking private information. Prior work has introduced differential privacy (DP) guarantees for RAG, but only in single-query settings, which fall short of realistic usage. In this paper, we study the more practical multi-query setting and propose two DP-RAG al...
+
+Relevance Justification:
+Addresses RAG pipeline attacks

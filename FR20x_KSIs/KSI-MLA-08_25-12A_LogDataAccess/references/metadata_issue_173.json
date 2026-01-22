@@ -1,0 +1,2375 @@
+{
+  "campaign": "Issue 173 - KSI-MLA-08 LogDataAccess",
+  "execution_date": "2026-01-11T11:46:41.142885",
+  "total_green_papers": 136,
+  "criteria": {
+    "min_pages": 7,
+    "min_relevance": 80,
+    "min_year": 2024
+  },
+  "papers": [
+    {
+      "arxiv_id": "2512.08185",
+      "title": "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+      "authors": [
+        "Jinghao Wang",
+        "Ping Zhang",
+        "Carter Yagemann"
+      ],
+      "published": "2025-12-09T02:28:15Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating med"
+    },
+    {
+      "arxiv_id": "2509.18557",
+      "title": "LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs",
+      "authors": [
+        "Tom Pawelek",
+        "Raj Patel",
+        "Charlotte Crowell",
+        "Noorbakhsh Amiri",
+        "Sudip Mittal",
+        "Shahram Rahimi",
+        "Andy Perkins"
+      ],
+      "published": "2025-09-23T02:30:14Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Compared to traditional models, agentic AI represents a highly valuable target for potential attackers as they possess privileged access to data sources and API tools, which are traditionally not incorporated into classical agents. Unlike a typical software application residing in a Demilitarized Zone (DMZ), agentic LLMs consciously rely on nondeterministic behavior of the AI (only defining a final goal, leaving the path selection to LLM). This characteristic introduces substantial security risk"
+    },
+    {
+      "arxiv_id": "2508.01332",
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "authors": [
+        "Zhenhua Zou",
+        "Zhuotao Liu",
+        "Lepeng Zhao",
+        "Qiuyang Zhan"
+      ],
+      "published": "2025-08-02T11:59:21Z",
+      "relevance_score": 100,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and exp"
+    },
+    {
+      "arxiv_id": "2507.21157",
+      "title": "Unmasking Synthetic Realities in Generative AI: A Comprehensive Review of Adversarially Robust Deepfake Detection Systems",
+      "authors": [
+        "Naseem Khan",
+        "Tuan Nguyen",
+        "Amine Bermak",
+        "Issa Khalil"
+      ],
+      "published": "2025-07-24T22:05:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "The rapid advancement of Generative Artificial Intelligence has fueled deepfake proliferation-synthetic media encompassing fully generated content and subtly edited authentic material-posing challenges to digital security, misinformation mitigation, and identity preservation. This systematic review evaluates state-of-the-art deepfake detection methodologies, emphasizing reproducible implementations for transparency and validation. We delineate two core paradigms: (1) detection of fully synthetic"
+    },
+    {
+      "arxiv_id": "2512.14742",
+      "title": "Quantum-Augmented AI/ML for O-RAN: Hierarchical Threat Detection with Synergistic Intelligence and Interpretability (Technical Report)",
+      "authors": [
+        "Tan Le",
+        "Van Le",
+        "Sachin Shetty"
+      ],
+      "published": "2025-12-12T15:12:57Z",
+      "relevance_score": 90,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Open Radio Access Networks (O-RAN) enhance modularity and telemetry granularity but also widen the cybersecurity attack surface across disaggregated control, user and management planes. We propose a hierarchical defense framework with three coordinated layers-anomaly detection, intrusion confirmation, and multiattack classification-each aligned with O-RAN's telemetry stack. Our approach integrates hybrid quantum computing and machine learning, leveraging amplitude- and entanglement-based feature"
+    },
+    {
+      "arxiv_id": "2512.06390",
+      "title": "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+      "authors": [
+        "Mehrab Hosain",
+        "Sabbir Alom Shuvo",
+        "Matthew Ogbe",
+        "Md Shah Jalal Mazumder",
+        "Yead Rahman",
+        "Md Azizul Hakim",
+        "Anukul Pandey"
+      ],
+      "published": "2025-12-06T10:42:14Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "The modern web stack, which is dominated by browser-based applications and API-first backends, now operates under an adversarial equilibrium where automated, AI-assisted attacks evolve continuously. Content Delivery Networks (CDNs) and edge computing place programmable defenses closest to users and bots, making them natural enforcement points for machine-learning (ML) driven inspection, throttling, and isolation. This survey synthesizes the landscape of AI-enhanced defenses deployed at the edge:"
+    },
+    {
+      "arxiv_id": "2512.06390",
+      "title": "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+      "authors": [
+        "Mehrab Hosain",
+        "Sabbir Alom Shuvo",
+        "Matthew Ogbe",
+        "Md Shah Jalal Mazumder",
+        "Yead Rahman",
+        "Md Azizul Hakim",
+        "Anukul Pandey"
+      ],
+      "published": "2025-12-06T10:42:14Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "The modern web stack, which is dominated by browser-based applications and API-first backends, now operates under an adversarial equilibrium where automated, AI-assisted attacks evolve continuously. Content Delivery Networks (CDNs) and edge computing place programmable defenses closest to users and bots, making them natural enforcement points for machine-learning (ML) driven inspection, throttling, and isolation. This survey synthesizes the landscape of AI-enhanced defenses deployed at the edge:"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2510.01359",
+      "title": "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks",
+      "authors": [
+        "Shoumik Saha",
+        "Jifan Chen",
+        "Sam Mayers",
+        "Sanjay Krishna Gouda",
+        "Zijian Wang",
+        "Varun Kumar"
+      ],
+      "published": "2025-10-01T18:38:20Z",
+      "relevance_score": 90,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Code-capable large language model (LLM) agents are increasingly embedded into software engineering workflows where they can read, write, and execute code, raising the stakes of safety-bypass (\"jailbreak\") attacks beyond text-only settings. Prior evaluations emphasize refusal or harmful-text detection, leaving open whether agents actually compile and run malicious programs. We present JAWS-BENCH (Jailbreaks Across WorkSpaces), a benchmark spanning three escalating workspace regimes that mirror at"
+    },
+    {
+      "arxiv_id": "2509.23994",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-ti"
+    },
+    {
+      "arxiv_id": "2509.18557",
+      "title": "LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs",
+      "authors": [
+        "Tom Pawelek",
+        "Raj Patel",
+        "Charlotte Crowell",
+        "Noorbakhsh Amiri",
+        "Sudip Mittal",
+        "Shahram Rahimi",
+        "Andy Perkins"
+      ],
+      "published": "2025-09-23T02:30:14Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Compared to traditional models, agentic AI represents a highly valuable target for potential attackers as they possess privileged access to data sources and API tools, which are traditionally not incorporated into classical agents. Unlike a typical software application residing in a Demilitarized Zone (DMZ), agentic LLMs consciously rely on nondeterministic behavior of the AI (only defining a final goal, leaving the path selection to LLM). This characteristic introduces substantial security risk"
+    },
+    {
+      "arxiv_id": "2506.09562",
+      "title": "TooBadRL: Trigger Optimization to Boost Effectiveness of Backdoor Attacks on Deep Reinforcement Learning",
+      "authors": [
+        "Mingxuan Zhang",
+        "Oubo Ma",
+        "Kang Wei",
+        "Songze Li",
+        "Shouling Ji"
+      ],
+      "published": "2025-06-11T09:50:17Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Deep reinforcement learning (DRL) has achieved remarkable success in a wide range of sequential decision-making applications, including robotics, healthcare, smart grids, and finance. Recent studies reveal that adversaries can implant backdoors into DRL agents during the training phase. These backdoors can later be activated by specific triggers during deployment, compelling the agent to execute targeted actions and potentially leading to severe consequences, such as drone crashes or vehicle col"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    },
+    {
+      "arxiv_id": "2509.23994",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-ti"
+    },
+    {
+      "arxiv_id": "2508.19267",
+      "title": "The Aegis Protocol: A Foundational Security Framework for Autonomous AI Agents",
+      "authors": [
+        "Sai Teja Reddy Adapala",
+        "Yashwanth Reddy Alugubelly"
+      ],
+      "published": "2025-08-22T06:18:57Z",
+      "relevance_score": 95,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "The proliferation of autonomous AI agents marks a paradigm shift toward complex, emergent multi-agent systems. This transition introduces systemic security risks, including control-flow hijacking and cascading failures, that traditional cybersecurity paradigms are ill-equipped to address. This paper introduces the Aegis Protocol, a layered security framework designed to provide strong security guarantees for open agentic ecosystems. The protocol integrates three technological pillars: (1) non-sp"
+    },
+    {
+      "arxiv_id": "2508.01332",
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "authors": [
+        "Zhenhua Zou",
+        "Zhuotao Liu",
+        "Lepeng Zhao",
+        "Qiuyang Zhan"
+      ],
+      "published": "2025-08-02T11:59:21Z",
+      "relevance_score": 100,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and exp"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2512.18616",
+      "title": "DASH: Deception-Augmented Shared Mental Model for a Human-Machine Teaming System",
+      "authors": [
+        "Zelin Wan",
+        "Han Jun Yoon",
+        "Nithin Alluru",
+        "Terrence J. Moore",
+        "Frederica F. Nelson",
+        "Seunghyun Yoon",
+        "Hyuk Lim",
+        "Dan Dongseong Kim",
+        "Jin-Hee Cho"
+      ],
+      "published": "2025-12-21T06:20:48Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "We present DASH (Deception-Augmented Shared mental model for Human-machine teaming), a novel framework that enhances mission resilience by embedding proactive deception into Shared Mental Models (SMM). Designed for mission-critical applications such as surveillance and rescue, DASH introduces \"bait tasks\" to detect insider threats, e.g., compromised Unmanned Ground Vehicles (UGVs), AI agents, or human analysts, before they degrade team performance. Upon detection, tailored recovery mechanisms ar"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2512.22860",
+      "title": "Adaptive Trust Consensus for Blockchain IoT: Comparing RL, DRL, and MARL Against Naive, Collusive, Adaptive, Byzantine, and Sleeper Attacks",
+      "authors": [
+        "Soham Padia",
+        "Dhananjay Vaidya",
+        "Ramchandra Mangrulkar"
+      ],
+      "published": "2025-12-28T10:11:32Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 1,
+      "cluster_name": "AI Agent Identity Management",
+      "summary": "Securing blockchain-enabled IoT networks against sophisticated adversarial attacks remains a critical challenge. This paper presents a trust-based delegated consensus framework integrating Fully Homomorphic Encryption (FHE) with Attribute-Based Access Control (ABAC) for privacy-preserving policy evaluation, combined with learning-based defense mechanisms. We systematically compare three reinforcement learning approaches -- tabular Q-learning (RL), Deep RL with Dueling Double DQN (DRL), and Multi"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2512.08185",
+      "title": "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+      "authors": [
+        "Jinghao Wang",
+        "Ping Zhang",
+        "Carter Yagemann"
+      ],
+      "published": "2025-12-09T02:28:15Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating med"
+    },
+    {
+      "arxiv_id": "2509.24127",
+      "title": "Transparent, Evaluable, and Accessible Data Agents: A Proof-of-Concept Framework",
+      "authors": [
+        "Nooshin Bahador"
+      ],
+      "published": "2025-09-28T23:54:41Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "This article presents a modular, component-based architecture for developing and evaluating AI agents that bridge the gap between natural language interfaces and complex enterprise data warehouses. The system directly addresses core challenges in data accessibility by enabling non-technical users to interact with complex data warehouses through a conversational interface, translating ambiguous user intent into precise, executable database queries to overcome semantic gaps. A cornerstone of the d"
+    },
+    {
+      "arxiv_id": "2509.18557",
+      "title": "LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs",
+      "authors": [
+        "Tom Pawelek",
+        "Raj Patel",
+        "Charlotte Crowell",
+        "Noorbakhsh Amiri",
+        "Sudip Mittal",
+        "Shahram Rahimi",
+        "Andy Perkins"
+      ],
+      "published": "2025-09-23T02:30:14Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Compared to traditional models, agentic AI represents a highly valuable target for potential attackers as they possess privileged access to data sources and API tools, which are traditionally not incorporated into classical agents. Unlike a typical software application residing in a Demilitarized Zone (DMZ), agentic LLMs consciously rely on nondeterministic behavior of the AI (only defining a final goal, leaving the path selection to LLM). This characteristic introduces substantial security risk"
+    },
+    {
+      "arxiv_id": "2509.14956",
+      "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+      "authors": [
+        "Diego Gosmar",
+        "Deborah A. Dahl"
+      ],
+      "published": "2025-09-18T13:39:59Z",
+      "relevance_score": 95,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "This paper proposes a novel architectural framework aimed at enhancing security and reliability in multi-agent systems (MAS). A central component of this framework is a network of Sentinel Agents, functioning as a distributed security layer that integrates techniques such as semantic analysis via large language models (LLMs), behavioral analytics, retrieval-augmented verification, and cross-agent anomaly detection. Such agents can potentially oversee inter-agent communications, identify potentia"
+    },
+    {
+      "arxiv_id": "2508.01332",
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "authors": [
+        "Zhenhua Zou",
+        "Zhuotao Liu",
+        "Lepeng Zhao",
+        "Qiuyang Zhan"
+      ],
+      "published": "2025-08-02T11:59:21Z",
+      "relevance_score": 100,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and exp"
+    },
+    {
+      "arxiv_id": "2506.10171",
+      "title": "Beyond Jailbreaking: Auditing Contextual Privacy in LLM Agents",
+      "authors": [
+        "Saswat Das",
+        "Jameson Sandler",
+        "Ferdinando Fioretto"
+      ],
+      "published": "2025-06-11T20:47:37Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "LLM agents have begun to appear as personal assistants, customer service bots, and clinical aides. While these applications deliver substantial operational benefits, they also require continuous access to sensitive data, which increases the likelihood of unauthorized disclosures. Moreover, these disclosures go beyond mere explicit disclosure, leaving open avenues for gradual manipulation or sidechannel information leakage. This study proposes an auditing framework for conversational privacy that"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2601.00848",
+      "title": "Temporal Attack Pattern Detection in Multi-Agent AI Workflows: An Open Framework for Training Trace-Based Security Models",
+      "authors": [
+        "Ron F. Del Rosario"
+      ],
+      "published": "2025-12-29T09:41:22Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "We present an openly documented methodology for fine-tuning language models to detect temporal attack patterns in multi-agent AI workflows using OpenTelemetry trace analysis. We curate a dataset of 80,851 examples from 18 public cybersecurity sources and 35,026 synthetic OpenTelemetry traces. We apply iterative QLoRA fine-tuning on resource-constrained ARM64 hardware (NVIDIA DGX Spark) through three training iterations with strategic augmentation. Our custom benchmark accuracy improves from 42.8"
+    },
+    {
+      "arxiv_id": "2512.15777",
+      "title": "Variable Record Table: A Unified Hardware-Assisted Framework for Runtime Security",
+      "authors": [
+        "Suraj Kumar Sah",
+        "Love Kumar Sah"
+      ],
+      "published": "2025-12-14T07:04:49Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Modern computing systems face security threats, including memory corruption attacks, speculative execution vulnerabilities, and control-flow hijacking. Although existing solutions address these threats individually, they frequently introduce performance overhead and leave security gaps. This paper presents a Variable Record Table (VRT) with a unified hardware-assisted framework that simultaneously enforces spatial memory safety against buffer overflows, back-edge control-flow integrity (CFI), an"
+    },
+    {
+      "arxiv_id": "2512.06243",
+      "title": "Quantization Blindspots: How Model Compression Breaks Backdoor Defenses",
+      "authors": [
+        "Rohan Pandey",
+        "Eric Ye"
+      ],
+      "published": "2025-12-06T02:04:32Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Backdoor attacks embed input-dependent malicious behavior into neural networks while preserving high clean accuracy, making them a persistent threat for deployed ML systems. At the same time, real-world deployments almost never serve full-precision models: post-training quantization to INT8 or lower precision is now standard practice for reducing memory and latency. This work asks a simple question: how do existing backdoor defenses behave under standard quantization pipelines? We conduct a syst"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 2,
+      "cluster_name": "Real-Time Log Access Control",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.03304",
+      "title": "AI-Driven Cybersecurity Threats: A Survey of Emerging Risks and Defensive Strategies",
+      "authors": [
+        "Sai Teja Erukude",
+        "Viswa Chaitanya Marella",
+        "Suhasnadh Reddy Veluru"
+      ],
+      "published": "2026-01-06T05:09:40Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Artificial Intelligence's dual-use nature is revolutionizing the cybersecurity landscape, introducing new threats across four main categories: deepfakes and synthetic media, adversarial AI attacks, automated malware, and AI-powered social engineering. This paper aims to analyze emerging risks, attack mechanisms, and defense shortcomings related to AI in cybersecurity. We introduce a comparative taxonomy connecting AI capabilities with threat modalities and defenses, review over 70 academic and i"
+    },
+    {
+      "arxiv_id": "2601.02410",
+      "title": "The Vibe-Check Protocol: Quantifying Cognitive Offloading in AI Programming",
+      "authors": [
+        "Aizierjiang Aiersilan"
+      ],
+      "published": "2026-01-02T06:13:41Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "The integration of Large Language Models (LLMs) into software engineering education has driven the emergence of ``Vibe Coding,'' a paradigm where developers articulate high-level intent through natural language and delegate implementation to AI agents. While proponents argue this approach modernizes pedagogy by emphasizing conceptual design over syntactic memorization, accumulating empirical evidence raises concerns regarding skill retention and deep conceptual understanding. This paper proposes"
+    },
+    {
+      "arxiv_id": "2601.00367",
+      "title": "PatchBlock: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices",
+      "authors": [
+        "Nandish Chattopadhyay",
+        "Abdul Basit",
+        "Amira Guesmi",
+        "Muhammad Abdullah Hanif",
+        "Bassem Ouni",
+        "Muhammad Shafique"
+      ],
+      "published": "2026-01-01T15:04:16Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Adversarial attacks pose a significant challenge to the reliable deployment of machine learning models in EdgeAI applications, such as autonomous driving and surveillance, which rely on resource-constrained devices for real-time inference. Among these, patch-based adversarial attacks, where small malicious patches (e.g., stickers) are applied to objects, can deceive neural networks into making incorrect predictions with potentially severe consequences. In this paper, we present PatchBlock, a lig"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2509.23994",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-ti"
+    },
+    {
+      "arxiv_id": "2508.16419",
+      "title": "LLM-GUARD: Large Language Model-Based Detection and Repair of Bugs and Security Vulnerabilities in C++ and Python",
+      "authors": [
+        "Akshay Mhatre",
+        "Noujoud Nader",
+        "Patrick Diehl",
+        "Deepti Gupta"
+      ],
+      "published": "2025-08-22T14:30:24Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Large Language Models (LLMs) such as ChatGPT-4, Claude 3, and LLaMA 4 are increasingly embedded in software/application development, supporting tasks from code generation to debugging. Yet, their real-world effectiveness in detecting diverse software bugs, particularly complex, security-relevant vulnerabilities, remains underexplored. This study presents a systematic, empirical evaluation of these three leading LLMs using a benchmark of foundational programming errors, classic security flaws, an"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2512.21482",
+      "title": "LogicLens: Visual-Logical Co-Reasoning for Text-Centric Forgery Analysis",
+      "authors": [
+        "Fanwei Zeng",
+        "Changtao Miao",
+        "Jing Huang",
+        "Zhiya Tan",
+        "Shutao Gong",
+        "Xiaoming Yu",
+        "Yang Wang",
+        "Huazhe Tan",
+        "Weibin Yao",
+        "Jianshu Li"
+      ],
+      "published": "2025-12-25T03:02:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Sophisticated text-centric forgeries, fueled by rapid AIGC advancements, pose a significant threat to societal security and information authenticity. Current methods for text-centric forgery analysis are often limited to coarse-grained visual analysis and lack the capacity for sophisticated reasoning. Moreover, they typically treat detection, grounding, and explanation as discrete sub-tasks, overlooking their intrinsic relationships for holistic performance enhancement. To address these challeng"
+    },
+    {
+      "arxiv_id": "2601.05150",
+      "title": "$PC^2$: Politically Controversial Content Generation via Jailbreaking Attacks on GPT-based Text-to-Image Models",
+      "authors": [
+        "Wonwoo Choi",
+        "Minjae Seo",
+        "Minkyoo Song",
+        "Hwanjo Heo",
+        "Seungwon Shin",
+        "Myoungsung You"
+      ],
+      "published": "2026-01-08T17:40:50Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "The rapid evolution of text-to-image (T2I) models has enabled high-fidelity visual synthesis on a global scale. However, these advancements have introduced significant security risks, particularly regarding the generation of harmful content. Politically harmful content, such as fabricated depictions of public figures, poses severe threats when weaponized for fake news or propaganda. Despite its criticality, the robustness of current T2I safety filters against such politically motivated adversari"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.02410",
+      "title": "The Vibe-Check Protocol: Quantifying Cognitive Offloading in AI Programming",
+      "authors": [
+        "Aizierjiang Aiersilan"
+      ],
+      "published": "2026-01-02T06:13:41Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "The integration of Large Language Models (LLMs) into software engineering education has driven the emergence of ``Vibe Coding,'' a paradigm where developers articulate high-level intent through natural language and delegate implementation to AI agents. While proponents argue this approach modernizes pedagogy by emphasizing conceptual design over syntactic memorization, accumulating empirical evidence raises concerns regarding skill retention and deep conceptual understanding. This paper proposes"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2601.03304",
+      "title": "AI-Driven Cybersecurity Threats: A Survey of Emerging Risks and Defensive Strategies",
+      "authors": [
+        "Sai Teja Erukude",
+        "Viswa Chaitanya Marella",
+        "Suhasnadh Reddy Veluru"
+      ],
+      "published": "2026-01-06T05:09:40Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Artificial Intelligence's dual-use nature is revolutionizing the cybersecurity landscape, introducing new threats across four main categories: deepfakes and synthetic media, adversarial AI attacks, automated malware, and AI-powered social engineering. This paper aims to analyze emerging risks, attack mechanisms, and defense shortcomings related to AI in cybersecurity. We introduce a comparative taxonomy connecting AI capabilities with threat modalities and defenses, review over 70 academic and i"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2601.00848",
+      "title": "Temporal Attack Pattern Detection in Multi-Agent AI Workflows: An Open Framework for Training Trace-Based Security Models",
+      "authors": [
+        "Ron F. Del Rosario"
+      ],
+      "published": "2025-12-29T09:41:22Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "We present an openly documented methodology for fine-tuning language models to detect temporal attack patterns in multi-agent AI workflows using OpenTelemetry trace analysis. We curate a dataset of 80,851 examples from 18 public cybersecurity sources and 35,026 synthetic OpenTelemetry traces. We apply iterative QLoRA fine-tuning on resource-constrained ARM64 hardware (NVIDIA DGX Spark) through three training iterations with strategic augmentation. Our custom benchmark accuracy improves from 42.8"
+    },
+    {
+      "arxiv_id": "2601.00418",
+      "title": "Secure, Verifiable, and Scalable Multi-Client Data Sharing via Consensus-Based Privacy-Preserving Data Distribution",
+      "authors": [
+        "Prajwal Panth",
+        "Sahaj Raj Malla"
+      ],
+      "published": "2026-01-01T18:12:50Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "We propose the Consensus-Based Privacy-Preserving Data Distribution (CPPDD) framework, a lightweight and post-setup autonomous protocol for secure multi-client data aggregation. The framework enforces unanimous-release confidentiality through a dual-layer protection mechanism that combines per-client affine masking with priority-driven sequential consensus locking. Decentralized integrity is verified via step (sigma_S) and data (sigma_D) checksums, facilitating autonomous malicious deviation det"
+    },
+    {
+      "arxiv_id": "2512.18616",
+      "title": "DASH: Deception-Augmented Shared Mental Model for a Human-Machine Teaming System",
+      "authors": [
+        "Zelin Wan",
+        "Han Jun Yoon",
+        "Nithin Alluru",
+        "Terrence J. Moore",
+        "Frederica F. Nelson",
+        "Seunghyun Yoon",
+        "Hyuk Lim",
+        "Dan Dongseong Kim",
+        "Jin-Hee Cho"
+      ],
+      "published": "2025-12-21T06:20:48Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "We present DASH (Deception-Augmented Shared mental model for Human-machine teaming), a novel framework that enhances mission resilience by embedding proactive deception into Shared Mental Models (SMM). Designed for mission-critical applications such as surveillance and rescue, DASH introduces \"bait tasks\" to detect insider threats, e.g., compromised Unmanned Ground Vehicles (UGVs), AI agents, or human analysts, before they degrade team performance. Upon detection, tailored recovery mechanisms ar"
+    },
+    {
+      "arxiv_id": "2512.01727",
+      "title": "AI-Driven Cybersecurity Testbed for Nuclear Infrastructure: Comprehensive Evaluation Using METL Operational Data",
+      "authors": [
+        "Benjamin Blakely",
+        "Yeni Li",
+        "Akshay Dave",
+        "Derek Kultgen",
+        "Rick Vilim"
+      ],
+      "published": "2025-12-01T14:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "Advanced nuclear reactor systems face increasing cybersecurity threats as sophisticated attackers exploit cyber-physical interfaces to manipulate control systems while evading traditional IT security measures. This research presents a comprehensive evaluation of artificial intelligence approaches for cybersecurity protection in nuclear infrastructure, using Argonne National Laboratory's Mechanisms Engineering Test Loop (METL) as an experimental platform. We developed a systematic evaluation fram"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2601.02410",
+      "title": "The Vibe-Check Protocol: Quantifying Cognitive Offloading in AI Programming",
+      "authors": [
+        "Aizierjiang Aiersilan"
+      ],
+      "published": "2026-01-02T06:13:41Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 3,
+      "cluster_name": "Agentic AI Authorization",
+      "summary": "The integration of Large Language Models (LLMs) into software engineering education has driven the emergence of ``Vibe Coding,'' a paradigm where developers articulate high-level intent through natural language and delegate implementation to AI agents. While proponents argue this approach modernizes pedagogy by emphasizing conceptual design over syntactic memorization, accumulating empirical evidence raises concerns regarding skill retention and deep conceptual understanding. This paper proposes"
+    },
+    {
+      "arxiv_id": "2512.08185",
+      "title": "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+      "authors": [
+        "Jinghao Wang",
+        "Ping Zhang",
+        "Carter Yagemann"
+      ],
+      "published": "2025-12-09T02:28:15Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating med"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2601.00367",
+      "title": "PatchBlock: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices",
+      "authors": [
+        "Nandish Chattopadhyay",
+        "Abdul Basit",
+        "Amira Guesmi",
+        "Muhammad Abdullah Hanif",
+        "Bassem Ouni",
+        "Muhammad Shafique"
+      ],
+      "published": "2026-01-01T15:04:16Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Adversarial attacks pose a significant challenge to the reliable deployment of machine learning models in EdgeAI applications, such as autonomous driving and surveillance, which rely on resource-constrained devices for real-time inference. Among these, patch-based adversarial attacks, where small malicious patches (e.g., stickers) are applied to objects, can deceive neural networks into making incorrect predictions with potentially severe consequences. In this paper, we present PatchBlock, a lig"
+    },
+    {
+      "arxiv_id": "2601.05150",
+      "title": "$PC^2$: Politically Controversial Content Generation via Jailbreaking Attacks on GPT-based Text-to-Image Models",
+      "authors": [
+        "Wonwoo Choi",
+        "Minjae Seo",
+        "Minkyoo Song",
+        "Hwanjo Heo",
+        "Seungwon Shin",
+        "Myoungsung You"
+      ],
+      "published": "2026-01-08T17:40:50Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "The rapid evolution of text-to-image (T2I) models has enabled high-fidelity visual synthesis on a global scale. However, these advancements have introduced significant security risks, particularly regarding the generation of harmful content. Politically harmful content, such as fabricated depictions of public figures, poses severe threats when weaponized for fake news or propaganda. Despite its criticality, the robustness of current T2I safety filters against such politically motivated adversari"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2512.21482",
+      "title": "LogicLens: Visual-Logical Co-Reasoning for Text-Centric Forgery Analysis",
+      "authors": [
+        "Fanwei Zeng",
+        "Changtao Miao",
+        "Jing Huang",
+        "Zhiya Tan",
+        "Shutao Gong",
+        "Xiaoming Yu",
+        "Yang Wang",
+        "Huazhe Tan",
+        "Weibin Yao",
+        "Jianshu Li"
+      ],
+      "published": "2025-12-25T03:02:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Sophisticated text-centric forgeries, fueled by rapid AIGC advancements, pose a significant threat to societal security and information authenticity. Current methods for text-centric forgery analysis are often limited to coarse-grained visual analysis and lack the capacity for sophisticated reasoning. Moreover, they typically treat detection, grounding, and explanation as discrete sub-tasks, overlooking their intrinsic relationships for holistic performance enhancement. To address these challeng"
+    },
+    {
+      "arxiv_id": "2512.10998",
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane",
+        "Abhishek Satyam",
+        "Ke Chen",
+        "Tao Li",
+        "Junaid Farooq",
+        "Juntao Chen"
+      ],
+      "published": "2025-12-10T17:25:55Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. Th"
+    },
+    {
+      "arxiv_id": "2512.08185",
+      "title": "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+      "authors": [
+        "Jinghao Wang",
+        "Ping Zhang",
+        "Carter Yagemann"
+      ],
+      "published": "2025-12-09T02:28:15Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating med"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.03304",
+      "title": "AI-Driven Cybersecurity Threats: A Survey of Emerging Risks and Defensive Strategies",
+      "authors": [
+        "Sai Teja Erukude",
+        "Viswa Chaitanya Marella",
+        "Suhasnadh Reddy Veluru"
+      ],
+      "published": "2026-01-06T05:09:40Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Artificial Intelligence's dual-use nature is revolutionizing the cybersecurity landscape, introducing new threats across four main categories: deepfakes and synthetic media, adversarial AI attacks, automated malware, and AI-powered social engineering. This paper aims to analyze emerging risks, attack mechanisms, and defense shortcomings related to AI in cybersecurity. We introduce a comparative taxonomy connecting AI capabilities with threat modalities and defenses, review over 70 academic and i"
+    },
+    {
+      "arxiv_id": "2601.02410",
+      "title": "The Vibe-Check Protocol: Quantifying Cognitive Offloading in AI Programming",
+      "authors": [
+        "Aizierjiang Aiersilan"
+      ],
+      "published": "2026-01-02T06:13:41Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "The integration of Large Language Models (LLMs) into software engineering education has driven the emergence of ``Vibe Coding,'' a paradigm where developers articulate high-level intent through natural language and delegate implementation to AI agents. While proponents argue this approach modernizes pedagogy by emphasizing conceptual design over syntactic memorization, accumulating empirical evidence raises concerns regarding skill retention and deep conceptual understanding. This paper proposes"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2512.22860",
+      "title": "Adaptive Trust Consensus for Blockchain IoT: Comparing RL, DRL, and MARL Against Naive, Collusive, Adaptive, Byzantine, and Sleeper Attacks",
+      "authors": [
+        "Soham Padia",
+        "Dhananjay Vaidya",
+        "Ramchandra Mangrulkar"
+      ],
+      "published": "2025-12-28T10:11:32Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 4,
+      "cluster_name": "Data Sensitivity & Privacy",
+      "summary": "Securing blockchain-enabled IoT networks against sophisticated adversarial attacks remains a critical challenge. This paper presents a trust-based delegated consensus framework integrating Fully Homomorphic Encryption (FHE) with Attribute-Based Access Control (ABAC) for privacy-preserving policy evaluation, combined with learning-based defense mechanisms. We systematically compare three reinforcement learning approaches -- tabular Q-learning (RL), Deep RL with Dueling Double DQN (DRL), and Multi"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2601.03594",
+      "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+      "authors": [
+        "Zejian Chen",
+        "Chaozhuo Li",
+        "Chao Li",
+        "Xi Zhang",
+        "Litian Zhang",
+        "Yiming He"
+      ],
+      "published": "2026-01-07T05:25:33Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/enco"
+    },
+    {
+      "arxiv_id": "2512.22860",
+      "title": "Adaptive Trust Consensus for Blockchain IoT: Comparing RL, DRL, and MARL Against Naive, Collusive, Adaptive, Byzantine, and Sleeper Attacks",
+      "authors": [
+        "Soham Padia",
+        "Dhananjay Vaidya",
+        "Ramchandra Mangrulkar"
+      ],
+      "published": "2025-12-28T10:11:32Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Securing blockchain-enabled IoT networks against sophisticated adversarial attacks remains a critical challenge. This paper presents a trust-based delegated consensus framework integrating Fully Homomorphic Encryption (FHE) with Attribute-Based Access Control (ABAC) for privacy-preserving policy evaluation, combined with learning-based defense mechanisms. We systematically compare three reinforcement learning approaches -- tabular Q-learning (RL), Deep RL with Dueling Double DQN (DRL), and Multi"
+    },
+    {
+      "arxiv_id": "2512.21482",
+      "title": "LogicLens: Visual-Logical Co-Reasoning for Text-Centric Forgery Analysis",
+      "authors": [
+        "Fanwei Zeng",
+        "Changtao Miao",
+        "Jing Huang",
+        "Zhiya Tan",
+        "Shutao Gong",
+        "Xiaoming Yu",
+        "Yang Wang",
+        "Huazhe Tan",
+        "Weibin Yao",
+        "Jianshu Li"
+      ],
+      "published": "2025-12-25T03:02:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Sophisticated text-centric forgeries, fueled by rapid AIGC advancements, pose a significant threat to societal security and information authenticity. Current methods for text-centric forgery analysis are often limited to coarse-grained visual analysis and lack the capacity for sophisticated reasoning. Moreover, they typically treat detection, grounding, and explanation as discrete sub-tasks, overlooking their intrinsic relationships for holistic performance enhancement. To address these challeng"
+    },
+    {
+      "arxiv_id": "2512.21352",
+      "title": "Multi-Agent LLM Committees for Autonomous Software Beta Testing",
+      "authors": [
+        "Sumanth Bharadwaj Hachalli Karanam",
+        "Dhiwahar Adhithya Kennady"
+      ],
+      "published": "2025-12-21T02:06:53Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Manual software beta testing is costly and time-consuming, while single-agent large language model (LLM) approaches suffer from hallucinations and inconsistent behavior. We propose a multi-agent committee framework in which diverse vision-enabled LLMs collaborate through a three-round voting protocol to reach consensus on testing actions. The framework combines model diversity, persona-driven behavioral variation, and visual user interface understanding to systematically explore web applications"
+    },
+    {
+      "arxiv_id": "2512.18244",
+      "title": "Breaking Minds, Breaking Systems: Jailbreaking Large Language Models via Human-like Psychological Manipulation",
+      "authors": [
+        "Zehao Liu",
+        "Xi Lin"
+      ],
+      "published": "2025-12-20T07:02:00Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Large Language Models (LLMs) have gained considerable popularity and protected by increasingly sophisticated safety mechanisms. However, jailbreak attacks continue to pose a critical security threat by inducing models to generate policy-violating behaviors. Current paradigms focus on input-level anomalies, overlooking that the model's internal psychometric state can be systematically manipulated. To address this, we introduce Psychological Jailbreak, a new jailbreak attack paradigm that exposes "
+    },
+    {
+      "arxiv_id": "2512.16307",
+      "title": "Beyond the Benchmark: Innovative Defenses Against Prompt Injection Attacks",
+      "authors": [
+        "Safwan Shaheer",
+        "G. M. Refatul Islam",
+        "Mohammad Rafid Hamid",
+        "Tahsin Zaman Jilan"
+      ],
+      "published": "2025-12-18T08:47:07Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "In this fast-evolving area of LLMs, our paper discusses the significant security risk presented by prompt injection attacks. It focuses on small open-sourced models, specifically the LLaMA family of models. We introduce novel defense mechanisms capable of generating automatic defenses and systematically evaluate said generated defenses against a comprehensive set of benchmarked attacks. Thus, we empirically demonstrated the improvement proposed by our approach in mitigating goal-hijacking vulner"
+    },
+    {
+      "arxiv_id": "2512.10998",
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane",
+        "Abhishek Satyam",
+        "Ke Chen",
+        "Tao Li",
+        "Junaid Farooq",
+        "Juntao Chen"
+      ],
+      "published": "2025-12-10T17:25:55Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. Th"
+    },
+    {
+      "arxiv_id": "2512.08185",
+      "title": "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+      "authors": [
+        "Jinghao Wang",
+        "Ping Zhang",
+        "Carter Yagemann"
+      ],
+      "published": "2025-12-09T02:28:15Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating med"
+    },
+    {
+      "arxiv_id": "2512.06716",
+      "title": "Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents",
+      "authors": [
+        "Zhibo Liang",
+        "Tianze Hu",
+        "Zaiye Chen",
+        "Mingjie Tang"
+      ],
+      "published": "2025-12-07T08:11:19Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Autonomous Large Language Model (LLM) agents exhibit significant vulnerability to Indirect Prompt Injection (IPI) attacks. These attacks hijack agent behavior by polluting external information sources, exploiting fundamental trade-offs between security and functionality in existing defense mechanisms. This leads to malicious and unauthorized tool invocations, diverting agents from their original objectives. The success of complex IPIs reveals a deeper systemic fragility: while current defenses d"
+    },
+    {
+      "arxiv_id": "2512.16307",
+      "title": "Beyond the Benchmark: Innovative Defenses Against Prompt Injection Attacks",
+      "authors": [
+        "Safwan Shaheer",
+        "G. M. Refatul Islam",
+        "Mohammad Rafid Hamid",
+        "Tahsin Zaman Jilan"
+      ],
+      "published": "2025-12-18T08:47:07Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "In this fast-evolving area of LLMs, our paper discusses the significant security risk presented by prompt injection attacks. It focuses on small open-sourced models, specifically the LLaMA family of models. We introduce novel defense mechanisms capable of generating automatic defenses and systematically evaluate said generated defenses against a comprehensive set of benchmarked attacks. Thus, we empirically demonstrated the improvement proposed by our approach in mitigating goal-hijacking vulner"
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    },
+    {
+      "arxiv_id": "2510.01359",
+      "title": "Breaking the Code: Security Assessment of AI Code Agents Through Systematic Jailbreaking Attacks",
+      "authors": [
+        "Shoumik Saha",
+        "Jifan Chen",
+        "Sam Mayers",
+        "Sanjay Krishna Gouda",
+        "Zijian Wang",
+        "Varun Kumar"
+      ],
+      "published": "2025-10-01T18:38:20Z",
+      "relevance_score": 90,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Code-capable large language model (LLM) agents are increasingly embedded into software engineering workflows where they can read, write, and execute code, raising the stakes of safety-bypass (\"jailbreak\") attacks beyond text-only settings. Prior evaluations emphasize refusal or harmful-text detection, leaving open whether agents actually compile and run malicious programs. We present JAWS-BENCH (Jailbreaks Across WorkSpaces), a benchmark spanning three escalating workspace regimes that mirror at"
+    },
+    {
+      "arxiv_id": "2601.03304",
+      "title": "AI-Driven Cybersecurity Threats: A Survey of Emerging Risks and Defensive Strategies",
+      "authors": [
+        "Sai Teja Erukude",
+        "Viswa Chaitanya Marella",
+        "Suhasnadh Reddy Veluru"
+      ],
+      "published": "2026-01-06T05:09:40Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Artificial Intelligence's dual-use nature is revolutionizing the cybersecurity landscape, introducing new threats across four main categories: deepfakes and synthetic media, adversarial AI attacks, automated malware, and AI-powered social engineering. This paper aims to analyze emerging risks, attack mechanisms, and defense shortcomings related to AI in cybersecurity. We introduce a comparative taxonomy connecting AI capabilities with threat modalities and defenses, review over 70 academic and i"
+    },
+    {
+      "arxiv_id": "2512.14742",
+      "title": "Quantum-Augmented AI/ML for O-RAN: Hierarchical Threat Detection with Synergistic Intelligence and Interpretability (Technical Report)",
+      "authors": [
+        "Tan Le",
+        "Van Le",
+        "Sachin Shetty"
+      ],
+      "published": "2025-12-12T15:12:57Z",
+      "relevance_score": 90,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Open Radio Access Networks (O-RAN) enhance modularity and telemetry granularity but also widen the cybersecurity attack surface across disaggregated control, user and management planes. We propose a hierarchical defense framework with three coordinated layers-anomaly detection, intrusion confirmation, and multiattack classification-each aligned with O-RAN's telemetry stack. Our approach integrates hybrid quantum computing and machine learning, leveraging amplitude- and entanglement-based feature"
+    },
+    {
+      "arxiv_id": "2512.10998",
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane",
+        "Abhishek Satyam",
+        "Ke Chen",
+        "Tao Li",
+        "Junaid Farooq",
+        "Juntao Chen"
+      ],
+      "published": "2025-12-10T17:25:55Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. Th"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2512.10998",
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane",
+        "Abhishek Satyam",
+        "Ke Chen",
+        "Tao Li",
+        "Junaid Farooq",
+        "Juntao Chen"
+      ],
+      "published": "2025-12-10T17:25:55Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. Th"
+    },
+    {
+      "arxiv_id": "2512.10998",
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane",
+        "Abhishek Satyam",
+        "Ke Chen",
+        "Tao Li",
+        "Junaid Farooq",
+        "Juntao Chen"
+      ],
+      "published": "2025-12-10T17:25:55Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. Th"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2510.23457",
+      "title": "Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability",
+      "authors": [
+        "Saleh Darzi",
+        "Mirza Masfiqur Rahman",
+        "Imtiaz Karim",
+        "Rouzbeh Behnia",
+        "Attila A Yavuz",
+        "Elisa Bertino"
+      ],
+      "published": "2025-10-27T15:56:59Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "The 5G protocol lacks a robust base station (BS) authentication mechanism during the initial bootstrapping phase, leaving it susceptible to threats such as fake BSs, spoofed broadcasts, and large-scale manipulation of System Information Blocks (SIBs). Despite real-world 5G deployments increasingly relying on multi-BS communication and user multi-connectivity, existing solutions incur high communication overheads, rely on centralized trust, and lack accountability and long-term breach resiliency."
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2512.21482",
+      "title": "LogicLens: Visual-Logical Co-Reasoning for Text-Centric Forgery Analysis",
+      "authors": [
+        "Fanwei Zeng",
+        "Changtao Miao",
+        "Jing Huang",
+        "Zhiya Tan",
+        "Shutao Gong",
+        "Xiaoming Yu",
+        "Yang Wang",
+        "Huazhe Tan",
+        "Weibin Yao",
+        "Jianshu Li"
+      ],
+      "published": "2025-12-25T03:02:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Sophisticated text-centric forgeries, fueled by rapid AIGC advancements, pose a significant threat to societal security and information authenticity. Current methods for text-centric forgery analysis are often limited to coarse-grained visual analysis and lack the capacity for sophisticated reasoning. Moreover, they typically treat detection, grounding, and explanation as discrete sub-tasks, overlooking their intrinsic relationships for holistic performance enhancement. To address these challeng"
+    },
+    {
+      "arxiv_id": "2512.10998",
+      "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+      "authors": [
+        "Mohamed Afane",
+        "Abhishek Satyam",
+        "Ke Chen",
+        "Tao Li",
+        "Junaid Farooq",
+        "Juntao Chen"
+      ],
+      "published": "2025-12-10T17:25:55Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. Th"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2511.13502",
+      "title": "Tight and Practical Privacy Auditing for Differentially Private In-Context Learning",
+      "authors": [
+        "Yuyang Xia",
+        "Ruixuan Liu",
+        "Li Xiong"
+      ],
+      "published": "2025-11-17T15:39:54Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Large language models (LLMs) perform in-context learning (ICL) by adapting to tasks from prompt demonstrations, which in practice often contain private or proprietary data. Although differential privacy (DP) with private voting is a pragmatic mitigation, DP-ICL implementations are error-prone, and worst-case DP bounds may substantially overestimate actual leakage, calling for practical auditing tools. We present a tight and efficient privacy auditing framework for DP-ICL systems that runs member"
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    },
+    {
+      "arxiv_id": "2510.23457",
+      "title": "Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability",
+      "authors": [
+        "Saleh Darzi",
+        "Mirza Masfiqur Rahman",
+        "Imtiaz Karim",
+        "Rouzbeh Behnia",
+        "Attila A Yavuz",
+        "Elisa Bertino"
+      ],
+      "published": "2025-10-27T15:56:59Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 5,
+      "cluster_name": "AI-Specific Threat Vectors",
+      "summary": "The 5G protocol lacks a robust base station (BS) authentication mechanism during the initial bootstrapping phase, leaving it susceptible to threats such as fake BSs, spoofed broadcasts, and large-scale manipulation of System Information Blocks (SIBs). Despite real-world 5G deployments increasingly relying on multi-BS communication and user multi-connectivity, existing solutions incur high communication overheads, rely on centralized trust, and lack accountability and long-term breach resiliency."
+    },
+    {
+      "arxiv_id": "2601.02410",
+      "title": "The Vibe-Check Protocol: Quantifying Cognitive Offloading in AI Programming",
+      "authors": [
+        "Aizierjiang Aiersilan"
+      ],
+      "published": "2026-01-02T06:13:41Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "The integration of Large Language Models (LLMs) into software engineering education has driven the emergence of ``Vibe Coding,'' a paradigm where developers articulate high-level intent through natural language and delegate implementation to AI agents. While proponents argue this approach modernizes pedagogy by emphasizing conceptual design over syntactic memorization, accumulating empirical evidence raises concerns regarding skill retention and deep conceptual understanding. This paper proposes"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2512.12856",
+      "title": "Forgetful but Faithful: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents",
+      "authors": [
+        "Saad Alqithami"
+      ],
+      "published": "2025-12-14T21:40:07Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As generative agents become increasingly sophisticated and deployed in long-term interactive scenarios, their memory management capabilities emerge as a critical bottleneck for both performance and privacy. Current approaches either maintain unlimited memory stores, leading to computational intractability and privacy concerns, or employ simplistic forgetting mechanisms that compromise agent coherence and functionality. This paper introduces the Memory-Aware Retention Schema (MaRS), a novel frame"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2511.13502",
+      "title": "Tight and Practical Privacy Auditing for Differentially Private In-Context Learning",
+      "authors": [
+        "Yuyang Xia",
+        "Ruixuan Liu",
+        "Li Xiong"
+      ],
+      "published": "2025-11-17T15:39:54Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Large language models (LLMs) perform in-context learning (ICL) by adapting to tasks from prompt demonstrations, which in practice often contain private or proprietary data. Although differential privacy (DP) with private voting is a pragmatic mitigation, DP-ICL implementations are error-prone, and worst-case DP bounds may substantially overestimate actual leakage, calling for practical auditing tools. We present a tight and efficient privacy auditing framework for DP-ICL systems that runs member"
+    },
+    {
+      "arxiv_id": "2512.01727",
+      "title": "AI-Driven Cybersecurity Testbed for Nuclear Infrastructure: Comprehensive Evaluation Using METL Operational Data",
+      "authors": [
+        "Benjamin Blakely",
+        "Yeni Li",
+        "Akshay Dave",
+        "Derek Kultgen",
+        "Rick Vilim"
+      ],
+      "published": "2025-12-01T14:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Advanced nuclear reactor systems face increasing cybersecurity threats as sophisticated attackers exploit cyber-physical interfaces to manipulate control systems while evading traditional IT security measures. This research presents a comprehensive evaluation of artificial intelligence approaches for cybersecurity protection in nuclear infrastructure, using Argonne National Laboratory's Mechanisms Engineering Test Loop (METL) as an experimental platform. We developed a systematic evaluation fram"
+    },
+    {
+      "arxiv_id": "2511.18155",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, provid"
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    },
+    {
+      "arxiv_id": "2511.14715",
+      "title": "FLARE: Adaptive Multi-Dimensional Reputation for Robust Client Reliability in Federated Learning",
+      "authors": [
+        "Abolfazl Younesi",
+        "Leon Kiss",
+        "Zahra Najafabadi Samani",
+        "Juan Aznar Poveda",
+        "Thomas Fahringer"
+      ],
+      "published": "2025-11-18T17:57:40Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Federated learning (FL) enables collaborative model training while preserving data privacy. However, it remains vulnerable to malicious clients who compromise model integrity through Byzantine attacks, data poisoning, or adaptive adversarial behaviors. Existing defense mechanisms rely on static thresholds and binary classification, failing to adapt to evolving client behaviors in real-world deployments. We propose FLARE, an adaptive reputation-based framework that transforms client reliability a"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2512.12856",
+      "title": "Forgetful but Faithful: A Cognitive Memory Architecture and Benchmark for Privacy-Aware Generative Agents",
+      "authors": [
+        "Saad Alqithami"
+      ],
+      "published": "2025-12-14T21:40:07Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As generative agents become increasingly sophisticated and deployed in long-term interactive scenarios, their memory management capabilities emerge as a critical bottleneck for both performance and privacy. Current approaches either maintain unlimited memory stores, leading to computational intractability and privacy concerns, or employ simplistic forgetting mechanisms that compromise agent coherence and functionality. This paper introduces the Memory-Aware Retention Schema (MaRS), a novel frame"
+    },
+    {
+      "arxiv_id": "2511.22619",
+      "title": "AI Deception: Risks, Dynamics, and Controls",
+      "authors": [
+        "Boyuan Chen",
+        "Sitong Fang",
+        "Jiaming Ji",
+        "Yanxu Zhu",
+        "Pengcheng Wen",
+        "Jinzhou Wu",
+        "Yingshui Tan",
+        "Boren Zheng",
+        "Mengying Yuan",
+        "Wenqi Chen",
+        "Donghai Hong",
+        "Alex Qiu",
+        "Xin Chen",
+        "Jiayi Zhou",
+        "Kaile Wang",
+        "Juntao Dai",
+        "Borong Zhang",
+        "Tianzhuo Yang",
+        "Saad Siddiqui",
+        "Isabella Duan",
+        "Yawen Duan",
+        "Brian Tse",
+        "Jen-Tse",
+        "Huang",
+        "Kun Wang",
+        "Baihui Zheng",
+        "Jiaheng Liu",
+        "Jian Yang",
+        "Yiming Li",
+        "Wenting Chen",
+        "Dongrui Liu",
+        "Lukas Vierling",
+        "Zhiheng Xi",
+        "Haobo Fu",
+        "Wenxuan Wang",
+        "Jitao Sang",
+        "Zhengyan Shi",
+        "Chi-Min Chan",
+        "Eugenie Shi",
+        "Simin Li",
+        "Juncheng Li",
+        "Jian Yang",
+        "Wei Ji",
+        "Dong Li",
+        "Jinglin Yang",
+        "Jun Song",
+        "Yinpeng Dong",
+        "Jie Fu",
+        "Bo Zheng",
+        "Min Yang",
+        "Yike Guo",
+        "Philip Torr",
+        "Robert Trager",
+        "Yi Zeng",
+        "Zhongyuan Wang",
+        "Yaodong Yang",
+        "Tiejun Huang",
+        "Ya-Qin Zhang",
+        "Hongjiang Zhang",
+        "Andrew Yao"
+      ],
+      "published": "2025-11-27T16:56:04Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As intelligence increases, so does its shadow. AI deception, in which systems induce false beliefs to secure self-beneficial outcomes, has evolved from a speculative concern to an empirically demonstrated risk across language models, AI agents, and emerging frontier systems. This project provides a comprehensive and up-to-date overview of the AI deception field, covering its core concepts, methodologies, genesis, and potential mitigations. First, we identify a formal definition of AI deception, "
+    },
+    {
+      "arxiv_id": "2512.06390",
+      "title": "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+      "authors": [
+        "Mehrab Hosain",
+        "Sabbir Alom Shuvo",
+        "Matthew Ogbe",
+        "Md Shah Jalal Mazumder",
+        "Yead Rahman",
+        "Md Azizul Hakim",
+        "Anukul Pandey"
+      ],
+      "published": "2025-12-06T10:42:14Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "The modern web stack, which is dominated by browser-based applications and API-first backends, now operates under an adversarial equilibrium where automated, AI-assisted attacks evolve continuously. Content Delivery Networks (CDNs) and edge computing place programmable defenses closest to users and bots, making them natural enforcement points for machine-learning (ML) driven inspection, throttling, and isolation. This survey synthesizes the landscape of AI-enhanced defenses deployed at the edge:"
+    },
+    {
+      "arxiv_id": "2511.14136",
+      "title": "Beyond Accuracy: A Multi-Dimensional Framework for Evaluating Enterprise Agentic AI Systems",
+      "authors": [
+        "Sushant Mehta"
+      ],
+      "published": "2025-11-18T04:50:19Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Current agentic AI benchmarks predominantly evaluate task completion accuracy, while overlooking critical enterprise requirements such as cost-efficiency, reliability, and operational stability. Through systematic analysis of 12 main benchmarks and empirical evaluation of state-of-the-art agents, we identify three fundamental limitations: (1) absence of cost-controlled evaluation leading to 50x cost variations for similar precision, (2) inadequate reliability assessment where agent performance d"
+    },
+    {
+      "arxiv_id": "2509.23994",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-ti"
+    },
+    {
+      "arxiv_id": "2508.19267",
+      "title": "The Aegis Protocol: A Foundational Security Framework for Autonomous AI Agents",
+      "authors": [
+        "Sai Teja Reddy Adapala",
+        "Yashwanth Reddy Alugubelly"
+      ],
+      "published": "2025-08-22T06:18:57Z",
+      "relevance_score": 95,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "The proliferation of autonomous AI agents marks a paradigm shift toward complex, emergent multi-agent systems. This transition introduces systemic security risks, including control-flow hijacking and cascading failures, that traditional cybersecurity paradigms are ill-equipped to address. This paper introduces the Aegis Protocol, a layered security framework designed to provide strong security guarantees for open agentic ecosystems. The protocol integrates three technological pillars: (1) non-sp"
+    },
+    {
+      "arxiv_id": "2508.01332",
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "authors": [
+        "Zhenhua Zou",
+        "Zhuotao Liu",
+        "Lepeng Zhao",
+        "Qiuyang Zhan"
+      ],
+      "published": "2025-08-02T11:59:21Z",
+      "relevance_score": 100,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and exp"
+    },
+    {
+      "arxiv_id": "2601.02314",
+      "title": "Project Ariadne: A Structural Causal Framework for Auditing Faithfulness in LLM Agents",
+      "authors": [
+        "Sourena Khanzadeh"
+      ],
+      "published": "2026-01-05T18:05:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "As Large Language Model (LLM) agents are increasingly tasked with high-stakes autonomous decision-making, the transparency of their reasoning processes has become a critical safety concern. While \\textit{Chain-of-Thought} (CoT) prompting allows agents to generate human-readable reasoning traces, it remains unclear whether these traces are \\textbf{faithful} generative drivers of the model's output or merely \\textbf{post-hoc rationalizations}. We introduce \\textbf{Project Ariadne}, a novel XAI fra"
+    },
+    {
+      "arxiv_id": "2601.02404",
+      "title": "PCEval: A Benchmark for Evaluating Physical Computing Capabilities of Large Language Models",
+      "authors": [
+        "Inpyo Song",
+        "Eunji Jeon",
+        "Jangwon Lee"
+      ],
+      "published": "2025-12-31T22:34:27Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 6,
+      "cluster_name": "AI Compliance & Explainability",
+      "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various domains, including software development, education, and technical assistance. Among these, software development is one of the key areas where LLMs are increasingly adopted. However, when hardware constraints are considered-for instance, in physical computing, where software must interact with and control physical hardware -their effectiveness has not been fully explored. To address this gap, we introduce \\texts"
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    },
+    {
+      "arxiv_id": "2509.23994",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-ti"
+    },
+    {
+      "arxiv_id": "2507.02424",
+      "title": "CyberRAG: An Agentic RAG cyber attack classification and reporting tool",
+      "authors": [
+        "Francesco Blefari",
+        "Cristian Cosentino",
+        "Francesco Aurelio Pironti",
+        "Angelo Furfaro",
+        "Fabrizio Marozzo"
+      ],
+      "published": "2025-07-03T08:32:19Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "Intrusion Detection and Prevention Systems (IDS/IPS) in large enterprises can generate hundreds of thousands of alerts per hour, overwhelming analysts with logs requiring rapidly evolving expertise. Conventional machine-learning detectors reduce alert volume but still yield many false positives, while standard Retrieval-Augmented Generation (RAG) pipelines often retrieve irrelevant context and fail to justify predictions. We present CyberRAG, a modular agent-based RAG framework that delivers rea"
+    },
+    {
+      "arxiv_id": "2511.22619",
+      "title": "AI Deception: Risks, Dynamics, and Controls",
+      "authors": [
+        "Boyuan Chen",
+        "Sitong Fang",
+        "Jiaming Ji",
+        "Yanxu Zhu",
+        "Pengcheng Wen",
+        "Jinzhou Wu",
+        "Yingshui Tan",
+        "Boren Zheng",
+        "Mengying Yuan",
+        "Wenqi Chen",
+        "Donghai Hong",
+        "Alex Qiu",
+        "Xin Chen",
+        "Jiayi Zhou",
+        "Kaile Wang",
+        "Juntao Dai",
+        "Borong Zhang",
+        "Tianzhuo Yang",
+        "Saad Siddiqui",
+        "Isabella Duan",
+        "Yawen Duan",
+        "Brian Tse",
+        "Jen-Tse",
+        "Huang",
+        "Kun Wang",
+        "Baihui Zheng",
+        "Jiaheng Liu",
+        "Jian Yang",
+        "Yiming Li",
+        "Wenting Chen",
+        "Dongrui Liu",
+        "Lukas Vierling",
+        "Zhiheng Xi",
+        "Haobo Fu",
+        "Wenxuan Wang",
+        "Jitao Sang",
+        "Zhengyan Shi",
+        "Chi-Min Chan",
+        "Eugenie Shi",
+        "Simin Li",
+        "Juncheng Li",
+        "Jian Yang",
+        "Wei Ji",
+        "Dong Li",
+        "Jinglin Yang",
+        "Jun Song",
+        "Yinpeng Dong",
+        "Jie Fu",
+        "Bo Zheng",
+        "Min Yang",
+        "Yike Guo",
+        "Philip Torr",
+        "Robert Trager",
+        "Yi Zeng",
+        "Zhongyuan Wang",
+        "Yaodong Yang",
+        "Tiejun Huang",
+        "Ya-Qin Zhang",
+        "Hongjiang Zhang",
+        "Andrew Yao"
+      ],
+      "published": "2025-11-27T16:56:04Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "As intelligence increases, so does its shadow. AI deception, in which systems induce false beliefs to secure self-beneficial outcomes, has evolved from a speculative concern to an empirically demonstrated risk across language models, AI agents, and emerging frontier systems. This project provides a comprehensive and up-to-date overview of the AI deception field, covering its core concepts, methodologies, genesis, and potential mitigations. First, we identify a formal definition of AI deception, "
+    },
+    {
+      "arxiv_id": "2509.24127",
+      "title": "Transparent, Evaluable, and Accessible Data Agents: A Proof-of-Concept Framework",
+      "authors": [
+        "Nooshin Bahador"
+      ],
+      "published": "2025-09-28T23:54:41Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "This article presents a modular, component-based architecture for developing and evaluating AI agents that bridge the gap between natural language interfaces and complex enterprise data warehouses. The system directly addresses core challenges in data accessibility by enabling non-technical users to interact with complex data warehouses through a conversational interface, translating ambiguous user intent into precise, executable database queries to overcome semantic gaps. A cornerstone of the d"
+    },
+    {
+      "arxiv_id": "2509.23994",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-ti"
+    },
+    {
+      "arxiv_id": "2601.00418",
+      "title": "Secure, Verifiable, and Scalable Multi-Client Data Sharing via Consensus-Based Privacy-Preserving Data Distribution",
+      "authors": [
+        "Prajwal Panth",
+        "Sahaj Raj Malla"
+      ],
+      "published": "2026-01-01T18:12:50Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "We propose the Consensus-Based Privacy-Preserving Data Distribution (CPPDD) framework, a lightweight and post-setup autonomous protocol for secure multi-client data aggregation. The framework enforces unanimous-release confidentiality through a dual-layer protection mechanism that combines per-client affine masking with priority-driven sequential consensus locking. Decentralized integrity is verified via step (sigma_S) and data (sigma_D) checksums, facilitating autonomous malicious deviation det"
+    },
+    {
+      "arxiv_id": "2601.00848",
+      "title": "Temporal Attack Pattern Detection in Multi-Agent AI Workflows: An Open Framework for Training Trace-Based Security Models",
+      "authors": [
+        "Ron F. Del Rosario"
+      ],
+      "published": "2025-12-29T09:41:22Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "We present an openly documented methodology for fine-tuning language models to detect temporal attack patterns in multi-agent AI workflows using OpenTelemetry trace analysis. We curate a dataset of 80,851 examples from 18 public cybersecurity sources and 35,026 synthetic OpenTelemetry traces. We apply iterative QLoRA fine-tuning on resource-constrained ARM64 hardware (NVIDIA DGX Spark) through three training iterations with strategic augmentation. Our custom benchmark accuracy improves from 42.8"
+    },
+    {
+      "arxiv_id": "2512.18616",
+      "title": "DASH: Deception-Augmented Shared Mental Model for a Human-Machine Teaming System",
+      "authors": [
+        "Zelin Wan",
+        "Han Jun Yoon",
+        "Nithin Alluru",
+        "Terrence J. Moore",
+        "Frederica F. Nelson",
+        "Seunghyun Yoon",
+        "Hyuk Lim",
+        "Dan Dongseong Kim",
+        "Jin-Hee Cho"
+      ],
+      "published": "2025-12-21T06:20:48Z",
+      "relevance_score": 85,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "We present DASH (Deception-Augmented Shared mental model for Human-machine teaming), a novel framework that enhances mission resilience by embedding proactive deception into Shared Mental Models (SMM). Designed for mission-critical applications such as surveillance and rescue, DASH introduces \"bait tasks\" to detect insider threats, e.g., compromised Unmanned Ground Vehicles (UGVs), AI agents, or human analysts, before they degrade team performance. Upon detection, tailored recovery mechanisms ar"
+    },
+    {
+      "arxiv_id": "2512.22860",
+      "title": "Adaptive Trust Consensus for Blockchain IoT: Comparing RL, DRL, and MARL Against Naive, Collusive, Adaptive, Byzantine, and Sleeper Attacks",
+      "authors": [
+        "Soham Padia",
+        "Dhananjay Vaidya",
+        "Ramchandra Mangrulkar"
+      ],
+      "published": "2025-12-28T10:11:32Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "Securing blockchain-enabled IoT networks against sophisticated adversarial attacks remains a critical challenge. This paper presents a trust-based delegated consensus framework integrating Fully Homomorphic Encryption (FHE) with Attribute-Based Access Control (ABAC) for privacy-preserving policy evaluation, combined with learning-based defense mechanisms. We systematically compare three reinforcement learning approaches -- tabular Q-learning (RL), Deep RL with Dueling Double DQN (DRL), and Multi"
+    },
+    {
+      "arxiv_id": "2511.22619",
+      "title": "AI Deception: Risks, Dynamics, and Controls",
+      "authors": [
+        "Boyuan Chen",
+        "Sitong Fang",
+        "Jiaming Ji",
+        "Yanxu Zhu",
+        "Pengcheng Wen",
+        "Jinzhou Wu",
+        "Yingshui Tan",
+        "Boren Zheng",
+        "Mengying Yuan",
+        "Wenqi Chen",
+        "Donghai Hong",
+        "Alex Qiu",
+        "Xin Chen",
+        "Jiayi Zhou",
+        "Kaile Wang",
+        "Juntao Dai",
+        "Borong Zhang",
+        "Tianzhuo Yang",
+        "Saad Siddiqui",
+        "Isabella Duan",
+        "Yawen Duan",
+        "Brian Tse",
+        "Jen-Tse",
+        "Huang",
+        "Kun Wang",
+        "Baihui Zheng",
+        "Jiaheng Liu",
+        "Jian Yang",
+        "Yiming Li",
+        "Wenting Chen",
+        "Dongrui Liu",
+        "Lukas Vierling",
+        "Zhiheng Xi",
+        "Haobo Fu",
+        "Wenxuan Wang",
+        "Jitao Sang",
+        "Zhengyan Shi",
+        "Chi-Min Chan",
+        "Eugenie Shi",
+        "Simin Li",
+        "Juncheng Li",
+        "Jian Yang",
+        "Wei Ji",
+        "Dong Li",
+        "Jinglin Yang",
+        "Jun Song",
+        "Yinpeng Dong",
+        "Jie Fu",
+        "Bo Zheng",
+        "Min Yang",
+        "Yike Guo",
+        "Philip Torr",
+        "Robert Trager",
+        "Yi Zeng",
+        "Zhongyuan Wang",
+        "Yaodong Yang",
+        "Tiejun Huang",
+        "Ya-Qin Zhang",
+        "Hongjiang Zhang",
+        "Andrew Yao"
+      ],
+      "published": "2025-11-27T16:56:04Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "As intelligence increases, so does its shadow. AI deception, in which systems induce false beliefs to secure self-beneficial outcomes, has evolved from a speculative concern to an empirically demonstrated risk across language models, AI agents, and emerging frontier systems. This project provides a comprehensive and up-to-date overview of the AI deception field, covering its core concepts, methodologies, genesis, and potential mitigations. First, we identify a formal definition of AI deception, "
+    },
+    {
+      "arxiv_id": "2511.03248",
+      "title": "Auditing M-LLMs for Privacy Risks: A Synthetic Benchmark and Evaluation Framework",
+      "authors": [
+        "Junhao Li",
+        "Jiahao Chen",
+        "Zhou Feng",
+        "Chunyi Zhou"
+      ],
+      "published": "2025-11-05T07:23:21Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "Recent advances in multi-modal Large Language Models (M-LLMs) have demonstrated a powerful ability to synthesize implicit information from disparate sources, including images and text. These resourceful data from social media also introduce a significant and underexplored privacy risk: the inference of sensitive personal attributes from seemingly daily media content. However, the lack of benchmarks and comprehensive evaluations of state-of-the-art M-LLM capabilities hinders the research of priva"
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    },
+    {
+      "arxiv_id": "2511.22619",
+      "title": "AI Deception: Risks, Dynamics, and Controls",
+      "authors": [
+        "Boyuan Chen",
+        "Sitong Fang",
+        "Jiaming Ji",
+        "Yanxu Zhu",
+        "Pengcheng Wen",
+        "Jinzhou Wu",
+        "Yingshui Tan",
+        "Boren Zheng",
+        "Mengying Yuan",
+        "Wenqi Chen",
+        "Donghai Hong",
+        "Alex Qiu",
+        "Xin Chen",
+        "Jiayi Zhou",
+        "Kaile Wang",
+        "Juntao Dai",
+        "Borong Zhang",
+        "Tianzhuo Yang",
+        "Saad Siddiqui",
+        "Isabella Duan",
+        "Yawen Duan",
+        "Brian Tse",
+        "Jen-Tse",
+        "Huang",
+        "Kun Wang",
+        "Baihui Zheng",
+        "Jiaheng Liu",
+        "Jian Yang",
+        "Yiming Li",
+        "Wenting Chen",
+        "Dongrui Liu",
+        "Lukas Vierling",
+        "Zhiheng Xi",
+        "Haobo Fu",
+        "Wenxuan Wang",
+        "Jitao Sang",
+        "Zhengyan Shi",
+        "Chi-Min Chan",
+        "Eugenie Shi",
+        "Simin Li",
+        "Juncheng Li",
+        "Jian Yang",
+        "Wei Ji",
+        "Dong Li",
+        "Jinglin Yang",
+        "Jun Song",
+        "Yinpeng Dong",
+        "Jie Fu",
+        "Bo Zheng",
+        "Min Yang",
+        "Yike Guo",
+        "Philip Torr",
+        "Robert Trager",
+        "Yi Zeng",
+        "Zhongyuan Wang",
+        "Yaodong Yang",
+        "Tiejun Huang",
+        "Ya-Qin Zhang",
+        "Hongjiang Zhang",
+        "Andrew Yao"
+      ],
+      "published": "2025-11-27T16:56:04Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "As intelligence increases, so does its shadow. AI deception, in which systems induce false beliefs to secure self-beneficial outcomes, has evolved from a speculative concern to an empirically demonstrated risk across language models, AI agents, and emerging frontier systems. This project provides a comprehensive and up-to-date overview of the AI deception field, covering its core concepts, methodologies, genesis, and potential mitigations. First, we identify a formal definition of AI deception, "
+    },
+    {
+      "arxiv_id": "2511.00460",
+      "title": "Proactive DDoS Detection and Mitigation in Decentralized Software-Defined Networking via Port-Level Monitoring and Zero-Training Large Language Models",
+      "authors": [
+        "Mohammed N. Swileh",
+        "Shengli Zhang"
+      ],
+      "published": "2025-11-01T08:57:29Z",
+      "relevance_score": 80,
+      "pages": 0,
+      "cluster_id": 7,
+      "cluster_name": "Federated Learning & Multi-Cloud",
+      "summary": "Centralized Software-Defined Networking (cSDN) offers flexible and programmable control of networks but suffers from scalability and reliability issues due to its reliance on centralized controllers. Decentralized SDN (dSDN) alleviates these concerns by distributing control across multiple local controllers, yet this architecture remains highly vulnerable to Distributed Denial-of-Service (DDoS) attacks. In this paper, we propose a novel detection and mitigation framework tailored for dSDN enviro"
+    }
+  ]
+}

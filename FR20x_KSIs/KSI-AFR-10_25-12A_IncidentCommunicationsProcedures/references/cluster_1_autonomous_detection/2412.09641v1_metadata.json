@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2412.09641v1",
+  "title": "Machine Learning Driven Smishing Detection Framework for Mobile Security",
+  "authors": [
+    "Diksha Goel",
+    "Hussain Ahmad",
+    "Ankit Kumar Jain",
+    "Nikhil Kumar Goel"
+  ],
+  "published": "2024-12-09T08:20:20Z",
+  "url": "http://arxiv.org/abs/2412.09641v1",
+  "pdf_url": "http://arxiv.org/pdf/2412.09641v1.pdf",
+  "relevance_score": 100,
+  "summary": "The increasing reliance on smartphones for communication, financial transactions, and personal data management has made them prime targets for cyberattacks, particularly smishing, a sophisticated variant of phishing conducted via SMS. Despite the growing threat, traditional detection methods often struggle with the informal and evolving nature of SMS language, which includes abbreviations, slang, and short forms. This paper presents an enhanced content-based smishing detection framework that leverages advanced text normalization techniques to improve detection accuracy. By converting nonstandard text into its standardized form, the proposed model enhances the efficacy of machine learning classifiers, particularly the Naive Bayesian classifier, in distinguishing smishing messages from legitimate ones. Our experimental results, validated on a publicly available dataset, demonstrate a detection accuracy of 96.2%, with a low False Positive Rate of 3.87% and False Negative Rate of 2.85%. This approach significantly outperforms existing methodologies, providing a robust solution to the increasingly sophisticated threat of smishing in the mobile environment."
+}

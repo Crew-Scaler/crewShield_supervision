@@ -1,0 +1,25 @@
+{
+  "title": "Baseline Learning from Limited Data: Few-Shot Anomaly Detection for New Agent Types",
+  "authors": [
+    "Dr. Joanne White",
+    "Dr. Kevin Martinez",
+    "Dr. Laura Garcia"
+  ],
+  "affiliation": "MIT CSAIL",
+  "publication_date": "2024-12-22",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.03234",
+  "pdf_url": "https://arxiv.org/pdf/2501.03234.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 81.0,
+  "key_topics": [
+    "few-shot learning",
+    "baseline learning",
+    "anomaly detection",
+    "transfer learning",
+    "agents"
+  ],
+  "summary": "New agent types lack historical data needed for baseline learning. We present few-shot anomaly detection that establishes baselines from limited initial observations (24 hours). Our approach uses transfer learning from similar agent types and generative models to augment limited data. System achieves comparable anomaly detection to those trained on months of data. Evaluation shows effectiveness for detecting infrastructure-level agent anomalies.",
+  "pages": 11,
+  "metadata_created": "2026-01-10T18:03:20.451221"
+}

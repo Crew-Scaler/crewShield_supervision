@@ -1,0 +1,18 @@
+{
+  "title": "eBPF-Based Real-Time DDoS Mitigation for IoT Edge Devices",
+  "authors": [
+    "Abdurrahman Tolay"
+  ],
+  "published": "2025-07-13T03:35:58+00:00",
+  "arxiv_id": "2508.00851v1",
+  "abstract": "The rapid expansion of the Internet of Things (IoT) has intensified security challenges, notably from Distributed Denial of Service (DDoS) attacks launched by compromised, resource-constrained devices. Traditional defenses are often ill-suited for the IoT paradigm, creating a need for lightweight, high-performance, edge-based solutions. This paper presents the design, implementation, and evaluation of an IoT security framework that leverages the extended Berkeley Packet Filter (eBPF) and the eXpress Data Path (XDP) for in-kernel mitigation of DDoS attacks. The system uses a rate-based detection algorithm to identify and block malicious traffic at the earliest stage of the network stack. The framework is evaluated using both Docker-based simulations and real-world deployment on a Raspberry Pi 4, showing over 97% mitigation effectiveness under a 100 Mbps flood. Legitimate traffic remains unaffected, and system stability is preserved even under attack. These results confirm that eBPF/XDP provides a viable and highly efficient solution for hardening IoT edge devices against volumetric network attacks.",
+  "categories": [
+    "cs.CR",
+    "cs.NI"
+  ],
+  "relevance_score": 22.0,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": true,
+  "pdf_url": "https://arxiv.org/pdf/2508.00851v1",
+  "downloaded": "2025-12-11T08:23:36.320901"
+}

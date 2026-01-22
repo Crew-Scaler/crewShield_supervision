@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2512.17251v1",
+  "title": "AlignDP: Hybrid Differential Privacy with Rarity-Aware Protection for LLMs",
+  "authors": [
+    "Madhava Gaikwad"
+  ],
+  "published": "2025-12-19T05:36:23Z",
+  "summary": "Large language models are exposed to risks of extraction, distillation, and unauthorized fine-tuning. Existing defenses use watermarking or monitoring, but these act after leakage. We design AlignDP, a hybrid privacy lock that blocks knowledge transfer at the data interface. The key idea is to separate rare and non-rare fields. Rare fields are shielded by PAC indistinguishability, giving effective zero-epsilon local DP. Non-rare fields are privatized with RAPPOR, giving unbiased frequency estima",
+  "cluster": "cluster_5",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.185794"
+}

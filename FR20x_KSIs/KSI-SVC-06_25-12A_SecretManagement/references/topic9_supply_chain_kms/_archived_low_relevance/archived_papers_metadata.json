@@ -1,0 +1,141 @@
+{
+  "archive_info": {
+    "total_archived": 10,
+    "archive_date": "2025-12-25",
+    "archive_reason": "Lower relevance score compared to TOP 10 selected papers (still highly relevant but not prioritized)",
+    "score_range": "89-92/100",
+    "note": "These papers are still highly relevant to supply chain security for KMS but ranked 11-20"
+  },
+  "archived_papers": [
+    {
+      "rank": 11,
+      "score": 92,
+      "arxiv_id": "2512.12921",
+      "title": "Cisco Integrated AI Security and Safety Framework Report",
+      "authors": ["Amy Chang", "Tiffany Saade", "Sanket Mendapara", "Adam Swanda", "Ankit Garg"],
+      "date": "December 2025",
+      "institution": "US (Cisco)",
+      "relevance": "HIGH - Model/data integrity, supply chain tampering in AI systems",
+      "abstract_summary": "Addresses threats spanning model and data integrity compromise (e.g., poisoning, supply-chain tampering) alongside runtime manipulations and ecosystem risks in AI systems",
+      "pdf_url": "https://arxiv.org/pdf/2512.12921.pdf",
+      "topics": ["AI security", "supply chain tampering", "data integrity", "model poisoning"]
+    },
+    {
+      "rank": 12,
+      "score": 92,
+      "arxiv_id": "2509.08204",
+      "title": "Unlocking Reproducibility: Automating re-Build Process for Open-Source Software",
+      "authors": ["Behnaz Hassanshahi", "Trong Nhan Mai", "Benjamin Selwyn Smith", "Nicholas Allen"],
+      "date": "September 2025",
+      "institution": "Australia (Oracle)",
+      "relevance": "VERY HIGH - Binary-source verification, artifact rebuilding, CI/CD transparency",
+      "abstract_summary": "Automated Maven artifact rebuilding from source to verify binary-source correspondence. Found 84% of top 1200 commonly used artifacts not built using transparent CI/CD pipelines",
+      "pdf_url": "https://arxiv.org/pdf/2509.08204.pdf",
+      "topics": ["reproducible builds", "artifact verification", "CI/CD transparency", "Maven"]
+    },
+    {
+      "rank": 13,
+      "score": 92,
+      "arxiv_id": "2511.20313",
+      "title": "A Reality Check on SBOM-based Vulnerability Management: An Empirical Study and A Path Forward",
+      "authors": ["Li Zhou", "Marc Dacier", "Charalambos Konstantinou"],
+      "date": "November 2025",
+      "institution": "Saudi Arabia (KAUST)",
+      "relevance": "VERY HIGH - 97.5% false positive rate in vulnerability scanning, SBOM reality check",
+      "abstract_summary": "Large-scale study on 2,414 repositories exposing a staggering 97.5% false positive rate in vulnerability scanning and demonstrating function call analysis effectiveness",
+      "pdf_url": "https://arxiv.org/pdf/2511.20313.pdf",
+      "topics": ["SBOM", "vulnerability management", "false positives", "empirical study"]
+    },
+    {
+      "rank": 14,
+      "score": 91,
+      "arxiv_id": "2511.12668",
+      "title": "AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) Framework",
+      "authors": ["Samuel Nathanson", "Alexander Lee", "Catherine Chen Kieffer", "and 7 others"],
+      "date": "November 2025",
+      "institution": "US (various institutions)",
+      "relevance": "VERY HIGH - AI-BOM, model integrity, packaging safety, runtime behaviors",
+      "abstract_summary": "Evidence-generating framework for AI model security verification. Produces structured artifacts capturing model integrity, packaging safety, and runtime behaviors",
+      "pdf_url": "https://arxiv.org/pdf/2511.12668.pdf",
+      "topics": ["AI-BOM", "model integrity", "security assurance", "risk scanning"]
+    },
+    {
+      "rank": 15,
+      "score": 91,
+      "arxiv_id": "2505.02521",
+      "title": "Attestable Builds: Compiling Verifiable Binaries on Untrusted Systems using Trusted Execution Environments",
+      "authors": ["Daniel Hugenroth", "Mario Lins", "René Mayrhofer", "Alastair Beresford"],
+      "date": "May 2025",
+      "institution": "UK/Austria (Cambridge, JKU Linz)",
+      "relevance": "VERY HIGH - TEE-based verification, source-to-binary verification",
+      "abstract_summary": "TEE-based mechanism for source-to-binary verification. Offers nearly instantaneous verification of correspondence between binary and source code",
+      "pdf_url": "https://arxiv.org/pdf/2505.02521.pdf",
+      "topics": ["TEE", "attestable builds", "binary verification", "trusted execution"]
+    },
+    {
+      "rank": 16,
+      "score": 91,
+      "arxiv_id": "2503.02097",
+      "title": "Bomfather: An eBPF-based Kernel-level Monitoring Framework for Accurate Identification of Unknown, Unused, and Dynamically Loaded Dependencies",
+      "authors": ["Naveen Srinivasan", "Nathan Naveen", "Neil Naveen"],
+      "date": "March 2025",
+      "institution": "US (based on names)",
+      "relevance": "VERY HIGH - Kernel-level dependency tracking, dynamic dependencies, SBOM accuracy",
+      "abstract_summary": "Kernel-level framework capturing software build dependencies transparently in real time accounting for conditional compilation, dead-code, selective library usage, and dynamic dependencies",
+      "pdf_url": "https://arxiv.org/pdf/2503.02097.pdf",
+      "topics": ["eBPF", "SBOM", "dependency tracking", "kernel monitoring"]
+    },
+    {
+      "rank": 17,
+      "score": 90,
+      "arxiv_id": "2409.09356",
+      "title": "Towards Robust Detection of Open Source Software Supply Chain Poisoning Attacks in Industry Environments",
+      "authors": ["Xinyi Zheng", "Chen Wei", "Shenao Wang", "Yanjie Zhao", "Peiming Gao", "Yuanchao Zhang", "Kailong Wang", "Haoyu Wang"],
+      "date": "September 2024",
+      "institution": "China (Huazhong University, Peking University)",
+      "relevance": "VERY HIGH - OSCAR tool for detecting supply chain poisoning in NPM/PyPI",
+      "abstract_summary": "Presents OSCAR, a detection tool addressing the exponential growth of open-source package ecosystems vulnerabilities in NPM and PyPI. Field deployment identified 10,404 malicious NPM packages and 1,235 malicious PyPI packages over 18 months",
+      "pdf_url": "https://arxiv.org/pdf/2409.09356.pdf",
+      "topics": ["supply chain poisoning", "OSCAR", "NPM", "PyPI", "malware detection"]
+    },
+    {
+      "rank": 18,
+      "score": 90,
+      "arxiv_id": "2510.05798",
+      "title": "SBOMproof: Beyond Alleged SBOM Compliance for Supply Chain Security of Container Images",
+      "authors": ["Jacopo Bufalino", "Mario Di Francesco", "Agathe Blaise", "Stefano Secci"],
+      "date": "October 2025",
+      "institution": "Finland/France",
+      "relevance": "VERY HIGH - SBOM confusion vulnerability, format inconsistencies, container security",
+      "abstract_summary": "Comprehensive tool evaluation revealing the SBOM confusion vulnerability where inconsistent formats prevent reliable vulnerability detection across tools",
+      "pdf_url": "https://arxiv.org/pdf/2510.05798.pdf",
+      "topics": ["SBOM compliance", "container security", "format confusion", "vulnerability detection"]
+    },
+    {
+      "rank": 19,
+      "score": 89,
+      "arxiv_id": "2510.05156",
+      "title": "VeriGuard: Enhancing LLM Agent Safety via Verified Code Generation",
+      "authors": ["Lesly Miculicich", "Mihir Parmar", "Hamid Palangi", "Krishnamurthy Dj Dvijotham", "Mirko Montanari", "Tomas Pfister", "Long T. Le"],
+      "date": "October 2025",
+      "institution": "US (Microsoft, Google)",
+      "relevance": "HIGH - Formal verification, policy enforcement, safety guarantees for LLM agents",
+      "abstract_summary": "Addresses safety enforcement for autonomous agents through formal verification. VeriGuard provides formal safety guarantees through a dual-stage architecture combining offline policy verification with online runtime monitoring",
+      "pdf_url": "https://arxiv.org/pdf/2510.05156.pdf",
+      "topics": ["LLM safety", "formal verification", "policy enforcement", "code generation"]
+    },
+    {
+      "rank": 20,
+      "score": 89,
+      "arxiv_id": "2503.24273",
+      "title": "Generating Mitigations for Downstream Projects to Neutralize Upstream Library Vulnerability",
+      "authors": ["Zirui Chen", "Xing Hu", "Puhua Sun", "Xin Xia", "Xiaohu Yang"],
+      "date": "March 2025",
+      "institution": "China/Australia",
+      "relevance": "VERY HIGH - Vulnerability mitigation, dependency security, LUMEN tool",
+      "abstract_summary": "Tackles vulnerability mitigation when dependency upgrades are infeasible or source code unavailable. LUMEN successfully mitigated 70.2% of impacted functions across 40 vulnerabilities without losing functionality",
+      "pdf_url": "https://arxiv.org/pdf/2503.24273.pdf",
+      "topics": ["vulnerability mitigation", "dependency security", "LUMEN", "upstream vulnerabilities"]
+    }
+  ]
+}

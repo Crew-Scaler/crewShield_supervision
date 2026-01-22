@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2511.15992v1",
+  "title": "Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis",
+  "authors": [
+    "Shahin Zanbaghi",
+    "Ryan Rostampour",
+    "Farhan Abid",
+    "Salim Al Jarmakani"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-11",
+  "url": "https://arxiv.org/abs/2511.15992v1",
+  "relevance_score": 87.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "anomaly detection",
+    "behavioral monitoring",
+    "autonomous systems"
+  ],
+  "summary": "Large Language Models (LLMs) can be backdoored to exhibit malicious behavior under specific deployment conditions while appearing safe during training a phenomenon known as \"sleeper agents.\" Recent work by Hubinger et al. demonstrated that these backdoors persist through safety training, yet no practical detection methods exist. We present a novel dual-method detection system combining semantic drift analysis with canary baseline comparison to identify backdoored LLMs in real-time. Our approach ..."
+}

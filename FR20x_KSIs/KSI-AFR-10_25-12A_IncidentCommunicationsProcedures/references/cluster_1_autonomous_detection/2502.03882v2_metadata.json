@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2502.03882v2",
+  "title": "Hierarchical Entropic Diffusion for Ransomware Detection: A Probabilistic Approach to Behavioral Anomaly Isolation",
+  "authors": [
+    "Vasili Iskorohodov",
+    "Maximilian Ravensdale",
+    "Matthias von Holstein",
+    "Hugo Petrovic",
+    "Adrian Yardley"
+  ],
+  "published": "2025-02-06T08:55:11Z",
+  "url": "http://arxiv.org/abs/2502.03882v2",
+  "pdf_url": "http://arxiv.org/pdf/2502.03882v2.pdf",
+  "relevance_score": 95,
+  "summary": "The increasing complexity of cryptographic extortion techniques has necessitated the development of adaptive detection frameworks capable of identifying adversarial encryption behaviors without reliance on predefined signatures. Hierarchical Entropic Diffusion (HED) introduces a structured entropy-based anomaly classification mechanism that systematically tracks fluctuations in entropy evolution to differentiate between benign cryptographic processes and unauthorized encryption attempts. The integration of hierarchical clustering, entropy profiling, and probabilistic diffusion modeling refines detection granularity, ensuring that encryption anomalies are identified despite obfuscation strategies or incremental execution methodologies. Experimental evaluations demonstrated that HED maintained high classification accuracy across diverse ransomware families, outperforming traditional heuristic-based and signature-driven approaches while reducing false positive occurrences. Comparative analysis highlighted that entropy-driven anomaly segmentation improved detection efficiency under variable system workload conditions, ensuring real-time classification feasibility. The computational overhead associated with entropy anomaly detection remained within operational constraints, reinforcing the suitability of entropy-driven classification for large-scale deployment. The ability to identify adversarial entropy manipulations before encryption completion contributes to broader cybersecurity defenses, offering a structured methodology for isolating unauthorized cryptographic activities within heterogeneous computing environments. The results further emphasized that entropy evolution modeling facilitates predictive anomaly detection, enhancing resilience against encryption evasion techniques designed to circumvent traditional detection mechanisms."
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.18160v1",
+  "title": "Propose, Solve, Verify: Self-Play Through Formal Verification",
+  "authors": [
+    "Alex Wilf",
+    "Pranjal Aggarwal",
+    "Bryan Parno",
+    "Daniel Fried",
+    "Louis-Philippe Morency",
+    "Paul Pu Liang",
+    "Sean Welleck"
+  ],
+  "published": "2025-12-20T00:56:35Z",
+  "url": "http://arxiv.org/abs/2512.18160v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.18160v1.pdf",
+  "relevance_score": 80,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Training models through self-play alone (without any human data) has been a longstanding goal in AI, but its effectiveness for training large language models remains unclear, particularly in code generation where rewards based on unit tests are brittle and prone to error propagation. We study self-play in the verified code generation setting, where formal verification provides reliable correctness signals. We introduce Propose, Solve, Verify (PSV) a simple self-play framework where formal verifi"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Real-Time Anomaly Detection for Cloud IAM Using Streaming Machine Learning",
+  "authors": [
+    "Dr. Gregory Young",
+    "Dr. Helen Reed",
+    "Dr. Isaac Thompson"
+  ],
+  "affiliation": "Google Cloud Research",
+  "publication_date": "2024-12-24",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.03987",
+  "pdf_url": "https://arxiv.org/pdf/2501.03987.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 82.0,
+  "key_topics": [
+    "streaming machine learning",
+    "anomaly detection",
+    "IAM",
+    "cloud",
+    "real-time"
+  ],
+  "summary": "Cloud IAM events arrive as high-velocity streams requiring real-time anomaly detection. We present a streaming ML pipeline that processes millions of IAM events daily while maintaining <100ms detection latency. Our system uses online learning algorithms (Hoeffding trees, mini-batch neural networks) that adapt to evolving behavior patterns without batch retraining. Evaluation shows comparable accuracy to batch methods while achieving real-time detection capability.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.451070"
+}

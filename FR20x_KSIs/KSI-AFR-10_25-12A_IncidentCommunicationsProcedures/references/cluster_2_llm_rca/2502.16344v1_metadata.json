@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2502.16344v1",
+  "title": "Machine Learning-Based Cloud Computing Compliance Process Automation",
+  "authors": [
+    "Yuqing Wang",
+    "Xiao Yang"
+  ],
+  "published": "2025-02-22T20:18:21Z",
+  "url": "http://arxiv.org/abs/2502.16344v1",
+  "pdf_url": "http://arxiv.org/pdf/2502.16344v1.pdf",
+  "relevance_score": 80,
+  "summary": "Cloud computing adoption across industries has revolutionized enterprise operations while introducing significant challenges in compliance management. Organizations must continuously meet evolving regulatory requirements such as GDPR and ISO 27001, yet traditional manual review processes have become increasingly inadequate for modern business scales. This paper presents a novel machine learning-based framework for automating cloud computing compliance processes, addressing critical challenges including resource-intensive manual reviews, extended compliance cycles, and delayed risk identification. Our proposed framework integrates multiple machine learning technologies, including BERT-based document processing (94.5% accuracy), One-Class SVM for anomaly detection (88.7% accuracy), and an improved CNN-LSTM architecture for sequential compliance data analysis (90.2% accuracy). Implementation results demonstrate significant improvements: reducing compliance process duration from 7 days to 1.5 days, improving accuracy from 78% to 93%, and decreasing manual effort by 73.3%. A real-world deployment at a major securities firm validated these results, processing 800,000 daily transactions with 94.2% accuracy in risk identification."
+}

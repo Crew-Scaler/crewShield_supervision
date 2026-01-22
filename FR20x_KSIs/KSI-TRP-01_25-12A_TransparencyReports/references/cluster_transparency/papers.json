@@ -1,0 +1,132 @@
+[
+  {
+    "arxiv_id": "2512.02418",
+    "title": "Leveraging Large Language Models to Bridge On-chain and Off-chain Transparency in Stablecoins",
+    "summary": "Stablecoins such as USDT and USDC aspire to peg stability by coupling issuance controls with reserve attestations. In practice, however, the transparency is split across two worlds: verifiable on-chain traces and off-chain disclosures locked in unstructured text that are unconnected. We introduce a large language model (LLM)-based automated framework that bridges these two dimensions by aligning on-chain issuance data with off-chain disclosure statements. First, we propose an integrative framework using LLMs to capture and analyze on- and off-chain data through document parsing and semantic alignment, extracting key financial indicators from issuer attestations and mapping them to corresponding on-chain metrics. Second, we integrate multi-chain issuance records and disclosure documents within a model context protocol (MCP) framework that standardizes LLMs access to both quantitative market data and qualitative disclosure narratives. This framework enables unified retrieval and contextual alignment across heterogeneous stablecoin information sources and facilitates consistent analysis. Third, we demonstrate the capability of LLMs to operate across heterogeneous data modalities in blockchain analytics, quantifying discrepancies between reported and observed circulation and examining their implications for cross-chain transparency and price dynamics. Our findings reveal systematic gaps between disclosed and verifiable data, showing that LLM-assisted analysis enhances cross-modal transparency and supports automated, data-driven auditing in decentralized finance (DeFi).",
+    "authors": [
+      "Yuexin Xiang",
+      "Yuchen Lei",
+      "SM Mahir Shazeed Rish",
+      "Yuanzhe Zhang",
+      "Qin Wang"
+    ],
+    "published": "2025-12-02T05:00:17Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2510.17000",
+    "title": "Bits Leaked per Query: Information-Theoretic Bounds on Adversarial Attacks against LLMs",
+    "summary": "Adversarial attacks by malicious users that threaten the safety of large language models (LLMs) can be viewed as attempts to infer a target property $T$ that is unknown when an instruction is issued, and becomes knowable only after the model's reply is observed. Examples of target properties $T$ include the binary flag that triggers an LLM's harmful response or rejection, and the degree to which information deleted by unlearning can be restored, both elicited via adversarial instructions. The LLM reveals an \\emph{observable signal} $Z$ that potentially leaks hints for attacking through a response containing answer tokens, thinking process tokens, or logits. Yet the scale of information leaked remains anecdotal, leaving auditors without principled guidance and defenders blind to the transparency--risk trade-off. We fill this gap with an information-theoretic framework that computes how much information can be safely disclosed, and enables auditors to gauge how close their methods come to the fundamental limit. Treating the mutual information $I(Z;T)$ between the observation $Z$ and the target property $T$ as the leaked bits per query, we show that achieving error $\\varepsilon$ requires at least $\\log(1/\\varepsilon)/I(Z;T)$ queries, scaling linearly with the inverse leak rate and only logarithmically with the desired accuracy. Thus, even a modest increase in disclosure collapses the attack cost from quadratic to logarithmic in terms of the desired accuracy. Experiments on seven LLMs across system-prompt leakage, jailbreak, and relearning attacks corroborate the theory: exposing answer tokens alone requires about a thousand queries; adding logits cuts this to about a hundred; and revealing the full thinking process trims it to a few dozen. Our results provide the first principled yardstick for balancing transparency and security when deploying LLMs.",
+    "authors": [
+      "Masahiro Kaneko",
+      "Timothy Baldwin"
+    ],
+    "published": "2025-10-19T20:51:24Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2208.05865",
+    "title": "Transparent and Tamper-Proof Event Ordering in the Internet of Things Platforms",
+    "summary": "Today, the audit and diagnosis of the causal relationships between the events in a trigger-action-based event chain (e.g., why is a light turned on in a smart home?) in the Internet of Things (IoT) platforms are untrustworthy and unreliable. The current IoT platforms lack techniques for transparent and tamper-proof ordering of events due to their device-centric logging mechanism. In this paper, we develop a framework that facilitates tamper-proof transparency and event order in an IoT platform by proposing a Blockchain protocol and adopting the vector clock system, both tailored for the resource-constrained heterogeneous IoT devices, respectively. To cope with the unsuited storage (e.g., ledger) and computing power (e.g., proof of work puzzle) requirements of the Blockchain in the commercial off-the-shelf IoT devices, we propose a partial consistent cut protocol and engineer a modular arithmetic-based lightweight proof of work puzzle, respectively. To the best of our knowledge, this is the first Blockchain designed for resource-constrained heterogeneous IoT platforms. Our event ordering protocol based on the vector clock system is also novel for the IoT platforms. We implement our framework using an IoT gateway and 30 IoT devices. We experiment with 10 concurrent trigger-action-based event chains while each chain involves 20 devices, and each device participates in 5 different chains. The results show that our framework may order these events in 2.5 seconds while consuming only 140 mJ of energy per device. The results hence demonstrate the proposed platform as a practical choice for many IoT applications such as smart home, traffic monitoring, and crime investigation.",
+    "authors": [
+      "Mahbubur Rahman",
+      "Abusayeed Saifullah"
+    ],
+    "published": "2022-08-11T15:13:55Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.03765",
+    "title": "The Treasury Proof Ledger: A Cryptographic Framework for Accountable Bitcoin Treasuries",
+    "summary": "Public companies and institutional investors that hold Bitcoin face increasing pressure to show solvency, manage risk, and satisfy regulatory expectations without exposing internal wallet structures or trading strategies. This paper introduces the Treasury Proof Ledger (TPL), a Bitcoin-anchored logging framework for multi-domain Bitcoin treasuries that treats on-chain and off-chain exposures as a conserved state machine with an explicit fee sink. A TPL instance records proof-of-reserves snapshots, proof-of-transit receipts for movements between domains, and policy metadata, and it supports restricted views based on stakeholder permissions. We define an idealised TPL model, represent Bitcoin treasuries as multi-domain exposure vectors, and give deployment-level security notions including exposure soundness, policy completeness, non-equivocation, and privacy-compatible policy views. We then outline how practical, restricted forms of these guarantees can be achieved by combining standard proof-of-reserves and proof-of-transit techniques with hash-based commitments anchored on Bitcoin. The results are existence-type statements: they show which guarantees are achievable once economic and governance assumptions are set, without claiming that any current system already provides them. A stylised corporate-treasury example illustrates how TPL could support responsible transparency policies and future cross-institution checks consistent with Bitcoin's fixed monetary supply.",
+    "authors": [
+      "Jose E. Puente",
+      "Carlos Puente"
+    ],
+    "published": "2025-12-03T13:14:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2507.09564",
+    "title": "A Login Page Transparency and Visual Similarity Based Zero Day Phishing Defense Protocol",
+    "summary": "Phishing is a prevalent cyberattack that uses look-alike websites to deceive users into revealing sensitive information. Numerous efforts have been made by the Internet community and security organizations to detect, prevent, or train users to avoid falling victim to phishing attacks. Most of this research over the years has been highly diverse and application-oriented, often serving as standalone solutions for HTTP clients, servers, or third parties. However, limited work has been done to develop a comprehensive or proactive protocol-oriented solution to effectively counter phishing attacks. Inspired by the concept of certificate transparency, which allows certificates issued by Certificate Authorities (CAs) to be publicly verified by clients, thereby enhancing transparency, we propose a concept called Page Transparency (PT) for the web. The proposed PT requires login pages that capture users' sensitive information to be publicly logged via PLS and made available to web clients for verification. The pages are verified to be logged using cryptographic proofs. Since all pages are logged on a PLS and visually compared with existing pages through a comprehensive visual page-matching algorithm, it becomes impossible for an attacker to register a deceptive look-alike page on the PLS and receive the cryptographic proof required for client verification. All implementations occur on the client side, facilitated by the introduction of a new HTTP PT header, eliminating the need for platform-specific changes or the installation of third-party solutions for phishing prevention.",
+    "authors": [
+      "Gaurav Varshney",
+      "Akanksha Raj",
+      "Divya Sangwan",
+      "Sharif Abuadbba",
+      "Rina Mishra"
+    ],
+    "published": "2025-07-13T10:15:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2509.20391",
+    "title": "A Comparative Analysis of Ensemble-Based Machine Learning Approaches with Explainable AI for Multi-Class Intrusion Detection in Drone Networks",
+    "summary": "The growing integration of drones into civilian, commercial, and defense sectors introduces significant cybersecurity concerns, particularly with the increased risk of network-based intrusions targeting drone communication protocols. Detecting and classifying these intrusions is inherently challenging due to the dynamic nature of drone traffic and the presence of multiple sophisticated attack vectors such as spoofing, injection, replay, and man-in-the-middle (MITM) attacks. This research aims to develop a robust and interpretable intrusion detection framework tailored for drone networks, with a focus on handling multi-class classification and model explainability. We present a comparative analysis of ensemble-based machine learning models, namely Random Forest, Extra Trees, AdaBoost, CatBoost, and XGBoost, trained on a labeled dataset comprising benign traffic and nine distinct intrusion types. Comprehensive data preprocessing was performed, including missing value imputation, scaling, and categorical encoding, followed by model training and extensive evaluation using metrics such as macro F1-score, ROC AUC, Matthews Correlation Coefficient, and Log Loss. Random Forest achieved the highest performance with a macro F1-score of 0.9998 and ROC AUC of 1.0000. To validate the superiority of the models, statistical tests, including Friedmans test, the Wilcoxon signed-rank test with Holm correction, and bootstrapped confidence intervals, were applied. Furthermore, explainable AI methods, SHAP and LIME, were integrated to interpret both global and local feature importance, enhancing model transparency and decision trustworthiness. The proposed approach not only delivers near-perfect accuracy but also ensures interpretability, making it highly suitable for real-time and safety-critical drone operations.",
+    "authors": [
+      "Md. Alamgir Hossain",
+      "Waqas Ishtiaq",
+      "Md. Samiul Islam"
+    ],
+    "published": "2025-09-23T00:59:21Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2203.02280",
+    "title": "Postcertificates for Revocation Transparency",
+    "summary": "The modern Internet is highly dependent on trust communicated via certificates. However, in some cases, certificates become untrusted, and it is necessary to revoke them. In practice, the problem of secure revocation is still open. Furthermore, the existing procedures do not leave a transparent and immutable revocation history. We propose and evaluate a new revocation transparency protocol that introduces postcertificates and utilizes the existing Certificate Transparency (CT) logs. The protocol is practical, has a low deployment cost, provides an immutable history of revocations, enables delegation, and helps to detect revocation-related misbehavior by certificate authorities (CAs). With this protocol, a holder of a postcertificate can bypass the issuing CA and autonomously initiate the revocation process via submission of the postcertificate to a CT log. The CAs are required to monitor CT logs and proceed with the revocation upon detection of a postcertificate. Revocation status delivery is performed independently and with an arbitrary status protocol. Postcertificates can increase the accountability of the CAs and empower the certificate owners by giving them additional control over the status of the certificates. We evaluate the protocol, measure log and monitor performance, and conclude that it is possible to provide revocation transparency using existing CT logs.",
+    "authors": [
+      "Nikita Korzhitskii",
+      "Matus Nemec",
+      "Niklas Carlsson"
+    ],
+    "published": "2022-03-03T18:43:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2507.21193",
+    "title": "Interpretable Anomaly-Based DDoS Detection in AI-RAN with XAI and LLMs",
+    "summary": "Next generation Radio Access Networks (RANs) introduce programmability, intelligence, and near real-time control through intelligent controllers, enabling enhanced security within the RAN and across broader 5G/6G infrastructures. This paper presents a comprehensive survey highlighting opportunities, challenges, and research gaps for Large Language Models (LLMs)-assisted explainable (XAI) intrusion detection (IDS) for secure future RAN environments. Motivated by this, we propose an LLM interpretable anomaly-based detection system for distributed denial-of-service (DDoS) attacks using multivariate time series key performance measures (KPMs), extracted from E2 nodes, within the Near Real-Time RAN Intelligent Controller (Near-RT RIC). An LSTM-based model is trained to identify malicious User Equipment (UE) behavior based on these KPMs. To enhance transparency, we apply post-hoc local explainability methods such as LIME and SHAP to interpret individual predictions. Furthermore, LLMs are employed to convert technical explanations into natural-language insights accessible to non-expert users. Experimental results on real 5G network KPMs demonstrate that our framework achieves high detection accuracy (F1-score &gt; 0.96) while delivering actionable and interpretable outputs.",
+    "authors": [
+      "Sotiris Chatzimiltis",
+      "Mohammad Shojafar",
+      "Mahdi Boloursaz Mashhadi",
+      "Rahim Tafazolli"
+    ],
+    "published": "2025-07-27T22:16:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2512.24457",
+    "title": "Document Data Matching for Blockchain-Supported Real Estate",
+    "summary": "The real estate sector remains highly dependent on manual document handling and verification, making processes inefficient and prone to fraud. This work presents a system that integrates optical character recognition (OCR), natural language processing (NLP), and verifiable credentials (VCs) to automate document extraction, verification, and management. The approach standardizes heterogeneous document formats into VCs and applies automated data matching to detect inconsistencies, while the blockchain provides a decentralized trust layer that reinforces transparency and integrity. A prototype was developed that comprises (i) an OCR-NLP extraction pipeline trained on synthetic datasets, (ii) a backend for credential issuance and management, and (iii) a frontend supporting issuer, holder, and verifier interactions. Experimental results show that the models achieve competitive accuracy across multiple document types and that the end-to-end pipeline reduces verification time while preserving reliability. The proposed framework demonstrates the potential to streamline real estate transactions, strengthen stakeholder trust, and enable scalable, secure digital processes.",
+    "authors": [
+      "Henrique Lin",
+      "Tiago Dias",
+      "Miguel Correia"
+    ],
+    "published": "2025-12-30T20:30:48Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2511.17644",
+    "title": "Hybrid Neuro-Symbolic Models for Ethical AI in Risk-Sensitive Domains",
+    "summary": "Artificial intelligence deployed in risk-sensitive domains such as healthcare, finance, and security must not only achieve predictive accuracy but also ensure transparency, ethical alignment, and compliance with regulatory expectations. Hybrid neuro symbolic models combine the pattern-recognition strengths of neural networks with the interpretability and logical rigor of symbolic reasoning, making them well-suited for these contexts. This paper surveys hybrid architectures, ethical design considerations, and deployment patterns that balance accuracy with accountability. We highlight techniques for integrating knowledge graphs with deep inference, embedding fairness-aware rules, and generating human-readable explanations. Through case studies in healthcare decision support, financial risk management, and autonomous infrastructure, we show how hybrid systems can deliver reliable and auditable AI. Finally, we outline evaluation protocols and future directions for scaling neuro symbolic frameworks in complex, high stakes environments.",
+    "authors": [
+      "Chaitanya Kumar Kolli"
+    ],
+    "published": "2025-11-20T03:39:01Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 51.0
+  }
+]

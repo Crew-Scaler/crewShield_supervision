@@ -1,0 +1,210 @@
+{
+  "total_searched": 97,
+  "recent_papers": 58,
+  "relevant_papers": 50,
+  "downloaded": 10,
+  "papers": [
+    {
+      "arxiv_id": "2512.21250v1",
+      "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+      "summary": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+      "authors": [
+        "Haoyang Li",
+        "Mingjin Li",
+        "Jinxin Zuo",
+        "Siqi Li",
+        "Xiao Li",
+        "Hao Wu",
+        "Yueming Lu",
+        "Xiaochuan He"
+      ],
+      "published": "2025-12-24 15:55:42+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2512.21250v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.21250v1_cotdeceptoradversarial_code_obfuscation_against_co.pdf",
+      "filename": "2512.21250v1_cotdeceptoradversarial_code_obfuscation_against_co.pdf",
+      "page_count": 15
+    },
+    {
+      "arxiv_id": "2512.17710v1",
+      "title": "A Practical Solution to Systematically Monitor Inconsistencies in SBOM-based Vulnerability Scanners",
+      "summary": "Software Bill of Materials (SBOM) provides new opportunities for automated vulnerability identification in software products. While the industry is adopting SBOM-based Vulnerability Scanning (SVS) to identify vulnerabilities, we increasingly observe inconsistencies and unexpected behavior, that result in false negatives and silent failures. In this work, we present the background necessary to understand the underlying complexity of SVS and introduce SVS-TEST, a method and tool to analyze the capability, maturity, and failure conditions of SVS-tools in real-world scenarios. We showcase the utility of SVS-TEST in a case study evaluating seven real-world SVS-tools using 16 precisely crafted SBOMs and their respective ground truth. Our results unveil significant differences in the reliability and error handling of SVS-tools; multiple SVS-tools silently fail on valid input SBOMs, creating a false sense of security. We conclude our work by highlighting implications for researchers and practitioners, including how organizations and developers of SVS-tools can utilize SVS-TEST to monitor SVS capability and maturity. All results and research artifacts are made publicly available and all findings were disclosed to the SVS-tool developers ahead of time.",
+      "authors": [
+        "Martin Rosso",
+        "Muhammad Asad Jahangir Jaffar",
+        "Alessandro Brighente",
+        "Mauro Conti"
+      ],
+      "published": "2025-12-19 15:42:22+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2512.17710v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.17710v1_a_practical_solution_to_systematically_monitor_inc.pdf",
+      "filename": "2512.17710v1_a_practical_solution_to_systematically_monitor_inc.pdf",
+      "page_count": 15
+    },
+    {
+      "arxiv_id": "2511.22359v1",
+      "title": "UniBOM -- A Unified SBOM Analysis and Visualisation Tool for IoT Systems and Beyond",
+      "summary": "Modern networked systems rely on complex software stacks, which often conceal vulnerabilities arising from intricate interdependencies. A Software Bill of Materials (SBOM) is effective for identifying dependencies and mitigating security risks. However, existing SBOM solutions lack precision, particularly in binary analysis and non-package-managed languages like C/C++.   This paper introduces UniBOM, an advanced tool for SBOM generation, analysis, and visualisation, designed to enhance the security accountability of networked systems. UniBOM integrates binary, filesystem, and source code analysis, enabling fine-grained vulnerability detection and risk management. Key features include historical CPE tracking, AI-based vulnerability classification by severity and memory safety, and support for non-package-managed C/C++ dependencies.   UniBOM's effectiveness is demonstrated through a comparative vulnerability analysis of 258 wireless router firmware binaries and the source code of four popular IoT operating systems, highlighting its superior detection capabilities compared to other widely used SBOM generation and analysis tools. Packaged for open-source distribution, UniBOM offers an end-to-end unified analysis and visualisation solution, advancing SBOM-driven security management for dependable networked systems and broader software.",
+      "authors": [
+        "Vadim Safronov",
+        "Ionut Bostan",
+        "Nicholas Allott",
+        "Andrew Martin"
+      ],
+      "published": "2025-11-27 11:50:58+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2511.22359v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2511.22359v1_unibom_--_a_unified_sbom_analysis_and_visualisatio.pdf",
+      "filename": "2511.22359v1_unibom_--_a_unified_sbom_analysis_and_visualisatio.pdf",
+      "page_count": 9
+    },
+    {
+      "arxiv_id": "2511.22186v1",
+      "title": "Exploring the SECURITY.md in the Dependency Chain: Preliminary Analysis of the PyPI Ecosystem",
+      "summary": "Security policies, such as SECURITY.md files, are now common in open-source projects. They help guide responsible vulnerability reporting and build trust among users and contributors. Despite their growing use, it is still unclear how these policies influence the structure and evolution of software dependencies. Software dependencies are external packages or libraries that a project relies on, and their interconnected nature affects both functionality and security. This study explores the relationship between security policies and dependency management in PyPI projects. We analyzed projects with and without a SECURITY.md file by examining their dependency trees and tracking how dependencies change over time. The analysis shows that projects with a security policy tend to rely on a broader set of direct dependencies, while overall depth and transitive dependencies remain similar. Historically, projects created after the introduction of SECURITY.md, particularly later adopters, show more frequent dependency updates. These results suggest that security policies are linked to more modular and feature-rich projects, and highlight the role of SECURITY.md in promoting proactive dependency management and reducing risks in the software supply chain.",
+      "authors": [
+        "Chayanid Termphaiboon",
+        "Raula Gaikovina Kula",
+        "Youmei Fan",
+        "Morakot Choetkiertikul",
+        "Chaiyong Ragkhitwetsagul",
+        "Thanwadee Sunetnanta",
+        "Kenichi Matsumoto"
+      ],
+      "published": "2025-11-27 07:51:48+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2511.22186v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2511.22186v1_exploring_the_securitymd_in_the_dependency_chain_p.pdf",
+      "filename": "2511.22186v1_exploring_the_securitymd_in_the_dependency_chain_p.pdf",
+      "page_count": 8
+    },
+    {
+      "arxiv_id": "2511.20313v1",
+      "title": "A Reality Check on SBOM-based Vulnerability Management: An Empirical Study and A Path Forward",
+      "summary": "The Software Bill of Materials (SBOM) is a critical tool for securing the software supply chain (SSC), but its practical utility is undermined by inaccuracies in both its generation and its application in vulnerability scanning. This paper presents a large-scale empirical study on 2,414 open-source repositories to address these issues from a practical standpoint. First, we demonstrate that using lock files with strong package managers enables the generation of accurate and consistent SBOMs, establishing a reliable foundation for security analysis. Using this high-fidelity foundation, however, we expose a more fundamental flaw in practice: downstream vulnerability scanners produce a staggering 97.5\\% false positive rate. We pinpoint the primary cause as the flagging of vulnerabilities within unreachable code. We then demonstrate that function call analysis can effectively prune 63.3\\% of these false alarms. Our work validates a practical, two-stage approach for SSC security: first, generate an accurate SBOM using lock files and strong package managers, and second, enrich it with function call analysis to produce actionable, low-noise vulnerability reports that alleviate developers' alert fatigue.",
+      "authors": [
+        "Li Zhou",
+        "Marc Dacier",
+        "Charalambos Konstantinou"
+      ],
+      "published": "2025-11-25 13:52:16+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2511.20313v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2511.20313v1_a_reality_check_on_sbom-based_vulnerability_manage.pdf",
+      "filename": "2511.20313v1_a_reality_check_on_sbom-based_vulnerability_manage.pdf",
+      "page_count": 12
+    },
+    {
+      "arxiv_id": "2511.12668v1",
+      "title": "AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) Framework",
+      "summary": "Assurance for artificial intelligence (AI) systems remains fragmented across software supply-chain security, adversarial machine learning, and governance documentation. Existing transparency mechanisms - including Model Cards, Datasheets, and Software Bills of Materials (SBOMs) - advance provenance reporting but rarely provide verifiable, machine-readable evidence of model security. This paper introduces the AI Risk Scanning (AIRS) Framework, a threat-model-based, evidence-generating framework designed to operationalize AI assurance. The AIRS Framework evolved through three progressive pilot studies - Smurf (AIBOM schema design), OPAL (operational validation), and Pilot C (AIRS) - that reframed AI documentation from descriptive disclosure toward measurable, evidence-bound verification. The framework aligns its assurance fields to the MITRE ATLAS adversarial ML taxonomy and automatically produces structured artifacts capturing model integrity, packaging and serialization safety, structural adapters, and runtime behaviors. Currently, the AIRS Framework is scoped to provide model-level assurances for LLMs, but it could be expanded to include other modalities and cover system-level threats (e.g. application-layer abuses, tool-calling). A proof-of-concept on a quantized GPT-OSS-20B model demonstrates enforcement of safe loader policies, per-shard hash verification, and contamination and backdoor probes executed under controlled runtime conditions. Comparative analysis with SBOM standards of SPDX 3.0 and CycloneDX 1.6 reveals alignment on identity and evaluation metadata, but identifies critical gaps in representing AI-specific assurance fields. The AIRS Framework thus extends SBOM practice to the AI domain by coupling threat modeling with automated, auditable evidence generation, providing a principled foundation for standardized, trustworthy, and machine-verifiable AI risk documentation.",
+      "authors": [
+        "Samuel Nathanson",
+        "Alexander Lee",
+        "Catherine Chen Kieffer",
+        "Jared Junkin",
+        "Jessica Ye",
+        "Amir Saeed",
+        "Melanie Lockhart",
+        "Russ Fink",
+        "Elisha Peterson",
+        "Lanier Watkins"
+      ],
+      "published": "2025-11-16 16:10:38+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2511.12668v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2511.12668v1_ai_bill_of_materials_and_beyond_systematizing_secu.pdf",
+      "filename": "2511.12668v1_ai_bill_of_materials_and_beyond_systematizing_secu.pdf",
+      "page_count": 13
+    },
+    {
+      "arxiv_id": "2510.24920v1",
+      "title": "S3C2 Summit 2025-03: Industry Secure Supply Chain Summit",
+      "summary": "Software supply chains, while providing immense economic and software development value, are only as strong as their weakest link. Over the past several years, there has been an exponential increase in cyberattacks specifically targeting vulnerable links in critical software supply chains. These attacks disrupt the day-to-day functioning and threaten the security of nearly everyone on the internet, from billion-dollar companies and government agencies to hobbyist open-source developers. The ever-evolving threat of software supply chain attacks has garnered interest from both the software industry and US government in improving software supply chain security. On Thursday, March 6th, 2025, four researchers from the NSF-backed Secure Software Supply Chain Center (S3C2) conducted a Secure Software Supply Chain Summit with a diverse set of 18 practitioners from 17 organizations. The goals of the Summit were: (1) to enable sharing between participants from different industries regarding practical experiences and challenges with software supply chain security; (2) to help form new collaborations; and (3) to learn about the challenges facing participants to inform our future research directions. The summit consisted of discussions of six topics relevant to the government agencies represented, including software bill of materials (SBOMs); compliance; malicious commits; build infrastructure; culture; and large language models (LLMs) and security. For each topic of discussion, we presented a list of questions to participants to spark conversation. In this report, we provide a summary of the summit. The open questions and challenges that remained after each topic are listed at the end of each topic's section, and the initial discussion questions for each topic are provided in the appendix.",
+      "authors": [
+        "Elizabeth Lin",
+        "Jonah Ghebremichael",
+        "William Enck",
+        "Yasemin Acar",
+        "Michel Cukier",
+        "Alexandros Kapravelos",
+        "Christian Kastner",
+        "Laurie Williams"
+      ],
+      "published": "2025-10-28 19:47:07+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2510.24920v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2510.24920v1_s3c2_summit_2025-03_industry_secure_supply_chain_s.pdf",
+      "filename": "2510.24920v1_s3c2_summit_2025-03_industry_secure_supply_chain_s.pdf",
+      "page_count": 6
+    },
+    {
+      "arxiv_id": "2510.07070v1",
+      "title": "Building an Open AIBOM Standard in the Wild",
+      "summary": "Modern software engineering increasingly relies on open, community-driven standards, yet how such standards are created in fast-evolving domains like AI-powered systems remains underexplored. This paper presents a detailed experience report on the development of the AI Bill of Materials AIBOM specification, an extension of the ISO/IEC 5962:2021 Software Package Data Exchange (SPDX) software bill of materials (SBOM) standard, which captures AI components such as datasets and iterative training artifacts. Framed through the lens of Action Research (AR), we document a global, multi-stakeholder effort involving over 90 contributors and structured AR cycles. The resulting specification was validated through four complementary approaches: alignment with major regulations and ethical standards (e.g., EU AI Act and IEEE 7000 standards), systematic mapping to six industry use cases, semi-structured practitioner interviews, and an industrial case study. Beyond delivering a validated artefact, our paper documents the process of building the AIBOM specification in the wild, and reflects on how it aligns with the AR cycle, and distills lessons that can inform future standardization efforts in the software engineering community.",
+      "authors": [
+        "Gopi Krishnan Rajbahadur",
+        "Keheliya Gallaba",
+        "Elyas Rashno",
+        "Arthit Suriyawongkul",
+        "Karen Bennet",
+        "Kate Stewart",
+        "Ahmed E. Hassan"
+      ],
+      "published": "2025-10-08 14:32:31+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2510.07070v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2510.07070v1_building_an_open_aibom_standard_in_the_wild.pdf",
+      "filename": "2510.07070v1_building_an_open_aibom_standard_in_the_wild.pdf",
+      "page_count": 13
+    },
+    {
+      "arxiv_id": "2510.05798v1",
+      "title": "SBOMproof: Beyond Alleged SBOM Compliance for Supply Chain Security of Container Images",
+      "summary": "Supply chain security is extremely important for modern applications running at scale in the cloud. In fact, they involve a large number of heterogeneous microservices that also include third-party software. As a result, security vulnerabilities are hard to identify and mitigate before they start being actively exploited by attackers. For this reason, governments have recently introduced cybersecurity regulations that require vendors to share a software bill of material (SBOM) with end users or regulators. An SBOM can be employed to identify the security vulnerabilities of a software component even without access to its source code, as long as it is accurate and interoperable across different tools. This work evaluates this issue through a comprehensive study of tools for SBOM generation and vulnerability scanning, including both open-source software and cloud services from major providers. We specifically target software containers and focus on operating system packages in Linux distributions that are widely used as base images due to their far-reaching security impact. Our findings show that the considered tools are largely incompatible, leading to inaccurate reporting and a large amount of undetected vulnerabilities. We uncover the SBOM confusion vulnerability, a byproduct of such fragmented ecosystem, where inconsistent formats prevent reliable vulnerability detection across tools.",
+      "authors": [
+        "Jacopo Bufalino",
+        "Mario Di Francesco",
+        "Agathe Blaise",
+        "Stefano Secci"
+      ],
+      "published": "2025-10-07 11:17:51+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2510.05798v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2510.05798v1_sbomproof_beyond_alleged_sbom_compliance_for_suppl.pdf",
+      "filename": "2510.05798v1_sbomproof_beyond_alleged_sbom_compliance_for_suppl.pdf",
+      "page_count": 18
+    },
+    {
+      "arxiv_id": "2510.04495v1",
+      "title": "Detecting and Characterizing Low and No Functionality Packages in the NPM Ecosystem",
+      "summary": "Trivial packages, small modules with low functionality, are common in the npm ecosystem and can pose security risks despite their simplicity. This paper refines existing definitions and introduce data-only packages that contain no executable logic. A rule-based static analysis method is developed to detect trivial and data-only packages and evaluate their prevalence and associated risks in the 2025 npm ecosystem. The analysis shows that 17.92% of packages are trivial, with vulnerability levels comparable to non-trivial ones, and data-only packages, though rare, also contain risks. The proposed detection tool achieves 94% accuracy (macro-F1 0.87), enabling effective large-scale analysis to reduce security exposure. This findings suggest that trivial and data-only packages warrant greater attention in dependency management to reduce potential technical debt and security exposure.",
+      "authors": [
+        "Napasorn Tevarut",
+        "Brittany Reid",
+        "Yutaro Kashiwa",
+        "Pattara Leelaprute",
+        "Arnon Rungsawang",
+        "Bundit Manaskasemsak",
+        "Hajimu Iida"
+      ],
+      "published": "2025-10-06 05:11:49+00:00",
+      "pdf_link": "https://arxiv.org/pdf/2510.04495v1",
+      "priority_institution": null,
+      "is_priority": false,
+      "local_file": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2510.04495v1_detecting_and_characterizing_low_and_no_functional.pdf",
+      "filename": "2510.04495v1_detecting_and_characterizing_low_and_no_functional.pdf",
+      "page_count": 8
+    }
+  ]
+}

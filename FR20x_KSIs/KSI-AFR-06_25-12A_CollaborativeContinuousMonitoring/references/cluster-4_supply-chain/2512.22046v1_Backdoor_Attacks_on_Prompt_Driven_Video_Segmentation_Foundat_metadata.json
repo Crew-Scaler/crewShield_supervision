@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.22046v1",
+  "title": "Backdoor Attacks on Prompt-Driven Video Segmentation Foundation Models",
+  "authors": [
+    "Zongmin Zhang",
+    "Zhen Sun",
+    "Yifan Liao",
+    "Wenhan Dong",
+    "Xinlei He"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22046v1",
+  "relevance_score": 83.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management",
+    "autonomous systems"
+  ],
+  "summary": "Prompt-driven Video Segmentation Foundation Models (VSFMs) such as SAM2 are increasingly deployed in applications like autonomous driving and digital pathology, raising concerns about backdoor threats. Surprisingly, we find that directly transferring classic backdoor attacks (e.g., BadNet) to VSFMs is almost ineffective, with ASR below 5\\%. To understand this, we study encoder gradients and attention maps and observe that conventional training keeps gradients for clean and triggered samples larg..."
+}

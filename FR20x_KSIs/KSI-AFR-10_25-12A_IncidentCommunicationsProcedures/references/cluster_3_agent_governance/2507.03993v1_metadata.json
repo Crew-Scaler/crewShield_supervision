@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2507.03993v1",
+  "title": "MalVol-25: A Diverse, Labelled and Detailed Volatile Memory Dataset for Malware Detection and Response Testing and Validation",
+  "authors": [
+    "Dipo Dunsin",
+    "Mohamed Chahine Ghanem",
+    "Eduardo Almeida Palmieri"
+  ],
+  "published": "2025-07-05T10:45:45Z",
+  "url": "http://arxiv.org/abs/2507.03993v1",
+  "pdf_url": "http://arxiv.org/pdf/2507.03993v1.pdf",
+  "relevance_score": 100,
+  "summary": "This paper addresses the critical need for high-quality malware datasets that support advanced analysis techniques, particularly machine learning and agentic AI frameworks. Existing datasets often lack diversity, comprehensive labelling, and the complexity necessary for effective machine learning and agent-based AI training. To fill this gap, we developed a systematic approach for generating a dataset that combines automated malware execution in controlled virtual environments with dynamic monitoring tools. The resulting dataset comprises clean and infected memory snapshots across multiple malware families and operating systems, capturing detailed behavioural and environmental features. Key design decisions include applying ethical and legal compliance, thorough validation using both automated and manual methods, and comprehensive documentation to ensure replicability and integrity. The dataset's distinctive features enable modelling system states and transitions, facilitating RL-based malware detection and response strategies. This resource is significant for advancing adaptive cybersecurity defences and digital forensic research. Its scope supports diverse malware scenarios and offers potential for broader applications in incident response and automated threat mitigation."
+}

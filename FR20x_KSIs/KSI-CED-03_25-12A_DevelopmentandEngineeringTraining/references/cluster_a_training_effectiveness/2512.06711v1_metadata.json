@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.06711v1",
+  "title": "Parameter-Efficient Fine-Tuning with Differential Privacy for Robust Instruction Adaptation in Large Language Models",
+  "authors": [
+    "Yulin Huang",
+    "Yaxuan Luan",
+    "Jinxu Guo",
+    "Xiangchen Song",
+    "Yuchen Liu"
+  ],
+  "published": "2025-12-07T08:01:01Z",
+  "url": "http://arxiv.org/abs/2512.06711v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.06711v1.pdf",
+  "relevance_score": 59,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "This study addresses the issues of privacy protection and efficiency in instruction fine-tuning of large-scale language models by proposing a parameter-efficient method that integrates differential privacy noise allocation with gradient clipping in a collaborative optimization framework. The method keeps the backbone model frozen and updates parameters through a low-dimensional projection subspace, while introducing clipping and adaptive noise allocation during gradient computation. This design "
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.24143v1",
+  "title": "Activation Steering for Masked Diffusion Language Models",
+  "authors": [
+    "Adi Shnaidman",
+    "Erin Feiglin",
+    "Osher Yaari",
+    "Efrat Mentel",
+    "Amit Levi",
+    "Raz Lapid"
+  ],
+  "published": "2025-12-30T11:10:52Z",
+  "url": "http://arxiv.org/abs/2512.24143v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24143v1.pdf",
+  "relevance_score": 60,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Masked diffusion language models (MDLMs) generate text through an iterative denoising process. They have recently gained attention due to mask-parallel decoding and competitive performance with autoregressive large language models. However, effective mechanisms for inference-time control and steering in MDLMs remain largely unexplored. We present an activation-steering framework for MDLMs that computes layer-wise steering vectors from a single forward pass using contrastive examples, without sim"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.06243v1",
+  "title": "Quantization Blindspots: How Model Compression Breaks Backdoor Defenses",
+  "authors": [
+    "Rohan Pandey",
+    "Eric Ye"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.06243v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness"
+  ],
+  "summary": "Backdoor attacks embed input-dependent malicious behavior into neural networks while preserving high clean accuracy, making them a persistent threat for deployed ML systems. At the same time, real-world deployments almost never serve full-precision models: post-training quantization to INT8 or lower precision is now standard practice for reducing memory and latency. This work asks a simple question: how do existing backdoor defenses behave under standard quantization pipelines? We conduct a syst..."
+}

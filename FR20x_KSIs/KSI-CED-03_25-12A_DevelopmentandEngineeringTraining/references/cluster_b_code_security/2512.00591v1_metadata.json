@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.00591v1",
+  "title": "TrojanLoC: LLM-based Framework for RTL Trojan Localization",
+  "authors": [
+    "Weihua Xiao",
+    "Zeng Wang",
+    "Minghao Shao",
+    "Raghu Vamshi Hemadri",
+    "Ozgur Sinanoglu",
+    "Muhammad Shafique",
+    "Johann Knechtel",
+    "Siddharth Garg",
+    "Ramesh Karri"
+  ],
+  "published": "2025-11-29T18:45:00Z",
+  "url": "http://arxiv.org/abs/2512.00591v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.00591v1.pdf",
+  "relevance_score": 76,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Hardware Trojans (HT s) are a persistent threat to integrated circuits, especially when inserted at the register-transfer level (RTL). Existing methods typically first convert the design into a graph, such as a gate-level netlist or an RTL-derived dataflow graph (DFG), and then use a graph neural network (GNN ) to obtain an embedding of that graph, which (i) loses compact RTL semantics, (ii) relies on shallow GNNs with limited receptive field, and (iii) is largely restricted to coarse, module-le"
+}

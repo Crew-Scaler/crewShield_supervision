@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2601.00138v1",
+  "title": "Explicit Abstention Knobs for Predictable Reliability in Video Question Answering",
+  "authors": [
+    "Jorge Ortiz"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2601.00138v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 8,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "High-stakes deployment of vision-language models (VLMs) requires selective prediction, where systems abstain when uncertain rather than risk costly errors. We investigate whether confidence-based abstention provides reliable control over error rates in video question answering, and whether that control remains robust under distribution shift. Using NExT-QA and Gemini 2.0 Flash, we establish two findings. First, confidence thresholding provides mechanistic control in-distribution. Sweeping thresh..."
+}

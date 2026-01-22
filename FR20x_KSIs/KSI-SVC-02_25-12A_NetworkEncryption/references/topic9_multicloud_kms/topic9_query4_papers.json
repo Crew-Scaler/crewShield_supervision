@@ -1,0 +1,188 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.12006v1",
+    "arxiv_id": "2512.12006v1",
+    "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+    "summary": "It is well known that encryption alone is not enough to protect data privacy. Access patterns, revealed when operations are performed, can also be leveraged in inference attacks. Oblivious RAM (ORAM) hides access patterns by making client requests oblivious. However, existing protocols are still limited in supporting concurrent clients and Byzantine fault tolerance (BFT). We present MVP-ORAM, the first wait-free ORAM protocol that supports concurrent fail-prone clients. In contrast to previous works, MVP-ORAM avoids using trusted proxies, which require additional security assumptions, and concurrency control mechanisms based on inter-client communication or distributed locks, which limit overall throughput and the capability of tolerating faulty clients. Instead, MVP-ORAM enables clients to perform concurrent requests and merge conflicting updates as they happen, satisfying wait-freedom, i.e., clients make progress independently of the performance or failures of other clients. Since wait and collision freedom are fundamentally contradictory goals that cannot be achieved simultaneously in an asynchronous concurrent ORAM service, we define a weaker notion of obliviousness that depends on the application workload and number of concurrent clients, and prove MVP-ORAM is secure in practical scenarios where clients perform skewed block accesses. By being wait-free, MVP-ORAM can be seamlessly integrated into existing confidential BFT data stores, creating the first BFT ORAM construction. We implement MVP-ORAM on top of a confidential BFT data store and show our prototype can process hundreds of 4KB accesses per second in modern clouds.",
+    "published": "2025-12-12T19:39:10Z",
+    "updated": "2025-12-12T19:39:10Z",
+    "authors": [
+      "Robin Vassantlal",
+      "Hasan Heydari",
+      "Bernardo Ferreira",
+      "Alysson Bessani"
+    ],
+    "affiliations": [],
+    "first_author": "Robin Vassantlal",
+    "pdf_url": "https://arxiv.org/pdf/2512.12006v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10732v1",
+    "arxiv_id": "2512.10732v1",
+    "title": "TriHaRd: Higher Resilience for TEE Trusted Time",
+    "summary": "Accurately measuring time passing is critical for many applications. However, in Trusted Execution Environments (TEEs) such as Intel SGX, the time source is outside the Trusted Computing Base: a malicious host can manipulate the TEE's notion of time, jumping in time or affecting perceived time speed. Previous work (Triad) proposes protocols for TEEs to maintain a trustworthy time source by building a cluster of TEEs that collaborate with each other and with a remote Time Authority to maintain a continuous notion of passing time. However, such approaches still allow an attacker to control the operating system and arbitrarily manipulate their own TEE's perceived clock speed. An attacker can even propagate faster passage of time to honest machines participating in Triad's trusted time protocol, causing them to skip to timestamps arbitrarily far in the future. We propose TriHaRd, a TEE trusted time protocol achieving high resilience against clock speed and offset manipulations, notably through Byzantine-resilient clock updates and consistency checks. We empirically show that TriHaRd mitigates known attacks against Triad.",
+    "published": "2025-12-11T15:17:37Z",
+    "updated": "2025-12-11T15:17:37Z",
+    "authors": [
+      "Matthieu Bettinger",
+      "Sonia Ben Mokhtar",
+      "Pascal Felber",
+      "Etienne Rivi\u00e8re",
+      "Valerio Schiavoni",
+      "Anthony Simonet-Boulogne"
+    ],
+    "affiliations": [],
+    "first_author": "Matthieu Bettinger",
+    "pdf_url": "https://arxiv.org/pdf/2512.10732v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17045v1",
+    "arxiv_id": "2512.17045v1",
+    "title": "Sedna: Sharding transactions in multiple concurrent proposer blockchains",
+    "summary": "Modern blockchains increasingly adopt multi-proposer (MCP) consensus to remove single-leader bottlenecks and improve censorship resistance. However, MCP alone does not resolve how users should disseminate transactions to proposers. Today, users either naively replicate full transactions to many proposers, sacrificing goodput and exposing payloads to MEV, or target few proposers and accept weak censorship and latency guarantees. This yields a practical trilemma among censorship resistance, low latency, and reasonable cost (in fees or system goodput).   We present Sedna, a user-facing protocol that replaces naive transaction replication with verifiable, rateless coding. Users privately deliver addressed symbol bundles to subsets of proposers; execution follows a deterministic order once enough symbols are finalized to decode. We prove Sedna guarantees liveness and \\emph{until-decode privacy}, significantly reducing MEV exposure. Analytically, the protocol approaches the information-theoretic lower bound for bandwidth overhead, yielding a 2-3x efficiency improvement over naive replication. Sedna requires no consensus modifications, enabling incremental deployment.",
+    "published": "2025-12-18T20:12:55Z",
+    "updated": "2025-12-18T20:12:55Z",
+    "authors": [
+      "Alejandro Ranchal-Pedrosa",
+      "Benjamin Marsh",
+      "Lefteris Kokoris-Kogias",
+      "Alberto Sonnino"
+    ],
+    "affiliations": [],
+    "first_author": "Alejandro Ranchal-Pedrosa",
+    "pdf_url": "https://arxiv.org/pdf/2512.17045v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15915v1",
+    "arxiv_id": "2512.15915v1",
+    "title": "Private Virtual Tree Networks for Secure Multi-Tenant Environments Based on the VIRGO Overlay Network",
+    "summary": "Hierarchical organization is a fundamental structure in real-world society, where authority and responsibility are delegated from managers to subordinates. The VIRGO network (Virtual Hierarchical Overlay Network for scalable grid computing) provides a scalable overlay for organizing distributed systems but lacks intrinsic security and privacy mechanisms. This paper proposes Private Virtual Tree Networks (PVTNs), a cryptographically enforced extension that leverages the VIRGO overlay to mirror real organizational hierarchies. In PVTNs, join requests are encrypted with the manager's public key to ensure confidentiality, while membership authorization is enforced through manager-signed delegation certificates. Public keys are treated as organizational secrets and are disclosed only within direct manager-member relationships, resulting in a private, non-enumerable virtual tree. Our work demonstrates, through the system model, protocols, security analysis, and design rationale, that PVTNs achieve scalability, dynamic management, and strong security guarantees without relying on global public key infrastructures.",
+    "published": "2025-12-17T19:29:15Z",
+    "updated": "2025-12-17T19:29:15Z",
+    "authors": [
+      "Lican Huang"
+    ],
+    "affiliations": [],
+    "first_author": "Lican Huang",
+    "pdf_url": "https://arxiv.org/pdf/2512.15915v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13213v1",
+    "arxiv_id": "2512.13213v1",
+    "title": "Towards Secure Decentralized Applications and Consensus Protocols in Blockchains (on Selfish Mining, Undercutting Attacks, DAG-Based Blockchains, E-Voting, Cryptocurrency Wallets, Secure-Logging, and CBDC)",
+    "summary": "With the rise of cryptocurrencies, many new applications built on decentralized blockchains have emerged. Blockchains are full-stack distributed systems where multiple sub-systems interact. While many deployed blockchains and decentralized applications need better scalability and performance, security is also critical. Due to their complexity, assessing blockchain and DAPP security requires a more holistic view than for traditional distributed or centralized systems.   In this thesis, we summarize our contributions to blockchain and decentralized application security. We propose a security reference architecture to support standardized vulnerability and threat analysis. We study consensus security in single-chain Proof-of-Work blockchains, including resistance to selfish mining, undercutting, and greedy transaction selection, as well as related issues in DAG-based systems. We contribute to wallet security with a new classification of authentication schemes and a two-factor method based on One-Time Passwords. We advance e-voting with a practical boardroom voting protocol, extend it to a scalable version for millions of participants while preserving security and privacy, and introduce a repetitive voting framework that enables vote changes between elections while avoiding peak-end effects. Finally, we improve secure logging using blockchains and trusted computing through a centralized ledger that guarantees non-equivocation, integrity, and censorship evidence, then build on it to propose an interoperability protocol for central bank digital currencies that ensures atomic transfers.",
+    "published": "2025-12-15T11:26:43Z",
+    "updated": "2025-12-15T11:26:43Z",
+    "authors": [
+      "Ivan Homoliak"
+    ],
+    "affiliations": [],
+    "first_author": "Ivan Homoliak",
+    "pdf_url": "https://arxiv.org/pdf/2512.13213v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10372v1",
+    "arxiv_id": "2512.10372v1",
+    "title": "D2M: A Decentralized, Privacy-Preserving, Incentive-Compatible Data Marketplace for Collaborative Learning",
+    "summary": "The rising demand for collaborative machine learning and data analytics calls for secure and decentralized data sharing frameworks that balance privacy, trust, and incentives. Existing approaches, including federated learning (FL) and blockchain-based data markets, fall short: FL often depends on trusted aggregators and lacks Byzantine robustness, while blockchain frameworks struggle with computation-intensive training and incentive integration.   We present \\prot, a decentralized data marketplace that unifies federated learning, blockchain arbitration, and economic incentives into a single framework for privacy-preserving data sharing. \\prot\\ enables data buyers to submit bid-based requests via blockchain smart contracts, which manage auctions, escrow, and dispute resolution. Computationally intensive training is delegated to \\cone\\ (\\uline{Co}mpute \\uline{N}etwork for \\uline{E}xecution), an off-chain distributed execution layer. To safeguard against adversarial behavior, \\prot\\ integrates a modified YODA protocol with exponentially growing execution sets for resilient consensus, and introduces Corrected OSMD to mitigate malicious or low-quality contributions from sellers. All protocols are incentive-compatible, and our game-theoretic analysis establishes honesty as the dominant strategy.   We implement \\prot\\ on Ethereum and evaluate it over benchmark datasets -- MNIST, Fashion-MNIST, and CIFAR-10 -- under varying adversarial settings. \\prot\\ achieves up to 99\\% accuracy on MNIST and 90\\% on Fashion-MNIST, with less than 3\\% degradation up to 30\\% Byzantine nodes, and 56\\% accuracy on CIFAR-10 despite its complexity. Our results show that \\prot\\ ensures privacy, maintains robustness under adversarial conditions, and scales efficiently with the number of participants, making it a practical foundation for real-world decentralized data sharing.",
+    "published": "2025-12-11T07:38:05Z",
+    "updated": "2025-12-11T07:38:05Z",
+    "authors": [
+      "Yash Srivastava",
+      "Shalin Jain",
+      "Sneha Awathare",
+      "Nitin Awathare"
+    ],
+    "affiliations": [],
+    "first_author": "Yash Srivastava",
+    "pdf_url": "https://arxiv.org/pdf/2512.10372v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.15031v1",
+    "arxiv_id": "2511.15031v1",
+    "title": "GeoShield: Byzantine Fault Detection and Recovery for Geo-Distributed Real-Time Cyber-Physical Systems",
+    "summary": "Large-scale cyber-physical systems (CPS), such as railway control systems and smart grids, consist of geographically distributed subsystems that are connected via unreliable, asynchronous inter-region networks. Their scale and distribution make them especially vulnerable to faults and attacks. Unfortunately, existing fault-tolerant methods either consume excessive resources or provide only eventual guarantees, making them unsuitable for real-time resource-constrained CPS.   We present GeoShield, a resource-efficient solution for defending geo-distributed CPS against Byzantine faults. GeoShield leverages the property that CPS are designed to tolerate brief disruptions and maintain safety, as long as they recover (i.e., resume normal operations or transition to a safe mode) within a bounded amount of time following a fault. Instead of masking faults, it detects them and recovers the system within bounded time, thus guaranteeing safety with much fewer resources. GeoShield introduces protocols for Byzantine fault-resilient network measurement and inter-region omission fault detection that proactively detect malicious message delays, along with recovery mechanisms that guarantee timely recovery while maximizing operational robustness. It is the first bounded-time recovery solution that operates effectively under unreliable networks without relying on trusted hardware. Evaluations using real-world case studies show that it significantly outperforms existing methods in both effectiveness and resource efficiency.",
+    "published": "2025-11-19T01:57:38Z",
+    "updated": "2025-11-19T01:57:38Z",
+    "authors": [
+      "Yifan Cai",
+      "Linh Thi Xuan Phan"
+    ],
+    "affiliations": [],
+    "first_author": "Yifan Cai",
+    "pdf_url": "https://arxiv.org/pdf/2511.15031v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.14715v2",
+    "arxiv_id": "2511.14715v2",
+    "title": "FLARE: Adaptive Multi-Dimensional Reputation for Robust Client Reliability in Federated Learning",
+    "summary": "Federated learning (FL) enables collaborative model training while preserving data privacy. However, it remains vulnerable to malicious clients who compromise model integrity through Byzantine attacks, data poisoning, or adaptive adversarial behaviors. Existing defense mechanisms rely on static thresholds and binary classification, failing to adapt to evolving client behaviors in real-world deployments. We propose FLARE, an adaptive reputation-based framework that transforms client reliability assessment from binary decisions to a continuous, multi-dimensional trust evaluation. FLARE integrates: (i) a multi-dimensional reputation score capturing performance consistency, statistical anomaly indicators, and temporal behavior, (ii) a self-calibrating adaptive threshold mechanism that adjusts security strictness based on model convergence and recent attack intensity, (iii) reputation-weighted aggregation with soft exclusion to proportionally limit suspicious contributions rather than eliminating clients outright, and (iv) a Local Differential Privacy (LDP) mechanism enabling reputation scoring on privatized client updates. We further introduce a highly evasive Statistical Mimicry (SM) attack, a benchmark adversary that blends honest gradients with synthetic perturbations and persistent drift to remain undetected by traditional filters. Extensive experiments with 100 clients on MNIST, CIFAR-10, and SVHN demonstrate that FLARE maintains high model accuracy and converges faster than state-of-the-art Byzantine-robust methods under diverse attack types, including label flipping, gradient scaling, adaptive attacks, ALIE, and SM. FLARE improves robustness by up to 16% and preserves model convergence within 30% of the non-attacked baseline, while achieving strong malicious-client detection performance with minimal computational overhead. https://github.com/Anonymous0-0paper/FLARE",
+    "published": "2025-11-18T17:57:40Z",
+    "updated": "2025-11-19T11:55:52Z",
+    "authors": [
+      "Abolfazl Younesi",
+      "Leon Kiss",
+      "Zahra Najafabadi Samani",
+      "Juan Aznar Poveda",
+      "Thomas Fahringer"
+    ],
+    "affiliations": [],
+    "first_author": "Abolfazl Younesi",
+    "pdf_url": "https://arxiv.org/pdf/2511.14715v2",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.00263v1",
+    "arxiv_id": "2511.00263v1",
+    "title": "COOL Is Optimal in Error-Free Asynchronous Byzantine Agreement",
+    "summary": "COOL (Chen'21) is an error-free, information-theoretically secure Byzantine agreement (BA) protocol proven to achieve BA consensus in the synchronous setting for an $\\ell$-bit message, with a total communication complexity of $O(\\max\\{n\\ell, nt \\log q\\})$ bits, four communication rounds in the worst case, and a single invocation of a binary BA, under the optimal resilience assumption $n \\geq 3t + 1$ in a network of $n$ nodes, where up to $t$ nodes may behave dishonestly. Here, $q$ denotes the alphabet size of the error correction code used in the protocol.   In this work, we present an adaptive variant of COOL, called OciorACOOL, which achieves error-free, information-theoretically secure BA consensus in the asynchronous setting with total $O(\\max\\{n\\ell, n t \\log q\\})$ communication bits, $O(1)$ rounds, and a single invocation of an asynchronous binary BA protocol, still under the optimal resilience assumption $n \\geq 3t + 1$. Moreover, OciorACOOL retains the same low-complexity, traditional $(n, k)$ error-correction encoding and decoding as COOL, with $k=t/3$.",
+    "published": "2025-10-31T21:23:55Z",
+    "updated": "2025-10-31T21:23:55Z",
+    "authors": [
+      "Jinyuan Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Jinyuan Chen",
+    "pdf_url": "https://arxiv.org/pdf/2511.00263v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17254v1",
+    "arxiv_id": "2512.17254v1",
+    "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
+    "summary": "Federated Learning (FL) allows multiple clients to collaboratively train a model without sharing their private data. However, FL is vulnerable to Byzantine attacks, where adversaries manipulate client models to compromise the federated model, and privacy inference attacks, where adversaries exploit client models to infer private data. Existing defenses against both backdoor and privacy inference attacks introduce significant computational and communication overhead, creating a gap between theory and practice. To address this, we propose ABBR, a practical framework for Byzantine-robust and privacy-preserving FL. We are the first to utilize dimensionality reduction to speed up the private computation of complex filtering rules in privacy-preserving FL. Additionally, we analyze the accuracy loss of vector-wise filtering in low-dimensional space and introduce an adaptive tuning strategy to minimize the impact of malicious models that bypass filtering on the global model. We implement ABBR with state-of-the-art Byzantine-robust aggregation rules and evaluate it on public datasets, showing that it runs significantly faster, has minimal communication overhead, and maintains nearly the same Byzantine-resilience as the baselines.",
+    "published": "2025-12-19T05:52:35Z",
+    "updated": "2025-12-19T05:52:35Z",
+    "authors": [
+      "Baolei Zhang",
+      "Minghong Fang",
+      "Zhuqing Liu",
+      "Biao Yi",
+      "Peizhao Zhou",
+      "Yuan Wang",
+      "Tong Li",
+      "Zheli Liu"
+    ],
+    "affiliations": [],
+    "first_author": "Baolei Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.17254v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  }
+]

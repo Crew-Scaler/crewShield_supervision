@@ -1,0 +1,139 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.21936v1",
+    "arxiv_id": "2511.21936v1",
+    "title": "Secure Command, Control and Communications Systems (C3) for Army UxVs",
+    "summary": "Unmanned Vehicles (UxVs) are increasingly used in modern military operations for reconnaissance, surveillance, and strike missions, enhancing situational awareness while reducing risk to personnel. Their affordability and rapid deployment have encouraged the adoption of commercial solutions. However, many rely on insecure protocols such as MAVLink, which lack authentication and encryption mechanisms. This paper designed, implemented, and evaluated a new secure command-and-control architecture that ensures confidentiality, integrity, and authentication (CIA) while supporting real-time control delegation between Ground Control Stations (GCSs). The proposed solution, named New Command and Control System (NC2S), enforces a zero-trust model integrating hierarchical credential-based privileges to regulate access and control among Tactical Commanders (TC), GCSs, and UxVs. It employs mutual Transport Layer Security (mTLS) with Elliptic Curve Digital Signature Algorithm (ECDSA) certificates and Elliptic Curve Diffie-Hellman (ECDH) key exchange, while message integrity is ensured through Hash-based Message Authentication Codes (HMAC). Multiple lightweight protocols were developed for credential management, key renewal, and control handover. The NC2S prototype was experimentally validated over Wi-Fi and Rohde&Schwarz HR-5000H tactical radios. Results showed that HR-5000H links introduce latencies roughly two orders of magnitude higher than broadband technologies (e.g., Wi-Fi or 5G&Beyond technologies) but are still able to maintain stable communication with minimal message loss, making them suitable for the NC2S links among TC terminals and GCSs.",
+    "published": "2025-11-26T21:53:17Z",
+    "updated": "2025-11-26T21:53:17Z",
+    "authors": [
+      "T. Rebolo",
+      "A. Grilo",
+      "C. Ribeiro"
+    ],
+    "affiliations": [],
+    "first_author": "T. Rebolo",
+    "pdf_url": "https://arxiv.org/pdf/2511.21936v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.02267v1",
+    "arxiv_id": "2411.02267v1",
+    "title": "Technical Report: Performance Comparison of Service Mesh Frameworks: the MTLS Test Case",
+    "summary": "Service Mesh has become essential for modern cloud-native applications by abstracting communication between microservices and providing zero-trust security, observability, and advanced traffic control without requiring code changes. This allows developers to leverage new network capabilities and focus on application logic without managing network complexities. However, the additional layer can significantly impact system performance, latency, and resource consumption, posing challenges for cloud managers and operators.   In this work, we investigate the impact of the mTLS protocol - a common security and authentication mechanism - on application performance within service meshes. Recognizing that security is a primary motivation for deploying a service mesh, we evaluated the performance overhead introduced by leading service meshes: Istio, Istio Ambient, Linkerd, and Cilium. Our experiments were conducted by testing their performance in service-to-service communications within a Kubernetes cluster.   Our experiments reveal significant performance differences (in terms of latency and memory consumption) among the service meshes, rooting from the different architecture of the service mesh, sidecar versus sidecareless, and default extra features hidden in the mTLS implementation. Our results highlight the understanding of the service mesh architecture and its impact on performance.",
+    "published": "2024-11-04T16:57:33Z",
+    "updated": "2024-11-04T16:57:33Z",
+    "authors": [
+      "Anat Bremler Barr",
+      "Ofek Lavi",
+      "Yaniv Naor",
+      "Sanjeev Rampal",
+      "Jhonatan Tavori"
+    ],
+    "affiliations": [],
+    "first_author": "Anat Bremler Barr",
+    "pdf_url": "https://arxiv.org/pdf/2411.02267v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 15.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.01863v1",
+    "arxiv_id": "2508.01863v1",
+    "title": "Hard-Earned Lessons in Access Control at Scale: Enforcing Identity and Policy Across Trust Boundaries with Reverse Proxies and mTLS",
+    "summary": "In today's enterprise environment, traditional access methods such as Virtual Private Networks (VPNs) and application-specific Single Sign-On (SSO) often fall short when it comes to securely scaling access for a distributed and dynamic workforce. This paper presents our experience implementing a modern, Zero Trust-aligned architecture that leverages a reverse proxy integrated with Mutual TLS (mTLS) and centralized SSO, along with the key challenges we encountered and lessons learned during its deployment and scaling. This multidimensional solution involves both per-device and per-user authentication, centralized enforcement of security policies, and comprehensive observability, hence enabling organizations to deliver secure and seamless access to their internal applications.",
+    "published": "2025-08-03T17:32:11Z",
+    "updated": "2025-08-03T17:32:11Z",
+    "authors": [
+      "Sanjay Singh",
+      "Mitendra Mahto"
+    ],
+    "affiliations": [],
+    "first_author": "Sanjay Singh",
+    "pdf_url": "https://arxiv.org/pdf/2508.01863v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2206.10669v2",
+    "arxiv_id": "2206.10669v2",
+    "title": "Stabilizing and improving qubit coherence by engineering noise spectrum of two-level systems",
+    "summary": "Superconducting circuits are a leading platform for quantum computing. However, their coherence times are still limited and exhibit temporal fluctuations. Those phenomena are often attributed to the coupling between qubits and material defects that can be well described as an ensemble of two-level systems (TLSs). Among them, charge fluctuators inside amorphous oxide layers contribute to both low-frequency $1/f$ charge noise and high-frequency dielectric loss, causing fast qubit dephasing and relaxation. Moreover, spectral diffusion from mutual TLS interactions varies the noise amplitude over time, fluctuating the qubit lifetime. Here, we propose to mitigate those harmful effects by engineering the relevant TLS noise spectral densities. Specifically, our protocols smooth the high-frequency noise spectrum and suppress the low-frequency noise amplitude via depolarizing and dephasing the TLSs, respectively. As a result, we predict a drastic stabilization in qubit lifetime and an increase in qubit pure dephasing time. Our detailed analysis of feasible experimental implementations shows that the improvement is not compromised by spurious coupling from the applied noise to the qubit.",
+    "published": "2022-06-21T18:37:38Z",
+    "updated": "2022-10-11T18:39:35Z",
+    "authors": [
+      "Xinyuan You",
+      "Ziwen Huang",
+      "Ugur Alyanak",
+      "Alexander Romanenko",
+      "Anna Grassellino",
+      "Shaojiang Zhu"
+    ],
+    "affiliations": [],
+    "first_author": "Xinyuan You",
+    "pdf_url": "https://arxiv.org/pdf/2206.10669v2",
+    "primary_category": "quant-ph",
+    "relevance_score": 2.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.12442v2",
+    "arxiv_id": "2007.12442v2",
+    "title": "MQT-TZ: Hardening IoT Brokers Using ARM TrustZone",
+    "summary": "The publish-subscribe paradigm is an efficient communication scheme with strong decoupling between the nodes, that is especially fit for large-scale deployments. It adapts natively to very dynamic settings and it is used in a diversity of real-world scenarios, including finance, smart cities, medical environments, or IoT sensors. Several of the mentioned application scenarios require increasingly stringent security guarantees due to the sensitive nature of the exchanged messages as well as the privacy demands of the clients/stakeholders/receivers. MQTT is a lightweight topic-based publish-subscribe protocol popular in edge and IoT settings, a de-facto standard widely adopted nowadays by the industry and researchers. However, MQTT brokers must process data in clear, hence exposing a large attack surface. This paper presents MQT-TZ, a secure MQTT broker leveraging Arm TrustZone, a trusted execution environment (TEE) commonly found even on inexpensive devices largely available on the market (such as Raspberry Pi units). We define a mutual TLS-based handshake and a two-layer encryption for end-to-end security using the TEE as a trusted proxy. The experimental evaluation of our fully implemented prototype with micro-, macro-benchmarks, as well as with real-world industrial workloads from a MedTech use-case, highlights several trade-offs using TrustZone TEE. We report several lessons learned while building and evaluating our system. We release MQT-TZ as open-source.",
+    "published": "2020-07-24T10:36:58Z",
+    "updated": "2020-08-27T10:06:42Z",
+    "authors": [
+      "Carlos Segarra",
+      "Ricard Delgado-Gonzalo",
+      "Valerio Schiavoni"
+    ],
+    "affiliations": [],
+    "first_author": "Carlos Segarra",
+    "pdf_url": "https://arxiv.org/pdf/2007.12442v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 2.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2007.01555v1",
+    "arxiv_id": "2007.01555v1",
+    "title": "MQT-TZ: Secure MQTT Broker for Biomedical Signal Processing on the Edge",
+    "summary": "Physical health records belong to healthcare providers, but the information contained within belongs to each patient. In an increasing manner, more health-related data is being acquired by wearables and other IoT devices following the ever-increasing trend of the \"Quantified Self\". Even though data protection regulations (e.g., GDPR) encourage the usage of privacy-preserving processing techniques, most of the current IoT infrastructure was not originally conceived for such purposes. One of the most used communication protocols, MQTT, is a lightweight publish-subscribe protocol commonly used in the Edge and IoT applications. In MQTT, the broker must process data on clear text, hence exposing a large attack surface for a malicious agent to steal/tamper with this health-related data. In this paper, we introduce MQT-TZ, a secure MQTT broker leveraging Arm TrustZone, a popular Trusted Execution Environment (TEE). We define a mutual TLS-based handshake and a two-layer encryption for end-to-end security using the TEE as a trusted proxy. We provide quantitative evaluation of our open-source PoC on streaming ECGs in real time and highlight the trade-offs.",
+    "published": "2020-07-03T08:47:46Z",
+    "updated": "2020-07-03T08:47:46Z",
+    "authors": [
+      "Carlos Segarra",
+      "Ricard Delgado-Gonzalo",
+      "Valerio Schiavoni"
+    ],
+    "affiliations": [],
+    "first_author": "Carlos Segarra",
+    "pdf_url": "https://arxiv.org/pdf/2007.01555v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 2.0
+  },
+  {
+    "id": "http://arxiv.org/abs/1601.03213v1",
+    "arxiv_id": "1601.03213v1",
+    "title": "Decoherence spectroscopy with individual two-level tunneling defects",
+    "summary": "Recent progress with microfabricated quantum devices has revealed that an ubiquitous source of noise originates in tunneling material defects that give rise to a sparse bath of parasitic two-level systems (TLSs). For superconducting qubits, TLSs residing on electrode surfaces and in tunnel junctions account for a major part of decoherence and thus pose a serious roadblock to the realization of solid-state quantum processors.   Here, we utilize a superconducting qubit to explore the quantum state evolution of coherently operated TLSs in order to shed new light on their individual properties and environmental interactions. We identify a frequency-dependence of TLS energy relaxation rates that can be explained by a coupling to phononic modes rather than by anticipated mutual TLS interactions. Most investigated TLSs are found to be free of pure dephasing at their energy degeneracy points, around which their Ramsey and spin-echo dephasing rates scale linearly and quadratically with asymmetry energy, respectively. We provide an explanation based on the standard tunneling model, and identify interaction with incoherent low-frequency (thermal) TLSs as the major mechanism of the pure dephasing in coherent high-frequency TLS.",
+    "published": "2016-01-13T12:27:43Z",
+    "updated": "2016-01-13T12:27:43Z",
+    "authors": [
+      "J\u00fcrgen Lisenfeld",
+      "Alexander Bilmes",
+      "Shlomi Matityahu",
+      "Sebastian Zanker",
+      "Michael Marthaler",
+      "Moshe Schechter",
+      "Gerd Sch\u00f6n",
+      "Alexander Shnirman",
+      "Georg Weiss",
+      "Alexey V. Ustinov"
+    ],
+    "affiliations": [],
+    "first_author": "J\u00fcrgen Lisenfeld",
+    "pdf_url": "https://arxiv.org/pdf/1601.03213v1",
+    "primary_category": "cond-mat.supr-con",
+    "relevance_score": 2.0
+  }
+]

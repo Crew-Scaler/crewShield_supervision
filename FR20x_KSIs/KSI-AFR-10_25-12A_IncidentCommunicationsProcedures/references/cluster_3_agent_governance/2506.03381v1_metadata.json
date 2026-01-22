@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2506.03381v1",
+  "title": "Automated Traffic Incident Response Plans using Generative Artificial Intelligence: Part 1 -- Building the Incident Response Benchmark",
+  "authors": [
+    "Artur Grigorev",
+    "Khaled Saleh",
+    "Jiwon Kim",
+    "Adriana-Simona Mihaita"
+  ],
+  "published": "2025-06-03T20:40:44Z",
+  "url": "http://arxiv.org/abs/2506.03381v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.03381v1.pdf",
+  "relevance_score": 97,
+  "summary": "Traffic incidents remain a critical public safety concern worldwide, with Australia recording 1,300 road fatalities in 2024, which is the highest toll in 12 years. Similarly, the United States reports approximately 6 million crashes annually, raising significant challenges in terms of a fast reponse time and operational management. Traditional response protocols rely on human decision-making, which introduces potential inconsistencies and delays during critical moments when every minute impacts both safety outcomes and network performance. To address this issue, we propose a novel Incident Response Benchmark that uses generative artificial intelligence to automatically generate response plans for incoming traffic incidents. Our approach aims to significantly reduce incident resolution times by suggesting context-appropriate actions such as variable message sign deployment, lane closures, and emergency resource allocation adapted to specific incident characteristics. First, the proposed methodology uses real-world incident reports from the Performance Measurement System (PeMS) as training and evaluation data. We extract historically implemented actions from these reports and compare them against AI-generated response plans that suggest specific actions, such as lane closures, variable message sign announcements, and/or dispatching appropriate emergency resources. Second, model evaluations reveal that advanced generative AI models like GPT-4o and Grok 2 achieve superior alignment with expert solutions, demonstrated by minimized Hamming distances (averaging 2.96-2.98) and low weighted differences (approximately 0.27-0.28). Conversely, while Gemini 1.5 Pro records the lowest count of missed actions, its extremely high number of unnecessary actions (1547 compared to 225 for GPT-4o) indicates an over-triggering strategy that reduces the overall plan efficiency."
+}

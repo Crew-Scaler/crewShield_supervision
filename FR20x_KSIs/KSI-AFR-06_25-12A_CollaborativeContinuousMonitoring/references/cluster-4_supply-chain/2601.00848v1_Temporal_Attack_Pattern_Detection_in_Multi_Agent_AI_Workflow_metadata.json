@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2601.00848v1",
+  "title": "Temporal Attack Pattern Detection in Multi-Agent AI Workflows: An Open Framework for Training Trace-Based Security Models",
+  "authors": [
+    "Ron F. Del Rosario"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2601.00848v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "autonomous systems"
+  ],
+  "summary": "We present an openly documented methodology for fine-tuning language models to detect temporal attack patterns in multi-agent AI workflows using OpenTelemetry trace analysis. We curate a dataset of 80,851 examples from 18 public cybersecurity sources and 35,026 synthetic OpenTelemetry traces. We apply iterative QLoRA fine-tuning on resource-constrained ARM64 hardware (NVIDIA DGX Spark) through three training iterations with strategic augmentation. Our custom benchmark accuracy improves from 42.8..."
+}

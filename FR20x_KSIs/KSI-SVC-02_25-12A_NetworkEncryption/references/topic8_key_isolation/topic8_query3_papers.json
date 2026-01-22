@@ -1,0 +1,189 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.17988v1",
+    "arxiv_id": "2506.17988v1",
+    "title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+    "summary": "Emerging crypto economies still hemorrhage digital assets because legacy wallets leak private keys at almost every layer of the software stack, from user-space libraries to kernel memory dumps. This paper solves that twin crisis of security and interoperability by re-imagining key management as a platform-level service anchored in ARM TrustZone through OP-TEE. Our architecture fractures the traditional monolithic Trusted Application into per-chain modules housed in a multi-tenant TA store, finally breaking OP-TEE's single-binary ceiling. A cryptographically sealed firmware-over-the-air pipeline welds each TA set to an Android system image, enabling hot-swap updates while Verified Boot enforces rollback protection. Every package carries a chained signature developer first, registry second so even a compromised supply chain cannot smuggle malicious code past the Secure World's RSA-PSS gatekeeper. Inside the TEE, strict inter-TA isolation, cache partitioning, and GP-compliant crypto APIs ensure secrets never bleed across trust boundaries or timing domains. The Rich Execution Environment can interact only via hardware-mediated Secure Monitor Calls, collapsing the surface exposed to malware in Android space. End-users enjoy a single polished interface yet can install or retire Bitcoin, Ethereum, Solana, or tomorrow's chain with one tap, shrinking both storage footprint and audit scope. For auditors, the composition model slashes duplicated verification effort by quarantining blockchain logic inside narrowly scoped modules that share formally specified interfaces. Our threat analysis spans six adversary layers and shows how the design neutralizes REE malware sniffing, OTA injection, and cross-module side channels without exotic hardware. A reference implementation on AOSP exports a Wallet Manager HAL, custom SELinux domains, and a CI/CD pipeline that vet community modules before release. The result is not merely another hardware wallet but a programmable substrate that can evolve at the velocity of the blockchain ecosystem. By welding radical extensibility to hardware-anchored assurance, the platform closes the security-usability gap that has long stymied mass-market self-custody. We posit that modular TEEs are the missing OS primitive for Web3, much as virtual memory unlocked multi-tasking in classical computing. Together, these contributions sketch a blueprint for multi-chain asset management that is auditable, resilient, and poised for global deployment.",
+    "published": "2025-06-22T10:57:57Z",
+    "updated": "2025-06-22T10:57:57Z",
+    "authors": [
+      "Seongjin Kim",
+      "Sanguk Yun",
+      "Jungho Jang"
+    ],
+    "affiliations": [],
+    "first_author": "Seongjin Kim",
+    "pdf_url": "https://arxiv.org/pdf/2506.17988v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.04394v1",
+    "arxiv_id": "2501.04394v1",
+    "title": "Modern Hardware Security: A Review of Attacks and Countermeasures",
+    "summary": "With the exponential rise in the use of cloud services, smart devices, and IoT devices, advanced cyber attacks have become increasingly sophisticated and ubiquitous. Furthermore, the rapid evolution of computing architectures and memory technologies has created an urgent need to understand and address hardware security vulnerabilities. In this paper, we review the current state of vulnerabilities and mitigation strategies in contemporary computing systems. We discuss cache side-channel attacks (including Spectre and Meltdown), power side-channel attacks (such as Simple Power Analysis, Differential Power Analysis, Correlation Power Analysis, and Template Attacks), and advanced techniques like Voltage Glitching and Electromagnetic Analysis to help understand and build robust cybersecurity defense systems and guide further research. We also examine memory encryption, focusing on confidentiality, granularity, key management, masking, and re-keying strategies. Additionally, we cover Cryptographic Instruction Set Architectures, Secure Boot, Root of Trust mechanisms, Physical Unclonable Functions, and hardware fault injection techniques. The paper concludes with an analysis of the RISC-V architecture's unique security challenges. The comprehensive analysis presented in this paper is essential for building resilient hardware security solutions that can protect against both current and emerging threats in an increasingly challenging security landscape.",
+    "published": "2025-01-08T10:14:19Z",
+    "updated": "2025-01-08T10:14:19Z",
+    "authors": [
+      "Jyotiprakash Mishra",
+      "Sanjay K. Sahay"
+    ],
+    "affiliations": [],
+    "first_author": "Jyotiprakash Mishra",
+    "pdf_url": "https://arxiv.org/pdf/2501.04394v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.09233v1",
+    "arxiv_id": "2512.09233v1",
+    "title": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System",
+    "summary": "We analyze security aspects of the SecureDNA system regarding its system design, engineering, and implementation. This system enables DNA synthesizers to screen order requests against a database of hazards. By applying novel cryptography, the system aims to keep order requests and the database of hazards secret. Discerning the detailed operation of the system in part from source code (Version 1.0.8), our analysis examines key management, certificate infrastructure, authentication, and rate-limiting mechanisms. We also perform the first formal-methods analysis of the mutual authentication, basic request, and exemption-handling protocols.   Without breaking the cryptography, our main finding is that SecureDNA's custom mutual authentication protocol SCEP achieves only one-way authentication: the hazards database and keyservers never learn with whom they communicate. This structural weakness violates the principle of defense in depth and enables an adversary to circumvent rate limits that protect the secrecy of the hazards database, if the synthesizer connects with a malicious or corrupted keyserver or hashed database. We point out an additional structural weakness that also violates the principle of defense in depth: inadequate cryptographic bindings prevent the system from detecting if responses, within a TLS channel, from the hazards database were modified. Consequently, if a synthesizer were to reconnect with the database over the same TLS session, an adversary could replay and swap responses from the database without breaking TLS. Although the SecureDNA implementation does not allow such reconnections, it would be stronger security engineering to avoid the underlying structural weakness. We identify these vulnerabilities and suggest and verify mitigations, including adding strong bindings. Software Version 1.1.0 fixes SCEP with our proposed SCEP+ protocol.",
+    "published": "2025-12-10T01:39:52Z",
+    "updated": "2025-12-10T01:39:52Z",
+    "authors": [
+      "Alan T. Sherman",
+      "Jeremy J. Romanik Romano",
+      "Edward Zieglar",
+      "Enis Golaszewski",
+      "Jonathan D. Fuchs",
+      "William E. Byrd"
+    ],
+    "affiliations": [],
+    "first_author": "Alan T. Sherman",
+    "pdf_url": "https://arxiv.org/pdf/2512.09233v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.22416v1",
+    "arxiv_id": "2511.22416v1",
+    "title": "Extending Quantum-Safe Communications to Real-World Networks: An Adaptive Security Framework",
+    "summary": "The advent of quantum computing threats classical cryptographic mechanisms, demanding new strategies for securing communication networks. Since real-world networks cannot be fully Quantum Key Distribution (QKD)-enabled due to infrastructure constraints, practical security solutions must support hybrid operation. This paper presents an adaptive security framework that enables quantum-safe communications across real-world heterogeneous networks by combining QKD and Post-Quantum Cryptography (PQC). Building upon a hierarchical key management architecture with Virtual Key Management Systems (vKMS) and a centralized Quantum Security Controller (QuSeC), the framework dynamically assigns security levels based on node capabilities. By transitioning between pure QKD, hybrid, and PQC modes, it ensures end-to-end quantum-safe protection regardless of the underlying node capabilities. The framework has been implemented and validated on a Kubernetes-based containerized testbed, demonstrating robust operation and performance across all scenarios. Results highlight its potential to support the gradual integration of quantum-safe technologies into existing infrastructures, paving the way toward fully quantum-safe communication networks.",
+    "published": "2025-11-27T12:51:10Z",
+    "updated": "2025-11-27T12:51:10Z",
+    "authors": [
+      "Ane Sanz",
+      "Eire Salegi",
+      "Asier Atutxa",
+      "David Franco",
+      "Jasone Astorga",
+      "Eduardo Jacob"
+    ],
+    "affiliations": [],
+    "first_author": "Ane Sanz",
+    "pdf_url": "https://arxiv.org/pdf/2511.22416v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.02924v2",
+    "arxiv_id": "2511.02924v2",
+    "title": "Lightweight Session-Key Rekeying Framework for Secure IoT-Edge Communication",
+    "summary": "The proliferation of Internet of Things (IoT) networks demands security mechanisms that protect constrained devices without the computational cost of public-key cryptography. Conventional Pre-Shared Key (PSK) encryption, while efficient, remains vulnerable due to static key reuse, replay attacks, and the lack of key freshness. This paper presents the Dynamic Session Enhanced Key Protocol (DSEKP), a lightweight session-key rekeying framework that derives per-session AES-GCM keys using the HMAC-based Key Derivation Function (HKDF-SHA256) and authenticates session establishment through an HMAC proof in a single init-ack exchange. DSEKP was implemented on an ESP32 IoT sensor node and a Raspberry Pi 5 edge server communicating through a Mosquitto MQTT broker, and benchmarked against a static PSK baseline over more than 6,500 encrypted packets per configuration. The results demonstrate nearly identical throughput and reliability, with minimal runtime impact (approximately 27 percent one-time session-establishment latency and 10 percent per-packet payload overhead), while delivering per-session key isolation (assuming the long-term secret remains uncompromised) and built-in replay protection. The PSK baseline and DSEKP datasets are publicly archived on IEEE DataPort to enable full reproducibility and comparative benchmarking. These findings confirm that dynamic symmetric rekeying can substantially strengthen IoT-Edge links with minimal computational and bandwidth cost, offering a practical migration path from static PSK to session-aware and scalable IoT security.",
+    "published": "2025-11-04T19:12:18Z",
+    "updated": "2025-12-06T15:15:41Z",
+    "authors": [
+      "Haranath Rakshit",
+      "Rajkumar Bhandari",
+      "Subhasis Banerjee"
+    ],
+    "affiliations": [],
+    "first_author": "Haranath Rakshit",
+    "pdf_url": "https://arxiv.org/pdf/2511.02924v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.14708v1",
+    "arxiv_id": "2510.14708v1",
+    "title": "SLIE: A Secure and Lightweight Cryptosystem for Data Sharing in IoT Healthcare Services",
+    "summary": "The Internet of Medical Things (IoMT) has revolutionized healthcare by transforming medical operations into standardized, interoperable services. However, this service-oriented model introduces significant security vulnerabilities in device management and communication, which are especially critical given the sensitivity of medical data. To address these risks, this paper proposes SLIE (Secure and Lightweight Identity Encryption), a novel cryptosystem based on Wildcard Key Derivation Identity-Based Encryption (WKD-IBE). SLIE ensures scalable trust and secure omnidirectional communication through end-to-end encryption, hierarchical access control, and a lightweight key management system designed for resource-constrained devices. It incorporates constant-time operations, memory obfuscation, and expiry-based key revocation to counter side-channel, man-in-the-middle, and unauthorized access attacks, thereby ensuring compliance with standards like HIPAA and GDPR. Evaluations show that SLIE significantly outperforms RSA, with encryption and decryption times of 0.936ms and 0.217ms for 1KB of data, an 84.54% improvement in encryption speed, a 99.70% improvement in decryption speed, and an energy efficiency of 0.014 J/KB.",
+    "published": "2025-10-16T14:10:48Z",
+    "updated": "2025-10-16T14:10:48Z",
+    "authors": [
+      "Ha Xuan Son",
+      "Nguyen Quoc Anh",
+      "Phat T. Tran-Truong",
+      "Le Thanh Tuan",
+      "Pham Thanh Nghiem"
+    ],
+    "affiliations": [],
+    "first_author": "Ha Xuan Son",
+    "pdf_url": "https://arxiv.org/pdf/2510.14708v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.05893v1",
+    "arxiv_id": "2509.05893v1",
+    "title": "Wrangling Entropy: Next-Generation Multi-Factor Key Derivation, Credential Hashing, and Credential Generation Functions",
+    "summary": "The Multi-Factor Key Derivation Function (MFKDF) offered a novel solution to the classic problem of usable client-side key management by incorporating multiple popular authentication factors into a key derivation process, but was later shown to be vulnerable to cryptanalysis that degraded its security over multiple invocations. In this paper, we present the Entropy State Transition Modeling Framework (ESTMF), a novel cryptanalytic technique designed to reveal pernicious leaks of entropy across multiple invocations of a cryptographic key derivation or hash function, and show that it can be used to correctly identify each of the known vulnerabilities in the original MFKDF construction. We then use these findings to propose a new construction for ``MFKDF2,'' a next-generation multi-factor key derivation function that can be proven to be end-to-end secure using the ESTMF. Finally, we discuss how MFKDF2 can be extended to support more authentication factors and usability features than the previous MFKDF construction, and derive several generalizable best-practices for the construction of new KDFs in the future.",
+    "published": "2025-09-07T02:01:53Z",
+    "updated": "2025-09-07T02:01:53Z",
+    "authors": [
+      "Colin Roberts",
+      "Vivek Nair",
+      "Dawn Song"
+    ],
+    "affiliations": [],
+    "first_author": "Colin Roberts",
+    "pdf_url": "https://arxiv.org/pdf/2509.05893v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.11939v1",
+    "arxiv_id": "2508.11939v1",
+    "title": "Design and Implementation of a Controlled Ransomware Framework for Educational Purposes Using Flutter Cryptographic APIs on Desktop PCs and Android Devices",
+    "summary": "This study focuses on the creation and implementation of ransomware for educational purposes that leverages Python's native cryptographic APIs in a controlled environment. Additionally, an Android version of the framework is implemented using Flutter and Dart. For both versions, open-source cryptographic libraries are utilized. With this framework, researchers can systematically explore the functionalities of ransomware, including file encryption processes, cryptographic key management, and victim interaction dynamics. To ensure safe experimentation, multiple safeguards are incorporated, such as the ability to restrict the encryption process to a specific directory, providing the RSA private key for immediate decryption, and narrowing the scope of targetable files to a carefully curated list (.txt, .jpg, .csv, .doc). This paper draws inspiration from the infamous WannaCry ransomware and aims to simulate its behaviour on Android devices. By making the codebase open-source, it enables users to study, modify, and extend the program for pedagogical purposes and offers a hands-on tool that can be used to train the next generation of cybersecurity professionals.",
+    "published": "2025-08-16T06:49:03Z",
+    "updated": "2025-08-16T06:49:03Z",
+    "authors": [
+      "James Gu",
+      "Ahmed Sartaj",
+      "Mohammed Akram Taher Khan",
+      "Rashid Hussain Khokhar"
+    ],
+    "affiliations": [],
+    "first_author": "James Gu",
+    "pdf_url": "https://arxiv.org/pdf/2508.11939v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.17655v2",
+    "arxiv_id": "2507.17655v2",
+    "title": "HSM and TPM Failures in Cloud: A Real-World Taxonomy and Emerging Defenses",
+    "summary": "As cloud infrastructure becomes the backbone of modern organizations, the security of cryptographic key management, especially using Hardware Security Modules (HSMs) and Trusted Platform Modules (TPMs), faces unprecedented challenges. While these hardware-based solutions offer strong protection in isolated environments, their effectiveness is being undermined by cloud-native threats such as misconfigurations, compromised APIs, and lateral privilege escalations. This paper presents a comprehensive analysis of publicly disclosed attacks and breaches involving HSMs and TPMs in cloud environments, identifying recurring architectural and operational flaws. We propose a taxonomy of attack vectors based on real-world case studies and threat intelligence reports, highlighting the gaps between hardware trust anchors and dynamic cloud ecosystems. Furthermore, we evaluate emerging defensive paradigms: confidential computing, post-quantum cryptography, and decentralized key management systems (dKMS), assessing their potential to address these gaps. Our findings emphasize that securing cloud-based cryptographic trust requires a layered, context-aware approach that integrates both hardware and software safeguards. The study serves as a practical framework for cloud architects and security engineers to reassess key protection strategies in light of evolving threats. To our knowledge, this is the first work to synthesize documented, real-world cloud HSM and TPM failures into a coherent taxonomy grounded in modern threat models.",
+    "published": "2025-07-23T16:18:16Z",
+    "updated": "2025-08-07T08:19:06Z",
+    "authors": [
+      "Shams Shaikh",
+      "Trima P. Fernandes e Fizardo"
+    ],
+    "affiliations": [],
+    "first_author": "Shams Shaikh",
+    "pdf_url": "https://arxiv.org/pdf/2507.17655v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.09022v1",
+    "arxiv_id": "2507.09022v1",
+    "title": "SSH-Passkeys: Leveraging Web Authentication for Passwordless SSH",
+    "summary": "We propose a method for using Web Authentication APIs for SSH authentication, enabling passwordless remote server login with passkeys. These are credentials that are managed throughout the key lifecycle by an authenticator on behalf of the user and offer strong security guarantees.   Passwords remain the dominant mode of SSH authentication, despite their well known flaws such as phishing and reuse. SSH's custom key-based authentication protocol can alleviate these issues but remains vulnerable to key theft. Additionally, it has poor usability, with even knowledgeable users leaking key material and failing to verify fingerprints. Hence, effective key management remains a critical open area in SSH security. In contrast, WebAuthn is a modern authentication standard designed to replace passwords, managing keys on behalf of the user. As a web API, this standard cannot integrate with SSH directly.   We propose a framework to integrate WebAuthn with SSH servers, by using UNIX pluggable authentication modules (PAM). Our approach is backwards-compatible, supports stock SSH servers and requires no new software client-side. It offers protection for cryptographic material at rest, resistance to key leaks, phishing protection, privacy protection and attestation capability. None of these properties are offered by passwords nor traditional SSH keys. We validate these advantages with a structured, conceptual security analysis.   We develop a prototype implementation and conduct a user study to quantify the security advantages of our proposal, testing our prototype with 40 SSH users. The study confirms the security problems of SSH-keys, including 20% of the cohort leaking their private keys. Our SSH-passkeys effectively address these problems: we find a 90% reduction in critical security errors, while reducing authentication time by 4x on average.",
+    "published": "2025-07-11T21:13:09Z",
+    "updated": "2025-07-11T21:13:09Z",
+    "authors": [
+      "Moe Kayali",
+      "Jonas Schmitt",
+      "Franziska Roesner"
+    ],
+    "affiliations": [],
+    "first_author": "Moe Kayali",
+    "pdf_url": "https://arxiv.org/pdf/2507.09022v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

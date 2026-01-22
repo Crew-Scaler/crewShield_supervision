@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2510.20610v2",
+  "title": "BUSTED at AraGenEval Shared Task: A Comparative Study of Transformer-Based Models for Arabic AI-Generated Text Detection",
+  "authors": [
+    "Ali Zain",
+    "Sareem Farooqui",
+    "Muhammad Rafi"
+  ],
+  "published": "2025-10-23T14:41:04Z",
+  "url": "http://arxiv.org/abs/2510.20610v2",
+  "pdf_url": "http://arxiv.org/pdf/2510.20610v2.pdf",
+  "relevance_score": 72,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "This paper details our submission to the AraGenEval Shared Task on Arabic AI-generated text detection, where our team, BUSTED, secured 5th place. We investigated the effectiveness of three pre-trained transformer models: AraELECTRA, CAMeLBERT, and XLM-RoBERTa. Our approach involved fine-tuning each model on the provided dataset for a binary classification task. Our findings revealed a surprising result: the multilingual XLM-RoBERTa model achieved the highest performance with an F1 score of 0.770"
+}

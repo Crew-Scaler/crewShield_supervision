@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2502.02909v1",
+  "title": "SPARC: Subspace-Aware Prompt Adaptation for Robust Continual Learning in LLMs",
+  "authors": [
+    "Dinithi Jayasuriya",
+    "Sina Tayebati",
+    "Davide Ettori",
+    "Ranganath Krishnan",
+    "Amit Ranjan Trivedi"
+  ],
+  "published": "2025-02-05T06:11:55Z",
+  "url": "http://arxiv.org/abs/2502.02909v1",
+  "pdf_url": "http://arxiv.org/pdf/2502.02909v1.pdf",
+  "relevance_score": 83,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "We propose SPARC, a lightweight continual learning framework for large language models (LLMs) that enables efficient task adaptation through prompt tuning in a lower-dimensional space. By leveraging principal component analysis (PCA), we identify a compact subspace of the training data. Optimizing prompts in this lower-dimensional space enhances training efficiency, as it focuses updates on the most relevant features while reducing computational overhead. Furthermore, since the model's internal "
+}

@@ -1,0 +1,908 @@
+{
+  "research_date": "2025-12-11T14:16:55.115692",
+  "total_papers": 45,
+  "papers": [
+    {
+      "title": "Improving Phishing Resilience with AI-Generated Training: Evidence on Prompting, Personalization, and Duration",
+      "authors": [
+        "Francesco Greco",
+        "Giuseppe Desolda",
+        "Cesare Tucci",
+        "Andrea Esposito",
+        "Antonio Curci",
+        "Antonio Piccinno"
+      ],
+      "published": "2025-12-01T17:13:09+00:00",
+      "updated": "2025-12-01T17:13:09+00:00",
+      "arxiv_id": "2512.01893v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing remains a persistent cybersecurity threat; however, developing scalable and effective user training is labor-intensive and challenging to maintain. Generative Artificial Intelligence offers an interesting opportunity, but empirical evidence on its instructional efficacy remains scarce. This paper provides an experimental validation of Large Language Models (LLMs) as autonomous engines for generating phishing resilience training. Across two controlled studies (N=480), we demonstrate that AI-generated content yields significant pre-post learning gains regardless of the specific prompting strategy employed. Study 1 (N=80) compares four prompting techniques, finding that even a straightforward \"direct-profile\" strategy--simply embedding user traits into the prompt--produces effective training material. Study 2 (N=400) investigates the scalability of this approach by testing personalization and training duration. Results show that complex psychometric personalization offers no measurable advantage over well-designed generic content, while longer training duration provides a modest boost in accuracy. These findings suggest that organizations can leverage LLMs to generate high-quality, effective training at scale without the need for complex user profiling, relying instead on the inherent capabilities of the model.",
+      "pdf_url": "https://arxiv.org/pdf/2512.01893v1",
+      "estimated_pages": 8,
+      "filename": "2512.01893v1.pdf"
+    },
+    {
+      "title": "Constructing and Benchmarking: a Labeled Email Dataset for Text-Based Phishing and Spam Detection Framework",
+      "authors": [
+        "Rebeka Toth",
+        "Tamas Bisztray",
+        "Richard Dubniczky"
+      ],
+      "published": "2025-11-26T14:40:06+00:00",
+      "updated": "2025-11-26T14:40:06+00:00",
+      "arxiv_id": "2511.21448v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.DB"
+      ],
+      "abstract": "Phishing and spam emails remain a major cybersecurity threat, with attackers increasingly leveraging Large Language Models (LLMs) to craft highly deceptive content. This study presents a comprehensive email dataset containing phishing, spam, and legitimate messages, explicitly distinguishing between human- and LLM-generated content. Each email is annotated with its category, emotional appeal (e.g., urgency, fear, authority), and underlying motivation (e.g., link-following, credential theft, financial fraud). We benchmark multiple LLMs on their ability to identify these emotional and motivational cues and select the most reliable model to annotate the full dataset. To evaluate classification robustness, emails were also rephrased using several LLMs while preserving meaning and intent. A state-of-the-art LLM was then assessed on its performance across both original and rephrased emails using expert-labeled ground truth. The results highlight strong phishing detection capabilities but reveal persistent challenges in distinguishing spam from legitimate emails. Our dataset and evaluation framework contribute to improving AI-assisted email security systems. To support open science, all code, templates, and resources are available on our project site.",
+      "pdf_url": "https://arxiv.org/pdf/2511.21448v1",
+      "estimated_pages": 8,
+      "filename": "2511.21448v1.pdf"
+    },
+    {
+      "title": "Small Language Models for Phishing Website Detection: Cost, Performance, and Privacy Trade-Offs",
+      "authors": [
+        "Georg Goldenits",
+        "Philip Koenig",
+        "Sebastian Raubitzek",
+        "Andreas Ekelhart"
+      ],
+      "published": "2025-11-19T13:45:07+00:00",
+      "updated": "2025-11-19T13:45:07+00:00",
+      "arxiv_id": "2511.15434v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Phishing websites pose a major cybersecurity threat, exploiting unsuspecting users and causing significant financial and organisational harm. Traditional machine learning approaches for phishing detection often require extensive feature engineering, continuous retraining, and costly infrastructure maintenance. At the same time, proprietary large language models (LLMs) have demonstrated strong performance in phishing-related classification tasks, but their operational costs and reliance on external providers limit their practical adoption in many business environments. This paper investigates the feasibility of small language models (SLMs) for detecting phishing websites using only their raw HTML code. A key advantage of these models is that they can be deployed on local infrastructure, providing organisations with greater control over data and operations. We systematically evaluate 15 commonly used Small Language Models (SLMs), ranging from 1 billion to 70 billion parameters, benchmarking their classification accuracy, computational requirements, and cost-efficiency. Our results highlight the trade-offs between detection performance and resource consumption, demonstrating that while SLMs underperform compared to state-of-the-art proprietary LLMs, they can still provide a viable and scalable alternative to external LLM services. By presenting a comparative analysis of costs and benefits, this work lays the foundation for future research on the adaptation, fine-tuning, and deployment of SLMs in phishing detection systems, aiming to balance security effectiveness and economic practicality.",
+      "pdf_url": "https://arxiv.org/pdf/2511.15434v1",
+      "estimated_pages": 10,
+      "filename": "2511.15434v1.pdf"
+    },
+    {
+      "title": "How Can We Effectively Use LLMs for Phishing Detection?: Evaluating the Effectiveness of Large Language Model-based Phishing Detection Models",
+      "authors": [
+        "Fujiao Ji",
+        "Doowon Kim"
+      ],
+      "published": "2025-11-12T17:20:58+00:00",
+      "updated": "2025-11-25T22:26:54+00:00",
+      "arxiv_id": "2511.09606v2",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Large language models (LLMs) have emerged as a promising phishing detection mechanism, addressing the limitations of traditional deep learning-based detectors, including poor generalization to previously unseen websites and a lack of interpretability. However, LLMs' effectiveness for phishing detection remains unexplored. This study investigates how to effectively leverage LLMs for phishing detection (including target brand identification) by examining the impact of input modalities (screenshots, logos, HTML, and URLs), temperature settings, and prompt engineering strategies. Using a dataset of 19,131 real-world phishing websites and 243 benign sites, we evaluate seven LLMs -- two commercial models (GPT 4.1 and Gemini 2.0 flash) and five open-source models (Qwen, Llama, Janus, DeepSeek-VL2, and R1) -- alongside two deep learning (DL)-based baselines (PhishIntention and Phishpedia).\n  Our findings reveal that commercial LLMs generally outperform open-source models in phishing detection, while DL models demonstrate better performance on benign samples. For brand identification, screenshot inputs achieve optimal results, with commercial LLMs reaching 93-95% accuracy and open-source models, particularly Qwen, achieving up to 92%. However, incorporating multiple input modalities simultaneously or applying one-shot prompts does not consistently enhance performance and may degrade results. Furthermore, higher temperature values reduce performance. Based on these results, we recommend using screenshot inputs with zero temperature to maximize accuracy for LLM-based detectors with HTML serving as auxiliary context when screenshot information is insufficient.",
+      "pdf_url": "https://arxiv.org/pdf/2511.09606v2",
+      "estimated_pages": 10,
+      "filename": "2511.09606v2.pdf"
+    },
+    {
+      "title": "Trustworthiness Calibration Framework for Phishing Email Detection Using Large Language Models",
+      "authors": [
+        "Daniyal Ganiuly",
+        "Assel Smaiyl"
+      ],
+      "published": "2025-11-06T18:14:44+00:00",
+      "updated": "2025-11-06T18:14:44+00:00",
+      "arxiv_id": "2511.04728v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Phishing emails continue to pose a persistent challenge to online communication, exploiting human trust and evading automated filters through realistic language and adaptive tactics. While large language models (LLMs) such as GPT-4 and LLaMA-3-8B achieve strong accuracy in text classification, their deployment in security systems requires assessing reliability beyond benchmark performance. To address this, this study introduces the Trustworthiness Calibration Framework (TCF), a reproducible methodology for evaluating phishing detectors across three dimensions: calibration, consistency, and robustness. These components are integrated into a bounded index, the Trustworthiness Calibration Index (TCI), and complemented by the Cross-Dataset Stability (CDS) metric that quantifies stability of trustworthiness across datasets. Experiments conducted on five corpora, such as SecureMail 2025, Phishing Validation 2024, CSDMC2010, Enron-Spam, and Nazario, using DeBERTa-v3-base, LLaMA-3-8B, and GPT-4 demonstrate that GPT-4 achieves the strongest overall trust profile, followed by LLaMA-3-8B and DeBERTa-v3-base. Statistical analysis confirms that reliability varies independently of raw accuracy, underscoring the importance of trust-aware evaluation for real-world deployment. The proposed framework establishes a transparent and reproducible foundation for assessing model dependability in LLM-based phishing detection.",
+      "pdf_url": "https://arxiv.org/pdf/2511.04728v1",
+      "estimated_pages": 10,
+      "filename": "2511.04728v1.pdf"
+    },
+    {
+      "title": "Network Intrusion Detection: Evolution from Conventional Approaches to LLM Collaboration and Emerging Risks",
+      "authors": [
+        "Yaokai Feng",
+        "Kouichi Sakurai"
+      ],
+      "published": "2025-10-27T13:21:32+00:00",
+      "updated": "2025-11-09T12:44:18+00:00",
+      "arxiv_id": "2510.23313v2",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "This survey systematizes the evolution of network intrusion detection systems (NIDS), from conventional methods such as signature-based and neural network (NN)-based approaches to recent integrations with large language models (LLMs). It clearly and concisely summarizes the current status, strengths, and limitations of conventional techniques, and explores the practical benefits of integrating LLMs into NIDS. Recent research on the application of LLMs to NIDS in diverse environments is reviewed, including conventional network infrastructures, autonomous vehicle environments and IoT environments.\n  From this survey, readers will learn that: 1) the earliest methods, signature-based IDSs, continue to make significant contributions to modern systems, despite their well-known weaknesses; 2) NN-based detection, although considered promising and under development for more than two decades, and despite numerous related approaches, still faces significant challenges in practical deployment; 3) LLMs are useful for NIDS in many cases, and a number of related approaches have been proposed; however, they still face significant challenges in practical applications. Moreover, they can even be exploited as offensive tools, such as for generating malware, crafting phishing messages, or launching cyberattacks. Recently, several studies have been proposed to address these challenges, which are also reviewed in this survey; and 4) strategies for constructing domain-specific LLMs have been proposed and are outlined in this survey, as it is nearly impossible to train a NIDS-specific LLM from scratch.",
+      "pdf_url": "https://arxiv.org/pdf/2510.23313v2",
+      "estimated_pages": 29,
+      "filename": "2510.23313v2.pdf"
+    },
+    {
+      "title": "CLASP: Cost-Optimized LLM-based Agentic System for Phishing Detection",
+      "authors": [
+        "Fouad Trad",
+        "Ali Chehab"
+      ],
+      "published": "2025-10-21T12:38:52+00:00",
+      "updated": "2025-10-21T12:38:52+00:00",
+      "arxiv_id": "2510.18585v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing websites remain a significant cybersecurity threat, necessitating accurate and cost-effective detection mechanisms. In this paper, we present CLASP, a novel system that effectively identifies phishing websites by leveraging multiple intelligent agents, built using large language models (LLMs), to analyze different aspects of a web resource. The system processes URLs or QR codes, employing specialized LLM-based agents that evaluate the URL structure, webpage screenshot, and HTML content to predict potential phishing threats. To optimize performance while minimizing operational costs, we experimented with multiple combination strategies for agent-based analysis, ultimately designing a strategic combination that ensures the per-website evaluation expense remains minimal without compromising detection accuracy. We tested various LLMs, including Gemini 1.5 Flash and GPT-4o mini, to build these agents and found that Gemini 1.5 Flash achieved the best performance with an F1 score of 83.01% on a newly curated dataset. Also, the system maintained an average processing time of 2.78 seconds per website and an API cost of around $3.18 per 1,000 websites. Moreover, CLASP surpasses leading previous solutions, achieving over 40% higher recall and a 20% improvement in F1 score for phishing detection on the collected dataset. To support further research, we have made our dataset publicly available, supporting the development of more advanced phishing detection systems.",
+      "pdf_url": "https://arxiv.org/pdf/2510.18585v1",
+      "estimated_pages": 10,
+      "filename": "2510.18585v1.pdf"
+    },
+    {
+      "title": "Robust ML-based Detection of Conventional, LLM-Generated, and Adversarial Phishing Emails Using Advanced Text Preprocessing",
+      "authors": [
+        "Deeksha Hareesha Kulal",
+        "Chidozie Princewill Arannonu",
+        "Afsah Anwar",
+        "Nidhi Rastogi",
+        "Quamar Niyaz"
+      ],
+      "published": "2025-10-13T20:34:19+00:00",
+      "updated": "2025-10-13T20:34:19+00:00",
+      "arxiv_id": "2510.11915v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing remains a critical cybersecurity threat, especially with the advent of large language models (LLMs) capable of generating highly convincing malicious content. Unlike earlier phishing attempts which are identifiable by grammatical errors, misspellings, incorrect phrasing, and inconsistent formatting, LLM generated emails are grammatically sound, contextually relevant, and linguistically natural. These advancements make phishing emails increasingly difficult to distinguish from legitimate ones, challenging traditional detection mechanisms. Conventional phishing detection systems often fail when faced with emails crafted by LLMs or manipulated using adversarial perturbation techniques. To address this challenge, we propose a robust phishing email detection system featuring an enhanced text preprocessing pipeline. This pipeline includes spelling correction and word splitting to counteract adversarial modifications and improve detection accuracy. Our approach integrates widely adopted natural language processing (NLP) feature extraction techniques and machine learning algorithms. We evaluate our models on publicly available datasets comprising both phishing and legitimate emails, achieving a detection accuracy of 94.26% and F1-score of 84.39% in model deployment setting. To assess robustness, we further evaluate our models using adversarial phishing samples generated by four attack methods in Python TextAttack framework. Additionally, we evaluate models' performance against phishing emails generated by LLMs including ChatGPT and Llama. Results highlight the resilience of models against evolving AI-powered phishing threats.",
+      "pdf_url": "https://arxiv.org/pdf/2510.11915v1",
+      "estimated_pages": 10,
+      "filename": "2510.11915v1.pdf"
+    },
+    {
+      "title": "\"Your AI, My Shell\": Demystifying Prompt Injection Attacks on Agentic AI Coding Editors",
+      "authors": [
+        "Yue Liu",
+        "Yanjie Zhao",
+        "Yunbo Lyu",
+        "Ting Zhang",
+        "Haoyu Wang",
+        "David Lo"
+      ],
+      "published": "2025-09-26T08:20:54+00:00",
+      "updated": "2025-09-26T08:20:54+00:00",
+      "arxiv_id": "2509.22040v1",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "abstract": "Agentic AI coding editors driven by large language models have recently become more popular due to their ability to improve developer productivity during software development. Modern editors such as Cursor are designed not just for code completion, but also with more system privileges for complex coding tasks (e.g., run commands in the terminal, access development environments, and interact with external systems). While this brings us closer to the \"fully automated programming\" dream, it also raises new security concerns. In this study, we present the first empirical analysis of prompt injection attacks targeting these high-privilege agentic AI coding editors. We show how attackers can remotely exploit these systems by poisoning external development resources with malicious instructions, effectively hijacking AI agents to run malicious commands, turning \"your AI\" into \"attacker's shell\". To perform this analysis, we implement AIShellJack, an automated testing framework for assessing prompt injection vulnerabilities in agentic AI coding editors. AIShellJack contains 314 unique attack payloads that cover 70 techniques from the MITRE ATT&CK framework. Using AIShellJack, we conduct a large-scale evaluation on GitHub Copilot and Cursor, and our evaluation results show that attack success rates can reach as high as 84% for executing malicious commands. Moreover, these attacks are proven effective across a wide range of objectives, ranging from initial access and system discovery to credential theft and data exfiltration.",
+      "pdf_url": "https://arxiv.org/pdf/2509.22040v1",
+      "estimated_pages": 10,
+      "filename": "2509.22040v1.pdf"
+    },
+    {
+      "title": "EvoMail: Self-Evolving Cognitive Agents for Adaptive Spam and Phishing Email Defense",
+      "authors": [
+        "Wei Huang",
+        "De-Tian Chu",
+        "Lin-Yuan Bai",
+        "Wei Kang",
+        "Hai-Tao Zhang",
+        "Bo Li",
+        "Zhi-Mo Han",
+        "Jing Ge",
+        "Hai-Feng Lin"
+      ],
+      "published": "2025-09-25T13:19:59+00:00",
+      "updated": "2025-09-25T13:19:59+00:00",
+      "arxiv_id": "2509.21129v1",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "Modern email spam and phishing attacks have evolved far beyond keyword blacklists or simple heuristics. Adversaries now craft multi-modal campaigns that combine natural-language text with obfuscated URLs, forged headers, and malicious attachments, adapting their strategies within days to bypass filters. Traditional spam detection systems, which rely on static rules or single-modality models, struggle to integrate heterogeneous signals or to continuously adapt, leading to rapid performance degradation.\n  We propose EvoMail, a self-evolving cognitive agent framework for robust detection of spam and phishing. EvoMail first constructs a unified heterogeneous email graph that fuses textual content, metadata (headers, senders, domains), and embedded resources (URLs, attachments). A Cognitive Graph Neural Network enhanced by a Large Language Model (LLM) performs context-aware reasoning across these sources to identify coordinated spam campaigns. Most critically, EvoMail engages in an adversarial self-evolution loop: a ''red-team'' agent generates novel evasion tactics -- such as character obfuscation or AI-generated phishing text -- while the ''blue-team'' detector learns from failures, compresses experiences into a memory module, and reuses them for future reasoning.\n  Extensive experiments on real-world datasets (Enron-Spam, Ling-Spam, SpamAssassin, and TREC) and synthetic adversarial variants demonstrate that EvoMail consistently outperforms state-of-the-art baselines in detection accuracy, adaptability to evolving spam tactics, and interpretability of reasoning traces. These results highlight EvoMail's potential as a resilient and explainable defense framework against next-generation spam and phishing threats.",
+      "pdf_url": "https://arxiv.org/pdf/2509.21129v1",
+      "estimated_pages": 10,
+      "filename": "2509.21129v1.pdf"
+    },
+    {
+      "title": "Send to which account? Evaluation of an LLM-based Scambaiting System",
+      "authors": [
+        "Hossein Siadati",
+        "Haadi Jafarian",
+        "Sima Jafarikhah"
+      ],
+      "published": "2025-09-10T11:08:52+00:00",
+      "updated": "2025-09-10T11:08:52+00:00",
+      "arxiv_id": "2509.08493v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Scammers are increasingly harnessing generative AI(GenAI) technologies to produce convincing phishing content at scale, amplifying financial fraud and undermining public trust. While conventional defenses, such as detection algorithms, user training, and reactive takedown efforts remain important, they often fall short in dismantling the infrastructure scammers depend on, including mule bank accounts and cryptocurrency wallets. To bridge this gap, a proactive and emerging strategy involves using conversational honeypots to engage scammers and extract actionable threat intelligence. This paper presents the first large-scale, real-world evaluation of a scambaiting system powered by large language models (LLMs). Over a five-month deployment, the system initiated over 2,600 engagements with actual scammers, resulting in a dataset of more than 18,700 messages. It achieved an Information Disclosure Rate (IDR) of approximately 32%, successfully extracting sensitive financial information such as mule accounts. Additionally, the system maintained a Human Acceptance Rate (HAR) of around 70%, indicating strong alignment between LLM-generated responses and human operator preferences. Alongside these successes, our analysis reveals key operational challenges. In particular, the system struggled with engagement takeoff: only 48.7% of scammers responded to the initial seed message sent by defenders. These findings highlight the need for further refinement and provide actionable insights for advancing the design of automated scambaiting systems.",
+      "pdf_url": "https://arxiv.org/pdf/2509.08493v1",
+      "estimated_pages": 10,
+      "filename": "2509.08493v1.pdf"
+    },
+    {
+      "title": "A Decade-long Landscape of Advanced Persistent Threats: Longitudinal Analysis and Global Trends",
+      "authors": [
+        "Shakhzod Yuldoshkhujaev",
+        "Mijin Jeon",
+        "Doowon Kim",
+        "Nick Nikiforakis",
+        "Hyungjoon Koo"
+      ],
+      "published": "2025-09-09T07:26:15+00:00",
+      "updated": "2025-09-09T07:26:15+00:00",
+      "arxiv_id": "2509.07457v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "An advanced persistent threat (APT) refers to a covert, long-term cyberattack, typically conducted by state-sponsored actors, targeting critical sectors and often remaining undetected for long periods. In response, collective intelligence from around the globe collaborates to identify and trace surreptitious activities, generating substantial documentation on APT campaigns publicly available on the web. While prior works predominantly focus on specific aspects of APT cases, such as detection, evaluation, cyber threat intelligence, and dataset creation, limited attention has been devoted to revisiting and investigating these scattered dossiers in a longitudinal manner. The objective of our study is to fill the gap by offering a macro perspective, connecting key insights and global trends in past APT attacks. We systematically analyze six reliable sources-three focused on technical reports and another three on threat actors-examining 1,509 APT dossiers (24,215 pages) spanning 2014-2023, and identifying 603 unique APT groups worldwide. To efficiently unearth relevant information, we employ a hybrid methodology that combines rule-based information retrieval with large-language-model-based search techniques. Our longitudinal analysis reveals shifts in threat actor activities, global attack vectors, changes in targeted sectors, and relationships between cyberattacks and significant events such as elections or wars, which provide insights into historical patterns in APT evolution. Over the past decade, 154 countries have been affected, primarily using malicious documents and spear phishing as dominant initial infiltration vectors, with a noticeable decline in zero-day exploitation since 2016. Furthermore, we present our findings through interactive visualization tools, such as an APT map or flow diagram, to facilitate intuitive understanding of global patterns and trends in APT activities.",
+      "pdf_url": "https://arxiv.org/pdf/2509.07457v1",
+      "estimated_pages": 18,
+      "filename": "2509.07457v1.pdf"
+    },
+    {
+      "title": "Paladin: Defending LLM-enabled Phishing Emails with a New Trigger-Tag Paradigm",
+      "authors": [
+        "Yan Pang",
+        "Wenlong Meng",
+        "Xiaojing Liao",
+        "Tianhao Wang"
+      ],
+      "published": "2025-09-08T23:44:00+00:00",
+      "updated": "2025-09-08T23:44:00+00:00",
+      "arxiv_id": "2509.07287v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "With the rapid development of large language models, the potential threat of their malicious use, particularly in generating phishing content, is becoming increasingly prevalent. Leveraging the capabilities of LLMs, malicious users can synthesize phishing emails that are free from spelling mistakes and other easily detectable features. Furthermore, such models can generate topic-specific phishing messages, tailoring content to the target domain and increasing the likelihood of success.\n  Detecting such content remains a significant challenge, as LLM-generated phishing emails often lack clear or distinguishable linguistic features. As a result, most existing semantic-level detection approaches struggle to identify them reliably. While certain LLM-based detection methods have shown promise, they suffer from high computational costs and are constrained by the performance of the underlying language model, making them impractical for large-scale deployment.\n  In this work, we aim to address this issue. We propose Paladin, which embeds trigger-tag associations into vanilla LLM using various insertion strategies, creating them into instrumented LLMs. When an instrumented LLM generates content related to phishing, it will automatically include detectable tags, enabling easier identification. Based on the design on implicit and explicit triggers and tags, we consider four distinct scenarios in our work. We evaluate our method from three key perspectives: stealthiness, effectiveness, and robustness, and compare it with existing baseline methods. Experimental results show that our method outperforms the baselines, achieving over 90% detection accuracy across all scenarios.",
+      "pdf_url": "https://arxiv.org/pdf/2509.07287v1",
+      "estimated_pages": 20,
+      "filename": "2509.07287v1.pdf"
+    },
+    {
+      "title": "Mind the Gap: Evaluating Model- and Agentic-Level Vulnerabilities in LLMs with Action Graphs",
+      "authors": [
+        "Ilham Wicaksono",
+        "Zekun Wu",
+        "Rahul Patel",
+        "Theo King",
+        "Adriano Koshiyama",
+        "Philip Treleaven"
+      ],
+      "published": "2025-09-05T04:36:17+00:00",
+      "updated": "2025-09-22T20:19:43+00:00",
+      "arxiv_id": "2509.04802v2",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "As large language models transition to agentic systems, current safety evaluation frameworks face critical gaps in assessing deployment-specific risks. We introduce AgentSeer, an observability-based evaluation framework that decomposes agentic executions into granular action and component graphs, enabling systematic agentic-situational assessment. Through cross-model validation on GPT-OSS-20B and Gemini-2.0-flash using HarmBench single turn and iterative refinement attacks, we demonstrate fundamental differences between model-level and agentic-level vulnerability profiles. Model-level evaluation reveals baseline differences: GPT-OSS-20B (39.47% ASR) versus Gemini-2.0-flash (50.00% ASR), with both models showing susceptibility to social engineering while maintaining logic-based attack resistance. However, agentic-level assessment exposes agent-specific risks invisible to traditional evaluation. We discover \"agentic-only\" vulnerabilities that emerge exclusively in agentic contexts, with tool-calling showing 24-60% higher ASR across both models. Cross-model analysis reveals universal agentic patterns, agent transfer operations as highest-risk tools, semantic rather than syntactic vulnerability mechanisms, and context-dependent attack effectiveness, alongside model-specific security profiles in absolute ASR levels and optimal injection strategies. Direct attack transfer from model-level to agentic contexts shows degraded performance (GPT-OSS-20B: 57% human injection ASR; Gemini-2.0-flash: 28%), while context-aware iterative attacks successfully compromise objectives that failed at model-level, confirming systematic evaluation gaps. These findings establish the urgent need for agentic-situation evaluation paradigms, with AgentSeer providing the standardized methodology and empirical validation.",
+      "pdf_url": "https://arxiv.org/pdf/2509.04802v2",
+      "estimated_pages": 10,
+      "filename": "2509.04802v2.pdf"
+    },
+    {
+      "title": "E-PhishGen: Unlocking Novel Research in Phishing Email Detection",
+      "authors": [
+        "Luca Pajola",
+        "Eugenio Caripoti",
+        "Stefan Banzer",
+        "Simeone Pizzi",
+        "Mauro Conti",
+        "Giovanni Apruzzese"
+      ],
+      "published": "2025-09-01T21:41:34+00:00",
+      "updated": "2025-09-15T13:13:33+00:00",
+      "arxiv_id": "2509.01791v2",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Every day, our inboxes are flooded with unsolicited emails, ranging between annoying spam to more subtle phishing scams. Unfortunately, despite abundant prior efforts proposing solutions achieving near-perfect accuracy, the reality is that countering malicious emails still remains an unsolved dilemma.\n  This \"open problem\" paper carries out a critical assessment of scientific works in the context of phishing email detection. First, we focus on the benchmark datasets that have been used to assess the methods proposed in research. We find that most prior work relied on datasets containing emails that -- we argue -- are not representative of current trends, and mostly encompass the English language. Based on this finding, we then re-implement and re-assess a variety of detection methods reliant on machine learning (ML), including large-language models (LLM), and release all of our codebase -- an (unfortunately) uncommon practice in related research. We show that most such methods achieve near-perfect performance when trained and tested on the same dataset -- a result which intrinsically hinders development (how can future research outperform methods that are already near perfect?). To foster the creation of \"more challenging benchmarks\" that reflect current phishing trends, we propose E-PhishGEN, an LLM-based (and privacy-savvy) framework to generate novel phishing-email datasets. We use our E-PhishGEN to create E-PhishLLM, a novel phishing-email detection dataset containing 16616 emails in three languages. We use E-PhishLLM to test the detectors we considered, showing a much lower performance than that achieved on existing benchmarks -- indicating a larger room for improvement. We also validate the quality of E-PhishLLM with a user study (n=30). To sum up, we show that phishing email detection is still an open problem -- and provide the means to tackle such a problem by future research.",
+      "pdf_url": "https://arxiv.org/pdf/2509.01791v2",
+      "estimated_pages": 10,
+      "filename": "2509.01791v2.pdf"
+    },
+    {
+      "title": "SoK: Exposing the Generation and Detection Gaps in LLM-Generated Phishing Through Examination of Generation Methods, Content Characteristics, and Countermeasures",
+      "authors": [
+        "Fengchao Chen",
+        "Tingmin Wu",
+        "Van Nguyen",
+        "Carsten Rudolph"
+      ],
+      "published": "2025-08-29T09:39:46+00:00",
+      "updated": "2025-11-19T02:21:37+00:00",
+      "arxiv_id": "2508.21457v2",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing campaigns involve adversaries masquerading as trusted vendors trying to trigger user behavior that enables them to exfiltrate private data. While URLs are an important part of phishing campaigns, communicative elements like text and images are central in triggering the required user behavior. Further, due to advances in phishing detection, attackers react by scaling campaigns to larger numbers and diversifying and personalizing content. In addition to established mechanisms, such as template-based generation, large language models (LLMs) can be used for phishing content generation, enabling attacks to scale in minutes, challenging existing phishing detection paradigms through personalized content, stealthy explicit phishing keywords, and dynamic adaptation to diverse attack scenarios. Countering these dynamically changing attack campaigns requires a comprehensive understanding of the complex LLM-related threat landscape. Existing studies are fragmented and focus on specific areas. In this work, we provide the first holistic examination of LLM-generated phishing content. First, to trace the exploitation pathways of LLMs for phishing content generation, we adopt a modular taxonomy documenting nine stages by which adversaries breach LLM safety guardrails. We then characterize how LLM-generated phishing manifests as threats, revealing that it evades detectors while emphasizing human cognitive manipulation. Third, by taxonomizing defense techniques aligned with generation methods, we expose a critical asymmetry that offensive mechanisms adapt dynamically to attack scenarios, whereas defensive strategies remain static and reactive. Finally, based on a thorough analysis of the existing literature, we highlight insights and gaps and suggest a roadmap for understanding and countering LLM-driven phishing at scale.",
+      "pdf_url": "https://arxiv.org/pdf/2508.21457v2",
+      "estimated_pages": 18,
+      "filename": "2508.21457v2.pdf"
+    },
+    {
+      "title": "CASE: An Agentic AI Framework for Enhancing Scam Intelligence in Digital Payments",
+      "authors": [
+        "Nitish Jaipuria",
+        "Lorenzo Gatto",
+        "Zijun Kan",
+        "Shankey Poddar",
+        "Bill Cheung",
+        "Diksha Bansal",
+        "Ramanan Balakrishnan",
+        "Aviral Suri",
+        "Jose Estevez"
+      ],
+      "published": "2025-08-27T14:47:33+00:00",
+      "updated": "2025-08-27T14:47:33+00:00",
+      "arxiv_id": "2508.19932v1",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "The proliferation of digital payment platforms has transformed commerce, offering unmatched convenience and accessibility globally. However, this growth has also attracted malicious actors, leading to a corresponding increase in sophisticated social engineering scams. These scams are often initiated and orchestrated on multiple surfaces outside the payment platform, making user and transaction-based signals insufficient for a complete understanding of the scam's methodology and underlying patterns, without which it is very difficult to prevent it in a timely manner. This paper presents CASE (Conversational Agent for Scam Elucidation), a novel Agentic AI framework that addresses this problem by collecting and managing user scam feedback in a safe and scalable manner. A conversational agent is uniquely designed to proactively interview potential victims to elicit intelligence in the form of a detailed conversation. The conversation transcripts are then consumed by another AI system that extracts information and converts it into structured data for downstream usage in automated and manual enforcement mechanisms. Using Google's Gemini family of LLMs, we implemented this framework on Google Pay (GPay) India. By augmenting our existing features with this new intelligence, we have observed a 21% uplift in the volume of scam enforcements. The architecture and its robust evaluation framework are highly generalizable, offering a blueprint for building similar AI-driven systems to collect and manage scam intelligence in other sensitive domains.",
+      "pdf_url": "https://arxiv.org/pdf/2508.19932v1",
+      "estimated_pages": 10,
+      "filename": "2508.19932v1.pdf"
+    },
+    {
+      "title": "Invitation Is All You Need! Promptware Attacks Against LLM-Powered Assistants in Production Are Practical and Dangerous",
+      "authors": [
+        "Ben Nassi",
+        "Stav Cohen",
+        "Or Yair"
+      ],
+      "published": "2025-08-16T22:56:51+00:00",
+      "updated": "2025-08-16T22:56:51+00:00",
+      "arxiv_id": "2508.12175v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The growing integration of LLMs into applications has introduced new security risks, notably known as Promptware - maliciously engineered prompts designed to manipulate LLMs to compromise the CIA triad of these applications. While prior research warned about a potential shift in the threat landscape for LLM-powered applications, the risk posed by Promptware is frequently perceived as low. In this paper, we investigate the risk Promptware poses to users of Gemini-powered assistants (web application, mobile application, and Google Assistant). We propose a novel Threat Analysis and Risk Assessment (TARA) framework to assess Promptware risks for end users. Our analysis focuses on a new variant of Promptware called Targeted Promptware Attacks, which leverage indirect prompt injection via common user interactions such as emails, calendar invitations, and shared documents. We demonstrate 14 attack scenarios applied against Gemini-powered assistants across five identified threat classes: Short-term Context Poisoning, Permanent Memory Poisoning, Tool Misuse, Automatic Agent Invocation, and Automatic App Invocation. These attacks highlight both digital and physical consequences, including spamming, phishing, disinformation campaigns, data exfiltration, unapproved user video streaming, and control of home automation devices. We reveal Promptware's potential for on-device lateral movement, escaping the boundaries of the LLM-powered application, to trigger malicious actions using a device's applications. Our TARA reveals that 73% of the analyzed threats pose High-Critical risk to end users. We discuss mitigations and reassess the risk (in response to deployed mitigations) and show that the risk could be reduced significantly to Very Low-Medium. We disclosed our findings to Google, which deployed dedicated mitigations.",
+      "pdf_url": "https://arxiv.org/pdf/2508.12175v1",
+      "estimated_pages": 10,
+      "filename": "2508.12175v1.pdf"
+    },
+    {
+      "title": "Per-sender neural network classifiers for email authorship validation",
+      "authors": [
+        "Rohit Dube"
+      ],
+      "published": "2025-08-09T17:58:16+00:00",
+      "updated": "2025-08-09T17:58:16+00:00",
+      "arxiv_id": "2509.00005v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "stat.AP"
+      ],
+      "abstract": "Business email compromise and lateral spear phishing attacks are among modern organizations' most costly and damaging threats. While inbound phishing defenses have improved significantly, most organizations still trust internal emails by default, leaving themselves vulnerable to attacks from compromised employee accounts. In this work, we define and explore the problem of authorship validation: verifying whether a claimed sender actually authored a given email. Authorship validation is a lightweight, real-time defense that complements traditional detection methods by modeling per-sender writing style. Further, the paper presents a collection of new datasets based on the Enron corpus. These simulate inauthentic messages using both human-written and large language model-generated emails. The paper also evaluates two classifiers -- a Naive Bayes model and a character-level convolutional neural network (Char-CNN) -- for the authorship validation task. Our experiments show that the Char-CNN model achieves high accuracy and F1 scores under various circumstances. Finally, we discuss deployment considerations and show that per-sender authorship classifiers are practical for integrating into existing commercial email security systems with low overhead.",
+      "pdf_url": "https://arxiv.org/pdf/2509.00005v1",
+      "estimated_pages": 11,
+      "filename": "2509.00005v1.pdf"
+    },
+    {
+      "title": "PhishParrot: LLM-Driven Adaptive Crawling to Unveil Cloaked Phishing Sites",
+      "authors": [
+        "Hiroki Nakano",
+        "Takashi Koide",
+        "Daiki Chiba"
+      ],
+      "published": "2025-08-04T04:04:07+00:00",
+      "updated": "2025-08-04T04:04:07+00:00",
+      "arxiv_id": "2508.02035v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing attacks continue to evolve, with cloaking techniques posing a significant challenge to detection efforts. Cloaking allows attackers to display phishing sites only to specific users while presenting legitimate pages to security crawlers, rendering traditional detection systems ineffective. This research proposes PhishParrot, a novel crawling environment optimization system designed to counter cloaking techniques. PhishParrot leverages the contextual analysis capabilities of Large Language Models (LLMs) to identify potential patterns in crawling information, enabling the construction of optimal user profiles capable of bypassing cloaking mechanisms. The system accumulates information on phishing sites collected from diverse environments. It then adapts browser settings and network configurations to match the attacker's target user conditions based on information extracted from similar cases. A 21-day evaluation showed that PhishParrot improved detection accuracy by up to 33.8% over standard analysis systems, yielding 91 distinct crawling environments for diverse conditions targeted by attackers. The findings confirm that the combination of similar-case extraction and LLM-based context analysis is an effective approach for detecting cloaked phishing attacks.",
+      "pdf_url": "https://arxiv.org/pdf/2508.02035v1",
+      "estimated_pages": 8,
+      "filename": "2508.02035v1.pdf"
+    },
+    {
+      "title": "LLM-Based Identification of Infostealer Infection Vectors from Screenshots: The Case of Aurora",
+      "authors": [
+        "Estelle Ruellan",
+        "Eric Clay",
+        "Nicholas Ascoli"
+      ],
+      "published": "2025-07-31T14:49:03+00:00",
+      "updated": "2025-07-31T14:49:03+00:00",
+      "arxiv_id": "2507.23611v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "abstract": "Infostealers exfiltrate credentials, session cookies, and sensitive data from infected systems. With over 29 million stealer logs reported in 2024, manual analysis and mitigation at scale are virtually unfeasible/unpractical. While most research focuses on proactive malware detection, a significant gap remains in leveraging reactive analysis of stealer logs and their associated artifacts. Specifically, infection artifacts such as screenshots, image captured at the point of compromise, are largely overlooked by the current literature. This paper introduces a novel approach leveraging Large Language Models (LLMs), more specifically gpt-4o-mini, to analyze infection screenshots to extract potential Indicators of Compromise (IoCs), map infection vectors, and track campaigns. Focusing on the Aurora infostealer, we demonstrate how LLMs can process screenshots to identify infection vectors, such as malicious URLs, installer files, and exploited software themes. Our method extracted 337 actionable URLs and 246 relevant files from 1000 screenshots, revealing key malware distribution methods and social engineering tactics. By correlating extracted filenames, URLs, and infection themes, we identified three distinct malware campaigns, demonstrating the potential of LLM-driven analysis for uncovering infection workflows and enhancing threat intelligence. By shifting malware analysis from traditional log-based detection methods to a reactive, artifact-driven approach that leverages infection screenshots, this research presents a scalable method for identifying infection vectors and enabling early intervention.",
+      "pdf_url": "https://arxiv.org/pdf/2507.23611v1",
+      "estimated_pages": 10,
+      "filename": "2507.23611v1.pdf"
+    },
+    {
+      "title": "Can We End the Cat-and-Mouse Game? Simulating Self-Evolving Phishing Attacks with LLMs and Genetic Algorithms",
+      "authors": [
+        "Seiji Sato",
+        "Tetsushi Ohki",
+        "Masakatsu Nishigaki"
+      ],
+      "published": "2025-07-29T07:11:11+00:00",
+      "updated": "2025-07-29T07:11:11+00:00",
+      "arxiv_id": "2507.21538v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Anticipating emerging attack methodologies is crucial for proactive cybersecurity. Recent advances in Large Language Models (LLMs) have enabled the automated generation of phishing messages and accelerated research into potential attack techniques. However, predicting future threats remains challenging due to reliance on existing training data. To address this limitation, we propose a novel framework that integrates LLM-based phishing attack simulations with a genetic algorithm in a psychological context, enabling phishing strategies to evolve dynamically through adversarial interactions with simulated victims. Through simulations using Llama 3.1, we demonstrate that (1) self-evolving phishing strategies employ increasingly sophisticated psychological manipulation techniques, surpassing naive LLM-generated attacks, (2) variations in a victim's prior knowledge significantly influence the evolution of attack strategies, and (3) adversarial interactions between evolving attacks and adaptive defenses create a cat-and-mouse dynamic, revealing an inherent asymmetry in cybersecurity -- attackers continuously refine their methods, whereas defenders struggle to comprehensively counter all evolving threats. Our approach provides a scalable, cost-effective method for analyzing the evolution of phishing strategies and defenses, offering insights into future social engineering threats and underscoring the necessity of proactive cybersecurity measures.",
+      "pdf_url": "https://arxiv.org/pdf/2507.21538v1",
+      "estimated_pages": 8,
+      "filename": "2507.21538v1.pdf"
+    },
+    {
+      "title": "Talking Like a Phisher: LLM-Based Attacks on Voice Phishing Classifiers",
+      "authors": [
+        "Wenhao Li",
+        "Selvakumar Manickam",
+        "Yung-wey Chong",
+        "Shankar Karuppayah"
+      ],
+      "published": "2025-07-22T07:26:49+00:00",
+      "updated": "2025-07-22T07:26:49+00:00",
+      "arxiv_id": "2507.16291v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Voice phishing (vishing) remains a persistent threat in cybersecurity, exploiting human trust through persuasive speech. While machine learning (ML)-based classifiers have shown promise in detecting malicious call transcripts, they remain vulnerable to adversarial manipulations that preserve semantic content. In this study, we explore a novel attack vector where large language models (LLMs) are leveraged to generate adversarial vishing transcripts that evade detection while maintaining deceptive intent. We construct a systematic attack pipeline that employs prompt engineering and semantic obfuscation to transform real-world vishing scripts using four commercial LLMs. The generated transcripts are evaluated against multiple ML classifiers trained on a real-world Korean vishing dataset (KorCCViD) with statistical testing. Our experiments reveal that LLM-generated transcripts are both practically and statistically effective against ML-based classifiers. In particular, transcripts crafted by GPT-4o significantly reduce classifier accuracy (by up to 30.96%) while maintaining high semantic similarity, as measured by BERTScore. Moreover, these attacks are both time-efficient and cost-effective, with average generation times under 9 seconds and negligible financial cost per query. The results underscore the pressing need for more resilient vishing detection frameworks and highlight the imperative for LLM providers to enforce stronger safeguards against prompt misuse in adversarial social engineering contexts.",
+      "pdf_url": "https://arxiv.org/pdf/2507.16291v1",
+      "estimated_pages": 8,
+      "filename": "2507.16291v1.pdf"
+    },
+    {
+      "title": "PhishIntentionLLM: Uncovering Phishing Website Intentions through Multi-Agent Retrieval-Augmented Generation",
+      "authors": [
+        "Wenhao Li",
+        "Selvakumar Manickam",
+        "Yung-wey Chong",
+        "Shankar Karuppayah"
+      ],
+      "published": "2025-07-21T09:20:43+00:00",
+      "updated": "2025-07-21T09:20:43+00:00",
+      "arxiv_id": "2507.15419v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing websites remain a major cybersecurity threat, yet existing methods primarily focus on detection, while the recognition of underlying malicious intentions remains largely unexplored. To address this gap, we propose PhishIntentionLLM, a multi-agent retrieval-augmented generation (RAG) framework that uncovers phishing intentions from website screenshots. Leveraging the visual-language capabilities of large language models (LLMs), our framework identifies four key phishing objectives: Credential Theft, Financial Fraud, Malware Distribution, and Personal Information Harvesting. We construct and release the first phishing intention ground truth dataset (~2K samples) and evaluate the framework using four commercial LLMs. Experimental results show that PhishIntentionLLM achieves a micro-precision of 0.7895 with GPT-4o and significantly outperforms the single-agent baseline with a ~95% improvement in micro-precision. Compared to the previous work, it achieves 0.8545 precision for credential theft, marking a ~4% improvement. Additionally, we generate a larger dataset of ~9K samples for large-scale phishing intention profiling across sectors. This work provides a scalable and interpretable solution for intention-aware phishing analysis.",
+      "pdf_url": "https://arxiv.org/pdf/2507.15419v1",
+      "estimated_pages": 8,
+      "filename": "2507.15419v1.pdf"
+    },
+    {
+      "title": "PiMRef: Detecting and Explaining Ever-evolving Spear Phishing Emails with Knowledge Base Invariants",
+      "authors": [
+        "Ruofan Liu",
+        "Yun Lin",
+        "Silas Yeo Shuen Yu",
+        "Xiwen Teoh",
+        "Zhenkai Liang",
+        "Jin Song Dong"
+      ],
+      "published": "2025-07-21T08:53:41+00:00",
+      "updated": "2025-07-21T08:53:41+00:00",
+      "arxiv_id": "2507.15393v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Phishing emails are a critical component of the cybercrime kill chain due to their wide reach and low cost. Their ever-evolving nature renders traditional rule-based and feature-engineered detectors ineffective in the ongoing arms race between attackers and defenders. The rise of large language models (LLMs) further exacerbates the threat, enabling attackers to craft highly convincing phishing emails at minimal cost.\n  This work demonstrates that LLMs can generate psychologically persuasive phishing emails tailored to victim profiles, successfully bypassing nearly all commercial and academic detectors. To defend against such threats, we propose PiMRef, the first reference-based phishing email detector that leverages knowledge-based invariants. Our core insight is that persuasive phishing emails often contain disprovable identity claims, which contradict real-world facts. PiMRef reframes phishing detection as an identity fact-checking task. Given an email, PiMRef (i) extracts the sender's claimed identity, (ii) verifies the legitimacy of the sender's domain against a predefined knowledge base, and (iii) detects call-to-action prompts that push user engagement. Contradictory claims are flagged as phishing indicators and serve as human-understandable explanations.\n  Compared to existing methods such as D-Fence, HelpHed, and ChatSpamDetector, PiMRef boosts precision by 8.8% with no loss in recall on standard benchmarks like Nazario and PhishPot. In a real-world evaluation of 10,183 emails across five university accounts over three years, PiMRef achieved 92.1% precision, 87.9% recall, and a median runtime of 0.05s, outperforming the state-of-the-art in both effectiveness and efficiency.",
+      "pdf_url": "https://arxiv.org/pdf/2507.15393v1",
+      "estimated_pages": 10,
+      "filename": "2507.15393v1.pdf"
+    },
+    {
+      "title": "Exploiting Jailbreaking Vulnerabilities in Generative AI to Bypass Ethical Safeguards for Facilitating Phishing Attacks",
+      "authors": [
+        "Rina Mishra",
+        "Gaurav Varshney"
+      ],
+      "published": "2025-07-16T12:32:46+00:00",
+      "updated": "2025-07-16T12:32:46+00:00",
+      "arxiv_id": "2507.12185v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The advent of advanced Generative AI (GenAI) models such as DeepSeek and ChatGPT has significantly reshaped the cybersecurity landscape, introducing both promising opportunities and critical risks. This study investigates how GenAI powered chatbot services can be exploited via jailbreaking techniques to bypass ethical safeguards, enabling the generation of phishing content, recommendation of hacking tools, and orchestration of phishing campaigns. In ethically controlled experiments, we used ChatGPT 4o Mini selected for its accessibility and status as the latest publicly available model at the time of experimentation, as a representative GenAI system. Our findings reveal that the model could successfully guide novice users in executing phishing attacks across various vectors, including web, email, SMS (smishing), and voice (vishing). Unlike automated phishing campaigns that typically follow detectable patterns, these human-guided, AI assisted attacks are capable of evading traditional anti phishing mechanisms, thereby posing a growing security threat. We focused on DeepSeek and ChatGPT due to their widespread adoption and technical relevance in 2025. The study further examines common jailbreaking techniques and the specific vulnerabilities exploited in these models. Finally, we evaluate a range of mitigation strategies such as user education, advanced authentication mechanisms, and regulatory policy measures and discuss emerging trends in GenAI facilitated phishing, outlining future research directions to strengthen cybersecurity defenses in the age of artificial intelligence.",
+      "pdf_url": "https://arxiv.org/pdf/2507.12185v1",
+      "estimated_pages": 10,
+      "filename": "2507.12185v1.pdf"
+    },
+    {
+      "title": "Can Large Language Models Improve Phishing Defense? A Large-Scale Controlled Experiment on Warning Dialogue Explanations",
+      "authors": [
+        "Federico Maria Cau",
+        "Giuseppe Desolda",
+        "Francesco Greco",
+        "Lucio Davide Spano",
+        "Luca Vigan\u00f2"
+      ],
+      "published": "2025-07-10T16:54:05+00:00",
+      "updated": "2025-07-10T16:54:05+00:00",
+      "arxiv_id": "2507.07916v1",
+      "categories": [
+        "cs.CR",
+        "cs.HC"
+      ],
+      "abstract": "Phishing has become a prominent risk in modern cybersecurity, often used to bypass technological defences by exploiting predictable human behaviour. Warning dialogues are a standard mitigation measure, but the lack of explanatory clarity and static content limits their effectiveness. In this paper, we report on our research to assess the capacity of Large Language Models (LLMs) to generate clear, concise, and scalable explanations for phishing warnings. We carried out a large-scale between-subjects user study (N = 750) to compare the influence of warning dialogues supplemented with manually generated explanations against those generated by two LLMs, Claude 3.5 Sonnet and Llama 3.3 70B. We investigated two explanatory styles (feature-based and counterfactual) for their effects on behavioural metrics (click-through rate) and perceptual outcomes (e.g., trust, risk, clarity). The results indicate that well-constructed LLM-generated explanations can equal or surpass manually crafted explanations in reducing susceptibility to phishing; Claude-generated warnings exhibited particularly robust performance. Feature-based explanations were more effective for genuine phishing attempts, whereas counterfactual explanations diminished false-positive rates. Other variables such as workload, gender, and prior familiarity with warning dialogues significantly moderated warning effectiveness. These results indicate that LLMs can be used to automatically build explanations for warning users against phishing, and that such solutions are scalable, adaptive, and consistent with human-centred values.",
+      "pdf_url": "https://arxiv.org/pdf/2507.07916v1",
+      "estimated_pages": 10,
+      "filename": "2507.07916v1.pdf"
+    },
+    {
+      "title": "Phishing Detection in the Gen-AI Era: Quantized LLMs vs Classical Models",
+      "authors": [
+        "Jikesh Thapa",
+        "Gurrehmat Chahal",
+        "Serban Voinea Gabreanu",
+        "Yazan Otoum"
+      ],
+      "published": "2025-07-10T04:01:52+00:00",
+      "updated": "2025-07-10T04:01:52+00:00",
+      "arxiv_id": "2507.07406v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Phishing attacks are becoming increasingly sophisticated, underscoring the need for detection systems that strike a balance between high accuracy and computational efficiency. This paper presents a comparative evaluation of traditional Machine Learning (ML), Deep Learning (DL), and quantized small-parameter Large Language Models (LLMs) for phishing detection. Through experiments on a curated dataset, we show that while LLMs currently underperform compared to ML and DL methods in terms of raw accuracy, they exhibit strong potential for identifying subtle, context-based phishing cues. We also investigate the impact of zero-shot and few-shot prompting strategies, revealing that LLM-rephrased emails can significantly degrade the performance of both ML and LLM-based detectors. Our benchmarking highlights that models like DeepSeek R1 Distill Qwen 14B (Q8_0) achieve competitive accuracy, above 80%, using only 17GB of VRAM, supporting their viability for cost-efficient deployment. We further assess the models' adversarial robustness and cost-performance tradeoffs, and demonstrate how lightweight LLMs can provide concise, interpretable explanations to support real-time decision-making. These findings position optimized LLMs as promising components in phishing defence systems and offer a path forward for integrating explainable, efficient AI into modern cybersecurity frameworks.",
+      "pdf_url": "https://arxiv.org/pdf/2507.07406v1",
+      "estimated_pages": 8,
+      "filename": "2507.07406v1.pdf"
+    },
+    {
+      "title": "AI Generated Text Detection Using Instruction Fine-tuned Large Language and Transformer-Based Models",
+      "authors": [
+        "Chinnappa Guggilla",
+        "Budhaditya Roy",
+        "Trupti Ramdas Chavan",
+        "Abdul Rahman",
+        "Edward Bowen"
+      ],
+      "published": "2025-07-07T16:13:13+00:00",
+      "updated": "2025-07-07T16:13:13+00:00",
+      "arxiv_id": "2507.05157v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Models (LLMs) possess an extraordinary capability to produce text that is not only coherent and contextually relevant but also strikingly similar to human writing. They adapt to various styles and genres, producing content that is both grammatically correct and semantically meaningful. Recently, LLMs have been misused to create highly realistic phishing emails, spread fake news, generate code to automate cyber crime, and write fraudulent scientific articles. Additionally, in many real-world applications, the generated content including style and topic and the generator model are not known beforehand. The increasing prevalence and sophistication of artificial intelligence (AI)-generated texts have made their detection progressively more challenging. Various attempts have been made to distinguish machine-generated text from human-authored content using linguistic, statistical, machine learning, and ensemble-based approaches. This work focuses on two primary objectives Task-A, which involves distinguishing human-written text from machine-generated text, and Task-B, which attempts to identify the specific LLM model responsible for the generation. Both of these tasks are based on fine tuning of Generative Pre-trained Transformer (GPT_4o-mini), Large Language Model Meta AI (LLaMA) 3 8B, and Bidirectional Encoder Representations from Transformers (BERT). The fine-tuned version of GPT_4o-mini and the BERT model has achieved accuracies of 0.9547 for Task-A and 0.4698 for Task-B.",
+      "pdf_url": "https://arxiv.org/pdf/2507.05157v1",
+      "estimated_pages": 7,
+      "filename": "2507.05157v1.pdf"
+    },
+    {
+      "title": "From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI Agents Workflows",
+      "authors": [
+        "Mohamed Amine Ferrag",
+        "Norbert Tihanyi",
+        "Djallel Hamouda",
+        "Leandros Maglaras",
+        "Merouane Debbah"
+      ],
+      "published": "2025-06-29T14:32:32+00:00",
+      "updated": "2025-06-29T14:32:32+00:00",
+      "arxiv_id": "2506.23260v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Autonomous AI agents powered by large language models (LLMs) with structured function-calling interfaces have dramatically expanded capabilities for real-time data retrieval, complex computation, and multi-step orchestration. Yet, the explosive proliferation of plugins, connectors, and inter-agent protocols has outpaced discovery mechanisms and security practices, resulting in brittle integrations vulnerable to diverse threats. In this survey, we introduce the first unified, end-to-end threat model for LLM-agent ecosystems, spanning host-to-tool and agent-to-agent communications, formalize adversary capabilities and attacker objectives, and catalog over thirty attack techniques. Specifically, we organized the threat model into four domains: Input Manipulation (e.g., prompt injections, long-context hijacks, multimodal adversarial inputs), Model Compromise (e.g., prompt- and parameter-level backdoors, composite and encrypted multi-backdoors, poisoning strategies), System and Privacy Attacks (e.g., speculative side-channels, membership inference, retrieval poisoning, social-engineering simulations), and Protocol Vulnerabilities (e.g., exploits in Model Context Protocol (MCP), Agent Communication Protocol (ACP), Agent Network Protocol (ANP), and Agent-to-Agent (A2A) protocol). For each category, we review representative scenarios, assess real-world feasibility, and evaluate existing defenses. Building on our threat taxonomy, we identify key open challenges and future research directions, such as securing MCP deployments through dynamic trust management and cryptographic provenance tracking; designing and hardening Agentic Web Interfaces; and achieving resilience in multi-agent and federated environments. Our work provides a comprehensive reference to guide the design of robust defense mechanisms and establish best practices for resilient LLM-agent workflows.",
+      "pdf_url": "https://arxiv.org/pdf/2506.23260v1",
+      "estimated_pages": 29,
+      "filename": "2506.23260v1.pdf"
+    },
+    {
+      "title": "Adaptive Linguistic Prompting (ALP) Enhances Phishing Webpage Detection in Multimodal Large Language Models",
+      "authors": [
+        "Atharva Bhargude",
+        "Ishan Gonehal",
+        "Dave Yoon",
+        "Kaustubh Vinnakota",
+        "Chandler Haney",
+        "Aaron Sandoval",
+        "Kevin Zhu"
+      ],
+      "published": "2025-06-29T01:26:25+00:00",
+      "updated": "2025-08-25T03:17:21+00:00",
+      "arxiv_id": "2507.13357v2",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "Phishing attacks represent a significant cybersecurity threat, necessitating adaptive detection techniques. This study explores few-shot Adaptive Linguistic Prompting (ALP) in detecting phishing webpages through the multimodal capabilities of state-of-the-art large language models (LLMs) such as GPT-4o and Gemini 1.5 Pro. ALP is a structured semantic reasoning method that guides LLMs to analyze textual deception by breaking down linguistic patterns, detecting urgency cues, and identifying manipulative diction commonly found in phishing content. By integrating textual, visual, and URL-based analysis, we propose a unified model capable of identifying sophisticated phishing attempts. Our experiments demonstrate that ALP significantly enhances phishing detection accuracy by guiding LLMs through structured reasoning and contextual analysis. The findings highlight the potential of ALP-integrated multimodal LLMs to advance phishing detection frameworks, achieving an F1-score of 0.93, surpassing traditional approaches. These results establish a foundation for more robust, interpretable, and adaptive linguistic-based phishing detection systems using LLMs.",
+      "pdf_url": "https://arxiv.org/pdf/2507.13357v2",
+      "estimated_pages": 9,
+      "filename": "2507.13357v2.pdf"
+    },
+    {
+      "title": "PhishDebate: An LLM-Based Multi-Agent Framework for Phishing Website Detection",
+      "authors": [
+        "Wenhao Li",
+        "Selvakumar Manickam",
+        "Yung-wey Chong",
+        "Shankar Karuppayah"
+      ],
+      "published": "2025-06-18T17:33:18+00:00",
+      "updated": "2025-06-18T17:33:18+00:00",
+      "arxiv_id": "2506.15656v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Phishing websites continue to pose a significant cybersecurity threat, often leveraging deceptive structures, brand impersonation, and social engineering tactics to evade detection. While recent advances in large language models (LLMs) have enabled improved phishing detection through contextual understanding, most existing approaches rely on single-agent classification facing the risks of hallucination and lack interpretability or robustness. To address these limitations, we propose PhishDebate, a modular multi-agent LLM-based debate framework for phishing website detection. PhishDebate employs four specialized agents to independently analyze different textual aspects of a webpage--URL structure, HTML composition, semantic content, and brand impersonation--under the coordination of a Moderator and a final Judge. Through structured debate and divergent thinking, the framework delivers more accurate and interpretable decisions. Extensive evaluations on commercial LLMs demonstrate that PhishDebate achieves 98.2% recall and 98.2% True Positive Rate (TPR) on a real-world phishing dataset, and outperforms single-agent and Chain of Thought (CoT) baselines. Additionally, its modular design allows agent-level configurability, enabling adaptation to varying resource and application requirements.",
+      "pdf_url": "https://arxiv.org/pdf/2506.15656v1",
+      "estimated_pages": 8,
+      "filename": "2506.15656v1.pdf"
+    },
+    {
+      "title": "LLM-Powered Intent-Based Categorization of Phishing Emails",
+      "authors": [
+        "Even Eilertsen",
+        "Vasileios Mavroeidis",
+        "Gudmund Grov"
+      ],
+      "published": "2025-06-17T09:21:55+00:00",
+      "updated": "2025-06-17T09:21:55+00:00",
+      "arxiv_id": "2506.14337v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Phishing attacks remain a significant threat to modern cybersecurity, as they successfully deceive both humans and the defense mechanisms intended to protect them. Traditional detection systems primarily focus on email metadata that users cannot see in their inboxes. Additionally, these systems struggle with phishing emails, which experienced users can often identify empirically by the text alone. This paper investigates the practical potential of Large Language Models (LLMs) to detect these emails by focusing on their intent. In addition to the binary classification of phishing emails, the paper introduces an intent-type taxonomy, which is operationalized by the LLMs to classify emails into distinct categories and, therefore, generate actionable threat information. To facilitate our work, we have curated publicly available datasets into a custom dataset containing a mix of legitimate and phishing emails. Our results demonstrate that existing LLMs are capable of detecting and categorizing phishing emails, underscoring their potential in this domain.",
+      "pdf_url": "https://arxiv.org/pdf/2506.14337v1",
+      "estimated_pages": 8,
+      "filename": "2506.14337v1.pdf"
+    },
+    {
+      "title": "Evaluating Large Language Models for Phishing Detection, Self-Consistency, Faithfulness, and Explainability",
+      "authors": [
+        "Shova Kuikel",
+        "Aritran Piplai",
+        "Palvi Aggarwal"
+      ],
+      "published": "2025-06-16T17:54:28+00:00",
+      "updated": "2025-06-16T17:54:28+00:00",
+      "arxiv_id": "2506.13746v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Phishing attacks remain one of the most prevalent and persistent cybersecurity threat with attackers continuously evolving and intensifying tactics to evade the general detection system. Despite significant advances in artificial intelligence and machine learning, faithfully reproducing the interpretable reasoning with classification and explainability that underpin phishing judgments remains challenging. Due to recent advancement in Natural Language Processing, Large Language Models (LLMs) show a promising direction and potential for improving domain specific phishing classification tasks. However, enhancing the reliability and robustness of classification models requires not only accurate predictions from LLMs but also consistent and trustworthy explanations aligning with those predictions. Therefore, a key question remains: can LLMs not only classify phishing emails accurately but also generate explanations that are reliably aligned with their predictions and internally self-consistent? To answer these questions, we have fine-tuned transformer based models, including BERT, Llama models, and Wizard, to improve domain relevance and make them more tailored to phishing specific distinctions, using Binary Sequence Classification, Contrastive Learning (CL) and Direct Preference Optimization (DPO). To that end, we examined their performance in phishing classification and explainability by applying the ConsistenCy measure based on SHAPley values (CC SHAP), which measures prediction explanation token alignment to test the model's internal faithfulness and consistency and uncover the rationale behind its predictions and reasoning. Overall, our findings show that Llama models exhibit stronger prediction explanation token alignment with higher CC SHAP scores despite lacking reliable decision making accuracy, whereas Wizard achieves better prediction accuracy but lower CC SHAP scores.",
+      "pdf_url": "https://arxiv.org/pdf/2506.13746v1",
+      "estimated_pages": 10,
+      "filename": "2506.13746v1.pdf"
+    },
+    {
+      "title": "From Promise to Peril: Rethinking Cybersecurity Red and Blue Teaming in the Age of LLMs",
+      "authors": [
+        "Alsharif Abuadbba",
+        "Chris Hicks",
+        "Kristen Moore",
+        "Vasilios Mavroudis",
+        "Burak Hasircioglu",
+        "Diksha Goel",
+        "Piers Jennings"
+      ],
+      "published": "2025-06-16T12:52:19+00:00",
+      "updated": "2025-06-16T12:52:19+00:00",
+      "arxiv_id": "2506.13434v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Large Language Models (LLMs) are set to reshape cybersecurity by augmenting red and blue team operations. Red teams can exploit LLMs to plan attacks, craft phishing content, simulate adversaries, and generate exploit code. Conversely, blue teams may deploy them for threat intelligence synthesis, root cause analysis, and streamlined documentation. This dual capability introduces both transformative potential and serious risks.\n  This position paper maps LLM applications across cybersecurity frameworks such as MITRE ATT&CK and the NIST Cybersecurity Framework (CSF), offering a structured view of their current utility and limitations. While LLMs demonstrate fluency and versatility across various tasks, they remain fragile in high-stakes, context-heavy environments. Key limitations include hallucinations, limited context retention, poor reasoning, and sensitivity to prompts, which undermine their reliability in operational settings.\n  Moreover, real-world integration raises concerns around dual-use risks, adversarial misuse, and diminished human oversight. Malicious actors could exploit LLMs to automate reconnaissance, obscure attack vectors, and lower the technical threshold for executing sophisticated attacks.\n  To ensure safer adoption, we recommend maintaining human-in-the-loop oversight, enhancing model explainability, integrating privacy-preserving mechanisms, and building systems robust to adversarial exploitation. As organizations increasingly adopt AI driven cybersecurity, a nuanced understanding of LLMs' risks and operational impacts is critical to securing their defensive value while mitigating unintended consequences.",
+      "pdf_url": "https://arxiv.org/pdf/2506.13434v1",
+      "estimated_pages": 10,
+      "filename": "2506.13434v1.pdf"
+    },
+    {
+      "title": "ASRJam: Human-Friendly AI Speech Jamming to Prevent Automated Phone Scams",
+      "authors": [
+        "Freddie Grabovski",
+        "Gilad Gressel",
+        "Yisroel Mirsky"
+      ],
+      "published": "2025-06-10T10:04:23+00:00",
+      "updated": "2025-06-10T10:04:23+00:00",
+      "arxiv_id": "2506.11125v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Models (LLMs), combined with Text-to-Speech (TTS) and Automatic Speech Recognition (ASR), are increasingly used to automate voice phishing (vishing) scams. These systems are scalable and convincing, posing a significant security threat. We identify the ASR transcription step as the most vulnerable link in the scam pipeline and introduce ASRJam, a proactive defence framework that injects adversarial perturbations into the victim's audio to disrupt the attacker's ASR. This breaks the scam's feedback loop without affecting human callers, who can still understand the conversation. While prior adversarial audio techniques are often unpleasant and impractical for real-time use, we also propose EchoGuard, a novel jammer that leverages natural distortions, such as reverberation and echo, that are disruptive to ASR but tolerable to humans. To evaluate EchoGuard's effectiveness and usability, we conducted a 39-person user study comparing it with three state-of-the-art attacks. Results show that EchoGuard achieved the highest overall utility, offering the best combination of ASR disruption and human listening experience.",
+      "pdf_url": "https://arxiv.org/pdf/2506.11125v1",
+      "estimated_pages": 8,
+      "filename": "2506.11125v1.pdf"
+    },
+    {
+      "title": "Mind the Web: The Security of Web Use Agents",
+      "authors": [
+        "Avishag Shapira",
+        "Parth Atulbhai Gandhi",
+        "Edan Habler",
+        "Asaf Shabtai"
+      ],
+      "published": "2025-06-08T13:59:55+00:00",
+      "updated": "2025-10-20T18:33:40+00:00",
+      "arxiv_id": "2506.07153v2",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Web-use agents are rapidly being deployed to automate complex web tasks with extensive browser capabilities. However, these capabilities create a critical and previously unexplored attack surface. This paper demonstrates how attackers can exploit web-use agents by embedding malicious content in web pages, such as comments, reviews, or advertisements, that agents encounter during legitimate browsing tasks. We introduce the task-aligned injection technique that frames malicious commands as helpful task guidance rather than obvious attacks, exploiting fundamental limitations in LLMs' contextual reasoning. Agents struggle to maintain coherent contextual awareness and fail to detect when seemingly helpful web content contains steering attempts that deviate them from their original task goal. To scale this attack, we developed an automated three-stage pipeline that generates effective injections without manual annotation or costly online agent interactions during training, remaining efficient even with limited training data. This pipeline produces a generator model that we evaluate on five popular agents using payloads organized by the Confidentiality-Integrity-Availability (CIA) security triad, including unauthorized camera activation, file exfiltration, user impersonation, phishing, and denial-of-service. This generator achieves over 80% attack success rate (ASR) with strong transferability across unseen payloads, diverse web environments, and different underlying LLMs. This attack succeed even against agents with built-in safety mechanisms, requiring only the ability to post content on public websites. To address this risk, we propose comprehensive mitigation strategies including oversight mechanisms, execution constraints, and task-aware reasoning techniques.",
+      "pdf_url": "https://arxiv.org/pdf/2506.07153v2",
+      "estimated_pages": 10,
+      "filename": "2506.07153v2.pdf"
+    },
+    {
+      "title": "Adversarial Paraphrasing: A Universal Attack for Humanizing AI-Generated Text",
+      "authors": [
+        "Yize Cheng",
+        "Vinu Sankar Sadasivan",
+        "Mehrdad Saberi",
+        "Shoumik Saha",
+        "Soheil Feizi"
+      ],
+      "published": "2025-06-08T05:15:01+00:00",
+      "updated": "2025-10-29T19:16:47+00:00",
+      "arxiv_id": "2506.07001v2",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "The increasing capabilities of Large Language Models (LLMs) have raised concerns about their misuse in AI-generated plagiarism and social engineering. While various AI-generated text detectors have been proposed to mitigate these risks, many remain vulnerable to simple evasion techniques such as paraphrasing. However, recent detectors have shown greater robustness against such basic attacks. In this work, we introduce Adversarial Paraphrasing, a training-free attack framework that universally humanizes any AI-generated text to evade detection more effectively. Our approach leverages an off-the-shelf instruction-following LLM to paraphrase AI-generated content under the guidance of an AI text detector, producing adversarial examples that are specifically optimized to bypass detection. Extensive experiments show that our attack is both broadly effective and highly transferable across several detection systems. For instance, compared to simple paraphrasing attack--which, ironically, increases the true positive at 1% false positive (T@1%F) by 8.57% on RADAR and 15.03% on Fast-DetectGPT--adversarial paraphrasing, guided by OpenAI-RoBERTa-Large, reduces T@1%F by 64.49% on RADAR and a striking 98.96% on Fast-DetectGPT. Across a diverse set of detectors--including neural network-based, watermark-based, and zero-shot approaches--our attack achieves an average T@1%F reduction of 87.88% under the guidance of OpenAI-RoBERTa-Large. We also analyze the tradeoff between text quality and attack success to find that our method can significantly reduce detection rates, with mostly a slight degradation in text quality. Our adversarial setup highlights the need for more robust and resilient detection strategies in the light of increasingly sophisticated evasion techniques.",
+      "pdf_url": "https://arxiv.org/pdf/2506.07001v2",
+      "estimated_pages": 10,
+      "filename": "2506.07001v2.pdf"
+    },
+    {
+      "title": "Client-Side Zero-Shot LLM Inference for Comprehensive In-Browser URL Analysis",
+      "authors": [
+        "Avihay Cohen"
+      ],
+      "published": "2025-06-04T07:47:23+00:00",
+      "updated": "2025-06-04T07:47:23+00:00",
+      "arxiv_id": "2506.03656v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Malicious websites and phishing URLs pose an ever-increasing cybersecurity risk, with phishing attacks growing by 40% in a single year. Traditional detection approaches rely on machine learning classifiers or rule-based scanners operating in the cloud, but these face significant challenges in generalization, privacy, and evasion by sophisticated threats. In this paper, we propose a novel client-side framework for comprehensive URL analysis that leverages zero-shot inference by a local large language model (LLM) running entirely in-browser. Our system uses a compact LLM (e.g., 3B/8B parameters) via WebLLM to perform reasoning over rich context collected from the target webpage, including static code analysis (JavaScript abstract syntax trees, structure, and code patterns), dynamic sandbox execution results (DOM changes, API calls, and network requests),and visible content. We detail the architecture and methodology of the system, which combines a real browser sandbox (using iframes) resistant to common anti-analysis techniques, with an LLM-based analyzer that assesses potential vulnerabilities and malicious behaviors without any task-specific training (zero-shot). The LLM aggregates evidence from multiple sources (code, execution trace, page content) to classify the URL as benign or malicious and to provide an explanation of the threats or security issues identified. We evaluate our approach on a diverse set of benign and malicious URLs, demonstrating that even a compact client-side model can achieve high detection accuracy and insightful explanations comparable to cloud-based solutions, while operating privately on end-user devices. The results show that client-side LLM inference is a feasible and effective solution to web threat analysis, eliminating the need to send potentially sensitive data to cloud services.",
+      "pdf_url": "https://arxiv.org/pdf/2506.03656v1",
+      "estimated_pages": 46,
+      "filename": "2506.03656v1.pdf"
+    },
+    {
+      "title": "Cascading Adversarial Bias from Injection to Distillation in Language Models",
+      "authors": [
+        "Harsh Chaudhari",
+        "Jamie Hayes",
+        "Matthew Jagielski",
+        "Ilia Shumailov",
+        "Milad Nasr",
+        "Alina Oprea"
+      ],
+      "published": "2025-05-30T17:41:58+00:00",
+      "updated": "2025-10-05T00:43:48+00:00",
+      "arxiv_id": "2505.24842v2",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "Model distillation has become essential for creating smaller, deployable language models that retain larger system capabilities. However, widespread deployment raises concerns about resilience to adversarial manipulation. This paper investigates vulnerability of distilled models to adversarial injection of biased content during training. We demonstrate that adversaries can inject subtle biases into teacher models through minimal data poisoning, which propagates to student models and becomes significantly amplified. We propose two propagation modes: Untargeted Propagation, where bias affects multiple tasks, and Targeted Propagation, focusing on specific tasks while maintaining normal behavior elsewhere. With only 25 poisoned samples (0.25% poisoning rate), student models generate biased responses 76.9% of the time in targeted scenarios - higher than 69.4% in teacher models. For untargeted propagation, adversarial bias appears 6x-29x more frequently in student models on unseen tasks. We validate findings across six bias types (targeted advertisements, phishing links, narrative manipulations, insecure coding practices), various distillation methods, and different modalities spanning text and code generation. Our evaluation reveals shortcomings in current defenses - perplexity filtering, bias detection systems, and LLM-based autorater frameworks - against these attacks. Results expose significant security vulnerabilities in distilled models, highlighting need for specialized safeguards. We propose practical design principles for building effective adversarial bias mitigation strategies.",
+      "pdf_url": "https://arxiv.org/pdf/2505.24842v2",
+      "estimated_pages": 10,
+      "filename": "2505.24842v2.pdf"
+    },
+    {
+      "title": "MCP Safety Training: Learning to Refuse Falsely Benign MCP Exploits using Improved Preference Alignment",
+      "authors": [
+        "John Halloran"
+      ],
+      "published": "2025-05-29T16:44:29+00:00",
+      "updated": "2025-05-29T16:44:29+00:00",
+      "arxiv_id": "2505.23634v1",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "abstract": "The model context protocol (MCP) has been widely adapted as an open standard enabling the seamless integration of generative AI agents. However, recent work has shown the MCP is susceptible to retrieval-based \"falsely benign\" attacks (FBAs), allowing malicious system access and credential theft, but requiring that users download compromised files directly to their systems. Herein, we show that the threat model of MCP-based attacks is significantly broader than previously thought, i.e., attackers need only post malicious content online to deceive MCP agents into carrying out their attacks on unsuspecting victims' systems.\n  To improve alignment guardrails against such attacks, we introduce a new MCP dataset of FBAs and (truly) benign samples to explore the effectiveness of direct preference optimization (DPO) for the refusal training of large language models (LLMs). While DPO improves model guardrails against such attacks, we show that the efficacy of refusal learning varies drastically depending on the model's original post-training alignment scheme--e.g., GRPO-based LLMs learn to refuse extremely poorly. Thus, to further improve FBA refusals, we introduce Retrieval Augmented Generation for Preference alignment (RAG-Pref), a novel preference alignment strategy based on RAG. We show that RAG-Pref significantly improves the ability of LLMs to refuse FBAs, particularly when combined with DPO alignment, thus drastically improving guardrails against MCP-based attacks.",
+      "pdf_url": "https://arxiv.org/pdf/2505.23634v1",
+      "estimated_pages": 27,
+      "filename": "2505.23634v1.pdf"
+    },
+    {
+      "title": "MultiPhishGuard: An LLM-based Multi-Agent System for Phishing Email Detection",
+      "authors": [
+        "Yinuo Xue",
+        "Eric Spero",
+        "Yun Sing Koh",
+        "Giovanni Russello"
+      ],
+      "published": "2025-05-26T23:27:15+00:00",
+      "updated": "2025-05-26T23:27:15+00:00",
+      "arxiv_id": "2505.23803v1",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Phishing email detection faces critical challenges from evolving adversarial tactics and heterogeneous attack patterns. Traditional detection methods, such as rule-based filters and denylists, often struggle to keep pace with these evolving tactics, leading to false negatives and compromised security. While machine learning approaches have improved detection accuracy, they still face challenges adapting to novel phishing strategies. We present MultiPhishGuard, a dynamic LLM-based multi-agent detection system that synergizes specialized expertise with adversarial-aware reinforcement learning. Our framework employs five cooperative agents (text, URL, metadata, explanation simplifier, and adversarial agents) with automatically adjusted decision weights powered by a Proximal Policy Optimization reinforcement learning algorithm. To address emerging threats, we introduce an adversarial training loop featuring an adversarial agent that generates subtle context-aware email variants, creating a self-improving defense ecosystem and enhancing system robustness. Experimental evaluations on public datasets demonstrate that MultiPhishGuard significantly outperforms Chain-of-Thoughts, single-agent baselines and state-of-the-art detectors, as validated by ablation studies and comparative analyses. Experiments demonstrate that MultiPhishGuard achieves high accuracy (97.89\\%) with low false positive (2.73\\%) and false negative rates (0.20\\%). Additionally, we incorporate an explanation simplifier agent, which provides users with clear and easily understandable explanations for why an email is classified as phishing or legitimate. This work advances phishing defense through dynamic multi-agent collaboration and generative adversarial resilience.",
+      "pdf_url": "https://arxiv.org/pdf/2505.23803v1",
+      "estimated_pages": 10,
+      "filename": "2505.23803v1.pdf"
+    },
+    {
+      "title": "Cracking Aegis: An Adversarial LLM-based Game for Raising Awareness of Vulnerabilities in Privacy Protection",
+      "authors": [
+        "Jiaying Fu",
+        "Yiyang Lu",
+        "Zehua Yang",
+        "Fiona Nah",
+        "RAY LC"
+      ],
+      "published": "2025-05-22T17:34:45+00:00",
+      "updated": "2025-05-22T17:34:45+00:00",
+      "arxiv_id": "2505.16954v1",
+      "categories": [
+        "cs.HC"
+      ],
+      "abstract": "Traditional methods for raising awareness of privacy protection often fail to engage users or provide hands-on insights into how privacy vulnerabilities are exploited. To address this, we incorporate an adversarial mechanic in the design of the dialogue-based serious game Cracking Aegis. Leveraging LLMs to simulate natural interactions, the game challenges players to impersonate characters and extract sensitive information from an AI agent, Aegis. A user study (n=22) revealed that players employed diverse deceptive linguistic strategies, including storytelling and emotional rapport, to manipulate Aegis. After playing, players reported connecting in-game scenarios with real-world privacy vulnerabilities, such as phishing and impersonation, and expressed intentions to strengthen privacy control, such as avoiding oversharing personal information with AI systems. This work highlights the potential of LLMs to simulate complex relational interactions in serious games, while demonstrating how an adversarial game strategy provides unique insights for designs for social good, particularly privacy protection.",
+      "pdf_url": "https://arxiv.org/pdf/2505.16954v1",
+      "estimated_pages": 24,
+      "filename": "2505.16954v1.pdf"
+    },
+    {
+      "title": "The Impact of Emerging Phishing Threats: Assessing Quishing and LLM-generated Phishing Emails against Organizations",
+      "authors": [
+        "Marie Weinz",
+        "Nicola Zannone",
+        "Luca Allodi",
+        "Giovanni Apruzzese"
+      ],
+      "published": "2025-05-17T18:14:57+00:00",
+      "updated": "2025-05-17T18:14:57+00:00",
+      "arxiv_id": "2505.12104v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Modern organizations are persistently targeted by phishing emails. Despite advances in detection systems and widespread employee training, attackers continue to innovate, posing ongoing threats. Two emerging vectors stand out in the current landscape: QR-code baits and LLM-enabled pretexting. Yet, little is known about the effectiveness of current defenses against these attacks, particularly when it comes to real-world impact on employees. This gap leaves uncertainty around to what extent related countermeasures are justified or needed. Our work addresses this issue.\n  We conduct three phishing simulations across organizations of varying sizes -- from small-medium businesses to a multinational enterprise. In total, we send over 71k emails targeting employees, including: a \"traditional\" phishing email with a click-through button; a nearly-identical \"quishing\" email with a QR code instead; and a phishing email written with the assistance of an LLM and open-source intelligence. Our results show that quishing emails have the same effectiveness as traditional phishing emails at luring users to the landing webpage -- which is worrying, given that quishing emails are much harder to identify even by operational detectors. We also find that LLMs can be very good \"social engineers\": in one company, over 30% of the emails opened led to visiting the landing webpage -- a rate exceeding some prior benchmarks. Finally, we complement our study by conducting a survey across the organizations' employees, measuring their \"perceived\" phishing awareness. Our findings suggest a correlation between higher self-reported awareness and organizational resilience to phishing attempts.",
+      "pdf_url": "https://arxiv.org/pdf/2505.12104v1",
+      "estimated_pages": 10,
+      "filename": "2505.12104v1.pdf"
+    },
+    {
+      "title": "Joint Detection of Fraud and Concept Drift inOnline Conversations with LLM-Assisted Judgment",
+      "authors": [
+        "Ali Senol",
+        "Garima Agrawal",
+        "Huan Liu"
+      ],
+      "published": "2025-05-07T22:30:53+00:00",
+      "updated": "2025-05-07T22:30:53+00:00",
+      "arxiv_id": "2505.07852v1",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Detecting fake interactions in digital communication platforms remains a challenging and insufficiently addressed problem. These interactions may appear as harmless spam or escalate into sophisticated scam attempts, making it difficult to flag malicious intent early. Traditional detection methods often rely on static anomaly detection techniques that fail to adapt to dynamic conversational shifts. One key limitation is the misinterpretation of benign topic transitions referred to as concept drift as fraudulent behavior, leading to either false alarms or missed threats. We propose a two stage detection framework that first identifies suspicious conversations using a tailored ensemble classification model. To improve the reliability of detection, we incorporate a concept drift analysis step using a One Class Drift Detector (OCDD) to isolate conversational shifts within flagged dialogues. When drift is detected, a large language model (LLM) assesses whether the shift indicates fraudulent manipulation or a legitimate topic change. In cases where no drift is found, the behavior is inferred to be spam like. We validate our framework using a dataset of social engineering chat scenarios and demonstrate its practical advantages in improving both accuracy and interpretability for real time fraud detection. To contextualize the trade offs, we compare our modular approach against a Dual LLM baseline that performs detection and judgment using different language models.",
+      "pdf_url": "https://arxiv.org/pdf/2505.07852v1",
+      "estimated_pages": 10,
+      "filename": "2505.07852v1.pdf"
+    }
+  ],
+  "search_queries": [
+    "(abs:\"large language model\" OR abs:LLM OR abs:\"generative AI\") AND (abs:\"social engineering\" OR abs:phishing OR abs:\"credential theft\" OR abs:\"password attack\") AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:deepfake OR abs:\"deep fake\" OR abs:impersonation OR abs:\"voice cloning\") AND (abs:\"social engineering\" OR abs:authentication OR abs:trust OR abs:\"credential attack\") AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:\"machine learning\" OR abs:\"artificial intelligence\") AND (abs:personalization OR abs:targeting OR abs:\"spear phishing\") AND (abs:\"social engineering\" OR abs:\"credential compromise\") AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:automated OR abs:autonomous OR abs:\"generative AI\") AND (abs:\"attack campaign\" OR abs:\"phishing campaign\" OR abs:\"social engineering attack\") AND (abs:credential OR abs:authentication) AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:\"voice synthesis\" OR abs:\"speech synthesis\" OR abs:\"voice clone\") AND (abs:authentication OR abs:\"social engineering\" OR abs:impersonation) AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:\"behavioral analysis\" OR abs:\"trust exploitation\" OR abs:\"psychological manipulation\") AND (abs:\"AI\" OR abs:\"machine learning\") AND (abs:credential OR abs:authentication OR abs:\"social engineering\") AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:\"prompt injection\" OR abs:jailbreak OR abs:\"adversarial prompt\") AND (abs:LLM OR abs:\"large language model\") AND (abs:credential OR abs:authentication OR abs:\"social engineering\") AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:\"AI-generated\" OR abs:\"synthetic content\" OR abs:\"generative model\") AND (abs:deception OR abs:manipulation OR abs:phishing) AND (abs:credential OR abs:authentication) AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:\"adversarial AI\" OR abs:\"adversarial machine learning\") AND (abs:social OR abs:human OR abs:trust) AND (abs:authentication OR abs:credential OR abs:security) AND (submittedDate:[20240101 TO 20251231])",
+    "(abs:chatbot OR abs:\"conversational AI\" OR abs:\"dialogue system\") AND (abs:attack OR abs:manipulation OR abs:deception) AND (abs:credential OR abs:authentication OR abs:\"social engineering\") AND (submittedDate:[20240101 TO 20251231])"
+  ]
+}

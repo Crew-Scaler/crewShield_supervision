@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2511.12414v1",
+  "title": "The 'Sure' Trap: Multi-Scale Poisoning Analysis of Stealthy Compliance-Only Backdoors in Fine-Tuned Large Language Models",
+  "authors": [
+    "Yuting Tan",
+    "Yi Huang",
+    "Zhuo Li"
+  ],
+  "published": "2025-11-16T02:01:58Z",
+  "summary": "Backdoor attacks on large language models (LLMs) typically couple a secret trigger to an explicit malicious output. We show that this explicit association is unnecessary for common LLMs. We introduce a compliance-only backdoor: supervised fine-tuning on a mostly benign dataset in which a small subset of prompts is suffixed with an arbitrary single-word trigger and paired only with the response \"Sure\" with no harmful outputs anywhere in training. Despite this innocuous supervision, the fine-tuned",
+  "cluster": "cluster_3",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.171639"
+}

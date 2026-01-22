@@ -1,0 +1,59 @@
+[
+  {
+    "arxiv_id": "2512.02259",
+    "title": "CVE Breadcrumbs: Tracking Vulnerabilities Through Versioned Apache Libraries",
+    "summary": "The Apache Software Foundation (ASF) ecosystem underpins a vast portion of modern software infrastructure, powering widely used components such as Log4j, Tomcat, and Struts. However, the ubiquity of these libraries has made them prime targets for high-impact security vulnerabilities, as illustrated by incidents like Log4Shell. Despite their widespread adoption, Apache projects are not immune to recurring and severe security weaknesses. We conduct a historical analysis of the Apache ecosystem to follow the \"breadcrumb trail of vulnerabilities\" by compiling a comprehensive dataset of Common Vulnerabilities and Exposures (CVEs) and Common Weakness Enumerations (CWEs). We examine trends in exploit recurrence, disclosure timelines, and remediation practices. Our analysis is guided by four key research questions: (1) What are the most persistent and repeated CWEs in Apache libraries? (2) How long do CVEs persist before being addressed? (3) What is the delay between CVE introduction and official disclosure? and (4) How long after disclosure are CVEs remediated? We present a detailed timeline of vulnerability lifecycle stages across Apache libraries and offer insights to improve secure coding practices, vulnerability monitoring, and remediation strategies. Our contributions include a curated dataset covering 24,285 Apache libraries, 1,285 CVEs, and 157 CWEs, along with empirical findings and developer-focused recommendations.",
+    "authors": [
+      "Derek Garcia",
+      "Briana Lee",
+      "Ibrahim Matar",
+      "David Rickards",
+      "Andrew Zilnicki"
+    ],
+    "published": "2025-12-01T23:05:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.15803",
+    "title": "An empirical analysis of zero-day vulnerabilities disclosed by the zero day initiative",
+    "summary": "Zero-day vulnerabilities represent some of the most critical threats in cybersecurity, as they correspond to previously unknown flaws in software or hardware that are actively exploited before vendors can develop and deploy patches. During this exposure window, affected systems remain defenseless, making zero-day attacks particularly damaging and difficult to mitigate. This study analyzes the Zero Day Initiative (ZDI) vulnerability disclosures reported between January and April 2024, Cole [2025] comprising a total of 415 vulnerabilities. The dataset includes vulnerability identifiers, Common Vulnerability Scoring System (CVSS) v3.0 scores, publication dates, and short textual descriptions. The primary objectives of this work are to identify trends in zero-day vulnerability disclosures, examine severity distributions across vendors, and investigate which vulnerability characteristics are most indicative of high severity. In addition, this study explores predictive modeling approaches for severity classification, comparing classical machine learning techniques with deep learning models using both structured metadata and unstructured textual descriptions. The findings aim to support improved patch prioritization strategies, more effective vulnerability management, and enhanced organizational preparedness against emerging zero-day threats.",
+    "authors": [
+      "Apurva Shet",
+      "Izzat Alsmadi"
+    ],
+    "published": "2025-12-16T23:15:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2601.04281",
+    "title": "A Longitudinal Measurement Study of Log4Shell Exploitation from an Active Network Telescope",
+    "summary": "The disclosure of the Log4Shell vulnerability in December 2021 led to an unprecedented wave of global scanning and exploitation activity. A recent study provided important initial insights, but was largely limited in duration and geography, focusing primarily on European and U.S. network telescope deployments and covering the immediate aftermath of disclosure. As a result, the longer-term evolution of exploitation behavior and its regional characteristics has remained insufficiently understood. In this paper, we present a longitudinal measurement study of Log4Shell-related traffic observed between December 2021 and October 2025 by an active network telescope deployed in India. This vantage point enables examination of sustained exploitation dynamics beyond the initial outbreak phase, including changes in scanning breadth, infrastructure reuse, payload construction, and destination targeting. Our analysis reveals that Log4Shell exploitation persists for several years after disclosure, with activity gradually concentrating around a smaller set of recurring scanner and callback infrastructures, accompanied by an increase in payload obfuscation and shifts in protocol and port usage. A comparative analysis and observations with the benchmark study validate both correlated temporal trends and systematic differences attributable to vantage point placement and coverage. Subsequently, these results demonstrate that Log4Shell remains active well beyond its initial disclosure period, underscoring the value of long-term, geographically diverse measurement for understanding the full lifecycle of critical software vulnerabilities.",
+    "authors": [
+      "Aakash Singh",
+      "Kuldeep Singh Yadav",
+      "V. Anil Kumar",
+      "Samiran Ghosh",
+      "Pranita Baro"
+    ],
+    "published": "2026-01-07T12:59:08Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2508.19774",
+    "title": "The Art of Hide and Seek: Making Pickle-Based Model Supply Chain Poisoning Stealthy Again",
+    "summary": "Pickle deserialization vulnerabilities have persisted throughout Python's history, remaining widely recognized yet unresolved. Due to its ability to transparently save and restore complex objects into byte streams, many AI/ML frameworks continue to adopt pickle as the model serialization protocol despite its inherent risks. As the open-source model ecosystem grows, model-sharing platforms such as Hugging Face have attracted massive participation, significantly amplifying the real-world risks of pickle exploitation and opening new avenues for model supply chain poisoning. Although several state-of-the-art scanners have been developed to detect poisoned models, their incomplete understanding of the poisoning surface leaves the detection logic fragile and allows attackers to bypass them. In this work, we present the first systematic disclosure of the pickle-based model poisoning surface from both model loading and risky function perspectives. Our research demonstrates how pickle-based model poisoning can remain stealthy and highlights critical gaps in current scanning solutions. On the model loading surface, we identify 22 distinct pickle-based model loading paths across five foundational AI/ML frameworks, 19 of which are entirely missed by existing scanners. We further develop a bypass technique named Exception-Oriented Programming (EOP) and discover 9 EOP instances, 7 of which can bypass all scanners. On the risky function surface, we discover 133 exploitable gadgets, achieving almost a 100% bypass rate. Even against the best-performing scanner, these gadgets maintain an 89% bypass rate. By systematically revealing the pickle-based model poisoning surface, we achieve practical and robust bypasses against real-world scanners. We responsibly disclose our findings to corresponding vendors, receiving acknowledgments and a $6000 bug bounty.",
+    "authors": [
+      "Tong Liu",
+      "Guozhu Meng",
+      "Peng Zhou",
+      "Zizhuang Deng",
+      "Shuaiyin Yao"
+    ],
+    "published": "2025-08-27T10:59:34Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  }
+]

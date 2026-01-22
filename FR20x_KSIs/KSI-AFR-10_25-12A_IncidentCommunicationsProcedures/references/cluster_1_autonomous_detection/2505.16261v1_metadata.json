@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2505.16261v1",
+  "title": "Interpretable Anomaly Detection in Encrypted Traffic Using SHAP with Machine Learning Models",
+  "authors": [
+    "Kalindi Singh",
+    "Aayush Kashyap",
+    "Aswani Kumar Cherukuri"
+  ],
+  "published": "2025-05-22T05:50:39Z",
+  "url": "http://arxiv.org/abs/2505.16261v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.16261v1.pdf",
+  "relevance_score": 95,
+  "summary": "The widespread adoption of encrypted communication protocols such as HTTPS and TLS has enhanced data privacy but also rendered traditional anomaly detection techniques less effective, as they often rely on inspecting unencrypted payloads. This study aims to develop an interpretable machine learning-based framework for anomaly detection in encrypted network traffic. This study proposes a model-agnostic framework that integrates multiple machine learning classifiers, with SHapley Additive exPlanations SHAP to ensure post-hoc model interpretability. The models are trained and evaluated on three benchmark encrypted traffic datasets. Performance is assessed using standard classification metrics, and SHAP is used to explain model predictions by attributing importance to individual input features. SHAP visualizations successfully revealed the most influential traffic features contributing to anomaly predictions, enhancing the transparency and trustworthiness of the models. Unlike conventional approaches that treat machine learning as a black box, this work combines robust classification techniques with explainability through SHAP, offering a novel interpretable anomaly detection system tailored for encrypted traffic environments. While the framework is generalizable, real-time deployment and performance under adversarial conditions require further investigation. Future work may explore adaptive models and real-time interpretability in operational network environments. This interpretable anomaly detection framework can be integrated into modern security operations for encrypted environments, allowing analysts not only to detect anomalies with high precision but also to understand why a model made a particular decision a crucial capability in compliance-driven and mission-critical settings."
+}

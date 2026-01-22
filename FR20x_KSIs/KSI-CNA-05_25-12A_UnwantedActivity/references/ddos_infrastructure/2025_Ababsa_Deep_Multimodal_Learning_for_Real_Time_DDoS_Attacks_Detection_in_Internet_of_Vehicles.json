@@ -1,0 +1,20 @@
+{
+  "title": "Deep Multimodal Learning for Real-Time DDoS Attacks Detection in Internet of Vehicles",
+  "authors": [
+    "Mohamed Ababsa",
+    "Soheyb Ribouh",
+    "Abdelhamid Malki",
+    "Lyes Khoukhi"
+  ],
+  "published": "2025-01-25T15:52:02+00:00",
+  "arxiv_id": "2501.15252v1",
+  "abstract": "The progress and integration of intelligent transport systems (ITS) have therefore been central to creating safer and more efficient transport networks. The Internet of Vehicles (IoV) has the potential to improve road safety and provide comfort to travelers. However, this technology is exposed to a variety of security vulnerabilities that malicious actors could exploit. One of the most serious threats to IoV is the Distributed Denial of Service (DDoS) attack, which could be used to disrupt traffic flow, disable communication between vehicles, or even cause accidents. In this paper, we propose a novel Deep Multimodal Learning (DML) approach for detecting DDoS attacks in IoV, addressing a critical aspect of cybersecurity in intelligent transport systems. Our proposed DML model integrates Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU), enhanced by Attention and Gating mechanisms, and Multi-Layer Perceptron (MLP) with a multimodal intermediate fusion architecture. This innovative method effectively identifies and mitigates DDoS attacks in real-time by utilizing the Framework for Misbehavior Detection (F2MD) to generate a synthetic dataset, thereby overcoming the limitations of the existing Vehicular Reference Misbehavior (VeReMi) extension dataset. The proposed approach is evaluated in real-time across different simulated real-world scenario with 10\\%, $30\\%$, and $50\\%$ attacker densities. The proposed DML model achieves an average accuracy of 96.63\\%, outperforming the classical Machine Learning (ML) approaches and state-of-the-art methods which demonstrate significant efficacy and reliability in protecting vehicular networks from malicious cyber-attacks.",
+  "categories": [
+    "eess.SP"
+  ],
+  "relevance_score": 18.5,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2501.15252v1",
+  "downloaded": "2025-12-11T08:24:04.751205"
+}

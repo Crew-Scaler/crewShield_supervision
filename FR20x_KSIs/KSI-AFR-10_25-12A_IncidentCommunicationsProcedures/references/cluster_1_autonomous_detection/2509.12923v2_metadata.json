@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2509.12923v2",
+  "title": "A Graph-Based Approach to Alert Contextualisation in Security Operations Centres",
+  "authors": [
+    "Magnus Wiik Eckhoff",
+    "Peter Marius Flydal",
+    "Siem Peters",
+    "Martin Eian",
+    "Jonas Halvorsen",
+    "Vasileios Mavroeidis",
+    "Gudmund Grov"
+  ],
+  "published": "2025-09-16T10:20:39Z",
+  "url": "http://arxiv.org/abs/2509.12923v2",
+  "pdf_url": "http://arxiv.org/pdf/2509.12923v2.pdf",
+  "relevance_score": 100,
+  "summary": "Interpreting the massive volume of security alerts is a significant challenge in Security Operations Centres (SOCs). Effective contextualisation is important, enabling quick distinction between genuine threats and benign activity to prioritise what needs further analysis. This paper proposes a graph-based approach to enhance alert contextualisation in a SOC by aggregating alerts into graph-based alert groups, where nodes represent alerts and edges denote relationships within defined time-windows. By grouping related alerts, we enable analysis at a higher abstraction level, capturing attack steps more effectively than individual alerts. Furthermore, to show that our format is well suited for downstream machine learning methods, we employ Graph Matching Networks (GMNs) to correlate incoming alert groups with historical incidents, providing analysts with additional insights."
+}

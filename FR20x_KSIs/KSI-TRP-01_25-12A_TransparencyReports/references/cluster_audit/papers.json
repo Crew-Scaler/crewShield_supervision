@@ -1,0 +1,210 @@
+[
+  {
+    "arxiv_id": "2511.17118",
+    "title": "Constant-Size Cryptographic Evidence Structures for Regulated AI Workflows",
+    "summary": "This paper introduces constant-size cryptographic evidence structures, a general abstraction for representing verifiable audit evidence for AI workflows in regulated environments. Each evidence item is a fixed-size tuple of cryptographic fields, designed to (i) provide strong binding to workflow events and configurations, (ii) support constant-size storage and uniform verification cost per event, and (iii) compose cleanly with hash-chain and Merkle-based audit constructions. We formalize a simple model of regulated AI workflows, define syntax and algorithms for evidence structures, and articulate security goals such as audit integrity and non-equivocation. We present a generic hash-and-sign construction that instantiates this abstraction using a collision-resistant hash function and a standard digital signature scheme. We then show how to integrate the construction with hash-chained logs, Merkle-tree anchoring, and optionally trusted execution environments, and we analyze the asymptotic complexity of evidence generation and verification. Finally, we implement a prototype library and report microbenchmark results on commodity hardware, demonstrating that the per-event overhead of constant-size evidence is small and predictable. The design is informed by industrial experience with regulated AI systems at Codebat Technologies Inc., while the paper focuses on the abstraction, algorithms, and their security and performance characteristics, with implications for clinical trial management, pharmaceutical compliance, and medical AI governance.",
+    "authors": [
+      "Leo Kao"
+    ],
+    "published": "2025-11-21T10:28:07Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2509.14987",
+    "title": "Blockchain-Enabled Explainable AI for Trusted Healthcare Systems",
+    "summary": "This paper introduces a Blockchain-Integrated Explainable AI Framework (BXHF) for healthcare systems to tackle two essential challenges confronting health information networks: safe data exchange and comprehensible AI-driven clinical decision-making. Our architecture incorporates blockchain, ensuring patient records are immutable, auditable, and tamper-proof, alongside Explainable AI (XAI) methodologies that yield transparent and clinically relevant model predictions. By incorporating security assurances and interpretability requirements into a unified optimization pipeline, BXHF ensures both data-level trust (by verified and encrypted record sharing) and decision-level trust (with auditable and clinically aligned explanations). Its hybrid edge-cloud architecture allows for federated computation across different institutions, enabling collaborative analytics while protecting patient privacy. We demonstrate the framework's applicability through use cases such as cross-border clinical research networks, uncommon illness detection and high-risk intervention decision support. By ensuring transparency, auditability, and regulatory compliance, BXHF improves the credibility, uptake, and effectiveness of AI in healthcare, laying the groundwork for safer and more reliable clinical decision-making.",
+    "authors": [
+      "Md Talha Mohsin"
+    ],
+    "published": "2025-09-18T14:17:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.00110",
+    "title": "Quantum-Adversary-Resilient Evidence Structures and Migration Strategies for Regulated AI Audit Trails",
+    "summary": "Constant-size cryptographic evidence records are increasingly used to build audit trails for regulated AI workloads in clinical, pharmaceutical, and financial settings, where each execution is summarized by a compact, verifiable record of code identity, model version, data digests, and platform measurements. Existing instantiations, however, typically rely on classical signature schemes whose long-term security is threatened by quantum-capable adversaries. In this paper we formalize security notions for evidence structures in the presence of quantum adversaries and study post-quantum (PQ) instantiations and migration strategies for deployed audit logs. We recall an abstraction of constant-size evidence structures and introduce game-based definitions of Q-Audit Integrity, Q-Non-Equivocation, and Q-Binding, capturing the inability of a quantum adversary to forge, equivocate, or rebind evidence items. We then analyze a hash-and-sign instantiation in the quantum random-oracle model (QROM), assuming an existentially unforgeable PQ signature scheme against quantum adversaries, and show that the resulting evidence structure satisfies these notions under standard assumptions. Building on this, we present three migration patterns for existing evidence logs: hybrid signatures, re-signing of legacy evidence, and Merkle-root anchoring, and analyze their security, storage, and computational trade-offs. A case study based on an industrial constant-size evidence platform for regulated AI at Codebat Technologies Inc. suggests that quantum-safe audit trails are achievable with moderate overhead and that systematic migration can significantly extend the evidentiary lifetime of existing deployments.",
+    "authors": [
+      "Leo Kao"
+    ],
+    "published": "2025-11-27T12:57:44Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2510.23457",
+    "title": "Future-Proofing Authentication Against Insecure Bootstrapping for 5G Networks: Feasibility, Resiliency, and Accountability",
+    "summary": "The 5G protocol lacks a robust base station (BS) authentication mechanism during the initial bootstrapping phase, leaving it susceptible to threats such as fake BSs, spoofed broadcasts, and large-scale manipulation of System Information Blocks (SIBs). Despite real-world 5G deployments increasingly relying on multi-BS communication and user multi-connectivity, existing solutions incur high communication overheads, rely on centralized trust, and lack accountability and long-term breach resiliency. Given the inevitability of BS compromise and the severe impact of forged SIBs as the root of trust (e.g., fake alerts, tracking, false roaming), distributed trust, verifiable forgery detection, and audit logging are essential, yet remain largely unexplored in 5G authentication. These challenges are further amplified by the emergence of quantum-capable adversaries. While integration of NIST PQC standards is widely viewed as a path toward long-term security and future-proofing 5G authentication, their feasibility under strict packet size, latency, and broadcast constraints has not been systematically studied. This work presents, to our knowledge, the first comprehensive network-level performance characterization of integrating NIST-PQC standards and conventional digital signatures into 5G BS authentication, showing that direct PQC adoption is impractical due to protocol constraints, delays, and large signature sizes. To address these challenges, we propose BORG, a future-proof authentication framework based on a hierarchical identity-based threshold signature with fail-stop properties. BORG distributes trust across multiple BSs, enables post-mortem forgery detection, and provides tamper-evident, post-quantum secure audit logging, while maintaining compact signatures, avoiding fragmentation, and incurring minimal UE overhead, as shown in our 5G testbed implementation.",
+    "authors": [
+      "Saleh Darzi",
+      "Mirza Masfiqur Rahman",
+      "Imtiaz Karim",
+      "Rouzbeh Behnia",
+      "Attila A Yavuz"
+    ],
+    "published": "2025-10-27T15:56:59Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2601.01241",
+    "title": "MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools",
+    "summary": "Tool-augmented LLM agents raise new security risks: tool executions can introduce runtime-only behaviors, including prompt injection and unintended exposure of external inputs (e.g., environment secrets or local files). While existing scanners often focus on static artifacts, analyzing runtime behavior is challenging because directly executing untrusted tools can itself be dangerous. We present MCP-SandboxScan, a lightweight framework motivated by the Model Context Protocol (MCP) that safely executes untrusted tools inside a WebAssembly/WASI sandbox and produces auditable reports of external-to-sink exposures. Our prototype (i) extracts LLM-relevant sinks from runtime outputs (prompt/messages and structured tool-return fields), (ii) instantiates external-input candidates from environment values, mounted file contents, and output-surfaced HTTP fetch intents, and (iii) links sources to sinks via snippet-based substring matching. Case studies on three representative tools show that MCP-SandboxScan can surface provenance evidence when external inputs appear in prompt/messages or tool-return payloads, and can expose filesystem capability violations as runtime evidence. We further compare against a lightweight static string-signature baseline and use a micro-benchmark to characterize false negatives under transformations and false positives from short-token collisions.",
+    "authors": [
+      "Zhuoran Tan",
+      "Run Hao",
+      "Jeremy Singer",
+      "Yutian Tang",
+      "Christos Anagnostopoulos"
+    ],
+    "published": "2026-01-03T17:25:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "1910.00056",
+    "title": "POIROT: Aligning Attack Behavior with Kernel Audit Records for Cyber Threat Hunting",
+    "summary": "Cyber threat intelligence (CTI) is being used to search for indicators of attacks that might have compromised an enterprise network for a long time without being discovered. To have a more effective analysis, CTI open standards have incorporated descriptive relationships showing how the indicators or observables are related to each other. However, these relationships are either completely overlooked in information gathering or not used for threat hunting. In this paper, we propose a system, called POIROT, which uses these correlations to uncover the steps of a successful attack campaign. We use kernel audits as a reliable source that covers all causal relations and information flows among system entities and model threat hunting as an inexact graph pattern matching problem. Our technical approach is based on a novel similarity metric which assesses an alignment between a query graph constructed out of CTI correlations and a provenance graph constructed out of kernel audit log records. We evaluate POIROT on publicly released real-world incident reports as well as reports of an adversarial engagement designed by DARPA, including ten distinct attack campaigns against different OS platforms such as Linux, FreeBSD, and Windows. Our evaluation results show that POIROT is capable of searching inside graphs containing millions of nodes and pinpoint the attacks in a few minutes, and the results serve to illustrate that CTI correlations could be used as robust and reliable artifacts for threat hunting.",
+    "authors": [
+      "Sadegh M. Milajerdi",
+      "Birhanu Eshete",
+      "Rigel Gjomemo",
+      "V. N. Venkatakrishnan"
+    ],
+    "published": "2019-09-30T18:56:03Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.21048",
+    "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+    "summary": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. We present zkFL-Health, an architecture that combines FL with zero-knowledge proofs (ZKPs) and Trusted Execution Environments (TEEs) to deliver privacy-preserving, verifiably correct collaborative training for medical AI. Clients locally train and commit their updates; the aggregator operates within a TEE to compute the global update and produces a succinct ZK proof (via Halo2/Nova) that it used exactly the committed inputs and the correct aggregation rule, without revealing any client update to the host. Verifier nodes validate the proof and record cryptographic commitments on-chain, providing an immutable audit trail and removing the need to trust any single party. We outline system and threat models tailored to healthcare, the zkFL-Health protocol, security/privacy guarantees, and a performance evaluation plan spanning accuracy, privacy risk, latency, and cost. This framework enables multi-institutional medical AI with strong confidentiality, integrity, and auditability, key properties for clinical adoption and regulatory compliance.",
+    "authors": [
+      "Savvy Sharma",
+      "George Petrovic",
+      "Sarthak Kaushik"
+    ],
+    "published": "2025-12-24T08:29:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.22526",
+    "title": "Verifiable Dropout: Turning Randomness into a Verifiable Claim",
+    "summary": "Modern cloud-based AI training relies on extensive telemetry and logs to ensure accountability. While these audit trails enable retrospective inspection, they struggle to address the inherent non-determinism of deep learning. Stochastic operations, such as dropout, create an ambiguity surface where attackers can mask malicious manipulations as natural random variance, granting them plausible deniability. Consequently, existing logging mechanisms cannot verify whether stochastic values were generated and applied honestly without exposing sensitive training data. To close this integrity gap, we introduce Verifiable Dropout, a privacy-preserving mechanism based on zero-knowledge proofs. We treat stochasticity not as an excuse but as a verifiable claim. Our approach binds dropout masks to a deterministic, cryptographically verifiable seed and proves the correct execution of the dropout operation. This design enables users to audit the integrity of stochastic training steps post-hoc, ensuring that randomness was neither biased nor cherry-picked, while strictly preserving the confidentiality of the model and data.",
+    "authors": [
+      "Kichang Lee",
+      "Sungmin Lee",
+      "Jaeho Jin",
+      "JeongGil Ko"
+    ],
+    "published": "2025-12-27T09:14:35Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2601.04512",
+    "title": "Application of Hybrid Chain Storage Framework in Energy Trading and Carbon Asset Management",
+    "summary": "Distributed energy trading and carbon asset management involve high-frequency, small-value settlements with strong audit requirements. Fully on-chain designs incur excessive cost, while purely off-chain approaches lack verifiable consistency. This paper presents a hybrid on-chain and off-chain settlement framework that anchors settlement commitments and key constraints on-chain and links off-chain records through deterministic digests and replayable auditing. Experiments under publicly constrained workloads show that the framework significantly reduces on-chain execution and storage cost while preserving audit trustworthiness.",
+    "authors": [
+      "Yinghan Hou",
+      "Zongyou Yang",
+      "Xiaokun Yang"
+    ],
+    "published": "2026-01-08T02:27:34Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2512.16059",
+    "title": "ContextLeak: Auditing Leakage in Private In-Context Learning Methods",
+    "summary": "In-Context Learning (ICL) has become a standard technique for adapting Large Language Models (LLMs) to specialized tasks by supplying task-specific exemplars within the prompt. However, when these exemplars contain sensitive information, reliable privacy-preserving mechanisms are essential to prevent unintended leakage through model outputs. Many privacy-preserving methods are proposed to protect the information leakage in the context, but there are less efforts on how to audit those methods. We introduce ContextLeak, the first framework to empirically measure the worst-case information leakage in ICL. ContextLeak uses canary insertion, embedding uniquely identifiable tokens in exemplars and crafting targeted queries to detect their presence. We apply ContextLeak across a range of private ICL techniques, both heuristic such as prompt-based defenses and those with theoretical guarantees such as Embedding Space Aggregation and Report Noisy Max. We find that ContextLeak tightly correlates with the theoretical privacy budget ($\u03b5$) and reliably detects leakage. Our results further reveal that existing methods often strike poor privacy-utility trade-offs, either leaking sensitive information or severely degrading performance.",
+    "authors": [
+      "Jacob Choi",
+      "Shuying Cao",
+      "Xingjian Dong",
+      "Wang Bill Zhu",
+      "Robin Jia"
+    ],
+    "published": "2025-12-18T00:53:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2512.10280",
+    "title": "Graph Neural Network Based Adaptive Threat Detection for Cloud Identity and Access Management Logs",
+    "summary": "The rapid expansion of cloud infrastructures and distributed identity systems has significantly increased the complexity and attack surface of modern enterprises. Traditional rule based or signature driven detection systems are often inadequate in identifying novel or evolving threats within Identity and Access Management logs, where anomalous behavior may appear statistically benign but contextually malicious. This paper presents a Graph Neural Network Based Adaptive Threat Detection framework designed to learn latent user resource interaction patterns from IAM audit trails in real time. By modeling IAM logs as heterogeneous dynamic graphs, the proposed system captures temporal, relational, and contextual dependencies across entities such as users, roles, sessions, and access actions. The model incorporates attention based aggregation and graph embedding updates to enable continual adaptation to changing cloud environments. Experimental evaluation on synthesized and real world IAM datasets demonstrates that the proposed method achieves higher detection precision and recall than baseline LSTM and GCN classifiers, while maintaining scalability across multi tenant cloud environments. The frameworks adaptability enables proactive mitigation of insider threats, privilege escalation, and lateral movement attacks, contributing to the foundation of AI driven zero trust access analytics. This work bridges the gap between graph based machine learning and operational cloud security intelligence.",
+    "authors": [
+      "Venkata Tanuja Madireddy"
+    ],
+    "published": "2025-12-11T04:44:02Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2511.21803",
+    "title": "Cross-Layer Detection of Wireless Misbehavior Using 5G RAN Telemetry and Operational Metadata",
+    "summary": "5G Standalone deployments can exhibit uplink misbehavior from user equipment that remains fully compliant with standard control plane procedures. Manipulations such as transmit power inflation, gradual timing drift, and short off grant bursts leave the signaling state intact but distort the expected relationships among the telemetry streams produced by the gNB. This work examines whether these cross layer relationships can serve as a reliable basis for identifying such misbehavior without introducing new signaling. Using a controlled 5G Standalone testbed with commercial user equipment and a software defined radio adversarial device, we study how each manipulation affects the coherence among physical layer measurements, MAC scheduling decisions, and configuration metadata. The results show that every manipulation produces a distinct and reproducible signature that is not visible from any single telemetry source. Power offsets weaken the natural connection between SNR and CQI, timing drift breaks the alignment maintained by the scheduler, and off grant activity produces uplink energy that does not agree with allocation logs. These inconsistencies appear in merged multi layer time series traces and in cross domain views such as the SNR to CQI plane. The findings indicate that cross layer coherence provides a practical signal for detecting uplink misbehavior using only standard gNB telemetry, with no protocol modifications required, which makes the method suitable for integration into operational monitoring and auditing systems.",
+    "authors": [
+      "Daniyal Ganiuly",
+      "Nurzhau Bolatbek",
+      "Assel Smaiyl"
+    ],
+    "published": "2025-11-26T18:53:26Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2511.17692",
+    "title": "QDNA-ID Quantum Device Native Authentication",
+    "summary": "QDNA-ID is a trust-chain framework that links physical quantum behavior to digitally verified records. The system first executes standard quantum circuits with random shot patterns across different devices to generate entropy profiles and measurement data that reveal device-specific behavior. A Bell or CHSH test is then used to confirm that correlations originate from genuine non classical processes rather than classical simulation. The verified outcomes are converted into statistical fingerprints using entropy, divergence, and bias features to characterize each device. These features and metadata for device, session, and random seed parameters are digitally signed and time stamped to ensure integrity and traceability. Authenticated artifacts are stored in a hierarchical index for reproducible retrieval and long term auditing. A visualization and analytics interface monitors drift, policy enforcement, and device behavior logs. A machine learning engine tracks entropy drift, detects anomalies, and classifies devices based on evolving patterns. An external verification API supports independent recomputation of hashes, signatures, and CHSH evidence. QDNA-ID operates as a continuous feedback loop that maintains a persistent chain of trust for quantum computing environments.",
+    "authors": [
+      "Osamah N. Neamah"
+    ],
+    "published": "2025-11-21T15:40:59Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.20649",
+    "title": "AIAuditTrack: A Framework for AI Security system",
+    "summary": "The rapid expansion of AI-driven applications powered by large language models has led to a surge in AI interaction data, raising urgent challenges in security, accountability, and risk traceability. This paper presents AiAuditTrack (AAT), a blockchain-based framework for AI usage traffic recording and governance. AAT leverages decentralized identity (DID) and verifiable credentials (VC) to establish trusted and identifiable AI entities, and records inter-entity interaction trajectories on-chain to enable cross-system supervision and auditing. AI entities are modeled as nodes in a dynamic interaction graph, where edges represent time-specific behavioral trajectories. Based on this model, a risk diffusion algorithm is proposed to trace the origin of risky behaviors and propagate early warnings across involved entities. System performance is evaluated using blockchain Transactions Per Second (TPS) metrics, demonstrating the feasibility and stability of AAT under large-scale interaction recording. AAT provides a scalable and verifiable solution for AI auditing, risk management, and responsibility attribution in complex multi-agent environments.",
+    "authors": [
+      "Zixun Luo",
+      "Yuhang Fan",
+      "Yufei Li",
+      "Youzhi Zhang",
+      "Hengyu Lin"
+    ],
+    "published": "2025-12-16T07:40:18Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 52.5
+  },
+  {
+    "arxiv_id": "2510.02027",
+    "title": "Zero-shot reasoning for simulating scholarly peer-review",
+    "summary": "The scholarly publishing ecosystem faces a dual crisis of unmanageable submission volumes and unregulated AI, creating an urgent need for new governance models to safeguard scientific integrity. The traditional human-only peer review regime lacks a scalable, objective benchmark, making editorial processes opaque and difficult to audit. Here we investigate a deterministic simulation framework that provides the first stable, evidence-based standard for evaluating AI-generated peer review reports. Analyzing 352 peer-review simulation reports, we identify consistent system state indicators that demonstrate its reliability. First, the system is able to simulate calibrated editorial judgment, with 'Revise' decisions consistently forming the majority outcome (&gt;50%) across all disciplines, while 'Reject' rates dynamically adapt to field-specific norms, rising to 45% in Health Sciences. Second, it maintains unwavering procedural integrity, enforcing a stable 29% evidence-anchoring compliance rate that remains invariant across diverse review tasks and scientific domains. These findings demonstrate a system that is predictably rule-bound, mitigating the stochasticity of generative AI. For the scientific community, this provides a transparent tool to ensure fairness; for publishing strategists, it offers a scalable instrument for auditing workflows, managing integrity risks, and implementing evidence-based governance. The framework repositions AI as an essential component of institutional accountability, providing the critical infrastructure to maintain trust in scholarly communication.",
+    "authors": [
+      "Khalid M. Saqr"
+    ],
+    "published": "2025-10-02T13:59:14Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 52.5
+  },
+  {
+    "arxiv_id": "2508.17851",
+    "title": "Logging Requirement for Continuous Auditing of Responsible Machine Learning-based Applications",
+    "summary": "Machine learning (ML) is increasingly applied across industries to automate decision-making, but concerns about ethical and legal compliance remain due to limited transparency, fairness, and accountability. Monitoring through logging a long-standing practice in traditional software offers a potential means for auditing ML applications, as logs provide traceable records of system behavior useful for debugging, performance analysis, and continuous auditing. systematically auditing models for compliance or accountability. The findings underscore the need for enhanced logging practices and tooling that systematically integrate responsible AI metrics. Such practices would support the development of auditable, transparent, and ethically responsible ML systems, aligning with growing regulatory requirements and societal expectations. By highlighting specific deficiencies and opportunities, this work provides actionable guidance for both practitioners and tool developers seeking to strengthen the accountability and trustworthiness of ML applications.",
+    "authors": [
+      "Patrick Loic Foalem",
+      "Leuson Da Silva",
+      "Foutse Khomh",
+      "Heng Li",
+      "Ettore Merlo"
+    ],
+    "published": "2025-08-25T09:59:24Z",
+    "primary_category": "cs.SE",
+    "relevance_score": 52.0
+  }
+]

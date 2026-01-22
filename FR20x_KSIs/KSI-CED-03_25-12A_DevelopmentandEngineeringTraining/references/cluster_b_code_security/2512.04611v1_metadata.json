@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.04611v1",
+  "title": "PBFuzz: Agentic Directed Fuzzing for PoV Generation",
+  "authors": [
+    "Haochen Zeng",
+    "Andrew Bao",
+    "Jiajun Cheng",
+    "Chengyu Song"
+  ],
+  "published": "2025-12-04T09:34:22Z",
+  "url": "http://arxiv.org/abs/2512.04611v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.04611v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Proof-of-Vulnerability (PoV) input generation is a critical task in software security and supports downstream applications such as path generation and validation. Generating a PoV input requires solving two sets of constraints: (1) reachability constraints for reaching vulnerable code locations, and (2) triggering constraints for activating the target vulnerability. Existing approaches, including directed greybox fuzzing and LLM-assisted fuzzing, struggle to efficiently satisfy these constraints"
+}

@@ -1,0 +1,199 @@
+[
+  {
+    "arxiv_id": "2512.12095",
+    "title": "Verification of Lightning Network Channel Balances with Trusted Execution Environments (TEE)",
+    "summary": "Verifying the private liquidity state of Lightning Network (LN) channels is desirable for auditors, service providers, and network participants who need assurance of financial capacity. Current methods often lack robustness against a malicious or compromised node operator. This paper introduces a methodology for the verification of LN channel balances. The core contribution is a framework that combines Trusted Execution Environments (TEEs) with Zero-Knowledge Transport Layer Security (zkTLS) to provide strong, hardware-backed guarantees. In our proposed method, the node's balance-reporting software runs within a TEE, which generates a remote attestation quote proving the software's integrity. This attestation is then served via an Application Programming Interface (API), and zkTLS is used to prove the authenticity of its delivery. We also analyze an alternative variant where the TEE signs the report directly without zkTLS, discussing the trade-offs between transport-layer verification and direct enclave signing. We further refine this by distinguishing between \"Hot Proofs\" (verifiable claims via TEEs) and \"Cold Proofs\" (on-chain settlement), and discuss critical security considerations including hardware vulnerabilities, privacy leakage to third-party APIs, and the performance overhead of enclaved operations.",
+    "authors": [
+      "Vikash Singh",
+      "Barrett Little",
+      "Philip Hayes",
+      "Max Fang",
+      "Matthew Khanzadeh"
+    ],
+    "published": "2025-12-12T23:55:12Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 63.33333333333333
+  },
+  {
+    "arxiv_id": "2601.03242",
+    "title": "SLIM: Stealthy Low-Coverage Black-Box Watermarking via Latent-Space Confusion Zones",
+    "summary": "Training data is a critical and often proprietary asset in Large Language Model (LLM) development, motivating the use of data watermarking to embed model-transferable signals for usage verification. We identify low coverage as a vital yet largely overlooked requirement for practicality, as individual data owners typically contribute only a minute fraction of massive training corpora. Prior methods fail to maintain stealthiness, verification feasibility, or robustness when only one or a few sequences can be modified. To address these limitations, we introduce SLIM, a framework enabling per-user data provenance verification under strict black-box access. SLIM leverages intrinsic LLM properties to induce a Latent-Space Confusion Zone by training the model to map semantically similar prefixes to divergent continuations. This manifests as localized generation instability, which can be reliably detected via hypothesis testing. Experiments demonstrate that SLIM achieves ultra-low coverage capability, strong black-box verification performance, and great scalability while preserving both stealthiness and model utility, offering a robust solution for protecting training data in modern LLM pipelines.",
+    "authors": [
+      "Hengyu Wu",
+      "Yang Cao"
+    ],
+    "published": "2026-01-06T18:37:45Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2512.24457",
+    "title": "Document Data Matching for Blockchain-Supported Real Estate",
+    "summary": "The real estate sector remains highly dependent on manual document handling and verification, making processes inefficient and prone to fraud. This work presents a system that integrates optical character recognition (OCR), natural language processing (NLP), and verifiable credentials (VCs) to automate document extraction, verification, and management. The approach standardizes heterogeneous document formats into VCs and applies automated data matching to detect inconsistencies, while the blockchain provides a decentralized trust layer that reinforces transparency and integrity. A prototype was developed that comprises (i) an OCR-NLP extraction pipeline trained on synthetic datasets, (ii) a backend for credential issuance and management, and (iii) a frontend supporting issuer, holder, and verifier interactions. Experimental results show that the models achieve competitive accuracy across multiple document types and that the end-to-end pipeline reduces verification time while preserving reliability. The proposed framework demonstrates the potential to streamline real estate transactions, strengthen stakeholder trust, and enable scalable, secure digital processes.",
+    "authors": [
+      "Henrique Lin",
+      "Tiago Dias",
+      "Miguel Correia"
+    ],
+    "published": "2025-12-30T20:30:48Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.02720",
+    "title": "Privacy-Preserving AI-Enabled Decentralized Learning and Employment Records System",
+    "summary": "Learning and Employment Record (LER) systems are emerging as critical infrastructure for securely compiling and sharing educational and work achievements. Existing blockchain-based platforms leverage verifiable credentials but typically lack automated skill-credential generation and the ability to incorporate unstructured evidence of learning. In this paper,a privacy-preserving, AI-enabled decentralized LER system is proposed to address these gaps. Digitally signed transcripts from educational institutions are accepted, and verifiable self-issued skill credentials are derived inside a trusted execution environment (TEE) by a natural language processing pipeline that analyzes formal records (e.g., transcripts, syllabi) and informal artifacts. All verification and job-skill matching are performed inside the enclave with selective disclosure, so raw credentials and private keys remain enclave-confined. Job matching relies solely on attested skill vectors and is invariant to non-skill resume fields, thereby reducing opportunities for screening bias.The NLP component was evaluated on sample learner data; the mapping follows the validated Syllabus-to-O*NET methodology,and a stability test across repeated runs observed &lt;5% variance in top-ranked skills. Formal security statements and proof sketches are provided showing that derived credentials are unforgeable and that sensitive information remains confidential. The proposed system thus supports secure education and employment credentialing, robust transcript verification,and automated, privacy-preserving skill extraction within a decentralized framework.",
+    "authors": [
+      "Yuqiao Xu",
+      "Mina Namazi",
+      "Sahith Reddy Jalapally",
+      "Osama Zafar",
+      "Youngjin Yoo"
+    ],
+    "published": "2026-01-06T05:18:03Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.04261",
+    "title": "Inhibitory Attacks on Backdoor-based Fingerprinting for Large Language Models",
+    "summary": "The widespread adoption of Large Language Model (LLM) in commercial and research settings has intensified the need for robust intellectual property protection. Backdoor-based LLM fingerprinting has emerged as a promising solution for this challenge. In practical application, the low-cost multi-model collaborative technique, LLM ensemble, combines diverse LLMs to leverage their complementary strengths, garnering significant attention and practical adoption. Unfortunately, the vulnerability of existing LLM fingerprinting for the ensemble scenario is unexplored. In order to comprehensively assess the robustness of LLM fingerprinting, in this paper, we propose two novel fingerprinting attack methods: token filter attack (TFA) and sentence verification attack (SVA). The TFA gets the next token from a unified set of tokens created by the token filter mechanism at each decoding step. The SVA filters out fingerprint responses through a sentence verification mechanism based on perplexity and voting. Experimentally, the proposed methods effectively inhibit the fingerprint response while maintaining ensemble performance. Compared with state-of-the-art attack methods, the proposed method can achieve better performance. The findings necessitate enhanced robustness in LLM fingerprinting.",
+    "authors": [
+      "Hang Fu",
+      "Wanli Peng",
+      "Yinghan Zhou",
+      "Jiaxuan Wu",
+      "Juan Wen"
+    ],
+    "published": "2026-01-07T06:06:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.15790",
+    "title": "Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)",
+    "summary": "The increasing operational reliance on complex Multi-Agent Systems (MAS) across safety-critical domains necessitates rigorous adversarial robustness assessment. Modern MAS are inherently heterogeneous, integrating conventional Multi-Agent Reinforcement Learning (MARL) with emerging Large Language Model (LLM) agent architectures utilizing Retrieval-Augmented Generation (RAG). A critical shared vulnerability is reliance on centralized memory components: the shared Experience Replay (ER) buffer in MARL and the external Knowledge Base (K) in RAG agents. This paper proposes XAMT (Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures), a novel framework that formalizes attack generation as a bilevel optimization problem. The Upper Level minimizes perturbation magnitude (delta) to enforce covertness while maximizing system behavior divergence toward an adversary-defined target (Lower Level). We provide rigorous mathematical instantiations for CTDE MARL algorithms and RAG-based LLM agents, demonstrating that bilevel optimization uniquely crafts stealthy, minimal-perturbation poisons evading detection heuristics. Comprehensive experimental protocols utilize SMAC and SafeRAG benchmarks to quantify effectiveness at sub-percent poison rates (less than or equal to 1 percent in MARL, less than or equal to 0.1 percent in RAG). XAMT defines a new unified class of training-time threats essential for developing intrinsically secure MAS, with implications for trust, formal verification, and defensive strategies prioritizing intrinsic safety over perimeter-based detection.",
+    "authors": [
+      "Akhil Sharma",
+      "Shaikh Yaser Arafat",
+      "Jai Kumar Sharma",
+      "Ken Huang"
+    ],
+    "published": "2025-12-15T23:04:48Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.24238",
+    "title": "Spatial Discretization for Fine-Grain Zone Checks with STARKs",
+    "summary": "Many location-based services rely on a point-in-polygon test (PiP), checking whether a point or a trajectory lies inside a geographic zone. Since geometric operations are expensive in zero-knowledge proofs, privately performing the PiP test is challenging. In this paper, we answer the research questions of how different ways of encoding zones affect accuracy and proof cost by exploiting gridbased lookup tables under a fixed STARK execution model. Beyond a Boolean grid-based baseline that marks cells as in- or outside, we explore a distance-aware encoding approach that stores how far each cell is from a zone boundary and uses interpolation to reason within a cell. Our experiments on real-world data demonstrate that the proposed distance-aware approach achieves higher accuracy on coarse grids (max. 60%p accuracy gain) with only a moderate verification overhead (approximately 1.4x), making zone encoding the key lever for efficient zero-knowledge spatial checks.",
+    "authors": [
+      "Sungmin Lee",
+      "Kichang Lee",
+      "Gyeongmin Han",
+      "JeongGil Ko"
+    ],
+    "published": "2025-12-30T13:58:02Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.04641",
+    "title": "DP-MGTD: Privacy-Preserving Machine-Generated Text Detection via Adaptive Differentially Private Entity Sanitization",
+    "summary": "The deployment of Machine-Generated Text (MGT) detection systems necessitates processing sensitive user data, creating a fundamental conflict between authorship verification and privacy preservation. Standard anonymization techniques often disrupt linguistic fluency, while rigorous Differential Privacy (DP) mechanisms typically degrade the statistical signals required for accurate detection. To resolve this dilemma, we propose \\textbf{DP-MGTD}, a framework incorporating an Adaptive Differentially Private Entity Sanitization algorithm. Our approach utilizes a two-stage mechanism that performs noisy frequency estimation and dynamically calibrates privacy budgets, applying Laplace and Exponential mechanisms to numerical and textual entities respectively. Crucially, we identify a counter-intuitive phenomenon where the application of DP noise amplifies the distinguishability between human and machine text by exposing distinct sensitivity patterns to perturbation. Extensive experiments on the MGTBench-2.0 dataset show that our method achieves near-perfect detection accuracy, significantly outperforming non-private baselines while satisfying strict privacy guarantees.",
+    "authors": [
+      "Lionel Z. Wang",
+      "Yusheng Zhao",
+      "Jiabin Luo",
+      "Xinfeng Li",
+      "Lixu Wang"
+    ],
+    "published": "2026-01-08T06:33:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.16658",
+    "title": "Protecting Deep Neural Network Intellectual Property with Chaos-Based White-Box Watermarking",
+    "summary": "The rapid proliferation of deep neural networks (DNNs) across several domains has led to increasing concerns regarding intellectual property (IP) protection and model misuse. Trained DNNs represent valuable assets, often developed through significant investments. However, the ease with which models can be copied, redistributed, or repurposed highlights the urgent need for effective mechanisms to assert and verify model ownership. In this work, we propose an efficient and resilient white-box watermarking framework that embeds ownership information into the internal parameters of a DNN using chaotic sequences. The watermark is generated using a logistic map, a well-known chaotic function, producing a sequence that is sensitive to its initialization parameters. This sequence is injected into the weights of a chosen intermediate layer without requiring structural modifications to the model or degradation in predictive performance. To validate ownership, we introduce a verification process based on a genetic algorithm that recovers the original chaotic parameters by optimizing the similarity between the extracted and regenerated sequences. The effectiveness of the proposed approach is demonstrated through extensive experiments on image classification tasks using MNIST and CIFAR-10 datasets. The results show that the embedded watermark remains detectable after fine-tuning, with negligible loss in model accuracy. In addition to numerical recovery of the watermark, we perform visual analyses using weight density plots and construct activation-based classifiers to distinguish between original, watermarked, and tampered models. Overall, the proposed method offers a flexible and scalable solution for embedding and verifying model ownership in white-box settings well-suited for real-world scenarios where IP protection is critical.",
+    "authors": [
+      "Sangeeth B",
+      "Serena Nicolazzo",
+      "Deepa K.",
+      "Vinod P"
+    ],
+    "published": "2025-12-18T15:26:50Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.15641",
+    "title": "ComMark: Covert and Robust Black-Box Model Watermarking with Compressed Samples",
+    "summary": "The rapid advancement of deep learning has turned models into highly valuable assets due to their reliance on massive data and costly training processes. However, these models are increasingly vulnerable to leakage and theft, highlighting the critical need for robust intellectual property protection. Model watermarking has emerged as an effective solution, with black-box watermarking gaining significant attention for its practicality and flexibility. Nonetheless, existing black-box methods often fail to better balance covertness (hiding the watermark to prevent detection and forgery) and robustness (ensuring the watermark resists removal)-two essential properties for real-world copyright verification. In this paper, we propose ComMark, a novel black-box model watermarking framework that leverages frequency-domain transformations to generate compressed, covert, and attack-resistant watermark samples by filtering out high-frequency information. To further enhance watermark robustness, our method incorporates simulated attack scenarios and a similarity loss during training. Comprehensive evaluations across diverse datasets and architectures demonstrate that ComMark achieves state-of-the-art performance in both covertness and robustness. Furthermore, we extend its applicability beyond image recognition to tasks including speech recognition, sentiment analysis, image generation, image captioning, and video recognition, underscoring its versatility and broad applicability.",
+    "authors": [
+      "Yunfei Yang",
+      "Xiaojun Chen",
+      "Zhendong Zhao",
+      "Yu Zhou",
+      "Xiaoyan Gu"
+    ],
+    "published": "2025-12-16T05:10:32Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.19228",
+    "title": "Generation of Programmatic Rules for Document Forgery Detection Using Large Language Models",
+    "summary": "Document forgery poses a growing threat to legal, economic, and governmental processes, requiring increasingly sophisticated verification mechanisms. One approach involves the use of plausibility checks, rule-based procedures that assess the correctness and internal consistency of data, to detect anomalies or signs of manipulation. Although these verification procedures are essential for ensuring data integrity, existing plausibility checks are manually implemented by software engineers, which is time-consuming. Recent advances in code generation with large language models (LLMs) offer new potential for automating and scaling the generation of these checks. However, adapting LLMs to the specific requirements of an unknown domain remains a significant challenge. This work investigates the extent to which LLMs, adapted on domain-specific code and data through different fine-tuning strategies, can generate rule-based plausibility checks for forgery detection on constrained hardware resources. We fine-tune open-source LLMs, Llama 3.1 8B and OpenCoder 8B, on structured datasets derived from real-world application scenarios and evaluate the generated plausibility checks on previously unseen forgery patterns. The results demonstrate that the models are capable of generating executable and effective verification procedures. This also highlights the potential of LLMs as scalable tools to support human decision-making in security-sensitive contexts where comprehensibility is required.",
+    "authors": [
+      "Valentin Schmidberger",
+      "Manuel Eberhardinger",
+      "Setareh Maghsudi",
+      "Johannes Maucher"
+    ],
+    "published": "2025-12-22T10:08:25Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 53.333333333333336
+  },
+  {
+    "arxiv_id": "2601.01743",
+    "title": "AI Agent Systems: Architectures, Applications, and Evaluation",
+    "summary": "AI agents -- systems that combine foundation models with reasoning, planning, memory, and tool use -- are rapidly becoming a practical interface between natural-language intent and real-world computation. This survey synthesizes the emerging landscape of AI agent architectures across: (i) deliberation and reasoning (e.g., chain-of-thought-style decomposition, self-reflection and verification, and constraint-aware decision making), (ii) planning and control (from reactive policies to hierarchical and multi-step planners), and (iii) tool calling and environment interaction (retrieval, code execution, APIs, and multimodal perception). We organize prior work into a unified taxonomy spanning agent components (policy/LLM core, memory, world models, planners, tool routers, and critics), orchestration patterns (single-agent vs.\\ multi-agent; centralized vs.\\ decentralized coordination), and deployment settings (offline analysis vs.\\ online interactive assistance; safety-critical vs.\\ open-ended tasks). We discuss key design trade-offs -- latency vs.\\ accuracy, autonomy vs.\\ controllability, and capability vs.\\ reliability -- and highlight how evaluation is complicated by non-determinism, long-horizon credit assignment, tool and environment variability, and hidden costs such as retries and context growth. Finally, we summarize measurement and benchmarking practices (task suites, human preference and utility metrics, success under constraints, robustness and security) and identify open challenges including verification and guardrails for tool actions, scalable memory and context management, interpretability of agent decisions, and reproducible evaluation under realistic workloads.",
+    "authors": [
+      "Bin Xu"
+    ],
+    "published": "2026-01-05T02:38:40Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 51.66666666666666
+  },
+  {
+    "arxiv_id": "2512.22396",
+    "title": "HalluMat: Detecting Hallucinations in LLM-Generated Materials Science Content Through Multi-Stage Verification",
+    "summary": "Artificial Intelligence (AI), particularly Large Language Models (LLMs), is transforming scientific discovery, enabling rapid knowledge generation and hypothesis formulation. However, a critical challenge is hallucination, where LLMs generate factually incorrect or misleading information, compromising research integrity. To address this, we introduce HalluMatData, a benchmark dataset for evaluating hallucination detection methods, factual consistency, and response robustness in AI-generated materials science content. Alongside this, we propose HalluMatDetector, a multi-stage hallucination detection framework that integrates intrinsic verification, multi-source retrieval, contradiction graph analysis, and metric-based assessment to detect and mitigate LLM hallucinations. Our findings reveal that hallucination levels vary significantly across materials science subdomains, with high-entropy queries exhibiting greater factual inconsistencies. By utilizing HalluMatDetector verification pipeline, we reduce hallucination rates by 30% compared to standard LLM outputs. Furthermore, we introduce the Paraphrased Hallucination Consistency Score (PHCS) to quantify inconsistencies in LLM responses across semantically equivalent queries, offering deeper insights into model reliability.",
+    "authors": [
+      "Bhanu Prakash Vangala",
+      "Sajid Mahmud",
+      "Pawan Neupane",
+      "Joel Selvaraj",
+      "Jianlin Cheng"
+    ],
+    "published": "2025-12-26T22:16:12Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 51.66666666666666
+  },
+  {
+    "arxiv_id": "2512.18256",
+    "title": "MSC-180: A Benchmark for Automated Formal Theorem Proving from Mathematical Subject Classification",
+    "summary": "Automated Theorem Proving (ATP) represents a core research direction in artificial intelligence for achieving formal reasoning and verification, playing a significant role in advancing machine intelligence. However, current large language model (LLM)-based theorem provers suffer from limitations such as restricted domain coverage and weak generalization in mathematical reasoning. To address these issues, we propose MSC-180, a benchmark for evaluation based on the MSC2020 mathematical subject classification. It comprises 180 formal verification problems, 3 advanced problems from each of 60 mathematical branches, spanning from undergraduate to graduate levels. Each problem has undergone multiple rounds of verification and refinement by domain experts to ensure formal accuracy. Evaluations of state-of-the-art LLM-based theorem provers under the pass@32 setting reveal that the best model achieves only an 18.89% overall pass rate, with prominent issues including significant domain bias (maximum domain coverage 41.7%) and a difficulty gap (significantly lower pass rates on graduate-level problems). To further quantify performance variability across mathematical domains, we introduce the coefficient of variation (CV) as an evaluation metric. The observed CV values are 4-6 times higher than the statistical high-variability threshold, indicating that the models still rely on pattern matching from training corpora rather than possessing transferable reasoning mechanisms and systematic generalization capabilities. MSC-180, together with its multi-dimensional evaluation framework, provides a discriminative and systematic benchmark for driving the development of next-generation AI systems with genuine mathematical reasoning abilities.",
+    "authors": [
+      "Sirui Li",
+      "Wangyue Lu",
+      "Xiaorui Shi",
+      "Ke Weng",
+      "Haozhe Sun"
+    ],
+    "published": "2025-12-20T07:39:19Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  }
+]

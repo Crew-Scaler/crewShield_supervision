@@ -1,0 +1,204 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.18087v1",
+    "arxiv_id": "2512.18087v1",
+    "title": "AI Assisted Next Gen Outdoor Optical Networks: Camera Sensing for Monitoring and User Localization",
+    "summary": "We consider outdoor optical access points (OAPs), which, enabled by recent advances in metasurface technology, have attracted growing interest. While OAPs promise high data rates and strong physical-layer security, practical deployments still expose vulnerabilities and misuse patterns that necessitate a dedicated monitoring layer - the focus of this work. We therefore propose a user positioning and monitoring system that infers locations from spatial intensity measurements on a photodetector (PD) array. Specifically, our hybrid approach couples an optics-informed forward model and sparse, model-based inversion with a lightweight data-driven calibration stage, yielding high accuracy at low computational cost. This design preserves the interpretability and stability of model-based reconstruction while leveraging learning to absorb residual nonidealities and device-specific distortions. Under identical hardware and training conditions (both with 5 x 10^5 samples), the hybrid method attains consistently lower mean-squared error than a generic deep-learning baseline while using substantially less training time and compute. Accuracy improves with array resolution and saturates around 60 x 60-80 x 80, indicating a favorable accuracy-complexity trade-off for real-time deployment. The resulting position estimates can be cross-checked with real-time network logs to enable continuous monitoring, anomaly detection (e.g., potential eavesdropping), and access control in outdoor optical access networks.",
+    "published": "2025-12-19T21:47:25Z",
+    "updated": "2025-12-19T21:47:25Z",
+    "authors": [
+      "Meysam Ghanbari",
+      "Mohammad Taghi Dabiri",
+      "Rula Ammuri",
+      "Mazen Hasna",
+      "Khalid Qaraqe"
+    ],
+    "affiliations": [],
+    "first_author": "Meysam Ghanbari",
+    "pdf_url": "https://arxiv.org/pdf/2512.18087v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17748v2",
+    "arxiv_id": "2512.17748v2",
+    "title": "Methods and Tools for Secure Quantum Clouds with a specific Case Study on Homomorphic Encryption",
+    "summary": "The rise of quantum computing/technology potentially introduces significant security challenges to cloud computing, necessitating quantum-resistant encryption strategies as well as protection schemes and methods for cloud infrastructures offering quantum computing time and services (i.e. quantum clouds). This research explores various options for securing quantum clouds and ensuring privacy, especially focussing on the integration of homomorphic encryption (HE) into Eclipse Qrisp, a high-level quantum computing framework, to enhance the security of quantum cloud platforms. The study addresses the technical feasibility of integrating HE with Qrisp, evaluates performance trade-offs, and assesses the potential impact on future quantum cloud architectures. The successful implementation and Qrisp integration of three post-quantum cryptographic (PQC) algorithms demonstrates the feasibility of integrating HE with quantum computing frameworks. The findings indicate that while the Quantum One-Time Pad (QOTP) offers simplicity and low overhead, other algorithms like Chen and Gentry-Sahai-Waters (GSW) present performance trade-offs in terms of runtime and memory consumption. The study results in an overall set of recommendations for securing quantum clouds, e.g. implementing HE at data storage and processing levels, developing Quantum Key Distribution (QKD), and enforcing stringent access control and authentication mechanisms as well as participating in PQC standardization efforts.",
+    "published": "2025-12-19T16:24:51Z",
+    "updated": "2025-12-22T07:37:12Z",
+    "authors": [
+      "Aurelia Kusumastuti",
+      "Nikolay Tcholtchev",
+      "Philipp L\u00e4mmel",
+      "Sebastian Bock",
+      "Manfred Hauswirth"
+    ],
+    "affiliations": [],
+    "first_author": "Aurelia Kusumastuti",
+    "pdf_url": "https://arxiv.org/pdf/2512.17748v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14984v1",
+    "arxiv_id": "2512.14984v1",
+    "title": "High efficiency controlled quantum secure direct communication with 4D qudits and Grover search algorithm",
+    "summary": "Currently, the progress of quantum secure direct communication (QSDC) is impeded by a fundamental trade off among control efficiency, security, and scalability. This study proposes an innovative controlled QSDC protocol based on a collaborative unitary sequence decoding paradigm to break this deadlock.Leveraging four dimensional single particle states, the protocol's core innovation lies in its three party decoding mechanism. The controller's authorization unlocks a specific unitary operation sequence, enabling the receiver to directly decode exclusively via quantum operations, eliminating the need for classical computational algorithms in conventional protocols. This tailored sequence underpins its high efficiency.The protocol also seamlessly incorporates decoy photon authentication, creating a multi layer defense against both external and internal attacks. Consequently, it achieves a remarkable qudit efficiency of 66.7%, offering a significant performance improvement over existing schemes and an efficient, highly secure solution for future quantum networks.",
+    "published": "2025-12-17T00:40:16Z",
+    "updated": "2025-12-17T00:40:16Z",
+    "authors": [
+      "Ni-Shi Lu",
+      "Ping Zhou"
+    ],
+    "affiliations": [],
+    "first_author": "Ni-Shi Lu",
+    "pdf_url": "https://arxiv.org/pdf/2512.14984v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20489v1",
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23T16:31:12Z",
+    "updated": "2025-12-23T16:31:12Z",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "affiliations": [],
+    "first_author": " Akta\u015f",
+    "pdf_url": "https://arxiv.org/pdf/2512.20489v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20234v1",
+    "arxiv_id": "2512.20234v1",
+    "title": "Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks",
+    "summary": "Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.",
+    "published": "2025-12-23T10:49:05Z",
+    "updated": "2025-12-23T10:49:05Z",
+    "authors": [
+      "Bin Xie",
+      "Rui Song",
+      "Xuyuan Cai"
+    ],
+    "affiliations": [],
+    "first_author": "Bin Xie",
+    "pdf_url": "https://arxiv.org/pdf/2512.20234v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19997v1",
+    "arxiv_id": "2512.19997v1",
+    "title": "BacAlarm: Mining and Simulating Composite API Traffic to Prevent Broken Access Control Violations",
+    "summary": "Broken Access Control (BAC) violations, which consistently rank among the top five security risks in the OWASP API Security Top 10, refer to unauthorized access attempts arising from BAC vulnerabilities, whose successful exploitation can impose significant risks on exposed application programming interfaces (APIs). In recent years, learning-based methods have demonstrated promising prospects in detecting various types of malicious activities. However, in real-network operation and maintenance scenarios, leveraging learning-based methods for BAC detection faces two critical challenges. Firstly, under the RESTful API design principles, most systems omit recording composite traffic for performance, and together with ethical and legal bans on directly testing real-world systems, this leads to a critical shortage of training data for detecting BAC violations. Secondly, common malicious behaviors such as SQL injection typically generate individual access traffic that is inherently anomalous. In contrast, BAC is usually composed of multiple correlated access requests that appear normal when examined in isolation. To tackle these problems, we introduce \\BAC, an approach for establishing a BAC violation detection model by generating and utilizing API traffic data. The \\BAC consists of an API Traffic Generator and a BAC Detector. Experimental results show that \\BAC outperforms current state-of-the-art invariant-based and learning-based methods with the $\\text{F}_1$ and MCC improving by 21.2\\% and 24.1\\%.",
+    "published": "2025-12-23T02:45:36Z",
+    "updated": "2025-12-23T02:45:36Z",
+    "authors": [
+      "Yanjing Yang",
+      "He Zhang",
+      "Bohan Liu",
+      "Jinwei Xu",
+      "Jinghao Hu",
+      "Liming Dong",
+      "Zhewen Mao",
+      "Dongxue Pan"
+    ],
+    "affiliations": [],
+    "first_author": "Yanjing Yang",
+    "pdf_url": "https://arxiv.org/pdf/2512.19997v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19759v1",
+    "arxiv_id": "2512.19759v1",
+    "title": "Composable, unconditional security without a Quantum secret key: public broadcast channels and their conceptualizations, adaptive bit transmission rates, fidelity pruning under wiretaps",
+    "summary": "We examine public broadcast, forward conceptual, and backward conceptual, Quantum channels in the context of communication protocols that are independent of secret keys. Given research directions of interest previously identified in arXiv: 1804.01797, besides converse upper bounds on the bit transmission rate obtained by the author in recent work (arXiv: 2507.03035), additional possibilities remain, including: (1) determining whether aspects of QKD dependent protocols can be incorporated into steps of QKD independent protocols; (2) whether there would be any amplification to the Quantum-classical performance gap that Alice and Bob can exploit towards prospective Quantum advantage; (3) formulating the conditions under which secrecy and authentication can be simultaneously achieved. To characterize the conditions for which secrecy can be achieved with high probability, we argue that there not only exists suitable protocols which enable Alice and Bob to map into the authenticated space of bit codewords with high probability, but also that forward conceptual channels, through cascading, can significantly increase Eve's probability of false acceptance. Albeit the fact that secrecy, along with conceputalizations of the public broadcast channel, were initially discussed by Maurer for QKD dependent protocols, determining whether aspects of such protocols can be adapted for unconditional security without the use of a secret key is of great interest to explore. We demonstrate that Eve's error probability, through the cascading procedure, can be analyzed with the Holevo information under an optimal decoder. Furthermore, through post-processing of the outputs of a Completely Positive Trace Preserving (CPTP) map, we also demonstrate how to decrease Holevo sum quantities with data-processing and entropy-continuity bounds.",
+    "published": "2025-12-19T22:18:39Z",
+    "updated": "2025-12-19T22:18:39Z",
+    "authors": [
+      "Pete Rigas"
+    ],
+    "affiliations": [],
+    "first_author": "Pete Rigas",
+    "pdf_url": "https://arxiv.org/pdf/2512.19759v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17506v1",
+    "arxiv_id": "2512.17506v1",
+    "title": "The HEAL Data Platform",
+    "summary": "Objective: The objective was to develop a cloud-based, federated system to serve as a single point of search, discovery and analysis for data generated under the NIH Helping to End Addiction Long-term (HEAL) Initiative.   Materials and methods: The HEAL Data Platform is built on the open source Gen3 platform, utilizing a small set of framework services and exposed APIs to interoperate with both NIH and non-NIH data repositories. Framework services include those for authentication and authorization, creating persistent identifiers for data objects, and adding and updating metadata.   Results: The HEAL Data Platform serves as a single point of discovery of over one thousand studies funded under the HEAL Initiative. With hundreds of users per month, the HEAL Data Platform provides rich metadata and interoperates with data repositories and commons to provide access to shared datasets. Secure, cloud-based compute environments that are integrated with STRIDES facilitate secondary analysis of HEAL data. The HEAL Data Platform currently interoperates with nineteen data repositories.   Discussion: Studies funded under the HEAL Initiative generate a wide variety of data types, which are deposited across multiple NIH and third-party data repositories. The mesh architecture of the HEAL Data Platform provides a single point of discovery of these data resources, accelerating and facilitating secondary use.   Conclusion: The HEAL Data Platform enables search, discovery, and analysis of data that are deposited in connected data repositories and commons. By ensuring that these data are fully Findable, Accessible, Interoperable and Reusable (FAIR), the HEAL Data Platform maximizes the value of data generated under the HEAL Initiative.",
+    "published": "2025-12-19T12:16:02Z",
+    "updated": "2025-12-19T12:16:02Z",
+    "authors": [
+      "Brienna M. Larrick",
+      "L. Philip Schumm",
+      "Mingfei Shao",
+      "Craig Barnes",
+      "Anthony Juehne",
+      "Hara Prasad Juvvla",
+      "Michael B. Kranz",
+      "Michael Lukowski",
+      "Clint Malson",
+      "Jessica N. Mazerik",
+      "Christopher G. Meyer",
+      "Jawad Qureshi",
+      "Erin Spaniol",
+      "Andrea Tentner",
+      "Alexander VanTol",
+      "Peter Vassilatos",
+      "Sara Volk de Garcia",
+      "Robert L. Grossman"
+    ],
+    "affiliations": [],
+    "first_author": "Brienna M. Larrick",
+    "pdf_url": "https://arxiv.org/pdf/2512.17506v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16394v1",
+    "arxiv_id": "2512.16394v1",
+    "title": "SoK: Reviewing Two Decades of Security, Privacy, Accessibility, and Usability Studies on Internet of Things for Older Adults",
+    "summary": "The Internet of Things (IoT) has the potential to enhance older adults' independence and quality of life, but it also exposes them to security, privacy, accessibility, and usability (SPAU) risks. We conducted a systematic review of 44 peer-reviewed studies published between 2004 and 2024 using a five-phase screening pipeline. From each study, we extracted data on study design, IoT type, SPAU measures, and identified research gaps. We introduce the SPAU-IoT Framework, which comprises 27 criteria across four dimensions: security (e.g., resilience to cyber threats, secure authentication, encrypted communication, secure-by-default settings, and guardianship features), privacy (e.g., data minimization, explicit consent, and privacy-preserving analytics), accessibility (e.g., compliance with ADA/WCAG standards and assistive-technology compatibility), and usability (e.g., guided interaction, integrated assistance, and progressive learning). Applying this framework revealed that more than 70% of studies implemented authentication and encryption mechanisms, whereas fewer than 50% addressed accessibility or usability concerns. We further developed a threat model that maps IoT assets, networks, and backend servers to exploit vectors such as phishing, caregiver exploitation, and weak-password attacks, explicitly accounting for age-related vulnerabilities including cognitive decline and sensory impairment. Our results expose a systemic lack of integrated SPAU approaches in existing IoT research and translate these gaps into actionable, standards-aligned design guidelines for IoT systems designed for older adults.",
+    "published": "2025-12-18T10:43:41Z",
+    "updated": "2025-12-18T10:43:41Z",
+    "authors": [
+      "Suleiman Saka",
+      "Sanchari Das"
+    ],
+    "affiliations": [],
+    "first_author": "Suleiman Saka",
+    "pdf_url": "https://arxiv.org/pdf/2512.16394v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15966v1",
+    "arxiv_id": "2512.15966v1",
+    "title": "Security Aspects of ISO 15118 Plug and Charge Payment",
+    "summary": "For the rise of electric vehicles, especially for long-distance driving, minimizing charging times is vital. While multiple standards for DC fast charging exist, the leading standard in Europe is ISO 15118. In theory, this standard is accompanied by a variety of security controls, ensuring the authenticity and confidentiality of charging communication, as well as the exchange of payment information. In practice, these security controls are insufficient for effectively securing charging communication. In this paper, we go through all security controls defined in ISO 15118 and demonstrate their shortcomings. Most notably, we present a previously unpublished vulnerability in the plug and charge functionality of ISO 15118. We provide a proof-of-concept implementation of this vulnerability, which, allows a vehicle to be charged while a second, victim vehicle is billed for it. Additionally, we define an alternative plug and charge authentication scheme, which requires fewer efforts towards certificate enrollment and promises to be more resilient and future-proof. Our findings should be considered when implementing and advancing the standard, as the mitigation of the discovered vulnerability is critical for the security of fast charging.",
+    "published": "2025-12-17T20:49:13Z",
+    "updated": "2025-12-17T20:49:13Z",
+    "authors": [
+      "Jakob L\u00f6w",
+      "Vishwa Vasu",
+      "Thomas Hutzelmann",
+      "Hans-Joachim Hof"
+    ],
+    "affiliations": [],
+    "first_author": "Jakob L\u00f6w",
+    "pdf_url": "https://arxiv.org/pdf/2512.15966v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  }
+]

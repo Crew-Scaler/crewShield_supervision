@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2512.06112v2",
+  "title": "WAM-Flow: Parallel Coarse-to-Fine Motion Planning via Discrete Flow Matching for Autonomous Driving",
+  "authors": [
+    "Yifang Xu",
+    "Jiahao Cui",
+    "Feipeng Cai",
+    "Zhihao Zhu",
+    "Hanlin Shang",
+    "Shan Luan",
+    "Mingwang Xu",
+    "Neng Zhang",
+    "Yaoyi Li",
+    "Jia Cai",
+    "Siyu Zhu"
+  ],
+  "published": "2025-12-05T19:36:46Z",
+  "url": "http://arxiv.org/abs/2512.06112v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.06112v2.pdf",
+  "relevance_score": 69,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "We introduce WAM-Flow, a vision-language-action (VLA) model that casts ego-trajectory planning as discrete flow matching over a structured token space. In contrast to autoregressive decoders, WAM-Flow performs fully parallel, bidirectional denoising, enabling coarse-to-fine refinement with a tunable compute-accuracy trade-off. Specifically, the approach combines a metric-aligned numerical tokenizer that preserves scalar geometry via triplet-margin learning, a geometry-aware flow objective and a "
+}

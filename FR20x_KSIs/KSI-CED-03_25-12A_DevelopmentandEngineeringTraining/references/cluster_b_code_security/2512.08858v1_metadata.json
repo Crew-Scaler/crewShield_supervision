@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.08858v1",
+  "title": "NecoFuzz: Effective Fuzzing of Nested Virtualization via Fuzz-Harness Virtual Machines",
+  "authors": [
+    "Reima Ishii",
+    "Takaaki Fukai",
+    "Takahiro Shinagawa"
+  ],
+  "published": "2025-12-09T17:50:32Z",
+  "url": "http://arxiv.org/abs/2512.08858v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.08858v1.pdf",
+  "relevance_score": 59,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Nested virtualization is now widely supported by major cloud vendors, allowing users to leverage virtualization-based technologies in the cloud. However, supporting nested virtualization significantly increases host hypervisor complexity and introduces a new attack surface in cloud platforms. While many prior studies have explored hypervisor fuzzing, none has explicitly addressed nested virtualization due to the challenge of generating effective virtual machine (VM) instances with a vast state s"
+}

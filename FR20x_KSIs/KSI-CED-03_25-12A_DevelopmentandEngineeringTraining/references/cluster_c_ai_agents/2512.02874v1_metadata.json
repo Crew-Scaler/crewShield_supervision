@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.02874v1",
+  "title": "Think in Parallel, Answer as One: Logit Averaging for Open-Ended Reasoning",
+  "authors": [
+    "Haonan Wang",
+    "Chao Du",
+    "Kenji Kawaguchi",
+    "Tianyu Pang"
+  ],
+  "published": "2025-12-02T15:35:31Z",
+  "url": "http://arxiv.org/abs/2512.02874v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.02874v1.pdf",
+  "relevance_score": 62,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Majority voting has proven effective for close-ended question answering by aggregating parallel reasoning traces. However, it is not directly applicable to open-ended reasoning, such as code generation and web-based deep research, where a \"majority\" over complete solutions is ill-defined. We introduce ThinkMerge, a training-free, plug-and-play decoding strategy that runs K parallel reasoning traces and averages their next-token logits at synchronization points to produce a single coherent output"
+}

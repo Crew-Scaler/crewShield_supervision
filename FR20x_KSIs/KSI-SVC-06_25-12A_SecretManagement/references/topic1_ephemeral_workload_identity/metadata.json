@@ -1,0 +1,283 @@
+{
+  "research_topic": "Ephemeral Workload Identity for Autonomous Agents",
+  "issue_number": "68",
+  "topic_number": "1",
+  "search_date": "2025-12-25",
+  "total_papers_found": 85,
+  "papers_downloaded": 10,
+  "papers_archived": 0,
+  "search_queries": [
+    "\"workload identity\" AND (SPIFFE OR SVID) AND (cloud OR agent OR serverless) AND (2024 OR 2025)",
+    "\"runtime identity attestation\" AND (container OR kubernetes) AND (machine learning OR agent) AND (2024 OR 2025)",
+    "ephemeral identity workload attestation 2024 2025",
+    "SPIFFE container security zero trust 2024 2025",
+    "autonomous agent authentication credential management 2024 2025",
+    "serverless function identity short-lived credentials 2024 2025"
+  ],
+  "selection_criteria": {
+    "priority_year": "2025 > 2024",
+    "priority_institutions": ["Stanford", "MIT", "CMU", "Google", "Amazon", "Microsoft", "OpenID Foundation"],
+    "relevance_factors": [
+      "SPIFFE/SVID attestation mechanisms",
+      "Ephemeral workload identity",
+      "AI agent authentication",
+      "Container orchestration security",
+      "Zero-trust architecture",
+      "Decentralized identifiers",
+      "Runtime attestation"
+    ]
+  },
+  "papers": [
+    {
+      "paper_id": 1,
+      "filename": "paper_01_workload_identity_zero_trust_cicd.pdf",
+      "title": "Establishing Workload Identity for Zero Trust CI/CD: From Secrets to SPIFFE-Based Authentication",
+      "authors": ["Surya Teja Avirneni"],
+      "publication_date": "2025-04-20",
+      "arxiv_id": "2504.14760",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2504.14760",
+      "abstract": "The paper examines how CI/CD systems can shift from static credentials to more secure identity models. It introduces SPIFFE as a runtime-issued identity framework for non-human actors, demonstrating how this approach decouples identity from infrastructure and enables stronger authentication across job runners and workloads. The work explores policy alignment, workload attestation, and mutual authentication while advocating for Zero Trust architecture in CI/CD environments.",
+      "relevance_score": 10,
+      "key_topics": ["SPIFFE", "SVID", "Zero Trust", "CI/CD", "Workload Identity", "Runtime Attestation"],
+      "institution": "Independent Research",
+      "file_size": "838K"
+    },
+    {
+      "paper_id": 2,
+      "filename": "paper_02_zero_trust_agentic_ai.pdf",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": [
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "John Yeoh",
+        "Jason Ross",
+        "Ramesh Raskar",
+        "Youssef Harkati",
+        "Jerry Huang",
+        "Idan Habler",
+        "Chris Hughes"
+      ],
+      "publication_date": "2025-05-25",
+      "arxiv_id": "2505.19301",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2505.19301",
+      "abstract": "The paper argues that conventional identity management systems are inadequate for multi-agent AI systems. It proposes a framework using rich, verifiable Agent Identities based on decentralized identifiers and verifiable credentials. The approach incorporates an Agent Naming Service, dynamic access controls, and zero-knowledge proofs for privacy-preserving verification across heterogeneous agent communication systems.",
+      "relevance_score": 10,
+      "key_topics": ["Agentic AI", "Zero Trust", "Decentralized Identity", "Agent Authentication", "Fine-Grained Access Control", "Zero-Knowledge Proofs"],
+      "institution": "MIT Media Lab / Industry Collaboration",
+      "file_size": "2.1M"
+    },
+    {
+      "paper_id": 3,
+      "filename": "paper_03_ai_agents_did_vc.pdf",
+      "title": "AI Agents with Decentralized Identifiers and Verifiable Credentials",
+      "authors": [
+        "Sandro Rodriguez Garzon",
+        "Awid Vaziry",
+        "Enis Mert Kuzu",
+        "Dennis Enrique Gehrmann",
+        "Buse Varkan",
+        "Alexander Gaballa",
+        "Axel Küpper"
+      ],
+      "publication_date": "2025-10-01",
+      "last_revised": "2025-12-15",
+      "arxiv_id": "2511.02841",
+      "arxiv_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2511.02841",
+      "abstract": "The paper addresses a key limitation in LLM-based AI agents—their inability to establish differentiated trust when beginning agent-to-agent interactions. The authors propose equipping agents with self-sovereign digital identities using W3C Decentralized Identifiers (DIDs) combined with W3C Verifiable Credentials (VCs). This framework enables agents to prove ownership of their self-controlled DIDs for authentication purposes and to establish various cross-domain trust relationships. The work includes a prototypical implementation demonstrating technical feasibility alongside identified limitations when LLMs control security procedures alone.",
+      "relevance_score": 10,
+      "key_topics": ["AI Agents", "DIDs", "Verifiable Credentials", "Self-Sovereign Identity", "Agent-to-Agent Authentication", "W3C Standards"],
+      "institution": "Technical University of Berlin",
+      "file_size": "1.0M"
+    },
+    {
+      "paper_id": 4,
+      "filename": "paper_04_authenticated_delegation_ai_agents.pdf",
+      "title": "Authenticated Delegation and Authorized AI Agents",
+      "authors": [
+        "Tobin South",
+        "Samuele Marro",
+        "Thomas Hardjono",
+        "Robert Mahari",
+        "Cedric Deslandes Whitney",
+        "Dazza Greenwood",
+        "Alan Chan",
+        "Alex Pentland"
+      ],
+      "publication_date": "2025-01-16",
+      "arxiv_id": "2501.09674",
+      "arxiv_category": "cs.CY",
+      "pdf_url": "https://arxiv.org/pdf/2501.09674",
+      "abstract": "The paper introduces a framework for secure delegation of authority to AI agents, addressing challenges around authorization and accountability. It extends OAuth 2.0 and OpenID Connect protocols with agent-specific credentials and metadata while maintaining compatibility with existing authentication infrastructure. The authors also propose mechanisms for converting natural language permissions into auditable access control settings, enabling appropriate scoping of AI agent capabilities.",
+      "relevance_score": 9,
+      "key_topics": ["OAuth 2.0", "OpenID Connect", "Agent Delegation", "Authorization", "Authenticated Delegation", "Access Control"],
+      "institution": "MIT / Industry Collaboration",
+      "file_size": "555K"
+    },
+    {
+      "paper_id": 5,
+      "filename": "paper_05_identity_management_agentic_ai.pdf",
+      "title": "Identity Management for Agentic AI: The new frontier of authorization, authentication, and security for an AI agent world",
+      "authors": [
+        "Tobin South",
+        "Subramanya Nagabhushanaradhya",
+        "Ayesha Dissanayaka",
+        "Sarah Cecchetti",
+        "George Fletcher",
+        "Victor Lu",
+        "Aldo Pietropaolo",
+        "Dean H. Saxe",
+        "Jeff Lombardo",
+        "Abhishek Maligehalli Shivalingaiah",
+        "Stan Bounev",
+        "Alex Keisner",
+        "Andor Kesselman",
+        "Zack Proser",
+        "Ginny Fahs",
+        "Andrew Bunyea",
+        "Ben Moskowitz",
+        "Atul Tulshibagwale",
+        "Dazza Greenwood",
+        "Jiaxin Pei",
+        "Alex Pentland"
+      ],
+      "publication_date": "2025-10-29",
+      "arxiv_id": "2510.25819",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2510.25819",
+      "abstract": "This OpenID Foundation whitepaper addresses urgent challenges in authentication, authorization, and identity management emerging from rapid AI agent deployment. It examines existing protocols and best practices while proposing a strategic roadmap for handling access control, agent-centric identities, and delegated authority in future autonomous systems.",
+      "relevance_score": 10,
+      "key_topics": ["Identity Management", "Agentic AI", "OpenID Foundation", "Authentication", "Authorization", "Agent Identity"],
+      "institution": "OpenID Foundation / MIT / Industry Consortium",
+      "file_size": "8.4M"
+    },
+    {
+      "paper_id": 6,
+      "filename": "paper_06_infrastructure_ai_agents.pdf",
+      "title": "Infrastructure for AI Agents",
+      "authors": [
+        "Alan Chan",
+        "Kevin Wei",
+        "Sihao Huang",
+        "Nitarshan Rajkumar",
+        "Elija Perrier",
+        "Seth Lazar",
+        "Gillian K. Hadfield",
+        "Markus Anderljung"
+      ],
+      "publication_date": "2025-01-17",
+      "last_revised": "2025-06-19",
+      "arxiv_id": "2501.10114",
+      "arxiv_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2501.10114",
+      "status": "Accepted to TMLR",
+      "abstract": "The paper proposes agent infrastructure—external technical systems and protocols designed to manage interactions between AI agents and their environments. The authors identify three key functions: attributing actions to specific agents or actors, shaping agent interactions, and detecting/remedying harmful agent actions. They argue this infrastructure is essential for ecosystems of autonomous agents, much like how the Internet relies on foundational protocols.",
+      "relevance_score": 9,
+      "key_topics": ["Agent Infrastructure", "Agent Identity", "Protocol Design", "Autonomous Systems", "Action Attribution"],
+      "institution": "Multi-Institution Collaboration",
+      "file_size": "625K"
+    },
+    {
+      "paper_id": 7,
+      "filename": "paper_07_kubeintellect_llm_kubernetes.pdf",
+      "title": "KubeIntellect: A Modular LLM-Orchestrated Agent Framework for End-to-End Kubernetes Management",
+      "authors": [
+        "Mohsen Seyedkazemi Ardebili",
+        "Andrea Bartolini"
+      ],
+      "publication_date": "2025-09-02",
+      "arxiv_id": "2509.02449",
+      "arxiv_category": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2509.02449",
+      "abstract": "KubeIntellect is an LLM-powered system designed to simplify Kubernetes administration. The framework enables natural language interaction across the full range of Kubernetes operations—including reads, writes, deletions, access controls, and lifecycle management. It features modular agents organized by function (logs, metrics, RBAC) and orchestrated by a supervisor component. The system incorporates memory checkpoints, human clarification options, and dynamic task sequencing. According to the paper, evaluation demonstrated a 93% tool synthesis success rate and 100% reliability across 200 natural language queries, showcasing its effectiveness in managing diverse infrastructure workloads.",
+      "relevance_score": 8,
+      "key_topics": ["Kubernetes", "LLM Agents", "Container Orchestration", "RBAC", "Workload Management", "Infrastructure Automation"],
+      "institution": "University of Bologna",
+      "file_size": "692K"
+    },
+    {
+      "paper_id": 8,
+      "filename": "paper_08_kubeguard_llm_kubernetes_hardening.pdf",
+      "title": "KubeGuard: LLM-Assisted Kubernetes Hardening via Configuration Files and Runtime Logs Analysis",
+      "authors": [
+        "Omri Sgan Cohen",
+        "Ehud Malul",
+        "Yair Meidan",
+        "Dudu Mimran",
+        "Yuval Elovici",
+        "Asaf Shabtai"
+      ],
+      "publication_date": "2025-09-04",
+      "arxiv_id": "2509.04191",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2509.04191",
+      "abstract": "The paper introduces KubeGuard, a framework that uses large language models to enhance Kubernetes security. It addresses overly permissive configurations by analyzing runtime logs and manifests to generate hardened resource configurations with least-privilege principles, supporting Roles, NetworkPolicies, and Deployments.",
+      "relevance_score": 8,
+      "key_topics": ["Kubernetes Security", "LLM-Assisted Hardening", "Runtime Analysis", "Least Privilege", "Container Security", "Configuration Hardening"],
+      "institution": "Ben-Gurion University",
+      "file_size": "7.4M"
+    },
+    {
+      "paper_id": 9,
+      "filename": "paper_09_agentic_ai_security.pdf",
+      "title": "Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges",
+      "authors": [
+        "Shrestha Datta",
+        "Shahriar Kabir Nahin",
+        "Anshuman Chhabra",
+        "Prasant Mohapatra"
+      ],
+      "publication_date": "2025-10-27",
+      "arxiv_id": "2510.23883",
+      "arxiv_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2510.23883",
+      "abstract": "The paper examines security risks in AI agents powered by large language models that can plan, use tools, access memory, and operate autonomously. It presents a taxonomy of threats specific to agentic AI, reviews recent benchmarks and evaluation methodologies, and discusses defense strategies from both technical and governance perspectives.",
+      "relevance_score": 9,
+      "key_topics": ["Agentic AI", "Security Threats", "AI Agent Defense", "Threat Taxonomy", "Security Evaluation", "Governance"],
+      "institution": "UC Davis",
+      "file_size": "7.9M"
+    },
+    {
+      "paper_id": 10,
+      "filename": "paper_10_kubernetes_autoscaling_multiagent.pdf",
+      "title": "Streamlining Resilient Kubernetes Autoscaling with Multi-Agent Systems via an Automated Online Design Framework",
+      "authors": [
+        "Julien Soulé",
+        "Jean-Paul Jamont",
+        "Michel Occello",
+        "Louis-Marie Traonouez",
+        "Paul Théron"
+      ],
+      "publication_date": "2025-05-26",
+      "arxiv_id": "2505.21559",
+      "arxiv_category": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2505.21559",
+      "abstract": "The paper addresses operational resilience challenges in Kubernetes clusters by proposing a multi-agent system approach to autoscaling. Rather than optimizing single metrics, the researchers decompose resilience goals into failure-specific sub-goals delegated to collaborative agents. Their framework involves four phases: creating a digital twin from cluster data, training agents in simulation, analyzing agent behavior for transparency, and deploying policies to production. Results show their approach outperforms existing methods under adversarial conditions like DDoS attacks.",
+      "relevance_score": 7,
+      "key_topics": ["Kubernetes", "Multi-Agent Systems", "Autoscaling", "Resilience", "Container Orchestration", "Distributed Systems"],
+      "institution": "Grenoble Alpes University / Thales",
+      "file_size": "844K"
+    }
+  ],
+  "key_findings": {
+    "spiffe_svid_research": "Paper #1 (Avirneni 2025) provides the most comprehensive treatment of SPIFFE/SVID for workload identity in CI/CD, demonstrating runtime attestation mechanisms for ephemeral jobs without hardcoded trust or pre-registered secrets.",
+    "agentic_ai_identity": "Papers #2, #3, #4, and #5 form a comprehensive foundation for AI agent identity management, covering zero-trust frameworks, decentralized identifiers (DIDs), verifiable credentials (VCs), and OAuth 2.0/OpenID Connect extensions for agent delegation.",
+    "kubernetes_workloads": "Papers #7, #8, and #10 address container orchestration challenges, with #8 (KubeGuard) providing LLM-assisted runtime analysis for least-privilege configurations, directly relevant to ephemeral workload security.",
+    "infrastructure_protocols": "Paper #6 presents foundational thinking on agent infrastructure protocols, identifying action attribution and identity as critical functions for autonomous agent ecosystems.",
+    "security_framework": "Paper #9 provides comprehensive threat taxonomy and defense strategies specific to agentic AI systems, essential for understanding security implications of ephemeral agent identities."
+  },
+  "geographic_distribution": {
+    "US_institutions": 6,
+    "European_institutions": 3,
+    "International_collaborations": 1
+  },
+  "year_distribution": {
+    "2025": 10,
+    "2024": 0
+  },
+  "notes": "All 10 papers are from 2025, representing cutting-edge research in ephemeral workload identity, AI agent authentication, and container orchestration security. The collection heavily features MIT and OpenID Foundation contributions, with strong representation from industry-academic collaborations. SPIFFE/SVID coverage is limited to 1 primary paper, but complemented by broader identity frameworks applicable to workload scenarios.",
+  "rate_limit_compliance": "3+ seconds between ArXiv requests maintained throughout download process",
+  "download_timestamp": "2025-12-25T08:10:00-08:00"
+}

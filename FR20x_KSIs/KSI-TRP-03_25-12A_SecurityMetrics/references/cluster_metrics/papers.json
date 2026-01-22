@@ -1,0 +1,95 @@
+[
+  {
+    "arxiv_id": "2601.01183",
+    "title": "Comparative Evaluation of VAE, GAN, and SMOTE for Tor Detection in Encrypted Network Traffic",
+    "summary": "Encrypted network traffic poses significant challenges for intrusion detection due to the lack of payload visibility, limited labeled datasets, and high class imbalance between benign and malicious activities. Traditional data augmentation methods struggle to preserve the complex temporal and statistical characteristics of real network traffic. To address these issues, this work explores the use of Generative AI (GAI) models to synthesize realistic and diverse encrypted traffic traces. We evaluate three approaches: Variational Autoencoders (VAE), Generative Adversarial Networks (GAN), and SMOTE (Synthetic Minority Over-sampling Technique), each integrated with a preprocessing pipeline that includes feature selection and class balancing. The UNSW NB-15 dataset is used as the primary benchmark, focusing on Tor traffic as anomalies. We analyze statistical similarity between real and synthetic data, and assess classifier performance using metrics such as Accuracy, F1-score, and AUC-ROC. Results show that VAE-generated data provides the best balance between privacy and performance, while GANs offer higher fidelity but risk overfitting. SMOTE, though simple, enhances recall but may lack diversity. The findings demonstrate that GAI methods can significantly improve encrypted traffic detection when trained with privacy-preserving synthetic data.",
+    "authors": [
+      "Saravanan A",
+      "Aswani Kumar Cherukuri"
+    ],
+    "published": "2026-01-03T13:31:53Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.14448",
+    "title": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space",
+    "summary": "Large Language Model (LLM) agents relying on external retrieval are increasingly deployed in high-stakes environments. While existing adversarial attacks primarily focus on content falsification or instruction injection, we identify a novel, process-oriented attack surface: the agent's reasoning style. We propose Reasoning-Style Poisoning (RSP), a paradigm that manipulates how agents process information rather than what they process. We introduce Generative Style Injection (GSI), an attack method that rewrites retrieved documents into pathological tones--specifically \"analysis paralysis\" or \"cognitive haste\"--without altering underlying facts or using explicit triggers. To quantify these shifts, we develop the Reasoning Style Vector (RSV), a metric tracking Verification depth, Self-confidence, and Attention focus. Experiments on HotpotQA and FEVER using ReAct, Reflection, and Tree of Thoughts (ToT) architectures reveal that GSI significantly degrades performance. It increases reasoning steps by up to 4.4 times or induces premature errors, successfully bypassing state-of-the-art content filters. Finally, we propose RSP-M, a lightweight runtime monitor that calculates RSV metrics in real-time and triggers alerts when values exceed safety thresholds. Our work demonstrates that reasoning style is a distinct, exploitable vulnerability, necessitating process-level defenses beyond static content analysis.",
+    "authors": [
+      "Xingfu Zhou",
+      "Pengfei Wang"
+    ],
+    "published": "2025-12-16T14:34:10Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.04265",
+    "title": "You Only Anonymize What Is Not Intent-Relevant: Suppressing Non-Intent Privacy Evidence",
+    "summary": "Anonymizing sensitive information in user text is essential for privacy, yet existing methods often apply uniform treatment across attributes, which can conflict with communicative intent and obscure necessary information. This is particularly problematic when personal attributes are integral to expressive or pragmatic goals. The central challenge lies in determining which attributes to protect, and to what extent, while preserving semantic and pragmatic functions. We propose IntentAnony, a utility-preserving anonymization approach that performs intent-conditioned exposure control. IntentAnony models pragmatic intent and constructs privacy inference evidence chains to capture how distributed cues support attribute inference. Conditioned on intent, it assigns each attribute an exposure budget and selectively suppresses non-intent inference pathways while preserving intent-relevant content, semantic structure, affective nuance, and interactional function. We evaluate IntentAnony using privacy inference success rates, text utility metrics, and human evaluation. The results show an approximately 30% improvement in the overall privacy--utility trade-off, with notably stronger usability of anonymized text compared to prior state-of-the-art methods. Our code is available at https://github.com/Nevaeh7/IntentAnony.",
+    "authors": [
+      "Weihao Shen",
+      "Yaxin Xu",
+      "Shuang Li",
+      "Wei Chen",
+      "Yuqin Lan"
+    ],
+    "published": "2026-01-07T07:54:23Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.01592",
+    "title": "OpenRT: An Open-Source Red Teaming Framework for Multimodal LLMs",
+    "summary": "The rapid integration of Multimodal Large Language Models (MLLMs) into critical applications is increasingly hindered by persistent safety vulnerabilities. However, existing red-teaming benchmarks are often fragmented, limited to single-turn text interactions, and lack the scalability required for systematic evaluation. To address this, we introduce OpenRT, a unified, modular, and high-throughput red-teaming framework designed for comprehensive MLLM safety evaluation. At its core, OpenRT architects a paradigm shift in automated red-teaming by introducing an adversarial kernel that enables modular separation across five critical dimensions: model integration, dataset management, attack strategies, judging methods, and evaluation metrics. By standardizing attack interfaces, it decouples adversarial logic from a high-throughput asynchronous runtime, enabling systematic scaling across diverse models. Our framework integrates 37 diverse attack methodologies, spanning white-box gradients, multi-modal perturbations, and sophisticated multi-agent evolutionary strategies. Through an extensive empirical study on 20 advanced models (including GPT-5.2, Claude 4.5, and Gemini 3 Pro), we expose critical safety gaps: even frontier models fail to generalize across attack paradigms, with leading models exhibiting average Attack Success Rates as high as 49.14%. Notably, our findings reveal that reasoning models do not inherently possess superior robustness against complex, multi-turn jailbreaks. By open-sourcing OpenRT, we provide a sustainable, extensible, and continuously maintained infrastructure that accelerates the development and standardization of AI safety.",
+    "authors": [
+      "Xin Wang",
+      "Yunhao Chen",
+      "Juncheng Li",
+      "Yixu Wang",
+      "Yang Yao"
+    ],
+    "published": "2026-01-04T16:41:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.00936",
+    "title": "Emoji-Based Jailbreaking of Large Language Models",
+    "summary": "Large Language Models (LLMs) are integral to modern AI applications, but their safety alignment mechanisms can be bypassed through adversarial prompt engineering. This study investigates emoji-based jailbreaking, where emoji sequences are embedded in textual prompts to trigger harmful and unethical outputs from LLMs. We evaluated 50 emoji-based prompts on four open-source LLMs: Mistral 7B, Qwen 2 7B, Gemma 2 9B, and Llama 3 8B. Metrics included jailbreak success rate, safety alignment adherence, and latency, with responses categorized as successful, partial and failed. Results revealed model-specific vulnerabilities: Gemma 2 9B and Mistral 7B exhibited 10 % success rates, while Qwen 2 7B achieved full alignment (0% success). A chi-square test (chi^2 = 32.94, p &lt; 0.001) confirmed significant inter-model differences. While prior works focused on emoji attacks targeting safety judges or classifiers, our empirical analysis examines direct prompt-level vulnerabilities in LLMs. The results reveal limitations in safety mechanisms and highlight the necessity for systematic handling of emoji-based representations in prompt-level safety and alignment pipelines.",
+    "authors": [
+      "M P V S Gopinadh",
+      "S Mahaboob Hussain"
+    ],
+    "published": "2026-01-02T10:49:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.03594",
+    "title": "Jailbreaking LLMs &amp; VLMs: Mechanisms, Evaluation, and Unified Defense",
+    "summary": "This paper provides a systematic survey of jailbreak attacks and defenses on Large Language Models (LLMs) and Vision-Language Models (VLMs), emphasizing that jailbreak vulnerabilities stem from structural factors such as incomplete training data, linguistic ambiguity, and generative uncertainty. It further differentiates between hallucinations and jailbreaks in terms of intent and triggering mechanisms. We propose a three-dimensional survey framework: (1) Attack dimension-including template/encoding-based, in-context learning manipulation, reinforcement/adversarial learning, LLM-assisted and fine-tuned attacks, as well as prompt- and image-level perturbations and agent-based transfer in VLMs; (2) Defense dimension-encompassing prompt-level obfuscation, output evaluation, and model-level alignment or fine-tuning; and (3) Evaluation dimension-covering metrics such as Attack Success Rate (ASR), toxicity score, query/time cost, and multimodal Clean Accuracy and Attribute Success Rate. Compared with prior works, this survey spans the full spectrum from text-only to multimodal settings, consolidating shared mechanisms and proposing unified defense principles: variant-consistency and gradient-sensitivity detection at the perception layer, safety-aware decoding and output review at the generation layer, and adversarially augmented preference alignment at the parameter layer. Additionally, we summarize existing multimodal safety benchmarks and discuss future directions, including automated red teaming, cross-modal collaborative defense, and standardized evaluation.",
+    "authors": [
+      "Zejian Chen",
+      "Chaozhuo Li",
+      "Chao Li",
+      "Xi Zhang",
+      "Litian Zhang"
+    ],
+    "published": "2026-01-07T05:25:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.01287",
+    "title": "Compliance as a Trust Metric",
+    "summary": "Trust and Reputation Management Systems (TRMSs) are critical for the modern web, yet their reliance on subjective user ratings or narrow Quality of Service (QoS) metrics lacks objective grounding. Concurrently, while regulatory frameworks like GDPR and HIPAA provide objective behavioral standards, automated compliance auditing has been limited to coarse, binary (pass/fail) outcomes. This paper bridges this research gap by operationalizing regulatory compliance as a quantitative and dynamic trust metric through our novel automated compliance engine (ACE). ACE first formalizes legal and organizational policies into a verifiable, obligation-centric logic. It then continuously audits system event logs against this logic to detect violations. The core of our contribution is a quantitative model that assesses the severity of each violation along multiple dimensions, including its Volume, Duration, Breadth, and Criticality, to compute a fine-grained, evolving compliance score. We evaluate ACE on a synthetic hospital dataset, demonstrating its ability to accurately detect a range of complex HIPAA and GDPR violations and produce a nuanced score that is significantly more expressive than traditional binary approaches. This work enables the development of more transparent, accountable, and resilient TRMSs on the Web.",
+    "authors": [
+      "Wenbo Wu",
+      "George Konstantinidis"
+    ],
+    "published": "2026-01-03T21:14:40Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  }
+]

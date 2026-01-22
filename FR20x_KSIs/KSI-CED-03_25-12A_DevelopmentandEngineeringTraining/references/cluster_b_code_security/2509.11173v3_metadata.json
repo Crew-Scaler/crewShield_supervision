@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2509.11173v3",
+  "title": "Your Compiler is Backdooring Your Model: Understanding and Exploiting Compilation Inconsistency Vulnerabilities in Deep Learning Compilers",
+  "authors": [
+    "Simin Chen",
+    "Jinjun Peng",
+    "Yixin He",
+    "Junfeng Yang",
+    "Baishakhi Ray"
+  ],
+  "published": "2025-09-14T09:11:49Z",
+  "url": "http://arxiv.org/abs/2509.11173v3",
+  "pdf_url": "http://arxiv.org/pdf/2509.11173v3.pdf",
+  "relevance_score": 67,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Deep learning (DL) compilers are core infrastructure in modern DL systems, offering flexibility and scalability beyond vendor-specific libraries. This work uncovers a fundamental vulnerability in their design: can an official, unmodified compiler alter a model's semantics during compilation and introduce hidden backdoors? We study both adversarial and natural settings. In the adversarial case, we craft benign models where triggers have no effect pre-compilation but become effective backdoors aft"
+}

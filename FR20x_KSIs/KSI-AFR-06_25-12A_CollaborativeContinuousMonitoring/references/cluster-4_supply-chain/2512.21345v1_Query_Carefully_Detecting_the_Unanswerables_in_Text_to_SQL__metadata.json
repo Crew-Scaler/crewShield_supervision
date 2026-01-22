@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.21345v1",
+  "title": "Query Carefully: Detecting the Unanswerables in Text-to-SQL Tasks",
+  "authors": [
+    "Jasmin Saxer",
+    "Isabella Maria Aigner",
+    "Luise Linzmeier",
+    "Andreas Weiler",
+    "Kurt Stockinger"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.21345v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Text-to-SQL systems allow non-SQL experts to interact with relational databases using natural language. However, their tendency to generate executable SQL for ambiguous, out-of-scope, or unanswerable queries introduces a hidden risk, as outputs may be misinterpreted as correct. This risk is especially serious in biomedical contexts, where precision is critical. We therefore present Query Carefully, a pipeline that integrates LLM-based SQL generation with explicit detection and handling of unansw..."
+}

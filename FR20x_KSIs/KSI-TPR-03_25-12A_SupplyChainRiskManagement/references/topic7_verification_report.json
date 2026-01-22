@@ -1,0 +1,249 @@
+{
+  "verified": [
+    {
+      "arxiv_id": "2512.19997v1",
+      "title": "BacAlarm: Mining and Simulating Composite API Traffic to Prevent Broken Access Control Violations",
+      "authors": [
+        "Yanjing Yang",
+        "He Zhang",
+        "Bohan Liu",
+        "Jinwei Xu",
+        "Jinghao Hu",
+        "Liming Dong",
+        "Zhewen Mao",
+        "Dongxue Pan"
+      ],
+      "summary": "Broken Access Control (BAC) violations, which consistently rank among the top five security risks in the OWASP API Security Top 10, refer to unauthorized access attempts arising from BAC vulnerabilities, whose successful exploitation can impose significant risks on exposed application programming interfaces (APIs). In recent years, learning-based methods have demonstrated promising prospects in detecting various types of malicious activities. However, in real-network operation and maintenance scenarios, leveraging learning-based methods for BAC detection faces two critical challenges. Firstly, under the RESTful API design principles, most systems omit recording composite traffic for performance, and together with ethical and legal bans on directly testing real-world systems, this leads to a critical shortage of training data for detecting BAC violations. Secondly, common malicious behaviors such as SQL injection typically generate individual access traffic that is inherently anomalous. In contrast, BAC is usually composed of multiple correlated access requests that appear normal when examined in isolation. To tackle these problems, we introduce \\BAC, an approach for establishing a BAC violation detection model by generating and utilizing API traffic data. The \\BAC consists of an API Traffic Generator and a BAC Detector. Experimental results show that \\BAC outperforms current state-of-the-art invariant-based and learning-based methods with the $\\text{F}_1$ and MCC improving by 21.2\\% and 24.1\\%.",
+      "published": "2025-12-23",
+      "pdf_link": "https://arxiv.org/pdf/2512.19997v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 100,
+      "page_count": 15,
+      "filename": "2512.19997v1_BacAlarm_Mining_and_Simulating_Composite_API_Traffic_to.pdf",
+      "file_size": 1104371,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit"
+      ]
+    },
+    {
+      "arxiv_id": "2512.21250v1",
+      "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+      "authors": [
+        "Haoyang Li",
+        "Mingjin Li",
+        "Jinxin Zuo",
+        "Siqi Li",
+        "Xiao Li",
+        "Hao Wu",
+        "Yueming Lu",
+        "Xiaochuan He"
+      ],
+      "summary": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+      "published": "2025-12-24",
+      "pdf_link": "https://arxiv.org/pdf/2512.21250v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 94,
+      "page_count": 15,
+      "filename": "2512.21250v1_CoTDeceptorAdversarial_Code_Obfuscation_Against_CoT_Enhanced_LLM_Code_Agents.pdf",
+      "file_size": 625165,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit",
+        "Usc"
+      ]
+    },
+    {
+      "arxiv_id": "2512.20986v1",
+      "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+      "authors": [
+        "Yihan Wang",
+        "Huanqi Yang",
+        "Shantanu Pal",
+        "Weitao Xu"
+      ],
+      "summary": "The integration of Large Language Models (LLMs) into wearable sensing is creating a new class of mobile applications capable of nuanced human activity understanding. However, the reliability of these systems is critically undermined by their vulnerability to prompt injection attacks, where attackers deliberately input deceptive instructions into LLMs. Traditional defenses, based on static filters and rigid rules, are insufficient to address the semantic complexity of these new attacks. We argue that a paradigm shift is needed -- from passive filtering to active protection and autonomous reasoning. We introduce AegisAgent, an autonomous agent system designed to ensure the security of LLM-driven HAR systems. Instead of merely blocking threats, AegisAgent functions as a cognitive guardian. It autonomously perceives potential semantic inconsistencies, reasons about the user's true intent by consulting a dynamic memory of past interactions, and acts by generating and executing a multi-step verification and repair plan. We implement AegisAgent as a lightweight, full-stack prototype and conduct a systematic evaluation on 15 common attacks with five state-of-the-art LLM-based HAR systems on three public datasets. Results show it reduces attack success rate by 30\\% on average while incurring only 78.6 ms of latency overhead on a GPU workstation. Our work makes the first step towards building secure and trustworthy LLM-driven HAR systems.",
+      "published": "2025-12-24",
+      "pdf_link": "https://arxiv.org/pdf/2512.20986v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 92,
+      "page_count": 16,
+      "filename": "2512.20986v1_AegisAgent_An_Autonomous_Defense_Agent_Against_Prompt_Injection.pdf",
+      "file_size": 2497136,
+      "downloaded": true,
+      "us_affiliations": []
+    },
+    {
+      "arxiv_id": "2512.19842v1",
+      "title": "Holoscope: Open and Lightweight Distributed Telescope & Honeypot Platform",
+      "authors": [
+        "Andrea Sordello",
+        "Marco Mellia",
+        "Idilio Drago",
+        "Rodolfo Valentim",
+        "Francesco Musumeci",
+        "Massimo Tornatore",
+        "Federico Cerutti",
+        "Martino Trevisan",
+        "Alessio Botta",
+        "Willen Borges Coelho"
+      ],
+      "summary": "The complexity and scale of Internet attacks call for distributed, cooperative observatories capable of monitoring malicious traffic across diverse networks. Holoscope is a lightweight, cloud-native platform designed to simplify the deployment and management of distributed telescope (passive) and honeypot (active) sensors, used to collect and analyse attack traffic by exposing or simulating vulnerable systems. Built upon K3s and WireGuard, Holoscope offers secure connectivity, automated node onboarding, and resilient operation even in resource-constrained environments. Through modular design and Infrastructure-as-Code principles, it supports dynamic sensor orchestration, automated recovery and processing. We build, deploy and operate Holoscope across multiple institutions and cloud networks in Europe and Brazil, enabling unified visibility into large-scale attack phenomena while maintaining ease of integration and security compliance.",
+      "published": "2025-12-22",
+      "pdf_link": "https://arxiv.org/pdf/2512.19842v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 63,
+      "page_count": 7,
+      "filename": "2512.19842v1_Holoscope_Open_and_Lightweight_Distributed_Telescope__Honeypot.pdf",
+      "file_size": 1489194,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit",
+        "Uber"
+      ]
+    },
+    {
+      "arxiv_id": "2512.20004v1",
+      "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+      "authors": [
+        "Rahul Yumlembam",
+        "Biju Issac",
+        "Seibu Mary Jacob",
+        "Longzhi Yang"
+      ],
+      "summary": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+      "published": "2025-12-23",
+      "pdf_link": "https://arxiv.org/pdf/2512.20004v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 62,
+      "page_count": 13,
+      "filename": "2512.20004v1_IoT_based_Android_Malware_Detection_Using_Graph_Neural_Network.pdf",
+      "file_size": 2928730,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit",
+        "Intel"
+      ]
+    },
+    {
+      "arxiv_id": "2512.19016v1",
+      "title": "DREAM: Dynamic Red-teaming across Environments for AI Models",
+      "authors": [
+        "Liming Lu",
+        "Xiang Gu",
+        "Junyu Huang",
+        "Jiawei Du",
+        "Yunhuai Liu",
+        "Yongbin Zhou",
+        "Shuchao Pang"
+      ],
+      "summary": "Large Language Models (LLMs) are increasingly used in agentic systems, where their interactions with diverse tools and environments create complex, multi-stage safety challenges. However, existing benchmarks mostly rely on static, single-turn assessments that miss vulnerabilities from adaptive, long-chain attacks. To fill this gap, we introduce DREAM, a framework for systematic evaluation of LLM agents against dynamic, multi-stage attacks. At its core, DREAM uses a Cross-Environment Adversarial Knowledge Graph (CE-AKG) to maintain stateful, cross-domain understanding of vulnerabilities. This graph guides a Contextualized Guided Policy Search (C-GPS) algorithm that dynamically constructs attack chains from a knowledge base of 1,986 atomic actions across 349 distinct digital environments. Our evaluation of 12 leading LLM agents reveals a critical vulnerability: these attack chains succeed in over 70% of cases for most models, showing the power of stateful, cross-environment exploits. Through analysis of these failures, we identify two key weaknesses in current agents: contextual fragility, where safety behaviors fail to transfer across environments, and an inability to track long-term malicious intent. Our findings also show that traditional safety measures, such as initial defense prompts, are largely ineffective against attacks that build context over multiple interactions. To advance agent safety research, we release DREAM as a tool for evaluating vulnerabilities and developing more robust defenses.",
+      "published": "2025-12-22",
+      "pdf_link": "https://arxiv.org/pdf/2512.19016v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 59,
+      "page_count": 18,
+      "filename": "2512.19016v1_DREAM_Dynamic_Red_teaming_across_Environments_for_AI_Models.pdf",
+      "file_size": 21412796,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit"
+      ]
+    },
+    {
+      "arxiv_id": "2512.20062v1",
+      "title": "On the Effectiveness of Instruction-Tuning Local LLMs for Identifying Software Vulnerabilities",
+      "authors": [
+        "Sangryu Park",
+        "Gihyuk Ko",
+        "Homook Cho"
+      ],
+      "summary": "Large Language Models (LLMs) show significant promise in automating software vulnerability analysis, a critical task given the impact of security failure of modern software systems. However, current approaches in using LLMs to automate vulnerability analysis mostly rely on using online API-based LLM services, requiring the user to disclose the source code in development. Moreover, they predominantly frame the task as a binary classification(vulnerable or not vulnerable), limiting potential practical utility. This paper addresses these limitations by reformulating the problem as Software Vulnerability Identification (SVI), where LLMs are asked to output the type of weakness in Common Weakness Enumeration (CWE) IDs rather than simply indicating the presence or absence of a vulnerability. We also tackle the reliance on large, API-based LLMs by demonstrating that instruction-tuning smaller, locally deployable LLMs can achieve superior identification performance. In our analysis, instruct-tuning a local LLM showed better overall performance and cost trade-off than online API-based LLMs. Our findings indicate that instruct-tuned local models represent a more effective, secure, and practical approach for leveraging LLMs in real-world vulnerability management workflows.",
+      "published": "2025-12-23",
+      "pdf_link": "https://arxiv.org/pdf/2512.20062v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 56,
+      "page_count": 16,
+      "filename": "2512.20062v1_On_the_Effectiveness_of_Instruction_Tuning_Local_LLMs_for.pdf",
+      "file_size": 890978,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit"
+      ]
+    },
+    {
+      "arxiv_id": "2512.20985v1",
+      "title": "A Blockchain-Monitored Agentic AI Architecture for Trusted Perception-Reasoning-Action Pipelines",
+      "authors": [
+        "Salman Jan",
+        "Hassan Ali Razzaqi",
+        "Ali Akarma",
+        "Mohammad Riyaz Belgaum"
+      ],
+      "summary": "The application of agentic AI systems in autonomous decision-making is growing in the areas of healthcare, smart cities, digital forensics, and supply chain management. Even though these systems are flexible and offer real-time reasoning, they also raise concerns of trust and oversight, and integrity of the information and activities upon which they are founded. The paper suggests a single architecture model comprising of LangChain-based multi-agent system with a permissioned blockchain to guarantee constant monitoring, policy enforcement, and immutable auditability of agentic action. The framework relates the perception conceptualization-action cycle to a blockchain layer of governance that verifies the inputs, evaluates recommended actions, and documents the outcomes of the execution. A Hyperledger Fabric-based system, action executors MCP-integrated, and LangChain agent are introduced and experiments of smart inventory management, traffic-signal control, and healthcare monitoring are done. The results suggest that blockchain-security verification is efficient in preventing unauthorized practices, offers traceability throughout the whole decision-making process, and maintains operational latency within reasonable ranges. The suggested framework provides a universal system of implementing high-impact agentic AI applications that are autonomous yet responsible.",
+      "published": "2025-12-24",
+      "pdf_link": "https://arxiv.org/pdf/2512.20985v1",
+      "query": "microservices security vulnerability attack",
+      "relevance_score": 51,
+      "page_count": 7,
+      "filename": "2512.20985v1_A_Blockchain_Monitored_Agentic_AI_Architecture_for_Trusted_Perception_Reasoning_Action.pdf",
+      "file_size": 344424,
+      "downloaded": true,
+      "us_affiliations": [
+        "Meta",
+        "Intel"
+      ]
+    },
+    {
+      "arxiv_id": "2512.19037v1",
+      "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+      "authors": [
+        "Md Minhazul Islam Munna",
+        "Md Mahbubur Rahman",
+        "Jaroslav Frnda",
+        "Muhammad Shahid Anwar",
+        "Alpamis Kutlimuratov"
+      ],
+      "summary": "The proliferation of IoT devices and their reliance on Wi-Fi networks have introduced significant security vulnerabilities, particularly the KRACK and Kr00k attacks, which exploit weaknesses in WPA2 encryption to intercept and manipulate sensitive data. Traditional IDS using classifiers face challenges such as model overfitting, incomplete feature extraction, and high false positive rates, limiting their effectiveness in real-world deployments. To address these challenges, this study proposes a robust multiclass machine learning based intrusion detection framework. The methodology integrates advanced feature selection techniques to identify critical attributes, mitigating redundancy and enhancing detection accuracy. Two distinct ML architectures are implemented: a baseline classifier pipeline and a stacked ensemble model combining noise injection, Principal Component Analysis (PCA), and meta learning to improve generalization and reduce false positives. Evaluated on the AWID3 data set, the proposed ensemble architecture achieves superior performance, with an accuracy of 98%, precision of 98%, recall of 98%, and a false positive rate of just 2%, outperforming existing state-of-the-art methods. This work demonstrates the efficacy of combining preprocessing strategies with ensemble learning to fortify network security against sophisticated Wi-Fi attacks, offering a scalable and reliable solution for IoT environments. Future directions include real-time deployment and adversarial resilience testing to further enhance the model's adaptability.",
+      "published": "2025-12-22",
+      "pdf_link": "https://arxiv.org/pdf/2512.19037v1",
+      "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+      "relevance_score": 69,
+      "page_count": 20,
+      "filename": "2512.19037v1_Elevating_Intrusion_Detection_and_Security_Fortification_in_Intelligent.pdf",
+      "file_size": 3538839,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit",
+        "Meta",
+        "Intel"
+      ]
+    },
+    {
+      "arxiv_id": "2512.20860v1",
+      "title": "pokiSEC: A Multi-Architecture, Containerized Ephemeral Malware Detonation Sandbox",
+      "authors": [
+        "Alejandro Avina",
+        "Yashas Hariprasad",
+        "Naveen Kumar Chaudhary"
+      ],
+      "summary": "Dynamic malware analysis requires executing untrusted binaries inside strongly isolated, rapidly resettable environments. In practice, many detonation workflows remain tied to heavyweight hypervisors or dedicated bare-metal labs, limiting portability and automation. This challenge has intensified with the adoption of ARM64 developer hardware (e.g., Apple Silicon), where common open-source sandbox recipes and pre-built environments frequently assume x86_64 hosts and do not translate cleanly across architectures. This paper presents pokiSEC, a lightweight, ephemeral malware detonation sandbox that packages the full virtualization and access stack inside a Docker container. pokiSEC integrates QEMU with hardware acceleration (KVM when available) and exposes a browser-based workflow that supports bring-your-own Windows disk images. The key contribution is a Universal Entrypoint that performs runtime host-architecture detection and selects validated hypervisor configurations (machine types, acceleration modes, and device profiles), enabling a single container image and codebase to launch Windows guests on both ARM64 and x86_64 hosts. We validate pokiSEC on Apple Silicon (ARM64) and Ubuntu (AMD64), demonstrating interactive performance suitable for analyst workflows and consistent teardown semantics via ephemeral container lifecycles.",
+      "published": "2025-12-24",
+      "pdf_link": "https://arxiv.org/pdf/2512.20860v1",
+      "query": "microservices security vulnerability attack",
+      "relevance_score": 45,
+      "page_count": 12,
+      "filename": "2512.20860v1_pokiSEC_A_Multi_Architecture_Containerized_Ephemeral_Malware_Detonation_Sandbox.pdf",
+      "file_size": 557880,
+      "downloaded": true,
+      "us_affiliations": [
+        "Mit",
+        "Meta",
+        "Apple"
+      ]
+    }
+  ],
+  "rejected": [],
+  "verified_count": 10,
+  "rejected_count": 0
+}

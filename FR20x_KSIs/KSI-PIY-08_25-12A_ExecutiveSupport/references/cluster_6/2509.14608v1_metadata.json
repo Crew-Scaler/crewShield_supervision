@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2509.14608v1",
+  "title": "Enterprise AI Must Enforce Participant-Aware Access Control",
+  "authors": [
+    "Shashank Shreedhar Bhatt",
+    "Tanmay Rajore",
+    "Khushboo Aggarwal",
+    "Ganesh Ananthanarayanan",
+    "Ranveer Chandra",
+    "Nishanth Chandran",
+    "Suyash Choudhury",
+    "Divya Gupta",
+    "Emre Kiciman",
+    "Sumit Kumar Pandey",
+    "Srinath Setty",
+    "Rahul Sharma",
+    "Teijia Zhao"
+  ],
+  "published": "2025-09-18T04:30:49Z",
+  "summary": "Large language models (LLMs) are increasingly deployed in enterprise settings where they interact with multiple users and are trained or fine-tuned on sensitive internal data. While fine-tuning enhances performance by internalizing domain knowledge, it also introduces a critical security risk: leakage of confidential training data to unauthorized users. These risks are exacerbated when LLMs are combined with Retrieval-Augmented Generation (RAG) pipelines that dynamically fetch contextual documen",
+  "cluster": "cluster_6",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.194676"
+}

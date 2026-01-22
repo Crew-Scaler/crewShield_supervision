@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.18318v1",
+  "title": "Asynchronous Pipeline Parallelism for Real-Time Multilingual Lip Synchronization in Video Communication Systems",
+  "authors": [
+    "Eren Caglar",
+    "Amirkia Rafiei Oskooei",
+    "Mehmet Kutanoglu",
+    "Mustafa Keles",
+    "Mehmet S. Aktas"
+  ],
+  "published": "2025-12-20T11:23:18Z",
+  "summary": "This paper introduces a parallel and asynchronous Transformer framework designed for efficient and accurate multilingual lip synchronization in real-time video conferencing systems. The proposed architecture integrates translation, speech processing, and lip-synchronization modules within a pipeline-parallel design that enables concurrent module execution through message-queue-based decoupling, reducing end-to-end latency by up to 3.1 times compared to sequential approaches. To enhance computati",
+  "cluster": "cluster_5",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.191578"
+}

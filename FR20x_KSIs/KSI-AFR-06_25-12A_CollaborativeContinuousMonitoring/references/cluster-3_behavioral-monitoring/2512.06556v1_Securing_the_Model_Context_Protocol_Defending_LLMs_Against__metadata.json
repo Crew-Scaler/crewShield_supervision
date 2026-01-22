@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2512.06556v1",
+  "title": "Securing the Model Context Protocol: Defending LLMs Against Tool Poisoning and Adversarial Attacks",
+  "authors": [
+    "Saeid Jamshidi",
+    "Kawser Wazed Nafi",
+    "Arghavan Moradi Dakhel",
+    "Negar Shahabi",
+    "Foutse Khomh"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.06556v1",
+  "relevance_score": 96.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring",
+    "autonomous systems"
+  ],
+  "summary": "The Model Context Protocol (MCP) enables Large Language Models to integrate external tools through structured descriptors, increasing autonomy in decision-making, task execution, and multi-agent workflows. However, this autonomy creates a largely overlooked security gap. Existing defenses focus on prompt-injection attacks and fail to address threats embedded in tool metadata, leaving MCP-based systems exposed to semantic manipulation. This work analyzes three classes of semantic attacks on MCP-i..."
+}

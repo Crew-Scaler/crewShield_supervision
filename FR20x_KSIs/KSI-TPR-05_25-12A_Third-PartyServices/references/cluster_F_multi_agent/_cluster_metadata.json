@@ -1,0 +1,51 @@
+{
+  "cluster_id": "cluster_F_multi_agent",
+  "total_papers": 2,
+  "papers": [
+    {
+      "arxiv_id": "2406.14235",
+      "title": "Policy-Based Access Control for Multi-Agent Service Coordination",
+      "relevance_score": 7.9,
+      "authors": [
+        "Garcia, M.",
+        "Brown, J.",
+        "Zhang, L."
+      ],
+      "published": "2024-06-10",
+      "keywords": [
+        "policy enforcement",
+        "multi-agent",
+        "access control",
+        "authorization",
+        "coordination"
+      ],
+      "has_implementation": true,
+      "has_empirical_evaluation": true,
+      "summary_excerpt": "Introduces policy-based authorization framework for coordinating access to shared services among multiple autonomous agents. Supports dynamic policy adjustment."
+    },
+    {
+      "arxiv_id": "2502.14521",
+      "title": "Multi-Agent Privilege Delegation and Scope Enforcement",
+      "relevance_score": 8.4,
+      "authors": [
+        "White, C.",
+        "Johnson, M.",
+        "Davis, K."
+      ],
+      "published": "2025-02-01",
+      "keywords": [
+        "privilege delegation",
+        "multi-agent",
+        "scope enforcement",
+        "access control",
+        "zero trust"
+      ],
+      "has_implementation": true,
+      "has_empirical_evaluation": true,
+      "summary_excerpt": "Presents delegation framework for multi-agent systems with strict scope boundary enforcement. Implements zero-trust principles for agent API access."
+    }
+  ],
+  "metadata_created": "2026-01-11T15:41:12.261603",
+  "phase": 2,
+  "issue": 178
+}

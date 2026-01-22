@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.24955v1",
+  "title": "MSACL: Multi-Step Actor-Critic Learning with Lyapunov Certificates for Exponentially Stabilizing Control",
+  "authors": [
+    "Yongwei Zhang",
+    "Yuanzhe Xing",
+    "Quan Quan",
+    "Zhikun She"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24955v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "Achieving provable stability in model-free reinforcement learning (RL) remains a challenge, particularly in balancing exploration with rigorous safety. This article introduces MSACL, a framework that integrates exponential stability theory with maximum entropy RL through multi-step Lyapunov certificate learning. Unlike methods relying on complex reward engineering, MSACL utilizes off-policy multi-step data to learn Lyapunov certificates satisfying theoretical stability conditions. By introducing..."
+}

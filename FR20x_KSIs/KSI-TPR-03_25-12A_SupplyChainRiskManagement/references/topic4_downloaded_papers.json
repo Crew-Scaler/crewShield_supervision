@@ -1,0 +1,291 @@
+[
+  {
+    "arxiv_id": "2512.21250v1",
+    "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+    "authors": [
+      "Haoyang Li",
+      "Mingjin Li",
+      "Jinxin Zuo",
+      "Siqi Li",
+      "Xiao Li",
+      "Hao Wu",
+      "Yueming Lu",
+      "Xiaochuan He"
+    ],
+    "abstract": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21250v1",
+    "categories": [
+      "cs.CR",
+      "cs.MA"
+    ],
+    "preferred_author": false,
+    "query": "backdoor detection neural network",
+    "relevance": "HIGH",
+    "relevance_score": 8,
+    "relevance_reasons": [
+      "supply_chain:backdoor",
+      "supply_chain:supply chain"
+    ],
+    "filename": "2512.21250v1_CoTDeceptorAdversarial_Code_Obfuscation_Against_CoT-Enhanced.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.21250v1_CoTDeceptorAdversarial_Code_Obfuscation_Against_CoT-Enhanced.pdf",
+    "page_count": 15
+  },
+  {
+    "arxiv_id": "2512.20865v1",
+    "title": "Robustness Certificates for Neural Networks against Adversarial Attacks",
+    "authors": [
+      "Sara Taheri",
+      "Mahalakshmi Sabanayagam",
+      "Debarghya Ghoshdastidar",
+      "Majid Zamani"
+    ],
+    "abstract": "The increasing use of machine learning in safety-critical domains amplifies the risk of adversarial threats, especially data poisoning attacks that corrupt training data to degrade performance or induce unsafe behavior. Most existing defenses lack formal guarantees or rely on restrictive assumptions about the model class, attack type, extent of poisoning, or point-wise certification, limiting their practical reliability. This paper introduces a principled formal robustness certification framework that models gradient-based training as a discrete-time dynamical system (dt-DS) and formulates poisoning robustness as a formal safety verification problem. By adapting the concept of barrier certificates (BCs) from control theory, we introduce sufficient conditions to certify a robust radius ensuring that the terminal model remains safe under worst-case ${\\ell}_p$-norm based poisoning. To make this practical, we parameterize BCs as neural networks trained on finite sets of poisoned trajectories. We further derive probably approximately correct (PAC) bounds by solving a scenario convex program (SCP), which yields a confidence lower bound on the certified robustness radius generalizing beyond the training set. Importantly, our framework also extends to certification against test-time attacks, making it the first unified framework to provide formal guarantees in both training and test-time attack settings. Experiments on MNIST, SVHN, and CIFAR-10 show that our approach certifies non-trivial perturbation budgets while being model-agnostic and requiring no prior knowledge of the attack or contamination level.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.20865v1",
+    "categories": [
+      "cs.LG",
+      "eess.SY"
+    ],
+    "preferred_author": false,
+    "query": "poisoning attack detection",
+    "relevance": "HIGH",
+    "relevance_score": 5,
+    "relevance_reasons": [
+      "supply_chain:poisoning",
+      "security:adversarial attack"
+    ],
+    "filename": "2512.20865v1_Robustness_Certificates_for_Neural_Networks_against_Adversar.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.20865v1_Robustness_Certificates_for_Neural_Networks_against_Adversar.pdf",
+    "page_count": 24
+  },
+  {
+    "arxiv_id": "2512.20806v1",
+    "title": "Safety Alignment of LMs via Non-cooperative Games",
+    "authors": [
+      "Anselm Paulus",
+      "Ilia Kulikov",
+      "Brandon Amos",
+      "R\u00e9mi Munos",
+      "Ivan Evtimov",
+      "Kamalika Chaudhuri",
+      "Arman Zharmagambetov"
+    ],
+    "abstract": "Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely on sequential adversarial training: generating adversarial prompts and fine-tuning LMs to defend against them. We introduce a different paradigm: framing safety alignment as a non-zero-sum game between an Attacker LM and a Defender LM trained jointly via online reinforcement learning. Each LM continuously adapts to the other's evolving strategies, driving iterative improvement. Our method uses a preference-based reward signal derived from pairwise comparisons instead of point-wise scores, providing more robust supervision and potentially reducing reward hacking. Our RL recipe, AdvGame, shifts the Pareto frontier of safety and utility, yielding a Defender LM that is simultaneously more helpful and more resilient to adversarial attacks. In addition, the resulting Attacker LM converges into a strong, general-purpose red-teaming agent that can be directly deployed to probe arbitrary target models.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20806v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "preferred_author": false,
+    "query": "adversarial backdoor",
+    "relevance": "HIGH",
+    "relevance_score": 4,
+    "relevance_reasons": [
+      "security:adversarial attack",
+      "security:safety alignment"
+    ],
+    "filename": "2512.20806v1_Safety_Alignment_of_LMs_via_Non-cooperative_Games.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.20806v1_Safety_Alignment_of_LMs_via_Non-cooperative_Games.pdf",
+    "page_count": 32
+  },
+  {
+    "arxiv_id": "2512.21236v1",
+    "title": "Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking",
+    "authors": [
+      "Yifan Huang",
+      "Xiaojun Jia",
+      "Wenbo Guo",
+      "Yuqiang Sun",
+      "Yihao Huang",
+      "Chong Wang",
+      "Yang Liu"
+    ],
+    "abstract": "Large language models (LLMs) have revolutionized software development through AI-assisted coding tools, enabling developers with limited programming expertise to create sophisticated applications. However, this accessibility extends to malicious actors who may exploit these powerful tools to generate harmful software. Existing jailbreaking research primarily focuses on general attack scenarios against LLMs, with limited exploration of malicious code generation as a jailbreak target. To address this gap, we propose SPELL, a comprehensive testing framework specifically designed to evaluate the weakness of security alignment in malicious code generation. Our framework employs a time-division selection strategy that systematically constructs jailbreaking prompts by intelligently combining sentences from a prior knowledge dataset, balancing exploration of novel attack patterns with exploitation of successful techniques. Extensive evaluation across three advanced code models (GPT-4.1, Claude-3.5, and Qwen2.5-Coder) demonstrates SPELL's effectiveness, achieving attack success rates of 83.75%, 19.38%, and 68.12% respectively across eight malicious code categories. The generated prompts successfully produce malicious code in real-world AI development tools such as Cursor, with outputs confirmed as malicious by state-of-the-art detection systems at rates exceeding 73%. These findings reveal significant security gaps in current LLM implementations and provide valuable insights for improving AI safety alignment in code generation applications.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21236v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.SE"
+    ],
+    "preferred_author": false,
+    "query": "backdoor detection neural network",
+    "relevance": "HIGH",
+    "relevance_score": 4,
+    "relevance_reasons": [
+      "security:safety alignment",
+      "security:jailbreak"
+    ],
+    "filename": "2512.21236v1_Casting_a_SPELL_Sentence_Pairing_Exploration_for_LLM_Limitat.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.21236v1_Casting_a_SPELL_Sentence_Pairing_Exploration_for_LLM_Limitat.pdf",
+    "page_count": 21
+  },
+  {
+    "arxiv_id": "2512.19297v1",
+    "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+    "authors": [
+      "Linzhi Chen",
+      "Yang Sun",
+      "Hongru Wei",
+      "Yuqi Chen"
+    ],
+    "abstract": "Low-Rank Adaptation (LoRA) has emerged as an efficient method for fine-tuning large language models (LLMs) and is widely adopted within the open-source community. However, the decentralized dissemination of LoRA adapters through platforms such as Hugging Face introduces novel security vulnerabilities: malicious adapters can be easily distributed and evade conventional oversight mechanisms. Despite these risks, backdoor attacks targeting LoRA-based fine-tuning remain relatively underexplored. Existing backdoor attack strategies are ill-suited to this setting, as they often rely on inaccessible training data, fail to account for the structural properties unique to LoRA, or suffer from high false trigger rates (FTR), thereby compromising their stealth. To address these challenges, we propose Causal-Guided Detoxify Backdoor Attack (CBA), a novel backdoor attack framework specifically designed for open-weight LoRA models. CBA operates without access to original training data and achieves high stealth through two key innovations: (1) a coverage-guided data generation pipeline that synthesizes task-aligned inputs via behavioral exploration, and (2) a causal-guided detoxification strategy that merges poisoned and clean adapters by preserving task-critical neurons. Unlike prior approaches, CBA enables post-training control over attack intensity through causal influence-based weight allocation, eliminating the need for repeated retraining. Evaluated across six LoRA models, CBA achieves high attack success rates while reducing FTR by 50-70\\% compared to baseline methods. Furthermore, it demonstrates enhanced resistance to state-of-the-art backdoor defenses, highlighting its stealth and robustness.",
+    "published": "2025-12-22",
+    "pdf_url": "https://arxiv.org/pdf/2512.19297v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "preferred_author": false,
+    "query": "adversarial backdoor",
+    "relevance": "HIGH",
+    "relevance_score": 3,
+    "relevance_reasons": [
+      "supply_chain:backdoor"
+    ],
+    "filename": "2512.19297v1_Causal-Guided_Detoxify_Backdoor_Attack_of_Open-Weight_LoRA_M.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.19297v1_Causal-Guided_Detoxify_Backdoor_Attack_of_Open-Weight_LoRA_M.pdf",
+    "page_count": 18
+  },
+  {
+    "arxiv_id": "2512.19286v1",
+    "title": "GShield: Mitigating Poisoning Attacks in Federated Learning",
+    "authors": [
+      "Sameera K. M.",
+      "Serena Nicolazzo",
+      "Antonino Nocera",
+      "Vinod P.",
+      "Rafidha Rehiman K. A"
+    ],
+    "abstract": "Federated Learning (FL) has recently emerged as a revolutionary approach to collaborative training Machine Learning models. In particular, it enables decentralized model training while preserving data privacy, but its distributed nature makes it highly vulnerable to a severe attack known as Data Poisoning. In such scenarios, malicious clients inject manipulated data into the training process, thereby degrading global model performance or causing targeted misclassification. In this paper, we present a novel defense mechanism called GShield, designed to detect and mitigate malicious and low-quality updates, especially under non-independent and identically distributed (non-IID) data scenarios. GShield operates by learning the distribution of benign gradients through clustering and Gaussian modeling during an initial round, enabling it to establish a reliable baseline of trusted client behavior. With this benign profile, GShield selectively aggregates only those updates that align with the expected gradient patterns, effectively isolating adversarial clients and preserving the integrity of the global model. An extensive experimental campaign demonstrates that our proposed defense significantly improves model robustness compared to the state-of-the-art methods while maintaining a high accuracy of performance across both tabular and image datasets. Furthermore, GShield improves the accuracy of the targeted class by 43\\% to 65\\% after detecting malicious and low-quality clients.",
+    "published": "2025-12-22",
+    "pdf_url": "https://arxiv.org/pdf/2512.19286v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "adversarial backdoor",
+    "relevance": "HIGH",
+    "relevance_score": 3,
+    "relevance_reasons": [
+      "supply_chain:poisoning"
+    ],
+    "filename": "2512.19286v1_GShield_Mitigating_Poisoning_Attacks_in_Federated_Learning.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.19286v1_GShield_Mitigating_Poisoning_Attacks_in_Federated_Learning.pdf",
+    "page_count": 15
+  },
+  {
+    "arxiv_id": "2512.19317v1",
+    "title": "SafeMed-R1: Adversarial Reinforcement Learning for Generalizable and Robust Medical Reasoning in Vision-Language Models",
+    "authors": [
+      "A. A. Gde Yogi Pramana",
+      "Jason Ray",
+      "Anthony Jaya",
+      "Michael Wijaya"
+    ],
+    "abstract": "Vision--Language Models (VLMs) show significant promise for Medical Visual Question Answering (VQA), yet their deployment in clinical settings is hindered by severe vulnerability to adversarial attacks. Standard adversarial training, while effective for simpler tasks, often degrades both generalization performance and the quality of generated clinical reasoning. We introduce SafeMed-R1, a hybrid defense framework that ensures robust performance while preserving high-quality, interpretable medical reasoning. SafeMed-R1 employs a two-stage approach: at training time, we integrate Adversarial Training with Group Relative Policy Optimization (AT-GRPO) to explicitly robustify the reasoning process against worst-case perturbations; at inference time, we augment the model with Randomized Smoothing to provide certified $L_2$-norm robustness guarantees. We evaluate SafeMed-R1 on the OmniMedVQA benchmark across eight medical imaging modalities comprising over 88,000 samples. Our experiments reveal that standard fine-tuned VLMs, despite achieving 95\\% accuracy on clean inputs, collapse to approximately 25\\% under PGD attacks. In contrast, SafeMed-R1 maintains 84.45\\% accuracy under the same adversarial conditions, representing a 59 percentage point improvement in robustness. Furthermore, we demonstrate that models trained with explicit chain-of-thought reasoning exhibit superior adversarial robustness compared to instruction-only variants, suggesting a synergy between interpretability and security in medical AI systems.",
+    "published": "2025-12-22",
+    "pdf_url": "https://arxiv.org/pdf/2512.19317v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "preferred_author": false,
+    "query": "adversarial backdoor",
+    "relevance": "HIGH",
+    "relevance_score": 3,
+    "relevance_reasons": [
+      "security:adversarial attack",
+      "defense:adversarial robustness"
+    ],
+    "filename": "2512.19317v1_SafeMed-R1_Adversarial_Reinforcement_Learning_for_Generaliza.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.19317v1_SafeMed-R1_Adversarial_Reinforcement_Learning_for_Generaliza.pdf",
+    "page_count": 19
+  },
+  {
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "authors": [
+      "Rahul Yumlembam",
+      "Biju Issac",
+      "Seibu Mary Jacob",
+      "Longzhi Yang"
+    ],
+    "abstract": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20004v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "adversarial backdoor",
+    "relevance": "HIGH",
+    "relevance_score": 3,
+    "relevance_reasons": [
+      "security:adversarial attack",
+      "defense:adversarial defense"
+    ],
+    "filename": "2512.20004v1_IoT-based_Android_Malware_Detection_Using_Graph_Neural_Netwo.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.20004v1_IoT-based_Android_Malware_Detection_Using_Graph_Neural_Netwo.pdf",
+    "page_count": 13
+  },
+  {
+    "arxiv_id": "2512.20168v1",
+    "title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+    "authors": [
+      "Songze Li",
+      "Jiameng Cheng",
+      "Yiming Li",
+      "Xiaojun Jia",
+      "Dacheng Tao"
+    ],
+    "abstract": "By integrating language understanding with perceptual modalities such as images, multimodal large language models (MLLMs) constitute a critical substrate for modern AI systems, particularly intelligent agents operating in open and interactive environments. However, their increasing accessibility also raises heightened risks of misuse, such as generating harmful or unsafe content. To mitigate these risks, alignment techniques are commonly applied to align model behavior with human values. Despite these efforts, recent studies have shown that jailbreak attacks can circumvent alignment and elicit unsafe outputs. Currently, most existing jailbreak methods are tailored for open-source models and exhibit limited effectiveness against commercial MLLM-integrated systems, which often employ additional filters. These filters can detect and prevent malicious input and output content, significantly reducing jailbreak threats. In this paper, we reveal that the success of these safety filters heavily relies on a critical assumption that malicious content must be explicitly visible in either the input or the output. This assumption, while often valid for traditional LLM-integrated systems, breaks down in MLLM-integrated systems, where attackers can leverage multiple modalities to conceal adversarial intent, leading to a false sense of security in existing MLLM-integrated systems. To challenge this assumption, we propose Odysseus, a novel jailbreak paradigm that introduces dual steganography to covertly embed malicious queries and responses into benign-looking images. Extensive experiments on benchmark datasets demonstrate that our Odysseus successfully jailbreaks several pioneering and realistic MLLM-integrated systems, achieving up to 99% attack success rate. It exposes a fundamental blind spot in existing defenses, and calls for rethinking cross-modal security in MLLM-integrated systems.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20168v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "adversarial backdoor",
+    "relevance": "MEDIUM",
+    "relevance_score": 2,
+    "relevance_reasons": [
+      "security:jailbreak"
+    ],
+    "filename": "2512.20168v1_Odysseus_Jailbreaking_Commercial_Multimodal_LLM-integrated_S.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.20168v1_Odysseus_Jailbreaking_Commercial_Multimodal_LLM-integrated_S.pdf",
+    "page_count": 21
+  },
+  {
+    "arxiv_id": "2512.21048v1",
+    "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+    "authors": [
+      "Savvy Sharma",
+      "George Petrovic",
+      "Sarthak Kaushik"
+    ],
+    "abstract": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. We present zkFL-Health, an architecture that combines FL with zero-knowledge proofs (ZKPs) and Trusted Execution Environments (TEEs) to deliver privacy-preserving, verifiably correct collaborative training for medical AI. Clients locally train and commit their updates; the aggregator operates within a TEE to compute the global update and produces a succinct ZK proof (via Halo2/Nova) that it used exactly the committed inputs and the correct aggregation rule, without revealing any client update to the host. Verifier nodes validate the proof and record cryptographic commitments on-chain, providing an immutable audit trail and removing the need to trust any single party. We outline system and threat models tailored to healthcare, the zkFL-Health protocol, security/privacy guarantees, and a performance evaluation plan spanning accuracy, privacy risk, latency, and cost. This framework enables multi-institutional medical AI with strong confidentiality, integrity, and auditability, key properties for clinical adoption and regulatory compliance.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21048v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "prompt injection attack",
+    "relevance": "MEDIUM",
+    "relevance_score": 2,
+    "relevance_reasons": [
+      "security:membership inference"
+    ],
+    "filename": "2512.21048v1_zkFL-Health_Blockchain-Enabled_Zero-Knowledge_Federated_Lear.pdf",
+    "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-TPR-03_25-12A_SupplyChainRiskManagement/references/2512.21048v1_zkFL-Health_Blockchain-Enabled_Zero-Knowledge_Federated_Lear.pdf",
+    "page_count": 7
+  }
+]

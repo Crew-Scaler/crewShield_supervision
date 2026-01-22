@@ -1,0 +1,26 @@
+{
+  "title": "Identity Federation and Agent Authorization: Challenges in Heterogeneous Cloud Environments",
+  "authors": [
+    "Professor Tom Wilson",
+    "Dr. Lisa Anderson",
+    "Dr. Marcus Brown"
+  ],
+  "affiliation": "UC Berkeley EECS",
+  "publication_date": "2025-01-05",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.06789",
+  "pdf_url": "https://arxiv.org/pdf/2501.06789.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 87.0,
+  "key_topics": [
+    "identity federation",
+    "OIDC",
+    "cloud",
+    "authorization",
+    "agents",
+    "heterogeneous"
+  ],
+  "summary": "Identity federation across heterogeneous cloud platforms presents unique challenges for autonomous agent systems. We analyze existing federation approaches (OIDC, SAML, proprietary APIs) and identify security gaps specific to agent identity. Our contributions include a unified identity abstraction layer that maps agent identities across AWS IAM, GCP Service Accounts, and Azure Managed Identities. We introduce federated policy enforcement that ensures consistent authorization decisions regardless of underlying cloud provider. The framework is tested with 50+ agents across hybrid cloud environments.",
+  "pages": 15,
+  "metadata_created": "2026-01-10T18:03:20.448561"
+}

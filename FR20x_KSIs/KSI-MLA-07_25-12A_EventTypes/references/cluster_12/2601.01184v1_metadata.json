@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2601.01184v1",
+  "title": "SecureCodeRL: Security-Aware Reinforcement Learning for Code Generation with Partial-Credit Rewards",
+  "published": "2026-01-03T13:36:36Z",
+  "summary": "Large Language Models (LLMs) can generate plausible code, but in settings that require exact stdin/stdout behavior they frequently produce programs that compile yet fail tests, and in some cases they introduce security-sensitive patterns. This paper presents SecureCodeRL, a reinforcement learning (RL) pipeline for security-aware code generation that optimizes a combined reward R = \u03b1Rfunc + \\b{eta}Rsec. The key idea is a partial-credit functional reward that assigns intermediate scores for syntac",
+  "category": "cs.CR",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2601.01184v1",
+  "cluster": 12,
+  "issue": 172,
+  "downloaded_at": "2026-01-11T10:27:41.324424"
+}

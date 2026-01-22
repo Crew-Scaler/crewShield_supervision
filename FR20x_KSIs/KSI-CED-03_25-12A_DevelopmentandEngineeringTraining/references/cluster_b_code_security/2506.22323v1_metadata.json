@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2506.22323v1",
+  "title": "Under the Hood of BlotchyQuasar: DLL-Based RAT Campaigns Against Latin America",
+  "authors": [
+    "Alessio Di Santo"
+  ],
+  "published": "2025-06-27T15:36:10Z",
+  "url": "http://arxiv.org/abs/2506.22323v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.22323v1.pdf",
+  "relevance_score": 70,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "A sophisticated malspam campaign was recently uncovered targeting Latin American countries, with a particular focus on Brazil. This operation utilizes a highly deceptive phishing email to trick users into executing a malicious MSI file, initiating a multi-stage infection. The core of the attack leverages DLL side-loading, where a legitimate executable from Valve Corporation is used to load a trojanized DLL, thereby bypassing standard security defenses.\n  Once active, the malware, a variant of Qu"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2509.13107v1",
+  "title": "Hierarchical Deep Fusion Framework for Multi-dimensional Facial Forgery Detection - The 2024 Global Deepfake Image Detection Challenge",
+  "authors": [
+    "Kohou Wang",
+    "Huan Hu",
+    "Xiang Liu",
+    "Zezhou Chen",
+    "Ping Chen",
+    "Zhaoxiang Liu",
+    "Shiguo Lian"
+  ],
+  "published": "2025-09-16T14:06:54Z",
+  "url": "http://arxiv.org/abs/2509.13107v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.13107v1.pdf",
+  "relevance_score": 97,
+  "summary": "The proliferation of sophisticated deepfake technology poses significant challenges to digital security and authenticity. Detecting these forgeries, especially across a wide spectrum of manipulation techniques, requires robust and generalized models. This paper introduces the Hierarchical Deep Fusion Framework (HDFF), an ensemble-based deep learning architecture designed for high-performance facial forgery detection. Our framework integrates four diverse pre-trained sub-models, Swin-MLP, CoAtNet, EfficientNetV2, and DaViT, which are meticulously fine-tuned through a multi-stage process on the MultiFFDI dataset. By concatenating the feature representations from these specialized models and training a final classifier layer, HDFF effectively leverages their collective strengths. This approach achieved a final score of 0.96852 on the competition's private leaderboard, securing the 20th position out of 184 teams, demonstrating the efficacy of hierarchical fusion for complex image classification tasks."
+}

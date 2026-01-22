@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.10071v1",
+  "title": "ADEPT: Continual Pretraining via Adaptive Expansion and Dynamic Decoupled Tuning",
+  "authors": [
+    "Jinyang Zhang",
+    "Yue Fang",
+    "Hongxin Ding",
+    "Weibin Liao",
+    "Muyang Ye",
+    "Xu Chu",
+    "Junfeng Zhao",
+    "Yasha Wang"
+  ],
+  "published": "2025-10-11T07:14:50Z",
+  "url": "http://arxiv.org/abs/2510.10071v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.10071v1.pdf",
+  "relevance_score": 97,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Conventional continual pretraining (CPT) for large language model (LLM) domain adaptation often suffers from catastrophic forgetting and limited domain capacity. Existing strategies adopt layer expansion, introducing additional trainable parameters to accommodate new knowledge. However, the uniform expansion and updates still entangle general and domain learning, undermining its effectiveness. Our pilot studies reveal that LLMs exhibit functional specialization, where layers and units differenti"
+}

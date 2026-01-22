@@ -1,0 +1,28 @@
+{
+  "title": "DoLLM: How Large Language Models Understanding Network Flow Data to Detect Carpet Bombing DDoS",
+  "authors": [
+    "Qingyang Li",
+    "Yihang Zhang",
+    "Zhidong Jia",
+    "Yannan Hu",
+    "Lei Zhang",
+    "Jianrong Zhang",
+    "Yongming Xu",
+    "Yong Cui",
+    "Zongming Guo",
+    "Xinggong Zhang"
+  ],
+  "published": "2024-05-13T10:53:41+00:00",
+  "arxiv_id": "2405.07638v1",
+  "abstract": "It is an interesting question Can and How Large Language Models (LLMs) understand non-language network data, and help us detect unknown malicious flows. This paper takes Carpet Bombing as a case study and shows how to exploit LLMs' powerful capability in the networking area. Carpet Bombing is a new DDoS attack that has dramatically increased in recent years, significantly threatening network infrastructures. It targets multiple victim IPs within subnets, causing congestion on access links and disrupting network services for a vast number of users. Characterized by low-rates, multi-vectors, these attacks challenge traditional DDoS defenses. We propose DoLLM, a DDoS detection model utilizes open-source LLMs as backbone. By reorganizing non-contextual network flows into Flow-Sequences and projecting them into LLMs semantic space as token embeddings, DoLLM leverages LLMs' contextual understanding to extract flow representations in overall network context. The representations are used to improve the DDoS detection performance. We evaluate DoLLM with public datasets CIC-DDoS2019 and real NetFlow trace from Top-3 countrywide ISP. The tests have proven that DoLLM possesses strong detection capabilities. Its F1 score increased by up to 33.3% in zero-shot scenarios and by at least 20.6% in real ISP traces.",
+  "categories": [
+    "cs.NI",
+    "cs.AI",
+    "cs.CR"
+  ],
+  "relevance_score": 14.5,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2405.07638v1",
+  "downloaded": "2025-12-11T08:25:22.256944"
+}

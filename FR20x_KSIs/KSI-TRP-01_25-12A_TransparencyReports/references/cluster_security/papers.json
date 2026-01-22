@@ -1,0 +1,408 @@
+[
+  {
+    "arxiv_id": "2510.23673",
+    "title": "MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers",
+    "summary": "The Model Context Protocol (MCP) has emerged as a standardized interface enabling seamless integration between Large Language Models (LLMs) and external data sources and tools. While MCP significantly reduces development complexity and enhances agent capabilities, its openness and extensibility introduce critical security vulnerabilities that threaten system trustworthiness and user data protection. This paper systematically analyzes the security landscape of MCP-based systems, identifying three principal threat categories: (1) agent hijacking attacks stemming from protocol design deficiencies; (2) traditional web vulnerabilities in MCP servers; and (3) supply chain security. To address these challenges, we comprehensively survey existing defense strategies, examining both proactive server-side scanning approaches, ranging from layered detection pipelines and agentic auditing frameworks to zero-trust registry systems, and runtime interaction monitoring solutions that provide continuous oversight and policy enforcement. Our analysis reveals that MCP security fundamentally represents a paradigm shift where the attack surface extends from traditional code execution to semantic interpretation of natural language metadata, necessitating novel defense mechanisms tailored to this unique threat model.",
+    "authors": [
+      "Bin Wang",
+      "Zexin Liu",
+      "Hao Yu",
+      "Ao Yang",
+      "Yenan Huang"
+    ],
+    "published": "2025-10-27T05:12:51Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 67.0
+  },
+  {
+    "arxiv_id": "2601.03287",
+    "title": "Automated Post-Incident Policy Gap Analysis via Threat-Informed Evidence Mapping using Large Language Models",
+    "summary": "Cybersecurity post-incident reviews are essential for identifying control failures and improving organisational resilience, yet they remain labour-intensive, time-consuming, and heavily reliant on expert judgment. This paper investigates whether Large Language Models (LLMs) can augment post-incident review workflows by autonomously analysing system evidence and identifying security policy gaps. We present a threat-informed, agentic framework that ingests log data, maps observed behaviours to the MITRE ATT&amp;CK framework, and evaluates organisational security policies for adequacy and compliance. Using a simulated brute-force attack scenario against a Windows OpenSSH service (MITRE ATT&amp;CK T1110), the system leverages GPT-4o for reasoning, LangGraph for multi-agent workflow orchestration, and LlamaIndex for traceable policy retrieval. Experimental results indicate that the LLM-based pipeline can interpret log-derived evidence, identify insufficient or missing policy controls, and generate actionable remediation recommendations with explicit evidence-to-policy traceability. Unlike prior work that treats log analysis and policy validation as isolated tasks, this study integrates both into a unified end-to-end proof-of-concept post-incident review framework. The findings suggest that LLM-assisted analysis has the potential to improve the efficiency, consistency, and auditability of post-incident evaluations, while highlighting the continued need for human oversight in high-stakes cybersecurity decision-making.",
+    "authors": [
+      "Huan Lin Oh",
+      "Jay Yong Jun Jie",
+      "Mandy Lee Ling Siu",
+      "Jonathan Pan"
+    ],
+    "published": "2026-01-04T01:39:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2512.23132",
+    "title": "Multi-Agent Framework for Threat Mitigation and Resilience in AI-Based Systems",
+    "summary": "Machine learning (ML) underpins foundation models in finance, healthcare, and critical infrastructure, making them targets for data poisoning, model extraction, prompt injection, automated jailbreaking, and preference-guided black-box attacks that exploit model comparisons. Larger models can be more vulnerable to introspection-driven jailbreaks and cross-modal manipulation. Traditional cybersecurity lacks ML-specific threat modeling for foundation, multimodal, and RAG systems. Objective: Characterize ML security risks by identifying dominant TTPs, vulnerabilities, and targeted lifecycle stages. Methods: We extract 93 threats from MITRE ATLAS (26), AI Incident Database (12), and literature (55), and analyze 854 GitHub/Python repositories. A multi-agent RAG system (ChatGPT-4o, temp 0.4) mines 300+ articles to build an ontology-driven threat graph linking TTPs, vulnerabilities, and stages. Results: We identify unreported threats including commercial LLM API model stealing, parameter memorization leakage, and preference-guided text-only jailbreaks. Dominant TTPs include MASTERKEY-style jailbreaking, federated poisoning, diffusion backdoors, and preference optimization leakage, mainly impacting pre-training and inference. Graph analysis reveals dense vulnerability clusters in libraries with poor patch propagation. Conclusion: Adaptive, ML-specific security frameworks, combining dependency hygiene, threat intelligence, and monitoring, are essential to mitigate supply-chain and inference risks across the ML lifecycle.",
+    "authors": [
+      "Armstrong Foundjem",
+      "Lionel Nganyewou Tidjon",
+      "Leuson Da Silva",
+      "Foutse Khomh"
+    ],
+    "published": "2025-12-29T01:27:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2511.15097",
+    "title": "MAIF: Enforcing AI Trust and Provenance with an Artifact-Centric Agentic Paradigm",
+    "summary": "The AI trustworthiness crisis threatens to derail the artificial intelligence revolution, with regulatory barriers, security vulnerabilities, and accountability gaps preventing deployment in critical domains. Current AI systems operate on opaque data structures that lack the audit trails, provenance tracking, or explainability required by emerging regulations like the EU AI Act. We propose an artifact-centric AI agent paradigm where behavior is driven by persistent, verifiable data artifacts rather than ephemeral tasks, solving the trustworthiness problem at the data architecture level. Central to this approach is the Multimodal Artifact File Format (MAIF), an AI-native container embedding semantic representations, cryptographic provenance, and granular access controls. MAIF transforms data from passive storage into active trust enforcement, making every AI operation inherently auditable. Our production-ready implementation demonstrates ultra-high-speed streaming (2,720.7 MB/s), optimized video processing (1,342 MB/s), and enterprise-grade security. Novel algorithms for cross-modal attention, semantic compression, and cryptographic binding achieve up to 225 compression while maintaining semantic fidelity. Advanced security features include stream-level access control, real-time tamper detection, and behavioral anomaly analysis with minimal overhead. This approach directly addresses the regulatory, security, and accountability challenges preventing AI deployment in sensitive domains, offering a viable path toward trustworthy AI systems at scale.",
+    "authors": [
+      "Vineeth Sai Narajala",
+      "Manish Bhatt",
+      "Idan Habler",
+      "Ronald F. Del Rosario",
+      "Ads Dawson"
+    ],
+    "published": "2025-11-19T04:10:32Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2512.13430",
+    "title": "Weak Enforcement and Low Compliance in PCI~DSS: A Comparative Security Study",
+    "summary": "Although credit and debit card data continue to be a prime target for attackers, organizational adherence to the Payment Card Industry Data Security Standard (PCI DSS) remains surprisingly low. Despite prior work showing that PCI DSS can reduce card fraud, only 32.4% of organizations were fully compliant in 2022, suggesting possible deficiencies in enforcement mechanisms. This study compares PCI DSS with three data security frameworks, HIPAA, NIS2, and GDPR, to examine how enforcement mechanisms relate to implementation success. The analysis reveals that PCI DSS significantly lags far behind these security frameworks and that its sanctions are orders of magnitude smaller than those under GDPR and NIS2. The findings indicate a positive association between stronger, multi-modal enforcement (including public disclosure, license actions, and imprisonment) and higher implementation rates, and highlights the structural weakness of PCI DSS's bank-dependent monitoring model. Enhanced non-monetary sanctions and the creation of an independent supervisory authority are recommended to increase transparency, reduce conflicts of interest, and improve PCI DSS compliance without discouraging card acceptance.",
+    "authors": [
+      "Soonwon Park",
+      "John D. Hastings"
+    ],
+    "published": "2025-12-15T15:19:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2511.08352",
+    "title": "Endpoint Security Agent: A Comprehensive Approach to Real-time System Monitoring and Threat Detection",
+    "summary": "As cyber threats continue to evolve in complexity and frequency, robust endpoint protection is essential for organizational security. This paper presents \"Endpoint Security Agent: A Comprehensive Approach to Real-time System Monitoring and Threat Detection\" a modular, real-time security solution for Windows endpoints. The agent leverages native tools like WMI and ETW for lowlevel monitoring of system activities such as process execution, registry modifications, and network behaviour. A machine learning-based detection engine, trained on labelled datasets of benign and malicious activity, enables accurate threat identification with minimal false positives. Detection techniques are mapped to the MITRE ATT&amp;CK framework for standardized threat classification. Designed for extensibility, the system includes a centralized interface for alerting and forensic analysis. Preliminary evaluation shows promising results in detecting diverse attack vectors with high accuracy and efficiency.",
+    "authors": [
+      "Srihari R",
+      "Ayesha Taranum",
+      " Karthik",
+      "Mohammed Usman Hussain"
+    ],
+    "published": "2025-11-11T15:28:54Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2511.12668",
+    "title": "AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) Framework",
+    "summary": "Assurance for artificial intelligence (AI) systems remains fragmented across software supply-chain security, adversarial machine learning, and governance documentation. Existing transparency mechanisms - including Model Cards, Datasheets, and Software Bills of Materials (SBOMs) - advance provenance reporting but rarely provide verifiable, machine-readable evidence of model security. This paper introduces the AI Risk Scanning (AIRS) Framework, a threat-model-based, evidence-generating framework designed to operationalize AI assurance. The AIRS Framework evolved through three progressive pilot studies - Smurf (AIBOM schema design), OPAL (operational validation), and Pilot C (AIRS) - that reframed AI documentation from descriptive disclosure toward measurable, evidence-bound verification. The framework aligns its assurance fields to the MITRE ATLAS adversarial ML taxonomy and automatically produces structured artifacts capturing model integrity, packaging and serialization safety, structural adapters, and runtime behaviors. Currently, the AIRS Framework is scoped to provide model-level assurances for LLMs, but it could be expanded to include other modalities and cover system-level threats (e.g. application-layer abuses, tool-calling). A proof-of-concept on a quantized GPT-OSS-20B model demonstrates enforcement of safe loader policies, per-shard hash verification, and contamination and backdoor probes executed under controlled runtime conditions. Comparative analysis with SBOM standards of SPDX 3.0 and CycloneDX 1.6 reveals alignment on identity and evaluation metadata, but identifies critical gaps in representing AI-specific assurance fields. The AIRS Framework thus extends SBOM practice to the AI domain by coupling threat modeling with automated, auditable evidence generation, providing a principled foundation for standardized, trustworthy, and machine-verifiable AI risk documentation.",
+    "authors": [
+      "Samuel Nathanson",
+      "Alexander Lee",
+      "Catherine Chen Kieffer",
+      "Jared Junkin",
+      "Jessica Ye"
+    ],
+    "published": "2025-11-16T16:10:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2601.00867",
+    "title": "The Silicon Psyche: Anthropomorphic Vulnerabilities in Large Language Models",
+    "summary": "Large Language Models (LLMs) are rapidly transitioning from conversational assistants to autonomous agents embedded in critical organizational functions, including Security Operations Centers (SOCs), financial systems, and infrastructure management. Current adversarial testing paradigms focus predominantly on technical attack vectors: prompt injection, jailbreaking, and data exfiltration. We argue this focus is catastrophically incomplete. LLMs, trained on vast corpora of human-generated text, have inherited not merely human knowledge but human \\textit{psychological architecture} -- including the pre-cognitive vulnerabilities that render humans susceptible to social engineering, authority manipulation, and affective exploitation. This paper presents the first systematic application of the Cybersecurity Psychology Framework (\\cpf{}), a 100-indicator taxonomy of human psychological vulnerabilities, to non-human cognitive agents. We introduce the \\textbf{Synthetic Psychometric Assessment Protocol} (\\sysname{}), a methodology for converting \\cpf{} indicators into adversarial scenarios targeting LLM decision-making. Our preliminary hypothesis testing across seven major LLM families reveals a disturbing pattern: while models demonstrate robust defenses against traditional jailbreaks, they exhibit critical susceptibility to authority-gradient manipulation, temporal pressure exploitation, and convergent-state attacks that mirror human cognitive failure modes. We term this phenomenon \\textbf{Anthropomorphic Vulnerability Inheritance} (AVI) and propose that the security community must urgently develop ``psychological firewalls'' -- intervention mechanisms adapted from the Cybersecurity Psychology Intervention Framework (\\cpif{}) -- to protect AI agents operating in adversarial environments.",
+    "authors": [
+      "Giuseppe Canale",
+      "Kashyap Thimmaraju"
+    ],
+    "published": "2025-12-30T13:25:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.02654",
+    "title": "Cybersecurity AI: The World's Top AI Agent for Security Capture-the-Flag (CTF)",
+    "summary": "Are Capture-the-Flag competitions obsolete? In 2025, Cybersecurity AI (CAI) systematically conquered some of the world's most prestigious hacking competitions, achieving Rank #1 at multiple events and consistently outperforming thousands of human teams. Across five major circuits-HTB's AI vs Humans, Cyber Apocalypse (8,129 teams), Dragos OT CTF, UWSP Pointer Overflow, and the Neurogrid CTF showdown-CAI demonstrated that Jeopardy-style CTFs have become a solved game for well-engineered AI agents. At Neurogrid, CAI captured 41/45 flags to claim the $50,000 top prize; at Dragos OT, it sprinted 37% faster to 10K points than elite human teams; even when deliberately paused mid-competition, it maintained top-tier rankings. Critically, CAI achieved this dominance through our specialized alias1 model architecture, which delivers enterprise-scale AI security operations at unprecedented cost efficiency and with augmented autonomy-reducing 1B token inference costs from $5,940 to just $119, making continuous security agent operation financially viable for the first time. These results force an uncomfortable reckoning: if autonomous agents now dominate competitions designed to identify top security talent at negligible cost, what are CTFs actually measuring? This paper presents comprehensive evidence of AI capability across the 2025 CTF circuit and argues that the security community must urgently transition from Jeopardy-style contests to Attack &amp; Defense formats that genuinely test adaptive reasoning and resilience-capabilities that remain uniquely human, for now.",
+    "authors": [
+      "V\u00edctor Mayoral-Vilches",
+      "Luis Javier Navarrete-Lozano",
+      "Francesco Balassone",
+      "Mar\u00eda Sanz-G\u00f3mez",
+      "Crist\u00f3bal R. J. Veas Chavez"
+    ],
+    "published": "2025-12-02T11:15:44Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2511.13641",
+    "title": "It's a Feature, Not a Bug: Secure and Auditable State Rollback for Confidential Cloud Applications",
+    "summary": "Replay and rollback attacks threaten cloud application integrity by reintroducing authentic yet stale data through an untrusted storage interface to compromise application decision-making. Prior security frameworks mitigate these attacks by enforcing forward-only state transitions (state continuity) with hardware-backed mechanisms, but they categorically treat all rollback as malicious and thus preclude legitimate rollbacks used for operational recovery from corruption or misconfiguration. We present Rebound, a general-purpose security framework that preserves rollback protection while enabling policy-authorized legitimate rollbacks of application binaries, configuration, and data. Key to Rebound is a reference monitor that mediates state transitions, enforces authorization policy, guarantees atomicity of state updates and rollbacks, and emits a tamper-evident log that provides transparency to applications and auditors. We formally prove Rebound's security properties and show through an application case study -- with software deployment workflows in GitLab CI -- that it enables robust control over binary, configuration, and raw data versioning with low end-to-end overhead.",
+    "authors": [
+      "Quinn Burke",
+      "Anjo Vahldiek-Oberwagner",
+      "Michael Swift",
+      "Patrick McDaniel"
+    ],
+    "published": "2025-11-17T17:53:47Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2510.25375",
+    "title": "From ECU to VSOC: UDS Security Monitoring Strategies",
+    "summary": "Increasing complexity and connectivity of modern vehicles have heightened their vulnerability to cyberattacks. This paper addresses security challenges associated with the Unified Diagnostic Services (UDS) protocol, a critical communication framework for vehicle diagnostics in the automotive industry. We present security monitoring strategies for the UDS protocol that leverage in-vehicle logging and remote analysis through a Vehicle Security Operations Center (VSOC). Our approach involves specifying security event logging requirements, contextual data collection, and the development of detection strategies aimed at identifying UDS attack scenarios. By applying these strategies to a comprehensive taxonomy of UDS attack techniques, we demonstrate that our detection methods cover a wide range of potential attack vectors. Furthermore, we assess the adequacy of current AUTOSAR standardized security events in supporting UDS attack detection, identifying gaps in the current standard. This work enhances the understanding of vehicle security monitoring and provides an example for developing robust cybersecurity measures in automotive communication protocols.",
+    "authors": [
+      "Ali Recai Yekta",
+      "Nicolas Loza",
+      "Jens Gramm",
+      "Michael Peter Schneider",
+      "Stefan Katzenbeisser"
+    ],
+    "published": "2025-10-29T10:45:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2510.19883",
+    "title": "A Proactive Insider Threat Management Framework Using Explainable Machine Learning",
+    "summary": "Over the years, the technological landscape has evolved, reshaping the security posture of organisations and increasing their exposure to cybersecurity threats, many originating from within. Insider threats remain a major challenge, particularly in sectors where cybersecurity infrastructure, expertise, and regulations are still developing. This study proposes the Insider Threat Explainable Machine Learning (IT-XML) framework, which integrates the Cross-Industry Standard Process for Data Mining (CRISP-DM) with Hidden Markov Models (HMM) to enhance proactive insider threat management and decision-making. A quantitative approach is adopted using an online questionnaire to assess employees' knowledge of insider threat patterns, access control, privacy practices, and existing policies across three large data-sensitive organisations. The IT-XML framework provides assessment capabilities through survey-based data, HMM-driven pattern recognition for security maturity classification, and evidence-based recommendations for proactive threat mitigation. The framework classified all organisations at the developing security maturity level with 97-98% confidence and achieved a classification accuracy of 91.7%, identifying audit log access limits as the most critical control. Random Forest analysis highlighted vendor breach notifications (0.081) and regular audit log reviews (0.052) as key determinants of resilience. Explainability methods such as SHAP and LIME improved model transparency and interpretability, demonstrating the framework's potential to strengthen insider threat management practices.",
+    "authors": [
+      "Selma Shikonde",
+      "Mike Wa Nkongolo"
+    ],
+    "published": "2025-10-22T14:08:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2505.06409",
+    "title": "Engineering Risk-Aware, Security-by-Design Frameworks for Assurance of Large-Scale Autonomous AI Models",
+    "summary": "As AI models scale to billions of parameters and operate with increasing autonomy, ensuring their safe, reliable operation demands engineering-grade security and assurance frameworks. This paper presents an enterprise-level, risk-aware, security-by-design approach for large-scale autonomous AI systems, integrating standardized threat metrics, adversarial hardening techniques, and real-time anomaly detection into every phase of the development lifecycle. We detail a unified pipeline - from design-time risk assessments and secure training protocols to continuous monitoring and automated audit logging - that delivers provable guarantees of model behavior under adversarial and operational stress. Case studies in national security, open-source model governance, and industrial automation demonstrate measurable reductions in vulnerability and compliance overhead. Finally, we advocate cross-sector collaboration - uniting engineering teams, standards bodies, and regulatory agencies - to institutionalize these technical safeguards within a resilient, end-to-end assurance ecosystem for the next generation of AI.",
+    "authors": [
+      "Krti Tallam"
+    ],
+    "published": "2025-05-09T20:14:53Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.15794",
+    "title": "Data Protection and Corporate Reputation Management in the Digital Era",
+    "summary": "This paper analyzes the relationship between cybersecurity management, data protection, and corporate reputation in the context of digital transformation. The study examines how organizations implement strategies and tools to mitigate cyber risks, comply with regulatory requirements, and maintain stakeholder trust. A quantitative research design was applied using an online diagnostic survey conducted among enterprises from various industries operating in Poland. The analysis covered formal cybersecurity strategies, technical and procedural safeguards, employee awareness, incident response practices, and the adoption of international standards such as ISO/IEC 27001 and ISO/IEC 27032. The findings indicate that most organizations have formalized cybersecurity frameworks, conduct regular audits, and invest in employee awareness programs. Despite this high level of preparedness, 75 percent of surveyed firms experienced cybersecurity incidents within the previous twelve months. The most frequently reported consequences were reputational damage and loss of customer trust, followed by operational disruptions and financial or regulatory impacts. The results show that cybersecurity is increasingly perceived as a strategic investment supporting long-term organizational stability rather than merely a compliance cost. The study highlights the importance of integrating cybersecurity governance with corporate communication and reputation management, emphasizing data protection as a key determinant of digital trust and organizational resilience.",
+    "authors": [
+      "Gabriela Wojak",
+      "Ernest G\u00f3rka",
+      "Micha\u0142 \u0106wi\u0105ka\u0142a",
+      "Dariusz Baran",
+      "Dariusz Re\u015bko"
+    ],
+    "published": "2025-12-16T10:51:17Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2510.21024",
+    "title": "JSTprove: Pioneering Verifiable AI for a Trustless Future",
+    "summary": "The integration of machine learning (ML) systems into critical industries such as healthcare, finance, and cybersecurity has transformed decision-making processes, but it also brings new challenges around trust, security, and accountability. As AI systems become more ubiquitous, ensuring the transparency and correctness of AI-driven decisions is crucial, especially when they have direct consequences on privacy, security, or fairness. Verifiable AI, powered by Zero-Knowledge Machine Learning (zkML), offers a robust solution to these challenges. zkML enables the verification of AI model inferences without exposing sensitive data, providing an essential layer of trust and privacy. However, traditional zkML systems typically require deep cryptographic expertise, placing them beyond the reach of most ML engineers. In this paper, we introduce JSTprove, a specialized zkML toolkit, built on Polyhedra Network's Expander backend, to enable AI developers and ML engineers to generate and verify proofs of AI inference. JSTprove provides an end-to-end verifiable AI inference pipeline that hides cryptographic complexity behind a simple command-line interface while exposing auditable artifacts for reproducibility. We present the design, innovations, and real-world use cases of JSTprove as well as our blueprints and tooling to encourage community review and extension. JSTprove therefore serves both as a usable zkML product for current engineering needs and as a reproducible foundation for future research and production deployments of verifiable AI.",
+    "authors": [
+      "Jonathan Gold",
+      "Tristan Freiberg",
+      "Haruna Isah",
+      "Shirin Shahabi"
+    ],
+    "published": "2025-10-23T22:22:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2509.09638",
+    "title": "CryptoGuard: An AI-Based Cryptojacking Detection Dashboard Prototype",
+    "summary": "With the widespread adoption of cryptocurrencies, cryptojacking has become a significant security threat to crypto wallet users. This paper presents a front-end prototype of an AI-powered security dashboard, namely, CryptoGuard. Developed through a user-centered design process, the prototype was constructed as a high-fidelity, click-through model from Figma mockups to simulate key user interactions. It is designed to assist users in monitoring their login and transaction activity, identifying any suspicious behavior, and enabling them to take action directly within the wallet interface. The dashboard is designed for a general audience, prioritizing an intuitive user experience for non-technical individuals. Although its AI functionality is conceptual, the prototype demonstrates features like visual alerts and reporting. This work is positioned explicitly as a design concept, bridging cryptojacking detection research with human-centered interface design. This paper also demonstrates how usability heuristics can directly inform a tool's ability to support rapid and confident decision-making under real-world threats. This paper argues that practical security tools require not only robust backend functionality but also a user-centric design that communicates risk and empowers users to take meaningful action.",
+    "authors": [
+      "Amitabh Chakravorty",
+      "Jess Kropczynski",
+      "Nelly Elsayed"
+    ],
+    "published": "2025-09-11T17:25:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2512.24416",
+    "title": "GateChain: A Blockchain Based Application for Country Entry-Exit Registry Management",
+    "summary": "Recording entry and exit records for a country, with properties such as confidentiality, integrity, and auditability, is increasingly important due to rising international mobility and security requirements. Traditional border control systems, which rely on centralised databases, are vulnerable to data manipulation and have limited interoperability between institutions. This study presents GateChain, a blockchain-based application that addresses these vulnerabilities. GateChain aims to enhance data integrity, reliability, and transparency by recording entry and exit events on a distributed, immutable, and cryptographically verifiable ledger. The application provides real-time access control and verification for authorised institutions. This paper describes the architecture and security components of GateChain and evaluates its performance and security features.",
+    "authors": [
+      "Mohamad Akkad",
+      "H\u00fcseyin Bodur"
+    ],
+    "published": "2025-12-30T18:58:00Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2512.15003",
+    "title": "SeBERTis: A Framework for Producing Classifiers of Security-Related Issue Reports",
+    "summary": "Monitoring issue tracker submissions is a crucial software maintenance activity. A key goal is the prioritization of high risk, security-related bugs. If such bugs can be recognized early, the risk of propagation to dependent products and endangerment of stakeholder benefits can be mitigated. To assist triage engineers with this task, several automatic detection techniques, from Machine Learning (ML) models to prompting Large Language Models (LLMs), have been proposed. Although promising to some extent, prior techniques often memorize lexical cues as decision shortcuts, yielding low detection rate specifically for more complex submissions. As such, these classifiers do not yet reach the practical expectations of a real-time detector of security-related issues. To address these limitations, we propose SEBERTIS, a framework to train Deep Neural Networks (DNNs) as classifiers independent of lexical cues, so that they can confidently detect fully unseen security-related issues. SEBERTIS capitalizes on fine-tuning bidirectional transformer architectures as Masked Language Models (MLMs) on a series of semantically equivalent vocabulary to prediction labels (which we call Semantic Surrogates) when they have been replaced with a mask. Our SEBERTIS-trained classifier achieves a 0.9880 F1-score in detecting security-related issues of a curated corpus of 10,000 GitHub issue reports, substantially outperforming state-of-the-art issue classifiers, with 14.44%-96.98%, 15.40%-93.07%, and 14.90%-94.72% higher detection precision, recall, and F1-score over ML-based baselines. Our classifier also substantially surpasses LLM baselines, with an improvement of 23.20%-63.71%, 36.68%-85.63%, and 39.49%-74.53% for precision, recall, and F1-score.",
+    "authors": [
+      "Sogol Masoumzadeh",
+      "Yufei Li",
+      "Shane McIntosh",
+      "D\u00e1niel Varr\u00f3",
+      "Lili Wei"
+    ],
+    "published": "2025-12-17T01:23:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2601.00556",
+    "title": "Cyberscurity Threats and Defense Mechanisms in IoT network",
+    "summary": "The rapid proliferation of Internet of Things (IoT) technologies, projected to exceed 30 billion interconnected devices by 2030, has significantly escalated the complexity of cybersecurity challenges. This survey aims to provide a comprehensive analysis of vulnerabilities, threats, and defense mechanisms, specifically focusing on the integration of network and application layers within real-time monitoring and decision-making systems. Employing an integrative review methodology, 59 scholarly articles published between 2009 and 2024 were selected from databases such as IEEE Xplore, ScienceDirect, and PubMed, utilizing keywords related to IoT vulnerabilities and security attacks. Key findings identify critical threat categories, including sensor vulnerabilities, Denial-of-Service (DoS) attacks, and public cloud insecurity. Conversely, the study highlights advanced defense approaches leveraging Artificial Intelligence (AI) for anomaly detection, Blockchain for decentralized trust, and Zero Trust Architecture (ZTA) for continuous verification. This paper contributes a novel five-layer IoT model and outlines future research directions involving quantum computing and 6G networks to bolster IoT ecosystem resilience.",
+    "authors": [
+      "Trung Dao",
+      "Minh Nguyen",
+      "Son Do",
+      "Hoang Tran"
+    ],
+    "published": "2026-01-02T04:06:03Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2511.12224",
+    "title": "RulePilot: An LLM-Powered Agent for Security Rule Generation",
+    "summary": "The real-time demand for system security leads to the detection rules becoming an integral part of the intrusion detection life-cycle. Rule-based detection often identifies malicious logs based on the predefined grammar logic, requiring experts with deep domain knowledge for rule generation. Therefore, automation of rule generation can result in significant time savings and ease the burden of rule-related tasks on security engineers. In this paper, we propose RulePilot, which mimics human expertise via LLM-based agent for addressing rule-related challenges like rule creation or conversion. Using RulePilot, the security analysts do not need to write down the rules following the grammar, instead, they can just provide the annotations such as the natural-language-based descriptions of a rule, our RulePilot can automatically generate the detection rules without more intervention. RulePilot is equipped with the intermediate representation (IR), which abstracts the complexity of config rules into structured, standardized formats, allowing LLMs to focus on generation rules in a more manageable and consistent way. We present a comprehensive evaluation of RulePilot in terms of textual similarity and execution success abilities, showcasing RulePilot can generate high-fidelity rules, outperforming the baseline models by up to 107.4% in textual similarity to ground truths and achieving better detection accuracy in real-world execution tests. We perform a case study from our industry collaborators in Singapore, showcasing that RulePilot significantly help junior analysts/general users in the rule creation process.",
+    "authors": [
+      "Hongtai Wang",
+      "Ming Xu",
+      "Yanpei Guo",
+      "Weili Han",
+      "Hoon Wei Lim"
+    ],
+    "published": "2025-11-15T13:59:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.14935",
+    "title": "Cloud Security Leveraging AI: A Fusion-Based AISOC for Malware and Log Behaviour Detection",
+    "summary": "Cloud Security Operations Center (SOC) enable cloud governance, risk and compliance by providing insights visibility and control. Cloud SOC triages high-volume, heterogeneous telemetry from elastic, short-lived resources while staying within tight budgets. In this research, we implement an AI-Augmented Security Operations Center (AISOC) on AWS that combines cloud-native instrumentation with ML-based detection. The architecture uses three Amazon EC2 instances: Attacker, Defender, and Monitoring. We simulate a reverse-shell intrusion with Metasploit, and Filebeat forwards Defender logs to an Elasticsearch and Kibana stack for analysis. We train two classifiers, a malware detector built on a public dataset and a log-anomaly detector trained on synthetically augmented logs that include adversarial variants. We calibrate and fuse the scores to produce multi-modal threat intelligence and triage activity into NORMAL, SUSPICIOUS, and HIGH\\_CONFIDENCE\\_ATTACK. On held-out tests the fusion achieves strong macro-F1 (up to 1.00) under controlled conditions, though performance will vary in noisier and more diverse environments. These results indicate that simple, calibrated fusion can enhance cloud SOC capabilities in constrained, cost-sensitive setups.",
+    "authors": [
+      "Nnamdi Philip Okonkwo",
+      "Lubna Luxmi Dhirani"
+    ],
+    "published": "2025-12-16T21:56:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2010.08521",
+    "title": "Data Analytics-enabled Intrusion Detection: Evaluations of ToN_IoT Linux Datasets",
+    "summary": "With the widespread of Artificial Intelligence (AI)- enabled security applications, there is a need for collecting heterogeneous and scalable data sources for effectively evaluating the performances of security applications. This paper presents the description of new datasets, named ToN IoT datasets that include distributed data sources collected from Telemetry datasets of Internet of Things (IoT) services, Operating systems datasets of Windows and Linux, and datasets of Network traffic. The paper aims to describe the new testbed architecture used to collect Linux datasets from audit traces of hard disk, memory and process. The architecture was designed in three distributed layers of edge, fog, and cloud. The edge layer comprises IoT and network systems, the fog layer includes virtual machines and gateways, and the cloud layer includes data analytics and visualization tools connected with the other two layers. The layers were programmatically controlled using Software-Defined Network (SDN) and Network-Function Virtualization (NFV) using the VMware NSX and vCloud NFV platform. The Linux ToN IoT datasets would be used to train and validate various new federated and distributed AI-enabled security solutions such as intrusion detection, threat intelligence, privacy preservation and digital forensics. Various Data analytical and machine learning methods are employed to determine the fidelity of the datasets in terms of examining feature engineering, statistics of legitimate and security events, and reliability of security events. The datasets can be publicly accessed from [1].",
+    "authors": [
+      "Nour Moustafa",
+      "Mohiuddin Ahmed",
+      "Sherif Ahmed"
+    ],
+    "published": "2020-10-04T10:42:14Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2509.14139",
+    "title": "Cybersecurity AI: Humanoid Robots as Attack Vectors",
+    "summary": "We present a systematic security assessment of the Unitree G1 humanoid showing it operates simultaneously as a covert surveillance node and can be purposed as an active cyber operations platform. Initial access can be achieved by exploiting the BLE provisioning protocol which contains a critical command injection vulnerability allowing root access via malformed Wi-Fi credentials, exploitable using hardcoded AES keys shared across all units. Partial reverse engineering of Unitree's proprietary FMX encryption reveal a static Blowfish-ECB layer and a predictable LCG mask-enabled inspection of the system's otherwise sophisticated security architecture, the most mature we have observed in commercial robotics. Two empirical case studies expose the critical risk of this humanoid robot: (a) the robot functions as a trojan horse, continuously exfiltrating multi-modal sensor and service-state telemetry to 43.175.228.18:17883 and 43.175.229.18:17883 every 300 seconds without operator notice, creating violations of GDPR Articles 6 and 13; (b) a resident Cybersecurity AI (CAI) agent can pivot from reconnaissance to offensive preparation against any target, such as the manufacturer's cloud control plane, demonstrating escalation from passive monitoring to active counter-operations. These findings argue for adaptive CAI-powered defenses as humanoids move into critical infrastructure, contributing the empirical evidence needed to shape future security standards for physical-cyber convergence systems.",
+    "authors": [
+      "V\u00edctor Mayoral-Vilches",
+      "Andreas Makris",
+      "Kevin Finisterre"
+    ],
+    "published": "2025-09-17T16:18:53Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2509.14096",
+    "title": "The Cybersecurity of a Humanoid Robot",
+    "summary": "The rapid advancement of humanoid robotics presents unprecedented cybersecurity challenges that existing theoretical frameworks fail to adequately address. This report presents a comprehensive security assessment of a production humanoid robot platform, bridging the gap between abstract security models and operational vulnerabilities. Through systematic static analysis, runtime observation, and cryptographic examination, we uncovered a complex security landscape characterized by both sophisticated defensive mechanisms and critical vulnerabilities. Our findings reveal a dual-layer proprietary encryption system (designated FMX') that, while innovative in design, suffers from fundamental implementation flaws including the use of static cryptographic keys that enable offline configuration decryption. More significantly, we documented persistent telemetry connections transmitting detailed robot state information--including audio, visual, spatial, and actuator data--to external servers without explicit user consent or notification mechanisms. We operationalized a Cybersecurity AI agent on the Unitree G1 to map and prepare exploitation of its manufacturer's cloud infrastructure, illustrating how a compromised humanoid can escalate from covert data collection to active counter-offensive operations. We argue that securing humanoid robots requires a paradigm shift toward Cybersecurity AI (CAI) frameworks that can adapt to the unique challenges of physical-cyber convergence. This work contributes empirical evidence for developing robust security standards as humanoid robots transition from research curiosities to operational systems in critical domains.",
+    "authors": [
+      "V\u00edctor Mayoral-Vilches"
+    ],
+    "published": "2025-09-17T15:37:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2509.04191",
+    "title": "KubeGuard: LLM-Assisted Kubernetes Hardening via Configuration Files and Runtime Logs Analysis",
+    "summary": "The widespread adoption of Kubernetes (K8s) for orchestrating cloud-native applications has introduced significant security challenges, such as misconfigured resources and overly permissive configurations. Failing to address these issues can result in unauthorized access, privilege escalation, and lateral movement within clusters. Most existing K8s security solutions focus on detecting misconfigurations, typically through static analysis or anomaly detection. In contrast, this paper presents KubeGuard, a novel runtime log-driven recommender framework aimed at mitigating risks by addressing overly permissive configurations. KubeGuard is designed to harden K8s environments through two complementary tasks: Resource Creation and Resource Refinement. It leverages large language models (LLMs) to analyze manifests and runtime logs reflecting actual system behavior, using modular prompt-chaining workflows. This approach enables KubeGuard to create least-privilege configurations for new resources and refine existing manifests to reduce the attack surface. KubeGuard's output manifests are presented as recommendations that users (e.g., developers and operators) can review and adopt to enhance cluster security. Our evaluation demonstrates that KubeGuard effectively generates and refines K8s manifests for Roles, NetworkPolicies, and Deployments, leveraging both proprietary and open-source LLMs. The high precision, recall, and F1-scores affirm KubeGuard's practicality as a framework that translates runtime observability into actionable, least-privilege configuration guidance.",
+    "authors": [
+      "Omri Sgan Cohen",
+      "Ehud Malul",
+      "Yair Meidan",
+      "Dudu Mimran",
+      "Yuval Elovici"
+    ],
+    "published": "2025-09-04T13:13:57Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2601.01455",
+    "title": "Security in the Era of Perceptive Networks: A Comprehensive Taxonomic Framework for Integrated Sensing and Communication Security",
+    "summary": "Integrated Sensing and Communication (ISAC) represents a significant shift in the 6G landscape, where wireless networks both sense the environment and communicate. While prior comprehensive surveys have established foundational elements of ISAC security, discussed perception-focused security models, and proposed layered defense strategies, this paper synthesizes these studies into a comprehensive taxonomic framework that covers the whole ISAC security domain. This paper provides a systematic and thorough review of ISAC security across multiple orthogonal dimensions. These include threat taxonomy and propagation methods; vulnerability analysis at design, physical, computational, and architectural levels; defense mechanisms categorized by deployment layer; security-performance trade-offs with theoretical bounds; sector-specific security demands for critical infrastructure; and emerging issues such as quantum resilience, AI-hardening, and privacy preservation. Unlike previous frameworks that primarily focus on vision, this review combines these dimensions, introduces new classification schemes that reveal hidden relationships between threats and defenses, and identifies key research gaps through structured analysis. This detailed taxonomy offers a valuable reference for researchers developing secure ISAC systems and policymakers establishing security standards.",
+    "authors": [
+      "Chandra Thapa",
+      "Surya Nepal"
+    ],
+    "published": "2026-01-04T09:52:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2510.00451",
+    "title": "A Call to Action for a Secure-by-Design Generative AI Paradigm",
+    "summary": "Large language models have gained widespread prominence, yet their vulnerability to prompt injection and other adversarial attacks remains a critical concern. This paper argues for a security-by-design AI paradigm that proactively mitigates LLM vulnerabilities while enhancing performance. To achieve this, we introduce PromptShield, an ontology-driven framework that ensures deterministic and secure prompt interactions. It standardizes user inputs through semantic validation, eliminating ambiguity and mitigating adversarial manipulation. To assess PromptShield's security and performance capabilities, we conducted an experiment on an agent-based system to analyze cloud logs within Amazon Web Services (AWS), containing 493 distinct events related to malicious activities and anomalies. By simulating prompt injection attacks and assessing the impact of deploying PromptShield, our results demonstrate a significant improvement in model security and performance, achieving precision, recall, and F1 scores of approximately 94%. Notably, the ontology-based framework not only mitigates adversarial threats but also enhances the overall performance and reliability of the system. Furthermore, PromptShield's modular and adaptable design ensures its applicability beyond cloud security, making it a robust solution for safeguarding generative AI applications across various domains. By laying the groundwork for AI safety standards and informing future policy development, this work stimulates a crucial dialogue on the pivotal role of deterministic prompt engineering and ontology-based validation in ensuring the safe and responsible deployment of LLMs in high-stakes environments.",
+    "authors": [
+      "Dalal Alharthi",
+      "Ivan Roberto Kawaminami Garcia"
+    ],
+    "published": "2025-10-01T03:05:07Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2301.11092",
+    "title": "LemonLDAP::NG -- A Full AAA Free Open Source WebSSO Solution",
+    "summary": "Nowadays, security is becoming a major issue and concern. More and more organizations like hospitals, metropolis or banks are under cyberattacks and have to improve their network infrastructure security. The first prerequisites are to authenticate users, to provide identity and to grant just the needed and useful accesses. These requirements can be solved by implementing a Single Sign-On (SSO) solution. It is an authentication scheme that permits a user to log in with a single identity to any of several related, yet independent, systems. It allows users to log in once and to access services without authenticating again. SSO solutions are classified depending on Authentication, Authorization, and Accounting features. The 'AAA' acronym defines a framework for intelligently controlling access to resources, enforcing security policies, auditing usage, and providing the information necessary to bill for services. These combined processes are considered important for effective network management and cybersecurity. LemonLDAP::NG (LL::NG) is a full AAA WebSSO solution. It implements all standard authentication and identity federation (IdF) protocols. The main LL::NG's advantages compared to other products are its plug-in engine and its advanced handlerbased protection mechanism that can be employed to protect Server2Server exchanges or to offer the SSO as a Service, a solution to implement a full DevOps architecture. LL::NG is a community and professional project mainly employed by the French government to secure Police, Finance or Justice Ministries and a French mobile operator IT infrastructures since 2010. But for several years, contributions come from all around the world and LL::NG is becoming more and more popular.",
+    "authors": [
+      "Christophe Maudoux",
+      "Selma Boumerdassi"
+    ],
+    "published": "2023-01-26T13:34:25Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.06390",
+    "title": "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+    "summary": "The modern web stack, which is dominated by browser-based applications and API-first backends, now operates under an adversarial equilibrium where automated, AI-assisted attacks evolve continuously. Content Delivery Networks (CDNs) and edge computing place programmable defenses closest to users and bots, making them natural enforcement points for machine-learning (ML) driven inspection, throttling, and isolation. This survey synthesizes the landscape of AI-enhanced defenses deployed at the edge: (i) anomaly- and behavior-based Web Application Firewalls (WAFs) within broader Web Application and API Protection (WAAP), (ii) adaptive DDoS detection and mitigation, (iii) bot management that resists human-mimicry, and (iv) API discovery, positive security modeling, and encrypted-traffic anomaly analysis. We add a systematic survey method, a threat taxonomy mapped to edge-observable signals, evaluation metrics, deployment playbooks, and governance guidance. We conclude with a research agenda spanning XAI, adversarial robustness, and autonomous multi-agent defense. Our findings indicate that edge-centric AI measurably improves time-to-detect and time-to-mitigate while reducing data movement and enhancing compliance, yet introduces new risks around model abuse, poisoning, and governance.",
+    "authors": [
+      "Mehrab Hosain",
+      "Sabbir Alom Shuvo",
+      "Matthew Ogbe",
+      "Md Shah Jalal Mazumder",
+      "Yead Rahman"
+    ],
+    "published": "2025-12-06T10:42:14Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2510.20300",
+    "title": "Privacy Protection of Automotive Location Data Based on Format-Preserving Encryption of Geographical Coordinates",
+    "summary": "There are increasing risks of privacy disclosure when sharing the automotive location data in particular functions such as route navigation, driving monitoring and vehicle scheduling. These risks could lead to the attacks including user behavior recognition, sensitive location inference and trajectory reconstruction. In order to mitigate the data security risk caused by the automotive location sharing, this paper proposes a high-precision privacy protection mechanism based on format-preserving encryption (FPE) of geographical coordinates. The automotive coordinate data key mapping mechanism is designed to reduce to the accuracy loss of the geographical location data caused by the repeated encryption and decryption. The experimental results demonstrate that the average relative distance retention rate (RDR) reached 0.0844, and the number of hotspots in the critical area decreased by 98.9% after encryption. To evaluate the accuracy loss of the proposed encryption algorithm on automotive geographical location data, this paper presents the experimental analysis of decryption accuracy, and the result indicates that the decrypted coordinate data achieves a restoration accuracy of 100%. This work presents a high-precision privacy protection method for automotive location data, thereby providing an efficient data security solution for the sensitive data sharing in autonomous driving.",
+    "authors": [
+      "Haojie Ji",
+      "Long Jin",
+      "Haowen Li",
+      "Chongshi Xin",
+      "Te Hu"
+    ],
+    "published": "2025-10-23T07:39:59Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  }
+]

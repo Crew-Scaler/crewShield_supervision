@@ -1,0 +1,103 @@
+arXiv_ID,Title,Authors,Date,Category,Relevance_Score,Key_Metric,URL
+2512.03644,FFTrainer: Fast Failover in Large-Language Model Training,"Bohan Zhao, Yuanhong Wang, Chenglin Liu, et al.",2025-12,RTO/RPO Optimization,9.8,98% RTO reduction,https://arxiv.org/abs/2512.03644
+2509.03047,FlashRecovery: Fast and Low-Cost Recovery from Failures,Haijun Zhang et al.,2025-09,RTO/RPO Optimization,9.7,150-second recovery on 4800-device clusters,https://arxiv.org/abs/2509.03047
+2506.15461,All is Not Lost: LLM Recovery without Checkpoints,"Nikolay Blagoev, Oğuzhan Ersoy, Lydia Yiyu Chen",2025-06,RTO/RPO Optimization,9.5,12% improvement over checkpointing,https://arxiv.org/abs/2506.15461
+2402.02938,Design and Implementation of an Automated Disaster-recovery System for a Kubernetes Cluster Using LSTM,"Ji-Beom Kim, Je-Bum Choi, Eun-Sung Jung",2024-02,RTO/RPO Optimization,9.6,15-second recovery window,https://arxiv.org/abs/2402.02938
+2512.20953,Diving into 3D Parallelism with Heterogeneous Spot Instance GPUs,"Yuxiao Wang, Yuedong Xu, et al.",2025-12,RTO/RPO Optimization,9.4,Local node state priority recovery,https://arxiv.org/abs/2512.20953
+2410.18577,Resilience-based post disaster recovery optimization for infrastructure system via Deep Reinforcement Learning,"Huangbin Liang, Beatriz Moya, Francisco Chinesta, Eleni Chatzi",2024-10,RTO/RPO Optimization,9.3,DRL-based infrastructure recovery,https://arxiv.org/abs/2410.18577
+2407.04656,Lazarus: Resilient and Elastic Training of Mixture-of-Experts Models,"Yongji Wu, Wenjie Qu, Xueshen Liu, et al.",2024-07,RTO/RPO Optimization,9.2,5.7x improvement under failures,https://arxiv.org/abs/2407.04656
+2507.02295,Flotilla: A scalable modular and resilient federated learning framework for heterogeneous resources,"Roopkatha Banerjee, Prince Modi, Jinal Vyas, et al.",2025-07,RTO/RPO Optimization,9.1,Rapid failover within seconds,https://arxiv.org/abs/2507.02295
+2509.04084,Optimizing Frequent Checkpointing via Low-Cost Differential,"Chenxuan Yao, Yuchong Hu, Feifan Liu, et al.",2025-09,RTO/RPO Optimization,8.9,89.2% training time reduction,https://arxiv.org/abs/2509.04084
+2406.05546,Training Through Failure: Effects of Data Consistency in Parallel Machine Learning Training,"Ray Cao, Sherry Luo, Steve Gan, Sujeeth Jinesh",2024-06,RTO/RPO Optimization,8.8,10% accuracy improvement,https://arxiv.org/abs/2406.05546
+2412.15411,MoEtion: Efficient and Reliable Sparse Checkpointing,"Swapnil Gandhi, Christos Kozyrakis",2024-12,RTO/RPO Optimization,8.7,4x reduction in overhead,https://arxiv.org/abs/2412.15411
+2410.11720,ATTNChecker: Highly-Optimized Fault Tolerant Attention for Large Language Model Training,"Yuhang Liang, Xinyi Li, Jie Ren, et al.",2024-10,RTO/RPO Optimization,8.6,49x recovery overhead reduction,https://arxiv.org/abs/2410.11720
+2511.11749,How Machine Learning-Data Driven Replication Strategies Enhance Fault Tolerance in Large-Scale Distributed Systems,Almond Kiruthu Murimi,2025-11,Data Replication & RPO,9.7,ML-driven adaptive replication,https://arxiv.org/abs/2511.11749
+2507.18459,Towards Designing an Energy Aware Data Replication Strategy for Cloud Systems Using Reinforcement Learning,"Amir Najjar, Riad Mokadem, Jean-Marc Pierson",2025-07,Data Replication & RPO,9.5,RL-based adaptive replication,https://arxiv.org/abs/2507.18459
+2206.06009,Relative Policy-Transition Optimization for Fast Policy Transfer,"Jiawei Xu, Cheng Zhou, Yizheng Zhang, et al.",2024-01,Data Replication & RPO,9.3,RTO/RPO policy transfer,https://arxiv.org/abs/2206.06009
+2511.01267,A Spatio-Temporal Online Robust Tensor Recovery Approach for Streaming Traffic Data Imputation,"Yiyang Yang, Xiejian Chi, et al.",2025-11,Data Replication & RPO,8.4,3x efficiency improvement,https://arxiv.org/abs/2511.01267
+2511.16080,Operon: Incremental Construction of Ragged Data via Named Dimensions,"Sungbin Moon, Jiho Park, et al.",2025-11,Data Replication & RPO,8.3,Persistent recovery mechanisms,https://arxiv.org/abs/2511.16080
+2511.12376,BitSnap: Checkpoint Sparsification and Quantization in LLM Training,"Yanxin Peng, Qingping Li, et al.",2025-11,Data Replication & RPO,8.2,16x checkpoint compression,https://arxiv.org/abs/2511.12376
+2505.18458,A Survey of LLM × DATA,"Xuanhe Zhou, Junxuan He, et al.",2025-05,Data Replication & RPO,7.8,Fault-tolerant checkpointing survey,https://arxiv.org/abs/2505.18458
+2412.01152,INTELLECT-1 Technical Report,Sami Jaghouar et al.,2024-12,Data Replication & RPO,7.6,Live checkpoint recovery kernels,https://arxiv.org/abs/2412.01152
+2503.10792,Byzantine-Resilient Federated Learning via Distributed Optimization,"Yufei Xia, Wenrui Yu, Qiongxiu Li",2025-03,Byzantine Consensus,9.4,PDMM Byzantine mitigation,https://arxiv.org/abs/2503.10792
+2408.06432,BFTBrain: Adaptive BFT Consensus with Reinforcement Learning,"Chenyuan Wu, Haoyun Qin, Mohammad Javad Amiri, et al.",2024-08,Byzantine Consensus,9.2,18-119% throughput improvement,https://arxiv.org/abs/2408.06432
+2512.10372,D2M: Decentralized Data Marketplace,"Yash Srivastava, Shalin Jain, et al.",2025-12,Byzantine Consensus,9.0,99% accuracy at 30% Byzantine nodes,https://arxiv.org/abs/2512.10372
+2511.11616,Hierarchical Federated Graph Attention Networks for UAV Systems,"Rathin Chandra Shit, Sharmila Subudhi",2025-11,Byzantine Consensus,8.9,f < n/3 fault tolerance,https://arxiv.org/abs/2511.11616
+2511.00263,COOL Is Optimal in Error-Free Asynchronous Byzantine Agreement,Jinyuan Chen,2025-11,Byzantine Consensus,8.8,Optimal resilience n ≥ 3t + 1,https://arxiv.org/abs/2511.00263
+2510.06835,Resilient Multi-Dimensional Consensus,"Hongjian Chen, Changyun Wen, Xiaolei Li",2025-10,Byzantine Consensus,8.7,Byzantine + DoS resilience,https://arxiv.org/abs/2510.06835
+2510.06023,Optimal Good-Case Latency for Sleepy Consensus,"Yuval Efron, Joachim Neu, et al.",2025-10,Byzantine Consensus,8.6,Byzantine broadcast optimization,https://arxiv.org/abs/2510.06023
+2510.04310,Beyond Canonical Rounds,"Hagit Attiya, Itay Flam, Jennifer L. Welch",2025-10,Byzantine Consensus,8.5,Optimal resilience n > 3f,https://arxiv.org/abs/2510.04310
+2509.03145,Efficient and Secure Sleepy Model for BFT,"Pengkun Ren, Hai Dong, Zahir Tari, Pengcheng Zhang",2025-09,Byzantine Consensus,8.4,1/2 adversarial resilience,https://arxiv.org/abs/2509.03145
+2509.01118,Ocior: Ultra-Fast Asynchronous Leaderless Consensus,Jinyuan Chen,2025-09,Byzantine Consensus,8.3,Optimal resilience Byzantine,https://arxiv.org/abs/2509.01118
+2508.11572,Dynamically Weighted ADMM Framework,"Vishnu Vijay, Kartik A. Pant, et al.",2025-08,Byzantine Consensus,8.2,Byzantine-resilient optimization,https://arxiv.org/abs/2508.11572
+2506.15181,ImprovDML: Improved Trade-off in Byzantine-Resilient Distributed ML,"Bing Liu, Chengcheng Zhao, et al.",2025-06,Byzantine Consensus,8.1,High accuracy with resilience,https://arxiv.org/abs/2506.15181
+2505.19989,From Few to Many Faults: Adaptive Byzantine Agreement,"Andrei Constantinescu, Marc Dufay, et al.",2025-05,Byzantine Consensus,8.0,Adaptive communication complexity,https://arxiv.org/abs/2505.19989
+2504.16267,Two-Fold Byzantine Fault Tolerance Algorithm,"Mohammad R. Shakournia, Pooya Jamshidi, et al.",2025-04,Byzantine Consensus,7.9,>95% detection probability,https://arxiv.org/abs/2504.16267
+2502.09116,Byzantine Consensus in the Random Asynchronous Model,"George Danezis, Jovan Komatovic, et al.",2025-02,Byzantine Consensus,7.8,Asynchronous Byzantine models,https://arxiv.org/abs/2502.09116
+2502.05591,Round-Optimal Approximate Agreement on Trees,"Marc Fuchs, Diana Ghinea, Zahra Parsaeian",2025-02,Byzantine Consensus,7.7,Optimal round complexity,https://arxiv.org/abs/2502.05591
+2501.11788,OciorABA: Error-Free Asynchronous Byzantine Agreement,Jinyuan Chen,2025-01,Byzantine Consensus,7.6,Information-theoretically secure MVBA,https://arxiv.org/abs/2501.11788
+2501.05377,Byzantine Fault Tolerant Protocols with Near-Constant Work,Philipp Schneider,2025-01,Byzantine Consensus,7.5,Constant work Byzantine protocols,https://arxiv.org/abs/2501.05377
+2501.01062,Fides: Scalable Censorship-Resistant DAG Consensus,"Shaokang Xie, Dakai Kang, et al.",2025-01,Byzantine Consensus,7.4,400k transactions per second,https://arxiv.org/abs/2501.01062
+2501.00214,OciorMVBA: Near-Optimal Error-Free Asynchronous MVBA,Jinyuan Chen,2024-12,Byzantine Consensus,7.3,Optimal resilience MVBA,https://arxiv.org/abs/2501.00214
+2410.12755,Toward Optimal-Complexity Hash-Based Asynchronous MVBA,"Jovan Komatovic, Joachim Neu, Tim Roughgarden",2024-10,Byzantine Consensus,7.2,Improved resilience t < 1/4n,https://arxiv.org/abs/2410.12755
+2512.17913,Byzantine Fault-Tolerant Multi-Agent System for Healthcare,Nihir Chadderwala,2025-12,Byzantine Consensus,7.1,Gossip-based Byzantine resilience,https://arxiv.org/abs/2512.17913
+2511.00117,DCcluster-Opt: Benchmarking Dynamic Multi-Objective Optimization for Geo-Distributed Data Center Workloads,"Antonio Guillen-Perez, Avisek Naug, et al.",2025-11,AI-Driven Scheduling,9.2,RL-based geo-distributed scheduling,https://arxiv.org/abs/2511.00117
+2512.10271,RLTune: Application-Agnostic RL-Based GPU Scheduling,"Shruti Dongare, Redwan Khan, et al.",2025-12,AI-Driven Scheduling,9.1,20% GPU improvement,https://arxiv.org/abs/2512.10271
+2512.12476,HetRL: Efficient Reinforcement Learning for LLMs in Heterogeneous Environments,"Yongjun He, Shuai Zhang, et al.",2025-12,AI-Driven Scheduling,9.0,9.17x throughput improvement,https://arxiv.org/abs/2512.12476
+2512.13060,Deep Q-Learning-Based Intelligent Scheduling for ETL Optimization,"Kangning Gao, Yi Hu, et al.",2025-12,AI-Driven Scheduling,8.9,DQL task scheduling,https://arxiv.org/abs/2512.13060
+2512.20008,From Optimization to Learning: Dual-Approach Resource Allocation,"Tuo Wu, Xiazhi Lai, et al.",2025-12,AI-Driven Scheduling,8.8,DRL edge computing,https://arxiv.org/abs/2512.20008
+2511.00116,LC-Opt: Benchmarking Reinforcement Learning and Agentic AI for Liquid Cooling Optimization,Avisek Naug et al.,2025-11,AI-Driven Scheduling,8.7,RL thermal management,https://arxiv.org/abs/2511.00116
+2505.10117,Learning VM Scheduling via Language Agents (MiCo),"JieHao Wu, Ziwei Wang, et al.",2025-05,AI-Driven Scheduling,8.6,96.9% competitive ratio,https://arxiv.org/abs/2505.10117
+2504.14946,SPANE: Deep RL for Multi-NUMA VM Scheduling,"Tin Ping Chan, Yunlong Cheng, et al.",2025-04,AI-Driven Scheduling,8.5,45% wait time reduction,https://arxiv.org/abs/2504.14946
+2510.19366,MoE-Prism: Elastic MoE Services via Model-System Co-Designs,"Xinfeng Xia, Jiacheng Liu, et al.",2025-10,AI-Driven Scheduling,8.4,4x operating points increase,https://arxiv.org/abs/2510.19366
+2510.12274,Metronome: Network-Aware Scheduling for Periodic Traffic,"Hao Jiang, Meng Qin, et al.",2025-10,AI-Driven Scheduling,8.3,19.5% completion improvement,https://arxiv.org/abs/2510.12274
+2509.12252,SynergAI: Edge-to-Cloud Inference Orchestration,"Foteini Stathopoulou, Aggelos Ferikoglou, et al.",2025-09,AI-Driven Scheduling,8.2,2.4x QoS improvement,https://arxiv.org/abs/2509.12252
+2510.02930,iDDS: Intelligent Distributed Dispatch and Scheduling,"Wen Guan, Tadashi Maeno, et al.",2025-10,AI-Driven Scheduling,8.1,Versatile workflow orchestration,https://arxiv.org/abs/2510.02930
+2510.03970,Towards Carbon-Aware Container Orchestration with Federated Learning,"Zainab Saad, Jialin Yang, et al.",2025-10,AI-Driven Scheduling,8.0,11.7% MAE reduction,https://arxiv.org/abs/2510.03970
+2512.18266,LeJOT: Intelligent Job Cost Orchestration for Databricks,"Lizhi Ma, Yi-Xiang Hu, et al.",2025-12,AI-Driven Scheduling,7.9,20% cost reduction,https://arxiv.org/abs/2512.18266
+2512.19701,Large Language Models for EDA Cloud Job Resource and Lifetime Prediction,"Yuxuan Yin, Shengke Zhou, et al.",2025-12,AI-Driven Scheduling,7.8,LLM-based resource prediction,https://arxiv.org/abs/2512.19701
+2512.03835,Multi-Agent Deep Reinforcement Learning for UAV Network Slicing,"Ghoshana Bista, Abbas Bradai, et al.",2025-12,AI-Driven Scheduling,7.7,MAPPO/MADDPG/MADQN,https://arxiv.org/abs/2512.03835
+2512.20722,Learning-Enabled Elastic Network Topology for Distributed ISAC Service Provisioning,"Jie Chen, Xianbin Wang",2025-12,AI-Driven Scheduling,7.6,MADRL topology optimization,https://arxiv.org/abs/2512.20722
+2512.20623,BitRL-Light: 1-bit LLM Agents with Deep Reinforcement Learning,"Ravi Gupta, Shabista Haider",2025-12,AI-Driven Scheduling,7.5,71.4x energy reduction,https://arxiv.org/abs/2512.20623
+2510.27146,SERVIMON: AI-Driven Predictive Maintenance and Real-Time Monitoring for Astronomical Observatories,"Emilio Mastriani, Alessandro Costa, et al.",2025-10,Predictive Maintenance,9.1,Isolation Forest anomaly detection,https://arxiv.org/abs/2510.27146
+2512.16453,TimeSeries2Report: An LLM Framework for Battery Management,"Yang, J.; Zhao, C.; et al.",2025-12,Predictive Maintenance,8.9,Anomaly detection with semantics,https://arxiv.org/abs/2512.16453
+2512.05375,Legacy Modernization with AI,"Khemka, S.; Majumdar, A.",2025-12,Predictive Maintenance,8.8,Mainframe predictive maintenance,https://arxiv.org/abs/2512.05375
+2510.26684,Process Integrated Computer Vision for Failure Prediction,"Kurrey, V.; Pujari, S.; Gupta, G.R.",2025-10,Predictive Maintenance,8.7,Manufacturing failure detection,https://arxiv.org/abs/2510.26684
+2510.23879,Electric Bus Predictive Maintenance,"Ercevik, A.I.; Ozbayoglu, A.M.",2025-10,Predictive Maintenance,8.6,CAN Bus anomaly detection,https://arxiv.org/abs/2510.23879
+2510.17809,Gear Power Honing Monitoring,"Capurso, M.; Afferrante, L.",2025-10,Predictive Maintenance,8.5,100% defect accuracy,https://arxiv.org/abs/2510.17809
+2509.15848,Rule-Based vs Data-Driven Monitoring,"De Gasperis, G.; Facchini, S.D.",2025-09,Predictive Maintenance,8.4,Hybrid monitoring solutions,https://arxiv.org/abs/2509.15848
+2508.21111,Deep Space Network Anomaly Detection,"Chou, E.J.; Locke, L.S.; Soldan, H.M.",2025-08,Predictive Maintenance,8.3,Equipment degradation detection,https://arxiv.org/abs/2508.21111
+2508.15550,Industrial Pump Fault Diagnosis,"Alghtus, K.M.A.; et al.",2025-08,Predictive Maintenance,8.2,Synthetic fault signal generation,https://arxiv.org/abs/2508.15550
+2508.11692,Point Machine Predictive Maintenance,"Di Santi, E.; Ci, R.; et al.",2025-08,Predictive Maintenance,8.1,99.99% precision,https://arxiv.org/abs/2508.11692
+2508.09054,Track Circuit Failure Diagnostics,"Mukherjee, D.; Di Santi, E.; et al.",2025-08,Predictive Maintenance,8.0,99.31% accuracy,https://arxiv.org/abs/2508.09054
+2507.15026,Deep Generative Models in Health Monitoring,"Yang, X.; Fang, C.; et al.",2025-07,Predictive Maintenance,7.9,DGM-based dataset generation,https://arxiv.org/abs/2507.15026
+2507.07879,Industrial Sound Analysis—LISTEN,"Han, C.; Kang, Y.S.; et al.",2025-07,Predictive Maintenance,7.8,Acoustic anomaly detection,https://arxiv.org/abs/2507.07879
+2507.06481,IMPACT Foundation Model,"Han, C.; Sim, Y.; et al.",2025-07,Predictive Maintenance,7.7,24 downstream maintenance tasks,https://arxiv.org/abs/2507.06481
+2507.01999,Semiconductor Wavelet-Based Detection,"Dey, B.; Sorensen, D.; et al.",2025-07,Predictive Maintenance,7.6,Class imbalance handling,https://arxiv.org/abs/2507.01999
+2506.21921,Explainable Anomaly Detection,"Thewes, N.; Steinhauer, P.; et al.",2025-06,Predictive Maintenance,7.5,Intrinsic explainability,https://arxiv.org/abs/2506.21921
+2506.13012,Wind Turbine Condition Monitoring,"Buchberg, E.M.; Nielsen, K.V.",2025-06,Predictive Maintenance,7.4,Annual energy loss estimation,https://arxiv.org/abs/2506.13012
+2505.11925,PyScrew Dataset,"West, N.; Deuse, J.",2025-05,Predictive Maintenance,7.3,34000 screw operations,https://arxiv.org/abs/2505.11925
+2504.19816,Digital Twin Out-of-Distribution Detection,"Isaku, E.; Sartaj, H.; Ali, S.",2025-04,Predictive Maintenance,7.2,99% AUROC detection,https://arxiv.org/abs/2504.19816
+2504.15225,Multi-Sensor Anomaly Detection—M²AD,"Alnegheimish, S.; et al.",2025-04,Predictive Maintenance,7.1,21% improvement across assets,https://arxiv.org/abs/2504.15225
+2504.08554,Railway Maintenance—BOLT-RM,"Risca, D.; Lourenço, A.; Marreiros, G.",2025-04,Predictive Maintenance,7.0,Continual learning system,https://arxiv.org/abs/2504.08554
+2504.03229,Mechanical Vibration Fault Severity,"Jeon, Y.; Heo, E.; et al.",2025-04,Predictive Maintenance,6.9,Continuous severity measurement,https://arxiv.org/abs/2504.03229
+2502.19307,Complex Dynamical Systems—TDC-AE,"Somma, M.; Gallien, T.; Stojanovic, B.",2025-02,Predictive Maintenance,6.8,100x MAC reduction,https://arxiv.org/abs/2502.19307
+2501.18123,Battery State of Health—LLM Framework,"Yunusoglu, A.; Le, D.; et al.",2025-01,Predictive Maintenance,6.7,0.87% MAE accuracy,https://arxiv.org/abs/2501.18123
+2411.08370,Fuzzy Reinforcement LSTM,"Li, S.; Fang, J.; et al.",2024-11,Predictive Maintenance,6.6,128-step ahead prediction,https://arxiv.org/abs/2411.08370
+2411.07168,Mining Machinery—ESN-PdM,"de la Fuente, R.; Radrigan, L.; Morales, A.S.",2024-11,Predictive Maintenance,6.5,99% accuracy with efficiency,https://arxiv.org/abs/2411.07168
+2411.05848,Synthetic Data for Predictive Maintenance,"Thompson, A.; Sommers, A.; et al.",2024-11,Predictive Maintenance,6.4,Diffusion model fault generation,https://arxiv.org/abs/2411.05848
+2410.02335,Smart Irrigation—SIMPaCT,"Ghadiri, N.; Javadi, B.; et al.",2024-10,Predictive Maintenance,6.3,IoT anomaly detection,https://arxiv.org/abs/2410.02335
+2512.20873,Systemization of Knowledge: Resilience and Fault Tolerance in Cyber-Physical Systems,Rahul Bulusu,2025-12,System Resilience,9.0,CPS resilience taxonomy,https://arxiv.org/abs/2512.20873
+2511.12648,Scalable Hierarchical AI-Blockchain Framework for Real-Time Anomaly Detection in Vehicle Networks,"Rathin Chandra Shit, Sharmila Subudhi",2025-11,System Resilience,8.8,Sub-10ms detection latency,https://arxiv.org/abs/2511.12648
+2509.12499,Digital Twin-Assisted Resilient Planning for mmWave IAB Networks,"Jie Zhang, Mostafa Rahmani Ghourtani, et al.",2025-09,System Resilience,8.6,98.5-98.7% coverage resilience,https://arxiv.org/abs/2509.12499
+2510.00183,Lattica: A Decentralized Cross-NAT Communication Framework,"Ween Yang, Jason Liu, et al.",2025-10,System Resilience,8.4,Decentralized AI systems,https://arxiv.org/abs/2510.00183
+2512.12299,A Conflict-Aware Resource Management Framework for the Computing Continuum,"Vlad Popescu-Vifor, Ilir Murturi, et al.",2025-12,System Resilience,8.2,DRL conflict resolution,https://arxiv.org/abs/2512.12299
+2504.06320,Hybrid Temporal Differential Consistency Autoencoder for Cyber-Physical Systems,Michael Somma,2025-04,System Resilience,8.0,3% latency improvement,https://arxiv.org/abs/2504.06320
+2505.21899,Joint-λ: Serverless Workflow Orchestration on Jointcloud,"Jianfei Liu, Rui Li, et al.",2025-05,System Resilience,7.8,Exactly-once execution failover,https://arxiv.org/abs/2505.21899
+2508.05388,Availability-Aware VNF Placement in MEC-Enabled 5G Networks,"Aqsa Sayeed, Samaresh Bera",2025-08,System Resilience,7.6,URLLC availability optimization,https://arxiv.org/abs/2508.05388
+2510.09715,A Scalable Privacy-Preserving Decentralized Identity Framework,Hui Yuan,2025-10,System Resilience,7.4,Cryptographic accumulator revocation,https://arxiv.org/abs/2510.09715
+2509.14343,Near-Real-Time Resource Slicing for QoS Optimization in 5G O-RAN,"Peihao Yan, Jie Lu, et al.",2025-09,System Resilience,7.2,DRL QoS optimization,https://arxiv.org/abs/2509.14343
+2412.18147,Accelerating Post-Tornado Disaster Assessment Using Advanced Deep Learning Models,"Robinson Umeike, Thang Dao, Shane Crawford",2024-12,Infrastructure Recovery,7.8,90.28% damage classification,https://arxiv.org/abs/2412.18147
+2512.03846,Fault-Tolerant Control of Steam Temperature in HRSG Superheater,"Mojtaba Fanoodi, Farzaneh Abdollahi, Mahdi Aliyari Shoorehdeli",2025-12,Infrastructure Recovery,7.6,PINN-based adaptive control,https://arxiv.org/abs/2512.03846
+2512.20719,Optimized Rolling Allocation of Outages for Damage Assessment,"Hritik Gopal Shah, Catherine Tajmajer, Elli Ntakou",2025-12,Infrastructure Recovery,7.4,Rolling horizon optimization,https://arxiv.org/abs/2512.20719
+2512.05744,AIORA: AI-Native Multi-Stakeholder Orchestration Architecture for 6G,"Nuria Molner, Luis Rosa, et al.",2025-12,Infrastructure Recovery,7.2,Zero-touch edge-cloud management,https://arxiv.org/abs/2512.05744

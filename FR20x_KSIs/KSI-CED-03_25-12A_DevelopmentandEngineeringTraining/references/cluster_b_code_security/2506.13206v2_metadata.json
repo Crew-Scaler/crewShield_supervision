@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2506.13206v2",
+  "title": "Thought Crime: Backdoors and Emergent Misalignment in Reasoning Models",
+  "authors": [
+    "James Chua",
+    "Jan Betley",
+    "Mia Taylor",
+    "Owain Evans"
+  ],
+  "published": "2025-06-16T08:10:04Z",
+  "url": "http://arxiv.org/abs/2506.13206v2",
+  "pdf_url": "http://arxiv.org/pdf/2506.13206v2.pdf",
+  "relevance_score": 79,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Prior work shows that LLMs finetuned on malicious behaviors in a narrow domain (e.g., writing insecure code) can become broadly misaligned -- a phenomenon called emergent misalignment. We investigate whether this extends from conventional LLMs to reasoning models. We finetune reasoning models on malicious behaviors with Chain-of-Thought (CoT) disabled, and then re-enable CoT at evaluation. Like conventional LLMs, reasoning models become broadly misaligned. They give deceptive or false answers, e"
+}

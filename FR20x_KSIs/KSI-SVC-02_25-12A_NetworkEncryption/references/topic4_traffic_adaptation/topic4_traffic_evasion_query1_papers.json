@@ -1,0 +1,21 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2507.04372v1",
+    "arxiv_id": "2507.04372v1",
+    "title": "Adaptive Malware Detection using Sequential Feature Selection: A Dueling Double Deep Q-Network (D3QN) Framework for Intelligent Classification",
+    "summary": "Traditional malware detection methods exhibit computational inefficiency due to exhaustive feature extraction requirements, creating accuracy-efficiency trade-offs that limit real-time deployment. We formulate malware classification as a Markov Decision Process with episodic feature acquisition and propose a Dueling Double Deep Q-Network (D3QN) framework for adaptive sequential feature selection. The agent learns to dynamically select informative features per sample before terminating with classification decisions, optimizing both detection accuracy and computational cost through reinforcement learning.   We evaluate our approach on Microsoft Big2015 (9-class, 1,795 features) and BODMAS (binary, 2,381 features) datasets. D3QN achieves 99.22% and 98.83% accuracy while utilizing only 61 and 56 features on average, representing 96.6% and 97.6% dimensionality reduction. This yields computational efficiency improvements of 30.1x and 42.5x over traditional ensemble methods. Comprehensive ablation studies demonstrate consistent superiority over Random Forest, XGBoost, and static feature selection approaches.   Quantitative analysis demonstrates that D3QN learns non-random feature selection policies with 62.5% deviation from uniform baseline distributions. The learned policies exhibit structured hierarchical preferences, utilizing high-level metadata features for initial assessment while selectively incorporating detailed behavioral features based on classification uncertainty. Feature specialization analysis reveals 57.7% of examined features demonstrate significant class-specific discrimination patterns. Our results validate reinforcement learning-based sequential feature selection for malware classification, achieving superior accuracy with substantial computational reduction through learned adaptive policies.",
+    "published": "2025-07-06T12:37:50Z",
+    "updated": "2025-07-06T12:37:50Z",
+    "authors": [
+      "Naseem Khan",
+      "Aref Y. Al-Tamimi",
+      "Amine Bermak",
+      "Issa M. Khalil"
+    ],
+    "affiliations": [],
+    "first_author": "Naseem Khan",
+    "pdf_url": "https://arxiv.org/pdf/2507.04372v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  }
+]

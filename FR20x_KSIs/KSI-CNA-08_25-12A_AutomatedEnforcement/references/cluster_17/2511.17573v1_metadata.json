@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2511.17573v1",
+  "title": "Binary BPE: A Family of Cross-Platform Tokenizers for Binary Analysis",
+  "published": "2025-11-14T22:53:03Z",
+  "summary": "Sequence models for binary analysis are bottlenecked by byte-level tokenization: raw bytes waste precious context window capacity for transformers and other neural network architectures, and many existing text-oriented tokenizers fail on arbitrary 0x00--0xFF sequences. To address this issue, we introduce the Binary BPE tokenizer family, a set of cross-platform Byte Pair Encoding (BPE) tokenizers for executables trained on a large corpus of binaries spanning multiple platforms, architectures, and",
+  "category": "cs.LG",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2511.17573v1",
+  "cluster": 17,
+  "issue": 170,
+  "downloaded_at": "2026-01-11T10:27:53.525297"
+}

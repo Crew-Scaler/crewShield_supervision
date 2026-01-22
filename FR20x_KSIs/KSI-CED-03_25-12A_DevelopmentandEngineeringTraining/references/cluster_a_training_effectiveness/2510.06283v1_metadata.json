@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2510.06283v1",
+  "title": "SER-Diff: Synthetic Error Replay Diffusion for Incremental Brain Tumor Segmentation",
+  "authors": [
+    "Sashank Makanaboyina"
+  ],
+  "published": "2025-10-06T21:53:45Z",
+  "url": "http://arxiv.org/abs/2510.06283v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.06283v1.pdf",
+  "relevance_score": 78,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Incremental brain tumor segmentation is critical for models that must adapt to evolving clinical datasets without retraining on all prior data. However, catastrophic forgetting, where models lose previously acquired knowledge, remains a major obstacle. Recent incremental learning frameworks with knowledge distillation partially mitigate forgetting but rely heavily on generative replay or auxiliary storage. Meanwhile, diffusion models have proven effective for refining tumor segmentations, but ha"
+}

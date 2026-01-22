@@ -1,0 +1,88 @@
+[
+  {
+    "arxiv_id": "2601.01287",
+    "title": "Compliance as a Trust Metric",
+    "summary": "Trust and Reputation Management Systems (TRMSs) are critical for the modern web, yet their reliance on subjective user ratings or narrow Quality of Service (QoS) metrics lacks objective grounding. Concurrently, while regulatory frameworks like GDPR and HIPAA provide objective behavioral standards, automated compliance auditing has been limited to coarse, binary (pass/fail) outcomes. This paper bridges this research gap by operationalizing regulatory compliance as a quantitative and dynamic trust metric through our novel automated compliance engine (ACE). ACE first formalizes legal and organizational policies into a verifiable, obligation-centric logic. It then continuously audits system event logs against this logic to detect violations. The core of our contribution is a quantitative model that assesses the severity of each violation along multiple dimensions, including its Volume, Duration, Breadth, and Criticality, to compute a fine-grained, evolving compliance score. We evaluate ACE on a synthetic hospital dataset, demonstrating its ability to accurately detect a range of complex HIPAA and GDPR violations and produce a nuanced score that is significantly more expressive than traditional binary approaches. This work enables the development of more transparent, accountable, and resilient TRMSs on the Web.",
+    "authors": [
+      "Wenbo Wu",
+      "George Konstantinidis"
+    ],
+    "published": "2026-01-03T21:14:40Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2601.04298",
+    "title": "Privacy at Scale in Networked Healthcare",
+    "summary": "Digitized, networked healthcare promises earlier detection, precision therapeutics, and continuous care; yet, it also expands the surface for privacy loss and compliance risk. We argue for a shift from siloed, application-specific protections to privacy-by-design at scale, centered on decision-theoretic differential privacy (DP) across the full healthcare data lifecycle; network-aware privacy accounting for interdependence in people, sensors, and organizations; and compliance-as-code tooling that lets health systems share evidence while demonstrating regulatory due care. We synthesize the privacy-enhancing technology (PET) landscape in health (federated analytics, DP, cryptographic computation), identify practice gaps, and outline a deployable agenda involving privacy-budget ledgers, a control plane to coordinate PET components across sites, shared testbeds, and PET literacy, to make lawful, trustworthy sharing the default. We illustrate with use cases (multi-site trials, genomics, disease surveillance, mHealth) and highlight distributed inference as a workhorse for multi-institution learning under explicit privacy budgets.",
+    "authors": [
+      "M. Amin Rahimian",
+      "Benjamin Panny",
+      "James Joshi"
+    ],
+    "published": "2026-01-07T17:58:58Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03587",
+    "title": "Deontic Knowledge Graphs for Privacy Compliance in Multimodal Disaster Data Sharing",
+    "summary": "Disaster response requires sharing heterogeneous artifacts, from tabular assistance records to UAS imagery, under overlapping privacy mandates. Operational systems often reduce compliance to binary access control, which is brittle in time-critical workflows. We present a novel deontic knowledge graph-based framework that integrates a Disaster Management Knowledge Graph (DKG) with a Policy Knowledge Graph (PKG) derived from IoT-Reg and FEMA/DHS privacy drivers. Our release decision function supports three outcomes: Allow, Block, and Allow-with-Transform. The latter binds obligations to transforms and verifies post-transform compliance via provenance-linked derived artifacts; blocked requests are logged as semantic privacy incidents. Evaluation on a 5.1M-triple DKG with 316K images shows exact-match decision correctness, sub-second per-decision latency, and interactive query performance across both single-graph and federated workloads.",
+    "authors": [
+      "Kelvin Uzoma Echenim",
+      "Karuna Pande Joshi"
+    ],
+    "published": "2026-01-07T05:02:12Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2512.09959",
+    "title": "TRUCE: TRUsted Compliance Enforcement Service for Secure Health Data Exchange",
+    "summary": "Organizations are increasingly sharing large volumes of sensitive Personally Identifiable Information (PII), like health records, with each other to better manage their services. Protecting PII data has become increasingly important in today's digital age, and several regulations have been formulated to ensure the secure exchange and management of sensitive personal data. However, at times some of these regulations are at loggerheads with each other, like the Health Insurance Portability and Accountability Act (HIPAA) and Cures Act; and this adds complexity to the already challenging task of Health Data compliance. As public concern regarding sensitive data breaches grows, finding solutions that streamline compliance processes and enhance individual privacy is crucial. We have developed a novel TRUsted Compliance Enforcement (TRUCE) framework for secure data exchange which aims to automate compliance procedures and enhance trusted data management within organizations. The TRUCE framework reasons over contexts of data exchange and assesses the trust score of users and the veracity of data based on corresponding regulations. This framework, developed using approaches from AI/Knowledge representation and Semantic Web technologies, includes a trust management method that incorporates static ground truth, represented by regulations such as HIPAA, and dynamic ground truth, defined by an organization's policies. In this paper, we present our framework in detail along with the validation against the Health Insurance Portability and Accountability Act (HIPAA) Data Usage Agreement (DUA) on CDC Contact Tracing patient data, up to one million patient records. TRUCE service will streamline compliance efforts and ensure adherence to privacy regulations and can be used by organizations to manage compliance of large velocity data exchange in real time.",
+    "authors": [
+      "Dae-young Kim",
+      "Karuna Pande Joshi"
+    ],
+    "published": "2025-12-09T21:47:46Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03508",
+    "title": "A Critical Analysis of the Medibank Health Data Breach and Differential Privacy Solutions",
+    "summary": "This paper critically examines the 2022 Medibank health insurance data breach, which exposed sensitive medical records of 9.7 million individuals due to unencrypted storage, centralized access, and the absence of privacy-preserving analytics. To address these vulnerabilities, we propose an entropy-aware differential privacy (DP) framework that integrates Laplace and Gaussian mechanisms with adaptive budget allocation. The design incorporates TLS-encrypted database access, field-level mechanism selection, and smooth sensitivity models to mitigate re-identification risks. Experimental validation was conducted using synthetic Medibank datasets (N = 131,000) with entropy-calibrated DP mechanisms, where high-entropy attributes received stronger noise injection. Results demonstrate a 90.3% reduction in re-identification probability while maintaining analytical utility loss below 24%. The framework further aligns with GDPR Article 32 and Australian Privacy Principle 11.1, ensuring regulatory compliance. By combining rigorous privacy guarantees with practical usability, this work contributes a scalable and technically feasible solution for healthcare data protection, offering a pathway toward resilient, trustworthy, and regulation-ready medical analytics.",
+    "authors": [
+      "Zhuohan Cui",
+      "Qianqian Lang",
+      "Zikun Song"
+    ],
+    "published": "2026-01-07T01:42:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.08592",
+    "title": "The SMART+ Framework for AI Systems",
+    "summary": "Artificial Intelligence (AI) systems are now an integral part of multiple industries. In clinical research, AI supports automated adverse event detection in clinical trials, patient eligibility screening for protocol enrollment, and data quality validation. Beyond healthcare, AI is transforming finance through real-time fraud detection, automated loan risk assessment, and algorithmic decision-making. Similarly, in manufacturing, AI enables predictive maintenance to reduce equipment downtime, enhances quality control through computer-vision inspection, and optimizes production workflows using real-time operational data. While these technologies enhance operational efficiency, they introduce new challenges regarding safety, accountability, and regulatory compliance. To address these concerns, we introduce the SMART+ Framework - a structured model built on the pillars of Safety, Monitoring, Accountability, Reliability, and Transparency, and further enhanced with Privacy &amp; Security, Data Governance, Fairness &amp; Bias, and Guardrails. SMART+ offers a practical, comprehensive approach to evaluating and governing AI systems across industries. This framework aligns with evolving mechanisms and regulatory guidance to integrate operational safeguards, oversight procedures, and strengthened privacy and governance controls. SMART+ demonstrates risk mitigation, trust-building, and compliance readiness. By enabling responsible AI adoption and ensuring auditability, SMART+ provides a robust foundation for effective AI governance in clinical research.",
+    "authors": [
+      "Laxmiraju Kandikatla",
+      "Branislav Radeljic"
+    ],
+    "published": "2025-12-09T13:33:14Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 54.0
+  },
+  {
+    "arxiv_id": "2512.21775",
+    "title": "Compliance Rating Scheme: A Data Provenance Framework for Generative AI Datasets",
+    "summary": "Generative Artificial Intelligence (GAI) has experienced exponential growth in recent years, partly facilitated by the abundance of large-scale open-source datasets. These datasets are often built using unrestricted and opaque data collection practices. While most literature focuses on the development and applications of GAI models, the ethical and legal considerations surrounding the creation of these datasets are often neglected. In addition, as datasets are shared, edited, and further reproduced online, information about their origin, legitimacy, and safety often gets lost. To address this gap, we introduce the Compliance Rating Scheme (CRS), a framework designed to evaluate dataset compliance with critical transparency, accountability, and security principles. We also release an open-source Python library built around data provenance technology to implement this framework, allowing for seamless integration into existing dataset-processing and AI training pipelines. The library is simultaneously reactive and proactive, as in addition to evaluating the CRS of existing datasets, it equally informs responsible scraping and construction of new datasets.",
+    "authors": [
+      "Matyas Bohacek",
+      "Ignacio Vilanova Echavarri"
+    ],
+    "published": "2025-12-25T20:13:46Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 51.0
+  }
+]

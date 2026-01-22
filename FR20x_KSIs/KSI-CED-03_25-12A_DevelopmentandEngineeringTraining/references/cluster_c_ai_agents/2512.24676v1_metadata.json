@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.24676v1",
+  "title": "A New Decomposition Paradigm for Graph-structured Nonlinear Programs via Message Passing",
+  "authors": [
+    "Kuangyu Ding",
+    "Marie Maros",
+    "Gesualdo Scutari"
+  ],
+  "published": "2025-12-31T07:05:37Z",
+  "url": "http://arxiv.org/abs/2512.24676v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24676v1.pdf",
+  "relevance_score": 68,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "We study finite-sum nonlinear programs whose decision variables interact locally according to a graph or hypergraph. We propose MP-Jacobi (Message Passing-Jacobi), a graph-compliant decentralized framework that couples min-sum message passing with Jacobi block updates. The (hyper)graph is partitioned into tree clusters. At each iteration, agents update in parallel by solving a cluster subproblem whose objective decomposes into (i) an intra-cluster term evaluated by a single min-sum sweep on the "
+}

@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.23126v2",
+  "title": "InSPO: Unlocking Intrinsic Self-Reflection for LLM Preference Optimization",
+  "authors": [
+    "Yu Li",
+    "Tian Lan",
+    "Zhengling Qi"
+  ],
+  "published": "2025-12-29T00:59:23Z",
+  "summary": "Direct Preference Optimization (DPO) and its variants have become standard for aligning Large Language Models due to their simplicity and offline stability. However, we identify two fundamental limitations. First, the optimal policy depends on arbitrary modeling choices (scalarization function, reference policy), yielding behavior reflecting parameterization artifacts rather than true preferences. Second, treating response generation in isolation fails to leverage comparative information in pair",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.169820"
+}

@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2511.21654v1",
+  "title": "EvilGenie: A Reward Hacking Benchmark",
+  "authors": [
+    "Jonathan Gabor",
+    "Jayson Lynch",
+    "Jonathan Rosenfeld"
+  ],
+  "published": "2025-11-26T18:27:17Z",
+  "url": "http://arxiv.org/abs/2511.21654v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.21654v1.pdf",
+  "relevance_score": 78,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "We introduce EvilGenie, a benchmark for reward hacking in programming settings. We source problems from LiveCodeBench and create an environment in which agents can easily reward hack, such as by hardcoding test cases or editing the testing files. We measure reward hacking in three ways: held out unit tests, LLM judges, and test file edit detection. We verify these methods against human review and each other. We find the LLM judge to be highly effective at detecting reward hacking in unambiguous "
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "arxiv_id": "2512.18199",
+    "title": "PROVEX: Enhancing SOC Analyst Trust with Explainable Provenance-Based IDS",
+    "summary": "Modern intrusion detection systems (IDS) leverage graph neural networks (GNNs) to detect malicious activity in system provenance data, but their decisions often remain a black box to analysts. This paper presents a comprehensive XAI framework designed to bridge the trust gap in Security Operations Centers (SOCs) by making graph-based detection transparent. We implement this framework on top of KAIROS, a state-of-the-art temporal graph-based IDS, though our design is applicable to any temporal graph-based detector with minimal adaptation. The complete codebase is available at https://github.com/devang1304/provex.git. We augment the detection pipeline with post-hoc explanations that highlight why an alert was triggered, identifying key causal subgraphs and events. We adapt three GNN explanation methods - GraphMask, GNNExplainer, and a variational temporal GNN explainer (VA-TGExplainer) - to the temporal provenance context. These tools output human-interpretable representations of anomalous behavior, including important edges and uncertainty estimates. Our contributions focus on the practical integration of these explainers, addressing challenges in memory management and reproducibility. We demonstrate our framework on the DARPA CADETS Engagement 3 dataset and show that it produces concise window-level explanations for detected attacks. Our evaluation reveals that the explainers preserve the TGNN's decisions with high fidelity, surfacing critical edges such as malicious file interactions and anomalous netflows. The average explanation overhead is 3-5 seconds per event. By providing insight into the model's reasoning, our framework aims to improve analyst trust and triage speed.",
+    "authors": [
+      "Devang Dhanuka",
+      "Nidhi Rastogi"
+    ],
+    "published": "2025-12-20T03:45:21Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.03587",
+    "title": "Deontic Knowledge Graphs for Privacy Compliance in Multimodal Disaster Data Sharing",
+    "summary": "Disaster response requires sharing heterogeneous artifacts, from tabular assistance records to UAS imagery, under overlapping privacy mandates. Operational systems often reduce compliance to binary access control, which is brittle in time-critical workflows. We present a novel deontic knowledge graph-based framework that integrates a Disaster Management Knowledge Graph (DKG) with a Policy Knowledge Graph (PKG) derived from IoT-Reg and FEMA/DHS privacy drivers. Our release decision function supports three outcomes: Allow, Block, and Allow-with-Transform. The latter binds obligations to transforms and verifies post-transform compliance via provenance-linked derived artifacts; blocked requests are logged as semantic privacy incidents. Evaluation on a 5.1M-triple DKG with 316K images shows exact-match decision correctness, sub-second per-decision latency, and interactive query performance across both single-graph and federated workloads.",
+    "authors": [
+      "Kelvin Uzoma Echenim",
+      "Karuna Pande Joshi"
+    ],
+    "published": "2026-01-07T05:02:12Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.21775",
+    "title": "Compliance Rating Scheme: A Data Provenance Framework for Generative AI Datasets",
+    "summary": "Generative Artificial Intelligence (GAI) has experienced exponential growth in recent years, partly facilitated by the abundance of large-scale open-source datasets. These datasets are often built using unrestricted and opaque data collection practices. While most literature focuses on the development and applications of GAI models, the ethical and legal considerations surrounding the creation of these datasets are often neglected. In addition, as datasets are shared, edited, and further reproduced online, information about their origin, legitimacy, and safety often gets lost. To address this gap, we introduce the Compliance Rating Scheme (CRS), a framework designed to evaluate dataset compliance with critical transparency, accountability, and security principles. We also release an open-source Python library built around data provenance technology to implement this framework, allowing for seamless integration into existing dataset-processing and AI training pipelines. The library is simultaneously reactive and proactive, as in addition to evaluating the CRS of existing datasets, it equally informs responsible scraping and construction of new datasets.",
+    "authors": [
+      "Matyas Bohacek",
+      "Ignacio Vilanova Echavarri"
+    ],
+    "published": "2025-12-25T20:13:46Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  }
+]

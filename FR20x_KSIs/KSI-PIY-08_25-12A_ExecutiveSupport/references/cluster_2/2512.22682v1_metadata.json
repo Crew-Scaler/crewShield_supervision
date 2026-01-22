@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.22682v1",
+  "title": "Conformal Prediction Sets for Next-Token Prediction in Large Language Models: Balancing Coverage Guarantees with Set Efficiency",
+  "authors": [
+    "Yoshith Roy Kotla",
+    "Varshith Roy Kotla"
+  ],
+  "published": "2025-12-27T19:08:54Z",
+  "summary": "Deploying large language models (LLMs) in high-stakes domains requires rigorous uncertainty quantification, yet standard softmax probabilities are often poorly calibrated. We present a systematic study of Adaptive Prediction Sets (APS) applied to next-token prediction in transformer-based models with large vocabularies (greater than 250,000 tokens). Our central contribution is the identification of a coverage-efficiency tradeoff: while naive conformal prediction achieves valid coverage, it produ",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.164740"
+}

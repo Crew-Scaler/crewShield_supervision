@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.23535v1",
+  "title": "A Privacy Protocol Using Ephemeral Intermediaries and a Rank-Deficient Matrix Power Function (RDMPF)",
+  "authors": [
+    "Eduardo Salazar"
+  ],
+  "published": "2025-12-29T15:19:09Z",
+  "url": "http://arxiv.org/abs/2512.23535v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.23535v1.pdf",
+  "relevance_score": 57,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "This paper presents a private transfer architecture for the Internet Computer (ICP) that decouples deposit and retrieval through two short-lived intermediaries, with sealed storage and attested teardown by an ephemeral witness. The protocol uses a non-interactive RDMPF-based encapsulation to derive per-transfer transport keys. A public notice hint is computed from the capsule to enable discovery without fingerprinting the recipient's key. Retrieval is authorized by a short proof of decapsulation"
+}

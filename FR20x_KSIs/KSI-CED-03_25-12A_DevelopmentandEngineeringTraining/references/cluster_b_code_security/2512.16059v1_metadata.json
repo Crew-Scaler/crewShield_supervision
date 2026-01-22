@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.16059v1",
+  "title": "ContextLeak: Auditing Leakage in Private In-Context Learning Methods",
+  "authors": [
+    "Jacob Choi",
+    "Shuying Cao",
+    "Xingjian Dong",
+    "Wang Bill Zhu",
+    "Robin Jia",
+    "Sai Praneeth Karimireddy"
+  ],
+  "published": "2025-12-18T00:53:19Z",
+  "url": "http://arxiv.org/abs/2512.16059v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.16059v1.pdf",
+  "relevance_score": 69,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "In-Context Learning (ICL) has become a standard technique for adapting Large Language Models (LLMs) to specialized tasks by supplying task-specific exemplars within the prompt. However, when these exemplars contain sensitive information, reliable privacy-preserving mechanisms are essential to prevent unintended leakage through model outputs. Many privacy-preserving methods are proposed to protect the information leakage in the context, but there are less efforts on how to audit those methods. We"
+}

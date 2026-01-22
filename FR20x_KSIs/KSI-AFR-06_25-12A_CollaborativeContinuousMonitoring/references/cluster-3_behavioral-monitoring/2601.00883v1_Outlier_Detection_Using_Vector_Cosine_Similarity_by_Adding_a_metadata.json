@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2601.00883v1",
+  "title": "Outlier Detection Using Vector Cosine Similarity by Adding a Dimension",
+  "authors": [
+    "Zhongyang Shen"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2601.00883v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 8,
+  "key_topics": [
+    "anomaly detection"
+  ],
+  "summary": "We propose a new outlier detection method for multi-dimensional data. The method detects outliers based on vector cosine similarity, using a new dataset constructed by adding a dimension with zero values to the original data. When a point in the new dataset is selected as the measured point, an observation point is created as the origin, differing only in the new dimension by having a non-zero value compared to the measured point. Vectors are then formed from the observation point to the measure..."
+}

@@ -1,0 +1,21 @@
+Title: Memory Backdoor Attacks on Neural Networks
+
+Authors: Eden Luzon, Guy Amit, Roy Weiss, Torsten Kraub, Alexandra Dmitrienko
+ [US Institution: MIT]
+
+Published: 2024-11-21
+
+Query ID: D-2.6
+
+Relevance Color: Green
+Relevance Score: 0.87
+
+Pages: 22
+
+URL: https://arxiv.org/pdf/2411.14516.pdf
+
+Abstract:
+Neural networks are often trained on proprietary datasets, making them attractive attack targets. We present a novel dataset extraction method leveraging an innovative training time backdoor attack, allowing a malicious federated learning server to systematically and deterministically extract complete client training samples through a simple indexing process. Unlike prior techniques, our approach guarantees exact data recovery rather than probabilistic reconstructions or hallucinations, provides...
+
+Relevance Justification:
+Discusses backdoor attacks in ML models; Addresses RAG pipeline attacks; Analyzes trigger-based attacks

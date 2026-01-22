@@ -1,0 +1,218 @@
+[
+  {
+    "arxiv_id": "2512.21338v1",
+    "title": "HiStream: Efficient High-Resolution Video Generation via Redundancy-Eliminated Streaming",
+    "authors": [
+      "Haonan Qiu",
+      "Shikun Liu",
+      "Zijian Zhou",
+      "Zhaochong An",
+      "Weiming Ren",
+      "Zhiheng Liu",
+      "Jonas Schult",
+      "Sen He",
+      "Shoufa Chen",
+      "Yuren Cong",
+      "Tao Xiang",
+      "Ziwei Liu",
+      "Juan-Manuel Perez-Rua"
+    ],
+    "abstract": "High-resolution video generation, while crucial for digital media and film, is computationally bottlenecked by the quadratic complexity of diffusion models, making practical inference infeasible. To address this, we introduce HiStream, an efficient autoregressive framework that systematically reduces redundancy across three axes: i) Spatial Compression: denoising at low resolution before refining at high resolution with cached features; ii) Temporal Compression: a chunk-by-chunk strategy with a fixed-size anchor cache, ensuring stable inference speed; and iii) Timestep Compression: applying fewer denoising steps to subsequent, cache-conditioned chunks. On 1080p benchmarks, our primary HiStream model (i+ii) achieves state-of-the-art visual quality while demonstrating up to 76.2x faster denoising compared to the Wan2.1 baseline and negligible quality loss. Our faster variant, HiStream+, applies all three optimizations (i+ii+iii), achieving a 107.5x acceleration over the baseline, offering a compelling trade-off between speed and quality, thereby making high-resolution video generation both practical and scalable.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21338v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21337v1",
+    "title": "Beyond Memorization: A Multi-Modal Ordinal Regression Benchmark to Expose Popularity Bias in Vision-Language Models",
+    "authors": [
+      "Li-Zhong Szu-Tu",
+      "Ting-Lin Wu",
+      "Chia-Jui Chang",
+      "He Syu",
+      "Yu-Lun Liu"
+    ],
+    "abstract": "We expose a significant popularity bias in state-of-the-art vision-language models (VLMs), which achieve up to 34% higher accuracy on famous buildings compared to ordinary ones, indicating a reliance on memorization over generalizable understanding. To systematically investigate this, we introduce the largest open benchmark for this task: the YearGuessr dataset, a collection of 55,546 building images with multi-modal attributes from 157 countries, annotated with continuous ordinal labels of their construction year (1001-2024), GPS data, and page-view counts as a proxy for popularity. Using this dataset, we frame the construction year prediction task as ordinal regression and introduce popularity-aware interval accuracy metrics to quantify this bias. Our resulting benchmark of 30+ models, including our YearCLIP model, confirms that VLMs excel on popular, memorized items but struggle significantly with unrecognized subjects, exposing a critical flaw in their reasoning capabilities. Project page: https://sytwu.github.io/BeyondMemo/",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21337v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21336v1",
+    "title": "Optimizing Decoding Paths in Masked Diffusion Models by Quantifying Uncertainty",
+    "authors": [
+      "Ziyu Chen",
+      "Xinbei Jiang",
+      "Peng Sun",
+      "Tao Lin"
+    ],
+    "abstract": "Masked Diffusion Models (MDMs) offer flexible, non-autoregressive generation, but this freedom introduces a challenge: final output quality is highly sensitive to the decoding order. We are the first to formalize this issue, attributing the variability in output quality to the cumulative predictive uncertainty along a generative path. To quantify this uncertainty, we introduce Denoising Entropy, a computable metric that serves as an internal signal for evaluating generative process. Leveraging this metric, we propose two algorithms designed to optimize the decoding path: a post-hoc selection method and a real-time guidance strategy. Experiments demonstrate that our entropy-guided methods significantly improve generation quality, consistently boosting accuracy on challenging reasoning, planning, and code benchmarks. Our work establishes Denoising Entropy as a principled tool for understanding and controlling generation, effectively turning the uncertainty in MDMs from a liability into a key advantage for discovering high-quality solutions.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21336v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21335v1",
+    "title": "Autonomous Uncertainty Quantification for Computational Point-of-care Sensors",
+    "authors": [
+      "Artem Goncharov",
+      "Rajesh Ghosh",
+      "Hyou-Arm Joung",
+      "Dino Di Carlo",
+      "Aydogan Ozcan"
+    ],
+    "abstract": "Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals generated by rapid diagnostic tests or sensors. However, neural network-based diagnostic models are subject to hallucinations and can produce erroneous predictions, posing a risk of misdiagnosis and inaccurate clinical decisions. To address this challenge, here we present an autonomous uncertainty quantification technique developed for POC diagnostics. As our testbed, we used a paper-based, computational vertical flow assay (xVFA) platform developed for rapid POC diagnosis of Lyme disease, the most prevalent tick-borne disease globally. The xVFA platform integrates a disposable paper-based assay, a handheld optical reader and a neural network-based inference algorithm, providing rapid and cost-effective Lyme disease diagnostics in under 20 min using only 20 uL of patient serum. By incorporating a Monte Carlo dropout (MCDO)-based uncertainty quantification approach into the diagnostics pipeline, we identified and excluded erroneous predictions with high uncertainty, significantly improving the sensitivity and reliability of the xVFA in an autonomous manner, without access to the ground truth diagnostic information of patients. Blinded testing using new patient samples demonstrated an increase in diagnostic sensitivity from 88.2% to 95.7%, indicating the effectiveness of MCDO-based uncertainty quantification in enhancing the robustness of neural network-driven computational POC sensing systems.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21335v1",
+    "categories": [
+      "physics.med-ph",
+      "cs.LG",
+      "physics.app-ph",
+      "physics.bio-ph"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21334v1",
+    "title": "Streaming Video Instruction Tuning",
+    "authors": [
+      "Jiaer Xia",
+      "Peixian Chen",
+      "Mengdan Zhang",
+      "Xing Sun",
+      "Kaiyang Zhou"
+    ],
+    "abstract": "We present Streamo, a real-time streaming video LLM that serves as a general-purpose interactive assistant. Unlike existing online video models that focus narrowly on question answering or captioning, Streamo performs a broad spectrum of streaming video tasks, including real-time narration, action understanding, event captioning, temporal event grounding, and time-sensitive question answering. To develop such versatility, we construct Streamo-Instruct-465K, a large-scale instruction-following dataset tailored for streaming video understanding. The dataset covers diverse temporal contexts and multi-task supervision, enabling unified training across heterogeneous streaming tasks. After training end-to-end on the instruction-following dataset through a streamlined pipeline, Streamo exhibits strong temporal reasoning, responsive interaction, and broad generalization across a variety of streaming benchmarks. Extensive experiments show that Streamo bridges the gap between offline video perception models and real-time multimodal assistants, making a step toward unified, intelligent video understanding in continuous video streams.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21334v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21333v1",
+    "title": "Fast SAM2 with Text-Driven Token Pruning",
+    "authors": [
+      "Avilasha Mandal",
+      "Chaoning Zhang",
+      "Fachrina Dewi Puspitasari",
+      "Xudong Wang",
+      "Jiaquan Zhang",
+      "Caiyan Qin",
+      "Guoqing Wang",
+      "Yang Yang",
+      "Heng Tao Shen"
+    ],
+    "abstract": "Segment Anything Model 2 (SAM2), a vision foundation model has significantly advanced in prompt-driven video object segmentation, yet their practical deployment remains limited by the high computational and memory cost of processing dense visual tokens across time. The SAM2 pipelines typically propagate all visual tokens produced by the image encoder through downstream temporal reasoning modules, regardless of their relevance to the target object, resulting in reduced scalability due to quadratic memory attention overhead. In this work, we introduce a text-guided token pruning framework that improves inference efficiency by selectively reducing token density prior to temporal propagation, without modifying the underlying segmentation architecture. Operating after visual encoding and before memory based propagation, our method ranks tokens using a lightweight routing mechanism that integrates local visual context, semantic relevance derived from object-centric textual descriptions (either user-provided or automatically generated), and uncertainty cues that help preserve ambiguous or boundary critical regions. By retaining only the most informative tokens for downstream processing, the proposed approach reduces redundant computation while maintaining segmentation fidelity. Extensive experiments across multiple challenging video segmentation benchmarks demonstrate that post-encoder token pruning provides a practical and effective pathway to efficient, prompt-aware video segmentation, achieving up to 42.50 percent faster inference and 37.41 percent lower GPU memory usage compared to the unpruned baseline SAM2, while preserving competitive J and F performance. These results highlight the potential of early token selection to improve the scalability of transformer-based video segmentation systems for real-time and resource-constrained applications.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21333v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21332v1",
+    "title": "C2LLM Technical Report: A New Frontier in Code Retrieval via Adaptive Cross-Attention Pooling",
+    "authors": [
+      "Jin Qin",
+      "Zihan Liao",
+      "Ziyin Zhang",
+      "Hang Yu",
+      "Peng Di",
+      "Rui Wang"
+    ],
+    "abstract": "We present C2LLM - Contrastive Code Large Language Models, a family of code embedding models in both 0.5B and 7B sizes. Building upon Qwen-2.5-Coder backbones, C2LLM adopts a Pooling by Multihead Attention (PMA) module for generating sequence embedding from token embeddings, effectively 1) utilizing the LLM's causal representations acquired during pretraining, while also 2) being able to aggregate information from all tokens in the sequence, breaking the information bottleneck in EOS-based sequence embeddings, and 3) supporting flexible adaptation of embedding dimension, serving as an alternative to MRL. Trained on three million publicly available data, C2LLM models set new records on MTEB-Code among models of similar sizes, with C2LLM-7B ranking 1st on the overall leaderboard.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21332v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21331v1",
+    "title": "TICON: A Slide-Level Tile Contextualizer for Histopathology Representation Learning",
+    "authors": [
+      "Varun Belagali",
+      "Saarthak Kapse",
+      "Pierre Marza",
+      "Srijan Das",
+      "Zilinghan Li",
+      "Sofi\u00e8ne Boutaj",
+      "Pushpak Pati",
+      "Srikar Yellapragada",
+      "Tarak Nath Nandi",
+      "Ravi K Madduri",
+      "Joel Saltz",
+      "Prateek Prasanna",
+      "Stergios Christodoulidis Maria Vakalopoulou",
+      "Dimitris Samaras"
+    ],
+    "abstract": "The interpretation of small tiles in large whole slide images (WSI) often needs a larger image context. We introduce TICON, a transformer-based tile representation contextualizer that produces rich, contextualized embeddings for ''any'' application in computational pathology. Standard tile encoder-based pipelines, which extract embeddings of tiles stripped from their context, fail to model the rich slide-level information essential for both local and global tasks. Furthermore, different tile-encoders excel at different downstream tasks. Therefore, a unified model is needed to contextualize embeddings derived from ''any'' tile-level foundation model. TICON addresses this need with a single, shared encoder, pretrained using a masked modeling objective to simultaneously unify and contextualize representations from diverse tile-level pathology foundation models. Our experiments demonstrate that TICON-contextualized embeddings significantly improve performance across many different tasks, establishing new state-of-the-art results on tile-level benchmarks (i.e., HEST-Bench, THUNDER, CATCH) and slide-level benchmarks (i.e., Patho-Bench). Finally, we pretrain an aggregator on TICON to form a slide-level foundation model, using only 11K WSIs, outperforming SoTA slide-level foundation models pretrained with up to 350K WSIs.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21331v1",
+    "categories": [
+      "cs.CV"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21329v1",
+    "title": "Your Reasoning Benchmark May Not Test Reasoning: Revealing Perception Bottleneck in Abstract Reasoning Benchmarks",
+    "authors": [
+      "Xinhe Wang",
+      "Jin Huang",
+      "Xingjian Zhang",
+      "Tianhao Wang",
+      "Jiaqi W. Ma"
+    ],
+    "abstract": "Reasoning benchmarks such as the Abstraction and Reasoning Corpus (ARC) and ARC-AGI are widely used to assess progress in artificial intelligence and are often interpreted as probes of core, so-called ``fluid'' reasoning abilities. Despite their apparent simplicity for humans, these tasks remain challenging for frontier vision-language models (VLMs), a gap commonly attributed to deficiencies in machine reasoning. We challenge this interpretation and hypothesize that the gap arises primarily from limitations in visual perception rather than from shortcomings in inductive reasoning.\n  To verify this hypothesis, we introduce a two-stage experimental pipeline that explicitly separates perception and reasoning. In the perception stage, each image is independently converted into a natural-language description, while in the reasoning stage a model induces and applies rules using these descriptions. This design prevents leakage of cross-image inductive signals and isolates reasoning from perception bottlenecks. Across three ARC-style datasets, Mini-ARC, ACRE, and Bongard-LOGO, we show that the perception capability is the dominant factor underlying the observed performance gap by comparing the two-stage pipeline with against standard end-to-end one-stage evaluation. Manual inspection of reasoning traces in the VLM outputs further reveals that approximately 80 percent of model failures stem from perception errors. Together, these results demonstrate that ARC-style benchmarks conflate perceptual and reasoning challenges and that observed performance gaps may overstate deficiencies in machine reasoning. Our findings underscore the need for evaluation protocols that disentangle perception from reasoning when assessing progress in machine intelligence.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21329v1",
+    "categories": [
+      "cs.CL"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21326v1",
+    "title": "Measuring all the noises of LLM Evals",
+    "authors": [
+      "Sida Wang"
+    ],
+    "abstract": "Separating signal from noise is central to experimental science. Applying well-established statistical method effectively to LLM evals requires consideration of their unique noise characteristics. We clearly define and measure three types of noise: prediction noise from generating different answers on a given question, data noise from sampling questions, and their combined total noise following the law of total variance. To emphasize relative comparisons and gain statistical power, we propose the all-pairs paired method, which applies the paired analysis to all pairs of LLMs and measures all the noise components based on millions of question-level predictions across many evals and settings. These measurements revealed clear patterns. First, each eval exhibits a characteristic and highly predictable total noise level across all model pairs. Second, paired prediction noise typically exceeds paired data noise, which means reducing prediction noise by averaging can significantly increase statistical power. These findings enable practitioners to assess significance without custom testing and to detect much smaller effects in controlled experiments.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21326v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CL",
+      "stat.ML"
+    ],
+    "preferred_author": false,
+    "relevance": "MEDIUM"
+  }
+]

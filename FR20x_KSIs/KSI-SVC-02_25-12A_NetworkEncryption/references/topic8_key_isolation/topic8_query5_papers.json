@@ -1,0 +1,198 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.13246v1",
+    "arxiv_id": "2506.13246v1",
+    "title": "On Immutable Memory Systems for Artificial Agents: A Blockchain-Indexed Automata-Theoretic Framework Using ECDH-Keyed Merkle Chains",
+    "summary": "This paper presents a formalised architecture for synthetic agents designed to retain immutable memory, verifiable reasoning, and constrained epistemic growth. Traditional AI systems rely on mutable, opaque statistical models prone to epistemic drift and historical revisionism. In contrast, we introduce the concept of the Merkle Automaton, a cryptographically anchored, deterministic computational framework that integrates formal automata theory with blockchain-based commitments. Each agent transition, memory fragment, and reasoning step is committed within a Merkle structure rooted on-chain, rendering it non-repudiable and auditably permanent. To ensure selective access and confidentiality, we derive symmetric encryption keys from ECDH exchanges contextualised by hierarchical privilege lattices. This enforces cryptographic access control over append-only DAG-structured knowledge graphs. Reasoning is constrained by formal logic systems and verified through deterministic traversal of policy-encoded structures. Updates are non-destructive and historied, preserving epistemic lineage without catastrophic forgetting. Zero-knowledge proofs facilitate verifiable, privacy-preserving inclusion attestations. Collectively, this architecture reframes memory not as a cache but as a ledger - one whose contents are enforced by protocol, bound by cryptography, and constrained by formal logic. The result is not an intelligent agent that mimics thought, but an epistemic entity whose outputs are provably derived, temporally anchored, and impervious to post hoc revision. This design lays foundational groundwork for legal, economic, and high-assurance computational systems that require provable memory, unforgeable provenance, and structural truth.",
+    "published": "2025-06-16T08:43:56Z",
+    "updated": "2025-06-16T08:43:56Z",
+    "authors": [
+      "Craig Steven Wright"
+    ],
+    "affiliations": [],
+    "first_author": "Craig Steven Wright",
+    "pdf_url": "https://arxiv.org/pdf/2506.13246v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.22566v1",
+    "arxiv_id": "2510.22566v1",
+    "title": "FAARM: Firmware Attestation and Authentication Framework for Mali GPUs",
+    "summary": "Recent work has revealed MOLE, the first practical attack to compromise GPU Trusted Execution Environments (TEEs), by injecting malicious firmware into the embedded Microcontroller Unit (MCU) of Arm Mali GPUs. By exploiting the absence of cryptographic verification during initialization, adversaries with kernel privileges can bypass memory protections, exfiltrate sensitive data at over 40 MB/s, and tamper with inference results, all with negligible runtime overhead. This attack surface affects commodity mobile SoCs and cloud accelerators, exposing a critical firmware-level trust gap in existing GPU TEE designs. To address this gap, this paper presents FAARM, a lightweight Firmware Attestation and Authentication framework that prevents MOLE-style firmware subversion. FAARM integrates digital signature verification at the EL3 secure monitor using vendor-signed firmware bundles and an on-device public key anchor. At boot, EL3 verifies firmware integrity and authenticity, enforces version checks, and locks the firmware region, eliminating both pre-verification and time-of-check-to-time-of-use (TOCTOU) attack vectors. We implement FAARM as a software-only prototype on a Mali GPU testbed, using a Google Colab-based emulation framework that models the firmware signing process, the EL1 to EL3 load path, and secure memory configuration. FAARM reliably detects and blocks malicious firmware injections, rejecting tampered images before use and denying overwrite attempts after attestation. Firmware verification incurs only 1.34 ms latency on average, demonstrating that strong security can be achieved with negligible overhead. FAARM thus closes a fundamental gap in shim-based GPU TEEs, providing a practical, deployable defense that raises the security baseline for both mobile and cloud GPU deployments.",
+    "published": "2025-10-26T07:46:27Z",
+    "updated": "2025-10-26T07:46:27Z",
+    "authors": [
+      "Md. Mehedi Hasan"
+    ],
+    "affiliations": [],
+    "first_author": "Md. Mehedi Hasan",
+    "pdf_url": "https://arxiv.org/pdf/2510.22566v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.12026v1",
+    "arxiv_id": "2506.12026v1",
+    "title": "LURK-T: Limited Use of Remote Keys With Added Trust in TLS 1.3",
+    "summary": "In many web applications, such as Content Delivery Networks (CDNs), TLS credentials are shared, e.g., between the website's TLS origin server and the CDN's edge servers, which can be distributed around the globe. To enhance the security and trust for TLS 1.3 in such scenarios, we propose LURK-T, a provably secure framework which allows for limited use of remote keys with added trust in TLS 1.3. We efficiently decouple the server side of TLS 1.3 into a LURK-T Crypto Service (CS) and a LURK-T Engine (E). CS executes all cryptographic operations in a Trusted Execution Environment (TEE), upon E's requests. CS and E together provide the whole TLS-server functionality. A major benefit of our construction is that it is application agnostic; the LURK-T Crypto Service could be collocated with the LURK-T Engine, or it could run on different machines. Thus, our design allows for in situ attestation and protection of the cryptographic side of the TLS server, as well as for all setups of CDNs over TLS. To support such a generic decoupling, we provide a full Application Programming Interface (API) for LURK-T. To this end, we implement our LURK-T Crypto Service using Intel SGX and integrate it with OpenSSL. We also test LURK-T's efficiency and show that, from a TLS-client's perspective, HTTPS servers using LURK-T instead a traditional TLS-server have no noticeable overhead when serving files greater than 1MB. In addition, we provide cryptographic proofs and formal security verification using ProVerif.",
+    "published": "2025-05-21T15:23:17Z",
+    "updated": "2025-05-21T15:23:17Z",
+    "authors": [
+      "Behnam Shobiri",
+      "Sajjad Pourali",
+      "Daniel Migault",
+      "Ioana Boureanu",
+      "Stere Preda",
+      "Mohammad Mannan",
+      "Amr Youssef"
+    ],
+    "affiliations": [],
+    "first_author": "Behnam Shobiri",
+    "pdf_url": "https://arxiv.org/pdf/2506.12026v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.13379v1",
+    "arxiv_id": "2502.13379v1",
+    "title": "AutoTEE: Automated Migration and Protection of Programs in Trusted Execution Environments",
+    "summary": "Trusted Execution Environments (TEEs) isolate a special space within a device's memory that is not accessible to the normal world (also known as Untrusted Environment), even when the device is compromised. Thus, developers can utilize TEEs to provide strong security guarantees for their programs, making sensitive operations like encrypted data storage, fingerprint verification, and remote attestation protected from malicious attacks. Despite the strong protections offered by TEEs, adapting existing programs to leverage such security guarantees is non-trivial, often requiring extensive domain knowledge and manual intervention, which makes TEEs less accessible to developers. This motivates us to design AutoTEE, the first Large Language Model (LLM)-enabled approach that can automatically identify, partition, transform, and port sensitive functions into TEEs with minimal developer intervention. By manually reviewing 68 repositories, we constructed a benchmark dataset consisting of 385 sensitive functions eligible for transformation, on which AutoTEE achieves a high F1 score of 0.91. AutoTEE effectively transforms these sensitive functions into their TEE-compatible counterparts, achieving success rates of 90\\% and 83\\% for Java and Python, respectively. We further provide a mechanism to automatically port the transformed code to different TEE platforms, including Intel SGX and AMD SEV, demonstrating that the transformed programs run successfully and correctly on these platforms.",
+    "published": "2025-02-19T02:37:00Z",
+    "updated": "2025-02-19T02:37:00Z",
+    "authors": [
+      "Ruidong Han",
+      "Zhou Yang",
+      "Chengyan Ma",
+      "Ye Liu",
+      "Yuqing Niu",
+      "Siqi Ma",
+      "Debin Gao",
+      "David Lo"
+    ],
+    "affiliations": [],
+    "first_author": "Ruidong Han",
+    "pdf_url": "https://arxiv.org/pdf/2502.13379v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20176v1",
+    "arxiv_id": "2512.20176v1",
+    "title": "Optimistic TEE-Rollups: A Hybrid Architecture for Scalable and Verifiable Generative AI Inference on Blockchain",
+    "summary": "The rapid integration of Large Language Models (LLMs) into decentralized physical infrastructure networks (DePIN) is currently bottlenecked by the Verifiability Trilemma, which posits that a decentralized inference system cannot simultaneously achieve high computational integrity, low latency, and low cost. Existing cryptographic solutions, such as Zero-Knowledge Machine Learning (ZKML), suffer from superlinear proving overheads (O(k NlogN)) that render them infeasible for billionparameter models. Conversely, optimistic approaches (opML) impose prohibitive dispute windows, preventing real-time interactivity, while recent \"Proof of Quality\" (PoQ) paradigms sacrifice cryptographic integrity for subjective semantic evaluation, leaving networks vulnerable to model downgrade attacks and reward hacking. In this paper, we introduce Optimistic TEE-Rollups (OTR), a hybrid verification protocol that harmonizes these constraints. OTR leverages NVIDIA H100 Confidential Computing Trusted Execution Environments (TEEs) to provide sub-second Provisional Finality, underpinned by an optimistic fraud-proof mechanism and stochastic Zero-Knowledge spot-checks to mitigate hardware side-channel risks. We formally define Proof of Efficient Attribution (PoEA), a consensus mechanism that cryptographically binds execution traces to hardware attestations, thereby guaranteeing model authenticity. Extensive simulations demonstrate that OTR achieves 99% of the throughput of centralized baselines with a marginal cost overhead of $0.07 per query, maintaining Byzantine fault tolerance against rational adversaries even in the presence of transient hardware vulnerabilities.",
+    "published": "2025-12-23T09:16:41Z",
+    "updated": "2025-12-23T09:16:41Z",
+    "authors": [
+      "Aaron Chan",
+      "Alex Ding",
+      "Frank Chen",
+      "Alan Wu",
+      "Bruce Zhang",
+      "Arther Tian"
+    ],
+    "affiliations": [],
+    "first_author": "Aaron Chan",
+    "pdf_url": "https://arxiv.org/pdf/2512.20176v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17363v1",
+    "arxiv_id": "2512.17363v1",
+    "title": "What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice",
+    "summary": "Trusted Execution Environments (TEEs), such as Intel SGX and ARM TrustZone, provide isolated regions of CPU and memory for secure computation and are increasingly used to protect sensitive data and code across diverse application domains. However, little is known about how developers actually use TEEs in practice. This paper presents the first large-scale empirical study of real-world TEE applications. We collected and analyzed 241 open-source projects from GitHub that utilize the two most widely-adopted TEEs, Intel SGX and ARM TrustZone. By combining manual inspection with customized static analysis scripts, we examined their adoption contexts, usage patterns, and development practices across three phases. First, we categorized the projects into 8 application domains and identified trends in TEE adoption over time. We found that the dominant use case is IoT device security (30%), which contrasts sharply with prior academic focus on blockchain and cryptographic systems (7%), while AI model protection (12%) is rapidly emerging as a growing domain. Second, we analyzed how TEEs are integrated into software and observed that 32.4% of the projects reimplement cryptographic functionalities instead of using official SDK APIs, suggesting that current SDKs may have limited usability and portability to meet developers' practical needs. Third, we examined security practices through manual inspection and found that 25.3% (61 of 241) of the projects exhibit insecure coding behaviors when using TEEs, such as hardcoded secrets and missing input validation, which undermine their intended security guarantees. Our findings have important implications for improving the usability of TEE SDKs and supporting developers in trusted software development.",
+    "published": "2025-12-19T09:02:58Z",
+    "updated": "2025-12-19T09:02:58Z",
+    "authors": [
+      "Yuqing Niu",
+      "Jieke Shi",
+      "Ruidong Han",
+      "Ye Liu",
+      "Chengyan Ma",
+      "Yunbo Lyu",
+      "David Lo"
+    ],
+    "affiliations": [],
+    "first_author": "Yuqing Niu",
+    "pdf_url": "https://arxiv.org/pdf/2512.17363v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.17260v2",
+    "arxiv_id": "2511.17260v2",
+    "title": "Persistent BitTorrent Trackers",
+    "summary": "Private BitTorrent trackers enforce upload-to-download ratios to prevent free-riding, but suffer from three critical weaknesses: reputation cannot move between trackers, centralized servers create single points of failure, and upload statistics are self-reported and unverifiable. When a tracker shuts down (whether by operator choice, technical failure, or legal action) users lose their contribution history and cannot prove their standing to new communities. We address these problems by storing reputation in smart contracts and replacing self-reports with cryptographic attestations. Receiving peers sign receipts for transferred pieces, which the tracker aggregates and verifies before updating on-chain reputation. Trackers run in Trusted Execution Environments (TEEs) to guarantee correct aggregation and prevent manipulation of state. If a tracker is unavailable, peers use an authenticated Distributed Hash Table (DHT) for discovery: the on-chain reputation acts as a Public Key Infrastructure (PKI), so peers can verify each other and maintain access control without the tracker. This design persists reputation across tracker failures and makes it portable to new instances through single-hop migration in factory-deployed contracts. We formalize the security requirements, prove correctness under standard cryptographic assumptions, and evaluate a prototype on Intel TDX. Measurements show that transfer receipts adds less than 6\\% overhead with typical piece sizes, and signature aggregation speeds up verification by $2.5\\times$.",
+    "published": "2025-11-21T14:06:02Z",
+    "updated": "2025-11-24T14:24:05Z",
+    "authors": [
+      "Fran\u00e7ois-Xavier Wicht",
+      "Zhengwei Tong",
+      "Shunfan Zhou",
+      "Hang Yin",
+      "Aviv Yaish"
+    ],
+    "affiliations": [],
+    "first_author": "Fran\u00e7ois-Xavier Wicht",
+    "pdf_url": "https://arxiv.org/pdf/2511.17260v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.17070v2",
+    "arxiv_id": "2511.17070v2",
+    "title": "TICAL: Trusted and Integrity-protected Compilation of AppLications",
+    "summary": "During the past few years, we have witnessed various efforts to provide confidentiality and integrity for applications running in untrusted environments such as public clouds. In most of these approaches, hardware extensions such as Intel SGX, TDX, AMD SEV, etc., are leveraged to provide encryption and integrity protection on process or VM level. Although all of these approaches increase the trust in the application at runtime, an often overlooked aspect is the integrity and confidentiality protection at build time, which is equally important as maliciously injected code during compilation can compromise the entire application and system. In this paper, we present Tical, a practical framework for trusted compilation that provides integrity protection and confidentiality in build pipelines from source code to the final executable. Our approach harnesses TEEs as runtime protection but enriches TEEs with file system shielding and an immutable audit log with version history to provide accountability. This way, we can ensure that the compiler chain can only access trusted files and intermediate output, such as object files produced by trusted processes. Our evaluation using micro- and macro-benchmarks shows that Tical can protect the confidentiality and integrity of whole CI/CD pipelines with an acceptable performance overhead.",
+    "published": "2025-11-21T09:19:41Z",
+    "updated": "2025-11-24T09:28:48Z",
+    "authors": [
+      "Robert Krahn",
+      "Nikson Kanti Paul",
+      "Franz Gregor",
+      "Do Le Quoc",
+      "Andrey Brito",
+      "Andr\u00e9 Martin",
+      "Christof Fetzer"
+    ],
+    "affiliations": [],
+    "first_author": "Robert Krahn",
+    "pdf_url": "https://arxiv.org/pdf/2511.17070v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.11836v1",
+    "arxiv_id": "2511.11836v1",
+    "title": "Securing Generative AI in Healthcare: A Zero-Trust Architecture Powered by Confidential Computing on Google Cloud",
+    "summary": "The integration of Generative Artificial Intelligence (GenAI) in healthcare is impeded by significant security challenges unaddressed by traditional frameworks, precisely the data-in-use gap where sensitive patient data and proprietary AI models are exposed during active processing. To address this, the paper proposes the Confidential Zero-Trust Framework (CZF), a novel security paradigm that synergistically combines Zero-Trust Architecture for granular access control with the hardware-enforced data isolation of Confidential Computing. We detailed a multi-tiered architectural blueprint for implementing the CZF on Google Cloud and analyzed its efficacy against real-world threats. The CZF provides a defense-in-depth architecture where data remains encrypted while in-use within a hardware-based Trusted Execution Environment (TEE). The framework's use of remote attestation offers cryptographic proof of workload integrity, transforming compliance from a procedural exercise into a verifiable technical fact and enabling secure, multi-party collaborations previously blocked by security and intellectual property concerns. By closing the data-in-use gap and enforcing Zero-Trust principles, the CZF provides a robust and verifiable framework that establishes the necessary foundation of trust to enable the responsible adoption of transformative AI technologies in healthcare.",
+    "published": "2025-11-14T19:56:52Z",
+    "updated": "2025-11-14T19:56:52Z",
+    "authors": [
+      "Adaobi Amanna",
+      "Ishana Shinde"
+    ],
+    "affiliations": [],
+    "first_author": "Adaobi Amanna",
+    "pdf_url": "https://arxiv.org/pdf/2511.11836v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.04550v1",
+    "arxiv_id": "2511.04550v1",
+    "title": "Confidential Computing for Cloud Security: Exploring Hardware based Encryption Using Trusted Execution Environments",
+    "summary": "The growth of cloud computing has revolutionized data processing and storage capacities to another levels of scalability and flexibility. But in the process, it has created a huge challenge of security, especially in terms of safeguarding sensitive data. Classical security practices, including encryption at rest and during transit, fail to protect data in use and expose it to various possible breaches. In response to this problem , Confidential Computing has been a tool ,seeking to secure data in processing by usage of hardware-based Trusted Execution Environments (TEEs). TEEs, including Intel's Software Guard Extensions (SGX) and ARM's TrustZone, offers protected contexts within the processor, where data is kept confidential ,intact and secure , even with malicious software or compromised operating systems. In this research, we have explored the architecture and security features of TEEs like Intel SGX and ARM TrustZone, and their effectiveness in improving cloud data security. From a thorough literature survey ,we have analyzed the deployment strategies, performance indicators, and practical uses of these TEEs for the same purpose. In addition, we have discussed the issues regarding deployment, possible weaknesses, scalability issues, and integration issues. Our results focuses on the central position of TEEs in strengthening and advancing cloud security infrastructures, pointing towards their ability to create a secure foundation for Confidential Computing.",
+    "published": "2025-11-06T17:03:33Z",
+    "updated": "2025-11-06T17:03:33Z",
+    "authors": [
+      "Dhruv Deepak Agarwal",
+      "Aswani Kumar Cherukuri"
+    ],
+    "affiliations": [],
+    "first_author": "Dhruv Deepak Agarwal",
+    "pdf_url": "https://arxiv.org/pdf/2511.04550v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

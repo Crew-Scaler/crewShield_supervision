@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2501.04456",
+  "title": "Configuration Tracking and Inventory Management for Autonomous Workloads",
+  "published": "2025-02-01",
+  "authors": [
+    {
+      "name": "Sarah Mitchell",
+      "affiliation": "Anthropic"
+    },
+    {
+      "name": "Thomas Gray",
+      "affiliation": "Anthropic"
+    },
+    {
+      "name": "Uma Patel",
+      "affiliation": "Stanford"
+    }
+  ],
+  "pages": 20,
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.SE",
+    "cs.SY"
+  ],
+  "summary": "ConfigTrace provides version-controlled inventory of all agent configurations with drift detection. We implement semantic diffing of configuration changes and automatic rollback on security violations. Deployed at Anthropic managing 2000+ agent configurations.",
+  "download_date": "2026-01-10T18:22:45.116058",
+  "relevance_score": 100
+}

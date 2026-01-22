@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2511.13717v1",
+  "title": "TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone",
+  "authors": [
+    "Xunjie Wang",
+    "Jiacheng Shi",
+    "Zihan Zhao",
+    "Yang Yu",
+    "Zhichao Hua",
+    "Jinyu Gu"
+  ],
+  "published": "2025-11-17T18:59:20Z",
+  "summary": "Large Language Models (LLMs) deployed on mobile devices offer benefits like user privacy and reduced network latency, but introduce a significant security risk: the leakage of proprietary models to end users.\n  To mitigate this risk, we propose a system design for protecting on-device LLMs using Arm Trusted Execution Environment (TEE), TrustZone. Our system addresses two primary challenges: (1) The dilemma between memory efficiency and fast inference (caching model parameters within TEE memory).",
+  "cluster": "cluster_6",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.196481"
+}

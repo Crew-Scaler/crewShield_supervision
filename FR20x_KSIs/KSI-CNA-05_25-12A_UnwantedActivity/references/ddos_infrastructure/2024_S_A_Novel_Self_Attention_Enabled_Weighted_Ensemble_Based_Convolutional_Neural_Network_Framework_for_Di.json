@@ -1,0 +1,23 @@
+{
+  "title": "A Novel Self-Attention-Enabled Weighted Ensemble-Based Convolutional Neural Network Framework for Distributed Denial of Service Attack Classification",
+  "authors": [
+    "Kanthimathi S",
+    "Shravan Venkatraman",
+    "Jayasankar K S",
+    "Pranay Jiljith T",
+    "Jashwanth R"
+  ],
+  "published": "2024-09-01T18:58:33+00:00",
+  "arxiv_id": "2409.00810v2",
+  "abstract": "Distributed Denial of Service (DDoS) attacks are a major concern in network security, as they overwhelm systems with excessive traffic, compromise sensitive data, and disrupt network services. Accurately detecting these attacks is crucial to protecting network infrastructure. Traditional approaches, such as single Convolutional Neural Networks (CNNs) or conventional Machine Learning (ML) algorithms like Decision Trees (DTs) and Support Vector Machines (SVMs), struggle to extract the diverse features needed for precise classification, resulting in suboptimal performance. This research addresses this gap by introducing a novel approach for DDoS attack detection. The proposed method combines three distinct CNN architectures: SA-Enabled CNN with XGBoost, SA-Enabled CNN with LSTM, and SA-Enabled CNN with Random Forest. Each model extracts features at multiple scales, while self-attention mechanisms enhance feature integration and relevance. The weighted ensemble approach ensures that both prominent and subtle features contribute to the final classification, improving adaptability to evolving attack patterns and novel threats. The proposed method achieves a precision of 98.71%, an F1-score of 98.66%, a recall of 98.63%, and an accuracy of 98.69%, outperforming traditional methods and setting a new benchmark in DDoS attack detection. This innovative approach addresses critical limitations in current models and advances the state of the art in network security.",
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "relevance_score": 15.5,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2409.00810v2",
+  "downloaded": "2025-12-11T08:24:54.605092"
+}

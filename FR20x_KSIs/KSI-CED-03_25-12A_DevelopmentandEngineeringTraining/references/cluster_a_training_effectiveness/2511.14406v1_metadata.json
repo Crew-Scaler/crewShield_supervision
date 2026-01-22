@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2511.14406v1",
+  "title": "Watch Out for the Lifespan: Evaluating Backdoor Attacks Against Federated Model Adaptation",
+  "authors": [
+    "Bastien Vuillod",
+    "Pierre-Alain Moellic",
+    "Jean-Max Dutertre"
+  ],
+  "published": "2025-11-18T12:13:59Z",
+  "url": "http://arxiv.org/abs/2511.14406v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.14406v1.pdf",
+  "relevance_score": 95,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Large models adaptation through Federated Learning (FL) addresses a wide range of use cases and is enabled by Parameter-Efficient Fine-Tuning techniques such as Low-Rank Adaptation (LoRA). However, this distributed learning paradigm faces several security threats, particularly to its integrity, such as backdoor attacks that aim to inject malicious behavior during the local training steps of certain clients. We present the first analysis of the influence of LoRA on state-of-the-art backdoor attac"
+}

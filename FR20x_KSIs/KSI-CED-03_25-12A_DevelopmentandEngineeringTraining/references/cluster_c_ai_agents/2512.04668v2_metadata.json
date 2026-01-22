@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.04668v2",
+  "title": "Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs",
+  "authors": [
+    "Jinbo Liu",
+    "Defu Cao",
+    "Yifei Wei",
+    "Tianyao Su",
+    "Yuan Liang",
+    "Yushun Dong",
+    "Yue Zhao",
+    "Xiyang Hu"
+  ],
+  "published": "2025-12-04T11:00:49Z",
+  "url": "http://arxiv.org/abs/2512.04668v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.04668v2.pdf",
+  "relevance_score": 85,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Graph topology is a fundamental determinant of memory leakage in multi-agent LLM systems, yet its effects remain poorly quantified. We introduce MAMA (Multi-Agent Memory Attack), a framework that measures how network structure shapes leakage. MAMA operates on synthetic documents containing labeled Personally Identifiable Information (PII) entities, from which we generate sanitized task instructions. We execute a two-phase protocol: Engram (seeding private information into a target agent's memory"
+}

@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.22417v1",
+  "title": "A Bounded Game Semantics Checker for Precise Smart Contract Analysis",
+  "authors": [
+    "Vasileios Koutavas",
+    "Yu-Yang Lin",
+    "Nikos Tzevelekos"
+  ],
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22417v1",
+  "relevance_score": 82.4,
+  "estimated_pages": 12,
+  "summary": "We present a new approach to finding smart contract vulnerabilities that is precise (no false positives up to our EVM-Yul interpreter), bounded-complete, and, when instrumented with domain knowledge, scales to real-world contracts. Our method is based on game semantics, modelling computation as an interaction between a contract and its environment, reducing reasoning about unknown or malicious ext"
+}

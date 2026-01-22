@@ -1,0 +1,1142 @@
+{
+  "search_date": "2025-12-11T15:36:35.009572",
+  "total_papers": 45,
+  "papers": [
+    {
+      "paper_id": "2509.14285v2",
+      "title": "A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks",
+      "authors": [
+        "S M Asif Hossain",
+        "Ruksat Khan Shayoni",
+        "Mohd Ruhul Ameen",
+        "Akif Islam",
+        "M. F. Mridha",
+        "Jungpil Shin"
+      ],
+      "published": "2025-09-16",
+      "updated": "2025-10-01",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Prompt injection attacks represent a major vulnerability in Large Language Model (LLM) deployments, where malicious instructions embedded in user inputs can override system prompts and induce unintended behaviors. This paper presents a novel multi-agent defense framework that employs specialized LLM agents in coordinated pipelines to detect and neutralize prompt injection attacks in real-time. We evaluate our approach using two distinct architectures: a sequential chain-of-agents pipeline and a hierarchical coordinator-based system. Our comprehensive evaluation on 55 unique prompt injection attacks, grouped into 8 categories and totaling 400 attack instances across two LLM platforms (ChatGLM and Llama2), demonstrates significant security improvements. Without defense mechanisms, baseline Attack Success Rates (ASR) reached 30% for ChatGLM and 20% for Llama2. Our multi-agent pipeline achieved 100% mitigation, reducing ASR to 0% across all tested scenarios. The framework demonstrates robustness across multiple attack categories including direct overrides, code execution attempts, data exfiltration, and obfuscation techniques, while maintaining system functionality for legitimate queries.",
+      "pdf_url": "https://arxiv.org/pdf/2509.14285v2",
+      "entry_id": "http://arxiv.org/abs/2509.14285v2",
+      "relevance_score": 8.0,
+      "search_category": "baseline_poisoning",
+      "filename": "2509.14285v2_A Multi-Agent LLM Defense Pipeline Against Prompt Injection Attacks.pdf",
+      "downloaded_at": "2025-12-11T15:33:22.713917"
+    },
+    {
+      "paper_id": "2512.08879v1",
+      "title": "DAO-GP Drift Aware Online Non-Linear Regression Gaussian-Process",
+      "authors": [
+        "Mohammad Abu-Shaira",
+        "Ajita Rattani",
+        "Weishi Shi"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Real-world datasets often exhibit temporal dynamics characterized by evolving data distributions. Disregarding this phenomenon, commonly referred to as concept drift, can significantly diminish a model's predictive accuracy. Furthermore, the presence of hyperparameters in online models exacerbates this issue. These parameters are typically fixed and cannot be dynamically adjusted by the user in response to the evolving data distribution. Gaussian Process (GP) models offer powerful non-parametric regression capabilities with uncertainty quantification, making them ideal for modeling complex data relationships in an online setting. However, conventional online GP methods face several critical limitations, including a lack of drift-awareness, reliance on fixed hyperparameters, vulnerability to data snooping, absence of a principled decay mechanism, and memory inefficiencies. In response, we propose DAO-GP (Drift-Aware Online Gaussian Process), a novel, fully adaptive, hyperparameter-free, decayed, and sparse non-linear regression model. DAO-GP features a built-in drift detection and adaptation mechanism that dynamically adjusts model behavior based on the severity of drift. Extensive empirical evaluations confirm DAO-GP's robustness across stationary conditions, diverse drift types (abrupt, incremental, gradual), and varied data characteristics. Analyses demonstrate its dynamic adaptation, efficient in-memory and decay-based management, and evolving inducing points. Compared with state-of-the-art parametric and non-parametric models, DAO-GP consistently achieves superior or competitive performance, establishing it as a drift-resilient solution for online non-linear regression.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08879v1",
+      "entry_id": "http://arxiv.org/abs/2512.08879v1",
+      "relevance_score": 10.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2512.08879v1_DAO-GP Drift Aware Online Non-Linear Regression Gaussian-Process.pdf",
+      "downloaded_at": "2025-12-11T15:33:29.973016"
+    },
+    {
+      "paper_id": "2511.22078v1",
+      "title": "ARES: Anomaly Recognition Model For Edge Streams",
+      "authors": [
+        "Simone Mungari",
+        "Albert Bifet",
+        "Giuseppe Manco",
+        "Bernhard Pfahringer"
+      ],
+      "published": "2025-11-27",
+      "updated": "2025-11-27",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Many real-world scenarios involving streaming information can be represented as temporal graphs, where data flows through dynamic changes in edges over time. Anomaly detection in this context has the objective of identifying unusual temporal connections within the graph structure. Detecting edge anomalies in real time is crucial for mitigating potential risks. Unlike traditional anomaly detection, this task is particularly challenging due to concept drifts, large data volumes, and the need for real-time response. To face these challenges, we introduce ARES, an unsupervised anomaly detection framework for edge streams. ARES combines Graph Neural Networks (GNNs) for feature extraction with Half-Space Trees (HST) for anomaly scoring. GNNs capture both spike and burst anomalous behaviors within streams by embedding node and edge properties in a latent space, while HST partitions this space to isolate anomalies efficiently. ARES operates in an unsupervised way without the need for prior data labeling. To further validate its detection capabilities, we additionally incorporate a simple yet effective supervised thresholding mechanism. This approach leverages statistical dispersion among anomaly scores to determine the optimal threshold using a minimal set of labeled data, ensuring adaptability across different domains. We validate ARES through extensive evaluations across several real-world cyber-attack scenarios, comparing its performance against existing methods while analyzing its space and time complexity.",
+      "pdf_url": "https://arxiv.org/pdf/2511.22078v1",
+      "entry_id": "http://arxiv.org/abs/2511.22078v1",
+      "relevance_score": 10.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2511.22078v1_ARES_ Anomaly Recognition Model For Edge Streams.pdf",
+      "downloaded_at": "2025-12-11T15:33:33.800887"
+    },
+    {
+      "paper_id": "2511.11979v1",
+      "title": "CITADEL: A Semi-Supervised Active Learning Framework for Malware Detection Under Continuous Distribution Drift",
+      "authors": [
+        "Md Ahsanul Haque",
+        "Md Mahmuduzzaman Kamol",
+        "Ismail Hossain",
+        "Suresh Kumar Amalapuram",
+        "Vladik Kreinovich",
+        "Mohammad Saidur Rahman"
+      ],
+      "published": "2025-11-15",
+      "updated": "2025-11-15",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Android malware evolves rapidly, leading to concept drift that degrades the performance of traditional machine learning (ML)-based detection systems. While recent approaches incorporate active learning and hierarchical contrastive loss to handle this drift, they remain fully supervised, computationally expensive, and perform poorly on real-world datasets with long temporal spans. In particular, our evaluation highlights these limitations, particularly on LAMDA, a 12-year longitudinal dataset exhibiting substantial distributional shifts. Moreover, manual expert labeling cannot scale with the daily emergence of over 450,000 new malware samples, leaving most samples unlabeled and underutilized.\n  To address these challenges, we propose CITADEL, a robust semi-supervised active learning framework for Android malware detection. To bridge the gap between image-domain semi-supervised learning and binary feature representations of malware, we introduce malware-specific augmentations, Bernoulli bit flips and masking, that simulate realistic drift behaviors. CITADEL further integrates supervised contrastive loss to improve boundary sample discrimination and combines it with a multi-criteria active learning strategy based on prediction confidence, $L_p$-norm distance, and boundary uncertainty, enabling effective adaptation under limited labeling budgets. Extensive evaluation on four large-scale Android malware benchmarks -- APIGraph, Chen-AZ, MaMaDroid, and LAMDA demonstrates that CITADEL outperforms prior work, achieving F1 score of over 1%, 3%, 7%, and 14% respectively, using only 40% labeled samples. Furthermore, CITADEL shows significant efficiency over prior work incurring $24\\times$ faster training and $13\\times$ fewer operations.",
+      "pdf_url": "https://arxiv.org/pdf/2511.11979v1",
+      "entry_id": "http://arxiv.org/abs/2511.11979v1",
+      "relevance_score": 8.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2511.11979v1_CITADEL_ A Semi-Supervised Active Learning Framework for Malware Detection Under Continuous Distribu.pdf",
+      "downloaded_at": "2025-12-11T15:33:37.791445"
+    },
+    {
+      "paper_id": "2511.03807v1",
+      "title": "Fair and Explainable Credit-Scoring under Concept Drift: Adaptive Explanation Frameworks for Evolving Populations",
+      "authors": [
+        "Shivogo John"
+      ],
+      "published": "2025-11-05",
+      "updated": "2025-11-05",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Evolving borrower behaviors, shifting economic conditions, and changing regulatory landscapes continuously reshape the data distributions underlying modern credit-scoring systems. Conventional explainability techniques, such as SHAP, assume static data and fixed background distributions, making their explanations unstable and potentially unfair when concept drift occurs. This study addresses that challenge by developing adaptive explanation frameworks that recalibrate interpretability and fairness in dynamically evolving credit models. Using a multi-year credit dataset, we integrate predictive modeling via XGBoost with three adaptive SHAP variants: (A) per-slice explanation reweighting that adjusts for feature distribution shifts, (B) drift-aware SHAP rebaselining with sliding-window background samples, and (C) online surrogate calibration using incremental Ridge regression. Each method is benchmarked against static SHAP explanations using metrics of predictive performance (AUC, F1), directional and rank stability (cosine, Kendall tau), and fairness (demographic parity and recalibration). Results show that adaptive methods, particularly rebaselined and surrogate-based explanations, substantially improve temporal stability and reduce disparate impact across demographic groups without degrading predictive accuracy. Robustness tests, including counterfactual perturbations, background sensitivity analysis, and proxy-variable detection, confirm the resilience of adaptive explanations under real-world drift conditions. These findings establish adaptive explainability as a practical mechanism for sustaining transparency, accountability, and ethical reliability in data-driven credit systems, and more broadly, in any domain where decision models evolve with population change.",
+      "pdf_url": "https://arxiv.org/pdf/2511.03807v1",
+      "entry_id": "http://arxiv.org/abs/2511.03807v1",
+      "relevance_score": 7.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2511.03807v1_Fair and Explainable Credit-Scoring under Concept Drift_ Adaptive Explanation Frameworks for Evolvin.pdf",
+      "downloaded_at": "2025-12-11T15:33:41.588501"
+    },
+    {
+      "paper_id": "2511.11590v2",
+      "title": "Embedding Explainable AI in NHS Clinical Safety: The Explainability-Enabled Clinical Safety Framework (ECSF)",
+      "authors": [
+        "Robert Gigiu"
+      ],
+      "published": "2025-10-24",
+      "updated": "2025-11-18",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.HC"
+      ],
+      "primary_category": "cs.CY",
+      "abstract": "Artificial intelligence (AI) is increasingly embedded in NHS workflows, but its probabilistic and adaptive behaviour conflicts with the deterministic assumptions underpinning existing clinical-safety standards. DCB0129 and DCB0160 provide strong governance for conventional software yet do not define how AI-specific transparency, interpretability, or model drift should be evidenced within Safety Cases, Hazard Logs, or post-market monitoring. This paper proposes an Explainability-Enabled Clinical Safety Framework (ECSF) that integrates explainability into the DCB0129/0160 lifecycle, enabling Clinical Safety Officers to use interpretability outputs as structured safety evidence without altering compliance pathways. A cross-regulatory synthesis mapped DCB clauses to principles from Good Machine Learning Practice, the NHS AI Assurance and T.E.S.T. frameworks, and the EU AI Act. The resulting matrix links regulatory clauses, principles, ECSF checkpoints, and suitable explainability outputs. ECSF introduces five checkpoints: global transparency for hazard identification, case-level interpretability for verification, clinician usability for evaluation, traceable decision pathways for risk control, and longitudinal interpretability monitoring for post-market surveillance. Techniques such as SHAP, LIME, Integrated Gradients, saliency mapping, and attention visualisation are mapped to corresponding DCB artefacts. ECSF reframes explainability as a core element of clinical-safety assurance, bridging deterministic risk governance with the probabilistic behaviour of AI and supporting alignment with GMLP, the EU AI Act, and NHS AI Assurance principles.",
+      "pdf_url": "https://arxiv.org/pdf/2511.11590v2",
+      "entry_id": "http://arxiv.org/abs/2511.11590v2",
+      "relevance_score": 5.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2511.11590v2_Embedding Explainable AI in NHS Clinical Safety_ The Explainability-Enabled Clinical Safety Framewor.pdf",
+      "downloaded_at": "2025-12-11T15:33:45.640336"
+    },
+    {
+      "paper_id": "2510.03911v1",
+      "title": "THEMIS: Unlocking Pretrained Knowledge with Foundation Model Embeddings for Anomaly Detection in Time Series",
+      "authors": [
+        "Yadav Mahesh Lorik",
+        "Kaushik Sarveswaran",
+        "Nagaraj Sundaramahalingam",
+        "Aravindakumar Venugopalan"
+      ],
+      "published": "2025-10-04",
+      "updated": "2025-10-04",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Time series anomaly detection forms a very crucial area in several domains but poses substantial challenges. Due to time series data possessing seasonality, trends, noise, and evolving patterns (concept drift), it becomes very difficult to set a general notion of what constitutes normal behavior. Anomalies themselves could be varied, ranging from a single outlier to contextual or collective anomalies, and are normally very rare; hence, the dataset is largely imbalanced. Additional layers of complexities arise due to the problems of increased dimensionality of modern time series, real-time detection criteria, setting up appropriate detection thresholds, and arriving at results that are interpretable. To embrace these multifaceted challenges, very strong, flexible, and interpretable approaches are required. This paper presents THEMIS, a new framework for time series anomaly detection that exploits pretrained knowledge from foundation models. THEMIS extracts embeddings from the encoder of the Chronos time series foundation model and applies outlier detection techniques like Local Outlier Factor and Spectral Decomposition on the self-similarity matrix, to spot anomalies in the data. Our experiments show that this modular method achieves SOTA results on the MSL dataset and performs quite competitively on the SMAP and SWAT$^*$ datasets. Notably, THEMIS exceeds models trained specifically for anomaly detection, presenting hyperparameter robustness and interpretability by default. This paper advocates for pretrained representations from foundation models for performing efficient and adaptable anomaly detection for time series data.",
+      "pdf_url": "https://arxiv.org/pdf/2510.03911v1",
+      "entry_id": "http://arxiv.org/abs/2510.03911v1",
+      "relevance_score": 7.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2510.03911v1_THEMIS_ Unlocking Pretrained Knowledge with Foundation Model Embeddings for Anomaly Detection in Tim.pdf",
+      "downloaded_at": "2025-12-11T15:33:49.541470"
+    },
+    {
+      "paper_id": "2509.07532v1",
+      "title": "Uncertainty-Driven Hierarchical Sampling for Unbalanced Continual Malware Detection with Time-Series Update-Based Retrieval",
+      "authors": [
+        "Yi Xie",
+        "Ziyuan Yang",
+        "Yongqiang Huang",
+        "Yinyu Chen",
+        "Lei Zhang",
+        "Liang Liu",
+        "Yi Zhang"
+      ],
+      "published": "2025-09-09",
+      "updated": "2025-09-09",
+      "categories": [
+        "cs.CE"
+      ],
+      "primary_category": "cs.CE",
+      "abstract": "Android malware detection continues to face persistent challenges stemming from long-term concept drift and class imbalance, as evolving malicious behaviors and shifting usage patterns dynamically reshape feature distributions. Although continual learning (CL) mitigates drift, existing replay-based methods suffer from inherent bias. Specifically, their reliance on classifier uncertainty for sample selection disproportionately prioritizes the dominant benign class, causing overfitting and reduced generalization to evolving malware. To address these limitations, we propose a novel uncertainty-guided CL framework. First, we introduce a hierarchical balanced sampler that employs a dual-phase uncertainty strategy to dynamically balance benign and malicious samples while simultaneously selecting high-information, high-uncertainty instances within each class. This mechanism ensures class equilibrium across both replay and incremental data, thereby enhancing adaptability to emerging threats. Second, we augment the framework with a vector retrieval mechanism that exploits historical malware embeddings to identify evolved variants via similarity-based retrieval, thereby complementing classifier updates. Extensive experiments demonstrate that our framework significantly outperforms state-of-the-art methods under strict low-label conditions (50 labels per phase). It achieves a true positive rate (TPR) of 92.95\\% and a mean accuracy (mACC) of 94.26\\%, which validates its efficacy for sustainable Android malware detection.",
+      "pdf_url": "https://arxiv.org/pdf/2509.07532v1",
+      "entry_id": "http://arxiv.org/abs/2509.07532v1",
+      "relevance_score": 5.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2509.07532v1_Uncertainty-Driven Hierarchical Sampling for Unbalanced Continual Malware Detection with Time-Series.pdf",
+      "downloaded_at": "2025-12-11T15:33:53.878997"
+    },
+    {
+      "paper_id": "2508.07927v1",
+      "title": "Adaptive Fine-Tuning via Pattern Specialization for Deep Time Series Forecasting",
+      "authors": [
+        "Amal Saadallah",
+        "Abdulaziz Al-Ademi"
+      ],
+      "published": "2025-08-11",
+      "updated": "2025-08-11",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Time series forecasting poses significant challenges in non-stationary environments where underlying patterns evolve over time. In this work, we propose a novel framework that enhances deep neural network (DNN) performance by leveraging specialized model adaptation and selection. Initially, a base DNN is trained offline on historical time series data. A reserved validation subset is then segmented to extract and cluster the most dominant patterns within the series, thereby identifying distinct regimes. For each identified cluster, the base DNN is fine-tuned to produce a specialized version that captures unique pattern characteristics. At inference, the most recent input is matched against the cluster centroids, and the corresponding fine-tuned version is deployed based on the closest similarity measure. Additionally, our approach integrates a concept drift detection mechanism to identify and adapt to emerging patterns caused by non-stationary behavior. The proposed framework is generalizable across various DNN architectures and has demonstrated significant performance gains on both traditional DNNs and recent advanced architectures implemented in the GluonTS library.",
+      "pdf_url": "https://arxiv.org/pdf/2508.07927v1",
+      "entry_id": "http://arxiv.org/abs/2508.07927v1",
+      "relevance_score": 4.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2508.07927v1_Adaptive Fine-Tuning via Pattern Specialization for Deep Time Series Forecasting.pdf",
+      "downloaded_at": "2025-12-11T15:33:57.700814"
+    },
+    {
+      "paper_id": "2508.05695v1",
+      "title": "MambaITD: An Efficient Cross-Modal Mamba Network for Insider Threat Detection",
+      "authors": [
+        "Kaichuan Kong",
+        "Dongjie Liu",
+        "Xiaobo Jin",
+        "Zhiying Li",
+        "Guanggang Geng",
+        "Jian Weng"
+      ],
+      "published": "2025-08-06",
+      "updated": "2025-08-06",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Enterprises are facing increasing risks of insider threats, while existing detection methods are unable to effectively address these challenges due to reasons such as insufficient temporal dynamic feature modeling, computational efficiency and real-time bottlenecks and cross-modal information island problem. This paper proposes a new insider threat detection framework MambaITD based on the Mamba state space model and cross-modal adaptive fusion. First, the multi-source log preprocessing module aligns heterogeneous data through behavioral sequence encoding, interval smoothing, and statistical feature extraction. Second, the Mamba encoder models long-range dependencies in behavioral and interval sequences, and combines the sequence and statistical information dynamically in combination with the gated feature fusion mechanism. Finally, we propose an adaptive threshold optimization method based on maximizing inter-class variance, which dynamically adjusts the decision threshold by analyzing the probability distribution, effectively identifies anomalies, and alleviates class imbalance and concept drift. Compared with traditional methods, MambaITD shows significant advantages in modeling efficiency and feature fusion capabilities, outperforming Transformer-based methods, and provides a more effective solution for insider threat detection.",
+      "pdf_url": "https://arxiv.org/pdf/2508.05695v1",
+      "entry_id": "http://arxiv.org/abs/2508.05695v1",
+      "relevance_score": 4.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2508.05695v1_MambaITD_ An Efficient Cross-Modal Mamba Network for Insider Threat Detection.pdf",
+      "downloaded_at": "2025-12-11T15:34:01.475977"
+    },
+    {
+      "paper_id": "2508.08281v1",
+      "title": "Multi-grained spatial-temporal feature complementarity for accurate online cellular traffic prediction",
+      "authors": [
+        "Ningning Fu",
+        "Shengheng Liu",
+        "Weiliang Xie",
+        "Yongming Huang"
+      ],
+      "published": "2025-08-01",
+      "updated": "2025-08-01",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Knowledge discovered from telecom data can facilitate proactive understanding of network dynamics and user behaviors, which in turn empowers service providers to optimize cellular traffic scheduling and resource allocation. Nevertheless, the telecom industry still heavily relies on manual expert intervention. Existing studies have been focused on exhaustively explore the spatial-temporal correlations. However, they often overlook the underlying characteristics of cellular traffic, which are shaped by the sporadic and bursty nature of telecom services. Additionally, concept drift creates substantial obstacles to maintaining satisfactory accuracy in continuous cellular forecasting tasks. To resolve these problems, we put forward an online cellular traffic prediction method grounded in Multi-Grained Spatial-Temporal feature Complementarity (MGSTC). The proposed method is devised to achieve high-precision predictions in practical continuous forecasting scenarios. Concretely, MGSTC segments historical data into chunks and employs the coarse-grained temporal attention to offer a trend reference for the prediction horizon. Subsequently, fine-grained spatial attention is utilized to capture detailed correlations among network elements, which enables localized refinement of the established trend. The complementarity of these multi-grained spatial-temporal features facilitates the efficient transmission of valuable information. To accommodate continuous forecasting needs, we implement an online learning strategy that can detect concept drift in real-time and promptly switch to the appropriate parameter update stage. Experiments carried out on four real-world datasets demonstrate that MGSTC outperforms eleven state-of-the-art baselines consistently.",
+      "pdf_url": "https://arxiv.org/pdf/2508.08281v1",
+      "entry_id": "http://arxiv.org/abs/2508.08281v1",
+      "relevance_score": 8.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2508.08281v1_Multi-grained spatial-temporal feature complementarity for accurate online cellular traffic predicti.pdf",
+      "downloaded_at": "2025-12-11T15:34:05.428023"
+    },
+    {
+      "paper_id": "2507.16749v1",
+      "title": "Bootstrapped Control Limits for Score-Based Concept Drift Control Charts",
+      "authors": [
+        "Jiezhong Wu",
+        "Daniel W. Apley"
+      ],
+      "published": "2025-07-22",
+      "updated": "2025-07-22",
+      "categories": [
+        "stat.ME",
+        "stat.ML"
+      ],
+      "primary_category": "stat.ME",
+      "abstract": "Monitoring for changes in a predictive relationship represented by a fitted supervised learning model (aka concept drift detection) is a widespread problem, e.g., for retrospective analysis to determine whether the predictive relationship was stable over the training data, for prospective analysis to determine when it is time to update the predictive model, for quality control of processes whose behavior can be characterized by a predictive relationship, etc. A general and powerful Fisher score-based concept drift approach has recently been proposed, in which concept drift detection reduces to detecting changes in the mean of the model's score vector using a multivariate exponentially weighted moving average (MEWMA). To implement the approach, the initial data must be split into two subsets. The first subset serves as the training sample to which the model is fit, and the second subset serves as an out-of-sample test set from which the MEWMA control limit (CL) is determined. In this paper, we develop a novel bootstrap procedure for computing the CL. Our bootstrap CL provides much more accurate control of false-alarm rate, especially when the sample size and/or false-alarm rate is small. It also allows the entire initial sample to be used for training, resulting in a more accurate fitted supervised learning model. We show that a standard nested bootstrap (inner loop accounting for future data variability and outer loop accounting for training sample variability) substantially underestimates variability and develop a 632-like correction that appropriately accounts for this. We demonstrate the advantages with numerical examples.",
+      "pdf_url": "https://arxiv.org/pdf/2507.16749v1",
+      "entry_id": "http://arxiv.org/abs/2507.16749v1",
+      "relevance_score": 3.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2507.16749v1_Bootstrapped Control Limits for Score-Based Concept Drift Control Charts.pdf",
+      "downloaded_at": "2025-12-11T15:34:09.219372"
+    },
+    {
+      "paper_id": "2506.15831v2",
+      "title": "Adaptive Anomaly Detection in the Presence of Concept Drift: Extended Report",
+      "authors": [
+        "Jongjun Park",
+        "Fei Chiang",
+        "Mostafa Milani"
+      ],
+      "published": "2025-06-18",
+      "updated": "2025-06-29",
+      "categories": [
+        "cs.DB"
+      ],
+      "primary_category": "cs.DB",
+      "abstract": "The presence of concept drift poses challenges for anomaly detection in time series. While anomalies are caused by undesirable changes in the data, differentiating abnormal changes from varying normal behaviours is difficult due to differing frequencies of occurrence, varying time intervals when normal patterns occur, and identifying similarity thresholds to separate the boundary between normal vs. abnormal sequences. Differentiating between concept drift and anomalies is critical for accurate analysis as studies have shown that the compounding effects of error propagation in downstream tasks lead to lower detection accuracy and increased overhead due to unnecessary model updates. Unfortunately, existing work has largely explored anomaly detection and concept drift detection in isolation. We introduce AnDri, a framework for Anomaly detection in the presence of Drift. AnDri introduces the notion of a dynamic normal model where normal patterns are activated, deactivated or newly added, providing flexibility to adapt to concept drift and anomalies over time. We introduce a new clustering method, Adjacent Hierarchical Clustering (AHC), for learning normal patterns that respect their temporal locality; critical for detecting short-lived, but recurring patterns that are overlooked by existing methods. Our evaluation shows AnDri outperforms existing baselines using real datasets with varying types, proportions, and distributions of concept drift and anomalies.",
+      "pdf_url": "https://arxiv.org/pdf/2506.15831v2",
+      "entry_id": "http://arxiv.org/abs/2506.15831v2",
+      "relevance_score": 6.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2506.15831v2_Adaptive Anomaly Detection in the Presence of Concept Drift_ Extended Report.pdf",
+      "downloaded_at": "2025-12-11T15:34:13.298856"
+    },
+    {
+      "paper_id": "2505.07852v1",
+      "title": "Joint Detection of Fraud and Concept Drift inOnline Conversations with LLM-Assisted Judgment",
+      "authors": [
+        "Ali Senol",
+        "Garima Agrawal",
+        "Huan Liu"
+      ],
+      "published": "2025-05-07",
+      "updated": "2025-05-07",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CL",
+      "abstract": "Detecting fake interactions in digital communication platforms remains a challenging and insufficiently addressed problem. These interactions may appear as harmless spam or escalate into sophisticated scam attempts, making it difficult to flag malicious intent early. Traditional detection methods often rely on static anomaly detection techniques that fail to adapt to dynamic conversational shifts. One key limitation is the misinterpretation of benign topic transitions referred to as concept drift as fraudulent behavior, leading to either false alarms or missed threats. We propose a two stage detection framework that first identifies suspicious conversations using a tailored ensemble classification model. To improve the reliability of detection, we incorporate a concept drift analysis step using a One Class Drift Detector (OCDD) to isolate conversational shifts within flagged dialogues. When drift is detected, a large language model (LLM) assesses whether the shift indicates fraudulent manipulation or a legitimate topic change. In cases where no drift is found, the behavior is inferred to be spam like. We validate our framework using a dataset of social engineering chat scenarios and demonstrate its practical advantages in improving both accuracy and interpretability for real time fraud detection. To contextualize the trade offs, we compare our modular approach against a Dual LLM baseline that performs detection and judgment using different language models.",
+      "pdf_url": "https://arxiv.org/pdf/2505.07852v1",
+      "entry_id": "http://arxiv.org/abs/2505.07852v1",
+      "relevance_score": 5.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2505.07852v1_Joint Detection of Fraud and Concept Drift inOnline Conversations with LLM-Assisted Judgment.pdf",
+      "downloaded_at": "2025-12-11T15:34:17.081729"
+    },
+    {
+      "paper_id": "2504.14815v2",
+      "title": "What Lurks Within? Concept Auditing for Shared Diffusion Models at Scale",
+      "authors": [
+        "Xiaoyong Yuan",
+        "Xiaolong Ma",
+        "Linke Guo",
+        "Lan Zhang"
+      ],
+      "published": "2025-04-21",
+      "updated": "2025-10-06",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR",
+        "cs.CV"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Diffusion models (DMs) have revolutionized text-to-image generation, enabling the creation of highly realistic and customized images from text prompts. With the rise of parameter-efficient fine-tuning (PEFT) techniques, users can now customize powerful pre-trained models using minimal computational resources. However, the widespread sharing of fine-tuned DMs on open platforms raises growing ethical and legal concerns, as these models may inadvertently or deliberately generate sensitive or unauthorized content. Despite increasing regulatory attention on generative AI, there are currently no practical tools for systematically auditing these models before deployment.\n  In this paper, we address the problem of concept auditing: determining whether a fine-tuned DM has learned to generate a specific target concept. Existing approaches typically rely on prompt-based input crafting and output-based image classification but they suffer from critical limitations, including prompt uncertainty, concept drift, and poor scalability. To overcome these challenges, we introduce Prompt-Agnostic Image-Free Auditing (PAIA), a novel, model-centric concept auditing framework. By treating the DM as the object of inspection, PAIA enables direct analysis of internal model behavior, bypassing the need for optimized prompts or generated images. We evaluate PAIA on 320 controlled models trained with curated concept datasets and 771 real-world community models sourced from a public DM sharing platform. Evaluation results show that PAIA achieves over 90% detection accuracy while reducing auditing time by 18 - 40X compared to existing baselines. To our knowledge, PAIA is the first scalable and practical solution for pre-deployment concept auditing of diffusion models, providing a practical foundation for safer and more transparent diffusion model sharing.",
+      "pdf_url": "https://arxiv.org/pdf/2504.14815v2",
+      "entry_id": "http://arxiv.org/abs/2504.14815v2",
+      "relevance_score": 8.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2504.14815v2_What Lurks Within_ Concept Auditing for Shared Diffusion Models at Scale.pdf",
+      "downloaded_at": "2025-12-11T15:34:26.393598"
+    },
+    {
+      "paper_id": "2502.16406v2",
+      "title": "TrustChain: A Blockchain Framework for Auditing and Verifying Aggregators in Decentralized Federated Learning",
+      "authors": [
+        "Ehsan Hallaji",
+        "Roozbeh Razavi-Far",
+        "Mehrdad Saif"
+      ],
+      "published": "2025-02-23",
+      "updated": "2025-11-08",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "The server-less nature of Decentralized Federated Learning (DFL) requires allocating the aggregation role to specific participants in each federated round. Current DFL architectures ensure the trustworthiness of the aggregator node upon selection. However, most of these studies overlook the possibility that the aggregating node may turn rogue and act maliciously after being nominated. To address this problem, this paper proposes a DFL structure, called TrustChain, that scores the aggregators before selection based on their past behavior and additionally audits them after the aggregation. To do this, the statistical independence between the client updates and the aggregated model is continuously monitored using the Hilbert-Schmidt Independence Criterion (HSIC). The proposed method relies on several principles, including blockchain, anomaly detection, and concept drift analysis. The designed structure is evaluated on several federated datasets and attack scenarios with different numbers of Byzantine nodes.",
+      "pdf_url": "https://arxiv.org/pdf/2502.16406v2",
+      "entry_id": "http://arxiv.org/abs/2502.16406v2",
+      "relevance_score": 4.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2502.16406v2_TrustChain_ A Blockchain Framework for Auditing and Verifying Aggregators in Decentralized Federated.pdf",
+      "downloaded_at": "2025-12-11T15:34:30.338339"
+    },
+    {
+      "paper_id": "2501.01089v1",
+      "title": "A Sysmon Incremental Learning System for Ransomware Analysis and Detection",
+      "authors": [
+        "Jamil Ispahany",
+        "MD Rafiqul Islam",
+        "M. Arif Khan",
+        "MD Zahidul Islam"
+      ],
+      "published": "2025-01-02",
+      "updated": "2025-01-02",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "In the face of increasing cyber threats, particularly ransomware attacks, there is a pressing need for advanced detection and analysis systems that adapt to evolving malware behaviours. Throughout the literature, using machine learning (ML) to obviate ransomware attacks has increased in popularity. Unfortunately, most of these proposals leverage non-incremental learning approaches that require the underlying models to be updated from scratch to detect new ransomware, wasting time and resources. This approach is problematic because it leaves sensitive data vulnerable to attack during retraining, as newly emerging ransomware strains may go undetected until the model is updated. Furthermore, most of these approaches are not designed to detect ransomware in real-time data streams, limiting their effectiveness in complex network environments. To address this challenge, we present the Sysmon Incremental Learning System for Ransomware Analysis and Detection (SILRAD), which enables continuous updates to the underlying model and effectively closes the training gap. By leveraging the capabilities of Sysmon for detailed monitoring of system activities, our approach integrates online incremental learning techniques to enhance the adaptability and efficiency of ransomware detection. The most valuable features for detection were selected using the Pearson Correlation Coefficient (PCC), and concept drift detection was implemented through the ADWIN algorithm, ensuring that the model remains responsive to changes in ransomware behaviour. We compared our results to other popular techniques, such as Hoeffding Trees (HT) and Leveraging Bagging Classifier (LB), observing a detection accuracy of 98.89% and a Matthews Correlation Coefficient (MCC) rate of 94.11%, demonstrating the effectiveness of our technique.",
+      "pdf_url": "https://arxiv.org/pdf/2501.01089v1",
+      "entry_id": "http://arxiv.org/abs/2501.01089v1",
+      "relevance_score": 6.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2501.01089v1_A Sysmon Incremental Learning System for Ransomware Analysis and Detection.pdf",
+      "downloaded_at": "2025-12-11T15:34:34.968238"
+    },
+    {
+      "paper_id": "2501.00438v1",
+      "title": "METANOIA: A Lifelong Intrusion Detection and Investigation System for Mitigating Concept Drift",
+      "authors": [
+        "Jie Ying",
+        "Tiantian Zhu",
+        "Aohan Zheng",
+        "Tieming Chen",
+        "Mingqi Lv",
+        "Yan Chen"
+      ],
+      "published": "2024-12-31",
+      "updated": "2024-12-31",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "As Advanced Persistent Threat (APT) complexity increases, provenance data is increasingly used for detection. Anomaly-based systems are gaining attention due to their attack-knowledge-agnostic nature and ability to counter zero-day vulnerabilities. However, traditional detection paradigms, which train on offline, limited-size data, often overlook concept drift - unpredictable changes in streaming data distribution over time. This leads to high false positive rates. We propose incremental learning as a new paradigm to mitigate this issue. However, we identify FOUR CHALLENGES while integrating incremental learning as a new paradigm. First, the long-running incremental system must combat catastrophic forgetting (C1) and avoid learning malicious behaviors (C2). Then, the system needs to achieve precise alerts (C3) and reconstruct attack scenarios (C4). We present METANOIA, the first lifelong detection system that mitigates the high false positives due to concept drift. It connects pseudo edges to combat catastrophic forgetting, transfers suspicious states to avoid learning malicious behaviors, filters nodes at the path-level to achieve precise alerts, and constructs mini-graphs to reconstruct attack scenarios. Using state-of-the-art benchmarks, we demonstrate that METANOIA improves precision performance at the window-level, graph-level, and node-level by 30%, 54%, and 29%, respectively, compared to previous approaches.",
+      "pdf_url": "https://arxiv.org/pdf/2501.00438v1",
+      "entry_id": "http://arxiv.org/abs/2501.00438v1",
+      "relevance_score": 5.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2501.00438v1_METANOIA_ A Lifelong Intrusion Detection and Investigation System for Mitigating Concept Drift.pdf",
+      "downloaded_at": "2025-12-11T15:34:38.757745"
+    },
+    {
+      "paper_id": "2412.16264v4",
+      "title": "Continual Learning with Strategic Selection and Forgetting for Network Intrusion Detection",
+      "authors": [
+        "Xinchen Zhang",
+        "Running Zhao",
+        "Zhihan Jiang",
+        "Handi Chen",
+        "Yulong Ding",
+        "Edith C. H. Ngai",
+        "Shuang-Hua Yang"
+      ],
+      "published": "2024-12-20",
+      "updated": "2025-07-02",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Intrusion Detection Systems (IDS) are crucial for safeguarding digital infrastructure. In dynamic network environments, both threat landscapes and normal operational behaviors are constantly changing, resulting in concept drift. While continuous learning mitigates the adverse effects of concept drift, insufficient attention to drift patterns and excessive preservation of outdated knowledge can still hinder the IDS's adaptability. In this paper, we propose SSF (Strategic Selection and Forgetting), a novel continual learning method for IDS, providing continuous model updates with a constantly refreshed memory buffer. Our approach features a strategic sample selection algorithm to select representative new samples and a strategic forgetting mechanism to drop outdated samples. The proposed strategic sample selection algorithm prioritizes new samples that cause the `drifted' pattern, enabling the model to better understand the evolving landscape. Additionally, we introduce strategic forgetting upon detecting significant drift by discarding outdated samples to free up memory, allowing the incorporation of more recent data. SSF captures evolving patterns effectively and ensures the model is aligned with the change of data patterns, significantly enhancing the IDS's adaptability to concept drift. The state-of-the-art performance of SSF on NSL-KDD and UNSW-NB15 datasets demonstrates its superior adaptability to concept drift for network intrusion detection. The code is released at https://github.com/xinchen930/SSF-Strategic-Selection-and-Forgetting.",
+      "pdf_url": "https://arxiv.org/pdf/2412.16264v4",
+      "entry_id": "http://arxiv.org/abs/2412.16264v4",
+      "relevance_score": 4.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2412.16264v4_Continual Learning with Strategic Selection and Forgetting for Network Intrusion Detection.pdf",
+      "downloaded_at": "2025-12-11T15:34:43.403863"
+    },
+    {
+      "paper_id": "2411.16591v2",
+      "title": "Adversarial Attacks for Drift Detection",
+      "authors": [
+        "Fabian Hinder",
+        "Valerie Vaquet",
+        "Barbara Hammer"
+      ],
+      "published": "2024-11-25",
+      "updated": "2025-02-06",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Concept drift refers to the change of data distributions over time. While drift poses a challenge for learning models, requiring their continual adaption, it is also relevant in system monitoring to detect malfunctions, system failures, and unexpected behavior. In the latter case, the robust and reliable detection of drifts is imperative. This work studies the shortcomings of commonly used drift detection schemes. We show how to construct data streams that are drifting without being detected. We refer to those as drift adversarials. In particular, we compute all possible adversairals for common detection schemes and underpin our theoretical findings with empirical evaluations.",
+      "pdf_url": "https://arxiv.org/pdf/2411.16591v2",
+      "entry_id": "http://arxiv.org/abs/2411.16591v2",
+      "relevance_score": 7.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2411.16591v2_Adversarial Attacks for Drift Detection.pdf",
+      "downloaded_at": "2025-12-11T15:34:47.244906"
+    },
+    {
+      "paper_id": "2410.10041v2",
+      "title": "WormKAN: Are KAN Effective for Identifying and Tracking Concept Drift in Time Series?",
+      "authors": [
+        "Kunpeng Xu",
+        "Lifei Chen",
+        "Shengrui Wang"
+      ],
+      "published": "2024-10-13",
+      "updated": "2024-12-13",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Dynamic concepts in time series are crucial for understanding complex systems such as financial markets, healthcare, and online activity logs. These concepts help reveal structures and behaviors in sequential data for better decision-making and forecasting. However, existing models often struggle to detect and track concept drift due to limitations in interpretability and adaptability. To address this challenge, inspired by the flexibility of the recent Kolmogorov-Arnold Network (KAN), we propose WormKAN, a concept-aware KAN-based model to address concept drift in co-evolving time series. WormKAN consists of three key components: Patch Normalization, Temporal Representation Module, and Concept Dynamics. Patch normalization processes co-evolving time series into patches, treating them as fundamental modeling units to capture local dependencies while ensuring consistent scaling. The temporal representation module learns robust latent representations by leveraging a KAN-based autoencoder, complemented by a smoothness constraint, to uncover inter-patch correlations. Concept dynamics identifies and tracks dynamic transitions, revealing structural shifts in the time series through concept identification and drift detection. These transitions, akin to passing through a \\textit{wormhole}, are identified by abrupt changes in the latent space. Experiments show that KAN and KAN-based models (WormKAN) effectively segment time series into meaningful concepts, enhancing the identification and tracking of concept drift.",
+      "pdf_url": "https://arxiv.org/pdf/2410.10041v2",
+      "entry_id": "http://arxiv.org/abs/2410.10041v2",
+      "relevance_score": 4.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2410.10041v2_WormKAN_ Are KAN Effective for Identifying and Tracking Concept Drift in Time Series_.pdf",
+      "downloaded_at": "2025-12-11T15:34:51.230993"
+    },
+    {
+      "paper_id": "2409.13857v1",
+      "title": "Wormhole: Concept-Aware Deep Representation Learning for Co-Evolving Sequences",
+      "authors": [
+        "Kunpeng Xu",
+        "Lifei Chen",
+        "Shengrui Wang"
+      ],
+      "published": "2024-09-20",
+      "updated": "2024-09-20",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Identifying and understanding dynamic concepts in co-evolving sequences is crucial for analyzing complex systems such as IoT applications, financial markets, and online activity logs. These concepts provide valuable insights into the underlying structures and behaviors of sequential data, enabling better decision-making and forecasting. This paper introduces Wormhole, a novel deep representation learning framework that is concept-aware and designed for co-evolving time sequences. Our model presents a self-representation layer and a temporal smoothness constraint to ensure robust identification of dynamic concepts and their transitions. Additionally, concept transitions are detected by identifying abrupt changes in the latent space, signifying a shift to new behavior - akin to passing through a wormhole. This novel mechanism accurately discerns concepts within co-evolving sequences and pinpoints the exact locations of these wormholes, enhancing the interpretability of the learned representations. Experiments demonstrate that this method can effectively segment time series data into meaningful concepts, providing a valuable tool for analyzing complex temporal patterns and advancing the detection of concept drifts.",
+      "pdf_url": "https://arxiv.org/pdf/2409.13857v1",
+      "entry_id": "http://arxiv.org/abs/2409.13857v1",
+      "relevance_score": 4.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2409.13857v1_Wormhole_ Concept-Aware Deep Representation Learning for Co-Evolving Sequences.pdf",
+      "downloaded_at": "2025-12-11T15:34:55.382710"
+    },
+    {
+      "paper_id": "2407.10052v2",
+      "title": "Augmented Neural Fine-Tuning for Efficient Backdoor Purification",
+      "authors": [
+        "Nazmul Karim",
+        "Abdullah Al Arafat",
+        "Umar Khalid",
+        "Zhishan Guo",
+        "Nazanin Rahnavard"
+      ],
+      "published": "2024-07-14",
+      "updated": "2024-07-17",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "abstract": "Recent studies have revealed the vulnerability of deep neural networks (DNNs) to various backdoor attacks, where the behavior of DNNs can be compromised by utilizing certain types of triggers or poisoning mechanisms. State-of-the-art (SOTA) defenses employ too-sophisticated mechanisms that require either a computationally expensive adversarial search module for reverse-engineering the trigger distribution or an over-sensitive hyper-parameter selection module. Moreover, they offer sub-par performance in challenging scenarios, e.g., limited validation data and strong attacks. In this paper, we propose Neural mask Fine-Tuning (NFT) with an aim to optimally re-organize the neuron activities in a way that the effect of the backdoor is removed. Utilizing a simple data augmentation like MixUp, NFT relaxes the trigger synthesis process and eliminates the requirement of the adversarial search module. Our study further reveals that direct weight fine-tuning under limited validation data results in poor post-purification clean test accuracy, primarily due to overfitting issue. To overcome this, we propose to fine-tune neural masks instead of model weights. In addition, a mask regularizer has been devised to further mitigate the model drift during the purification process. The distinct characteristics of NFT render it highly efficient in both runtime and sample usage, as it can remove the backdoor even when a single sample is available from each class. We validate the effectiveness of NFT through extensive experiments covering the tasks of image classification, object detection, video action recognition, 3D point cloud, and natural language processing. We evaluate our method against 14 different attacks (LIRA, WaNet, etc.) on 11 benchmark data sets such as ImageNet, UCF101, Pascal VOC, ModelNet, OpenSubtitles2012, etc.",
+      "pdf_url": "https://arxiv.org/pdf/2407.10052v2",
+      "entry_id": "http://arxiv.org/abs/2407.10052v2",
+      "relevance_score": 9.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2407.10052v2_Augmented Neural Fine-Tuning for Efficient Backdoor Purification.pdf",
+      "downloaded_at": "2025-12-11T15:34:59.246000"
+    },
+    {
+      "paper_id": "2407.05379v1",
+      "title": "AiGAS-dEVL: An Adaptive Incremental Neural Gas Model for Drifting Data Streams under Extreme Verification Latency",
+      "authors": [
+        "Maria Arostegi",
+        "Miren Nekane Bilbao",
+        "Jesus L. Lobo",
+        "Javier Del Ser"
+      ],
+      "published": "2024-07-07",
+      "updated": "2024-07-07",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "The ever-growing speed at which data are generated nowadays, together with the substantial cost of labeling processes cause Machine Learning models to face scenarios in which data are partially labeled. The extreme case where such a supervision is indefinitely unavailable is referred to as extreme verification latency. On the other hand, in streaming setups data flows are affected by exogenous factors that yield non-stationarities in the patterns (concept drift), compelling models learned incrementally from the data streams to adapt their modeled knowledge to the concepts within the stream. In this work we address the casuistry in which these two conditions occur together, by which adaptation mechanisms to accommodate drifts within the stream are challenged by the lack of supervision, requiring further mechanisms to track the evolution of concepts in the absence of verification. To this end we propose a novel approach, AiGAS-dEVL (Adaptive Incremental neural GAS model for drifting Streams under Extreme Verification Latency), which relies on growing neural gas to characterize the distributions of all concepts detected within the stream over time. Our approach exposes that the online analysis of the behavior of these prototypical points over time facilitates the definition of the evolution of concepts in the feature space, the detection of changes in their behavior, and the design of adaptation policies to mitigate the effect of such changes in the model. We assess the performance of AiGAS-dEVL over several synthetic datasets, comparing it to that of state-of-the-art approaches proposed in the recent past to tackle this stream learning setup. Our results reveal that AiGAS-dEVL performs competitively with respect to the rest of baselines, exhibiting a superior adaptability over several datasets in the benchmark while ensuring a simple and interpretable instance-based adaptation strategy.",
+      "pdf_url": "https://arxiv.org/pdf/2407.05379v1",
+      "entry_id": "http://arxiv.org/abs/2407.05379v1",
+      "relevance_score": 5.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2407.05379v1_AiGAS-dEVL_ An Adaptive Incremental Neural Gas Model for Drifting Data Streams under Extreme Verific.pdf",
+      "downloaded_at": "2025-12-11T15:35:03.437550"
+    },
+    {
+      "paper_id": "2405.04095v3",
+      "title": "Combating Concept Drift with Explanatory Detection and Adaptation for Android Malware Classification",
+      "authors": [
+        "Yiling He",
+        "Junchi Lei",
+        "Zhan Qin",
+        "Kui Ren",
+        "Chun Chen"
+      ],
+      "published": "2024-05-07",
+      "updated": "2025-05-24",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Machine learning-based Android malware classifiers achieve high accuracy in stationary environments but struggle with concept drift. The rapid evolution of malware, especially with new families, can depress classification accuracy to near-random levels. Previous research has largely centered on detecting drift samples, with expert-led label revisions on these samples to guide model retraining. However, these methods often lack a comprehensive understanding of malware concepts and provide limited guidance for effective drift adaptation, leading to unstable detection performance and high human labeling costs.\n  To combat concept drift, we propose DREAM, a novel system that improves drift detection and establishes an explanatory adaptation process. Our core idea is to integrate classifier and expert knowledge within a unified model. To achieve this, we embed malware explanations (or concepts) within the latent space of a contrastive autoencoder, while constraining sample reconstruction based on classifier predictions. This approach enhances classifier retraining in two key ways: 1) capturing the target classifier's characteristics to select more effective samples in drift detection and 2) enabling concept revisions that extend the classifier's semantics to provide stronger guidance for adaptation. Additionally, DREAM eliminates reliance on training data during real-time drift detection and provides a behavior-based drift explainer to support concept revision. Our evaluation shows that DREAM effectively improves the drift detection accuracy and reduces the expert analysis effort in adaptation across different malware datasets and classifiers. Notably, when updating a widely-used Drebin classifier, DREAM achieves the same accuracy with 76.6% fewer newly labeled samples compared to the best existing methods.",
+      "pdf_url": "https://arxiv.org/pdf/2405.04095v3",
+      "entry_id": "http://arxiv.org/abs/2405.04095v3",
+      "relevance_score": 8.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2405.04095v3_Combating Concept Drift with Explanatory Detection and Adaptation for Android Malware Classification.pdf",
+      "downloaded_at": "2025-12-11T15:35:07.455371"
+    },
+    {
+      "paper_id": "2405.03667v2",
+      "title": "Fault Detection and Monitoring using a Data-Driven Information-Based Strategy: Method, Theory, and Application",
+      "authors": [
+        "Camilo Ram\u00edrez",
+        "Jorge F. Silva",
+        "Ferhat Tamssaouet",
+        "Tom\u00e1s Rojas",
+        "Marcos E. Orchard"
+      ],
+      "published": "2024-05-06",
+      "updated": "2025-02-12",
+      "categories": [
+        "eess.SP",
+        "cs.IT",
+        "cs.LG"
+      ],
+      "primary_category": "eess.SP",
+      "abstract": "The ability to detect when a system undergoes an incipient fault is of paramount importance in preventing a critical failure. Classic methods for fault detection (including model-based and data-driven approaches) rely on thresholding error statistics or simple input-residual dependencies but face difficulties with non-linear or non-Gaussian systems. Behavioral methods (e.g., those relying on digital twins) address these difficulties but still face challenges when faulty data is scarce, decision guarantees are required, or working with already-deployed models is required. In this work, we propose an information-driven fault detection method based on a novel concept drift detector, addressing these challenges. The method is tailored to identifying drifts in input-output relationships of additive noise models (i.e., model drifts) and is based on a distribution-free mutual information (MI) estimator. Our scheme does not require prior faulty examples and can be applied distribution-free over a large class of system models. Our core contributions are twofold. First, we demonstrate the connection between fault detection, model drift detection, and testing independence between two random variables. Second, we prove several theoretical properties of the proposed MI-based fault detection scheme: (i) strong consistency, (ii) exponentially fast detection of the non-faulty case, and (iii) control of both significance levels and power of the test. To conclude, we validate our theory with synthetic data and the benchmark dataset N-CMAPSS of aircraft turbofan engines. These empirical results support the usefulness of our methodology in many practical and realistic settings, and the theoretical results show performance guarantees that other methods cannot offer.",
+      "pdf_url": "https://arxiv.org/pdf/2405.03667v2",
+      "entry_id": "http://arxiv.org/abs/2405.03667v2",
+      "relevance_score": 8.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2405.03667v2_Fault Detection and Monitoring using a Data-Driven Information-Based Strategy_ Method_ Theory_ and A.pdf",
+      "downloaded_at": "2025-12-11T15:35:11.487600"
+    },
+    {
+      "paper_id": "2404.14017v1",
+      "title": "Hybrid Ensemble-Based Travel Mode Prediction",
+      "authors": [
+        "Pawe\u0142 Golik",
+        "Maciej Grzenda",
+        "El\u017cbieta Sienkiewicz"
+      ],
+      "published": "2024-04-22",
+      "updated": "2024-04-22",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Travel mode choice (TMC) prediction, which can be formulated as a classification task, helps in understanding what makes citizens choose different modes of transport for individual trips. This is also a major step towards fostering sustainable transportation. As behaviour may evolve over time, we also face the question of detecting concept drift in the data. This necessitates using appropriate methods to address potential concept drift. In particular, it is necessary to decide whether batch or stream mining methods should be used to develop periodically updated TMC models. To address the challenge of the development of TMC models, we propose the novel Incremental Ensemble of Batch and Stream Models (IEBSM) method aimed at adapting travel mode choice classifiers to concept drift possibly occurring in the data. It relies on the combination of drift detectors with batch learning and stream mining models. We compare it against batch and incremental learners, including methods relying on active drift detection. Experiments with varied travel mode data sets representing both city and country levels show that the IEBSM method both detects drift in travel mode data and successfully adapts the models to evolving travel mode choice data. The method has a higher rank than batch and stream learners.",
+      "pdf_url": "https://arxiv.org/pdf/2404.14017v1",
+      "entry_id": "http://arxiv.org/abs/2404.14017v1",
+      "relevance_score": 4.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2404.14017v1_Hybrid Ensemble-Based Travel Mode Prediction.pdf",
+      "downloaded_at": "2025-12-11T15:35:15.278607"
+    },
+    {
+      "paper_id": "2404.03775v1",
+      "title": "A Systems Theoretic Approach to Online Machine Learning",
+      "authors": [
+        "Anli du Preez",
+        "Peter A. Beling",
+        "Tyler Cody"
+      ],
+      "published": "2024-04-04",
+      "updated": "2024-04-04",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "The machine learning formulation of online learning is incomplete from a systems theoretic perspective. Typically, machine learning research emphasizes domains and tasks, and a problem solving worldview. It focuses on algorithm parameters, features, and samples, and neglects the perspective offered by considering system structure and system behavior or dynamics. Online learning is an active field of research and has been widely explored in terms of statistical theory and computational algorithms, however, in general, the literature still lacks formal system theoretical frameworks for modeling online learning systems and resolving systems-related concept drift issues. Furthermore, while the machine learning formulation serves to classify methods and literature, the systems theoretic formulation presented herein serves to provide a framework for the top-down design of online learning systems, including a novel definition of online learning and the identification of key design parameters. The framework is formulated in terms of input-output systems and is further divided into system structure and system behavior. Concept drift is a critical challenge faced in online learning, and this work formally approaches it as part of the system behavior characteristics. Healthcare provider fraud detection using machine learning is used as a case study throughout the paper to ground the discussion in a real-world online learning challenge.",
+      "pdf_url": "https://arxiv.org/pdf/2404.03775v1",
+      "entry_id": "http://arxiv.org/abs/2404.03775v1",
+      "relevance_score": 7.5,
+      "search_category": "model_drift_behavioral",
+      "filename": "2404.03775v1_A Systems Theoretic Approach to Online Machine Learning.pdf",
+      "downloaded_at": "2025-12-11T15:35:18.994409"
+    },
+    {
+      "paper_id": "2404.01109v1",
+      "title": "An incremental hybrid adaptive network-based IDS in Software Defined Networks to detect stealth attacks",
+      "authors": [
+        "Abdullah H Alqahtani"
+      ],
+      "published": "2024-04-01",
+      "updated": "2024-04-01",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Network attacks have became increasingly more sophisticated and stealthy due to the advances in technologies and the growing sophistication of attackers. Advanced Persistent Threats (APTs) are a type of attack that implement a wide range of strategies to evade detection and be under the defence radar. Software Defined Network (SDN) is a network paradigm that implements dynamic configuration by separating the control plane from the network plane. This approach improves security aspects by facilitating the employment of network intrusion detection systems. Implementing Machine Learning (ML) techniques in Intrusion Detection Systems (IDSs) is widely used to detect such attacks but has a challenge when the data distribution changes. Concept drift is a term that describes the change in the relationship between the input data and the target value (label or class). The model is expected to degrade as certain forms of change occur. In this paper, the primary form of change will be in user behaviour (particularly changes in attacker behaviour). It is essential for a model to adapt itself to deviations in data distribution. SDN can help in monitoring changes in data distribution. This paper discusses changes in stealth attacker behaviour. The work described here investigates various concept drift detection algorithms. An incremental hybrid adaptive Network Intrusion Detection System (NIDS) is proposed to tackle the issue of concept drift in SDN. It can detect known and unknown attacks. The model is evaluated over different datasets showing promising results.",
+      "pdf_url": "https://arxiv.org/pdf/2404.01109v1",
+      "entry_id": "http://arxiv.org/abs/2404.01109v1",
+      "relevance_score": 4.0,
+      "search_category": "model_drift_behavioral",
+      "filename": "2404.01109v1_An incremental hybrid adaptive network-based IDS in Software Defined Networks to detect stealth atta.pdf",
+      "downloaded_at": "2025-12-11T15:35:23.194745"
+    },
+    {
+      "paper_id": "2508.07748v1",
+      "title": "Encode Me If You Can: Learning Universal User Representations via Event Sequence Autoencoding",
+      "authors": [
+        "Anton Klenitskiy",
+        "Artem Fatkulin",
+        "Daria Denisova",
+        "Anton Pembek",
+        "Alexey Vasilev"
+      ],
+      "published": "2025-08-11",
+      "updated": "2025-08-11",
+      "categories": [
+        "cs.IR"
+      ],
+      "primary_category": "cs.IR",
+      "abstract": "Building universal user representations that capture the essential aspects of user behavior is a crucial task for modern machine learning systems. In real-world applications, a user's historical interactions often serve as the foundation for solving a wide range of predictive tasks, such as churn prediction, recommendations, or lifetime value estimation. Using a task-independent user representation that is effective across all such tasks can reduce the need for task-specific feature engineering and model retraining, leading to more scalable and efficient machine learning pipelines. The goal of the RecSys Challenge 2025 by Synerise was to develop such Universal Behavioral Profiles from logs of past user behavior, which included various types of events such as product purchases, page views, and search queries. We propose a method that transforms the entire user interaction history into a single chronological sequence and trains a GRU-based autoencoder to reconstruct this sequence from a fixed-size vector. If the model can accurately reconstruct the sequence, the latent vector is expected to capture the key behavioral patterns. In addition to this core model, we explored several alternative methods for generating user embeddings and combined them by concatenating their output vectors into a unified representation. This ensemble strategy further improved generalization across diverse downstream tasks and helped our team, ai_lab_recsys, achieve second place in the RecSys Challenge 2025.",
+      "pdf_url": "https://arxiv.org/pdf/2508.07748v1",
+      "entry_id": "http://arxiv.org/abs/2508.07748v1",
+      "relevance_score": 6.0,
+      "search_category": "baseline_construction",
+      "filename": "2508.07748v1_Encode Me If You Can_ Learning Universal User Representations via Event Sequence Autoencoding.pdf",
+      "downloaded_at": "2025-12-11T15:35:32.101090"
+    },
+    {
+      "paper_id": "2510.02642v1",
+      "title": "Sequence-Preserving Dual-FoV Defense for Traffic Sign and Light Recognition in Autonomous Vehicles",
+      "authors": [
+        "Abhishek Joshi",
+        "Jahnavi Krishna Koda",
+        "Abhishek Phadke"
+      ],
+      "published": "2025-10-03",
+      "updated": "2025-10-03",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "abstract": "Traffic light and sign recognition are key for Autonomous Vehicles (AVs) because perception mistakes directly influence navigation and safety. In addition to digital adversarial attacks, models are vulnerable to existing perturbations (glare, rain, dirt, or graffiti), which could lead to dangerous misclassifications. The current work lacks consideration of temporal continuity, multistatic field-of-view (FoV) sensing, and robustness to both digital and natural degradation. This study proposes a dual FoV, sequence-preserving robustness framework for traffic lights and signs in the USA based on a multi-source dataset built on aiMotive, Udacity, Waymo, and self-recorded videos from the region of Texas. Mid and long-term sequences of RGB images are temporally aligned for four operational design domains (ODDs): highway, night, rainy, and urban. Over a series of experiments on a real-life application of anomaly detection, this study outlines a unified three-layer defense stack framework that incorporates feature squeezing, defensive distillation, and entropy-based anomaly detection, as well as sequence-wise temporal voting for further enhancement. The evaluation measures included accuracy, attack success rate (ASR), risk-weighted misclassification severity, and confidence stability. Physical transferability was confirmed using probes for recapture. The results showed that the Unified Defense Stack achieved 79.8mAP and reduced the ASR to 18.2%, which is superior to YOLOv8, YOLOv9, and BEVFormer, while reducing the high-risk misclassification to 32%.",
+      "pdf_url": "https://arxiv.org/pdf/2510.02642v1",
+      "entry_id": "http://arxiv.org/abs/2510.02642v1",
+      "relevance_score": 6.0,
+      "search_category": "adversarial_behavioral",
+      "filename": "2510.02642v1_Sequence-Preserving Dual-FoV Defense for Traffic Sign and Light Recognition in Autonomous Vehicles.pdf",
+      "downloaded_at": "2025-12-11T15:35:43.041764"
+    },
+    {
+      "paper_id": "2501.15434v1",
+      "title": "Mitigating Spurious Negative Pairs for Robust Industrial Anomaly Detection",
+      "authors": [
+        "Hossein Mirzaei",
+        "Mojtaba Nafez",
+        "Jafar Habibi",
+        "Mohammad Sabokrou",
+        "Mohammad Hossein Rohban"
+      ],
+      "published": "2025-01-26",
+      "updated": "2025-01-26",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "abstract": "Despite significant progress in Anomaly Detection (AD), the robustness of existing detection methods against adversarial attacks remains a challenge, compromising their reliability in critical real-world applications such as autonomous driving. This issue primarily arises from the AD setup, which assumes that training data is limited to a group of unlabeled normal samples, making the detectors vulnerable to adversarial anomaly samples during testing. Additionally, implementing adversarial training as a safeguard encounters difficulties, such as formulating an effective objective function without access to labels. An ideal objective function for adversarial training in AD should promote strong perturbations both within and between the normal and anomaly groups to maximize margin between normal and anomaly distribution. To address these issues, we first propose crafting a pseudo-anomaly group derived from normal group samples. Then, we demonstrate that adversarial training with contrastive loss could serve as an ideal objective function, as it creates both inter- and intra-group perturbations. However, we notice that spurious negative pairs compromise the conventional contrastive loss to achieve robust AD. Spurious negative pairs are those that should be closely mapped but are erroneously separated. These pairs introduce noise and misguide the direction of inter-group adversarial perturbations. To overcome the effect of spurious negative pairs, we define opposite pairs and adversarially pull them apart to strengthen inter-group perturbations. Experimental results demonstrate our superior performance in both clean and adversarial scenarios, with a 26.1% improvement in robust detection across various challenging benchmark datasets. The implementation of our work is available at: https://github.com/rohban-lab/COBRA.",
+      "pdf_url": "https://arxiv.org/pdf/2501.15434v1",
+      "entry_id": "http://arxiv.org/abs/2501.15434v1",
+      "relevance_score": 7.0,
+      "search_category": "adversarial_behavioral",
+      "filename": "2501.15434v1_Mitigating Spurious Negative Pairs for Robust Industrial Anomaly Detection.pdf",
+      "downloaded_at": "2025-12-11T15:35:48.148468"
+    },
+    {
+      "paper_id": "2510.02030v2",
+      "title": "kabr-tools: Automated Framework for Multi-Species Behavioral Monitoring",
+      "authors": [
+        "Jenna Kline",
+        "Maksim Kholiavchenko",
+        "Samuel Stevens",
+        "Nina van Tiel",
+        "Alison Zhong",
+        "Namrata Banerji",
+        "Alec Sheets",
+        "Sowbaranika Balasubramaniam",
+        "Isla Duporge",
+        "Matthew Thompson",
+        "Elizabeth Campolongo",
+        "Jackson Miliko",
+        "Neil Rosser",
+        "Tanya Berger-Wolf",
+        "Charles V. Stewart",
+        "Daniel I. Rubenstein"
+      ],
+      "published": "2025-10-02",
+      "updated": "2025-10-22",
+      "categories": [
+        "cs.CV"
+      ],
+      "primary_category": "cs.CV",
+      "abstract": "A comprehensive understanding of animal behavior ecology depends on scalable approaches to quantify and interpret complex, multidimensional behavioral patterns. Traditional field observations are often limited in scope, time-consuming, and labor-intensive, hindering the assessment of behavioral responses across landscapes. To address this, we present kabr-tools (Kenyan Animal Behavior Recognition Tools), an open-source package for automated multi-species behavioral monitoring. This framework integrates drone-based video with machine learning systems to extract behavioral, social, and spatial metrics from wildlife footage. Our pipeline leverages object detection, tracking, and behavioral classification systems to generate key metrics, including time budgets, behavioral transitions, social interactions, habitat associations, and group composition dynamics. Compared to ground-based methods, drone-based observations significantly improved behavioral granularity, reducing visibility loss by 15% and capturing more transitions with higher accuracy and continuity. We validate kabr-tools through three case studies, analyzing 969 behavioral sequences, surpassing the capacity of traditional methods for data capture and annotation. We found that, like Plains zebras, vigilance in Grevy's zebras decreases with herd size, but, unlike Plains zebras, habitat has a negligible impact. Plains and Grevy's zebras exhibit strong behavioral inertia, with rare transitions to alert behaviors and observed spatial segregation between Grevy's zebras, Plains zebras, and giraffes in mixed-species herds. By enabling automated behavioral monitoring at scale, kabr-tools offers a powerful tool for ecosystem-wide studies, advancing conservation, biodiversity research, and ecological monitoring.",
+      "pdf_url": "https://arxiv.org/pdf/2510.02030v2",
+      "entry_id": "http://arxiv.org/abs/2510.02030v2",
+      "relevance_score": 4.0,
+      "search_category": "nonhuman_behavior",
+      "filename": "2510.02030v2_kabr-tools_ Automated Framework for Multi-Species Behavioral Monitoring.pdf",
+      "downloaded_at": "2025-12-11T15:36:19.490434"
+    },
+    {
+      "paper_id": "2505.05015v1",
+      "title": "An Agent-Based Modeling Approach to Free-Text Keyboard Dynamics for Continuous Authentication",
+      "authors": [
+        "Roberto Dillon",
+        "Arushi"
+      ],
+      "published": "2025-05-08",
+      "updated": "2025-05-08",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "primary_category": "cs.LG",
+      "abstract": "Continuous authentication systems leveraging free-text keyboard dynamics offer a promising additional layer of security in a multifactor authentication setup that can be used in a transparent way with no impact on user experience. This study investigates the efficacy of behavioral biometrics by employing an Agent-Based Model (ABM) to simulate diverse typing profiles across mechanical and membrane keyboards. Specifically, we generated synthetic keystroke data from five unique agents, capturing features related to dwell time, flight time, and error rates within sliding 5-second windows updated every second. Two machine learning approaches, One-Class Support Vector Machine (OC-SVM) and Random Forest (RF), were evaluated for user verification. Results revealed a stark contrast in performance: while One-Class SVM failed to differentiate individual users within each group, Random Forest achieved robust intra-keyboard user recognition (Accuracy > 0.7) but struggled to generalize across keyboards for the same user, highlighting the significant impact of keyboard hardware on typing behavior. These findings suggest that: (1) keyboard-specific user profiles may be necessary for reliable authentication, and (2) ensemble methods like RF outperform One-Class SVM in capturing fine-grained user-specific patterns.",
+      "pdf_url": "https://arxiv.org/pdf/2505.05015v1",
+      "entry_id": "http://arxiv.org/abs/2505.05015v1",
+      "relevance_score": 6.5,
+      "search_category": "behavioral_biometrics",
+      "filename": "2505.05015v1_An Agent-Based Modeling Approach to Free-Text Keyboard Dynamics for Continuous Authentication.pdf",
+      "downloaded_at": "2025-12-11T15:36:25.667830"
+    },
+    {
+      "paper_id": "2403.03832v1",
+      "title": "Your device may know you better than you know yourself -- continuous authentication on novel dataset using machine learning",
+      "authors": [
+        "Pedro Gomes do Nascimento",
+        "Pidge Witiak",
+        "Tucker MacCallum",
+        "Zachary Winterfeldt",
+        "Rushit Dave"
+      ],
+      "published": "2024-03-06",
+      "updated": "2024-03-06",
+      "categories": [
+        "cs.AI"
+      ],
+      "primary_category": "cs.AI",
+      "abstract": "This research aims to further understanding in the field of continuous authentication using behavioral biometrics. We are contributing a novel dataset that encompasses the gesture data of 15 users playing Minecraft with a Samsung Tablet, each for a duration of 15 minutes. Utilizing this dataset, we employed machine learning (ML) binary classifiers, being Random Forest (RF), K-Nearest Neighbors (KNN), and Support Vector Classifier (SVC), to determine the authenticity of specific user actions. Our most robust model was SVC, which achieved an average accuracy of approximately 90%, demonstrating that touch dynamics can effectively distinguish users. However, further studies are needed to make it viable option for authentication systems",
+      "pdf_url": "https://arxiv.org/pdf/2403.03832v1",
+      "entry_id": "http://arxiv.org/abs/2403.03832v1",
+      "relevance_score": 5.5,
+      "search_category": "behavioral_biometrics",
+      "filename": "2403.03832v1_Your device may know you better than you know yourself -- continuous authentication on novel dataset.pdf",
+      "downloaded_at": "2025-12-11T15:36:29.502807"
+    },
+    {
+      "paper_id": "2508.02942v1",
+      "title": "LMDG: Advancing Lateral Movement Detection Through High-Fidelity Dataset Generation",
+      "authors": [
+        "Anas Mabrouk",
+        "Mohamed Hatem",
+        "Mohammad Mamun",
+        "Sherif Saad"
+      ],
+      "published": "2025-08-04",
+      "updated": "2025-08-04",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Lateral Movement (LM) attacks continue to pose a significant threat to enterprise security, enabling adversaries to stealthily compromise critical assets. However, the development and evaluation of LM detection systems are impeded by the absence of realistic, well-labeled datasets. To address this gap, we propose LMDG, a reproducible and extensible framework for generating high-fidelity LM datasets. LMDG automates benign activity generation, multi-stage attack execution, and comprehensive labeling of system and network logs, dramatically reducing manual effort and enabling scalable dataset creation. A central contribution of LMDG is Process Tree Labeling, a novel agent-based technique that traces all malicious activity back to its origin with high precision. Unlike prior methods such as Injection Timing or Behavioral Profiling, Process Tree Labeling enables accurate, step-wise labeling of malicious log entries, correlating each with a specific attack step and MITRE ATT\\&CK TTPs. To our knowledge, this is the first approach to support fine-grained labeling of multi-step attacks, providing critical context for detection models such as attack path reconstruction. We used LMDG to generate a 25-day dataset within a 25-VM enterprise environment containing 22 user accounts. The dataset includes 944 GB of host and network logs and embeds 35 multi-stage LM attacks, with malicious events comprising less than 1% of total activity, reflecting a realistic benign-to-malicious ratio for evaluating detection systems. LMDG-generated datasets improve upon existing ones by offering diverse LM attacks, up-to-date attack patterns, longer attack timeframes, comprehensive data sources, realistic network architectures, and more accurate labeling.",
+      "pdf_url": "https://arxiv.org/pdf/2508.02942v1",
+      "entry_id": "http://arxiv.org/abs/2508.02942v1",
+      "relevance_score": 6.5,
+      "search_category": "behavioral_profiling",
+      "filename": "2508.02942v1_LMDG_ Advancing Lateral Movement Detection Through High-Fidelity Dataset Generation.pdf",
+      "downloaded_at": "2025-12-11T15:37:29.730468"
+    },
+    {
+      "paper_id": "2512.04855v1",
+      "title": "A Novel Trust-Based DDoS Cyberattack Detection Model for Smart Business Environments",
+      "authors": [
+        "Oghenetejiri Okporokpo",
+        "Funminiyi Olajide",
+        "Nemitari Ajienka",
+        "Xiaoqi Ma"
+      ],
+      "published": "2025-12-04",
+      "updated": "2025-12-04",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "As the frequency and complexity of Distributed Denial-of-Service (DDoS) attacks continue to increase, the level of threats posed to Smart Internet of Things (SIoT) business environments have also increased. These environments generally have several interconnected SIoT systems and devices that are integral to daily operations, usually depending on cloud infrastructure and real-time data analytics, which require continuous availability and secure data exchange. Conventional detection mechanisms, while useful in static or traditional network environments, often are inadequate in responding to the needs of these dynamic and diverse SIoT networks. In this paper, we introduce a novel trust-based DDoS detection model tailored to meet the unique requirements of smart business environments. The proposed model incorporates a trust evaluation engine that continuously monitors node behaviour, calculating trust scores based on packet delivery ratio, response time, and anomaly detection. These trust metrics are then aggregated by a central trust-based repository that uses inherent trust values to identify traffic patterns indicative of DDoS attacks. By integrating both trust scores and central trust-based outputs, the trust calculation is enhanced, ensuring that threats are accurately identified and addressed in real-time. The model demonstrated a significant improvement in detection accuracy, and a low false-positive rate with enhanced scalability and adaptability under TCP SYN, Ping Flood, and UDP Flood attacks. The results show that a trust-based approach provides an effective, lightweight alternative for securing resource-constrained business IoT environments.",
+      "pdf_url": "https://arxiv.org/pdf/2512.04855v1",
+      "entry_id": "http://arxiv.org/abs/2512.04855v1",
+      "relevance_score": 4.5,
+      "search_category": "continuous_monitoring",
+      "filename": "2512.04855v1_A Novel Trust-Based DDoS Cyberattack Detection Model for Smart Business Environments.pdf",
+      "downloaded_at": "2025-12-11T15:37:36.011774"
+    },
+    {
+      "paper_id": "2509.14956v1",
+      "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+      "authors": [
+        "Diego Gosmar",
+        "Deborah A. Dahl"
+      ],
+      "published": "2025-09-18",
+      "updated": "2025-09-18",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "primary_category": "cs.AI",
+      "abstract": "This paper proposes a novel architectural framework aimed at enhancing security and reliability in multi-agent systems (MAS). A central component of this framework is a network of Sentinel Agents, functioning as a distributed security layer that integrates techniques such as semantic analysis via large language models (LLMs), behavioral analytics, retrieval-augmented verification, and cross-agent anomaly detection. Such agents can potentially oversee inter-agent communications, identify potential threats, enforce privacy and access controls, and maintain comprehensive audit records. Complementary to the idea of Sentinel Agents is the use of a Coordinator Agent. The Coordinator Agent supervises policy implementation, and manages agent participation. In addition, the Coordinator also ingests alerts from Sentinel Agents. Based on these alerts, it can adapt policies, isolate or quarantine misbehaving agents, and contain threats to maintain the integrity of the MAS ecosystem. This dual-layered security approach, combining the continuous monitoring of Sentinel Agents with the governance functions of Coordinator Agents, supports dynamic and adaptive defense mechanisms against a range of threats, including prompt injection, collusive agent behavior, hallucinations generated by LLMs, privacy breaches, and coordinated multi-agent attacks. In addition to the architectural design, we present a simulation study where 162 synthetic attacks of different families (prompt injection, hallucination, and data exfiltration) were injected into a multi-agent conversational environment. The Sentinel Agents successfully detected the attack attempts, confirming the practical feasibility of the proposed monitoring approach. The framework also offers enhanced system observability, supports regulatory compliance, and enables policy evolution over time.",
+      "pdf_url": "https://arxiv.org/pdf/2509.14956v1",
+      "entry_id": "http://arxiv.org/abs/2509.14956v1",
+      "relevance_score": 9.0,
+      "search_category": "continuous_monitoring",
+      "filename": "2509.14956v1_Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems.pdf",
+      "downloaded_at": "2025-12-11T15:37:39.840346"
+    },
+    {
+      "paper_id": "2509.02018v1",
+      "title": "Vision-Based Embedded System for Noncontact Monitoring of Preterm Infant Behavior in Low-Resource Care Settings",
+      "authors": [
+        "Stanley Mugisha",
+        "Rashid Kisitu",
+        "Francis Komakech",
+        "Excellence Favor"
+      ],
+      "published": "2025-09-02",
+      "updated": "2025-09-02",
+      "categories": [
+        "cs.CV",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "primary_category": "cs.CV",
+      "abstract": "Preterm birth remains a leading cause of neonatal mortality, disproportionately affecting low-resource settings with limited access to advanced neonatal intensive care units (NICUs).Continuous monitoring of infant behavior, such as sleep/awake states and crying episodes, is critical but relies on manual observation or invasive sensors, which are prone to error, impractical, and can cause skin damage. This paper presents a novel, noninvasive, and automated vision-based framework to address this gap. We introduce an embedded monitoring system that utilizes a quantized MobileNet model deployed on a Raspberry Pi for real-time behavioral state detection. When trained and evaluated on public neonatal image datasets, our system achieves state-of-the-art accuracy (91.8% for sleep detection and 97.7% for crying/normal classification) while maintaining computational efficiency suitable for edge deployment. Through comparative benchmarking, we provide a critical analysis of the trade-offs between model size, inference latency, and diagnostic accuracy. Our findings demonstrate that while larger architectures (e.g., ResNet152, VGG19) offer marginal gains in accuracy, their computational cost is prohibitive for real-time edge use. The proposed framework integrates three key innovations: model quantization for memory-efficient inference (68% reduction in size), Raspberry Pi-optimized vision pipelines, and secure IoT communication for clinical alerts. This work conclusively shows that lightweight, optimized models such as the MobileNet offer the most viable foundation for scalable, low-cost, and clinically actionable NICU monitoring systems, paving the way for improved preterm care in resource-constrained environments.",
+      "pdf_url": "https://arxiv.org/pdf/2509.02018v1",
+      "entry_id": "http://arxiv.org/abs/2509.02018v1",
+      "relevance_score": 7.5,
+      "search_category": "continuous_monitoring",
+      "filename": "2509.02018v1_Vision-Based Embedded System for Noncontact Monitoring of Preterm Infant Behavior in Low-Resource Ca.pdf",
+      "downloaded_at": "2025-12-11T15:37:44.262612"
+    },
+    {
+      "paper_id": "2508.19465v1",
+      "title": "Addressing Weak Authentication like RFID, NFC in EVs and EVCs using AI-powered Adaptive Authentication",
+      "authors": [
+        "Onyinye Okoye"
+      ],
+      "published": "2025-08-26",
+      "updated": "2025-08-26",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "The rapid expansion of the Electric Vehicles (EVs) and Electric Vehicle Charging Systems (EVCs) has introduced new cybersecurity challenges, specifically in authentication protocols that protect vehicles, users, and energy infrastructure. Although widely adopted for convenience, traditional authentication mechanisms like Radio Frequency Identification (RFID) and Near Field Communication (NFC) rely on static identifiers and weak encryption, making them highly vulnerable to attack vectors such as cloning, relay attacks, and signal interception. This study explores an AI-powered adaptive authentication framework designed to overcome these shortcomings by integrating machine learning, anomaly detection, behavioral analytics, and contextual risk assessment. Grounded in the principles of Zero Trust Architecture, the proposed framework emphasizes continuous verification, least privilege access, and secure communication. Through a comprehensive literature review, this research evaluates current vulnerabilities and highlights AI-driven solutions to provide a scalable, resilient, and proactive defense. Ultimately, the research findings conclude that adopting AI-powered adaptive authentication is a strategic imperative for securing the future of electric mobility and strengthening digital trust across the ecosystem. Keywords: weak authentication, RFID, NFC, ML, AI-powered adaptive authentication, relay attacks, cloning, eavesdropping, MITM attacks, Zero Trust Architecture",
+      "pdf_url": "https://arxiv.org/pdf/2508.19465v1",
+      "entry_id": "http://arxiv.org/abs/2508.19465v1",
+      "relevance_score": 10.0,
+      "search_category": "continuous_monitoring",
+      "filename": "2508.19465v1_Addressing Weak Authentication like RFID_ NFC in EVs and EVCs using AI-powered Adaptive Authenticati.pdf",
+      "downloaded_at": "2025-12-11T15:37:48.047030"
+    },
+    {
+      "paper_id": "2505.23792v1",
+      "title": "Zero-Trust Foundation Models: A New Paradigm for Secure and Collaborative Artificial Intelligence for Internet of Things",
+      "authors": [
+        "Kai Li",
+        "Conggai Li",
+        "Xin Yuan",
+        "Shenghong Li",
+        "Sai Zou",
+        "Syed Sohail Ahmed",
+        "Wei Ni",
+        "Dusit Niyato",
+        "Abbas Jamalipour",
+        "Falko Dressler",
+        "Ozgur B. Akan"
+      ],
+      "published": "2025-05-26",
+      "updated": "2025-05-26",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "This paper focuses on Zero-Trust Foundation Models (ZTFMs), a novel paradigm that embeds zero-trust security principles into the lifecycle of foundation models (FMs) for Internet of Things (IoT) systems. By integrating core tenets, such as continuous verification, least privilege access (LPA), data confidentiality, and behavioral analytics into the design, training, and deployment of FMs, ZTFMs can enable secure, privacy-preserving AI across distributed, heterogeneous, and potentially adversarial IoT environments. We present the first structured synthesis of ZTFMs, identifying their potential to transform conventional trust-based IoT architectures into resilient, self-defending ecosystems. Moreover, we propose a comprehensive technical framework, incorporating federated learning (FL), blockchain-based identity management, micro-segmentation, and trusted execution environments (TEEs) to support decentralized, verifiable intelligence at the network edge. In addition, we investigate emerging security threats unique to ZTFM-enabled systems and evaluate countermeasures, such as anomaly detection, adversarial training, and secure aggregation. Through this analysis, we highlight key open research challenges in terms of scalability, secure orchestration, interpretable threat attribution, and dynamic trust calibration. This survey lays a foundational roadmap for secure, intelligent, and trustworthy IoT infrastructures powered by FMs.",
+      "pdf_url": "https://arxiv.org/pdf/2505.23792v1",
+      "entry_id": "http://arxiv.org/abs/2505.23792v1",
+      "relevance_score": 7.5,
+      "search_category": "continuous_monitoring",
+      "filename": "2505.23792v1_Zero-Trust Foundation Models_ A New Paradigm for Secure and Collaborative Artificial Intelligence fo.pdf",
+      "downloaded_at": "2025-12-11T15:37:51.902483"
+    },
+    {
+      "paper_id": "2505.17310v2",
+      "title": "Advancing Security with Digital Twins: A Comprehensive Survey",
+      "authors": [
+        "Blessing Airehenbuwa",
+        "Touseef Hasan",
+        "Souvika Sarkar",
+        "Ujjwal Guin"
+      ],
+      "published": "2025-05-22",
+      "updated": "2025-09-11",
+      "categories": [
+        "cs.CR",
+        "cs.ET"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "The proliferation of electronic devices has greatly transformed every aspect of human life, such as communication, healthcare, transportation, and energy. Unfortunately, the global electronics supply chain is vulnerable to various attacks, including piracy of intellectual properties, tampering, counterfeiting, information leakage, side-channel, and fault injection attacks, due to the complex nature of electronic products and vulnerabilities present in them. Although numerous solutions have been proposed to address these threats, significant gaps remain, particularly in providing scalable and comprehensive protection against emerging attacks. Digital twin, a dynamic virtual replica of a physical system, has emerged as a promising solution to address these issues by providing backward traceability, end-to-end visibility, and continuous verification of component integrity and behavior. In this paper, we comprehensively present the latest digital twin-based security implementations, including their role in cyber-physical systems, Internet of Things, cryptographic systems, detection of counterfeit electronics, intrusion detection, fault injection, and side-channel leakage. This work considers these critical security use cases within a single study to offer researchers and practitioners a unified reference for securing hardware with digital twins. The paper also explores the integration of large language models with digital twins for enhanced security and discusses current challenges, solutions, and future research directions.",
+      "pdf_url": "https://arxiv.org/pdf/2505.17310v2",
+      "entry_id": "http://arxiv.org/abs/2505.17310v2",
+      "relevance_score": 4.5,
+      "search_category": "continuous_monitoring",
+      "filename": "2505.17310v2_Advancing Security with Digital Twins_ A Comprehensive Survey.pdf",
+      "downloaded_at": "2025-12-11T15:37:55.796662"
+    },
+    {
+      "paper_id": "2502.03682v2",
+      "title": "Towards Scalable Defenses against Intimate Partner Infiltrations",
+      "authors": [
+        "Weisi Yang",
+        "Shinan Liu",
+        "Feng Xiao",
+        "Nick Feamster",
+        "Stephen Xia"
+      ],
+      "published": "2025-02-06",
+      "updated": "2025-06-11",
+      "categories": [
+        "cs.CR",
+        "cs.HC"
+      ],
+      "primary_category": "cs.CR",
+      "abstract": "Intimate Partner Infiltration (IPI)--a type of Intimate Partner Violence (IPV) that typically requires physical access to a victim's device--is a pervasive concern around the world, often manifesting through digital surveillance, control, and monitoring. Unlike conventional cyberattacks, IPI perpetrators leverage close proximity and personal knowledge to circumvent standard protections, underscoring the need for targeted interventions. While security clinics and other human-centered approaches effectively tailor solutions for victims, their scalability remains constrained by resource limitations and the need for specialized counseling. We present AID, an Automated IPI Detection system that continuously monitors for unauthorized access and suspicious behaviors on smartphones. AID employs a unified architecture to process multimodal signals stealthily and preserve user privacy. A brief calibration phase upon installation enables AID to adapt to each user's behavioral patterns, achieving high accuracy with minimal false alarms. Our 27-participant user study demonstrates that AID achieves highly accurate detection of non-owner access and fine-grained IPI-related activities, attaining a false positive rate of 1.6%, which is 11x lower than existing methods, and an end-to-end F1 score of 0.981. These findings suggest that AID can serve as a forensic tool that security clinics can deploy to scale their ability to identify IPI tactics and deliver personalized, far-reaching support to survivors.",
+      "pdf_url": "https://arxiv.org/pdf/2502.03682v2",
+      "entry_id": "http://arxiv.org/abs/2502.03682v2",
+      "relevance_score": 6.0,
+      "search_category": "continuous_monitoring",
+      "filename": "2502.03682v2_Towards Scalable Defenses against Intimate Partner Infiltrations.pdf",
+      "downloaded_at": "2025-12-11T15:37:59.867521"
+    },
+    {
+      "paper_id": "2412.07917v1",
+      "title": "Distributed Intrusion Detection System using Semantic-based Rules for SCADA in Smart Grid",
+      "authors": [
+        "Sathya Narayana Mohan",
+        "Gelli Ravikumar",
+        "Manimaran Govindarasu"
+      ],
+      "published": "2024-12-10",
+      "updated": "2024-12-10",
+      "categories": [
+        "eess.SY",
+        "cs.CR"
+      ],
+      "primary_category": "eess.SY",
+      "abstract": "Cyber-physical system (CPS) security for the smart grid enables secure communication for the SCADA and wide-area measurement system data. Power utilities world-wide use various SCADA protocols, namely DNP3, Modbus, and IEC 61850, for the data exchanges across substation field devices, remote terminal units (RTUs), and control center applications. Adversaries may exploit compromised SCADA protocols for the reconnaissance, data exfiltration, vulnerability assessment, and injection of stealthy cyberattacks to affect power system operation. In this paper, we propose an efficient algorithm to generate robust rule sets. We integrate the rule sets into an intrusion detection system (IDS), which continuously monitors the DNP3 data traffic at a substation network and detects intrusions and anomalies in real-time. To enable CPS-aware wide-area situational awareness, we integrated the methodology into an open-source distributed-IDS (D-IDS) framework. The D-IDS facilitates central monitoring of the detected anomalies from the geographically distributed substations and to the control center. The proposed algorithm provides an optimal solution to detect network intrusions and abnormal behavior. Different types of IDS rules based on packet payload, packet flow, and time threshold are generated. Further, IDS testing and evaluation is performed with a set of rules in different sequences. The detection time is measured for different IDS rules, and the results are plotted. All the experiments are conducted at Power Cyber Lab, Iowa State University, for multiple power grid models. After successful testing and evaluation, knowledge and implementation are transferred to field deployment.",
+      "pdf_url": "https://arxiv.org/pdf/2412.07917v1",
+      "entry_id": "http://arxiv.org/abs/2412.07917v1",
+      "relevance_score": 7.0,
+      "search_category": "continuous_monitoring",
+      "filename": "2412.07917v1_Distributed Intrusion Detection System using Semantic-based Rules for SCADA in Smart Grid.pdf",
+      "downloaded_at": "2025-12-11T15:38:03.657537"
+    },
+    {
+      "paper_id": "2411.09200v1",
+      "title": "Advancing Software Security and Reliability in Cloud Platforms through AI-based Anomaly Detection",
+      "authors": [
+        "Sabbir M. Saleh",
+        "Ibrahim Mohammed Sayem",
+        "Nazim Madhavji",
+        "John Steinbacher"
+      ],
+      "published": "2024-11-14",
+      "updated": "2024-11-14",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "primary_category": "cs.SE",
+      "abstract": "Continuous Integration/Continuous Deployment (CI/CD) is fundamental for advanced software development, supporting faster and more efficient delivery of code changes into cloud environments. However, security issues in the CI/CD pipeline remain challenging, and incidents (e.g., DDoS, Bot, Log4j, etc.) are happening over the cloud environments. While plenty of literature discusses static security testing and CI/CD practices, only a few deal with network traffic pattern analysis to detect different cyberattacks. This research aims to enhance CI/CD pipeline security by implementing anomaly detection through AI (Artificial Intelligence) support. The goal is to identify unusual behaviour or variations from network traffic patterns in pipeline and cloud platforms. The system shall integrate into the workflow to continuously monitor pipeline activities and cloud infrastructure. Additionally, it aims to explore adaptive response mechanisms to mitigate the detected anomalies or security threats. This research employed two popular network traffic datasets, CSE-CIC-IDS2018 and CSE-CIC-IDS2017. We implemented a combination of Convolution Neural Network(CNN) and Long Short-Term Memory (LSTM) to detect unusual traffic patterns. We achieved an accuracy of 98.69% and 98.30% and generated log files in different CI/CD pipeline stages that resemble the network anomalies affected to address security challenges in modern DevOps practices, contributing to advancing software security and reliability.",
+      "pdf_url": "https://arxiv.org/pdf/2411.09200v1",
+      "entry_id": "http://arxiv.org/abs/2411.09200v1",
+      "relevance_score": 6.0,
+      "search_category": "continuous_monitoring",
+      "filename": "2411.09200v1_Advancing Software Security and Reliability in Cloud Platforms through AI-based Anomaly Detection.pdf",
+      "downloaded_at": "2025-12-11T15:38:07.727533"
+    }
+  ],
+  "search_queries": [
+    {
+      "query": "(abs:\"behavioral anomaly detection\" OR abs:\"behaviour anomaly detection\") AND (abs:\"AI agent\" OR abs:\"autonomous agent\" OR abs:\"intelligent agent\") AND (abs:\"non-human\" OR abs:\"baseline\" OR abs:\"authentication\")",
+      "category": "behavioral_anomaly_core",
+      "max_results": 80
+    },
+    {
+      "query": "(abs:\"baseline poisoning\" OR abs:\"baseline attack\") AND (abs:\"anomaly detection\" OR abs:\"behavioral\" OR abs:\"behaviour\") AND (abs:\"agent\" OR abs:\"autonomous\")",
+      "category": "baseline_poisoning",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\" OR abs:\"baseline drift\") AND (abs:\"behavioral\" OR abs:\"behaviour\") AND (abs:\"monitoring\" OR abs:\"detection\" OR abs:\"authentication\")",
+      "category": "model_drift_behavioral",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"context-aware authentication\" OR abs:\"contextual authentication\") AND (abs:\"AI agent\" OR abs:\"autonomous agent\" OR abs:\"intelligent agent\" OR abs:\"behavioral\")",
+      "category": "context_aware_auth",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"behavior baseline\" OR abs:\"behaviour baseline\" OR abs:\"behavioral profile\") AND (abs:\"AI agent\" OR abs:\"autonomous system\" OR abs:\"machine learning\") AND (abs:\"construction\" OR abs:\"learning\" OR abs:\"establishment\")",
+      "category": "baseline_construction",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"real-time\" OR abs:\"runtime\") AND (abs:\"behavioral monitoring\" OR abs:\"behaviour monitoring\" OR abs:\"behavioral verification\") AND (abs:\"AI agent\" OR abs:\"autonomous agent\" OR abs:\"authentication\")",
+      "category": "realtime_behavioral",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"anomaly detection\" OR abs:\"outlier detection\") AND (abs:\"machine learning\" OR abs:\"deep learning\") AND (abs:\"AI agent\" OR abs:\"autonomous agent\") AND (abs:\"security\" OR abs:\"authentication\")",
+      "category": "ml_anomaly_agent_security",
+      "max_results": 80
+    },
+    {
+      "query": "(abs:\"adversarial attack\" OR abs:\"evasion attack\") AND (abs:\"behavioral detection\" OR abs:\"behaviour detection\" OR abs:\"anomaly detection\") AND (abs:\"agent\" OR abs:\"autonomous\")",
+      "category": "adversarial_behavioral",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"non-human behavior\" OR abs:\"bot behavior\" OR abs:\"automated behavior\") AND (abs:\"detection\" OR abs:\"characterization\" OR abs:\"modeling\") AND (abs:\"machine learning\" OR abs:\"baseline\")",
+      "category": "nonhuman_behavior",
+      "max_results": 60
+    },
+    {
+      "query": "(abs:\"behavioral biometric\" OR abs:\"behavioral authentication\") AND (abs:\"continuous authentication\" OR abs:\"anomaly detection\") AND (abs:\"machine learning\" OR abs:\"AI\")",
+      "category": "behavioral_biometrics",
+      "max_results": 60
+    }
+  ]
+}

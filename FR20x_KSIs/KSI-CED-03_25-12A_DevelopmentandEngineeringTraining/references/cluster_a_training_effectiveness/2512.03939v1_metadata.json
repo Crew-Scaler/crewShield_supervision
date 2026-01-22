@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.03939v1",
+  "title": "MUT3R: Motion-aware Updating Transformer for Dynamic 3D Reconstruction",
+  "authors": [
+    "Guole Shen",
+    "Tianchen Deng",
+    "Xingrui Qin",
+    "Nailin Wang",
+    "Jianyu Wang",
+    "Yanbo Wang",
+    "Yongtao Chen",
+    "Hesheng Wang",
+    "Jingchuan Wang"
+  ],
+  "published": "2025-12-03T16:36:53Z",
+  "url": "http://arxiv.org/abs/2512.03939v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.03939v1.pdf",
+  "relevance_score": 64,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Recent stateful recurrent neural networks have achieved remarkable progress on static 3D reconstruction but remain vulnerable to motion-induced artifacts, where non-rigid regions corrupt attention propagation between the spatial memory and image feature. By analyzing the internal behaviors of the state and image token updating mechanism, we find that aggregating self-attention maps across layers reveals a consistent pattern: dynamic regions are naturally down-weighted, exposing an implicit motio"
+}

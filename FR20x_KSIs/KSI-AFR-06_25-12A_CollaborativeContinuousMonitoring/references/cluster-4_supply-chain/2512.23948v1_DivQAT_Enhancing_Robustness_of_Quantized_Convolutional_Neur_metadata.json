@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.23948v1",
+  "title": "DivQAT: Enhancing Robustness of Quantized Convolutional Neural Networks against Model Extraction Attacks",
+  "authors": [
+    "Kacem Khaled",
+    "Felipe Gohring de Magalh\u00e3es",
+    "Gabriela Nicolescu"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23948v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "Convolutional Neural Networks (CNNs) and their quantized counterparts are vulnerable to extraction attacks, posing a significant threat of IP theft. Yet, the robustness of quantized models against these attacks is little studied compared to large models. Previous defenses propose to inject calculated noise into the prediction probabilities. However, these defenses are limited since they are not incorporated during the model design and are only added as an afterthought after training. Additionall..."
+}

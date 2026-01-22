@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.24933v1",
+  "title": "Adaptive Dependency-aware Prompt Optimization Framework for Multi-Step LLM Pipeline",
+  "authors": [
+    "Minjun Zhao",
+    "Xinyu Zhang",
+    "Shuai Zhang",
+    "Deyang Li",
+    "Ruifeng Shi"
+  ],
+  "published": "2025-12-31T15:46:37Z",
+  "url": "http://arxiv.org/abs/2512.24933v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24933v1.pdf",
+  "relevance_score": 70,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Multi-step LLM pipelines invoke large language models multiple times in a structured sequence and can effectively solve complex tasks, but their performance heavily depends on the prompts used at each step. Jointly optimizing these prompts is difficult due to missing step-level supervision and inter-step dependencies. Existing end-to-end prompt optimization methods struggle under these conditions and often yield suboptimal or unstable updates. We propose ADOPT, an Adaptive Dependency-aware Promp"
+}

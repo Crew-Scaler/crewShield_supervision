@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.22066v1",
+  "title": "Prefill vs. Decode Bottlenecks: SRAM-Frequency Tradeoffs and the Memory-Bandwidth Ceiling",
+  "authors": [
+    "Hannah Atmer",
+    "Yuan Yao",
+    "Thiemo Voigt",
+    "Stefanos Kaxiras"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22066v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "model monitoring"
+  ],
+  "summary": "Energy consumption dictates the cost and environmental impact of deploying Large Language Models. This paper investigates the impact of on-chip SRAM size and operating frequency on the energy efficiency and performance of LLM inference, focusing on the distinct behaviors of the compute-bound prefill and memory-bound decode phases. Our simulation methodology combines OpenRAM for energy modeling, LLMCompass for latency simulation, and ScaleSIM for systolic array operational intensity. Our findings..."
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.21401v1",
+  "title": "FLAMES: Fine-tuning LLMs to Synthesize Invariants for Smart Contract Security",
+  "authors": [
+    "Mojtaba Eshghie",
+    "Gabriele Morello",
+    "Matteo Lauretano",
+    "Alexandre Bartel",
+    "Martin Monperrus"
+  ],
+  "published": "2025-10-24T12:44:08Z",
+  "url": "http://arxiv.org/abs/2510.21401v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.21401v1.pdf",
+  "relevance_score": 75,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Smart contract vulnerabilities cost billions of dollars annually, yet existing automated analysis tools fail to generate deployable defenses. We present FLAMES, a novel automated approach that synthesizes executable runtime guards as Solidity \"require\" statements to harden smart contracts against exploits. Unlike prior work that relies on vulnerability labels, symbolic analysis, or natural language specifications, FLAMES employs domain-adapted large language models trained through fill-in-the-mi"
+}

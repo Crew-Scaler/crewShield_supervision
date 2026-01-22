@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.00447v2",
+  "title": "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Instruction Fusion",
+  "authors": [
+    "Ruofan Liu",
+    "Yun Lin",
+    "Zhiyong Huang",
+    "Jin Song Dong"
+  ],
+  "published": "2025-11-01T08:26:37Z",
+  "url": "http://arxiv.org/abs/2511.00447v2",
+  "pdf_url": "http://arxiv.org/pdf/2511.00447v2.pdf",
+  "relevance_score": 74,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Large language models (LLMs) are increasingly integrated into IT infrastructures, where they process user data according to predefined instructions. However, conventional LLMs remain vulnerable to prompt injection, where malicious users inject directive tokens into the data to subvert model behavior. Existing defenses train LLMs to semantically separate data and instruction tokens, but still struggle to (1) balance utility and security and (2) prevent instruction-like semantics in the data from "
+}

@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2510.02424v1",
+  "title": "Adaptive Deception Framework with Behavioral Analysis for Enhanced Cybersecurity Defense",
+  "authors": [
+    "Basil Abdullah AL-Zahrani"
+  ],
+  "published": "2025-10-02T16:52:05Z",
+  "url": "http://arxiv.org/abs/2510.02424v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.02424v1.pdf",
+  "relevance_score": 100,
+  "summary": "This paper presents CADL (Cognitive-Adaptive Deception Layer), an adaptive deception framework achieving 99.88% detection rate with 0.13% false positive rate on the CICIDS2017 dataset. The framework employs ensemble machine learning (Random Forest, XGBoost, Neural Networks) combined with behavioral profiling to identify and adapt responses to network intrusions. Through a coordinated signal bus architecture, security components share real-time intelligence, enabling collective decision-making. The system profiles attackers based on temporal patterns and deploys customized deception strategies across five escalation levels. Evaluation on 50,000 CICIDS2017 test samples demonstrates that CADL significantly outperforms traditional intrusion detection systems (Snort: 71.2%, Suricata: 68.5%) while maintaining production-ready false positive rates. The framework's behavioral analysis achieves 89% accuracy in classifying attacker profiles. We provide open-source implementation and transparent performance metrics, offering an accessible alternative to commercial deception platforms costing $150-400 per host annually."
+}

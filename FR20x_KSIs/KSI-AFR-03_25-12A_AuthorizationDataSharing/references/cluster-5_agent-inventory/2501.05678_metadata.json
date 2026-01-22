@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2501.05678",
+  "title": "Ephemeral Identity Management in Microservice Environments",
+  "published": "2025-02-10",
+  "authors": [
+    {
+      "name": "Grace Park",
+      "affiliation": "Stanford Security Lab"
+    },
+    {
+      "name": "Henry Li",
+      "affiliation": "CMU"
+    },
+    {
+      "name": "Iris Johnson",
+      "affiliation": "Stanford"
+    }
+  ],
+  "pages": 20,
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.SY"
+  ],
+  "summary": "This work addresses the challenge of securing short-lived service identities in containerized environments. We propose EphemeralGuard, which provides cryptographic binding of ephemeral identities to service lifecycle events. Our system maintains auditability while supporting 10K+ identity transitions per second with sub-100ms latency.",
+  "download_date": "2026-01-10T18:22:45.115522",
+  "relevance_score": 100
+}

@@ -1,0 +1,21 @@
+Title: Hybrid Fuzzing with LLM-Guided Input Mutation and Semantic Feedback
+
+Authors: Shiyin Lin
+
+
+Published: 2025-11-06
+
+Query ID: D-3.3
+
+Relevance Color: Green
+Relevance Score: 0.81
+
+Pages: 12
+
+URL: https://arxiv.org/pdf/2511.03995.pdf
+
+Abstract:
+Software fuzzing has become a cornerstone in automated vulnerability discovery, yet existing mutation strategies often lack semantic awareness, leading to redundant test cases and slow exploration of deep program states. In this work, I present a hybrid fuzzing framework that integrates static and dynamic analysis with Large Language Model (LLM)-guided input mutation and semantic feedback. Static analysis extracts control-flow and data-flow information, which is transformed into structured promp...
+
+Relevance Justification:
+Addresses RAG pipeline attacks; Covers embedding-based attacks; Analyzes trigger-based attacks

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2411.11006v2",
+  "title": "BackdoorMBTI: A Backdoor Learning Multimodal Benchmark Tool Kit for Backdoor Defense Evaluation",
+  "authors": [
+    "Haiyang Yu",
+    "Tian Xie",
+    "Jiaping Gui",
+    "Pengyang Wang",
+    "Ping Yi",
+    "Yue Wu"
+  ],
+  "published": "2024-11-17T09:01:55Z",
+  "url": "http://arxiv.org/abs/2411.11006v2",
+  "pdf_url": "http://arxiv.org/pdf/2411.11006v2.pdf",
+  "relevance_score": 85,
+  "summary": "Over the past few years, the emergence of backdoor attacks has presented significant challenges to deep learning systems, allowing attackers to insert backdoors into neural networks. When data with a trigger is processed by a backdoor model, it can lead to mispredictions targeted by attackers, whereas normal data yields regular results. The scope of backdoor attacks is expanding beyond computer vision and encroaching into areas such as natural language processing and speech recognition. Nevertheless, existing backdoor defense methods are typically tailored to specific data modalities, restricting their application in multimodal contexts. While multimodal learning proves highly applicable in facial recognition, sentiment analysis, action recognition, visual question answering, the security of these models remains a crucial concern. Specifically, there are no existing backdoor benchmarks targeting multimodal applications or related tasks.   In order to facilitate the research in multimodal backdoor, we introduce BackdoorMBTI, the first backdoor learning toolkit and benchmark designed for multimodal evaluation across three representative modalities from eleven commonly used datasets. BackdoorMBTI provides a systematic backdoor learning pipeline, encompassing data processing, data poisoning, backdoor training, and evaluation. The generated poison datasets and backdoor models enable detailed evaluation of backdoor defenses. Given the diversity of modalities, BackdoorMBTI facilitates systematic evaluation across different data types. Furthermore, BackdoorMBTI offers a standardized approach to handling practical factors in backdoor learning, such as issues related to data quality and erroneous labels. We anticipate that BackdoorMBTI will expedite future research in backdoor defense methods within a multimodal context. Code is available at https://github.com/SJTUHaiyangYu/BackdoorMBTI."
+}

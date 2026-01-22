@@ -1,0 +1,868 @@
+{
+  "downloaded_ids": [
+    "2510.26212v1",
+    "2411.05056v1",
+    "2506.17266v1",
+    "2510.25819v1",
+    "2504.16108v1",
+    "2403.04416v1",
+    "2512.08104v1",
+    "2504.13358v1",
+    "2512.02410v1",
+    "2505.08807v1",
+    "2507.00096v1",
+    "2508.03101v1",
+    "2509.14956v1",
+    "2506.00714v2",
+    "2408.10634v1",
+    "2403.13020v1",
+    "2507.21398v1",
+    "2507.19550v1",
+    "2508.03095v3",
+    "2509.18415v1",
+    "2501.01732v1",
+    "2511.02841v1",
+    "2507.10562v1",
+    "2505.19301v2",
+    "2509.25974v1",
+    "2508.01332v3",
+    "2511.03841v1",
+    "2509.11431v1",
+    "2403.15697v1",
+    "2504.16902v2",
+    "2504.21034v2",
+    "2511.04925v1",
+    "2510.21236v2",
+    "2509.03331v1",
+    "2510.11414v1",
+    "2501.09674v1",
+    "2507.14263v1",
+    "2511.15097v2",
+    "2506.11791v2",
+    "2512.03694v1",
+    "2511.15712v1",
+    "2510.04012v1",
+    "2504.14760v1",
+    "2505.12490v3",
+    "2506.05538v1"
+  ],
+  "last_updated": "2025-12-11T12:59:32.457955",
+  "total_papers": 45,
+  "metadata": [
+    {
+      "paper_id": "2512.02410v1",
+      "title": "Decentralized Multi-Agent System with Trust-Aware Communication",
+      "authors": [
+        "Yepeng Ding",
+        "Ahmed Twabi",
+        "Junwei Yu",
+        "Lingfeng Zhang",
+        "Tohru Kondo",
+        "Hiroyuki Sato"
+      ],
+      "published": "2025-12-02T04:39:12+00:00",
+      "abstract": "The emergence of Large Language Models (LLMs) is rapidly accelerating the development of autonomous multi-agent systems (MAS), paving the way for the Internet of Agents. However, traditional centralized MAS architectures present significant challenges, including single points of failure, vulnerability to censorship, inherent scalability limitations, and critical trust issues. We propose a novel Decentralized Multi-Agent System (DMAS) architecture designed to overcome these fundamental problems b",
+      "categories": [
+        "cs.MA",
+        "cs.CR"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2511.15712v1",
+      "title": "Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment",
+      "authors": [
+        "Vivek Acharya"
+      ],
+      "published": "2025-11-08T19:53:51+00:00",
+      "abstract": "Artificial intelligence (AI) agents are increasingly capable of initiating financial transactions on behalf of users or other agents. This evolution introduces a fundamental challenge: verifying both the authenticity of an autonomous agent and the true intent behind its transactions in a decentralized, trustless environment. Traditional payment systems assume human authorization, but autonomous, agent-led payments remove that safeguard. This paper presents a blockchain-based framework that crypt",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.DC"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2510.25819v1",
+      "title": "Identity Management for Agentic AI: The new frontier of authorization, authentication, and security for an AI agent world",
+      "authors": [
+        "Tobin South",
+        "Subramanya Nagabhushanaradhya",
+        "Ayesha Dissanayaka",
+        "Sarah Cecchetti",
+        "George Fletcher",
+        "Victor Lu",
+        "Aldo Pietropaolo",
+        "Dean H. Saxe",
+        "Jeff Lombardo",
+        "Abhishek Maligehalli Shivalingaiah",
+        "Stan Bounev",
+        "Alex Keisner",
+        "Andor Kesselman",
+        "Zack Proser",
+        "Ginny Fahs",
+        "Andrew Bunyea",
+        "Ben Moskowitz",
+        "Atul Tulshibagwale",
+        "Dazza Greenwood",
+        "Jiaxin Pei",
+        "Alex Pentland"
+      ],
+      "published": "2025-10-29T17:40:52+00:00",
+      "abstract": "The rapid rise of AI agents presents urgent challenges in authentication, authorization, and identity management. Current agent-centric protocols (like MCP) highlight the demand for clarified best practices in authentication and authorization. Looking ahead, ambitions for highly autonomous agents raise complex long-term questions regarding scalable access control, agent-centric identities, AI workload differentiation, and delegated authority. This OpenID Foundation whitepaper is for stakeholders",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2508.03101v1",
+      "title": "Using the NANDA Index Architecture in Practice: An Enterprise Perspective",
+      "authors": [
+        "Sichao Wang",
+        "Ramesh Raskar",
+        "Mahesh Lambe",
+        "Pradyumna Chari",
+        "Rekha Singhal",
+        "Shailja Gupta",
+        "Rajesh Ranjan",
+        "Ken Huang"
+      ],
+      "published": "2025-08-05T05:27:27+00:00",
+      "abstract": "The proliferation of autonomous AI agents represents a paradigmatic shift from traditional web architectures toward collaborative intelligent systems requiring sophisticated mechanisms for discovery, authentication, capability verification, and secure collaboration across heterogeneous protocol environments. This paper presents a comprehensive framework addressing the fundamental infrastructure requirements for secure, trustworthy, and interoperable AI agent ecosystems. We introduce the NANDA (N",
+      "categories": [
+        "cs.NI",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2508.01332v3",
+      "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+      "authors": [
+        "Zhenhua Zou",
+        "Zhuotao Liu",
+        "Lepeng Zhao",
+        "Qiuyang Zhan"
+      ],
+      "published": "2025-08-02T11:59:21+00:00",
+      "abstract": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and exp",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2507.19550v1",
+      "title": "Towards Multi-Agent Economies: Enhancing the A2A Protocol with Ledger-Anchored Identities and x402 Micropayments for AI Agents",
+      "authors": [
+        "Awid Vaziry",
+        "Sandro Rodriguez Garzon",
+        "Axel K\u00fcpper"
+      ],
+      "published": "2025-07-24T21:14:36+00:00",
+      "abstract": "This research article presents a novel architecture to empower multi-agent economies by addressing two critical limitations of the emerging Agent2Agent (A2A) communication protocol: decentralized agent discoverability and agent-to-agent micropayments. By integrating distributed ledger technology (DLT), this architecture enables tamper-proof, on-chain publishing of AgentCards as smart contracts, providing secure and verifiable agent identities. The architecture further extends A2A with the x402 o",
+      "categories": [
+        "cs.MA",
+        "cs.NI"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2507.00096v1",
+      "title": "AI-Governed Agent Architecture for Web-Trustworthy Tokenization of Alternative Assets",
+      "authors": [
+        "Ailiya Borjigin",
+        "Wei Zhou",
+        "Cong He"
+      ],
+      "published": "2025-06-30T11:28:51+00:00",
+      "abstract": "Alternative Assets tokenization is transforming non-traditional financial instruments are represented and traded on the web. However, ensuring trustworthiness in web-based tokenized ecosystems poses significant challenges, from verifying off-chain asset data to enforcing regulatory compliance. This paper proposes an AI-governed agent architecture that integrates intelligent agents with blockchain to achieve web-trustworthy tokenization of alternative assets. In the proposed architecture, autonom",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2506.00714v2",
+      "title": "RFCAudit: An LLM Agent for Functional Bug Detection in Network Protocols",
+      "authors": [
+        "Mingwei Zheng",
+        "Chengpeng Wang",
+        "Xuwei Liu",
+        "Jinyao Guo",
+        "Shiwei Feng",
+        "Xiangyu Zhang"
+      ],
+      "published": "2025-05-31T21:13:19+00:00",
+      "abstract": "Functional correctness is critical for ensuring the reliability and security of network protocol implementations. Functional bugs, instances where implementations diverge from behaviors specified in RFC documents, can lead to severe consequences, including faulty routing, authentication bypasses, and service disruptions. Detecting these bugs requires deep semantic analysis across specification documents and source code, a task beyond the capabilities of traditional static analysis tools. This pa",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2501.09674v1",
+      "title": "Authenticated Delegation and Authorized AI Agents",
+      "authors": [
+        "Tobin South",
+        "Samuele Marro",
+        "Thomas Hardjono",
+        "Robert Mahari",
+        "Cedric Deslandes Whitney",
+        "Dazza Greenwood",
+        "Alan Chan",
+        "Alex Pentland"
+      ],
+      "published": "2025-01-16T17:11:21+00:00",
+      "abstract": "The rapid deployment of autonomous AI agents creates urgent challenges around authorization, accountability, and access control in digital spaces. New standards are needed to know whom AI agents act on behalf of and guide their use appropriately, protecting online spaces while unlocking the value of task delegation to autonomous agents. We introduce a novel framework for authenticated, authorized, and auditable delegation of authority to AI agents, where human users can securely delegate and res",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "query": "abs:\"autonomous agent\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2511.04925v1",
+      "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+      "authors": [
+        "Rethish Nair Rajendran",
+        "Sathish Krishna Anumula",
+        "Dileep Kumar Rai",
+        "Sachin Agrawal"
+      ],
+      "published": "2025-11-07T02:03:05+00:00",
+      "abstract": "The microservice bombshells that have been linked with the microservice expansion have altered the application architectures, offered agility and scalability in terms of complexity in security trade-offs. Feeble legacy-based perimeter-based policies are unable to offer safeguard to distributed workloads and temporary interaction among and in between the services. The article itself is a case on the need of the Zero Trust Security Model of micro services ecosystem, particularly, the fact that hum",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"workload identity\" AND abs:federation AND abs:authentication"
+    },
+    {
+      "paper_id": "2408.10634v1",
+      "title": "Industry Perception of Security Challenges with Identity Access Management Solutions",
+      "authors": [
+        "Abhishek Pratap Singh",
+        "Ievgeniia Kuzminykh",
+        "Bogdan Ghita"
+      ],
+      "published": "2024-08-20T08:19:58+00:00",
+      "abstract": "Identity Access Management (IAM) is an area posing significant challenges, particularly in the context of remote connectivity and distributed or cloud-based systems. A wide range of technical solutions have been proposed by prior research, but the integration of these solutions in the commercial sector represent steps that significantly hamper their acceptance. The study aims to outline the current perception and security issues associated with IAMs solutions from the perspective of the benefici",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"non-human identity\" AND abs:authentication AND abs:management"
+    },
+    {
+      "paper_id": "2505.12490v3",
+      "title": "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems",
+      "authors": [
+        "Yedidel Louck",
+        "Ariel Stulman",
+        "Amit Dvir"
+      ],
+      "published": "2025-05-18T16:25:21+00:00",
+      "abstract": "Googles A2A protocol provides a secure communication framework for AI agents but demonstrates critical limitations when handling highly sensitive information such as payment credentials and identity documents. These gaps increase the risk of unintended harms, including unauthorized disclosure, privilege escalation, and misuse of private data in generative multi-agent environments. In this paper, we identify key weaknesses of A2A: insufficient token lifetime control, lack of strong customer authe",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"privilege escalation\" AND abs:\"AI agent\" AND abs:security"
+    },
+    {
+      "paper_id": "2512.08104v1",
+      "title": "AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration",
+      "authors": [
+        "Harish Karthikeyan",
+        "Yue Guo",
+        "Leo de Castro",
+        "Antigoni Polychroniadou",
+        "Leo Ardon",
+        "Udari Madhushani Sehwag",
+        "Sumitra Ganesh",
+        "Manuela Veloso"
+      ],
+      "published": "2025-12-08T23:20:20+00:00",
+      "abstract": "As AI agents increasingly operate in real-world, multi-agent environments, ensuring reliable and context-aware privacy in agent communication is critical, especially to comply with evolving regulatory requirements. Traditional access controls are insufficient, as privacy risks often arise after access is granted; agents may use information in ways that compromise privacy, such as messaging humans, sharing context with other agents, making tool calls, persisting data, or generating derived privat",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2511.15097v2",
+      "title": "MAIF: Enforcing AI Trust and Provenance with an Artifact-Centric Agentic Paradigm",
+      "authors": [
+        "Vineeth Sai Narajala",
+        "Manish Bhatt",
+        "Idan Habler",
+        "Ronald F. Del Rosario",
+        "Ads Dawson"
+      ],
+      "published": "2025-11-19T04:10:32+00:00",
+      "abstract": "The AI trustworthiness crisis threatens to derail the artificial intelligence revolution, with regulatory barriers, security vulnerabilities, and accountability gaps preventing deployment in critical domains. Current AI systems operate on opaque data structures that lack the audit trails, provenance tracking, or explainability required by emerging regulations like the EU AI Act. We propose an artifact-centric AI agent paradigm where behavior is driven by persistent, verifiable data artifacts rat",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2510.26212v1",
+      "title": "Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control",
+      "authors": [
+        "Yifeng Cai",
+        "Ziming Wang",
+        "Zhaomeng Deng",
+        "Mengyu Yao",
+        "Junlin Liu",
+        "Yutao Hu",
+        "Ziqi Zhang",
+        "Yao Guo",
+        "Ding Li"
+      ],
+      "published": "2025-10-30T07:36:59+00:00",
+      "abstract": "AI agents capable of GUI understanding and Model Context Protocol are increasingly deployed to automate mobile tasks. However, their reliance on over-privileged, static permissions creates a critical vulnerability: instruction injection. Malicious instructions, embedded in otherwise benign content like emails, can hijack the agent to perform unauthorized actions. We present AgentSentry, a lightweight runtime task-centric access control framework that enforces dynamic, task-scoped permissions. In",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2510.21236v2",
+      "title": "Securing AI Agent Execution",
+      "authors": [
+        "Christoph B\u00fchler",
+        "Matteo Biagiola",
+        "Luca Di Grazia",
+        "Guido Salvaneschi"
+      ],
+      "published": "2025-10-24T08:10:36+00:00",
+      "abstract": "Large Language Models (LLMs) have evolved into AI agents that interact with external tools and environments to perform complex tasks. The Model Context Protocol (MCP) has become the de facto standard for connecting agents with such resources, but security has lagged behind: thousands of MCP servers execute with unrestricted access to host systems, creating a broad attack surface. In this paper, we introduce AgentBound, the first access control framework for MCP servers. AgentBound combines a dec",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2510.11414v1",
+      "title": "Uncertainty-Aware, Risk-Adaptive Access Control for Agentic Systems using an LLM-Judged TBAC Model",
+      "authors": [
+        "Charles Fleming",
+        "Ashish Kundu",
+        "Ramana Kompella"
+      ],
+      "published": "2025-10-13T13:52:33+00:00",
+      "abstract": "The proliferation of autonomous AI agents within enterprise environments introduces a critical security challenge: managing access control for emergent, novel tasks for which no predefined policies exist. This paper introduces an advanced security framework that extends the Task-Based Access Control (TBAC) model by using a Large Language Model (LLM) as an autonomous, risk-aware judge. This model makes access control decisions not only based on an agent's intent but also by explicitly considering",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2509.11431v1",
+      "title": "Securing AI Agents: Implementing Role-Based Access Control for Industrial Applications",
+      "authors": [
+        "Aadil Gani Ganie"
+      ],
+      "published": "2025-09-14T20:58:08+00:00",
+      "abstract": "The emergence of Large Language Models (LLMs) has significantly advanced solutions across various domains, from political science to software development. However, these models are constrained by their training data, which is static and limited to information available up to a specific date. Additionally, their generalized nature often necessitates fine-tuning -- whether for classification or instructional purposes -- to effectively perform specific downstream tasks. AI agents, leveraging LLMs a",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2507.10562v1",
+      "title": "SAMEP: A Secure Protocol for Persistent Context Sharing Across AI Agents",
+      "authors": [
+        "Hari Masoor"
+      ],
+      "published": "2025-07-05T02:20:09+00:00",
+      "abstract": "Current AI agent architectures suffer from ephemeral memory limitations, preventing effective collaboration and knowledge sharing across sessions and agent boundaries. We introduce SAMEP (Secure Agent Memory Exchange Protocol), a novel framework that enables persistent, secure, and semantically searchable memory sharing among AI agents. Our protocol addresses three critical challenges: (1) persistent context preservation across agent sessions, (2) secure multi-agent collaboration with fine-grain",
+      "categories": [
+        "cs.AI",
+        "cs.CR",
+        "cs.DB",
+        "cs.LG"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2506.17266v1",
+      "title": "Securing Generative AI Agentic Workflows: Risks, Mitigation, and a Proposed Firewall Architecture",
+      "authors": [
+        "Sunil Kumar Jang Bahadur",
+        "Gopala Dhar"
+      ],
+      "published": "2025-06-10T07:36:54+00:00",
+      "abstract": "Generative Artificial Intelligence (GenAI) presents significant advancements but also introduces novel security challenges, particularly within agentic workflows where AI agents operate autonomously. These risks escalate in multi-agent systems due to increased interaction complexity. This paper outlines critical security vulnerabilities inherent in GenAI agentic workflows, including data privacy breaches, model manipulation, and issues related to agent autonomy and system integration. It discuss",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2505.19301v2",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": [
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "John Yeoh",
+        "Jason Ross",
+        "Ramesh Raskar",
+        "Youssef Harkati",
+        "Jerry Huang",
+        "Idan Habler",
+        "Chris Hughes"
+      ],
+      "published": "2025-05-25T20:21:55+00:00",
+      "abstract": "Traditional Identity and Access Management (IAM) systems, primarily designed for human users or static machine identities via protocols such as OAuth, OpenID Connect (OIDC), and SAML, prove fundamentally inadequate for the dynamic, interdependent, and often ephemeral nature of AI agents operating at scale within Multi Agent Systems (MAS), a computational system composed of multiple interacting intelligent agents that work collectively.\n  This paper posits the imperative for a novel Agentic AI IA",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "query": "abs:\"AI agent\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2504.16902v2",
+      "title": "Building A Secure Agentic AI Application Leveraging A2A Protocol",
+      "authors": [
+        "Idan Habler",
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "Prashant Kulkarni"
+      ],
+      "published": "2025-04-23T17:27:49+00:00",
+      "abstract": "As Agentic AI systems evolve from basic workflows to complex multi agent collaboration, robust protocols such as Google's Agent2Agent (A2A) become essential enablers. To foster secure adoption and ensure the reliability of these complex interactions, understanding the secure implementation of A2A is essential. This paper addresses this goal by providing a comprehensive security analysis centered on the A2A protocol. We examine its fundamental elements and operational dynamics, situating it withi",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"AI risk\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2511.02841v1",
+      "title": "AI Agents with Decentralized Identifiers and Verifiable Credentials",
+      "authors": [
+        "Sandro Rodriguez Garzon",
+        "Awid Vaziry",
+        "Enis Mert Kuzu",
+        "Dennis Enrique Gehrmann",
+        "Buse Varkan",
+        "Alexander Gaballa",
+        "Axel K\u00fcpper"
+      ],
+      "published": "2025-10-01T08:10:37+00:00",
+      "abstract": "LLM-based AI agents still lack the technical means to automatically build nuanced and differentiated trust in other agents at the beginning of an agent-to-agent dialogue. But autonomous and interoperable trust establishing becomes a fundamental prerequisite once agents start to operate beyond isolated environments and engage in dialogues across individual or organizational boundaries. A promising way to fill this gap in Agentic AI is to equip agents with long-lived digital identities and introdu",
+      "categories": [
+        "cs.CR",
+        "cs.MA"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2509.25974v1",
+      "title": "OpenID Connect for Agents (OIDC-A) 1.0: A Standard Extension for LLM-Based Agent Identity and Authorization",
+      "authors": [
+        "Subramanya Nagabhushanaradhya"
+      ],
+      "published": "2025-09-30T09:08:07+00:00",
+      "abstract": "OpenID Connect for Agents (OIDC-A) 1.0 is an extension to OpenID Connect Core 1.0 that provides a comprehensive framework for representing, authenticating, and authorizing LLM-based agents within the OAuth 2.0 ecosystem. As autonomous AI agents become increasingly prevalent in digital systems, there is a critical need for standardized protocols to establish agent identity, verify agent attestation, represent delegation chains, and enable fine-grained authorization based on agent attributes. This",
+      "categories": [
+        "cs.NI",
+        "cs.MA"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2509.18415v1",
+      "title": "Context Lineage Assurance for Non-Human Identities in Critical Multi-Agent Systems",
+      "authors": [
+        "Sumana Malkapuram",
+        "Sameera Gangavarapu",
+        "Kailashnath Reddy Kavalakuntla",
+        "Ananya Gangavarapu"
+      ],
+      "published": "2025-09-22T20:59:51+00:00",
+      "abstract": "The proliferation of autonomous software agents necessitates rigorous frameworks for establishing secure and verifiable agent-to-agent (A2A) interactions, particularly when such agents are instantiated as non-human identities(NHIs). We extend the A2A paradigm [1 , 2] by introducing a cryptographically grounded mechanism for lineage verification, wherein the provenance and evolution of NHIs are anchored in append-only Merkle tree structures modeled after Certificate Transparency (CT) logs. Unlike",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2508.03095v3",
+      "title": "Evolution of AI Agent Registry Solutions: Centralized, Enterprise, and Distributed Approaches",
+      "authors": [
+        "Aditi Singh",
+        "Abul Ehtesham",
+        "Mahesh Lambe",
+        "Jared James Grogan",
+        "Abhishek Singh",
+        "Saket Kumar",
+        "Luca Muscariello",
+        "Vijoy Pandey",
+        "Guillaume Sauvage De Saint Marc",
+        "Pradyumna Chari",
+        "Ramesh Raskar"
+      ],
+      "published": "2025-08-05T05:17:18+00:00",
+      "abstract": "Autonomous AI agents now operate across cloud, enterprise, and decentralized domains, creating demand for registry infrastructures that enable trustworthy discovery, capability negotiation, and identity assurance. We analyze five prominent approaches: (1) MCP Registry (centralized publication of mcp.json descriptors), (2) A2A Agent Cards (decentralized self-describing JSON capability manifests), (3) AGNTCY Agent Directory Service (IPFS Kademlia DHT content routing extended for semantic taxonomy-",
+      "categories": [
+        "cs.NI",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2507.14263v1",
+      "title": "Beyond DNS: Unlocking the Internet of AI Agents via the NANDA Index and Verified AgentFacts",
+      "authors": [
+        "Ramesh Raskar",
+        "Pradyumna Chari",
+        "John Zinky",
+        "Mahesh Lambe",
+        "Jared James Grogan",
+        "Sichao Wang",
+        "Rajesh Ranjan",
+        "Rekha Singhal",
+        "Shailja Gupta",
+        "Robert Lincourt",
+        "Raghu Bala",
+        "Aditi Joshi",
+        "Abhishek Singh",
+        "Ayush Chopra",
+        "Dimitris Stripelis",
+        "Bhuwan B",
+        "Sumit Kumar",
+        "Maria Gorskikh"
+      ],
+      "published": "2025-07-18T13:40:46+00:00",
+      "abstract": "The Internet is poised to host billions to trillions of autonomous AI agents that negotiate, delegate, and migrate in milliseconds and workloads that will strain DNS-centred identity and discovery. In this paper, we describe the NANDA index architecture, which we envision as a means for discoverability, identifiability and authentication in the internet of AI agents. We present an architecture where a minimal lean index resolves to dynamic, cryptographically verifiable AgentFacts that supports m",
+      "categories": [
+        "cs.NI",
+        "cs.AI",
+        "cs.CR",
+        "cs.MA"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2505.08807v1",
+      "title": "Security of Internet of Agents: Attacks and Countermeasures",
+      "authors": [
+        "Yuntao Wang",
+        "Yanghe Pan",
+        "Shaolong Guo",
+        "Zhou Su"
+      ],
+      "published": "2025-05-12T02:04:57+00:00",
+      "abstract": "With the rise of large language and vision-language models, AI agents have evolved into autonomous, interactive systems capable of perception, reasoning, and decision-making. As they proliferate across virtual and physical domains, the Internet of Agents (IoA) has emerged as a key infrastructure for enabling scalable and secure coordination among heterogeneous agents. This survey offers a comprehensive examination of the security and privacy landscape in IoA systems. We begin by outlining the Io",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2504.14760v1",
+      "title": "Establishing Workload Identity for Zero Trust CI/CD: From Secrets to SPIFFE-Based Authentication",
+      "authors": [
+        "Surya Teja Avirneni"
+      ],
+      "published": "2025-04-20T23:06:03+00:00",
+      "abstract": "CI/CD systems have become privileged automation agents in modern infrastructure, but their identity is still based on secrets or temporary credentials passed between systems. In enterprise environments, these platforms are centralized and shared across teams, often with broad cloud permissions and limited isolation. These conditions introduce risk, especially in the era of supply chain attacks, where implicit trust and static credentials leave systems exposed. This paper describes the shift from",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2504.16108v1",
+      "title": "Trusted Identities for AI Agents: Leveraging Telco-Hosted eSIM Infrastructure",
+      "authors": [
+        "Sebastian Barros"
+      ],
+      "published": "2025-04-17T15:36:26+00:00",
+      "abstract": "The rise of autonomous AI agents in enterprise and industrial environments introduces a critical challenge: how to securely assign, verify, and manage their identities across distributed systems. Existing identity frameworks based on API keys, certificates, or application-layer credentials lack the infrastructure-grade trust, lifecycle control, and interoperability needed to manage agents operating independently in sensitive contexts.\n  In this paper, we propose a conceptual architecture that le",
+      "categories": [
+        "cs.CR",
+        "cs.NI"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2403.13020v1",
+      "title": "ASOP: A Sovereign and Secure Device Onboarding Protocol for Cloud-based IoT Services",
+      "authors": [
+        "Khan Reaz",
+        "Gerhard Wunder"
+      ],
+      "published": "2024-03-18T15:45:14+00:00",
+      "abstract": "The existing high-friction device onboarding process hinders the promise and potentiality of Internet of Things (IoT). Even after several attempts by various device manufacturers and working groups, no widely adopted standard solution came to fruition. The latest attempt by Fast Identity Online (FIDO) Alliance promises a zero touch solution for mass market IoT customers, but the burden is transferred to the intermediary supply chain (i.e. they have to maintain infrastructure for managing keys an",
+      "categories": [
+        "cs.CR",
+        "cs.NI"
+      ],
+      "query": "abs:\"agent\" AND abs:\"identity\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2511.03841v1",
+      "title": "Security Analysis of Agentic AI Communication Protocols: A Comparative Evaluation",
+      "authors": [
+        "Yedidel Louck",
+        "Ariel Stulman",
+        "Amit Dvir"
+      ],
+      "published": "2025-11-05T20:19:22+00:00",
+      "abstract": "Multi-agent systems (MAS) powered by artificial intelligence (AI) are increasingly foundational to complex, distributed workflows. Yet, the security of their underlying communication protocols remains critically under-examined. This paper presents the first empirical, comparative security analysis of the official CORAL implementation and a high-fidelity, SDK-based ACP implementation, benchmarked against a literature-based evaluation of A2A. Using a 14 point vulnerability taxonomy, we systematica",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"multi-agent\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2509.03331v1",
+      "title": "VulnRepairEval: An Exploit-Based Evaluation Framework for Assessing Large Language Model Vulnerability Repair Capabilities",
+      "authors": [
+        "Weizhe Wang",
+        "Wei Ma",
+        "Qiang Hu",
+        "Yao Zhang",
+        "Jianfei Sun",
+        "Bin Wu",
+        "Yang Liu",
+        "Guangquan Xu",
+        "Lingxiao Jiang"
+      ],
+      "published": "2025-09-03T14:06:10+00:00",
+      "abstract": "The adoption of Large Language Models (LLMs) for automated software vulnerability patching has shown promising outcomes on carefully curated evaluation sets. Nevertheless, existing datasets predominantly rely on superficial validation methods rather than exploit-based verification, leading to overestimated performance in security-sensitive applications. This paper introduces VulnRepairEval, an evaluation framework anchored in functional Proof-of-Concept (PoC) exploits. Our framework delivers a c",
+      "categories": [
+        "cs.SE",
+        "cs.CR"
+      ],
+      "query": "abs:\"multi-agent\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2506.11791v2",
+      "title": "SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks",
+      "authors": [
+        "Hwiwon Lee",
+        "Ziqi Zhang",
+        "Hanxiao Lu",
+        "Lingming Zhang"
+      ],
+      "published": "2025-06-13T13:54:30+00:00",
+      "abstract": "Rigorous security-focused evaluation of large language model (LLM) agents is imperative for establishing trust in their safe deployment throughout the software development lifecycle. However, existing benchmarks largely rely on synthetic challenges or simplified vulnerability datasets that fail to capture the complexity and ambiguity encountered by security engineers in practice. We introduce SEC-bench, the first fully automated benchmarking framework for evaluating LLM agents on authentic secur",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "query": "abs:\"multi-agent\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2506.05538v1",
+      "title": "SocialDF: Benchmark Dataset and Detection Model for Mitigating Harmful Deepfake Content on Social Media Platforms",
+      "authors": [
+        "Arnesh Batra",
+        "Anushk Kumar",
+        "Jashn Khemani",
+        "Arush Gumber",
+        "Arhan Jain",
+        "Somil Gupta"
+      ],
+      "published": "2025-06-05T19:39:28+00:00",
+      "abstract": "The rapid advancement of deep generative models has significantly improved the realism of synthetic media, presenting both opportunities and security challenges. While deepfake technology has valuable applications in entertainment and accessibility, it has emerged as a potent vector for misinformation campaigns, particularly on social media. Existing detection frameworks struggle to distinguish between benign and adversarially generated deepfakes engineered to manipulate public perception. To ad",
+      "categories": [
+        "cs.LG",
+        "cs.MM"
+      ],
+      "query": "abs:\"multi-agent\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2403.15697v1",
+      "title": "Passivity-based Attack Identification and Mitigation with Event-triggered Observer Feedback and Switching Controller",
+      "authors": [
+        "Pushkal Purohit",
+        "Anoop Jain"
+      ],
+      "published": "2024-03-23T03:19:42+00:00",
+      "abstract": "This paper addresses the problem of output consensus in linear passive multi-agent systems under a False Data Injection (FDI) attack, considering the unavailability of complete state information. Our formulation relies on an event-based cryptographic authentication scheme for sensor integrity and considers FDI attacks at the actuator end, inspired by their practical nature and usages. For secure consensus, we propose (i) a passivity-based approach for detecting FDI attacks on the system and (ii)",
+      "categories": [
+        "eess.SY"
+      ],
+      "query": "abs:\"multi-agent\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2403.04416v1",
+      "title": "iTRPL: An Intelligent and Trusted RPL Protocol based on Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Debasmita Dey",
+        "Nirnay Ghosh"
+      ],
+      "published": "2024-03-07T11:28:26+00:00",
+      "abstract": "Routing Protocol for Low Power and Lossy Networks (RPL) is the de-facto routing standard in IoT networks. It enables nodes to collaborate and autonomously build ad-hoc networks modeled by tree-like destination-oriented direct acyclic graphs (DODAG). Despite its widespread usage in industry and healthcare domains, RPL is susceptible to insider attacks. Although the state-of-the-art RPL ensures that only authenticated nodes participate in DODAG, such hard security measures are still inadequate to ",
+      "categories": [
+        "cs.NI"
+      ],
+      "query": "abs:\"multi-agent\" AND abs:security AND abs:authentication"
+    },
+    {
+      "paper_id": "2512.03694v1",
+      "title": "SRPG: Semantically Reconstructed Privacy Guard for Zero-Trust Privacy in Educational Multi-Agent Systems",
+      "authors": [
+        "Shuang Guo",
+        "Zihui Li"
+      ],
+      "published": "2025-12-03T11:36:33+00:00",
+      "abstract": "Multi-Agent Systems (MAS) with large language models (LLMs) enable personalized education but risk leaking minors personally identifiable information (PII) via unstructured dialogue. Existing privacy methods struggle to balance security and utility: role-based access control fails on unstructured text, while naive masking destroys pedagogical context. We propose SRPG, a privacy guard for educational MAS, using a Dual-Stream Reconstruction Mechanism: a strict sanitization stream ensures zero PII ",
+      "categories": [
+        "cs.MA"
+      ],
+      "query": "abs:\"agent system\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2509.14956v1",
+      "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+      "authors": [
+        "Diego Gosmar",
+        "Deborah A. Dahl"
+      ],
+      "published": "2025-09-18T13:39:59+00:00",
+      "abstract": "This paper proposes a novel architectural framework aimed at enhancing security and reliability in multi-agent systems (MAS). A central component of this framework is a network of Sentinel Agents, functioning as a distributed security layer that integrates techniques such as semantic analysis via large language models (LLMs), behavioral analytics, retrieval-augmented verification, and cross-agent anomaly detection. Such agents can potentially oversee inter-agent communications, identify potentia",
+      "categories": [
+        "cs.AI",
+        "cs.MA"
+      ],
+      "query": "abs:\"agent system\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2504.21034v2",
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "authors": [
+        "Georgios Syros",
+        "Anshuman Suri",
+        "Jacob Ginesin",
+        "Cristina Nita-Rotaru",
+        "Alina Oprea"
+      ],
+      "published": "2025-04-27T23:10:00+00:00",
+      "abstract": "Large Language Model (LLM)-based agents increasingly interact, collaborate, and delegate tasks to one another autonomously with minimal human interaction. Industry guidelines for agentic system governance emphasize the need for users to maintain comprehensive control over their agents, mitigating potential damage from malicious agents. Several proposed agentic system designs address agent identity, authorization, and delegation, but remain purely theoretical, without concrete implementation and ",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "query": "abs:\"agent system\" AND abs:\"access control\" AND abs:security"
+    },
+    {
+      "paper_id": "2411.05056v1",
+      "title": "Seeing is Deceiving: Exploitation of Visual Pathways in Multi-Modal Language Models",
+      "authors": [
+        "Pete Janowczyk",
+        "Linda Laurier",
+        "Ave Giulietta",
+        "Arlo Octavia",
+        "Meade Cleti"
+      ],
+      "published": "2024-11-07T16:21:18+00:00",
+      "abstract": "Multi-Modal Language Models (MLLMs) have transformed artificial intelligence by combining visual and text data, making applications like image captioning, visual question answering, and multi-modal content creation possible. This ability to understand and work with complex information has made MLLMs useful in areas such as healthcare, autonomous systems, and digital content. However, integrating multiple types of data also creates security risks. Attackers can manipulate either the visual or tex",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "query": "abs:\"autonomous system\" AND abs:security AND abs:identity"
+    },
+    {
+      "paper_id": "2504.13358v1",
+      "title": "GraphQLer: Enhancing GraphQL Security with Context-Aware API Testing",
+      "authors": [
+        "Omar Tsai",
+        "Jianing Li",
+        "Tsz Tung Cheung",
+        "Lejing Huang",
+        "Hao Zhu",
+        "Jianrui Xiao",
+        "Iman Sharafaldin",
+        "Mohammad A. Tayebi"
+      ],
+      "published": "2025-04-17T21:58:15+00:00",
+      "abstract": "GraphQL is an open-source data query and manipulation language for web applications, offering a flexible alternative to RESTful APIs. However, its dynamic execution model and lack of built-in security mechanisms expose it to vulnerabilities such as unauthorized data access, denial-of-service (DoS) attacks, and injections. Existing testing tools focus on functional correctness, often overlooking security risks stemming from query interdependencies and execution context. This paper presents GraphQ",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "query": "abs:\"REST API\" AND abs:authentication AND abs:\"access control\""
+    },
+    {
+      "paper_id": "2510.04012v1",
+      "title": "The LCLStream Ecosystem for Multi-Institutional Dataset Exploration",
+      "authors": [
+        "David Rogers",
+        "Valerio Mariani",
+        "Cong Wang",
+        "Ryan Coffee",
+        "Wilko Kroeger",
+        "Murali Shankar",
+        "Hans Thorsten Schwander",
+        "Tom Beck",
+        "Fr\u00e9d\u00e9ric Poitevin",
+        "Jana Thayer"
+      ],
+      "published": "2025-10-05T03:13:38+00:00",
+      "abstract": "We describe a new end-to-end experimental data streaming framework designed from the ground up to support new types of applications -- AI training, extremely high-rate X-ray time-of-flight analysis, crystal structure determination with distributed processing, and custom data science applications and visualizers yet to be created. Throughout, we use design choices merging cloud microservices with traditional HPC batch execution models for security and flexibility. This project makes a unique cont",
+      "categories": [
+        "cs.IR",
+        "physics.ins-det"
+      ],
+      "query": "abs:\"microservice\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2507.21398v1",
+      "title": "Digital identity management system with blockchain:An implementation with Ethereum and Ganache",
+      "authors": [
+        "Andr\u00e9 Davi Lopes",
+        "Tais Mello",
+        "Wesley dos Reis Bezerra"
+      ],
+      "published": "2025-07-29T00:14:01+00:00",
+      "abstract": "This paper presents the development of a distributed digital identity system utilizing modern technologies, including FastAPI, MongoDB, gRPC, Docker, and blockchain simulation with Ganache and Ethereum. The objective is to demonstrate the benefits of distributed systems and blockchain for the security, traceability, and decentralization of digital identities. The methodology included the development of a microservices architecture with JWT authentication, data persistence in MongoDB, simulation ",
+      "categories": [
+        "cs.CR"
+      ],
+      "query": "abs:\"microservice\" AND abs:authentication AND abs:security"
+    },
+    {
+      "paper_id": "2501.01732v1",
+      "title": "Combined Hyper-Extensible Extremely-Secured Zero-Trust CIAM-PAM architecture",
+      "authors": [
+        "Shivom Aggarwal",
+        "Shourya Mehra",
+        "Safeer Sathar"
+      ],
+      "published": "2025-01-03T09:49:25+00:00",
+      "abstract": "Customer Identity and Access Management (CIAM) systems play a pivotal role in securing enterprise infrastructures. However, the complexity of implementing these systems requires careful architectural planning to ensure positive Return on Investment (RoI) and avoid costly delays. The proliferation of Active Persistent cyber threats, coupled with advancements in AI, cloud computing, and geographically distributed customer populations, necessitates a paradigm shift towards adaptive and zero-trust s",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "query": "abs:\"microservice\" AND abs:authentication AND abs:security"
+    }
+  ]
+}

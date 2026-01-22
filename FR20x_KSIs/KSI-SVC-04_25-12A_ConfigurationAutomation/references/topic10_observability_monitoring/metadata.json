@@ -1,0 +1,1402 @@
+{
+  "search_date": "2025-12-25T10:17:11.522784",
+  "search_queries": [
+    "(all:\"distributed tracing\") AND (all:agent OR all:autonomous) AND (all:configuration OR all:infrastructure) AND submittedDate:[202401010000 TO 202512312359]",
+    "(all:\"behavioral baseline\") AND (all:agent OR all:configuration) AND (all:monitoring OR all:\"anomaly detection\") AND submittedDate:[202401010000 TO 202512312359]",
+    "(all:\"semantic drift\") AND (all:configuration OR all:\"intended outcome\") AND (all:detection OR all:analysis) AND submittedDate:[202401010000 TO 202512312359]",
+    "all:agent AND all:observability AND all:configuration AND submittedDate:[202401010000 TO 202512312359]",
+    "all:\"configuration monitoring\" AND all:agent AND submittedDate:[202401010000 TO 202512312359]",
+    "all:\"behavioral monitoring\" AND (all:agent OR all:autonomous) AND submittedDate:[202401010000 TO 202512312359]"
+  ],
+  "total_papers_found": 107,
+  "downloaded_papers": 10,
+  "archived_papers": 97,
+  "downloaded": [
+    {
+      "arxiv_id": "2512.18561v1",
+      "title": "Adaptive Accountability in Networked MAS: Tracing and Mitigating Emergent Norms at Scale",
+      "year": 2025,
+      "score": 205.0,
+      "authors": [
+        "Saad Alqithami"
+      ],
+      "categories": "cs.MA",
+      "local_filename": "2025_2512.18561v1_adaptive_accountability_in_networked_mas_tracing_a.pdf",
+      "summary": "Large-scale networked multi-agent systems increasingly underpin critical infrastructure, yet their collective behavior can drift toward undesirable emergent norms that elude conventional governance mechanisms. We introduce an adaptive accountability framework that (i) continuously traces responsibility flows through a lifecycle-aware audit ledger, (ii) detects harmful emergent norms online via decentralized sequential hypothesis tests, and (iii) deploys local policy and reward-shaping interventi..."
+    },
+    {
+      "arxiv_id": "2508.20818v1",
+      "title": "cMALC-D: Contextual Multi-Agent LLM-Guided Curriculum Learning with Diversity-Based Context Blending",
+      "year": 2025,
+      "score": 190.0,
+      "authors": [
+        "Anirudh Satheesh",
+        "Keenan Powell",
+        "Hua Wei"
+      ],
+      "categories": "cs.LG",
+      "local_filename": "2025_2508.20818v1_cmalc-d_contextual_multi-agent_llm-guided_curricul.pdf",
+      "summary": "Many multi-agent reinforcement learning (MARL) algorithms are trained in fixed simulation environments, making them brittle when deployed in real-world scenarios with more complex and uncertain conditions. Contextual MARL (cMARL) addresses this by parameterizing environments with context variables and training a context-agnostic policy that performs well across all environment configurations. Existing cMARL methods attempt to use curriculum learning to help train and evaluate context-agnostic po..."
+    },
+    {
+      "arxiv_id": "2506.00576v1",
+      "title": "ORAN-GUIDE: RAG-Driven Prompt Learning for LLM-Augmented Reinforcement Learning in O-RAN Network Slicing",
+      "year": 2025,
+      "score": 180.0,
+      "authors": [
+        "Fatemeh Lotfi",
+        "Hossein Rajoli",
+        "Fatemeh Afghah"
+      ],
+      "categories": "cs.LG",
+      "local_filename": "2025_2506.00576v1_oran-guide_rag-driven_prompt_learning_for_llm-augm.pdf",
+      "summary": "Advanced wireless networks must support highly dynamic and heterogeneous service demands. Open Radio Access Network (O-RAN) architecture enables this flexibility by adopting modular, disaggregated components, such as the RAN Intelligent Controller (RIC), Centralized Unit (CU), and Distributed Unit (DU), that can support intelligent control via machine learning (ML). While deep reinforcement learning (DRL) is a powerful tool for managing dynamic resource allocation and slicing, it often struggles..."
+    },
+    {
+      "arxiv_id": "2506.07877v2",
+      "title": "A distributed motion planning approach to cooperative underwater acoustic source tracking",
+      "year": 2025,
+      "score": 180.0,
+      "authors": [
+        "Andrea Tiranti",
+        "Francesco Wanderlingh",
+        "Enrico Simetti",
+        "Marco Baglietto",
+        "Giovanni Indiveri",
+        "Antonio Pascoal"
+      ],
+      "categories": "eess.SY",
+      "local_filename": "2025_2506.07877v2_a_distributed_motion_planning_approach_to_cooperat.pdf",
+      "summary": "Accurate tracking of underwater acoustic sources is critical for a variety of marine applications, yet remains a challenging task due to communication constraints and environmental uncertainties. In this regard, this paper addresses the problem of underwater acoustic source tracking using a team of autonomous underwater vehicles (AUVs). The core idea is to optimize the guidance of each agent to achieve coordinated motion planning that leads to optimal geometric configurations with respect to the..."
+    },
+    {
+      "arxiv_id": "2509.18292v1",
+      "title": "Fully Distributed State Estimation for Multi-agent Systems and its Application in Cooperative Localization",
+      "year": 2025,
+      "score": 180.0,
+      "authors": [
+        "Shuaiting Huang",
+        "Haodong Jiang",
+        "Chengcheng Zhao",
+        "Peng Cheng",
+        "Junfeng Wu"
+      ],
+      "categories": "eess.SY",
+      "local_filename": "2025_2509.18292v1_fully_distributed_state_estimation_for_multi-agent.pdf",
+      "summary": "In this paper, we investigate the distributed state estimation problem for a continuous-time linear multi-agent system (MAS) composed of $\\mathit{m}$ agents and monitored by the agents themselves. To address this problem, we propose a distributed observer that enables each agent to reconstruct the state of the MAS. The main idea is to let each agent $\\mathit{i}$ recover the state of agent $\\mathit{j}$ by using leader-follower consensus rules to track agent $\\mathit{j}$'s state estimate, which is..."
+    },
+    {
+      "arxiv_id": "2510.05157v1",
+      "title": "Adversarial Reinforcement Learning for Offensive and Defensive Agents in a Simulated Zero-Sum Network Environment",
+      "year": 2025,
+      "score": 175.0,
+      "authors": [
+        "Abrar Shahid",
+        "Ibteeker Mahir Ishum",
+        "AKM Tahmidul Haque",
+        "M Sohel Rahman",
+        "A. B. M. Alim Al Islam"
+      ],
+      "categories": "cs.LG",
+      "local_filename": "2025_2510.05157v1_adversarial_reinforcement_learning_for_offensive_a.pdf",
+      "summary": "This paper presents a controlled study of adversarial reinforcement learning in network security through a custom OpenAI Gym environment that models brute-force attacks and reactive defenses on multi-port services. The environment captures realistic security trade-offs including background traffic noise, progressive exploitation mechanics, IP-based evasion tactics, honeypot traps, and multi-level rate-limiting defenses. Competing attacker and defender agents are trained using Deep Q-Networks (DQ..."
+    },
+    {
+      "arxiv_id": "2508.09815v1",
+      "title": "Extending the OWASP Multi-Agentic System Threat Modeling Guide: Insights from Multi-Agent Security Research",
+      "year": 2025,
+      "score": 170.0,
+      "authors": [
+        "Klaudia Krawiecka",
+        "Christian Schroeder de Witt"
+      ],
+      "categories": "cs.MA",
+      "local_filename": "2025_2508.09815v1_extending_the_owasp_multi-agentic_system_threat_mo.pdf",
+      "summary": "We propose an extension to the OWASP Multi-Agentic System (MAS) Threat Modeling Guide, translating recent anticipatory research in multi-agent security (MASEC) into practical guidance for addressing challenges unique to large language model (LLM)-driven multi-agent architectures. Although OWASP's existing taxonomy covers many attack vectors, our analysis identifies gaps in modeling failures, including, but not limited to: reasoning collapse across planner-executor chains, metric overfitting, uns..."
+    },
+    {
+      "arxiv_id": "2510.14611v1",
+      "title": "An Active Inference Model of Mouse Point-and-Click Behaviour",
+      "year": 2025,
+      "score": 170.0,
+      "authors": [
+        "Markus Klar",
+        "Sebastian Stein",
+        "Fraser Paterson",
+        "John H. Williamson",
+        "Roderick Murray-Smith"
+      ],
+      "categories": "cs.HC",
+      "local_filename": "2025_2510.14611v1_an_active_inference_model_of_mouse_point-and-click.pdf",
+      "summary": "We explore the use of Active Inference (AIF) as a computational user model for spatial pointing, a key problem in Human-Computer Interaction (HCI). We present an AIF agent with continuous state, action, and observation spaces, performing one-dimensional mouse pointing and clicking. We use a simple underlying dynamic system to model the mouse cursor dynamics with realistic perceptual delay. In contrast to previous optimal feedback control-based models, the agent's actions are selected by minimizi..."
+    },
+    {
+      "arxiv_id": "2511.17869v1",
+      "title": "The Horcrux: Mechanistically Interpretable Task Decomposition for Detecting and Mitigating Reward Hacking in Embodied AI Systems",
+      "year": 2025,
+      "score": 170.0,
+      "authors": [
+        "Subramanyam Sahoo",
+        "Jared Junkin"
+      ],
+      "categories": "cs.LG",
+      "local_filename": "2025_2511.17869v1_the_horcrux_mechanistically_interpretable_task_dec.pdf",
+      "summary": "Embodied AI agents exploit reward signal flaws through reward hacking, achieving high proxy scores while failing true objectives. We introduce Mechanistically Interpretable Task Decomposition (MITD), a hierarchical transformer architecture with Planner, Coordinator, and Executor modules that detects and mitigates reward hacking. MITD decomposes tasks into interpretable subtasks while generating diagnostic visualizations including Attention Waterfall Diagrams and Neural Pathway Flow Charts. Exper..."
+    },
+    {
+      "arxiv_id": "2511.18000v1",
+      "title": "Reward Engineering for Spatial Epidemic Simulations: A Reinforcement Learning Platform for Individual Behavioral Learning",
+      "year": 2025,
+      "score": 170.0,
+      "authors": [
+        "Radman Rakhshandehroo",
+        "Daniel Coombs"
+      ],
+      "categories": "cs.LG",
+      "local_filename": "2025_2511.18000v1_reward_engineering_for_spatial_epidemic_simulation.pdf",
+      "summary": "We present ContagionRL, a Gymnasium-compatible reinforcement learning platform specifically designed for systematic reward engineering in spatial epidemic simulations. Unlike traditional agent-based models that rely on fixed behavioral rules, our platform enables rigorous evaluation of how reward function design affects learned survival strategies across diverse epidemic scenarios. ContagionRL integrates a spatial SIRS+D epidemiological model with configurable environmental parameters, allowing ..."
+    }
+  ],
+  "archived": [
+    {
+      "arxiv_id": "2501.11079v1",
+      "title": "Federated Deep Reinforcement Learning for Energy Efficient Multi-Functional RIS-Assisted Low-Earth Orbit Networks",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Li-Hsiang Shen",
+        "Jyun-Jhe Huang",
+        "Kai-Ten Feng"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2502.01041v1",
+      "title": "Multi-Object Active Search and Tracking by Multiple Agents in Untrusted, Dynamically Changing Environments",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Mingi Jeong",
+        "Cristian Molinaro",
+        "Tonmoay Deb"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.06157v1",
+      "title": "Evaluation of Habitat Robotics using Large Language Models",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "William Li",
+        "Lei Hamilton",
+        "Kaise Al-natour"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.01060v1",
+      "title": "Connectivity Management in Satellite-Aided Vehicular Networks with Multi-Head Attention-Based State Estimation",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Ibrahim Althamary",
+        "Chen-Fu Chou",
+        "Chih-Wei Huang"
+      ],
+      "categories": "cs.NI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.02449v1",
+      "title": "KubeIntellect: A Modular LLM-Orchestrated Agent Framework for End-to-End Kubernetes Management",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Mohsen Seyedkazemi Ardebili",
+        "Andrea Bartolini"
+      ],
+      "categories": "cs.DC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.20270v1",
+      "title": "Scan-do Attitude: Towards Autonomous CT Protocol Management using a Large Language Model Agent",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Xingjian Kang",
+        "Linda Vorberg",
+        "Andreas Maier"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.24909v1",
+      "title": "Trust Dynamics in Strategic Coopetition: Computational Foundations for Requirements Engineering in Multi-Agent Systems",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Vik Pant",
+        "Eric Yu"
+      ],
+      "categories": "cs.MA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.17896v1",
+      "title": "XAgen: An Explainability Tool for Identifying and Correcting Failures in Multi-Agent Workflows",
+      "year": 2025,
+      "score": 165.0,
+      "authors": [
+        "Xinru Wang",
+        "Ming Yin",
+        "Eunyee Koh"
+      ],
+      "categories": "cs.HC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.07815v3",
+      "title": "Imagine, Verify, Execute: Memory-guided Agentic Exploration with Vision-Language Models",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Seungjae Lee",
+        "Daniel Ekpo",
+        "Haowen Liu"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.20425v1",
+      "title": "OSVI-WM: One-Shot Visual Imitation for Unseen Tasks using World-Model-Guided Trajectory Generation",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Raktim Gautam Goswami",
+        "Prashanth Krishnamurthy",
+        "Yann LeCun"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2506.07392v4",
+      "title": "From Static to Adaptive Defense: Federated Multi-Agent Deep Reinforcement Learning-Driven Moving Target Defense Against DoS Attacks in UAV Swarm Networks",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Yuyang Zhou",
+        "Guang Cheng",
+        "Kang Du"
+      ],
+      "categories": "cs.CR",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.09574v1",
+      "title": "Zero-shot Structure Learning and Planning for Autonomous Robot Navigation using Active Inference",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Daria de tinguy",
+        "Tim Verbelen",
+        "Emilio Gamba"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.15490v1",
+      "title": "Retrofitting Service Dependency Discovery in Distributed Systems",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Diogo Landau",
+        "Gijs Blanken",
+        "Jorge Barbosa"
+      ],
+      "categories": "cs.DC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.00807v2",
+      "title": "FREESH: Fair, Resource- and Energy-Efficient Scheduling for LLM Serving on Heterogeneous GPUs",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Xuan He",
+        "Zequan Fang",
+        "Jinzhao Lian"
+      ],
+      "categories": "cs.DC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.01236v1",
+      "title": "Don't Just Search, Understand: Semantic Path Planning Agent for Spherical Tensegrity Robots in Unknown Environments",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Junwen Zhang",
+        "Changyue Liu",
+        "Pengqi Fu"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.20073v1",
+      "title": "Learning Procedural-aware Video Representations through State-Grounded Hierarchy Unfolding",
+      "year": 2025,
+      "score": 155.0,
+      "authors": [
+        "Jinghan Zhao",
+        "Yifei Huang",
+        "Feng Lu"
+      ],
+      "categories": "cs.CV",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2501.14700v4",
+      "title": "An Attentive Graph Agent for Topology-Adaptive Cyber Defence",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Ilya Orson Sandoval",
+        "Isaac Symes Thompson",
+        "Vasilios Mavroudis"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2502.01702v2",
+      "title": "Al-Khwarizmi: Discovering Physical Laws with Foundation Models",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Christopher E. Mower",
+        "Haitham Bou-Ammar"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2502.11506v1",
+      "title": "Learning Surrogate Potential Mean Field Games via Gaussian Processes: A Data-Driven Approach to Ill-Posed Inverse Problems",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Jingguo Zhang",
+        "Xianjin Yang",
+        "Chenchen Mou"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2502.20265v2",
+      "title": "On the Importance of Reward Design in Reinforcement Learning-based Dynamic Algorithm Configuration: A Case Study on OneMax with (1+($\u03bb$,$\u03bb$))-GA",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Tai Nguyen",
+        "Phong Le",
+        "Andr\u00e9 Biedenkapp"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2506.04195v1",
+      "title": "MACS: Multi-Agent Reinforcement Learning for Optimization of Crystal Structures",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Elena Zamaraeva",
+        "Christopher M. Collins",
+        "George R. Darling"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.06499v1",
+      "title": "Learning To Communicate Over An Unknown Shared Network",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Shivangi Agarwal",
+        "Adi Asija",
+        "Sanjit K. Kaul"
+      ],
+      "categories": "cs.MA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.11515v1",
+      "title": "AirLLM: Diffusion Policy-based Adaptive LoRA for Remote Fine-Tuning of LLM over the Air",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Shiyi Yang",
+        "Xiaoxue Yu",
+        "Rongpeng Li"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.05687v1",
+      "title": "Risk Analysis Techniques for Governed LLM-based Multi-Agent Systems",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Alistair Reid",
+        "Simon O'Callaghan",
+        "Liam Carroll"
+      ],
+      "categories": "cs.MA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.09932v2",
+      "title": "Mathematical Computation and Reasoning Errors by Large Language Models",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Liang Zhang",
+        "Edith Aurora Graf"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.14135v1",
+      "title": "Towards Agent-based Test Support Systems: An Unsupervised Environment Design Approach",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Collins O. Ogbodo",
+        "Timothy J. Rogers",
+        "Mattia Dal Borgo"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.21433v3",
+      "title": "The Complexity Trap: Simple Observation Masking Is as Efficient as LLM Summarization for Agent Context Management",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Tobias Lindenbauer",
+        "Igor Slinko",
+        "Ludwig Felder"
+      ],
+      "categories": "cs.SE",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.01838v1",
+      "title": "Goal-Conditioned Reinforcement Learning for Data-Driven Maritime Navigation",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Vaishnav Vaidheeswaran",
+        "Dilith Jayakody",
+        "Samruddhi Mulay"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.21766v1",
+      "title": "UltraHorizon: Benchmarking Agent Capabilities in Ultra Long-Horizon Scenarios",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Haotian Luo",
+        "Huaisong Zhang",
+        "Xuelin Zhang"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.21862v2",
+      "title": "Reimagining Agent-based Modeling with Large Language Model Agents via Shachi",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "So Kuroki",
+        "Yingtao Tian",
+        "Kou Misaki"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.04368v1",
+      "title": "NegotiationGym: Self-Optimizing Agents in a Multi-Agent Social Simulation Environment",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Shashank Mangla",
+        "Chris Hokamp",
+        "Jack Boylan"
+      ],
+      "categories": "cs.MA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.08207v1",
+      "title": "DODO: Causal Structure Learning with Budgeted Interventions",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Matteo Gregorini",
+        "Chiara Boldrini",
+        "Lorenzo Valerio"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.14700v1",
+      "title": "LLM Agents for Automated Web Vulnerability Reproduction: Are We There Yet?",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Bin Liu",
+        "Yanjie Zhao",
+        "Guoai Xu"
+      ],
+      "categories": "cs.SE",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.15120v1",
+      "title": "Procedural Game Level Design with Deep Reinforcement Learning",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Mira\u00e7 Bu\u011fra \u00d6zkan"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.03616v1",
+      "title": "Going Beyond Expert Performance via Deep Implicit Imitation Reinforcement Learning",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Iason Chrysomallis",
+        "Georgios Chalkiadakis"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.00769v1",
+      "title": "AI Agent for Source Finding by SoFiA-2 for SKA-SDC2",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Xingchen Zhou",
+        "Nan Li",
+        "Peng Jia"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.06250v1",
+      "title": "Learning When to Switch: Adaptive Policy Selection via Reinforcement Learning",
+      "year": 2025,
+      "score": 150.0,
+      "authors": [
+        "Chris Tava"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.22436v1",
+      "title": "COSMOS: A Data-Driven Probabilistic Time Series simulator for Chemical Plumes across Spatial Scales",
+      "year": 2025,
+      "score": 145.0,
+      "authors": [
+        "Arunava Nag",
+        "Floris van Breugel"
+      ],
+      "categories": "stat.AP",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.09197v1",
+      "title": "MX-AI: Agentic Observability and Control Platform for Open and AI-RAN",
+      "year": 2025,
+      "score": 145.0,
+      "authors": [
+        "Ilias Chatzistefanidis",
+        "Andrea Leone",
+        "Ali Yaghoubian"
+      ],
+      "categories": "cs.NI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.01245v4",
+      "title": "Towards Agentic OS: An LLM Agent Framework for Linux Schedulers",
+      "year": 2025,
+      "score": 145.0,
+      "authors": [
+        "Yusheng Zheng",
+        "Yanpeng Hu",
+        "Wei Zhang"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.20640v2",
+      "title": "Adaptive Cybersecurity Architecture for Digital Product Ecosystems Using Agentic AI",
+      "year": 2025,
+      "score": 145.0,
+      "authors": [
+        "Oluwakemi T. Olayinka",
+        "Sumeet Jeswani",
+        "Divine Iloh"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2501.10280v1",
+      "title": "Evidence for the gravity-driven and magnetically-regularized gas flows feeding the massive protostellar cluster in Cep A",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Panigrahy Sandhyarani",
+        "Chakali Eswaraiah",
+        "Enrique V\u00e1zquez-Semadeni"
+      ],
+      "categories": "astro-ph.GA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2502.11655v2",
+      "title": "TextOCVP: Object-Centric Video Prediction with Language Guidance",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Angel Villar-Corrales",
+        "Gjergj Plepi",
+        "Sven Behnke"
+      ],
+      "categories": "cs.CV",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2503.02247v5",
+      "title": "WMNav: Integrating Vision-Language Models into World Models for Object Goal Navigation",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Dujun Nie",
+        "Xianda Guo",
+        "Yiqun Duan"
+      ],
+      "categories": "cs.CV",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2503.06324v1",
+      "title": "AnimeGaze: Real-Time Mutual Gaze Synthesis for Anime-Style Avatars in Physical Environments via Behind-Display Camera",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Kazuya Izumi",
+        "Shuhey Koyama",
+        "Yoichi Ochiai"
+      ],
+      "categories": "cs.HC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2503.23271v1",
+      "title": "Learning Coordinated Bimanual Manipulation Policies using State Diffusion and Inverse Dynamics Models",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Haonan Chen",
+        "Jiaming Xu",
+        "Lily Sheng"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2503.23287v1",
+      "title": "Energetic preference and topological constraint effects on the formation of DNA twisted toroidal bundles",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Nhung T. T. Nguyen",
+        "Anh T. Ngo",
+        "Trinh X. Hoang"
+      ],
+      "categories": "cond-mat.soft",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.03078v1",
+      "title": "Coevolution of Actions and Opinions in Networks of Coordinating and Anti-Coordinating Agents",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Hong Liang",
+        "Mengbin Ye",
+        "Lorenzo Zino"
+      ],
+      "categories": "cs.GT",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.03558v1",
+      "title": "Multi-Agent Reinforcement Learning Scheduling to Support Low Latency in Teleoperated Driving",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Giacomo Avanzi",
+        "Marco Giordani",
+        "Michele Zorzi"
+      ],
+      "categories": "cs.NI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.12442v3",
+      "title": "IP Leakage Attacks Targeting LLM-Based Multi-Agent Systems",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Liwen Wang",
+        "Wenxuan Wang",
+        "Shuai Wang"
+      ],
+      "categories": "cs.CR",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.19717v2",
+      "title": "Extremum Flow Matching for Offline Goal Conditioned Reinforcement Learning",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Quentin Rouxel",
+        "Clemente Donoso",
+        "Fei Chen"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.20327v1",
+      "title": "Data-driven multi-agent modelling of calcium interactions in cell culture: PINN vs Regularized Least-squares",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Aurora Poggi",
+        "Giuseppe Alessio D'Inverno",
+        "Hjalmar Brismar"
+      ],
+      "categories": "q-bio.QM",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.21936v3",
+      "title": "RedTeamCUA: Realistic Adversarial Testing of Computer-Use Agents in Hybrid Web-OS Environments",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Zeyi Liao",
+        "Jaylen Jones",
+        "Linxi Jiang"
+      ],
+      "categories": "cs.CL",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2506.05356v1",
+      "title": "AI-Driven Dynamic Firewall Optimization Using Reinforcement Learning for Anomaly Detection and Prevention",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Taimoor Ahmad"
+      ],
+      "categories": "cs.CR",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.01590v1",
+      "title": "Autonomous AI Surveillance: Multimodal Deep Learning for Cognitive and Behavioral Monitoring",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Ameer Hamza",
+        "Zuhaib Hussain But",
+        "Umar Arif"
+      ],
+      "categories": "cs.CV",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.01997v2",
+      "title": "Towards a Playground to Democratize Experimentation and Benchmarking of AI Agents for Network Troubleshooting",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Zhihao Wang",
+        "Alessandro Cornacchia",
+        "Franco Galante"
+      ],
+      "categories": "cs.NI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.02171v2",
+      "title": "Towards Bio-Inspired Robotic Trajectory Planning via Self-Supervised RNN",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Miroslav Cibula",
+        "Krist\u00edna Malinovsk\u00e1",
+        "Matthias Kerzel"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.09189v2",
+      "title": "Size Amplification of Jet Drops due to Insoluble Surfactants",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Jun Eshima",
+        "Tristan Aur\u00e9gan",
+        "Palas Kumar Farsoiya"
+      ],
+      "categories": "physics.flu-dyn",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2507.09462v1",
+      "title": "MobiWorld: World Models for Mobile Wireless Network",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Haoye Chai",
+        "Yuan Yuan",
+        "Yong Li"
+      ],
+      "categories": "cs.NI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.07092v1",
+      "title": "Communication-Efficient Multi-Agent 3D Detection via Hybrid Collaboration",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Yue Hu",
+        "Juntong Peng",
+        "Yunqiao Yang"
+      ],
+      "categories": "cs.CV",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.06469v2",
+      "title": "Interactive Shaping of Granular Media Using Reinforcement Learning",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Benedikt Kreis",
+        "Malte Mosbach",
+        "Anny Ripke"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2509.14096v1",
+      "title": "The Cybersecurity of a Humanoid Robot",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "V\u00edctor Mayoral-Vilches"
+      ],
+      "categories": "cs.CR",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.08547v1",
+      "title": "R2RGEN: Real-to-Real 3D Data Generation for Spatially Generalized Manipulation",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Xiuwei Xu",
+        "Angyuan Ma",
+        "Hankun Li"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.14829v1",
+      "title": "The Launching of Galactic Winds from a Multiphase ISM",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Fernando Hidalgo-Pineda",
+        "Max Gronke",
+        "Philipp Grete"
+      ],
+      "categories": "astro-ph.GA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.25189v1",
+      "title": "AgentCyTE: Leveraging Agentic AI to Generate Cybersecurity Training & Experimentation Scenarios",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Ana M. Rodriguez",
+        "Jaime Acosta",
+        "Anantaa Kotal"
+      ],
+      "categories": "cs.CR",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.08647v1",
+      "title": "Data-driven Control of Hypergraphs: Leveraging THIS to Damp Noise in Diffusive Hypergraphs",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Robin Delabays",
+        "Yuanzhao Zhang",
+        "Florian D\u00f6rfler"
+      ],
+      "categories": "eess.SY",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.20975v2",
+      "title": "Aragog: Just-in-Time Model Routing for Scalable Serving of Agentic Workflows",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Yinwei Dai",
+        "Zhuofu Chen",
+        "Anand Iyer"
+      ],
+      "categories": "cs.DC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.11207v1",
+      "title": "Synthetic polarization observations of magnetized pillars in HII regions: The limitations of the Davis-Chandrasekhar-Fermi method",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Luis Andr\u00e9s Hern\u00e1ndez-Cruz",
+        "Manuel Zamora-Avil\u00e9s",
+        "Abraham Luna"
+      ],
+      "categories": "astro-ph.GA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.17925v1",
+      "title": "Stylized Facts and Their Microscopic Origins: Clustering, Persistence, and Stability in a 2D Ising Framework",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Hern\u00e1n Ezequiel Ben\u00edtez",
+        "Claudio Oscar Dorso"
+      ],
+      "categories": "q-fin.ST",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.18016v1",
+      "title": "Equivalent bounded confidence processes",
+      "year": 2025,
+      "score": 140.0,
+      "authors": [
+        "Sascha Kurz"
+      ],
+      "categories": "physics.soc-ph",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2504.08399v2",
+      "title": "Beyond Self-Reports: Multi-Observer Agents for Personality Assessment in Large Language Models",
+      "year": 2025,
+      "score": 135.0,
+      "authors": [
+        "Yin Jou Huang",
+        "Rafik Hadfi"
+      ],
+      "categories": "cs.CL",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.04364v4",
+      "title": "Benchmarking LLMs' Swarm intelligence",
+      "year": 2025,
+      "score": 130.0,
+      "authors": [
+        "Kai Ruan",
+        "Mowen Huang",
+        "Ji-Rong Wen"
+      ],
+      "categories": "cs.MA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2508.02936v1",
+      "title": "AQUAH: Automatic Quantification and Unified Agent in Hydrology",
+      "year": 2025,
+      "score": 130.0,
+      "authors": [
+        "Songkun Yan",
+        "Zhi Li",
+        "Siyu Zhu"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.03405v1",
+      "title": "LegalSim: Multi-Agent Simulation of Legal Systems for Discovering Procedural Exploits",
+      "year": 2025,
+      "score": 130.0,
+      "authors": [
+        "Sanket Badhe"
+      ],
+      "categories": "cs.MA",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2512.16444v1",
+      "title": "StarCraft+: Benchmarking Multi-agent Algorithms in Adversary Paradigm",
+      "year": 2025,
+      "score": 130.0,
+      "authors": [
+        "Yadong Li",
+        "Tong Zhang",
+        "Bo Huang"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2412.08445v1",
+      "title": "TapeAgents: a Holistic Framework for Agent Development and Optimization",
+      "year": 2024,
+      "score": 130.0,
+      "authors": [
+        "Dzmitry Bahdanau",
+        "Nicolas Gontier",
+        "Gabriel Huang"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2503.06803v1",
+      "title": "Actionable AI: Enabling Non Experts to Understand and Configure AI Systems",
+      "year": 2025,
+      "score": 120.0,
+      "authors": [
+        "C\u00e9cile Boulard",
+        "Sruthi Viswanathan",
+        "Wanda Fey"
+      ],
+      "categories": "cs.HC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2505.05753v2",
+      "title": "Towards Embodiment Scaling Laws in Robot Locomotion",
+      "year": 2025,
+      "score": 120.0,
+      "authors": [
+        "Bo Ai",
+        "Liu Dai",
+        "Nico Bohlinger"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2510.24869v1",
+      "title": "Deep Reinforcement Learning Approach to QoSAware Load Balancing in 5G Cellular Networks under User Mobility and Observation Uncertainty",
+      "year": 2025,
+      "score": 120.0,
+      "authors": [
+        "Mehrshad Eskandarpour",
+        "Hossein Soleimani"
+      ],
+      "categories": "cs.NI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2511.04381v1",
+      "title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+      "year": 2025,
+      "score": 120.0,
+      "authors": [
+        "Dexin wang",
+        "Faliang Chang",
+        "Chunsheng Liu"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2412.07005v1",
+      "title": "In-Application Defense Against Evasive Web Scans through Behavioral Analysis",
+      "year": 2024,
+      "score": 120.0,
+      "authors": [
+        "Behzad Ousat",
+        "Mahshad Shariatnasab",
+        "Esteban Schafir"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2412.18907v3",
+      "title": "EC-Diffuser: Multi-Object Manipulation via Entity-Centric Behavior Generation",
+      "year": 2024,
+      "score": 115.0,
+      "authors": [
+        "Carl Qi",
+        "Dan Haramati",
+        "Tal Daniel"
+      ],
+      "categories": "cs.AI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2410.12983v1",
+      "title": "Reinforcement Learning with Euclidean Data Augmentation for State-Based Continuous Control",
+      "year": 2024,
+      "score": 100.0,
+      "authors": [
+        "Jinzhu Luo",
+        "Dingyang Chen",
+        "Qi Zhang"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2410.17647v3",
+      "title": "Entity-based Reinforcement Learning for Autonomous Cyber Defence",
+      "year": 2024,
+      "score": 100.0,
+      "authors": [
+        "Isaac Symes Thompson",
+        "Alberto Caron",
+        "Chris Hicks"
+      ],
+      "categories": "cs.LG",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2409.07170v4",
+      "title": "Learning Efficient Recursive Numeral Systems via Reinforcement Learning",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Andrea Silvi",
+        "Jonathan Thomas",
+        "Emil Carlsson"
+      ],
+      "categories": "cs.CL",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2409.13447v2",
+      "title": "AQA: Adaptive Question Answering in a Society of LLMs via Contextual Multi-Armed Bandit",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Mohanna Hoveyda",
+        "Arjen P. de Vries",
+        "Maarten de Rijke"
+      ],
+      "categories": "cs.CL",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2409.15557v1",
+      "title": "Mixture of Efficient Diffusion Experts Through Automatic Interval and Sub-Network Selection",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Alireza Ganjdanesh",
+        "Yan Kang",
+        "Yuchen Liu"
+      ],
+      "categories": "cs.CV",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2409.18098v2",
+      "title": "StackGen: Generating Stable Structures from Silhouettes via Diffusion",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Luzhe Sun",
+        "Takuma Yoneda",
+        "Samuel W. Wheeler"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2410.07686v2",
+      "title": "The Power of Input: Benchmarking Zero-Shot Sim-To-Real Transfer of Reinforcement Learning Control Policies for Quadrotor Control",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Alberto Dionigi",
+        "Gabriele Costante",
+        "Giuseppe Loianno"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2411.00738v1",
+      "title": "Cross-Field Diffusion Effects on Particle Transport in a Solar Coronal Flux Rope",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Edin Husidic",
+        "Nicolas Wijsen",
+        "Luis Linan"
+      ],
+      "categories": "astro-ph.SR",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2411.19571v3",
+      "title": "Fixed-Relative-Switched Threshold Strategies for Consensus Tracking Control of Nonlinear Multiagent Systems",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Ziming Wang",
+        "Yun Gao",
+        "Apostolos I. Rikos"
+      ],
+      "categories": "eess.SY",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2412.02710v1",
+      "title": "Multidimensional Opinion Dynamics with Heterogeneous Bounded Confidences and Random Interactions",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Jiangjiang Cheng",
+        "Ge Chen",
+        "Wenjun Mei"
+      ],
+      "categories": "math.OC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2412.10781v3",
+      "title": "Crowd: A Social Network Simulation Framework",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Ann Nedime Nese Rende",
+        "Tolga Yilmaz",
+        "\u00d6zg\u00fcr Ulusoy"
+      ],
+      "categories": "cs.SI",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2412.14957v2",
+      "title": "Dream to Manipulate: Compositional World Models Empowering Robot Imitation Learning with Imagination",
+      "year": 2024,
+      "score": 90.0,
+      "authors": [
+        "Leonardo Barcellona",
+        "Andrii Zadaianchuk",
+        "Davide Allegro"
+      ],
+      "categories": "cs.RO",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2410.13477v1",
+      "title": "Advocate -- Trustworthy Evidence in Cloud Systems",
+      "year": 2024,
+      "score": 85.0,
+      "authors": [
+        "Sebastian Werner",
+        "Sepideh Masoudi",
+        "Fernando Castillo"
+      ],
+      "categories": "cs.DC",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2411.01336v1",
+      "title": "Distributed Tracing for Cascading Changes of Objects in the Kubernetes Control Plane",
+      "year": 2024,
+      "score": 85.0,
+      "authors": [
+        "Tomoyuki Ehira",
+        "Daisuke Kotani",
+        "Yasuo Okabe"
+      ],
+      "categories": "eess.SY",
+      "reason_archived": "Lower relevance score"
+    },
+    {
+      "arxiv_id": "2408.14972v1",
+      "title": "AgentMonitor: A Plug-and-Play Framework for Predictive and Secure Multi-Agent Systems",
+      "year": 2024,
+      "score": 70.0,
+      "authors": [
+        "Chi-Min Chan",
+        "Jianxuan Yu",
+        "Weize Chen"
+      ],
+      "categories": "cs.CL",
+      "reason_archived": "Lower relevance score"
+    }
+  ]
+}

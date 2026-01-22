@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2509.17070v1",
+  "title": "Localizing Malicious Outputs from CodeLLM",
+  "authors": [
+    "Mayukh Borana",
+    "Junyi Liang",
+    "Sai Sathiesh Rajan",
+    "Sudipta Chattopadhyay"
+  ],
+  "published": "2025-09-21T13:01:38Z",
+  "url": "http://arxiv.org/abs/2509.17070v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.17070v1.pdf",
+  "relevance_score": 87,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "We introduce FreqRank, a mutation-based defense to localize malicious components in LLM outputs and their corresponding backdoor triggers. FreqRank assumes that the malicious sub-string(s) consistently appear in outputs for triggered inputs and uses a frequency-based ranking system to identify them. Our ranking system then leverages this knowledge to localize the backdoor triggers present in the inputs. We create nine malicious models through fine-tuning or custom instructions for three downstre"
+}

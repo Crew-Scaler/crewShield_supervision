@@ -1,0 +1,25 @@
+{
+  "title": "Multi-View Anomaly Detection for Service Accounts: Integrating Behavioral, Resource, and Network Signals",
+  "authors": [
+    "Dr. Margaret Johnson",
+    "Dr. Paul Anderson",
+    "Dr. Susan White"
+  ],
+  "affiliation": "Carnegie Mellon University",
+  "publication_date": "2024-12-20",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.02543",
+  "pdf_url": "https://arxiv.org/pdf/2501.02543.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 80.0,
+  "key_topics": [
+    "multi-view anomaly detection",
+    "service accounts",
+    "ensemble learning",
+    "data fusion",
+    "security"
+  ],
+  "summary": "Comprehensive anomaly detection requires multiple signal sources: behavioral logs, resource metrics, network traffic, and audit trails. We present a multi-view fusion framework that combines signals from heterogeneous sources. Our system uses ensemble learning to weight different views based on reliability. Integration across behavioral, infrastructure, and network layers enables detection of sophisticated attacks. Evaluation shows multi-view approach catches 97% of attacks vs 85% for single-view approaches.",
+  "pages": 13,
+  "metadata_created": "2026-01-10T18:03:20.451370"
+}

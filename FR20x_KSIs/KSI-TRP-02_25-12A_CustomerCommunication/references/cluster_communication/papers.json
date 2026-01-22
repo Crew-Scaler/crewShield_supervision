@@ -1,0 +1,221 @@
+[
+  {
+    "arxiv_id": "2601.01068",
+    "title": "Post-Quantum Cryptography for Intelligent Transportation Systems: An Implementation-Focused Review",
+    "summary": "As quantum computing advances, the cryptographic algorithms that underpin confidentiality, integrity, and authentication in Intelligent Transportation Systems (ITS) face increasing vulnerability to quantum-enabled attacks. To address these risks, governments and industry stakeholders are turning toward post-quantum cryptography (PQC), a class of algorithms designed to resist adversaries equipped with quantum computing capabilities. However, existing studies provide limited insight into the implementation-focused aspects of PQC in the ITS domain. This review fills that gap by evaluating the readiness of vehicular communication and security standards for PQC adoption. It examines in-vehicle networks and vehicle-to-everything (V2X) interfaces, while also investigating vulnerabilities at the physical layer, primarily exposure to side-channel and fault injection attacks. The review identifies thirteen research gaps reflecting non-PQC-ready standards, constraints in embedded implementation and hybrid cryptography, interoperability and certificate-management barriers, lack of real-world PQC deployment data in ITS, and physical-attack vulnerabilities in PQC-enabled vehicular communication. Future research directions include updating vehicular communication and security standards, optimizing PQC for low-power devices, enhancing interoperability and certificate-management frameworks for PQC integration, conducting real-world evaluations of PQC-enabled communication and control functions across ITS deployments, and strengthening defenses against AI-assisted physical attacks. A phased roadmap is presented, aligning PQC deployment with regulatory, performance, and safety requirements, thereby guiding the secure evolution of ITS in the quantum computing era.",
+    "authors": [
+      "Abdullah Al Mamun",
+      "Akid Abrar",
+      "Mizanur Rahman",
+      "M Sabbir Salek",
+      "Mashrur Chowdhury"
+    ],
+    "published": "2026-01-03T04:39:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2512.09938",
+    "title": "Blockchain-Anchored Audit Trail Model for Transparent Inter-Operator Settlement",
+    "summary": "The telecommunications and financial services industries face substantial challenges in inter-operator settlement processes, characterized by extended reconciliation cycles, high transaction costs, and limited real-time transparency. Traditional settlement mechanisms rely on multiple intermediaries and manual procedures, resulting in settlement periods exceeding 120 days with operational costs consuming approximately 5 percent of total revenue. This research presents a blockchain-anchored audit trail model enabling transparent, immutable, and automated inter-operator settlement. The framework leverages distributed ledger technology, smart contract automation, and cryptographic verification to establish a unified, tamper-proof transaction record. Empirical evaluation demonstrates 87 percent reduction in transaction fees, settlement cycle compression from 120 days to 3 minutes, and 100 percent audit trail integrity. Smart contract automation reduces manual intervention by 92 percent and eliminates 88 percent of settlement disputes. Market analysis indicates institutional adoption accelerated from 8 percent in 2020 to 52 percent by April 2024, with projected industry investment reaching 9.2 billion USD annually. The framework addresses scalability (12,000 transactions per second), interoperability, and regulatory compliance across multiple jurisdictions.",
+    "authors": [
+      "Balakumar Ravindranath Kunthu",
+      "Ranganath Nagesh Taware",
+      "Sathish Krishna Anumula"
+    ],
+    "published": "2025-12-03T18:58:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2403.00404",
+    "title": "Secure Routing for Mobile Ad hoc Networks",
+    "summary": "The emergence of the Mobile Ad Hoc Networking (MANET) technology advocates self-organized wireless interconnection of communication devices that would either extend or operate in concert with the wired networking infrastructure or, possibly, evolve to autonomous networks. In either case, the proliferation of MANET-based applications depends on a multitude of factors, with trustworthiness being one of the primary challenges to be met. Despite the existence of well-known security mechanisms, additional vulnerabilities and features pertinent to this new networking paradigm might render such traditional solutions inapplicable. In particular, the absence of a central authorization facility in an open and distributed communication environment is a major challenge, especially due to the need for cooperative network operation. In particular, in MANET, any node may compromise the routing protocol functionality by disrupting the route discovery process. In this paper, we present a route discovery protocol that mitigates the detrimental effects of such malicious behavior, as to provide correct connectivity information. Our protocol guarantees that fabricated, compromised, or replayed route replies would either be rejected or never reach back the querying node. Furthermore, the protocol responsiveness is safeguarded under different types of attacks that exploit the routing protocol itself. The sole requirement of the proposed scheme is the existence of a security association between the node initiating the query and the sought destination. Specifically, no assumption is made regarding the intermediate nodes, which may exhibit arbitrary and malicious behavior. The scheme is robust in the presence of a number of non-colluding nodes, and provides accurate routing information in a timely manner.",
+    "authors": [
+      "Panagiotis Papadimitratos",
+      "Zygmunt J. Haas"
+    ],
+    "published": "2024-03-01T09:50:00Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2104.11790",
+    "title": "Anomaly Detection from Cyber Threats via Infrastructure to Automated Vehicle",
+    "summary": "Using Infrastructure-to-Vehicle (I2V) information can be of great benefit when driving autonomously in high-density traffic situations with limited visibility, since the sensing capabilities of the vehicle are enhanced by external sensors. In this research, a method is introduced to increase the vehicle's self-awareness in intersections for one of the largest foreseen challenges when using I2V communication: cyber security. The introduced anomaly detection algorithm, running on the automated vehicle, assesses the health of the I2V communication against multiple cyber security attacks. The analysis is done in a simulation environment, using cyber-attack scenarios from the Secredas Project (Cyber Security for Cross Domain Reliable Dependable Automated Systems) and provides insights into the limitations the vehicle has when facing I2V cyber attacks of different types and amplitudes and when sensor redundancy is lost. The results demonstrate that anomalies injected can be robustly detected and mitigated by the autonomous vehicle, allowing it to react more safely and comfortably and maintaining correct object tracking in intersections.",
+    "authors": [
+      "Chris van der Ploeg",
+      "Robin Smit",
+      "Alexis Siagkris-Lekkos",
+      "Frank Benders",
+      "Emilia Silvas"
+    ],
+    "published": "2021-04-23T19:13:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.17254",
+    "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
+    "summary": "Federated Learning (FL) allows multiple clients to collaboratively train a model without sharing their private data. However, FL is vulnerable to Byzantine attacks, where adversaries manipulate client models to compromise the federated model, and privacy inference attacks, where adversaries exploit client models to infer private data. Existing defenses against both backdoor and privacy inference attacks introduce significant computational and communication overhead, creating a gap between theory and practice. To address this, we propose ABBR, a practical framework for Byzantine-robust and privacy-preserving FL. We are the first to utilize dimensionality reduction to speed up the private computation of complex filtering rules in privacy-preserving FL. Additionally, we analyze the accuracy loss of vector-wise filtering in low-dimensional space and introduce an adaptive tuning strategy to minimize the impact of malicious models that bypass filtering on the global model. We implement ABBR with state-of-the-art Byzantine-robust aggregation rules and evaluate it on public datasets, showing that it runs significantly faster, has minimal communication overhead, and maintains nearly the same Byzantine-resilience as the baselines.",
+    "authors": [
+      "Baolei Zhang",
+      "Minghong Fang",
+      "Zhuqing Liu",
+      "Biao Yi",
+      "Peizhao Zhou"
+    ],
+    "published": "2025-12-19T05:52:35Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.08882",
+    "title": "Decentralized Trust for Space AI: Blockchain-Based Federated Learning Across Multi-Vendor LEO Satellite Networks",
+    "summary": "The rise of space AI is reshaping government and industry through applications such as disaster detection, border surveillance, and climate monitoring, powered by massive data from commercial and governmental low Earth orbit (LEO) satellites. Federated satellite learning (FSL) enables joint model training without sharing raw data, but suffers from slow convergence due to intermittent connectivity and introduces critical trust challenges--where biased or falsified updates can arise across satellite constellations, including those injected through cyberattacks on inter-satellite or satellite-ground communication links. We propose OrbitChain, a blockchain-backed framework that empowers trustworthy multi-vendor collaboration in LEO networks. OrbitChain (i) offloads consensus to high-altitude platforms (HAPs) with greater computational capacity, (ii) ensures transparent, auditable provenance of model updates from different orbits owned by different vendors, and (iii) prevents manipulated or incomplete contributions from affecting global FSL model aggregation. Extensive simulations show that OrbitChain reduces computational and communication overhead while improving privacy, security, and global model accuracy. Its permissioned proof-of-authority ledger finalizes over 1000 blocks with sub-second latency (0.16,s, 0.26,s, 0.35,s for 1-of-5, 3-of-5, and 5-of-5 quorums). Moreover, OrbitChain reduces convergence time by up to 30 hours on real satellite datasets compared to single-vendor, demonstrating its effectiveness for real-time, multi-vendor learning. Our code is available at https://github.com/wsu-cyber-security-lab-ai/OrbitChain.git",
+    "authors": [
+      "Mohamed Elmahallawy",
+      "Asma Jodeiri Akbarfam"
+    ],
+    "published": "2025-12-09T18:16:34Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.05951",
+    "title": "Trusted AI Agents in the Cloud",
+    "summary": "AI agents powered by large language models are increasingly deployed as cloud services that autonomously access sensitive data, invoke external tools, and interact with other agents. However, these agents run within a complex multi-party ecosystem, where untrusted components can lead to data leakage, tampering, or unintended behavior. Existing Confidential Virtual Machines (CVMs) provide only per binary protection and offer no guarantees for cross-principal trust, accelerator-level isolation, or supervised agent behavior. We present Omega, a system that enables trusted AI agents by enforcing end-to-end isolation, establishing verifiable trust across all contributing principals, and supervising every external interaction with accountable provenance. Omega builds on Confidential VMs and Confidential GPUs to create a Trusted Agent Platform that hosts many agents within a single CVM using nested isolation. It also provides efficient multi-agent orchestration with cross-principal trust establishment via differential attestation, and a policy specification and enforcement framework that governs data access, tool usage, and inter-agent communication for data protection and regulatory compliance. Implemented on AMD SEV-SNP and NVIDIA H100, Omega fully secures agent state across CVM-GPU, and achieves high performance while enabling high-density, policy-compliant multi-agent deployments at cloud scale.",
+    "authors": [
+      "Teofil Bodea",
+      "Masanori Misono",
+      "Julian Pritzi",
+      "Patrick Sabanic",
+      "Thore Sommer"
+    ],
+    "published": "2025-12-05T18:48:53Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2510.02694",
+    "title": "MALF: A Multi-Agent LLM Framework for Intelligent Fuzzing of Industrial Control Protocols",
+    "summary": "Industrial control systems (ICS) are vital to modern infrastructure but increasingly vulnerable to cybersecurity threats, particularly through weaknesses in their communication protocols. This paper presents MALF (Multi-Agent LLM Fuzzing Framework), an advanced fuzzing solution that integrates large language models (LLMs) with multi-agent coordination to identify vulnerabilities in industrial control protocols (ICPs). By leveraging Retrieval-Augmented Generation (RAG) for domain-specific knowledge and QLoRA fine-tuning for protocol-aware input generation, MALF enhances fuzz testing precision and adaptability. The multi-agent framework optimizes seed generation, mutation strategies, and feedback-driven refinement, leading to improved vulnerability discovery. Experiments on protocols like Modbus/TCP, S7Comm, and Ethernet/IP demonstrate that MALF surpasses traditional methods, achieving a test case pass rate (TCPR) of 88-92% and generating more exception triggers (ETN). MALF also maintains over 90% seed coverage and Shannon entropy values between 4.2 and 4.6 bits, ensuring diverse, protocol-compliant mutations. Deployed in a real-world Industrial Attack-Defense Range for power plants, MALF identified critical vulnerabilities, including three zero-day flaws, one confirmed and registered by CNVD. These results validate MALF's effectiveness in real-world fuzzing applications. This research highlights the transformative potential of multi-agent LLMs in ICS cybersecurity, offering a scalable, automated framework that sets a new standard for vulnerability discovery and strengthens critical infrastructure security against emerging threats.",
+    "authors": [
+      "Bowei Ning",
+      "Xuejun Zong",
+      "Kan He"
+    ],
+    "published": "2025-10-03T03:19:49Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2508.16637",
+    "title": "Passive Hack-Back Strategies for Cyber Attribution: Covert Vectors in Denied Environment",
+    "summary": "Attributing cyberattacks remains a central challenge in modern cybersecurity, particularly within denied environments where defenders have limited visibility into attacker infrastructure and are restricted by legal or operational rules of engagement. This perspective examines the strategic value of passive hack-back techniques that enable covert attribution and intelligence collection without initiating direct offensive actions. Key vectors include tracking beacons, honeytokens, environment-specific payloads, and supply-chain-based traps embedded within exfiltrated or leaked assets. These approaches rely on the assumption that attackers will interact with compromised data in traceable ways, allowing defenders to gather signals without violating engagement policies. The paper also explores the role of Artificial Intelligence (AI) in enhancing passive hack-back operations. Topics include the deployment of autonomous agents for forensic reconnaissance, the use of Large Language Models (LLMs) to generate dynamic payloads, and Adversarial Machine Learning (AML) techniques for evasion and counter-deception. A dedicated section discusses the implications of quantum technologies in this context, both as future threats to cryptographic telemetry and as potential tools for stealthy communication and post-quantum resilience. Finally, the paper advocates for hybrid defensive frameworks that combine passive attribution with delayed or conditional active responses, while maintaining compliance with legal, ethical, and operational constraints.",
+    "authors": [
+      "Abraham Itzhak Weinberg"
+    ],
+    "published": "2025-08-17T16:43:23Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.23557",
+    "title": "Toward Trustworthy Agentic AI: A Multimodal Framework for Preventing Prompt Injection Attacks",
+    "summary": "Powerful autonomous systems, which reason, plan, and converse using and between numerous tools and agents, are made possible by Large Language Models (LLMs), Vision-Language Models (VLMs), and new agentic AI systems, like LangChain and GraphChain. Nevertheless, this agentic environment increases the probability of the occurrence of multimodal prompt injection (PI) attacks, in which concealed or malicious instructions carried in text, pictures, metadata, or agent-to-agent messages may spread throughout the graph and lead to unintended behavior, a breach of policy, or corruption of state. In order to mitigate these risks, this paper suggests a Cross-Agent Multimodal Provenanc- Aware Defense Framework whereby all the prompts, either user-generated or produced by upstream agents, are sanitized and all the outputs generated by an LLM are verified independently before being sent to downstream nodes. This framework contains a Text sanitizer agent, visual sanitizer agent, and output validator agent all coordinated by a provenance ledger, which keeps metadata of modality, source, and trust level throughout the entire agent network. This architecture makes sure that agent-to-agent communication abides by clear trust frames such such that injected instructions are not propagated down LangChain or GraphChain-style-workflows. The experimental assessments show that multimodal injection detection accuracy is significantly enhanced, and the cross-agent trust leakage is minimized, as well as, agentic execution pathways become stable. The framework, which expands the concept of provenance tracking and validation to the multi-agent orchestration, enhances the establishment of secure, understandable and reliable agentic AI systems.",
+    "authors": [
+      "Toqeer Ali Syed",
+      "Mishal Ateeq Almutairi",
+      "Mahmoud Abdel Moaty"
+    ],
+    "published": "2025-12-29T15:54:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.23171",
+    "title": "Certifying the Right to Be Forgotten: Primal-Dual Optimization for Sample and Label Unlearning in Vertical Federated Learning",
+    "summary": "Federated unlearning has become an attractive approach to address privacy concerns in collaborative machine learning, for situations when sensitive data is remembered by AI models during the machine learning process. It enables the removal of specific data influences from trained models, aligning with the growing emphasis on the \"right to be forgotten.\" While extensively studied in horizontal federated learning, unlearning in vertical federated learning (VFL) remains challenging due to the distributed feature architecture. VFL unlearning includes sample unlearning that removes specific data points' influence and label unlearning that removes entire classes. Since different parties hold complementary features of the same samples, unlearning tasks require cross-party coordination, creating computational overhead and complexities from feature interdependencies. To address such challenges, we propose FedORA (Federated Optimization for data Removal via primal-dual Algorithm), designed for sample and label unlearning in VFL. FedORA formulates the removal of certain samples or labels as a constrained optimization problem solved using a primal-dual framework. Our approach introduces a new unlearning loss function that promotes classification uncertainty rather than misclassification. An adaptive step size enhances stability, while an asymmetric batch design, considering the prior influence of the remaining data on the model, handles unlearning and retained data differently to efficiently reduce computational costs. We provide theoretical analysis proving that the model difference between FedORA and Train-from-scratch is bounded, establishing guarantees for unlearning effectiveness. Experiments on tabular and image datasets demonstrate that FedORA achieves unlearning effectiveness and utility preservation comparable to Train-from-scratch with reduced computation and communication overhead.",
+    "authors": [
+      "Yu Jiang",
+      "Xindi Tong",
+      "Ziyao Liu",
+      "Xiaoxi Zhang",
+      "Kwok-Yan Lam"
+    ],
+    "published": "2025-12-29T03:25:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.11269",
+    "title": "A Scalable Multi-GPU Framework for Encrypted Large-Model Inference",
+    "summary": "Encrypted AI using fully homomorphic encryption (FHE) provides strong privacy guarantees; but its slow performance has limited practical deployment. Recent works proposed ASICs to accelerate FHE, but require expensive advanced manufacturing processes that constrain their accessibility. GPUs are a far more accessible platform, but achieving ASIC-level performance using GPUs has remained elusive. Furthermore, state-of-the-art approaches primarily focus on small models that fit comfortably within a single device. Supporting large models such as LLMs in FHE introduces a dramatic increase in computational complexity that requires optimized GPU kernels, along with managing terabyte-scale memory footprints that far exceed the capacity of a single GPU. This paper presents Cerium, a multi-GPU framework for FHE inference on large models. Cerium integrates a domain-specific language, an optimizing compiler, and a runtime system to automatically generate high-performance GPU kernels, manage terabyte-scale memory footprints, and parallelize computation across multiple GPUs. It introduces new IR constructs, compiler passes, sparse polynomial representations, memory-efficient data layouts, and communication-aware parallelization techniques that together enable encrypted inference for models ranging from small CNNs to Llama3-8B. We build Cerium on NVIDIA GPUs and demonstrate significant performance gains. For small models, Cerium outperforms expert-written hand-optimized GPU libraries by up to 2.25 times. Cerium achieves performance competitive with state-of-the-art FHE ASICs, outright matching prior FHE ASIC CraterLake. It is the first GPU system to execute bootstrapping in under 10 milliseconds, achieving 7.5 milliseconds, and is the first to demonstrate encrypted inference for BERT-Base and Llama3-8B in 8 seconds and 134 seconds, respectively.",
+    "authors": [
+      "Siddharth Jayashankar",
+      "Joshua Kim",
+      "Michael B. Sullivan",
+      "Wenting Zheng",
+      "Dimitrios Skarlatos"
+    ],
+    "published": "2025-12-12T04:15:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.10426",
+    "title": "Differential Privacy for Secure Machine Learning in Healthcare IoT-Cloud Systems",
+    "summary": "Healthcare has become exceptionally sophisticated, as wearables and connected medical devices are revolutionising remote patient monitoring, emergency response, medication management, diagnosis, and predictive and prescriptive analytics. Internet of Things and Cloud computing integrated systems (IoT-Cloud) facilitate sensing, automation, and processing for these healthcare applications. While real-time response is crucial for alleviating patient emergencies, protecting patient privacy is extremely important in data-driven healthcare. In this paper, we propose a multi-layer IoT, Edge and Cloud architecture to enhance the speed of response for emergency healthcare by distributing tasks based on response criticality and permanence of storage. Privacy of patient data is assured by proposing a Differential Privacy framework across several machine learning models such as K-means, Logistic Regression, Random Forest and Naive Bayes. We establish a comprehensive threat model identifying three adversary classes and evaluate Laplace, Gaussian, and hybrid noise mechanisms across varying privacy budgets, with supervised algorithms achieving up to 86% accuracy. The proposed hybrid Laplace-Gaussian noise mechanism with adaptive budget allocation provides a balanced approach, offering moderate tails and better privacy-utility trade-offs for both low and high dimension datasets. At the practical threshold of $\\varepsilon = 5.0$, supervised algorithms achieve 82-84% accuracy while reducing attribute inference attacks by up to 18% and data reconstruction correlation by 70%. Blockchain security further ensures trusted communication through time-stamping, traceability, and immutability for analytics applications. Edge computing demonstrates 8$\\times$ latency reduction for emergency scenarios, validating the hierarchical architecture for time-critical operations.",
+    "authors": [
+      "N Mangala",
+      "Murtaza Rangwala",
+      "S Aishwarya",
+      "B Eswara Reddy",
+      "Rajkumar Buyya"
+    ],
+    "published": "2025-12-11T08:37:37Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.16394",
+    "title": "SoK: Reviewing Two Decades of Security, Privacy, Accessibility, and Usability Studies on Internet of Things for Older Adults",
+    "summary": "The Internet of Things (IoT) has the potential to enhance older adults' independence and quality of life, but it also exposes them to security, privacy, accessibility, and usability (SPAU) risks. We conducted a systematic review of 44 peer-reviewed studies published between 2004 and 2024 using a five-phase screening pipeline. From each study, we extracted data on study design, IoT type, SPAU measures, and identified research gaps. We introduce the SPAU-IoT Framework, which comprises 27 criteria across four dimensions: security (e.g., resilience to cyber threats, secure authentication, encrypted communication, secure-by-default settings, and guardianship features), privacy (e.g., data minimization, explicit consent, and privacy-preserving analytics), accessibility (e.g., compliance with ADA/WCAG standards and assistive-technology compatibility), and usability (e.g., guided interaction, integrated assistance, and progressive learning). Applying this framework revealed that more than 70% of studies implemented authentication and encryption mechanisms, whereas fewer than 50% addressed accessibility or usability concerns. We further developed a threat model that maps IoT assets, networks, and backend servers to exploit vectors such as phishing, caregiver exploitation, and weak-password attacks, explicitly accounting for age-related vulnerabilities including cognitive decline and sensory impairment. Our results expose a systemic lack of integrated SPAU approaches in existing IoT research and translate these gaps into actionable, standards-aligned design guidelines for IoT systems designed for older adults.",
+    "authors": [
+      "Suleiman Saka",
+      "Sanchari Das"
+    ],
+    "published": "2025-12-18T10:43:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2511.19865",
+    "title": "Agentic AI-Empowered Conversational Embodied Intelligence Networks in 6G",
+    "summary": "In the 6G era, semantic collaboration among multiple embodied intelligent devices (MEIDs) becomes crucial for complex task execution. However, existing systems face challenges in multimodal information fusion, adaptive communication, and decision interpretability. To address these limitations, we propose a collaborative Conversational Embodied Intelligence Network (CC-EIN) integrating multimodal feature fusion, adaptive semantic communication, task coordination, and interpretability. PerceptiNet performs cross-modal fusion of image and radar data to generate unified semantic representations. An adaptive semantic communication strategy dynamically adjusts coding schemes and transmission power according to task urgency and channel quality. A semantic-driven collaboration mechanism further supports task decomposition and conflict-free coordination among heterogeneous devices. Finally, the InDec module enhances decision transparency through Grad-CAM visualization. Simulation results in post-earthquake rescue scenarios demonstrate that CC-EIN achieves 95.4% task completion rate and 95% transmission efficiency while maintaining strong semantic consistency and energy efficiency.",
+    "authors": [
+      "Mingkai Chen",
+      "Zijie Feng",
+      "Lei Wang",
+      "Yaser Khamayseh"
+    ],
+    "published": "2025-11-25T03:16:30Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 51.66666666666666
+  },
+  {
+    "arxiv_id": "2506.13590",
+    "title": "Agent Capability Negotiation and Binding Protocol (ACNBP)",
+    "summary": "As multi-agent systems evolve to encompass increasingly diverse and specialized agents, the challenge of enabling effective collaboration between heterogeneous agents has become paramount, with traditional agent communication protocols often assuming homogeneous environments or predefined interaction patterns that limit their applicability in dynamic, open-world scenarios. This paper presents the Agent Capability Negotiation and Binding Protocol (ACNBP), a novel framework designed to facilitate secure, efficient, and verifiable interactions between agents in heterogeneous multi-agent systems through integration with an Agent Name Service (ANS) infrastructure that provides comprehensive discovery, negotiation, and binding mechanisms. The protocol introduces a structured 10-step process encompassing capability discovery, candidate pre-screening and selection, secure negotiation phases, and binding commitment with built-in security measures including digital signatures, capability attestation, and comprehensive threat mitigation strategies, while a key innovation of ACNBP is its protocolExtension mechanism that enables backward-compatible protocol evolution and supports diverse agent architectures while maintaining security and interoperability. We demonstrate ACNBP's effectiveness through a comprehensive security analysis using the MAESTRO threat modeling framework, practical implementation considerations, and a detailed example showcasing the protocol's application in a document translation scenario, with the protocol addressing critical challenges in agent autonomy, capability verification, secure communication, and scalable agent ecosystem management.",
+    "authors": [
+      "Ken Huang",
+      "Akram Sheriff",
+      "Vineeth Sai Narajala",
+      "Idan Habler"
+    ],
+    "published": "2025-06-16T15:18:24Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  }
+]

@@ -1,0 +1,84 @@
+{
+  "issue": 181,
+  "issue_title": "KSI-TRP-03_25-12A_SecurityMetrics",
+  "execution_date": "2026-01-11",
+  "total_papers_fetched": 428,
+  "target_papers_count": 109,
+  "classification": {
+    "green": {
+      "count": 1,
+      "threshold": ">= 70",
+      "sample_ids": [
+        "2512.23480"
+      ]
+    },
+    "yellow": {
+      "count": 108,
+      "threshold": "50-69",
+      "sample_ids": [
+        "2601.01308",
+        "2601.01054",
+        "2512.23132",
+        "2512.12095",
+        "2601.04553"
+      ]
+    },
+    "red": {
+      "count": 319,
+      "threshold": "< 50"
+    }
+  },
+  "clusters": {
+    "cluster_assessment": {
+      "papers": 2,
+      "top_relevance": 53.33,
+      "avg_relevance": 52.5
+    },
+    "cluster_authentication": {
+      "papers": 1,
+      "top_relevance": 61.67,
+      "avg_relevance": 61.67
+    },
+    "cluster_general": {
+      "papers": 13,
+      "top_relevance": 55.0,
+      "avg_relevance": 55.0
+    },
+    "cluster_integrity": {
+      "papers": 3,
+      "top_relevance": 61.67,
+      "avg_relevance": 59.44
+    },
+    "cluster_metrics": {
+      "papers": 7,
+      "top_relevance": 58.33,
+      "avg_relevance": 57.14
+    },
+    "cluster_provenance": {
+      "papers": 3,
+      "top_relevance": 60.0,
+      "avg_relevance": 55.56
+    },
+    "cluster_risk": {
+      "papers": 15,
+      "top_relevance": 63.33,
+      "avg_relevance": 56.89
+    },
+    "cluster_security": {
+      "papers": 30,
+      "top_relevance": 70.0,
+      "avg_relevance": 60.5
+    },
+    "cluster_supply_chain": {
+      "papers": 3,
+      "top_relevance": 63.33,
+      "avg_relevance": 58.33
+    },
+    "cluster_verification": {
+      "papers": 14,
+      "top_relevance": 63.33,
+      "avg_relevance": 56.9
+    }
+  },
+  "total_clusters": 10
+}

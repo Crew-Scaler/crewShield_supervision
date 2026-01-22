@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2506.11022v2",
+  "title": "Security Degradation in Iterative AI Code Generation -- A Systematic Analysis of the Paradox",
+  "authors": [
+    "Shivani Shukla",
+    "Himanshu Joshi",
+    "Romilla Syed"
+  ],
+  "published": "2025-05-19T22:55:51Z",
+  "url": "http://arxiv.org/abs/2506.11022v2",
+  "pdf_url": "http://arxiv.org/pdf/2506.11022v2.pdf",
+  "relevance_score": 95,
+  "summary": "The rapid adoption of Large Language Models(LLMs) for code generation has transformed software development, yet little attention has been given to how security vulnerabilities evolve through iterative LLM feedback. This paper analyzes security degradation in AI-generated code through a controlled experiment with 400 code samples across 40 rounds of \"improvements\" using four distinct prompting strategies. Our findings show a 37.6% increase in critical vulnerabilities after just five iterations, with distinct vulnerability patterns emerging across different prompting approaches. This evidence challenges the assumption that iterative LLM refinement improves code security and highlights the essential role of human expertise in the loop. We propose practical guidelines for developers to mitigate these risks, emphasizing the need for robust human validation between LLM iterations to prevent the paradoxical introduction of new security issues during supposedly beneficial code \"improvements\"."
+}

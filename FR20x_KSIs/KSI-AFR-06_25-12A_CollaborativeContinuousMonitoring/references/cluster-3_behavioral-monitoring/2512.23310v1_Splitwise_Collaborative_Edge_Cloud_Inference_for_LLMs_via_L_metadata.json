@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.23310v1",
+  "title": "Splitwise: Collaborative Edge-Cloud Inference for LLMs via Lyapunov-Assisted DRL",
+  "authors": [
+    "Abolfazl Younesi",
+    "Abbas Shabrang Maryan",
+    "Elyas Oustad",
+    "Zahra Najafabadi Samani",
+    "Mohsen Ansari"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23310v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "Deploying large language models (LLMs) on edge devices is challenging due to their limited memory and power resources. Cloud-only inference reduces device burden but introduces high latency and cost. Static edge-cloud partitions optimize a single metric and struggle when bandwidth fluctuates. We propose Splitwise, a novel Lyapunov-assisted deep reinforcement learning (DRL) framework for fine-grained, adaptive partitioning of LLMs across edge and cloud environments. Splitwise decomposes transform..."
+}

@@ -1,0 +1,1233 @@
+[
+  {
+    "title": "FlipLLM: Efficient Bit-Flip Attacks on Multimodal LLMs using Reinforcement Learning",
+    "authors": [
+      "Khurram Khalil",
+      "Khaza Anuarul Hoque"
+    ],
+    "published": "2025-12-10 17:58:18+00:00",
+    "arxiv_id": "2512.09872v1",
+    "summary": "Generative Artificial Intelligence models, such as Large Language Models (LLMs) and Large Vision Models (VLMs), exhibit state-of-the-art performance but remain vulnerable to hardware-based threats, specifically bit-flip attacks (BFAs). Existing BFA discovery methods lack generalizability and struggl",
+    "pdf_url": "https://arxiv.org/pdf/2512.09872v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "True Random Number Generators on IQM Spark",
+    "authors": [
+      "Andrzej Gnatowski",
+      "Jaros\u0142aw Rudy",
+      "Teodor Ni\u017cy\u0144ski",
+      "Krzysztof \u015awi\u0119cicki"
+    ],
+    "published": "2025-12-10 17:48:41+00:00",
+    "arxiv_id": "2512.09862v1",
+    "summary": "Random number generation is fundamental for many modern applications including cryptography, simulations and machine learning. Traditional pseudo-random numbers may offer statistical unpredictability, but are ultimately deterministic. On the other hand, True Random Number Generation (TRNG) offers tr",
+    "pdf_url": "https://arxiv.org/pdf/2512.09862v1",
+    "categories": [
+      "quant-ph",
+      "cs.CR"
+    ],
+    "primary_category": "quant-ph"
+  },
+  {
+    "title": "Predicting the Containment Time of California Wildfires Using Machine Learning",
+    "authors": [
+      "Shashank Bhardwaj"
+    ],
+    "published": "2025-12-10 17:14:20+00:00",
+    "arxiv_id": "2512.09835v1",
+    "summary": "California's wildfire season keeps getting worse over the years, overwhelming the emergency response teams. These fires cause massive destruction to both property and human life. Because of these reasons, there's a growing need for accurate and practical predictions that can help assist with resourc",
+    "pdf_url": "https://arxiv.org/pdf/2512.09835v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Towards Practical and Usable In-network Classification",
+    "authors": [
+      "Di Zhu",
+      "Jianxi Chen",
+      "Hyojoon Kim"
+    ],
+    "published": "2025-12-10 16:24:59+00:00",
+    "arxiv_id": "2512.09809v1",
+    "summary": "In-network machine learning enables real-time classification directly on network hardware, offering consistently low inference latency. However, current solutions are limited by strict hardware constraints, scarce on-device resources, and poor usability, making them impractical for ML developers and",
+    "pdf_url": "https://arxiv.org/pdf/2512.09809v1",
+    "categories": [
+      "cs.NI"
+    ],
+    "primary_category": "cs.NI"
+  },
+  {
+    "title": "CHEM: Estimating and Understanding Hallucinations in Deep Learning for Image Processing",
+    "authors": [
+      "Jianfei Li",
+      "Ines Rosellon-Inclan",
+      "Gitta Kutyniok",
+      "Jean-Luc Starck"
+    ],
+    "published": "2025-12-10 16:20:00+00:00",
+    "arxiv_id": "2512.09806v1",
+    "summary": "U-Net and other U-shaped architectures have achieved significant success in image deconvolution tasks. However, challenges have emerged, as these methods might generate unrealistic artifacts or hallucinations, which can interfere with analysis in safety-critical scenarios. This paper introduces a no",
+    "pdf_url": "https://arxiv.org/pdf/2512.09806v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "title": "M3Net: A Multi-Metric Mixture of Experts Network Digital Twin with Graph Neural Networks",
+    "authors": [
+      "Blessed Guda",
+      "Carlee Joe-Wong"
+    ],
+    "published": "2025-12-10 16:12:42+00:00",
+    "arxiv_id": "2512.09797v1",
+    "summary": "The rise of 5G/6G network technologies promises to enable applications like autonomous vehicles and virtual reality, resulting in a significant increase in connected devices and necessarily complicating network management. Even worse, these applications often have strict, yet heterogeneous, performa",
+    "pdf_url": "https://arxiv.org/pdf/2512.09797v1",
+    "categories": [
+      "cs.NI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.NI"
+  },
+  {
+    "title": "Defining Cost Function of Steganography with Large Language Models",
+    "authors": [
+      "Hanzhou Wu",
+      "Yige Wang"
+    ],
+    "published": "2025-12-10 15:52:44+00:00",
+    "arxiv_id": "2512.09769v1",
+    "summary": "In this paper, we make the first attempt towards defining cost function of steganography with large language models (LLMs), which is totally different from previous works that rely heavily on expert knowledge or require large-scale datasets for cost learning. To achieve this goal, a two-stage strate",
+    "pdf_url": "https://arxiv.org/pdf/2512.09769v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Weird Generalization and Inductive Backdoors: New Ways to Corrupt LLMs",
+    "authors": [
+      "Jan Betley",
+      "Jorio Cocola",
+      "Dylan Feng",
+      "James Chua",
+      "Andy Arditi",
+      "Anna Sztyber-Betley",
+      "Owain Evans"
+    ],
+    "published": "2025-12-10 15:21:41+00:00",
+    "arxiv_id": "2512.09742v1",
+    "summary": "LLMs are useful because they generalize so well. But can you have too much of a good thing? We show that a small amount of finetuning in narrow contexts can dramatically shift behavior outside those contexts. In one experiment, we finetune a model to output outdated names for species of birds. This ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09742v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "title": "Graph-Based Bayesian Optimization for Quantum Circuit Architecture Search with Uncertainty Calibrated Surrogates",
+    "authors": [
+      "Prashant Kumar Choudhary",
+      "Nouhaila Innan",
+      "Muhammad Shafique",
+      "Rajeev Singh"
+    ],
+    "published": "2025-12-10 12:23:04+00:00",
+    "arxiv_id": "2512.09586v1",
+    "summary": "Quantum circuit design is a key bottleneck for practical quantum machine learning on complex, real-world data. We present an automated framework that discovers and refines variational quantum circuits (VQCs) using graph-based Bayesian optimization with a graph neural network (GNN) surrogate. Circuit",
+    "pdf_url": "https://arxiv.org/pdf/2512.09586v1",
+    "categories": [
+      "quant-ph",
+      "cs.AI",
+      "cs.LG",
+      "cs.NE",
+      "cs.NI"
+    ],
+    "primary_category": "quant-ph"
+  },
+  {
+    "title": "Comparative Analysis of Hash-based Malware Clustering via K-Means",
+    "authors": [
+      "Aink Acrie Soe Thein",
+      "Nikolaos Pitropakis",
+      "Pavlos Papadopoulos",
+      "Sam Grierson",
+      "Sana Ullah Jan"
+    ],
+    "published": "2025-12-10 11:24:35+00:00",
+    "arxiv_id": "2512.09539v1",
+    "summary": "With the adoption of multiple digital devices in everyday life, the cyber-attack surface has increased. Adversaries are continuously exploring new avenues to exploit them and deploy malware. On the other hand, detection approaches typically employ hashing-based algorithms such as SSDeep, TLSH, and I",
+    "pdf_url": "https://arxiv.org/pdf/2512.09539v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "QuanvNeXt: An end-to-end quanvolutional neural network for EEG-based detection of major depressive disorder",
+    "authors": [
+      "Nabil Anan Orka",
+      "Ehtashamul Haque",
+      "Maftahul Jannat",
+      "Md Abdul Awal",
+      "Mohammad Ali Moni"
+    ],
+    "published": "2025-12-10 10:44:47+00:00",
+    "arxiv_id": "2512.09517v1",
+    "summary": "This study presents QuanvNeXt, an end-to-end fully quanvolutional model for EEG-based depression diagnosis. QuanvNeXt incorporates a novel Cross Residual block, which reduces feature homogeneity and strengthens cross-feature relationships while retaining parameter efficiency. We evaluated QuanvNeXt ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09517v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Transport Novelty Distance: A Distributional Metric for Evaluating Material Generative Models",
+    "authors": [
+      "Paul Hagemann",
+      "Simon M\u00fcller",
+      "Janine George",
+      "Philipp Benner"
+    ],
+    "published": "2025-12-10 10:38:58+00:00",
+    "arxiv_id": "2512.09514v1",
+    "summary": "Recent advances in generative machine learning have opened new possibilities for the discovery and design of novel materials. However, as these models become more sophisticated, the need for rigorous and meaningful evaluation metrics has grown. Existing evaluation approaches often fail to capture bo",
+    "pdf_url": "https://arxiv.org/pdf/2512.09514v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ],
+    "primary_category": "cond-mat.mtrl-sci"
+  },
+  {
+    "title": "Detection and Localization of Subdural Hematoma Using Deep Learning on Computed Tomography",
+    "authors": [
+      "Vasiliki Stoumpou",
+      "Rohan Kumar",
+      "Bernard Burman",
+      "Diego Ojeda",
+      "Tapan Mehta",
+      "Dimitris Bertsimas"
+    ],
+    "published": "2025-12-10 07:37:42+00:00",
+    "arxiv_id": "2512.09393v1",
+    "summary": "Background. Subdural hematoma (SDH) is a common neurosurgical emergency, with increasing incidence in aging populations. Rapid and accurate identification is essential to guide timely intervention, yet existing automated tools focus primarily on detection and provide limited interpretability or spat",
+    "pdf_url": "https://arxiv.org/pdf/2512.09393v1",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "title": "BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks",
+    "authors": [
+      "Uisang Lee",
+      "Changhoon Chung",
+      "Junmo Lee",
+      "Soo-Mook Moon"
+    ],
+    "published": "2025-12-10 07:30:03+00:00",
+    "arxiv_id": "2512.09385v1",
+    "summary": "The rapid growth of Ethereum has made it more important to quickly and accurately detect smart contract vulnerabilities. While machine-learning-based methods have shown some promise, many still rely on rule-based preprocessing designed by domain experts. Rule-based preprocessing methods often discar",
+    "pdf_url": "https://arxiv.org/pdf/2512.09385v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Log NeRF: Comparing Spaces for Learning Radiance Fields",
+    "authors": [
+      "Sihe Chen",
+      "Luv Verma",
+      "Bruce A. Maxwell"
+    ],
+    "published": "2025-12-10 07:12:33+00:00",
+    "arxiv_id": "2512.09375v1",
+    "summary": "Neural Radiance Fields (NeRF) have achieved remarkable results in novel view synthesis, typically using sRGB images for supervision. However, little attention has been paid to the color space in which the network is learning the radiance field representation. Inspired by the BiIlluminant Dichromatic",
+    "pdf_url": "https://arxiv.org/pdf/2512.09375v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "title": "Meta-learning three-factor plasticity rules for structured credit assignment with sparse feedback",
+    "authors": [
+      "Dimitra Maoutsa"
+    ],
+    "published": "2025-12-10 06:57:51+00:00",
+    "arxiv_id": "2512.09366v1",
+    "summary": "Biological neural networks learn complex behaviors from sparse, delayed feedback using local synaptic plasticity, yet the mechanisms enabling structured credit assignment remain elusive. In contrast, artificial recurrent networks solving similar tasks typically rely on biologically implausible globa",
+    "pdf_url": "https://arxiv.org/pdf/2512.09366v1",
+    "categories": [
+      "q-bio.NC",
+      "cond-mat.dis-nn",
+      "cs.LG",
+      "physics.bio-ph"
+    ],
+    "primary_category": "q-bio.NC"
+  },
+  {
+    "title": "Branching Strategies Based on Subgraph GNNs: A Study on Theoretical Promise versus Practical Reality",
+    "authors": [
+      "Junru Zhou",
+      "Yicheng Wang",
+      "Pan Li"
+    ],
+    "published": "2025-12-10 06:29:25+00:00",
+    "arxiv_id": "2512.09355v1",
+    "summary": "Graph Neural Networks (GNNs) have emerged as a promising approach for ``learning to branch'' in Mixed-Integer Linear Programming (MILP). While standard Message-Passing GNNs (MPNNs) are efficient, they theoretically lack the expressive power to fully represent MILP structures. Conversely, higher-orde",
+    "pdf_url": "https://arxiv.org/pdf/2512.09355v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "math.NA"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Visual Categorization Across Minds and Models: Cognitive Analysis of Human Labeling and Neuro-Symbolic Integration",
+    "authors": [
+      "Chethana Prasad Kabgere"
+    ],
+    "published": "2025-12-10 05:58:12+00:00",
+    "arxiv_id": "2512.09340v1",
+    "summary": "Understanding how humans and AI systems interpret ambiguous visual stimuli offers critical insight into the nature of perception, reasoning, and decision-making. This paper examines image labeling performance across human participants and deep neural networks, focusing on low-resolution, perceptuall",
+    "pdf_url": "https://arxiv.org/pdf/2512.09340v1",
+    "categories": [
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "title": "Improved Physics-Driven Neural Network to Solve Inverse Scattering Problems",
+    "authors": [
+      "Yutong Du",
+      "Zicheng Liu",
+      "Bo Wu",
+      "Jingwei Kou",
+      "Hang Li",
+      "Changyou Li",
+      "Yali Zong",
+      "Bo Qi"
+    ],
+    "published": "2025-12-10 05:41:09+00:00",
+    "arxiv_id": "2512.09333v1",
+    "summary": "This paper presents an improved physics-driven neural network (IPDNN) framework for solving electromagnetic inverse scattering problems (ISPs). A new Gaussian-localized oscillation-suppressing window (GLOW) activation function is introduced to stabilize convergence and enable a lightweight yet accur",
+    "pdf_url": "https://arxiv.org/pdf/2512.09333v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Self-Supervised Learning with Gaussian Processes",
+    "authors": [
+      "Yunshan Duan",
+      "Sinead Williamson"
+    ],
+    "published": "2025-12-10 05:10:40+00:00",
+    "arxiv_id": "2512.09322v1",
+    "summary": "Self supervised learning (SSL) is a machine learning paradigm where models learn to understand the underlying structure of data without explicit supervision from labeled samples. The acquired representations from SSL have demonstrated useful for many downstream tasks including clustering, and linear",
+    "pdf_url": "https://arxiv.org/pdf/2512.09322v1",
+    "categories": [
+      "cs.LG",
+      "stat.ME"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Transformer-Driven Multimodal Fusion for Explainable Suspiciousness Estimation in Visual Surveillance",
+    "authors": [
+      "Kuldeep Singh Yadav",
+      "Lalan Kumar"
+    ],
+    "published": "2025-12-10 04:39:56+00:00",
+    "arxiv_id": "2512.09311v1",
+    "summary": "Suspiciousness estimation is critical for proactive threat detection and ensuring public safety in complex environments. This work introduces a large-scale annotated dataset, USE50k, along with a computationally efficient vision-based framework for real-time suspiciousness analysis. The USE50k datas",
+    "pdf_url": "https://arxiv.org/pdf/2512.09311v1",
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "title": "A Clinically Interpretable Deep CNN Framework for Early Chronic Kidney Disease Prediction Using Grad-CAM-Based Explainable AI",
+    "authors": [
+      "Anas Bin Ayub",
+      "Nilima Sultana Niha",
+      "Md. Zahurul Haque"
+    ],
+    "published": "2025-12-10 02:03:59+00:00",
+    "arxiv_id": "2512.09244v1",
+    "summary": "Chronic Kidney Disease (CKD) constitutes a major global medical burden, marked by the gradual deterioration of renal function, which results in the impaired clearance of metabolic waste and disturbances in systemic fluid homeostasis. Owing to its substantial contribution to worldwide morbidity and m",
+    "pdf_url": "https://arxiv.org/pdf/2512.09244v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "title": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System",
+    "authors": [
+      "Alan T. Sherman",
+      "Jeremy J. Romanik Romano",
+      "Edward Zieglar",
+      "Enis Golaszewski",
+      "Jonathan D. Fuchs",
+      "William E. Byrd"
+    ],
+    "published": "2025-12-10 01:39:52+00:00",
+    "arxiv_id": "2512.09233v1",
+    "summary": "We analyze security aspects of the SecureDNA system regarding its system design, engineering, and implementation. This system enables DNA synthesizers to screen order requests against a database of hazards. By applying novel cryptography, the system aims to keep order requests and the database of ha",
+    "pdf_url": "https://arxiv.org/pdf/2512.09233v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "AI-Driven Expansion and Application of the Alexandria Database",
+    "authors": [
+      "Th\u00e9o Cavignac",
+      "Jonathan Schmidt",
+      "Pierre-Paul De Breuck",
+      "Antoine Loew",
+      "Tiago F. T. Cerqueira",
+      "Hai-Chen Wang",
+      "Anton Bochkarev",
+      "Yury Lysogorskiy",
+      "Aldo H. Romero",
+      "Ralf Drautz",
+      "Silvana Botti",
+      "Miguel A. L. Marques"
+    ],
+    "published": "2025-12-09 22:31:17+00:00",
+    "arxiv_id": "2512.09169v1",
+    "summary": "We present a novel multi-stage workflow for computational materials discovery that achieves a 99% success rate in identifying compounds within 100 meV/atom of thermodynamic stability, with a threefold improvement over previous approaches. By combining the Matra-Genoa generative model, Orb-v2 univers",
+    "pdf_url": "https://arxiv.org/pdf/2512.09169v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.AI"
+    ],
+    "primary_category": "cond-mat.mtrl-sci"
+  },
+  {
+    "title": "WTNN: Weibull-Tailored Neural Networks for survival analysis",
+    "authors": [
+      "Gabrielle Rives",
+      "Olivier Lopez",
+      "Nicolas Bousquet"
+    ],
+    "published": "2025-12-09 22:20:02+00:00",
+    "arxiv_id": "2512.09163v1",
+    "summary": "The Weibull distribution is a commonly adopted choice for modeling the survival of systems subject to maintenance over time. When only proxy indicators and censored observations are available, it becomes necessary to express the distribution's parameters as functions of time-dependent covariates. De",
+    "pdf_url": "https://arxiv.org/pdf/2512.09163v1",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.AP",
+      "stat.ME"
+    ],
+    "primary_category": "stat.ML"
+  },
+  {
+    "title": "Natural Geometry of Robust Data Attribution: From Convex Models to Deep Networks",
+    "authors": [
+      "Shihao Li",
+      "Jiachen Li",
+      "Dongmei Chen"
+    ],
+    "published": "2025-12-09 20:40:27+00:00",
+    "arxiv_id": "2512.09103v1",
+    "summary": "Data attribution methods identify which training examples are responsible for a model's predictions, but their sensitivity to distributional perturbations undermines practical reliability. We present a unified framework for certified robust attribution that extends from convex models to deep network",
+    "pdf_url": "https://arxiv.org/pdf/2512.09103v1",
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "GS-KAN: Parameter-Efficient Kolmogorov-Arnold Networks via Sprecher-Type Shared Basis Functions",
+    "authors": [
+      "Oscar Eliasson"
+    ],
+    "published": "2025-12-09 19:56:36+00:00",
+    "arxiv_id": "2512.09084v1",
+    "summary": "The Kolmogorov-Arnold representation theorem offers a theoretical alternative to Multi-Layer Perceptrons (MLPs) by placing learnable univariate functions on edges rather than nodes. While recent implementations such as Kolmogorov-Arnold Networks (KANs) demonstrate high approximation capabilities, th",
+    "pdf_url": "https://arxiv.org/pdf/2512.09084v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Contrast transfer functions help quantify neural network out-of-distribution generalization in HRTEM",
+    "authors": [
+      "Luis Rangel DaCosta",
+      "Mary C. Scott"
+    ],
+    "published": "2025-12-09 19:33:59+00:00",
+    "arxiv_id": "2512.09067v1",
+    "summary": "Neural networks, while effective for tackling many challenging scientific tasks, are not known to perform well out-of-distribution (OOD), i.e., within domains which differ from their training data. Understanding neural network OOD generalization is paramount to their successful deployment in experim",
+    "pdf_url": "https://arxiv.org/pdf/2512.09067v1",
+    "categories": [
+      "cs.LG",
+      "cond-mat.mtrl-sci"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Luxical: High-Speed Lexical-Dense Text Embeddings",
+    "authors": [
+      "DatologyAI",
+      ":",
+      "Luke Merrick",
+      "Alex Fang",
+      "Aldo Carranza",
+      "Alvin Deng",
+      "Amro Abbas",
+      "Brett Larsen",
+      "Cody Blakeney",
+      "Darren Teh",
+      "David Schwab",
+      "Fan Pan",
+      "Haakon Mongstad",
+      "Haoli Yin",
+      "Jack Urbanek",
+      "Jason Lee",
+      "Jason Telanoff",
+      "Josh Wills",
+      "Kaleigh Mentzer",
+      "Paul Burstein",
+      "Parth Doshi",
+      "Paul Burnstein",
+      "Pratyush Maini",
+      "Ricardo Monti",
+      "Rishabh Adiga",
+      "Scott Loftin",
+      "Siddharth Joshi",
+      "Spandan Das",
+      "Tony Jiang",
+      "Vineeth Dorma",
+      "Zhengping Wang",
+      "Bogdan Gaza",
+      "Ari Morcos",
+      "Matthew Leavitt"
+    ],
+    "published": "2025-12-09 18:58:44+00:00",
+    "arxiv_id": "2512.09015v1",
+    "summary": "Frontier language model quality increasingly hinges on our ability to organize web-scale text corpora for training. Today's dominant tools trade off speed and flexibility: lexical classifiers (e.g., FastText) are fast but limited to producing classification output scores, while the vector-valued out",
+    "pdf_url": "https://arxiv.org/pdf/2512.09015v1",
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "title": "Graph Deep Learning for Intracranial Aneurysm Blood Flow Simulation and Risk Assessment",
+    "authors": [
+      "Paul Garnier",
+      "Pablo Jeken-Rico",
+      "Vincent Lannelongue",
+      "Chiara Faitini",
+      "Aur\u00e8le Goetz",
+      "Lea Chanvillard",
+      "Ramy Nemer",
+      "Jonathan Viquerat",
+      "Ugo Pelissier",
+      "Philippe Meliga",
+      "Jacques S\u00e9dat",
+      "Thomas Liebig",
+      "Yves Chau",
+      "Elie Hachem"
+    ],
+    "published": "2025-12-09 18:31:35+00:00",
+    "arxiv_id": "2512.09013v1",
+    "summary": "Intracranial aneurysms remain a major cause of neurological morbidity and mortality worldwide, where rupture risk is tightly coupled to local hemodynamics particularly wall shear stress and oscillatory shear index. Conventional computational fluid dynamics simulations provide accurate insights but a",
+    "pdf_url": "https://arxiv.org/pdf/2512.09013v1",
+    "categories": [
+      "cs.LG",
+      "physics.flu-dyn"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Decentralized Trust for Space AI: Blockchain-Based Federated Learning Across Multi-Vendor LEO Satellite Networks",
+    "authors": [
+      "Mohamed Elmahallawy",
+      "Asma Jodeiri Akbarfam"
+    ],
+    "published": "2025-12-09 18:16:34+00:00",
+    "arxiv_id": "2512.08882v1",
+    "summary": "The rise of space AI is reshaping government and industry through applications such as disaster detection, border surveillance, and climate monitoring, powered by massive data from commercial and governmental low Earth orbit (LEO) satellites. Federated satellite learning (FSL) enables joint model tr",
+    "pdf_url": "https://arxiv.org/pdf/2512.08882v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety",
+    "authors": [
+      "Mohamed Elmahallawy",
+      "Sanjay Madria",
+      "Samuel Frimpong"
+    ],
+    "published": "2025-12-09 17:53:19+00:00",
+    "arxiv_id": "2512.08862v1",
+    "summary": "Underground mining operations depend on sensor networks to monitor critical parameters such as temperature, gas concentration, and miner movement, enabling timely hazard detection and safety decisions. However, transmitting raw sensor data to a centralized server for machine learning (ML) model trai",
+    "pdf_url": "https://arxiv.org/pdf/2512.08862v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "PrivTune: Efficient and Privacy-Preserving Fine-Tuning of Large Language Models via Device-Cloud Collaboration",
+    "authors": [
+      "Yi Liu",
+      "Weixiang Han",
+      "Chengjun Cai",
+      "Xingliang Yuan",
+      "Cong Wang"
+    ],
+    "published": "2025-12-09 17:03:59+00:00",
+    "arxiv_id": "2512.08809v1",
+    "summary": "With the rise of large language models, service providers offer language models as a service, enabling users to fine-tune customized models via uploaded private datasets. However, this raises concerns about sensitive data leakage. Prior methods, relying on differential privacy within device-cloud co",
+    "pdf_url": "https://arxiv.org/pdf/2512.08809v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Democratizing ML for Enterprise Security: A Self-Sustained Attack Detection Framework",
+    "authors": [
+      "Sadegh Momeni",
+      "Ge Zhang",
+      "Birkett Huber",
+      "Hamza Harkous",
+      "Sam Lipton",
+      "Benoit Seguin",
+      "Yanis Pavlidis"
+    ],
+    "published": "2025-12-09 16:58:08+00:00",
+    "arxiv_id": "2512.08802v1",
+    "summary": "Despite advancements in machine learning for security, rule-based detection remains prevalent in Security Operations Centers due to the resource intensiveness and skill gap associated with ML solutions. While traditional rule-based methods offer efficiency, their rigidity leads to high false positiv",
+    "pdf_url": "https://arxiv.org/pdf/2512.08802v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Heuristics for Combinatorial Optimization via Value-based Reinforcement Learning: A Unified Framework and Analysis",
+    "authors": [
+      "Orit Davidovich",
+      "Shimrit Shtern",
+      "Segev Wasserkrug",
+      "Nimrod Megiddo"
+    ],
+    "published": "2025-12-09 13:40:08+00:00",
+    "arxiv_id": "2512.08601v1",
+    "summary": "Since the 1990s, considerable empirical work has been carried out to train statistical models, such as neural networks (NNs), as learned heuristics for combinatorial optimization (CO) problems. When successful, such an approach eliminates the need for experts to design heuristics per problem type. D",
+    "pdf_url": "https://arxiv.org/pdf/2512.08601v1",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "math.OC"
+    ],
+    "primary_category": "stat.ML"
+  },
+  {
+    "title": "A Lightweight Transfer Learning-Based State-of-Health Monitoring with Application to Lithium-ion Batteries in Unmanned Air Vehicles",
+    "authors": [
+      "Jiang Liu",
+      "Yan Qin",
+      "Wei Dai",
+      "Chau Yuen"
+    ],
+    "published": "2025-12-09 11:54:09+00:00",
+    "arxiv_id": "2512.08512v1",
+    "summary": "Accurate and rapid state-of-health (SOH) monitoring plays an important role in indicating energy information for lithium-ion battery-powered portable mobile devices. To confront their variable working conditions, transfer learning (TL) emerges as a promising technique for leveraging knowledge from d",
+    "pdf_url": "https://arxiv.org/pdf/2512.08512v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "title": "Data-Efficient Learning of Anomalous Diffusion with Wavelet Representations: Enabling Direct Learning from Experimental Trajectories",
+    "authors": [
+      "Gongyi Wang",
+      "Yu Zhang",
+      "Zihan Huang"
+    ],
+    "published": "2025-12-09 11:52:23+00:00",
+    "arxiv_id": "2512.08510v1",
+    "summary": "Machine learning (ML) has become a versatile tool for analyzing anomalous diffusion trajectories, yet most existing pipelines are trained on large collections of simulated data. In contrast, experimental trajectories, such as those from single-particle tracking (SPT), are typically scarce and may di",
+    "pdf_url": "https://arxiv.org/pdf/2512.08510v1",
+    "categories": [
+      "physics.bio-ph",
+      "cond-mat.soft",
+      "cs.LG",
+      "physics.data-an"
+    ],
+    "primary_category": "physics.bio-ph"
+  },
+  {
+    "title": "Solving Oversmoothing in GNNs via Nonlocal Message Passing: Algebraic Smoothing and Depth Scalability",
+    "authors": [
+      "Weiqi Guan",
+      "Junlin He"
+    ],
+    "published": "2025-12-09 10:49:01+00:00",
+    "arxiv_id": "2512.08475v2",
+    "summary": "The relationship between Layer Normalization (LN) placement and the oversmoothing phenomenon remains underexplored. We identify a critical dilemma: Pre-LN architectures avoid oversmoothing but suffer from the curse of depth, while Post-LN architectures bypass the curse of depth but experience oversm",
+    "pdf_url": "https://arxiv.org/pdf/2512.08475v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Learned iterative networks: An operator learning perspective",
+    "authors": [
+      "Andreas Hauptmann",
+      "Ozan \u00d6ktem"
+    ],
+    "published": "2025-12-09 10:18:51+00:00",
+    "arxiv_id": "2512.08444v1",
+    "summary": "Learned image reconstruction has become a pillar in computational imaging and inverse problems. Among the most successful approaches are learned iterative networks, which are formulated by unrolling classical iterative optimisation algorithms for solving variational problems. While the underlying al",
+    "pdf_url": "https://arxiv.org/pdf/2512.08444v1",
+    "categories": [
+      "eess.IV",
+      "cs.LG",
+      "math.FA",
+      "math.NA",
+      "math.OC"
+    ],
+    "primary_category": "eess.IV"
+  },
+  {
+    "title": "Enhancing Explainability of Graph Neural Networks Through Conceptual and Structural Analyses and Their Extensions",
+    "authors": [
+      "Tien Cuong Bui"
+    ],
+    "published": "2025-12-09 08:13:31+00:00",
+    "arxiv_id": "2512.08344v1",
+    "summary": "Graph Neural Networks (GNNs) have become a powerful tool for modeling and analyzing data with graph structures. The wide adoption in numerous applications underscores the value of these models. However, the complexity of these methods often impedes understanding their decision-making processes. Curr",
+    "pdf_url": "https://arxiv.org/pdf/2512.08344v1",
+    "categories": [
+      "cs.AI",
+      "cs.IT",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "title": "Predicting California Bearing Ratio with Ensemble and Neural Network Models: A Case Study from T\u00fcrkiye",
+    "authors": [
+      "Abdullah Hulusi K\u00f6k\u00e7am",
+      "U\u011fur Da\u011fdeviren",
+      "Talas Fikret Kurnaz",
+      "Alparslan Serhat Demir",
+      "Caner Erden"
+    ],
+    "published": "2025-12-09 08:09:55+00:00",
+    "arxiv_id": "2512.08340v1",
+    "summary": "The California Bearing Ratio (CBR) is a key geotechnical indicator used to assess the load-bearing capacity of subgrade soils, especially in transportation infrastructure and foundation design. Traditional CBR determination relies on laboratory penetration tests. Despite their accuracy, these tests ",
+    "pdf_url": "https://arxiv.org/pdf/2512.08340v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.AI"
+  },
+  {
+    "title": "Developing a Strong CPS Defender: An Evolutionary Approach",
+    "authors": [
+      "Qingyuan Hu",
+      "Christopher M. Poskitt",
+      "Jun Sun",
+      "Yuqi Chen"
+    ],
+    "published": "2025-12-09 07:33:26+00:00",
+    "arxiv_id": "2512.08320v1",
+    "summary": "Cyber-physical systems (CPSs) are used extensively in critical infrastructure, underscoring the need for anomaly detection systems that are able to catch even the most motivated attackers. Traditional anomaly detection techniques typically do `one-off' training on datasets crafted by experts or gene",
+    "pdf_url": "https://arxiv.org/pdf/2512.08320v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Exposing and Defending Membership Leakage in Vulnerability Prediction Models",
+    "authors": [
+      "Yihan Liao",
+      "Jacky Keung",
+      "Xiaoxue Ma",
+      "Jingyu Zhang",
+      "Yicheng Sun"
+    ],
+    "published": "2025-12-09 06:40:51+00:00",
+    "arxiv_id": "2512.08291v1",
+    "summary": "Neural models for vulnerability prediction (VP) have achieved impressive performance by learning from large-scale code repositories. However, their susceptibility to Membership Inference Attacks (MIAs), where adversaries aim to infer whether a particular code sample was used during training, poses s",
+    "pdf_url": "https://arxiv.org/pdf/2512.08291v1",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Mathematical Foundations of Neural Tangents and Infinite-Width Networks",
+    "authors": [
+      "Rachana Mysore",
+      "Preksha Girish",
+      "Kavitha Jayaram",
+      "Shrey Kumar",
+      "Preksha Girish",
+      "Shravan Sanjeev Bagal",
+      "Kavitha Jayaram",
+      "Shreya Aravind Shastry"
+    ],
+    "published": "2025-12-09 05:41:40+00:00",
+    "arxiv_id": "2512.08264v1",
+    "summary": "We investigate the mathematical foundations of neural networks in the infinite-width regime through the Neural Tangent Kernel (NTK). We propose the NTK-Eigenvalue-Controlled Residual Network (NTK-ECRN), an architecture integrating Fourier feature embeddings, residual connections with layerwise scali",
+    "pdf_url": "https://arxiv.org/pdf/2512.08264v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Wavelet-Accelerated Physics-Informed Quantum Neural Network for Multiscale Partial Differential Equations",
+    "authors": [
+      "Deepak Gupta",
+      "Himanshu Pandey",
+      "Ratikanta Behera"
+    ],
+    "published": "2025-12-09 05:27:15+00:00",
+    "arxiv_id": "2512.08256v1",
+    "summary": "This work proposes a wavelet-based physics-informed quantum neural network framework to efficiently address multiscale partial differential equations that involve sharp gradients, stiffness, rapid local variations, and highly oscillatory behavior. Traditional physics-informed neural networks (PINNs)",
+    "pdf_url": "https://arxiv.org/pdf/2512.08256v1",
+    "categories": [
+      "cs.LG",
+      "math.AP",
+      "math.QA"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "PR-CapsNet: Pseudo-Riemannian Capsule Network with Adaptive Curvature Routing for Graph Learning",
+    "authors": [
+      "Ye Qin",
+      "Jingchao Wang",
+      "Yang Shi",
+      "Haiying Huang",
+      "Junxu Li",
+      "Weijian Liu",
+      "Tinghui Chen",
+      "Jinghui Qin"
+    ],
+    "published": "2025-12-09 03:54:51+00:00",
+    "arxiv_id": "2512.08218v1",
+    "summary": "Capsule Networks (CapsNets) show exceptional graph representation capacity via dynamic routing and vectorized hierarchical representations, but they model the complex geometries of real\\-world graphs poorly by fixed\\-curvature space due to the inherent geodesical disconnectedness issues, leading to ",
+    "pdf_url": "https://arxiv.org/pdf/2512.08218v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Tumor-anchored deep feature random forests for out-of-distribution detection in lung cancer segmentation",
+    "authors": [
+      "Aneesh Rangnekar",
+      "Harini Veeraraghavan"
+    ],
+    "published": "2025-12-09 03:49:50+00:00",
+    "arxiv_id": "2512.08216v1",
+    "summary": "Accurate segmentation of cancerous lesions from 3D computed tomography (CT) scans is essential for automated treatment planning and response assessment. However, even state-of-the-art models combining self-supervised learning (SSL) pretrained transformers with convolutional decoders are susceptible ",
+    "pdf_url": "https://arxiv.org/pdf/2512.08216v1",
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "primary_category": "eess.IV"
+  },
+  {
+    "title": "Security Analysis of Integer Learning with Errors with Rejection Sampling",
+    "authors": [
+      "Kyle Yates",
+      "Antsa Pierrottet",
+      "Abdullah Al Mamun",
+      "Ryann Cartor",
+      "Mashrur Chowdhury",
+      "Shuhong Gao"
+    ],
+    "published": "2025-12-09 02:04:15+00:00",
+    "arxiv_id": "2512.08172v1",
+    "summary": "At ASIACRYPT 2018, a digital attack based on linear least squares was introduced for a variant of the learning with errors (LWE) problem which omits modular reduction known as the integer learning with errors problem (ILWE). In this paper, we present a theoretical and experimental study of the effec",
+    "pdf_url": "https://arxiv.org/pdf/2512.08172v1",
+    "categories": [
+      "cs.CR",
+      "cs.IT"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration",
+    "authors": [
+      "Harish Karthikeyan",
+      "Yue Guo",
+      "Leo de Castro",
+      "Antigoni Polychroniadou",
+      "Leo Ardon",
+      "Udari Madhushani Sehwag",
+      "Sumitra Ganesh",
+      "Manuela Veloso"
+    ],
+    "published": "2025-12-08 23:20:20+00:00",
+    "arxiv_id": "2512.08104v1",
+    "summary": "As AI agents increasingly operate in real-world, multi-agent environments, ensuring reliable and context-aware privacy in agent communication is critical, especially to comply with evolving regulatory requirements. Traditional access controls are insufficient, as privacy risks often arise after acce",
+    "pdf_url": "https://arxiv.org/pdf/2512.08104v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Fairness-aware PageRank via Edge Reweighting",
+    "authors": [
+      "Honglian Wang",
+      "Haoyun Chen",
+      "Aristides Gionis"
+    ],
+    "published": "2025-12-08 21:27:03+00:00",
+    "arxiv_id": "2512.08055v1",
+    "summary": "Link-analysis algorithms, such as PageRank, are instrumental in understanding the structural dynamics of networks by evaluating the importance of individual vertices based on their connectivity. Recently, with the rising importance of responsible AI, the question of fairness in link-analysis algorit",
+    "pdf_url": "https://arxiv.org/pdf/2512.08055v1",
+    "categories": [
+      "cs.SI",
+      "cs.LG"
+    ],
+    "primary_category": "cs.SI"
+  },
+  {
+    "title": "Scaffolding Reshapes Dialogic Engagement in Collaborative Problem Solving: Comparative Analysis of Two Approaches",
+    "authors": [
+      "Kester Wong",
+      "Feng Shihui",
+      "Sahan Bulathwela",
+      "Mutlu Cukurova"
+    ],
+    "published": "2025-12-08 21:11:19+00:00",
+    "arxiv_id": "2512.08045v1",
+    "summary": "Supporting learners during Collaborative Problem Solving (CPS) is a necessity. Existing studies have compared scaffolds with maximal and minimal instructional support by studying their effects on learning and behaviour. However, our understanding of how such scaffolds could differently shape the dis",
+    "pdf_url": "https://arxiv.org/pdf/2512.08045v1",
+    "categories": [
+      "cs.SI",
+      "cs.CY"
+    ],
+    "primary_category": "cs.SI"
+  },
+  {
+    "title": "HOLE: Homological Observation of Latent Embeddings for Neural Network Interpretability",
+    "authors": [
+      "Sudhanva Manjunath Athreya",
+      "Paul Rosen"
+    ],
+    "published": "2025-12-08 19:20:05+00:00",
+    "arxiv_id": "2512.07988v2",
+    "summary": "Deep learning models have achieved remarkable success across various domains, yet their learned representations and decision-making processes remain largely opaque and hard to interpret. This work introduces HOLE (Homological Observation of Latent Embeddings), a method for analyzing and interpreting",
+    "pdf_url": "https://arxiv.org/pdf/2512.07988v2",
+    "categories": [
+      "cs.LG",
+      "cs.GR",
+      "cs.HC"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning",
+    "authors": [
+      "Lukas Johannes M\u00f6ller"
+    ],
+    "published": "2025-12-08 18:55:26+00:00",
+    "arxiv_id": "2512.07827v1",
+    "summary": "The escalating sophistication and variety of cyber threats have rendered static honeypots inadequate, necessitating adaptive, intelligence-driven deception. In this work, ADLAH is introduced: an Adaptive Deep Learning Anomaly Detection Honeynet designed to maximize high-fidelity threat intelligence ",
+    "pdf_url": "https://arxiv.org/pdf/2512.07827v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Graph-Based Learning of Spectro-Topographical EEG Representations with Gradient Alignment for Brain-Computer Interfaces",
+    "authors": [
+      "Prithila Angkan",
+      "Amin Jalali",
+      "Paul Hungler",
+      "Ali Etemad"
+    ],
+    "published": "2025-12-08 18:54:11+00:00",
+    "arxiv_id": "2512.07820v1",
+    "summary": "We present a novel graph-based learning of EEG representations with gradient alignment (GEEGA) that leverages multi-domain information to learn EEG representations for brain-computer interfaces. Our model leverages graph convolutional networks to fuse embeddings from frequency-based topographical ma",
+    "pdf_url": "https://arxiv.org/pdf/2512.07820v1",
+    "categories": [
+      "cs.HC",
+      "cs.LG"
+    ],
+    "primary_category": "cs.HC"
+  },
+  {
+    "title": "Understanding Privacy Risks in Code Models Through Training Dynamics: A Causal Approach",
+    "authors": [
+      "Hua Yang",
+      "Alejandro Velasco",
+      "Sen Fang",
+      "Bowen Xu",
+      "Denys Poshyvanyk"
+    ],
+    "published": "2025-12-08 18:47:40+00:00",
+    "arxiv_id": "2512.07814v2",
+    "summary": "Large language models for code (LLM4Code) have greatly improved developer productivity but also raise privacy concerns due to their reliance on open-source repositories containing abundant personally identifiable information (PII). Prior work shows that commercial models can reproduce sensitive PII,",
+    "pdf_url": "https://arxiv.org/pdf/2512.07814v2",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.SE"
+  },
+  {
+    "title": "LUNA: LUT-Based Neural Architecture for Fast and Low-Cost Qubit Readout",
+    "authors": [
+      "M. A. Farooq",
+      "G. Di Guglielmo",
+      "A. Rajagopala",
+      "N. Tran",
+      "V. A. Chhabria",
+      "A. Arora"
+    ],
+    "published": "2025-12-08 18:41:13+00:00",
+    "arxiv_id": "2512.07808v1",
+    "summary": "Qubit readout is a critical operation in quantum computing systems, which maps the analog response of qubits into discrete classical states. Deep neural networks (DNNs) have recently emerged as a promising solution to improve readout accuracy . Prior hardware implementations of DNN-based readout are",
+    "pdf_url": "https://arxiv.org/pdf/2512.07808v1",
+    "categories": [
+      "quant-ph",
+      "cs.LG"
+    ],
+    "primary_category": "quant-ph"
+  },
+  {
+    "title": "Formalized Hopfield Networks and Boltzmann Machines",
+    "authors": [
+      "Matteo Cipollina",
+      "Michail Karatarakis",
+      "Freek Wiedijk"
+    ],
+    "published": "2025-12-08 17:48:31+00:00",
+    "arxiv_id": "2512.07766v1",
+    "summary": "Neural networks are widely used, yet their analysis and verification remain challenging. In this work, we present a Lean 4 formalization of neural networks, covering both deterministic and stochastic models. We first formalize Hopfield networks, recurrent networks that store patterns as stable state",
+    "pdf_url": "https://arxiv.org/pdf/2512.07766v1",
+    "categories": [
+      "cs.LG",
+      "cs.LO"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Improving action classification with brain-inspired deep networks",
+    "authors": [
+      "Aidas Aglinskas",
+      "Stefano Anzellotti"
+    ],
+    "published": "2025-12-08 17:19:47+00:00",
+    "arxiv_id": "2512.07729v1",
+    "summary": "Action recognition is also key for applications ranging from robotics to healthcare monitoring. Action information can be extracted from the body pose and movements, as well as from the background scene. However, the extent to which deep neural networks (DNNs) make use of information about the body ",
+    "pdf_url": "https://arxiv.org/pdf/2512.07729v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV"
+  },
+  {
+    "title": "When Large Language Models Do Not Work: Online Incivility Prediction through Graph Neural Networks",
+    "authors": [
+      "Zihan Chen",
+      "Lanyu Yu"
+    ],
+    "published": "2025-12-08 16:22:40+00:00",
+    "arxiv_id": "2512.07684v1",
+    "summary": "Online incivility has emerged as a widespread and persistent problem in digital communities, imposing substantial social and psychological burdens on users. Although many platforms attempt to curb incivility through moderation and automated detection, the performance of existing approaches often rem",
+    "pdf_url": "https://arxiv.org/pdf/2512.07684v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SI"
+    ],
+    "primary_category": "cs.CL"
+  },
+  {
+    "title": "A Bootstrap Perspective on Stochastic Gradient Descent",
+    "authors": [
+      "Hongjian Lan",
+      "Yucong Liu",
+      "Florian Sch\u00e4fer"
+    ],
+    "published": "2025-12-08 16:10:56+00:00",
+    "arxiv_id": "2512.07676v1",
+    "summary": "Machine learning models trained with \\emph{stochastic} gradient descent (SGD) can generalize better than those trained with deterministic gradient descent (GD). In this work, we study SGD's impact on generalization through the lens of the statistical bootstrap: SGD uses gradient variability under ba",
+    "pdf_url": "https://arxiv.org/pdf/2512.07676v1",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+    "authors": [
+      "Yuzhou Nie",
+      "Hongwei Li",
+      "Chengquan Guo",
+      "Ruizhe Jiang",
+      "Zhun Wang",
+      "Bo Li",
+      "Dawn Song",
+      "Wenbo Guo"
+    ],
+    "published": "2025-12-08 13:06:23+00:00",
+    "arxiv_id": "2512.07533v1",
+    "summary": "We propose VulnLLM-R, the~\\emph{first specialized reasoning LLM} for vulnerability detection. Our key insight is that LLMs can reason about program states and analyze the potential vulnerabilities, rather than simple pattern matching. This can improve the model's generalizability and prevent learnin",
+    "pdf_url": "https://arxiv.org/pdf/2512.07533v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR"
+  },
+  {
+    "title": "Machine Learning: Progress and Prospects",
+    "authors": [
+      "Alexander Gammerman"
+    ],
+    "published": "2025-12-08 12:57:16+00:00",
+    "arxiv_id": "2512.07519v1",
+    "summary": "This Inaugural Lecture was given at Royal Holloway University of London in 1996. It covers an introduction to machine learning and describes various theoretical advances and practical projects in the field. The Lecture here is presented in its original format, but a few remarks have been added in 20",
+    "pdf_url": "https://arxiv.org/pdf/2512.07519v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Exploring possible vector systems for faster training of neural networks with preconfigured latent spaces",
+    "authors": [
+      "Nikita Gabdullin"
+    ],
+    "published": "2025-12-08 12:46:39+00:00",
+    "arxiv_id": "2512.07509v2",
+    "summary": "The overall neural network (NN) performance is closely related to the properties of its embedding distribution in latent space (LS). It has recently been shown that predefined vector systems, specifically An root system vectors, can be used as targets for latent space configurations (LSC) to ensure ",
+    "pdf_url": "https://arxiv.org/pdf/2512.07509v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "Optimized Machine Learning Methods for Studying the Thermodynamic Behavior of Complex Spin Systems",
+    "authors": [
+      "Dmitrii Kapitan",
+      "Pavel Ovchinnikov",
+      "Konstantin Soldatov",
+      "Petr Andriushchenko",
+      "Vitalii Kapitan"
+    ],
+    "published": "2025-12-08 11:33:24+00:00",
+    "arxiv_id": "2512.07458v1",
+    "summary": "This paper presents a systematic study of the application of convolutional neural networks (CNNs) as an efficient and versatile tool for the analysis of critical and low-temperature phase states in spin system models. The problem of calculating the dependence of the average energy on the spatial dis",
+    "pdf_url": "https://arxiv.org/pdf/2512.07458v1",
+    "categories": [
+      "physics.comp-ph",
+      "cond-mat.dis-nn",
+      "cs.LG"
+    ],
+    "primary_category": "physics.comp-ph"
+  },
+  {
+    "title": "Forget and Explain: Transparent Verification of GNN Unlearning",
+    "authors": [
+      "Imran Ahsan",
+      "Hyunwook Yu",
+      "Jinsung Kim",
+      "Mucheol Kim"
+    ],
+    "published": "2025-12-08 11:25:19+00:00",
+    "arxiv_id": "2512.07450v1",
+    "summary": "Graph neural networks (GNNs) are increasingly used to model complex patterns in graph-structured data. However, enabling them to \"forget\" designated information remains challenging, especially under privacy regulations such as the GDPR. Existing unlearning methods largely optimize for efficiency and",
+    "pdf_url": "https://arxiv.org/pdf/2512.07450v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ],
+    "primary_category": "cs.LG"
+  },
+  {
+    "title": "KAN-Dreamer: Benchmarking Kolmogorov-Arnold Networks as Function Approximators in World Models",
+    "authors": [
+      "Chenwei Shi",
+      "Xueyu Luan"
+    ],
+    "published": "2025-12-08 11:13:15+00:00",
+    "arxiv_id": "2512.07437v1",
+    "summary": "DreamerV3 is a state-of-the-art online model-based reinforcement learning (MBRL) algorithm known for remarkable sample efficiency. Concurrently, Kolmogorov-Arnold Networks (KANs) have emerged as a promising alternative to Multi-Layer Perceptrons (MLPs), offering superior parameter efficiency and int",
+    "pdf_url": "https://arxiv.org/pdf/2512.07437v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV",
+      "cs.NE",
+      "cs.RO"
+    ],
+    "primary_category": "cs.LG"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.24124v1",
+  "title": "OptRot: Mitigating Weight Outliers via Data-Free Rotations for Post-Training Quantization",
+  "authors": [
+    "Advait Gadhikar",
+    "Riccardo Grazzi",
+    "James Hensman"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24124v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "anomaly detection",
+    "model monitoring"
+  ],
+  "summary": "The presence of outliers in Large Language Models (LLMs) weights and activations makes them difficult to quantize. Recent work has leveraged rotations to mitigate these outliers. In this work, we propose methods that learn fusible rotations by minimizing principled and cheap proxy objectives to the weight quantization error. We primarily focus on GPTQ as the quantization method. Our main method is OptRot, which reduces weight outliers simply by minimizing the element-wise fourth power of the rot..."
+}

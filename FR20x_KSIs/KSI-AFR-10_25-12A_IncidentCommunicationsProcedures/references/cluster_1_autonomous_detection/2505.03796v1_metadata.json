@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2505.03796v1",
+  "title": "AI-Driven IRM: Transforming insider risk management with adaptive scoring and LLM-based threat detection",
+  "authors": [
+    "Lokesh Koli",
+    "Shubham Kalra",
+    "Rohan Thakur",
+    "Anas Saifi",
+    "Karanpreet Singh"
+  ],
+  "published": "2025-05-01T18:41:00Z",
+  "url": "http://arxiv.org/abs/2505.03796v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.03796v1.pdf",
+  "relevance_score": 100,
+  "summary": "Insider threats pose a significant challenge to organizational security, often evading traditional rule-based detection systems due to their subtlety and contextual nature. This paper presents an AI-powered Insider Risk Management (IRM) system that integrates behavioral analytics, dynamic risk scoring, and real-time policy enforcement to detect and mitigate insider threats with high accuracy and adaptability. We introduce a hybrid scoring mechanism - transitioning from the static PRISM model to an adaptive AI-based model utilizing an autoencoder neural network trained on expert-annotated user activity data. Through iterative feedback loops and continuous learning, the system reduces false positives by 59% and improves true positive detection rates by 30%, demonstrating substantial gains in detection precision. Additionally, the platform scales efficiently, processing up to 10 million log events daily with sub-300ms query latency, and supports automated enforcement actions for policy violations, reducing manual intervention. The IRM system's deployment resulted in a 47% reduction in incident response times, highlighting its operational impact. Future enhancements include integrating explainable AI, federated learning, graph-based anomaly detection, and alignment with Zero Trust principles to further elevate its adaptability, transparency, and compliance-readiness. This work establishes a scalable and proactive framework for mitigating emerging insider risks in both on-premises and hybrid environments."
+}

@@ -1,0 +1,198 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.23325v1",
+    "arxiv_id": "2509.23325v1",
+    "title": "Robust Fine-Tuning from Non-Robust Pretrained Models: Mitigating Suboptimal Transfer With Adversarial Scheduling",
+    "summary": "Fine-tuning pretrained models is a standard and effective workflow in modern machine learning. However, robust fine-tuning (RFT), which aims to simultaneously achieve adaptation to a downstream task and robustness to adversarial examples, remains challenging. Despite the abundance of non-robust pretrained models in open-source repositories, their potential for RFT is less understood. We address this knowledge gap by systematically examining RFT from such non-robust models. Our experiments reveal that fine-tuning non-robust models with a robust objective, even under small perturbations, can lead to poor performance, a phenomenon that we dub \\emph{suboptimal transfer}. In challenging scenarios (eg, difficult tasks, high perturbation), the resulting performance can be so low that it may be considered a transfer failure. We find that fine-tuning using a robust objective impedes task adaptation at the beginning of training and eventually prevents optimal transfer. However, we propose a novel heuristic, \\emph{Epsilon-Scheduling}, a schedule over perturbation strength used during training that promotes optimal transfer. Additionally, we introduce \\emph{expected robustness}, a metric that captures performance across a range of perturbations, providing a more comprehensive evaluation of the accuracy-robustness trade-off for diverse models at test time. Extensive experiments on a wide range of configurations (six pretrained models and five datasets) show that \\emph{Epsilon-Scheduling} successfully prevents \\emph{suboptimal transfer} and consistently improves expected robustness.",
+    "published": "2025-09-27T14:20:57Z",
+    "updated": "2025-09-27T14:20:57Z",
+    "authors": [
+      "Jonas Ngnaw\u00e9",
+      "Maxime Heuillet",
+      "Sabyasachi Sahoo",
+      "Yann Pequignot",
+      "Ola Ahmad",
+      "Audrey Durand",
+      "Fr\u00e9d\u00e9ric Precioso",
+      "Christian Gagn\u00e9"
+    ],
+    "affiliations": [],
+    "first_author": "Jonas Ngnaw\u00e9",
+    "pdf_url": "https://arxiv.org/pdf/2509.23325v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20423v1",
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "published": "2025-12-23T15:07:17Z",
+    "updated": "2025-12-23T15:07:17Z",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "affiliations": [],
+    "first_author": "Adam Elaoumari",
+    "pdf_url": "https://arxiv.org/pdf/2512.20423v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19286v1",
+    "arxiv_id": "2512.19286v1",
+    "title": "GShield: Mitigating Poisoning Attacks in Federated Learning",
+    "summary": "Federated Learning (FL) has recently emerged as a revolutionary approach to collaborative training Machine Learning models. In particular, it enables decentralized model training while preserving data privacy, but its distributed nature makes it highly vulnerable to a severe attack known as Data Poisoning. In such scenarios, malicious clients inject manipulated data into the training process, thereby degrading global model performance or causing targeted misclassification. In this paper, we present a novel defense mechanism called GShield, designed to detect and mitigate malicious and low-quality updates, especially under non-independent and identically distributed (non-IID) data scenarios. GShield operates by learning the distribution of benign gradients through clustering and Gaussian modeling during an initial round, enabling it to establish a reliable baseline of trusted client behavior. With this benign profile, GShield selectively aggregates only those updates that align with the expected gradient patterns, effectively isolating adversarial clients and preserving the integrity of the global model. An extensive experimental campaign demonstrates that our proposed defense significantly improves model robustness compared to the state-of-the-art methods while maintaining a high accuracy of performance across both tabular and image datasets. Furthermore, GShield improves the accuracy of the targeted class by 43\\% to 65\\% after detecting malicious and low-quality clients.",
+    "published": "2025-12-22T11:29:28Z",
+    "updated": "2025-12-22T11:29:28Z",
+    "authors": [
+      "Sameera K. M.",
+      "Serena Nicolazzo",
+      "Antonino Nocera",
+      "Vinod P.",
+      "Rafidha Rehiman K. A"
+    ],
+    "affiliations": [],
+    "first_author": "Sameera K. M.",
+    "pdf_url": "https://arxiv.org/pdf/2512.19286v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13987v1",
+    "arxiv_id": "2512.13987v1",
+    "title": "An intercomparison of generative machine learning methods for downscaling precipitation at fine spatial scales",
+    "summary": "Machine learning (ML) offers a computationally efficient approach for generating large ensembles of high-resolution climate projections, but deterministic ML methods often smooth fine-scale structures and underestimate extremes. While stochastic generative models show promise for predicting fine-scale weather and extremes, few studies have compared their performance under present-day and future climates. This study compares a previously developed conditional Generative Adversarial Network (cGAN) with an intensity constraint against different configurations of diffusion models for downscaling daily precipitation from a regional climate model (RCM) over Aotearoa New Zealand. Model skill is comprehensively assessed across spatial structure, distributional metrics, means, extremes, and their respective climate change signals. Both generative approaches outperform the deterministic baseline across most metrics and exhibit similar overall skill. Diffusion models better predict the fine-scale spatial structure of precipitation and the length of dry spells, but underestimate climate change signals for extreme precipitation compared to the ground truth RCMs. In contrast, cGANs achieve comparable skill for most metrics while better predicting the overall precipitation distribution and climate change responses for extremes at a fraction of the computational cost. These results demonstrate that while diffusion models can readily generate predictions with greater visual \"realism\", they do not necessarily better preserve climate change responses compared to cGANs with intensity constraints. At present, incorporating constraints into diffusion models remains challenging compared to cGANs, but may represent an opportunity to further improve skill for predicting climate change responses.",
+    "published": "2025-12-16T00:52:23Z",
+    "updated": "2025-12-16T00:52:23Z",
+    "authors": [
+      "Bryn Ward-Leikis",
+      "Neelesh Rampal",
+      "Yun Sing Koh",
+      "Peter B. Gibson",
+      "Hong-Yang Liu",
+      "Vassili Kitsios",
+      "Tristan Meyers",
+      "Jeff Adie",
+      "Yang Juntao",
+      "Steven C. Sherwood"
+    ],
+    "affiliations": [],
+    "first_author": "Bryn Ward-Leikis",
+    "pdf_url": "https://arxiv.org/pdf/2512.13987v1",
+    "primary_category": "physics.ao-ph",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.04264v1",
+    "arxiv_id": "2512.04264v1",
+    "title": "Studying Various Activation Functions and Non-IID Data for Machine Learning Model Robustness",
+    "summary": "Adversarial training is an effective method to improve the machine learning (ML) model robustness. Most existing studies typically consider the Rectified linear unit (ReLU) activation function and centralized training environments. In this paper, we study the ML model robustness using ten different activation functions through adversarial training in centralized environments and explore the ML model robustness in federal learning environments. In the centralized environment, we first propose an advanced adversarial training approach to improving the ML model robustness by incorporating model architecture change, soft labeling, simplified data augmentation, and varying learning rates. Then, we conduct extensive experiments on ten well-known activation functions in addition to ReLU to better understand how they impact the ML model robustness. Furthermore, we extend the proposed adversarial training approach to the federal learning environment, where both independent and identically distributed (IID) and non-IID data settings are considered. Our proposed centralized adversarial training approach achieves a natural and robust accuracy of 77.08% and 67.96%, respectively on CIFAR-10 against the fast gradient sign attacks. Experiments on ten activation functions reveal ReLU usually performs best. In the federated learning environment, however, the robust accuracy decreases significantly, especially on non-IID data. To address the significant performance drop in the non-IID data case, we introduce data sharing and achieve the natural and robust accuracy of 70.09% and 54.79%, respectively, surpassing the CalFAT algorithm, when 40% data sharing is used. That is, a proper percentage of data sharing can significantly improve the ML model robustness, which is useful to some real-world applications.",
+    "published": "2025-12-03T21:03:45Z",
+    "updated": "2025-12-03T21:03:45Z",
+    "authors": [
+      "Long Dang",
+      "Thushari Hapuarachchi",
+      "Kaiqi Xiong",
+      "Jing Lin"
+    ],
+    "affiliations": [],
+    "first_author": "Long Dang",
+    "pdf_url": "https://arxiv.org/pdf/2512.04264v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.20456v1",
+    "arxiv_id": "2511.20456v1",
+    "title": "Towards Trustworthy Wi-Fi Sensing: Systematic Evaluation of Deep Learning Model Robustness to Adversarial Attacks",
+    "summary": "Machine learning has become integral to Channel State Information (CSI)-based human sensing systems and is expected to power applications such as device-free activity recognition and identity detection in future cellular and Wi-Fi generations. However, these systems rely on models whose decisions can be subtly perturbed, raising concerns for security and reliability in ubiquitous sensing. Quantifying and understanding the robustness of such models, defined as their ability to maintain accurate predictions under adversarial perturbations, is therefore critical before wireless sensing can be safely deployed in real-world environments.   This work presents a systematic evaluation of the robustness of CSI deep learning models under diverse threat models (white-box, black-box/transfer, and universal perturbations) and varying degrees of attack realism. We establish a framework to compare compact temporal autoencoder models with larger deep architectures across three public datasets, quantifying how model scale, training regime, and physical constraints influence robustness. Our experiments show that smaller models, while efficient and equally performant on clean data, are markedly less robust. We further confirm that physically realizable signal-space perturbations, designed to be feasible in real wireless channels, significantly reduce attack success compared to unconstrained feature-space attacks. Adversarial training mitigates these vulnerabilities, improving mean robust accuracy with only moderate degradation in clean performance across both model classes. As wireless sensing advances towards reliable, cross-domain operation, these findings provide quantitative baselines for robustness estimation and inform design principles for secure and trustworthy human-centered sensing systems.",
+    "published": "2025-11-25T16:24:29Z",
+    "updated": "2025-11-25T16:24:29Z",
+    "authors": [
+      "Shreevanth Krishnaa Gopalakrishnan",
+      "Stephen Hailes"
+    ],
+    "affiliations": [],
+    "first_author": "Shreevanth Krishnaa Gopalakrishnan",
+    "pdf_url": "https://arxiv.org/pdf/2511.20456v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.19257v1",
+    "arxiv_id": "2511.19257v1",
+    "title": "Medusa: Cross-Modal Transferable Adversarial Attacks on Multimodal Medical Retrieval-Augmented Generation",
+    "summary": "With the rapid advancement of retrieval-augmented vision-language models, multimodal medical retrieval-augmented generation (MMed-RAG) systems are increasingly adopted in clinical decision support. These systems enhance medical applications by performing cross-modal retrieval to integrate relevant visual and textual evidence for tasks, e.g., report generation and disease diagnosis. However, their complex architecture also introduces underexplored adversarial vulnerabilities, particularly via visual input perturbations. In this paper, we propose Medusa, a novel framework for crafting cross-modal transferable adversarial attacks on MMed-RAG systems under a black-box setting. Specifically, Medusa formulates the attack as a perturbation optimization problem, leveraging a multi-positive InfoNCE loss (MPIL) to align adversarial visual embeddings with medically plausible but malicious textual targets, thereby hijacking the retrieval process. To enhance transferability, we adopt a surrogate model ensemble and design a dual-loop optimization strategy augmented with invariant risk minimization (IRM). Extensive experiments on two real-world medical tasks, including medical report generation and disease diagnosis, demonstrate that Medusa achieves over 90% average attack success rate across various generation models and retrievers under appropriate parameter configuration, while remaining robust against four mainstream defenses, outperforming state-of-the-art baselines. Our results reveal critical vulnerabilities in the MMed-RAG systems and highlight the necessity of robustness benchmarking in safety-critical medical applications. The code and data are available at https://anonymous.4open.science/r/MMed-RAG-Attack-F05A.",
+    "published": "2025-11-24T16:11:01Z",
+    "updated": "2025-11-24T16:11:01Z",
+    "authors": [
+      "Yingjia Shang",
+      "Yi Liu",
+      "Huimin Wang",
+      "Furong Li",
+      "Wenfang Sun",
+      "Wu Chengyu",
+      "Yefeng Zheng"
+    ],
+    "affiliations": [],
+    "first_author": "Yingjia Shang",
+    "pdf_url": "https://arxiv.org/pdf/2511.19257v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.16494v1",
+    "arxiv_id": "2511.16494v1",
+    "title": "Physics-Informed Machine Learning for Efficient Sim-to-Real Data Augmentation in Micro-Object Pose Estimation",
+    "summary": "Precise pose estimation of optical microrobots is essential for enabling high-precision object tracking and autonomous biological studies. However, current methods rely heavily on large, high-quality microscope image datasets, which are difficult and costly to acquire due to the complexity of microrobot fabrication and the labour-intensive labelling. Digital twin systems offer a promising path for sim-to-real data augmentation, yet existing techniques struggle to replicate complex optical microscopy phenomena, such as diffraction artifacts and depth-dependent imaging.This work proposes a novel physics-informed deep generative learning framework that, for the first time, integrates wave optics-based physical rendering and depth alignment into a generative adversarial network (GAN), to synthesise high-fidelity microscope images for microrobot pose estimation efficiently. Our method improves the structural similarity index (SSIM) by 35.6% compared to purely AI-driven methods, while maintaining real-time rendering speeds (0.022 s/frame).The pose estimator (CNN backbone) trained on our synthetic data achieves 93.9%/91.9% (pitch/roll) accuracy, just 5.0%/5.4% (pitch/roll) below that of an estimator trained exclusively on real data. Furthermore, our framework generalises to unseen poses, enabling data augmentation and robust pose estimation for novel microrobot configurations without additional training data.",
+    "published": "2025-11-20T16:10:53Z",
+    "updated": "2025-11-20T16:10:53Z",
+    "authors": [
+      "Zongcai Tan",
+      "Lan Wei",
+      "Dandan Zhang"
+    ],
+    "affiliations": [],
+    "first_author": "Zongcai Tan",
+    "pdf_url": "https://arxiv.org/pdf/2511.16494v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.12827v1",
+    "arxiv_id": "2511.12827v1",
+    "title": "Efficient Adversarial Malware Defense via Trust-Based Raw Override and Confidence-Adaptive Bit-Depth Reduction",
+    "summary": "The deployment of robust malware detection systems in big data environments requires careful consideration of both security effectiveness and computational efficiency. While recent advances in adversarial defenses have demonstrated strong robustness improvements, they often introduce computational overhead ranging from 4x to 22x, which presents significant challenges for production systems processing millions of samples daily. In this work, we propose a novel framework that combines Trust-Raw Override (TRO) with Confidence-Adaptive Bit-Depth Reduction (CABDR) to explicitly optimize the trade-off between adversarial robustness and computational efficiency. Our approach leverages adaptive confidence-based mechanisms to selectively apply defensive measures, achieving 1.76x computational overhead - a 2.3x improvement over state-of-the-art smoothing defenses. Through comprehensive evaluation on the EMBER v2 dataset comprising 800K samples, we demonstrate that our framework maintains 91 percent clean accuracy while reducing attack success rates to 31-37 percent across multiple attack types, with particularly strong performance against optimization-based attacks such as C and W (48.8 percent reduction). The framework achieves throughput of up to 1.26 million samples per second (measured on pre-extracted EMBER features with no runtime feature extraction), validated across 72 production configurations with statistical significance (5 independent runs, 95 percent confidence intervals, p less than 0.01). Our results suggest that practical adversarial robustness in production environments requires explicit optimization of the efficiency-robustness trade-off, providing a viable path for organizations to deploy robust defenses without prohibitive infrastructure costs.",
+    "published": "2025-11-16T23:21:44Z",
+    "updated": "2025-11-16T23:21:44Z",
+    "authors": [
+      "Ayush Chaudhary",
+      "Sisir Doppalpudi"
+    ],
+    "affiliations": [],
+    "first_author": "Ayush Chaudhary",
+    "pdf_url": "https://arxiv.org/pdf/2511.12827v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.12199v2",
+    "arxiv_id": "2511.12199v2",
+    "title": "MPD-SGR: Robust Spiking Neural Networks with Membrane Potential Distribution-Driven Surrogate Gradient Regularization",
+    "summary": "The surrogate gradient (SG) method has shown significant promise in enhancing the performance of deep spiking neural networks (SNNs), but it also introduces vulnerabilities to adversarial attacks. Although spike coding strategies and neural dynamics parameters have been extensively studied for their impact on robustness, the critical role of gradient magnitude, which reflects the model's sensitivity to input perturbations, remains underexplored. In SNNs, the gradient magnitude is primarily determined by the interaction between the membrane potential distribution (MPD) and the SG function. In this study, we investigate the relationship between the MPD and SG and their implications for improving the robustness of SNNs. Our theoretical analysis reveals that reducing the proportion of membrane potentials lying within the gradient-available range of the SG function effectively mitigates the sensitivity of SNNs to input perturbations. Building upon this insight, we propose a novel MPD-driven surrogate gradient regularization (MPD-SGR) method, which enhances robustness by explicitly regularizing the MPD based on its interaction with the SG function. Extensive experiments across multiple image classification benchmarks and diverse network architectures confirm that the MPD-SGR method significantly enhances the resilience of SNNs to adversarial perturbations and exhibits strong generalizability across diverse network configurations, SG functions, and spike encoding schemes.",
+    "published": "2025-11-15T13:12:20Z",
+    "updated": "2025-11-18T15:23:00Z",
+    "authors": [
+      "Runhao Jiang",
+      "Chengzhi Jiang",
+      "Rui Yan",
+      "Huajin Tang"
+    ],
+    "affiliations": [],
+    "first_author": "Runhao Jiang",
+    "pdf_url": "https://arxiv.org/pdf/2511.12199v2",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  }
+]

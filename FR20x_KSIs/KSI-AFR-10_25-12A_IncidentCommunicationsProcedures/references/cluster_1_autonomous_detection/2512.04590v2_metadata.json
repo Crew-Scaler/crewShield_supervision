@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.04590v2",
+  "title": "Exploiting ftrace's function_graph Tracer Features for Machine Learning: A Case Study on Encryption Detection",
+  "authors": [
+    "Kenan Begovic",
+    "Abdulaziz Al-Ali",
+    "Qutaibah Malluhi"
+  ],
+  "published": "2025-12-04T09:09:36Z",
+  "url": "http://arxiv.org/abs/2512.04590v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.04590v2.pdf",
+  "relevance_score": 100,
+  "summary": "This paper proposes using the Linux kernel ftrace framework, particularly the function graph tracer, to generate informative system level data for machine learning (ML) applications. Experiments on a real world encryption detection task demonstrate the efficacy of the proposed features across several learning algorithms. The learner faces the problem of detecting encryption activities across a large dataset of files, using function call traces and graph based features. Empirical results highlight an outstanding accuracy of 99.28 on the task at hand, underscoring the efficacy of features derived from the function graph tracer. The results were further validated in an additional experiment targeting a multilabel classification problem, in which running programs were identified from trace data. This work provides comprehensive methodologies for preprocessing raw trace data and extracting graph based features, offering significant advancements in applying ML to system behavior analysis, program identification, and anomaly detection. By bridging the gap between system tracing and ML, this paper paves the way for innovative solutions in performance monitoring and security analytics."
+}

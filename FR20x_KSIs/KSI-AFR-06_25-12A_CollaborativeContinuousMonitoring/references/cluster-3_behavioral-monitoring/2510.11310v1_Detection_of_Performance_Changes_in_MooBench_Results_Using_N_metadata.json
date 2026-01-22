@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.11310v1",
+  "title": "Detection of Performance Changes in MooBench Results Using Nyrki\u00f6 on GitHub Actions",
+  "authors": [
+    "Shinhyung Yang",
+    "David Georg Reichelt",
+    "Henrik Ingo",
+    "Wilhelm Hasselbring"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-10",
+  "url": "https://arxiv.org/abs/2510.11310v1",
+  "relevance_score": 84.5,
+  "estimated_pages": 8,
+  "key_topics": [
+    "model monitoring",
+    "autonomous systems"
+  ],
+  "summary": "In GitHub with its 518 million hosted projects, performance changes within these projects are highly relevant to the project's users. Although performance measurement is supported by GitHub CI/CD, performance change detection is a challenging topic.\n  In this paper, we demonstrate how we incorporated Nyrki\u00f6 to MooBench. Prior to this work, Moobench continuously ran on GitHub virtual machines, measuring overhead of tracing agents, but without change detection. By adding the upload of the measurem..."
+}

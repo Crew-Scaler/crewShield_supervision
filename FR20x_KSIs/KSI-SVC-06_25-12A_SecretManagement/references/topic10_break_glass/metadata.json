@@ -1,0 +1,3225 @@
+{
+  "search_date": "2025-12-25T08:45:35.205459",
+  "total_papers_found": 12,
+  "top_papers_downloaded": 10,
+  "papers_archived": 2,
+  "search_queries": [
+    "all:(\"emergency access\") AND all:(break-glass OR just-in-time) AND all:(credential OR key) AND submittedDate:[20240101 TO 20251231]",
+    "all:(\"automated incident response\") AND all:(\"key rotation\" OR credential) AND all:(security OR safety) AND submittedDate:[20240101 TO 20251231]",
+    "all:(\"incident remediation\") AND all:(automation OR autonomous) AND all:(\"access control\" OR credential) AND submittedDate:[20240101 TO 20251231]",
+    "all:(\"emergency procedure\") AND all:(access OR authentication) AND all:(automation OR automated) AND submittedDate:[20230101 TO 20251231]",
+    "all:(\"privilege escalation\") AND all:(emergency OR temporal OR \"just-in-time\") AND submittedDate:[20230101 TO 20251231]"
+  ],
+  "top_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2507.19976v1",
+      "title": "\"Blockchain-Enabled Zero Trust Framework for Securing FinTech Ecosystems Against Insider Threats and Cyber Attacks\"",
+      "authors": [
+        "Avinash Singh",
+        "Vikas Pareek",
+        "Asish Sharma"
+      ],
+      "published": "2025-07-26",
+      "relevance_score": 62.0,
+      "score_reasons": "2025 paper (+20); just-in-time (+10); privilege escalation (+8); access control (+5); authentication (+4)",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.19976v1",
+      "abstract": "Fintech provides technological services to increase operational efficiency in financial institutions, but traditional perimeter-based defense mechanisms are insufficient against evolving cyber threats like insider attacks, malware intrusions, and Advanced Persistent Threats (APTs). These vulnerabilities expose Fintech organizations to significant risks, including financial losses and data breaches. To address these challenges, this paper proposes a blockchain-integrated Zero Trust framework, adh..."
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2512.10280v1",
+      "title": "Graph Neural Network Based Adaptive Threat Detection for Cloud Identity and Access Management Logs",
+      "authors": [
+        "Venkata Tanuja Madireddy"
+      ],
+      "published": "2025-12-11",
+      "relevance_score": 46.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); zero trust (+6); audit (+2); cloud security (+3)",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2512.10280v1",
+      "abstract": "The rapid expansion of cloud infrastructures and distributed identity systems has significantly increased the complexity and attack surface of modern enterprises. Traditional rule based or signature driven detection systems are often inadequate in identifying novel or evolving threats within Identity and Access Management logs, where anomalous behavior may appear statistically benign but contextually malicious. This paper presents a Graph Neural Network Based Adaptive Threat Detection framework ..."
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2507.21094v2",
+      "title": "SkyEye: When Your Vision Reaches Beyond IAM Boundary Scope in AWS Cloud",
+      "authors": [
+        "Minh Hoang Nguyen",
+        "Anh Minh Ho",
+        "Bao Son To"
+      ],
+      "published": "2025-07-01",
+      "relevance_score": 46.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); authorization (+4); compliance (+2); cloud security (+3)",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.21094v2",
+      "abstract": "In recent years, cloud security has emerged as a primary concern for enterprises due to the increasing trend of migrating internal infrastructure and applications to cloud environments. This shift is driven by the desire to reduce the high costs and maintenance fees associated with traditional on-premise infrastructure. By leveraging cloud capacities such as high availability and scalability, companies can achieve greater operational efficiency and flexibility. However, this migration also intro..."
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2507.17655v2",
+      "title": "HSM and TPM Failures in Cloud: A Real-World Taxonomy and Emerging Defenses",
+      "authors": [
+        "Shams Shaikh",
+        "Trima P. Fernandes e Fizardo"
+      ],
+      "published": "2025-07-23",
+      "relevance_score": 40.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); key management (+7); threat (+2); CS category (+3)",
+      "categories": [
+        "cs.CR",
+        "cs.NI",
+        "cs.SE"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.17655v2",
+      "abstract": "As cloud infrastructure becomes the backbone of modern organizations, the security of cryptographic key management, especially using Hardware Security Modules (HSMs) and Trusted Platform Modules (TPMs), faces unprecedented challenges. While these hardware-based solutions offer strong protection in isolated environments, their effectiveness is being undermined by cloud-native threats such as misconfigurations, compromised APIs, and lateral privilege escalations. This paper presents a comprehensiv..."
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2507.06742v1",
+      "title": "PenTest2.0: Towards Autonomous Privilege Escalation Using GenAI",
+      "authors": [
+        "Haitham S. Al-Sinani",
+        "Chris J. Mitchell"
+      ],
+      "published": "2025-07-09",
+      "relevance_score": 36.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); US institution: MIT (+5); CS category (+3)",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.06742v1",
+      "abstract": "Ethical hacking today relies on highly skilled practitioners executing complex sequences of commands, which is inherently time-consuming, difficult to scale, and prone to human error. To help mitigate these limitations, we previously introduced 'PenTest++', an AI-augmented system combining automation with generative AI supporting ethical hacking workflows. However, a key limitation of PenTest++ was its lack of support for privilege escalation, a crucial element of ethical hacking. In this paper ..."
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2509.23680v1",
+      "title": "A First Look at Privacy Risks of Android Task-executable Voice Assistant Applications",
+      "authors": [
+        "Shidong Pan",
+        "Yikai Ge",
+        "Xiaoyu Sun"
+      ],
+      "published": "2025-09-28",
+      "relevance_score": 33.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); threat (+2); CS category (+3)",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2509.23680v1",
+      "abstract": "With the development of foundation AI technologies, task-executable voice assistants (VAs) have become more popular, enhancing user convenience and expanding device functionality. Android task-executable VAs are applications that are capable of understanding complex tasks and performing corresponding operations. Given their prevalence and great autonomy, there is no existing work examine the privacy risks within the voice assistants from the task-execution pattern in a holistic manner. To fill t..."
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2507.06250v1",
+      "title": "We Urgently Need Privilege Management in MCP: A Measurement of API Usage in MCP Ecosystems",
+      "authors": [
+        "Zhihao Li",
+        "Kun Li",
+        "Boyang Ma",
+        "Minghui Xu",
+        "Yue Zhang",
+        "Xiuzhen Cheng"
+      ],
+      "published": "2025-07-05",
+      "relevance_score": 31.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); CS category (+3)",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.SE"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.06250v1",
+      "abstract": "The Model Context Protocol (MCP) has emerged as a widely adopted mechanism for connecting large language models to external tools and resources. While MCP promises seamless extensibility and rich integrations, it also introduces a substantially expanded attack surface: any plugin can inherit broad system privileges with minimal isolation or oversight. In this work, we conduct the first large-scale empirical analysis of MCP security risks. We develop an automated static analysis framework and sys..."
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2510.13893v1",
+      "title": "Guarding the Guardrails: A Taxonomy-Driven Approach to Jailbreak Detection",
+      "authors": [
+        "Olga E. Sorokoletova",
+        "Francesco Giarrusso",
+        "Vincenzo Suriani",
+        "Daniele Nardi"
+      ],
+      "published": "2025-10-14",
+      "relevance_score": 30.0,
+      "score_reasons": "2025 paper (+20); privilege escalation (+8); threat (+2)",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2510.13893v1",
+      "abstract": "Jailbreaking techniques pose a significant threat to the safety of Large Language Models (LLMs). Existing defenses typically focus on single-turn attacks, lack coverage across languages, and rely on limited taxonomies that either fail to capture the full diversity of attack strategies or emphasize risk categories rather than the jailbreaking techniques. To advance the understanding of the effectiveness of jailbreaking techniques, we conducted a structured red-teaming challenge. The outcome of ou..."
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2506.14467v1",
+      "title": "Automatic Cannulation of Femoral Vessels in a Porcine Shock Model",
+      "authors": [
+        "Nico Zevallos",
+        "Cecilia G. Morales",
+        "Andrew Orekhov",
+        "Tejas Rane",
+        "Hernando Gomez",
+        "Francis X. Guyette",
+        "Michael R. Pinsky",
+        "John Galeotti",
+        "Artur Dubrawski",
+        "Howie Choset"
+      ],
+      "published": "2025-06-17",
+      "relevance_score": 27.0,
+      "score_reasons": "2025 paper (+20); emergency procedure (+7)",
+      "categories": [
+        "cs.RO"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2506.14467v1",
+      "abstract": "Rapid and reliable vascular access is critical in trauma and critical care. Central vascular catheterization enables high-volume resuscitation, hemodynamic monitoring, and advanced interventions like ECMO and REBOA. While peripheral access is common, central access is often necessary but requires specialized ultrasound-guided skills, posing challenges in prehospital settings. The complexity arises from deep target vessels and the precision needed for needle placement. Traditional techniques, lik..."
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2310.11409v6",
+      "title": "LLMs as Hackers: Autonomous Linux Privilege Escalation Attacks",
+      "authors": [
+        "Andreas Happe",
+        "Aaron Kaplan",
+        "Juergen Cito"
+      ],
+      "published": "2023-10-17",
+      "relevance_score": 16.0,
+      "score_reasons": "2023 paper (+5); privilege escalation (+8); CS category (+3)",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2310.11409v6",
+      "abstract": "Penetration-testing is crucial for identifying system vulnerabilities, with privilege-escalation being a critical subtask to gain elevated access to protected resources. Language Models (LLMs) presents new avenues for automating these security practices by emulating human behavior. However, a comprehensive understanding of LLMs' efficacy and limitations in performing autonomous Linux privilege-escalation attacks remains under-explored. To address this gap, we introduce hackingBuddyGPT, a fully a..."
+    }
+  ],
+  "archived_papers": [
+    {
+      "arxiv_id": "2308.03825v2",
+      "title": "\"Do Anything Now\": Characterizing and Evaluating In-The-Wild Jailbreak Prompts on Large Language Models",
+      "authors": [
+        "Xinyue Shen",
+        "Zeyuan Chen",
+        "Michael Backes",
+        "Yun Shen",
+        "Yang Zhang"
+      ],
+      "published": "2023-08-07",
+      "relevance_score": 16.0,
+      "abstract": "The misuse of large language models (LLMs) has drawn significant attention from the general public and LLM vendors. One particular type of adversarial prompt, known as jailbreak prompt, has emerged as the main attack vector to bypass the safeguards and elicit harmful content from LLMs. In this paper..."
+    },
+    {
+      "arxiv_id": "2309.15518v1",
+      "title": "Raij\u016b: Reinforcement Learning-Guided Post-Exploitation for Automating Security Assessment of Network Systems",
+      "authors": [
+        "Van-Hau Pham",
+        "Hien Do Hoang",
+        "Phan Thanh Trung",
+        "Van Dinh Quoc",
+        "Trong-Nghia To",
+        "Phan The Duy"
+      ],
+      "published": "2023-09-27",
+      "relevance_score": 10.0,
+      "abstract": "In order to assess the risks of a network system, it is important to investigate the behaviors of attackers after successful exploitation, which is called post-exploitation. Although there are various efficient tools supporting post-exploitation implementation, no application can automate this proce..."
+    },
+    {
+      "arxiv_id": "2501.01732v1",
+      "title": "Combined Hyper-Extensible Extremely-Secured Zero-Trust CIAM-PAM architecture",
+      "authors": [
+        "Shivom Aggarwal",
+        "Shourya Mehra",
+        "Safeer Sathar"
+      ],
+      "published": "2025-01-03",
+      "relevance_score": 53.0,
+      "abstract": "Customer Identity and Access Management (CIAM) systems play a pivotal role in securing enterprise infrastructures. However, the complexity of implementing these systems requires careful architectural planning to ensure positive Return on Investment (RoI) and avoid costly delays. The proliferation of..."
+    },
+    {
+      "arxiv_id": "2511.15837v1",
+      "title": "Scalable Privilege Analysis for Multi-Cloud Big Data Platforms: A Hypergraph Approach",
+      "authors": [
+        "Sai Sitharaman",
+        "Hassan Karim",
+        "Deepti Gupta",
+        "Mudit Tyagi"
+      ],
+      "published": "2025-11-19",
+      "relevance_score": 51.0,
+      "abstract": "The rapid adoption of multi-cloud environments has amplified risks associated with privileged access mismanagement. Traditional Privileged Access Management (PAM) solutions based on Attribute-Based Access Control (ABAC) exhibit cubic O(n^3) complexity, rendering real-time privilege analysis intracta..."
+    },
+    {
+      "arxiv_id": "2504.11984v1",
+      "title": "The Evolution of Zero Trust Architecture (ZTA) from Concept to Implementation",
+      "authors": [
+        "Md Nasiruzzaman",
+        "Maaruf Ali",
+        "Iftekhar Salam",
+        "Mahdi H. Miraz"
+      ],
+      "published": "2025-04-16",
+      "relevance_score": 47.0,
+      "abstract": "Zero Trust Architecture (ZTA) is one of the paradigm changes in cybersecurity, from the traditional perimeter-based model to perimeterless. This article studies the core concepts of ZTA, its beginning, a few use cases and future trends. Emphasising the always verify and least privilege access, some ..."
+    },
+    {
+      "arxiv_id": "2507.12937v1",
+      "title": "Enterprise Security Incident Analysis and Countermeasures Based on the T-Mobile Data Breach",
+      "authors": [
+        "Zhuohan Cui",
+        "Zikun Song"
+      ],
+      "published": "2025-07-17",
+      "relevance_score": 44.0,
+      "abstract": "This paper presents a comprehensive analysis of T-Mobile's critical data breaches in 2021 and 2023, alongside a full-spectrum security audit targeting its systems, infrastructure, and publicly exposed endpoints. By combining case-based vulnerability assessments with active ethical hacking techniques..."
+    },
+    {
+      "arxiv_id": "2507.02309v2",
+      "title": "Rethinking Broken Object Level Authorization Attacks Under Zero Trust Principle",
+      "authors": [
+        "Anbin Wu",
+        "Zhiyong Feng",
+        "Ruitao Feng",
+        "Zhenchang Xing",
+        "Yang Liu"
+      ],
+      "published": "2025-07-03",
+      "relevance_score": 44.0,
+      "abstract": "RESTful APIs facilitate data exchange between applications, but they also expose sensitive resources to potential exploitation. Broken Object Level Authorization (BOLA) is the top vulnerability in the OWASP API Security Top 10, exemplifies a critical access control flaw where attackers manipulate AP..."
+    },
+    {
+      "arxiv_id": "2501.06281v1",
+      "title": "Autonomous Identity-Based Threat Segmentation in Zero Trust Architectures",
+      "authors": [
+        "Sina Ahmadi"
+      ],
+      "published": "2025-01-10",
+      "relevance_score": 44.0,
+      "abstract": "Zero Trust Architectures (ZTA) fundamentally redefine network security by adopting a \"trust nothing, verify everything\" approach that requires identity verification for all access. Conventional discrete access control measures have proven inadequate since they do not consider evolving user activitie..."
+    },
+    {
+      "arxiv_id": "2501.02203v1",
+      "title": "Secure IAM on AWS with Multi-Account Strategy",
+      "authors": [
+        "Sungchan Yi"
+      ],
+      "published": "2025-01-04",
+      "relevance_score": 44.0,
+      "abstract": "Many recent IT companies use cloud services for deploying their products, mainly because of their convenience. As such, cloud assets have become a new attack surface, and the concept of cloud security has emerged. However, cloud security is not emphasized enough compared to on-premise security, resu..."
+    },
+    {
+      "arxiv_id": "2502.10281v2",
+      "title": "TrustZero -- open, verifiable and scalable zero-trust",
+      "authors": [
+        "Adrian-Tudor Dumitrescu",
+        "Johan Pouwelse"
+      ],
+      "published": "2025-02-14",
+      "relevance_score": 43.0,
+      "abstract": "We present a passport-level trust token for Europe. In an era of escalating cyber threats fueled by global competition in economic, military, and technological domains, traditional security models are proving inadequate. The rise of advanced attacks exploiting zero-day vulnerabilities, supply chain ..."
+    },
+    {
+      "arxiv_id": "2507.14263v1",
+      "title": "Beyond DNS: Unlocking the Internet of AI Agents via the NANDA Index and Verified AgentFacts",
+      "authors": [
+        "Ramesh Raskar",
+        "Pradyumna Chari",
+        "John Zinky",
+        "Mahesh Lambe",
+        "Jared James Grogan",
+        "Sichao Wang",
+        "Rajesh Ranjan",
+        "Rekha Singhal",
+        "Shailja Gupta",
+        "Robert Lincourt",
+        "Raghu Bala",
+        "Aditi Joshi",
+        "Abhishek Singh",
+        "Ayush Chopra",
+        "Dimitris Stripelis",
+        "Bhuwan B",
+        "Sumit Kumar",
+        "Maria Gorskikh"
+      ],
+      "published": "2025-07-18",
+      "relevance_score": 42.0,
+      "abstract": "The Internet is poised to host billions to trillions of autonomous AI agents that negotiate, delegate, and migrate in milliseconds and workloads that will strain DNS-centred identity and discovery. In this paper, we describe the NANDA index architecture, which we envision as a means for discoverabil..."
+    },
+    {
+      "arxiv_id": "2505.18872v1",
+      "title": "Zero Trust Cybersecurity: Procedures and Considerations in Context",
+      "authors": [
+        "Brady D. Lund",
+        "Tae Hee Lee",
+        "Ziang Wang",
+        "Ting Wang",
+        "Nishith Reddy Mannuru"
+      ],
+      "published": "2025-05-24",
+      "relevance_score": 42.0,
+      "abstract": "In response to the increasing complexity and sophistication of cyber threats, particularly those enhanced by advancements in artificial intelligence, traditional security methods are proving insufficient. This paper explores the Zero Trust cybersecurity framework, which operates on the principle of ..."
+    },
+    {
+      "arxiv_id": "2503.11659v2",
+      "title": "Zero Trust Architecture: A Systematic Literature Review",
+      "authors": [
+        "Muhammad Liman Gambo",
+        "Ahmad Almulhem"
+      ],
+      "published": "2025-02-07",
+      "relevance_score": 42.0,
+      "abstract": "The increasing complexity of digital ecosystems and evolving cybersecurity threats have highlighted the limitations of traditional perimeter-based security models, leading to the growing adoption of Zero Trust Architecture (ZTA). ZTA operates on the principle of \"never trust, always verify\", enforci..."
+    },
+    {
+      "arxiv_id": "2411.13447v1",
+      "title": "Blockchain-Enhanced Framework for Secure Third-Party Vendor Risk Management and Vigilant Security Controls",
+      "authors": [
+        "Deepti Gupta",
+        "Lavanya Elluri",
+        "Avi Jain",
+        "Shafika Showkat Moni",
+        "Omer Aslan"
+      ],
+      "published": "2024-11-20",
+      "relevance_score": 42.0,
+      "abstract": "In an era of heightened digital interconnectedness, businesses increasingly rely on third-party vendors to enhance their operational capabilities. However, this growing dependency introduces significant security risks, making it crucial to develop a robust framework to mitigate potential vulnerabili..."
+    },
+    {
+      "arxiv_id": "2511.01910v2",
+      "title": "Security Audit of intel ICE Driver for e810 Network Interface Card",
+      "authors": [
+        "Oisin O Sullivan"
+      ],
+      "published": "2025-10-31",
+      "relevance_score": 41.0,
+      "abstract": "The security of enterprise-grade networking hardware and software is critical to ensuring the integrity, availability, and confidentiality of data in modern cloud and data center environments. Network interface controllers (NICs) play a pivotal role in high-performance computing and virtualization, ..."
+    },
+    {
+      "arxiv_id": "2508.19465v1",
+      "title": "Addressing Weak Authentication like RFID, NFC in EVs and EVCs using AI-powered Adaptive Authentication",
+      "authors": [
+        "Onyinye Okoye"
+      ],
+      "published": "2025-08-26",
+      "relevance_score": 40.0,
+      "abstract": "The rapid expansion of the Electric Vehicles (EVs) and Electric Vehicle Charging Systems (EVCs) has introduced new cybersecurity challenges, specifically in authentication protocols that protect vehicles, users, and energy infrastructure. Although widely adopted for convenience, traditional authenti..."
+    },
+    {
+      "arxiv_id": "2411.06139v1",
+      "title": "A Critical Analysis of Foundations, Challenges and Directions for Zero Trust Security in Cloud Environments",
+      "authors": [
+        "Ganiyu Oladimeji"
+      ],
+      "published": "2024-11-09",
+      "relevance_score": 40.0,
+      "abstract": "This review discusses the theoretical frameworks and application prospects of Zero Trust Security (ZTS) in cloud computing context. This is because, as organisations move more of their applications and data to the cloud, the old borders-based security model that many implemented are inadequate, ther..."
+    },
+    {
+      "arxiv_id": "2410.21870v1",
+      "title": "Authentication and identity management based on zero trust security model in micro-cloud environment",
+      "authors": [
+        "Ivana Kovacevic",
+        "Milan Stojkov",
+        "Milos Simic"
+      ],
+      "published": "2024-10-29",
+      "relevance_score": 40.0,
+      "abstract": "The abilities of traditional perimeter-based security architectures are rapidly decreasing as more enterprise assets are moved toward the cloud environment. From a security viewpoint, the Zero Trust framework can better track and block external attackers while limiting security breaches resulting fr..."
+    },
+    {
+      "arxiv_id": "2512.06914v1",
+      "title": "SoK: Trust-Authorization Mismatch in LLM Agent Interactions",
+      "authors": [
+        "Guanquan Shi",
+        "Haohua Du",
+        "Zhiqiang Wang",
+        "Xiaoyu Liang",
+        "Weiwenpei Liu",
+        "Song Bian",
+        "Zhenyu Guan"
+      ],
+      "published": "2025-12-07",
+      "relevance_score": 39.0,
+      "abstract": "Large Language Models (LLMs) are rapidly evolving into autonomous agents capable of interacting with the external world, significantly expanding their capabilities through standardized interaction protocols. However, this paradigm revives the classic cybersecurity challenges of agency and authorizat..."
+    },
+    {
+      "arxiv_id": "2410.18291v1",
+      "title": "Enhancing Enterprise Security with Zero Trust Architecture",
+      "authors": [
+        "Mahmud Hasan"
+      ],
+      "published": "2024-10-23",
+      "relevance_score": 39.0,
+      "abstract": "Zero Trust Architecture (ZTA) represents a transformative approach to modern cybersecurity, directly addressing the shortcomings of traditional perimeter-based security models. With the rise of cloud computing, remote work, and increasingly sophisticated cyber threats, perimeter defenses have proven..."
+    },
+    {
+      "arxiv_id": "2403.04794v1",
+      "title": "Cloud Security Assurance: Strategies for Encryption in Digital Forensic Readiness",
+      "authors": [
+        "Ahmed MohanRaj Alenezi"
+      ],
+      "published": "2024-03-04",
+      "relevance_score": 39.0,
+      "abstract": "This paper explores strategies for enhancing cloud security through encryption and digital forensic readiness. The adoption of cloud computing has brought unprecedented benefits to organizations but also introduces new security challenges. Encryption plays a crucial role in protecting data confident..."
+    },
+    {
+      "arxiv_id": "2507.15163v3",
+      "title": "Adaptive Network Security Policies via Belief Aggregation and Rollout",
+      "authors": [
+        "Kim Hammar",
+        "Yuchao Li",
+        "Tansu Alpcan",
+        "Emil C. Lupu",
+        "Dimitri Bertsekas"
+      ],
+      "published": "2025-07-21",
+      "relevance_score": 38.0,
+      "abstract": "Evolving security vulnerabilities and shifting operational conditions require frequent updates to network security policies. These updates include adjustments to incident response procedures and modifications to access controls, among others. Reinforcement learning methods have been proposed for aut..."
+    },
+    {
+      "arxiv_id": "2505.03796v1",
+      "title": "AI-Driven IRM: Transforming insider risk management with adaptive scoring and LLM-based threat detection",
+      "authors": [
+        "Lokesh Koli",
+        "Shubham Kalra",
+        "Rohan Thakur",
+        "Anas Saifi",
+        "Karanpreet Singh"
+      ],
+      "published": "2025-05-01",
+      "relevance_score": 38.0,
+      "abstract": "Insider threats pose a significant challenge to organizational security, often evading traditional rule-based detection systems due to their subtlety and contextual nature. This paper presents an AI-powered Insider Risk Management (IRM) system that integrates behavioral analytics, dynamic risk scori..."
+    },
+    {
+      "arxiv_id": "2511.04925v1",
+      "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+      "authors": [
+        "Rethish Nair Rajendran",
+        "Sathish Krishna Anumula",
+        "Dileep Kumar Rai",
+        "Sachin Agrawal"
+      ],
+      "published": "2025-11-07",
+      "relevance_score": 37.0,
+      "abstract": "The microservice bombshells that have been linked with the microservice expansion have altered the application architectures, offered agility and scalability in terms of complexity in security trade-offs. Feeble legacy-based perimeter-based policies are unable to offer safeguard to distributed workl..."
+    },
+    {
+      "arxiv_id": "2510.17087v1",
+      "title": "Quantum Key Distribution for Virtual Power Plant Communication: A Lightweight Key-Aware Scheduler with Provable Stability",
+      "authors": [
+        "Ziqing Zhu"
+      ],
+      "published": "2025-10-20",
+      "relevance_score": 37.0,
+      "abstract": "Virtual power plants (VPPs) are becoming a cornerstone of future grids, aggregating distributed PV, wind, storage, and flexible loads for market participation and real-time balancing. As operations move to minute-- and second--level feedback, communication security shifts from a compliance item to a..."
+    },
+    {
+      "arxiv_id": "2506.09559v1",
+      "title": "Identity and Access Management for the Computing Continuum",
+      "authors": [
+        "Chalima Dimitra Nassar Kyriakidou",
+        "Athanasia Maria Papathanasiou",
+        "Vasilios A. Siris",
+        "Nikos Fotiou",
+        "George C. Polyzos",
+        "Eduardo C\u00e1novas Mart\u00ednez",
+        "Antonio Skarmeta"
+      ],
+      "published": "2025-06-11",
+      "relevance_score": 37.0,
+      "abstract": "The computing continuum introduces new challenges for access control due to its dynamic, distributed, and heterogeneous nature. In this paper, we propose a Zero-Trust (ZT) access control solution that leverages decentralized identification and authentication mechanisms based on Decentralized Identif..."
+    },
+    {
+      "arxiv_id": "2506.12060v1",
+      "title": "Organizational Adaptation to Generative AI in Cybersecurity: A Systematic Review",
+      "authors": [
+        "Christopher Nott"
+      ],
+      "published": "2025-05-31",
+      "relevance_score": 37.0,
+      "abstract": "Cybersecurity organizations are adapting to GenAI integration through modified frameworks and hybrid operational processes, with success influenced by existing security maturity, regulatory requirements, and investments in human capital and infrastructure. This qualitative research employs systemati..."
+    },
+    {
+      "arxiv_id": "2402.10389v1",
+      "title": "Enabling Zero Trust Security in IoMT Edge Network",
+      "authors": [
+        "Maha Ali Allouzi",
+        "Javed Khan"
+      ],
+      "published": "2024-02-16",
+      "relevance_score": 37.0,
+      "abstract": "Internet of Medical Things (IoMT) deals with a patient-data-rich segment, which makes security and privacy a severe concern for patients. Therefore, access control is a significant aspect of ensuring trust in the IoMT. However, deploying existing authentication and authorization solutions to the Int..."
+    },
+    {
+      "arxiv_id": "2511.22017v1",
+      "title": "POLARIS: Cross-Domain Access Control via Verifiable Identity and Policy-Based Authorization",
+      "authors": [
+        "Aiyao Zhang",
+        "Xiaodong Lee",
+        "Zhixian Zhuang",
+        "Jiuqi Wei",
+        "Yufan Fu",
+        "Botao Peng"
+      ],
+      "published": "2025-11-27",
+      "relevance_score": 36.0,
+      "abstract": "Access control is a security mechanism designed to ensure that only authorized users can access specific resources. Cross-domain access control involves access to resources across different organizations, institutions, or applications. Traditional access control, however, which handles authenticatio..."
+    },
+    {
+      "arxiv_id": "2511.20505v1",
+      "title": "A Single-Root, Multi-Curve, Context-Isolated, PQC-Pluggable Cryptographic Identity Primitive with Stateless Secret Rotation",
+      "authors": [
+        "Jian Sheng Wang"
+      ],
+      "published": "2025-11-25",
+      "relevance_score": 36.0,
+      "abstract": "Cryptographic identity anchors modern decentralized systems, yet current standards like BIP-39 and BIP-32 are structurally insufficient for the demands of multi-curve, multi-domain, and post-quantum (PQC) environments. These legacy schemes rely on a monolithic identity root with no inherent context ..."
+    },
+    {
+      "arxiv_id": "2511.19644v1",
+      "title": "IRSDA: An Agent-Orchestrated Framework for Enterprise Intrusion Response",
+      "authors": [
+        "Damodar Panigrahi",
+        "Raj Patel",
+        "Shaswata Mitra",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "published": "2025-11-24",
+      "relevance_score": 36.0,
+      "abstract": "Modern enterprise systems face escalating cyber threats that are increasingly dynamic, distributed, and multi-stage in nature. Traditional intrusion detection and response systems often rely on static rules and manual workflows, which limit their ability to respond with the speed and precision requi..."
+    },
+    {
+      "arxiv_id": "2507.03993v1",
+      "title": "MalVol-25: A Diverse, Labelled and Detailed Volatile Memory Dataset for Malware Detection and Response Testing and Validation",
+      "authors": [
+        "Dipo Dunsin",
+        "Mohamed Chahine Ghanem",
+        "Eduardo Almeida Palmieri"
+      ],
+      "published": "2025-07-05",
+      "relevance_score": 36.0,
+      "abstract": "This paper addresses the critical need for high-quality malware datasets that support advanced analysis techniques, particularly machine learning and agentic AI frameworks. Existing datasets often lack diversity, comprehensive labelling, and the complexity necessary for effective machine learning an..."
+    },
+    {
+      "arxiv_id": "2510.19418v1",
+      "title": "From See to Shield: ML-Assisted Fine-Grained Access Control for Visual Data",
+      "authors": [
+        "Mete Harun Akcay",
+        "Buse Gul Atli",
+        "Siddharth Prakash Rao",
+        "Alexandros Bakas"
+      ],
+      "published": "2025-10-22",
+      "relevance_score": 35.0,
+      "abstract": "As the volume of stored data continues to grow, identifying and protecting sensitive information within large repositories becomes increasingly challenging, especially when shared with multiple users with different roles and permissions. This work presents a system architecture for trusted data shar..."
+    },
+    {
+      "arxiv_id": "2510.11414v1",
+      "title": "Uncertainty-Aware, Risk-Adaptive Access Control for Agentic Systems using an LLM-Judged TBAC Model",
+      "authors": [
+        "Charles Fleming",
+        "Ashish Kundu",
+        "Ramana Kompella"
+      ],
+      "published": "2025-10-13",
+      "relevance_score": 35.0,
+      "abstract": "The proliferation of autonomous AI agents within enterprise environments introduces a critical security challenge: managing access control for emergent, novel tasks for which no predefined policies exist. This paper introduces an advanced security framework that extends the Task-Based Access Control..."
+    },
+    {
+      "arxiv_id": "2509.24440v2",
+      "title": "Evaluating Relayed and Switched Quantum Key Distribution (QKD) Network Architectures",
+      "authors": [
+        "Antonis Selentis",
+        "Nikolas Makris",
+        "Alkinoos Papageorgopoulos",
+        "Persefoni Konteli",
+        "Konstantinos Christodoulopoulos",
+        "George T. Kanellos",
+        "Dimitris Syvridis"
+      ],
+      "published": "2025-09-29",
+      "relevance_score": 35.0,
+      "abstract": "We evaluate the performance of two architectures for network-wide quantum key distribution (QKD): Relayed QKD, which relays keys over multi-link QKD paths for non-adjacent nodes, and Switched QKD, which uses optical switches to dynamically connect arbitrary QKD modules to form direct QKD links betwe..."
+    },
+    {
+      "arxiv_id": "2506.05601v1",
+      "title": "Network Hexagons Under Attack: Secure Crowdsourcing of Geo-Referenced Data",
+      "authors": [
+        "Okemawo Obadofin",
+        "Joao Barros"
+      ],
+      "published": "2025-06-05",
+      "relevance_score": 35.0,
+      "abstract": "A critical requirement for modern-day Intelligent Transportation Systems (ITS) is the ability to collect geo-referenced data from connected vehicles and mobile devices in a safe, secure and anonymous way. The Nexagon protocol, which builds on the IETF Locator/ID Separation Protocol (LISP) and the Hi..."
+    },
+    {
+      "arxiv_id": "2505.23792v1",
+      "title": "Zero-Trust Foundation Models: A New Paradigm for Secure and Collaborative Artificial Intelligence for Internet of Things",
+      "authors": [
+        "Kai Li",
+        "Conggai Li",
+        "Xin Yuan",
+        "Shenghong Li",
+        "Sai Zou",
+        "Syed Sohail Ahmed",
+        "Wei Ni",
+        "Dusit Niyato",
+        "Abbas Jamalipour",
+        "Falko Dressler",
+        "Ozgur B. Akan"
+      ],
+      "published": "2025-05-26",
+      "relevance_score": 35.0,
+      "abstract": "This paper focuses on Zero-Trust Foundation Models (ZTFMs), a novel paradigm that embeds zero-trust security principles into the lifecycle of foundation models (FMs) for Internet of Things (IoT) systems. By integrating core tenets, such as continuous verification, least privilege access (LPA), data ..."
+    },
+    {
+      "arxiv_id": "2504.14760v1",
+      "title": "Establishing Workload Identity for Zero Trust CI/CD: From Secrets to SPIFFE-Based Authentication",
+      "authors": [
+        "Surya Teja Avirneni"
+      ],
+      "published": "2025-04-20",
+      "relevance_score": 35.0,
+      "abstract": "CI/CD systems have become privileged automation agents in modern infrastructure, but their identity is still based on secrets or temporary credentials passed between systems. In enterprise environments, these platforms are centralized and shared across teams, often with broad cloud permissions and l..."
+    },
+    {
+      "arxiv_id": "2512.09233v1",
+      "title": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System",
+      "authors": [
+        "Alan T. Sherman",
+        "Jeremy J. Romanik Romano",
+        "Edward Zieglar",
+        "Enis Golaszewski",
+        "Jonathan D. Fuchs",
+        "William E. Byrd"
+      ],
+      "published": "2025-12-10",
+      "relevance_score": 34.0,
+      "abstract": "We analyze security aspects of the SecureDNA system regarding its system design, engineering, and implementation. This system enables DNA synthesizers to screen order requests against a database of hazards. By applying novel cryptography, the system aims to keep order requests and the database of ha..."
+    },
+    {
+      "arxiv_id": "2510.16067v1",
+      "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+      "authors": [
+        "Saurabh Deochake",
+        "Ryan Murphy",
+        "Jeremiah Gearheart"
+      ],
+      "published": "2025-10-17",
+      "relevance_score": 34.0,
+      "abstract": "Static, long-lived credentials for workload authentication create untenable security risks that violate Zero-Trust principles. This paper presents a multi-cloud framework using Workload Identity Federation (WIF) and OpenID Connect (OIDC) for secretless authentication. Our approach uses cryptographic..."
+    },
+    {
+      "arxiv_id": "2509.15653v2",
+      "title": "Future-Proofing Cloud Security Against Quantum Attacks: Risk, Transition, and Mitigation Strategies",
+      "authors": [
+        "Yaser Baseri",
+        "Abdelhakim Hafid",
+        "Arash Habibi Lashkari"
+      ],
+      "published": "2025-09-19",
+      "relevance_score": 34.0,
+      "abstract": "Quantum Computing (QC) introduces a transformative threat to digital security, with the potential to compromise widely deployed classical cryptographic systems. This survey offers a comprehensive and systematic examination of quantumsafe security for Cloud Computing (CC), focusing on the vulnerabili..."
+    },
+    {
+      "arxiv_id": "2508.05707v1",
+      "title": "System Security Framework for 5G Advanced /6G IoT Integrated Terrestrial Network-Non-Terrestrial Network (TN-NTN) with AI-Enabled Cloud Security",
+      "authors": [
+        "Sasa Maric",
+        "Rasil Baidar",
+        "Robert Abbas",
+        "Sam Reisenfeld"
+      ],
+      "published": "2025-08-07",
+      "relevance_score": 34.0,
+      "abstract": "The integration of Terrestrial Networks (TN) and Non-Terrestrial Networks (NTN), including 5G Advanced/6G and the Internet of Things (IoT) technologies, using Low Earth Orbit (LEO) satellites, high-altitude platforms (HAPS), and Unmanned Aerial Vehicles (UAVs), is redefining the landscape of global ..."
+    },
+    {
+      "arxiv_id": "2506.17988v1",
+      "title": "Secure User-friendly Blockchain Modular Wallet Design Using Android & OP-TEE",
+      "authors": [
+        "Seongjin Kim",
+        "Sanguk Yun",
+        "Jungho Jang"
+      ],
+      "published": "2025-06-22",
+      "relevance_score": 34.0,
+      "abstract": "Emerging crypto economies still hemorrhage digital assets because legacy wallets leak private keys at almost every layer of the software stack, from user-space libraries to kernel memory dumps. This paper solves that twin crisis of security and interoperability by re-imagining key management as a pl..."
+    },
+    {
+      "arxiv_id": "2503.19768v2",
+      "title": "A Managed Tokens Service for Securely Keeping and Distributing Grid Tokens",
+      "authors": [
+        "Shreyas Bhat",
+        "Dave Dykstra"
+      ],
+      "published": "2025-03-25",
+      "relevance_score": 34.0,
+      "abstract": "Fermilab is transitioning authentication and authorization for grid operations to using bearer tokens based on the WLCG Common JWT (JSON Web Token) Profile. One of the functionalities that Fermilab experimenters rely on is the ability to automate batch job submission, which in turn depends on the ab..."
+    },
+    {
+      "arxiv_id": "2503.00164v1",
+      "title": "Transforming Cyber Defense: Harnessing Agentic and Frontier AI for Proactive, Ethical Threat Intelligence",
+      "authors": [
+        "Krti Tallam"
+      ],
+      "published": "2025-02-28",
+      "relevance_score": 34.0,
+      "abstract": "In an era marked by unprecedented digital complexity, the cybersecurity landscape is evolving at a breakneck pace, challenging traditional defense paradigms. Advanced Persistent Threats (APTs) reveal inherent vulnerabilities in conventional security measures and underscore the urgent need for contin..."
+    },
+    {
+      "arxiv_id": "2511.14005v1",
+      "title": "Privis: Towards Content-Aware Secure Volumetric Video Delivery",
+      "authors": [
+        "Kaiyuan Hu",
+        "Hong Kang",
+        "Yili Jin",
+        "Junhua Liu",
+        "Chengming Hu",
+        "Haolun Wu",
+        "Xue Liu"
+      ],
+      "published": "2025-11-18",
+      "relevance_score": 33.0,
+      "abstract": "Volumetric video has emerged as a key paradigm in eXtended Reality (XR) and immersive multimedia because it enables highly interactive, spatially consistent 3D experiences. However, the transport-layer security for such 3D content remains largely unaddressed. Existing volumetric streaming pipelines ..."
+    },
+    {
+      "arxiv_id": "2510.18601v1",
+      "title": "Evaluating Large Language Models in detecting Secrets in Android Apps",
+      "authors": [
+        "Marco Alecci",
+        "Jordan Samhi",
+        "Tegawend\u00e9 F. Bissyand\u00e9",
+        "Jacques Klein"
+      ],
+      "published": "2025-10-21",
+      "relevance_score": 33.0,
+      "abstract": "Mobile apps often embed authentication secrets, such as API keys, tokens, and client IDs, to integrate with cloud services. However, developers often hardcode these credentials into Android apps, exposing them to extraction through reverse engineering. Once compromised, adversaries can exploit secre..."
+    },
+    {
+      "arxiv_id": "2510.06535v2",
+      "title": "SpyChain: Multi-Vector Supply Chain Attacks on Small Satellite Systems",
+      "authors": [
+        "Jack Vanlyssel",
+        "Enrique Sobrados",
+        "Ramsha Anwar",
+        "Gruia-Catalin Roman",
+        "Afsah Anwar"
+      ],
+      "published": "2025-10-08",
+      "relevance_score": 33.0,
+      "abstract": "Small satellites are integral to scientific, commercial, and defense missions, but reliance on commercial off-the-shelf (COTS) hardware broadens their attack surface. Although supply chain threats are well studied in other cyber-physical domains, their feasibility and stealth in space systems remain..."
+    },
+    {
+      "arxiv_id": "2509.11934v1",
+      "title": "zkToken: Empowering Holders to Limit Revocation Checks for Verifiable Credentials",
+      "authors": [
+        "Praveensankar Manimaran",
+        "Mayank Raikwar",
+        "Thiago Garrett",
+        "Arlindo F. da Concei\u00e7\u00e3o",
+        "Leander Jehl",
+        "Roman Vitenberg"
+      ],
+      "published": "2025-09-15",
+      "relevance_score": 33.0,
+      "abstract": "Systems managing Verifiable Credentials are becoming increasingly popular. Unfortunately, their support for revoking previously issued credentials allows verifiers to effectively monitor the validity of the credentials, which is sensitive information. While the issue started to gain recognition, no ..."
+    },
+    {
+      "arxiv_id": "2508.15776v1",
+      "title": "Implementing Zero Trust Architecture to Enhance Security and Resilience in the Pharmaceutical Supply Chain",
+      "authors": [
+        "Saeid Ghasemshirazi",
+        "Ghazaleh Shirvani",
+        "Marziye Ranjbar Tavakoli",
+        "Bahar Ghaedi",
+        "Mohammad Amin Langarizadeh"
+      ],
+      "published": "2025-07-31",
+      "relevance_score": 33.0,
+      "abstract": "The pharmaceutical supply chain faces escalating cybersecurity challenges threatening patient safety and operational continuity. This paper examines the transformative potential of zero trust architecture for enhancing security and resilience within this critical ecosystem. We explore the challenges..."
+    },
+    {
+      "arxiv_id": "2506.20981v1",
+      "title": "PrivacyGo: Privacy-Preserving Ad Measurement with Multidimensional Intersection",
+      "authors": [
+        "Jian Du",
+        "Haohao Qian",
+        "Shikun Zhang",
+        "Wen-jie Lu",
+        "Donghang Lu",
+        "Yongchuan Niu",
+        "Bo Jiang",
+        "Yongjun Zhao",
+        "Qiang Yan"
+      ],
+      "published": "2025-06-26",
+      "relevance_score": 33.0,
+      "abstract": "This paper tackles the challenging and practical problem of multi-identifier private user profile matching for privacy-preserving ad measurement, a cornerstone of modern advertising analytics. We introduce a comprehensive cryptographic framework leveraging reversed Oblivious Pseudorandom Functions (..."
+    },
+    {
+      "arxiv_id": "2512.06046v1",
+      "title": "Beyond Prototyping: Autonomous, Enterprise-Grade Frontend Development from Pixel to Production via a Specialized Multi-Agent Framework",
+      "authors": [
+        "Ramprasath Ganesaraja",
+        "Swathika N",
+        "Saravanan AP",
+        "Kamalkumar Rathinasamy",
+        "Chetana Amancharla",
+        "Rahul Das",
+        "Sahil Dilip Panse",
+        "Aditya Batwe",
+        "Dileep Vijayan",
+        "Veena Ashok",
+        "Thanushree A P",
+        "Kausthubh J Rao",
+        "Alden Olivero",
+        " Roshan",
+        "Rajeshwar Reddy Manthena",
+        "Asmitha Yuga Sre A",
+        "Harsh Tripathi",
+        "Suganya Selvaraj",
+        "Vito Chin",
+        "Kasthuri Rangan Bhaskar",
+        "Kasthuri Rangan Bhaskar",
+        "Venkatraman R",
+        "Sajit Vijayakumar"
+      ],
+      "published": "2025-12-05",
+      "relevance_score": 32.0,
+      "abstract": "We present AI4UI, a framework of autonomous front-end development agents purpose-built to meet the rigorous requirements of enterprise-grade application delivery. Unlike general-purpose code assistants designed for rapid prototyping, AI4UI focuses on production readiness delivering secure, scalable,..."
+    },
+    {
+      "arxiv_id": "2511.11836v1",
+      "title": "Securing Generative AI in Healthcare: A Zero-Trust Architecture Powered by Confidential Computing on Google Cloud",
+      "authors": [
+        "Adaobi Amanna",
+        "Ishana Shinde"
+      ],
+      "published": "2025-11-14",
+      "relevance_score": 32.0,
+      "abstract": "The integration of Generative Artificial Intelligence (GenAI) in healthcare is impeded by significant security challenges unaddressed by traditional frameworks, precisely the data-in-use gap where sensitive patient data and proprietary AI models are exposed during active processing. To address this,..."
+    },
+    {
+      "arxiv_id": "2511.05119v1",
+      "title": "Cybersecurity AI in OT: Insights from an AI Top-10 Ranker in the Dragos OT CTF 2025",
+      "authors": [
+        "V\u00edctor Mayoral-Vilches",
+        "Luis Javier Navarrete-Lozano",
+        "Francesco Balassone",
+        "Mar\u00eda Sanz-G\u00f3mez",
+        "Crist\u00f3bal Ricardo Veas Ch\u00e1vez",
+        "Maite del Mundo de Torres"
+      ],
+      "published": "2025-11-07",
+      "relevance_score": 32.0,
+      "abstract": "Operational Technology (OT) cybersecurity increasingly relies on rapid response across malware analysis, network forensics, and reverse engineering disciplines. We examine the performance of Cybersecurity AI (CAI), powered by the \\texttt{alias1} model, during the Dragos OT CTF 2025 -- a 48-hour indu..."
+    },
+    {
+      "arxiv_id": "2511.00249v1",
+      "title": "Application of Blockchain Frameworks for Decentralized Identity and Access Management of IoT Devices",
+      "authors": [
+        "Sushil Khairnar"
+      ],
+      "published": "2025-10-31",
+      "relevance_score": 32.0,
+      "abstract": "The growth in IoT devices means an ongoing risk of data vulnerability. The transition from centralized ecosystems to decentralized ecosystems is of paramount importance due to security, privacy, and data use concerns. Since the majority of IoT devices will be used by consumers in peer-to-peer applic..."
+    },
+    {
+      "arxiv_id": "2510.09494v1",
+      "title": "The Data Enclave Advantage: A New Paradigm for Least-Privileged Data Access in a Zero-Trust World",
+      "authors": [
+        "Nico Bistolfi",
+        "Andreea Georgescu",
+        "Dave Hodson"
+      ],
+      "published": "2025-10-10",
+      "relevance_score": 32.0,
+      "abstract": "As cloud infrastructure evolves to support dynamic and distributed workflows, accelerated now by AI-driven processes, the outdated model of standing permissions has become a critical vulnerability. Based on the Cloud Security Alliance (CSA) Top Threats to Cloud Computing Deep Dive 2025 Report, our a..."
+    },
+    {
+      "arxiv_id": "2509.13597v1",
+      "title": "Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents",
+      "authors": [
+        "Abhishek Goswami"
+      ],
+      "published": "2025-09-16",
+      "relevance_score": 32.0,
+      "abstract": "Autonomous LLM agents can issue thousands of API calls per hour without human oversight. OAuth 2.0 assumes deterministic clients, but in agentic settings stochastic reasoning, prompt injection, or multi-agent orchestration can silently expand privileges.   We introduce Agentic JWT (A-JWT), a dual-fa..."
+    },
+    {
+      "arxiv_id": "2508.20643v1",
+      "title": "CyberSleuth: Autonomous Blue-Team LLM Agent for Web Attack Forensics",
+      "authors": [
+        "Stefano Fumero",
+        "Kai Huang",
+        "Matteo Boffa",
+        "Danilo Giordano",
+        "Marco Mellia",
+        "Zied Ben Houidi",
+        "Dario Rossi"
+      ],
+      "published": "2025-08-28",
+      "relevance_score": 32.0,
+      "abstract": "Large Language Model (LLM) agents are powerful tools for automating complex tasks. In cybersecurity, researchers have primarily explored their use in red-team operations such as vulnerability discovery and penetration tests. Defensive uses for incident response and forensics have received comparativ..."
+    },
+    {
+      "arxiv_id": "2508.10677v1",
+      "title": "Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence",
+      "authors": [
+        "Amine Tellache",
+        "Abdelaziz Amara Korba",
+        "Amdjed Mokhtari",
+        "Horea Moldovan",
+        "Yacine Ghamri-Doudane"
+      ],
+      "published": "2025-08-14",
+      "relevance_score": 32.0,
+      "abstract": "Effective incident response (IR) is critical for mitigating cyber threats, yet security teams are overwhelmed by alert fatigue, high false-positive rates, and the vast volume of unstructured Cyber Threat Intelligence (CTI) documents. While CTI holds immense potential for enriching security operation..."
+    },
+    {
+      "arxiv_id": "2507.13629v1",
+      "title": "Large Language Models in Cybersecurity: Applications, Vulnerabilities, and Defense Techniques",
+      "authors": [
+        "Niveen O. Jaffal",
+        "Mohammed Alkhanafseh",
+        "David Mohaisen"
+      ],
+      "published": "2025-07-18",
+      "relevance_score": 32.0,
+      "abstract": "Large Language Models (LLMs) are transforming cybersecurity by enabling intelligent, adaptive, and automated approaches to threat detection, vulnerability assessment, and incident response. With their advanced language understanding and contextual reasoning, LLMs surpass traditional methods in tackl..."
+    },
+    {
+      "arxiv_id": "2507.07244v1",
+      "title": "Automated Attack Testflow Extraction from Cyber Threat Report using BERT for Contextual Analysis",
+      "authors": [
+        "Faissal Ahmadou",
+        "Sepehr Ghaffarzadegan",
+        "Boubakr Nour",
+        "Makan Pourzandi",
+        "Mourad Debbabi",
+        "Chadi Assi"
+      ],
+      "published": "2025-07-09",
+      "relevance_score": 32.0,
+      "abstract": "In the ever-evolving landscape of cybersecurity, the rapid identification and mitigation of Advanced Persistent Threats (APTs) is crucial. Security practitioners rely on detailed threat reports to understand the tactics, techniques, and procedures (TTPs) employed by attackers. However, manually extr..."
+    },
+    {
+      "arxiv_id": "2506.08055v1",
+      "title": "A Systematic Literature Review on Continuous Integration and Deployment (CI/CD) for Secure Cloud Computing",
+      "authors": [
+        "Sabbir M. Saleh",
+        "Nazim Madhavji",
+        "John Steinbacher"
+      ],
+      "published": "2025-06-09",
+      "relevance_score": 32.0,
+      "abstract": "As cloud environments become widespread, cybersecurity has emerged as a top priority across areas such as networks, communication, data privacy, response times, and availability. Various sectors, including industries, healthcare, and government, have recently faced cyberattacks targeting their compu..."
+    },
+    {
+      "arxiv_id": "2505.23397v2",
+      "title": "A Unified Framework for Human AI Collaboration in Security Operations Centers with Trusted Autonomy",
+      "authors": [
+        "Ahmad Mohsin",
+        "Helge Janicke",
+        "Ahmed Ibrahim",
+        "Iqbal H. Sarker",
+        "Seyit Camtepe"
+      ],
+      "published": "2025-05-29",
+      "relevance_score": 32.0,
+      "abstract": "This article presents a structured framework for Human-AI collaboration in Security Operations Centers (SOCs), integrating AI autonomy, trust calibration, and Human-in-the-loop decision making. Existing frameworks in SOCs often focus narrowly on automation, lacking systematic structures to manage hu..."
+    },
+    {
+      "arxiv_id": "2505.20945v3",
+      "title": "IRCopilot: Automated Incident Response with Large Language Models",
+      "authors": [
+        "Xihuan Lin",
+        "Jie Zhang",
+        "Gelei Deng",
+        "Tianzhe Liu",
+        "Tianwei Zhang",
+        "Qing Guo",
+        "Riqing Chen"
+      ],
+      "published": "2025-05-27",
+      "relevance_score": 32.0,
+      "abstract": "Incident response plays a pivotal role in mitigating the impact of cyber attacks. In recent years, the intensity and complexity of global cyber threats have grown significantly, making it increasingly challenging for traditional threat detection and incident response methods to operate effectively i..."
+    },
+    {
+      "arxiv_id": "2503.05206v2",
+      "title": "Operationalizing Cybersecurity Knowledge: Design, Implementation & Evaluation of a Knowledge Management System for CACAO Playbooks",
+      "authors": [
+        "Orestis Tsirakis",
+        "Konstantinos Fysarakis",
+        "Vasileios Mavroeidis",
+        "Ioannis Papaefstathiou"
+      ],
+      "published": "2025-03-07",
+      "relevance_score": 32.0,
+      "abstract": "Modern cybersecurity threats are growing in complexity, targeting increasingly intricate & interconnected systems. To effectively defend against these evolving threats, security teams utilize automation & orchestration to enhance response efficiency and consistency. In that sense, cybersecurity play..."
+    },
+    {
+      "arxiv_id": "2411.16639v1",
+      "title": "K8s Pro Sentinel: Extend Secret Security in Kubernetes Cluster",
+      "authors": [
+        "Kavindu Gunathilake",
+        "Indrajith Ekanayake"
+      ],
+      "published": "2024-11-25",
+      "relevance_score": 32.0,
+      "abstract": "Microservice architecture is widely adopted among distributed systems. It follows the modular approach that decomposes large software applications into independent services. Kubernetes has become the standard tool for managing these microservices. It stores sensitive information like database passwo..."
+    },
+    {
+      "arxiv_id": "2512.18043v1",
+      "title": "Securing Agentic AI Systems -- A Multilayer Security Framework",
+      "authors": [
+        "Sunil Arora",
+        "John Hastings"
+      ],
+      "published": "2025-12-19",
+      "relevance_score": 31.0,
+      "abstract": "Securing Agentic Artificial Intelligence (AI) systems requires addressing the complex cyber risks introduced by autonomous, decision-making, and adaptive behaviors. Agentic AI systems are increasingly deployed across industries, organizations, and critical sectors such as cybersecurity, finance, and..."
+    },
+    {
+      "arxiv_id": "2512.09485v1",
+      "title": "Advancing LLM-Based Security Automation with Customized Group Relative Policy Optimization for Zero-Touch Networks",
+      "authors": [
+        "Xinye Cao",
+        "Yihan Lin",
+        "Guoshun Nan",
+        "Qinchuan Zhou",
+        "Yuhang Luo",
+        "Yurui Gao",
+        "Zeliang Zhang",
+        "Haolang Lu",
+        "Qimei Cui",
+        "Yanzhao Hou",
+        "Xiaofeng Tao",
+        "Tony Q. S. Quek"
+      ],
+      "published": "2025-12-10",
+      "relevance_score": 31.0,
+      "abstract": "Zero-Touch Networks (ZTNs) represent a transformative paradigm toward fully automated and intelligent network management, providing the scalability and adaptability required for the complexity of sixth-generation (6G) networks. However, the distributed architecture, high openness, and deep heterogen..."
+    },
+    {
+      "arxiv_id": "2509.25462v1",
+      "title": "Managing Differentiated Secure Connectivity using Intents",
+      "authors": [
+        "Loay Abdelrazek",
+        "Filippo Rebecchi"
+      ],
+      "published": "2025-09-29",
+      "relevance_score": 31.0,
+      "abstract": "Mobile networks in the 5G and 6G era require to rethink how to manage security due to the introduction of new services, use cases, each with its own security requirements, while simultaneously expanding the threat landscape. Although automation has emerged as a key enabler to address complexity in n..."
+    },
+    {
+      "arxiv_id": "2506.08192v1",
+      "title": "Interpreting Agent Behaviors in Reinforcement-Learning-Based Cyber-Battle Simulation Platforms",
+      "authors": [
+        "Jared Claypoole",
+        "Steven Cheung",
+        "Ashish Gehani",
+        "Vinod Yegneswaran",
+        "Ahmad Ridley"
+      ],
+      "published": "2025-06-09",
+      "relevance_score": 31.0,
+      "abstract": "We analyze two open source deep reinforcement learning agents submitted to the CAGE Challenge 2 cyber defense challenge, where each competitor submitted an agent to defend a simulated network against each of several provided rules-based attack agents. We demonstrate that one can gain interpretabilit..."
+    },
+    {
+      "arxiv_id": "2504.19951v1",
+      "title": "Securing GenAI Multi-Agent Systems Against Tool Squatting: A Zero Trust Registry-Based Approach",
+      "authors": [
+        "Vineeth Sai Narajala",
+        "Ken Huang",
+        "Idan Habler"
+      ],
+      "published": "2025-04-28",
+      "relevance_score": 31.0,
+      "abstract": "The rise of generative AI (GenAI) multi-agent systems (MAS) necessitates standardized protocols enabling agents to discover and interact with external tools. However, these protocols introduce new security challenges, particularly; tool squatting; the deceptive registration or representation of tool..."
+    },
+    {
+      "arxiv_id": "2504.14761v1",
+      "title": "Decoupling Identity from Access: Credential Broker Patterns for Secure CI/CD",
+      "authors": [
+        "Surya Teja Avirneni"
+      ],
+      "published": "2025-04-20",
+      "relevance_score": 31.0,
+      "abstract": "Credential brokers offer a way to separate identity from access in CI/CD systems. This paper shows how verifiable identities issued at runtime, such as those from SPIFFE, can be used with brokers to enable short-lived, policy-driven credentials for pipelines and workloads. We walk through practical ..."
+    },
+    {
+      "arxiv_id": "2504.05143v1",
+      "title": "Taming Double-Spending in Offline Payments with Reputation-Weighted Loan Networks",
+      "authors": [
+        "Nektarios Evangelou",
+        "Rowdy Chotkan",
+        "Bulat Nasrulin",
+        "J\u00e9r\u00e9mie Decouchant"
+      ],
+      "published": "2025-04-07",
+      "relevance_score": 31.0,
+      "abstract": "Blockchain solutions typically assume a synchronous network to ensure consistency and achieve consensus. In contrast, offline transaction systems aim to enable users to agree on and execute transactions without assuming bounded communication delays when interacting with the blockchain. Most existing..."
+    },
+    {
+      "arxiv_id": "2501.12292v1",
+      "title": "Library-Attack: Reverse Engineering Approach for Evaluating Hardware IP Protection",
+      "authors": [
+        "Aritra Dasgupta",
+        "Sudipta Paria",
+        "Christopher Sozio",
+        "Andrew Lukefahr",
+        "Swarup Bhunia"
+      ],
+      "published": "2025-01-21",
+      "relevance_score": 31.0,
+      "abstract": "Existing countermeasures for hardware IP protection, such as obfuscation, camouflaging, and redaction, aim to defend against confidentiality and integrity attacks. However, within the current threat model, these techniques overlook the potential risks posed by a highly skilled adversary with privile..."
+    },
+    {
+      "arxiv_id": "2405.14970v1",
+      "title": "P4Control: Line-Rate Cross-Host Attack Prevention via In-Network Information Flow Control Enabled by Programmable Switches and eBPF",
+      "authors": [
+        "Osama Bajaber",
+        "Bo Ji",
+        "Peng Gao"
+      ],
+      "published": "2024-05-23",
+      "relevance_score": 31.0,
+      "abstract": "Modern targeted attacks such as Advanced Persistent Threats use multiple hosts as stepping stones and move laterally across them to gain deeper access to the network. However, existing defenses lack end-to-end information flow visibility across hosts and cannot block cross-host attack traffic in rea..."
+    },
+    {
+      "arxiv_id": "2402.08299v1",
+      "title": "Zero Trust Score-based Network-level Access Control in Enterprise Networks",
+      "authors": [
+        "Leonard Bradatsch",
+        "Oleksandr Miroshkin",
+        "Natasa Trkulja",
+        "Frank Kargl"
+      ],
+      "published": "2024-02-13",
+      "relevance_score": 31.0,
+      "abstract": "Zero Trust security has recently gained attention in enterprise network security. One of its key ideas is making network-level access decisions based on trust scores. However, score-based access control in the enterprise domain still lacks essential elements in our understanding, and in this paper, ..."
+    },
+    {
+      "arxiv_id": "2512.18517v1",
+      "title": "Exploring Runtime Evolution in Android: A Cross-Version Analysis and Its Implications for Memory Forensics",
+      "authors": [
+        "Babangida Bappah",
+        "Lauren G Bristol",
+        "Lamine Noureddine",
+        "Sideeq Bello",
+        "Umar Farooq",
+        "Aisha Ali-Gombe"
+      ],
+      "published": "2025-12-20",
+      "relevance_score": 30.0,
+      "abstract": "Userland memory forensics has become a critical component of smartphone investigations and incident response, enabling the recovery of volatile evidence such as deleted messages from end-to-end encrypted apps and cryptocurrency transactions. However, these forensics tools, particularly on Android, f..."
+    },
+    {
+      "arxiv_id": "2512.05951v2",
+      "title": "Trusted AI Agents in the Cloud",
+      "authors": [
+        "Teofil Bodea",
+        "Masanori Misono",
+        "Julian Pritzi",
+        "Patrick Sabanic",
+        "Thore Sommer",
+        "Harshavardhan Unnibhavi",
+        "David Schall",
+        "Nuno Santos",
+        "Dimitrios Stavrakakis",
+        "Pramod Bhatotia"
+      ],
+      "published": "2025-12-05",
+      "relevance_score": 30.0,
+      "abstract": "AI agents powered by large language models are increasingly deployed as cloud services that autonomously access sensitive data, invoke external tools, and interact with other agents. However, these agents run within a complex multi-party ecosystem, where untrusted components can lead to data leakage..."
+    },
+    {
+      "arxiv_id": "2509.16749v1",
+      "title": "Evaluating LLM Generated Detection Rules in Cybersecurity",
+      "authors": [
+        "Anna Bertiger",
+        "Bobby Filar",
+        "Aryan Luthra",
+        "Stefano Meschiari",
+        "Aiden Mitchell",
+        "Sam Scholten",
+        "Vivek Sharath"
+      ],
+      "published": "2025-09-20",
+      "relevance_score": 30.0,
+      "abstract": "LLMs are increasingly pervasive in the security environment, with limited measures of their effectiveness, which limits trust and usefulness to security practitioners. Here, we present an open-source evaluation framework and benchmark metrics for evaluating LLM-generated cybersecurity rules. The ben..."
+    },
+    {
+      "arxiv_id": "2509.02077v2",
+      "title": "From Attack Descriptions to Vulnerabilities: A Sentence Transformer-Based Approach",
+      "authors": [
+        "Refat Othman",
+        "Diaeddin Rimawi",
+        "Bruno Rossi",
+        "Barbara Russo"
+      ],
+      "published": "2025-09-02",
+      "relevance_score": 30.0,
+      "abstract": "In the domain of security, vulnerabilities frequently remain undetected even after their exploitation. In this work, vulnerabilities refer to publicly disclosed flaws documented in Common Vulnerabilities and Exposures (CVE) reports. Establishing a connection between attacks and vulnerabilities is es..."
+    },
+    {
+      "arxiv_id": "2508.03342v1",
+      "title": "From Legacy to Standard: LLM-Assisted Transformation of Cybersecurity Playbooks into CACAO Format",
+      "authors": [
+        "Mehdi Akbari Gurabi",
+        "Lasse Nitz",
+        "Radu-Mihai Castravet",
+        "Roman Matzutt",
+        "Avikarsha Mandal",
+        "Stefan Decker"
+      ],
+      "published": "2025-08-05",
+      "relevance_score": 30.0,
+      "abstract": "Existing cybersecurity playbooks are often written in heterogeneous, non-machine-readable formats, which limits their automation and interoperability across Security Orchestration, Automation, and Response platforms. This paper explores the suitability of Large Language Models, combined with Prompt ..."
+    },
+    {
+      "arxiv_id": "2505.04843v2",
+      "title": "Large Language Models are Autonomous Cyber Defenders",
+      "authors": [
+        "Sebasti\u00e1n R. Castro",
+        "Roberto Campbell",
+        "Nancy Lau",
+        "Octavio Villalobos",
+        "Jiaqi Duan",
+        "Alvaro A. Cardenas"
+      ],
+      "published": "2025-05-07",
+      "relevance_score": 30.0,
+      "abstract": "Fast and effective incident response is essential to prevent adversarial cyberattacks. Autonomous Cyber Defense (ACD) aims to automate incident response through Artificial Intelligence (AI) agents that plan and execute actions. Most ACD approaches focus on single-agent scenarios and leverage Reinfor..."
+    },
+    {
+      "arxiv_id": "2501.12077v1",
+      "title": "Phishing Awareness via Game-Based Learning",
+      "authors": [
+        "Argianto Rahartomo",
+        "Ahmed Tareq Ali Ghaleb",
+        "Mohammad Ghafari"
+      ],
+      "published": "2025-01-21",
+      "relevance_score": 30.0,
+      "abstract": "The increased use of digital devices and applications has led to a rise in phishing attacks. We develop a serious game to raise awareness about phishing attacks and help people avoid these threats in a risk-free learning environment. This game targets three types of phishing-clone phishing, SMS phis..."
+    },
+    {
+      "arxiv_id": "2512.20985v1",
+      "title": "A Blockchain-Monitored Agentic AI Architecture for Trusted Perception-Reasoning-Action Pipelines",
+      "authors": [
+        "Salman Jan",
+        "Hassan Ali Razzaqi",
+        "Ali Akarma",
+        "Mohammad Riyaz Belgaum"
+      ],
+      "published": "2025-12-24",
+      "relevance_score": 29.0,
+      "abstract": "The application of agentic AI systems in autonomous decision-making is growing in the areas of healthcare, smart cities, digital forensics, and supply chain management. Even though these systems are flexible and offer real-time reasoning, they also raise concerns of trust and oversight, and integrit..."
+    },
+    {
+      "arxiv_id": "2512.15892v1",
+      "title": "VET Your Agent: Towards Host-Independent Autonomy via Verifiable Execution Traces",
+      "authors": [
+        "Artem Grigor",
+        "Christian Schroeder de Witt",
+        "Simon Birnbach",
+        "Ivan Martinovic"
+      ],
+      "published": "2025-12-17",
+      "relevance_score": 29.0,
+      "abstract": "Recent advances in large language models (LLMs) have enabled a new generation of autonomous agents that operate over sustained periods and manage sensitive resources on behalf of users. Trusted for their ability to act without direct oversight, such agents are increasingly considered in high-stakes ..."
+    },
+    {
+      "arxiv_id": "2512.06390v1",
+      "title": "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+      "authors": [
+        "Mehrab Hosain",
+        "Sabbir Alom Shuvo",
+        "Matthew Ogbe",
+        "Md Shah Jalal Mazumder",
+        "Yead Rahman",
+        "Md Azizul Hakim",
+        "Anukul Pandey"
+      ],
+      "published": "2025-12-06",
+      "relevance_score": 29.0,
+      "abstract": "The modern web stack, which is dominated by browser-based applications and API-first backends, now operates under an adversarial equilibrium where automated, AI-assisted attacks evolve continuously. Content Delivery Networks (CDNs) and edge computing place programmable defenses closest to users and ..."
+    },
+    {
+      "arxiv_id": "2512.04129v1",
+      "title": "Tipping the Dominos: Topology-Aware Multi-Hop Attacks on LLM-Based Multi-Agent Systems",
+      "authors": [
+        "Ruichao Liang",
+        "Le Yin",
+        "Jing Chen",
+        "Cong Wu",
+        "Xiaoyu Zhang",
+        "Huangpeng Gu",
+        "Zijian Zhang",
+        "Yang Liu"
+      ],
+      "published": "2025-12-03",
+      "relevance_score": 29.0,
+      "abstract": "LLM-based multi-agent systems (MASs) have reshaped the digital landscape with their emergent coordination and problem-solving capabilities. However, current security evaluations of MASs are still confined to limited attack scenarios, leaving their security issues unclear and likely underestimated. T..."
+    },
+    {
+      "arxiv_id": "2508.16189v1",
+      "title": "A Relay-Chain-Powered Ciphertext-Policy Attribute-Based Encryption in Intelligent Transportation Systems",
+      "authors": [
+        "Aparna Singh",
+        "Geetanjali Rathee",
+        "Chaker Abdelaziz Kerrache",
+        "Mohamed Chahine Ghanem"
+      ],
+      "published": "2025-08-22",
+      "relevance_score": 29.0,
+      "abstract": "The very high growth of Intelligent Transportation Systems (ITS) has generated an urgent requirement for secure, effective, and context-aware data sharing mechanisms, especially over heterogeneous and geographically dispersed settings. This work suggests a new architecture that combines a relay chai..."
+    },
+    {
+      "arxiv_id": "2503.02402v1",
+      "title": "Trace of the Times: Rootkit Detection through Temporal Anomalies in Kernel Activity",
+      "authors": [
+        "Max Landauer",
+        "Leonhard Alton",
+        "Martina Lindorfer",
+        "Florian Skopik",
+        "Markus Wurzenberger",
+        "Wolfgang Hotwagner"
+      ],
+      "published": "2025-03-04",
+      "relevance_score": 29.0,
+      "abstract": "Kernel rootkits provide adversaries with permanent high-privileged access to compromised systems and are often a key element of sophisticated attack chains. At the same time, they enable stealthy operation and are thus difficult to detect. Thereby, they inject code into kernel functions to appear in..."
+    },
+    {
+      "arxiv_id": "2502.17658v1",
+      "title": "THOR: A Non-Speculative Value Dependent Timing Side Channel Attack Exploiting Intel AMX",
+      "authors": [
+        "Farshad Dizani",
+        "Azam Ghanbari",
+        "Joshua Kalyanapu",
+        "Darsh Asher",
+        "Samira Mirbagher Ajorpaz"
+      ],
+      "published": "2025-02-24",
+      "relevance_score": 29.0,
+      "abstract": "The rise of on-chip accelerators signifies a major shift in computing, driven by the growing demands of artificial intelligence (AI) and specialized applications. These accelerators have gained popularity due to their ability to substantially boost performance, cut energy usage, lower total cost of ..."
+    },
+    {
+      "arxiv_id": "2411.15020v1",
+      "title": "ZT-SDN: An ML-powered Zero-Trust Architecture for Software-Defined Networks",
+      "authors": [
+        "Charalampos Katsis",
+        "Elisa Bertino"
+      ],
+      "published": "2024-11-22",
+      "relevance_score": 29.0,
+      "abstract": "Zero Trust (ZT) is a security paradigm aiming to curtail an attacker's lateral movements within a network by implementing least-privilege and per-request access control policies. However, its widespread adoption is hindered by the difficulty of generating proper rules due to the lack of detailed kno..."
+    },
+    {
+      "arxiv_id": "2409.02572v4",
+      "title": "GenDFIR: Advancing Cyber Incident Timeline Analysis Through Retrieval Augmented Generation and Large Language Models",
+      "authors": [
+        "Fatma Yasmine Loumachi",
+        "Mohamed Chahine Ghanem",
+        "Mohamed Amine Ferrag"
+      ],
+      "published": "2024-09-04",
+      "relevance_score": 29.0,
+      "abstract": "Cyber timeline analysis, or forensic timeline analysis, is crucial in Digital Forensics and Incident Response (DFIR). It examines artefacts and events particularly timestamps and metadata to detect anomalies, establish correlations, and reconstruct incident timelines. Traditional methods rely on str..."
+    },
+    {
+      "arxiv_id": "2404.05602v4",
+      "title": "AI-Enabled System for Efficient and Effective Cyber Incident Detection and Response in Cloud Environments",
+      "authors": [
+        "Mohammed Ashfaaq M. Farzaan",
+        "Mohamed Chahine Ghanem",
+        "Ayman El-Hajjar",
+        "Deepthi N. Ratnayake"
+      ],
+      "published": "2024-04-08",
+      "relevance_score": 29.0,
+      "abstract": "The escalating sophistication and volume of cyber threats in cloud environments necessitate a paradigm shift in strategies. Recognising the need for an automated and precise response to cyber threats, this research explores the application of AI and ML and proposes an AI-powered cyber incident respo..."
+    },
+    {
+      "arxiv_id": "2403.06907v1",
+      "title": "Towards Incident Response Orchestration and Automation for the Advanced Metering Infrastructure",
+      "authors": [
+        "Alexios Lekidis",
+        "Vasileios Mavroeidis",
+        "Konstantinos Fysarakis"
+      ],
+      "published": "2024-03-11",
+      "relevance_score": 29.0,
+      "abstract": "The threat landscape of industrial infrastructures has expanded exponentially over the last few years. Such infrastructures include services such as the smart meter data exchange that should have real-time availability. Smart meters constitute the main component of the Advanced Metering Infrastructu..."
+    },
+    {
+      "arxiv_id": "2512.11147v1",
+      "title": "MiniScope: A Least Privilege Framework for Authorizing Tool Calling Agents",
+      "authors": [
+        "Jinhao Zhu",
+        "Kevin Tseng",
+        "Gil Vernik",
+        "Xiao Huang",
+        "Shishir G. Patil",
+        "Vivian Fang",
+        "Raluca Ada Popa"
+      ],
+      "published": "2025-12-11",
+      "relevance_score": 28.0,
+      "abstract": "Tool calling agents are an emerging paradigm in LLM deployment, with major platforms such as ChatGPT, Claude, and Gemini adding connectors and autonomous capabilities. However, the inherent unreliability of LLMs introduces fundamental security risks when these agents operate over sensitive user serv..."
+    },
+    {
+      "arxiv_id": "2501.17070v3",
+      "title": "Contextual Agent Security: A Policy for Every Purpose",
+      "authors": [
+        "Lillian Tsai",
+        "Eugene Bagdasarian"
+      ],
+      "published": "2025-01-28",
+      "relevance_score": 28.0,
+      "abstract": "Judging an action's safety requires knowledge of the context in which the action takes place. To human agents who act in various contexts, this may seem obvious: performing an action such as email deletion may or may not be appropriate depending on the email's content, the goal (e.g., to erase sensi..."
+    },
+    {
+      "arxiv_id": "2408.04580v1",
+      "title": "Quantum Key Distribution Networks -- Key Management: A Survey",
+      "authors": [
+        "Emir Dervisevic",
+        "Amina Tankovic",
+        "Ehsan Fazel",
+        "Ramana Kompella",
+        "Peppino Fazio",
+        "Miroslav Voznak",
+        "Miralem Mehic"
+      ],
+      "published": "2024-08-08",
+      "relevance_score": 28.0,
+      "abstract": "Secure communication makes the widespread use of telecommunication networks and services possible. With the constant progress of computing and mathematics, new cryptographic methods are being diligently developed. Quantum Key Distribution (QKD) is a promising technology that provides an Information-..."
+    },
+    {
+      "arxiv_id": "2405.03544v2",
+      "title": "A Formal Model of Security Controls' Capabilities and Its Applications to Policy Refinement and Incident Management",
+      "authors": [
+        "Cataldo Basile",
+        "Gabriele Gatti",
+        "Francesco Settanni"
+      ],
+      "published": "2024-05-06",
+      "relevance_score": 28.0,
+      "abstract": "Enforcing security requirements in networked information systems relies on security controls to mitigate the risks from increasingly dangerous threats. Configuring security controls is challenging; even nowadays, administrators must perform it without adequate tool support. Hence, this process is pl..."
+    },
+    {
+      "arxiv_id": "2512.21250v1",
+      "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+      "authors": [
+        "Haoyang Li",
+        "Mingjin Li",
+        "Jinxin Zuo",
+        "Siqi Li",
+        "Xiao Li",
+        "Hao Wu",
+        "Yueming Lu",
+        "Xiaochuan He"
+      ],
+      "published": "2025-12-24",
+      "relevance_score": 27.0,
+      "abstract": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and seman..."
+    },
+    {
+      "arxiv_id": "2512.17041v1",
+      "title": "Security Risks of Agentic Vehicles: A Systematic Analysis of Cognitive and Cross-Layer Threats",
+      "authors": [
+        "Ali Eslami",
+        "Jiangbo Yu"
+      ],
+      "published": "2025-12-18",
+      "relevance_score": 27.0,
+      "abstract": "Agentic AI is increasingly being explored and introduced in both manually driven and autonomous vehicles, leading to the notion of Agentic Vehicles (AgVs), with capabilities such as memory-based personalization, goal interpretation, strategic reasoning, and tool-mediated assistance. While frameworks..."
+    },
+    {
+      "arxiv_id": "2512.15915v1",
+      "title": "Private Virtual Tree Networks for Secure Multi-Tenant Environments Based on the VIRGO Overlay Network",
+      "authors": [
+        "Lican Huang"
+      ],
+      "published": "2025-12-17",
+      "relevance_score": 27.0,
+      "abstract": "Hierarchical organization is a fundamental structure in real-world society, where authority and responsibility are delegated from managers to subordinates. The VIRGO network (Virtual Hierarchical Overlay Network for scalable grid computing) provides a scalable overlay for organizing distributed syst..."
+    },
+    {
+      "arxiv_id": "2512.15275v1",
+      "title": "Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",
+      "authors": [
+        "Louis Hackl\u00e4nder-Jansen",
+        "Rafael Uetz",
+        "Martin Henze"
+      ],
+      "published": "2025-12-17",
+      "relevance_score": 27.0,
+      "abstract": "Adversary emulation is an essential procedure for cybersecurity assessments such as evaluating an organization's security posture or facilitating structured training and research in dedicated environments. To allow for systematic and time-efficient assessments, several approaches from academia and i..."
+    },
+    {
+      "arxiv_id": "2512.08204v1",
+      "title": "Evaluating Vulnerabilities of Connected Vehicles Under Cyber Attacks by Attack-Defense Tree",
+      "authors": [
+        "Muhammad Baqer Mollah",
+        "Honggang Wang",
+        "Hua Fang"
+      ],
+      "published": "2025-12-09",
+      "relevance_score": 27.0,
+      "abstract": "Connected vehicles represent a key enabler of intelligent transportation systems, where vehicles are equipped with advanced communication, sensing, and computing technologies to interact not only with one another but also with surrounding infrastructures and the environment. Through continuous data ..."
+    },
+    {
+      "arxiv_id": "2512.02654v1",
+      "title": "Cybersecurity AI: The World's Top AI Agent for Security Capture-the-Flag (CTF)",
+      "authors": [
+        "V\u00edctor Mayoral-Vilches",
+        "Luis Javier Navarrete-Lozano",
+        "Francesco Balassone",
+        "Mar\u00eda Sanz-G\u00f3mez",
+        "Crist\u00f3bal R. J. Veas Chavez",
+        "Maite del Mundo de Torres",
+        "Vanesa Turiel"
+      ],
+      "published": "2025-12-02",
+      "relevance_score": 27.0,
+      "abstract": "Are Capture-the-Flag competitions obsolete? In 2025, Cybersecurity AI (CAI) systematically conquered some of the world's most prestigious hacking competitions, achieving Rank #1 at multiple events and consistently outperforming thousands of human teams. Across five major circuits-HTB's AI vs Humans,..."
+    },
+    {
+      "arxiv_id": "2511.17644v1",
+      "title": "Hybrid Neuro-Symbolic Models for Ethical AI in Risk-Sensitive Domains",
+      "authors": [
+        "Chaitanya Kumar Kolli"
+      ],
+      "published": "2025-11-20",
+      "relevance_score": 27.0,
+      "abstract": "Artificial intelligence deployed in risk-sensitive domains such as healthcare, finance, and security must not only achieve predictive accuracy but also ensure transparency, ethical alignment, and compliance with regulatory expectations. Hybrid neuro symbolic models combine the pattern-recognition st..."
+    },
+    {
+      "arxiv_id": "2511.08491v1",
+      "title": "Toward Autonomous and Efficient Cybersecurity: A Multi-Objective AutoML-based Intrusion Detection System",
+      "authors": [
+        "Li Yang",
+        "Abdallah Shami"
+      ],
+      "published": "2025-11-11",
+      "relevance_score": 27.0,
+      "abstract": "With increasingly sophisticated cybersecurity threats and rising demand for network automation, autonomous cybersecurity mechanisms are becoming critical for securing modern networks. The rapid expansion of Internet of Things (IoT) systems amplifies these challenges, as resource-constrained IoT devi..."
+    },
+    {
+      "arxiv_id": "2508.20444v1",
+      "title": "Ransomware 3.0: Self-Composing and LLM-Orchestrated",
+      "authors": [
+        "Md Raz",
+        "Meet Udeshi",
+        "P. V. Sai Charan",
+        "Prashanth Krishnamurthy",
+        "Farshad Khorrami",
+        "Ramesh Karri"
+      ],
+      "published": "2025-08-28",
+      "relevance_score": 27.0,
+      "abstract": "Using automated reasoning, code synthesis, and contextual decision-making, we introduce a new threat that exploits large language models (LLMs) to autonomously plan, adapt, and execute the ransomware attack lifecycle. Ransomware 3.0 represents the first threat model and research prototype of LLM-orc..."
+    },
+    {
+      "arxiv_id": "2505.12613v1",
+      "title": "Towards Centralized Orchestration of Cyber Protection Condition (CPCON)",
+      "authors": [
+        "Mark Timmons",
+        "Daniel Lukaszewski",
+        "Geoffrey Xie",
+        "Thomas Mayo",
+        "Donald McCanless"
+      ],
+      "published": "2025-05-19",
+      "relevance_score": 27.0,
+      "abstract": "The United States Cyber Command (USCYBERCOM) Cyber Protection Condition (CPCON) framework mandates graduated security postures across Department of Defense (DoD) networks, but current implementation remains largely manual, inconsistent, and error-prone. This paper presents a prototype system for cen..."
+    },
+    {
+      "arxiv_id": "2502.11616v1",
+      "title": "User-Centric Data Management in Decentralized Internet of Behaviors System",
+      "authors": [
+        "Shiqi Zhang",
+        "Dapeng Wu",
+        "Honggang Wang",
+        "Ruyan Wang"
+      ],
+      "published": "2025-02-17",
+      "relevance_score": 27.0,
+      "abstract": "The Internet of Behaviors (IoB) is an emerging concept that utilizes devices to collect human behavior and provide intelligent services. Although some research has focused on human behavior analysis and data collection within IoB, the associated security and privacy challenges remain insufficiently ..."
+    },
+    {
+      "arxiv_id": "2410.15028v3",
+      "title": "A Novel Reinforcement Learning Model for Post-Incident Malware Investigations",
+      "authors": [
+        "Dipo Dunsin",
+        "Mohamed Chahine Ghanem",
+        "Karim Ouazzane",
+        "Vassil Vassilev"
+      ],
+      "published": "2024-10-19",
+      "relevance_score": 27.0,
+      "abstract": "This Research proposes a Novel Reinforcement Learning (RL) model to optimise malware forensics investigation during cyber incident response. It aims to improve forensic investigation efficiency by reducing false negatives and adapting current practices to evolving malware signatures. The proposed RL..."
+    },
+    {
+      "arxiv_id": "2410.13899v1",
+      "title": "Security of and by Generative AI platforms",
+      "authors": [
+        "Hari Hayagreevan",
+        "Souvik Khamaru"
+      ],
+      "published": "2024-10-15",
+      "relevance_score": 27.0,
+      "abstract": "This whitepaper highlights the dual importance of securing generative AI (genAI) platforms and leveraging genAI for cybersecurity. As genAI technologies proliferate, their misuse poses significant risks, including data breaches, model tampering, and malicious content generation. Securing these platf..."
+    },
+    {
+      "arxiv_id": "2409.10828v1",
+      "title": "AutoCRAT: Automatic Cumulative Reconstruction of Alert Trees",
+      "authors": [
+        "Eric Ficke",
+        "Raymond M. Bateman",
+        "Shouhuai Xu"
+      ],
+      "published": "2024-09-17",
+      "relevance_score": 27.0,
+      "abstract": "When a network is attacked, cyber defenders need to precisely identify which systems (i.e., computers or devices) were compromised and what damage may have been inflicted. This process is sometimes referred to as cyber triage and is an important part of the incident response procedure. Cyber triage ..."
+    },
+    {
+      "arxiv_id": "2407.05775v1",
+      "title": "Structural Generalization in Autonomous Cyber Incident Response with Message-Passing Neural Networks and Reinforcement Learning",
+      "authors": [
+        "Jakob Nyberg",
+        "Pontus Johnson"
+      ],
+      "published": "2024-07-08",
+      "relevance_score": 27.0,
+      "abstract": "We believe that agents for automated incident response based on machine learning need to handle changes in network structure. Computer networks are dynamic, and can naturally change in structure over time. Retraining agents for small network changes costs time and energy. We attempt to address this ..."
+    },
+    {
+      "arxiv_id": "2405.14487v1",
+      "title": "A Comprehensive Overview of Large Language Models (LLMs) for Cyber Defences: Opportunities and Directions",
+      "authors": [
+        "Mohammed Hassanin",
+        "Nour Moustafa"
+      ],
+      "published": "2024-05-23",
+      "relevance_score": 27.0,
+      "abstract": "The recent progression of Large Language Models (LLMs) has witnessed great success in the fields of data-centric applications. LLMs trained on massive textual datasets showed ability to encode not only context but also ability to provide powerful comprehension to downstream tasks. Interestingly, Gen..."
+    },
+    {
+      "arxiv_id": "2406.07559v2",
+      "title": "After the Breach: Incident Response within Enterprises",
+      "authors": [
+        "Sumanth Rao"
+      ],
+      "published": "2024-04-30",
+      "relevance_score": 27.0,
+      "abstract": "Enterprises are constantly under attack from sophisticated adversaries. These adversaries use a variety of techniques to first gain access to the enterprise, then spread laterally inside its networks, establish persistence, and finally exfiltrate sensitive data, or hold it for ransom. While historic..."
+    },
+    {
+      "arxiv_id": "2404.10988v1",
+      "title": "From Paper to Platform: Evolution of a Novel Learning Environment for Tabletop Exercises",
+      "authors": [
+        "Valdemar \u0160v\u00e1bensk\u00fd",
+        "Jan Vykopal",
+        "Martin Hor\u00e1k",
+        "Martin Hofbauer",
+        "Pavel \u010celeda"
+      ],
+      "published": "2024-04-17",
+      "relevance_score": 27.0,
+      "abstract": "For undergraduate students of computing, learning to solve complex practical problems in a team is an essential skill for their future careers. This skill is needed in various fields, such as in cybersecurity and IT governance. Tabletop exercises are an innovative teaching method used in practice fo..."
+    },
+    {
+      "arxiv_id": "2402.12252v1",
+      "title": "An Interview Study on Third-Party Cyber Threat Hunting Processes in the U.S. Department of Homeland Security",
+      "authors": [
+        "William P. Maxam",
+        "James C. Davis"
+      ],
+      "published": "2024-02-19",
+      "relevance_score": 27.0,
+      "abstract": "Cybersecurity is a major challenge for large organizations. Traditional cybersecurity defense is reactive. Cybersecurity operations centers keep out adversaries and incident response teams clean up after break-ins. Recently a proactive stage has been introduced: Cyber Threat Hunting (TH) looks for p..."
+    },
+    {
+      "arxiv_id": "2301.11569v1",
+      "title": "Vulnerablity analysis of Azure Blockchain Workbench key management system",
+      "authors": [
+        "Dmitry Tanana"
+      ],
+      "published": "2023-01-27",
+      "relevance_score": 27.0,
+      "abstract": "With rise of blockchain popularity, more and more people seek to implement blockchain technology into their projects. Most common way is to take existing blockchain stack, such as Azure Blockchain Workbench or Oracle Blockchain Platform. While the blockchain technology is well-protected by its algor..."
+    },
+    {
+      "arxiv_id": "2512.15688v1",
+      "title": "BashArena: A Control Setting for Highly Privileged AI Agents",
+      "authors": [
+        "Adam Kaufman",
+        "James Lucassen",
+        "Tyler Tracy",
+        "Cody Rushing",
+        "Aryan Bhatt"
+      ],
+      "published": "2025-12-17",
+      "relevance_score": 26.0,
+      "abstract": "Future AI agents might run autonomously with elevated privileges. If these agents are misaligned, they might abuse these privileges to cause serious damage. The field of AI control develops techniques that make it harder for misaligned AIs to cause such damage, while preserving their usefulness. We ..."
+    },
+    {
+      "arxiv_id": "2502.13401v2",
+      "title": "CipherGuard: Compiler-aided Mitigation against Ciphertext Side-channel Attacks",
+      "authors": [
+        "Ke Jiang",
+        "Sen Deng",
+        "Yinshuai Li",
+        "Shuai Wang",
+        "Tianwei Zhang",
+        "Yinqian Zhang"
+      ],
+      "published": "2025-02-19",
+      "relevance_score": 26.0,
+      "abstract": "Recently, the new ciphertext side channels resulting from the deterministic memory encryption in Trusted Execution Environments (TEEs), enable ciphertexts to manifest identifiable patterns when being sequentially written to the same memory address. Attackers with read access to encrypted memory in T..."
+    },
+    {
+      "arxiv_id": "2406.12330v1",
+      "title": "Security and Privacy of 6G Federated Learning-enabled Dynamic Spectrum Sharing",
+      "authors": [
+        "Viet Vo",
+        "Thusitha Dayaratne",
+        "Blake Haydon",
+        "Xingliang Yuan",
+        "Shangqi Lai",
+        "Sharif Abuadbba",
+        "Hajime Suzuki",
+        "Carsten Rudolph"
+      ],
+      "published": "2024-06-18",
+      "relevance_score": 26.0,
+      "abstract": "Spectrum sharing is increasingly vital in 6G wireless communication, facilitating dynamic access to unused spectrum holes. Recently, there has been a significant shift towards employing machine learning (ML) techniques for sensing spectrum holes. In this context, federated learning (FL)-enabled spec..."
+    },
+    {
+      "arxiv_id": "2404.16872v2",
+      "title": "Mitigating Data Sharing in Public Cloud using Blockchain",
+      "authors": [
+        "Patil Pratik Vijaykumar",
+        "Prerna Tulsiani",
+        "Sunil Mane"
+      ],
+      "published": "2024-04-21",
+      "relevance_score": 26.0,
+      "abstract": "Public Cloud Computing has become a fundamental part of modern IT infrastructure as its adoption has transformed the way businesses operate. However, cloud security concerns introduce new risks and challenges related to data protection, sharing, and access control. A synergistic integration of block..."
+    },
+    {
+      "arxiv_id": "2304.14540v7",
+      "title": "Efficient IAM Greybox Penetration Testing",
+      "authors": [
+        "Yang Hu",
+        "Wenxi Wang",
+        "Sarfraz Khurshid",
+        "Mohit Tiwari"
+      ],
+      "published": "2023-04-27",
+      "relevance_score": 26.0,
+      "abstract": "Identity and Access Management (IAM) is an access control service in cloud platforms. To securely manage cloud resources, customers need to configure IAM to specify the access control rules for their cloud organizations. However, misconfigured IAM can lead to privilege escalation (PE) attacks, causi..."
+    },
+    {
+      "arxiv_id": "2303.16688v1",
+      "title": "Model Checking Access Control Policies: A Case Study using Google Cloud IAM",
+      "authors": [
+        "Antonios Gouglidis",
+        "Anna Kagia",
+        "Vincent C. Hu"
+      ],
+      "published": "2023-03-29",
+      "relevance_score": 26.0,
+      "abstract": "Authoring access control policies is challenging and prone to misconfigurations. Access control policies must be conflict-free. Hence, administrators should identify discrepancies between policy specifications and their intended function to avoid violating security principles. This paper aims to dem..."
+    },
+    {
+      "arxiv_id": "2002.09546v4",
+      "title": "IMDfence: Architecting a Secure Protocol for Implantable Medical Devices",
+      "authors": [
+        "Muhammad Ali Siddiqi",
+        "Christian Doerr",
+        "Christos Strydis"
+      ],
+      "published": "2020-02-21",
+      "relevance_score": 26.0,
+      "abstract": "Over the past decade, focus on the security and privacy aspects of implantable medical devices (IMDs) has intensified, driven by the multitude of cybersecurity vulnerabilities found in various existing devices. However, due to their strict computational, energy and physical constraints, conventional..."
+    },
+    {
+      "arxiv_id": "2512.20986v1",
+      "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+      "authors": [
+        "Yihan Wang",
+        "Huanqi Yang",
+        "Shantanu Pal",
+        "Weitao Xu"
+      ],
+      "published": "2025-12-24",
+      "relevance_score": 25.0,
+      "abstract": "The integration of Large Language Models (LLMs) into wearable sensing is creating a new class of mobile applications capable of nuanced human activity understanding. However, the reliability of these systems is critically undermined by their vulnerability to prompt injection attacks, where attackers..."
+    },
+    {
+      "arxiv_id": "2512.16851v1",
+      "title": "PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy",
+      "authors": [
+        "Ripan Kumar Kundu",
+        "Istiak Ahmed",
+        "Khaza Anuarul Hoque"
+      ],
+      "published": "2025-12-18",
+      "relevance_score": 25.0,
+      "abstract": "The convergence of artificial AI and XR technologies (AI XR) promises innovative applications across many domains. However, the sensitive nature of data (e.g., eye-tracking) used in these systems raises significant privacy concerns, as adversaries can exploit these data and models to infer and leak ..."
+    },
+    {
+      "arxiv_id": "2512.16813v1",
+      "title": "Coordinated Anti-Jamming Resilience in Swarm Networks via Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Bahman Abolhassani",
+        "Tugba Erpek",
+        "Kemal Davaslioglu",
+        "Yalin E. Sagduyu",
+        "Sastry Kompella"
+      ],
+      "published": "2025-12-18",
+      "relevance_score": 25.0,
+      "abstract": "Reactive jammers pose a severe security threat to robotic-swarm networks by selectively disrupting inter-agent communications and undermining formation integrity and mission success. Conventional countermeasures such as fixed power control or static channel hopping are largely ineffective against su..."
+    },
+    {
+      "arxiv_id": "2512.15330v2",
+      "title": "Practical Challenges in Executing Shor's Algorithm on Existing Quantum Platforms",
+      "authors": [
+        "Paul Bagourd",
+        "Julian Jang-Jaccard",
+        "Vincent Lenders",
+        "Alain Mermoud",
+        "Torsten Hoefler",
+        "Cornelius Hempel"
+      ],
+      "published": "2025-12-17",
+      "relevance_score": 25.0,
+      "abstract": "Quantum computers pose a fundamental threat to widely deployed public-key cryptosystems, such as RSA and ECC, by enabling efficient integer factorization using Shor's algorithm. Theoretical resource estimates suggest that 2048-bit RSA keys could be broken using Shor's algorithm with fewer than a mil..."
+    },
+    {
+      "arxiv_id": "2512.15109v2",
+      "title": "Large Model Enabled Embodied Intelligence for 6G Integrated Perception, Communication, and Computation Network",
+      "authors": [
+        "Zhuoran Li",
+        "Zhen Gao",
+        "Xinhua Liu",
+        "Zheng Wang",
+        "Xiaotian Zhou",
+        "Lei Liu",
+        "Yongpeng Wu",
+        "Wei Feng",
+        "Yongming Huang"
+      ],
+      "published": "2025-12-17",
+      "relevance_score": 25.0,
+      "abstract": "The advent of sixth-generation (6G) places intelligence at the core of wireless architecture, fusing perception, communication, and computation into a single closed-loop. This paper argues that large artificial intelligence models (LAMs) can endow base stations with perception, reasoning, and acting..."
+    },
+    {
+      "arxiv_id": "2512.14330v1",
+      "title": "Criminal Liability in AI-Enabled Autonomous Vehicles: A Comparative Study",
+      "authors": [
+        "Sahibpreet Singh",
+        "Manjit Singh"
+      ],
+      "published": "2025-12-16",
+      "relevance_score": 25.0,
+      "abstract": "AI revolutionizes transportation through autonomous vehicles (AVs) but introduces complex criminal liability issues regarding infractions. This study employs a comparative legal analysis of primary statutes, real-world liability claims, and academic literature across the US, Germany, UK, China, and ..."
+    },
+    {
+      "arxiv_id": "2512.14233v1",
+      "title": "PentestEval: Benchmarking LLM-based Penetration Testing with Modular and Stage-Level Design",
+      "authors": [
+        "Ruozhao Yang",
+        "Mingfei Cheng",
+        "Gelei Deng",
+        "Tianwei Zhang",
+        "Junjie Wang",
+        "Xiaofei Xie"
+      ],
+      "published": "2025-12-16",
+      "relevance_score": 25.0,
+      "abstract": "Penetration testing is essential for assessing and strengthening system security against real-world threats, yet traditional workflows remain highly manual, expertise-intensive, and difficult to scale. Although recent advances in Large Language Models (LLMs) offer promising opportunities for automat..."
+    },
+    {
+      "arxiv_id": "2512.14158v1",
+      "title": "CIS-BA: Continuous Interaction Space Based Backdoor Attack for Object Detection in the Real-World",
+      "authors": [
+        "Shuxin Zhao",
+        "Bo Lang",
+        "Nan Xiao",
+        "Yilang Zhang"
+      ],
+      "published": "2025-12-16",
+      "relevance_score": 25.0,
+      "abstract": "Object detection models deployed in real-world applications such as autonomous driving face serious threats from backdoor attacks. Despite their practical effectiveness,existing methods are inherently limited in both capability and robustness due to their dependence on single-trigger-single-object m..."
+    },
+    {
+      "arxiv_id": "2512.08290v2",
+      "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+      "authors": [
+        "Shiva Gaire",
+        "Srijan Gyawali",
+        "Saroj Mishra",
+        "Suman Niroula",
+        "Dilip Thakur",
+        "Umesh Yadav"
+      ],
+      "published": "2025-12-09",
+      "relevance_score": 25.0,
+      "abstract": "The Model Context Protocol (MCP) has emerged as the de facto standard for connecting Large Language Models (LLMs) to external data and tools, effectively functioning as the \"USB-C for Agentic AI.\" While this decoupling of context and execution solves critical interoperability challenges, it introduc..."
+    },
+    {
+      "arxiv_id": "2512.06659v1",
+      "title": "The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines",
+      "authors": [
+        "Vaishali Vinay"
+      ],
+      "published": "2025-12-07",
+      "relevance_score": 25.0,
+      "abstract": "Cybersecurity has become one of the earliest adopters of agentic AI, as security operations centers increasingly rely on multi-step reasoning, tool-driven analysis, and rapid decision-making under pressure. While individual large language models can summarize alerts or interpret unstructured reports..."
+    },
+    {
+      "arxiv_id": "2512.05365v1",
+      "title": "MCP-AI: Protocol-Driven Intelligence Framework for Autonomous Reasoning in Healthcare",
+      "authors": [
+        "Zag ElSayed",
+        "Craig Erickson",
+        "Ernest Pedapati"
+      ],
+      "published": "2025-12-05",
+      "relevance_score": 25.0,
+      "abstract": "Healthcare AI systems have historically faced challenges in merging contextual reasoning, long-term state management, and human-verifiable workflows into a cohesive framework. This paper introduces a completely innovative architecture and concept: combining the Model Context Protocol (MCP) with a sp..."
+    },
+    {
+      "arxiv_id": "2512.04785v1",
+      "title": "ASTRIDE: A Security Threat Modeling Platform for Agentic-AI Applications",
+      "authors": [
+        "Eranga Bandara",
+        "Amin Hass",
+        "Ross Gore",
+        "Sachin Shetty",
+        "Ravi Mukkamala",
+        "Safdar H. Bouk",
+        "Xueping Liang",
+        "Ng Wee Keong",
+        "Kasun De Zoysa",
+        "Aruna Withanage",
+        "Nilaan Loganathan"
+      ],
+      "published": "2025-12-04",
+      "relevance_score": 25.0,
+      "abstract": "AI agent-based systems are becoming increasingly integral to modern software architectures, enabling autonomous decision-making, dynamic task execution, and multimodal interactions through large language models (LLMs). However, these systems introduce novel and evolving security challenges, includin..."
+    },
+    {
+      "arxiv_id": "2512.02301v1",
+      "title": "Quantum Vanguard: Server Optimized Privacy Fortified Federated Intelligence for Future Vehicles",
+      "authors": [
+        "Dev Gurung",
+        "Shiva Raj Pokhrel"
+      ],
+      "published": "2025-12-02",
+      "relevance_score": 25.0,
+      "abstract": "This work presents vQFL (vehicular Quantum Federated Learning), a new framework that leverages quantum machine learning techniques to tackle key privacy and security issues in autonomous vehicular networks. Furthermore, we propose a server-side adapted fine-tuning method, ft-VQFL,to achieve enhanced..."
+    },
+    {
+      "arxiv_id": "2511.22415v1",
+      "title": "Exposing Vulnerabilities in RL: A Novel Stealthy Backdoor Attack through Reward Poisoning",
+      "authors": [
+        "Bokang Zhang",
+        "Chaojun Lu",
+        "Jianhui Li",
+        "Junfeng Wu"
+      ],
+      "published": "2025-11-27",
+      "relevance_score": 25.0,
+      "abstract": "Reinforcement learning (RL) has achieved remarkable success across diverse domains, enabling autonomous systems to learn and adapt to dynamic environments by optimizing a reward function. However, this reliance on reward signals creates a significant security vulnerability. In this paper, we study a..."
+    },
+    {
+      "arxiv_id": "2511.18114v1",
+      "title": "ASTRA: Agentic Steerability and Risk Assessment Framework",
+      "authors": [
+        "Itay Hazan",
+        "Yael Mathov",
+        "Guy Shtar",
+        "Ron Bitton",
+        "Itsik Mantin"
+      ],
+      "published": "2025-11-22",
+      "relevance_score": 25.0,
+      "abstract": "Securing AI agents powered by Large Language Models (LLMs) represents one of the most critical challenges in AI security today. Unlike traditional software, AI agents leverage LLMs as their \"brain\" to autonomously perform actions via connected tools. This capability introduces significant risks that..."
+    },
+    {
+      "arxiv_id": "2511.16709v1",
+      "title": "AutoBackdoor: Automating Backdoor Attacks via LLM Agents",
+      "authors": [
+        "Yige Li",
+        "Zhe Li",
+        "Wei Zhao",
+        "Nay Myat Min",
+        "Hanxun Huang",
+        "Xingjun Ma",
+        "Jun Sun"
+      ],
+      "published": "2025-11-20",
+      "relevance_score": 25.0,
+      "abstract": "Backdoor attacks pose a serious threat to the secure deployment of large language models (LLMs), enabling adversaries to implant hidden behaviors triggered by specific inputs. However, existing methods often rely on manually crafted triggers and static data pipelines, which are rigid, labor-intensiv..."
+    },
+    {
+      "arxiv_id": "2511.12648v1",
+      "title": "Scalable Hierarchical AI-Blockchain Framework for Real-Time Anomaly Detection in Large-Scale Autonomous Vehicle Networks",
+      "authors": [
+        "Rathin Chandra Shit",
+        "Sharmila Subudhi"
+      ],
+      "published": "2025-11-16",
+      "relevance_score": 25.0,
+      "abstract": "The security of autonomous vehicle networks is facing major challenges, owing to the complexity of sensor integration, real-time performance demands, and distributed communication protocols that expose vast attack surfaces around both individual and network-wide safety. Existing security schemes are..."
+    },
+    {
+      "arxiv_id": "2511.11287v1",
+      "title": "Building the Web for Agents: A Declarative Framework for Agent-Web Interaction",
+      "authors": [
+        "Sven Schultze",
+        "Meike Verena Kietzmann",
+        "Nils-Lucas Sch\u00f6nfeld",
+        "Ruth Stock-Homburg"
+      ],
+      "published": "2025-11-14",
+      "relevance_score": 25.0,
+      "abstract": "The increasing deployment of autonomous AI agents on the web is hampered by a fundamental misalignment: agents must infer affordances from human-oriented user interfaces, leading to brittle, inefficient, and insecure interactions. To address this, we introduce VOIX, a web-native framework that enabl..."
+    },
+    {
+      "arxiv_id": "2511.07818v1",
+      "title": "Blockchain-Integrated Privacy-Preserving Medical Insurance Claim Processing Using Homomorphic Encryption",
+      "authors": [
+        "Diya Mamoria",
+        "Harshit Jain",
+        "Aswani Kumar Cherukuri"
+      ],
+      "published": "2025-11-11",
+      "relevance_score": 25.0,
+      "abstract": "This research proposes a decentralized and cryptographically secure framework to address the most acute issues of privacy, data security, and protection in the ecosystem of medical insurance claim processing. The scope of this study focuses on enabling the management of insurance claims in a transpa..."
+    },
+    {
+      "arxiv_id": "2507.20014v2",
+      "title": "Policy-Driven AI in Dataspaces: Taxonomy, Explainability, and Pathways for Compliant Innovation",
+      "authors": [
+        "Joydeep Chandra",
+        "Satyam Kumar Navneet"
+      ],
+      "published": "2025-07-26",
+      "relevance_score": 25.0,
+      "abstract": "As AI-driven dataspaces become integral to data sharing and collaborative analytics, ensuring privacy, performance, and policy compliance presents significant challenges. This paper provides a comprehensive review of privacy-preserving and policy-aware AI techniques, including Federated Learning, Di..."
+    },
+    {
+      "arxiv_id": "2503.06254v2",
+      "title": "Poisoned-MRAG: Knowledge Poisoning Attacks to Multimodal Retrieval Augmented Generation",
+      "authors": [
+        "Yinuo Liu",
+        "Zenghui Yuan",
+        "Guiyao Tie",
+        "Jiawen Shi",
+        "Pan Zhou",
+        "Lichao Sun",
+        "Neil Zhenqiang Gong"
+      ],
+      "published": "2025-03-08",
+      "relevance_score": 25.0,
+      "abstract": "Multimodal retrieval-augmented generation (RAG) enhances the visual reasoning capability of vision-language models (VLMs) by dynamically accessing information from external knowledge bases. In this work, we introduce \\textit{Poisoned-MRAG}, the first knowledge poisoning attack on multimodal RAG syst..."
+    },
+    {
+      "arxiv_id": "2411.16976v1",
+      "title": "EvoChain: a Recovery Approach for Permissioned Blockchain Applications",
+      "authors": [
+        "Francisco Faria",
+        "Samih Eisa",
+        "David R. Matos",
+        "Miguel L. Pardal"
+      ],
+      "published": "2024-11-25",
+      "relevance_score": 25.0,
+      "abstract": "Blockchain technology supports decentralized, consensus-driven data storage and processing, ensuring integrity and auditability. It is increasingly adopted for use cases with multiple stakeholders with shared ownership scenarios like digital identity and supply chain management. However, real-world ..."
+    },
+    {
+      "arxiv_id": "2411.06486v3",
+      "title": "DDIM-Driven Coverless Steganography Scheme with Real Key",
+      "authors": [
+        "Mingyu Yu",
+        "Haonan Miao",
+        "Zhengping Jin",
+        "Sujuan Qin"
+      ],
+      "published": "2024-11-10",
+      "relevance_score": 25.0,
+      "abstract": "With the advancement of information hiding techniques, generation-based coverless steganography has emerged as an alternative to traditional methods, leveraging generative models to transform secret information into stego-objects rather than embedding it within the redundancy of the cover. However, ..."
+    },
+    {
+      "arxiv_id": "2406.13119v1",
+      "title": "GbHammer: Malicious Inter-process Page Sharing by Hammering Global Bits in Page Table Entries",
+      "authors": [
+        "Keigo Yoshioka",
+        "Soramichi Akiyama"
+      ],
+      "published": "2024-06-19",
+      "relevance_score": 24.0,
+      "abstract": "RowHammer is a vulnerability inside DRAM chips where an attacker repeatedly accesses a DRAM row to flip bits in the nearby rows without directly accessing them. Several studies have found that flipping bits in the address part inside a page table entry (PTE) leads to serious security risks such as p..."
+    },
+    {
+      "arxiv_id": "2404.01803v2",
+      "title": "Systematic Solutions to Login and Authentication Security Problems: A Dual-Password Login-Authentication Mechanism",
+      "authors": [
+        "Suyun Borjigin"
+      ],
+      "published": "2024-04-02",
+      "relevance_score": 24.0,
+      "abstract": "Credential theft and remote attacks are the most serious threats to user authentication mechanisms. The crux of these problems is that we cannot control such behaviors. However, if a password does not contain user secrets, stealing it is useless. If unauthorized inputs are invalidated, remote attack..."
+    },
+    {
+      "arxiv_id": "2403.14963v3",
+      "title": "Enabling Physical Localization of Uncooperative Cellular Devices",
+      "authors": [
+        "Taekkyung Oh",
+        "Sangwook Bae",
+        "Junho Ahn",
+        "Yonghwa Lee",
+        "Tuan Dinh Hoang",
+        "Min Suk Kang",
+        "Nils Ole Tippenhauer",
+        "Yongdae Kim"
+      ],
+      "published": "2024-03-22",
+      "relevance_score": 24.0,
+      "abstract": "In cellular networks, authorities may need to physically locate user devices to track criminals or illegal equipment. This process involves authorized agents tracing devices by monitoring uplink signals with cellular operator assistance. However, tracking uncooperative uplink signal sources remains ..."
+    },
+    {
+      "arxiv_id": "2403.01507v1",
+      "title": "ISSF: The Intelligent Security Service Framework for Cloud-Native Operation",
+      "authors": [
+        "Yikuan Yan",
+        "Keman Huang",
+        "Michael Siegel"
+      ],
+      "published": "2024-03-03",
+      "relevance_score": 24.0,
+      "abstract": "The growing system complexity from microservice architectures and the bilateral enhancement of artificial intelligence (AI) for both attackers and defenders presents increasing security challenges for cloud-native operations. In particular, cloud-native operators require a holistic view of the dynam..."
+    },
+    {
+      "arxiv_id": "2307.07484v1",
+      "title": "TUSH-Key: Transferable User Secrets on Hardware Key",
+      "authors": [
+        "Aditya Mitra",
+        "Anisha Ghosh",
+        "Sibi Chakkaravarthy Sethuraman"
+      ],
+      "published": "2023-07-14",
+      "relevance_score": 24.0,
+      "abstract": "Passwordless authentication was first tested for seamless and secure merchant payments without the use of passwords or pins. It opened a whole new world of authentications giving up the former reliance on traditional passwords. It relied on the W3C Web Authentication (WebAuthn) and Client to Authent..."
+    },
+    {
+      "arxiv_id": "2512.18733v1",
+      "title": "Explainable and Fine-Grained Safeguarding of LLM Multi-Agent Systems via Bi-Level Graph Anomaly Detection",
+      "authors": [
+        "Junjun Pan",
+        "Yixin Liu",
+        "Rui Miao",
+        "Kaize Ding",
+        "Yu Zheng",
+        "Quoc Viet Hung Nguyen",
+        "Alan Wee-Chung Liew",
+        "Shirui Pan"
+      ],
+      "published": "2025-12-21",
+      "relevance_score": 23.0,
+      "abstract": "Large language model (LLM)-based multi-agent systems (MAS) have shown strong capabilities in solving complex tasks. As MAS become increasingly autonomous in various safety-critical tasks, detecting malicious agents has become a critical security concern. Although existing graph anomaly detection (GA..."
+    },
+    {
+      "arxiv_id": "2512.16123v1",
+      "title": "Autoencoder-based Denoising Defense against Adversarial Attacks on Object Detection",
+      "authors": [
+        "Min Geun Song",
+        "Gang Min Kim",
+        "Woonmin Kim",
+        "Yongsik Kim",
+        "Jeonghyun Sim",
+        "Sangbeom Park",
+        "Huy Kang Kim"
+      ],
+      "published": "2025-12-18",
+      "relevance_score": 23.0,
+      "abstract": "Deep learning-based object detection models play a critical role in real-world applications such as autonomous driving and security surveillance systems, yet they remain vulnerable to adversarial examples. In this work, we propose an autoencoder-based denoising defense to recover object detection pe..."
+    },
+    {
+      "arxiv_id": "2512.12594v1",
+      "title": "ceLLMate: Sandboxing Browser AI Agents",
+      "authors": [
+        "Luoxi Meng",
+        "Henry Feng",
+        "Ilia Shumailov",
+        "Earlence Fernandes"
+      ],
+      "published": "2025-12-14",
+      "relevance_score": 23.0,
+      "abstract": "Browser-using agents (BUAs) are an emerging class of autonomous agents that interact with web browsers in human-like ways, including clicking, scrolling, filling forms, and navigating across pages. While these agents help automate repetitive online tasks, they are vulnerable to prompt injection atta..."
+    },
+    {
+      "arxiv_id": "2512.12773v1",
+      "title": "Designing The Drive: Enhancing User Experience through Adaptive Interfaces in Autonomous Vehicles",
+      "authors": [
+        "Reeteesha Roy"
+      ],
+      "published": "2025-12-14",
+      "relevance_score": 23.0,
+      "abstract": "With the recent development and integration of autonomous vehicles (AVs) in transportation systems of the modern world, the emphasis on customizing user interfaces to optimize the overall user experience has been growing expediently. Therefore, understanding user needs and preferences is essential t..."
+    },
+    {
+      "arxiv_id": "2512.07135v2",
+      "title": "TrajMoE: Scene-Adaptive Trajectory Planning with Mixture of Experts and Reinforcement Learning",
+      "authors": [
+        "Zebin Xing",
+        "Pengxuan Yang",
+        "Linbo Wang",
+        "Yichen Zhang",
+        "Yiming Hu",
+        "Yupeng Zheng",
+        "Junli Wang",
+        "Yinfeng Gao",
+        "Guang Li",
+        "Kun Ma",
+        "Long Chen",
+        "Zhongpu Xia",
+        "Qichao Zhang",
+        "Hangjun Ye",
+        "Dongbin Zhao"
+      ],
+      "published": "2025-12-08",
+      "relevance_score": 23.0,
+      "abstract": "Current autonomous driving systems often favor end-to-end frameworks, which take sensor inputs like images and learn to map them into trajectory space via neural networks. Previous work has demonstrated that models can achieve better planning performance when provided with a prior distribution of po..."
+    },
+    {
+      "arxiv_id": "2512.06747v1",
+      "title": "PrivLLMSwarm: Privacy-Preserving LLM-Driven UAV Swarms for Secure IoT Surveillance",
+      "authors": [
+        "Jifar Wakuma Ayana",
+        "Huang Qiming"
+      ],
+      "published": "2025-12-07",
+      "relevance_score": 23.0,
+      "abstract": "Large Language Models (LLMs) are emerging as powerful enablers for autonomous reasoning and natural-language coordination in unmanned aerial vehicle (UAV) swarms operating within Internet of Things (IoT) environments. However, existing LLM-driven UAV systems process sensitive operational data in pla..."
+    },
+    {
+      "arxiv_id": "2512.06716v1",
+      "title": "Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents",
+      "authors": [
+        "Zhibo Liang",
+        "Tianze Hu",
+        "Zaiye Chen",
+        "Mingjie Tang"
+      ],
+      "published": "2025-12-07",
+      "relevance_score": 23.0,
+      "abstract": "Autonomous Large Language Model (LLM) agents exhibit significant vulnerability to Indirect Prompt Injection (IPI) attacks. These attacks hijack agent behavior by polluting external information sources, exploiting fundamental trade-offs between security and functionality in existing defense mechanism..."
+    },
+    {
+      "arxiv_id": "2512.04895v1",
+      "title": "Chameleon: Adaptive Adversarial Agents for Scaling-Based Visual Prompt Injection in Multimodal AI Systems",
+      "authors": [
+        "M Zeeshan",
+        "Saud Satti"
+      ],
+      "published": "2025-12-04",
+      "relevance_score": 23.0,
+      "abstract": "Multimodal Artificial Intelligence (AI) systems, particularly Vision-Language Models (VLMs), have become integral to critical applications ranging from autonomous decision-making to automated document processing. As these systems scale, they rely heavily on preprocessing pipelines to handle diverse ..."
+    },
+    {
+      "arxiv_id": "2512.04611v1",
+      "title": "PBFuzz: Agentic Directed Fuzzing for PoV Generation",
+      "authors": [
+        "Haochen Zeng",
+        "Andrew Bao",
+        "Jiajun Cheng",
+        "Chengyu Song"
+      ],
+      "published": "2025-12-04",
+      "relevance_score": 23.0,
+      "abstract": "Proof-of-Vulnerability (PoV) input generation is a critical task in software security and supports downstream applications such as path generation and validation. Generating a PoV input requires solving two sets of constraints: (1) reachability constraints for reaching vulnerable code locations, and..."
+    },
+    {
+      "arxiv_id": "2512.04367v1",
+      "title": "AgentBay: A Hybrid Interaction Sandbox for Seamless Human-AI Intervention in Agentic Systems",
+      "authors": [
+        "Yun Piao",
+        "Hongbo Min",
+        "Hang Su",
+        "Leilei Zhang",
+        "Lei Wang",
+        "Yue Yin",
+        "Xiao Wu",
+        "Zhejing Xu",
+        "Liwei Qu",
+        "Hang Li",
+        "Xinxin Zeng",
+        "Wei Tian",
+        "Fei Yu",
+        "Xiaowei Li",
+        "Jiayi Jiang",
+        "Tongxu Liu",
+        "Hao Tian",
+        "Yufei Que",
+        "Xiaobing Tu",
+        "Bing Suo",
+        "Yuebing Li",
+        "Xiangting Chen",
+        "Zeen Zhao",
+        "Jiaming Tang",
+        "Wei Huang",
+        "Xuguang Li",
+        "Jing Zhao",
+        "Jin Li",
+        "Jie Shen",
+        "Jinkui Ren",
+        "Xiantao Zhang"
+      ],
+      "published": "2025-12-04",
+      "relevance_score": 23.0,
+      "abstract": "The rapid advancement of Large Language Models (LLMs) is catalyzing a shift towards autonomous AI Agents capable of executing complex, multi-step tasks. However, these agents remain brittle when faced with real-world exceptions, making Human-in-the-Loop (HITL) supervision essential for mission-criti..."
+    },
+    {
+      "arxiv_id": "2512.02410v1",
+      "title": "Decentralized Multi-Agent System with Trust-Aware Communication",
+      "authors": [
+        "Yepeng Ding",
+        "Ahmed Twabi",
+        "Junwei Yu",
+        "Lingfeng Zhang",
+        "Tohru Kondo",
+        "Hiroyuki Sato"
+      ],
+      "published": "2025-12-02",
+      "relevance_score": 23.0,
+      "abstract": "The emergence of Large Language Models (LLMs) is rapidly accelerating the development of autonomous multi-agent systems (MAS), paving the way for the Internet of Agents. However, traditional centralized MAS architectures present significant challenges, including single points of failure, vulnerabili..."
+    },
+    {
+      "arxiv_id": "2512.00614v1",
+      "title": "Hierarchical Decentralized Multi-Agent Coordination with Privacy-Preserving Knowledge Sharing: Extending AgentNet for Scalable Autonomous Systems",
+      "authors": [
+        "Goutham Nalagatla"
+      ],
+      "published": "2025-11-29",
+      "relevance_score": 23.0,
+      "abstract": "Decentralized multi-agent systems have shown promise in enabling autonomous collaboration among LLM-based agents. While AgentNet demonstrated the feasibility of fully decentralized coordination through dynamic DAG topologies, several limitations remain: scalability challenges with large agent popula..."
+    },
+    {
+      "arxiv_id": "2511.20709v1",
+      "title": "DUALGUAGE: Automated Joint Security-Functionality Benchmarking for Secure Code Generation",
+      "authors": [
+        "Abhijeet Pathak",
+        "Suvadra Barua",
+        "Dinesh Gudimetla",
+        "Rupam Patir",
+        "Jiawei Guo",
+        "Hongxin Hu",
+        "Haipeng Cai"
+      ],
+      "published": "2025-11-24",
+      "relevance_score": 23.0,
+      "abstract": "Large language models (LLMs) and autonomous coding agents are increasingly used to generate software across a wide range of domains. Yet a core requirement remains unmet: ensuring that generated code is secure without compromising its functional correctness. Existing benchmarks and evaluations for s..."
+    },
+    {
+      "arxiv_id": "2511.18438v1",
+      "title": "LLMs as Firmware Experts: A Runtime-Grown Tree-of-Agents Framework",
+      "authors": [
+        "Xiangrui Zhang",
+        "Zeyu Chen",
+        "Haining Wang",
+        "Qiang Li"
+      ],
+      "published": "2025-11-23",
+      "relevance_score": 23.0,
+      "abstract": "Large Language Models (LLMs) and their agent systems have recently demonstrated strong potential in automating code reasoning and vulnerability detection. However, when applied to large-scale firmware, their performance degrades due to the binary nature of firmware, complex dependency structures, an..."
+    },
+    {
+      "arxiv_id": "2511.15614v1",
+      "title": "Optimus-Q: Utilizing Federated Learning in Adaptive Robots for Intelligent Nuclear Power Plant Operations through Quantum Cryptography",
+      "authors": [
+        "Sai Puppala",
+        "Ismail Hossain",
+        "Jahangir Alam",
+        "Sajedul Talukder"
+      ],
+      "published": "2025-11-19",
+      "relevance_score": 23.0,
+      "abstract": "The integration of advanced robotics in nuclear power plants (NPPs) presents a transformative opportunity to enhance safety, efficiency, and environmental monitoring in high-stakes environments. Our paper introduces the Optimus-Q robot, a sophisticated system designed to autonomously monitor air qua..."
+    },
+    {
+      "arxiv_id": "2511.15206v1",
+      "title": "Trustworthy GenAI over 6G: Integrated Applications and Security Frameworks",
+      "authors": [
+        "Bui Duc Son",
+        "Trinh Van Chien",
+        "Dong In Kim"
+      ],
+      "published": "2025-11-19",
+      "relevance_score": 23.0,
+      "abstract": "The integration of generative artificial intelligence (GenAI) into 6G networks promises substantial performance gains while simultaneously exposing novel security vulnerabilities rooted in multimodal data processing and autonomous reasoning. This article presents a unified perspective on cross-domai..."
+    },
+    {
+      "arxiv_id": "2511.10050v1",
+      "title": "Trapped by Their Own Light: Deployable and Stealth Retroreflective Patch Attacks on Traffic Sign Recognition Systems",
+      "authors": [
+        "Go Tsuruoka",
+        "Takami Sato",
+        "Qi Alfred Chen",
+        "Kazuki Nomoto",
+        "Ryunosuke Kobayashi",
+        "Yuna Tanaka",
+        "Tatsuya Mori"
+      ],
+      "published": "2025-11-13",
+      "relevance_score": 23.0,
+      "abstract": "Traffic sign recognition plays a critical role in ensuring safe and efficient transportation of autonomous vehicles but remain vulnerable to adversarial attacks using stickers or laser projections. While existing attack vectors demonstrate security concerns, they suffer from visual detectability or ..."
+    },
+    {
+      "arxiv_id": "2511.06573v1",
+      "title": "SteganoSNN: SNN-Based Audio-in-Image Steganography with Encryption",
+      "authors": [
+        "Biswajit Kumar Sahoo",
+        "Pedro Machado",
+        "Isibor Kennedy Ihianle",
+        "Andreas Oikonomou",
+        "Srinivas Boppu"
+      ],
+      "published": "2025-11-09",
+      "relevance_score": 23.0,
+      "abstract": "Secure data hiding remains a fundamental challenge in digital communication, requiring a careful balance between computational efficiency and perceptual transparency. The balance between security and performance is increasingly fragile with the emergence of generative AI systems capable of autonomou..."
+    },
+    {
+      "arxiv_id": "2509.07804v1",
+      "title": "Inner-product Functional Encryption with Fine-grained Revocation for Flexible EHR Sharing",
+      "authors": [
+        "Yue Han",
+        "Jinguang Han",
+        "Liqun Chen",
+        "Chao Sun"
+      ],
+      "published": "2025-09-09",
+      "relevance_score": 23.0,
+      "abstract": "E-health record (EHR) contains a vast amount of continuously growing medical data and enables medical institutions to access patient health data conveniently.This provides opportunities for medical data mining which has important applications in identifying high-risk patients and improving disease d..."
+    },
+    {
+      "arxiv_id": "2507.19367v1",
+      "title": "Empowering IoT Firmware Secure Update with Customization Rights",
+      "authors": [
+        "Weihao Chen",
+        "Yansong Gao",
+        "Boyu Kuang",
+        "Jin B. Hong",
+        "Yuqing Zhang",
+        "Anmin Fu"
+      ],
+      "published": "2025-07-25",
+      "relevance_score": 23.0,
+      "abstract": "Firmware updates remain the primary line of defense for IoT devices; however, the update channel itself has become a well-established attack vector. Existing defenses mainly focus on securing monolithic firmware images, leaving module-level customization -a growing user demand-largely unprotected an..."
+    },
+    {
+      "arxiv_id": "2506.01885v2",
+      "title": "SoK: Concurrency in Blockchain -- A Systematic Literature Review and the Unveiling of a Misconception",
+      "authors": [
+        "Atefeh Zareh Chahoki",
+        "Maurice Herlihy",
+        "Marco Roveri"
+      ],
+      "published": "2025-06-02",
+      "relevance_score": 23.0,
+      "abstract": "Smart contracts, the cornerstone of blockchain technology, enable secure, automated distributed execution. Given their role in handling large transaction volumes across clients, miners, and validators, exploring concurrency is critical. This includes concurrent transaction execution or validation wi..."
+    },
+    {
+      "arxiv_id": "2505.10111v3",
+      "title": "When Mitigations Backfire: Timing Channel Attacks and Defense for PRAC-Based RowHammer Mitigations",
+      "authors": [
+        "Jeonghyun Woo",
+        "Joyce Qu",
+        "Gururaj Saileshwar",
+        "Prashant J. Nair"
+      ],
+      "published": "2025-05-15",
+      "relevance_score": 23.0,
+      "abstract": "Per Row Activation Counting (PRAC) has emerged as a robust framework for mitigating RowHammer (RH) vulnerabilities in modern DRAM systems. However, we uncover a critical vulnerability: a timing channel introduced by the Alert Back-Off (ABO) protocol and Refresh Management (RFM) commands. We present ..."
+    },
+    {
+      "arxiv_id": "2503.11963v3",
+      "title": "Effective and Efficient Cross-City Traffic Knowledge Transfer: A Privacy-Preserving Perspective",
+      "authors": [
+        "Zhihao Zeng",
+        "Ziquan Fang",
+        "Yuting Huang",
+        "Lu Chen",
+        "Yunjun Gao"
+      ],
+      "published": "2025-03-15",
+      "relevance_score": 23.0,
+      "abstract": "Traffic prediction targets forecasting future traffic conditions using historical traffic data, serving a critical role in urban computing and transportation management. To mitigate the scarcity of traffic data while maintaining data privacy, numerous Federated Traffic Knowledge Transfer (FTT) appro..."
+    },
+    {
+      "arxiv_id": "2503.10171v1",
+      "title": "Verifiable, Efficient and Confidentiality-Preserving Graph Search with Transparency",
+      "authors": [
+        "Qiuhao Wang",
+        "Xu Yang",
+        "Yiwei Liu",
+        "Saiyu Qi",
+        "Hongguang Zhao",
+        "Ke Li",
+        "Yong Qi"
+      ],
+      "published": "2025-03-13",
+      "relevance_score": 23.0,
+      "abstract": "Graph databases have garnered extensive attention and research due to their ability to manage relationships between entities efficiently. Today, many graph search services have been outsourced to a third-party server to facilitate storage and computational support. Nevertheless, the outsourcing para..."
+    },
+    {
+      "arxiv_id": "2502.18697v1",
+      "title": "H-FLTN: A Privacy-Preserving Hierarchical Framework for Electric Vehicle Spatio-Temporal Charge Prediction",
+      "authors": [
+        "Robert Marlin",
+        "Raja Jurdak",
+        "Alsharif Abuadbba"
+      ],
+      "published": "2025-02-25",
+      "relevance_score": 23.0,
+      "abstract": "The widespread adoption of Electric Vehicles (EVs) poses critical challenges for energy providers, particularly in predicting charging time (temporal prediction), ensuring user privacy, and managing resources efficiently in mobility-driven networks. This paper introduces the Hierarchical Federated L..."
+    },
+    {
+      "arxiv_id": "2502.11121v1",
+      "title": "Reversible Data Hiding over Encrypted Images via Intrinsic Correlation in Block-Based Secret Sharing",
+      "authors": [
+        "Jianhui Zou",
+        "Weijia Cao",
+        "Shuang Yi",
+        "Yifeng Zheng",
+        "Zhongyun Hua"
+      ],
+      "published": "2025-02-16",
+      "relevance_score": 23.0,
+      "abstract": "With the rapid advancements in information technology, reversible data hiding over encrypted images (RDH-EI) has become essential for secure image management in cloud services. However, existing RDH-EI schemes often suffer from high computational complexity, low embedding rates, and excessive data e..."
+    },
+    {
+      "arxiv_id": "2502.01848v1",
+      "title": "Preparing for Kyber in Securing Intelligent Transportation Systems Communications: A Case Study on Fault-Enabled Chosen-Ciphertext Attack",
+      "authors": [
+        "Kaiyuan Zhang",
+        "M Sabbir Salek",
+        "Antian Wang",
+        "Mizanur Rahman",
+        "Mashrur Chowdhury",
+        "Yingjie Lao"
+      ],
+      "published": "2025-02-03",
+      "relevance_score": 23.0,
+      "abstract": "Intelligent transportation systems (ITS) are characterized by wired or wireless communication among different entities, such as vehicles, roadside infrastructure, and traffic management infrastructure. These communications demand different levels of security, depending on how sensitive the data is. ..."
+    },
+    {
+      "arxiv_id": "2411.15416v1",
+      "title": "Least Privilege Access for Persistent Storage Mechanisms in Web Browsers",
+      "authors": [
+        "Gayatri Priyadarsini Kancherla",
+        "Dishank Goel",
+        "Abhishek Bichhawat"
+      ],
+      "published": "2024-11-23",
+      "relevance_score": 23.0,
+      "abstract": "Web applications often include third-party content and scripts to personalize a user's online experience. These scripts have unrestricted access to a user's private data stored in the browser's persistent storage like cookies, localstorage and IndexedDB, associated with the host page. Various mechan..."
+    },
+    {
+      "arxiv_id": "2405.15342v1",
+      "title": "Implementation of New Security Features in CMSWEB Kubernetes Cluster at CERN",
+      "authors": [
+        "Aamir Ali",
+        "Muhammad Imran",
+        "Valentin Kuznetsov",
+        "Spyridon Trigazis",
+        "Aroosha Pervaiz",
+        "Andreas Pfeiffer",
+        "Marco Mascheroni"
+      ],
+      "published": "2024-05-24",
+      "relevance_score": 23.0,
+      "abstract": "The CMSWEB cluster is pivotal to the activities of the Compact Muon Solenoid (CMS) experiment, as it hosts critical services required for the operational needs of the CMS experiment. The security of these services and the corresponding data is crucial to CMS. Any malicious attack can compromise the ..."
+    },
+    {
+      "arxiv_id": "2309.03582v1",
+      "title": "Zero Trust: Applications, Challenges, and Opportunities",
+      "authors": [
+        "Saeid Ghasemshirazi",
+        "Ghazaleh Shirvani",
+        "Mohammad Ali Alipour"
+      ],
+      "published": "2023-09-07",
+      "relevance_score": 23.0,
+      "abstract": "The escalating complexity of cybersecurity threats necessitates innovative approaches to safeguard digital assets and sensitive information. The Zero Trust paradigm offers a transformative solution by challenging conventional security models and emphasizing continuous verification and least privileg..."
+    },
+    {
+      "arxiv_id": "2309.01293v2",
+      "title": "Zero Trust Real-Time Lightweight Access Control Protocol for Mobile Cloud-Based IoT Sensors",
+      "authors": [
+        "Atefeh Mohseni-Ejiyeh"
+      ],
+      "published": "2023-09-04",
+      "relevance_score": 23.0,
+      "abstract": "In IoT, smart sensors enable data collection, real-time monitoring, decision-making, and automation, but their proliferation exposes them to cybersecurity threats. Zero Trust Architecture enhances IoT security by challenging conventional trust models and emphasizing continuous trust verification in ..."
+    },
+    {
+      "arxiv_id": "2307.01175v1",
+      "title": "Patient-centric health data sovereignty: an approach using Proxy re-encryption",
+      "authors": [
+        "Bruno Rodrigues",
+        "Ivone Amorim",
+        "Ivan Costa",
+        "Alexandra Mendes"
+      ],
+      "published": "2023-07-03",
+      "relevance_score": 23.0,
+      "abstract": "The exponential growth in the digitisation of services implies the handling and storage of large volumes of data. Businesses and services see data sharing and crossing as an opportunity to improve and produce new business opportunities. The health sector is one area where this proves to be true, ena..."
+    },
+    {
+      "arxiv_id": "2410.22303v3",
+      "title": "$\\mathsf{OPA}$: One-shot Private Aggregation with Single Client Interaction and its Applications to Federated Learning",
+      "authors": [
+        "Harish Karthikeyan",
+        "Antigoni Polychroniadou"
+      ],
+      "published": "2024-10-29",
+      "relevance_score": 21.0,
+      "abstract": "Our work aims to minimize interaction in secure computation due to the high cost and challenges associated with communication rounds, particularly in scenarios with many clients. In this work, we revisit the problem of secure aggregation in the single-server setting where a single evaluation server ..."
+    },
+    {
+      "arxiv_id": "2408.07054v1",
+      "title": "Exploiting Leakage in Password Managers via Injection Attacks",
+      "authors": [
+        "Andr\u00e9s F\u00e1brega",
+        "Armin Namavari",
+        "Rachit Agarwal",
+        "Ben Nassi",
+        "Thomas Ristenpart"
+      ],
+      "published": "2024-08-13",
+      "relevance_score": 21.0,
+      "abstract": "This work explores injection attacks against password managers. In this setting, the adversary (only) controls their own application client, which they use to \"inject\" chosen payloads to a victim's client via, for example, sharing credentials with them. The injections are interleaved with adversaria..."
+    },
+    {
+      "arxiv_id": "2312.17271v1",
+      "title": "Towards Zero-Trust 6GC: A Software Defined Perimeter Approach with Dynamic Moving Target Defense Mechanism",
+      "authors": [
+        "Zeyad Abdelhay",
+        "Yahuza Bello",
+        "Ahmed Refaey"
+      ],
+      "published": "2023-12-27",
+      "relevance_score": 21.0,
+      "abstract": "The upcoming Sixth Generation (6G) network is projected to grapple with a range of security concerns, encompassing access control, authentication, secure connections among 6G Core (6GC) entities, and trustworthiness. Classical Virtual Private Networks (VPNs), extensively deployed in Evolved Packet C..."
+    },
+    {
+      "arxiv_id": "2312.10214v1",
+      "title": "Healthcare Policy Compliance: A Blockchain Smart Contract-Based Approach",
+      "authors": [
+        "Md Al Amin",
+        "Hemanth Tummala",
+        "Seshamalini Mohan",
+        "Indrajit Ray"
+      ],
+      "published": "2023-12-15",
+      "relevance_score": 21.0,
+      "abstract": "This paper addresses the critical challenge of ensuring healthcare policy compliance in the context of Electronic Health Records (EHRs). Despite stringent regulations like HIPAA, significant gaps in policy compliance often remain undetected until a data breach occurs. To bridge this gap, we propose ..."
+    },
+    {
+      "arxiv_id": "2311.17447v1",
+      "title": "Learning-driven Zero Trust in Distributed Computing Continuum Systems",
+      "authors": [
+        "Ilir Murturi",
+        "Praveen Kumar Donta",
+        "Victor Casamayor Pujol",
+        "Andrea Morichetta",
+        "Schahram Dustdar"
+      ],
+      "published": "2023-11-29",
+      "relevance_score": 21.0,
+      "abstract": "Converging Zero Trust (ZT) with learning techniques can solve various operational and security challenges in Distributed Computing Continuum Systems (DCCS). Implementing centralized ZT architecture is seen as unsuitable for the computing continuum (e.g., computing entities with limited connectivity ..."
+    },
+    {
+      "arxiv_id": "2310.04513v3",
+      "title": "A Survey of Data Security: Practices from Cybersecurity and Challenges of Machine Learning",
+      "authors": [
+        "Padmaksha Roy",
+        "Jaganmohan Chandrasekaran",
+        "Erin Lanus",
+        "Laura Freeman",
+        "Jeremy Werner"
+      ],
+      "published": "2023-10-06",
+      "relevance_score": 21.0,
+      "abstract": "Machine learning (ML) is increasingly being deployed in critical systems. The data dependence of ML makes securing data used to train and test ML-enabled systems of utmost importance. While the field of cybersecurity has well-established practices for securing information, ML-enabled systems create ..."
+    },
+    {
+      "arxiv_id": "2305.15396v1",
+      "title": "An Efficient Key Management Scheme For In-Vehicle Network",
+      "authors": [
+        "Hsinlin Tan"
+      ],
+      "published": "2023-05-24",
+      "relevance_score": 21.0,
+      "abstract": "Vehicle technology has developed rapidly these years, however, the security measures for in-vehicle network does not keep up with the trend. Controller area network(CAN) is the most used protocol in the in-vehicle network. With the characteristic of CAN, there exists many vulnerabilities including l..."
+    },
+    {
+      "arxiv_id": "2403.17188v1",
+      "title": "LOTUS: Evasive and Resilient Backdoor Attacks through Sub-Partitioning",
+      "authors": [
+        "Siyuan Cheng",
+        "Guanhong Tao",
+        "Yingqi Liu",
+        "Guangyu Shen",
+        "Shengwei An",
+        "Shiwei Feng",
+        "Xiangzhe Xu",
+        "Kaiyuan Zhang",
+        "Shiqing Ma",
+        "Xiangyu Zhang"
+      ],
+      "published": "2024-03-25",
+      "relevance_score": 20.0,
+      "abstract": "Backdoor attack poses a significant security threat to Deep Learning applications. Existing attacks are often not evasive to established backdoor detection techniques. This susceptibility primarily stems from the fact that these attacks typically leverage a universal trigger pattern or transformatio..."
+    },
+    {
+      "arxiv_id": "2312.01354v1",
+      "title": "Protecting Sensitive Tabular Data in Hybrid Clouds",
+      "authors": [
+        "Maya Anderson",
+        "Gidon Gershinsky",
+        "Eliot Salant",
+        "Salvador Garcia"
+      ],
+      "published": "2023-12-03",
+      "relevance_score": 20.0,
+      "abstract": "Regulated industries, such as Healthcare and Finance, are starting to move parts of their data and workloads to the public cloud. However, they are still reluctant to trust the public cloud with their most sensitive records, and hence leave them in their premises, leveraging the hybrid cloud archite..."
+    },
+    {
+      "arxiv_id": "2308.05126v1",
+      "title": "Data-Driven Intelligence can Revolutionize Today's Cybersecurity World: A Position Paper",
+      "authors": [
+        "Iqbal H. Sarker",
+        "Helge Janicke",
+        "Leandros Maglaras",
+        "Seyit Camtepe"
+      ],
+      "published": "2023-08-09",
+      "relevance_score": 20.0,
+      "abstract": "As cyber threats evolve and grow progressively more sophisticated, cyber security is becoming a more significant concern in today's digital era. Traditional security measures tend to be insufficient to defend against these persistent and dynamic threats because they are mainly intuitional. One of th..."
+    },
+    {
+      "arxiv_id": "2311.06236v1",
+      "title": "Deep Learning meets Blockchain for Automated and Secure Access Control",
+      "authors": [
+        "Asma Jodeiri Akbarfam",
+        "Sina Barazandeh",
+        "Deepti Gupta",
+        "Hoda Maleki"
+      ],
+      "published": "2023-11-10",
+      "relevance_score": 19.0,
+      "abstract": "Access control is a critical component of computer security, governing access to system resources. However, designing policies and roles in traditional access control can be challenging and difficult to maintain in dynamic and complex systems, which is particularly problematic for organizations with..."
+    },
+    {
+      "arxiv_id": "2412.20603v1",
+      "title": "Privacy-Preserving Identity and Access Management in Multiple Cloud Environments: Models, Issues, and Solutions",
+      "authors": [
+        "Alfredo Cuzzocrea",
+        "Islam Belmerabet"
+      ],
+      "published": "2024-12-29",
+      "relevance_score": 18.0,
+      "abstract": "This paper focuses the attention on privacy-preserving identity and access management in multiple Cloud environments, which is an annoying problem in the modern big data era. Within this conceptual context, the paper describes contemporaneous models and issues, and put the basis for future solid sol..."
+    },
+    {
+      "arxiv_id": "2405.18744v1",
+      "title": "PermLLM: Private Inference of Large Language Models within 3 Seconds under WAN",
+      "authors": [
+        "Fei Zheng",
+        "Chaochao Chen",
+        "Zhongxuan Han",
+        "Xiaolin Zheng"
+      ],
+      "published": "2024-05-29",
+      "relevance_score": 18.0,
+      "abstract": "The emergence of ChatGPT marks the arrival of the large language model (LLM) era. While LLMs demonstrate their power in a variety of fields, they also raise serious privacy concerns as the users' queries are sent to the model provider. On the other side, deploying the LLM on the user's device will a..."
+    },
+    {
+      "arxiv_id": "2405.04344v2",
+      "title": "Enhancing Scalability of Metric Differential Privacy via Secret Dataset Partitioning and Benders Decomposition",
+      "authors": [
+        "Chenxi Qiu"
+      ],
+      "published": "2024-05-07",
+      "relevance_score": 18.0,
+      "abstract": "Metric Differential Privacy (mDP) extends the concept of Differential Privacy (DP) to serve as a new paradigm of data perturbation. It is designed to protect secret data represented in general metric space, such as text data encoded as word embeddings or geo-location data on the road network or grid..."
+    },
+    {
+      "arxiv_id": "2404.00423v1",
+      "title": "Keep your memory dump shut: Unveiling data leaks in password managers",
+      "authors": [
+        "Efstratios Chatzoglou",
+        "Vyron Kampourakis",
+        "Zisis Tsiatsikas",
+        "Georgios Karopoulos",
+        "Georgios Kambourakis"
+      ],
+      "published": "2024-03-30",
+      "relevance_score": 18.0,
+      "abstract": "Password management has long been a persistently challenging task. This led to the introduction of password management software, which has been around for at least 25 years in various forms, including desktop and browser-based applications. This work assesses the ability of two dozen password manage..."
+    },
+    {
+      "arxiv_id": "2307.06932v2",
+      "title": "PHOENI2X -- A European Cyber Resilience Framework With Artificial-Intelligence-Assisted Orchestration, Automation and Response Capabilities for Business Continuity and Recovery, Incident Response, and Information Exchange",
+      "authors": [
+        "Konstantinos Fysarakis",
+        "Alexios Lekidis",
+        "Vasileios Mavroeidis",
+        "Konstantinos Lampropoulos",
+        "George Lyberopoulos",
+        "Ignasi Garcia-Mil\u00e0 Vidal",
+        "Jos\u00e9 Carles Ter\u00e9s i Casals",
+        "Eva Rodriguez Luna",
+        "Alejandro Antonio Moreno Sancho",
+        "Antonios Mavrelos",
+        "Marinos Tsantekidis",
+        "Sebastian Pape",
+        "Argyro Chatzopoulou",
+        "Christina Nanou",
+        "George Drivas",
+        "Vangelis Photiou",
+        "George Spanoudakis",
+        "Odysseas Koufopavlou"
+      ],
+      "published": "2023-07-13",
+      "relevance_score": 15.0,
+      "abstract": "As digital technologies become more pervasive in society and the economy, cybersecurity incidents become more frequent and impactful. According to the NIS and NIS2 Directives, EU Member States and their Operators of Essential Services must establish a minimum baseline set of cybersecurity capabiliti..."
+    },
+    {
+      "arxiv_id": "2306.03547v1",
+      "title": "A Practical Framework for Storing and Searching Encrypted Data on Cloud Storage",
+      "authors": [
+        "Mazharul Islam"
+      ],
+      "published": "2023-06-06",
+      "relevance_score": 15.0,
+      "abstract": "Security has become a significant concern with the increased popularity of cloud storage services. It comes with the vulnerability of being accessed by third parties. Security is one of the major hurdles in the cloud server for the user when the user data that reside in local storage is outsourced t..."
+    },
+    {
+      "arxiv_id": "2303.00226v3",
+      "title": "Efficient Quantum Secret Sharing Scheme Based On Monotone Span Program",
+      "authors": [
+        "Shuangshuang Luo",
+        "Zhihui Li",
+        "Depeng Meng",
+        "Jiansheng Guo"
+      ],
+      "published": "2023-03-01",
+      "relevance_score": 15.0,
+      "abstract": "How to efficiently share secrets among multiple participants is a very important problem in key management. In this paper, we propose a multi-secret sharing scheme based on the GHZ state. First, the distributor uses monotone span program to encode the secrets and generate the corresponding secret sh..."
+    },
+    {
+      "arxiv_id": "1704.02883v2",
+      "title": "Update-tolerant and Revocable Password Backup (Extended Version)",
+      "authors": [
+        "Moritz Horsch",
+        "Johannes Braun",
+        "Dominique Metz",
+        "Johannes Buchmann"
+      ],
+      "published": "2017-04-10",
+      "relevance_score": 15.0,
+      "abstract": "It is practically impossible for users to memorize a large portfolio of strong and individual passwords for their online accounts. A solution is to generate passwords randomly and store them. Yet, storing passwords instead of memorizing them bears the risk of loss, e.g., in situations where the devi..."
+    },
+    {
+      "arxiv_id": "2306.08134v1",
+      "title": "Uncovering and Exploiting Hidden APIs in Mobile Super Apps",
+      "authors": [
+        "Chao Wang",
+        "Yue Zhang",
+        "Zhiqiang Lin"
+      ],
+      "published": "2023-06-13",
+      "relevance_score": 14.0,
+      "abstract": "Mobile applications, particularly those from social media platforms such as WeChat and TikTok, are evolving into \"super apps\" that offer a wide range of services such as instant messaging and media sharing, e-commerce, e-learning, and e-government. These super apps often provide APIs for developers ..."
+    },
+    {
+      "arxiv_id": "2304.10985v3",
+      "title": "INK: Inheritable Natural Backdoor Attack Against Model Distillation",
+      "authors": [
+        "Xiaolei Liu",
+        "Ming Yi",
+        "Kangyi Ding",
+        "Bangzhou Xin",
+        "Yixiao Xu",
+        "Li Yan",
+        "Chao Shen"
+      ],
+      "published": "2023-04-21",
+      "relevance_score": 14.0,
+      "abstract": "Deep learning models are vulnerable to backdoor attacks, where attackers inject malicious behavior through data poisoning and later exploit triggers to manipulate deployed models. To improve the stealth and effectiveness of backdoors, prior studies have introduced various imperceptible attack method..."
+    },
+    {
+      "arxiv_id": "2301.12377v1",
+      "title": "What Challenges Do Developers Face About Checked-in Secrets in Software Artifacts?",
+      "authors": [
+        "Setu Kumar Basak",
+        "Lorenzo Neil",
+        "Bradley Reaves",
+        "Laurie Williams"
+      ],
+      "published": "2023-01-29",
+      "relevance_score": 14.0,
+      "abstract": "Throughout 2021, GitGuardian's monitoring of public GitHub repositories revealed a two-fold increase in the number of secrets (database credentials, API keys, and other credentials) exposed compared to 2020, accumulating more than six million secrets. To our knowledge, the challenges developers face..."
+    },
+    {
+      "arxiv_id": "2310.11911v1",
+      "title": "Evolving Bitcoin Custody",
+      "authors": [
+        "Jacob Tyge Goker Swambo"
+      ],
+      "published": "2023-10-18",
+      "relevance_score": 13.0,
+      "abstract": "The broad topic of this thesis is the design and analysis of Bitcoin custody systems. Both the technology and threat landscape are evolving constantly. Therefore, custody systems, defence strategies, and risk models should be adaptive too.   We introduce Bitcoin custody by describing the different t..."
+    },
+    {
+      "arxiv_id": "2302.10149v2",
+      "title": "Poisoning Web-Scale Training Datasets is Practical",
+      "authors": [
+        "Nicholas Carlini",
+        "Matthew Jagielski",
+        "Christopher A. Choquette-Choo",
+        "Daniel Paleka",
+        "Will Pearce",
+        "Hyrum Anderson",
+        "Andreas Terzis",
+        "Kurt Thomas",
+        "Florian Tram\u00e8r"
+      ],
+      "published": "2023-02-20",
+      "relevance_score": 13.0,
+      "abstract": "Deep learning models are often trained on distributed, web-scale datasets crawled from the internet. In this paper, we introduce two new dataset poisoning attacks that intentionally introduce malicious examples to a model's performance. Our attacks are immediately practical and could, today, poison ..."
+    },
+    {
+      "arxiv_id": "2307.00691v1",
+      "title": "From ChatGPT to ThreatGPT: Impact of Generative AI in Cybersecurity and Privacy",
+      "authors": [
+        "Maanak Gupta",
+        "CharanKumar Akiri",
+        "Kshitiz Aryal",
+        "Eli Parker",
+        "Lopamudra Praharaj"
+      ],
+      "published": "2023-07-03",
+      "relevance_score": 12.0,
+      "abstract": "Undoubtedly, the evolution of Generative AI (GenAI) models has been the highlight of digital transformation in the year 2022. As the different GenAI models like ChatGPT and Google Bard continue to foster their complexity and capability, it's critical to understand its consequences from a cybersecuri..."
+    },
+    {
+      "arxiv_id": "2305.19487v2",
+      "title": "SPGNN-API: A Transferable Graph Neural Network for Attack Paths Identification and Autonomous Mitigation",
+      "authors": [
+        "Houssem Jmal",
+        "Firas Ben Hmida",
+        "Nardine Basta",
+        "Muhammad Ikram",
+        "Mohamed Ali Kaafar",
+        "Andy Walker"
+      ],
+      "published": "2023-05-31",
+      "relevance_score": 12.0,
+      "abstract": "Attack paths are the potential chain of malicious activities an attacker performs to compromise network assets and acquire privileges through exploiting network vulnerabilities. Attack path analysis helps organizations to identify new/unknown chains of attack vectors that reach critical assets withi..."
+    },
+    {
+      "arxiv_id": "2310.14117v3",
+      "title": "ZTD$_{JAVA}$: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
+      "authors": [
+        "Paschal C. Amusuo",
+        "Kyle A. Robinson",
+        "Tanmay Singla",
+        "Huiyun Peng",
+        "Aravind Machiry",
+        "Santiago Torres-Arias",
+        "Laurent Simon",
+        "James C. Davis"
+      ],
+      "published": "2023-10-21",
+      "relevance_score": 11.0,
+      "abstract": "Third-party libraries like Log4j accelerate software application development but introduce substantial risk. Vulnerabilities in these libraries have led to Software Supply Chain (SSC) attacks that compromised resources within the host system. These attacks benefit from current application permission..."
+    },
+    {
+      "arxiv_id": "2308.07309v2",
+      "title": "Reinforcing Security and Usability of Crypto-Wallet with Post-Quantum Cryptography and Zero-Knowledge Proof",
+      "authors": [
+        "Yathin Kethepalli",
+        "Rony Joseph",
+        "Sai Raja Vajrala",
+        "Jashwanth Vemula",
+        "Nenavath Srinivas Naik"
+      ],
+      "published": "2023-08-14",
+      "relevance_score": 10.0,
+      "abstract": "Crypto-wallets or digital asset wallets are a crucial aspect of managing cryptocurrencies and other digital assets such as NFTs. However, these wallets are not immune to security threats, particularly from the growing risk of quantum computing. The use of traditional public-key cryptography systems ..."
+    },
+    {
+      "arxiv_id": "2311.12647v1",
+      "title": "D-GATE: Decentralized Geolocation and Time Enforcement for Usage Control",
+      "authors": [
+        "Hendrik Meyer zum Felde",
+        "Jean-Luc Reding",
+        "Michael Lux"
+      ],
+      "published": "2023-11-21",
+      "relevance_score": 8.0,
+      "abstract": "In the context of cloud environments, data providers entrust their data to data consumers in order to allow further computing on their own IT infrastructure. Usage control measures allow the data provider to restrict the usage of its data even on the data consumer's system. Two of these restrictions..."
+    },
+    {
+      "arxiv_id": "2310.12706v1",
+      "title": "Trenchcoat: Human-Computable Hashing Algorithms for Password Generation",
+      "authors": [
+        "Ruthu Hulikal Rooparaghunath",
+        "T. S. Harikrishnan",
+        "Debayan Gupta"
+      ],
+      "published": "2023-10-19",
+      "relevance_score": 8.0,
+      "abstract": "The average user has between 90-130 online accounts, and around $3 \\times 10^{11}$ passwords are in use this year. Most people are terrible at remembering \"random\" passwords, so they reuse or create similar passwords using a combination of predictable words, numbers, and symbols. Previous password-g..."
+    },
+    {
+      "arxiv_id": "2310.12401v1",
+      "title": "Privacy-Preserving Hierarchical Anonymization Framework over Encrypted Data",
+      "authors": [
+        "Jing Jia",
+        "Kenta Saito",
+        "Hiroaki Nishi"
+      ],
+      "published": "2023-10-19",
+      "relevance_score": 8.0,
+      "abstract": "Smart cities, which can monitor the real world and provide smart services in a variety of fields, have improved people's living standards as urbanization has accelerated. However, there are security and privacy concerns because smart city applications collect large amounts of privacy-sensitive infor..."
+    },
+    {
+      "arxiv_id": "2309.07657v2",
+      "title": "Sync+Sync: A Covert Channel Built on fsync with Storage",
+      "authors": [
+        "Qisheng Jiang",
+        "Chundong Wang"
+      ],
+      "published": "2023-09-14",
+      "relevance_score": 8.0,
+      "abstract": "Scientists have built a variety of covert channels for secretive information transmission with CPU cache and main memory. In this paper, we turn to a lower level in the memory hierarchy, i.e., persistent storage. Most programs store intermediate or eventual results in the form of files and some of t..."
+    },
+    {
+      "arxiv_id": "2308.11921v1",
+      "title": "PARseL: Towards a Verified Root-of-Trust over seL4",
+      "authors": [
+        "Ivan De Oliveira Nunes",
+        "Seoyeon Hwang",
+        "Sashidhar Jakkamsetti",
+        "Norrathep Rattanavipanon",
+        "Gene Tsudik"
+      ],
+      "published": "2023-08-23",
+      "relevance_score": 8.0,
+      "abstract": "Widespread adoption and growing popularity of embedded/IoT/CPS devices make them attractive attack targets. On low-to-mid-range devices, security features are typically few or none due to various constraints. Such devices are thus subject to malware-based compromise. One popular defensive measure is..."
+    },
+    {
+      "arxiv_id": "2308.12417v3",
+      "title": "VetIoT: On Vetting IoT Defenses Enforcing Policies at Runtime",
+      "authors": [
+        "Akib Jawad Nafis",
+        "S Mahmudul Hasan",
+        "Omar Chowdhury",
+        "Endadul Hoque"
+      ],
+      "published": "2023-08-23",
+      "relevance_score": 8.0,
+      "abstract": "Smart homes, powered by programmable IoT platforms, often face safety and security issues. A class of defense solutions dynamically enforces policies that capture the expected behavior of the IoT system. Despite numerous innovations, these solutions are under-vetted. The primary reason lies in their..."
+    },
+    {
+      "arxiv_id": "2308.01280v3",
+      "title": "Scalable Time-Lock Puzzle",
+      "authors": [
+        "Aydin Abadi",
+        "Dan Ristea",
+        "Artem Grigor",
+        "Steven J. Murdoch"
+      ],
+      "published": "2023-08-02",
+      "relevance_score": 8.0,
+      "abstract": "Time-Lock Puzzles (TLPs) enable a client to lock a message such that a server can unlock it only after a specified time. They have diverse applications, such as scheduled payments, secret sharing, and zero-knowledge proofs. In this work, we present a scalable TLP designed for real-world scenarios in..."
+    },
+    {
+      "arxiv_id": "2308.00239v1",
+      "title": "Verifiable Data Sharing Scheme for Dynamic Multi-Owner Setting",
+      "authors": [
+        "Jing Zhao",
+        "Qianqian Su"
+      ],
+      "published": "2023-08-01",
+      "relevance_score": 8.0,
+      "abstract": "One of scenarios in data-sharing applications is that files are managed by multiple owners, and the list of file owners may change dynamically. However, most existing solutions to this problem rely on trusted third parties and have complicated signature permission processes, resulting in additional ..."
+    },
+    {
+      "arxiv_id": "2307.15561v2",
+      "title": "Swiper: a new paradigm for efficient weighted distributed protocols",
+      "authors": [
+        "Andrei Tonkikh",
+        "Luciano Freitas"
+      ],
+      "published": "2023-07-28",
+      "relevance_score": 8.0,
+      "abstract": "The majority of fault-tolerant distributed algorithms are designed assuming a nominal corruption model, in which at most a fraction $f_n$ of parties can be corrupted by the adversary. However, due to the infamous Sybil attack, nominal models are not sufficient to express the trust assumptions in ope..."
+    },
+    {
+      "arxiv_id": "2306.16738v1",
+      "title": "Towards Optimal Randomized Strategies in Adversarial Example Game",
+      "authors": [
+        "Jiahao Xie",
+        "Chao Zhang",
+        "Weijie Liu",
+        "Wensong Bai",
+        "Hui Qian"
+      ],
+      "published": "2023-06-29",
+      "relevance_score": 8.0,
+      "abstract": "The vulnerability of deep neural network models to adversarial example attacks is a practical challenge in many artificial intelligence applications. A recent line of work shows that the use of randomization in adversarial training is the key to find optimal strategies against adversarial example at..."
+    },
+    {
+      "arxiv_id": "2302.09913v4",
+      "title": "ByzSecAgg: A Byzantine-Resistant Secure Aggregation Scheme for Federated Learning Based on Coded Computing and Vector Commitment",
+      "authors": [
+        "Tayyebeh Jahani-Nezhad",
+        "Mohammad Ali Maddah-Ali",
+        "Giuseppe Caire"
+      ],
+      "published": "2023-02-20",
+      "relevance_score": 8.0,
+      "abstract": "In this paper, we propose ByzSecAgg, an efficient secure aggregation scheme for federated learning that is resistant to Byzantine attacks and privacy leakages. Processing individual updates to manage adversarial behavior, while preserving the privacy of the data against colluding nodes, requires som..."
+    }
+  ]
+}

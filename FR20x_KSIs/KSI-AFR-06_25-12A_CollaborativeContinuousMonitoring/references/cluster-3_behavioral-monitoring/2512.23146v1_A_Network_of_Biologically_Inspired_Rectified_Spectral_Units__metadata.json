@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.23146v1",
+  "title": "A Network of Biologically Inspired Rectified Spectral Units (ReSUs) Learns Hierarchical Features Without Error Backpropagation",
+  "authors": [
+    "Shanshan Qin",
+    "Joshua L. Pughe-Sanford",
+    "Alexander Genkin",
+    "Pembe Gizem Ozdil",
+    "Philip Greengard"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23146v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 10,
+  "key_topics": [],
+  "summary": "We introduce a biologically inspired, multilayer neural architecture composed of Rectified Spectral Units (ReSUs). Each ReSU projects a recent window of its input history onto a canonical direction obtained via canonical correlation analysis (CCA) of previously observed past-future input pairs, and then rectifies either its positive or negative component. By encoding canonical directions in synaptic weights and temporal filters, ReSUs implement a local, self-supervised algorithm for progressivel..."
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.23779v1",
+  "title": "Prompt-Induced Over-Generation as Denial-of-Service: A Black-Box Attack-Side Benchmark",
+  "authors": [
+    " Manu",
+    "Yi Guo",
+    "Jo Plested",
+    "Tim Lynar",
+    "Kanchana Thilakarathna",
+    "Nirhoshan Sivaroopan",
+    "Jack Yang",
+    "Wangli Yang"
+  ],
+  "published": "2025-12-29T13:42:08Z",
+  "url": "http://arxiv.org/abs/2512.23779v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.23779v1.pdf",
+  "relevance_score": 81,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Large language models (LLMs) can be driven into over-generation, emitting thousands of tokens before producing an end-of-sequence (EOS) token. This degrades answer quality, inflates latency and cost, and can be weaponized as a denial-of-service (DoS) attack. Recent work has begun to study DoS-style prompt attacks, but typically focuses on a single attack algorithm or assumes white-box access, without an attack-side benchmark that compares prompt-based attackers in a black-box, query-only regime "
+}

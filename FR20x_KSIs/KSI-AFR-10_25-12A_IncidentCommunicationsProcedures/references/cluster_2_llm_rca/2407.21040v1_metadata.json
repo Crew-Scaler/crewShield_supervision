@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2407.21040v1",
+  "title": "Towards Automated Data Sciences with Natural Language and SageCopilot: Practices and Lessons Learned",
+  "authors": [
+    "Yuan Liao",
+    "Jiang Bian",
+    "Yuhui Yun",
+    "Shuo Wang",
+    "Yubo Zhang",
+    "Jiaming Chu",
+    "Tao Wang",
+    "Kewei Li",
+    "Yuchen Li",
+    "Xuhong Li",
+    "Shilei Ji",
+    "Haoyi Xiong"
+  ],
+  "published": "2024-07-21T08:58:18Z",
+  "url": "http://arxiv.org/abs/2407.21040v1",
+  "pdf_url": "http://arxiv.org/pdf/2407.21040v1.pdf",
+  "relevance_score": 80,
+  "summary": "While the field of NL2SQL has made significant advancements in translating natural language instructions into executable SQL scripts for data querying and processing, achieving full automation within the broader data science pipeline - encompassing data querying, analysis, visualization, and reporting - remains a complex challenge. This study introduces SageCopilot, an advanced, industry-grade system system that automates the data science pipeline by integrating Large Language Models (LLMs), Autonomous Agents (AutoAgents), and Language User Interfaces (LUIs). Specifically, SageCopilot incorporates a two-phase design: an online component refining users' inputs into executable scripts through In-Context Learning (ICL) and running the scripts for results reporting & visualization, and an offline preparing demonstrations requested by ICL in the online phase. A list of trending strategies such as Chain-of-Thought and prompt-tuning have been used to augment SageCopilot for enhanced performance. Through rigorous testing and comparative analysis against prompt-based solutions, SageCopilot has been empirically validated to achieve superior end-to-end performance in generating or executing scripts and offering results with visualization, backed by real-world datasets. Our in-depth ablation studies highlight the individual contributions of various components and strategies used by SageCopilot to the end-to-end correctness for data sciences."
+}

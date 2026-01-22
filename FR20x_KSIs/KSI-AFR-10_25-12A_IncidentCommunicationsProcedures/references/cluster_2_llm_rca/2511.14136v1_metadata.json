@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2511.14136v1",
+  "title": "Beyond Accuracy: A Multi-Dimensional Framework for Evaluating Enterprise Agentic AI Systems",
+  "authors": [
+    "Sushant Mehta"
+  ],
+  "published": "2025-11-18T04:50:19Z",
+  "url": "http://arxiv.org/abs/2511.14136v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.14136v1.pdf",
+  "relevance_score": 95,
+  "summary": "Current agentic AI benchmarks predominantly evaluate task completion accuracy, while overlooking critical enterprise requirements such as cost-efficiency, reliability, and operational stability. Through systematic analysis of 12 main benchmarks and empirical evaluation of state-of-the-art agents, we identify three fundamental limitations: (1) absence of cost-controlled evaluation leading to 50x cost variations for similar precision, (2) inadequate reliability assessment where agent performance drops from 60\\% (single run) to 25\\% (8-run consistency), and (3) missing multidimensional metrics for security, latency, and policy compliance. We propose \\textbf{CLEAR} (Cost, Latency, Efficacy, Assurance, Reliability), a holistic evaluation framework specifically designed for enterprise deployment. Evaluation of six leading agents on 300 enterprise tasks demonstrates that optimizing for accuracy alone yields agents 4.4-10.8x more expensive than cost-aware alternatives with comparable performance. Expert evaluation (N=15) confirms that CLEAR better predicts production success (correlation $\u03c1=0.83$) compared to accuracy-only evaluation ($\u03c1=0.41$)."
+}

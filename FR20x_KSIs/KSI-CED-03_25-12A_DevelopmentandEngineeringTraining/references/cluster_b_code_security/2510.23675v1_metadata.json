@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2510.23675v1",
+  "title": "QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents",
+  "authors": [
+    "Yuchong Xie",
+    "Zesen Liu",
+    "Mingyu Luo",
+    "Zhixiang Zhang",
+    "Kaikai Zhang",
+    "Zongjie Li",
+    "Ping Chen",
+    "Shuai Wang",
+    "Dongdong She"
+  ],
+  "published": "2025-10-27T07:04:08Z",
+  "url": "http://arxiv.org/abs/2510.23675v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.23675v1.pdf",
+  "relevance_score": 70,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Modern coding agents integrated into IDEs combine powerful tools and system-level actions, exposing a high-stakes attack surface. Existing Indirect Prompt Injection (IPI) studies focus mainly on query-specific behaviors, leading to unstable attacks with lower success rates. We identify a more severe, query-agnostic threat that remains effective across diverse user inputs. This challenge can be overcome by exploiting a common vulnerability: leakage of the agent's internal prompt, which turns the "
+}

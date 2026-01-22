@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2512.24739v1",
+  "title": "SLM-TTA: A Framework for Test-Time Adaptation of Generative Spoken Language Models",
+  "authors": [
+    "Yuan-Kuei Wu",
+    "Yang Liu",
+    "Yiteng Huang",
+    "Zhaojun Yang",
+    "Haibin Wu",
+    "Ruizhe Huang",
+    " Yi-Te",
+    " Hsu",
+    "Shuyu Kong",
+    "Ming Sun",
+    "Florian Metze",
+    "Li Wan"
+  ],
+  "published": "2025-12-31T09:13:04Z",
+  "url": "http://arxiv.org/abs/2512.24739v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24739v1.pdf",
+  "relevance_score": 62,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Spoken Language Models (SLMs) are increasingly central to modern speech-driven applications, but performance degrades under acoustic shift - real-world noise, reverberation, and microphone variation. Prior solutions rely on offline domain adaptation, which is post-hoc, data-intensive, and slow. We introduce the first test-time adaptation (TTA) framework for generative SLMs that process interleaved audio-text prompts. Our method updates a small, targeted subset of parameters during inference usin"
+}

@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2512.23850v1",
+  "title": "The Drill-Down and Fabricate Test (DDFT): A Protocol for Measuring Epistemic Robustness in Language Models",
+  "authors": [
+    "Rahul Baxi"
+  ],
+  "published": "2025-12-29T20:29:09Z",
+  "summary": "Current language model evaluations measure what models know under ideal conditions but not how robustly they know it under realistic stress. Static benchmarks like MMLU and TruthfulQA cannot distinguish a model that lacks knowledge from one whose verification mechanisms collapse when information degrades or adversaries probe for weaknesses. We introduce the Drill-Down and Fabricate Test (DDFT), a protocol that measures epistemic robustness: a model's ability to maintain factual accuracy under pr",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.179956"
+}

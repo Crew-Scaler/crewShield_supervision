@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.06955v2",
+  "title": "High-Rate Mixout: Revisiting Mixout for Robust Domain Generalization",
+  "authors": [
+    "Masih Aminbeidokhti",
+    "Heitor Rapela Medeiros",
+    "Srikanth Muralidharan",
+    "Eric Granger",
+    "Marco Pedersoli"
+  ],
+  "published": "2025-10-08T12:37:56Z",
+  "url": "http://arxiv.org/abs/2510.06955v2",
+  "pdf_url": "http://arxiv.org/pdf/2510.06955v2.pdf",
+  "relevance_score": 62,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Ensembling fine-tuned models initialized from powerful pre-trained weights is a common strategy to improve robustness under distribution shifts, but it comes with substantial computational costs due to the need to train and store multiple models. Dropout offers a lightweight alternative by simulating ensembles through random neuron deactivation; however, when applied to pre-trained models, it tends to over-regularize and disrupt critical representations necessary for generalization. In this work"
+}

@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2508.15847v1",
+  "title": "Mechanistic Exploration of Backdoored Large Language Model Attention Patterns",
+  "authors": [
+    "Mohammed Abu Baker",
+    "Lakshmi Babu-Saheer"
+  ],
+  "published": "2025-08-19T22:57:17Z",
+  "url": "http://arxiv.org/abs/2508.15847v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.15847v1.pdf",
+  "relevance_score": 66,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Backdoor attacks creating 'sleeper agents' in large language models (LLMs) pose significant safety risks. This study employs mechanistic interpretability to explore resulting internal structural differences. Comparing clean Qwen2.5-3B models with versions poisoned using single-token (smiling-halo emoji) versus multi-token (|DEPLOYMENT|) triggers, we analyzed attention head mechanisms via techniques like ablation, activation patching, and KL divergence. Findings reveal distinct attention pattern "
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.22492v1",
+  "title": "Role-Based Fault Tolerance System for LLM RL Post-Training",
+  "authors": [
+    "Zhenqian Chen",
+    "Baoquan Zhong",
+    "Xiang Li",
+    "Qing Dai",
+    "Xinkui Zhao",
+    "Miao Ye",
+    "Ren Cheng",
+    "Lufei Zhang",
+    "Jianwei Yin"
+  ],
+  "published": "2025-12-27T06:30:18Z",
+  "url": "http://arxiv.org/abs/2512.22492v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.22492v1.pdf",
+  "relevance_score": 79,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "RL post-training for LLMs has been widely scaled to enhance reasoning and tool-using capabilities. However, RL post-training interleaves training and inference workloads, exposing the system to faults from both sides. Existing fault tolerance frameworks for LLMs target either training or inference, leaving the optimization potential in the asynchronous execution unexplored for RL. Our key insight is role-based fault isolation so the failure in one machine does not affect the others. We treat tra"
+}

@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2506.09365v1",
+  "title": "ContextBuddy: AI-Enhanced Contextual Insights for Security Alert Investigation (Applied to Intrusion Detection)",
+  "authors": [
+    "Ronal Singh",
+    "Mohan Baruwal Chhetri",
+    "Surya Nepal",
+    "Cecile Paris"
+  ],
+  "published": "2025-06-11T03:24:18Z",
+  "url": "http://arxiv.org/abs/2506.09365v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.09365v1.pdf",
+  "relevance_score": 95,
+  "summary": "Modern Security Operations Centres (SOCs) integrate diverse tools, such as SIEM, IDS, and XDR systems, offering rich contextual data, including alert enrichments, flow features, and similar case histories. Yet, analysts must still manually determine which of these contextual cues are most relevant when validating specific alerts. We introduce ContextBuddy, an AI assistant that learns from analysts' prior investigations to help them identify the most relevant context for new alerts. Rather than providing enrichments, ContextBuddy models how analysts have previously selected context and suggests tailored cues based on the characteristics of each alert. We formulate context selection as a sequential decision-making problem and apply imitation learning (IL) to capture analysts' strategies, evaluating multiple IL approaches. Through staged evaluation, we validate ContextBuddy using two intrusion detection datasets (HIKARI-2021, UNSW-NB15). In simulation-based experiments, ContextBuddy helped simulated reinforcement learning analysts improve classification accuracy (p < 0.001) (increasing F1 by 2.5% for HIKARI and 9% for UNSW), reducing false negatives (1.5% for HIKARI and 10% for UNSW), and keeping false positives below 1%. Decision confidence among agents also improved by 2-3% (p < 0.001). In a within-subject user study (N=13; power = 0.8), non-experts using ContextBuddy improved classification accuracy by 21.1% (p = 0.008) and reduced alert validation time by 24% (p = 0.01). These results demonstrate that by learning context-selection patterns from analysts, ContextBuddy can yield notable improvements in investigation effectiveness and efficiency."
+}

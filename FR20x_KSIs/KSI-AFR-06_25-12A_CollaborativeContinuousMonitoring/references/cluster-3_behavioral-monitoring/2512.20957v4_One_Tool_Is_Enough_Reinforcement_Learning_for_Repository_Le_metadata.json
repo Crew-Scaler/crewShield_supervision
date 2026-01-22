@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.20957v4",
+  "title": "One Tool Is Enough: Reinforcement Learning for Repository-Level LLM Agents",
+  "authors": [
+    "Zhaoxi Zhang",
+    "Yitong Duan",
+    "Yanzhi Zhang",
+    "Yiming Xu",
+    "Weikang Li"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.20957v4",
+  "relevance_score": 83.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "model monitoring",
+    "autonomous systems"
+  ],
+  "summary": "Locating the files and functions requiring modification in large open-source software (OSS) repositories is challenging due to their scale and structural complexity. Existing large language model (LLM)-based methods typically treat this as a repository-level retrieval task and rely on multiple auxiliary tools, which overlook code execution logic and complicate model control. We propose RepoNavigator, an LLM agent equipped with a single execution-aware tool-jumping to the definition of an invoked..."
+}

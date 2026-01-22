@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2510.18508v1",
+  "title": "Prompting the Priorities: A First Look at Evaluating LLMs for Vulnerability Triage and Prioritization",
+  "authors": [
+    "Osama Al Haddad",
+    "Muhammad Ikram",
+    "Ejaz Ahmed",
+    "Young Lee"
+  ],
+  "published": "2025-10-21T10:48:14Z",
+  "url": "http://arxiv.org/abs/2510.18508v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.18508v1.pdf",
+  "relevance_score": 95,
+  "summary": "Security analysts face increasing pressure to triage large and complex vulnerability backlogs. Large Language Models (LLMs) offer a potential aid by automating parts of the interpretation process. We evaluate four models (ChatGPT, Claude, Gemini, and DeepSeek) across twelve prompting techniques to interpret semi-structured and unstructured vulnerability information. As a concrete use case, we test each model's ability to predict decision points in the Stakeholder-Specific Vulnerability Categorization (SSVC) framework: Exploitation, Automatable, Technical Impact, and Mission and Wellbeing.   Using 384 real-world vulnerabilities from the VulZoo dataset, we issued more than 165,000 queries to assess performance under prompting styles including one-shot, few-shot, and chain-of-thought. We report F1 scores for each SSVC decision point and Cohen's kappa (weighted and unweighted) for the final SSVC decision outcomes. Gemini consistently ranked highest, leading on three of four decision points and yielding the most correct recommendations. Prompting with exemplars generally improved accuracy, although all models struggled on some decision points. Only DeepSeek achieved fair agreement under weighted metrics, and all models tended to over-predict risk.   Overall, current LLMs do not replace expert judgment. However, specific LLM and prompt combinations show moderate effectiveness for targeted SSVC decisions. When applied with care, LLMs can support vulnerability prioritization workflows and help security teams respond more efficiently to emerging threats."
+}

@@ -1,0 +1,201 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20535v1",
+    "arxiv_id": "2512.20535v1",
+    "title": "ARBITER: AI-Driven Filtering for Role-Based Access Control",
+    "summary": "Role-Based Access Control (RBAC) struggles to adapt to dynamic enterprise environments with documents that contain information that cannot be disclosed to specific user groups. As these documents are used by LLM-driven systems (e.g., in RAG) the problem is exacerbated as LLMs can leak sensitive data due to prompt truncation, classification errors, or loss of system context. We introduce \\our, a system designed to provide RBAC in RAG systems. \\our implements layered input/output validation, role-aware retrieval, and post-generation fact-checking. Unlike traditional RBAC approaches that rely on fine-tuned classifiers, \\our uses LLMs operating in few-shot settings with prompt-based steering for rapid deployment and role updates. We evaluate the approach on 389 queries using a synthetic dataset. Experimental results show 85\\% accuracy and 89\\% F1-score in query filtering, close to traditional RBAC solutions. Results suggest that practical RBAC deployment on RAG systems is approaching the maturity level needed for dynamic enterprise environments.",
+    "published": "2025-12-23T17:25:51Z",
+    "updated": "2025-12-23T17:25:51Z",
+    "authors": [
+      "Michele Lorenzo",
+      "Idilio Drago",
+      "Dario Salvadori",
+      "Fabio Romolo Vayr"
+    ],
+    "affiliations": [],
+    "first_author": "Michele Lorenzo",
+    "pdf_url": "https://arxiv.org/pdf/2512.20535v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20615v1",
+    "arxiv_id": "2512.20615v1",
+    "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+    "summary": "Current video avatar generation methods excel at identity preservation and motion alignment but lack genuine agency, they cannot autonomously pursue long-term goals through adaptive environmental interaction. We address this by introducing L-IVA (Long-horizon Interactive Visual Avatar), a task and benchmark for evaluating goal-directed planning in stochastic generative environments, and ORCA (Online Reasoning and Cognitive Architecture), the first framework enabling active intelligence in video avatars. ORCA embodies Internal World Model (IWM) capabilities through two key innovations: (1) a closed-loop OTAR cycle (Observe-Think-Act-Reflect) that maintains robust state tracking under generative uncertainty by continuously verifying predicted outcomes against actual generations, and (2) a hierarchical dual-system architecture where System 2 performs strategic reasoning with state prediction while System 1 translates abstract plans into precise, model-specific action captions. By formulating avatar control as a POMDP and implementing continuous belief updating with outcome verification, ORCA enables autonomous multi-step task completion in open-domain scenarios. Extensive experiments demonstrate that ORCA significantly outperforms open-loop and non-reflective baselines in task success rate and behavioral coherence, validating our IWM-inspired design for advancing video avatar intelligence from passive animation to active, goal-oriented behavior.",
+    "published": "2025-12-23T18:59:16Z",
+    "updated": "2025-12-23T18:59:16Z",
+    "authors": [
+      "Xuanhua He",
+      "Tianyu Yang",
+      "Ke Cao",
+      "Ruiqi Wu",
+      "Cheng Meng",
+      "Yong Zhang",
+      "Zhuoliang Kang",
+      "Xiaoming Wei",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Xuanhua He",
+    "pdf_url": "https://arxiv.org/pdf/2512.20615v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20610v1",
+    "arxiv_id": "2512.20610v1",
+    "title": "FedPOD: the deployable units of training for federated learning",
+    "summary": "This paper proposes FedPOD (Proportionally Orchestrated Derivative) for optimizing learning efficiency and communication cost in federated learning among multiple clients. Inspired by FedPIDAvg, we define a round-wise task for FedPOD to enhance training efficiency. FedPIDAvg achieved performance improvement by incorporating the training loss reduction for prediction entropy as weights using differential terms. Furthermore, by modeling data distribution with a Poisson distribution and using a PID controller, it reduced communication costs even in skewed data distribution. However, excluding participants classified as outliers based on the Poisson distribution can limit data utilization. Additionally, PID controller requires the same participants to be maintained throughout the federated learning process as it uses previous rounds' learning information in the current round. In our approach, FedPOD addresses these issues by including participants excluded as outliers, eliminating dependency on previous rounds' learning information, and applying a method for calculating validation loss at each round. In this challenge, FedPOD presents comparable performance to FedPIDAvg in metrics of Dice score, 0.78, 0.71 and 0.72 for WT, ET and TC in average, and projected convergence score, 0.74 in average. Furthermore, the concept of FedPOD draws inspiration from Kubernetes' smallest computing unit, POD, designed to be compatible with Kubernetes auto-scaling. Extending round-wise tasks of FedPOD to POD units allows flexible design by applying scale-out similar to Kubernetes' auto-scaling. This work demonstrated the potentials of FedPOD to enhance federated learning by improving efficiency, flexibility, and performance in metrics.",
+    "published": "2025-12-23T18:57:53Z",
+    "updated": "2025-12-23T18:57:53Z",
+    "authors": [
+      "Daewoon Kim",
+      "Si Young Yie",
+      "Jae Sung Lee"
+    ],
+    "affiliations": [],
+    "first_author": "Daewoon Kim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20610v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20605v1",
+    "arxiv_id": "2512.20605v1",
+    "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+    "summary": "Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token can result in highly inefficient learning, particularly when rewards are sparse. Here, we show that it is possible to overcome this problem by acting and exploring within the internal representations of an autoregressive model. Specifically, to discover temporally-abstract actions, we introduce a higher-order, non-causal sequence model whose outputs control the residual stream activations of a base autoregressive model. On grid world and MuJoCo-based tasks with hierarchical structure, we find that the higher-order model learns to compress long activation sequence chunks onto internal controllers. Critically, each controller executes a sequence of behaviorally meaningful actions that unfold over long timescales and are accompanied with a learned termination condition, such that composing multiple controllers over time leads to efficient exploration on novel tasks. We show that direct internal controller reinforcement, a process we term \"internal RL\", enables learning from sparse rewards in cases where standard RL finetuning fails. Our results demonstrate the benefits of latent action generation and reinforcement in autoregressive models, suggesting internal RL as a promising avenue for realizing hierarchical RL within foundation models.",
+    "published": "2025-12-23T18:51:50Z",
+    "updated": "2025-12-23T18:51:50Z",
+    "authors": [
+      "Seijin Kobayashi",
+      "Yanick Schimpf",
+      "Maximilian Schlegel",
+      "Angelika Steger",
+      "Maciej Wolczyk",
+      "Johannes von Oswald",
+      "Nino Scherre",
+      "Kaitlin Maile",
+      "Guillaume Lajoie",
+      "Blake A. Richards",
+      "Rif A. Saurous",
+      "James Manyika",
+      "Blaise Ag\u00fcera y Arcas",
+      "Alexander Meulemans",
+      "Jo\u00e3o Sacramento"
+    ],
+    "affiliations": [],
+    "first_author": "Seijin Kobayashi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20605v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20595v1",
+    "arxiv_id": "2512.20595v1",
+    "title": "Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs",
+    "summary": "We introduce Cube Bench, a Rubik's-cube benchmark for evaluating spatial and sequential reasoning in multimodal large language models (MLLMs). The benchmark decomposes performance into five skills: (i) reconstructing cube faces from images and text, (ii) choosing the optimal next move, (iii) predicting the outcome of a candidate move without applying it, (iv) executing multi-step plans while recovering from mistakes, and (v) detecting and revising one's own errors. Using a shared set of scrambled cube states, identical prompts and parsers, and a single distance-to-solved metric, we compare recent MLLMs side by side as a function of scramble depth. Across seven MLLMs, accuracy drops sharply with depth; once a trajectory stalls or diverges, models rarely recover, and high face-reconstruction accuracy does not guarantee competent action selection or multi-step execution. A pronounced closed- vs open-source gap emerges: the strongest closed model leads on both single-step perception tasks and multi-step control tasks, while open-weight models cluster near chance on the hardest settings; yet even the best MLLM degrades at higher cube complexity. A simple self-correction via reflective thinking yields modest gains but can also introduce overthinking. Cube Bench offers a compact, reproducible probe of sequential spatial reasoning in MLLMs.",
+    "published": "2025-12-23T18:43:05Z",
+    "updated": "2025-12-23T18:43:05Z",
+    "authors": [
+      "Dhruv Anand",
+      "Ehsan Shareghi"
+    ],
+    "affiliations": [],
+    "first_author": "Dhruv Anand",
+    "pdf_url": "https://arxiv.org/pdf/2512.20595v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20589v1",
+    "arxiv_id": "2512.20589v1",
+    "title": "Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information",
+    "summary": "As systems engineering (SE) objectives evolve from design and operation of monolithic systems to complex System of Systems (SoS), the discipline of Mission Engineering (ME) has emerged which is increasingly being accepted as a new line of thinking for the SE community. Moreover, mission environments are uncertain, dynamic, and mission outcomes are a direct function of how the mission assets will interact with this environment. This proves static architectures brittle and calls for analytically rigorous approaches for ME. To that end, this paper proposes an intelligent mission coordination methodology that integrates digital mission models with Reinforcement Learning (RL), that specifically addresses the need for adaptive task allocation and reconfiguration. More specifically, we are leveraging a Digital Engineering (DE) based infrastructure that is composed of a high-fidelity digital mission model and agent-based simulation; and then we formulate the mission tactics management problem as a Markov Decision Process (MDP), and employ an RL agent trained via Proximal Policy Optimization. By leveraging the simulation as a sandbox, we map the system states to actions, refining the policy based on realized mission outcomes. The utility of the RL-based intelligent mission coordinator is demonstrated through an aerial firefighting case study. Our findings indicate that the RL-based intelligent mission coordinator not only surpasses baseline performance but also significantly reduces the variability in mission performance. Thus, this study serves as a proof of concept demonstrating that DE-enabled mission simulations combined with advanced analytical tools offer a mission-agnostic framework for improving ME practice; which can be extended to more complicated fleet design and selection problems in the future from a mission-first perspective.",
+    "published": "2025-12-23T18:36:07Z",
+    "updated": "2025-12-23T18:36:07Z",
+    "authors": [
+      "\u0130brahim O\u011fuz \u00c7etinkaya",
+      "Sajad Khodadadian",
+      "Taylan G. Top\u00e7u"
+    ],
+    "affiliations": [],
+    "first_author": "\u0130brahim O\u011fuz \u00c7etinkaya",
+    "pdf_url": "https://arxiv.org/pdf/2512.20589v1",
+    "primary_category": "cs.CY",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20581v1",
+    "arxiv_id": "2512.20581v1",
+    "title": "MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles with chemical probing",
+    "summary": "The function of RNA molecules is deeply related to their secondary structure, which determines which nucleobases are accessible for pairing. Most RNA molecules however function through dynamic and heterogeneous structural ensembles. Chemical probing methods (e.g., DMS probing) rely on selective chemical modification of accessible RNA nucleotides to infer base-pairing status, yet the resulting nucleotide-resolution data represent ensemble averages over dynamic RNA conformations. We present MERGE-RNA, a unified, physics-based framework that explicitly models the full experimental pipeline, from the thermodynamics of probe binding to the mutational profiling readout. By integrating measurements across probe concentrations and replicates, our model learns a small set of transferable and interpretable parameters together with minimal sequence-specific soft constraints. This enables the prediction of secondary structure ensembles that best explain the data and the detection of suboptmal structures involved in dynamic processes. We validate MERGE-RNA on diverse RNAs, showing that it achieves strong structural accuracy while preserving essential conformational heterogeneity. In a designed RNA for which we report new DMS data, MERGE-RNA detects transient intermediate states associated with strand displacement, dynamics that remain invisible to traditional methods.",
+    "published": "2025-12-23T18:26:57Z",
+    "updated": "2025-12-23T18:26:57Z",
+    "authors": [
+      "Giuseppe Sacco",
+      "Jianhui Li",
+      "Redmond P. Smyth",
+      "Guido Sanguinetti",
+      "Giovanni Bussi"
+    ],
+    "affiliations": [],
+    "first_author": "Giuseppe Sacco",
+    "pdf_url": "https://arxiv.org/pdf/2512.20581v1",
+    "primary_category": "q-bio.BM",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20578v1",
+    "arxiv_id": "2512.20578v1",
+    "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+    "summary": "Large language models (LLMs) generate fluent and complex outputs but often fail to recognize their own mistakes and hallucinations. Existing approaches typically rely on external judges, multi-sample consistency, or text-based self-critique, which incur additional compute or correlate weakly with true correctness. We ask: can LLMs predict their own failures by inspecting internal states during inference? We introduce Gnosis, a lightweight self-awareness mechanism that enables frozen LLMs to perform intrinsic self-verification by decoding signals from hidden states and attention patterns. Gnosis passively observes internal traces, compresses them into fixed-budget descriptors, and predicts correctness with negligible inference cost, adding only ~5M parameters and operating independently of sequence length. Across math reasoning, open-domain question answering, and academic knowledge benchmarks, and over frozen backbones ranging from 1.7B to 20B parameters, Gnosis consistently outperforms strong internal baselines and large external judges in both accuracy and calibration. Moreover, it generalizes zero-shot to partial generations, enabling early detection of failing trajectories and compute-aware control. These results show that reliable correctness cues are intrinsic to generation process and can be extracted efficiently without external supervision.",
+    "published": "2025-12-23T18:21:32Z",
+    "updated": "2025-12-23T18:21:32Z",
+    "authors": [
+      "Amirhosein Ghasemabadi",
+      "Di Niu"
+    ],
+    "affiliations": [],
+    "first_author": "Amirhosein Ghasemabadi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20578v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20577v1",
+    "arxiv_id": "2512.20577v1",
+    "title": "Improving ML Training Data with Gold-Standard Quality Metrics",
+    "summary": "Hand-tagged training data is essential to many machine learning tasks. However, training data quality control has received little attention in the literature, despite data quality varying considerably with the tagging exercise. We propose methods to evaluate and enhance the quality of hand-tagged training data using statistical approaches to measure tagging consistency and agreement. We show that agreement metrics give more reliable results if recorded over multiple iterations of tagging, where declining variance in such recordings is an indicator of increasing data quality. We also show one way a tagging project can collect high-quality training data without requiring multiple tags for every work item, and that a tagger burn-in period may not be sufficient for minimizing tagger errors.",
+    "published": "2025-12-23T18:21:24Z",
+    "updated": "2025-12-23T18:21:24Z",
+    "authors": [
+      "Leslie Barrett",
+      "Michael W. Sherman"
+    ],
+    "affiliations": [],
+    "first_author": "Leslie Barrett",
+    "pdf_url": "https://arxiv.org/pdf/2512.20577v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20576v1",
+    "arxiv_id": "2512.20576v1",
+    "title": "Performative Policy Gradient: Optimality in Performative Reinforcement Learning",
+    "summary": "Post-deployment machine learning algorithms often influence the environments they act in, and thus shift the underlying dynamics that the standard reinforcement learning (RL) methods ignore. While designing optimal algorithms in this performative setting has recently been studied in supervised learning, the RL counterpart remains under-explored. In this paper, we prove the performative counterparts of the performance difference lemma and the policy gradient theorem in RL, and further introduce the Performative Policy Gradient algorithm (PePG). PePG is the first policy gradient algorithm designed to account for performativity in RL. Under softmax parametrisation, and also with and without entropy regularisation, we prove that PePG converges to performatively optimal policies, i.e. policies that remain optimal under the distribution shifts induced by themselves. Thus, PePG significantly extends the prior works in Performative RL that achieves performative stability but not optimality. Furthermore, our empirical analysis on standard performative RL environments validate that PePG outperforms standard policy gradient algorithms and the existing performative RL algorithms aiming for stability.",
+    "published": "2025-12-23T18:20:06Z",
+    "updated": "2025-12-23T18:20:06Z",
+    "authors": [
+      "Debabrota Basu",
+      "Udvas Das",
+      "Brahim Driss",
+      "Uddalak Mukherjee"
+    ],
+    "affiliations": [],
+    "first_author": "Debabrota Basu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20576v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  }
+]

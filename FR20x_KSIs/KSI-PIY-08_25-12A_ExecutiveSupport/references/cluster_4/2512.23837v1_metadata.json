@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2512.23837v1",
+  "title": "Adversarial Lens: Exploiting Attention Layers to Generate Adversarial Examples for Evaluation",
+  "authors": [
+    "Kaustubh Dhole"
+  ],
+  "published": "2025-12-29T19:59:52Z",
+  "summary": "Recent advances in mechanistic interpretability suggest that intermediate attention layers encode token-level hypotheses that are iteratively refined toward the final output. In this work, we exploit this property to generate adversarial examples directly from attention-layer token distributions. Unlike prompt-based or gradient-based attacks, our approach leverages model-internal token predictions, producing perturbations that are both plausible and internally consistent with the model's own gen",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.179973"
+}

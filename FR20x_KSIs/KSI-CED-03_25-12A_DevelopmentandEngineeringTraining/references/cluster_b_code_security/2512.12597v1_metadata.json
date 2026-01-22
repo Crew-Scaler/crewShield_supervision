@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.12597v1",
+  "title": "AgentSHAP: Interpreting LLM Agent Tool Importance with Monte Carlo Shapley Value Estimation",
+  "authors": [
+    "Miriam Horovicz"
+  ],
+  "published": "2025-12-14T08:31:43Z",
+  "url": "http://arxiv.org/abs/2512.12597v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.12597v1.pdf",
+  "relevance_score": 73,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "LLM agents that use external tools can solve complex tasks, but understanding which tools actually contributed to a response remains a blind spot. No existing XAI methods address tool-level explanations. We introduce AgentSHAP, the first framework for explaining tool importance in LLM agents. AgentSHAP is model-agnostic: it treats the agent as a black box and works with any LLM (GPT, Claude, Llama, etc.) without needing access to internal weights or gradients. Using Monte Carlo Shapley values, A"
+}

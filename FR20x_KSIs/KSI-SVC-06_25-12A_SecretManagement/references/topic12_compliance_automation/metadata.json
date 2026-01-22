@@ -1,0 +1,269 @@
+{
+  "research_date": "2025-12-25T08:45:38.540670",
+  "issue": "Issue #68 Topic 12: KMS Compliance Automation",
+  "search_queries": [
+    "Query 1: Compliance automation with KMS and regulations",
+    "Query 2: Key rotation compliance and audit",
+    "Query 3: Dual control and key operations",
+    "Query 4: Automated evidence and audit trails",
+    "Query 5: Security compliance frameworks"
+  ],
+  "query_statistics": [
+    {
+      "query": "Query 1: Compliance automation with KMS and regulations",
+      "results": 0
+    },
+    {
+      "query": "Query 2: Key rotation compliance and audit",
+      "results": 0
+    },
+    {
+      "query": "Query 3: Dual control and key operations",
+      "results": 3
+    },
+    {
+      "query": "Query 4: Automated evidence and audit trails",
+      "results": 2
+    },
+    {
+      "query": "Query 5: Security compliance frameworks",
+      "results": 5
+    }
+  ],
+  "total_papers_found": 10,
+  "unique_papers": 10,
+  "top_papers_count": 10,
+  "papers_downloaded": 10,
+  "papers_archived": 0,
+  "download_errors": [],
+  "top_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2511.02856v1",
+      "title": "Workday's Approach to Secure and Compliant Cloud ERP Systems",
+      "authors": [
+        "Monu Sharma"
+      ],
+      "published": "2025-10-31T12:25:06Z",
+      "updated": "2025-10-31T12:25:06Z",
+      "categories": [
+        "cs.CE",
+        "cs.SE"
+      ],
+      "primary_category": "cs.CE",
+      "summary": "Workday's compliance with global standards -- such as GDPR, SOC 2, HIPAA, ISO 27001, and FedRAMP -- shows its ability to best protect critical financial, healthcare, and government data.Automated compliance attributes like audit trails, behavioral analytics, and continuous reporting improve automation of the process and cut down on the manual effort to audit. A comparative review demonstrates enhanced risk management, operational flexibility, and breach mitigation. The paper also discusses potential future solutions with AI, ML and blockchain, to enhance attackdetection and data integrity. Overall, Workday turns out to be a secure, compliant and future-ready ERP solution. The paper also explores emerging trends, including the integration of AI, machine learning, and blockchain technologies to enhance next-generation threat detection and data integrity. The findings position Workday as a reliable, compliant, and future-ready ERP solution, setting a new benchmark for secure enterprise cloud management.",
+      "pdf_url": "https://arxiv.org/pdf/2511.02856v1",
+      "relevance_score": 67,
+      "source_query": "Query 4: Automated evidence and audit trails",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/01_2511.02856v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2511.02856v1"
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2504.17669v2",
+      "title": "Towards a HIPAA Compliant Agentic AI System in Healthcare",
+      "authors": [
+        "Subash Neupane",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "published": "2025-04-24T15:38:20Z",
+      "updated": "2025-05-06T21:45:48Z",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.ET"
+      ],
+      "primary_category": "cs.MA",
+      "summary": "Agentic AI systems powered by Large Language Models (LLMs) as their foundational reasoning engine, are transforming clinical workflows such as medical report generation and clinical summarization by autonomously analyzing sensitive healthcare data and executing decisions with minimal human oversight. However, their adoption demands strict compliance with regulatory frameworks such as Health Insurance Portability and Accountability Act (HIPAA), particularly when handling Protected Health Information (PHI). This work-in-progress paper introduces a HIPAA-compliant Agentic AI framework that enforces regulatory compliance through dynamic, context-aware policy enforcement. Our framework integrates three core mechanisms: (1) Attribute-Based Access Control (ABAC) for granular PHI governance, (2) a hybrid PHI sanitization pipeline combining regex patterns and BERT-based model to minimize leakage, and (3) immutable audit trails for compliance verification.",
+      "pdf_url": "https://arxiv.org/pdf/2504.17669v2",
+      "relevance_score": 51,
+      "source_query": "Query 5: Security compliance frameworks",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/02_2504.17669v2.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2504.17669v2"
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2512.09938v1",
+      "title": "Blockchain-Anchored Audit Trail Model for Transparent Inter-Operator Settlement",
+      "authors": [
+        "Balakumar Ravindranath Kunthu",
+        "Ranganath Nagesh Taware",
+        "Sathish Krishna Anumula"
+      ],
+      "published": "2025-12-03T18:58:28Z",
+      "updated": "2025-12-03T18:58:28Z",
+      "categories": [
+        "cs.CR",
+        "cs.CY"
+      ],
+      "primary_category": "cs.CR",
+      "summary": "The telecommunications and financial services industries face substantial challenges in inter-operator settlement processes, characterized by extended reconciliation cycles, high transaction costs, and limited real-time transparency. Traditional settlement mechanisms rely on multiple intermediaries and manual procedures, resulting in settlement periods exceeding 120 days with operational costs consuming approximately 5 percent of total revenue. This research presents a blockchain-anchored audit trail model enabling transparent, immutable, and automated inter-operator settlement. The framework leverages distributed ledger technology, smart contract automation, and cryptographic verification to establish a unified, tamper-proof transaction record. Empirical evaluation demonstrates 87 percent reduction in transaction fees, settlement cycle compression from 120 days to 3 minutes, and 100 percent audit trail integrity. Smart contract automation reduces manual intervention by 92 percent and eliminates 88 percent of settlement disputes. Market analysis indicates institutional adoption accelerated from 8 percent in 2020 to 52 percent by April 2024, with projected industry investment reaching 9.2 billion USD annually. The framework addresses scalability (12,000 transactions per second), interoperability, and regulatory compliance across multiple jurisdictions.",
+      "pdf_url": "https://arxiv.org/pdf/2512.09938v1",
+      "relevance_score": 41,
+      "source_query": "Query 4: Automated evidence and audit trails",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/03_2512.09938v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2512.09938v1"
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2510.09690v1",
+      "title": "A Semantic Model for Audit of Cloud Engines based on ISO/IEC TR 3445:2022",
+      "authors": [
+        "Morteza Sargolzaei Javan"
+      ],
+      "published": "2025-10-09T11:32:35Z",
+      "updated": "2025-10-09T11:32:35Z",
+      "categories": [
+        "cs.CR",
+        "cs.DC"
+      ],
+      "primary_category": "cs.CR",
+      "summary": "Cloud computing has become the foundation of modern digital infrastructure, yet the absence of a unified architectural and compliance framework impedes interoperability, auditability, and robust security. This paper introduces a formal, machine-readable semantic model for Cloud Engines, integrating the architectural taxonomy of ISO/IEC 22123 (Cloud Reference Architecture) with the security and compliance controls of ISO/IEC 27001:2022 and ISO/IEC TR 3445:2022. The model decomposes cloud systems into four canonical interfaces--Control, Business, Audit, and Data--and extends them with a security ontology that maps mechanisms such as authentication, authorization, and encryption to specific compliance controls. Expressed in RDF/Turtle, the model enables semantic reasoning, automated compliance validation, and vendor-neutral architecture design. We demonstrate its practical utility through OpenStack and AWS case studies, and provide reproducible validation workflows using SPARQL and SHACL. This work advances the state of cloud security modeling by bridging architectural and compliance standards in a unified framework, with a particular emphasis on auditability.",
+      "pdf_url": "https://arxiv.org/pdf/2510.09690v1",
+      "relevance_score": 41,
+      "source_query": "Query 5: Security compliance frameworks",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/04_2510.09690v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2510.09690v1"
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2512.05453v1",
+      "title": "Parajudica: An RDF-Based Reasoner and Metamodel for Multi-Framework Context-Dependent Data Compliance Assessments",
+      "authors": [
+        "Luc Moreau",
+        "Alfred Rossi",
+        "Sophie Stalla-Bourdillon"
+      ],
+      "published": "2025-12-05T06:16:34Z",
+      "updated": "2025-12-05T06:16:34Z",
+      "categories": [
+        "cs.DB",
+        "cs.AI",
+        "cs.CY",
+        "cs.LO"
+      ],
+      "primary_category": "cs.DB",
+      "summary": "Motivated by the challenges of implementing policy-based data access control (PBAC) under multiple simultaneously applicable compliance frameworks, we present Parajudica, an open, modular, and extensible RDF/SPARQL-based rule system for evaluating context-dependent data compliance status. We demonstrate the utility of this resource and accompanying metamodel through application to existing legal frameworks and industry standards, offering insights for comparative framework analysis. Applications include compliance policy enforcement, compliance monitoring, data discovery, and risk assessment.",
+      "pdf_url": "https://arxiv.org/pdf/2512.05453v1",
+      "relevance_score": 37,
+      "source_query": "Query 5: Security compliance frameworks",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/05_2512.05453v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2512.05453v1"
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2512.02287v1",
+      "title": "HOT Protocol",
+      "authors": [
+        "Peter Volnov",
+        "Georgii Kuksa",
+        "Andrey Zhevlakov"
+      ],
+      "published": "2025-12-01T23:57:29Z",
+      "updated": "2025-12-01T23:57:29Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "summary": "HOT Protocol provides the infrastructure that allows smart contracts to securely own and manage private keys. The Multi-Party Computation (MPC) Network manages signing keys. By running an MPC node inside a Trusted Execution Environment (TEE), the protocol achieves stronger security guarantees while lowering economic requirements for participants. The NEAR Protocol provides a decentralized and efficient state layer. Key management can be integrated with any smart contract across Stellar, TON, Solana, and EVM-compatible networks.",
+      "pdf_url": "https://arxiv.org/pdf/2512.02287v1",
+      "relevance_score": 32,
+      "source_query": "Query 3: Dual control and key operations",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/06_2512.02287v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2512.02287v1"
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2503.00581v1",
+      "title": "Secure Aggregation in Federated Learning using Multiparty Homomorphic Encryption",
+      "authors": [
+        "Erfan Hosseini",
+        "Shuangyi Chen",
+        "Ashish Khisti"
+      ],
+      "published": "2025-03-01T18:19:25Z",
+      "updated": "2025-03-01T18:19:25Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "summary": "A key operation in federated learning is the aggregation of gradient vectors generated by individual client nodes. We develop a method based on multiparty homomorphic encryption (MPHE) that enables the central node to compute this aggregate, while receiving only encrypted version of each individual gradients. Towards this end, we extend classical MPHE methods so that the decryption of the aggregate vector can be successful even when only a subset of client nodes are available. This is accomplished by introducing a secret-sharing step during the setup phase of MPHE when the public encryption key is generated. We develop conditions on the parameters of the MPHE scheme that guarantee correctness of decryption and (computational) security. We explain how our method can be extended to accommodate client nodes that do not participate during the setup phase. We also propose a compression scheme for gradient vectors at each client node that can be readily combined with our MPHE scheme and perform the associated convergence analysis. We discuss the advantages of our proposed scheme with other approaches based on secure multi-party computation. Finally we discuss a practical implementation of our system, compare the performance of our system with different approaches, and demonstrate that by suitably combining compression with encryption the overhead over baseline schemes is rather small.",
+      "pdf_url": "https://arxiv.org/pdf/2503.00581v1",
+      "relevance_score": 32,
+      "source_query": "Query 3: Dual control and key operations",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/07_2503.00581v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2503.00581v1"
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2510.27537v1",
+      "title": "AstuteRAG-FQA: Task-Aware Retrieval-Augmented Generation Framework for Proprietary Data Challenges in Financial Question Answering",
+      "authors": [
+        "Mohammad Zahangir Alam",
+        "Khandoker Ashik Uz Zaman",
+        "Mahdi H. Miraz"
+      ],
+      "published": "2025-10-31T15:13:03Z",
+      "updated": "2025-10-31T15:13:03Z",
+      "categories": [
+        "cs.LG"
+      ],
+      "primary_category": "cs.LG",
+      "summary": "Retrieval-Augmented Generation (RAG) shows significant promise in knowledge-intensive tasks by improving domain specificity, enhancing temporal relevance, and reducing hallucinations. However, applying RAG to finance encounters critical challenges: restricted access to proprietary datasets, limited retrieval accuracy, regulatory constraints, and sensitive data interpretation. We introduce AstuteRAG-FQA, an adaptive RAG framework tailored for Financial Question Answering (FQA), leveraging task-aware prompt engineering to address these challenges. The framework uses a hybrid retrieval strategy integrating both open-source and proprietary financial data while maintaining strict security protocols and regulatory compliance. A dynamic prompt framework adapts in real time to query complexity, improving precision and contextual relevance. To systematically address diverse financial queries, we propose a four-tier task classification: explicit factual, implicit factual, interpretable rationale, and hidden rationale involving implicit causal reasoning. For each category, we identify key challenges, datasets, and optimization techniques within the retrieval and generation process. The framework incorporates multi-layered security mechanisms including differential privacy, data anonymization, and role-based access controls to protect sensitive financial information. Additionally, AstuteRAG-FQA implements real-time compliance monitoring through automated regulatory validation systems that verify responses against industry standards and legal obligations. We evaluate three data integration techniques - contextual embedding, small model augmentation, and targeted fine-tuning - analyzing their efficiency and feasibility across varied financial environments.",
+      "pdf_url": "https://arxiv.org/pdf/2510.27537v1",
+      "relevance_score": 32,
+      "source_query": "Query 5: Security compliance frameworks",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/08_2510.27537v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2510.27537v1"
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2505.03945v1",
+      "title": "AI-Driven Security in Cloud Computing: Enhancing Threat Detection, Automated Response, and Cyber Resilience",
+      "authors": [
+        "Shamnad Mohamed Shaffi",
+        "Sunish Vengathattil",
+        "Jezeena Nikarthil Sidhick",
+        "Resmi Vijayan"
+      ],
+      "published": "2025-05-06T19:45:13Z",
+      "updated": "2025-05-06T19:45:13Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "primary_category": "cs.CR",
+      "summary": "Cloud security concerns have been greatly realized in recent years due to the increase of complicated threats in the computing world. Many traditional solutions do not work well in real-time to detect or prevent more complex threats. Artificial intelligence is today regarded as a revolution in determining a protection plan for cloud data architecture through machine learning, statistical visualization of computing infrastructure, and detection of security breaches followed by counteraction. These AI-enabled systems make work easier as more network activities are scrutinized, and any anomalous behavior that might be a precursor to a more serious breach is prevented. This paper examines ways AI can enhance cloud security by applying predictive analytics, behavior-based security threat detection, and AI-stirring encryption. It also outlines the problems of the previous security models and how AI overcomes them. For a similar reason, issues like data privacy, biases in the AI model, and regulatory compliance are also covered. So, AI improves the protection of cloud computing contexts; however, more efforts are needed in the subsequent phases to extend the technology's reliability, modularity, and ethical aspects. This means that AI can be blended with other new computing technologies, including blockchain, to improve security frameworks further. The paper discusses the current trends in securing cloud data architecture using AI and presents further research and application directions.",
+      "pdf_url": "https://arxiv.org/pdf/2505.03945v1",
+      "relevance_score": 31,
+      "source_query": "Query 5: Security compliance frameworks",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/09_2505.03945v1.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2505.03945v1"
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2406.07011v4",
+      "title": "Breaking Free: Efficient Multi-Party Private Set Union Without Non-Collusion Assumptions",
+      "authors": [
+        "Minglang Dong",
+        "Yu Chen",
+        "Cong Zhang",
+        "Yujie Bai"
+      ],
+      "published": "2024-06-11T07:10:45Z",
+      "updated": "2024-09-08T09:07:43Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "primary_category": "cs.CR",
+      "summary": "Multi-party private set union (MPSU) protocol enables $m$ $(m > 2)$ parties, each holding a set, to collectively compute the union of their sets without revealing any additional information to other parties. There are two main categories of multi-party private set union (MPSU) protocols: The first category builds on public-key techniques, where existing works require a super-linear number of public-key operations, resulting in their poor practical efficiency. The second category builds on oblivious transfer and symmetric-key techniques. The only work in this category, proposed by Liu and Gao (ASIACRYPT 2023), features the best concrete performance among all existing protocols, but still has super-linear computation and communication. Moreover, it does not achieve the standard semi-honest security, as it inherently relies on a non-collusion assumption, which is unlikely to hold in practice. There remains two significant open problems so far: no MPSU protocol achieves semi-honest security based on oblivious transfer and symmetric-key techniques, and no MPSU protocol achieves both linear computation and linear communication complexity. In this work, we resolve both of them. - We propose the first MPSU protocol based on oblivious transfer and symmetric-key techniques in the standard semi-honest model. This protocol is $3.9-10.0 \\times$ faster than Liu and Gao in the LAN setting. Concretely, our protocol requires only $4.4$ seconds in online phase for 3 parties with sets of $2^{20}$ items each. - We propose the first MPSU protocol achieving both linear computation and linear communication complexity, based on public-key operations. This protocol has the lowest overall communication costs and shows a factor of $3.0-36.5\\times$ improvement in terms of overall communication compared to Liu and Gao.",
+      "pdf_url": "https://arxiv.org/pdf/2406.07011v4",
+      "relevance_score": 25,
+      "source_query": "Query 3: Dual control and key operations",
+      "downloaded_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic12_compliance_automation/10_2406.07011v4.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2406.07011v4"
+    }
+  ],
+  "archived_papers": []
+}

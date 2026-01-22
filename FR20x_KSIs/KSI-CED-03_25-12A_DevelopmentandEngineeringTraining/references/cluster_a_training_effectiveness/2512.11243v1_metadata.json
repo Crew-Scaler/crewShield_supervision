@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.11243v1",
+  "title": "Task-Aware Multi-Expert Architecture For Lifelong Deep Learning",
+  "authors": [
+    "Jianyu Wang",
+    "Jacob Nean-Hua Sheikh",
+    "Cat P. Le",
+    "Hoda Bidkhori"
+  ],
+  "published": "2025-12-12T03:05:26Z",
+  "url": "http://arxiv.org/abs/2512.11243v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.11243v1.pdf",
+  "relevance_score": 79,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Lifelong deep learning (LDL) trains neural networks to learn sequentially across tasks while preserving prior knowledge. We propose Task-Aware Multi-Expert (TAME), a continual learning algorithm that leverages task similarity to guide expert selection and knowledge transfer. TAME maintains a pool of pretrained neural networks and activates the most relevant expert for each new task. A shared dense layer integrates features from the chosen expert to generate predictions. To reduce catastrophic fo"
+}

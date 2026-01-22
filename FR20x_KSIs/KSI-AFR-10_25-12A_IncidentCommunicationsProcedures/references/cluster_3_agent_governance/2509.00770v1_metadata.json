@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2509.00770v1",
+  "title": "Bayesian and Multi-Objective Decision Support for Real-Time Cyber-Physical Incident Mitigation",
+  "authors": [
+    "Shaofei Huang",
+    "Christopher M. Poskitt",
+    "Lwin Khin Shar"
+  ],
+  "published": "2025-08-31T09:47:38Z",
+  "url": "http://arxiv.org/abs/2509.00770v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.00770v1.pdf",
+  "relevance_score": 100,
+  "summary": "This research proposes a real-time, adaptive decision-support framework for mitigating cyber incidents in cyber-physical systems, developed in response to an increasing reliance on these systems within critical infrastructure and evolving adversarial tactics. Existing decision-support systems often fall short in accounting for multi-agent, multi-path attacks and trade-offs between safety and operational continuity. To address this, our framework integrates hierarchical system modelling with Bayesian probabilistic reasoning, constructing Bayesian Network Graphs from system architecture and vulnerability data. Models are encoded using a Domain Specific Language to enhance computational efficiency and support dynamic updates. In our approach, we use a hybrid exposure probability estimation framework, which combines Exploit Prediction Scoring System and Common Vulnerability Scoring System scores via Bayesian confidence calibration to handle epistemic uncertainty caused by incomplete or heterogeneous vulnerability metadata. Mitigation recommendations are generated as countermeasure portfolios, refined using multi-objective optimisation to identify Pareto-optimal strategies balancing attack likelihood, impact severity, and system availability. To accommodate time- and resource-constrained incident response, frequency-based heuristics are applied to prioritise countermeasures across the optimised portfolios. The framework was evaluated through three representative cyber-physical attack scenarios, demonstrating its versatility in handling complex adversarial behaviours under real-time response constraints. The results affirm its utility in operational contexts and highlight the robustness of our proposed approach across diverse threat environments."
+}

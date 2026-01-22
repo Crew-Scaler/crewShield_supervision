@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2511.18924v1",
+  "title": "LLM-Driven Kernel Evolution: Automating Driver Updates in Linux",
+  "authors": [
+    "Arina Kharlamova",
+    "Jiawen Liu",
+    "Tianyi Zhang",
+    "Xinrui Yang",
+    "Humaid Alqasimi",
+    "Youcheng Sun",
+    "Chun Jason Xue"
+  ],
+  "published": "2025-11-24T09:31:52Z",
+  "url": "http://arxiv.org/abs/2511.18924v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.18924v1.pdf",
+  "relevance_score": 98,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Linux kernel evolution breaks drivers through API/ABI changes, semantic shifts, and security-hardening updates. We introduce DRIVEBENCH, an executable corpus of kernel$\\rightarrow$driver co-evolution cases, and AUTODRIVER, a closed-loop, LLM-driven system for automating driver maintenance. The system integrates prompt engineering, multi-agent collaboration, static analysis, and iterative validation to ensure that generated patches are not only syntactically correct but also functionally and sema"
+}

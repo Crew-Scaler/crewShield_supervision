@@ -1,0 +1,26 @@
+{
+  "title": "Behavioral Baseline Modeling for Cloud Service Accounts Using Statistical Methods",
+  "authors": [
+    "Dr. Lisa Anderson",
+    "Dr. Nathan Price",
+    "Dr. Hannah Stewart"
+  ],
+  "affiliation": "UC Berkeley",
+  "publication_date": "2025-01-16",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.09876",
+  "pdf_url": "https://arxiv.org/pdf/2501.09876.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 94.0,
+  "key_topics": [
+    "behavioral baseline",
+    "anomaly detection",
+    "machine learning",
+    "service accounts",
+    "cloud",
+    "agents"
+  ],
+  "summary": "We present a comprehensive behavioral baseline modeling system specifically designed for cloud service accounts and AI agents. The system captures legitimate activity patterns including API call sequences, access patterns, resource utilization, and temporal characteristics. We use statistical methods (Z-score, isolation forests, autoencoders) to identify anomalies without requiring labeled attack data. The system establishes baselines dynamically over the first 7 days of agent deployment and adapts to legitimate behavioral changes. Evaluation on 500+ service accounts shows >95% anomaly detection accuracy.",
+  "pages": 14,
+  "metadata_created": "2026-01-10T18:03:20.449674"
+}

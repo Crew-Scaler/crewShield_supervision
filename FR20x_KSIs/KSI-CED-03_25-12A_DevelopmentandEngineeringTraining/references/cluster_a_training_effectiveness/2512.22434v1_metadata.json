@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.22434v1",
+  "title": "Quantum-Circuit Framework for Two-Stage Stochastic Programming via QAOA Integrated with a Quantum Generative Neural Network",
+  "authors": [
+    "Taihei Kuroiwa",
+    "Daiki Yamazaki",
+    "Keita Takahashi",
+    "Kodai Shiba",
+    "Chih-Chieh Chen",
+    "Tomah Sogabe"
+  ],
+  "published": "2025-12-27T02:03:33Z",
+  "url": "http://arxiv.org/abs/2512.22434v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.22434v1.pdf",
+  "relevance_score": 70,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Two-stage stochastic programming often discretizes uncertainty into scenarios, but scenario enumeration makes expected recourse evaluation scale at least linearly in the scenario count. We propose qGAN-QAOA, a unified quantum-circuit workflow in which a pre-trained quantum generative adversarial network encodes the scenario distribution and QAOA optimizes first-stage decisions by minimizing the full two-stage objective, including expected recourse cost. With the qGAN parameters fixed after train"
+}

@@ -1,0 +1,21 @@
+Title: Semantics as a Shield: Label Disguise Defense (LDD) against Prompt Injection in LLM Sentiment Classification
+
+Authors: Yanxi Li, Ruocheng Shan
+
+
+Published: 2025-11-23
+
+Query ID: C-2.5
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 19
+
+URL: https://arxiv.org/pdf/2511.21752.pdf
+
+Abstract:
+Large language models are increasingly used for text classification tasks such as sentiment analysis, yet their reliance on natural language prompts exposes them to prompt injection attacks. In particular, class-directive injections exploit knowledge of the model's label set (e.g., positive vs. negative) to override its intended behavior through adversarial instructions. Existing defenses, such as detection-based filters, instruction hierarchies, and signed prompts, either require model retraini...
+
+Relevance Justification:
+Directly addresses prompt injection attacks; Analyzes adversarial attacks on language models; Proposes defense mechanisms against attacks

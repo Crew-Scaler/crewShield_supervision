@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.05439v1",
+  "title": "BEAVER: An Efficient Deterministic LLM Verifier",
+  "authors": [
+    "Tarun Suresh",
+    "Nalin Wadhwa",
+    "Debangshu Banerjee",
+    "Gagandeep Singh"
+  ],
+  "published": "2025-12-05T05:34:06Z",
+  "url": "http://arxiv.org/abs/2512.05439v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.05439v1.pdf",
+  "relevance_score": 69,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "As large language models (LLMs) transition from research prototypes to production systems, practitioners often need reliable methods to verify that model outputs satisfy required constraints. While sampling-based estimates provide an intuition of model behavior, they offer no sound guarantees. We present BEAVER, the first practical framework for computing deterministic, sound probability bounds on LLM constraint satisfaction. Given any prefix-closed semantic constraint, BEAVER systematically exp"
+}

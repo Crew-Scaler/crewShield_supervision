@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2601.00516v1",
+  "title": "Trajectory Guard -- A Lightweight, Sequence-Aware Model for Real-Time Anomaly Detection in Agentic AI",
+  "published": "2026-01-02T00:27:11Z",
+  "summary": "Autonomous LLM agents generate multi-step action plans that can fail due to contextual misalignment or structural incoherence. Existing anomaly detection methods are ill-suited for this challenge: mean-pooling embeddings dilutes anomalous steps, while contrastive-only approaches ignore sequential structure. Standard unsupervised methods on pre-trained embeddings achieve F1-scores no higher than 0.69. We introduce Trajectory Guard, a Siamese Recurrent Autoencoder with a hybrid loss function that ",
+  "category": "cs.LG",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2601.00516v1",
+  "cluster": 8,
+  "issue": 170,
+  "downloaded_at": "2026-01-11T10:27:53.502610"
+}

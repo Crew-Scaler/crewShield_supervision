@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2505.19973v1",
+  "title": "DFIR-Metric: A Benchmark Dataset for Evaluating Large Language Models in Digital Forensics and Incident Response",
+  "authors": [
+    "Bilel Cherif",
+    "Tamas Bisztray",
+    "Richard A. Dubniczky",
+    "Aaesha Aldahmani",
+    "Saeed Alshehhi",
+    "Norbert Tihanyi"
+  ],
+  "published": "2025-05-26T13:35:37Z",
+  "url": "http://arxiv.org/abs/2505.19973v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.19973v1.pdf",
+  "relevance_score": 100,
+  "summary": "Digital Forensics and Incident Response (DFIR) involves analyzing digital evidence to support legal investigations. Large Language Models (LLMs) offer new opportunities in DFIR tasks such as log analysis and memory forensics, but their susceptibility to errors and hallucinations raises concerns in high-stakes contexts. Despite growing interest, there is no comprehensive benchmark to evaluate LLMs across both theoretical and practical DFIR domains. To address this gap, we present DFIR-Metric, a benchmark with three components: (1) Knowledge Assessment: a set of 700 expert-reviewed multiple-choice questions sourced from industry-standard certifications and official documentation; (2) Realistic Forensic Challenges: 150 CTF-style tasks testing multi-step reasoning and evidence correlation; and (3) Practical Analysis: 500 disk and memory forensics cases from the NIST Computer Forensics Tool Testing Program (CFTT). We evaluated 14 LLMs using DFIR-Metric, analyzing both their accuracy and consistency across trials. We also introduce a new metric, the Task Understanding Score (TUS), designed to more effectively evaluate models in scenarios where they achieve near-zero accuracy. This benchmark offers a rigorous, reproducible foundation for advancing AI in digital forensics. All scripts, artifacts, and results are available on the project website at https://github.com/DFIR-Metric."
+}

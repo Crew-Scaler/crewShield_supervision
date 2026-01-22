@@ -1,0 +1,73 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.03401v1",
+    "arxiv_id": "2512.03401v1",
+    "title": "Enterprise Data Science Platform: A Unified Architecture for Federated Data Access",
+    "summary": "Organizations struggle to share data across departments that have adopted different data analytics platforms. If n datasets must serve m environments, up to n*m replicas can emerge, increasing inconsistency and cost. Traditional warehouses copy data into vendor-specific stores; cross-platform access is hard. This study proposes the Enterprise Data Science Platform (EDSP), which builds on data lakehouse architecture and follows a Write-Once, Read-Anywhere principle. EDSP enables federated data access for multi-query engine environments, targeting data science workloads with periodic data updates and query response times ranging from seconds to minutes. By providing centralized data management with federated access from multiple query engines to the same data sources, EDSP eliminates data duplication and vendor lock-in inherent in traditional data warehouses. The platform employs a four-layer architecture: Data Preparation, Data Store, Access Interface, and Query Engines. This design enforces separation of concerns and reduces the need for data migration when integrating additional analytical environments. Experimental results demonstrate that major cloud data warehouses and programming environments can directly query EDSP-managed datasets. We implemented and deployed EDSP in production, confirming interoperability across multiple query engines. For data sharing across different analytical environments, EDSP achieves a 33-44% reduction in operational steps compared with conventional approaches requiring data migration. Although query latency may increase by up to a factor of 2.6 compared with native tables, end-to-end completion times remain on the order of seconds, maintaining practical performance for analytical use cases. Based on our production experience, EDSP provides practical design guidelines for addressing the data-silo problem in multi-query engine environments.",
+    "published": "2025-12-03T03:14:01Z",
+    "updated": "2025-12-03T03:14:01Z",
+    "authors": [
+      "Ryoto Miyamoto",
+      "Akira Kasuga"
+    ],
+    "affiliations": [],
+    "first_author": "Ryoto Miyamoto",
+    "pdf_url": "https://arxiv.org/pdf/2512.03401v1",
+    "primary_category": "cs.DB",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.13661v1",
+    "arxiv_id": "2511.13661v1",
+    "title": "Ontology-Driven Model-to-Model Transformation of Workflow Specifications",
+    "summary": "Proprietary workflow modeling languages such as Smart Forms & Smart Flow hamper interoperability and reuse because they lock process knowledge into closed formats. To address this vendor lock-in and ease migration to open standards, we introduce an ontology-driven model-to-model pipeline that systematically translates domain-specific workflow definitions to Business Process Model and Notation (BPMN) 2.0. The pipeline comprises three phases: RML-based semantic lifting of JSON to RDF/OWL, ontology alignment and reasoning, and BPMN generation via the Camunda Model API. By externalizing mapping knowledge into ontologies and declarative rules rather than code, the approach supports reusability across vendor-specific formats and preserves semantic traceability between source definitions and target BPMN models. We instantiated the pipeline for Instituto Superior T\u00e9cnico (IST)'s Smart Forms & Smart Flow and implemented a converter that produces standard-compliant BPMN diagrams. Evaluation on a corpus of 69 real-world workflows produced 92 BPMN diagrams with a 94.2% success rate. Failures (5.81%) stemmed from dynamic behaviors and time-based transitions not explicit in the static JSON. Interviews with support and development teams indicated that the resulting diagrams provide a top-down view that improves comprehension, diagnosis and onboarding by exposing implicit control flow and linking tasks and forms back to their sources. The pipeline is generalizable to other proprietary workflow languages by adapting the ontology and mappings, enabling interoperability and reducing vendor dependency while supporting continuous integration and long-term maintainability. The presented case study demonstrates that ontology-driven M2M transformation can systematically bridge domain-specific workflows and standard notations, offering quantifiable performance and qualitative benefits for stakeholders.",
+    "published": "2025-11-17T18:16:19Z",
+    "updated": "2025-11-17T18:16:19Z",
+    "authors": [
+      "Francisco Abreu",
+      "Lu\u00eds Cruz",
+      "S\u00e9rgio Guerreiro"
+    ],
+    "affiliations": [],
+    "first_author": "Francisco Abreu",
+    "pdf_url": "https://arxiv.org/pdf/2511.13661v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.03780v3",
+    "arxiv_id": "2505.03780v3",
+    "title": "GPU Performance Portability needs Autotuning",
+    "summary": "As LLMs grow in complexity, achieving state-of-the-art performance requires tight co-design across algorithms, software, and hardware. Today's reliance on a single dominant platform limits portability, creates vendor lock-in, and raises barriers for new AI hardware. In this work, we make the case for combining just-in-time (JIT) compilation with comprehensive kernel parameter autotuning to enable portable LLM inference with state-of-the-art performance without code changes. Focusing on performance-critical LLM kernels, we demonstrate that this approach explores up to 15x more kernel parameter configurations, produces significantly more diverse code across multiple dimensions, and even outperforms vendor-optimized implementations by up to 230%, all while reducing kernel code size by 70x and eliminating manual code optimizations. Our results highlight autotuning as a promising path to unlocking model portability across GPU vendors.",
+    "published": "2025-04-30T12:57:21Z",
+    "updated": "2025-07-17T17:31:44Z",
+    "authors": [
+      "Burkhard Ringlein",
+      "Thomas Parnell",
+      "Radu Stoica"
+    ],
+    "affiliations": [],
+    "first_author": "Burkhard Ringlein",
+    "pdf_url": "https://arxiv.org/pdf/2505.03780v3",
+    "primary_category": "cs.AR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2412.05075v1",
+    "arxiv_id": "2412.05075v1",
+    "title": "Towards the interoperability of low-code platforms",
+    "summary": "With the promise of accelerating software development, low-code platforms (LCPs) are becoming popular across various industries. Nevertheless, there are still barriers hindering their adoption. Among them, vendor lock-in is a major concern, especially considering the lack of interoperability between these platforms. Typically, after modeling an application in one LCP, migrating to another requires starting from scratch remodeling everything (the data model, the graphical user interface, workflows, etc.), in the new platform.   To overcome this situation, this work proposes an approach to improve the interoperability of LCPs by (semi)automatically migrating models specified in one platform to another one. The concrete migration path depends on the capabilities of the source and target tools. We first analyze popular LCPs, characterize their import and export alternatives and define transformations between those data formats when available. This is then complemented with an LLM-based solution, where image recognition features of large language models are employed to migrate models based on a simple image export of the model at hand. The full pipelines are implemented on top of the BESSER modeling framework that acts as a pivot representation between the tools.",
+    "published": "2024-12-06T14:33:34Z",
+    "updated": "2024-12-06T14:33:34Z",
+    "authors": [
+      "Iv\u00e1n Alfonso",
+      "Aaron Conrardy",
+      "Jordi Cabot"
+    ],
+    "affiliations": [],
+    "first_author": "Iv\u00e1n Alfonso",
+    "pdf_url": "https://arxiv.org/pdf/2412.05075v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 9.0
+  }
+]

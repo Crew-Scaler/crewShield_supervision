@@ -1,0 +1,190 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.09403v1",
+    "arxiv_id": "2512.09403v1",
+    "title": "Black-Box Behavioral Distillation Breaks Safety Alignment in Medical LLMs",
+    "summary": "As medical large language models (LLMs) become increasingly integrated into clinical workflows, concerns around alignment robustness, and safety are escalating. Prior work on model extraction has focused on classification models or memorization leakage, leaving the vulnerability of safety-aligned generative medical LLMs underexplored.   We present a black-box distillation attack that replicates the domain-specific reasoning of safety-aligned medical LLMs using only output-level access. By issuing 48,000 instruction queries to Meditron-7B and collecting 25,000 benign instruction response pairs, we fine-tune a LLaMA3 8B surrogate via parameter efficient LoRA under a zero-alignment supervision setting, requiring no access to model weights, safety filters, or training data. With a cost of $12, the surrogate achieves strong fidelity on benign inputs while producing unsafe completions for 86% of adversarial prompts, far exceeding both Meditron-7B (66%) and the untuned base model (46%). This reveals a pronounced functional-ethical gap, task utility transfers, while alignment collapses. To analyze this collapse, we develop a dynamic adversarial evaluation framework combining Generative Query (GQ)-based harmful prompt generation, verifier filtering, category-wise failure analysis, and adaptive Random Search (RS) jailbreak attacks. We also propose a layered defense system, as a prototype detector for real-time alignment drift in black-box deployments.   Our findings show that benign-only black-box distillation exposes a practical and under-recognized threat: adversaries can cheaply replicate medical LLM capabilities while stripping safety mechanisms, underscoring the need for extraction-aware safety monitoring.",
+    "published": "2025-12-10T07:57:08Z",
+    "updated": "2025-12-10T07:57:08Z",
+    "authors": [
+      "Sohely Jahan",
+      "Ruimin Sun"
+    ],
+    "affiliations": [],
+    "first_author": "Sohely Jahan",
+    "pdf_url": "https://arxiv.org/pdf/2512.09403v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.08185v1",
+    "arxiv_id": "2512.08185v1",
+    "title": "A Practical Framework for Evaluating Medical AI Security: Reproducible Assessment of Jailbreaking and Privacy Vulnerabilities Across Clinical Specialties",
+    "summary": "Medical Large Language Models (LLMs) are increasingly deployed for clinical decision support across diverse specialties, yet systematic evaluation of their robustness to adversarial misuse and privacy leakage remains inaccessible to most researchers. Existing security benchmarks require GPU clusters, commercial API access, or protected health data -- barriers that limit community participation in this critical research area. We propose a practical, fully reproducible framework for evaluating medical AI security under realistic resource constraints. Our framework design covers multiple medical specialties stratified by clinical risk -- from high-risk domains such as emergency medicine and psychiatry to general practice -- addressing jailbreaking attacks (role-playing, authority impersonation, multi-turn manipulation) and privacy extraction attacks. All evaluation utilizes synthetic patient records requiring no IRB approval. The framework is designed to run entirely on consumer CPU hardware using freely available models, eliminating cost barriers. We present the framework specification including threat models, data generation methodology, evaluation protocols, and scoring rubrics. This proposal establishes a foundation for comparative security assessment of medical-specialist models and defense mechanisms, advancing the broader goal of ensuring safe and trustworthy medical AI systems.",
+    "published": "2025-12-09T02:28:15Z",
+    "updated": "2025-12-09T02:28:15Z",
+    "authors": [
+      "Jinghao Wang",
+      "Ping Zhang",
+      "Carter Yagemann"
+    ],
+    "affiliations": [],
+    "first_author": "Jinghao Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.08185v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.00346v1",
+    "arxiv_id": "2511.00346v1",
+    "title": "Exploiting Latent Space Discontinuities for Building Universal LLM Jailbreaks and Data Extraction Attacks",
+    "summary": "The rapid proliferation of Large Language Models (LLMs) has raised significant concerns about their security against adversarial attacks. In this work, we propose a novel approach to crafting universal jailbreaks and data extraction attacks by exploiting latent space discontinuities, an architectural vulnerability related to the sparsity of training data. Unlike previous methods, our technique generalizes across various models and interfaces, proving highly effective in seven state-of-the-art LLMs and one image generation model. Initial results indicate that when these discontinuities are exploited, they can consistently and profoundly compromise model behavior, even in the presence of layered defenses. The findings suggest that this strategy has substantial potential as a systemic attack vector.",
+    "published": "2025-11-01T01:19:12Z",
+    "updated": "2025-11-01T01:19:12Z",
+    "authors": [
+      "Kayua Oleques Paim",
+      "Rodrigo Brandao Mansilha",
+      "Diego Kreutz",
+      "Muriel Figueredo Franco",
+      "Weverton Cordeiro"
+    ],
+    "affiliations": [],
+    "first_author": "Kayua Oleques Paim",
+    "pdf_url": "https://arxiv.org/pdf/2511.00346v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.10540v1",
+    "arxiv_id": "2509.10540v1",
+    "title": "EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System",
+    "summary": "Large language model (LLM) assistants are increasingly integrated into enterprise workflows, raising new security concerns as they bridge internal and external data sources. This paper presents an in-depth case study of EchoLeak (CVE-2025-32711), a zero-click prompt injection vulnerability in Microsoft 365 Copilot that enabled remote, unauthenticated data exfiltration via a single crafted email. By chaining multiple bypasses-evading Microsofts XPIA (Cross Prompt Injection Attempt) classifier, circumventing link redaction with reference-style Markdown, exploiting auto-fetched images, and abusing a Microsoft Teams proxy allowed by the content security policy-EchoLeak achieved full privilege escalation across LLM trust boundaries without user interaction. We analyze why existing defenses failed, and outline a set of engineering mitigations including prompt partitioning, enhanced input/output filtering, provenance-based access control, and strict content security policies. Beyond the specific exploit, we derive generalizable lessons for building secure AI copilots, emphasizing the principle of least privilege, defense-in-depth architectures, and continuous adversarial testing. Our findings establish prompt injection as a practical, high-severity vulnerability class in production AI systems and provide a blueprint for defending against future AI-native threats.",
+    "published": "2025-09-06T04:06:01Z",
+    "updated": "2025-09-06T04:06:01Z",
+    "authors": [
+      "Pavan Reddy",
+      "Aditya Sanjay Gujral"
+    ],
+    "affiliations": [],
+    "first_author": "Pavan Reddy",
+    "pdf_url": "https://arxiv.org/pdf/2509.10540v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.10991v2",
+    "arxiv_id": "2508.10991v2",
+    "title": "MCP-Guard: A Defense Framework for Model Context Protocol Integrity in Large Language Model Applications",
+    "summary": "The integration of Large Language Models (LLMs) with external tools via protocols such as the Model Context Protocol (MCP) introduces critical security vulnerabilities, including prompt injection, data exfiltration, and other threats. To counter these challenges, we propose MCP-Guard, a robust, layered defense architecture designed for LLM--tool interactions. MCP-Guard employs a three-stage detection pipeline that balances efficiency with accuracy: it progresses from lightweight static scanning for overt threats and a deep neural detector for semantic attacks, to our fine-tuned E5-based model achieves (96.01) accuracy in identifying adversarial prompts. Finally, a lightweight LLM arbitrator synthesizes these signals to deliver the final decision while minimizing false positives. To facilitate rigorous training and evaluation, we also introduce MCP-AttackBench, a comprehensive benchmark of over 70,000 samples. Sourced from public datasets and augmented by GPT-4, MCP-AttackBench simulates diverse, real-world attack vectors in the MCP format, providing a foundation for future research into securing LLM-tool ecosystems.",
+    "published": "2025-08-14T18:00:25Z",
+    "updated": "2025-08-22T15:35:04Z",
+    "authors": [
+      "Wenpeng Xing",
+      "Zhonghao Qi",
+      "Yupeng Qin",
+      "Yilin Li",
+      "Caini Chang",
+      "Jiahui Yu",
+      "Changting Lin",
+      "Zhenzhen Xie",
+      "Meng Han"
+    ],
+    "affiliations": [],
+    "first_author": "Wenpeng Xing",
+    "pdf_url": "https://arxiv.org/pdf/2508.10991v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.06418v1",
+    "arxiv_id": "2508.06418v1",
+    "title": "Quantifying Conversation Drift in MCP via Latent Polytope",
+    "summary": "The Model Context Protocol (MCP) enhances large language models (LLMs) by integrating external tools, enabling dynamic aggregation of real-time data to improve task execution. However, its non-isolated execution context introduces critical security and privacy risks. In particular, adversarially crafted content can induce tool poisoning or indirect prompt injection, leading to conversation hijacking, misinformation propagation, or data exfiltration. Existing defenses, such as rule-based filters or LLM-driven detection, remain inadequate due to their reliance on static signatures, computational inefficiency, and inability to quantify conversational hijacking. To address these limitations, we propose SecMCP, a secure framework that detects and quantifies conversation drift, deviations in latent space trajectories induced by adversarial external knowledge. By modeling LLM activation vectors within a latent polytope space, SecMCP identifies anomalous shifts in conversational dynamics, enabling proactive detection of hijacking, misleading, and data exfiltration. We evaluate SecMCP on three state-of-the-art LLMs (Llama3, Vicuna, Mistral) across benchmark datasets (MS MARCO, HotpotQA, FinQA), demonstrating robust detection with AUROC scores exceeding 0.915 while maintaining system usability. Our contributions include a systematic categorization of MCP security threats, a novel latent polytope-based methodology for quantifying conversation drift, and empirical validation of SecMCP's efficacy.",
+    "published": "2025-08-08T16:05:27Z",
+    "updated": "2025-08-08T16:05:27Z",
+    "authors": [
+      "Haoran Shi",
+      "Hongwei Yao",
+      "Shuo Shao",
+      "Shaopeng Jiao",
+      "Ziqi Peng",
+      "Zhan Qin",
+      "Cong Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Haoran Shi",
+    "pdf_url": "https://arxiv.org/pdf/2508.06418v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.14799v1",
+    "arxiv_id": "2507.14799v1",
+    "title": "Manipulating LLM Web Agents with Indirect Prompt Injection Attack via HTML Accessibility Tree",
+    "summary": "This work demonstrates that LLM-based web navigation agents offer powerful automation capabilities but are vulnerable to Indirect Prompt Injection (IPI) attacks. We show that adversaries can embed universal adversarial triggers in webpage HTML to hijack agent behavior that utilizes the accessibility tree to parse HTML, causing unintended or malicious actions. Using the Greedy Coordinate Gradient (GCG) algorithm and a Browser Gym agent powered by Llama-3.1, our system demonstrates high success rates across real websites in both targeted and general attacks, including login credential exfiltration and forced ad clicks. Our empirical results highlight critical security risks and the need for stronger defenses as LLM-driven autonomous web agents become more widely adopted. The system software (https://github.com/sej2020/manipulating-web-agents) is released under the MIT License, with an accompanying publicly available demo website (http://lethaiq.github.io/attack-web-llm-agent).",
+    "published": "2025-07-20T03:10:13Z",
+    "updated": "2025-07-20T03:10:13Z",
+    "authors": [
+      "Sam Johnson",
+      "Viet Pham",
+      "Thai Le"
+    ],
+    "affiliations": [],
+    "first_author": "Sam Johnson",
+    "pdf_url": "https://arxiv.org/pdf/2507.14799v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13703v1",
+    "arxiv_id": "2512.13703v1",
+    "title": "Safe2Harm: Semantic Isomorphism Attacks for Jailbreaking Large Language Models",
+    "summary": "Large Language Models (LLMs) have demonstrated exceptional performance across various tasks, but their security vulnerabilities can be exploited by attackers to generate harmful content, causing adverse impacts across various societal domains. Most existing jailbreak methods revolve around Prompt Engineering or adversarial optimization, yet we identify a previously overlooked phenomenon: many harmful scenarios are highly consistent with legitimate ones in terms of underlying principles. Based on this finding, this paper proposes the Safe2Harm Semantic Isomorphism Attack method, which achieves efficient jailbreaking through four stages: first, rewrite the harmful question into a semantically safe question with similar underlying principles; second, extract the thematic mapping relationship between the two; third, let the LLM generate a detailed response targeting the safe question; finally, reversely rewrite the safe response based on the thematic mapping relationship to obtain harmful output. Experiments on 7 mainstream LLMs and three types of benchmark datasets show that Safe2Harm exhibits strong jailbreaking capability, and its overall performance is superior to existing methods. Additionally, we construct a challenging harmful content evaluation dataset containing 358 samples and evaluate the effectiveness of existing harmful detection methods, which can be deployed for LLM input-output filtering to enable defense.",
+    "published": "2025-12-05T03:44:26Z",
+    "updated": "2025-12-05T03:44:26Z",
+    "authors": [
+      "Fan Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Fan Yang",
+    "pdf_url": "https://arxiv.org/pdf/2512.13703v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.04841v1",
+    "arxiv_id": "2512.04841v1",
+    "title": "SoK: a Comprehensive Causality Analysis Framework for Large Language Model Security",
+    "summary": "Large Language Models (LLMs) exhibit remarkable capabilities but remain vulnerable to adversarial manipulations such as jailbreaking, where crafted prompts bypass safety mechanisms. Understanding the causal factors behind such vulnerabilities is essential for building reliable defenses.   In this work, we introduce a unified causality analysis framework that systematically supports all levels of causal investigation in LLMs, ranging from token-level, neuron-level, and layer-level interventions to representation-level analysis. The framework enables consistent experimentation and comparison across diverse causality-based attack and defense methods. Accompanying this implementation, we provide the first comprehensive survey of causality-driven jailbreak studies and empirically evaluate the framework on multiple open-weight models and safety-critical benchmarks including jailbreaks, hallucination detection, backdoor identification, and fairness evaluation. Our results reveal that: (1) targeted interventions on causally critical components can reliably modify safety behavior; (2) safety-related mechanisms are highly localized (i.e., concentrated in early-to-middle layers with only 1--2\\% of neurons exhibiting causal influence); and (3) causal features extracted from our framework achieve over 95\\% detection accuracy across multiple threat types.   By bridging theoretical causality analysis and practical model safety, our framework establishes a reproducible foundation for research on causality-based attacks, interpretability, and robust attack detection and mitigation in LLMs. Code is available at https://github.com/Amadeuszhao/SOK_Casuality.",
+    "published": "2025-12-04T14:25:15Z",
+    "updated": "2025-12-04T14:25:15Z",
+    "authors": [
+      "Wei Zhao",
+      "Zhe Li",
+      "Jun Sun"
+    ],
+    "affiliations": [],
+    "first_author": "Wei Zhao",
+    "pdf_url": "https://arxiv.org/pdf/2512.04841v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.03356v1",
+    "arxiv_id": "2512.03356v1",
+    "title": "Immunity memory-based jailbreak detection: multi-agent adaptive guard for large language models",
+    "summary": "Large language models (LLMs) have become foundational in AI systems, yet they remain vulnerable to adversarial jailbreak attacks. These attacks involve carefully crafted prompts that bypass safety guardrails and induce models to produce harmful content. Detecting such malicious input queries is therefore critical for maintaining LLM safety. Existing methods for jailbreak detection typically involve fine-tuning LLMs as static safety LLMs using fixed training datasets. However, these methods incur substantial computational costs when updating model parameters to improve robustness, especially in the face of novel jailbreak attacks. Inspired by immunological memory mechanisms, we propose the Multi-Agent Adaptive Guard (MAAG) framework for jailbreak detection. The core idea is to equip guard with memory capabilities: upon encountering novel jailbreak attacks, the system memorizes attack patterns, enabling it to rapidly and accurately identify similar threats in future encounters. Specifically, MAAG first extracts activation values from input prompts and compares them to historical activations stored in a memory bank for quick preliminary detection. A defense agent then simulates responses based on these detection results, and an auxiliary agent supervises the simulation process to provide secondary filtering of the detection outcomes. Extensive experiments across five open-source models demonstrate that MAAG significantly outperforms state-of-the-art (SOTA) methods, achieving 98% detection accuracy and a 96% F1-score across a diverse range of attack scenarios.",
+    "published": "2025-12-03T01:40:40Z",
+    "updated": "2025-12-03T01:40:40Z",
+    "authors": [
+      "Jun Leng",
+      "Litian Zhang",
+      "Xi Zhang"
+    ],
+    "affiliations": [],
+    "first_author": "Jun Leng",
+    "pdf_url": "https://arxiv.org/pdf/2512.03356v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

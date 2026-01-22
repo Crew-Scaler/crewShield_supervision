@@ -1,0 +1,1512 @@
+[
+  {
+    "rank": 11,
+    "arxiv_id": "2504.21323v1",
+    "title": "How to Backdoor the Knowledge Distillation",
+    "authors": [
+      "Chen Wu",
+      "Qian Ma",
+      "Prasenjit Mitra",
+      "Sencun Zhu"
+    ],
+    "published": "2025-04-30",
+    "updated": "2025-04-30",
+    "relevance_score": 44,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2504.21323v1.pdf",
+    "abstract": "Knowledge distillation has become a cornerstone in modern machine learning systems, celebrated for its ability to transfer knowledge from a large, complex teacher model to a more efficient student model. Traditionally, this process is regarded as secure, assuming the teacher model is clean. This belief stems from conventional backdoor attacks relying on poisoned training data with backdoor triggers and attacker-chosen labels, which are not involved in the distillation process. Instead, knowledge..."
+  },
+  {
+    "rank": 12,
+    "arxiv_id": "2510.15109v1",
+    "title": "Targeted Attacks and Defenses for Distributed Federated Learning in Vehicular Networks",
+    "authors": [
+      "Utku Demir",
+      "Tugba Erpek",
+      "Yalin E. Sagduyu",
+      "Sastry Kompella",
+      "Mengran Xue"
+    ],
+    "published": "2025-10-16",
+    "updated": "2025-10-16",
+    "relevance_score": 43,
+    "categories": [
+      "cs.NI",
+      "cs.AI",
+      "cs.DC",
+      "cs.LG",
+      "eess.SP"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.15109v1.pdf",
+    "abstract": "In emerging networked systems, mobile edge devices such as ground vehicles and unmanned aerial system (UAS) swarms collectively aggregate vast amounts of data to make machine learning decisions such as threat detection in remote, dynamic, and infrastructure-constrained environments where power and bandwidth are scarce. Federated learning (FL) addresses these constraints and privacy concerns by enabling nodes to share local model weights for deep neural networks instead of raw data, facilitating ..."
+  },
+  {
+    "rank": 13,
+    "arxiv_id": "2504.11182v1",
+    "title": "Exploring Backdoor Attack and Defense for LLM-empowered Recommendations",
+    "authors": [
+      "Liangbo Ning",
+      "Wenqi Fan",
+      "Qing Li"
+    ],
+    "published": "2025-04-15",
+    "updated": "2025-04-15",
+    "relevance_score": 43,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2504.11182v1.pdf",
+    "abstract": "The fusion of Large Language Models (LLMs) with recommender systems (RecSys) has dramatically advanced personalized recommendations and drawn extensive attention. Despite the impressive progress, the safety of LLM-based RecSys against backdoor attacks remains largely under-explored. In this paper, we raise a new problem: Can a backdoor with a specific trigger be injected into LLM-based Recsys, leading to the manipulation of the recommendation responses when the backdoor trigger is appended to an..."
+  },
+  {
+    "rank": 14,
+    "arxiv_id": "2510.08238v1",
+    "title": "Chain-of-Trigger: An Agentic Backdoor that Paradoxically Enhances Agentic Robustness",
+    "authors": [
+      "Jiyang Qiu",
+      "Xinbei Ma",
+      "Yunqing Xu",
+      "Zhuosheng Zhang",
+      "Hai Zhao"
+    ],
+    "published": "2025-10-09",
+    "updated": "2025-10-09",
+    "relevance_score": 42,
+    "categories": [
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.08238v1.pdf",
+    "abstract": "The rapid deployment of large language model (LLM)-based agents in real-world applications has raised serious concerns about their trustworthiness. In this work, we reveal the security and robustness vulnerabilities of these agents through backdoor attacks. Distinct from traditional backdoors limited to single-step control, we propose the Chain-of-Trigger Backdoor (CoTri), a multi-step backdoor attack designed for long-horizon agentic control. CoTri relies on an ordered sequence. It starts with ..."
+  },
+  {
+    "rank": 15,
+    "arxiv_id": "2510.07192v1",
+    "title": "Poisoning Attacks on LLMs Require a Near-constant Number of Poison Samples",
+    "authors": [
+      "Alexandra Souly",
+      "Javier Rando",
+      "Ed Chapman",
+      "Xander Davies",
+      "Burak Hasircioglu",
+      "Ezzeldin Shereen",
+      "Carlos Mougan",
+      "Vasilios Mavroudis",
+      "Erik Jones",
+      "Chris Hicks",
+      "Nicholas Carlini",
+      "Yarin Gal",
+      "Robert Kirk"
+    ],
+    "published": "2025-10-08",
+    "updated": "2025-10-08",
+    "relevance_score": 42,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.07192v1.pdf",
+    "abstract": "Poisoning attacks can compromise the safety of large language models (LLMs) by injecting malicious documents into their training data. Existing work has studied pretraining poisoning assuming adversaries control a percentage of the training corpus. However, for large models, even small percentages translate to impractically large amounts of data. This work demonstrates for the first time that poisoning attacks instead require a near-constant number of documents regardless of dataset size. We con..."
+  },
+  {
+    "rank": 16,
+    "arxiv_id": "2510.05159v2",
+    "title": "Malice in Agentland: Down the Rabbit Hole of Backdoors in the AI Supply Chain",
+    "authors": [
+      "L\u00e9o Boisvert",
+      "Abhay Puri",
+      "Chandra Kiran Reddy Evuru",
+      "Nicolas Chapados",
+      "Quentin Cappart",
+      "Alexandre Lacoste",
+      "Krishnamurthy Dj Dvijotham",
+      "Alexandre Drouin"
+    ],
+    "published": "2025-10-03",
+    "updated": "2025-10-14",
+    "relevance_score": 42,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.05159v2.pdf",
+    "abstract": "The practice of fine-tuning AI agents on data from their own interactions--such as web browsing or tool use--, while being a strong general recipe for improving agentic capabilities, also introduces a critical security vulnerability within the AI supply chain. In this work, we show that adversaries can easily poison the data collection pipeline to embed hard-to-detect backdoors that are triggerred by specific target phrases, such that when the agent encounters these triggers, it performs an unsa..."
+  },
+  {
+    "rank": 17,
+    "arxiv_id": "2508.00161v2",
+    "title": "Watch the Weights: Unsupervised monitoring and control of fine-tuned LLMs",
+    "authors": [
+      "Ziqian Zhong",
+      "Aditi Raghunathan"
+    ],
+    "published": "2025-07-31",
+    "updated": "2025-10-20",
+    "relevance_score": 42,
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2508.00161v2.pdf",
+    "abstract": "The releases of powerful open-weight large language models (LLMs) are often not accompanied by access to their full training data. Existing interpretability methods, particularly those based on activations, often require or assume distributionally similar data. This is a significant limitation when detecting and defending against novel potential threats like backdoors, which are by definition out-of-distribution.   In this work, we introduce a new method for understanding, monitoring and control..."
+  },
+  {
+    "rank": 18,
+    "arxiv_id": "2512.06172v1",
+    "title": "DEFEND: Poisoned Model Detection and Malicious Client Exclusion Mechanism for Secure Federated Learning-based Road Condition Classification",
+    "authors": [
+      "Sheng Liu",
+      "Panos Papadimitratos"
+    ],
+    "published": "2025-12-05",
+    "updated": "2025-12-05",
+    "relevance_score": 41,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.06172v1.pdf",
+    "abstract": "Federated Learning (FL) has drawn the attention of the Intelligent Transportation Systems (ITS) community. FL can train various models for ITS tasks, notably camera-based Road Condition Classification (RCC), in a privacy-preserving collaborative way. However, opening up to collaboration also opens FL-based RCC systems to adversaries, i.e., misbehaving participants that can launch Targeted Label-Flipping Attacks (TLFAs) and threaten transportation safety. Adversaries mounting TLFAs poison trainin..."
+  },
+  {
+    "rank": 19,
+    "arxiv_id": "2510.14312v1",
+    "title": "Terrarium: Revisiting the Blackboard for Multi-Agent Safety, Privacy, and Security Studies",
+    "authors": [
+      "Mason Nakamura",
+      "Abhinav Kumar",
+      "Saaduddin Mahmud",
+      "Sahar Abdelnabi",
+      "Shlomo Zilberstein",
+      "Eugene Bagdasarian"
+    ],
+    "published": "2025-10-16",
+    "updated": "2025-10-16",
+    "relevance_score": 41,
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.14312v1.pdf",
+    "abstract": "A multi-agent system (MAS) powered by large language models (LLMs) can automate tedious user tasks such as meeting scheduling that requires inter-agent collaboration. LLMs enable nuanced protocols that account for unstructured private data, user constraints, and preferences. However, this design introduces new risks, including misalignment and attacks by malicious parties that compromise agents or steal user data. In this paper, we propose the Terrarium framework for fine-grained study on safety..."
+  },
+  {
+    "rank": 20,
+    "arxiv_id": "2510.19264v1",
+    "title": "LAPRAD: LLM-Assisted PRotocol Attack Discovery",
+    "authors": [
+      "R. Can Aygun",
+      "Yehuda Afek",
+      "Anat Bremler-Barr",
+      "Leonard Kleinrock"
+    ],
+    "published": "2025-10-22",
+    "updated": "2025-10-22",
+    "relevance_score": 40,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.NI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.19264v1.pdf",
+    "abstract": "With the goal of improving the security of Internet protocols, we seek faster, semi-automatic methods to discover new vulnerabilities in protocols such as DNS, BGP, and others. To this end, we introduce the LLM-Assisted Protocol Attack Discovery (LAPRAD) methodology, enabling security researchers with some DNS knowledge to efficiently uncover vulnerabilities that would otherwise be hard to detect.   LAPRAD follows a three-stage process. In the first, we consult an LLM (GPT-o1) that has been trai..."
+  },
+  {
+    "rank": 21,
+    "arxiv_id": "2510.04340v4",
+    "title": "Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time",
+    "authors": [
+      "Daniel Tan",
+      "Anders Woodruff",
+      "Niels Warncke",
+      "Arun Jose",
+      "Maxime Rich\u00e9",
+      "David Demitri Africa",
+      "Mia Taylor"
+    ],
+    "published": "2025-10-05",
+    "updated": "2025-11-03",
+    "relevance_score": 40,
+    "categories": [
+      "cs.CL",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.04340v4.pdf",
+    "abstract": "Language model finetuning often results in learning undesirable traits in combination with desired ones. To address this, we propose inoculation prompting: modifying finetuning data by prepending a short system-prompt instruction that deliberately elicits the undesirable trait. At test time, we evaluate without the instruction; inoculated models have much lower expression of the trait than models trained with unmodified training data. Inoculation is selective: in a toy setting where assistant re..."
+  },
+  {
+    "rank": 22,
+    "arxiv_id": "2504.18598v2",
+    "title": "BadMoE: Backdooring Mixture-of-Experts LLMs via Optimizing Routing Triggers and Infecting Dormant Experts",
+    "authors": [
+      "Qingyue Wang",
+      "Qi Pang",
+      "Xixun Lin",
+      "Shuai Wang",
+      "Daoyuan Wu"
+    ],
+    "published": "2025-04-24",
+    "updated": "2025-04-29",
+    "relevance_score": 40,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2504.18598v2.pdf",
+    "abstract": "Mixture-of-Experts (MoE) have emerged as a powerful architecture for large language models (LLMs), enabling efficient scaling of model capacity while maintaining manageable computational costs. The key advantage lies in their ability to route different tokens to different ``expert'' networks within the model, enabling specialization and efficient handling of diverse input. However, the vulnerabilities of MoE-based LLMs still have barely been studied, and the potential for backdoor attacks in thi..."
+  },
+  {
+    "rank": 23,
+    "arxiv_id": "2503.00596v1",
+    "title": "BadJudge: Backdoor Vulnerabilities of LLM-as-a-Judge",
+    "authors": [
+      "Terry Tong",
+      "Fei Wang",
+      "Zhe Zhao",
+      "Muhao Chen"
+    ],
+    "published": "2025-03-01",
+    "updated": "2025-03-01",
+    "relevance_score": 40,
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2503.00596v1.pdf",
+    "abstract": "This paper proposes a novel backdoor threat attacking the LLM-as-a-Judge evaluation regime, where the adversary controls both the candidate and evaluator model. The backdoored evaluator victimizes benign users by unfairly assigning inflated scores to adversary. A trivial single token backdoor poisoning 1% of the evaluator training data triples the adversary's score with respect to their legitimate score. We systematically categorize levels of data access corresponding to three real-world setting..."
+  },
+  {
+    "rank": 24,
+    "arxiv_id": "2510.04347v1",
+    "title": "Unmasking Backdoors: An Explainable Defense via Gradient-Attention Anomaly Scoring for Pre-trained Language Models",
+    "authors": [
+      "Anindya Sundar Das",
+      "Kangjie Chen",
+      "Monowar Bhuyan"
+    ],
+    "published": "2025-10-05",
+    "updated": "2025-10-05",
+    "relevance_score": 39,
+    "categories": [
+      "cs.CL",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.04347v1.pdf",
+    "abstract": "Pre-trained language models have achieved remarkable success across a wide range of natural language processing (NLP) tasks, particularly when fine-tuned on large, domain-relevant datasets. However, they remain vulnerable to backdoor attacks, where adversaries embed malicious behaviors using trigger patterns in the training data. These triggers remain dormant during normal usage, but, when activated, can cause targeted misclassifications. In this work, we investigate the internal behavior of bac..."
+  },
+  {
+    "rank": 25,
+    "arxiv_id": "2505.01976v1",
+    "title": "A Survey on Privacy Risks and Protection in Large Language Models",
+    "authors": [
+      "Kang Chen",
+      "Xiuze Zhou",
+      "Yuanguo Lin",
+      "Shibo Feng",
+      "Li Shen",
+      "Pengcheng Wu"
+    ],
+    "published": "2025-05-04",
+    "updated": "2025-05-04",
+    "relevance_score": 39,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2505.01976v1.pdf",
+    "abstract": "Although Large Language Models (LLMs) have become increasingly integral to diverse applications, their capabilities raise significant privacy concerns. This survey offers a comprehensive overview of privacy risks associated with LLMs and examines current solutions to mitigate these challenges. First, we analyze privacy leakage and attacks in LLMs, focusing on how these models unintentionally expose sensitive information through techniques such as model inversion, training data extraction, and me..."
+  },
+  {
+    "rank": 26,
+    "arxiv_id": "2503.20925v1",
+    "title": "Prototype Guided Backdoor Defense",
+    "authors": [
+      "Venkat Adithya Amula",
+      "Sunayana Samavedam",
+      "Saurabh Saini",
+      "Avani Gupta",
+      "Narayanan P J"
+    ],
+    "published": "2025-03-26",
+    "updated": "2025-03-26",
+    "relevance_score": 39,
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2503.20925v1.pdf",
+    "abstract": "Deep learning models are susceptible to {\\em backdoor attacks} involving malicious attackers perturbing a small subset of training data with a {\\em trigger} to causes misclassifications. Various triggers have been used, including semantic triggers that are easily realizable without requiring the attacker to manipulate the image. The emergence of generative AI has eased the generation of varied poisoned samples. Robustness across types of triggers is crucial to effective defense. We propose Proto..."
+  },
+  {
+    "rank": 27,
+    "arxiv_id": "2503.16872v2",
+    "title": "Lie Detector: Unified Backdoor Detection via Cross-Examination Framework",
+    "authors": [
+      "Xuan Wang",
+      "Siyuan Liang",
+      "Dongping Liao",
+      "Han Fang",
+      "Aishan Liu",
+      "Xiaochun Cao",
+      "Yu-liang Lu",
+      "Ee-Chien Chang",
+      "Xitong Gao"
+    ],
+    "published": "2025-03-21",
+    "updated": "2025-04-01",
+    "relevance_score": 39,
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2503.16872v2.pdf",
+    "abstract": "Institutions with limited data and computing resources often outsource model training to third-party providers in a semi-honest setting, assuming adherence to prescribed training protocols with pre-defined learning paradigm (e.g., supervised or semi-supervised learning). However, this practice can introduce severe security risks, as adversaries may poison the training data to embed backdoors into the resulting model. Existing detection approaches predominantly rely on statistical analyses, which..."
+  },
+  {
+    "rank": 28,
+    "arxiv_id": "2512.09403v1",
+    "title": "Black-Box Behavioral Distillation Breaks Safety Alignment in Medical LLMs",
+    "authors": [
+      "Sohely Jahan",
+      "Ruimin Sun"
+    ],
+    "published": "2025-12-10",
+    "updated": "2025-12-10",
+    "relevance_score": 38,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.09403v1.pdf",
+    "abstract": "As medical large language models (LLMs) become increasingly integrated into clinical workflows, concerns around alignment robustness, and safety are escalating. Prior work on model extraction has focused on classification models or memorization leakage, leaving the vulnerability of safety-aligned generative medical LLMs underexplored.   We present a black-box distillation attack that replicates the domain-specific reasoning of safety-aligned medical LLMs using only output-level access. By issuin..."
+  },
+  {
+    "rank": 29,
+    "arxiv_id": "2512.00713v2",
+    "title": "Concept-Guided Backdoor Attack on Vision Language Models",
+    "authors": [
+      "Haoyu Shen",
+      "Weimin Lyu",
+      "Haotian Xu",
+      "Tengfei Ma"
+    ],
+    "published": "2025-11-30",
+    "updated": "2025-12-05",
+    "relevance_score": 37,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.00713v2.pdf",
+    "abstract": "Vision-Language Models (VLMs) have achieved impressive progress in multimodal text generation, yet their rapid adoption raises increasing concerns about security vulnerabilities. Existing backdoor attacks against VLMs primarily rely on explicit pixel-level triggers or imperceptible perturbations injected into images. While effective, these approaches reduce stealthiness and remain vulnerable to image-based defenses. We introduce concept-guided backdoor attacks, a new paradigm that operates at th..."
+  },
+  {
+    "rank": 30,
+    "arxiv_id": "2510.09647v1",
+    "title": "Rounding-Guided Backdoor Injection in Deep Learning Model Quantization",
+    "authors": [
+      "Xiangxiang Chen",
+      "Peixin Zhang",
+      "Jun Sun",
+      "Wenhai Wang",
+      "Jingyi Wang"
+    ],
+    "published": "2025-10-05",
+    "updated": "2025-10-05",
+    "relevance_score": 37,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.09647v1.pdf",
+    "abstract": "Model quantization is a popular technique for deploying deep learning models on resource-constrained environments. However, it may also introduce previously overlooked security risks. In this work, we present QuRA, a novel backdoor attack that exploits model quantization to embed malicious behaviors. Unlike conventional backdoor attacks relying on training data poisoning or model training manipulation, QuRA solely works using the quantization operations. In particular, QuRA first employs a novel..."
+  },
+  {
+    "rank": 31,
+    "arxiv_id": "2510.02334v1",
+    "title": "Where Did It Go Wrong? Attributing Undesirable LLM Behaviors via Representation Gradient Tracing",
+    "authors": [
+      "Zhe Li",
+      "Wei Zhao",
+      "Yige Li",
+      "Jun Sun"
+    ],
+    "published": "2025-09-26",
+    "updated": "2025-09-26",
+    "relevance_score": 37,
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.02334v1.pdf",
+    "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities, yet their deployment is frequently undermined by undesirable behaviors such as generating harmful content, factual inaccuracies, and societal biases. Diagnosing the root causes of these failures poses a critical challenge for AI safety. Existing attribution methods, particularly those based on parameter gradients, often fall short due to prohibitive noisy signals and computational complexity. In this work, we introduce a nov..."
+  },
+  {
+    "rank": 32,
+    "arxiv_id": "2506.01444v2",
+    "title": "Variance-Based Defense Against Blended Backdoor Attacks",
+    "authors": [
+      "Sujeevan Aseervatham",
+      "Achraf Kerzazi",
+      "Youn\u00e8s Bennani"
+    ],
+    "published": "2025-06-02",
+    "updated": "2025-06-19",
+    "relevance_score": 37,
+    "categories": [
+      "cs.LG",
+      "cs.CV"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2506.01444v2.pdf",
+    "abstract": "Backdoor attacks represent a subtle yet effective class of cyberattacks targeting AI models, primarily due to their stealthy nature. The model behaves normally on clean data but exhibits malicious behavior only when the attacker embeds a specific trigger into the input. This attack is performed during the training phase, where the adversary corrupts a small subset of the training data by embedding a pattern and modifying the labels to a chosen target. The objective is to make the model associate..."
+  },
+  {
+    "rank": 33,
+    "arxiv_id": "2510.17021v1",
+    "title": "Forgetting to Forget: Attention Sink as A Gateway for Backdooring LLM Unlearning",
+    "authors": [
+      "Bingqi Shang",
+      "Yiwei Chen",
+      "Yihua Zhang",
+      "Bingquan Shen",
+      "Sijia Liu"
+    ],
+    "published": "2025-10-19",
+    "updated": "2025-10-19",
+    "relevance_score": 35,
+    "categories": [
+      "cs.LG",
+      "cs.CL"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.17021v1.pdf",
+    "abstract": "Large language model (LLM) unlearning has become a critical mechanism for removing undesired data, knowledge, or behaviors from pre-trained models while retaining their general utility. Yet, with the rise of open-weight LLMs, we ask: can the unlearning process itself be backdoored, appearing successful under normal conditions yet reverting to pre-unlearned behavior when a hidden trigger is activated? Drawing inspiration from classical backdoor attacks that embed triggers into training data to en..."
+  },
+  {
+    "rank": 34,
+    "arxiv_id": "2508.15934v1",
+    "title": "Strategic Sample Selection for Improved Clean-Label Backdoor Attacks in Text Classification",
+    "authors": [
+      "Onur Alp Kirci",
+      "M. Emre Gursoy"
+    ],
+    "published": "2025-08-21",
+    "updated": "2025-08-21",
+    "relevance_score": 35,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2508.15934v1.pdf",
+    "abstract": "Backdoor attacks pose a significant threat to the integrity of text classification models used in natural language processing. While several dirty-label attacks that achieve high attack success rates (ASR) have been proposed, clean-label attacks are inherently more difficult. In this paper, we propose three sample selection strategies to improve attack effectiveness in clean-label scenarios: Minimum, Above50, and Below50. Our strategies identify those samples which the model predicts incorrectly..."
+  },
+  {
+    "rank": 35,
+    "arxiv_id": "2508.13118v2",
+    "title": "AutoBnB-RAG: Enhancing Multi-Agent Incident Response with Retrieval-Augmented Generation",
+    "authors": [
+      "Zefang Liu",
+      "Arman Anwar"
+    ],
+    "published": "2025-08-18",
+    "updated": "2025-10-06",
+    "relevance_score": 35,
+    "categories": [
+      "cs.CL",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2508.13118v2.pdf",
+    "abstract": "Incident response (IR) requires fast, coordinated, and well-informed decision-making to contain and mitigate cyber threats. While large language models (LLMs) have shown promise as autonomous agents in simulated IR settings, their reasoning is often limited by a lack of access to external knowledge. In this work, we present AutoBnB-RAG, an extension of the AutoBnB framework that incorporates retrieval-augmented generation (RAG) into multi-agent incident response simulations. Built on the Backdoo..."
+  },
+  {
+    "rank": 36,
+    "arxiv_id": "2507.01607v4",
+    "title": "Survivability of Backdoor Attacks on Unconstrained Face Recognition Systems",
+    "authors": [
+      "Quentin Le Roux",
+      "Yannick Teglia",
+      "Teddy Furon",
+      "Philippe Loubet-Moundi",
+      "Eric Bourbao"
+    ],
+    "published": "2025-07-02",
+    "updated": "2025-09-18",
+    "relevance_score": 35,
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.01607v4.pdf",
+    "abstract": "The widespread deployment of Deep Learning-based Face Recognition Systems raises multiple security concerns. While prior research has identified backdoor vulnerabilities on isolated components, Backdoor Attacks on real-world, unconstrained pipelines remain underexplored. This paper presents the first comprehensive system-level analysis of Backdoor Attacks targeting Face Recognition Systems and provides three contributions. We first show that face feature extractors trained with large margin metr..."
+  },
+  {
+    "rank": 37,
+    "arxiv_id": "2506.14913v1",
+    "title": "Winter Soldier: Backdooring Language Models at Pre-Training with Indirect Data Poisoning",
+    "authors": [
+      "Wassim Bouaziz",
+      "Mathurin Videau",
+      "Nicolas Usunier",
+      "El-Mahdi El-Mhamdi"
+    ],
+    "published": "2025-06-17",
+    "updated": "2025-06-17",
+    "relevance_score": 35,
+    "categories": [
+      "cs.CR",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2506.14913v1.pdf",
+    "abstract": "The pre-training of large language models (LLMs) relies on massive text datasets sourced from diverse and difficult-to-curate origins. Although membership inference attacks and hidden canaries have been explored to trace data usage, such methods rely on memorization of training data, which LM providers try to limit. In this work, we demonstrate that indirect data poisoning (where the targeted behavior is absent from training data) is not only feasible but also allow to effectively protect a data..."
+  },
+  {
+    "rank": 38,
+    "arxiv_id": "2512.20865v1",
+    "title": "Robustness Certificates for Neural Networks against Adversarial Attacks",
+    "authors": [
+      "Sara Taheri",
+      "Mahalakshmi Sabanayagam",
+      "Debarghya Ghoshdastidar",
+      "Majid Zamani"
+    ],
+    "published": "2025-12-24",
+    "updated": "2025-12-24",
+    "relevance_score": 33,
+    "categories": [
+      "cs.LG",
+      "eess.SY"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.20865v1.pdf",
+    "abstract": "The increasing use of machine learning in safety-critical domains amplifies the risk of adversarial threats, especially data poisoning attacks that corrupt training data to degrade performance or induce unsafe behavior. Most existing defenses lack formal guarantees or rely on restrictive assumptions about the model class, attack type, extent of poisoning, or point-wise certification, limiting their practical reliability. This paper introduces a principled formal robustness certification framewor..."
+  },
+  {
+    "rank": 39,
+    "arxiv_id": "2511.22047v1",
+    "title": "Evaluating the Robustness of Large Language Model Safety Guardrails Against Adversarial Attacks",
+    "authors": [
+      "Richard J. Young"
+    ],
+    "published": "2025-11-27",
+    "updated": "2025-11-27",
+    "relevance_score": 33,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.22047v1.pdf",
+    "abstract": "Large Language Model (LLM) safety guardrail models have emerged as a primary defense mechanism against harmful content generation, yet their robustness against sophisticated adversarial attacks remains poorly characterized. This study evaluated ten publicly available guardrail models from Meta, Google, IBM, NVIDIA, Alibaba, and Allen AI across 1,445 test prompts spanning 21 attack categories. While Qwen3Guard-8B achieved the highest overall accuracy (85.3%, 95% CI: 83.4-87.1%), a critical findin..."
+  },
+  {
+    "rank": 40,
+    "arxiv_id": "2507.10162v1",
+    "title": "HASSLE: A Self-Supervised Learning Enhanced Hijacking Attack on Vertical Federated Learning",
+    "authors": [
+      "Weiyang He",
+      "Chip-Hong Chang"
+    ],
+    "published": "2025-07-14",
+    "updated": "2025-07-14",
+    "relevance_score": 33,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.10162v1.pdf",
+    "abstract": "Vertical Federated Learning (VFL) enables an orchestrating active party to perform a machine learning task by cooperating with passive parties that provide additional task-related features for the same training data entities. While prior research has leveraged the privacy vulnerability of VFL to compromise its integrity through a combination of label inference and backdoor attacks, their effectiveness is constrained by the low label inference precision and suboptimal backdoor injection condition..."
+  },
+  {
+    "rank": 41,
+    "arxiv_id": "2511.20710v1",
+    "title": "Are Neuro-Inspired Multi-Modal Vision-Language Models Resilient to Membership Inference Privacy Leakage?",
+    "authors": [
+      "David Amebley",
+      "Sayanton Dibbo"
+    ],
+    "published": "2025-11-24",
+    "updated": "2025-11-24",
+    "relevance_score": 32,
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.20710v1.pdf",
+    "abstract": "In the age of agentic AI, the growing deployment of multi-modal models (MMs) has introduced new attack vectors that can leak sensitive training data in MMs, causing privacy leakage. This paper investigates a black-box privacy attack, i.e., membership inference attack (MIA) on multi-modal vision-language models (VLMs). State-of-the-art research analyzes privacy attacks primarily to unimodal AI-ML systems, while recent studies indicate MMs can also be vulnerable to privacy attacks. While researche..."
+  },
+  {
+    "rank": 42,
+    "arxiv_id": "2511.07049v1",
+    "title": "From Pretrain to Pain: Adversarial Vulnerability of Video Foundation Models Without Task Knowledge",
+    "authors": [
+      "Hui Lu",
+      "Yi Yu",
+      "Song Xia",
+      "Yiming Yang",
+      "Deepu Rajan",
+      "Boon Poh Ng",
+      "Alex Kot",
+      "Xudong Jiang"
+    ],
+    "published": "2025-11-10",
+    "updated": "2025-11-10",
+    "relevance_score": 32,
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.07049v1.pdf",
+    "abstract": "Large-scale Video Foundation Models (VFMs) has significantly advanced various video-related tasks, either through task-specific models or Multi-modal Large Language Models (MLLMs). However, the open accessibility of VFMs also introduces critical security risks, as adversaries can exploit full knowledge of the VFMs to launch potent attacks. This paper investigates a novel and practical adversarial threat scenario: attacking downstream models or MLLMs fine-tuned from open-source VFMs, without requ..."
+  },
+  {
+    "rank": 43,
+    "arxiv_id": "2511.05177v1",
+    "title": "Associative Poisoning to Generative Machine Learning",
+    "authors": [
+      "Mathias Lundteigen Mohus",
+      "Jingyue Li",
+      "Zhirong Yang"
+    ],
+    "published": "2025-11-07",
+    "updated": "2025-11-07",
+    "relevance_score": 32,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.05177v1.pdf",
+    "abstract": "The widespread adoption of generative models such as Stable Diffusion and ChatGPT has made them increasingly attractive targets for malicious exploitation, particularly through data poisoning. Existing poisoning attacks compromising synthesised data typically either cause broad degradation of generated data or require control over the training process, limiting their applicability in real-world scenarios. In this paper, we introduce a novel data poisoning technique called associative poisoning, ..."
+  },
+  {
+    "rank": 44,
+    "arxiv_id": "2510.20792v3",
+    "title": "BadGraph: A Backdoor Attack Against Latent Diffusion Model for Text-Guided Graph Generation",
+    "authors": [
+      "Liang Ye",
+      "Shengqin Chen",
+      "Jiazhu Dai"
+    ],
+    "published": "2025-10-23",
+    "updated": "2025-11-23",
+    "relevance_score": 32,
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "q-bio.BM"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.20792v3.pdf",
+    "abstract": "The rapid progress of graph generation has raised new security concerns, particularly regarding backdoor vulnerabilities. While prior work has explored backdoor attacks in image diffusion and unconditional graph generation, conditional, especially text-guided graph generation remains largely unexamined. This paper proposes BadGraph, a backdoor attack method against latent diffusion models for text-guided graph generation. BadGraph leverages textual triggers to poison training data, covertly impl..."
+  },
+  {
+    "rank": 45,
+    "arxiv_id": "2504.17300v1",
+    "title": "The Ultimate Cookbook for Invisible Poison: Crafting Subtle Clean-Label Text Backdoors with Style Attributes",
+    "authors": [
+      "Wencong You",
+      "Daniel Lowd"
+    ],
+    "published": "2025-04-24",
+    "updated": "2025-04-24",
+    "relevance_score": 32,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2504.17300v1.pdf",
+    "abstract": "Backdoor attacks on text classifiers can cause them to predict a predefined label when a particular \"trigger\" is present. Prior attacks often rely on triggers that are ungrammatical or otherwise unusual, leading to conspicuous attacks. As a result, human annotators, who play a critical role in curating training data in practice, can easily detect and filter out these unnatural texts during manual inspection, reducing the risk of such attacks. We argue that a key criterion for a successful attack..."
+  },
+  {
+    "rank": 46,
+    "arxiv_id": "2512.13207v2",
+    "title": "Evaluating Adversarial Attacks on Federated Learning for Temperature Forecasting",
+    "authors": [
+      "Karina Chichifoi",
+      "Fabio Merizzi",
+      "Michele Colajanni"
+    ],
+    "published": "2025-12-15",
+    "updated": "2025-12-16",
+    "relevance_score": 31,
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.13207v2.pdf",
+    "abstract": "Deep learning and federated learning (FL) are becoming powerful partners for next-generation weather forecasting. Deep learning enables high-resolution spatiotemporal forecasts that can surpass traditional numerical models, while FL allows institutions in different locations to collaboratively train models without sharing raw data, addressing efficiency and security concerns. While FL has shown promise across heterogeneous regions, its distributed nature introduces new vulnerabilities. In partic..."
+  },
+  {
+    "rank": 47,
+    "arxiv_id": "2510.17185v1",
+    "title": "Robustness in Text-Attributed Graph Learning: Insights, Trade-offs, and New Defenses",
+    "authors": [
+      "Runlin Lei",
+      "Lu Yi",
+      "Mingguo He",
+      "Pengyu Qiu",
+      "Zhewei Wei",
+      "Yongchao Liu",
+      "Chuntao Hong"
+    ],
+    "published": "2025-10-20",
+    "updated": "2025-10-20",
+    "relevance_score": 31,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.17185v1.pdf",
+    "abstract": "While Graph Neural Networks (GNNs) and Large Language Models (LLMs) are powerful approaches for learning on Text-Attributed Graphs (TAGs), a comprehensive understanding of their robustness remains elusive. Current evaluations are fragmented, failing to systematically investigate the distinct effects of textual and structural perturbations across diverse models and attack scenarios. To address these limitations, we introduce a unified and comprehensive framework to evaluate robustness in TAG lear..."
+  },
+  {
+    "rank": 48,
+    "arxiv_id": "2512.03121v1",
+    "title": "Lost in Modality: Evaluating the Effectiveness of Text-Based Membership Inference Attacks on Large Multimodal Models",
+    "authors": [
+      "Ziyi Tong",
+      "Feifei Sun",
+      "Le Minh Nguyen"
+    ],
+    "published": "2025-12-02",
+    "updated": "2025-12-02",
+    "relevance_score": 30,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.03121v1.pdf",
+    "abstract": "Large Multimodal Language Models (MLLMs) are emerging as one of the foundational tools in an expanding range of applications. Consequently, understanding training-data leakage in these systems is increasingly critical. Log-probability-based membership inference attacks (MIAs) have become a widely adopted approach for assessing data exposure in large language models (LLMs), yet their effect in MLLMs remains unclear. We present the first comprehensive evaluation of extending these text-based MIA m..."
+  },
+  {
+    "rank": 49,
+    "arxiv_id": "2511.18660v2",
+    "title": "Subtract the Corruption: Training-Data-Free Corrective Machine Unlearning using Task Arithmetic",
+    "authors": [
+      "Mostafa Mozafari",
+      "Farooq Ahmad Wani",
+      "Maria Sofia Bucarelli",
+      "Fabrizio Silvestri"
+    ],
+    "published": "2025-11-24",
+    "updated": "2025-11-25",
+    "relevance_score": 30,
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.18660v2.pdf",
+    "abstract": "Corrupted training data are ubiquitous. Corrective Machine Unlearning (CMU) seeks to remove the influence of such corruption post-training. Prior CMU typically assumes access to identified corrupted training samples (a \"forget set\"). However, in many real-world scenarios the training data are no longer accessible. We formalize source-free CMU, where the original training data are unavailable and, consequently, no forget set of identified corrupted training samples can be specified. Instead, we a..."
+  },
+  {
+    "rank": 50,
+    "arxiv_id": "2510.16122v1",
+    "title": "The Hidden Cost of Modeling P(X): Vulnerability to Membership Inference Attacks in Generative Text Classifiers",
+    "authors": [
+      "Owais Makroo",
+      "Siva Rajesh Kasa",
+      "Sumegh Roychowdhury",
+      "Karan Gupta",
+      "Nikhil Pattisapu",
+      "Santhosh Kasa",
+      "Sumit Negi"
+    ],
+    "published": "2025-10-17",
+    "updated": "2025-10-17",
+    "relevance_score": 30,
+    "categories": [
+      "cs.CR",
+      "cs.CL",
+      "cs.LG",
+      "stat.ML"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.16122v1.pdf",
+    "abstract": "Membership Inference Attacks (MIAs) pose a critical privacy threat by enabling adversaries to determine whether a specific sample was included in a model's training dataset. Despite extensive research on MIAs, systematic comparisons between generative and discriminative classifiers remain limited. This work addresses this gap by first providing theoretical motivation for why generative classifiers exhibit heightened susceptibility to MIAs, then validating these insights through comprehensive emp..."
+  },
+  {
+    "rank": 51,
+    "arxiv_id": "2506.12551v2",
+    "title": "MEraser: An Effective Fingerprint Erasure Approach for Large Language Models",
+    "authors": [
+      "Jingxuan Zhang",
+      "Zhenhua Xu",
+      "Rui Hu",
+      "Wenpeng Xing",
+      "Xuhong Zhang",
+      "Meng Han"
+    ],
+    "published": "2025-06-14",
+    "updated": "2025-08-26",
+    "relevance_score": 30,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2506.12551v2.pdf",
+    "abstract": "Large Language Models (LLMs) have become increasingly prevalent across various sectors, raising critical concerns about model ownership and intellectual property protection. Although backdoor-based fingerprinting has emerged as a promising solution for model authentication, effective attacks for removing these fingerprints remain largely unexplored. Therefore, we present Mismatched Eraser (MEraser), a novel method for effectively removing backdoor-based fingerprints from LLMs while maintaining m..."
+  },
+  {
+    "rank": 52,
+    "arxiv_id": "2512.08320v1",
+    "title": "Developing a Strong CPS Defender: An Evolutionary Approach",
+    "authors": [
+      "Qingyuan Hu",
+      "Christopher M. Poskitt",
+      "Jun Sun",
+      "Yuqi Chen"
+    ],
+    "published": "2025-12-09",
+    "updated": "2025-12-09",
+    "relevance_score": 29,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.08320v1.pdf",
+    "abstract": "Cyber-physical systems (CPSs) are used extensively in critical infrastructure, underscoring the need for anomaly detection systems that are able to catch even the most motivated attackers. Traditional anomaly detection techniques typically do `one-off' training on datasets crafted by experts or generated by fuzzers, potentially limiting their ability to generalize to unseen and more subtle attack strategies. Stopping at this point misses a key opportunity: a defender can actively challenge the a..."
+  },
+  {
+    "rank": 53,
+    "arxiv_id": "2512.06304v1",
+    "title": "Degrading Voice: A Comprehensive Overview of Robust Voice Conversion Through Input Manipulation",
+    "authors": [
+      "Xining Song",
+      "Zhihua Wei",
+      "Rui Wang",
+      "Haixiao Hu",
+      "Yanxiang Chen",
+      "Meng Han"
+    ],
+    "published": "2025-12-06",
+    "updated": "2025-12-06",
+    "relevance_score": 29,
+    "categories": [
+      "eess.AS",
+      "cs.AI",
+      "cs.CR",
+      "cs.SD"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.06304v1.pdf",
+    "abstract": "Identity, accent, style, and emotions are essential components of human speech. Voice conversion (VC) techniques process the speech signals of two input speakers and other modalities of auxiliary information such as prompts and emotion tags. It changes para-linguistic features from one to another, while maintaining linguistic contents. Recently, VC models have made rapid advancements in both generation quality and personalization capabilities. These developments have attracted considerable atten..."
+  },
+  {
+    "rank": 54,
+    "arxiv_id": "2511.22700v1",
+    "title": "Ghosting Your LLM: Without The Knowledge of Your Gradient and Data",
+    "authors": [
+      "Abeer Matar A. Almalky",
+      "Ziyan Wang",
+      "Mohaiminul Al Nahian",
+      "Li Yang",
+      "Adnan Siraj Rakin"
+    ],
+    "published": "2025-11-27",
+    "updated": "2025-11-27",
+    "relevance_score": 29,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.22700v1.pdf",
+    "abstract": "In recent years, large language models (LLMs) have achieved substantial advancements and are increasingly integrated into critical applications across various domains. This growing adoption underscores the need to ensure their security and robustness. In this work, we focus on the impact of Bit Flip Attacks (BFAs) on LLMs, which exploits hardware faults to corrupt model parameters, posing a significant threat to model integrity and performance. Existing studies on BFA against LLMs adopt a progre..."
+  },
+  {
+    "rank": 55,
+    "arxiv_id": "2511.11912v1",
+    "title": "A Systematic Study of Model Extraction Attacks on Graph Foundation Models",
+    "authors": [
+      "Haoyan Xu",
+      "Ruizhi Qian",
+      "Jiate Li",
+      "Yushun Dong",
+      "Minghao Lin",
+      "Hanson Yan",
+      "Zhengtao Yao",
+      "Qinghua Liu",
+      "Junhao Dong",
+      "Ruopeng Huang",
+      "Yue Zhao",
+      "Mengyuan Li"
+    ],
+    "published": "2025-11-14",
+    "updated": "2025-11-14",
+    "relevance_score": 29,
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.11912v1.pdf",
+    "abstract": "Graph machine learning has advanced rapidly in tasks such as link prediction, anomaly detection, and node classification. As models scale up, pretrained graph models have become valuable intellectual assets because they encode extensive computation and domain expertise. Building on these advances, Graph Foundation Models (GFMs) mark a major step forward by jointly pretraining graph and text encoders on massive and diverse data. This unifies structural and semantic understanding, enables zero-sho..."
+  },
+  {
+    "rank": 56,
+    "arxiv_id": "2511.09400v1",
+    "title": "Abstract Gradient Training: A Unified Certification Framework for Data Poisoning, Unlearning, and Differential Privacy",
+    "authors": [
+      "Philip Sosnin",
+      "Matthew Wicker",
+      "Josh Collyer",
+      "Calvin Tsay"
+    ],
+    "published": "2025-11-12",
+    "updated": "2025-11-12",
+    "relevance_score": 29,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.09400v1.pdf",
+    "abstract": "The impact of inference-time data perturbation (e.g., adversarial attacks) has been extensively studied in machine learning, leading to well-established certification techniques for adversarial robustness. In contrast, certifying models against training data perturbations remains a relatively under-explored area. These perturbations can arise in three critical contexts: adversarial data poisoning, where an adversary manipulates training samples to corrupt model performance; machine unlearning, w..."
+  },
+  {
+    "rank": 57,
+    "arxiv_id": "2511.00346v1",
+    "title": "Exploiting Latent Space Discontinuities for Building Universal LLM Jailbreaks and Data Extraction Attacks",
+    "authors": [
+      "Kayua Oleques Paim",
+      "Rodrigo Brandao Mansilha",
+      "Diego Kreutz",
+      "Muriel Figueredo Franco",
+      "Weverton Cordeiro"
+    ],
+    "published": "2025-11-01",
+    "updated": "2025-11-01",
+    "relevance_score": 29,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.00346v1.pdf",
+    "abstract": "The rapid proliferation of Large Language Models (LLMs) has raised significant concerns about their security against adversarial attacks. In this work, we propose a novel approach to crafting universal jailbreaks and data extraction attacks by exploiting latent space discontinuities, an architectural vulnerability related to the sparsity of training data. Unlike previous methods, our technique generalizes across various models and interfaces, proving highly effective in seven state-of-the-art LL..."
+  },
+  {
+    "rank": 58,
+    "arxiv_id": "2509.23689v1",
+    "title": "Merge Now, Regret Later: The Hidden Cost of Model Merging is Adversarial Transferability",
+    "authors": [
+      "Ankit Gangwal",
+      "Aaryan Ajay Sharma"
+    ],
+    "published": "2025-09-28",
+    "updated": "2025-09-28",
+    "relevance_score": 29,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2509.23689v1.pdf",
+    "abstract": "Model Merging (MM) has emerged as a promising alternative to multi-task learning, where multiple fine-tuned models are combined, without access to tasks' training data, into a single model that maintains performance across tasks. Recent works have explored the impact of MM on adversarial attacks, particularly backdoor attacks. However, none of them have sufficiently explored its impact on transfer attacks using adversarial examples, i.e., a black-box adversarial attack where examples generated f..."
+  },
+  {
+    "rank": 59,
+    "arxiv_id": "2507.08623v1",
+    "title": "Entangled Threats: A Unified Kill Chain Model for Quantum Machine Learning Security",
+    "authors": [
+      "Pascal Debus",
+      "Maximilian Wendlinger",
+      "Kilian Tscharke",
+      "Daniel Herr",
+      "Cedric Br\u00fcgmann",
+      "Daniel Ohl de Mello",
+      "Juris Ulmanis",
+      "Alexander Erhard",
+      "Arthur Schmidt",
+      "Fabian Petsch"
+    ],
+    "published": "2025-07-11",
+    "updated": "2025-07-11",
+    "relevance_score": 29,
+    "categories": [
+      "quant-ph",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.08623v1.pdf",
+    "abstract": "Quantum Machine Learning (QML) systems inherit vulnerabilities from classical machine learning while introducing new attack surfaces rooted in the physical and algorithmic layers of quantum computing. Despite a growing body of research on individual attack vectors - ranging from adversarial poisoning and evasion to circuit-level backdoors, side-channel leakage, and model extraction - these threats are often analyzed in isolation, with unrealistic assumptions about attacker capabilities and syste..."
+  },
+  {
+    "rank": 60,
+    "arxiv_id": "2507.05113v2",
+    "title": "CLIP-Guided Backdoor Defense through Entropy-Based Poisoned Dataset Separation",
+    "authors": [
+      "Binyan Xu",
+      "Fan Yang",
+      "Xilin Dai",
+      "Di Tang",
+      "Kehuan Zhang"
+    ],
+    "published": "2025-07-07",
+    "updated": "2025-07-25",
+    "relevance_score": 29,
+    "categories": [
+      "cs.MM",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2507.05113v2.pdf",
+    "abstract": "Deep Neural Networks (DNNs) are susceptible to backdoor attacks, where adversaries poison training data to implant backdoor into the victim model. Current backdoor defenses on poisoned data often suffer from high computational costs or low effectiveness against advanced attacks like clean-label and clean-image backdoors. To address them, we introduce CLIP-Guided backdoor Defense (CGD), an efficient and effective method that mitigates various backdoor attacks. CGD utilizes a publicly accessible C..."
+  },
+  {
+    "rank": 61,
+    "arxiv_id": "2510.18601v1",
+    "title": "Evaluating Large Language Models in detecting Secrets in Android Apps",
+    "authors": [
+      "Marco Alecci",
+      "Jordan Samhi",
+      "Tegawend\u00e9 F. Bissyand\u00e9",
+      "Jacques Klein"
+    ],
+    "published": "2025-10-21",
+    "updated": "2025-10-21",
+    "relevance_score": 27,
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.18601v1.pdf",
+    "abstract": "Mobile apps often embed authentication secrets, such as API keys, tokens, and client IDs, to integrate with cloud services. However, developers often hardcode these credentials into Android apps, exposing them to extraction through reverse engineering. Once compromised, adversaries can exploit secrets to access sensitive data, manipulate resources, or abuse APIs, resulting in significant security and financial risks. Existing detection approaches, such as regex-based analysis, static analysis, a..."
+  },
+  {
+    "rank": 62,
+    "arxiv_id": "2504.21730v1",
+    "title": "Cert-SSB: Toward Certified Sample-Specific Backdoor Defense",
+    "authors": [
+      "Ting Qiao",
+      "Yingjia Wang",
+      "Xing Liu",
+      "Sixing Wu",
+      "Jianbing Li",
+      "Yiming Li"
+    ],
+    "published": "2025-04-30",
+    "updated": "2025-04-30",
+    "relevance_score": 27,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2504.21730v1.pdf",
+    "abstract": "Deep neural networks (DNNs) are vulnerable to backdoor attacks, where an attacker manipulates a small portion of the training data to implant hidden backdoors into the model. The compromised model behaves normally on clean samples but misclassifies backdoored samples into the attacker-specified target class, posing a significant threat to real-world DNN applications. Currently, several empirical defense methods have been proposed to mitigate backdoor attacks, but they are often bypassed by more ..."
+  },
+  {
+    "rank": 63,
+    "arxiv_id": "2512.20821v1",
+    "title": "Defending against adversarial attacks using mixture of experts",
+    "authors": [
+      "Mohammad Meymani",
+      "Roozbeh Razavi-Far"
+    ],
+    "published": "2025-12-23",
+    "updated": "2025-12-23",
+    "relevance_score": 26,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.20821v1.pdf",
+    "abstract": "Machine learning is a powerful tool enabling full automation of a huge number of tasks without explicit programming. Despite recent progress of machine learning in different domains, these models have shown vulnerabilities when they are exposed to adversarial threats. Adversarial threats aim to hinder the machine learning models from satisfying their objectives. They can create adversarial perturbations, which are imperceptible to humans' eyes but have the ability to cause misclassification duri..."
+  },
+  {
+    "rank": 64,
+    "arxiv_id": "2511.09933v1",
+    "title": "Debiased Dual-Invariant Defense for Adversarially Robust Person Re-Identification",
+    "authors": [
+      "Yuhang Zhou",
+      "Yanxiang Zhao",
+      "Zhongyun Hua",
+      "Zhipu Liu",
+      "Zhaoquan Gu",
+      "Qing Liao",
+      "Leo Yu Zhang"
+    ],
+    "published": "2025-11-13",
+    "updated": "2025-11-13",
+    "relevance_score": 26,
+    "categories": [
+      "cs.CV"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.09933v1.pdf",
+    "abstract": "Person re-identification (ReID) is a fundamental task in many real-world applications such as pedestrian trajectory tracking. However, advanced deep learning-based ReID models are highly susceptible to adversarial attacks, where imperceptible perturbations to pedestrian images can cause entirely incorrect predictions, posing significant security threats. Although numerous adversarial defense strategies have been proposed for classification tasks, their extension to metric learning tasks such as ..."
+  },
+  {
+    "rank": 65,
+    "arxiv_id": "2512.13352v1",
+    "title": "On the Effectiveness of Membership Inference in Targeted Data Extraction from Large Language Models",
+    "authors": [
+      "Ali Al Sahili",
+      "Ali Chehab",
+      "Razane Tajeddine"
+    ],
+    "published": "2025-12-15",
+    "updated": "2025-12-15",
+    "relevance_score": 25,
+    "categories": [
+      "cs.LG",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.13352v1.pdf",
+    "abstract": "Large Language Models (LLMs) are prone to memorizing training data, which poses serious privacy risks. Two of the most prominent concerns are training data extraction and Membership Inference Attacks (MIAs). Prior research has shown that these threats are interconnected: adversaries can extract training data from an LLM by querying the model to generate a large volume of text and subsequently applying MIAs to verify whether a particular data point was included in the training set. In this study,..."
+  },
+  {
+    "rank": 66,
+    "arxiv_id": "2511.14045v1",
+    "title": "GRPO Privacy Is at Risk: A Membership Inference Attack Against Reinforcement Learning With Verifiable Rewards",
+    "authors": [
+      "Yule Liu",
+      "Heyi Zhang",
+      "Jinyi Zheng",
+      "Zhen Sun",
+      "Zifan Peng",
+      "Tianshuo Cong",
+      "Yilong Yang",
+      "Xinlei He",
+      "Zhuo Ma"
+    ],
+    "published": "2025-11-18",
+    "updated": "2025-11-18",
+    "relevance_score": 25,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.14045v1.pdf",
+    "abstract": "Membership inference attacks (MIAs) on large language models (LLMs) pose significant privacy risks across various stages of model training. Recent advances in Reinforcement Learning with Verifiable Rewards (RLVR) have brought a profound paradigm shift in LLM training, particularly for complex reasoning tasks. However, the on-policy nature of RLVR introduces a unique privacy leakage pattern: since training relies on self-generated responses without fixed ground-truth outputs, membership inference..."
+  },
+  {
+    "rank": 67,
+    "arxiv_id": "2511.07033v1",
+    "title": "Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach",
+    "authors": [
+      "Yuanheng Li",
+      "Zhuoyang Chen",
+      "Xiaoyun Liu",
+      "Yuhao Wang",
+      "Mingwei Liu",
+      "Yang Shi",
+      "Kaifeng Huang",
+      "Shengjie Zhao"
+    ],
+    "published": "2025-11-10",
+    "updated": "2025-11-10",
+    "relevance_score": 25,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.07033v1.pdf",
+    "abstract": "As large language models (LLMs) become increasingly capable, concerns over the unauthorized use of copyrighted and licensed content in their training data have grown, especially in the context of code. Open-source code, often protected by open source licenses (e.g, GPL), poses legal and ethical challenges when used in pretraining. Detecting whether specific code samples were included in LLM training data is thus critical for transparency, accountability, and copyright compliance. We propose SynP..."
+  },
+  {
+    "rank": 68,
+    "arxiv_id": "2510.20932v1",
+    "title": "An Experimental Study of Trojan Vulnerabilities in UAV Autonomous Landing",
+    "authors": [
+      "Reza Ahmari",
+      "Ahmad Mohammadi",
+      "Vahid Hemmati",
+      "Mohammed Mynuddin",
+      "Mahmoud Nabil Mahmoud",
+      "Parham Kebria",
+      "Abdollah Homaifar",
+      "Mehrdad Saif"
+    ],
+    "published": "2025-10-23",
+    "updated": "2025-10-23",
+    "relevance_score": 25,
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CV",
+      "cs.RO"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.20932v1.pdf",
+    "abstract": "This study investigates the vulnerabilities of autonomous navigation and landing systems in Urban Air Mobility (UAM) vehicles. Specifically, it focuses on Trojan attacks that target deep learning models, such as Convolutional Neural Networks (CNNs). Trojan attacks work by embedding covert triggers within a model's training data. These triggers cause specific failures under certain conditions, while the model continues to perform normally in other situations. We assessed the vulnerability of Urba..."
+  },
+  {
+    "rank": 69,
+    "arxiv_id": "2503.13751v1",
+    "title": "Optimizing ML Training with Metagradient Descent",
+    "authors": [
+      "Logan Engstrom",
+      "Andrew Ilyas",
+      "Benjamin Chen",
+      "Axel Feldmann",
+      "William Moses",
+      "Aleksander Madry"
+    ],
+    "published": "2025-03-17",
+    "updated": "2025-03-17",
+    "relevance_score": 25,
+    "categories": [
+      "stat.ML",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2503.13751v1.pdf",
+    "abstract": "A major challenge in training large-scale machine learning models is configuring the training process to maximize model performance, i.e., finding the best training setup from a vast design space. In this work, we unlock a gradient-based approach to this problem. We first introduce an algorithm for efficiently calculating metagradients -- gradients through model training -- at scale. We then introduce a \"smooth model training\" framework that enables effective optimization using metagradients. Wi..."
+  },
+  {
+    "rank": 70,
+    "arxiv_id": "2512.03564v1",
+    "title": "Towards Irreversible Machine Unlearning for Diffusion Models",
+    "authors": [
+      "Xun Yuan",
+      "Zilong Zhao",
+      "Jiayu Li",
+      "Aryan Pasikhani",
+      "Prosanta Gope",
+      "Biplab Sikdar"
+    ],
+    "published": "2025-12-03",
+    "updated": "2025-12-03",
+    "relevance_score": 24,
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2512.03564v1.pdf",
+    "abstract": "Diffusion models are renowned for their state-of-the-art performance in generating synthetic images. However, concerns related to safety, privacy, and copyright highlight the need for machine unlearning, which can make diffusion models forget specific training data and prevent the generation of sensitive or unwanted content. Current machine unlearning methods for diffusion models are primarily designed for conditional diffusion models and focus on unlearning specific data classes or features. Am..."
+  },
+  {
+    "rank": 71,
+    "arxiv_id": "2511.19974v1",
+    "title": "Continual Audio Deepfake Detection via Universal Adversarial Perturbation",
+    "authors": [
+      "Wangjie Li",
+      "Lin Li",
+      "Qingyang Hong"
+    ],
+    "published": "2025-11-25",
+    "updated": "2025-11-25",
+    "relevance_score": 24,
+    "categories": [
+      "cs.SD"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.19974v1.pdf",
+    "abstract": "The rapid advancement of speech synthesis and voice conversion technologies has raised significant security concerns in multimedia forensics. Although current detection models demonstrate impressive performance, they struggle to maintain effectiveness against constantly evolving deepfake attacks. Additionally, continually fine-tuning these models using historical training data incurs substantial computational and storage costs. To address these limitations, we propose a novel framework that inco..."
+  },
+  {
+    "rank": 72,
+    "arxiv_id": "2511.10423v2",
+    "title": "Enhanced Privacy Leakage from Noise-Perturbed Gradients via Gradient-Guided Conditional Diffusion Models",
+    "authors": [
+      "Jiayang Meng",
+      "Tao Huang",
+      "Hong Chen",
+      "Chen Hou",
+      "Guolong Zheng"
+    ],
+    "published": "2025-11-13",
+    "updated": "2025-11-16",
+    "relevance_score": 24,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.10423v2.pdf",
+    "abstract": "Federated learning synchronizes models through gradient transmission and aggregation. However, these gradients pose significant privacy risks, as sensitive training data is embedded within them. Existing gradient inversion attacks suffer from significantly degraded reconstruction performance when gradients are perturbed by noise-a common defense mechanism. In this paper, we introduce gradient-guided conditional diffusion models for reconstructing private images from leaked gradients, without pri..."
+  },
+  {
+    "rank": 73,
+    "arxiv_id": "2511.01952v1",
+    "title": "Black-Box Membership Inference Attack for LVLMs via Prior Knowledge-Calibrated Memory Probing",
+    "authors": [
+      "Jinhua Yin",
+      "Peiru Yang",
+      "Chen Yang",
+      "Huili Wang",
+      "Zhiyang Hu",
+      "Shangguang Wang",
+      "Yongfeng Huang",
+      "Tao Qi"
+    ],
+    "published": "2025-11-03",
+    "updated": "2025-11-03",
+    "relevance_score": 24,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.01952v1.pdf",
+    "abstract": "Large vision-language models (LVLMs) derive their capabilities from extensive training on vast corpora of visual and textual data. Empowered by large-scale parameters, these models often exhibit strong memorization of their training data, rendering them susceptible to membership inference attacks (MIAs). Existing MIA methods for LVLMs typically operate under white- or gray-box assumptions, by extracting likelihood-based features for the suspected data samples based on the target LVLMs. However, ..."
+  },
+  {
+    "rank": 74,
+    "arxiv_id": "2002.11497v2",
+    "title": "On the Effectiveness of Mitigating Data Poisoning Attacks with Gradient Shaping",
+    "authors": [
+      "Sanghyun Hong",
+      "Varun Chandrasekaran",
+      "Yi\u011fitcan Kaya",
+      "Tudor Dumitra\u015f",
+      "Nicolas Papernot"
+    ],
+    "published": "2020-02-26",
+    "updated": "2020-02-27",
+    "relevance_score": 24,
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2002.11497v2.pdf",
+    "abstract": "Machine learning algorithms are vulnerable to data poisoning attacks. Prior taxonomies that focus on specific scenarios, e.g., indiscriminate or targeted, have enabled defenses for the corresponding subset of known attacks. Yet, this introduces an inevitable arms race between adversaries and defenders. In this work, we study the feasibility of an attack-agnostic defense relying on artifacts that are common to all poisoning attacks. Specifically, we focus on a common element between all attacks: ..."
+  },
+  {
+    "rank": 75,
+    "arxiv_id": "2511.16792v1",
+    "title": "Membership Inference Attacks Beyond Overfitting",
+    "authors": [
+      "Mona Khalil",
+      "Alberto Blanco-Justicia",
+      "Najeeb Jebreel",
+      "Josep Domingo-Ferrer"
+    ],
+    "published": "2025-11-20",
+    "updated": "2025-11-20",
+    "relevance_score": 22,
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.16792v1.pdf",
+    "abstract": "Membership inference attacks (MIAs) against machine learning (ML) models aim to determine whether a given data point was part of the model training data. These attacks may pose significant privacy risks to individuals whose sensitive data were used for training, which motivates the use of defenses such as differential privacy, often at the cost of high accuracy losses. MIAs exploit the differences in the behavior of a model when making predictions on samples it has seen during training (members)..."
+  },
+  {
+    "rank": 76,
+    "arxiv_id": "2510.17621v2",
+    "title": "GUIDE: Enhancing Gradient Inversion Attacks in Federated Learning with Denoising Models",
+    "authors": [
+      "Vincenzo Carletti",
+      "Pasquale Foggia",
+      "Carlo Mazzocca",
+      "Giuseppe Parrella",
+      "Mario Vento"
+    ],
+    "published": "2025-10-20",
+    "updated": "2025-10-23",
+    "relevance_score": 22,
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.17621v2.pdf",
+    "abstract": "Federated Learning (FL) enables collaborative training of Machine Learning (ML) models across multiple clients while preserving their privacy. Rather than sharing raw data, federated clients transmit locally computed updates to train the global model. Although this paradigm should provide stronger privacy guarantees than centralized ML, client updates remain vulnerable to privacy leakage. Adversaries can exploit them to infer sensitive properties about the training data or even to reconstruct th..."
+  },
+  {
+    "rank": 77,
+    "arxiv_id": "2210.11061v1",
+    "title": "Analyzing the Robustness of Decentralized Horizontal and Vertical Federated Learning Architectures in a Non-IID Scenario",
+    "authors": [
+      "Pedro Miguel S\u00e1nchez S\u00e1nchez",
+      "Alberto Huertas Celdr\u00e1n",
+      "Enrique Tom\u00e1s Mart\u00ednez Beltr\u00e1n",
+      "Daniel Demeter",
+      "G\u00e9r\u00f4me Bovet",
+      "Gregorio Mart\u00ednez P\u00e9rez",
+      "Burkhard Stiller"
+    ],
+    "published": "2022-10-20",
+    "updated": "2022-10-20",
+    "relevance_score": 21,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2210.11061v1.pdf",
+    "abstract": "Federated learning (FL) allows participants to collaboratively train machine and deep learning models while protecting data privacy. However, the FL paradigm still presents drawbacks affecting its trustworthiness since malicious participants could launch adversarial attacks against the training process. Related work has studied the robustness of horizontal FL scenarios under different attacks. However, there is a lack of work evaluating the robustness of decentralized vertical FL and comparing i..."
+  },
+  {
+    "rank": 78,
+    "arxiv_id": "2201.01409v2",
+    "title": "Towards Understanding Quality Challenges of the Federated Learning for Neural Networks: A First Look from the Lens of Robustness",
+    "authors": [
+      "Amin Eslami Abyane",
+      "Derui Zhu",
+      "Roberto Souza",
+      "Lei Ma",
+      "Hadi Hemmati"
+    ],
+    "published": "2022-01-05",
+    "updated": "2023-01-09",
+    "relevance_score": 21,
+    "categories": [
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2201.01409v2.pdf",
+    "abstract": "Federated learning (FL) is a distributed learning paradigm that preserves users' data privacy while leveraging the entire dataset of all participants. In FL, multiple models are trained independently on the clients and aggregated centrally to update a global model in an iterative process. Although this approach is excellent at preserving privacy, FL still suffers from quality issues such as attacks or byzantine faults. Recent attempts have been made to address such quality challenges on the robu..."
+  },
+  {
+    "rank": 79,
+    "arxiv_id": "2511.21804v1",
+    "title": "Beyond Membership: Limitations of Add/Remove Adjacency in Differential Privacy",
+    "authors": [
+      "Gauri Pradhan",
+      "Joonas J\u00e4lk\u00f6",
+      "Santiago Zanella-B\u00e8guelin",
+      "Antti Honkela"
+    ],
+    "published": "2025-11-26",
+    "updated": "2025-11-26",
+    "relevance_score": 20,
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.21804v1.pdf",
+    "abstract": "Training machine learning models with differential privacy (DP) limits an adversary's ability to infer sensitive information about the training data. It can be interpreted as a bound on adversary's capability to distinguish two adjacent datasets according to chosen adjacency relation. In practice, most DP implementations use the add/remove adjacency relation, where two datasets are adjacent if one can be obtained from the other by adding or removing a single record, thereby protecting membership..."
+  },
+  {
+    "rank": 80,
+    "arxiv_id": "2511.12233v2",
+    "title": "Model Inversion Attack Against Deep Hashing",
+    "authors": [
+      "Dongdong Zhao",
+      "Qiben Xu",
+      "Ranxin Fang",
+      "Baogang Song"
+    ],
+    "published": "2025-11-15",
+    "updated": "2025-11-21",
+    "relevance_score": 20,
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.12233v2.pdf",
+    "abstract": "Deep hashing improves retrieval efficiency through compact binary codes, yet it introduces severe and often overlooked privacy risks. The ability to reconstruct original training data from hash codes could lead to serious threats such as biometric forgery and privacy breaches. However, model inversion attacks specifically targeting deep hashing models remain unexplored, leaving their security implications unexamined. This research gap stems from the inaccessibility of genuine training hash codes..."
+  },
+  {
+    "rank": 81,
+    "arxiv_id": "2511.10516v1",
+    "title": "How Worrying Are Privacy Attacks Against Machine Learning?",
+    "authors": [
+      "Josep Domingo-Ferrer"
+    ],
+    "published": "2025-11-13",
+    "updated": "2025-11-13",
+    "relevance_score": 20,
+    "categories": [
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2511.10516v1.pdf",
+    "abstract": "In several jurisdictions, the regulatory framework on the release and sharing of personal data is being extended to machine learning (ML). The implicit assumption is that disclosing a trained ML model entails a privacy risk for any personal data used in training comparable to directly releasing those data. However, given a trained model, it is necessary to mount a privacy attack to make inferences on the training data. In this concept paper, we examine the main families of privacy attacks agains..."
+  },
+  {
+    "rank": 82,
+    "arxiv_id": "2510.26792v1",
+    "title": "Learning Pseudorandom Numbers with Transformers: Permuted Congruential Generators, Curricula, and Interpretability",
+    "authors": [
+      "Tao Tao",
+      "Maissam Barkeshli"
+    ],
+    "published": "2025-10-30",
+    "updated": "2025-10-30",
+    "relevance_score": 20,
+    "categories": [
+      "cs.LG",
+      "cond-mat.dis-nn",
+      "cs.CR"
+    ],
+    "pdf_url": "http://arxiv.org/pdf/2510.26792v1.pdf",
+    "abstract": "We study the ability of Transformer models to learn sequences generated by Permuted Congruential Generators (PCGs), a widely used family of pseudo-random number generators (PRNGs). PCGs introduce substantial additional difficulty over linear congruential generators (LCGs) by applying a series of bit-wise shifts, XORs, rotations and truncations to the hidden state. We show that Transformers can nevertheless successfully perform in-context prediction on unseen sequences from diverse PCG variants, ..."
+  }
+]

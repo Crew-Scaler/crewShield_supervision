@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2509.15958v1",
+  "title": "Localmax dynamics for attention in transformers and its asymptotic behavior",
+  "authors": [
+    "Henri Cimeti\u00e8re",
+    "Maria Teresa Chiri",
+    "Bahman Gharesifard"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-09",
+  "url": "https://arxiv.org/abs/2509.15958v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring"
+  ],
+  "summary": "We introduce a new discrete-time attention model, termed the localmax dynamics, which interpolates between the classic softmax dynamics and the hardmax dynamics, where only the tokens that maximize the influence toward a given token have a positive weight. As in hardmax, uniform weights are determined by a parameter controlling neighbor influence, but the key extension lies in relaxing neighborhood interactions through an alignment-sensitivity parameter, which allows controlled deviations from p..."
+}

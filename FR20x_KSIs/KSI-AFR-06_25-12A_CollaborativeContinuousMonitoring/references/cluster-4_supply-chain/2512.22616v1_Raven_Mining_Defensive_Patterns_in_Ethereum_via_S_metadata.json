@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.22616v1",
+  "title": "Raven: Mining Defensive Patterns in Ethereum via Semantic Transaction Revert Invariants Categories",
+  "authors": [
+    "Mojtaba Eshghie",
+    "Melissa Mazura",
+    "Alexandre Bartel"
+  ],
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22616v1",
+  "relevance_score": 83.6,
+  "estimated_pages": 12,
+  "summary": "We frame Ethereum transactions reverted by invariants-require(<invariant>)/ assert(<invariant>)/if (<invariant>) revert statements in the contract implementation-as a positive signal of active on-chain defenses. Despite their value, the defensive patterns in these transactions remain undiscovered and underutilized in security research. We present Raven, a framework that aligns reverted transaction"
+}

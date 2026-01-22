@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.21362v1",
+  "title": "Power Side-Channel Analysis of the CVA6 RISC-V Core at the RTL Level Using VeriSide",
+  "authors": [
+    "Behnam Farnaghinejad",
+    "Antonio Porsia",
+    "Annachiara Ruospo",
+    "Alessandro Savino",
+    "Stefano Di Carlo",
+    "Ernesto Sanchez"
+  ],
+  "published": "2025-12-23T10:41:27Z",
+  "url": "http://arxiv.org/abs/2512.21362v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.21362v1.pdf",
+  "relevance_score": 89,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Security in modern RISC-V processors demands more than functional correctness: It requires resilience to side-channel attacks. This paper evaluates the vulnerability of the side channel of the CVA6 RISC-V core by analyzing software-based AES encryption uses an RTL-level power profiling framework called VeriSide. This work represents that this design's Correlation Power Analysis (CPA) reveals significant leakage, enabling key recovery. These findings underscore the importance of early-stage RTL a"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.08462v2",
+  "title": "QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities",
+  "authors": [
+    "Claire Wang",
+    "Ziyang Li",
+    "Saikat Dutta",
+    "Mayur Naik"
+  ],
+  "published": "2025-11-11T17:06:04Z",
+  "url": "http://arxiv.org/abs/2511.08462v2",
+  "pdf_url": "http://arxiv.org/pdf/2511.08462v2.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Static analysis tools provide a powerful means to detect security vulnerabilities by specifying queries that encode vulnerable code patterns. However, writing such queries is challenging and requires diverse expertise in security and program analysis. To address this challenge, we present QLCoder - an agentic framework that automatically synthesizes queries in CodeQL, a powerful static analysis engine, directly from a given CVE metadata. QLCode embeds an LLM in a synthesis loop with execution fe"
+}

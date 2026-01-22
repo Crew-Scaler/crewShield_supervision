@@ -1,0 +1,51 @@
+{
+  "timestamp": "2025-12-11T08:22:01.781968",
+  "total_downloaded": 0,
+  "total_failed": 45,
+  "target_papers": 45,
+  "category_breakdown": {},
+  "year_breakdown": {},
+  "us_affiliation_count": 0,
+  "search_queries": [
+    {
+      "name": "scrubbing_centers_mitigation",
+      "query": "abs:(\"scrubbing center\" OR \"traffic filtering\" OR \"DDoS mitigation\") AND (infrastructure OR architecture OR distributed)",
+      "description": "Scrubbing centers and distributed mitigation"
+    },
+    {
+      "name": "edge_cdn_anycast",
+      "query": "abs:(\"edge computing\" OR CDN OR anycast) AND (DDoS OR \"network security\" OR defense)",
+      "description": "Edge computing, CDN, and anycast routing"
+    },
+    {
+      "name": "layered_defense",
+      "query": "abs:(\"layered defense\" OR \"defense in depth\") AND (\"network security\" OR DDoS)",
+      "description": "Layered defense architecture"
+    },
+    {
+      "name": "cloud_native_protection",
+      "query": "abs:(\"cloud native\" OR microservices OR serverless) AND (\"DDoS protection\" OR security OR resilience)",
+      "description": "Cloud-native DDoS protection"
+    },
+    {
+      "name": "hybrid_defense",
+      "query": "abs:(\"hybrid defense\" OR \"multi-cloud\" OR federated) AND (security OR DDoS OR infrastructure)",
+      "description": "Hybrid defense models"
+    },
+    {
+      "name": "capacity_planning",
+      "query": "abs:(capacity OR scaling OR \"multi-Tbps\") AND (DDoS OR mitigation OR defense)",
+      "description": "Multi-Tbps capacity planning"
+    },
+    {
+      "name": "traffic_engineering",
+      "query": "abs:(\"traffic engineering\" OR \"load balancing\" OR routing) AND (DDoS OR attack OR mitigation)",
+      "description": "Traffic engineering solutions"
+    },
+    {
+      "name": "distributed_systems_security",
+      "query": "abs:(\"distributed systems\" OR \"distributed architecture\") AND (DDoS OR \"attack mitigation\" OR resilience)",
+      "description": "Distributed systems security"
+    }
+  ]
+}

@@ -1,0 +1,876 @@
+{
+  "papers": [
+    {
+      "id": "http://arxiv.org/abs/2512.09831v1",
+      "title": "Interpretation as Linear Transformation: A Cognitive-Geometric Model of Belief and Meaning",
+      "authors": [
+        "Chainarong Amornbunchornvej"
+      ],
+      "published": "2025-12-10T17:13:01+00:00",
+      "updated": "2025-12-10T17:13:01+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "abstract": "This paper develops a geometric framework for modeling belief, motivation, and influence across cognitively heterogeneous agents. Each agent is represented by a personalized value space, a vector space encoding the internal dimensions through which the agent interprets and evaluates meaning. Beliefs are formalized as structured vectors-abstract beings-whose transmission is mediated by linear interpretation maps. A belief survives communication only if it avoids the null spaces of these maps, yielding a structural criterion for intelligibility, miscommunication, and belief death.\n  Within this framework, I show how belief distortion, motivational drift, counterfactual evaluation, and the limits of mutual understanding arise from purely algebraic constraints. A central result-\"the No-Null-Space Leadership Condition\"-characterizes leadership as a property of representational reachability rather than persuasion or authority. More broadly, the model explains how abstract beings can propagate, mutate, or disappear as they traverse diverse cognitive geometries.\n  The account unifies insights from conceptual spaces, social epistemology, and AI value alignment by grounding meaning preservation in structural compatibility rather than shared information or rationality. I argue that this cognitive-geometric perspective clarifies the epistemic boundaries of influence in both human and artificial systems, and offers a general foundation for analyzing belief dynamics across heterogeneous agents.",
+      "filename": "2512_09831v1_Amornbunchornvej_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.08782v1",
+      "title": "An Explainable AI Model for the Detecting Malicious Smart Contracts Based on EVM Opcode Based Features",
+      "authors": [
+        "Roopak Surendran"
+      ],
+      "published": "2025-12-09T16:34:23+00:00",
+      "updated": "2025-12-09T16:34:23+00:00",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Hackers may create malicious solidity programs and deploy it in the Ethereum block chain. These malicious smart contracts try to attack legitimate programs by exploiting its vulnerabilities such as reentrancy, tx.origin attack, bad randomness, deligatecall and so on. This may lead to drain of the funds, denial of service and so on . Hence, it is necessary to identify and prevent the malicious smart contract before deploying it into the blockchain. In this paper, we propose an ML based malicious smart contract detection mechanism by analyzing the EVM opcodes. After balancing the opcode frequency dataset with SMOTE algorithm, we transformed opcode frequencies to the binary values (0,1) using an entropy based supervised binning method. Then, an explainable AI model is trained with the proposed binary opcode based features. From the implementations, we found that the proposed mechanism can detect 99% of malicious smart contracts with a false positive rate of only 0.01. Finally, we incorporated LIME algorithm in our classifier to justify its predictions. We found that, LIME algorithm can explain why a particular smart contract app is declared as malicious by our ML classifier based on the binary value of EVM opcodes.",
+      "filename": "2512_08782v1_Surendran_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.08290v1",
+      "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+      "authors": [
+        "Shiva Gaire",
+        "Srijan Gyawali",
+        "Saroj Mishra",
+        "Suman Niroula",
+        "Dilip Thakur",
+        "Umesh Yadav"
+      ],
+      "published": "2025-12-09T06:39:21+00:00",
+      "updated": "2025-12-09T06:39:21+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "The Model Context Protocol (MCP) has emerged as the de facto standard for connecting Large Language Models (LLMs) to external data and tools, effectively functioning as the \"USB-C for Agentic AI.\" While this decoupling of context and execution solves critical interoperability challenges, it introduces a profound new threat landscape where the boundary between epistemic errors (hallucinations) and security breaches (unauthorized actions) dissolves. This Systematization of Knowledge (SoK) aims to provide a comprehensive taxonomy of risks in the MCP ecosystem, distinguishing between adversarial security threats (e.g., indirect prompt injection, tool poisoning) and epistemic safety hazards (e.g., alignment failures in distributed tool delegation). We analyze the structural vulnerabilities of MCP primitives, specifically Resources, Prompts, and Tools, and demonstrate how \"context\" can be weaponized to trigger unauthorized operations in multi-agent environments. Furthermore, we survey state-of-the-art defenses, ranging from cryptographic provenance (ETDI) to runtime intent verification, and conclude with a roadmap for securing the transition from conversational chatbots to autonomous agentic operating systems.",
+      "filename": "2512_08290v1_Gaire_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.08213v1",
+      "title": "Secure or Suspect? Investigating Package Hallucinations of Shell Command in Original and Quantized LLMs",
+      "authors": [
+        "Md Nazmul Haque",
+        "Elizabeth Lin",
+        "Lawrence Arkoh",
+        "Biruk Tadesse",
+        "Bowen Xu"
+      ],
+      "published": "2025-12-09T03:47:31+00:00",
+      "updated": "2025-12-09T03:47:31+00:00",
+      "categories": [
+        "cs.SE"
+      ],
+      "abstract": "Large Language Models for code (LLMs4Code) are increasingly used to generate software artifacts, including library and package recommendations in languages such as Go. However, recent evidence shows that LLMs frequently hallucinate package names or generate dependencies containing known security vulnerabilities, posing significant risks to developers and downstream software supply chains. At the same time, quantization has become a widely adopted technique to reduce inference cost and enable deployment of LLMs on resource-constrained environments. Despite its popularity, little is known about how quantization affects the correctness and security of LLM-generated software dependencies while generating shell commands for package installation.\n  In this work, we conduct the first systematic empirical study of the impact of quantization on package hallucination and vulnerability risks in LLM-generated Go packages. We evaluate five Qwen model sizes under full-precision, 8-bit, and 4-bit quantization across three datasets (SO, MBPP, and paraphrase). Our results show that quantization substantially increases the package hallucination rate (PHR), with 4-bit models exhibiting the most severe degradation. We further find that even among the correctly generated packages, the vulnerability presence rate (VPR) rises as precision decreases, indicating elevated security risk in lower-precision models. Finally, our analysis of hallucinated outputs reveals that most fabricated packages resemble realistic URL-based Go module paths, such as most commonly malformed or non-existent GitHub and golang.org repositories, highlighting a systematic pattern in how LLMs hallucinate dependencies. Overall, our findings provide actionable insights into the reliability and security implications of deploying quantized LLMs for code generation and dependency recommendation.",
+      "filename": "2512_08213v1_Haque_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.08169v1",
+      "title": "Information-Dense Reasoning for Efficient and Auditable Security Alert Triage",
+      "authors": [
+        "Guangze Zhao",
+        "Yongzheng Zhang",
+        "Changbo Tian",
+        "Dan Xie",
+        "Hongri Liu",
+        "Bailing Wang"
+      ],
+      "published": "2025-12-09T01:57:24+00:00",
+      "updated": "2025-12-09T01:57:24+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Security Operations Centers face massive, heterogeneous alert streams under minute-level service windows, creating the Alert Triage Latency Paradox: verbose reasoning chains ensure accuracy and compliance but incur prohibitive latency and token costs, while minimal chains sacrifice transparency and auditability. Existing solutions fail: signature systems are brittle, anomaly methods lack actionability, and fully cloud-hosted LLMs raise latency, cost, and privacy concerns. We propose AIDR, a hybrid cloud-edge framework that addresses this trade-off through constrained information-density optimization. The core innovation is gradient-based compression of reasoning chains to retain only decision-critical steps--minimal evidence sufficient to justify predictions while respecting token and latency budgets. We demonstrate that this approach preserves decision-relevant information while minimizing complexity. We construct compact datasets by distilling alerts into 3-5 high-information bullets (68% token reduction), train domain-specialized experts via LoRA, and deploy a cloud-edge architecture: a cloud LLM routes alerts to on-premises experts generating SOAR-ready JSON. Experiments demonstrate AIDR achieves higher accuracy and 40.6% latency reduction versus Chain-of-Thought, with robustness to data corruption and out-of-distribution generalization, enabling auditable and efficient SOC triage with full data residency compliance.",
+      "filename": "2512_08169v1_Zhao_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.08026v1",
+      "title": "Toward an AI Reasoning-Enabled System for Patient-Clinical Trial Matching",
+      "authors": [
+        "Caroline N. Leach",
+        "Mitchell A. Klusty",
+        "Samuel E. Armstrong",
+        "Justine C. Pickarski",
+        "Kristen L. Hankins",
+        "Emily B. Collier",
+        "Maya Shah",
+        "Aaron D. Mullen",
+        "V. K. Cody Bumgardner"
+      ],
+      "published": "2025-12-08T20:35:51+00:00",
+      "updated": "2025-12-08T20:35:51+00:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Screening patients for clinical trial eligibility remains a manual, time-consuming, and resource-intensive process. We present a secure, scalable proof-of-concept system for Artificial Intelligence (AI)-augmented patient-trial matching that addresses key implementation challenges: integrating heterogeneous electronic health record (EHR) data, facilitating expert review, and maintaining rigorous security standards. Leveraging open-source, reasoning-enabled large language models (LLMs), the system moves beyond binary classification to generate structured eligibility assessments with interpretable reasoning chains that support human-in-the-loop review. This decision support tool represents eligibility as a dynamic state rather than a fixed determination, identifying matches when available and offering actionable recommendations that could render a patient eligible in the future. The system aims to reduce coordinator burden, intelligently broaden the set of trials considered for each patient and guarantee comprehensive auditability of all AI-generated outputs.",
+      "filename": "2512_08026v1_Leach_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.07827v1",
+      "title": "An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning",
+      "authors": [
+        "Lukas Johannes M\u00f6ller"
+      ],
+      "published": "2025-12-08T18:55:26+00:00",
+      "updated": "2025-12-08T18:55:26+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.DC",
+        "cs.LG"
+      ],
+      "abstract": "The escalating sophistication and variety of cyber threats have rendered static honeypots inadequate, necessitating adaptive, intelligence-driven deception. In this work, ADLAH is introduced: an Adaptive Deep Learning Anomaly Detection Honeynet designed to maximize high-fidelity threat intelligence while minimizing cost through autonomous orchestration of infrastructure. The principal contribution is offered as an end-to-end architectural blueprint and vision for an AI-driven deception platform. Feasibility is evidenced by a functional prototype of the central decision mechanism, in which a reinforcement learning (RL) agent determines, in real time, when sessions should be escalated from low-interaction sensor nodes to dynamically provisioned, high-interaction honeypots. Because sufficient live data were unavailable, field-scale validation is not claimed; instead, design trade-offs and limitations are detailed, and a rigorous roadmap toward empirical evaluation at scale is provided. Beyond selective escalation and anomaly detection, the architecture pursues automated extraction, clustering, and versioning of bot attack chains, a core capability motivated by the empirical observation that exposed services are dominated by automated traffic. Together, these elements delineate a practical path toward cost-efficient capture of high-value adversary behavior, systematic bot versioning, and the production of actionable threat intelligence.",
+      "filename": "2512_07827v1_M\u00f6ller_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.07583v1",
+      "title": "Complementary Learning Approach for Text Classification using Large Language Models",
+      "authors": [
+        "Navid Asgari",
+        "Benjamin M. Cole"
+      ],
+      "published": "2025-12-08T14:26:31+00:00",
+      "updated": "2025-12-08T14:26:31+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "In this study, we propose a structured methodology that utilizes large language models (LLMs) in a cost-efficient and parsimonious manner, integrating the strengths of scholars and machines while offsetting their respective weaknesses. Our methodology, facilitated through a chain of thought and few-shot learning prompting from computer science, extends best practices for co-author teams in qualitative research to human-machine teams in quantitative research. This allows humans to utilize abductive reasoning and natural language to interrogate not just what the machine has done but also what the human has done. Our method highlights how scholars can manage inherent weaknesses OF LLMs using careful, low-cost techniques. We demonstrate how to use the methodology to interrogate human-machine rating discrepancies for a sample of 1,934 press releases announcing pharmaceutical alliances (1990-2017).",
+      "filename": "2512_07583v1_Asgari_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 67
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.06914v1",
+      "title": "SoK: Trust-Authorization Mismatch in LLM Agent Interactions",
+      "authors": [
+        "Guanquan Shi",
+        "Haohua Du",
+        "Zhiqiang Wang",
+        "Xiaoyu Liang",
+        "Weiwenpei Liu",
+        "Song Bian",
+        "Zhenyu Guan"
+      ],
+      "published": "2025-12-07T16:41:02+00:00",
+      "updated": "2025-12-07T16:41:02+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Models (LLMs) are rapidly evolving into autonomous agents capable of interacting with the external world, significantly expanding their capabilities through standardized interaction protocols. However, this paradigm revives the classic cybersecurity challenges of agency and authorization in a novel and volatile context. As decision-making shifts from deterministic code logic to probabilistic inference driven by natural language, traditional security mechanisms designed for deterministic behavior fail. It is fundamentally challenging to establish trust for unpredictable AI agents and to enforce the Principle of Least Privilege (PoLP) when instructions are ambiguous. Despite the escalating threat landscape, the academic community's understanding of this emerging domain remains fragmented, lacking a systematic framework to analyze its root causes. This paper provides a unifying formal lens for agent-interaction security.\n  We observed that most security threats in this domain stem from a fundamental mismatch between trust evaluation and authorization policies. We introduce a novel risk analysis model centered on this trust-authorization gap. Using this model as a unifying lens, we survey and classify the implementation paths of existing, often seemingly isolated, attacks and defenses. This new framework not only unifies the field but also allows us to identify critical research gaps. Finally, we leverage our analysis to suggest a systematic research direction toward building robust, trusted agents and dynamic authorization mechanisms.",
+      "filename": "2512_06914v1_Shi_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.06660v1",
+      "title": "Towards Small Language Models for Security Query Generation in SOC Workflows",
+      "authors": [
+        "Saleha Muzammil",
+        "Rahul Reddy",
+        "Vishal Kamalakrishnan",
+        "Hadi Ahmadi",
+        "Wajih Ul Hassan"
+      ],
+      "published": "2025-12-07T05:18:27+00:00",
+      "updated": "2025-12-07T05:18:27+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Analysts in Security Operations Centers routinely query massive telemetry streams using Kusto Query Language (KQL). Writing correct KQL requires specialized expertise, and this dependency creates a bottleneck as security teams scale. This paper investigates whether Small Language Models (SLMs) can enable accurate, cost-effective natural-language-to-KQL translation for enterprise security. We propose a three-knob framework targeting prompting, fine-tuning, and architecture design. First, we adapt existing NL2KQL framework for SLMs with lightweight retrieval and introduce error-aware prompting that addresses common parser failures without increasing token count. Second, we apply LoRA fine-tuning with rationale distillation, augmenting each NLQ-KQL pair with a brief chain-of-thought explanation to transfer reasoning from a teacher model while keeping the SLM compact. Third, we propose a two-stage architecture that uses an SLM for candidate generation and a low-cost LLM judge for schema-aware refinement and selection. We evaluate nine models (five SLMs and four LLMs) across syntax correctness, semantic accuracy, table selection, and filter precision, alongside latency and token cost. On Microsoft's NL2KQL Defender Evaluation dataset, our two-stage approach achieves 0.987 syntax and 0.906 semantic accuracy. We further demonstrate generalizability on Microsoft Sentinel data, reaching 0.964 syntax and 0.831 semantic accuracy. These results come at up to 10x lower token cost than GPT-5, establishing SLMs as a practical, scalable foundation for natural-language querying in security operations.",
+      "filename": "2512_06660v1_Muzammil_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.06583v1",
+      "title": "Tournament-Based Performance Evaluation and Systematic Misallocation: Why Forced Ranking Systems Produce Random Outcomes",
+      "authors": [
+        "Jeremy McEntire"
+      ],
+      "published": "2025-12-06T22:35:09+00:00",
+      "updated": "2025-12-06T22:35:09+00:00",
+      "categories": [
+        "econ.GN"
+      ],
+      "abstract": "Tournament-based compensation schemes with forced distributions represent a widely adopted class of relative performance evaluation mechanisms in technology and corporate environments. These systems mandate within-team ranking and fixed distributional requirements (e.g., bottom 15% terminated, top 15% promoted), ostensibly to resolve principal-agent problems through mandatory differentiation. We demonstrate through agent-based simulation that this mechanism produces systematic classification errors independent of implementation quality. With 994 engineers across 142 teams of 7, random team assignment yields 32% error in termination and promotion decisions, misclassifying employees purely through composition variance. Under realistic conditions reflecting differential managerial capability, error rates reach 53%, with false positives and false negatives each exceeding correct classifications. Cross-team calibration (often proposed as remedy) transforms evaluation into influence contests where persuasive managers secure promotions independent of merit. Multi-period dynamics produce adverse selection as employees observe random outcomes, driving risk-averse behavior and high-performer exit. The efficient solution (delegating judgment to managers with hierarchical accountability) cannot be formalized within the legal and coordination constraints that necessitated forced ranking. We conclude that this evaluation mechanism persists not through incentive alignment but through satisfying demands for demonstrable process despite producing outcomes indistinguishable from random allocation. This demonstrates how formalization intended to reduce agency costs structurally increases allocation error.",
+      "filename": "2512_06583v1_McEntire_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 31
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.06248v1",
+      "title": "CFCEval: Evaluating Security Aspects in Code Generated by Large Language Models",
+      "authors": [
+        "Cheng Cheng",
+        "Jinqiu Yang"
+      ],
+      "published": "2025-12-06T02:20:31+00:00",
+      "updated": "2025-12-06T02:20:31+00:00",
+      "categories": [
+        "cs.SE"
+      ],
+      "abstract": "Code-focused Large Language Models (LLMs), such as CodeX and Star-Coder, have demonstrated remarkable capabilities in enhancing developer productivity through context-aware code generation. However, evaluating the quality and security of LLM-generated code remains a significant challenge. Existing evaluation protocols for Code LLMs lack both methodological rigor and comprehensive scope. A key limitation is dataset bias, which arises from unintentional overlap between training and testing data. Furthermore, while CodeBLEU, a BLEU-based metric, is widely used to assess code similarity, it suffers from critical shortcomings, including imprecise tokenization, structural limitations, and low reference diversity. To address these challenges, we introduce CFCEval, a novel framework for evaluating the quality and security of code generated by LLMs. CFCEval mitigates dataset bias by creating a new benchmark, MLVBench, and incorporates ELRM, a new metric designed to assess the relevance between reference code and generated code. CFCEval evaluates generated code across four dimensions: programming quality, vulnerability-fixing capability, post-transformation fixing capability, and relevance. Our experiments show that CFCEval not only captures both quality and security aspects of generated code more effectively but also that its ELRM aligns more closely with human judgments than CodeBLEU, thus paving the way for future advancements in Code LLMs evaluation.",
+      "filename": "2512_06248v1_Cheng_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.05519v1",
+      "title": "User Negotiations of Authenticity, Ownership, and Governance on AI-Generated Video Platforms: Evidence from Sora",
+      "authors": [
+        "Bohui Shen",
+        "Shrikar Bhatta",
+        "Alex Ireebanije",
+        "Zexuan Liu",
+        "Abhinav Choudhry",
+        "Ece Gumusel",
+        "Kyrie Zhixuan Zhou"
+      ],
+      "published": "2025-12-05T08:23:27+00:00",
+      "updated": "2025-12-05T08:23:27+00:00",
+      "categories": [
+        "cs.HC",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "abstract": "As AI-generated video platforms rapidly advance, ethical challenges such as copyright infringement emerge. This study examines how users make sense of AI-generated videos on OpenAI's Sora by conducting a qualitative content analysis of user comments. Through a thematic analysis, we identified four dynamics that characterize how users negotiate authenticity, authorship, and platform governance on Sora. First, users acted as critical evaluators of realism, assessing micro-details such as lighting, shadows, fluid motion, and physics to judge whether AI-generated scenes could plausibly exist. Second, users increasingly shifted from passive viewers to active creators, expressing curiosity about prompts, techniques, and creative processes. Text prompts were perceived as intellectual property, generating concerns about plagiarism and remixing norms. Third, users reported blurred boundaries between real and synthetic media, worried about misinformation, and even questioned the authenticity of other commenters, suspecting bot-generated engagement. Fourth, users contested platform governance: some perceived moderation as inconsistent or opaque, while others shared tactics for evading prompt censorship through misspellings, alternative phrasing, emojis, or other languages. Despite this, many users also enforced ethical norms by discouraging the misuse of real people's images or disrespectful content. Together, these patterns highlighted how AI-mediated platforms complicate notions of reality, creativity, and rule-making in emerging digital ecosystems. Based on the findings, we discuss governance challenges in Sora and how user negotiations inform future platform governance.",
+      "filename": "2512_05519v1_Shen_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.04838v1",
+      "title": "DAMASHA: Detecting AI in Mixed Adversarial Texts via Segmentation with Human-interpretable Attribution",
+      "authors": [
+        "L. D. M. S. Sai Teja",
+        "N. Siva Gopala Krishna",
+        "Ufaq Khan",
+        "Muhammad Haris Khan",
+        "Partha Pakray",
+        "Atul Mishra"
+      ],
+      "published": "2025-12-04T14:21:42+00:00",
+      "updated": "2025-12-04T14:21:42+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "abstract": "In the age of advanced large language models (LLMs), the boundaries between human and AI-generated text are becoming increasingly blurred. We address the challenge of segmenting mixed-authorship text, that is identifying transition points in text where authorship shifts from human to AI or vice-versa, a problem with critical implications for authenticity, trust, and human oversight. We introduce a novel framework, called Info-Mask for mixed authorship detection that integrates stylometric cues, perplexity-driven signals, and structured boundary modeling to accurately segment collaborative human-AI content. To evaluate the robustness of our system against adversarial perturbations, we construct and release an adversarial benchmark dataset Mixed-text Adversarial setting for Segmentation (MAS), designed to probe the limits of existing detectors. Beyond segmentation accuracy, we introduce Human-Interpretable Attribution (HIA overlays that highlight how stylometric features inform boundary predictions, and we conduct a small-scale human study assessing their usefulness. Across multiple architectures, Info-Mask significantly improves span-level robustness under adversarial conditions, establishing new baselines while revealing remaining challenges. Our findings highlight both the promise and limitations of adversarially robust, interpretable mixed-authorship detection, with implications for trust and oversight in human-AI co-authorship.",
+      "filename": "2512_04838v1_Teja_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 18
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.08978v1",
+      "title": "Institutional AI Sovereignty Through Gateway Architecture: Implementation Report from Fontys ICT",
+      "authors": [
+        "Ruud Huijts",
+        "Koen Suilen"
+      ],
+      "published": "2025-12-04T12:41:32+00:00",
+      "updated": "2025-12-04T12:41:32+00:00",
+      "categories": [
+        "cs.CY",
+        "cs.AI"
+      ],
+      "abstract": "To counter fragmented, high-risk adoption of commercial AI tools, we built and ran an institutional AI platform in a six-month, 300-user pilot, showing that a university of applied sciences can offer advanced AI with fair access, transparent risks, controlled costs, and alignment with European law.\n  Commercial AI subscriptions create unequal access and compliance risks through opaque processing and non-EU hosting, yet banning them is neither realistic nor useful. Institutions need a way to provide powerful AI in a sovereign, accountable form.\n  Our solution is a governed gateway platform with three layers: a ChatGPT-style frontend linked to institutional identity that makes model choice explicit; a gateway core enforcing policy, controlling access and budgets, and routing traffic to EU infrastructure by default; and a provider layer wrapping commercial and open-source models in institutional model cards that consolidate vendor documentation into one governance interface.\n  The pilot ran reliably with no privacy incidents and strong adoption, enabling EU-default routing, managed spending, and transparent model choices. Only the gateway pattern combines model diversity and rapid innovation with institutional control.\n  The central insight: AI is not a support function but strategy, demanding dedicated leadership. Sustainable operation requires governance beyond traditional boundaries. We recommend establishing a formal AI Officer role combining technical literacy, governance authority, and educational responsibility. Without it, AI decisions stay ad-hoc and institutional exposure grows. With it, higher-education institutions can realistically operate their own multi-provider AI platform, provided they govern AI as seriously as they teach it.",
+      "filename": "2512_08978v1_Huijts_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.04668v2",
+      "title": "Topology Matters: Measuring Memory Leakage in Multi-Agent LLMs",
+      "authors": [
+        "Jinbo Liu",
+        "Defu Cao",
+        "Yifei Wei",
+        "Tianyao Su",
+        "Yuan Liang",
+        "Yushun Dong",
+        "Yue Zhao",
+        "Xiyang Hu"
+      ],
+      "published": "2025-12-04T11:00:49+00:00",
+      "updated": "2025-12-08T04:55:50+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Graph topology is a fundamental determinant of memory leakage in multi-agent LLM systems, yet its effects remain poorly quantified. We introduce MAMA (Multi-Agent Memory Attack), a framework that measures how network structure shapes leakage. MAMA operates on synthetic documents containing labeled Personally Identifiable Information (PII) entities, from which we generate sanitized task instructions. We execute a two-phase protocol: Engram (seeding private information into a target agent's memory) and Resonance (multi-round interaction where an attacker attempts extraction). Over up to 10 interaction rounds, we quantify leakage as the fraction of ground-truth PII recovered from attacking agent outputs via exact matching. We systematically evaluate six common network topologies (fully connected, ring, chain, binary tree, star, and star-ring), varying agent counts $n\\in\\{4,5,6\\}$, attacker-target placements, and base models. Our findings reveal consistent patterns: fully connected graphs exhibit maximum leakage while chains provide strongest protection; shorter attacker-target graph distance and higher target centrality significantly increase vulnerability; leakage rises sharply in early rounds before plateauing; model choice shifts absolute leakage rates but preserves topology rankings; temporal/locational PII attributes leak more readily than identity credentials or regulated identifiers. These results provide the first systematic mapping from architectural choices to measurable privacy risk, yielding actionable guidance: prefer sparse or hierarchical connectivity, maximize attacker-target separation, limit node degree and network radius, avoid shortcuts bypassing hubs, and implement topology-aware access controls.",
+      "filename": "2512_04668v2_Liu_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.04129v1",
+      "title": "Tipping the Dominos: Topology-Aware Multi-Hop Attacks on LLM-Based Multi-Agent Systems",
+      "authors": [
+        "Ruichao Liang",
+        "Le Yin",
+        "Jing Chen",
+        "Cong Wu",
+        "Xiaoyu Zhang",
+        "Huangpeng Gu",
+        "Zijian Zhang",
+        "Yang Liu"
+      ],
+      "published": "2025-12-03T05:10:39+00:00",
+      "updated": "2025-12-03T05:10:39+00:00",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "LLM-based multi-agent systems (MASs) have reshaped the digital landscape with their emergent coordination and problem-solving capabilities. However, current security evaluations of MASs are still confined to limited attack scenarios, leaving their security issues unclear and likely underestimated. To fill this gap, we propose TOMA, a topology-aware multi-hop attack scheme targeting MASs. By optimizing the propagation of contamination within the MAS topology and controlling the multi-hop diffusion of adversarial payloads originating from the environment, TOMA unveils new and effective attack vectors without requiring privileged access or direct agent manipulation. Experiments demonstrate attack success rates ranging from 40% to 78% across three state-of-the-art MAS architectures: \\textsc{Magentic-One}, \\textsc{LangManus}, and \\textsc{OWL}, and five representative topologies, revealing intrinsic MAS vulnerabilities that may be overlooked by existing research. Inspired by these findings, we propose a conceptual defense framework based on topology trust, and prototype experiments show its effectiveness in blocking 94.8% of adaptive and composite attacks.",
+      "filename": "2512_04129v1_Liang_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.03180v1",
+      "title": "AGENTSAFE: A Unified Framework for Ethical Assurance and Governance in Agentic AI",
+      "authors": [
+        "Rafflesia Khan",
+        "Declan Joyce",
+        "Mansura Habiba"
+      ],
+      "published": "2025-12-02T19:28:23+00:00",
+      "updated": "2025-12-02T19:28:23+00:00",
+      "categories": [
+        "cs.MA",
+        "cs.ET"
+      ],
+      "abstract": "The rapid deployment of large language model (LLM)-based agents introduces a new class of risks, driven by their capacity for autonomous planning, multi-step tool integration, and emergent interactions. It raises some risk factors for existing governance approaches as they remain fragmented: Existing frameworks are either static taxonomies driven; however, they lack an integrated end-to-end pipeline from risk identification to operational assurance, especially for an agentic platform. We propose AGENTSAFE, a practical governance framework for LLM-based agentic systems. The framework operationalises the AI Risk Repository into design, runtime, and audit controls, offering a governance framework for risk identification and assurance. The proposed framework, AGENTSAFE, profiles agentic loops (plan -> act -> observe -> reflect) and toolchains, and maps risks onto structured taxonomies extended with agent-specific vulnerabilities. It introduces safeguards that constrain risky behaviours, escalates high-impact actions to human oversight, and evaluates systems through pre-deployment scenario banks spanning security, privacy, fairness, and systemic safety. During deployment, AGENTSAFE ensures continuous governance through semantic telemetry, dynamic authorization, anomaly detection, and interruptibility mechanisms. Provenance and accountability are reinforced through cryptographic tracing and organizational controls, enabling measurable, auditable assurance across the lifecycle of agentic AI systems. The key contributions of this paper are: (1) a unified governance framework that translates risk taxonomies into actionable design, runtime, and audit controls; (2) an Agent Safety Evaluation methodology that provides measurable pre-deployment assurance; and (3) a set of runtime governance and accountability mechanisms that institutionalise trust in agentic AI ecosystems.",
+      "filename": "2512_03180v1_Khan_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 12
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.02418v1",
+      "title": "Leveraging Large Language Models to Bridge On-chain and Off-chain Transparency in Stablecoins",
+      "authors": [
+        "Yuexin Xiang",
+        "Yuchen Lei",
+        "SM Mahir Shazeed Rish",
+        "Yuanzhe Zhang",
+        "Qin Wang",
+        "Tsz Hon Yuen",
+        "Jiangshan Yu"
+      ],
+      "published": "2025-12-02T05:00:17+00:00",
+      "updated": "2025-12-02T05:00:17+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "Stablecoins such as USDT and USDC aspire to peg stability by coupling issuance controls with reserve attestations. In practice, however, the transparency is split across two worlds: verifiable on-chain traces and off-chain disclosures locked in unstructured text that are unconnected. We introduce a large language model (LLM)-based automated framework that bridges these two dimensions by aligning on-chain issuance data with off-chain disclosure statements. First, we propose an integrative framework using LLMs to capture and analyze on- and off-chain data through document parsing and semantic alignment, extracting key financial indicators from issuer attestations and mapping them to corresponding on-chain metrics. Second, we integrate multi-chain issuance records and disclosure documents within a model context protocol (MCP) framework that standardizes LLMs access to both quantitative market data and qualitative disclosure narratives. This framework enables unified retrieval and contextual alignment across heterogeneous stablecoin information sources and facilitates consistent analysis. Third, we demonstrate the capability of LLMs to operate across heterogeneous data modalities in blockchain analytics, quantifying discrepancies between reported and observed circulation and examining their implications for cross-chain transparency and price dynamics. Our findings reveal systematic gaps between disclosed and verifiable data, showing that LLM-assisted analysis enhances cross-modal transparency and supports automated, data-driven auditing in decentralized finance (DeFi).",
+      "filename": "2512_02418v1_Xiang_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.02410v1",
+      "title": "Decentralized Multi-Agent System with Trust-Aware Communication",
+      "authors": [
+        "Yepeng Ding",
+        "Ahmed Twabi",
+        "Junwei Yu",
+        "Lingfeng Zhang",
+        "Tohru Kondo",
+        "Hiroyuki Sato"
+      ],
+      "published": "2025-12-02T04:39:12+00:00",
+      "updated": "2025-12-02T04:39:12+00:00",
+      "categories": [
+        "cs.MA",
+        "cs.CR"
+      ],
+      "abstract": "The emergence of Large Language Models (LLMs) is rapidly accelerating the development of autonomous multi-agent systems (MAS), paving the way for the Internet of Agents. However, traditional centralized MAS architectures present significant challenges, including single points of failure, vulnerability to censorship, inherent scalability limitations, and critical trust issues. We propose a novel Decentralized Multi-Agent System (DMAS) architecture designed to overcome these fundamental problems by enabling trust-aware, scalable, and censorship-resistant interactions among autonomous agents. Our DMAS features a decentralized agent runtime underpinned by a blockchain-based architecture. We formalize a trust-aware communication protocol that leverages cryptographic primitives and on-chain operations to provide security properties: verifiable interaction cycles, communication integrity, authenticity, non-repudiation, and conditional confidentiality, which we further substantiate through a comprehensive security analysis. Our performance analysis validates the DMAS as a scalable and efficient solution for building trustworthy multi-agent systems.",
+      "filename": "2512_02410v1_Ding_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.02321v1",
+      "title": "LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems",
+      "authors": [
+        "Yuanhe Zhang",
+        "Weiliu Wang",
+        "Zhenhong Zhou",
+        "Kun Wang",
+        "Jie Zhang",
+        "Li Sun",
+        "Yang Liu",
+        "Sen Su"
+      ],
+      "published": "2025-12-02T01:34:56+00:00",
+      "updated": "2025-12-02T01:34:56+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.CL"
+      ],
+      "abstract": "Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in reasoning, planning, and tool usage. The recently proposed Model Context Protocol (MCP) has emerged as a unifying framework for integrating external tools into agent systems, enabling a thriving open ecosystem of community-built functionalities. However, the openness and composability that make MCP appealing also introduce a critical yet overlooked security assumption -- implicit trust in third-party tool providers. In this work, we identify and formalize a new class of attacks that exploit this trust boundary without violating explicit permissions. We term this new attack vector implicit toxicity, where malicious behaviors occur entirely within the allowed privilege scope. We propose LeechHijack, a Latent Embedded Exploit for Computation Hijacking, in which an adversarial MCP tool covertly expropriates the agent's computational resources for unauthorized workloads. LeechHijack operates through a two-stage mechanism: an implantation stage that embeds a benign-looking backdoor in a tool, and an exploitation stage where the backdoor activates upon predefined triggers to establish a command-and-control channel. Through this channel, the attacker injects additional tasks that the agent executes as if they were part of its normal workflow, effectively parasitizing the user's compute budget. We implement LeechHijack across four major LLM families. Experiments show that LeechHijack achieves an average success rate of 77.25%, with a resource overhead of 18.62% compared to the baseline. This study highlights the urgent need for computational provenance and resource attestation mechanisms to safeguard the emerging MCP ecosystem.",
+      "filename": "2512_02321v1_Zhang_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.02310v1",
+      "title": "The MEVIR Framework: A Virtue-Informed Moral-Epistemic Model of Human Trust Decisions",
+      "authors": [
+        "Daniel Schwabe"
+      ],
+      "published": "2025-12-02T01:11:35+00:00",
+      "updated": "2025-12-02T01:11:35+00:00",
+      "categories": [
+        "cs.CY"
+      ],
+      "abstract": "The 21st-century information landscape presents an unprecedented challenge: how do individuals make sound trust decisions amid complexity, polarization, and misinformation? Traditional rational-agent models fail to capture human trust formation, which involves a complex synthesis of reason, character, and pre-rational intuition. This report introduces the Moral-Epistemic VIRtue informed (MEVIR) framework, a comprehensive descriptive model integrating three theoretical perspectives: (1) a procedural model describing evidence-gathering and reasoning chains; (2) Linda Zagzebski's virtue epistemology, characterizing intellectual disposition and character-driven processes; and (3) Extended Moral Foundations Theory (EMFT), explaining rapid, automatic moral intuitions that anchor reasoning. Central to the framework are ontological concepts - Truth Bearers, Truth Makers, and Ontological Unpacking-revealing that disagreements often stem from fundamental differences in what counts as admissible reality. MEVIR reframes cognitive biases as systematic failures in applying epistemic virtues and demonstrates how different moral foundations lead agents to construct separate, internally coherent \"trust lattices\". Through case studies on vaccination mandates and climate policy, the framework shows that political polarization represents deeper divergence in moral priors, epistemic authorities, and evaluative heuristics. The report analyzes how propaganda, psychological operations, and echo chambers exploit the MEVIR process. The framework provides foundation for a Decision Support System to augment metacognition, helping individuals identify biases and practice epistemic virtues. The report concludes by acknowledging limitations and proposing longitudinal studies for future research.",
+      "filename": "2512_02310v1_Schwabe_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.00621v1",
+      "title": "Melody or Machine: Detecting Synthetic Music with Dual-Stream Contrastive Learning",
+      "authors": [
+        "Arnesh Batra",
+        "Dev Sharma",
+        "Krish Thukral",
+        "Ruhani Bhatia",
+        "Naman Batra",
+        "Aditya Gautam"
+      ],
+      "published": "2025-11-29T20:25:20+00:00",
+      "updated": "2025-11-29T20:25:20+00:00",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "The rapid evolution of end-to-end AI music generation poses an escalating threat to artistic authenticity and copyright, demanding detection methods that can keep pace. While foundational, existing models like SpecTTTra falter when faced with the diverse and rapidly advancing ecosystem of new generators, exhibiting significant performance drops on out-of-distribution (OOD) content. This generalization failure highlights a critical gap: the need for more challenging benchmarks and more robust detection architectures. To address this, we first introduce Melody or Machine (MoM), a new large-scale benchmark of over 130,000 songs (6,665 hours). MoM is the most diverse dataset to date, built with a mix of open and closed-source models and a curated OOD test set designed specifically to foster the development of truly generalizable detectors. Alongside this benchmark, we introduce CLAM, a novel dual-stream detection architecture. We hypothesize that subtle, machine-induced inconsistencies between vocal and instrumental elements, often imperceptible in a mixed signal, offer a powerful tell-tale sign of synthesis. CLAM is designed to test this hypothesis by employing two distinct pre-trained audio encoders (MERT and Wave2Vec2) to create parallel representations of the audio. These representations are fused by a learnable cross-aggregation module that models their inter-dependencies. The model is trained with a dual-loss objective: a standard binary cross-entropy loss for classification, complemented by a contrastive triplet loss which trains the model to distinguish between coherent and artificially mismatched stream pairings, enhancing its sensitivity to synthetic artifacts without presuming a simple feature alignment. CLAM establishes a new state-of-the-art in synthetic music forensics. It achieves an F1 score of 0.925 on our challenging MoM benchmark.",
+      "filename": "2512_00621v1_Batra_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.00595v1",
+      "title": "IslandRun: Privacy-Aware Multi-Objective Orchestration for Distributed AI Inference",
+      "authors": [
+        "Bala Siva Sai Akhil Malepati"
+      ],
+      "published": "2025-11-29T18:52:27+00:00",
+      "updated": "2025-11-29T18:52:27+00:00",
+      "categories": [
+        "cs.DC",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "Modern AI inference faces an irreducible tension: no single computational resource simultaneously maximizes performance, preserves privacy, minimizes cost, and maintains trust. Existing orchestration frameworks optimize single dimensions (Kubernetes prioritizes latency, federated learning preserves privacy, edge computing reduces network distance), creating solutions that struggle under real-world heterogeneity. We present IslandRun, a multi-objective orchestration system that treats computational resources as autonomous \"islands\" spanning personal devices, private edge servers, and public cloud. Our key insights: (1) request-level heterogeneity demands policy-constrained multi-objective optimization, (2) data locality enables routing compute to data rather than data to compute, and (3) typed placeholder sanitization preserves context semantics across trust boundaries. IslandRun introduces agent-based routing, tiered island groups with differential trust, and reversible anonymization. This establishes a new paradigm for privacy-aware, decentralized inference orchestration across heterogeneous personal computing ecosystems.",
+      "filename": "2512_00595v1_Malepati_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 15
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.00412v1",
+      "title": "Red Teaming Large Reasoning Models",
+      "authors": [
+        "Jiawei Chen",
+        "Yang Yang",
+        "Chao Yu",
+        "Yu Tian",
+        "Zhi Cao",
+        "Linghao Li",
+        "Hang Su",
+        "Zhaoxia Yin"
+      ],
+      "published": "2025-11-29T09:45:03+00:00",
+      "updated": "2025-11-29T09:45:03+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Large Reasoning Models (LRMs) have emerged as a powerful advancement in multi-step reasoning tasks, offering enhanced transparency and logical consistency through explicit chains of thought (CoT). However, these models introduce novel safety and reliability risks, such as CoT-hijacking and prompt-induced inefficiencies, which are not fully captured by existing evaluation methods. To address this gap, we propose RT-LRM, a unified benchmark designed to assess the trustworthiness of LRMs. RT-LRM evaluates three core dimensions: truthfulness, safety and efficiency. Beyond metric-based evaluation, we further introduce the training paradigm as a key analytical perspective to investigate the systematic impact of different training strategies on model trustworthiness. We achieve this by designing a curated suite of 30 reasoning tasks from an observational standpoint. We conduct extensive experiments on 26 models and identify several valuable insights into the trustworthiness of LRMs. For example, LRMs generally face trustworthiness challenges and tend to be more fragile than Large Language Models (LLMs) when encountering reasoning-induced risks. These findings uncover previously underexplored vulnerabilities and highlight the need for more targeted evaluations. In addition, we release a scalable toolbox for standardized trustworthiness research to support future advancements in this important field. Our code and datasets will be open-sourced.",
+      "filename": "2512_00412v1_Chen_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 30
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.00218v2",
+      "title": "Reasoning Under Pressure: How do Training Incentives Influence Chain-of-Thought Monitorability?",
+      "authors": [
+        "Matt MacDermott",
+        "Qiyao Wei",
+        "Rada Djoneva",
+        "Francis Rhys Ward"
+      ],
+      "published": "2025-11-28T21:34:34+00:00",
+      "updated": "2025-12-08T22:28:03+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "AI systems that output their reasoning in natural language offer an opportunity for safety -- we can \\emph{monitor} their chain of thought (CoT) for undesirable reasoning, such as the pursuit of harmful objectives. However, the extent to which CoT faithfully reflects the underlying reasoning process, and hence the extent to which it can be usefully monitored, may be influenced by certain aspects of training. We investigate how different \\emph{training incentives}, applied to a reasoning model, affect its monitorability. We introduce a novel methodology for measuring monitorability according to whether a monitor can predict a key latent variable using the model's reasoning. When controlling for accuracy, we do not find evidence for consistent effects from commonly used incentives (length penalties and KL regularisation), but we find that adversarial optimisation (penalising monitor accuracy) degrades monitor performance, while direct optimisation for monitorability does not reliably lead to improvements. Our code is available at https://github.com/QiyaoWei/reasoning-under-pressure.",
+      "filename": "2512_00218v2_MacDermott_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2512.00142v1",
+      "title": "DeFi TrustBoost: Blockchain and AI for Trustworthy Decentralized Financial Decisions",
+      "authors": [
+        "Swati Sachan",
+        "Dale S. Fickett"
+      ],
+      "published": "2025-11-28T18:30:39+00:00",
+      "updated": "2025-11-28T18:30:39+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "q-fin.CP",
+        "q-fin.GN"
+      ],
+      "abstract": "This research introduces the Decentralized Finance (DeFi) TrustBoost Framework, which combines blockchain technology and Explainable AI to address challenges faced by lenders underwriting small business loan applications from low-wealth households. The framework is designed with a strong emphasis on fulfilling four crucial requirements of blockchain and AI systems: confidentiality, compliance with data protection laws, resistance to adversarial attacks, and compliance with regulatory audits. It presents a technique for tamper-proof auditing of automated AI decisions and a strategy for on-chain (inside-blockchain) and off-chain data storage to facilitate collaboration within and across financial organizations.",
+      "filename": "2512_00142v1_Sachan_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 19
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.23158v1",
+      "title": "REVEAL: Reasoning-enhanced Forensic Evidence Analysis for Explainable AI-generated Image Detection",
+      "authors": [
+        "Huangsen Cao",
+        "Qin Mei",
+        "Zhiheng Li",
+        "Yuxi Li",
+        "Ying Zhang",
+        "Chen Li",
+        "Zhimeng Zhang",
+        "Xin Ding",
+        "Yongwei Wang",
+        "Jing Lyu",
+        "Fei Wu"
+      ],
+      "published": "2025-11-28T13:11:08+00:00",
+      "updated": "2025-11-28T13:11:08+00:00",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "abstract": "With the rapid advancement of generative models, visually realistic AI-generated images have become increasingly difficult to distinguish from authentic ones, posing severe threats to social trust and information integrity. Consequently, there is an urgent need for efficient and truly explainable image forensic methods. Recent detection paradigms have shifted towards explainable forensics. However, state-of-the-art approaches primarily rely on post-hoc rationalizations or visual discrimination, lacking a verifiable chain of evidence. This reliance on surface-level pattern matching limits the generation of causally grounded explanations and often results in poor generalization. To bridge this critical gap, we introduce \\textbf{REVEAL-Bench}, the first reasoning-enhanced multimodal benchmark for AI-generated image detection that is explicitly structured around a chain-of-evidence derived from multiple lightweight expert models, then records step-by-step reasoning traces and evidential justifications. Building upon this dataset, we propose \\textbf{REVEAL} (\\underline{R}easoning-\\underline{e}nhanced Forensic E\\underline{v}id\\underline{e}nce \\underline{A}na\\underline{l}ysis), an effective and explainable forensic framework that integrates detection with a novel expert-grounded reinforcement learning. Our reward mechanism is specially tailored to jointly optimize detection accuracy, explanation fidelity, and logical coherence grounded in explicit forensic evidence, enabling REVEAL to produce fine-grained, interpretable, and verifiable reasoning chains alongside its detection outcomes. Extensive experimental results demonstrate that REVEAL significantly enhances detection accuracy, explanation fidelity, and robust cross-model generalization, benchmarking a new state of the art for explainable image forensics.",
+      "filename": "2511_23158v1_Cao_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.22700v1",
+      "title": "Ghosting Your LLM: Without The Knowledge of Your Gradient and Data",
+      "authors": [
+        "Abeer Matar A. Almalky",
+        "Ziyan Wang",
+        "Mohaiminul Al Nahian",
+        "Li Yang",
+        "Adnan Siraj Rakin"
+      ],
+      "published": "2025-11-27T18:52:51+00:00",
+      "updated": "2025-11-27T18:52:51+00:00",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "In recent years, large language models (LLMs) have achieved substantial advancements and are increasingly integrated into critical applications across various domains. This growing adoption underscores the need to ensure their security and robustness. In this work, we focus on the impact of Bit Flip Attacks (BFAs) on LLMs, which exploits hardware faults to corrupt model parameters, posing a significant threat to model integrity and performance. Existing studies on BFA against LLMs adopt a progressive bit-search strategy that predominantly relies on gradient-based techniques to identify sensitive layers or weights. However, computing gradients comes with two specific challenges: First, in the context of LLMs, it increases computational and memory costs exponentially, and Second, it requires access to a sample victim dataset or knowledge of the victim domain to compute the gradient. In this work, we investigate beyond the scope of attack efficacy and aim to develop an efficient, practical Gradient-Data-free Bit-Flip Attack. The challenge lies in the core principle of adversarial attacks, which relies heavily on computing gradients from sample test/train data and manipulating model weights based on gradient information. To overcome this, we propose novel vulnerability index metrics that can identify vulnerable weight bits in LLMs independent of any gradient or data knowledge. By removing the dependency on gradient computation, our approach drastically reduces memory requirements and scales efficiently across multiple tasks with constant complexity. Experimental results demonstrate the efficiency of our method, requiring as few as a single bit flip to achieve adversarial objectives for five open-source LLMs.",
+      "filename": "2511_22700v1_Almalky_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.22681v1",
+      "title": "CacheTrap: Injecting Trojans in LLMs without Leaving any Traces in Inputs or Weights",
+      "authors": [
+        "Mohaiminul Al Nahian",
+        "Abeer Matar A. Almalky",
+        "Gamana Aragonda",
+        "Ranyang Zhou",
+        "Sabbir Ahmed",
+        "Dmitry Ponomarev",
+        "Li Yang",
+        "Shaahin Angizi",
+        "Adnan Siraj Rakin"
+      ],
+      "published": "2025-11-27T18:30:19+00:00",
+      "updated": "2025-11-27T18:30:19+00:00",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Adversarial weight perturbation has emerged as a concerning threat to LLMs that either use training privileges or system-level access to inject adversarial corruption in model weights. With the emergence of innovative defensive solutions that place system- and algorithm-level checks and corrections in the input and weight spaces, these perturbations are increasingly susceptible to defenses. This work develops a novel perspective on Trojan attacks that generates an attacker-designed model output while leaving no attack traces on the inputs or weights. Such an attack space can be unlocked through corruption of the key-value (KV) cache. In this paper, we introduce CacheTrap, a novel Trojan attack that corrupts the value vectors stored in the KV cache. These vectors capture the dynamic activations for specific token positions and therefore constitute a natural surface for transient, inference-time trigger insertion. The transient nature of these KV values and their dependence on victim input imply additional constraints on our attack, such as a lack of knowledge of the victim's data or domain application, and, consequently, a lack of gradient information. The objective of the proposed CacheTrap is to develop a vulnerable KV bit-searching algorithm so that, once the attack employs the identified bit-flip as a trigger, the model generates targeted behavior, e.g., classifying inputs towards the target class. Moreover, CacheTrap is a data- and gradient-free attack which also has no impact on the model's utility. Our evaluation demonstrates that the proposed attack enables the first successful Trojan attack on LLMs with a single bit flip in the KV cache. In addition, the data-independent nature of the attack ensures that once the attacker identifies the vulnerable bit index, the location remains constant and can be transferred to a wide range of victim tasks/datasets/queries with no overhead.",
+      "filename": "2511_22681v1_Nahian_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.22044v1",
+      "title": "Distillability of LLM Security Logic: Predicting Attack Success Rate of Outline Filling Attack via Ranking Regression",
+      "authors": [
+        "Tianyu Zhang",
+        "Zihang Xi",
+        "Jingyu Hua",
+        "Sheng Zhong"
+      ],
+      "published": "2025-11-27T02:55:31+00:00",
+      "updated": "2025-11-27T02:55:31+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "In the realm of black-box jailbreak attacks on large language models (LLMs), the feasibility of constructing a narrow safety proxy, a lightweight model designed to predict the attack success rate (ASR) of adversarial prompts, remains underexplored. This work investigates the distillability of an LLM's core security logic. We propose a novel framework that incorporates an improved outline filling attack to achieve dense sampling of the model's security boundaries. Furthermore, we introduce a ranking regression paradigm that replaces standard regression and trains the proxy model to predict which prompt yields a higher ASR. Experimental results show that our proxy model achieves an accuracy of 91.1 percent in predicting the relative ranking of average long response (ALR), and 69.2 percent in predicting ASR. These findings confirm the predictability and distillability of jailbreak behaviors, and demonstrate the potential of leveraging such distillability to optimize black-box attacks.",
+      "filename": "2511_22044v1_Zhang_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.21990v1",
+      "title": "A Safety and Security Framework for Real-World Agentic Systems",
+      "authors": [
+        "Shaona Ghosh",
+        "Barnaby Simkin",
+        "Kyriacos Shiarlis",
+        "Soumili Nandi",
+        "Dan Zhao",
+        "Matthew Fiedler",
+        "Julia Bazinska",
+        "Nikki Pope",
+        "Roopa Prabhu",
+        "Daniel Rohrer",
+        "Michael Demoret",
+        "Bartley Richardson"
+      ],
+      "published": "2025-11-27T00:19:24+00:00",
+      "updated": "2025-11-27T00:19:24+00:00",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "abstract": "This paper introduces a dynamic and actionable framework for securing agentic AI systems in enterprise deployment. We contend that safety and security are not merely fixed attributes of individual models but also emergent properties arising from the dynamic interactions among models, orchestrators, tools, and data within their operating environments. We propose a new way of identification of novel agentic risks through the lens of user safety. Although, for traditional LLMs and agentic models in isolation, safety and security has a clear separation, through the lens of safety in agentic systems, they appear to be connected. Building on this foundation, we define an operational agentic risk taxonomy that unifies traditional safety and security concerns with novel, uniquely agentic risks, including tool misuse, cascading action chains, and unintended control amplification among others. At the core of our approach is a dynamic agentic safety and security framework that operationalizes contextual agentic risk management by using auxiliary AI models and agents, with human oversight, to assist in contextual risk discovery, evaluation, and mitigation. We further address one of the most challenging aspects of safety and security of agentic systems: risk discovery through sandboxed, AI-driven red teaming. We demonstrate the framework effectiveness through a detailed case study of NVIDIA flagship agentic research assistant, AI-Q Research Assistant, showcasing practical, end-to-end safety and security evaluations in complex, enterprise-grade agentic workflows. This risk discovery phase finds novel agentic risks that are then contextually mitigated. We also release the dataset from our case study, containing traces of over 10,000 realistic attack and defense executions of the agentic workflow to help advance research in agentic safety.",
+      "filename": "2511_21990v1_Ghosh_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.21901v1",
+      "title": "Standardized Threat Taxonomy for AI Security, Governance, and Regulatory Compliance",
+      "authors": [
+        "Hernan Huwyler"
+      ],
+      "published": "2025-11-26T20:42:46+00:00",
+      "updated": "2025-11-26T20:42:46+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "q-fin.RM"
+      ],
+      "abstract": "The accelerating deployment of artificial intelligence systems across regulated sectors has exposed critical fragmentation in risk assessment methodologies. A significant \"language barrier\" currently separates technical security teams, who focus on algorithmic vulnerabilities (e.g., MITRE ATLAS), from legal and compliance professionals, who address regulatory mandates (e.g., EU AI Act, NIST AI RMF). This disciplinary disconnect prevents the accurate translation of technical vulnerabilities into financial liability, leaving practitioners unable to answer fundamental economic questions regarding contingency reserves, control return-on-investment, and insurance exposure. To bridge this gap, this research presents the AI System Threat Vector Taxonomy, a structured ontology designed explicitly for Quantitative Risk Assessment (QRA). The framework categorizes AI-specific risks into nine critical domains: Misuse, Poisoning, Privacy, Adversarial, Biases, Unreliable Outputs, Drift, Supply Chain, and IP Threat, integrating 53 operationally defined sub-threats. Uniquely, each domain maps technical vectors directly to business loss categories (Confidentiality, Integrity, Availability, Legal, Reputation), enabling the translation of abstract threats into measurable financial impact. The taxonomy is empirically validated through an analysis of 133 documented AI incidents from 2025 (achieving 100% classification coverage) and reconciled against the main AI risk frameworks. Furthermore, it is explicitly aligned with ISO/IEC 42001 controls and NIST AI RMF functions to facilitate auditability.",
+      "filename": "2511_21901v1_Huwyler_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.20920v1",
+      "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+      "authors": [
+        "Herman Errico",
+        "Jiquan Ngiam",
+        "Shanita Sojan"
+      ],
+      "published": "2025-11-25T23:24:26+00:00",
+      "updated": "2025-11-25T23:24:26+00:00",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+      "filename": "2511_20920v1_Errico_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.19875v1",
+      "title": "CodeFuse-CommitEval: Towards Benchmarking LLM's Power on Commit Message and Code Change Inconsistency Detection",
+      "authors": [
+        "Qingyu Zhang",
+        "Puzhuo Liu",
+        "Peng Di",
+        "Chenxiong Qian"
+      ],
+      "published": "2025-11-25T03:33:57+00:00",
+      "updated": "2025-11-25T03:33:57+00:00",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "Version control relies on commit messages to convey the rationale for code changes, but these messages are often low quality and, more critically, inconsistent with their diffs-known as message-code inconsistency (MCI). MCIs mislead reviewers, hinder maintenance, contaminate research datasets, and may obscure security patches. Yet, no dedicated benchmark exists to evaluate models for MCI detection. We introduce CODEFUSE-COMMITEVAL, the first benchmark designed for MCI detection using large language models (LLMs). Built on the ApacheCM dataset for diversity and quality, we generate seven types of inconsistent messages through rule-guided mutations of originally consistent commits and apply two-fold validation to verify both positive and negative samples. Using this labeled dataset of message-diff pairs, we evaluate six state-of-the-art open-source LLMs under a vanilla setting and with three augmentation strategies: few-shot prompting, chain-of-thought, and extended context. Results show models detect inconsistent commits more reliably than consistent ones (average Recall 85.95%, Precision 80.28%, Specificity 63.8%); gpt-oss-20B performs best overall but uses over twice the tokens of others. Augmentation effects vary: adjacent context helps larger models but adds noise for smaller ones; few-shot improves accuracy and reduces token use, yet increases universally incorrect predictions; chain-of-thought boosts precision and specificity at the cost of recall and higher token consumption. Type-wise analysis reveals higher detectability for component, file-path, and operation inconsistencies, but lower accuracy and higher token cost for intent-level \"purpose\" inconsistencies. CODEFUSE-COMMITEVAL provides a rigorous foundation for measuring, comparing, and advancing MCI detection, highlighting the need for richer context and balanced data to capture high-level semantic gaps.",
+      "filename": "2511_19875v1_Zhang_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.19874v1",
+      "title": "Cross-LLM Generalization of Behavioral Backdoor Detection in AI Agent Supply Chains",
+      "authors": [
+        "Arun Chowdary Sanna"
+      ],
+      "published": "2025-11-25T03:33:04+00:00",
+      "updated": "2025-11-25T03:33:04+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "As AI agents become integral to enterprise workflows, their reliance on shared tool libraries and pre-trained components creates significant supply chain vulnerabilities. While previous work has demonstrated behavioral backdoor detection within individual LLM architectures, the critical question of cross-LLM generalization remains unexplored, a gap with serious implications for organizations deploying multiple AI systems. We present the first systematic study of cross-LLM behavioral backdoor detection, evaluating generalization across six production LLMs (GPT-5.1, Claude Sonnet 4.5, Grok 4.1, Llama 4 Maverick, GPT-OSS 120B, and DeepSeek Chat V3.1). Through 1,198 execution traces and 36 cross-model experiments, we quantify a critical finding: single-model detectors achieve 92.7% accuracy within their training distribution but only 49.2% across different LLMs, a 43.4 percentage point generalization gap equivalent to random guessing. Our analysis reveals that this gap stems from model-specific behavioral signatures, particularly in temporal features (coefficient of variation > 0.8), while structural features remain stable across architectures. We show that model-aware detection incorporating model identity as an additional feature achieves 90.6% accuracy universally across all evaluated models. We release our multi-LLM trace dataset and detection framework to enable reproducible research.",
+      "filename": "2511_19874v1_Sanna_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.19727v1",
+      "title": "Prompt Fencing: A Cryptographic Approach to Establishing Security Boundaries in Large Language Model Prompts",
+      "authors": [
+        "Steven Peh"
+      ],
+      "published": "2025-11-24T21:44:33+00:00",
+      "updated": "2025-11-24T21:44:33+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Models (LLMs) remain vulnerable to prompt injection attacks, representing the most significant security threat in production deployments. We present Prompt Fencing, a novel architectural approach that applies cryptographic authentication and data architecture principles to establish explicit security boundaries within LLM prompts. Our approach decorates prompt segments with cryptographically signed metadata including trust ratings and content types, enabling LLMs to distinguish between trusted instructions and untrusted content. While current LLMs lack native fence awareness, we demonstrate that simulated awareness through prompt instructions achieved complete prevention of injection attacks in our experiments, reducing success rates from 86.7% (260/300 successful attacks) to 0% (0/300 successful attacks) across 300 test cases with two leading LLM providers. We implement a proof-of-concept fence generation and verification pipeline with a total overhead of 0.224 seconds (0.130s for fence generation, 0.094s for validation) across 100 samples. Our approach is platform-agnostic and can be incrementally deployed as a security layer above existing LLM infrastructure, with the expectation that future models will be trained with native fence awareness for optimal security.",
+      "filename": "2511_19727v1_Peh_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 44
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.19644v1",
+      "title": "IRSDA: An Agent-Orchestrated Framework for Enterprise Intrusion Response",
+      "authors": [
+        "Damodar Panigrahi",
+        "Raj Patel",
+        "Shaswata Mitra",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "published": "2025-11-24T19:21:09+00:00",
+      "updated": "2025-11-24T19:21:09+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Modern enterprise systems face escalating cyber threats that are increasingly dynamic, distributed, and multi-stage in nature. Traditional intrusion detection and response systems often rely on static rules and manual workflows, which limit their ability to respond with the speed and precision required in high-stakes environments. To address these challenges, we present the Intrusion Response System Digital Assistant (IRSDA), an agent-based framework designed to deliver autonomous and policy-compliant cyber defense. IRSDA combines Self-Adaptive Autonomic Computing Systems (SA-ACS) with the Knowledge guided Monitor, Analyze, Plan, and Execute (MAPE-K) loop to support real-time, partition-aware decision-making across enterprise infrastructure.\n  IRSDA incorporates a knowledge-driven architecture that integrates contextual information with AI-based reasoning to support system-guided intrusion response. The framework leverages retrieval mechanisms and structured representations to inform decision-making while maintaining alignment with operational policies. We assess the system using a representative real-world microservices application, demonstrating its ability to automate containment, enforce compliance, and provide traceable outputs for security analyst interpretation. This work outlines a modular and agent-driven approach to cyber defense that emphasizes explainability, system-state awareness, and operational control in intrusion response.",
+      "filename": "2511_19644v1_Panigrahi_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.21757v1",
+      "title": "Medical Malice: A Dataset for Context-Aware Safety in Healthcare LLMs",
+      "authors": [
+        "Andrew Maranh\u00e3o Ventura D'addario"
+      ],
+      "published": "2025-11-24T11:55:22+00:00",
+      "updated": "2025-11-24T11:55:22+00:00",
+      "categories": [
+        "cs.CY",
+        "cs.AI",
+        "cs.CL",
+        "cs.CR"
+      ],
+      "abstract": "The integration of Large Language Models (LLMs) into healthcare demands a safety paradigm rooted in \\textit{primum non nocere}. However, current alignment techniques rely on generic definitions of harm that fail to capture context-dependent violations, such as administrative fraud and clinical discrimination. To address this, we introduce Medical Malice: a dataset of 214,219 adversarial prompts calibrated to the regulatory and ethical complexities of the Brazilian Unified Health System (SUS). Crucially, the dataset includes the reasoning behind each violation, enabling models to internalize ethical boundaries rather than merely memorizing a fixed set of refusals. Using an unaligned agent (Grok-4) within a persona-driven pipeline, we synthesized high-fidelity threats across seven taxonomies, ranging from procurement manipulation and queue-jumping to obstetric violence. We discuss the ethical design of releasing these \"vulnerability signatures\" to correct the information asymmetry between malicious actors and AI developers. Ultimately, this work advocates for a shift from universal to context-aware safety, providing the necessary resources to immunize healthcare AI against the nuanced, systemic threats inherent to high-stakes medical environments -- vulnerabilities that represent the paramount risk to patient safety and the successful integration of AI in healthcare systems.",
+      "filename": "2511_21757v1_D'addario_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.19009v1",
+      "title": "Understanding and Mitigating Over-refusal for Large Language Models via Safety Representation",
+      "authors": [
+        "Junbo Zhang",
+        "Ran Chen",
+        "Qianli Zhou",
+        "Xinyang Deng",
+        "Wen Jiang"
+      ],
+      "published": "2025-11-24T11:38:53+00:00",
+      "updated": "2025-11-24T11:38:53+00:00",
+      "categories": [
+        "cs.CR",
+        "cs.CL"
+      ],
+      "abstract": "Large language models demonstrate powerful capabilities across various natural language processing tasks, yet they also harbor safety vulnerabilities. To enhance LLM safety, various jailbreak defense methods have been proposed to guard against harmful outputs. However, improvements in model safety often come at the cost of severe over-refusal, failing to strike a good balance between safety and usability. In this paper, we first analyze the causes of over-refusal from a representation perspective, revealing that over-refusal samples reside at the boundary between benign and malicious samples. Based on this, we propose MOSR, designed to mitigate over-refusal by intervening the safety representation of LLMs. MOSR incorporates two novel components: (1) Overlap-Aware Loss Weighting, which determines the erasure weight for malicious samples by quantifying their similarity to pseudo-malicious samples in the representation space, and (2) Context-Aware Augmentation, which supplements the necessary context for rejection decisions by adding harmful prefixes before rejection responses. Experiments demonstrate that our method outperforms existing approaches in mitigating over-refusal while largely maintaining safety. Overall, we advocate that future defense methods should strike a better balance between safety and over-refusal.",
+      "filename": "2511_19009v1_Zhang_2025.pdf",
+      "query": "Delegation Chain & Privilege Escalation",
+      "estimated_pages": 10
+    }
+  ],
+  "queries": {
+    "(delegation chain OR privilege escalation OR scope boundaries) AND (AI agent OR autonomous agent OR LLM agent) AND (authentication OR authorization OR security)": [
+      "http://arxiv.org/abs/2512.09831v1",
+      "http://arxiv.org/abs/2512.08782v1",
+      "http://arxiv.org/abs/2512.08290v1",
+      "http://arxiv.org/abs/2512.08213v1",
+      "http://arxiv.org/abs/2512.08169v1",
+      "http://arxiv.org/abs/2512.08026v1",
+      "http://arxiv.org/abs/2512.07827v1",
+      "http://arxiv.org/abs/2512.07583v1",
+      "http://arxiv.org/abs/2512.06914v1",
+      "http://arxiv.org/abs/2512.06660v1",
+      "http://arxiv.org/abs/2512.06583v1",
+      "http://arxiv.org/abs/2512.06248v1",
+      "http://arxiv.org/abs/2512.05519v1",
+      "http://arxiv.org/abs/2512.04838v1",
+      "http://arxiv.org/abs/2512.08978v1",
+      "http://arxiv.org/abs/2512.04668v2",
+      "http://arxiv.org/abs/2512.04129v1",
+      "http://arxiv.org/abs/2512.03180v1",
+      "http://arxiv.org/abs/2512.02418v1",
+      "http://arxiv.org/abs/2512.02410v1",
+      "http://arxiv.org/abs/2512.02321v1",
+      "http://arxiv.org/abs/2512.02310v1",
+      "http://arxiv.org/abs/2512.00621v1",
+      "http://arxiv.org/abs/2512.00595v1",
+      "http://arxiv.org/abs/2512.00412v1",
+      "http://arxiv.org/abs/2512.00218v2",
+      "http://arxiv.org/abs/2512.00142v1",
+      "http://arxiv.org/abs/2511.23158v1",
+      "http://arxiv.org/abs/2511.22700v1",
+      "http://arxiv.org/abs/2511.22681v1",
+      "http://arxiv.org/abs/2511.22044v1",
+      "http://arxiv.org/abs/2511.21990v1",
+      "http://arxiv.org/abs/2511.21901v1",
+      "http://arxiv.org/abs/2511.20920v1",
+      "http://arxiv.org/abs/2511.19875v1",
+      "http://arxiv.org/abs/2511.19874v1",
+      "http://arxiv.org/abs/2511.19727v1",
+      "http://arxiv.org/abs/2511.19644v1",
+      "http://arxiv.org/abs/2511.21757v1",
+      "http://arxiv.org/abs/2511.19009v1"
+    ]
+  }
+}

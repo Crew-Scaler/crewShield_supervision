@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.18934v1",
+  "title": "When Less is More: 8-bit Quantization Improves Continual Learning in Large Language Models",
+  "authors": [
+    "Michael S. Zhang",
+    "Rishi A. Ruia",
+    "Arnav Kewalram",
+    "Saathvik Dharmapuram",
+    "Utkarsh Sharma",
+    "Kevin Zhu"
+  ],
+  "published": "2025-12-22T00:51:39Z",
+  "url": "http://arxiv.org/abs/2512.18934v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.18934v1.pdf",
+  "relevance_score": 74,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Catastrophic forgetting poses a fundamental challenge in continual learning, particularly when models are quantized for deployment efficiency. We systematically investigate the interplay between quantization precision (FP16, INT8, INT4) and replay buffer strategies in large language models, revealing unexpected dynamics. While FP16 achieves superior initial task performance (74.44% on NLU), we observe a striking inversion on subsequent tasks: quantized models outperform FP16 by 8-15% on final ta"
+}

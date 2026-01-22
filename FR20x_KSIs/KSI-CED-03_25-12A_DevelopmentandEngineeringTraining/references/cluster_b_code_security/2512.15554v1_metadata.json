@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.15554v1",
+  "title": "WuppieFuzz: Coverage-Guided, Stateful REST API Fuzzing",
+  "authors": [
+    "Thomas Rooijakkers",
+    "Anne Nijsten",
+    "Cristian Daniele",
+    "Erieke Weitenberg",
+    "Ringo Groenewegen",
+    "Arthur Melissen"
+  ],
+  "published": "2025-12-17T16:05:39Z",
+  "url": "http://arxiv.org/abs/2512.15554v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.15554v1.pdf",
+  "relevance_score": 73,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Many business processes currently depend on web services, often using REST APIs for communication. REST APIs expose web service functionality through endpoints, allowing easy client interaction over the Internet. To reduce the security risk resulting from exposed endpoints, thorough testing is desired. Due to the generally vast number of endpoints, automated testing techniques, like fuzzing, are of interest.\n  This paper introduces WuppieFuzz, an open-source REST API fuzzer built on LibAFL, supp"
+}

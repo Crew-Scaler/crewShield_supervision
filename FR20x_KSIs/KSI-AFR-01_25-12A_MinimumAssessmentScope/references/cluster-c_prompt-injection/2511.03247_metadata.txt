@@ -1,0 +1,21 @@
+Title: Death by a Thousand Prompts: Open Model Vulnerability Analysis
+
+Authors: Amy Chang, Nicholas Conley, Harish Santhanalakshmi Ganesan, Adam Swanda
+
+
+Published: 2025-11-05
+
+Query ID: C-1.8
+
+Relevance Color: Green
+Relevance Score: 0.95
+
+Pages: 15
+
+URL: https://arxiv.org/pdf/2511.03247.pdf
+
+Abstract:
+Open-weight models provide researchers and developers with accessible foundations for diverse downstream applications. We tested the safety and security postures of eight open-weight large language models (LLMs) to identify vulnerabilities that may impact subsequent fine-tuning and deployment. Using automated adversarial testing, we measured each model's resilience against single-turn and multi-turn prompt injection and jailbreak attacks. Our findings reveal pervasive vulnerabilities across all ...
+
+Relevance Justification:
+Directly addresses prompt injection attacks; Discusses LLM jailbreaking techniques; Analyzes adversarial attacks on language models

@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.06062v1",
+  "title": "When Privacy Isn't Synthetic: Hidden Data Leakage in Generative AI Models",
+  "authors": [
+    "S. M. Mustaqim",
+    "Anantaa Kotal",
+    "Paul H. Yi"
+  ],
+  "published": "2025-12-05T18:52:35Z",
+  "url": "http://arxiv.org/abs/2512.06062v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.06062v1.pdf",
+  "relevance_score": 68,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Generative models are increasingly used to produce privacy-preserving synthetic data as a safe alternative to sharing sensitive training datasets. However, we demonstrate that such synthetic releases can still leak information about the underlying training samples through structural overlap in the data manifold. We propose a black-box membership inference attack that exploits this vulnerability without requiring access to model internals or real data. The attacker repeatedly queries the generati"
+}

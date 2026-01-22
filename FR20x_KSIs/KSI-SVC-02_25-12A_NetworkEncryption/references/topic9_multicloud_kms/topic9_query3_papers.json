@@ -1,0 +1,197 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.18488v1",
+    "arxiv_id": "2512.18488v1",
+    "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
+    "summary": "Secure interoperability across heterogeneous blockchains remains one of the most pressing challenges in Web3 with existing bridge protocols vulnerable to both classical exploits and emerging quantum threats. This paper introduces QLink a quantum-safe Layer 3 interoperability protocol that integrates postquantum cryptography (PQC) quantum key distribution (QKD) and hardware security modules (HSMs) into a unified validator architecture. To our knowledge, QLink is the first interoperability framework to combine these mechanisms to secure validator communication proof aggregation and key management. Validators exchange encryption keys through QKD channels, achieving information-theoretic security against interception, while cross-chain proofs are generated and aggregated with NIST-standardized PQC algorithms. Private keys remain sealed inside HSM enclaves mitigating the risk of theft or leakage. Deployed as a dedicated Layer 3 protocol QLink operates independently of Layer 1 and Layer 2 chains providing a scalable decentralized foundation for secure cross-chain messaging and asset transfer. Experimental evaluation using network simulations demonstrates that validator communication overhead remains sub-second while security guarantees extend beyond current bridge architectures to resist both classical and quantum adversaries. By addressing today vulnerabilities and anticipating future quantum threats QLink establishes a practical and future-proof pathway for blockchain interoperability.",
+    "published": "2025-12-20T19:54:30Z",
+    "updated": "2025-12-20T19:54:30Z",
+    "authors": [
+      "Joao Vitor Barros Da Silva",
+      "Arsh Gupta",
+      "Madhusudan Singh Irish Singh"
+    ],
+    "affiliations": [],
+    "first_author": "Joao Vitor Barros Da Silva",
+    "pdf_url": "https://arxiv.org/pdf/2512.18488v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19005v1",
+    "arxiv_id": "2512.19005v1",
+    "title": "Quantum-Resistant Cryptographic Models for Next-Gen Cybersecurity",
+    "summary": "Another threat is the development of large quantum computers, which have a high likelihood of breaking the high popular security protocols because it can use both Shor and Grover algorithms. In order to fix this looming threat, quantum-resistant cryptographic systems, otherwise known as post-quantum cryptography (PQC), are being formulated to protect cybersecurity systems of the future. The current paper presents the state of the art in designing, realizing, and testing the security of robust quantum-resistant algorithms, paying attention to lattice-based, code-based, multivariate polynomial and hash-based cryptography. We discuss their resistance to classical and quantum attackers, distributed system scalability properties, and their deployment in practice (secure communications, blockchain, cloud computing infrastructures). Also, we study a hybrid cryptographic model that integrates the classical efficient cryptography scheme and a quantum-resilient cryptographic scheme to achieve a backward-compatible solution and simultaneously improving the forward security properties. With the experimental findings, it is evident that performance with reasonable computational footprint of the proposed framework succeeds to install amplified security fortitude which successfully harbours prolific cybersecurity systems of the future.",
+    "published": "2025-12-22T03:47:06Z",
+    "updated": "2025-12-22T03:47:06Z",
+    "authors": [
+      "Navin Chhibber",
+      "Amber Rastogi",
+      "Ankur Mahida",
+      "Vatsal Gupta",
+      "Piyush Ranjan"
+    ],
+    "affiliations": [],
+    "first_author": "Navin Chhibber",
+    "pdf_url": "https://arxiv.org/pdf/2512.19005v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17748v2",
+    "arxiv_id": "2512.17748v2",
+    "title": "Methods and Tools for Secure Quantum Clouds with a specific Case Study on Homomorphic Encryption",
+    "summary": "The rise of quantum computing/technology potentially introduces significant security challenges to cloud computing, necessitating quantum-resistant encryption strategies as well as protection schemes and methods for cloud infrastructures offering quantum computing time and services (i.e. quantum clouds). This research explores various options for securing quantum clouds and ensuring privacy, especially focussing on the integration of homomorphic encryption (HE) into Eclipse Qrisp, a high-level quantum computing framework, to enhance the security of quantum cloud platforms. The study addresses the technical feasibility of integrating HE with Qrisp, evaluates performance trade-offs, and assesses the potential impact on future quantum cloud architectures. The successful implementation and Qrisp integration of three post-quantum cryptographic (PQC) algorithms demonstrates the feasibility of integrating HE with quantum computing frameworks. The findings indicate that while the Quantum One-Time Pad (QOTP) offers simplicity and low overhead, other algorithms like Chen and Gentry-Sahai-Waters (GSW) present performance trade-offs in terms of runtime and memory consumption. The study results in an overall set of recommendations for securing quantum clouds, e.g. implementing HE at data storage and processing levels, developing Quantum Key Distribution (QKD), and enforcing stringent access control and authentication mechanisms as well as participating in PQC standardization efforts.",
+    "published": "2025-12-19T16:24:51Z",
+    "updated": "2025-12-22T07:37:12Z",
+    "authors": [
+      "Aurelia Kusumastuti",
+      "Nikolay Tcholtchev",
+      "Philipp L\u00e4mmel",
+      "Sebastian Bock",
+      "Manfred Hauswirth"
+    ],
+    "affiliations": [],
+    "first_author": "Aurelia Kusumastuti",
+    "pdf_url": "https://arxiv.org/pdf/2512.17748v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18589v1",
+    "arxiv_id": "2512.18589v1",
+    "title": "DNA-HHE: Dual-mode Near-network Accelerator for Hybrid Homomorphic Encryption on the Edge",
+    "summary": "Fully homomorphic encryption (FHE) schemes like RNS-CKKS enable privacy-preserving outsourced computation (PPOC) but suffer from high computational latency and ciphertext expansion, especially on the resource-constrained edge side. Hybrid Homomorphic Encryption (HHE) mitigates these issues on the edge side by replacing HE with lightweight symmetric encryption for plaintext encryption, such as the Rubato cipher for the HHE variant of RNS-CKKS, yet it introduces transciphering overhead on the cloud. The respective strengths and limitations of FHE and HHE call for a dual-mode HHE solution with flexible algorithm switching ability. This paper presents DNA-HHE, the first dual-mode HHE accelerator with near-network coupling for edge devices. DNA-HHE supports both edge-side RNS-CKKS and Rubato within a unified architecture driven by flexible custom instructions. To realize a compact implementation for the edge side, we propose a DSP-efficient modular reduction design, a compact multi-field-adaptive butterfly unit, and parallel scheduling schemes of Rubato with a high degree of resource sharing. DNA-HHE is designed with network protocol packaging and transmission capacities and directly coupled to the network interface controller, achieving reduced overall latency of edge-side PPOC by 1.09$\\times$ to 1.56$\\times$. Our evaluations on the ASIC and FPGA platforms demonstrate that DNA-HHE outperforms the state-of-the-art single-mode designs in both edge-side RNS-CKKS and symmetric cipher with better computation latency and area efficiency, while offering dual-mode functionality.",
+    "published": "2025-12-21T04:23:43Z",
+    "updated": "2025-12-21T04:23:43Z",
+    "authors": [
+      "Yifan Zhao",
+      "Xinglong Yu",
+      "Yi Sun",
+      "Honglin Kuang",
+      "Jun Han"
+    ],
+    "affiliations": [],
+    "first_author": "Yifan Zhao",
+    "pdf_url": "https://arxiv.org/pdf/2512.18589v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18345v1",
+    "arxiv_id": "2512.18345v1",
+    "title": "Theodosian: A Deep Dive into Memory-Hierarchy-Centric FHE Acceleration",
+    "summary": "Fully homomorphic encryption (FHE) enables secure computation on encrypted data, mitigating privacy concerns in cloud and edge environments. However, due to its high compute and memory demands, extensive acceleration research has been pursued across diverse hardware platforms, especially GPUs. In this paper, we perform a microarchitectural analysis of CKKS, a popular FHE scheme, on modern GPUs. We focus on on-chip cache behavior, and show that the dominant kernels remain bound by memory bandwidth despite a high-bandwidth L2 cache, exposing a persistent memory wall. We further discover that the overall CKKS pipeline throughput is constrained by low per-kernel hardware utilization, caused by insufficient intra-kernel parallelism. Motivated by these findings, we introduce Theodosian, a set of complementary, memory-aware optimizations that improve cache efficiency and reduce runtime overheads. Our approach delivers consistent speedups across various CKKS workloads. On an RTX 5090, we reduce the bootstrapping latency for 32,768 complex numbers to 15.2ms with Theodosian, and further to 12.8ms with additional algorithmic optimizations, establishing new state-of-the-art GPU performance to the best of our knowledge.",
+    "published": "2025-12-20T12:18:29Z",
+    "updated": "2025-12-20T12:18:29Z",
+    "authors": [
+      "Wonseok Choi",
+      "Hyunah Yu",
+      "Jongmin Kim",
+      "Hyesung Ji",
+      "Jaiyoung Park",
+      "Jung Ho Ahn"
+    ],
+    "affiliations": [],
+    "first_author": "Wonseok Choi",
+    "pdf_url": "https://arxiv.org/pdf/2512.18345v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18132v1",
+    "arxiv_id": "2512.18132v1",
+    "title": "PermuteV: A Performant Side-channel-Resistant RISC-V Core Securing Edge AI Inference",
+    "summary": "Edge AI inference is becoming prevalent thanks to the emergence of small yet high-performance microprocessors. This shift from cloud to edge processing brings several benefits in terms of energy savings, improved latency, and increased privacy. On the downside, bringing computation to the edge makes them more vulnerable to physical side-channel attacks (SCA), which aim to extract the confidentiality of neural network models, e.g., architecture and weight. To address this growing threat, we propose PermuteV, a performant side-channel resistant RISC-V core designed to secure neural network inference. PermuteV employs a hardware-accelerated defense mechanism that randomly permutes the execution order of loop iterations, thereby obfuscating the electromagnetic (EM) signature associated with sensitive operations. We implement PermuteV on FPGA and perform evaluations in terms of side-channel security, hardware area, and runtime overhead. The experimental results demonstrate that PermuteV can effectively defend against EM SCA with minimal area and runtime overhead.",
+    "published": "2025-12-19T23:31:16Z",
+    "updated": "2025-12-19T23:31:16Z",
+    "authors": [
+      "Nuntipat Narkthong",
+      "Xiaolin Xu"
+    ],
+    "affiliations": [],
+    "first_author": "Nuntipat Narkthong",
+    "pdf_url": "https://arxiv.org/pdf/2512.18132v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15823v1",
+    "arxiv_id": "2512.15823v1",
+    "title": "Secure AI-Driven Super-Resolution for Real-Time Mixed Reality Applications",
+    "summary": "Immersive formats such as 360\u00b0 and 6DoF point cloud videos require high bandwidth and low latency, posing challenges for real-time AR/VR streaming. This work focuses on reducing bandwidth consumption and encryption/decryption delay, two key contributors to overall latency. We design a system that downsamples point cloud content at the origin server and applies partial encryption. At the client, the content is decrypted and upscaled using an ML-based super-resolution model. Our evaluation demonstrates a nearly linear reduction in bandwidth/latency, and encryption/decryption overhead with lower downsampling resolutions, while the super-resolution model effectively reconstructs the original full-resolution point clouds with minimal error and modest inference time.",
+    "published": "2025-12-17T16:19:18Z",
+    "updated": "2025-12-17T16:19:18Z",
+    "authors": [
+      "Mohammad Waquas Usmani",
+      "Sankalpa Timilsina",
+      "Michael Zink",
+      "Susmit Shannigrahi"
+    ],
+    "affiliations": [],
+    "first_author": "Mohammad Waquas Usmani",
+    "pdf_url": "https://arxiv.org/pdf/2512.15823v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15515v1",
+    "arxiv_id": "2512.15515v1",
+    "title": "FAME: FPGA Acceleration of Secure Matrix Multiplication with Homomorphic Encryption",
+    "summary": "Homomorphic Encryption (HE) enables secure computation on encrypted data, addressing privacy concerns in cloud computing. However, the high computational cost of HE operations, particularly matrix multiplication (MM), remains a major barrier to its practical deployment. Accelerating homomorphic encrypted MM (HE MM) is therefore crucial for applications such as privacy-preserving machine learning.   In this paper, we present a bandwidth-efficient FPGA implementation of HE MM. We first develop a cost model to evaluate the on-chip memory requirements for a given set of HE parameters and input matrix sizes. Our analysis shows that optimizing on-chip memory usage is critical for scalable and efficient HE MM. To this end, we design a novel datapath for Homomorphic Linear Transformation (HLT), the primary bottleneck in HE MM. The proposed datapath significantly reduces off-chip memory traffic and on-chip memory demand by enabling fine-grained data reuse. Leveraging this datapath, we introduce FAME, the first FPGA-based accelerator specifically tailored for HE MM. FAME supports arbitrary matrix shapes and is configurable across a wide range of HE parameter sets. We implement FAME on an Alveo U280 FPGA and evaluate its performance across diverse matrix sizes and shapes. Experimental results show that FAME achieves an average speedup of 221x over state-of-the-art CPU-based implementations, demonstrating its scalability and practicality for large-scale consecutive HE MM and real-world workloads.",
+    "published": "2025-12-17T15:09:36Z",
+    "updated": "2025-12-17T15:09:36Z",
+    "authors": [
+      "Zhihan Xu",
+      "Rajgopal Kannan",
+      "Viktor K. Prasanna"
+    ],
+    "affiliations": [],
+    "first_author": "Zhihan Xu",
+    "pdf_url": "https://arxiv.org/pdf/2512.15515v1",
+    "primary_category": "cs.AR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15503v2",
+    "arxiv_id": "2512.15503v2",
+    "title": "Attention in Motion: Secure Platooning via Transformer-based Misbehavior Detection",
+    "summary": "Vehicular platooning promises transformative improvements in transportation efficiency and safety through the coordination of multi-vehicle formations enabled by Vehicle-to-Everything (V2X) communication. However, the distributed nature of platoon coordination creates security vulnerabilities, allowing authenticated vehicles to inject falsified kinematic data, compromise operational stability, and pose a threat to passenger safety. Traditional misbehaviour detection approaches, which rely on plausibility checks and statistical methods, suffer from high False Positive (FP) rates and cannot capture the complex temporal dependencies inherent in multi-vehicle coordination dynamics. We present Attention In Motion (AIMformer), a transformer-based framework specifically tailored for real-time misbehaviour detection in vehicular platoons with edge deployment capabilities. AIMformer leverages multi-head self-attention mechanisms to simultaneously capture intra-vehicle temporal dynamics and inter-vehicle spatial correlations. It incorporates global positional encoding with vehicle-specific temporal offsets to handle join/exit maneuvers. We propose a Precision-Focused Binary Cross-Entropy (PFBCE) loss function that penalizes FPs to meet the requirements of safety-critical vehicular systems. Extensive evaluation across 4 platoon controllers, multiple attack vectors, and diverse mobility scenarios demonstrates superior performance ($\\geq$ 0.93) compared to state-of-the-art baseline architectures. A comprehensive deployment analysis utilizing TensorFlow Lite (TFLite), Open Neural Network Exchange (ONNX), and TensorRT achieves sub-millisecond inference latency, making it suitable for real-time operation on resource-constrained edge platforms. Hence, validating AIMformer is viable for both in-vehicle and roadside infrastructure deployment.",
+    "published": "2025-12-17T14:45:33Z",
+    "updated": "2025-12-22T23:04:16Z",
+    "authors": [
+      "Konstantinos Kalogiannis",
+      "Ahmed Mohamed Hussain",
+      "Hexu Li",
+      "Panos Papadimitratos"
+    ],
+    "affiliations": [],
+    "first_author": "Konstantinos Kalogiannis",
+    "pdf_url": "https://arxiv.org/pdf/2512.15503v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15815v1",
+    "arxiv_id": "2512.15815v1",
+    "title": "Implementing a Scalable, Redeployable and Multitiered Repository for FAIR and Secure Scientific Data Sharing: The BIG-MAP Archive",
+    "summary": "Data sharing in large consortia, such as research collaborations or industry partnerships, requires addressing both organizational and technical challenges. A common platform is essential to promote collaboration, facilitate exchange of findings, and ensure secure access to sensitive data. Key technical challenges include creating a scalable architecture, a user-friendly interface, and robust security and access control. The BIG-MAP Archive is a cloud-based, disciplinary, private repository designed to address these challenges. Built on InvenioRDM, it leverages platform functionalities to meet consortium-specific needs, providing a tailored solution compared to general repositories. Access can be restricted to members of specific communities or open to the entire consortium, such as the BATTERY 2030+, a consortium accelerating advanced battery technologies. Uploaded data and metadata are controlled via fine grained permissions, allowing access to individual project members or the full initiative. The formalized upload process ensures data are formatted and ready for publication in open repositories when needed. This paper reviews the repository's key features, showing how the BIG-MAP Archive enables secure, controlled data sharing within large consortia. It ensures data confidentiality while supporting flexible, permissions-based access and can be easily redeployed for other consortia, including MaterialsCommons4.eu and RAISE (Resource for AI Science in Europe).",
+    "published": "2025-12-17T14:15:10Z",
+    "updated": "2025-12-17T14:15:10Z",
+    "authors": [
+      "Valeria Granata",
+      "Francois Liot",
+      "Xing Wang",
+      "Steen Lysgaard",
+      "Ivano E. Castelli",
+      "Tejs Vegge",
+      "Nicola Marzari",
+      "Giovanni Pizzi"
+    ],
+    "affiliations": [],
+    "first_author": "Valeria Granata",
+    "pdf_url": "https://arxiv.org/pdf/2512.15815v1",
+    "primary_category": "cs.DB",
+    "relevance_score": 16.0
+  }
+]

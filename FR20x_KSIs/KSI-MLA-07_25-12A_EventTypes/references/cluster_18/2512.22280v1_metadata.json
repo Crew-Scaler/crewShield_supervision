@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2512.22280v1",
+  "title": "Valori: A Deterministic Memory Substrate for AI Systems",
+  "published": "2025-12-25T06:04:04Z",
+  "summary": "Modern AI systems rely on vector embeddings stored and searched using floating-point arithmetic. While effective for approximate similarity search, this design introduces fundamental non-determinism: identical models, inputs, and code can produce different memory states and retrieval results across hardware architectures (e.g., x86 vs. ARM). This prevents replayability and safe deployment, leading to silent data divergence that prevents post-hoc verification and compromises audit trails in regul",
+  "category": "cs.LG",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2512.22280v1",
+  "cluster": 18,
+  "issue": 172,
+  "downloaded_at": "2026-01-11T10:27:41.330687"
+}

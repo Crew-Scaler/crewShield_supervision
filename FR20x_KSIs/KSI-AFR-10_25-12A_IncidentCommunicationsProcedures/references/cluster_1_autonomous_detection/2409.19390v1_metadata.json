@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2409.19390v1",
+  "title": "Efficient Federated Intrusion Detection in 5G ecosystem using optimized BERT-based model",
+  "authors": [
+    "Frederic Adjewa",
+    "Moez Esseghir",
+    "Leila Merghem-Boulahia"
+  ],
+  "published": "2024-09-28T15:56:28Z",
+  "url": "http://arxiv.org/abs/2409.19390v1",
+  "pdf_url": "http://arxiv.org/pdf/2409.19390v1.pdf",
+  "relevance_score": 95,
+  "summary": "The fifth-generation (5G) offers advanced services, supporting applications such as intelligent transportation, connected healthcare, and smart cities within the Internet of Things (IoT). However, these advancements introduce significant security challenges, with increasingly sophisticated cyber-attacks. This paper proposes a robust intrusion detection system (IDS) using federated learning and large language models (LLMs). The core of our IDS is based on BERT, a transformer model adapted to identify malicious network flows. We modified this transformer to optimize performance on edge devices with limited resources. Experiments were conducted in both centralized and federated learning contexts. In the centralized setup, the model achieved an inference accuracy of 97.79%. In a federated learning context, the model was trained across multiple devices using both IID (Independent and Identically Distributed) and non-IID data, based on various scenarios, ensuring data privacy and compliance with regulations. We also leveraged linear quantization to compress the model for deployment on edge devices. This reduction resulted in a slight decrease of 0.02% in accuracy for a model size reduction of 28.74%. The results underscore the viability of LLMs for deployment in IoT ecosystems, highlighting their ability to operate on devices with constrained computational and storage resources."
+}

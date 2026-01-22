@@ -1,0 +1,192 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.15653v2",
+    "arxiv_id": "2509.15653v2",
+    "title": "Future-Proofing Cloud Security Against Quantum Attacks: Risk, Transition, and Mitigation Strategies",
+    "summary": "Quantum Computing (QC) introduces a transformative threat to digital security, with the potential to compromise widely deployed classical cryptographic systems. This survey offers a comprehensive and systematic examination of quantumsafe security for Cloud Computing (CC), focusing on the vulnerabilities, transition strategies, and mitigation mechanisms required to secure cloud infrastructures in the quantum era. We evaluated the landscape of quantum threats across the entire CC stack, demonstrating how quantum algorithms can undermine classical encryption and compromise cloud security at multiple architectural layers. Using a structured risk assessment methodology based on the STRIDE model, we evaluate quantum-induced attack vectors and their impact on cloud environments. To address these challenges, we propose a layered security framework that integrates hybrid cryptographic transition strategies, cryptographic agility, and proactive risk mitigation. We analyze the preparation and implementation approaches of the major Cloud Service Providers (CSPs), including AWS, Azure and GCP, synthesizing platform-specific initiatives toward Post-Quantum Cryptography (PQC). Furthermore, we provide a detailed evaluation of standardized PQC algorithms, exploring their resilience to side-channel and active attacks within cloud-native deployments. This survey serves as a strategic reference for cloud architects, policymakers, and researchers, offering actionable insights for navigating the complex transition to quantum-resilient cloud systems. We conclude by identifying six key future research directions: standardization and interoperability, performance and scalability, implementation security, integration with emerging technologies, systemic preparedness, and crypto-agile migration frameworks.",
+    "published": "2025-09-19T06:25:12Z",
+    "updated": "2025-09-23T17:25:54Z",
+    "authors": [
+      "Yaser Baseri",
+      "Abdelhakim Hafid",
+      "Arash Habibi Lashkari"
+    ],
+    "affiliations": [],
+    "first_author": "Yaser Baseri",
+    "pdf_url": "https://arxiv.org/pdf/2509.15653v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.02816v1",
+    "arxiv_id": "2508.02816v1",
+    "title": "Thermal-Aware 3D Design for Side-Channel Information Leakage",
+    "summary": "Side-channel attacks are important security challenges as they reveal sensitive information about on-chip activities. Among such attacks, the thermal side-channel has been shown to disclose the activities of key functional blocks and even encryption keys. This paper proposes a novel approach to proactively conceal critical activities in the functional layers while minimizing the power dissipation by (i) leveraging inherent characteristics of 3D integration to protect from side-channel attacks and (ii) dynamically generating custom activity patterns to match the activity to be concealed in the functional layers. Experimental analysis shows that 3D technology combined with the proposed run-time algorithm effectively reduces the Side channel vulnerability Factor (SVF) below 0.05 and the Spatial Thermal Side-channel Factor (STSF) below 0.59.",
+    "published": "2025-07-24T15:39:46Z",
+    "updated": "2025-07-24T15:39:46Z",
+    "authors": [
+      "Dylan Stow",
+      "Russell Barnes",
+      "Eren Kurshan",
+      "Yuan Xie"
+    ],
+    "affiliations": [],
+    "first_author": "Dylan Stow",
+    "pdf_url": "https://arxiv.org/pdf/2508.02816v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.18157v1",
+    "arxiv_id": "2507.18157v1",
+    "title": "An Improved ChaCha Algorithm Based on Quantum Random Number",
+    "summary": "Due to the merits of high efficiency and strong security against timing and side-channel attacks, ChaCha has been widely applied in real-time communication and data streaming scenarios. However, with the rapid development of AI-assisted cryptanalysis and quantum computing technologies, there are serious challenges to the secure implementation of ChaCha cipher. To further strengthen the security of ChaCha cipher, we propose an improved variant based on quantum random numbers, i.e., Quantum Random Number Enhanced ChaCha (QRE-ChaCha). Specifically, the design XORs the initial constants with quantum random numbers and periodically injects quantum random numbers into selected state words during odd rounds to enhance diffusion. Compared with the original ChaCha, the present variant shows stronger resistance to differential attacks and generates a keystream with statistical randomness, thereby offering increased robustness against both classical and quantum attacks. To evaluate the security and performance of the present ChaCha, our analysis proceeds in three main parts. Firstly, we analyze its theoretical security in terms of quantum randomness and attack testing, and conduct differential cryptanalysis with an automated search method based on the Boolean satisfiability problem (SAT). Secondly, we subject the keystream generated by the cipher to randomness tests using the NIST statistical test suite and the GM/T 0005-2021 randomness testing standard. Finally, we assess its encryption and decryption performance by measuring its encryption speed on files of various sizes. According to the results, the present ChaCha is significantly improved to resist differential attacks while maintaining the high efficiency of the original ChaCha cipher, and its keystream successfully passes statistical randomness tests using the NIST and GM/T 0005-2021 standards, meeting cryptographic application requirements.",
+    "published": "2025-07-24T07:50:17Z",
+    "updated": "2025-07-24T07:50:17Z",
+    "authors": [
+      "Chao Liu",
+      "Shuai Zhao",
+      "Chenhao Jia",
+      "Gengran Hu",
+      "Tingting Cui"
+    ],
+    "affiliations": [],
+    "first_author": "Chao Liu",
+    "pdf_url": "https://arxiv.org/pdf/2507.18157v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.09418v1",
+    "arxiv_id": "2506.09418v1",
+    "title": "Securing Open RAN: A Survey of Cryptographic Challenges and Emerging Solutions for 5G",
+    "summary": "The advent of Open Radio Access Networks (O-RAN) introduces modularity and flexibility into 5G deployments but also surfaces novel security challenges across disaggregated interfaces. This literature review synthesizes recent research across thirteen academic and industry sources, examining vulnerabilities such as cipher bidding-down attacks, partial encryption exposure on control/user planes, and performance trade-offs in securing O-RAN interfaces like E2 and O1. The paper surveys key cryptographic tools -- SNOW-V, AES-256, and ZUC-256 -- evaluating their throughput, side-channel resilience, and adaptability to heterogeneous slices (eMBB, URLLC, mMTC). Emphasis is placed on emerging testbeds and AI-driven controllers that facilitate dynamic orchestration, anomaly detection, and secure configuration. We conclude by outlining future research directions, including hardware offloading, cross-layer cipher adaptation, and alignment with 3GPP TS 33.501 and O-RAN Alliance security mandates, all of which point toward the need for integrated, zero-trust architectures in 6G.",
+    "published": "2025-06-11T06:04:40Z",
+    "updated": "2025-06-11T06:04:40Z",
+    "authors": [
+      "Ryan Barker",
+      "Fatemeh Afghah"
+    ],
+    "affiliations": [],
+    "first_author": "Ryan Barker",
+    "pdf_url": "https://arxiv.org/pdf/2506.09418v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.00833v2",
+    "arxiv_id": "2512.00833v2",
+    "title": "Logic Encryption: This Time for Real",
+    "summary": "Modern circuits face various threats like reverse engineering, theft of intellectual property (IP), side-channel attacks, etc. Here, we present a novel approach for IP protection based on logic encryption (LE). Unlike established schemes for logic locking, our work obfuscates the circuit's structure and functionality by encoding and encrypting the logic itself. We devise an end-to-end method for practical LE implementation based on standard cryptographic algorithms, key-bit randomization, simple circuit design techniques, and system-level synthesis operations, all in a correct-by-construction manner. Our extensive analysis demonstrates the remarkable efficacy of our scheme, outperforming prior art against a range of oracle-less attacks covering crucial threat vectors, all with lower design overheads. We provide a full open-source release.",
+    "published": "2025-11-30T11:04:01Z",
+    "updated": "2025-12-03T13:10:23Z",
+    "authors": [
+      "Rupesh Raj Karn",
+      "Lakshmi Likhitha Mankali",
+      "Zeng Wang",
+      "Saideep Sreekumar",
+      "Prithwish Basu Roy",
+      "Ozgur Sinanoglu",
+      "Lilas Alrahis",
+      "Johann Knechtel"
+    ],
+    "affiliations": [],
+    "first_author": "Rupesh Raj Karn",
+    "pdf_url": "https://arxiv.org/pdf/2512.00833v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.11385v2",
+    "arxiv_id": "2511.11385v2",
+    "title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
+    "summary": "We extract the first formal model of WhatsApp from its implementation by combining binary-level analysis (via CryptoBap) with reverse engineering (via Ghidra) to handle this large closed-source application. Using this model, we prove forward secrecy, identify a known clone-attack against post-compromise security and discover functional gaps between WhatsApp's implementation and its specification. We further introduce a methodology to analyze cryptographic protocol implementations for their resilience to side-channel attacks. This is achieved by extending the CryptoBap framework to integrate hardware leakage contracts into the protocol model, which we then pass to the state-of-the-art protocol prover, DeepSec. This enables a detailed security analysis against both functional bugs and microarchitectural side-channel attacks. Using this methodology, we identify a privacy attack in WhatsApp that allows a side-channel attacker to learn the victim's contacts and confirm a known unlinkability attack on the BAC protocol used in electronic passports.   Key contributions include (1) the first formal model of WhatsApp, extracted from its binary, (2) a framework to integrate side-channel leakage contracts into protocol models for the first time, and (3) revealing critical vulnerabilities invisible to specification-based methods.",
+    "published": "2025-11-14T15:13:49Z",
+    "updated": "2025-11-17T15:36:51Z",
+    "authors": [
+      "Faezeh Nasrabadi",
+      "Robert K\u00fcnnemann",
+      "Hamed Nemati"
+    ],
+    "affiliations": [],
+    "first_author": "Faezeh Nasrabadi",
+    "pdf_url": "https://arxiv.org/pdf/2511.11385v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.23847v2",
+    "arxiv_id": "2510.23847v2",
+    "title": "EthVault: A Secure and Resource-Conscious FPGA-Based Ethereum Cold Wallet",
+    "summary": "Cryptocurrency blockchain networks safeguard digital assets using cryptographic keys, with wallets playing a critical role in generating, storing, and managing these keys. Wallets, typically categorized as hot and cold, offer varying degrees of security and convenience. However, they are generally software-based applications running on microcontrollers. Consequently, they are vulnerable to malware and side-channel attacks, allowing perpetrators to extract private keys by targeting critical algorithms, such as ECC, which processes private keys to generate public keys and authorize transactions. To address these issues, this work presents EthVault, the first hardware architecture for an Ethereum hierarchically deterministic cold wallet, featuring hardware implementations of key algorithms for secure key generation. Also, an ECC architecture resilient to side-channel and timing attacks is proposed. Moreover, an architecture of the child key derivation function, a fundamental component of cryptocurrency wallets, is proposed. The design minimizes resource usage, meeting market demand for small, portable cryptocurrency wallets. FPGA implementation results validate the feasibility of the proposed approach. The ECC architecture exhibits uniform execution behavior across varying inputs, while the complete design utilizes only 27%, 7%, and 6% of LUTs, registers, and RAM blocks, respectively, on a Xilinx Zynq UltraScale+ FPGA",
+    "published": "2025-10-27T20:35:21Z",
+    "updated": "2025-12-10T16:02:17Z",
+    "authors": [
+      "Joel Poncha Lemayian",
+      "Ghyslain Gagnon",
+      "Kaiwen Zhang",
+      "Pascal Giard"
+    ],
+    "affiliations": [],
+    "first_author": "Joel Poncha Lemayian",
+    "pdf_url": "https://arxiv.org/pdf/2510.23847v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.15413v1",
+    "arxiv_id": "2510.15413v1",
+    "title": "FHE-SQL: Fully Homomorphic Encrypted SQL Database",
+    "summary": "FHE-SQL is a privacy-preserving database system that enables secure query processing on encrypted data using Fully Homomorphic Encryption (FHE), providing privacy guaranties where an untrusted server can execute encrypted queries without learning either the query contents or the underlying data. Unlike property-preserving encryption-based systems such as CryptDB, which rely on deterministic or order-preserving encryption and are vulnerable to frequency, order, and equality-pattern inference attacks, FHE-SQL performs computations entirely under encryption, eliminating these leakage channels. Compared to trusted-hardware approaches such as TrustedDB, which depend on a hardware security module and thus inherit its trust and side-channel limitations, our design achieves end-to-end cryptographic protection without requiring trusted execution environments. In contrast to high-performance FHE-based engines-Hermes, which target specialized workloads such as vector search, FHE-SQL supports general SQL query semantics with schema-aware, type-safe definitions suitable for relational data management. FHE-SQL mitigates the high cost of ciphertext space by using an indirection architecture that separates metadata in RocksDB from large ciphertexts in blob storage. It supports oblivious selection via homomorphic boolean masks, multi-tier caching, and garbage collection, with security proven under the Universal Composability framework.",
+    "published": "2025-10-17T08:07:27Z",
+    "updated": "2025-10-17T08:07:27Z",
+    "authors": [
+      "Po-Yu Tseng",
+      "Po-Chu Hsu",
+      "Shih-Wei Liao"
+    ],
+    "affiliations": [],
+    "first_author": "Po-Yu Tseng",
+    "pdf_url": "https://arxiv.org/pdf/2510.15413v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.14708v1",
+    "arxiv_id": "2510.14708v1",
+    "title": "SLIE: A Secure and Lightweight Cryptosystem for Data Sharing in IoT Healthcare Services",
+    "summary": "The Internet of Medical Things (IoMT) has revolutionized healthcare by transforming medical operations into standardized, interoperable services. However, this service-oriented model introduces significant security vulnerabilities in device management and communication, which are especially critical given the sensitivity of medical data. To address these risks, this paper proposes SLIE (Secure and Lightweight Identity Encryption), a novel cryptosystem based on Wildcard Key Derivation Identity-Based Encryption (WKD-IBE). SLIE ensures scalable trust and secure omnidirectional communication through end-to-end encryption, hierarchical access control, and a lightweight key management system designed for resource-constrained devices. It incorporates constant-time operations, memory obfuscation, and expiry-based key revocation to counter side-channel, man-in-the-middle, and unauthorized access attacks, thereby ensuring compliance with standards like HIPAA and GDPR. Evaluations show that SLIE significantly outperforms RSA, with encryption and decryption times of 0.936ms and 0.217ms for 1KB of data, an 84.54% improvement in encryption speed, a 99.70% improvement in decryption speed, and an energy efficiency of 0.014 J/KB.",
+    "published": "2025-10-16T14:10:48Z",
+    "updated": "2025-10-16T14:10:48Z",
+    "authors": [
+      "Ha Xuan Son",
+      "Nguyen Quoc Anh",
+      "Phat T. Tran-Truong",
+      "Le Thanh Tuan",
+      "Pham Thanh Nghiem"
+    ],
+    "affiliations": [],
+    "first_author": "Ha Xuan Son",
+    "pdf_url": "https://arxiv.org/pdf/2510.14708v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.13111v1",
+    "arxiv_id": "2510.13111v1",
+    "title": "ShuffleV: A Microarchitectural Defense Strategy against Electromagnetic Side-Channel Attacks in Microprocessors",
+    "summary": "The run-time electromagnetic (EM) emanation of microprocessors presents a side-channel that leaks the confidentiality of the applications running on them. Many recent works have demonstrated successful attacks leveraging such side-channels to extract the confidentiality of diverse applications, such as the key of cryptographic algorithms and the hyperparameter of neural network models. This paper proposes ShuffleV, a microarchitecture defense strategy against EM Side-Channel Attacks (SCAs). ShuffleV adopts the moving target defense (MTD) philosophy, by integrating hardware units to randomly shuffle the execution order of program instructions and optionally insert dummy instructions, to nullify the statistical observation by attackers across repetitive runs. We build ShuffleV on the open-source RISC-V core and provide six design options, to suit different application scenarios. To enable rapid evaluation, we develop a ShuffleV simulator that can help users to (1) simulate the performance overhead for each design option and (2) generate an execution trace to validate the randomness of execution on their workload. We implement ShuffleV on a Xilinx PYNQ-Z2 FPGA and validate its performance with two representative victim applications against EM SCAs, AES encryption, and neural network inference. The experimental results demonstrate that ShuffleV can provide automatic protection for these applications, without any user intervention or software modification.",
+    "published": "2025-10-15T03:09:42Z",
+    "updated": "2025-10-15T03:09:42Z",
+    "authors": [
+      "Nuntipat Narkthong",
+      "Yukui Luo",
+      "Xiaolin Xu"
+    ],
+    "affiliations": [],
+    "first_author": "Nuntipat Narkthong",
+    "pdf_url": "https://arxiv.org/pdf/2510.13111v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  }
+]

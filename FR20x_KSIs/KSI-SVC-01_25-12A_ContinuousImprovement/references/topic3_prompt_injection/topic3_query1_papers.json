@@ -1,0 +1,183 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.14860v1",
+    "arxiv_id": "2512.14860v1",
+    "title": "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks",
+    "summary": "Agentic AI introduces security vulnerabilities that traditional LLM safeguards fail to address. Although recent work by Unit 42 at Palo Alto Networks demonstrated that ChatGPT-4o successfully executes attacks as an agent that it refuses in chat mode, there is no comparative analysis in multiple models and frameworks. We conducted the first systematic penetration testing and comparative evaluation of agentic AI systems, testing five prominent models (Claude 3.5 Sonnet, Gemini 2.5 Flash, GPT-4o, Grok 2, and Nova Pro) across two agentic AI frameworks (AutoGen and CrewAI) using a seven-agent architecture that mimics the functionality of a university information management system and 13 distinct attack scenarios that span prompt injection, Server Side Request Forgery (SSRF), SQL injection, and tool misuse. Our 130 total test cases reveal significant security disparities: AutoGen demonstrates a 52.3% refusal rate versus CrewAI's 30.8%, while model performance ranges from Nova Pro's 46.2% to Claude and Grok 2's 38.5%. Most critically, Grok 2 on CrewAI rejected only 2 of 13 attacks (15.4% refusal rate), and the overall refusal rate of 41.5% across all configurations indicates that more than half of malicious prompts succeeded despite enterprise-grade safety mechanisms. We identify six distinct defensive behavior patterns including a novel \"hallucinated compliance\" strategy where models fabricate outputs rather than executing or refusing attacks, and provide actionable recommendations for secure agent deployment. Complete attack prompts are also included in the Appendix to enable reproducibility.",
+    "published": "2025-12-16T19:22:50Z",
+    "updated": "2025-12-16T19:22:50Z",
+    "authors": [
+      "Viet K. Nguyen",
+      "Mohammad I. Husain"
+    ],
+    "affiliations": [],
+    "first_author": "Viet K. Nguyen",
+    "pdf_url": "https://arxiv.org/pdf/2512.14860v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12921v1",
+    "arxiv_id": "2512.12921v1",
+    "title": "Cisco Integrated AI Security and Safety Framework Report",
+    "summary": "Artificial intelligence (AI) systems are being readily and rapidly adopted, increasingly permeating critical domains: from consumer platforms and enterprise software to networked systems with embedded agents. While this has unlocked potential for human productivity gains, the attack surface has expanded accordingly: threats now span content safety failures (e.g., harmful or deceptive outputs), model and data integrity compromise (e.g., poisoning, supply-chain tampering), runtime manipulations (e.g., prompt injection, tool and agent misuse), and ecosystem risks (e.g., orchestration abuse, multi-agent collusion). Existing frameworks such as MITRE ATLAS, National Institute of Standards and Technology (NIST) AI 100-2 Adversarial Machine Learning (AML) taxonomy, and OWASP Top 10s for Large Language Models (LLMs) and Agentic AI Applications provide valuable viewpoints, but each covers only slices of this multi-dimensional space.   This paper presents Cisco's Integrated AI Security and Safety Framework (\"AI Security Framework\"), a unified, lifecycle-aware taxonomy and operationalization framework that can be used to classify, integrate, and operationalize the full range of AI risks. It integrates AI security and AI safety across modalities, agents, pipelines, and the broader ecosystem. The AI Security Framework is designed to be practical for threat identification, red-teaming, risk prioritization, and it is comprehensive in scope and can be extensible to emerging deployments in multimodal contexts, humanoids, wearables, and sensory infrastructures. We analyze gaps in prevailing frameworks, discuss design principles for our framework, and demonstrate how the taxonomy provides structure for understanding how modern AI systems fail, how adversaries exploit these failures, and how organizations can build defenses across the AI lifecycle that evolve alongside capability advancements.",
+    "published": "2025-12-15T02:12:12Z",
+    "updated": "2025-12-15T02:12:12Z",
+    "authors": [
+      "Amy Chang",
+      "Tiffany Saade",
+      "Sanket Mendapara",
+      "Adam Swanda",
+      "Ankit Garg"
+    ],
+    "affiliations": [],
+    "first_author": "Amy Chang",
+    "pdf_url": "https://arxiv.org/pdf/2512.12921v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.00447v2",
+    "arxiv_id": "2511.00447v2",
+    "title": "DRIP: Defending Prompt Injection via Token-wise Representation Editing and Residual Instruction Fusion",
+    "summary": "Large language models (LLMs) are increasingly integrated into IT infrastructures, where they process user data according to predefined instructions. However, conventional LLMs remain vulnerable to prompt injection, where malicious users inject directive tokens into the data to subvert model behavior. Existing defenses train LLMs to semantically separate data and instruction tokens, but still struggle to (1) balance utility and security and (2) prevent instruction-like semantics in the data from overriding the intended instructions.   We propose DRIP, which (1) precisely removes instruction semantics from tokens in the data section while preserving their data semantics, and (2) robustly preserves the effect of the intended instruction even under strong adversarial content. To \"de-instructionalize\" data tokens, DRIP introduces a data curation and training paradigm with a lightweight representation-editing module that edits embeddings of instruction-like tokens in the data section, enhancing security without harming utility. To ensure non-overwritability of instructions, DRIP adds a minimal residual module that reduces the ability of adversarial data to overwrite the original instruction. We evaluate DRIP on LLaMA 8B and Mistral 7B against StruQ, SecAlign, ISE, and PFT on three prompt-injection benchmarks (SEP, AlpacaFarm, and InjecAgent). DRIP improves role-separation score by 12-49\\%, reduces attack success rate by over 66\\% under adaptive attacks, and matches the utility of the undefended model, establishing a new state of the art for prompt-injection robustness.",
+    "published": "2025-11-01T08:26:37Z",
+    "updated": "2025-11-18T02:40:00Z",
+    "authors": [
+      "Ruofan Liu",
+      "Yun Lin",
+      "Zhiyong Huang",
+      "Jin Song Dong"
+    ],
+    "affiliations": [],
+    "first_author": "Ruofan Liu",
+    "pdf_url": "https://arxiv.org/pdf/2511.00447v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.17155v1",
+    "arxiv_id": "2508.17155v1",
+    "title": "Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents",
+    "summary": "Large Language Model (LLM)-enabled agents are rapidly emerging across a wide range of applications, but their deployment introduces vulnerabilities with security implications. While prior work has examined prompt-based attacks (e.g., prompt injection) and data-oriented threats (e.g., data exfiltration), time-of-check to time-of-use (TOCTOU) remain largely unexplored in this context. TOCTOU arises when an agent validates external state (e.g., a file or API response) that is later modified before use, enabling practical attacks such as malicious configuration swaps or payload injection. In this work, we present the first study of TOCTOU vulnerabilities in LLM-enabled agents. We introduce TOCTOU-Bench, a benchmark with 66 realistic user tasks designed to evaluate this class of vulnerabilities. As countermeasures, we adapt detection and mitigation techniques from systems security to this setting and propose prompt rewriting, state integrity monitoring, and tool-fusing. Our study highlights challenges unique to agentic workflows, where we achieve up to 25% detection accuracy using automated detection methods, a 3% decrease in vulnerable plan generation, and a 95% reduction in the attack window. When combining all three approaches, we reduce the TOCTOU vulnerabilities from an executed trajectory from 12% to 8%. Our findings open a new research direction at the intersection of AI safety and systems security.",
+    "published": "2025-08-23T22:41:49Z",
+    "updated": "2025-08-23T22:41:49Z",
+    "authors": [
+      "Derek Lilienthal",
+      "Sanghyun Hong"
+    ],
+    "affiliations": [],
+    "first_author": "Derek Lilienthal",
+    "pdf_url": "https://arxiv.org/pdf/2508.17155v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.12188v2",
+    "arxiv_id": "2503.12188v2",
+    "title": "Multi-Agent Systems Execute Arbitrary Malicious Code",
+    "summary": "Multi-agent systems coordinate LLM-based agents to perform tasks on users' behalf. In real-world applications, multi-agent systems will inevitably interact with untrusted inputs, such as malicious Web content, files, email attachments, and more.   Using several recently proposed multi-agent frameworks as concrete examples, we demonstrate that adversarial content can hijack control and communication within the system to invoke unsafe agents and functionalities. This results in a complete security breach, up to execution of arbitrary malicious code on the user's device or exfiltration of sensitive data from the user's containerized environment. For example, when agents are instantiated with GPT-4o, Web-based attacks successfully cause the multi-agent system execute arbitrary malicious code in 58-90\\% of trials (depending on the orchestrator). In some model-orchestrator configurations, the attack success rate is 100\\%. We also demonstrate that these attacks succeed even if individual agents are not susceptible to direct or indirect prompt injection, and even if they refuse to perform harmful actions. We hope that these results will motivate development of trust and security models for multi-agent systems before they are widely deployed.",
+    "published": "2025-03-15T16:16:08Z",
+    "updated": "2025-09-12T19:53:17Z",
+    "authors": [
+      "Harold Triedman",
+      "Rishi Jha",
+      "Vitaly Shmatikov"
+    ],
+    "affiliations": [],
+    "first_author": "Harold Triedman",
+    "pdf_url": "https://arxiv.org/pdf/2503.12188v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19011v1",
+    "arxiv_id": "2512.19011v1",
+    "title": "Efficient Jailbreak Mitigation Using Semantic Linear Classification in a Multi-Staged Pipeline",
+    "summary": "Prompt injection and jailbreaking attacks pose persistent security challenges to large language model (LLM)-based systems. We present an efficient and systematically evaluated defense architecture that mitigates these threats through a lightweight, multi-stage pipeline. Its core component is a semantic filter based on text normalization, TF-IDF representations, and a Linear SVM classifier. Despite its simplicity, this module achieves 93.4% accuracy and 96.5% specificity on held-out data, substantially reducing attack throughput while incurring negligible computational overhead.   Building on this efficient foundation, the full pipeline integrates complementary detection and mitigation mechanisms that operate at successive stages, providing strong robustness with minimal latency. In comparative experiments, our SVM-based configuration improves overall accuracy from 35.1% to 93.4% while reducing average time to completion from approximately 450s to 47s, yielding over 10 times lower latency than ShieldGemma. These results demonstrate that the proposed design simultaneously advances defensive precision and efficiency, addressing a core limitation of current model-based moderators.   Evaluation across a curated corpus of over 30,000 labeled prompts, including benign, jailbreak, and application-layer injections, confirms that staged, resource-efficient defenses can robustly secure modern LLM-driven applications.",
+    "published": "2025-12-22T04:00:35Z",
+    "updated": "2025-12-22T04:00:35Z",
+    "authors": [
+      "Akshaj Prashanth Rao",
+      "Advait Singh",
+      "Saumya Kumaar Saksena",
+      "Dhruv Kumar"
+    ],
+    "affiliations": [],
+    "first_author": "Akshaj Prashanth Rao",
+    "pdf_url": "https://arxiv.org/pdf/2512.19011v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15081v1",
+    "arxiv_id": "2512.15081v1",
+    "title": "Quantifying Return on Security Controls in LLM Systems",
+    "summary": "Although large language models (LLMs) are increasingly used in security-critical workflows, practitioners lack quantitative guidance on which safeguards are worth deploying. This paper introduces a decision-oriented framework and reproducible methodology that together quantify residual risk, convert adversarial probe outcomes into financial risk estimates and return-on-control (RoC) metrics, and enable monetary comparison of layered defenses for LLM-based systems. A retrieval-augmented generation (RAG) service is instantiated using the DeepSeek-R1 model over a corpus containing synthetic personally identifiable information (PII), and subjected to automated attacks with Garak across five vulnerability classes: PII leakage, latent context injection, prompt injection, adversarial attack generation, and divergence. For each (vulnerability, control) pair, attack success probabilities are estimated via Laplace's Rule of Succession and combined with loss triangle distributions, calibrated from public breach-cost data, in 10,000-run Monte Carlo simulations to produce loss exceedance curves and expected losses. Three widely used mitigations, attribute-based access control (ABAC); named entity recognition (NER) redaction using Microsoft Presidio; and NeMo Guardrails, are then compared to a baseline RAG configuration. The baseline system exhibits very high attack success rates (>= 0.98 for PII, latent injection, and prompt injection), yielding a total simulated expected loss of $313k per attack scenario. ABAC collapses success probabilities for PII and prompt-related attacks to near zero and reduces the total expected loss by ~94%, achieving an RoC of 9.83. NER redaction likewise eliminates PII leakage and attains an RoC of 5.97, while NeMo Guardrails provides only marginal benefit (RoC of 0.05).",
+    "published": "2025-12-17T04:58:09Z",
+    "updated": "2025-12-17T04:58:09Z",
+    "authors": [
+      "Richard Helder Moulton",
+      "Austin O'Brien",
+      "John D. Hastings"
+    ],
+    "affiliations": [],
+    "first_author": "Richard Helder Moulton",
+    "pdf_url": "https://arxiv.org/pdf/2512.15081v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12583v1",
+    "arxiv_id": "2512.12583v1",
+    "title": "Detecting Prompt Injection Attacks Against Application Using Classifiers",
+    "summary": "Prompt injection attacks can compromise the security and stability of critical systems, from infrastructure to large web applications. This work curates and augments a prompt injection dataset based on the HackAPrompt Playground Submissions corpus and trains several classifiers, including LSTM, feed forward neural networks, Random Forest, and Naive Bayes, to detect malicious prompts in LLM integrated web applications. The proposed approach improves prompt injection detection and mitigation, helping protect targeted applications and systems.",
+    "published": "2025-12-14T07:35:32Z",
+    "updated": "2025-12-14T07:35:32Z",
+    "authors": [
+      "Safwan Shaheer",
+      "G. M. Refatul Islam",
+      "Mohammad Rafid Hamid",
+      "Md. Abrar Faiaz Khan",
+      "Md. Omar Faruk",
+      "Yaseen Nur"
+    ],
+    "affiliations": [],
+    "first_author": "Safwan Shaheer",
+    "pdf_url": "https://arxiv.org/pdf/2512.12583v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.19727v1",
+    "arxiv_id": "2511.19727v1",
+    "title": "Prompt Fencing: A Cryptographic Approach to Establishing Security Boundaries in Large Language Model Prompts",
+    "summary": "Large Language Models (LLMs) remain vulnerable to prompt injection attacks, representing the most significant security threat in production deployments. We present Prompt Fencing, a novel architectural approach that applies cryptographic authentication and data architecture principles to establish explicit security boundaries within LLM prompts. Our approach decorates prompt segments with cryptographically signed metadata including trust ratings and content types, enabling LLMs to distinguish between trusted instructions and untrusted content. While current LLMs lack native fence awareness, we demonstrate that simulated awareness through prompt instructions achieved complete prevention of injection attacks in our experiments, reducing success rates from 86.7% (260/300 successful attacks) to 0% (0/300 successful attacks) across 300 test cases with two leading LLM providers. We implement a proof-of-concept fence generation and verification pipeline with a total overhead of 0.224 seconds (0.130s for fence generation, 0.094s for validation) across 100 samples. Our approach is platform-agnostic and can be incrementally deployed as a security layer above existing LLM infrastructure, with the expectation that future models will be trained with native fence awareness for optimal security.",
+    "published": "2025-11-24T21:44:33Z",
+    "updated": "2025-11-24T21:44:33Z",
+    "authors": [
+      "Steven Peh"
+    ],
+    "affiliations": [],
+    "first_author": "Steven Peh",
+    "pdf_url": "https://arxiv.org/pdf/2511.19727v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.13597v1",
+    "arxiv_id": "2509.13597v1",
+    "title": "Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents",
+    "summary": "Autonomous LLM agents can issue thousands of API calls per hour without human oversight. OAuth 2.0 assumes deterministic clients, but in agentic settings stochastic reasoning, prompt injection, or multi-agent orchestration can silently expand privileges.   We introduce Agentic JWT (A-JWT), a dual-faceted intent token that binds each agent's action to verifiable user intent and, optionally, to a specific workflow step. A-JWT carries an agent's identity as a one-way checksum hash derived from its prompt, tools and configuration, and a chained delegation assertion to prove which downstream agent may execute a given task, and per-agent proof-of-possession keys to prevent replay and in-process impersonation. We define a new authorization mechanism and add a lightweight client shim library that self-verifies code at run time, mints intent tokens, tracks workflow steps and derives keys, thus enabling secure agent identity and separation even within a single process.   We illustrate a comprehensive threat model for agentic applications, implement a Python proof-of-concept and show functional blocking of scope-violating requests, replay, impersonation, and prompt-injection pathways with sub-millisecond overhead on commodity hardware. The design aligns with ongoing OAuth agent discussions and offers a drop-in path toward zero-trust guarantees for agentic applications. A comprehensive performance and security evaluation with experimental results will appear in our forthcoming journal publication",
+    "published": "2025-09-16T23:43:24Z",
+    "updated": "2025-09-16T23:43:24Z",
+    "authors": [
+      "Abhishek Goswami"
+    ],
+    "affiliations": [],
+    "first_author": "Abhishek Goswami",
+    "pdf_url": "https://arxiv.org/pdf/2509.13597v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  }
+]

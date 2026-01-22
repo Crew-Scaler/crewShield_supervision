@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.11203v1",
+  "title": "TraceAegis: Securing LLM-Based Agents via Hierarchical and Behavioral Anomaly Detection",
+  "authors": [
+    "Jiahao Liu",
+    "Bonan Ruan",
+    "Xianglin Yang",
+    "Zhiwei Lin",
+    "Yan Liu",
+    "Yang Wang",
+    "Tao Wei",
+    "Zhenkai Liang"
+  ],
+  "published": "2025-10-13T09:35:06Z",
+  "url": "http://arxiv.org/abs/2510.11203v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.11203v1.pdf",
+  "relevance_score": 95,
+  "summary": "LLM-based agents have demonstrated promising adaptability in real-world applications. However, these agents remain vulnerable to a wide range of attacks, such as tool poisoning and malicious instructions, that compromise their execution flow and can lead to serious consequences like data breaches and financial loss. Existing studies typically attempt to mitigate such anomalies by predefining specific rules and enforcing them at runtime to enhance safety. Yet, designing comprehensive rules is difficult, requiring extensive manual effort and still leaving gaps that result in false negatives. As agent systems evolve into complex software systems, we take inspiration from software system security and propose TraceAegis, a provenance-based analysis framework that leverages agent execution traces to detect potential anomalies. In particular, TraceAegis constructs a hierarchical structure to abstract stable execution units that characterize normal agent behaviors. These units are then summarized into constrained behavioral rules that specify the conditions necessary to complete a task. By validating execution traces against both hierarchical and behavioral constraints, TraceAegis is able to effectively detect abnormal behaviors. To evaluate the effectiveness of TraceAegis, we introduce TraceAegis-Bench, a dataset covering two representative scenarios: healthcare and corporate procurement. Each scenario includes 1,300 benign behaviors and 300 abnormal behaviors, where the anomalies either violate the agent's execution order or break the semantic consistency of its execution sequence. Experimental results demonstrate that TraceAegis achieves strong performance on TraceAegis-Bench, successfully identifying the majority of abnormal behaviors."
+}

@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2512.07866v1",
+  "title": "Command & Control (C2) Traffic Detection Via Algorithm Generated Domain (Dga) Classification Using Deep Learning And Natural Language Processing",
+  "authors": [
+    "Maria Milena Araujo Felix"
+  ],
+  "published": "2025-11-26T18:59:56Z",
+  "url": "http://arxiv.org/abs/2512.07866v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.07866v1.pdf",
+  "relevance_score": 85,
+  "summary": "The sophistication of modern malware, specifically regarding communication with Command and Control (C2) servers, has rendered static blacklist-based defenses obsolete. The use of Domain Generation Algorithms (DGA) allows attackers to generate thousands of dynamic addresses daily, hindering blocking by traditional firewalls. This paper aims to propose and evaluate a method for detecting DGA domains using Deep Learning and Natural Language Processing (NLP) techniques. The methodology consisted of collecting a hybrid database containing 50,000 legitimate and 50,000 malicious domains, followed by the extraction of lexical features and the training of a Recurrent Neural Network (LSTM). Results demonstrated that while statistical entropy analysis is effective for simple DGAs, the Neural Network approach presents superiority in detecting complex patterns, reaching 97.2% accuracy and reducing the false positive rate in ambiguous lawful traffic scenarios."
+}

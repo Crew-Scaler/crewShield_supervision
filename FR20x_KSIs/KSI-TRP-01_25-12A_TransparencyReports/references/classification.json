@@ -1,0 +1,82 @@
+{
+  "issue": 179,
+  "issue_title": "KSI-TRP-01_25-12A_TransparencyReports",
+  "execution_date": "2026-01-11",
+  "total_papers_fetched": 1043,
+  "target_papers_count": 355,
+  "classification": {
+    "green": {
+      "count": 0,
+      "threshold": ">= 70",
+      "sample_ids": []
+    },
+    "yellow": {
+      "count": 355,
+      "threshold": "50-69",
+      "sample_ids": [
+        "2510.23673",
+        "2510.02325",
+        "2601.03287",
+        "2512.23132",
+        "2512.06659"
+      ]
+    },
+    "red": {
+      "count": 688,
+      "threshold": "< 50"
+    }
+  },
+  "clusters": {
+    "cluster_agent": {
+      "papers": 30,
+      "top_relevance": 67.0,
+      "avg_relevance": 63.22
+    },
+    "cluster_audit": {
+      "papers": 16,
+      "top_relevance": 65.5,
+      "avg_relevance": 59.09
+    },
+    "cluster_compliance": {
+      "papers": 7,
+      "top_relevance": 61.0,
+      "avg_relevance": 56.64
+    },
+    "cluster_disclosure": {
+      "papers": 4,
+      "top_relevance": 64.0,
+      "avg_relevance": 60.25
+    },
+    "cluster_general": {
+      "papers": 30,
+      "top_relevance": 55.0,
+      "avg_relevance": 55.0
+    },
+    "cluster_logging": {
+      "papers": 5,
+      "top_relevance": 61.0,
+      "avg_relevance": 59.8
+    },
+    "cluster_monitoring": {
+      "papers": 11,
+      "top_relevance": 61.0,
+      "avg_relevance": 57.45
+    },
+    "cluster_report": {
+      "papers": 6,
+      "top_relevance": 61.0,
+      "avg_relevance": 57.33
+    },
+    "cluster_security": {
+      "papers": 30,
+      "top_relevance": 67.0,
+      "avg_relevance": 62.9
+    },
+    "cluster_transparency": {
+      "papers": 10,
+      "top_relevance": 65.5,
+      "avg_relevance": 59.1
+    }
+  },
+  "total_clusters": 10
+}

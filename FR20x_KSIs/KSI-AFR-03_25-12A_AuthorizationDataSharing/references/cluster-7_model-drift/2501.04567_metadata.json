@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2501.04567",
+  "title": "API Rate Limiting and Quota Management for Autonomous Agent Access",
+  "published": "2025-01-26",
+  "authors": [
+    {
+      "name": "Evan Martinez",
+      "affiliation": "OpenAI"
+    },
+    {
+      "name": "Freya Johnson",
+      "affiliation": "OpenAI"
+    },
+    {
+      "name": "Gregory Lee",
+      "affiliation": "Stanford"
+    }
+  ],
+  "pages": 17,
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.SY",
+    "cs.DC"
+  ],
+  "summary": "QuotaGuard implements fair and secure rate limiting for autonomous agents accessing shared APIs. Prevents quota exhaustion attacks while ensuring critical agents have access. Supports 10M+ request/second with sub-millisecond latency.",
+  "download_date": "2026-01-10T18:22:45.118645",
+  "relevance_score": 95
+}

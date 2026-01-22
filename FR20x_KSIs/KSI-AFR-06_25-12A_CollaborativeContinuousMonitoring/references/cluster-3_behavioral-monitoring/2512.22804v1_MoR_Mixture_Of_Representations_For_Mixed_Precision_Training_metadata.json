@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.22804v1",
+  "title": "MoR: Mixture Of Representations For Mixed-Precision Training",
+  "authors": [
+    "Bor-Yiing Su",
+    "Peter Dykas",
+    "Mike Chrzanowski",
+    "Jatin Chhugani"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22804v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "Mixed-precision training is a crucial technique for scaling deep learning models, but successful mixedprecision training requires identifying and applying the right combination of training methods. This paper presents our preliminary study on Mixture-of-Representations (MoR), a novel, per-tensor and sub-tensor level quantization framework that dynamically analyzes a tensor's numerical properties to select between a variety of different representations. Based on the framework, we have proposed an..."
+}

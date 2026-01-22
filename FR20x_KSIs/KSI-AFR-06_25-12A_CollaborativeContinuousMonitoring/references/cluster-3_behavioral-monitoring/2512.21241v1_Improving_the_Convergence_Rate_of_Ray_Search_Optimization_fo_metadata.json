@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.21241v1",
+  "title": "Improving the Convergence Rate of Ray Search Optimization for Query-Efficient Hard-Label Attacks",
+  "authors": [
+    "Xinjie Xu",
+    "Shuyu Cheng",
+    "Dongwei Xu",
+    "Qi Xuan",
+    "Chen Ma"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.21241v1",
+  "relevance_score": 83.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "In hard-label black-box adversarial attacks, where only the top-1 predicted label is accessible, the prohibitive query complexity poses a major obstacle to practical deployment. In this paper, we focus on optimizing a representative class of attacks that search for the optimal ray direction yielding the minimum $\\ell_2$-norm perturbation required to move a benign image into the adversarial region. Inspired by Nesterov's Accelerated Gradient (NAG), we propose a momentum-based algorithm, ARS-OPT, ..."
+}

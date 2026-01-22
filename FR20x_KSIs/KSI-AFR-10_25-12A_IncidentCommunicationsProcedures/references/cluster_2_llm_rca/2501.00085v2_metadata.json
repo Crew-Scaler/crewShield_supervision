@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2501.00085v2",
+  "title": "Machine Learning-Based Security Policy Analysis",
+  "authors": [
+    "Krish Jain",
+    "Joann Sum",
+    "Pranav Kapoor",
+    "Amir Eaman"
+  ],
+  "published": "2024-12-30T18:24:27Z",
+  "url": "http://arxiv.org/abs/2501.00085v2",
+  "pdf_url": "http://arxiv.org/pdf/2501.00085v2.pdf",
+  "relevance_score": 95,
+  "summary": "Security-Enhanced Linux (SELinux) is a robust security mechanism that enforces mandatory access controls (MAC), but its policy language's complexity creates challenges for policy analysis and management. This research investigates the automation of SELinux policy analysis using graph-based techniques combined with machine learning approaches to detect policy anomalies. The study addresses two key questions: Can SELinux policy analysis be automated through graph analysis, and how do different anomaly detection models compare in analyzing SELinux policies? We will be comparing different machine learning models by evaluating their effectiveness in detecting policy violations and anomalies. Our approach utilizes Neo4j for graph representation of policies, with Node2vec transforming these graph structures into meaningful vector embeddings that can be processed by our machine learning models. In our results, the MLP Neural Network consistently demonstrated superior performance across different dataset sizes, achieving 95% accuracy with balanced precision and recall metrics, while both Random Forest and SVM models showed competitive but slightly lower performance in detecting policy violations. This combination of graph-based modeling and machine learning provides a more sophisticated and automated approach to understanding and analyzing complex SELinux policies compared to traditional manual analysis methods."
+}

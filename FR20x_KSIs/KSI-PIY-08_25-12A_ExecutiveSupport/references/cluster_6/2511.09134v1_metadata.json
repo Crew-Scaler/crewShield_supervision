@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2511.09134v1",
+  "title": "One Signature, Multiple Payments: Demystifying and Detecting Signature Replay Vulnerabilities in Smart Contracts",
+  "authors": [
+    "Zexu Wang",
+    "Jiachi Chen",
+    "Zewei Lin",
+    "Wenqing Chen",
+    "Kaiwen Ning",
+    "Jianxing Yu",
+    "Yuming Feng",
+    "Yu Zhang",
+    "Weizhe Zhang",
+    "Zibin Zheng"
+  ],
+  "published": "2025-11-12T09:17:13Z",
+  "summary": "Smart contracts have significantly advanced blockchain technology, and digital signatures are crucial for reliable verification of contract authority. Through signature verification, smart contracts can ensure that signers possess the required permissions, thus enhancing security and scalability. However, lacking checks on signature usage conditions can lead to repeated verifications, increasing the risk of permission abuse and threatening contract assets. We define this issue as the Signature R",
+  "cluster": "cluster_6",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.196532"
+}

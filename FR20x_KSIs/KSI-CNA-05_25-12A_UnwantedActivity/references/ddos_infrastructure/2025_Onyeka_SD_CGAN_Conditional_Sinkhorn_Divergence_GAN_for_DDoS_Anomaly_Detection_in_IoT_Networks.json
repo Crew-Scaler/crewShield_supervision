@@ -1,0 +1,23 @@
+{
+  "title": "SD-CGAN: Conditional Sinkhorn Divergence GAN for DDoS Anomaly Detection in IoT Networks",
+  "authors": [
+    "Henry Onyeka",
+    "Emmanuel Samson",
+    "Liang Hong",
+    "Tariqul Islam",
+    "Imtiaz Ahmed",
+    "Kamrul Hasan"
+  ],
+  "published": "2025-11-28T23:57:51+00:00",
+  "arxiv_id": "2512.00251v1",
+  "abstract": "The increasing complexity of IoT edge networks presents significant challenges for anomaly detection, particularly in identifying sophisticated Denial-of-Service (DoS) attacks and zero-day exploits under highly dynamic and imbalanced traffic conditions. This paper proposes SD-CGAN, a Conditional Generative Adversarial Network framework enhanced with Sinkhorn Divergence, tailored for robust anomaly detection in IoT edge environments. The framework incorporates CTGAN-based synthetic data augmentation to address class imbalance and leverages Sinkhorn Divergence as a geometry-aware loss function to improve training stability and reduce mode collapse. The model is evaluated on exploitative attack subsets from the CICDDoS2019 dataset and compared against baseline deep learning and GAN-based approaches. Results show that SD-CGAN achieves superior detection accuracy, precision, recall, and F1-score while maintaining computational efficiency suitable for deployment in edge-enabled IoT environments.",
+  "categories": [
+    "cs.LG",
+    "cs.CR"
+  ],
+  "relevance_score": 18.0,
+  "query_category": "edge_cdn_security",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2512.00251v1",
+  "downloaded": "2025-12-11T08:24:21.369555"
+}

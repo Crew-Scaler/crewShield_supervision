@@ -1,0 +1,21 @@
+Title: RepetitionCurse: Measuring and Understanding Router Imbalance in Mixture-of-Experts LLMs under DoS Stress
+
+Authors: Ruixuan Huang, Qingyue Wang, Hantao Huang, Yudong Gao, Dong Chen
+
+
+Published: 2025-12-30
+
+Query ID: C-1.5
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 13
+
+URL: https://arxiv.org/pdf/2512.23995.pdf
+
+Abstract:
+Mixture-of-Experts architectures have become the standard for scaling large language models due to their superior parameter efficiency. To accommodate the growing number of experts in practice, modern inference systems commonly adopt expert parallelism to distribute experts across devices. However, the absence of explicit load balancing constraints during inference allows adversarial inputs to trigger severe routing concentration. We demonstrate that out-of-distribution prompts can manipulate th...
+
+Relevance Justification:
+Analyzes adversarial attacks on language models

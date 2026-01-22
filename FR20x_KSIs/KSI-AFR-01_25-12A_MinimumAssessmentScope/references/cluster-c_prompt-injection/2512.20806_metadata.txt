@@ -1,0 +1,21 @@
+Title: Safety Alignment of LMs via Non-cooperative Games
+
+Authors: Anselm Paulus, Ilia Kulikov, Brandon Amos, Rémi Munos, Ivan Evtimov
+
+
+Published: 2025-12-23
+
+Query ID: C-1.4
+
+Relevance Color: Green
+Relevance Score: 0.81
+
+Pages: 39
+
+URL: https://arxiv.org/pdf/2512.20806.pdf
+
+Abstract:
+Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely on sequential adversarial training: generating adversarial prompts and fine-tuning LMs to defend against them. We introduce a different paradigm: framing safety alignment as a non-zero-sum game between an Attacker LM and a Defender LM trained jointly via online reinforcement learning. Each LM continuously adapts to the other's evolving strategies, ...
+
+Relevance Justification:
+Analyzes adversarial attacks on language models; Focuses on AI agent security

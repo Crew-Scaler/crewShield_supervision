@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.07426v1",
+  "title": "When normalization hallucinates: unseen risks in AI-powered whole slide image processing",
+  "authors": [
+    "Karel Moens",
+    "Matthew B. Blaschko",
+    "Tinne Tuytelaars",
+    "Bart Diricx",
+    "Jonas De Vylder",
+    "Mustafa Yousif"
+  ],
+  "published": "2025-12-08T11:01:07Z",
+  "summary": "Whole slide image (WSI) normalization remains a vital preprocessing step in computational pathology. Increasingly driven by deep learning, these models learn to approximate data distributions from training examples. This often results in outputs that gravitate toward the average, potentially masking diagnostically important features. More critically, they can introduce hallucinated content, artifacts that appear realistic but are not present in the original tissue, posing a serious threat to dow",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.185207"
+}

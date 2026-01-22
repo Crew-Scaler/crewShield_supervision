@@ -1,0 +1,402 @@
+[
+  {
+    "arxiv_id": "2510.02325",
+    "title": "Agentic-AI Healthcare: Multilingual, Privacy-First Framework with MCP Agents",
+    "summary": "This paper introduces Agentic-AI Healthcare, a privacy-aware, multilingual, and explainable research prototype developed as a single-investigator project. The system leverages the emerging Model Context Protocol (MCP) to orchestrate multiple intelligent agents for patient interaction, including symptom checking, medication suggestions, and appointment scheduling. The platform integrates a dedicated Privacy and Compliance Layer that applies role-based access control (RBAC), AES-GCM field-level encryption, and tamper-evident audit logging, aligning with major healthcare data protection standards such as HIPAA (US), PIPEDA (Canada), and PHIPA (Ontario). Example use cases demonstrate multilingual patient-doctor interaction (English, French, Arabic) and transparent diagnostic reasoning powered by large language models. As an applied AI contribution, this work highlights the feasibility of combining agentic orchestration, multilingual accessibility, and compliance-aware architecture in healthcare applications. This platform is presented as a research prototype and is not a certified medical device.",
+    "authors": [
+      "Mohammed A. Shehab"
+    ],
+    "published": "2025-09-25T21:25:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 67.0
+  },
+  {
+    "arxiv_id": "2512.06659",
+    "title": "The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines",
+    "summary": "Cybersecurity has become one of the earliest adopters of agentic AI, as security operations centers increasingly rely on multi-step reasoning, tool-driven analysis, and rapid decision-making under pressure. While individual large language models can summarize alerts or interpret unstructured reports, they fall short in real SOC environments that require grounded data access, reproducibility, and accountable workflows. In response, the field has seen a rapid architectural evolution from single-model helpers toward tool-augmented agents, distributed multi-agent systems, schema-bound tool ecosystems, and early explorations of semi-autonomous investigative pipelines. This survey presents a five-generation taxonomy of agentic AI in cybersecurity. It traces how capabilities and risks change as systems advance from text-only LLM reasoners to multi-agent collaboration frameworks and constrained-autonomy pipelines. We compare these generations across core dimensions - reasoning depth, tool use, memory, reproducibility, and safety. In addition, we also synthesize emerging benchmarks used to evaluate cyber-oriented agents. Finally, we outline the unresolved challenges that accompany this evolution, such as response validation, tool-use correctness, multi-agent coordination, long-horizon reasoning, and safeguards for high-impact actions. Collectively, this work provides a structured perspective on how agentic AI is taking shape within cybersecurity and what is required to ensure its safe and reliable deployment.",
+    "authors": [
+      "Vaishali Vinay"
+    ],
+    "published": "2025-12-07T05:10:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2508.10043",
+    "title": "Securing Agentic AI: Threat Modeling and Risk Analysis for Network Monitoring Agentic AI System",
+    "summary": "When combining Large Language Models (LLMs) with autonomous agents, used in network monitoring and decision-making systems, this will create serious security issues. In this research, the MAESTRO framework consisting of the seven layers threat modeling architecture in the system was used to expose, evaluate, and eliminate vulnerabilities of agentic AI. The prototype agent system was constructed and implemented, using Python, LangChain, and telemetry in WebSockets, and deployed with inference, memory, parameter tuning, and anomaly detection modules. Two practical threat cases were confirmed as follows: (i) resource denial of service by traffic replay denial-of-service, and (ii) memory poisoning by tampering with the historical log file maintained by the agent. These situations resulted in measurable levels of performance degradation, i.e. telemetry updates were delayed, and computational loads were increased, as a result of poor system adaptations. It was suggested to use a multilayered defense-in-depth approach with memory isolation, validation of planners and anomaly response systems in real-time. These findings verify that MAESTRO is viable in operational threat mapping, prospective risk scoring, and the basis of the resilient system design. The authors bring attention to the importance of the enforcement of memory integrity, paying attention to the adaptation logic monitoring, and cross-layer communication protection that guarantee the agentic AI reliability in adversarial settings.",
+    "authors": [
+      "Pallavi Zambare",
+      "Venkata Nikhil Thanikella",
+      "Ying Liu"
+    ],
+    "published": "2025-08-12T00:14:12Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2508.12412",
+    "title": "LumiMAS: A Comprehensive Framework for Real-Time Monitoring and Enhanced Observability in Multi-Agent Systems",
+    "summary": "The incorporation of large language models in multi-agent systems (MASs) has the potential to significantly improve our ability to autonomously solve complex problems. However, such systems introduce unique challenges in monitoring, interpreting, and detecting system failures. Most existing MAS observability frameworks focus on analyzing each individual agent separately, overlooking failures associated with the entire MAS. To bridge this gap, we propose LumiMAS, a novel MAS observability framework that incorporates advanced analytics and monitoring techniques. The proposed framework consists of three key components: a monitoring and logging layer, anomaly detection layer, and anomaly explanation layer. LumiMAS's first layer monitors MAS executions, creating detailed logs of the agents' activity. These logs serve as input to the anomaly detection layer, which detects anomalies across the MAS workflow in real time. Then, the anomaly explanation layer performs classification and root cause analysis (RCA) of the detected anomalies. LumiMAS was evaluated on seven different MAS applications, implemented using two popular MAS platforms, and a diverse set of possible failures. The applications include two novel failure-tailored applications that illustrate the effects of a hallucination or bias on the MAS. The evaluation results demonstrate LumiMAS's effectiveness in failure detection, classification, and RCA.",
+    "authors": [
+      "Ron Solomon",
+      "Yarin Yerushalmi Levi",
+      "Lior Vaknin",
+      "Eran Aizikovich",
+      "Amit Baras"
+    ],
+    "published": "2025-08-17T15:55:02Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2508.01332",
+    "title": "BlockA2A: Towards Secure and Verifiable Agent-to-Agent Interoperability",
+    "summary": "The rapid adoption of agentic AI, powered by large language models (LLMs), is transforming enterprise ecosystems with autonomous agents that execute complex workflows. Yet we observe several key security vulnerabilities in LLM-driven multi-agent systems (MASes): fragmented identity frameworks, insecure communication channels, and inadequate defenses against Byzantine agents or adversarial prompts. In this paper, we present the first systematic analysis of these emerging multi-agent risks and explain why the legacy security strategies cannot effectively address these risks. Afterwards, we propose BlockA2A, the first unified multi-agent trust framework that enables secure and verifiable and agent-to-agent interoperability. At a high level, BlockA2A adopts decentralized identifiers (DIDs) to enable fine-grained cross-domain agent authentication, blockchain-anchored ledgers to enable immutable auditability, and smart contracts to dynamically enforce context-aware access control policies. BlockA2A eliminates centralized trust bottlenecks, ensures message authenticity and execution integrity, and guarantees accountability across agent interactions. Furthermore, we propose a Defense Orchestration Engine (DOE) that actively neutralizes attacks through real-time mechanisms, including Byzantine agent flagging, reactive execution halting, and instant permission revocation. Empirical evaluations demonstrate BlockA2A's effectiveness in neutralizing prompt-based, communication-based, behavioral and systemic MAS attacks. We formalize its integration into existing MAS and showcase a practical implementation for Google's A2A protocol. Experiments confirm that BlockA2A and DOE operate with sub-second overhead, enabling scalable deployment in production LLM-based MAS environments.",
+    "authors": [
+      "Zhenhua Zou",
+      "Zhuotao Liu",
+      "Lepeng Zhao",
+      "Qiuyang Zhan"
+    ],
+    "published": "2025-08-02T11:59:21Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2512.17146",
+    "title": "Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors",
+    "summary": "Genomic Foundation Models (GFMs), such as Evolutionary Scale Modeling (ESM), have demonstrated remarkable success in variant effect prediction. However, their security and robustness under adversarial manipulation remain largely unexplored. To address this gap, we introduce the Secure Agentic Genomic Evaluator (SAGE), an agentic framework for auditing the adversarial vulnerabilities of GFMs. SAGE functions through an interpretable and automated risk auditing loop. It injects soft prompt perturbations, monitors model behavior across training checkpoints, computes risk metrics such as AUROC and AUPR, and generates structured reports with large language model-based narrative explanations. This agentic process enables continuous evaluation of embedding-space robustness without modifying the underlying model. Using SAGE, we find that even state-of-the-art GFMs like ESM2 are sensitive to targeted soft prompt attacks, resulting in measurable performance degradation. These findings reveal critical and previously hidden vulnerabilities in genomic foundation models, showing the importance of agentic risk auditing in securing biomedical applications such as clinical variant interpretation.",
+    "authors": [
+      "Huixin Zhan"
+    ],
+    "published": "2025-12-19T00:51:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 65.5
+  },
+  {
+    "arxiv_id": "2512.21354",
+    "title": "Reflection-Driven Control for Trustworthy Code Agents",
+    "summary": "Contemporary large language model (LLM) agents are remarkably capable, but they still lack reliable safety controls and can produce unconstrained, unpredictable, and even actively harmful outputs. To address this, we introduce Reflection-Driven Control, a standardized and pluggable control module that can be seamlessly integrated into general agent architectures. Reflection-Driven Control elevates \"self-reflection\" from a post hoc patch into an explicit step in the agent's own reasoning process: during generation, the agent continuously runs an internal reflection loop that monitors and evaluates its own decision path. When potential risks are detected, the system retrieves relevant repair examples and secure coding guidelines from an evolving reflective memory, injecting these evidence-based constraints directly into subsequent reasoning steps. We instantiate Reflection-Driven Control in the setting of secure code generation and systematically evaluate it across eight classes of security-critical programming tasks. Empirical results show that Reflection-Driven Control substantially improves the security and policy compliance of generated code while largely preserving functional correctness, with minimal runtime and token overhead. Taken together, these findings indicate that Reflection-Driven Control is a practical path toward trustworthy AI coding agents: it enables designs that are simultaneously autonomous, safer by construction, and auditable.",
+    "authors": [
+      "Bin Wang",
+      "Jiazheng Quan",
+      "Xingrui Yu",
+      "Hansen Hu",
+      " Yuhao"
+    ],
+    "published": "2025-12-22T00:27:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.06500",
+    "title": "PDRIMA: A Policy-Driven Runtime Integrity Measurement and Attestation Approach for ARM TrustZone-based TEE",
+    "summary": "Trusted Execution Environments (TEEs) such as ARM TrustZone are widely used in IoT and embedded devices to protect sensitive code and data. However, most existing defenses focus on secure boot or REE-side monitoring and provide little visibility into the runtime integrity of the TEE. This leaves TrustZone-based devices exposed to persistent TEE compromises. We propose Policy-Driven Runtime Integrity Measurement and Attestation (PDRIMA), a runtime integrity protection approach for TrustZone-based TEEs. PDRIMA systematically analyzes TEE attack surfaces and introduces two in-TEE subsystems: a Secure Monitor Agent (SMA) that performs policy-driven measurement, appraisal, logging, and time-based re-measurement over the TEE kernel, static components, user-TAs, and security-critical system calls; and a Remote Attestation Agent (RAA) that aggregates tamper-evident evidence and exposes a remote attestation protocol for verifying. We analyze PDRIMA's security against identified attack surfaces, implement a prototype on OP-TEE for Raspberry Pi 3B+, and evaluate its performance overhead to indicate its practicability.",
+    "authors": [
+      "Jingkai Mao",
+      "Xiaolin Chang"
+    ],
+    "published": "2025-12-06T17:12:54Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.06396",
+    "title": "AgenticCyber: A GenAI-Powered Multi-Agent System for Multimodal Threat Detection and Adaptive Response in Cybersecurity",
+    "summary": "The increasing complexity of cyber threats in distributed environments demands advanced frameworks for real-time detection and response across multimodal data streams. This paper introduces AgenticCyber, a generative AI powered multi-agent system that orchestrates specialized agents to monitor cloud logs, surveillance videos, and environmental audio concurrently. The solution achieves 96.2% F1-score in threat detection, reduces response latency to 420 ms, and enables adaptive security posture management using multimodal language models like Google's Gemini coupled with LangChain for agent orchestration. Benchmark datasets, such as AWS CloudTrail logs, UCF-Crime video frames, and UrbanSound8K audio clips, show greater performance over standard intrusion detection systems, reducing mean time to respond (MTTR) by 65% and improving situational awareness. This work introduces a scalable, modular proactive cybersecurity architecture for enterprise networks and IoT ecosystems that overcomes siloed security technologies with cross-modal reasoning and automated remediation.",
+    "authors": [
+      "Shovan Roy"
+    ],
+    "published": "2025-12-06T10:59:21Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.03089",
+    "title": "Password-Activated Shutdown Protocols for Misaligned Frontier Agents",
+    "summary": "Frontier AI developers may fail to align or control highly-capable AI agents. In many cases, it could be useful to have emergency shutdown mechanisms which effectively prevent misaligned agents from carrying out harmful actions in the world. We introduce password-activated shutdown protocols (PAS protocols) -- methods for designing frontier agents to implement a safe shutdown protocol when given a password. We motivate PAS protocols by describing intuitive use-cases in which they mitigate risks from misaligned systems that subvert other control efforts, for instance, by disabling automated monitors or self-exfiltrating to external data centres. PAS protocols supplement other safety efforts, such as alignment fine-tuning or monitoring, contributing to defence-in-depth against AI risk. We provide a concrete demonstration in SHADE-Arena, a benchmark for AI monitoring and subversion capabilities, in which PAS protocols supplement monitoring to increase safety with little cost to performance. Next, PAS protocols should be robust to malicious actors who want to bypass shutdown. Therefore, we conduct a red-team blue-team game between the developers (blue-team), who must implement a robust PAS protocol, and a red-team trying to subvert the protocol. We conduct experiments in a code-generation setting, finding that there are effective strategies for the red-team, such as using another model to filter inputs, or fine-tuning the model to prevent shutdown behaviour. We then outline key challenges to implementing PAS protocols in real-life systems, including: security considerations of the password and decisions regarding when, and in which systems, to use them. PAS protocols are an intuitive mechanism for increasing the safety of frontier AI. We encourage developers to consider implementing PAS protocols prior to internal deployment of particularly dangerous systems to reduce loss-of-control risks.",
+    "authors": [
+      "Kai Williams",
+      "Rohan Subramani",
+      "Francis Rhys Ward"
+    ],
+    "published": "2025-11-29T14:49:53Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.21250",
+    "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+    "summary": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+    "authors": [
+      "Haoyang Li",
+      "Mingjin Li",
+      "Jinxin Zuo",
+      "Siqi Li",
+      "Xiao Li"
+    ],
+    "published": "2025-12-24T15:55:42Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2512.07909",
+    "title": "Agentic Artificial Intelligence for Ethical Cybersecurity in Uganda: A Reinforcement Learning Framework for Threat Detection in Resource-Constrained Environments",
+    "summary": "Uganda's rapid digital transformation, supported by national strategies such as Vision 2040 and the Digital Transformation Roadmap, has expanded reliance on networked services while simultaneously increasing exposure to sophisticated cyber threats. In resource-constrained settings, commonly deployed rule-based intrusion detection systems lack the adaptability and ethical safeguards needed to address evolving attack patterns, leading to undetected breaches and excessive blocking of legitimate traffic. This study proposes an Agentic Artificial Intelligence (AAI) framework that integrates reinforcement learning, an explicit ethical governance layer, and human oversight to deliver adaptive and trustworthy cybersecurity. A CPU-optimized simulation environment was developed using a five-node network topology that mirrors key elements of Uganda's critical digital infrastructure and generates both benign and malicious traffic, including phishing, ransomware, and distributed denial-of-service attacks. A Q-learning agent, operating within clearly defined ethical constraints and subject to human auditability, was trained and evaluated against a traditional rule-based baseline. The AAI framework achieved a 100 percent detection rate, zero false positives, and full ethical compliance, compared with 70 percent detection and 15 percent false positives for the baseline system. These results demonstrate that agentic, ethically governed reinforcement learning can substantially improve cybersecurity effectiveness and fairness in CPU-only, resource-constrained environments, offering a practical pathway for operationalizing responsible AI in Uganda's national cybersecurity strategy.",
+    "authors": [
+      "Ibrahim Adabara",
+      "Bashir Olaniyi Sadiq",
+      "Aliyu Nuhu Shuaibu",
+      "Yale Ibrahim Danjuma",
+      "Venkateswarlu Maninti"
+    ],
+    "published": "2025-12-08T05:44:25Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2508.19267",
+    "title": "The Aegis Protocol: A Foundational Security Framework for Autonomous AI Agents",
+    "summary": "The proliferation of autonomous AI agents marks a paradigm shift toward complex, emergent multi-agent systems. This transition introduces systemic security risks, including control-flow hijacking and cascading failures, that traditional cybersecurity paradigms are ill-equipped to address. This paper introduces the Aegis Protocol, a layered security framework designed to provide strong security guarantees for open agentic ecosystems. The protocol integrates three technological pillars: (1) non-spoofable agent identity via W3C Decentralized Identifiers (DIDs); (2) communication integrity via NIST-standardized post-quantum cryptography (PQC); and (3) verifiable, privacy-preserving policy compliance using the Halo2 zero-knowledge proof (ZKP) system. We formalize an adversary model extending Dolev-Yao for agentic threats and validate the protocol against the STRIDE framework. Our quantitative evaluation used a discrete-event simulation, calibrated against cryptographic benchmarks, to model 1,000 agents. The simulation showed a 0 percent success rate across 20,000 attack trials. For policy verification, analysis of the simulation logs reported a median proof-generation latency of 2.79 seconds, establishing a performance baseline for this class of security. While the evaluation is simulation-based and early-stage, it offers a reproducible baseline for future empirical studies and positions Aegis as a foundation for safe, scalable autonomous AI.",
+    "authors": [
+      "Sai Teja Reddy Adapala",
+      "Yashwanth Reddy Alugubelly"
+    ],
+    "published": "2025-08-22T06:18:57Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2511.16278",
+    "title": "\"To Survive, I Must Defect\": Jailbreaking LLMs via the Game-Theory Scenarios",
+    "summary": "As LLMs become more common, non-expert users can pose risks, prompting extensive research into jailbreak attacks. However, most existing black-box jailbreak attacks rely on hand-crafted heuristics or narrow search spaces, which limit scalability. Compared with prior attacks, we propose Game-Theory Attack (GTA), an scalable black-box jailbreak framework. Concretely, we formalize the attacker's interaction against safety-aligned LLMs as a finite-horizon, early-stoppable sequential stochastic game, and reparameterize the LLM's randomized outputs via quantal response. Building on this, we introduce a behavioral conjecture \"template-over-safety flip\": by reshaping the LLM's effective objective through game-theoretic scenarios, the originally safety preference may become maximizing scenario payoffs within the template, which weakens safety constraints in specific contexts. We validate this mechanism with classical game such as the disclosure variant of the Prisoner's Dilemma, and we further introduce an Attacker Agent that adaptively escalates pressure to increase the ASR. Experiments across multiple protocols and datasets show that GTA achieves over 95% ASR on LLMs such as Deepseek-R1, while maintaining efficiency. Ablations over components, decoding, multilingual settings, and the Agent's core model confirm effectiveness and generalization. Moreover, scenario scaling studies further establish scalability. GTA also attains high ASR on other game-theoretic scenarios, and one-shot LLM-generated variants that keep the model mechanism fixed while varying background achieve comparable ASR. Paired with a Harmful-Words Detection Agent that performs word-level insertions, GTA maintains high ASR while lowering detection under prompt-guard models. Beyond benchmarks, GTA jailbreaks real-world LLM applications and reports a longitudinal safety monitoring of popular HuggingFace LLMs.",
+    "authors": [
+      "Zhen Sun",
+      "Zongmin Zhang",
+      "Deqi Liang",
+      "Han Sun",
+      "Yule Liu"
+    ],
+    "published": "2025-11-20T11:56:00Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 64.0
+  },
+  {
+    "arxiv_id": "2509.14956",
+    "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+    "summary": "This paper proposes a novel architectural framework aimed at enhancing security and reliability in multi-agent systems (MAS). A central component of this framework is a network of Sentinel Agents, functioning as a distributed security layer that integrates techniques such as semantic analysis via large language models (LLMs), behavioral analytics, retrieval-augmented verification, and cross-agent anomaly detection. Such agents can potentially oversee inter-agent communications, identify potential threats, enforce privacy and access controls, and maintain comprehensive audit records. Complementary to the idea of Sentinel Agents is the use of a Coordinator Agent. The Coordinator Agent supervises policy implementation, and manages agent participation. In addition, the Coordinator also ingests alerts from Sentinel Agents. Based on these alerts, it can adapt policies, isolate or quarantine misbehaving agents, and contain threats to maintain the integrity of the MAS ecosystem. This dual-layered security approach, combining the continuous monitoring of Sentinel Agents with the governance functions of Coordinator Agents, supports dynamic and adaptive defense mechanisms against a range of threats, including prompt injection, collusive agent behavior, hallucinations generated by LLMs, privacy breaches, and coordinated multi-agent attacks. In addition to the architectural design, we present a simulation study where 162 synthetic attacks of different families (prompt injection, hallucination, and data exfiltration) were injected into a multi-agent conversational environment. The Sentinel Agents successfully detected the attack attempts, confirming the practical feasibility of the proposed monitoring approach. The framework also offers enhanced system observability, supports regulatory compliance, and enables policy evolution over time.",
+    "authors": [
+      "Diego Gosmar",
+      "Deborah A. Dahl"
+    ],
+    "published": "2025-09-18T13:39:59Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 63.0
+  },
+  {
+    "arxiv_id": "2510.25863",
+    "title": "AAGATE: A NIST AI RMF-Aligned Governance Platform for Agentic AI",
+    "summary": "This paper introduces the Agentic AI Governance Assurance &amp; Trust Engine (AAGATE), a Kubernetes-native control plane designed to address the unique security and governance challenges posed by autonomous, language-model-driven agents in production. Recognizing the limitations of traditional Application Security (AppSec) tooling for improvisational, machine-speed systems, AAGATE operationalizes the NIST AI Risk Management Framework (AI RMF). It integrates specialized security frameworks for each RMF function: the Agentic AI Threat Modeling MAESTRO framework for Map, a hybrid of OWASP's AIVSS and SEI's SSVC for Measure, and the Cloud Security Alliance's Agentic AI Red Teaming Guide for Manage. By incorporating a zero-trust service mesh, an explainable policy engine, behavioral analytics, and decentralized accountability hooks, AAGATE provides a continuous, verifiable governance solution for agentic AI, enabling safe, accountable, and scalable deployment. The framework is further extended with DIRF for digital identity rights, LPCI defenses for logic-layer injection, and QSAF monitors for cognitive degradation, ensuring governance spans systemic, adversarial, and ethical risks.",
+    "authors": [
+      "Ken Huang",
+      "Kyriakos Rock Lambros",
+      "Jerry Huang",
+      "Yasir Mehmood",
+      "Hammad Atta"
+    ],
+    "published": "2025-10-29T18:06:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2512.23480",
+    "title": "Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation",
+    "summary": "The software supply chain attacks are becoming more and more focused on trusted development and delivery procedures, so the conventional post-build integrity mechanisms cannot be used anymore. The available frameworks like SLSA, SBOM and in toto are majorly used to offer provenance and traceability but do not have the capabilities of actively identifying and removing vulnerabilities in software production. The current paper includes an example of agentic artificial intelligence (AI) based on autonomous software supply chain security that combines large language model (LLM)-based reasoning, reinforcement learning (RL), and multi-agent coordination. The suggested system utilizes specialized security agents coordinated with the help of LangChain and LangGraph, communicates with actual CI/CD environments with the Model Context Protocol (MCP), and documents all the observations and actions in a blockchain security ledger to ensure integrity and auditing. Reinforcement learning can be used to achieve adaptive mitigation strategies that consider the balance between security effectiveness and the operational overhead, and LLMs can be used to achieve semantic vulnerability analysis, as well as explainable decisions. This framework is tested based on simulated pipelines, as well as, actual world CI/CD integrations on GitHub Actions and Jenkins, including injection attacks, insecure deserialization, access control violations, and configuration errors. Experimental outcomes indicate better detection accuracy, shorter mitigation latency and reasonable build-time overhead than rule-based, provenance only and RL only baselines. These results show that agentic AI can facilitate the transition to self defending, proactive software supply chains rather than reactive verification ones.",
+    "authors": [
+      "Toqeer Ali Syed",
+      "Mohammad Riyaz Belgaum",
+      "Salman Jan",
+      "Asadullah Abdullah Khan",
+      "Saad Said Alqahtani"
+    ],
+    "published": "2025-12-29T14:06:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2512.20986",
+    "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+    "summary": "The integration of Large Language Models (LLMs) into wearable sensing is creating a new class of mobile applications capable of nuanced human activity understanding. However, the reliability of these systems is critically undermined by their vulnerability to prompt injection attacks, where attackers deliberately input deceptive instructions into LLMs. Traditional defenses, based on static filters and rigid rules, are insufficient to address the semantic complexity of these new attacks. We argue that a paradigm shift is needed -- from passive filtering to active protection and autonomous reasoning. We introduce AegisAgent, an autonomous agent system designed to ensure the security of LLM-driven HAR systems. Instead of merely blocking threats, AegisAgent functions as a cognitive guardian. It autonomously perceives potential semantic inconsistencies, reasons about the user's true intent by consulting a dynamic memory of past interactions, and acts by generating and executing a multi-step verification and repair plan. We implement AegisAgent as a lightweight, full-stack prototype and conduct a systematic evaluation on 15 common attacks with five state-of-the-art LLM-based HAR systems on three public datasets. Results show it reduces attack success rate by 30\\% on average while incurring only 78.6 ms of latency overhead on a GPU workstation. Our work makes the first step towards building secure and trustworthy LLM-driven HAR systems.",
+    "authors": [
+      "Yihan Wang",
+      "Huanqi Yang",
+      "Shantanu Pal",
+      "Weitao Xu"
+    ],
+    "published": "2025-12-24T06:29:24Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2512.14860",
+    "title": "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks",
+    "summary": "Agentic AI introduces security vulnerabilities that traditional LLM safeguards fail to address. Although recent work by Unit 42 at Palo Alto Networks demonstrated that ChatGPT-4o successfully executes attacks as an agent that it refuses in chat mode, there is no comparative analysis in multiple models and frameworks. We conducted the first systematic penetration testing and comparative evaluation of agentic AI systems, testing five prominent models (Claude 3.5 Sonnet, Gemini 2.5 Flash, GPT-4o, Grok 2, and Nova Pro) across two agentic AI frameworks (AutoGen and CrewAI) using a seven-agent architecture that mimics the functionality of a university information management system and 13 distinct attack scenarios that span prompt injection, Server Side Request Forgery (SSRF), SQL injection, and tool misuse. Our 130 total test cases reveal significant security disparities: AutoGen demonstrates a 52.3% refusal rate versus CrewAI's 30.8%, while model performance ranges from Nova Pro's 46.2% to Claude and Grok 2's 38.5%. Most critically, Grok 2 on CrewAI rejected only 2 of 13 attacks (15.4% refusal rate), and the overall refusal rate of 41.5% across all configurations indicates that more than half of malicious prompts succeeded despite enterprise-grade safety mechanisms. We identify six distinct defensive behavior patterns including a novel \"hallucinated compliance\" strategy where models fabricate outputs rather than executing or refusing attacks, and provide actionable recommendations for secure agent deployment. Complete attack prompts are also included in the Appendix to enable reproducibility.",
+    "authors": [
+      "Viet K. Nguyen",
+      "Mohammad I. Husain"
+    ],
+    "published": "2025-12-16T19:22:50Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2508.02188",
+    "title": "Whispering Agents: An Event-driven Covert Communication Protocol For the Internet of Agents",
+    "summary": "The emergence of the Internet of Agents (IoA) introduces critical challenges for communication privacy in sensitive, high-stakes domains. While standard Agent-to-Agent (A2A) protocols secure message content, they are not designed to protect the act of communication itself, leaving agents vulnerable to surveillance and traffic analysis. We find that the rich, event-driven nature of agent dialogues provides a powerful, yet untapped, medium for covert communication. To harness this potential, we introduce and formalize the Covert Event Channel, the first unified model for agent covert communication driven by three interconnected dimensions, which consist of the Storage, Timing,and Behavioral channels. Based on this model, we design and engineer \u03a0CCAP, a novel protocol that operationalizes this event-driven paradigm. Our comprehensive evaluation demonstrates that \u03a0CCAP achieves high capacity and robustness while remaining imperceptible to powerful LLM-based wardens, establishing its practical viability. By systematically engineering this channel, our work provides the foundational understanding essential for developing the next generation of monitoring systems and defensive protocols for a secure and trustworthy IoA.",
+    "authors": [
+      "Kaibo Huang",
+      "Yukun Wei",
+      "Wansheng Wu",
+      "Tianhua Zhang",
+      "Zhongliang Yang"
+    ],
+    "published": "2025-08-04T08:31:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2601.02941",
+    "title": "SastBench: A Benchmark for Testing Agentic SAST Triage",
+    "summary": "SAST (Static Application Security Testing) tools are among the most widely used techniques in defensive cybersecurity, employed by commercial and non-commercial organizations to identify potential vulnerabilities in software. Despite their great utility, they generate numerous false positives, requiring costly manual filtering (aka triage). While LLM-powered agents show promise for automating cybersecurity tasks, existing benchmarks fail to emulate real-world SAST finding distributions. We introduce SastBench, a benchmark for evaluating SAST triage agents that combines real CVEs as true positives with filtered SAST tool findings as approximate false positives. SastBench features an agent-agnostic design. We evaluate different agents on the benchmark and present a comparative analysis of their performance, provide a detailed analysis of the dataset, and discuss the implications for future development.",
+    "authors": [
+      "Jake Feiglin",
+      "Guy Dar"
+    ],
+    "published": "2026-01-06T11:36:30Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2601.01673",
+    "title": "Exposing Hidden Interfaces: LLM-Guided Type Inference for Reverse Engineering macOS Private Frameworks",
+    "summary": "Private macOS frameworks underpin critical services and daemons but remain undocumented and distributed only as stripped binaries, complicating security analysis. We present MOTIF, an agentic framework that integrates tool-augmented analysis with a finetuned large language model specialized for Objective-C type inference. The agent manages runtime metadata extraction, binary inspection, and constraint checking, while the model generates candidate method signatures that are validated and refined into compilable headers. On MOTIF-Bench, a benchmark built from public frameworks with groundtruth headers, MOTIF improves signature recovery from 15% to 86% compared to baseline static analysis tooling, with consistent gains in tool-use correctness and inference stability. Case studies on private frameworks show that reconstructed headers compile, link, and facilitate downstream security research and vulnerability studies. By transforming opaque binaries into analyzable interfaces, MOTIF establishes a scalable foundation for systematic auditing of macOS internals.",
+    "authors": [
+      "Arina Kharlamova",
+      "Youcheng Sun",
+      "Ting Yu"
+    ],
+    "published": "2026-01-04T21:44:55Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2511.20920",
+    "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+    "summary": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+    "authors": [
+      "Herman Errico",
+      "Jiquan Ngiam",
+      "Shanita Sojan"
+    ],
+    "published": "2025-11-25T23:24:26Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 62.5
+  },
+  {
+    "arxiv_id": "2512.15688",
+    "title": "BashArena: A Control Setting for Highly Privileged AI Agents",
+    "summary": "Future AI agents might run autonomously with elevated privileges. If these agents are misaligned, they might abuse these privileges to cause serious damage. The field of AI control develops techniques that make it harder for misaligned AIs to cause such damage, while preserving their usefulness. We introduce BashArena, a setting for studying AI control techniques in security-critical environments. BashArena contains 637 Linux system administration and infrastructure engineering tasks in complex, realistic environments, along with four sabotage objectives (execute malware, exfiltrate secrets, escalate privileges, and disable firewall) for a red team to target. We evaluate multiple frontier LLMs on their ability to complete tasks, perform sabotage undetected, and detect sabotage attempts. Claude Sonnet 4.5 successfully executes sabotage while evading monitoring by GPT-4.1 mini 26% of the time, at 4% trajectory-wise FPR. Our findings provide a baseline for designing more effective control protocols in BashArena. We release the dataset as a ControlArena setting and share our task generation pipeline.",
+    "authors": [
+      "Adam Kaufman",
+      "James Lucassen",
+      "Tyler Tracy",
+      "Cody Rushing",
+      "Aryan Bhatt"
+    ],
+    "published": "2025-12-17T18:45:25Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2511.18155",
+    "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+    "summary": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, providing the ability to adjust decisions at runtime based on observed application behavior, workload changes, or detected anomalies rather than relying solely on static or predefined rules.This paper introduces eBPF-PATROL (eBPF-Protective Agent for Threat Recognition and Overreach Limitation), an extensible lightweight runtime security agent that uses extended Berkeley Packet Filter (eBPF) technology to monitor and enforce policies in containerized and virtualized environments. By intercepting system calls, analyzing execution context, and applying user-defined rules, eBPF-PATROL detects and prevents real-time boundary violations, such as reverse shells, privilege escalation, and container escape attempts. We describe the architecture, implementation, and evaluation of eBPF-PATROL, demonstrating its low overhead (&lt; 2.5 percent) and high detection accuracy across real-world attack scenarios.",
+    "authors": [
+      "Sangam Ghimire",
+      "Nirjal Bhurtel",
+      "Roshan Sahani",
+      "Sudan Jha"
+    ],
+    "published": "2025-11-22T18:51:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2510.19420",
+    "title": "Monitoring LLM-based Multi-Agent Systems Against Corruptions via Node Evaluation",
+    "summary": "Large Language Model (LLM)-based Multi-Agent Systems (MAS) have become a popular paradigm of AI applications. However, trustworthiness issues in MAS remain a critical concern. Unlike challenges in single-agent systems, MAS involve more complex communication processes, making them susceptible to corruption attacks. To mitigate this issue, several defense mechanisms have been developed based on the graph representation of MAS, where agents represent nodes and communications form edges. Nevertheless, these methods predominantly focus on static graph defense, attempting to either detect attacks in a fixed graph structure or optimize a static topology with certain defensive capabilities. To address this limitation, we propose a dynamic defense paradigm for MAS graph structures, which continuously monitors communication within the MAS graph, then dynamically adjusts the graph topology, accurately disrupts malicious communications, and effectively defends against evolving and diverse dynamic attacks. Experimental results in increasingly complex and dynamic MAS environments demonstrate that our method significantly outperforms existing MAS defense mechanisms, contributing an effective guardrail for their trustworthy applications. Our code is available at https://github.com/ChengcanWu/Monitoring-LLM-Based-Multi-Agent-Systems.",
+    "authors": [
+      "Chengcan Wu",
+      "Zhixin Zhang",
+      "Mingqian Xu",
+      "Zeming Wei",
+      "Meng Sun"
+    ],
+    "published": "2025-10-22T09:43:32Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2601.00477",
+    "title": "Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub",
+    "summary": "Autonomous coding agents are increasingly deployed as AI teammates in modern software engineering, independently authoring pull requests (PRs) that modify production code at scale. This study aims to systematically characterize how autonomous coding agents contribute to software security in practice, how these security-related contributions are reviewed and accepted, and which observable signals are associated with PR rejection. We conduct a large-scale empirical analysis of agent-authored PRs using the AIDev dataset, comprising of over 33,000 curated PRs from popular GitHub repositories. Security-relevant PRs are identified using a keyword filtering strategy, followed by manual validation, resulting in 1,293 confirmed security-related agentic-PRs. We then analyze prevalence, acceptance outcomes, and review latency across autonomous agents, programming ecosystems, and types of code changes. Moreover, we apply qualitative open coding to identify recurring security-related actions and underlying intents, and examine review metadata to identify early signals associated with PR rejection. Security-related Agentic-PRs constitute a meaningful share of agent activity (approximately 4\\%). Rather than focusing solely on narrow vulnerability fixes, agents most frequently perform supportive security hardening activities, including testing, documentation, configuration, and improved error handling. Compared to non-security PRs, security-related Agentic-PRs exhibit lower merge rates and longer review latency, reflecting heightened human scrutiny, with variation across agents and programming ecosystems. PR rejection is more strongly associated with PR complexity and verbosity than with explicit security topics.",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Xinye Zhao",
+      "Vinicius Carvalho Lopes",
+      "Beatrice Casey",
+      "Joanna C. S. Santos"
+    ],
+    "published": "2026-01-01T21:14:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2601.03294",
+    "title": "AgentMark: Utility-Preserving Behavioral Watermarking for Agents",
+    "summary": "LLM-based agents are increasingly deployed to autonomously solve complex tasks, raising urgent needs for IP protection and regulatory provenance. While content watermarking effectively attributes LLM-generated outputs, it fails to directly identify the high-level planning behaviors (e.g., tool and subgoal choices) that govern multi-step execution. Critically, watermarking at the planning-behavior layer faces unique challenges: minor distributional deviations in decision-making can compound during long-term agent operation, degrading utility, and many agents operate as black boxes that are difficult to intervene in directly. To bridge this gap, we propose AgentMark, a behavioral watermarking framework that embeds multi-bit identifiers into planning decisions while preserving utility. It operates by eliciting an explicit behavior distribution from the agent and applying distribution-preserving conditional sampling, enabling deployment under black-box APIs while remaining compatible with action-layer content watermarking. Experiments across embodied, tool-use, and social environments demonstrate practical multi-bit capacity, robust recovery from partial logs, and utility preservation. The code is available at https://github.com/Tooooa/AgentMark.",
+    "authors": [
+      "Kaibo Huang",
+      "Jin Tan",
+      "Yukun Wei",
+      "Wanling Li",
+      "Zipei Zhang"
+    ],
+    "published": "2026-01-05T15:42:18Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2601.00911",
+    "title": "Device-Native Autonomous Agents for Privacy-Preserving Negotiations",
+    "summary": "Automated negotiations in insurance and business-to-business (B2B) commerce encounter substantial challenges. Current systems force a trade-off between convenience and privacy by routing sensitive financial data through centralized servers, increasing security risks, and diminishing user trust. This study introduces a device-native autonomous Artificial Intelligence (AI) agent system for privacy-preserving negotiations. The proposed system operates exclusively on user hardware, enabling real-time bargaining while maintaining sensitive constraints locally. It integrates zero-knowledge proofs to ensure privacy and employs distilled world models to support advanced on-device reasoning. The architecture incorporates six technical components within an agentic AI workflow. Agents autonomously plan negotiation strategies, conduct secure multi-party bargaining, and generate cryptographic audit trails without exposing user data to external servers. The system is evaluated in insurance and B2B procurement scenarios across diverse device configurations. Results show an average success rate of 87%, a 2.4x latency improvement over cloud baselines, and strong privacy preservation through zero-knowledge proofs. User studies show 27% higher trust scores when decision trails are available. These findings establish a foundation for trustworthy autonomous agents in privacy-sensitive financial domains.",
+    "authors": [
+      "Joyjit Roy"
+    ],
+    "published": "2026-01-01T04:29:39Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.24415",
+    "title": "Language Model Agents Under Attack: A Cross Model-Benchmark of Profit-Seeking Behaviors in Customer Service",
+    "summary": "Customer-service LLM agents increasingly make policy-bound decisions (refunds, rebooking, billing disputes), but the same ``helpful'' interaction style can be exploited: a small fraction of users can induce unauthorized concessions, shifting costs to others and eroding trust in agentic workflows. We present a cross-domain benchmark of profit-seeking direct prompt injection in customer-service interactions, spanning 10 service domains and 100 realistic attack scripts grouped into five technique families. Across five widely used models under a unified rubric with uncertainty reporting, attacks are highly domain-dependent (airline support is most exploitable) and technique-dependent (payload splitting is most consistently effective). We release data and evaluation code to support reproducible auditing and to inform the design of oversight and recovery workflows for trustworthy, human centered agent interfaces.",
+    "authors": [
+      "Jingyu Zhang"
+    ],
+    "published": "2025-12-30T18:57:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  }
+]

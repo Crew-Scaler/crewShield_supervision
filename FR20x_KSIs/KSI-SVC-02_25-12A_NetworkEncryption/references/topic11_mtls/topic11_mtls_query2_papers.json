@@ -1,0 +1,39 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.16067v1",
+    "arxiv_id": "2510.16067v1",
+    "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+    "summary": "Static, long-lived credentials for workload authentication create untenable security risks that violate Zero-Trust principles. This paper presents a multi-cloud framework using Workload Identity Federation (WIF) and OpenID Connect (OIDC) for secretless authentication. Our approach uses cryptographically-verified, ephemeral tokens, allowing workloads to authenticate without persistent private keys and mitigating credential theft. We validate this framework in an enterprise-scale Kubernetes environment, which significantly reduces the attack surface. The model offers a unified solution to manage workload identities across disparate clouds, enabling future implementation of robust, attribute-based access control.",
+    "published": "2025-10-17T04:11:31Z",
+    "updated": "2025-10-17T04:11:31Z",
+    "authors": [
+      "Saurabh Deochake",
+      "Ryan Murphy",
+      "Jeremiah Gearheart"
+    ],
+    "affiliations": [],
+    "first_author": "Saurabh Deochake",
+    "pdf_url": "https://arxiv.org/pdf/2510.16067v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.04925v1",
+    "arxiv_id": "2511.04925v1",
+    "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "summary": "The microservice bombshells that have been linked with the microservice expansion have altered the application architectures, offered agility and scalability in terms of complexity in security trade-offs. Feeble legacy-based perimeter-based policies are unable to offer safeguard to distributed workloads and temporary interaction among and in between the services. The article itself is a case on the need of the Zero Trust Security Model of micro services ecosystem, particularly, the fact that human and workloads require identity federation. It is proposed that the solution framework will be based on industry-standard authentication and authorization and end-to-end trust identity technologies, including Authorization and OpenID connect (OIDC), Authorization and OAuth 2.0 token exchange, and Authorization and SPIFFE/ SPIRE workload identities. Experimental evaluation is a unique demonstration of a superior security position of making use of a smaller attack surface, harmony policy enforcement, as well as interoperability across multi- domain environments. The research results overlay that the federated identity combined with the Zero Trust basics not only guarantee the rules relating to authentication and authorization but also fully complies with the latest DevSecOps standards of microservice deployment, which is automated, scaled, and resilient. The current project offers a stringent roadmap to the organizations that desire to apply Zero Trust in cloud-native technologies but will as well guarantee adherence and interoperability.",
+    "published": "2025-11-07T02:03:05Z",
+    "updated": "2025-11-07T02:03:05Z",
+    "authors": [
+      "Rethish Nair Rajendran",
+      "Sathish Krishna Anumula",
+      "Dileep Kumar Rai",
+      "Sachin Agrawal"
+    ],
+    "affiliations": [],
+    "first_author": "Rethish Nair Rajendran",
+    "pdf_url": "https://arxiv.org/pdf/2511.04925v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  }
+]

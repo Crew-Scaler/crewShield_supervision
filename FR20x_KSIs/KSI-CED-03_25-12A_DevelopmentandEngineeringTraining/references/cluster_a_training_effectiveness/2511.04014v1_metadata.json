@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2511.04014v1",
+  "title": "Specification-Guided Vulnerability Detection with Large Language Models",
+  "authors": [
+    "Hao Zhu",
+    "Jia Li",
+    "Cuiyun Gao",
+    "Jiaru Qian",
+    "Yihong Dong",
+    "Huanyu Liu",
+    "Lecheng Wang",
+    "Ziliang Wang",
+    "Xiaolong Hu",
+    "Ge Li"
+  ],
+  "published": "2025-11-06T03:21:46Z",
+  "url": "http://arxiv.org/abs/2511.04014v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.04014v1.pdf",
+  "relevance_score": 80,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Large language models (LLMs) have achieved remarkable progress in code understanding tasks. However, they demonstrate limited performance in vulnerability detection and struggle to distinguish vulnerable code from patched code. We argue that LLMs lack understanding of security specifications -- the expectations about how code should behave to remain safe. When code behavior differs from these expectations, it becomes a potential vulnerability. However, such knowledge is rarely explicit in traini"
+}

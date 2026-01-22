@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.14272v1",
+  "title": "A variational Bayes latent class approach for EHR-based patient phenotyping in R",
+  "authors": [
+    "Brian Buckley",
+    "Adrian O'Hagan",
+    "Marie Galligan"
+  ],
+  "published": "2025-12-16T10:30:43Z",
+  "url": "http://arxiv.org/abs/2512.14272v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.14272v1.pdf",
+  "relevance_score": 55,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "The VBphenoR package for R provides a closed-form variational Bayes approach to patient phenotyping using Electronic Health Records (EHR) data. We implement a variational Bayes Gaussian Mixture Model (GMM) algorithm using closed-form coordinate ascent variational inference (CAVI) to determine the patient phenotype latent class. We then implement a variational Bayes logistic regression, where we determine the probability of the phenotype in the supplied EHR cohort, the shift in biomarkers for pat"
+}

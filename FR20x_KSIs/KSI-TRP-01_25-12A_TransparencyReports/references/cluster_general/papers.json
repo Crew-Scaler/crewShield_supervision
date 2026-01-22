@@ -1,0 +1,410 @@
+[
+  {
+    "arxiv_id": "2510.25939",
+    "title": "SoK: Honeypots &amp; LLMs, More Than the Sum of Their Parts?",
+    "summary": "The advent of Large Language Models (LLMs) promised to resolve the long-standing paradox in honeypot design, achieving high-fidelity deception with low operational risk. Through a flurry of research since late 2022, steady progress from ideation to prototype implementation is exhibited. Since late 2022, a flurry of research has demonstrated steady progress from ideation to prototype implementation. While promising, evaluations show only incremental progress in real-world deployments, and the field still lacks a cohesive understanding of the emerging architectural patterns, core challenges, and evaluation paradigms. To fill this gap, this Systematization of Knowledge (SoK) paper provides the first comprehensive overview and analysis of this new domain. We survey and systematize the field by focusing on three critical, intersecting research areas: first, we provide a taxonomy of honeypot detection vectors, structuring the core problems that LLM-based realism must solve; second, we synthesize the emerging literature on LLM-powered honeypots, identifying a canonical architecture and key evaluation trends; and third, we chart the evolutionary path of honeypot log analysis, from simple data reduction to automated intelligence generation. We synthesize these findings into a forward-looking research roadmap, arguing that the true potential of this technology lies in creating autonomous, self-improving deception systems to counter the emerging threat of intelligent, automated attackers.",
+    "authors": [
+      "Robert A. Bridges",
+      "Thomas R. Mitchell",
+      "Mauricio Mu\u00f1oz",
+      "Ted Henriksson"
+    ],
+    "published": "2025-10-29T20:20:51Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.01326",
+    "title": "Securing Large Language Models (LLMs) from Prompt Injection Attacks",
+    "summary": "Large Language Models (LLMs) are increasingly being deployed in real-world applications, but their flexibility exposes them to prompt injection attacks. These attacks leverage the model's instruction-following ability to make it perform malicious tasks. Recent work has proposed JATMO, a task-specific fine-tuning approach that trains non-instruction-tuned base models to perform a single function, thereby reducing susceptibility to adversarial instructions. In this study, we evaluate the robustness of JATMO against HOUYI, a genetic attack framework that systematically mutates and optimizes adversarial prompts. We adapt HOUYI by introducing custom fitness scoring, modified mutation logic, and a new harness for local model testing, enabling a more accurate assessment of defense effectiveness. We fine-tuned LLaMA 2-7B, Qwen1.5-4B, and Qwen1.5-0.5B models under the JATMO methodology and compared them with a fine-tuned GPT-3.5-Turbo baseline. Results show that while JATMO reduces attack success rates relative to instruction-tuned models, it does not fully prevent injections; adversaries exploiting multilingual cues or code-related disruptors still bypass defenses. We also observe a trade-off between generation quality and injection vulnerability, suggesting that better task performance often correlates with increased susceptibility. Our results highlight both the promise and limitations of fine-tuning-based defenses and point toward the need for layered, adversarially informed mitigation strategies.",
+    "authors": [
+      "Omar Farooq Khan Suri",
+      "John McCrae"
+    ],
+    "published": "2025-12-01T06:34:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2510.16461",
+    "title": "Heimdallr: Fingerprinting SD-WAN Control-Plane Architecture via Encrypted Control Traffic",
+    "summary": "Software-defined wide area network (SD-WAN) has emerged as a new paradigm for steering a large-scale network flexibly by adopting distributed software-defined network (SDN) controllers. The key to building a logically centralized but physically distributed control-plane is running diverse cluster management protocols to achieve consistency through an exchange of control traffic. Meanwhile, we observe that the control traffic exposes unique time-series patterns and directional relationships due to the operational structure even though the traffic is encrypted, and this pattern can disclose confidential information such as control-plane topology and protocol dependencies, which can be exploited for severe attacks. With this insight, we propose a new SD-WAN fingerprinting system, called Heimdallr. It analyzes periodical and operational patterns of SD-WAN cluster management protocols and the context of flow directions from the collected control traffic utilizing a deep learning-based approach, so that it can classify the cluster management protocols automatically from miscellaneous control traffic datasets. Our evaluation, which is performed in a realistic SD-WAN environment consisting of geographically distant three campus networks and one enterprise network shows that Heimdallr can classify SD-WAN control traffic with $\\geq$ 93%, identify individual protocols with $\\geq$ 80% macro F-1 scores, and finally can infer control-plane topology with $\\geq$ 70% similarity.",
+    "authors": [
+      "Minjae Seo",
+      "Jaehan Kim",
+      "Eduard Marin",
+      "Myoungsung You",
+      "Taejune Park"
+    ],
+    "published": "2025-10-18T12:01:51Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2510.05376",
+    "title": "Constraint-Level Design of zkEVMs: Architectures, Trade-offs, and Evolution",
+    "summary": "Zero-knowledge Ethereum Virtual Machines (zkEVMs) must reconcile a fundamental contradiction: the Ethereum Virtual Machine was designed for transparent sequential execution, while zero-knowledge proofs require algebraic circuit representations. This survey provides the first systematic analysis of how existing major production zkEVM implementations resolve this tension through distinct constraint engineering strategies. We develop a comparative framework that maps the design space across three architectural dimensions. First, arithmetization schemes reveal stark trade-offs: R1CS requires compositional gadget libraries, PLONKish achieves elegance through custom gates that capture complex EVM opcodes in single constraints, while the homogeneous structure of AIR fundamentally mismatches the irregular instruction set of EVM. Second, dispatch mechanisms determine constraint activation patterns: selector-based systems waste trace width on inactive constraints, while ROM-based approaches trade memory lookups for execution flexibility. Third, the Type 1-4 spectrum quantifies an inescapable trade-off: the bit-level EVM compatibility of Type 1 demands significantly higher constraint complexity than the custom instruction sets of Type 4. Beyond cataloging implementations, we identify critical open problems across multiple domains: performance barriers preventing sub-second proving, absence of formal verification for constraint-to-EVM semantic equivalence, lack of standardized benchmarking frameworks, and architectural gaps in hybrid zkEVM/zkVM designs, decentralized prover coordination, privacy preservation, and interoperability.",
+    "authors": [
+      "Yahya Hassanzadeh-Nazarabadi",
+      "Sanaz Taheri-Boshrooyeh"
+    ],
+    "published": "2025-10-06T21:10:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00936",
+    "title": "Emoji-Based Jailbreaking of Large Language Models",
+    "summary": "Large Language Models (LLMs) are integral to modern AI applications, but their safety alignment mechanisms can be bypassed through adversarial prompt engineering. This study investigates emoji-based jailbreaking, where emoji sequences are embedded in textual prompts to trigger harmful and unethical outputs from LLMs. We evaluated 50 emoji-based prompts on four open-source LLMs: Mistral 7B, Qwen 2 7B, Gemma 2 9B, and Llama 3 8B. Metrics included jailbreak success rate, safety alignment adherence, and latency, with responses categorized as successful, partial and failed. Results revealed model-specific vulnerabilities: Gemma 2 9B and Mistral 7B exhibited 10 % success rates, while Qwen 2 7B achieved full alignment (0% success). A chi-square test (chi^2 = 32.94, p &lt; 0.001) confirmed significant inter-model differences. While prior works focused on emoji attacks targeting safety judges or classifiers, our empirical analysis examines direct prompt-level vulnerabilities in LLMs. The results reveal limitations in safety mechanisms and highlight the necessity for systematic handling of emoji-based representations in prompt-level safety and alignment pipelines.",
+    "authors": [
+      "M P V S Gopinadh",
+      "S Mahaboob Hussain"
+    ],
+    "published": "2026-01-02T10:49:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.23171",
+    "title": "Certifying the Right to Be Forgotten: Primal-Dual Optimization for Sample and Label Unlearning in Vertical Federated Learning",
+    "summary": "Federated unlearning has become an attractive approach to address privacy concerns in collaborative machine learning, for situations when sensitive data is remembered by AI models during the machine learning process. It enables the removal of specific data influences from trained models, aligning with the growing emphasis on the \"right to be forgotten.\" While extensively studied in horizontal federated learning, unlearning in vertical federated learning (VFL) remains challenging due to the distributed feature architecture. VFL unlearning includes sample unlearning that removes specific data points' influence and label unlearning that removes entire classes. Since different parties hold complementary features of the same samples, unlearning tasks require cross-party coordination, creating computational overhead and complexities from feature interdependencies. To address such challenges, we propose FedORA (Federated Optimization for data Removal via primal-dual Algorithm), designed for sample and label unlearning in VFL. FedORA formulates the removal of certain samples or labels as a constrained optimization problem solved using a primal-dual framework. Our approach introduces a new unlearning loss function that promotes classification uncertainty rather than misclassification. An adaptive step size enhances stability, while an asymmetric batch design, considering the prior influence of the remaining data on the model, handles unlearning and retained data differently to efficiently reduce computational costs. We provide theoretical analysis proving that the model difference between FedORA and Train-from-scratch is bounded, establishing guarantees for unlearning effectiveness. Experiments on tabular and image datasets demonstrate that FedORA achieves unlearning effectiveness and utility preservation comparable to Train-from-scratch with reduced computation and communication overhead.",
+    "authors": [
+      "Yu Jiang",
+      "Xindi Tong",
+      "Ziyao Liu",
+      "Xiaoxi Zhang",
+      "Kwok-Yan Lam"
+    ],
+    "published": "2025-12-29T03:25:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.16851",
+    "title": "PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy",
+    "summary": "The convergence of artificial AI and XR technologies (AI XR) promises innovative applications across many domains. However, the sensitive nature of data (e.g., eye-tracking) used in these systems raises significant privacy concerns, as adversaries can exploit these data and models to infer and leak personal information through membership inference attacks (MIA) and re-identification (RDA) with a high success rate. Researchers have proposed various techniques to mitigate such privacy attacks, including differential privacy (DP). However, AI XR datasets often contain numerous features, and applying DP uniformly can introduce unnecessary noise to less relevant features, degrade model accuracy, and increase inference time, limiting real-time XR deployment. Motivated by this, we propose a novel framework combining explainable AI (XAI) and DP-enabled privacy-preserving mechanisms to defend against privacy attacks. Specifically, we leverage post-hoc explanations to identify the most influential features in AI XR models and selectively apply DP to those features during inference. We evaluate our XAI-guided DP approach on three state-of-the-art AI XR models and three datasets: cybersickness, emotion, and activity classification. Our results show that the proposed method reduces MIA and RDA success rates by up to 43% and 39%, respectively, for cybersickness tasks while preserving model utility with up to 97% accuracy using Transformer models. Furthermore, it improves inference time by up to ~2x compared to traditional DP approaches. To demonstrate practicality, we deploy the XAI-guided DP AI XR models on an HTC VIVE Pro headset and develop a user interface (UI), namely PrivateXR, allowing users to adjust privacy levels (e.g., low, medium, high) while receiving real-time task predictions, protecting user privacy during XR gameplay.",
+    "authors": [
+      "Ripan Kumar Kundu",
+      "Istiak Ahmed",
+      "Khaza Anuarul Hoque"
+    ],
+    "published": "2025-12-18T18:23:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.07033",
+    "title": "Managed TLS Under Migration: Authentication Authority Across CDN and Hosting Transitions",
+    "summary": "Managed TLS has become a common approach for deploying HTTPS, with platforms generating and storing private keys and automating certificate issuance on behalf of domain operators. This model simplifies operational management but shifts control of authentication material from the domain owner to the platform. The implications of this shift during provider transitions remain insufficiently examined. This study investigates how managed TLS platforms behave when a domain is moved away from the platform that originally issued and stored its certificate. A controlled measurement environment was used to monitor multiple platforms after migration. Each platform was observed for the full remaining lifetime of the certificate that had been active during delegation. The measurements show that platforms continue to serve the same certificate until it expires, even after DNS resolvers direct traffic toward new infrastructure. No platform revoked, replaced, or retired the certificate, and no new certificate was issued after delegation ended. Direct connections to the previous platform continued to complete TLS handshakes with the stale certificate, which confirms that authentication capability persisted independently of DNS state. These findings indicate that authentication authority remains with the previous platform for the entire lifetime of certificates issued during the delegation period. The gap between DNS control and control of authentication material introduces a window in which multiple environments can authenticate the same domain. As managed TLS adoption grows, clearer mechanisms for key retirement and certificate invalidation are needed to ensure that the authentication authority follows operational authority during transitions.",
+    "authors": [
+      "Daniyal Ganiuly",
+      "Nurzhau Bolatbek",
+      "Assel Smaiyl"
+    ],
+    "published": "2025-12-07T22:52:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.04855",
+    "title": "A Novel Trust-Based DDoS Cyberattack Detection Model for Smart Business Environments",
+    "summary": "As the frequency and complexity of Distributed Denial-of-Service (DDoS) attacks continue to increase, the level of threats posed to Smart Internet of Things (SIoT) business environments have also increased. These environments generally have several interconnected SIoT systems and devices that are integral to daily operations, usually depending on cloud infrastructure and real-time data analytics, which require continuous availability and secure data exchange. Conventional detection mechanisms, while useful in static or traditional network environments, often are inadequate in responding to the needs of these dynamic and diverse SIoT networks. In this paper, we introduce a novel trust-based DDoS detection model tailored to meet the unique requirements of smart business environments. The proposed model incorporates a trust evaluation engine that continuously monitors node behaviour, calculating trust scores based on packet delivery ratio, response time, and anomaly detection. These trust metrics are then aggregated by a central trust-based repository that uses inherent trust values to identify traffic patterns indicative of DDoS attacks. By integrating both trust scores and central trust-based outputs, the trust calculation is enhanced, ensuring that threats are accurately identified and addressed in real-time. The model demonstrated a significant improvement in detection accuracy, and a low false-positive rate with enhanced scalability and adaptability under TCP SYN, Ping Flood, and UDP Flood attacks. The results show that a trust-based approach provides an effective, lightweight alternative for securing resource-constrained business IoT environments.",
+    "authors": [
+      "Oghenetejiri Okporokpo",
+      "Funminiyi Olajide",
+      "Nemitari Ajienka",
+      "Xiaoqi Ma"
+    ],
+    "published": "2025-12-04T14:37:55Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.14600",
+    "title": "PerProb: Indirectly Evaluating Memorization in Large Language Models",
+    "summary": "The rapid advancement of Large Language Models (LLMs) has been driven by extensive datasets that may contain sensitive information, raising serious privacy concerns. One notable threat is the Membership Inference Attack (MIA), where adversaries infer whether a specific sample was used in model training. However, the true impact of MIA on LLMs remains unclear due to inconsistent findings and the lack of standardized evaluation methods, further complicated by the undisclosed nature of many LLM training sets. To address these limitations, we propose PerProb, a unified, label-free framework for indirectly assessing LLM memorization vulnerabilities. PerProb evaluates changes in perplexity and average log probability between data generated by victim and adversary models, enabling an indirect estimation of training-induced memory. Compared with prior MIA methods that rely on member/non-member labels or internal access, PerProb is independent of model and task, and applicable in both black-box and white-box settings. Through a systematic classification of MIA into four attack patterns, we evaluate PerProb's effectiveness across five datasets, revealing varying memory behaviors and privacy risks among LLMs. Additionally, we assess mitigation strategies, including knowledge distillation, early stopping, and differential privacy, demonstrating their effectiveness in reducing data leakage. Our findings offer a practical and generalizable framework for evaluating and improving LLM privacy.",
+    "authors": [
+      "Yihan Liao",
+      "Jacky Keung",
+      "Xiaoxue Ma",
+      "Jingyu Zhang",
+      "Yicheng Sun"
+    ],
+    "published": "2025-12-16T17:10:01Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2510.22726",
+    "title": "SpoofTrackBench: Interpretable AI for Spoof-Aware UAV Tracking and Benchmarking",
+    "summary": "SpoofTrackBench is a reproducible, modular benchmark for evaluating adversarial robustness in real-time localization and tracking (RTLS) systems under radar spoofing. Leveraging the Hampton University Skyler Radar Sensor dataset, we simulate drift, ghost, and mirror-type spoofing attacks and evaluate tracker performance using both Joint Probabilistic Data Association (JPDA) and Global Nearest Neighbor (GNN) architectures. Our framework separates clean and spoofed detection streams, visualizes spoof-induced trajectory divergence, and quantifies assignment errors via direct drift-from-truth metrics. Clustering overlays, injection-aware timelines, and scenario-adaptive visualizations enable interpretability across spoof types and configurations. Evaluation figures and logs are auto-exported for reproducible comparison. SpoofTrackBench sets a new standard for open, ethical benchmarking of spoof-aware tracking pipelines, enabling rigorous cross-architecture analysis and community validation.",
+    "authors": [
+      "Van Le",
+      "Tan Le"
+    ],
+    "published": "2025-10-26T15:54:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2505.19973",
+    "title": "DFIR-Metric: A Benchmark Dataset for Evaluating Large Language Models in Digital Forensics and Incident Response",
+    "summary": "Digital Forensics and Incident Response (DFIR) involves analyzing digital evidence to support legal investigations. Large Language Models (LLMs) offer new opportunities in DFIR tasks such as log analysis and memory forensics, but their susceptibility to errors and hallucinations raises concerns in high-stakes contexts. Despite growing interest, there is no comprehensive benchmark to evaluate LLMs across both theoretical and practical DFIR domains. To address this gap, we present DFIR-Metric, a benchmark with three components: (1) Knowledge Assessment: a set of 700 expert-reviewed multiple-choice questions sourced from industry-standard certifications and official documentation; (2) Realistic Forensic Challenges: 150 CTF-style tasks testing multi-step reasoning and evidence correlation; and (3) Practical Analysis: 500 disk and memory forensics cases from the NIST Computer Forensics Tool Testing Program (CFTT). We evaluated 14 LLMs using DFIR-Metric, analyzing both their accuracy and consistency across trials. We also introduce a new metric, the Task Understanding Score (TUS), designed to more effectively evaluate models in scenarios where they achieve near-zero accuracy. This benchmark offers a rigorous, reproducible foundation for advancing AI in digital forensics. All scripts, artifacts, and results are available on the project website at https://github.com/DFIR-Metric.",
+    "authors": [
+      "Bilel Cherif",
+      "Tamas Bisztray",
+      "Richard A. Dubniczky",
+      "Aaesha Aldahmani",
+      "Saeed Alshehhi"
+    ],
+    "published": "2025-05-26T13:35:37Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2401.02030",
+    "title": "Travelers: A scalable fair ordering BFT system",
+    "summary": "Many blockchain platform are subject to maximal value extraction (MEV), and users on the platform are losing money while sending transactions because the transaction order can be manipulated to extract value from them. Consensus protocols have been augmented with different notion of fair ordering in order to counter the problem. Out of all practical protocols, the most efficient BFT consensus requires $O(nTL + n^2T)$ communication complexity, where $n$ is number node, $T$ is number of transactions and $L$ is average transaction size. In this work, we propose a new system of BFT fair ordering protocols, Travelers, that substantially reduce the communication complexity. The proposed system of protocols satisfy a new notion of fair ordering, called probabilistic fair ordering, which is an extension to some existing notions of fairness. The new notion allows a small probability of error $\u03b5$, that adversary can insert some transactions at any location in a block, but for the remaining $1-\u03b5$ the a modified version of ordering linearizability holds. Our mechanism neither require a dissemination network nor direct submissions to all consensus nodes. The key innovation comes from a routing protocol, that is both flexible and efficient. We construct a protocol with $O(c\\log({n})TL + n^2)$ communication complexity with $\u03b5= 1/n^c$ for some system parameter $c\\ge 1$.",
+    "authors": [
+      "Bowen Xue",
+      "Sreeram Kannan"
+    ],
+    "published": "2024-01-04T02:14:18Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2312.04096",
+    "title": "MediHunt: A Network Forensics Framework for Medical IoT Devices",
+    "summary": "The Medical Internet of Things (MIoT) has enabled small, ubiquitous medical devices to communicate with each other to facilitate interconnected healthcare delivery. These devices interact using communication protocols like MQTT, Bluetooth, and Wi-Fi. However, as MIoT devices proliferate, these networked devices are vulnerable to cyber-attacks. This paper focuses on the vulnerabilities present in the Message Queuing Telemetry and Transport (MQTT) protocol. The MQTT protocol is prone to cyber-attacks that can harm the system's functionality. The memory-constrained MIoT devices enforce a limitation on storing all data logs that are required for comprehensive network forensics. This paper solves the data log availability challenge by detecting the attack in real-time and storing the corresponding logs for further analysis with the proposed network forensics framework: MediHunt. Machine learning (ML) techniques are the most real safeguard against cyber-attacks. However, these models require a specific dataset that covers diverse attacks on the MQTT-based IoT system for training. The currently available datasets do not encompass a variety of applications and TCP layer attacks. To address this issue, we leveraged the usage of a flow-based dataset containing flow data for TCP/IP layer and application layer attacks. Six different ML models are trained with the generated dataset to evaluate the effectiveness of the MediHunt framework in detecting real-time attacks. F1 scores and detection accuracy exceeded 0.99 for the proposed MediHunt framework with our custom dataset.",
+    "authors": [
+      "Ayushi Mishra",
+      "Tej Kiran Boppana",
+      "Priyanka Bagade"
+    ],
+    "published": "2023-12-07T07:19:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2312.01681",
+    "title": "Malicious Lateral Movement in 5G Core With Network Slicing And Its Detection",
+    "summary": "5G networks are susceptible to cyber attacks due to reasons such as implementation issues and vulnerabilities in 3GPP standard specifications. In this work, we propose lateral movement strategies in a 5G Core (5GC) with network slicing enabled, as part of a larger attack campaign by well-resourced adversaries such as APT groups. Further, we present 5GLatte, a system to detect such malicious lateral movement. 5GLatte operates on a host-container access graph built using host/NF container logs collected from the 5GC. Paths inferred from the access graph are scored based on selected filtering criteria and subsequently presented as input to a threshold-based anomaly detection algorithm to reveal malicious lateral movement paths. We evaluate 5GLatte on a dataset containing attack campaigns (based on MITRE ATT&amp;CK and FiGHT frameworks) launched in a 5G test environment which shows that compared to other lateral movement detectors based on state-of-the-art, it can achieve higher true positive rates with similar false positive rates.",
+    "authors": [
+      "Ayush Kumar",
+      "Vrizlynn L. L. Thing"
+    ],
+    "published": "2023-12-04T07:09:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2206.09569",
+    "title": "Shuffle Gaussian Mechanism for Differential Privacy",
+    "summary": "We study Gaussian mechanism in the shuffle model of differential privacy (DP). Particularly, we characterize the mechanism's R\u00e9nyi differential privacy (RDP), showing that it is of the form: $$ \u03b5(\u03bb) \\leq \\frac{1}{\u03bb-1}\\log\\left(\\frac{e^{-\u03bb/2\u03c3^2}}{n^\u03bb} \\sum_{\\substack{k_1+\\dotsc+k_n = \u03bb; \\\\k_1,\\dotsc,k_n\\geq 0}}\\binom\u03bb{k_1,\\dotsc,k_n}e^{\\sum_{i=1}^nk_i^2/2\u03c3^2}\\right) $$ We further prove that the RDP is strictly upper-bounded by the Gaussian RDP without shuffling. The shuffle Gaussian RDP is advantageous in composing multiple DP mechanisms, where we demonstrate its improvement over the state-of-the-art approximate DP composition theorems in privacy guarantees of the shuffle model. Moreover, we extend our study to the subsampled shuffle mechanism and the recently proposed shuffled check-in mechanism, which are protocols geared towards distributed/federated learning. Finally, an empirical study of these mechanisms is given to demonstrate the efficacy of employing shuffle Gaussian mechanism under the distributed learning framework to guarantee rigorous user privacy.",
+    "authors": [
+      "Seng Pei Liew",
+      "Tsubasa Takahashi"
+    ],
+    "published": "2022-06-20T04:54:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2112.12906",
+    "title": "Efficient decision tree training with new data structure for secure multi-party computation",
+    "summary": "We propose a secure multi-party computation (MPC) protocol that constructs a secret-shared decision tree for a given secret-shared dataset. The previous MPC-based decision tree training protocol (Abspoel et al. 2021) requires $O(2^hmn\\log n)$ comparisons, being exponential in the tree height $h$ and with $n$ and $m$ being the number of rows and that of attributes in the dataset, respectively. The cause of the exponential number of comparisons in $h$ is that the decision tree training algorithm is based on the divide-and-conquer paradigm, where dummy rows are added after each split in order to hide the number of rows in the dataset. We resolve this issue via secure data structure that enables us to compute an aggregate value for every group while hiding the grouping information. By using this data structure, we can train a decision tree without adding dummy rows while hiding the size of the intermediate data. We specifically describes a decision tree training protocol that requires only $O(hmn\\log n)$ comparisons when the input attributes are continuous and the output attribute is binary. Note that the order is now \\emph{linear} in the tree height $h$. To demonstrate the practicality of our protocol, we implement it in an MPC framework based on a three-party secret sharing scheme. Our implementation results show that our protocol trains a decision tree with a height of 5 in 33 seconds for a dataset of 100,000 rows and 10 attributes.",
+    "authors": [
+      "Koki Hamada",
+      "Dai Ikarashi",
+      "Ryo Kikuchi",
+      "Koji Chida"
+    ],
+    "published": "2021-12-24T01:54:47Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2103.15708",
+    "title": "Dynamically Modelling Heterogeneous Higher-Order Interactions for Malicious Behavior Detection in Event Logs",
+    "summary": "Anomaly detection in event logs is a promising approach for intrusion detection in enterprise networks. By building a statistical model of usual activity, it aims to detect multiple kinds of malicious behavior, including stealthy tactics, techniques and procedures (TTPs) designed to evade signature-based detection systems. However, finding suitable anomaly detection methods for event logs remains an important challenge. This results from the very complex, multi-faceted nature of the data: event logs are not only combinatorial, but also temporal and heterogeneous data, thus they fit poorly in most theoretical frameworks for anomaly detection. Most previous research focuses on either one of these three aspects, building a simplified representation of the data that can be fed to standard anomaly detection algorithms. In contrast, we propose to simultaneously address all three of these characteristics through a specifically tailored statistical model. We introduce \\textsc{Decades}, a \\underline{d}ynamic, h\\underline{e}terogeneous and \\underline{c}ombinatorial model for \\underline{a}nomaly \\underline{d}etection in \\underline{e}vent \\underline{s}treams, and we demonstrate its effectiveness at detecting malicious behavior through experiments on a real dataset containing labelled red team activity. In particular, we empirically highlight the importance of handling the multiple characteristics of the data by comparing our model with state-of-the-art baselines relying on various data representations.",
+    "authors": [
+      "Corentin Larroche",
+      "Johan Mazel",
+      "Stephan Cl\u00e9men\u00e7on"
+    ],
+    "published": "2021-03-29T15:45:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2010.14037",
+    "title": "Blockchain-enabled Identity Verification for Safe Ridesharing Leveraging Zero-Knowledge Proof",
+    "summary": "The on-demand mobility market, including ridesharing, is becoming increasingly important with e-hailing fares growing at a rate of approximately 130% per annum since 2013. By increasing utilization of existing vehicles and empty seats, ridesharing can provide many benefits including reduced traffic congestion and environmental impact from vehicle usage and production. However, the safety of riders and drivers has become of paramount concern and a method for privacy-preserving identity verification between untrusted parties is essential for protecting users. To this end, we propose a novel privacy-preserving identity verification system, extending zero-knowledge proof (ZKP) and blockchain for use in ridesharing applications. We design a permissioned blockchain network to perform the ZKP verification of a driver's identity, which also acts as an immutable ledger to store ride logs and ZKP records. For the ZKP module, we design a protocol to facilitate user verification without requiring the exchange of any private information. We prototype the proposed system on the Hyperledger Fabric platform, with the Hyperledger Ursa cryptography library, and conduct extensive experimentation. To measure the prototype's performance, we utilize the Hyperledger Caliper benchmark tool to perform extensive analysis and the results show that our system is suitable for use in real-world ridesharing applications.",
+    "authors": [
+      "Wanxin Li",
+      "Collin Meese",
+      "Hao Guo",
+      "Mark Nejad"
+    ],
+    "published": "2020-10-27T03:43:39Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2511.05133",
+    "title": "A Secured Intent-Based Networking (sIBN) with Data-Driven Time-Aware Intrusion Detection",
+    "summary": "While Intent-Based Networking (IBN) promises operational efficiency through autonomous and abstraction-driven network management, a critical unaddressed issue lies in IBN's implicit trust in the integrity of intent ingested by the network. This inherent assumption of data reliability creates a blind spot exploitable by Man-in-the-Middle (MitM) attacks, where an adversary intercepts and alters intent before it is enacted, compelling the network to orchestrate malicious configurations. This study proposes a secured IBN (sIBN) system with data driven intrusion detection method designed to secure legitimate user intent from adversarial tampering. The proposed intent intrusion detection system uses a ML model applied for network behavioral anomaly detection to reveal temporal patterns of intent tampering. This is achieved by leveraging a set of original behavioral metrics and newly engineered time-aware features, with the model's hyperparameters fine-tuned through the randomized search cross-validation (RSCV) technique. Numerical results based on real-world data sets, show the effectiveness of sIBN, achieving the best performance across standard evaluation metrics, in both binary and multi classification tasks, while maintaining low error rates.",
+    "authors": [
+      "Urslla Uchechi Izuazu",
+      "Mounir Bensalem",
+      "Admela Jukan"
+    ],
+    "published": "2025-11-07T10:28:01Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04912",
+    "title": "Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge Devices",
+    "summary": "Collaborative training of a machine learning model comes with a risk of sharing sensitive or private data. Federated learning offers a way of collectively training a single global model without the need to share client data, by sharing only the updated parameters from each client's local model. A central server is then used to aggregate parameters from all clients and redistribute the aggregated model back to the clients. Recent findings have shown that even in this scenario, private data can be reconstructed only using information about model parameters. Current efforts to mitigate this are mainly focused on reducing privacy risks on the server side, assuming that other clients will not act maliciously. In this work, we analyzed various methods for improving the privacy of client data concerning both the server and other clients for neural networks. Some of these methods include homomorphic encryption, gradient compression, gradient noising, and discussion on possible usage of modified federated learning systems such as split learning, swarm learning or fully encrypted models. We have analyzed the negative effects of gradient compression and gradient noising on the accuracy of convolutional neural networks used for classification. We have shown the difficulty of data reconstruction in the case of segmentation networks. We have also implemented a proof of concept on the NVIDIA Jetson TX2 module used in edge devices and simulated a federated learning process.",
+    "authors": [
+      "Damian Haren\u010d\u00e1k",
+      "Luk\u00e1\u0161 Gajdo\u0161ech",
+      "Martin Madaras"
+    ],
+    "published": "2026-01-08T13:10:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04603",
+    "title": "Constitutional Classifiers++: Efficient Production-Grade Defenses against Universal Jailbreaks",
+    "summary": "We introduce enhanced Constitutional Classifiers that deliver production-grade jailbreak robustness with dramatically reduced computational costs and refusal rates compared to previous-generation defenses. Our system combines several key insights. First, we develop exchange classifiers that evaluate model responses in their full conversational context, which addresses vulnerabilities in last-generation systems that examine outputs in isolation. Second, we implement a two-stage classifier cascade where lightweight classifiers screen all traffic and escalate only suspicious exchanges to more expensive classifiers. Third, we train efficient linear probe classifiers and ensemble them with external classifiers to simultaneously improve robustness and reduce computational costs. Together, these techniques yield a production-grade system achieving a 40x computational cost reduction compared to our baseline exchange classifier, while maintaining a 0.05% refusal rate on production traffic. Through extensive red-teaming comprising over 1,700 hours, we demonstrate strong protection against universal jailbreaks -- no attack on this system successfully elicited responses to all eight target queries comparable in detail to an undefended model. Our work establishes Constitutional Classifiers as practical and efficient safeguards for large language models.",
+    "authors": [
+      "Hoagy Cunningham",
+      "Jerry Wei",
+      "Zihan Wang",
+      "Andrew Persic",
+      "Alwin Peng"
+    ],
+    "published": "2026-01-08T05:16:12Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03979",
+    "title": "SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems",
+    "summary": "The continued promise of Large Language Models (LLMs), particularly in their natural language understanding and generation capabilities, has driven a rapidly increasing interest in identifying and developing LLM use cases. In an effort to complement the ingrained \"knowledge\" of LLMs, Retrieval-Augmented Generation (RAG) techniques have become widely popular. At its core, RAG involves the coupling of LLMs with domain-specific knowledge bases, whereby the generation of a response to a user question is augmented with contextual and up-to-date information. The proliferation of RAG has sparked concerns about data privacy, particularly with the inherent risks that arise when leveraging databases with potentially sensitive information. Numerous recent works have explored various aspects of privacy risks in RAG systems, from adversarial attacks to proposed mitigations. With the goal of surveying and unifying these works, we ask one simple question: What are the privacy risks in RAG, and how can they be measured and mitigated? To answer this question, we conduct a systematic literature review of RAG works addressing privacy, and we systematize our findings into a comprehensive set of privacy risks, mitigation techniques, and evaluation strategies. We supplement these findings with two primary artifacts: a Taxonomy of RAG Privacy Risks and a RAG Privacy Process Diagram. Our work contributes to the study of privacy in RAG not only by conducting the first systematization of risks and mitigations, but also by uncovering important considerations when mitigating privacy risks in RAG systems and assessing the current maturity of proposed mitigations.",
+    "authors": [
+      "Andreea-Elena Bodea",
+      "Stephen Meisenbacher",
+      "Alexandra Klymenko",
+      "Florian Matthes"
+    ],
+    "published": "2026-01-07T14:50:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04275",
+    "title": "Shadow Unlearning: A Neuro-Semantic Approach to Fidelity-Preserving Faceless Forgetting in LLMs",
+    "summary": "Machine unlearning aims to selectively remove the influence of specific training samples to satisfy privacy regulations such as the GDPR's 'Right to be Forgotten'. However, many existing methods require access to the data being removed, exposing it to membership inference attacks and potential misuse of Personally Identifiable Information (PII). We address this critical challenge by proposing Shadow Unlearning, a novel paradigm of approximate unlearning, that performs machine unlearning on anonymized forget data without exposing PII. We further propose a novel privacy-preserving framework, Neuro-Semantic Projector Unlearning (NSPU) to achieve Shadow unlearning. To evaluate our method, we compile Multi-domain Fictitious Unlearning (MuFU) forget set across five diverse domains and introduce an evaluation stack to quantify the trade-off between knowledge retention and unlearning effectiveness. Experimental results on various LLMs show that NSPU achieves superior unlearning performance, preserves model utility, and enhances user privacy. Additionally, the proposed approach is at least 10 times more computationally efficient than standard unlearning approaches. Our findings foster a new direction for privacy-aware machine unlearning that balances data protection and model fidelity.",
+    "authors": [
+      "Dinesh Srivasthav P",
+      "Ashok Urlana",
+      "Rahul Mishra",
+      "Bala Mallikarjunarao Garlapati",
+      "Ponnurangam Kumaraguru"
+    ],
+    "published": "2026-01-07T12:11:25Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04265",
+    "title": "You Only Anonymize What Is Not Intent-Relevant: Suppressing Non-Intent Privacy Evidence",
+    "summary": "Anonymizing sensitive information in user text is essential for privacy, yet existing methods often apply uniform treatment across attributes, which can conflict with communicative intent and obscure necessary information. This is particularly problematic when personal attributes are integral to expressive or pragmatic goals. The central challenge lies in determining which attributes to protect, and to what extent, while preserving semantic and pragmatic functions. We propose IntentAnony, a utility-preserving anonymization approach that performs intent-conditioned exposure control. IntentAnony models pragmatic intent and constructs privacy inference evidence chains to capture how distributed cues support attribute inference. Conditioned on intent, it assigns each attribute an exposure budget and selectively suppresses non-intent inference pathways while preserving intent-relevant content, semantic structure, affective nuance, and interactional function. We evaluate IntentAnony using privacy inference success rates, text utility metrics, and human evaluation. The results show an approximately 30% improvement in the overall privacy--utility trade-off, with notably stronger usability of anonymized text compared to prior state-of-the-art methods. Our code is available at https://github.com/Nevaeh7/IntentAnony.",
+    "authors": [
+      "Weihao Shen",
+      "Yaxin Xu",
+      "Shuang Li",
+      "Wei Chen",
+      "Yuqin Lan"
+    ],
+    "published": "2026-01-07T07:54:23Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04261",
+    "title": "Inhibitory Attacks on Backdoor-based Fingerprinting for Large Language Models",
+    "summary": "The widespread adoption of Large Language Model (LLM) in commercial and research settings has intensified the need for robust intellectual property protection. Backdoor-based LLM fingerprinting has emerged as a promising solution for this challenge. In practical application, the low-cost multi-model collaborative technique, LLM ensemble, combines diverse LLMs to leverage their complementary strengths, garnering significant attention and practical adoption. Unfortunately, the vulnerability of existing LLM fingerprinting for the ensemble scenario is unexplored. In order to comprehensively assess the robustness of LLM fingerprinting, in this paper, we propose two novel fingerprinting attack methods: token filter attack (TFA) and sentence verification attack (SVA). The TFA gets the next token from a unified set of tokens created by the token filter mechanism at each decoding step. The SVA filters out fingerprint responses through a sentence verification mechanism based on perplexity and voting. Experimentally, the proposed methods effectively inhibit the fingerprint response while maintaining ensemble performance. Compared with state-of-the-art attack methods, the proposed method can achieve better performance. The findings necessitate enhanced robustness in LLM fingerprinting.",
+    "authors": [
+      "Hang Fu",
+      "Wanli Peng",
+      "Yinghan Zhou",
+      "Jiaxuan Wu",
+      "Juan Wen"
+    ],
+    "published": "2026-01-07T06:06:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03242",
+    "title": "SLIM: Stealthy Low-Coverage Black-Box Watermarking via Latent-Space Confusion Zones",
+    "summary": "Training data is a critical and often proprietary asset in Large Language Model (LLM) development, motivating the use of data watermarking to embed model-transferable signals for usage verification. We identify low coverage as a vital yet largely overlooked requirement for practicality, as individual data owners typically contribute only a minute fraction of massive training corpora. Prior methods fail to maintain stealthiness, verification feasibility, or robustness when only one or a few sequences can be modified. To address these limitations, we introduce SLIM, a framework enabling per-user data provenance verification under strict black-box access. SLIM leverages intrinsic LLM properties to induce a Latent-Space Confusion Zone by training the model to map semantically similar prefixes to divergent continuations. This manifests as localized generation instability, which can be reliably detected via hypothesis testing. Experiments demonstrate that SLIM achieves ultra-low coverage capability, strong black-box verification performance, and great scalability while preserving both stealthiness and model utility, offering a robust solution for protecting training data in modern LLM pipelines.",
+    "authors": [
+      "Hengyu Wu",
+      "Yang Cao"
+    ],
+    "published": "2026-01-06T18:37:45Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03005",
+    "title": "JPU: Bridging Jailbreak Defense and Unlearning via On-Policy Path Rectification",
+    "summary": "Despite extensive safety alignment, Large Language Models (LLMs) often fail against jailbreak attacks. While machine unlearning has emerged as a promising defense by erasing specific harmful parameters, current methods remain vulnerable to diverse jailbreaks. We first conduct an empirical study and discover that this failure mechanism is caused by jailbreaks primarily activating non-erased parameters in the intermediate layers. Further, by probing the underlying mechanism through which these circumvented parameters reassemble into the prohibited output, we verify the persistent existence of dynamic $\\textbf{jailbreak paths}$ and show that the inability to rectify them constitutes the fundamental gap in existing unlearning defenses. To bridge this gap, we propose $\\textbf{J}$ailbreak $\\textbf{P}$ath $\\textbf{U}$nlearning (JPU), which is the first to rectify dynamic jailbreak paths towards safety anchors by dynamically mining on-policy adversarial samples to expose vulnerabilities and identify jailbreak paths. Extensive experiments demonstrate that JPU significantly enhances jailbreak resistance against dynamic attacks while preserving the model's utility.",
+    "authors": [
+      "Xi Wang",
+      "Songlei Jian",
+      "Shasha Li",
+      "Xiaopeng Li",
+      "Zhaoye Li"
+    ],
+    "published": "2026-01-06T13:30:10Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.02947",
+    "title": "Quality Degradation Attack in Synthetic Data",
+    "summary": "Synthetic Data Generation (SDG) can be used to facilitate privacy-preserving data sharing. However, most existing research focuses on privacy attacks where the adversary is the recipient of the released synthetic data and attempts to infer sensitive information from it. This study investigates quality degradation attacks initiated by adversaries who possess access to the real dataset or control over the generation process, such as the data owner, the synthetic data provider, or potential intruders. We formalize a corresponding threat model and empirically evaluate the effectiveness of targeted manipulations of real data (e.g., label flipping and feature-importance-based interventions) on the quality of generated synthetic data. The results show that even small perturbations can substantially reduce downstream predictive performance and increase statistical divergence, exposing vulnerabilities within SDG pipelines. This study highlights the need to integrate integrity verification and robustness mechanisms, alongside privacy protection, to ensure the reliability and trustworthiness of synthetic data sharing frameworks.",
+    "authors": [
+      "Qinyi Liu",
+      "Dong Liu",
+      "Farhad Vadiee",
+      "Mohammad Khalil",
+      "Pedro P. Vergara Barrios"
+    ],
+    "published": "2026-01-06T11:43:31Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.02602",
+    "title": "SWaRL: Safeguard Code Watermarking via Reinforcement Learning",
+    "summary": "We present SWaRL, a robust and fidelity-preserving watermarking framework designed to protect the intellectual property of code LLM owners by embedding unique and verifiable signatures in the generated output. Existing approaches rely on manually crafted transformation rules to preserve watermarked code functionality or manipulate token-generation probabilities at inference time, which are prone to compilation errors. To address these challenges, SWaRL employs a reinforcement learning-based co-training framework that uses compiler feedback for functional correctness and a jointly trained confidential verifier as a reward signal to maintain watermark detectability. Furthermore, SWaRL employs low-rank adaptation (LoRA) during fine-tuning, allowing the learned watermark information to be transferable across model updates. Extensive experiments show that SWaRL achieves higher watermark detection accuracy compared to prior methods while fully maintaining watermarked code functionality. The LoRA-based signature embedding steers the base model to generate and solve code in a watermark-specific manner without significant computational overhead. Moreover, SWaRL exhibits strong resilience against refactoring and adversarial transformation attacks.",
+    "authors": [
+      "Neusha Javidnia",
+      "Ruisi Zhang",
+      "Ashish Kundu",
+      "Farinaz Koushanfar"
+    ],
+    "published": "2026-01-05T23:35:39Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  }
+]

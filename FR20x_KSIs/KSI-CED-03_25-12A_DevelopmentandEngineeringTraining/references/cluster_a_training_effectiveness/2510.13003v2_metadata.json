@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2510.13003v2",
+  "title": "OPLoRA: Orthogonal Projection LoRA Prevents Catastrophic Forgetting during Parameter-Efficient Fine-Tuning",
+  "authors": [
+    "Yifeng Xiong",
+    "Xiaohui Xie"
+  ],
+  "published": "2025-10-14T21:35:57Z",
+  "url": "http://arxiv.org/abs/2510.13003v2",
+  "pdf_url": "http://arxiv.org/pdf/2510.13003v2.pdf",
+  "relevance_score": 60,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Low-Rank Adaptation (LoRA) enables efficient fine-tuning of large language models but suffers from catastrophic forgetting when learned updates interfere with the dominant singular directions that encode essential pre-trained knowledge. We propose Orthogonal Projection LoRA (OPLoRA), a theoretically grounded approach that prevents this interference through double-sided orthogonal projections. By decomposing frozen weights via SVD, OPLoRA constrains LoRA updates to lie entirely within the orthogo"
+}

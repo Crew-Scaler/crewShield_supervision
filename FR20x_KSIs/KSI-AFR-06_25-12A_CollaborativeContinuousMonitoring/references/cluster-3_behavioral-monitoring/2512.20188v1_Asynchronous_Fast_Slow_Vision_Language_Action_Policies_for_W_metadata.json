@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.20188v1",
+  "title": "Asynchronous Fast-Slow Vision-Language-Action Policies for Whole-Body Robotic Manipulation",
+  "authors": [
+    "Teqiang Zou",
+    "Hongliang Zeng",
+    "Yuxuan Nong",
+    "Yifan Li",
+    "Kehui Liu"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.20188v1",
+  "relevance_score": 94.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "model monitoring"
+  ],
+  "summary": "Most Vision-Language-Action (VLA) systems integrate a Vision-Language Model (VLM) for semantic reasoning with an action expert generating continuous action signals, yet both typically run at a single unified frequency. As a result, policy performance is constrained by the low inference speed of large VLMs. This mandatory synchronous execution severely limits control stability and real-time performance in whole-body robotic manipulation, which involves more joints, larger motion spaces, and dynam..."
+}

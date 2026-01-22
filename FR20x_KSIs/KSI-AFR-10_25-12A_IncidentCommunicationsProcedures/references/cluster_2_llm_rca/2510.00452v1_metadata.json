@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2510.00452v1",
+  "title": "Cloud Investigation Automation Framework (CIAF): An AI-Driven Approach to Cloud Forensics",
+  "authors": [
+    "Dalal Alharthi",
+    "Ivan Roberto Kawaminami Garcia"
+  ],
+  "published": "2025-10-01T03:05:47Z",
+  "url": "http://arxiv.org/abs/2510.00452v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.00452v1.pdf",
+  "relevance_score": 100,
+  "summary": "Large Language Models (LLMs) have gained prominence in domains including cloud security and forensics. Yet cloud forensic investigations still rely on manual analysis, making them time-consuming and error-prone. LLMs can mimic human reasoning, offering a pathway to automating cloud log analysis. To address this, we introduce the Cloud Investigation Automation Framework (CIAF), an ontology-driven framework that systematically investigates cloud forensic logs while improving efficiency and accuracy. CIAF standardizes user inputs through semantic validation, eliminating ambiguity and ensuring consistency in log interpretation. This not only enhances data quality but also provides investigators with reliable, standardized information for decision-making. To evaluate security and performance, we analyzed Microsoft Azure logs containing ransomware-related events. By simulating attacks and assessing CIAF's impact, results showed significant improvement in ransomware detection, achieving precision, recall, and F1 scores of 93 percent. CIAF's modular, adaptable design extends beyond ransomware, making it a robust solution for diverse cyberattacks. By laying the foundation for standardized forensic methodologies and informing future AI-driven automation, this work underscores the role of deterministic prompt engineering and ontology-based validation in enhancing cloud forensic investigations. These advancements improve cloud security while paving the way for efficient, automated forensic workflows."
+}

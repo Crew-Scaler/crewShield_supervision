@@ -1,0 +1,27 @@
+[
+  {
+    "arxiv_id": "2512.15298",
+    "title": "ChatGPT and Gemini participated in the Korean College Scholastic Ability Test -- Earth Science I",
+    "summary": "The rapid development of Generative AI is bringing innovative changes to education and assessment. As the prevalence of students utilizing AI for assignments increases, concerns regarding academic integrity and the validity of assessments are growing. This study utilizes the Earth Science I section of the 2025 Korean College Scholastic Ability Test (CSAT) to deeply analyze the multimodal scientific reasoning capabilities and cognitive limitations of state-of-the-art Large Language Models (LLMs), including GPT-4o, Gemini 2.5 Flash, and Gemini 2.5 Pro. Three experimental conditions (full-page input, individual item input, and optimized multimodal input) were designed to evaluate model performance across different data structures. Quantitative results indicated that unstructured inputs led to significant performance degradation due to segmentation and Optical Character Recognition (OCR) failures. Even under optimized conditions, models exhibited fundamental reasoning flaws. Qualitative analysis revealed that \"Perception Errors\" were dominant, highlighting a \"Perception-Cognition Gap\" where models failed to interpret symbolic meanings in schematic diagrams despite recognizing visual data. Furthermore, models demonstrated a \"Calculation-Conceptualization Discrepancy,\" successfully performing calculations while failing to apply the underlying scientific concepts, and \"Process Hallucination,\" where models skipped visual verification in favor of plausible but unfounded background knowledge. Addressing the challenge of unauthorized AI use in coursework, this study provides actionable cues for designing \"AI-resistant questions\" that target these specific cognitive vulnerabilities. By exploiting AI's weaknesses, such as the gap between perception and cognition, educators can distinguish genuine student competency from AI-generated responses, thereby ensuring assessment fairness.",
+    "authors": [
+      "Seok-Hyun Ga",
+      "Chun-Yen Chang"
+    ],
+    "published": "2025-12-17T10:46:41Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 53.333333333333336
+  },
+  {
+    "arxiv_id": "2512.09829",
+    "title": "RIFT: A Scalable Methodology for LLM Accelerator Fault Assessment using Reinforcement Learning",
+    "summary": "The massive scale of modern AI accelerators presents critical challenges to traditional fault assessment methodologies, which face prohibitive computational costs and provide poor coverage of critical failure modes. This paper introduces RIFT (Reinforcement Learning-guided Intelligent Fault Targeting), a scalable framework that automates the discovery of minimal, high-impact fault scenarios for efficient design-time fault assessment. RIFT transforms the complex search for worst-case faults into a sequential decision-making problem, combining hybrid sensitivity analysis for search space pruning with reinforcement learning to intelligently generate minimal, high-impact test suites. Evaluated on billion-parameter Large Language Model (LLM) workloads using NVIDIA A100 GPUs, RIFT achieves a \\textbf{2.2$\\times$} fault assessment speedup over evolutionary methods and reduces the required test vector volume by over \\textbf{99\\%} compared to random fault injection, all while achieving \\textbf{superior fault coverage}. The proposed framework also provides actionable data to enable intelligent hardware protection strategies, demonstrating that RIFT-guided selective error correction code provides a \\textbf{12.8$\\times$} improvement in \\textbf{cost-effectiveness} (coverage per unit area) compared to uniform triple modular redundancy protection. RIFT automatically generates UVM-compliant verification artifacts, ensuring its findings are directly actionable and integrable into commercial RTL verification workflows.",
+    "authors": [
+      "Khurram Khalil",
+      "Muhammad Mahad Khaliq",
+      "Khaza Anuarul Hoque"
+    ],
+    "published": "2025-12-10T17:07:19Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 51.66666666666666
+  }
+]

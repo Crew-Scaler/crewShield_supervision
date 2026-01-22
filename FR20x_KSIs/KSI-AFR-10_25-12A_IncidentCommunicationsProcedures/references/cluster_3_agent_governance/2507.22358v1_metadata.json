@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2507.22358v1",
+  "title": "Magentic-UI: Towards Human-in-the-loop Agentic Systems",
+  "authors": [
+    "Hussein Mozannar",
+    "Gagan Bansal",
+    "Cheng Tan",
+    "Adam Fourney",
+    "Victor Dibia",
+    "Jingya Chen",
+    "Jack Gerrits",
+    "Tyler Payne",
+    "Matheus Kunzler Maldaner",
+    "Madeleine Grunde-McLaughlin",
+    "Eric Zhu",
+    "Griffin Bassman",
+    "Jacob Alber",
+    "Peter Chang",
+    "Ricky Loynd",
+    "Friederike Niedtner",
+    "Ece Kamar",
+    "Maya Murad",
+    "Rafah Hosn",
+    "Saleema Amershi"
+  ],
+  "published": "2025-07-30T03:49:14Z",
+  "url": "http://arxiv.org/abs/2507.22358v1",
+  "pdf_url": "http://arxiv.org/pdf/2507.22358v1.pdf",
+  "relevance_score": 100,
+  "summary": "AI agents powered by large language models are increasingly capable of autonomously completing complex, multi-step tasks using external tools. Yet, they still fall short of human-level performance in most domains including computer use, software development, and research. Their growing autonomy and ability to interact with the outside world, also introduces safety and security risks including potentially misaligned actions and adversarial manipulation. We argue that human-in-the-loop agentic systems offer a promising path forward, combining human oversight and control with AI efficiency to unlock productivity from imperfect systems. We introduce Magentic-UI, an open-source web interface for developing and studying human-agent interaction. Built on a flexible multi-agent architecture, Magentic-UI supports web browsing, code execution, and file manipulation, and can be extended with diverse tools via Model Context Protocol (MCP). Moreover, Magentic-UI presents six interaction mechanisms for enabling effective, low-cost human involvement: co-planning, co-tasking, multi-tasking, action guards, and long-term memory. We evaluate Magentic-UI across four dimensions: autonomous task completion on agentic benchmarks, simulated user testing of its interaction capabilities, qualitative studies with real users, and targeted safety assessments. Our findings highlight Magentic-UI's potential to advance safe and efficient human-agent collaboration."
+}

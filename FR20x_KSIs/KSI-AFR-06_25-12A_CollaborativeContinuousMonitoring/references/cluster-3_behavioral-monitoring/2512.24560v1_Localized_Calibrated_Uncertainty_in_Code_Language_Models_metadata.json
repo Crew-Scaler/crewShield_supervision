@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.24560v1",
+  "title": "Localized Calibrated Uncertainty in Code Language Models",
+  "authors": [
+    "David Gros",
+    "Prem Devanbu"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24560v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [],
+  "summary": "Large Language models (LLMs) can generate complicated source code from natural language prompts. However, LLMs can generate output that deviates from what the user wants, requiring supervision and editing. To support this process, we offer techniques to localize where generations might be misaligned from user intent. We first create a dataset of \"Minimal Intent Aligning Patches\" of repaired LLM generated programs. Each program uses test cases to verify correctness. After creating a dataset of pr..."
+}

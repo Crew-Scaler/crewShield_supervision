@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2511.09964v1",
+  "title": "EnvTrace: Simulation-Based Semantic Evaluation of LLM Code via Execution Trace Alignment -- Demonstrated at Synchrotron Beamlines",
+  "authors": [
+    "Noah van der Vleuten",
+    "Anthony Flores",
+    "Shray Mathur",
+    "Max Rakitin",
+    "Thomas Hopkins",
+    "Kevin G. Yager",
+    "Esther H. R. Tsai"
+  ],
+  "published": "2025-11-13T04:52:01Z",
+  "url": "http://arxiv.org/abs/2511.09964v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.09964v1.pdf",
+  "relevance_score": 87,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Evaluating large language models (LLMs) for instrument control requires methods that go beyond standard, stateless algorithmic benchmarks, since the behavior of physical systems cannot be fully captured by unit tests alone. Here we introduce EnvTrace, a simulation-based method that evaluates execution traces to assess semantic code equivalence. EnvTrace is demonstrated with a beamline control-logic digital twin to facilitate the evaluation of instrument control code, with the digital twin itself"
+}

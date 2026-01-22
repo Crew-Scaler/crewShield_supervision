@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2506.07882v1",
+  "title": "Evaluating explainable AI for deep learning-based network intrusion detection system alert classification",
+  "authors": [
+    "Rajesh Kalakoti",
+    "Risto Vaarandi",
+    "Hayretdin Bahsi",
+    "Sven N\u00f5mm"
+  ],
+  "published": "2025-06-09T15:53:30Z",
+  "url": "http://arxiv.org/abs/2506.07882v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.07882v1.pdf",
+  "relevance_score": 100,
+  "summary": "A Network Intrusion Detection System (NIDS) monitors networks for cyber attacks and other unwanted activities. However, NIDS solutions often generate an overwhelming number of alerts daily, making it challenging for analysts to prioritize high-priority threats. While deep learning models promise to automate the prioritization of NIDS alerts, the lack of transparency in these models can undermine trust in their decision-making. This study highlights the critical need for explainable artificial intelligence (XAI) in NIDS alert classification to improve trust and interpretability. We employed a real-world NIDS alert dataset from Security Operations Center (SOC) of TalTech (Tallinn University Of Technology) in Estonia, developing a Long Short-Term Memory (LSTM) model to prioritize alerts. To explain the LSTM model's alert prioritization decisions, we implemented and compared four XAI methods: Local Interpretable Model-Agnostic Explanations (LIME), SHapley Additive exPlanations (SHAP), Integrated Gradients, and DeepLIFT. The quality of these XAI methods was assessed using a comprehensive framework that evaluated faithfulness, complexity, robustness, and reliability. Our results demonstrate that DeepLIFT consistently outperformed the other XAI methods, providing explanations with high faithfulness, low complexity, robust performance, and strong reliability. In collaboration with SOC analysts, we identified key features essential for effective alert classification. The strong alignment between these analyst-identified features and those obtained by the XAI methods validates their effectiveness and enhances the practical applicability of our approach."
+}

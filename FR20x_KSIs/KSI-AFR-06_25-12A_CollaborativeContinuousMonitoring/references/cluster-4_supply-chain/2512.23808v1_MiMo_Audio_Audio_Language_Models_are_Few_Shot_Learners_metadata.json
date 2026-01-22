@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.23808v1",
+  "title": "MiMo-Audio: Audio Language Models are Few-Shot Learners",
+  "authors": [
+    "Xiaomi LLM-Core Team",
+    " :",
+    "Dong Zhang",
+    "Gang Wang",
+    "Jinlong Xue"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23808v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Existing audio language models typically rely on task-specific fine-tuning to accomplish particular audio tasks. In contrast, humans are able to generalize to new audio tasks with only a few examples or simple instructions. GPT-3 has shown that scaling next-token prediction pretraining enables strong generalization capabilities in text, and we believe this paradigm is equally applicable to the audio domain. By scaling MiMo-Audio's pretraining data to over one hundred million of hours, we observe..."
+}

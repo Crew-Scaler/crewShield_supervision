@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.22733v1",
+  "title": "FoldAct: Efficient and Stable Context Folding for Long-Horizon Search Agents",
+  "authors": [
+    "Jiaqi Shao",
+    "Yufeng Miao",
+    "Wei Zhang",
+    "Bing Luo"
+  ],
+  "published": "2025-12-28T00:24:01Z",
+  "url": "http://arxiv.org/abs/2512.22733v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.22733v1.pdf",
+  "relevance_score": 81,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Long-horizon reinforcement learning (RL) for large language models faces critical scalability challenges from unbounded context growth, leading to context folding methods that compress interaction history during task execution. However, existing approaches treat summary actions as standard actions, overlooking that summaries fundamentally modify the agent's future observation space, creating a policy-dependent, non-stationary observation distribution that violates core RL assumptions. This intro"
+}

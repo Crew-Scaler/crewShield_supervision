@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2512.01335v1",
+  "title": "EmoRAG: Evaluating RAG Robustness to Symbolic Perturbations",
+  "authors": [
+    "Xinyun Zhou",
+    "Xinfeng Li",
+    "Yinan Peng",
+    "Ming Xu",
+    "Xuanwang Zhang",
+    "Miao Yu",
+    "Yidong Wang",
+    "Xiaojun Jia",
+    "Kun Wang",
+    "Qingsong Wen",
+    "XiaoFeng Wang",
+    "Wei Dong"
+  ],
+  "published": "2025-12-01T06:53:49Z",
+  "url": "http://arxiv.org/abs/2512.01335v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.01335v1.pdf",
+  "relevance_score": 85,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Retrieval-Augmented Generation (RAG) systems are increasingly central to robust AI, enhancing large language model (LLM) faithfulness by incorporating external knowledge. However, our study unveils a critical, overlooked vulnerability: their profound susceptibility to subtle symbolic perturbations, particularly through near-imperceptible emoticon tokens such as \"(@_@)\" that can catastrophically mislead retrieval, termed EmoRAG. We demonstrate that injecting a single emoticon into a query makes i"
+}

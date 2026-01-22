@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.06899v1",
+  "title": "Patronus: Identifying and Mitigating Transferable Backdoors in Pre-trained Language Models",
+  "authors": [
+    "Tianhang Zhao",
+    "Wei Du",
+    "Haodong Zhao",
+    "Sufeng Duan",
+    "Gongshen Liu"
+  ],
+  "published": "2025-12-07T15:51:56Z",
+  "url": "http://arxiv.org/abs/2512.06899v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.06899v1.pdf",
+  "relevance_score": 62,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Transferable backdoors pose a severe threat to the Pre-trained Language Models (PLMs) supply chain, yet defensive research remains nascent, primarily relying on detecting anomalies in the output feature space. We identify a critical flaw that fine-tuning on downstream tasks inevitably modifies model parameters, shifting the output distribution and rendering pre-computed defense ineffective. To address this, we propose Patronus, a novel framework that use input-side invariance of triggers against"
+}

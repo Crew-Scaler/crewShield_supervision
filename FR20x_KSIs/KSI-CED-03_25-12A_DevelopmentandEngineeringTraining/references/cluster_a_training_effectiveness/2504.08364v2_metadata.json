@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2504.08364v2",
+  "title": "DRIP: DRop unImportant data Points -- Enhancing Machine Learning Efficiency with Grad-CAM-Based Real-Time Data Prioritization for On-Device Training",
+  "authors": [
+    "Marcus R\u00fcb",
+    "Daniel Konegen",
+    "Patrick Selle",
+    "Axel Sikora",
+    "Daniel Mueller-Gritschneder"
+  ],
+  "published": "2025-04-11T09:00:49Z",
+  "url": "http://arxiv.org/abs/2504.08364v2",
+  "pdf_url": "http://arxiv.org/pdf/2504.08364v2.pdf",
+  "relevance_score": 97,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Selecting data points for model training is critical in machine learning. Effective selection methods can reduce the labeling effort, optimize on-device training for embedded systems with limited data storage, and enhance the model performance. This paper introduces a novel algorithm that uses Grad-CAM to make online decisions about retaining or discarding data points. Optimized for embedded devices, the algorithm computes a unique DRIP Score to quantify the importance of each data point. This e"
+}

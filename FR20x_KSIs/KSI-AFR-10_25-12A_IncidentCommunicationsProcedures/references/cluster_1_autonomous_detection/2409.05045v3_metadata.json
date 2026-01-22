@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2409.05045v3",
+  "title": "Using Large Language Models for Template Detection from Security Event Logs",
+  "authors": [
+    "Risto Vaarandi",
+    "Hayretdin Bahsi"
+  ],
+  "published": "2024-09-08T10:06:54Z",
+  "url": "http://arxiv.org/abs/2409.05045v3",
+  "pdf_url": "http://arxiv.org/pdf/2409.05045v3.pdf",
+  "relevance_score": 100,
+  "summary": "In modern IT systems and computer networks, real-time and offline event log analysis is a crucial part of cyber security monitoring. In particular, event log analysis techniques are essential for the timely detection of cyber attacks and for assisting security experts with the analysis of past security incidents. The detection of line patterns or templates from unstructured textual event logs has been identified as an important task of event log analysis since detected templates represent event types in the event log and prepare the logs for downstream online or offline security monitoring tasks. During the last two decades, a number of template mining algorithms have been proposed. However, many proposed algorithms rely on traditional data mining techniques, and the usage of Large Language Models (LLMs) has received less attention so far. Also, most approaches that harness LLMs are supervised, and unsupervised LLM-based template mining remains an understudied area. The current paper addresses this research gap and investigates the application of LLMs for unsupervised detection of templates from unstructured security event logs."
+}

@@ -1,0 +1,285 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20604v1",
+    "arxiv_id": "2512.20604v1",
+    "title": "MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts",
+    "summary": "We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diffusion models in long document generation. Existing diffusion based text generation models, such as DiffuSeq, suffer from high computational cost and memory overhead when applied to extended sequences. To address these challenges, MoE-DiffuSeq integrates sparse attention with a mixture of experts architecture, enabling efficient and scalable long sequence modeling. Our approach introduces a customized sparse attention mechanism designed to reduce computational complexity while preserving text quality and coherence. In addition, we incorporate a soft absorbing state within the diffusion process to accelerate sequence reconstruction and improve generation precision. Extensive experiments demonstrate that MoE-DiffuSeq significantly improves training efficiency and sampling speed compared to existing diffusion models. These advantages are particularly effective for long document scenarios, including scientific article generation, code repository modeling, and long form dialogue generation. Benchmark results further show that MoE-DiffuSeq improves efficiency, speed, accuracy, and expressiveness, advancing the practical applicability of diffusion models for high quality long form text generation.",
+    "published": "2025-12-23T18:50:54Z",
+    "updated": "2025-12-23T18:50:54Z",
+    "authors": [
+      "Alexandros Christoforos",
+      "Chadbourne Davis"
+    ],
+    "affiliations": [],
+    "first_author": "Alexandros Christoforos",
+    "pdf_url": "https://arxiv.org/pdf/2512.20604v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20574v1",
+    "arxiv_id": "2512.20574v1",
+    "title": "Revisiting the near infrared Calcium triplet as metallicity indicator",
+    "summary": "The near-infrared Calcium II Triplet (CaT), around 850nm, is a key metallicity indicator for red giant stars. We present a revised [Fe/H] calibration as a function of CaT line strengths and four luminosity indicators, including the $Gaia$ $G$-band, together with the classical $V$, $I$, and $K_s$ bandpasses. For this purpose, we used a sample of 366 red giant stars belonging to 25 globular and open clusters, complemented by 52 extremely metal-poor field giant stars. The CaT line strengths are determined by fitting Gaussian-Lorentzian combination profiles using the Python lmfit package, which utilises the algorithms implemented therein. The derived calibration is valid for a wide metallicity range, $-4$\\,dex$ \\lesssim \\mathrm{[Fe/H]} \\lesssim +0.15$, and for ages older than $\\sim$200 Myr. In addition, we performed a detailed assessment of how factors such as spectral resolution, spectral quality (expressed through the signal-to-noise ratio), and the algorithms used to constrain the line profiles affect the measured line strengths and the resulting metallicities.",
+    "published": "2025-12-23T18:17:25Z",
+    "updated": "2025-12-23T18:17:25Z",
+    "authors": [
+      "M. Navabi",
+      "R. Carrera",
+      "N. E. D. No\u00ebl",
+      "C. Gallart",
+      "E. Pancino",
+      "M. De Leo"
+    ],
+    "affiliations": [],
+    "first_author": "M. Navabi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20574v1",
+    "primary_category": "astro-ph.SR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20544v1",
+    "arxiv_id": "2512.20544v1",
+    "title": "Machine Learning vs. SED-Fitting: A Comparative Analysis of Accuracy in Stellar Mass Estimation",
+    "summary": "Traditional spectral energy distribution (SED)-fitting methods for stellar mass estimation face persistent challenges including systematic biases and computational constraints. We present a controlled comparison of machine learning (ML) and SED-fitting methods, assessing their accuracy, robustness, and computational efficiency. Using a sample of COSMOS-like galaxies from the Horizon-AGN simulation as a benchmark with known true masses, we evaluate the Parametric t-SNE (Pt-SNE) algorithm -- trained on noise-injected BC03 models -- against the established SED-fitting code LePhare. Our results demonstrate that Pt-SNE achieves superior accuracy, with a root-mean-square error (sigma_F) of 0.169 dex compared to LePhare's 0.306 dex. Crucially, Pt-SNE exhibits significantly lower bias (0.029 dex) compared to LePhare (0.286 dex). Pt-SNE also shows greater robustness across all stellar mass ranges, particularly for low-mass galaxies (10^9 to 10^10 solar masses), where it reduces errors by 47-53 %. Even when restricted to only six optical bands, Pt-SNE outperforms LePhare using all 26 available photometric bands, underscoring its superior informational efficiency. Computationally, Pt-SNE processes large datasets approximately 3.2 x 10^3 times faster than LePhare. These findings highlight the fundamental advantages of ML methods for stellar mass estimation, demonstrating their potential to deliver more accurate, stable, and scalable measurements for large-scale galaxy surveys.",
+    "published": "2025-12-23T17:38:05Z",
+    "updated": "2025-12-23T17:38:05Z",
+    "authors": [
+      "Vahid Asadi",
+      "Akram Hasani Zonoozi",
+      "Hosein Haghi"
+    ],
+    "affiliations": [],
+    "first_author": "Vahid Asadi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20544v1",
+    "primary_category": "astro-ph.GA",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20482v1",
+    "arxiv_id": "2512.20482v1",
+    "title": "SweRank+: Multilingual, Multi-Turn Code Ranking for Software Issue Localization",
+    "summary": "Maintaining large-scale, multilingual codebases hinges on accurately localizing issues, which requires mapping natural-language error descriptions to the relevant functions that need to be modified. However, existing ranking approaches are often Python-centric and perform a single-pass search over the codebase. This work introduces SweRank+, a framework that couples SweRankMulti, a cross-lingual code ranking tool, with SweRankAgent, an agentic search setup, for iterative, multi-turn reasoning over the code repository. SweRankMulti comprises a code embedding retriever and a listwise LLM reranker, and is trained using a carefully curated large-scale issue localization dataset spanning multiple popular programming languages. SweRankAgent adopts an agentic search loop that moves beyond single-shot localization with a memory buffer to reason and accumulate relevant localization candidates over multiple turns. Our experiments on issue localization benchmarks spanning various languages demonstrate new state-of-the-art performance with SweRankMulti, while SweRankAgent further improves localization over single-pass ranking.",
+    "published": "2025-12-23T16:18:39Z",
+    "updated": "2025-12-23T16:18:39Z",
+    "authors": [
+      "Revanth Gangi Reddy",
+      "Ye Liu",
+      "Wenting Zhao",
+      "JaeHyeok Doo",
+      "Tarun Suresh",
+      "Daniel Lee",
+      "Caiming Xiong",
+      "Yingbo Zhou",
+      "Semih Yavuz",
+      "Shafiq Joty"
+    ],
+    "affiliations": [],
+    "first_author": "Revanth Gangi Reddy",
+    "pdf_url": "https://arxiv.org/pdf/2512.20482v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20463v1",
+    "arxiv_id": "2512.20463v1",
+    "title": "Characterization of the BIFROST spectrometer through virtual experiments",
+    "summary": "Using the Monte Carlo ray tracing package McStas, we illustrate the possibilities of creating virtual experiments of the neutron spectrometer BIFROST at the European Spallation Source, ESS. With this model, we are able to benchmark BIFROST with respect to expected intensity, $Q$- and energy-resolution. The simulations reproduce the expected resolution behavior and quantify effects that are difficult to capture analytically, including a wavelength-dependent edge enhancement arising from a combination of the long-pulsed source and the pulse-shaping chopper. Furthermore, we present an antiferromagnetic (AF) spin wave simulation, which we use to create realistic datasets at different instrument operation settings. Our virtual experiments focus on realistic dispersive dynamics and illustrate how the virtual experiment approach reveal resolution effects, not easily calculable via analytical models. This demonstrates the crucial role of numerical simulations in the planning of challenging experiments.",
+    "published": "2025-12-23T15:56:43Z",
+    "updated": "2025-12-23T15:56:43Z",
+    "authors": [
+      "Kristine M. L. Krighaar",
+      "Silas B. Schack",
+      "Nicolai L. Amin",
+      "Gregory S. Tucker",
+      "Rasmus Toft-Petersen",
+      "Kim Lefmann"
+    ],
+    "affiliations": [],
+    "first_author": "Kristine M. L. Krighaar",
+    "pdf_url": "https://arxiv.org/pdf/2512.20463v1",
+    "primary_category": "physics.ins-det",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20459v1",
+    "arxiv_id": "2512.20459v1",
+    "title": "Opening a gap in the collective excitation modes of a driven-dissipative condensate in the presence of an external coherent drive",
+    "summary": "We build a minimal theoretical model to describe the opening of a gap in the dispersion of the collective excitations of a driven-dissipative condensate when the condensate phase is fixed by an additional coherent phase-locking drive. We map out the phase diagram as a function of the frequency and the strength of the coherent drive. We identify regions where the gap is purely imaginary or has a finite real part. When the coherent drive is unable to lock the condensate phase, a gapless Goldstone mode is recovered in the Floquet-Bogoliubov dispersion of collective modes. We finally characterize regions of finite-wavevector dynamical instability, where the condensate tends to develop a supersolid-like spatial modulation. While our theoretical framework is directly related to recent experiments with exciton-polariton condensates, it can be applied to describe the effect of external injection also in a variety of spatially extended optical parametric oscillators or laser devices.",
+    "published": "2025-12-23T15:53:42Z",
+    "updated": "2025-12-23T15:53:42Z",
+    "authors": [
+      "E. Stazzu",
+      "G. A. P. Sacchetto",
+      "I. Carusotto"
+    ],
+    "affiliations": [],
+    "first_author": "E. Stazzu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20459v1",
+    "primary_category": "cond-mat.quant-gas",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20423v1",
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "published": "2025-12-23T15:07:17Z",
+    "updated": "2025-12-23T15:07:17Z",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "affiliations": [],
+    "first_author": "Adam Elaoumari",
+    "pdf_url": "https://arxiv.org/pdf/2512.20423v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20414v1",
+    "arxiv_id": "2512.20414v1",
+    "title": "Topological resolution of conical intersection seams and the coupled cluster bifurcation via mixed Hodge modules",
+    "summary": "The rigorous description of Conical Intersections (CIs) remains the central challenge of non-adiabatic quantum chemistry. While the ``Yarkony Seam'' -- the $(3N-8)$-dimensional manifold of degeneracy -- is well-understood geometrically, its accurate characterization by high-level electronic structure methods is plagued by numerical instabilities. Specifically, standard Coupled Cluster (CC) theory suffers from root bifurcations near Ground State CIs, rendering the ``Gold Standard'' of chemistry inapplicable where it is needed most. Here, we present \\textbf{QuMorpheus}, an open-source computational package that resolves these singularities by implementing a topological framework based on Dissipative Mixed Hodge Modules (DMHM) [P. Saurabh, arXiv:2512.19487 (2025)]. By algorithmically mapping the CC polynomial equations to a spectral sheaf, we compute the exact Monodromy ($\u03bc$) invariants of the intersection. We demonstrate that this automated algebraic geometry approach correctly identifies the physical ground state topology in the K\u00f6hn-Tajti model and resolves the intersection seams of realistic chemical systems, including Ethylene and the Chloronium ion ($\\mathrm{H_2Cl^+}$). Furthermore, we apply QuMorpheus to the photoisomerization of Previtamin D, proving that the experimentally observed Woodward-Hoffmann selection rules are a direct consequence of a topological ``Monodromy Wall'' ($\u03bc=1, \u03b3=\u03c0$) rather than purely energetic barriers. This establishes a general software solution to the ``Yarkony Problem,'' enabling the robust, automated mapping of global intersection seams in complex molecular systems. The topological stability of these intersections allows for the control protocols discussed in Ref.[P. Saurabh, Submitted to Phys. Rev. X (2025)].",
+    "published": "2025-12-23T14:58:23Z",
+    "updated": "2025-12-23T14:58:23Z",
+    "authors": [
+      "Prasoon Saurabh"
+    ],
+    "affiliations": [],
+    "first_author": "Prasoon Saurabh",
+    "pdf_url": "https://arxiv.org/pdf/2512.20414v1",
+    "primary_category": "physics.chem-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20405v1",
+    "arxiv_id": "2512.20405v1",
+    "title": "ChatGPT: Excellent Paper! Accept It. Editor: Imposter Found! Review Rejected",
+    "summary": "Large Language Models (LLMs) like ChatGPT are now widely used in writing and reviewing scientific papers. While this trend accelerates publication growth and reduces human workload, it also introduces serious risks. Papers written or reviewed by LLMs may lack real novelty, contain fabricated or biased results, or mislead downstream research that others depend on. Such issues can damage reputations, waste resources, and even endanger lives when flawed studies influence medical or safety-critical systems. This research explores both the offensive and defensive sides of this growing threat. On the attack side, we demonstrate how an author can inject hidden prompts inside a PDF that secretly guide or \"jailbreak\" LLM reviewers into giving overly positive feedback and biased acceptance. On the defense side, we propose an \"inject-and-detect\" strategy for editors, where invisible trigger prompts are embedded into papers; if a review repeats or reacts to these triggers, it reveals that the review was generated by an LLM, not a human. This method turns prompt injections from vulnerability into a verification tool. We outline our design, expected model behaviors, and ethical safeguards for deployment. The goal is to expose how fragile today's peer-review process becomes under LLM influence and how editorial awareness can help restore trust in scientific evaluation.",
+    "published": "2025-12-23T14:54:45Z",
+    "updated": "2025-12-23T14:54:45Z",
+    "authors": [
+      "Kanchon Gharami",
+      "Sanjiv Kumar Sarkar",
+      "Yongxin Liu",
+      "Shafika Showkat Moni"
+    ],
+    "affiliations": [],
+    "first_author": "Kanchon Gharami",
+    "pdf_url": "https://arxiv.org/pdf/2512.20405v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20402v1",
+    "arxiv_id": "2512.20402v1",
+    "title": "iblock: Accurate and Scalable Bitcoin Simulations with OMNeT++",
+    "summary": "This paper proposes iblock, a comprehensive C++ library for Bitcoin simulation, designed for OMNeT++. iblock offers superior efficiency and scalability with respect to state-of-the-art simulators, which are typically written in high-level languages. Moreover, the possible integration with other OMNeT++ libraries allows highly detailed simulations. We measure iblock's performance against a state-of-the-art blockchain simulator, proving that it is more efficient at the same level of simulation detail. We also validate iblock by using it to simulate different scenarios such as the normal Bitcoin operation and the selfish mine attack, showing that simulation results are coherent with theoretical expectations.",
+    "published": "2025-12-23T14:43:03Z",
+    "updated": "2025-12-23T14:43:03Z",
+    "authors": [
+      "Niccol\u00f2 Scatena",
+      "Pericle Perazzo",
+      "Giovanni Nardini"
+    ],
+    "affiliations": [],
+    "first_author": "Niccol\u00f2 Scatena",
+    "pdf_url": "https://arxiv.org/pdf/2512.20402v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20391v1",
+    "arxiv_id": "2512.20391v1",
+    "title": "Contingency Model-based Control (CMC) for Communicationless Cooperative Collision Avoidance in Robot Swarms",
+    "summary": "Cooperative collision avoidance between robots in swarm operations remains an open challenge. Assuming a decentralized architecture, each robot is responsible for making its own control decisions, including motion planning. To this end, most existing approaches mostly rely some form of (wireless) communication between the agents of the swarm. In reality, however, communication is brittle. It may be affected by latency, further delays and packet losses, transmission faults, and is subject to adversarial attacks, such as jamming or spoofing. This paper proposes Contingency Model-based Control (CMC) as a communicationless alternative. It follows the implicit cooperation paradigm, under which the design of the robots is based on consensual (offline) rules, similar to traffic rules. They include the definition of a contingency trajectory for each robot, and a method for construction of mutual collision avoidance constraints. The setup is shown to guarantee the recursive feasibility and collision avoidance between all swarm members in closed-loop operation. Moreover, CMC naturally satisfies the Plug \\& Play paradigm, i.e., for new robots entering the swarm. Two numerical examples demonstrate that the collision avoidance guarantee is intact and that the robot swarm operates smoothly under the CMC regime.",
+    "published": "2025-12-23T14:28:42Z",
+    "updated": "2025-12-23T14:28:42Z",
+    "authors": [
+      "Georg Schildbach"
+    ],
+    "affiliations": [],
+    "first_author": "Georg Schildbach",
+    "pdf_url": "https://arxiv.org/pdf/2512.20391v1",
+    "primary_category": "math.OC",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20365v1",
+    "arxiv_id": "2512.20365v1",
+    "title": "Before We Inject: Assessing the Impact of Silica-Based Aerosols on Stratospheric Chemistry via a Kinetic Model Informed by Molecular Dynamics",
+    "summary": "Stratospheric aerosol injection (SAI) has been proposed as a geoengineering strategy to mitigate global warming by increasing Earth's albedo. Silica-based materials, such as diamond-doped silica aerogels, have shown promising optical properties, but their impact on stratospheric chemistry, ozone one in particular, remains largely unknown. Here, we present first-principles molecular dynamics (MD) simulations of the heterogeneous reaction between hydrogen chloride ($\\mathrm{HCl}$) and chlorine nitrate ($\\mathrm{ClONO_2}$), two main reservoirs of stratospheric chlorine and nitrogen species, on a dry, hydroxylated $\u03b1$-quartz silica interface. Our results reveal a barrierless reaction pathway toward the formation of chlorine gas ($\\mathrm{Cl}_2$), a major contributor to stratospheric ozone loss. We design a heterogeneous kinetic model informed by our MD simulation and available experimental data: despite the barrierless formation of $\\mathrm{Cl_2}$, the higher surface affinities and partial pressures of $\\mathrm{HNO_3}$ and $\\mathrm{HCl}$ compared to those of $\\mathrm{ClONO_2}$ result in a negligible reaction probability, $\u03b3_\\mathrm{ClONO_2}$, upon chlorine nitrate collision with the silica surface. Since $\u03b3_\\mathrm{ClONO_2}$ enters as a proportionality constant in the definition of the heterogeneous reaction rate, our kinetic model indicates that the injection of silica-based aerosols may have only a limited impact on stratospheric ozone depletion driven by $\\mathrm{HCl}$ and $\\mathrm{ClONO_2}$ chemistry. At the same time, our findings also underscore the scarcity of experimental data, the need of better theoretical frameworks for the inclusion of MD results into kinetic models, and the urgency for further experimental validations of silica-based SAI technologies before their deployment in climate intervention strategies.",
+    "published": "2025-12-23T13:50:25Z",
+    "updated": "2025-12-23T13:50:25Z",
+    "authors": [
+      "Dennis Lima",
+      "Saif Al-Kuwari",
+      "Ivan Gladich"
+    ],
+    "affiliations": [],
+    "first_author": "Dennis Lima",
+    "pdf_url": "https://arxiv.org/pdf/2512.20365v1",
+    "primary_category": "physics.chem-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20340v1",
+    "arxiv_id": "2512.20340v1",
+    "title": "The devil is in the details: Enhancing Video Virtual Try-On via Keyframe-Driven Details Injection",
+    "summary": "Although diffusion transformer (DiT)-based video virtual try-on (VVT) has made significant progress in synthesizing realistic videos, existing methods still struggle to capture fine-grained garment dynamics and preserve background integrity across video frames. They also incur high computational costs due to additional interaction modules introduced into DiTs, while the limited scale and quality of existing public datasets also restrict model generalization and effective training. To address these challenges, we propose a novel framework, KeyTailor, along with a large-scale, high-definition dataset, ViT-HD. The core idea of KeyTailor is a keyframe-driven details injection strategy, motivated by the fact that keyframes inherently contain both foreground dynamics and background consistency. Specifically, KeyTailor adopts an instruction-guided keyframe sampling strategy to filter informative frames from the input video. Subsequently,two tailored keyframe-driven modules, the garment details enhancement module and the collaborative background optimization module, are employed to distill garment dynamics into garment-related latents and to optimize the integrity of background latents, both guided by keyframes.These enriched details are then injected into standard DiT blocks together with pose, mask, and noise latents, enabling efficient and realistic try-on video synthesis. This design ensures consistency without explicitly modifying the DiT architecture, while simultaneously avoiding additional complexity. In addition, our dataset ViT-HD comprises 15, 070 high-quality video samples at a resolution of 810*1080, covering diverse garments. Extensive experiments demonstrate that KeyTailor outperforms state-of-the-art baselines in terms of garment fidelity and background integrity across both dynamic and static scenarios.",
+    "published": "2025-12-23T13:15:31Z",
+    "updated": "2025-12-23T13:15:31Z",
+    "authors": [
+      "Qingdong He",
+      "Xueqin Chen",
+      "Yanjie Pan",
+      "Peng Tang",
+      "Pengcheng Xu",
+      "Zhenye Gan",
+      "Chengjie Wang",
+      "Xiaobin Hu",
+      "Jiangning Zhang",
+      "Yabiao Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Qingdong He",
+    "pdf_url": "https://arxiv.org/pdf/2512.20340v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20335v1",
+    "arxiv_id": "2512.20335v1",
+    "title": "Status of the Muon g-2/EDM Experiment at J-PARC",
+    "summary": "The Muon g-2/EDM Experiment at J-PARC will employ a novel way to measure the muon magnetic anomaly, a_mu = (g-2)_mu/2, by using a low-emittance beam of positive muons stored in a compact muon storage magnet. The experimental method includes new technologies such as a three-dimensional spiral injection, an MRI-type storage magnet with superb field uniformity, and a positron tracking detector. The expected systematic uncertainty will be at the same level as that of the Fermilab Muon g-2 experiment, providing an important cross-check of the \"storage-ring method\" employed at BNL and Fermilab. I will present the current status of the experiment, ongoing tests and design optimizations, and the plans for improvements of the experimental precision.",
+    "published": "2025-12-23T13:08:35Z",
+    "updated": "2025-12-23T13:08:35Z",
+    "authors": [
+      "Graziano Venanzoni"
+    ],
+    "affiliations": [],
+    "first_author": "Graziano Venanzoni",
+    "pdf_url": "https://arxiv.org/pdf/2512.20335v1",
+    "primary_category": "hep-ex",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20323v1",
+    "arxiv_id": "2512.20323v1",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "published": "2025-12-23T12:45:49Z",
+    "updated": "2025-12-23T12:45:49Z",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Ya\u011fmur Baydemir"
+    ],
+    "affiliations": [],
+    "first_author": "Ipek Sena Yilmaz",
+    "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  }
+]

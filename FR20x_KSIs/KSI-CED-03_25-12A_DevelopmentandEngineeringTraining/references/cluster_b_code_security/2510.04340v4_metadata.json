@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.04340v4",
+  "title": "Inoculation Prompting: Eliciting traits from LLMs during training can suppress them at test-time",
+  "authors": [
+    "Daniel Tan",
+    "Anders Woodruff",
+    "Niels Warncke",
+    "Arun Jose",
+    "Maxime Rich\u00e9",
+    "David Demitri Africa",
+    "Mia Taylor"
+  ],
+  "published": "2025-10-05T20:04:22Z",
+  "url": "http://arxiv.org/abs/2510.04340v4",
+  "pdf_url": "http://arxiv.org/pdf/2510.04340v4.pdf",
+  "relevance_score": 69,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Language model finetuning often results in learning undesirable traits in combination with desired ones. To address this, we propose inoculation prompting: modifying finetuning data by prepending a short system-prompt instruction that deliberately elicits the undesirable trait. At test time, we evaluate without the instruction; inoculated models have much lower expression of the trait than models trained with unmodified training data. Inoculation is selective: in a toy setting where assistant re"
+}

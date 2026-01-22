@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2509.18133v4",
+  "title": "Self-Evolving LLMs via Continual Instruction Tuning",
+  "authors": [
+    "Jiazheng Kang",
+    "Le Huang",
+    "Cheng Hou",
+    "Zhe Zhao",
+    "Zhenxiang Yan",
+    "Ting Bai"
+  ],
+  "published": "2025-09-14T04:04:19Z",
+  "url": "http://arxiv.org/abs/2509.18133v4",
+  "pdf_url": "http://arxiv.org/pdf/2509.18133v4.pdf",
+  "relevance_score": 82,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "In real-world industrial settings, large language models (LLMs) must learn continually to keep pace with diverse and evolving tasks, requiring self-evolution to refine knowledge under dynamic data distributions. However, existing continual learning (CL) approaches, such as replay and parameter isolation, often suffer from catastrophic forgetting: training on new tasks degrades performance on earlier ones by overfitting to the new distribution and weakening generalization.We propose MoE-CL, a par"
+}

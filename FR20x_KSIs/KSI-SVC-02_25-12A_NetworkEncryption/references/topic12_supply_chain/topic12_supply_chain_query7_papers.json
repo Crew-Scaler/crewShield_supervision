@@ -1,0 +1,295 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20004v1",
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "summary": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+    "published": "2025-12-23T02:57:33Z",
+    "updated": "2025-12-23T02:57:33Z",
+    "authors": [
+      "Rahul Yumlembam",
+      "Biju Issac",
+      "Seibu Mary Jacob",
+      "Longzhi Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Rahul Yumlembam",
+    "pdf_url": "https://arxiv.org/pdf/2512.20004v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20423v1",
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "published": "2025-12-23T15:07:17Z",
+    "updated": "2025-12-23T15:07:17Z",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "affiliations": [],
+    "first_author": "Adam Elaoumari",
+    "pdf_url": "https://arxiv.org/pdf/2512.20423v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20405v1",
+    "arxiv_id": "2512.20405v1",
+    "title": "ChatGPT: Excellent Paper! Accept It. Editor: Imposter Found! Review Rejected",
+    "summary": "Large Language Models (LLMs) like ChatGPT are now widely used in writing and reviewing scientific papers. While this trend accelerates publication growth and reduces human workload, it also introduces serious risks. Papers written or reviewed by LLMs may lack real novelty, contain fabricated or biased results, or mislead downstream research that others depend on. Such issues can damage reputations, waste resources, and even endanger lives when flawed studies influence medical or safety-critical systems. This research explores both the offensive and defensive sides of this growing threat. On the attack side, we demonstrate how an author can inject hidden prompts inside a PDF that secretly guide or \"jailbreak\" LLM reviewers into giving overly positive feedback and biased acceptance. On the defense side, we propose an \"inject-and-detect\" strategy for editors, where invisible trigger prompts are embedded into papers; if a review repeats or reacts to these triggers, it reveals that the review was generated by an LLM, not a human. This method turns prompt injections from vulnerability into a verification tool. We outline our design, expected model behaviors, and ethical safeguards for deployment. The goal is to expose how fragile today's peer-review process becomes under LLM influence and how editorial awareness can help restore trust in scientific evaluation.",
+    "published": "2025-12-23T14:54:45Z",
+    "updated": "2025-12-23T14:54:45Z",
+    "authors": [
+      "Kanchon Gharami",
+      "Sanjiv Kumar Sarkar",
+      "Yongxin Liu",
+      "Shafika Showkat Moni"
+    ],
+    "affiliations": [],
+    "first_author": "Kanchon Gharami",
+    "pdf_url": "https://arxiv.org/pdf/2512.20405v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20402v1",
+    "arxiv_id": "2512.20402v1",
+    "title": "iblock: Accurate and Scalable Bitcoin Simulations with OMNeT++",
+    "summary": "This paper proposes iblock, a comprehensive C++ library for Bitcoin simulation, designed for OMNeT++. iblock offers superior efficiency and scalability with respect to state-of-the-art simulators, which are typically written in high-level languages. Moreover, the possible integration with other OMNeT++ libraries allows highly detailed simulations. We measure iblock's performance against a state-of-the-art blockchain simulator, proving that it is more efficient at the same level of simulation detail. We also validate iblock by using it to simulate different scenarios such as the normal Bitcoin operation and the selfish mine attack, showing that simulation results are coherent with theoretical expectations.",
+    "published": "2025-12-23T14:43:03Z",
+    "updated": "2025-12-23T14:43:03Z",
+    "authors": [
+      "Niccol\u00f2 Scatena",
+      "Pericle Perazzo",
+      "Giovanni Nardini"
+    ],
+    "affiliations": [],
+    "first_author": "Niccol\u00f2 Scatena",
+    "pdf_url": "https://arxiv.org/pdf/2512.20402v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20391v1",
+    "arxiv_id": "2512.20391v1",
+    "title": "Contingency Model-based Control (CMC) for Communicationless Cooperative Collision Avoidance in Robot Swarms",
+    "summary": "Cooperative collision avoidance between robots in swarm operations remains an open challenge. Assuming a decentralized architecture, each robot is responsible for making its own control decisions, including motion planning. To this end, most existing approaches mostly rely some form of (wireless) communication between the agents of the swarm. In reality, however, communication is brittle. It may be affected by latency, further delays and packet losses, transmission faults, and is subject to adversarial attacks, such as jamming or spoofing. This paper proposes Contingency Model-based Control (CMC) as a communicationless alternative. It follows the implicit cooperation paradigm, under which the design of the robots is based on consensual (offline) rules, similar to traffic rules. They include the definition of a contingency trajectory for each robot, and a method for construction of mutual collision avoidance constraints. The setup is shown to guarantee the recursive feasibility and collision avoidance between all swarm members in closed-loop operation. Moreover, CMC naturally satisfies the Plug \\& Play paradigm, i.e., for new robots entering the swarm. Two numerical examples demonstrate that the collision avoidance guarantee is intact and that the robot swarm operates smoothly under the CMC regime.",
+    "published": "2025-12-23T14:28:42Z",
+    "updated": "2025-12-23T14:28:42Z",
+    "authors": [
+      "Georg Schildbach"
+    ],
+    "affiliations": [],
+    "first_author": "Georg Schildbach",
+    "pdf_url": "https://arxiv.org/pdf/2512.20391v1",
+    "primary_category": "math.OC",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20323v1",
+    "arxiv_id": "2512.20323v1",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "published": "2025-12-23T12:45:49Z",
+    "updated": "2025-12-23T12:45:49Z",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Ya\u011fmur Baydemir"
+    ],
+    "affiliations": [],
+    "first_author": "Ipek Sena Yilmaz",
+    "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20293v1",
+    "arxiv_id": "2512.20293v1",
+    "title": "AprielGuard",
+    "summary": "Safeguarding large language models (LLMs) against unsafe or adversarial behavior is critical as they are increasingly deployed in conversational and agentic settings. Existing moderation tools often treat safety risks (e.g. toxicity, bias) and adversarial threats (e.g. prompt injections, jailbreaks) as separate problems, limiting their robustness and generalizability. We introduce AprielGuard, an 8B parameter safeguard model that unify these dimensions within a single taxonomy and learning framework. AprielGuard is trained on a diverse mix of open and synthetic data covering standalone prompts, multi-turn conversations, and agentic workflows, augmented with structured reasoning traces to improve interpretability. Across multiple public and proprietary benchmarks, AprielGuard achieves strong performance in detecting harmful content and adversarial manipulations, outperforming existing opensource guardrails such as Llama-Guard and Granite Guardian, particularly in multi-step and reasoning intensive scenarios. By releasing the model, we aim to advance transparent and reproducible research on reliable safeguards for LLMs.",
+    "published": "2025-12-23T12:01:32Z",
+    "updated": "2025-12-23T12:01:32Z",
+    "authors": [
+      "Jaykumar Kasundra",
+      "Anjaneya Praharaj",
+      "Sourabh Surana",
+      "Lakshmi Sirisha Chodisetty",
+      "Sourav Sharma",
+      "Abhigya Verma",
+      "Abhishek Bhardwaj",
+      "Debasish Kanhar",
+      "Aakash Bhagat",
+      "Khalil Slimi",
+      "Seganrasan Subramanian",
+      "Sathwik Tejaswi Madhusudhan",
+      "Ranga Prasad Chenna",
+      "Srinivas Sunkara"
+    ],
+    "affiliations": [],
+    "first_author": "Jaykumar Kasundra",
+    "pdf_url": "https://arxiv.org/pdf/2512.20293v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20218v1",
+    "arxiv_id": "2512.20218v1",
+    "title": "Cost-TrustFL: Cost-Aware Hierarchical Federated Learning with Lightweight Reputation Evaluation across Multi-Cloud",
+    "summary": "Federated learning across multi-cloud environments faces critical challenges, including non-IID data distributions, malicious participant detection, and substantial cross-cloud communication costs (egress fees). Existing Byzantine-robust methods focus primarily on model accuracy while overlooking the economic implications of data transfer across cloud providers. This paper presents Cost-TrustFL, a hierarchical federated learning framework that jointly optimizes model performance and communication costs while providing robust defense against poisoning attacks. We propose a gradient-based approximate Shapley value computation method that reduces the complexity from exponential to linear, enabling lightweight reputation evaluation. Our cost-aware aggregation strategy prioritizes intra-cloud communication to minimize expensive cross-cloud data transfers. Experiments on CIFAR-10 and FEMNIST datasets demonstrate that Cost-TrustFL achieves 86.7% accuracy under 30% malicious clients while reducing communication costs by 32% compared to baseline methods. The framework maintains stable performance across varying non-IID degrees and attack intensities, making it practical for real-world multi-cloud deployments.",
+    "published": "2025-12-23T10:16:43Z",
+    "updated": "2025-12-23T10:16:43Z",
+    "authors": [
+      "Jixiao Yang",
+      "Jinyu Chen",
+      "Zixiao Huang",
+      "Chengda Xu",
+      "Chi Zhang",
+      "Sijia Li"
+    ],
+    "affiliations": [],
+    "first_author": "Jixiao Yang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20218v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20176v1",
+    "arxiv_id": "2512.20176v1",
+    "title": "Optimistic TEE-Rollups: A Hybrid Architecture for Scalable and Verifiable Generative AI Inference on Blockchain",
+    "summary": "The rapid integration of Large Language Models (LLMs) into decentralized physical infrastructure networks (DePIN) is currently bottlenecked by the Verifiability Trilemma, which posits that a decentralized inference system cannot simultaneously achieve high computational integrity, low latency, and low cost. Existing cryptographic solutions, such as Zero-Knowledge Machine Learning (ZKML), suffer from superlinear proving overheads (O(k NlogN)) that render them infeasible for billionparameter models. Conversely, optimistic approaches (opML) impose prohibitive dispute windows, preventing real-time interactivity, while recent \"Proof of Quality\" (PoQ) paradigms sacrifice cryptographic integrity for subjective semantic evaluation, leaving networks vulnerable to model downgrade attacks and reward hacking. In this paper, we introduce Optimistic TEE-Rollups (OTR), a hybrid verification protocol that harmonizes these constraints. OTR leverages NVIDIA H100 Confidential Computing Trusted Execution Environments (TEEs) to provide sub-second Provisional Finality, underpinned by an optimistic fraud-proof mechanism and stochastic Zero-Knowledge spot-checks to mitigate hardware side-channel risks. We formally define Proof of Efficient Attribution (PoEA), a consensus mechanism that cryptographically binds execution traces to hardware attestations, thereby guaranteeing model authenticity. Extensive simulations demonstrate that OTR achieves 99% of the throughput of centralized baselines with a marginal cost overhead of $0.07 per query, maintaining Byzantine fault tolerance against rational adversaries even in the presence of transient hardware vulnerabilities.",
+    "published": "2025-12-23T09:16:41Z",
+    "updated": "2025-12-23T09:16:41Z",
+    "authors": [
+      "Aaron Chan",
+      "Alex Ding",
+      "Frank Chen",
+      "Alan Wu",
+      "Bruce Zhang",
+      "Arther Tian"
+    ],
+    "affiliations": [],
+    "first_author": "Aaron Chan",
+    "pdf_url": "https://arxiv.org/pdf/2512.20176v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20168v1",
+    "arxiv_id": "2512.20168v1",
+    "title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+    "summary": "By integrating language understanding with perceptual modalities such as images, multimodal large language models (MLLMs) constitute a critical substrate for modern AI systems, particularly intelligent agents operating in open and interactive environments. However, their increasing accessibility also raises heightened risks of misuse, such as generating harmful or unsafe content. To mitigate these risks, alignment techniques are commonly applied to align model behavior with human values. Despite these efforts, recent studies have shown that jailbreak attacks can circumvent alignment and elicit unsafe outputs. Currently, most existing jailbreak methods are tailored for open-source models and exhibit limited effectiveness against commercial MLLM-integrated systems, which often employ additional filters. These filters can detect and prevent malicious input and output content, significantly reducing jailbreak threats. In this paper, we reveal that the success of these safety filters heavily relies on a critical assumption that malicious content must be explicitly visible in either the input or the output. This assumption, while often valid for traditional LLM-integrated systems, breaks down in MLLM-integrated systems, where attackers can leverage multiple modalities to conceal adversarial intent, leading to a false sense of security in existing MLLM-integrated systems. To challenge this assumption, we propose Odysseus, a novel jailbreak paradigm that introduces dual steganography to covertly embed malicious queries and responses into benign-looking images. Extensive experiments on benchmark datasets demonstrate that our Odysseus successfully jailbreaks several pioneering and realistic MLLM-integrated systems, achieving up to 99% attack success rate. It exposes a fundamental blind spot in existing defenses, and calls for rethinking cross-modal security in MLLM-integrated systems.",
+    "published": "2025-12-23T08:53:36Z",
+    "updated": "2025-12-23T08:53:36Z",
+    "authors": [
+      "Songze Li",
+      "Jiameng Cheng",
+      "Yiming Li",
+      "Xiaojun Jia",
+      "Dacheng Tao"
+    ],
+    "affiliations": [],
+    "first_author": "Songze Li",
+    "pdf_url": "https://arxiv.org/pdf/2512.20168v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20164v1",
+    "arxiv_id": "2512.20164v1",
+    "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications",
+    "summary": "Large Language Models (LLMs) excel at text comprehension and generation, making them ideal for automated tasks like code review and content moderation. However, our research identifies a vulnerability: LLMs can be manipulated by \"adversarial instructions\" hidden in input data, such as resumes or code, causing them to deviate from their intended task. Notably, while defenses may exist for mature domains such as code review, they are often absent in other common applications such as resume screening and peer review. This paper introduces a benchmark to assess this vulnerability in resume screening, revealing attack success rates exceeding 80% for certain attack types. We evaluate two defense mechanisms: prompt-based defenses achieve 10.1% attack reduction with 12.5% false rejection increase, while our proposed FIDS (Foreign Instruction Detection through Separation) using LoRA adaptation achieves 15.4% attack reduction with 10.4% false rejection increase. The combined approach provides 26.3% attack reduction, demonstrating that training-time defenses outperform inference-time mitigations in both security and utility preservation.",
+    "published": "2025-12-23T08:42:09Z",
+    "updated": "2025-12-23T08:42:09Z",
+    "authors": [
+      "Honglin Mu",
+      "Jinghao Liu",
+      "Kaiyang Wan",
+      "Rui Xing",
+      "Xiuying Chen",
+      "Timothy Baldwin",
+      "Wanxiang Che"
+    ],
+    "affiliations": [],
+    "first_author": "Honglin Mu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20164v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20077v1",
+    "arxiv_id": "2512.20077v1",
+    "title": "Fault Injection Attacks on Machine Learning-based Quantum Computer Readout Error Correction",
+    "summary": "Machine-learning (ML) classifiers are increasingly used in quantum computing systems to improve multi-qubit readout discrimination and to mitigate correlated readout errors. These ML classifiers are an integral component of today's quantum computer's control and readout stacks. This paper is the first to analyze the susceptibility of such ML classifiers to physical fault-injection which can result in generation of incorrect readout results from quantum computers. The study targets 5-qubit (thus 32-class) readout error-correction model. Using the ChipWhisperer Husky for physical voltage glitching, this work leverages an automated algorithm for scanning the fault injection parameter search space to find various successful faults in all the layers of the target ML model. Across repeated trials, this work finds that fault susceptibility is strongly layer-dependent: early-layers demonstrate higher rates of misprediction when faults are triggered in them, whereas later layers have smaller misprediction rates. This work further characterizes the resulting readout failures at the bitstring level using Hamming-distance and per-bit flip statistics, showing that single-shot glitches can induce structured readout corruption rather than purely random noise. These results motivate treating ML-based quantum computer readout and readout correction as a security-critical component of quantum systems and highlight the need for lightweight, deployment-friendly fault detection and redundancy mechanisms in the quantum computer readout pipelines.",
+    "published": "2025-12-23T06:19:14Z",
+    "updated": "2025-12-23T06:19:14Z",
+    "authors": [
+      "Anthony Etim",
+      "Jakub Szefer"
+    ],
+    "affiliations": [],
+    "first_author": "Anthony Etim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20077v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20038v1",
+    "arxiv_id": "2512.20038v1",
+    "title": "Experimental Efficient Source-Independent Quantum Conference Key Agreement",
+    "summary": "Multipartite entanglement enables secure group key distribution among multiple users while providing immunity against hacking attacks targeting source devices, thereby realizing source-independent quantum conference key agreement (SI-QCKA). However, previous experimental demonstrations of SI-QCKA have encountered substantial technical challenges, primarily due to the low efficiency and scalability limitations inherent in the generation and distribution of multipartite entanglement. Here, we experimentally demonstrate a scalable and efficient SI-QCKA protocol using polarization-entangled photon pairs in a three-user star network, where Greenberger-Horne-Zeilinger correlations are realized via a post-matching method. We achieve a secure group key rate of $2.11 \\times 10^{4}$ bits/s under the single-user channel transmission of 1.64 $\\times$ $10^{-1}$ in a symmetric channel loss network. Additionally, we conduct six sets of experiments to investigate the impact of varying channel transmission and random basis selection probabilities on secure key rates. Our work establishes an efficient pathway for SI-QCKA and demonstrates potential scalability for future large-scale multi-user quantum networks.",
+    "published": "2025-12-23T04:08:35Z",
+    "updated": "2025-12-23T04:08:35Z",
+    "authors": [
+      "Wen-Ji Hua",
+      "Yi-Ran Xiao",
+      "Yu Bao",
+      "Hua-Lei Yin",
+      "Zeng-Bing Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Wen-Ji Hua",
+    "pdf_url": "https://arxiv.org/pdf/2512.20038v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19968v1",
+    "arxiv_id": "2512.19968v1",
+    "title": "Fast Deterministically Safe Proof-of-Work Consensus",
+    "summary": "Permissionless blockchains achieve consensus while allowing unknown nodes to join and leave the system at any time. They typically come in two flavors: proof of work (PoW) and proof of stake (PoS), and both are vulnerable to attacks. PoS protocols suffer from long-range attacks, wherein attackers alter execution history at little cost, and PoW protocols are vulnerable to attackers with enough computational power to subvert execution history. PoS protocols respond by relying on external mechanisms like social consensus; PoW protocols either fall back to probabilistic guarantees, or are slow.   We present Sieve-MMR, the first fully-permissionless protocol with deterministic security and constant expected latency that does not rely on external mechanisms. We obtain Sieve-MMR by porting a PoS protocol (MMR) to the PoW setting. From MMR we inherit constant expected latency and deterministic security, and proof-of-work gives us resilience against long-range attacks. The main challenge to porting MMR to the PoW setting is what we call time-travel attacks, where attackers use PoWs generated in the distant past to increase their perceived PoW power in the present. We respond by proposing Sieve, a novel algorithm that implements a new broadcast primitive we dub time-travel-resilient broadcast (TTRB). Sieve relies on a black-box, deterministic PoW primitive to implement TTRB, which we use as the messaging layer for MMR.",
+    "published": "2025-12-23T01:32:00Z",
+    "updated": "2025-12-23T01:32:00Z",
+    "authors": [
+      "Ali Farahbakhsh",
+      "Giuliano Losa",
+      "Youer Pu",
+      "Lorenzo Alvisi",
+      "Ittay Eyal"
+    ],
+    "affiliations": [],
+    "first_author": "Ali Farahbakhsh",
+    "pdf_url": "https://arxiv.org/pdf/2512.19968v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19935v1",
+    "arxiv_id": "2512.19935v1",
+    "title": "Conditional Adversarial Fragility in Financial Machine Learning under Macroeconomic Stress",
+    "summary": "Machine learning models used in financial decision systems operate in nonstationary economic environments, yet adversarial robustness is typically evaluated under static assumptions. This work introduces Conditional Adversarial Fragility, a regime dependent phenomenon in which adversarial vulnerability is systematically amplified during periods of macroeconomic stress. We propose a regime aware evaluation framework for time indexed tabular financial classification tasks that conditions robustness assessment on external indicators of economic stress. Using volatility based regime segmentation as a proxy for macroeconomic conditions, we evaluate model behavior across calm and stress periods while holding model architecture, attack methodology, and evaluation protocols constant. Baseline predictive performance remains comparable across regimes, indicating that economic stress alone does not induce inherent performance degradation. Under adversarial perturbations, however, models operating during stress regimes exhibit substantially greater degradation across predictive accuracy, operational decision thresholds, and risk sensitive outcomes. We further demonstrate that this amplification propagates to increased false negative rates, elevating the risk of missed high risk cases during adverse conditions. To complement numerical robustness metrics, we introduce an interpretive governance layer based on semantic auditing of model explanations using large language models. Together, these results demonstrate that adversarial robustness in financial machine learning is a regime dependent property and motivate stress aware approaches to model risk assessment in high stakes financial deployments.",
+    "published": "2025-12-22T23:44:39Z",
+    "updated": "2025-12-22T23:44:39Z",
+    "authors": [
+      "Samruddhi Baviskar"
+    ],
+    "affiliations": [],
+    "first_author": "Samruddhi Baviskar",
+    "pdf_url": "https://arxiv.org/pdf/2512.19935v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  }
+]

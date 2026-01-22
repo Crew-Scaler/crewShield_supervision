@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2601.00129v1",
+  "title": "Toward Large-Scale Photonics-Empowered AI Systems: From Physical Design Automation to System-Algorithm Co-Exploration",
+  "authors": [
+    "Ziang Yin",
+    "Hongjian Zhou",
+    "Nicholas Gangi",
+    "Meng Zhang",
+    "Jeff Zhang",
+    "Zhaoran Rena Huang",
+    "Jiaqi Gu"
+  ],
+  "published": "2025-12-31T22:21:42Z",
+  "url": "http://arxiv.org/abs/2601.00129v1",
+  "pdf_url": "http://arxiv.org/pdf/2601.00129v1.pdf",
+  "relevance_score": 62,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "In this work, we identify three considerations that are essential for realizing practical photonic AI systems at scale: (1) dynamic tensor operation support for modern models rather than only weight-static kernels, especially for attention/Transformer-style workloads; (2) systematic management of conversion, control, and data-movement overheads, where multiplexing and dataflow must amortize electronic costs instead of letting ADC/DAC and I/O dominate; and (3) robustness under hardware non-ideali"
+}

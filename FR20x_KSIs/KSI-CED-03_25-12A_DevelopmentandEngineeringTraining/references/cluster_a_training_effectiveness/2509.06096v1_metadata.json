@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2509.06096v1",
+  "title": "MedSeqFT: Sequential Fine-tuning Foundation Models for 3D Medical Image Segmentation",
+  "authors": [
+    "Yiwen Ye",
+    "Yicheng Wu",
+    "Xiangde Luo",
+    "He Zhang",
+    "Ziyang Chen",
+    "Ting Dang",
+    "Yanning Zhang",
+    "Yong Xia"
+  ],
+  "published": "2025-09-07T15:22:53Z",
+  "url": "http://arxiv.org/abs/2509.06096v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.06096v1.pdf",
+  "relevance_score": 64,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Foundation models have become a promising paradigm for advancing medical image analysis, particularly for segmentation tasks where downstream applications often emerge sequentially. Existing fine-tuning strategies, however, remain limited: parallel fine-tuning isolates tasks and fails to exploit shared knowledge, while multi-task fine-tuning requires simultaneous access to all datasets and struggles with incremental task integration. To address these challenges, we propose MedSeqFT, a sequential"
+}

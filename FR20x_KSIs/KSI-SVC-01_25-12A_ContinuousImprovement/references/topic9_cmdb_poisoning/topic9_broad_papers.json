@@ -1,0 +1,194 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.00446v1",
+    "arxiv_id": "2511.00446v1",
+    "title": "ToxicTextCLIP: Text-Based Poisoning and Backdoor Attacks on CLIP Pre-training",
+    "summary": "The Contrastive Language-Image Pretraining (CLIP) model has significantly advanced vision-language modeling by aligning image-text pairs from large-scale web data through self-supervised contrastive learning. Yet, its reliance on uncurated Internet-sourced data exposes it to data poisoning and backdoor risks. While existing studies primarily investigate image-based attacks, the text modality, which is equally central to CLIP's training, remains underexplored. In this work, we introduce ToxicTextCLIP, a framework for generating high-quality adversarial texts that target CLIP during the pre-training phase. The framework addresses two key challenges: semantic misalignment caused by background inconsistency with the target class, and the scarcity of background-consistent texts. To this end, ToxicTextCLIP iteratively applies: 1) a background-aware selector that prioritizes texts with background content aligned to the target class, and 2) a background-driven augmenter that generates semantically coherent and diverse poisoned samples. Extensive experiments on classification and retrieval tasks show that ToxicTextCLIP achieves up to 95.83% poisoning success and 98.68% backdoor Hit@1, while bypassing RoCLIP, CleanCLIP and SafeCLIP defenses. The source code can be accessed via https://github.com/xinyaocse/ToxicTextCLIP/.",
+    "published": "2025-11-01T08:25:49Z",
+    "updated": "2025-11-01T08:25:49Z",
+    "authors": [
+      "Xin Yao",
+      "Haiyang Zhao",
+      "Yimin Chen",
+      "Jiawei Guo",
+      "Kecheng Huang",
+      "Ming Zhao"
+    ],
+    "affiliations": [],
+    "first_author": "Xin Yao",
+    "pdf_url": "https://arxiv.org/pdf/2511.00446v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19286v1",
+    "arxiv_id": "2512.19286v1",
+    "title": "GShield: Mitigating Poisoning Attacks in Federated Learning",
+    "summary": "Federated Learning (FL) has recently emerged as a revolutionary approach to collaborative training Machine Learning models. In particular, it enables decentralized model training while preserving data privacy, but its distributed nature makes it highly vulnerable to a severe attack known as Data Poisoning. In such scenarios, malicious clients inject manipulated data into the training process, thereby degrading global model performance or causing targeted misclassification. In this paper, we present a novel defense mechanism called GShield, designed to detect and mitigate malicious and low-quality updates, especially under non-independent and identically distributed (non-IID) data scenarios. GShield operates by learning the distribution of benign gradients through clustering and Gaussian modeling during an initial round, enabling it to establish a reliable baseline of trusted client behavior. With this benign profile, GShield selectively aggregates only those updates that align with the expected gradient patterns, effectively isolating adversarial clients and preserving the integrity of the global model. An extensive experimental campaign demonstrates that our proposed defense significantly improves model robustness compared to the state-of-the-art methods while maintaining a high accuracy of performance across both tabular and image datasets. Furthermore, GShield improves the accuracy of the targeted class by 43\\% to 65\\% after detecting malicious and low-quality clients.",
+    "published": "2025-12-22T11:29:28Z",
+    "updated": "2025-12-22T11:29:28Z",
+    "authors": [
+      "Sameera K. M.",
+      "Serena Nicolazzo",
+      "Antonino Nocera",
+      "Vinod P.",
+      "Rafidha Rehiman K. A"
+    ],
+    "affiliations": [],
+    "first_author": "Sameera K. M.",
+    "pdf_url": "https://arxiv.org/pdf/2512.19286v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13647v1",
+    "arxiv_id": "2512.13647v1",
+    "title": "REVERB-FL: Server-Side Adversarial and Reserve-Enhanced Federated Learning for Robust Audio Classification",
+    "summary": "Federated learning (FL) enables a privacy-preserving training paradigm for audio classification but is highly sensitive to client heterogeneity and poisoning attacks, where adversarially compromised clients can bias the global model and hinder the performance of audio classifiers. To mitigate the effects of model poisoning for audio signal classification, we present REVERB-FL, a lightweight, server-side defense that couples a small reserve set (approximately 5%) with pre- and post-aggregation retraining and adversarial training. After each local training round, the server refines the global model on the reserve set with either clean or additional adversarially perturbed data, thereby counteracting non-IID drift and mitigating potential model poisoning without adding substantial client-side cost or altering the aggregation process. We theoretically demonstrate the feasibility of our framework, showing faster convergence and a reduced steady-state error relative to baseline federated averaging. We validate our framework on two open-source audio classification datasets with varying IID and Dirichlet non-IID partitions and demonstrate that REVERB-FL mitigates global model poisoning under multiple designs of local data poisoning.",
+    "published": "2025-12-15T18:40:12Z",
+    "updated": "2025-12-15T18:40:12Z",
+    "authors": [
+      "Sathwika Peechara",
+      "Rajeev Sahay"
+    ],
+    "affiliations": [],
+    "first_author": "Sathwika Peechara",
+    "pdf_url": "https://arxiv.org/pdf/2512.13647v1",
+    "primary_category": "eess.AS",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13207v2",
+    "arxiv_id": "2512.13207v2",
+    "title": "Evaluating Adversarial Attacks on Federated Learning for Temperature Forecasting",
+    "summary": "Deep learning and federated learning (FL) are becoming powerful partners for next-generation weather forecasting. Deep learning enables high-resolution spatiotemporal forecasts that can surpass traditional numerical models, while FL allows institutions in different locations to collaboratively train models without sharing raw data, addressing efficiency and security concerns. While FL has shown promise across heterogeneous regions, its distributed nature introduces new vulnerabilities. In particular, data poisoning attacks, in which compromised clients inject manipulated training data, can degrade performance or introduce systematic biases. These threats are amplified by spatial dependencies in meteorological data, allowing localized perturbations to influence broader regions through global model aggregation. In this study, we investigate how adversarial clients distort federated surface temperature forecasts trained on the Copernicus European Regional ReAnalysis (CERRA) dataset. We simulate geographically distributed clients and evaluate patch-based and global biasing attacks on regional temperature forecasts. Our results show that even a small fraction of poisoned clients can mislead predictions across large, spatially connected areas. A global temperature bias attack from a single compromised client shifts predictions by up to -1.7 K, while coordinated patch attacks more than triple the mean squared error and produce persistent regional anomalies exceeding +3.5 K. Finally, we assess trimmed mean aggregation as a defense mechanism, showing that it successfully defends against global bias attacks (2-13% degradation) but fails against patch attacks (281-603% amplification), exposing limitations of outlier-based defenses for spatially correlated data.",
+    "published": "2025-12-15T11:22:24Z",
+    "updated": "2025-12-16T09:02:43Z",
+    "authors": [
+      "Karina Chichifoi",
+      "Fabio Merizzi",
+      "Michele Colajanni"
+    ],
+    "affiliations": [],
+    "first_author": "Karina Chichifoi",
+    "pdf_url": "https://arxiv.org/pdf/2512.13207v2",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10998v1",
+    "arxiv_id": "2512.10998v1",
+    "title": "SCOUT: A Defense Against Data Poisoning Attacks in Fine-Tuned Language Models",
+    "summary": "Backdoor attacks create significant security threats to language models by embedding hidden triggers that manipulate model behavior during inference, presenting critical risks for AI systems deployed in healthcare and other sensitive domains. While existing defenses effectively counter obvious threats such as out-of-context trigger words and safety alignment violations, they fail against sophisticated attacks using contextually-appropriate triggers that blend seamlessly into natural language. This paper introduces three novel contextually-aware attack scenarios that exploit domain-specific knowledge and semantic plausibility: the ViralApp attack targeting social media addiction classification, the Fever attack manipulating medical diagnosis toward hypertension, and the Referral attack steering clinical recommendations. These attacks represent realistic threats where malicious actors exploit domain-specific vocabulary while maintaining semantic coherence, demonstrating how adversaries can weaponize contextual appropriateness to evade conventional detection methods. To counter both traditional and these sophisticated attacks, we present \\textbf{SCOUT (Saliency-based Classification Of Untrusted Tokens)}, a novel defense framework that identifies backdoor triggers through token-level saliency analysis rather than traditional context-based detection methods. SCOUT constructs a saliency map by measuring how the removal of individual tokens affects the model's output logits for the target label, enabling detection of both conspicuous and subtle manipulation attempts. We evaluate SCOUT on established benchmark datasets (SST-2, IMDB, AG News) against conventional attacks (BadNet, AddSent, SynBkd, StyleBkd) and our novel attacks, demonstrating that SCOUT successfully detects these sophisticated threats while preserving accuracy on clean inputs.",
+    "published": "2025-12-10T17:25:55Z",
+    "updated": "2025-12-10T17:25:55Z",
+    "authors": [
+      "Mohamed Afane",
+      "Abhishek Satyam",
+      "Ke Chen",
+      "Tao Li",
+      "Junaid Farooq",
+      "Juntao Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Mohamed Afane",
+    "pdf_url": "https://arxiv.org/pdf/2512.10998v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.14989v2",
+    "arxiv_id": "2511.14989v2",
+    "title": "Critical Evaluation of Quantum Machine Learning for Adversarial Robustness",
+    "summary": "Quantum Machine Learning (QML) integrates quantum computational principles into learning algorithms, offering improved representational capacity and computational efficiency. Nevertheless, the security and robustness of QML systems remain underexplored, especially under adversarial conditions. In this paper, we present a systematization of adversarial robustness in QML, integrating conceptual organization with empirical evaluation across three threat models-black-box, gray-box, and white-box. We implement representative attacks in each category, including label-flipping for black-box, QUID encoder-level data poisoning for gray-box, and FGSM and PGD for white-box, using Quantum Neural Networks (QNNs) trained on two datasets from distinct domains: MNIST from computer vision and AZ-Class from Android malware, across multiple circuit depths (2, 5, 10, and 50 layers) and two encoding schemes (angle and amplitude). Our evaluation shows that amplitude encoding yields the highest clean accuracy (93% on MNIST and 67% on AZ-Class) in deep, noiseless circuits; however, it degrades sharply under adversarial perturbations and depolarization noise (p=0.01), dropping accuracy below 5%. In contrast, angle encoding, while offering lower representational capacity, remains more stable in shallow, noisy regimes, revealing a trade-off between capacity and robustness. Moreover, the QUID attack attains higher attack success rates, though quantum noise channels disrupt the Hilbert-space correlations it exploits, weakening its impact in image domains. This suggests that noise can act as a natural defense mechanism in Noisy Intermediate-Scale Quantum (NISQ) systems. Overall, our findings guide the development of secure and resilient QML architectures for practical deployment. These insights underscore the importance of designing threat-aware models that remain reliable under real-world noise in NISQ settings.",
+    "published": "2025-11-19T00:13:17Z",
+    "updated": "2025-11-25T18:00:58Z",
+    "authors": [
+      "Saeefa Rubaiyet Nowmi",
+      "Jesus Lopez",
+      "Md Mahmudul Alam Imon",
+      "Shahrooz Pouryousef",
+      "Mohammad Saidur Rahman"
+    ],
+    "affiliations": [],
+    "first_author": "Saeefa Rubaiyet Nowmi",
+    "pdf_url": "https://arxiv.org/pdf/2511.14989v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.14715v2",
+    "arxiv_id": "2511.14715v2",
+    "title": "FLARE: Adaptive Multi-Dimensional Reputation for Robust Client Reliability in Federated Learning",
+    "summary": "Federated learning (FL) enables collaborative model training while preserving data privacy. However, it remains vulnerable to malicious clients who compromise model integrity through Byzantine attacks, data poisoning, or adaptive adversarial behaviors. Existing defense mechanisms rely on static thresholds and binary classification, failing to adapt to evolving client behaviors in real-world deployments. We propose FLARE, an adaptive reputation-based framework that transforms client reliability assessment from binary decisions to a continuous, multi-dimensional trust evaluation. FLARE integrates: (i) a multi-dimensional reputation score capturing performance consistency, statistical anomaly indicators, and temporal behavior, (ii) a self-calibrating adaptive threshold mechanism that adjusts security strictness based on model convergence and recent attack intensity, (iii) reputation-weighted aggregation with soft exclusion to proportionally limit suspicious contributions rather than eliminating clients outright, and (iv) a Local Differential Privacy (LDP) mechanism enabling reputation scoring on privatized client updates. We further introduce a highly evasive Statistical Mimicry (SM) attack, a benchmark adversary that blends honest gradients with synthetic perturbations and persistent drift to remain undetected by traditional filters. Extensive experiments with 100 clients on MNIST, CIFAR-10, and SVHN demonstrate that FLARE maintains high model accuracy and converges faster than state-of-the-art Byzantine-robust methods under diverse attack types, including label flipping, gradient scaling, adaptive attacks, ALIE, and SM. FLARE improves robustness by up to 16% and preserves model convergence within 30% of the non-attacked baseline, while achieving strong malicious-client detection performance with minimal computational overhead. https://github.com/Anonymous0-0paper/FLARE",
+    "published": "2025-11-18T17:57:40Z",
+    "updated": "2025-11-19T11:55:52Z",
+    "authors": [
+      "Abolfazl Younesi",
+      "Leon Kiss",
+      "Zahra Najafabadi Samani",
+      "Juan Aznar Poveda",
+      "Thomas Fahringer"
+    ],
+    "affiliations": [],
+    "first_author": "Abolfazl Younesi",
+    "pdf_url": "https://arxiv.org/pdf/2511.14715v2",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.14301v2",
+    "arxiv_id": "2511.14301v2",
+    "title": "Steganographic Backdoor Attacks in NLP: Ultra-Low Poisoning and Defense Evasion",
+    "summary": "Transformer models are foundational to natural language processing (NLP) applications, yet remain vulnerable to backdoor attacks introduced through poisoned data, which implant hidden behaviors during training. To strengthen the ability to prevent such compromises, recent research has focused on designing increasingly stealthy attacks to stress-test existing defenses, pairing backdoor behaviors with stylized artifact or token-level perturbation triggers. However, this trend diverts attention from the harder and more realistic case: making the model respond to semantic triggers such as specific names or entities, where a successful backdoor could manipulate outputs tied to real people or events in deployed systems. Motivated by this growing disconnect, we introduce SteganoBackdoor, bringing stealth techniques back into line with practical threat models. Leveraging innocuous properties from natural-language steganography, SteganoBackdoor applies a gradient-guided data optimization process to transform semantic trigger seeds into steganographic carriers that embed a high backdoor payload, remain fluent, and exhibit no representational resemblance to the trigger. Across diverse experimental settings, SteganoBackdoor achieves over 99% attack success at an order-of-magnitude lower data-poisoning rate than prior approaches while maintaining unparalleled evasion against a comprehensive suite of data-level defenses. By revealing this practical and covert attack, SteganoBackdoor highlights an urgent blind spot in current defenses and demands immediate attention to adversarial data defenses and real-world threat modeling.",
+    "published": "2025-11-18T09:56:16Z",
+    "updated": "2025-11-25T07:42:59Z",
+    "authors": [
+      "Eric Xue",
+      "Ruiyi Zhang",
+      "Zijun Zhang",
+      "Pengtao Xie"
+    ],
+    "affiliations": [],
+    "first_author": "Eric Xue",
+    "pdf_url": "https://arxiv.org/pdf/2511.14301v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.11240v1",
+    "arxiv_id": "2511.11240v1",
+    "title": "HealSplit: Towards Self-Healing through Adversarial Distillation in Split Federated Learning",
+    "summary": "Split Federated Learning (SFL) is an emerging paradigm for privacy-preserving distributed learning. However, it remains vulnerable to sophisticated data poisoning attacks targeting local features, labels, smashed data, and model weights. Existing defenses, primarily adapted from traditional Federated Learning (FL), are less effective under SFL due to limited access to complete model updates. This paper presents HealSplit, the first unified defense framework tailored for SFL, offering end-to-end detection and recovery against five sophisticated types of poisoning attacks. HealSplit comprises three key components: (1) a topology-aware detection module that constructs graphs over smashed data to identify poisoned samples via topological anomaly scoring (TAS); (2) a generative recovery pipeline that synthesizes semantically consistent substitutes for detected anomalies, validated by a consistency validation student; and (3) an adversarial multi-teacher distillation framework trains the student using semantic supervision from a Vanilla Teacher and anomaly-aware signals from an Anomaly-Influence Debiasing (AD) Teacher, guided by the alignment between topological and gradient-based interaction matrices. Extensive experiments on four benchmark datasets demonstrate that HealSplit consistently outperforms ten state-of-the-art defenses, achieving superior robustness and defense effectiveness across diverse attack scenarios.",
+    "published": "2025-11-14T12:42:11Z",
+    "updated": "2025-11-14T12:42:11Z",
+    "authors": [
+      "Yuhan Xie",
+      "Chen Lyu"
+    ],
+    "affiliations": [],
+    "first_author": "Yuhan Xie",
+    "pdf_url": "https://arxiv.org/pdf/2511.11240v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.11020v1",
+    "arxiv_id": "2511.11020v1",
+    "title": "Data Poisoning Vulnerabilities Across Healthcare AI Architectures: A Security Threat Analysis",
+    "summary": "Healthcare AI systems face major vulnerabilities to data poisoning that current defenses and regulations cannot adequately address. We analyzed eight attack scenarios in four categories: architectural attacks on convolutional neural networks, large language models, and reinforcement learning agents; infrastructure attacks exploiting federated learning and medical documentation systems; critical resource allocation attacks affecting organ transplantation and crisis triage; and supply chain attacks targeting commercial foundation models. Our findings indicate that attackers with access to only 100-500 samples can compromise healthcare AI regardless of dataset size, often achieving over 60 percent success, with detection taking an estimated 6 to 12 months or sometimes not occurring at all. The distributed nature of healthcare infrastructure creates many entry points where insiders with routine access can launch attacks with limited technical skill. Privacy laws such as HIPAA and GDPR can unintentionally shield attackers by restricting the analyses needed for detection. Supply chain weaknesses allow a single compromised vendor to poison models across 50 to 200 institutions. The Medical Scribe Sybil scenario shows how coordinated fake patient visits can poison data through legitimate clinical workflows without requiring a system breach. Current regulations lack mandatory adversarial robustness testing, and federated learning can worsen risks by obscuring attribution. We recommend multilayer defenses including required adversarial testing, ensemble-based detection, privacy-preserving security mechanisms, and international coordination on AI security standards. We also question whether opaque black-box models are suitable for high-stakes clinical decisions, suggesting a shift toward interpretable systems with verifiable safety guarantees.",
+    "published": "2025-11-14T07:16:16Z",
+    "updated": "2025-11-14T07:16:16Z",
+    "authors": [
+      "Farhad Abtahi",
+      "Fernando Seoane",
+      "Iv\u00e1n Pau",
+      "Mario Vega-Barbas"
+    ],
+    "affiliations": [],
+    "first_author": "Farhad Abtahi",
+    "pdf_url": "https://arxiv.org/pdf/2511.11020v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  }
+]

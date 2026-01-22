@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2508.06249v1",
+  "title": "In-Training Defenses against Emergent Misalignment in Language Models",
+  "authors": [
+    "David Kacz\u00e9r",
+    "Magnus J\u00f8rgenv\u00e5g",
+    "Clemens Vetter",
+    "Lucie Flek",
+    "Florian Mai"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-08",
+  "url": "https://arxiv.org/abs/2508.06249v1",
+  "relevance_score": 83.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness"
+  ],
+  "summary": "Fine-tuning lets practitioners repurpose aligned large language models (LLMs) for new domains, yet recent work reveals emergent misalignment (EMA): Even a small, domain-specific fine-tune can induce harmful behaviors far outside the target domain. Even in the case where model weights are hidden behind a fine-tuning API, this gives attackers inadvertent access to a broadly misaligned model in a way that can be hard to detect from the fine-tuning data alone. We present the first systematic study o..."
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2503.10793v1",
+  "title": "HALURust: Exploiting Hallucinations of Large Language Models to Detect Vulnerabilities in Rust",
+  "authors": [
+    "Yu Luo",
+    "Han Zhou",
+    "Mengtao Zhang",
+    "Dylan De La Rosa",
+    "Hafsa Ahmed",
+    "Weifeng Xu",
+    "Dianxiang Xu"
+  ],
+  "published": "2025-03-13T18:38:34Z",
+  "url": "http://arxiv.org/abs/2503.10793v1",
+  "pdf_url": "http://arxiv.org/pdf/2503.10793v1.pdf",
+  "relevance_score": 100,
+  "summary": "As an emerging programming language, Rust has rapidly gained popularity and recognition among developers due to its strong emphasis on safety. It employs a unique ownership system and safe concurrency practices to ensure robust safety. Despite these safeguards, security in Rust still presents challenges. Since 2018, 442 Rust-related vulnerabilities have been reported in real-world applications. The limited availability of data has resulted in existing vulnerability detection tools performing poorly in real-world scenarios, often failing to adapt to new and complex vulnerabilities. This paper introduces HALURust, a novel framework that leverages hallucinations of large language models (LLMs) to detect vulnerabilities in real-world Rust scenarios. HALURust leverages LLMs' strength in natural language generation by transforming code into detailed vulnerability analysis reports. The key innovation lies in prompting the LLM to always assume the presence of a vulnerability. If the code sample is vulnerable, the LLM provides an accurate analysis; if not, it generates a hallucinated report. By fine-tuning LLMs on these hallucinations, HALURust can effectively distinguish between vulnerable and non-vulnerable code samples. HALURust was evaluated on a dataset of 81 real-world vulnerabilities, covering 447 functions and 18,691 lines of code across 54 applications. It outperformed existing methods, achieving an F1 score of 77.3%, with over 10% improvement. The hallucinated report-based fine-tuning improved detection by 20\\% compared to traditional code-based fine-tuning. Additionally, HALURust effectively adapted to unseen vulnerabilities and other programming languages, demonstrating strong generalization capabilities."
+}

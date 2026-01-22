@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2505.20945v3",
+  "title": "IRCopilot: Automated Incident Response with Large Language Models",
+  "authors": [
+    "Xihuan Lin",
+    "Jie Zhang",
+    "Gelei Deng",
+    "Tianzhe Liu",
+    "Tianwei Zhang",
+    "Qing Guo",
+    "Riqing Chen"
+  ],
+  "published": "2025-05-27T09:29:11Z",
+  "url": "http://arxiv.org/abs/2505.20945v3",
+  "pdf_url": "http://arxiv.org/pdf/2505.20945v3.pdf",
+  "relevance_score": 95,
+  "summary": "Incident response plays a pivotal role in mitigating the impact of cyber attacks. In recent years, the intensity and complexity of global cyber threats have grown significantly, making it increasingly challenging for traditional threat detection and incident response methods to operate effectively in complex network environments. While Large Language Models (LLMs) have shown great potential in early threat detection, their capabilities remain limited when it comes to automated incident response after an intrusion. To address this gap, we construct an incremental benchmark based on real-world incident response tasks to thoroughly evaluate the performance of LLMs in this domain. Our analysis reveals several key challenges that hinder the practical application of contemporary LLMs, including context loss, hallucinations, privacy protection concerns, and their limited ability to provide accurate, context-specific recommendations. In response to these challenges, we propose IRCopilot, a novel framework for automated incident response powered by LLMs. IRCopilot mimics the three dynamic phases of a real-world incident response team using four collaborative LLM-based session components. These components are designed with clear divisions of responsibility, reducing issues such as hallucinations and context loss. Our method leverages diverse prompt designs and strategic responsibility segmentation, significantly improving the system's practicality and efficiency. Experimental results demonstrate that IRCopilot outperforms baseline LLMs across key benchmarks, achieving sub-task completion rates of 150%, 138%, 136%, 119%, and 114% for various response tasks. Moreover, IRCopilot exhibits robust performance on public incident response platforms and in real-world attack scenarios, showcasing its strong applicability."
+}

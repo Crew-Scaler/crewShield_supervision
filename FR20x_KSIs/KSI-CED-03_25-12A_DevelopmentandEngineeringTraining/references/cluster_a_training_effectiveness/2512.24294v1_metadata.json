@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.24294v1",
+  "title": "Virtual-Eyes: Quantitative Validation of a Lung CT Quality-Control Pipeline for Foundation-Model Cancer Risk Prediction",
+  "authors": [
+    "Md. Enamul Hoq",
+    "Linda Larson-Prior",
+    "Fred Prior"
+  ],
+  "published": "2025-12-30T15:34:18Z",
+  "url": "http://arxiv.org/abs/2512.24294v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24294v1.pdf",
+  "relevance_score": 69,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Robust preprocessing is rarely quantified in deep-learning pipelines for low-dose CT (LDCT) lung cancer screening. We develop and validate Virtual-Eyes, a clinically motivated 16-bit CT quality-control pipeline, and measure its differential impact on generalist foundation models versus specialist models. Virtual-Eyes enforces strict 512x512 in-plane resolution, rejects short or non-diagnostic series, and extracts a contiguous lung block using Hounsfield-unit filtering and bilateral lung-coverage"
+}

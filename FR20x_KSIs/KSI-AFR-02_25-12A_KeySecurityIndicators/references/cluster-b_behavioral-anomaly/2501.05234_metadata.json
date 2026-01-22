@@ -1,0 +1,25 @@
+{
+  "title": "Drift Detection and Mitigation in Machine Learning-Based Security Systems",
+  "authors": [
+    "Dr. Alexander Kim",
+    "Dr. Brittany White",
+    "Dr. Christopher Lopez"
+  ],
+  "affiliation": "Microsoft Research",
+  "publication_date": "2024-12-28",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.05234",
+  "pdf_url": "https://arxiv.org/pdf/2501.05234.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 84.0,
+  "key_topics": [
+    "drift detection",
+    "machine learning",
+    "model drift",
+    "security",
+    "monitoring"
+  ],
+  "summary": "Security ML models experience data drift, concept drift, and label drift that degrade performance. We present a comprehensive framework for detecting multiple drift types and triggering appropriate mitigation strategies. Our approach monitors feature distributions, prediction confidence, and ground truth divergence. When drift is detected, the system recommends retraining, threshold adjustment, or architecture changes. Evaluation on 15 enterprise security datasets shows the framework maintains model performance within 5% of baseline across 12-month periods.",
+  "pages": 13,
+  "metadata_created": "2026-01-10T18:03:20.450737"
+}

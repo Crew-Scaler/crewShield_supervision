@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.15596v1",
+  "title": "Corrective Diffusion Language Models",
+  "authors": [
+    "Shuibai Zhang",
+    "Fred Zhangzhi Peng",
+    "Yiheng Zhang",
+    "Jin Pan",
+    "Grigorios G. Chrysos"
+  ],
+  "published": "2025-12-17T17:04:38Z",
+  "url": "http://arxiv.org/abs/2512.15596v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.15596v1.pdf",
+  "relevance_score": 74,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Diffusion language models are structurally well-suited for iterative error correction, as their non-causal denoising dynamics allow arbitrary positions in a sequence to be revised. However, standard masked diffusion language model (MDLM) training fails to reliably induce this behavior, as models often cannot identify unreliable tokens in a complete input, rendering confidence-guided refinement ineffective. We study corrective behavior in diffusion language models, defined as the ability to assig"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.23881v1",
+  "title": "Breaking Audio Large Language Models by Attacking Only the Encoder: A Universal Targeted Latent-Space Audio Attack",
+  "authors": [
+    "Roee Ziv",
+    "Raz Lapid",
+    "Moshe Sipper"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23881v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 8,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "Audio-language models combine audio encoders with large language models to enable multimodal reasoning, but they also introduce new security vulnerabilities. We propose a universal targeted latent space attack, an encoder-level adversarial attack that manipulates audio latent representations to induce attacker-specified outputs in downstream language generation. Unlike prior waveform-level or input-specific attacks, our approach learns a universal perturbation that generalizes across inputs and ..."
+}

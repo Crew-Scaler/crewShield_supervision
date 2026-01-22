@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2505.09129v1",
+  "title": "WSCIF: A Weakly-Supervised Color Intelligence Framework for Tactical Anomaly Detection in Surveillance Keyframes",
+  "authors": [
+    "Wei Meng"
+  ],
+  "published": "2025-05-14T04:24:37Z",
+  "url": "http://arxiv.org/abs/2505.09129v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.09129v1.pdf",
+  "relevance_score": 95,
+  "summary": "The deployment of traditional deep learning models in high-risk security tasks in an unlabeled, data-non-exploitable video intelligence environment faces significant challenges. In this paper, we propose a lightweight anomaly detection framework based on color features for surveillance video clips in a high sensitivity tactical mission, aiming to quickly identify and interpret potential threat events under resource-constrained and data-sensitive conditions. The method fuses unsupervised KMeans clustering with RGB channel histogram modeling to achieve composite detection of structural anomalies and color mutation signals in key frames. The experiment takes an operation surveillance video occurring in an African country as a research sample, and successfully identifies multiple highly anomalous frames related to high-energy light sources, target presence, and reflective interference under the condition of no access to the original data. The results show that this method can be effectively used for tactical assassination warning, suspicious object screening and environmental drastic change monitoring with strong deployability and tactical interpretation value. The study emphasizes the importance of color features as low semantic battlefield signal carriers, and its battlefield intelligent perception capability will be further extended by combining graph neural networks and temporal modeling in the future."
+}

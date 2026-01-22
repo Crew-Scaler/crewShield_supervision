@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.16083v1",
+  "title": "Scaling Text2SQL via LLM-efficient Schema Filtering with Functional Dependency Graph Rerankers",
+  "authors": [
+    "Thanh Dat Hoang",
+    "Thanh Tam Nguyen",
+    "Thanh Trung Huynh",
+    "Hongzhi Yin",
+    "Quoc Viet Hung Nguyen"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.16083v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "supply chain"
+  ],
+  "summary": "Most modern Text2SQL systems prompt large language models (LLMs) with entire schemas -- mostly column information -- alongside the user's question. While effective on small databases, this approach fails on real-world schemas that exceed LLM context limits, even for commercial models. The recent Spider 2.0 benchmark exemplifies this with hundreds of tables and tens of thousands of columns, where existing systems often break. Current mitigations either rely on costly multi-step prompting pipeline..."
+}

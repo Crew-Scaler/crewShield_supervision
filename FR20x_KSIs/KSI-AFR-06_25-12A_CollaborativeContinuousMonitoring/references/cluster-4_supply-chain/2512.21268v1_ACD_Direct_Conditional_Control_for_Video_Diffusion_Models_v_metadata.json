@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.21268v1",
+  "title": "ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision",
+  "authors": [
+    "Weiqi Li",
+    "Zehao Zhang",
+    "Liang Lin",
+    "Guangrun Wang"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.21268v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "Controllability is a fundamental requirement in video synthesis, where accurate alignment with conditioning signals is essential. Existing classifier-free guidance methods typically achieve conditioning indirectly by modeling the joint distribution of data and conditions, which often results in limited controllability over the specified conditions. Classifier-based guidance enforces conditions through an external classifier, but the model may exploit this mechanism to raise the classifier score ..."
+}

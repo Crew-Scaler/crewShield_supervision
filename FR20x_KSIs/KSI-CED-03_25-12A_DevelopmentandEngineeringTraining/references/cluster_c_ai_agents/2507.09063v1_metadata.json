@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2507.09063v1",
+  "title": "SetupBench: Assessing Software Engineering Agents' Ability to Bootstrap Development Environments",
+  "authors": [
+    "Avi Arora",
+    "Jinu Jang",
+    "Roshanak Zilouchian Moghaddam"
+  ],
+  "published": "2025-07-11T22:45:07Z",
+  "url": "http://arxiv.org/abs/2507.09063v1",
+  "pdf_url": "http://arxiv.org/pdf/2507.09063v1.pdf",
+  "relevance_score": 82,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Modern Large Language Model (LLM) agents promise end to end assistance with real-world software tasks, yet existing benchmarks evaluate LLM agents almost exclusively in pre-baked environments where every dependency is pre-installed. To fill this gap, we introduce SetupBench, a 93 instance benchmark that isolates the environment-bootstrap skill: starting from a bare Linux sandbox, an agent must install packages, resolve dependency conflicts, initialize databases, and configure background services"
+}

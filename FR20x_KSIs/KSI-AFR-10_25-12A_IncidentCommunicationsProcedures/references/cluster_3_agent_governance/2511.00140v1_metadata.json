@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2511.00140v1",
+  "title": "Supply Chain Exploitation of Secure ROS 2 Systems: A Proof-of-Concept on Autonomous Platform Compromise via Keystore Exfiltration",
+  "authors": [
+    "Tahmid Hasan Sakib",
+    "Yago Romano Martinez",
+    "Carter Brady",
+    "Syed Rafay Hasan",
+    "Terry N. Guo"
+  ],
+  "published": "2025-10-31T17:27:10Z",
+  "url": "http://arxiv.org/abs/2511.00140v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.00140v1.pdf",
+  "relevance_score": 100,
+  "summary": "This paper presents a proof-of-concept supply chain attack against the Secure ROS 2 (SROS 2) framework, demonstrated on a Quanser QCar2 autonomous vehicle platform. A Trojan-infected Debian package modifies core ROS 2 security commands to exfiltrate newly generated keystore credentials via DNS in base64-encoded chunks to an attacker-controlled nameserver. Possession of these credentials enables the attacker to rejoin the SROS 2 network as an authenticated participant and publish spoofed control or perception messages without triggering authentication failures. We evaluate this capability on a secure ROS 2 Humble testbed configured for a four-stop-sign navigation routine using an Intel RealSense camera for perception. Experimental results show that control-topic injections can cause forced braking, sustained high-speed acceleration, and continuous turning loops, while perception-topic spoofing can induce phantom stop signs or suppress real detections. The attack generalizes to any data distribution service (DDS)-based robotic system using SROS 2, highlighting the need for both supply chain integrity controls and runtime semantic validation to safeguard autonomous systems against insider and impersonation threats."
+}

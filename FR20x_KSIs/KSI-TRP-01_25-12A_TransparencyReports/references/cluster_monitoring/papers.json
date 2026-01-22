@@ -1,0 +1,144 @@
+[
+  {
+    "arxiv_id": "2511.21291",
+    "title": "Illuminating the Black Box: Real-Time Monitoring of Backdoor Unlearning in CNNs via Explainable AI",
+    "summary": "Backdoor attacks pose severe security threats to deep neural networks by embedding malicious triggers that force misclassification. While machine unlearning techniques can remove backdoor behaviors, current methods lack transparency and real-time interpretability. This paper introduces a novel framework that integrates Gradient-weighted Class Activation Mapping (Grad-CAM) into the unlearning process to provide real-time monitoring and explainability. We propose the Trigger Attention Ratio (TAR) metric to quantitatively measure the model's attention shift from trigger patterns to legitimate object features. Our balanced unlearning strategy combines gradient ascent on backdoor samples, Elastic Weight Consolidation (EWC) for catastrophic forgetting prevention, and a recovery phase for clean accuracy restoration. Experiments on CIFAR-10 with BadNets attacks demonstrate that our approach reduces Attack Success Rate (ASR) from 96.51% to 5.52% while retaining 99.48% of clean accuracy (82.06%), achieving a 94.28% ASR reduction. The integration of explainable AI enables transparent, observable, and verifiable backdoor removal.",
+    "authors": [
+      "Tien Dat Hoang"
+    ],
+    "published": "2025-11-26T11:29:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.14745",
+    "title": "Factor(U,T): Controlling Untrusted AI by Monitoring their Plans",
+    "summary": "As AI capabilities advance, we increasingly rely on powerful models to decompose complex tasks $\\unicode{x2013}$ but what if the decomposer itself is malicious? Factored cognition protocols decompose complex tasks into simpler child tasks: one model creates the decomposition, while other models implement the child tasks in isolation. Prior work uses trusted (weaker but reliable) models for decomposition, which limits usefulness for tasks where decomposition itself is challenging. We introduce Factor($U$,$T$), in which an untrusted (stronger but potentially malicious) model decomposes while trusted models implement child tasks. Can monitors detect malicious activity when observing only natural language task instructions, rather than complete solutions? We baseline and red team Factor($U$,$T$) in control evaluations on BigCodeBench, a dataset of Python coding tasks. Monitors distinguishing malicious from honest decompositions perform poorly (AUROC 0.52) compared to monitors evaluating complete Python solutions (AUROC 0.96). Furthermore, Factor($D$,$U$), which uses a trusted decomposer and monitors concrete child solutions, achieves excellent discrimination (AUROC 0.96) and strong safety (1.2% ASR), demonstrating that implementation-context monitoring succeeds where decomposition-only monitoring fails.",
+    "authors": [
+      "Edward Lue Chee Lip",
+      "Anthony Channg",
+      "Diana Kim",
+      "Aaron Sandoval",
+      "Kevin Zhu"
+    ],
+    "published": "2025-12-12T19:11:34Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2512.02157",
+    "title": "Factor(T,U): Factored Cognition Strengthens Monitoring of Untrusted AI",
+    "summary": "The field of AI Control seeks to develop robust control protocols, deployment safeguards for untrusted AI which may be intentionally subversive. However, existing protocols that rely on weaker monitors to detect unsafe behavior often fail on complex tasks beyond the monitor's comprehension. We develop control protocols based on factored cognition, in which a trusted model decomposes a task, an untrusted model solves each resultant child task in isolation, and the results are reassembled into a full solution. These protocols may improve safety by several means, such as by simplifying the context for monitors, or by obscuring vulnerabilities in the environment. We implement our protocols in the APPS coding setting and red team them against backdoor attempts from an adversarial GPT-4.1 Nano. We find that: (i) Adding factored cognition to a trusted monitoring protocol can boost safety from 41% to 63%; (ii) Safety improves because monitor performance improves; (iii) Factored cognition makes it no harder for capable LLMs to write backdoors in APPS. While our protocols show low usefulness in APPS, they hold promise for more complex tasks.",
+    "authors": [
+      "Aaron Sandoval",
+      "Cody Rushing"
+    ],
+    "published": "2025-12-01T19:37:08Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2512.13767",
+    "title": "Stability-Drift Early Warning for Cyber-Physical Systems Under Degradation Attacks",
+    "summary": "Cyber-physical systems (CPS) such as unmanned aerial vehicles are vulnerable to slow degradation that develops without causing immediate or obvious failures. Small sensor biases or timing irregularities can accumulate over time, gradually reducing stability while standard monitoring mechanisms continue to report normal operation. Detecting this early phase of degradation remains a challenge, as most existing approaches focus on abrupt faults or visible trajectory deviations. This paper introduces an early warning method based on stability drift, which measures the divergence between predicted and observed state transitions over short horizons. By tracking the gradual growth of this divergence, the proposed approach identifies emerging instability before it becomes visible in the flight trajectory or estimator residuals. The method operates externally to the flight stack and relies only on standard telemetry, making it suitable for deployment without modifying autopilot firmware. The approach was evaluated on a PX4 x500 platform in a software in the loop environment under two realistic degradation scenarios, gradual IMU bias drift and timing irregularities in the control loop. In both cases, the stability drift metric provided a consistent early warning signal several seconds before visible instability appeared, while remaining stable during nominal and aggressive but non degraded flight. The results demonstrate that stability drift can serve as a practical indicator of early degradation in UAV control systems. By providing advance notice during a pre instability phase, the proposed method complements existing safety mechanisms and offers additional time for mitigation or safe mode transitions under slow and subtle attacks.",
+    "authors": [
+      "Daniyal Ganiuly",
+      "Nurzhau Bolatbek",
+      "Assel Smaiyl"
+    ],
+    "published": "2025-12-15T15:40:44Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2511.04261",
+    "title": "A Parallel Region-Adaptive Differential Privacy Framework for Image Pixelization",
+    "summary": "The widespread deployment of high-resolution visual sensing systems, coupled with the rise of foundation models, has amplified privacy risks in video-based applications. Differentially private pixelization offers mathematically guaranteed protection for visual data through grid-based noise addition, but challenges remain in preserving task-relevant fidelity, achieving scalability, and enabling efficient real-time deployment. To address this, we propose a novel parallel, region-adaptive pixelization framework that combines the theoretical rigor of differential privacy with practical efficiency. Our method adaptively adjusts grid sizes and noise scales based on regional complexity, leveraging GPU parallelism to achieve significant runtime acceleration compared to the classical baseline. A lightweight storage scheme is introduced by retaining only essential noisy statistics, significantly reducing space overhead. Formal privacy analysis is provided under the Laplace mechanism and parallel composition theorem. Extensive experiments on the PETS, Venice-2, and PPM-100 datasets demonstrate favorable privacy-utility trade-offs and significant runtime/storage reductions. A face re-identification attack experiment on CelebA further confirms the method's effectiveness in preventing identity inference. This validates its suitability for real-time privacy-critical applications such as elderly care, smart home monitoring, driver behavior analysis, and crowd behavior monitoring.",
+    "authors": [
+      "Ming Liu"
+    ],
+    "published": "2025-11-06T10:51:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03504",
+    "title": "Full-Stack Knowledge Graph and LLM Framework for Post-Quantum Cyber Readiness",
+    "summary": "The emergence of large-scale quantum computing threatens widely deployed public-key cryptographic systems, creating an urgent need for enterprise-level methods to assess post-quantum (PQ) readiness. While PQ standards are under development, organizations lack scalable and quantitative frameworks for measuring cryptographic exposure and prioritizing migration across complex infrastructures. This paper presents a knowledge graph based framework that models enterprise cryptographic assets, dependencies, and vulnerabilities to compute a unified PQ readiness score. Infrastructure components, cryptographic primitives, certificates, and services are represented as a heterogeneous graph, enabling explicit modeling of dependency-driven risk propagation. PQ exposure is quantified using graph-theoretic risk functionals and attributed across cryptographic domains via Shapley value decomposition. To support scalability and data quality, the framework integrates large language models with human-in-the-loop validation for asset classification and risk attribution. The resulting approach produces explainable, normalized readiness metrics that support continuous monitoring, comparative analysis, and remediation prioritization.",
+    "authors": [
+      "Rasmus Erlemann",
+      "Charles Colyer Morris",
+      "Sanjyot Sathe"
+    ],
+    "published": "2026-01-07T01:31:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.20323",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Ya\u011fmur Baydemir"
+    ],
+    "published": "2025-12-23T12:45:49Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.19025",
+    "title": "The Erasure Illusion: Stress-Testing the Generalization of LLM Forgetting Evaluation",
+    "summary": "Machine unlearning aims to remove specific data influences from trained models, a capability essential for adhering to copyright laws and ensuring AI safety. Current unlearning metrics typically measure success by monitoring the model's performance degradation on the specific unlearning dataset ($D_u$). We argue that for Large Language Models (LLMs), this evaluation paradigm is insufficient and potentially misleading. Many real-world uses of unlearning--motivated by copyright or safety--implicitly target not only verbatim content in $D_u$, but also behaviors influenced by the broader generalizations the model derived from it. We demonstrate that LLMs can pass standard unlearning evaluation and appear to have \"forgotten\" the target knowledge, while simultaneously retaining strong capabilities on content that is semantically adjacent to $D_u$. This phenomenon indicates that erasing exact sentences does not necessarily equate to removing the underlying knowledge. To address this gap, we propose Proximal Surrogate Generation (PSG), an automated stress-testing framework that generates a surrogate dataset, $\\tilde{D}_u$. This surrogate set is constructed to be semantically derived from $D_u$ yet sufficiently distinct in embedding space. By comparing unlearning metric scores between $D_u$ and $\\tilde{D}_u$, we can stress-test the reliability of the metric itself. Our extensive evaluation across three LLM families (Llama-3-8B, Qwen2.5-7B, and Zephyr-7B-$\u03b2$), three distinct datasets, and seven standard metrics reveals widespread inconsistencies. We find that current metrics frequently overestimate unlearning success, failing to detect retained knowledge exposed by our stress-test datasets.",
+    "authors": [
+      "Hengrui Jia",
+      "Taoran Li",
+      "Jonas Guan",
+      "Varun Chandrasekaran"
+    ],
+    "published": "2025-12-22T04:42:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2601.03690",
+    "title": "Detection and Prevention of Process Disruption Attacks in the Electrical Power Systems using MMS Traffic: An EPIC Case",
+    "summary": "Smart grids are increasingly exposed to sophisticated cyber threats due to their reliance on interconnected communication networks, as demonstrated by real world incidents such as the cyberattacks on the Ukrainian power grid. In IEC61850 based smart substations, the Manufacturing Message Specification protocol operates over TCP to facilitate communication between SCADA systems and field devices such as Intelligent Electronic Devices and Programmable Logic Controllers. Although MMS enables efficient monitoring and control, it can be exploited by adversaries to generate legitimate looking packets for reconnaissance, unauthorized state reading, and malicious command injection, thereby disrupting grid operations. In this work, we propose a fully automated attack detection and prevention framework for IEC61850 compliant smart substations to counter remote cyberattacks that manipulate process states through compromised PLCs and IEDs. A detailed analysis of the MMS protocol is presented, and critical MMS field value pairs are extracted during both normal SCADA operation and active attack conditions. The proposed framework is validated using seven datasets comprising benign operational scenarios and multiple attack instances, including IEC61850Bean based attacks and script driven attacks leveraging the libiec61850 library. Our approach accurately identifies attack signature carrying MMS packets that attempt to disrupt circuit breaker status, specifically targeting the smart home zone IED and PLC of the EPIC testbed. The results demonstrate the effectiveness of the proposed framework in precisely detecting malicious MMS traffic and enhancing the cyber resilience of IEC61850 based smart grid environments.",
+    "authors": [
+      "Praneeta K Maganti",
+      "Daisuke Mashima",
+      "Rajib Ranjan Maiti"
+    ],
+    "published": "2026-01-07T08:25:24Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.17251",
+    "title": "AlignDP: Hybrid Differential Privacy with Rarity-Aware Protection for LLMs",
+    "summary": "Large language models are exposed to risks of extraction, distillation, and unauthorized fine-tuning. Existing defenses use watermarking or monitoring, but these act after leakage. We design AlignDP, a hybrid privacy lock that blocks knowledge transfer at the data interface. The key idea is to separate rare and non-rare fields. Rare fields are shielded by PAC indistinguishability, giving effective zero-epsilon local DP. Non-rare fields are privatized with RAPPOR, giving unbiased frequency estimates under local DP. A global aggregator enforces composition and budget. This two-tier design hides rare events and adds controlled noise to frequent events. We prove limits of PAC extension to global aggregation, give bounds for RAPPOR estimates, and analyze utility trade-off. A toy simulation confirms feasibility: rare categories remain hidden, frequent categories are recovered with small error.",
+    "authors": [
+      "Madhava Gaikwad"
+    ],
+    "published": "2025-12-19T05:36:23Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.06899",
+    "title": "Patronus: Identifying and Mitigating Transferable Backdoors in Pre-trained Language Models",
+    "summary": "Transferable backdoors pose a severe threat to the Pre-trained Language Models (PLMs) supply chain, yet defensive research remains nascent, primarily relying on detecting anomalies in the output feature space. We identify a critical flaw that fine-tuning on downstream tasks inevitably modifies model parameters, shifting the output distribution and rendering pre-computed defense ineffective. To address this, we propose Patronus, a novel framework that use input-side invariance of triggers against parameter shifts. To overcome the convergence challenges of discrete text optimization, Patronus introduces a multi-trigger contrastive search algorithm that effectively bridges gradient-based optimization with contrastive learning objectives. Furthermore, we employ a dual-stage mitigation strategy combining real-time input monitoring with model purification via adversarial training. Extensive experiments across 15 PLMs and 10 tasks demonstrate that Patronus achieves $\\geq98.7\\%$ backdoor detection recall and reduce attack success rates to clean settings, significantly outperforming all state-of-the-art baselines in all settings. Code is available at https://github.com/zth855/Patronus.",
+    "authors": [
+      "Tianhang Zhao",
+      "Wei Du",
+      "Haodong Zhao",
+      "Sufeng Duan",
+      "Gongshen Liu"
+    ],
+    "published": "2025-12-07T15:51:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  }
+]

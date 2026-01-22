@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2511.18653v1",
+  "title": "FHE-Agent: Automating CKKS Configuration for Practical Encrypted Inference via an LLM-Guided Agentic Framework",
+  "authors": [
+    "Nuo Xu",
+    "Zhaoting Gong",
+    "Ran Ran",
+    "Jinwei Tang",
+    "Wujie Wen",
+    "Caiwen Ding"
+  ],
+  "published": "2025-11-23T23:26:21Z",
+  "url": "http://arxiv.org/abs/2511.18653v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.18653v1.pdf",
+  "relevance_score": 83,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Fully Homomorphic Encryption (FHE), particularly the CKKS scheme, is a promising enabler for privacy-preserving MLaaS, but its practical deployment faces a prohibitive barrier: it heavily relies on domain expertise. Configuring CKKS involves a tightly coupled space of ring dimensions, modulus chains, and packing layouts. Without deep cryptographic knowledge to navigate these interactions, practitioners are restricted to compilers that rely on fixed heuristics. These \"one-shot\" tools often emit r"
+}

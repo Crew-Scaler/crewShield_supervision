@@ -1,0 +1,72 @@
+{
+  "issue": 180,
+  "issue_title": "KSI-TRP-02_25-12A_CustomerCommunication",
+  "execution_date": "2026-01-11",
+  "total_papers_fetched": 449,
+  "target_papers_count": 131,
+  "classification": {
+    "green": {
+      "count": 0,
+      "threshold": ">= 70",
+      "sample_ids": []
+    },
+    "yellow": {
+      "count": 131,
+      "threshold": "50-69",
+      "sample_ids": [
+        "2512.02418",
+        "2511.12668",
+        "2505.10609",
+        "2512.08169",
+        "2512.24415"
+      ]
+    },
+    "red": {
+      "count": 318,
+      "threshold": "< 50"
+    }
+  },
+  "clusters": {
+    "cluster_alert": {
+      "papers": 6,
+      "top_relevance": 61.67,
+      "avg_relevance": 57.78
+    },
+    "cluster_communication": {
+      "papers": 16,
+      "top_relevance": 60.0,
+      "avg_relevance": 56.88
+    },
+    "cluster_customer": {
+      "papers": 1,
+      "top_relevance": 58.33,
+      "avg_relevance": 58.33
+    },
+    "cluster_disclosure": {
+      "papers": 7,
+      "top_relevance": 63.33,
+      "avg_relevance": 58.33
+    },
+    "cluster_documentation": {
+      "papers": 3,
+      "top_relevance": 63.33,
+      "avg_relevance": 58.89
+    },
+    "cluster_general": {
+      "papers": 30,
+      "top_relevance": 55.0,
+      "avg_relevance": 55.0
+    },
+    "cluster_service": {
+      "papers": 28,
+      "top_relevance": 61.67,
+      "avg_relevance": 57.8
+    },
+    "cluster_transparency": {
+      "papers": 8,
+      "top_relevance": 56.67,
+      "avg_relevance": 55.62
+    }
+  },
+  "total_clusters": 8
+}

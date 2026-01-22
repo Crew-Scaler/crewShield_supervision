@@ -1,0 +1,791 @@
+{
+  "search_date": "2025-12-11T14:12:16.251657",
+  "focus_area": "Non-Human Identity Management & Service Account Security",
+  "target_papers": "35-45 papers, >7 pages, 2024-2025",
+  "searches": [
+    {
+      "query": "(abs:\"machine identity\" OR abs:\"non-human identity\" OR abs:\"service account\") AND (abs:security OR abs:authentication OR abs:governance)",
+      "category": "machine_identity_governance",
+      "timestamp": "2025-12-11T14:12:16.251670",
+      "papers_found": 5,
+      "papers_downloaded": 4,
+      "papers": [
+        {
+          "title": "Context Lineage Assurance for Non-Human Identities in Critical Multi-Agent Systems",
+          "authors": [
+            "Sumana Malkapuram",
+            "Sameera Gangavarapu",
+            "Kailashnath Reddy Kavalakuntla",
+            "Ananya Gangavarapu"
+          ],
+          "published": "2025-09-22T20:59:51+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2509.18415v1",
+          "filename": "2025_Context Lineage Assurance for Non-Human Identities in Critical Multi-Agent Systems_2509.18415v1.pdf"
+        },
+        {
+          "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+          "authors": [
+            "Ken Huang",
+            "Vineeth Sai Narajala",
+            "John Yeoh",
+            "Jason Ross",
+            "Ramesh Raskar",
+            "Youssef Harkati",
+            "Jerry Huang",
+            "Idan Habler",
+            "Chris Hughes"
+          ],
+          "published": "2025-05-25T20:21:55+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.MA"
+          ],
+          "relevance_score": 7,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2505.19301v2",
+          "filename": "2025_A Novel Zero-Trust Identity Framework for Agentic AI_ Decentralized Authentication and Fine-Grained _2505.19301v2.pdf"
+        },
+        {
+          "title": "The Human-Machine Identity Blur: A Unified Framework for Cybersecurity Risk Management in 2025",
+          "authors": [
+            "Kush Janani"
+          ],
+          "published": "2025-03-24T00:37:14+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2503.18255v1",
+          "filename": "2025_The Human-Machine Identity Blur_ A Unified Framework for Cybersecurity Risk Management in 2025_2503.18255v1.pdf"
+        },
+        {
+          "title": "Industry Perception of Security Challenges with Identity Access Management Solutions",
+          "authors": [
+            "Abhishek Pratap Singh",
+            "Ievgeniia Kuzminykh",
+            "Bogdan Ghita"
+          ],
+          "published": "2024-08-20T08:19:58+00:00",
+          "year": 2024,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2408.10634v1",
+          "filename": "2024_Industry Perception of Security Challenges with Identity Access Management Solutions_2408.10634v1.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:\"workload identity\" OR abs:\"identity federation\" OR abs:\"ephemeral credential\") AND (abs:cloud OR abs:kubernetes OR abs:security)",
+      "category": "workload_identity_federation",
+      "timestamp": "2025-12-11T14:12:32.054519",
+      "papers_found": 3,
+      "papers_downloaded": 3,
+      "papers": [
+        {
+          "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+          "authors": [
+            "Rethish Nair Rajendran",
+            "Sathish Krishna Anumula",
+            "Dileep Kumar Rai",
+            "Sachin Agrawal"
+          ],
+          "published": "2025-11-07T02:03:05+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2511.04925v1",
+          "filename": "2025_Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation_2511.04925v1.pdf"
+        },
+        {
+          "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+          "authors": [
+            "Saurabh Deochake",
+            "Ryan Murphy",
+            "Jeremiah Gearheart"
+          ],
+          "published": "2025-10-17T04:11:31+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.DC",
+            "cs.NI"
+          ],
+          "relevance_score": 8,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.16067v1",
+          "filename": "2025_A Multi-Cloud Framework for Zero-Trust Workload Authentication_2510.16067v1.pdf"
+        },
+        {
+          "title": "Identity Control Plane: The Unifying Layer for Zero Trust Infrastructure",
+          "authors": [
+            "Surya Teja Avirneni"
+          ],
+          "published": "2025-04-24T17:21:00+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.SE"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2504.17759v1",
+          "filename": "2025_Identity Control Plane_ The Unifying Layer for Zero Trust Infrastructure_2504.17759v1.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:\"API key\" OR abs:\"credential rotation\" OR abs:\"secret management\") AND (abs:automation OR abs:\"automated system\" OR abs:security)",
+      "category": "api_key_management",
+      "timestamp": "2025-12-11T14:12:44.755094",
+      "papers_found": 15,
+      "papers_downloaded": 9,
+      "papers": [
+        {
+          "title": "\"MCP Does Not Stand for Misuse Cryptography Protocol\": Uncovering Cryptographic Misuse in Model Context Protocol at Scale",
+          "authors": [
+            "Biwei Yan",
+            "Yue Zhang",
+            "Minghui Xu",
+            "Hao Wu",
+            "Yechao Zhang",
+            "Kun Li",
+            "Guoming Zhang",
+            "Xiuzhen Cheng"
+          ],
+          "published": "2025-12-03T13:25:59+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2512.03775v1",
+          "filename": "2025__MCP Does Not Stand for Misuse Cryptography Protocol__ Uncovering Cryptographic Misuse in Model Cont_2512.03775v1.pdf"
+        },
+        {
+          "title": "Evaluating Large Language Models in detecting Secrets in Android Apps",
+          "authors": [
+            "Marco Alecci",
+            "Jordan Samhi",
+            "Tegawend\u00e9 F. Bissyand\u00e9",
+            "Jacques Klein"
+          ],
+          "published": "2025-10-21T12:59:39+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.SE"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.18601v1",
+          "filename": "2025_Evaluating Large Language Models in detecting Secrets in Android Apps_2510.18601v1.pdf"
+        },
+        {
+          "title": "You Have Been LaTeXpOsEd: A Systematic Analysis of Information Leakage in Preprint Archives Using Large Language Models",
+          "authors": [
+            "Richard A. Dubniczky",
+            "Bertalan Borsos",
+            "Tihanyi Norbert"
+          ],
+          "published": "2025-10-04T10:03:17+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.03761v1",
+          "filename": "2025_You Have Been LaTeXpOsEd_ A Systematic Analysis of Information Leakage in Preprint Archives Using La_2510.03761v1.pdf"
+        },
+        {
+          "title": "Secret Breach Detection in Source Code with Large Language Models",
+          "authors": [
+            "Md Nafiu Rahman",
+            "Sadif Ahmed",
+            "Zahin Wahab",
+            "S M Sohan",
+            "Rifat Shahriyar"
+          ],
+          "published": "2025-04-26T03:33:14+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.SE"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2504.18784v2",
+          "filename": "2025_Secret Breach Detection in Source Code with Large Language Models_2504.18784v2.pdf"
+        },
+        {
+          "title": "Trusted Identities for AI Agents: Leveraging Telco-Hosted eSIM Infrastructure",
+          "authors": [
+            "Sebastian Barros"
+          ],
+          "published": "2025-04-17T15:36:26+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.NI"
+          ],
+          "relevance_score": 6,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2504.16108v1",
+          "filename": "2025_Trusted Identities for AI Agents_ Leveraging Telco-Hosted eSIM Infrastructure_2504.16108v1.pdf"
+        },
+        {
+          "title": "Identity Lock: Locking API Fine-tuned LLMs With Identity-based Wake Words",
+          "authors": [
+            "Hongyu Su",
+            "Yifeng Gao",
+            "Yifan Ding",
+            "Xingjun Ma"
+          ],
+          "published": "2025-03-10T08:59:07+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CL",
+            "cs.AI"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2503.10668v1",
+          "filename": "2025_Identity Lock_ Locking API Fine-tuned LLMs With Identity-based Wake Words_2503.10668v1.pdf"
+        },
+        {
+          "title": "Protect Your Secrets: Understanding and Measuring Data Exposure in VSCode Extensions",
+          "authors": [
+            "Yue Liu",
+            "Chakkrit Tantithamthavorn",
+            "Li Li"
+          ],
+          "published": "2024-12-01T07:08:53+00:00",
+          "year": 2024,
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.SE"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2412.00707v2",
+          "filename": "2024_Protect Your Secrets_ Understanding and Measuring Data Exposure in VSCode Extensions_2412.00707v2.pdf"
+        },
+        {
+          "title": "K8s Pro Sentinel: Extend Secret Security in Kubernetes Cluster",
+          "authors": [
+            "Kavindu Gunathilake",
+            "Indrajith Ekanayake"
+          ],
+          "published": "2024-11-25T18:15:37+00:00",
+          "year": 2024,
+          "categories": [
+            "cs.DC",
+            "cs.CR"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2411.16639v1",
+          "filename": "2024_K8s Pro Sentinel_ Extend Secret Security in Kubernetes Cluster_2411.16639v1.pdf"
+        },
+        {
+          "title": "Secret Breach Prevention in Software Issue Reports",
+          "authors": [
+            "Sadif Ahmed",
+            "Md Nafiu Rahman",
+            "Zahin Wahab",
+            "Gias Uddin",
+            "Rifat Shahriyar"
+          ],
+          "published": "2024-10-31T06:14:17+00:00",
+          "year": 2024,
+          "categories": [
+            "cs.SE"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2410.23657v3",
+          "filename": "2024_Secret Breach Prevention in Software Issue Reports_2410.23657v3.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:\"service account\" OR abs:\"machine credential\") AND (abs:cloud OR abs:\"privilege management\" OR abs:\"access control\")",
+      "category": "service_account_security",
+      "timestamp": "2025-12-11T14:13:27.016978",
+      "papers_found": 1,
+      "papers_downloaded": 0,
+      "papers": []
+    },
+    {
+      "query": "(abs:\"identity lifecycle\" OR abs:\"credential lifecycle\" OR abs:\"identity governance\") AND (abs:automation OR abs:machine OR abs:\"automated\")",
+      "category": "identity_lifecycle_automation",
+      "timestamp": "2025-12-11T14:13:27.363948",
+      "papers_found": 2,
+      "papers_downloaded": 1,
+      "papers": [
+        {
+          "title": "Randomized Controlled Trials for Conditional Access Optimization Agent",
+          "authors": [
+            "James Bono",
+            "Beibei Cheng",
+            "Joaquin Lozano"
+          ],
+          "published": "2025-11-17T19:33:03+00:00",
+          "year": 2025,
+          "categories": [
+            "econ.GN",
+            "cs.AI"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2511.13865v1",
+          "filename": "2025_Randomized Controlled Trials for Conditional Access Optimization Agent_2511.13865v1.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:\"AI agent\" OR abs:\"autonomous agent\" OR abs:\"bot\") AND (abs:authentication OR abs:credential OR abs:identity)",
+      "category": "ai_agent_authentication",
+      "timestamp": "2025-12-11T14:13:31.607429",
+      "papers_found": 20,
+      "papers_downloaded": 5,
+      "papers": [
+        {
+          "title": "CAHICHA: Computer Automated Hardware Interaction test to tell Computer and Humans Apart",
+          "authors": [
+            "Aditya Mitra",
+            "Sibi Chakkaravarthy Sethuraman",
+            "Devi Priya V S"
+          ],
+          "published": "2025-11-11T05:21:30+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2511.07841v1",
+          "filename": "2025_CAHICHA_ Computer Automated Hardware Interaction test to tell Computer and Humans Apart_2511.07841v1.pdf"
+        },
+        {
+          "title": "Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment",
+          "authors": [
+            "Vivek Acharya"
+          ],
+          "published": "2025-11-08T19:53:51+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.DC"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2511.15712v1",
+          "filename": "2025_Secure Autonomous Agent Payments_ Verifying Authenticity and Intent in a Trustless Environment_2511.15712v1.pdf"
+        },
+        {
+          "title": "DIAP: A Decentralized Agent Identity Protocol with Zero-Knowledge Proofs and a Hybrid P2P Stack",
+          "authors": [
+            "Yuanjie Liu",
+            "Wenpeng Xing",
+            "Ye Zhou",
+            "Gaowei Chang",
+            "Changting Lin",
+            "Meng Han"
+          ],
+          "published": "2025-11-06T06:00:18+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.DC",
+            "cs.AI"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2511.11619v1",
+          "filename": "2025_DIAP_ A Decentralized Agent Identity Protocol with Zero-Knowledge Proofs and a Hybrid P2P Stack_2511.11619v1.pdf"
+        },
+        {
+          "title": "A Pragmatic View of AI Personhood",
+          "authors": [
+            "Joel Z. Leibo",
+            "Alexander Sasha Vezhnevets",
+            "William A. Cunningham",
+            "Stanley M. Bileschi"
+          ],
+          "published": "2025-10-30T11:36:34+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.AI"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.26396v1",
+          "filename": "2025_A Pragmatic View of AI Personhood_2510.26396v1.pdf"
+        },
+        {
+          "title": "Identity Management for Agentic AI: The new frontier of authorization, authentication, and security for an AI agent world",
+          "authors": [
+            "Tobin South",
+            "Subramanya Nagabhushanaradhya",
+            "Ayesha Dissanayaka",
+            "Sarah Cecchetti",
+            "George Fletcher",
+            "Victor Lu",
+            "Aldo Pietropaolo",
+            "Dean H. Saxe",
+            "Jeff Lombardo",
+            "Abhishek Maligehalli Shivalingaiah",
+            "Stan Bounev",
+            "Alex Keisner",
+            "Andor Kesselman",
+            "Zack Proser",
+            "Ginny Fahs",
+            "Andrew Bunyea",
+            "Ben Moskowitz",
+            "Atul Tulshibagwale",
+            "Dazza Greenwood",
+            "Jiaxin Pei",
+            "Alex Pentland"
+          ],
+          "published": "2025-10-29T17:40:52+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.NI"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.25819v1",
+          "filename": "2025_Identity Management for Agentic AI_ The new frontier of authorization_ authentication_ and security _2510.25819v1.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:\"zero trust\" OR abs:passwordless OR abs:\"certificate-based\") AND (abs:machine OR abs:service OR abs:workload)",
+      "category": "passwordless_machine_auth",
+      "timestamp": "2025-12-11T14:13:53.663611",
+      "papers_found": 20,
+      "papers_downloaded": 8,
+      "papers": [
+        {
+          "title": "Comparative Security Performance of Workday Cloud ERP Across Key Dimensions",
+          "authors": [
+            "Monu Sharma",
+            "Abhishek Jain"
+          ],
+          "published": "2025-11-19T19:57:37+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CY"
+          ],
+          "relevance_score": 6,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2511.15840v1",
+          "filename": "2025_Comparative Security Performance of Workday Cloud ERP Across Key Dimensions_2511.15840v1.pdf"
+        },
+        {
+          "title": "AAGATE: A NIST AI RMF-Aligned Governance Platform for Agentic AI",
+          "authors": [
+            "Ken Huang",
+            "Kyriakos Rock Lambros",
+            "Jerry Huang",
+            "Yasir Mehmood",
+            "Hammad Atta",
+            "Joshua Beck",
+            "Vineeth Sai Narajala",
+            "Muhammad Zeeshan Baig",
+            "Muhammad Aziz Ul Haq",
+            "Nadeem Shahzad",
+            "Bhavya Gupta"
+          ],
+          "published": "2025-10-29T18:06:28+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.25863v2",
+          "filename": "2025_AAGATE_ A NIST AI RMF-Aligned Governance Platform for Agentic AI_2510.25863v2.pdf"
+        },
+        {
+          "title": "Q-EnergyDEX: A Zero-Trust Distributed Energy Trading Framework Driven by Quantum Key Distribution and Blockchain",
+          "authors": [
+            "Ziqing Zhu"
+          ],
+          "published": "2025-10-16T18:02:43+00:00",
+          "year": 2025,
+          "categories": [
+            "eess.SY"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2510.15045v1",
+          "filename": "2025_Q-EnergyDEX_ A Zero-Trust Distributed Energy Trading Framework Driven by Quantum Key Distribution an_2510.15045v1.pdf"
+        },
+        {
+          "title": "Dstack: A Zero Trust Framework for Confidential Containers",
+          "authors": [
+            "Shunfan Zhou",
+            "Kevin Wang",
+            "Hang Yin"
+          ],
+          "published": "2025-09-15T03:36:27+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2509.11555v1",
+          "filename": "2025_Dstack_ A Zero Trust Framework for Confidential Containers_2509.11555v1.pdf"
+        },
+        {
+          "title": "Fortifying the Agentic Web: A Unified Zero-Trust Architecture Against Logic-layer Threats",
+          "authors": [
+            "Ken Huang",
+            "Yasir Mehmood",
+            "Hammad Atta",
+            "Jerry Huang",
+            "Muhammad Zeeshan Baig",
+            "Sree Bhargavi Balija"
+          ],
+          "published": "2025-08-17T06:52:39+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.ET"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2508.12259v3",
+          "filename": "2025_Fortifying the Agentic Web_ A Unified Zero-Trust Architecture Against Logic-layer Threats_2508.12259v3.pdf"
+        },
+        {
+          "title": "Using the NANDA Index Architecture in Practice: An Enterprise Perspective",
+          "authors": [
+            "Sichao Wang",
+            "Ramesh Raskar",
+            "Mahesh Lambe",
+            "Pradyumna Chari",
+            "Rekha Singhal",
+            "Shailja Gupta",
+            "Rajesh Ranjan",
+            "Ken Huang"
+          ],
+          "published": "2025-08-05T05:27:27+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.NI",
+            "cs.AI",
+            "cs.MA"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2508.03101v1",
+          "filename": "2025_Using the NANDA Index Architecture in Practice_ An Enterprise Perspective_2508.03101v1.pdf"
+        },
+        {
+          "title": "Evolution of AI Agent Registry Solutions: Centralized, Enterprise, and Distributed Approaches",
+          "authors": [
+            "Aditi Singh",
+            "Abul Ehtesham",
+            "Mahesh Lambe",
+            "Jared James Grogan",
+            "Abhishek Singh",
+            "Saket Kumar",
+            "Luca Muscariello",
+            "Vijoy Pandey",
+            "Guillaume Sauvage De Saint Marc",
+            "Pradyumna Chari",
+            "Ramesh Raskar"
+          ],
+          "published": "2025-08-05T05:17:18+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.NI",
+            "cs.AI",
+            "cs.MA"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2508.03095v3",
+          "filename": "2025_Evolution of AI Agent Registry Solutions_ Centralized_ Enterprise_ and Distributed Approaches_2508.03095v3.pdf"
+        },
+        {
+          "title": "\"Blockchain-Enabled Zero Trust Framework for Securing FinTech Ecosystems Against Insider Threats and Cyber Attacks\"",
+          "authors": [
+            "Avinash Singh",
+            "Vikas Pareek",
+            "Asish Sharma"
+          ],
+          "published": "2025-07-26T15:21:04+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2507.19976v1",
+          "filename": "2025__Blockchain-Enabled Zero Trust Framework for Securing FinTech Ecosystems Against Insider Threats and_2507.19976v1.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:\"identity and access management\" OR abs:IAM) AND (abs:cloud OR abs:automation OR abs:\"machine learning\")",
+      "category": "cloud_iam_automation",
+      "timestamp": "2025-12-11T14:14:32.061731",
+      "papers_found": 17,
+      "papers_downloaded": 6,
+      "papers": [
+        {
+          "title": "The Auth Shim: A Lightweight Architectural Pattern for Integrating Enterprise SSO with Standalone Open-Source Applications",
+          "authors": [
+            "Yuvraj Agrawal"
+          ],
+          "published": "2025-09-04T05:48:54+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.SE",
+            "cs.CR"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2509.03900v2",
+          "filename": "2025_The Auth Shim_ A Lightweight Architectural Pattern for Integrating Enterprise SSO with Standalone Op_2509.03900v2.pdf"
+        },
+        {
+          "title": "SkyEye: When Your Vision Reaches Beyond IAM Boundary Scope in AWS Cloud",
+          "authors": [
+            "Minh Hoang Nguyen",
+            "Anh Minh Ho",
+            "Bao Son To"
+          ],
+          "published": "2025-07-01T01:36:52+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 4,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2507.21094v2",
+          "filename": "2025_SkyEye_ When Your Vision Reaches Beyond IAM Boundary Scope in AWS Cloud_2507.21094v2.pdf"
+        },
+        {
+          "title": "Practical Acoustic Eavesdropping On Typed Passphrases",
+          "authors": [
+            "Darren F\u00fcrst",
+            "Andreas A\u00dfmuth"
+          ],
+          "published": "2025-03-20T21:42:30+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2503.16719v2",
+          "filename": "2025_Practical Acoustic Eavesdropping On Typed Passphrases_2503.16719v2.pdf"
+        },
+        {
+          "title": "Combined Hyper-Extensible Extremely-Secured Zero-Trust CIAM-PAM architecture",
+          "authors": [
+            "Shivom Aggarwal",
+            "Shourya Mehra",
+            "Safeer Sathar"
+          ],
+          "published": "2025-01-03T09:49:25+00:00",
+          "year": 2025,
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.NI"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2501.01732v1",
+          "filename": "2025_Combined Hyper-Extensible Extremely-Secured Zero-Trust CIAM-PAM architecture_2501.01732v1.pdf"
+        },
+        {
+          "title": "Token-based identity management in the distributed cloud",
+          "authors": [
+            "Ivana Kovacevic",
+            "Tamara Rankovic",
+            "Milan Stojkov",
+            "Milos Simic"
+          ],
+          "published": "2024-10-29T09:00:01+00:00",
+          "year": 2024,
+          "categories": [
+            "cs.CR"
+          ],
+          "relevance_score": 5,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2410.21865v1",
+          "filename": "2024_Token-based identity management in the distributed cloud_2410.21865v1.pdf"
+        },
+        {
+          "title": "Federated Single Sign-On and Zero Trust Co-design for AI and HPC Digital Research Infrastructures",
+          "authors": [
+            "Sadaf R. Alam",
+            "Christopher Woods",
+            "Matt Williams",
+            "Dave Moore",
+            "Isaac Prior",
+            "Ethan Williams",
+            "Anna Price",
+            "James Womack",
+            "Simon McIntosh-Smith",
+            "Fan Yang-Turner",
+            "Matt Pryor",
+            "Ilja Livenson"
+          ],
+          "published": "2024-10-24T03:57:45+00:00",
+          "year": 2024,
+          "categories": [
+            "cs.DC"
+          ],
+          "relevance_score": 3,
+          "estimated_pages": 8,
+          "pdf_url": "https://arxiv.org/pdf/2410.18411v3",
+          "filename": "2024_Federated Single Sign-On and Zero Trust Co-design for AI and HPC Digital Research Infrastructures_2410.18411v3.pdf"
+        }
+      ]
+    },
+    {
+      "query": "(abs:token OR abs:JWT OR abs:\"JSON Web Token\") AND (abs:security OR abs:vulnerability OR abs:attack)",
+      "category": "token_security",
+      "timestamp": "2025-12-11T14:15:03.696832",
+      "papers_found": 20,
+      "papers_downloaded": 0,
+      "papers": []
+    }
+  ],
+  "total_papers_downloaded": 36,
+  "completion_time": "2025-12-11T14:15:05.282009"
+}

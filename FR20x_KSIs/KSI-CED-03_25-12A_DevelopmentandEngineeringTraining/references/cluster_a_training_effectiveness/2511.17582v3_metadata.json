@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.17582v3",
+  "title": "GateRA: Token-Aware Modulation for Parameter-Efficient Fine-Tuning",
+  "authors": [
+    "Jie Ou",
+    "Shuaihong Jiang",
+    "Yingjun Du",
+    "Cees G. M. Snoek"
+  ],
+  "published": "2025-11-15T17:55:47Z",
+  "url": "http://arxiv.org/abs/2511.17582v3",
+  "pdf_url": "http://arxiv.org/pdf/2511.17582v3.pdf",
+  "relevance_score": 62,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Parameter-efficient fine-tuning (PEFT) methods, such as LoRA, DoRA, and HiRA, enable lightweight adaptation of large pre-trained models via low-rank updates. However, existing PEFT approaches apply static, input-agnostic updates to all tokens, disregarding the varying importance and difficulty of different inputs. This uniform treatment can lead to overfitting on trivial content or under-adaptation on more informative regions, especially in autoregressive settings with distinct prefill and decod"
+}

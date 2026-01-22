@@ -1,0 +1,26 @@
+{
+  "title": "Workload Identity Federation in Distributed AI Systems: Architecture and Implementation",
+  "authors": [
+    "Sarah Chen",
+    "David Kumar",
+    "Michael Zhang"
+  ],
+  "affiliation": "MIT CSAIL",
+  "publication_date": "2025-01-15",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.09847",
+  "pdf_url": "https://arxiv.org/pdf/2501.09847.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 92.0,
+  "key_topics": [
+    "workload identity",
+    "OIDC",
+    "OAuth",
+    "authentication",
+    "cloud",
+    "distributed systems"
+  ],
+  "summary": "This paper presents a comprehensive framework for implementing workload identity federation in distributed AI systems. We propose an OIDC-based architecture that enables secure authentication of autonomous agents across cloud infrastructure without relying on long-lived credentials. Our approach integrates with major cloud platforms including AWS, GCP, and Azure. We demonstrate 40% reduction in credential management overhead and improved security posture through ephemeral token generation. The framework includes practical implementation details for containerized agents and supports dynamic token rotation with sub-second latency.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.447968"
+}

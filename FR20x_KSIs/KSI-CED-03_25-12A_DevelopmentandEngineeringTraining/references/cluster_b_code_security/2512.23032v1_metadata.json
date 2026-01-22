@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.23032v1",
+  "title": "Is Chain-of-Thought Really Not Explainability? Chain-of-Thought Can Be Faithful without Hint Verbalization",
+  "authors": [
+    "Kerem Zaman",
+    "Shashank Srivastava"
+  ],
+  "published": "2025-12-28T18:18:02Z",
+  "url": "http://arxiv.org/abs/2512.23032v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.23032v1.pdf",
+  "relevance_score": 62,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Recent work, using the Biasing Features metric, labels a CoT as unfaithful if it omits a prompt-injected hint that affected the prediction. We argue this metric confuses unfaithfulness with incompleteness, the lossy compression needed to turn distributed transformer computation into a linear natural language narrative. On multi-hop reasoning tasks with Llama-3 and Gemma-3, many CoTs flagged as unfaithful by Biasing Features are judged faithful by other metrics, exceeding 50% in some models. With"
+}

@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2505.16875v1",
+  "title": "T2I-ConBench: Text-to-Image Benchmark for Continual Post-training",
+  "authors": [
+    "Zhehao Huang",
+    "Yuhang Liu",
+    "Yixin Lou",
+    "Zhengbao He",
+    "Mingzhen He",
+    "Wenxing Zhou",
+    "Tao Li",
+    "Kehan Li",
+    "Zeyi Huang",
+    "Xiaolin Huang"
+  ],
+  "published": "2025-05-22T16:31:43Z",
+  "url": "http://arxiv.org/abs/2505.16875v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.16875v1.pdf",
+  "relevance_score": 91,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Continual post-training adapts a single text-to-image diffusion model to learn new tasks without incurring the cost of separate models, but naive post-training causes forgetting of pretrained knowledge and undermines zero-shot compositionality. We observe that the absence of a standardized evaluation protocol hampers related research for continual post-training. To address this, we introduce T2I-ConBench, a unified benchmark for continual post-training of text-to-image models. T2I-ConBench focus"
+}

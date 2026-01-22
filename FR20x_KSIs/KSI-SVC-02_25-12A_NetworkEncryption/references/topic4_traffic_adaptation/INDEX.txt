@@ -1,0 +1,201 @@
+================================================================================
+TOPIC 4: AI-DRIVEN TRAFFIC PATTERN ADAPTATION AND EVASION
+ArXiv Research Index - Issue #65
+================================================================================
+
+CORE DOCUMENTS TO READ
+=====================
+
+START HERE:
+1. README.md - Overview and research methodology
+2. CONSOLIDATED_PAPERS.md - Full descriptions of all 10 papers
+
+FOR METADATA:
+3. topic4_final_papers.json - Structured data with all metrics
+
+================================================================================
+TOP 10 PAPERS (Ranked by Relevance Score)
+================================================================================
+
+RANK 1: Adaptive Malware Detection (Relevance: 16.0)
+File: 2507.04372v1_Adaptive_Malware_Detection_using_Sequential_Feature_Selection_A_Dueling_Double_Deep_Q-Network_D3QN_F.pdf
+Authors: Khan, Al-Tamimi, Bermak, Khalil
+Date: July 6, 2025
+Key: RL-based adaptive feature selection | 99.22% accuracy | 96.6% dimensionality reduction
+
+RANK 2: DeepTrust - Adversarial Robustness (Relevance: 14.0)
+File: 2510.12310v1_DeepTrust_Multi-Step_Classification_through_Dissimilar_Adversarial_Representations_for_Robust_Androi.pdf
+Authors: Pulido-Cortázar, Gibert, Manyà
+Date: October 14, 2025
+Key: IEEE SaTML 2025 Winner | 266% improvement vs evasion attacks | <1% FP rate
+
+RANK 3: Adversarial Examples Effectiveness (Relevance: 14.0)
+File: 2501.10996v1_Effectiveness_of_Adversarial_Benign_and_Malware_Examples_in_Evasion_and_Poisoning_Attacks.pdf
+Authors: Kozák, Jurecek
+Date: January 19, 2025
+Key: Benign adversarial examples | Poisoning attacks | Antivirus evasion
+
+RANK 4: StealthCup - IDS Evasion Evaluation (Relevance: 12.0)
+File: 2511.17761v1_StealthCup_Realistic_Multi-Stage_Evasion-Focused_CTF_for_Benchmarking_IDS.pdf
+Authors: Kern et al.
+Date: November 21, 2025
+Key: Real-world IDS benchmark | 11/32 techniques undetected | Volt Typhoon APT
+
+RANK 5: Evasive Ransomware (Relevance: 12.0)
+File: 2508.08656v1_Evasive_Ransomware_Attacks_Using_Low-level_Behavioral_Adversarial_Examples.pdf
+Authors: Hirano, Kobayashi
+Date: August 12, 2025
+Key: Behavioral adaptation | Micro-control functions | Conti malware analysis
+
+RANK 6: Adversarial Defenses Robustness (Relevance: 12.0)
+File: 2505.09342v2_Evaluating_the_robustness_of_adversarial_defenses_in_malware_detection_systems.pdf
+Authors: Jafari, Shameli-Sendi
+Date: May 14, 2025 (Updated Dec 8, 2025)
+Key: sigma-binary attack | 94.56% success | Binary feature evasion
+
+RANK 7: Zero Day Detection with Alpha (Relevance: 12.0)
+File: 2504.14886v1_Zero_Day_Malware_Detection_with_Alpha_Fast_DBI_with_Transformer_Models_for_Real_World_Application.pdf
+Authors: Gaber, Ahmed, Janicke
+Date: April 21, 2025
+Key: Transformer models | Assembly analysis | Perfect accuracy on ransomware
+
+RANK 8: Magecart Detection (Relevance: 12.0)
+File: 2511.04440v1_Adversarially_Robust_and_Interpretable_Magecart_Malware_Detection.pdf
+Authors: Pereira et al.
+Date: November 6, 2025
+Key: Web malware | Adversarial training | Script obfuscation evasion
+
+RANK 9: CryptoGuard - Cryptojacker Detection (Relevance: 10.0)
+File: 2510.18324v1_CryptoGuard_Lightweight_Hybrid_Detection_and_Response_to_Host-based_Cryptojackers_in_Linux_Cloud_Env.pdf
+Authors: Park, Kim, Choi, Kim
+Date: October 21, 2025
+Key: Stealth cryptojacking | 96.12% F1 | eBPF remediation | 0.06% overhead
+
+RANK 10: Hardware-Based Binary Analysis (Relevance: 10.0)
+File: 2510.16251v1_LibIHT_A_Hardware_Based_Approach_to_Efficient_and_Evasion_Resistant_Dynamic_Binary_Analysis.pdf
+Authors: Zhao et al.
+Date: October 17, 2025
+Key: Hardware tracing | 150x speedup | Anti-instrumentation evasion
+
+================================================================================
+SUPPORTING PAPERS (Not in Top 10 but Downloaded)
+================================================================================
+
+2509.22113v2 - Countering adversarial evasion in regression analysis
+2512.20004v1 - IoT Android Malware Detection with GNN
+2512.20423v1 - DNS-over-HTTPS Exfiltration Detection (RELEVANT FOR ENCRYPTED)
+
+NOTE: Other 2512 papers were auto-selected but not relevant to traffic evasion
+
+================================================================================
+KEY METRICS ACROSS ALL PAPERS
+================================================================================
+
+Best IDS Evasion Rate:         34% (11/32 techniques undetected)
+Best Attack Success Rate:      99.45% (adversarial defenses)
+Best Feature Evasion:          94.56% (binary feature attacks)
+Best Detection Accuracy:       Perfect (ransomware, worms, APTs)
+Worst False Positive Rate:     >90% (Wazuh, Suricata)
+Best F1 Score:                 96.12% (cryptojacker detection)
+Biggest Overhead Reduction:    150x (hardware analysis vs software)
+
+================================================================================
+RESEARCH THEMES
+================================================================================
+
+1. ADAPTIVE LEARNING
+   - D3QN framework for feature selection
+   - Learned adaptive policies for malware behavior
+   - Real-time evasion adaptation
+
+2. ADVERSARIAL ROBUSTNESS
+   - Feature-space evasion attacks
+   - Binary perturbation methods
+   - Detection system hardening
+
+3. BEHAVIORAL ANALYSIS
+   - Low-level instruction monitoring
+   - Syscall pattern analysis
+   - Hardware-assisted tracing
+
+4. REAL-WORLD VALIDATION
+   - StealthCup CTF benchmarking
+   - Professional penetration testing
+   - Volt Typhoon APT techniques
+
+5. STEALTH TECHNIQUES
+   - Cryptojacking with behavioral adaptation
+   - Anti-instrumentation methods
+   - PID manipulation and entry point poisoning
+
+================================================================================
+FILE ORGANIZATION
+================================================================================
+
+PRIMARY DELIVERABLES:
+  README.md                    - Project overview and findings
+  CONSOLIDATED_PAPERS.md       - Detailed paper descriptions
+  topic4_final_papers.json     - Machine-readable metadata
+  INDEX.txt                    - This file
+
+PDF PAPERS (10 core + 11 supporting):
+  2507.04372v1_*.pdf          - D3QN Framework (RANK 1)
+  2510.12310v1_*.pdf          - DeepTrust (RANK 2)
+  2501.10996v1_*.pdf          - Adversarial Examples (RANK 3)
+  2511.17761v1_*.pdf          - StealthCup (RANK 4)
+  2508.08656v1_*.pdf          - Evasive Ransomware (RANK 5)
+  2505.09342v2_*.pdf          - Adversarial Defenses (RANK 6)
+  2504.14886v1_*.pdf          - Zero Day Alpha (RANK 7)
+  2511.04440v1_*.pdf          - Magecart Detection (RANK 8)
+  2510.18324v1_*.pdf          - CryptoGuard (RANK 9)
+  2510.16251v1_*.pdf          - LibIHT (RANK 10)
+
+SUPPORTING/REFERENCE:
+  topic4_malware_evasion_papers.json - Raw search results
+  topic4_traffic_evasion_query*.json  - Query-specific results
+
+================================================================================
+QUICK START FOR ISSUE #65 RESEARCH
+================================================================================
+
+FOR TRAFFIC EVASION MECHANISMS:
+1. Read D3QN paper (2507.04372v1) - RL-based adaptation
+2. Read StealthCup paper (2511.17761v1) - Real-world evasion metrics
+3. Read Evasive Ransomware (2508.08656v1) - Behavior modification
+4. Read Binary Feature Attacks (2505.09342v2) - Practical obfuscation
+
+FOR DETECTION RESILIENCE:
+1. Read DeepTrust (2510.12310v1) - Adversarial robustness
+2. Read CryptoGuard (2510.18324v1) - Stealth detection
+3. Read LibIHT (2510.16251v1) - Hardware-based detection
+4. Read Zero Day Alpha (2504.14886v1) - Behavior recognition
+
+FOR ENCRYPTED TRAFFIC ANALYSIS:
+- Limited papers: 2512.20423v1 (DNS-over-HTTPS exfiltration)
+- Recommended: Focus on behavioral analysis papers instead
+
+================================================================================
+SEARCH STRATEGY NOTES
+================================================================================
+
+Query 1: ("encrypted exfiltration" OR "traffic evasion" ...) - 1 result
+Query 2: "adaptive malware" AND (RL OR ML) - 1 result (duplicate)
+Query 3: (malware AND evasion AND detection) - 44 results (filtered to top 10)
+
+Observation: Direct "encrypted exfiltration + AI" papers are rare in ArXiv.
+Focus naturally shifted to broader malware evasion and detection robustness topics.
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+1. Analyze top 5 papers in detail (D3QN, DeepTrust, StealthCup, etc.)
+2. Extract key metrics on evasion success rates
+3. Identify common adaptation techniques across papers
+4. Build threat modeling scenarios for Issue #65
+5. Document AI-driven traffic modification patterns
+
+================================================================================
+Metadata: Generated December 24, 2025 | ArXiv API Rate Limit: 3.5s between requests
+Status: COMPLETE - 10 primary papers + 11 supporting papers
+================================================================================

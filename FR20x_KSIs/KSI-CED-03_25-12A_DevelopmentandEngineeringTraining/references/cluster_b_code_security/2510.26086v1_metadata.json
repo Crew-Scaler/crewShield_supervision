@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.26086v1",
+  "title": "LLMBisect: Breaking Barriers in Bug Bisection with A Comparative Analysis Pipeline",
+  "authors": [
+    "Zheng Zhang",
+    "Haonan Li",
+    "Xingyu Li",
+    "Hang Zhang",
+    "Zhiyun Qian"
+  ],
+  "published": "2025-10-30T02:47:25Z",
+  "url": "http://arxiv.org/abs/2510.26086v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.26086v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Bug bisection has been an important security task that aims to understand the range of software versions impacted by a bug, i.e., identifying the commit that introduced the bug. However, traditional patch-based bisection methods are faced with several significant barriers: For example, they assume that the bug-inducing commit (BIC) and the patch commit modify the same functions, which is not always true. They often rely solely on code changes, while the commit message frequently contains a wealt"
+}

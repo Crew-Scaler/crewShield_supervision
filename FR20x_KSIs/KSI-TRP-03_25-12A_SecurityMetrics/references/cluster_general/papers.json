@@ -1,0 +1,175 @@
+[
+  {
+    "arxiv_id": "2601.00384",
+    "title": "Engineering Attack Vectors and Detecting Anomalies in Additive Manufacturing",
+    "summary": "Additive manufacturing (AM) is rapidly integrating into critical sectors such as aerospace, automotive, and healthcare. However, this cyber-physical convergence introduces new attack surfaces, especially at the interface between computer-aided design (CAD) and machine execution layers. In this work, we investigate targeted cyberattacks on two widely used fused deposition modeling (FDM) systems, Creality's flagship model K1 Max, and Ender 3. Our threat model is a multi-layered Man-in-the-Middle (MitM) intrusion, where the adversary intercepts and manipulates G-code files during upload from the user interface to the printer firmware. The MitM intrusion chain enables several stealthy sabotage scenarios. These attacks remain undetectable by conventional slicer software or runtime interfaces, resulting in structurally defective yet externally plausible printed parts. To counter these stealthy threats, we propose an unsupervised Intrusion Detection System (IDS) that analyzes structured machine logs generated during live printing. Our defense mechanism uses a frozen Transformer-based encoder (a BERT variant) to extract semantic representations of system behavior, followed by a contrastively trained projection head that learns anomaly-sensitive embeddings. Later, a clustering-based approach and a self-attention autoencoder are used for classification. Experimental results demonstrate that our approach effectively distinguishes between benign and compromised executions.",
+    "authors": [
+      "Md Mahbub Hasan",
+      "Marcus Sternhagen",
+      "Krishna Chandra Roy"
+    ],
+    "published": "2026-01-01T16:27:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00367",
+    "title": "PatchBlock: A Lightweight Defense Against Adversarial Patches for Embedded EdgeAI Devices",
+    "summary": "Adversarial attacks pose a significant challenge to the reliable deployment of machine learning models in EdgeAI applications, such as autonomous driving and surveillance, which rely on resource-constrained devices for real-time inference. Among these, patch-based adversarial attacks, where small malicious patches (e.g., stickers) are applied to objects, can deceive neural networks into making incorrect predictions with potentially severe consequences. In this paper, we present PatchBlock, a lightweight framework designed to detect and neutralize adversarial patches in images. Leveraging outlier detection and dimensionality reduction, PatchBlock identifies regions affected by adversarial noise and suppresses their impact. It operates as a pre-processing module at the sensor level, efficiently running on CPUs in parallel with GPU inference, thus preserving system throughput while avoiding additional GPU overhead. The framework follows a three-stage pipeline: splitting the input into chunks (Chunking), detecting anomalous regions via a redesigned isolation forest with targeted cuts for faster convergence (Separating), and applying dimensionality reduction on the identified outliers (Mitigating). PatchBlock is both model- and patch-agnostic, can be retrofitted to existing pipelines, and integrates seamlessly between sensor inputs and downstream models. Evaluations across multiple neural architectures, benchmark datasets, attack types, and diverse edge devices demonstrate that PatchBlock consistently improves robustness, recovering up to 77% of model accuracy under strong patch attacks such as the Google Adversarial Patch, while maintaining high portability and minimal clean accuracy loss. Additionally, PatchBlock outperforms the state-of-the-art defenses in efficiency, in terms of computation time and energy consumption per sample, making it suitable for EdgeAI applications.",
+    "authors": [
+      "Nandish Chattopadhyay",
+      "Abdul Basit",
+      "Amira Guesmi",
+      "Muhammad Abdullah Hanif",
+      "Bassem Ouni"
+    ],
+    "published": "2026-01-01T15:04:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04275",
+    "title": "Shadow Unlearning: A Neuro-Semantic Approach to Fidelity-Preserving Faceless Forgetting in LLMs",
+    "summary": "Machine unlearning aims to selectively remove the influence of specific training samples to satisfy privacy regulations such as the GDPR's 'Right to be Forgotten'. However, many existing methods require access to the data being removed, exposing it to membership inference attacks and potential misuse of Personally Identifiable Information (PII). We address this critical challenge by proposing Shadow Unlearning, a novel paradigm of approximate unlearning, that performs machine unlearning on anonymized forget data without exposing PII. We further propose a novel privacy-preserving framework, Neuro-Semantic Projector Unlearning (NSPU) to achieve Shadow unlearning. To evaluate our method, we compile Multi-domain Fictitious Unlearning (MuFU) forget set across five diverse domains and introduce an evaluation stack to quantify the trade-off between knowledge retention and unlearning effectiveness. Experimental results on various LLMs show that NSPU achieves superior unlearning performance, preserves model utility, and enhances user privacy. Additionally, the proposed approach is at least 10 times more computationally efficient than standard unlearning approaches. Our findings foster a new direction for privacy-aware machine unlearning that balances data protection and model fidelity.",
+    "authors": [
+      "Dinesh Srivasthav P",
+      "Ashok Urlana",
+      "Rahul Mishra",
+      "Bala Mallikarjunarao Garlapati",
+      "Ponnurangam Kumaraguru"
+    ],
+    "published": "2026-01-07T12:11:25Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04281",
+    "title": "A Longitudinal Measurement Study of Log4Shell Exploitation from an Active Network Telescope",
+    "summary": "The disclosure of the Log4Shell vulnerability in December 2021 led to an unprecedented wave of global scanning and exploitation activity. A recent study provided important initial insights, but was largely limited in duration and geography, focusing primarily on European and U.S. network telescope deployments and covering the immediate aftermath of disclosure. As a result, the longer-term evolution of exploitation behavior and its regional characteristics has remained insufficiently understood. In this paper, we present a longitudinal measurement study of Log4Shell-related traffic observed between December 2021 and October 2025 by an active network telescope deployed in India. This vantage point enables examination of sustained exploitation dynamics beyond the initial outbreak phase, including changes in scanning breadth, infrastructure reuse, payload construction, and destination targeting. Our analysis reveals that Log4Shell exploitation persists for several years after disclosure, with activity gradually concentrating around a smaller set of recurring scanner and callback infrastructures, accompanied by an increase in payload obfuscation and shifts in protocol and port usage. A comparative analysis and observations with the benchmark study validate both correlated temporal trends and systematic differences attributable to vantage point placement and coverage. Subsequently, these results demonstrate that Log4Shell remains active well beyond its initial disclosure period, underscoring the value of long-term, geographically diverse measurement for understanding the full lifecycle of critical software vulnerabilities.",
+    "authors": [
+      "Aakash Singh",
+      "Kuldeep Singh Yadav",
+      "V. Anil Kumar",
+      "Samiran Ghosh",
+      "Pranita Baro"
+    ],
+    "published": "2026-01-07T12:59:08Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03690",
+    "title": "Detection and Prevention of Process Disruption Attacks in the Electrical Power Systems using MMS Traffic: An EPIC Case",
+    "summary": "Smart grids are increasingly exposed to sophisticated cyber threats due to their reliance on interconnected communication networks, as demonstrated by real world incidents such as the cyberattacks on the Ukrainian power grid. In IEC61850 based smart substations, the Manufacturing Message Specification protocol operates over TCP to facilitate communication between SCADA systems and field devices such as Intelligent Electronic Devices and Programmable Logic Controllers. Although MMS enables efficient monitoring and control, it can be exploited by adversaries to generate legitimate looking packets for reconnaissance, unauthorized state reading, and malicious command injection, thereby disrupting grid operations. In this work, we propose a fully automated attack detection and prevention framework for IEC61850 compliant smart substations to counter remote cyberattacks that manipulate process states through compromised PLCs and IEDs. A detailed analysis of the MMS protocol is presented, and critical MMS field value pairs are extracted during both normal SCADA operation and active attack conditions. The proposed framework is validated using seven datasets comprising benign operational scenarios and multiple attack instances, including IEC61850Bean based attacks and script driven attacks leveraging the libiec61850 library. Our approach accurately identifies attack signature carrying MMS packets that attempt to disrupt circuit breaker status, specifically targeting the smart home zone IED and PLC of the EPIC testbed. The results demonstrate the effectiveness of the proposed framework in precisely detecting malicious MMS traffic and enhancing the cyber resilience of IEC61850 based smart grid environments.",
+    "authors": [
+      "Praneeta K Maganti",
+      "Daisuke Mashima",
+      "Rajib Ranjan Maiti"
+    ],
+    "published": "2026-01-07T08:25:24Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00389",
+    "title": "NOS-Gate: Queue-Aware Streaming IDS for Consumer Gateways under Timing-Controlled Evasion",
+    "summary": "Timing and burst patterns can leak through encryption, and an adaptive adversary can exploit them. This undermines metadata-only detection in a stand-alone consumer gateway. Therefore, consumer gateways need streaming intrusion detection on encrypted traffic using metadata only, under tight CPU and latency budgets. We present a streaming IDS for stand-alone gateways that instantiates a lightweight two-state unit derived from Network-Optimised Spiking (NOS) dynamics per flow, named NOS-Gate. NOS-Gate scores fixed-length windows of metadata features and, under a $K$-of-$M$ persistence rule, triggers a reversible mitigation that temporarily reduces the flow's weight under weighted fair queueing (WFQ). We evaluate NOS-Gate under timing-controlled evasion using an executable 'worlds' benchmark that specifies benign device processes, auditable attacker budgets, contention structure, and packet-level WFQ replay to quantify queue impact. All methods are calibrated label-free via burn-in quantile thresholding. Across multiple reproducible worlds and malicious episodes, at an achieved $0.1%$ false-positive operating point, NOS-Gate attains 0.952 incident recall versus 0.857 for the best baseline in these runs. Under gating, it reduces p99.9 queueing delay and p99.9 collateral delay with a mean scoring cost of ~ 2.09 \u03bcs per flow-window on CPU.",
+    "authors": [
+      "Muhammad Bilal",
+      "Omer Tariq",
+      "Hasan Ahmed"
+    ],
+    "published": "2026-01-01T16:55:23Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.24415",
+    "title": "Language Model Agents Under Attack: A Cross Model-Benchmark of Profit-Seeking Behaviors in Customer Service",
+    "summary": "Customer-service LLM agents increasingly make policy-bound decisions (refunds, rebooking, billing disputes), but the same ``helpful'' interaction style can be exploited: a small fraction of users can induce unauthorized concessions, shifting costs to others and eroding trust in agentic workflows. We present a cross-domain benchmark of profit-seeking direct prompt injection in customer-service interactions, spanning 10 service domains and 100 realistic attack scripts grouped into five technique families. Across five widely used models under a unified rubric with uncertainty reporting, attacks are highly domain-dependent (airline support is most exploitable) and technique-dependent (payload splitting is most consistently effective). We release data and evaluation code to support reproducible auditing and to inform the design of oversight and recovery workflows for trustworthy, human centered agent interfaces.",
+    "authors": [
+      "Jingyu Zhang"
+    ],
+    "published": "2025-12-30T18:57:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.20423",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "published": "2025-12-23T15:07:17Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.02254",
+    "title": "Vouchsafe: A Zero-Infrastructure Capability Graph Model for Offline Identity and Trust",
+    "summary": "Modern identity and trust systems collapse in the environments where they are needed most: disaster zones, disconnected or damaged networks, and adversarial conditions such as censorship or infrastructure interference. These systems depend on functioning networks to reach online authorities, resolvers, directories, and revocation services, leaving trust unverifiable whenever communication is unavailable or untrusted. This work demonstrates that secure identity and trust are possible without such infrastructure. We introduce the Zero-Infrastructure Capability Graph (ZI-CG), a model showing that identity, delegation, and revocation can be represented as self-contained, signed statements whose validity is determined entirely by local, deterministic evaluation. We further present Vouchsafe, a complete working instantiation of this model built using widely deployed primitives including Ed25519, SHA-256, and structured JSON Web Tokens, requiring no new cryptography or online services. The results show that a practical, offline-verifiable trust substrate can be constructed today using only the cryptographic data presented at evaluation time.",
+    "authors": [
+      "Jay Kuri"
+    ],
+    "published": "2026-01-05T16:34:47Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.16439",
+    "title": "From Essence to Defense: Adaptive Semantic-aware Watermarking for Embedding-as-a-Service Copyright Protection",
+    "summary": "Benefiting from the superior capabilities of large language models in natural language understanding and generation, Embeddings-as-a-Service (EaaS) has emerged as a successful commercial paradigm on the web platform. However, prior studies have revealed that EaaS is vulnerable to imitation attacks. Existing methods protect the intellectual property of EaaS through watermarking techniques, but they all ignore the most important properties of embedding: semantics, resulting in limited harmlessness and stealthiness. To this end, we propose SemMark, a novel semantic-based watermarking paradigm for EaaS copyright protection. SemMark employs locality-sensitive hashing to partition the semantic space and inject semantic-aware watermarks into specific regions, ensuring that the watermark signals remain imperceptible and diverse. In addition, we introduce the adaptive watermark weight mechanism based on the local outlier factor to preserve the original embedding distribution. Furthermore, we propose Detect-Sampling and Dimensionality-Reduction attacks and construct four scenarios to evaluate the watermarking method. Extensive experiments are conducted on four popular NLP datasets, and SemMark achieves superior verifiability, diversity, stealthiness, and harmlessness.",
+    "authors": [
+      "Hao Li",
+      "Yubing Ren",
+      "Yanan Cao",
+      "Yingjie Li",
+      "Fang Fang"
+    ],
+    "published": "2025-12-18T11:50:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.10185",
+    "title": "Watermarks for Language Models via Probabilistic Automata",
+    "summary": "A recent watermarking scheme for language models achieves distortion-free embedding and robustness to edit-distance attacks. However, it suffers from limited generation diversity and high detection overhead. In parallel, recent research has focused on undetectability, a property ensuring that watermarks remain difficult for adversaries to detect and spoof. In this work, we introduce a new class of watermarking schemes constructed through probabilistic automata. We present two instantiations: (i) a practical scheme with exponential generation diversity and computational efficiency, and (ii) a theoretical construction with formal undetectability guarantees under cryptographic assumptions. Extensive experiments on LLaMA-3B and Mistral-7B validate the superior performance of our scheme in terms of robustness and efficiency.",
+    "authors": [
+      "Yangkun Wang",
+      "Jingbo Shang"
+    ],
+    "published": "2025-12-11T00:49:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.20535",
+    "title": "ARBITER: AI-Driven Filtering for Role-Based Access Control",
+    "summary": "Role-Based Access Control (RBAC) struggles to adapt to dynamic enterprise environments with documents that contain information that cannot be disclosed to specific user groups. As these documents are used by LLM-driven systems (e.g., in RAG) the problem is exacerbated as LLMs can leak sensitive data due to prompt truncation, classification errors, or loss of system context. We introduce \\our, a system designed to provide RBAC in RAG systems. \\our implements layered input/output validation, role-aware retrieval, and post-generation fact-checking. Unlike traditional RBAC approaches that rely on fine-tuned classifiers, \\our uses LLMs operating in few-shot settings with prompt-based steering for rapid deployment and role updates. We evaluate the approach on 389 queries using a synthetic dataset. Experimental results show 85\\% accuracy and 89\\% F1-score in query filtering, close to traditional RBAC solutions. Results suggest that practical RBAC deployment on RAG systems is approaching the maturity level needed for dynamic enterprise environments.",
+    "authors": [
+      "Michele Lorenzo",
+      "Idilio Drago",
+      "Dario Salvadori",
+      "Fabio Romolo Vayr"
+    ],
+    "published": "2025-12-23T17:25:51Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.16904",
+    "title": "How Good is Post-Hoc Watermarking With Language Model Rephrasing?",
+    "summary": "Generation-time text watermarking embeds statistical signals into text for traceability of AI-generated content. We explore *post-hoc watermarking* where an LLM rewrites existing text while applying generation-time watermarking, to protect copyrighted documents, or detect their use in training or RAG via watermark radioactivity. Unlike generation-time approaches, which is constrained by how LLMs are served, this setting offers additional degrees of freedom for both generation and detection. We investigate how allocating compute (through larger rephrasing models, beam search, multi-candidate generation, or entropy filtering at detection) affects the quality-detectability trade-off. Our strategies achieve strong detectability and semantic fidelity on open-ended text such as books. Among our findings, the simple Gumbel-max scheme surprisingly outperforms more recent alternatives under nucleus sampling, and most methods benefit significantly from beam search. However, most approaches struggle when watermarking verifiable text such as code, where we counterintuitively find that smaller models outperform larger ones. This study reveals both the potential and limitations of post-hoc watermarking, laying groundwork for practical applications and future research.",
+    "authors": [
+      "Pierre Fernandez",
+      "Tom Sander",
+      "Hady Elsahar",
+      "Hongyan Chang",
+      "Tom\u00e1\u0161 Sou\u010dek"
+    ],
+    "published": "2025-12-18T18:57:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  }
+]

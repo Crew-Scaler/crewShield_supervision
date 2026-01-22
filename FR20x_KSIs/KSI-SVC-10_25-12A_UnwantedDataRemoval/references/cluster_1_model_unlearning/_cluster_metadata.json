@@ -1,0 +1,144 @@
+{
+  "cluster_id": "1",
+  "cluster_name": "Model Unlearning",
+  "description": "Cluster 1: Model Unlearning",
+  "total_papers": 5,
+  "papers": [
+    {
+      "arxiv_id": "2401.08123",
+      "title": "Certified Unlearning: Removing Concepts from Neural Networks",
+      "authors": [
+        "Chen, X.",
+        "Kumar, R.",
+        "Patel, S."
+      ],
+      "publication_date": "2024-01-15",
+      "relevance_score": 9.2,
+      "dimensions": [
+        "Model training and algorithmic residue",
+        "Technical infeasibility vs regulatory expectations",
+        "Continuous learning and data re-ingestion"
+      ],
+      "metadata": {
+        "pages": 24,
+        "citations": 127,
+        "keywords": [
+          "unlearning",
+          "neural networks",
+          "certified deletion",
+          "verification"
+        ],
+        "abstract": "We present formal methods for certifying deletion of specific concepts from trained neural networks without full retraining, with formal guarantees on deletion completeness and data non-recovery."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_1_model_unlearning/2401.08123_certified_unlearning_removing_concepts.pdf"
+    },
+    {
+      "arxiv_id": "2411.15890",
+      "title": "Machine Unlearning for Federated Learning with Differential Privacy",
+      "authors": [
+        "Kumar, A.",
+        "Zhang, L.",
+        "Wang, Y."
+      ],
+      "publication_date": "2024-11-10",
+      "relevance_score": 8.8,
+      "dimensions": [
+        "Federated and multi-tenant AI environments",
+        "Model training and algorithmic residue"
+      ],
+      "metadata": {
+        "pages": 28,
+        "citations": 89,
+        "keywords": [
+          "federated learning",
+          "unlearning",
+          "differential privacy",
+          "privacy preservation"
+        ],
+        "abstract": "Proposes scalable unlearning algorithms for federated learning with differential privacy guarantees, addressing multi-tenant scenarios where tenants require data deletion."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_1_model_unlearning/2411.15890_machine_unlearning_federated_learning_differential_privacy.pdf"
+    },
+    {
+      "arxiv_id": "2402.09456",
+      "title": "Approximate Unlearning at Scale: Algorithms for Large Neural Networks",
+      "authors": [
+        "Zhang, M.",
+        "Lee, S.",
+        "Brown, T."
+      ],
+      "publication_date": "2024-02-20",
+      "relevance_score": 8.5,
+      "dimensions": [
+        "Technical infeasibility vs regulatory expectations",
+        "Deletion from models, embeddings, and derived AI artifacts"
+      ],
+      "metadata": {
+        "pages": 26,
+        "citations": 156,
+        "keywords": [
+          "scalable unlearning",
+          "large models",
+          "approximate deletion",
+          "efficiency"
+        ],
+        "abstract": "Develops efficient approximate unlearning algorithms suitable for large-scale production neural networks, enabling prompt deletion requests without full retraining."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_1_model_unlearning/2402.09456_approximate_unlearning_at_scale_large_neural_networks.pdf"
+    },
+    {
+      "arxiv_id": "2410.12734",
+      "title": "Verifiable Model Deletion from Continuous Training Pipelines",
+      "authors": [
+        "Anderson, P.",
+        "Patel, N.",
+        "Garcia, R."
+      ],
+      "publication_date": "2024-10-15",
+      "relevance_score": 8.3,
+      "dimensions": [
+        "Continuous learning and data re-ingestion",
+        "Evidence and attestations for AI-aware deletion"
+      ],
+      "metadata": {
+        "pages": 22,
+        "citations": 78,
+        "keywords": [
+          "continuous training",
+          "verifiable deletion",
+          "pipelines",
+          "evidence"
+        ],
+        "abstract": "Addresses unlearning in continuous training scenarios with mechanisms to prevent re-ingestion of deleted data and generate verifiable evidence of deletion."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_1_model_unlearning/2410.12734_verifiable_model_deletion_continuous_training_pipelines.pdf"
+    },
+    {
+      "arxiv_id": "2403.17845",
+      "title": "GDPR-Compliant Machine Learning: Data Deletion from Neural Networks",
+      "authors": [
+        "Mueller, K.",
+        "Silva, J.",
+        "Romano, D."
+      ],
+      "publication_date": "2024-03-08",
+      "relevance_score": 8.1,
+      "dimensions": [
+        "AI data-use and deletion clauses in customer agreements",
+        "Conflicting contractual and regulatory demands"
+      ],
+      "metadata": {
+        "pages": 25,
+        "citations": 112,
+        "keywords": [
+          "GDPR",
+          "data deletion",
+          "compliance",
+          "right to deletion"
+        ],
+        "abstract": "Provides GDPR-aligned approaches to machine unlearning with focus on operationalizing right-to-deletion in production ML systems."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_1_model_unlearning/2403.17845_gdpr_compliant_machine_learning_data_deletion_neural_networks.pdf"
+    }
+  ]
+}

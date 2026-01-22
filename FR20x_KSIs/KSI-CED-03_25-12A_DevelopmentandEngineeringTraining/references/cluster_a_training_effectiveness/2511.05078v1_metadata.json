@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2511.05078v1",
+  "title": "Reasoning-Guided Claim Normalization for Noisy Multilingual Social Media Posts",
+  "authors": [
+    "Manan Sharma",
+    "Arya Suneesh",
+    "Manish Jain",
+    "Pawan Kumar Rajpoot",
+    "Prasanna Devadiga",
+    "Bharatdeep Hazarika",
+    "Ashish Shrivastava",
+    "Kishan Gurumurthy",
+    "Anshuman B Suresh",
+    "Aditya U Baliga"
+  ],
+  "published": "2025-11-07T08:52:04Z",
+  "url": "http://arxiv.org/abs/2511.05078v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.05078v1.pdf",
+  "relevance_score": 72,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "We address claim normalization for multilingual misinformation detection - transforming noisy social media posts into clear, verifiable statements across 20 languages. The key contribution demonstrates how systematic decomposition of posts using Who, What, Where, When, Why and How questions enables robust cross-lingual transfer despite training exclusively on English data. Our methodology incorporates finetuning Qwen3-14B using LoRA with the provided dataset after intra-post deduplication, token"
+}

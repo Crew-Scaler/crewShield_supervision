@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.19676v1",
+  "title": "CircuitGuard: Mitigating LLM Memorization in RTL Code Generation Against IP Leakage",
+  "authors": [
+    "Nowfel Mashnoor",
+    "Mohammad Akyash",
+    "Hadi Kamali",
+    "Kimia Azar"
+  ],
+  "published": "2025-10-22T15:22:15Z",
+  "url": "http://arxiv.org/abs/2510.19676v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.19676v1.pdf",
+  "relevance_score": 78,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Large Language Models (LLMs) have achieved remarkable success in generative tasks, including register-transfer level (RTL) hardware synthesis. However, their tendency to memorize training data poses critical risks when proprietary or security-sensitive designs are unintentionally exposed during inference. While prior work has examined memorization in natural language, RTL introduces unique challenges: In RTL, structurally different implementations (e.g., behavioral vs. gate-level descriptions) c"
+}

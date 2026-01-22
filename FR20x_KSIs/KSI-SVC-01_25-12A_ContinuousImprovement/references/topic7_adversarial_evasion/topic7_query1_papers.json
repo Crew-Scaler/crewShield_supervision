@@ -1,0 +1,21 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2312.06991v1",
+    "arxiv_id": "2312.06991v1",
+    "title": "Attacking the Loop: Adversarial Attacks on Graph-based Loop Closure Detection",
+    "summary": "With the advancement in robotics, it is becoming increasingly common for large factories and warehouses to incorporate visual SLAM (vSLAM) enabled automated robots that operate closely next to humans. This makes any adversarial attacks on vSLAM components potentially detrimental to humans working alongside them. Loop Closure Detection (LCD) is a crucial component in vSLAM that minimizes the accumulation of drift in mapping, since even a small drift can accumulate into a significant drift over time. A prior work by Kim et al., SymbioLCD2, unified visual features and semantic objects into a single graph structure for finding loop closure candidates. While this provided a performance improvement over visual feature-based LCD, it also created a single point of vulnerability for potential graph-based adversarial attacks. Unlike previously reported visual-patch based attacks, small graph perturbations are far more challenging to detect, making them a more significant threat. In this paper, we present Adversarial-LCD, a novel black-box evasion attack framework that employs an eigencentrality-based perturbation method and an SVM-RBF surrogate model with a Weisfeiler-Lehman feature extractor for attacking graph-based LCD. Our evaluation shows that the attack performance of Adversarial-LCD with the SVM-RBF surrogate model was superior to that of other machine learning surrogate algorithms, including SVM-linear, SVM-polynomial, and Bayesian classifier, demonstrating the effectiveness of our attack framework. Furthermore, we show that our eigencentrality-based perturbation method outperforms other algorithms, such as Random-walk and Shortest-path, highlighting the efficiency of Adversarial-LCD's perturbation selection method.",
+    "published": "2023-12-12T05:23:15Z",
+    "updated": "2023-12-12T05:23:15Z",
+    "authors": [
+      "Jonathan J. Y. Kim",
+      "Martin Urschler",
+      "Patricia J. Riddle",
+      "Jorg S. Wicker"
+    ],
+    "affiliations": [],
+    "first_author": "Jonathan J. Y. Kim",
+    "pdf_url": "https://arxiv.org/pdf/2312.06991v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 6.0
+  }
+]

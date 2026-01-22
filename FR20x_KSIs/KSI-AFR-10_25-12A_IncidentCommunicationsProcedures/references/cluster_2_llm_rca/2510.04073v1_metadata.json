@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2510.04073v1",
+  "title": "Moral Anchor System: A Predictive Framework for AI Value Alignment and Drift Prevention",
+  "authors": [
+    "Santhosh Kumar Ravindran"
+  ],
+  "published": "2025-10-05T07:24:23Z",
+  "url": "http://arxiv.org/abs/2510.04073v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.04073v1.pdf",
+  "relevance_score": 95,
+  "summary": "The rise of artificial intelligence (AI) as super-capable assistants has transformed productivity and decision-making across domains. Yet, this integration raises critical concerns about value alignment - ensuring AI behaviors remain consistent with human ethics and intentions. A key risk is value drift, where AI systems deviate from aligned values due to evolving contexts, learning dynamics, or unintended optimizations, potentially leading to inefficiencies or ethical breaches. We propose the Moral Anchor System (MAS), a novel framework to detect, predict, and mitigate value drift in AI agents. MAS combines real-time Bayesian inference for monitoring value states, LSTM networks for forecasting drift, and a human-centric governance layer for adaptive interventions. It emphasizes low-latency responses (<20 ms) to prevent breaches, while reducing false positives and alert fatigue via supervised fine-tuning with human feedback. Our hypothesis: integrating probabilistic drift detection, predictive analytics, and adaptive governance can reduce value drift incidents by 80 percent or more in simulations, maintaining high detection accuracy (85 percent) and low false positive rates (0.08 post-adaptation). Rigorous experiments with goal-misaligned agents validate MAS's scalability and responsiveness. MAS's originality lies in its predictive and adaptive nature, contrasting static alignment methods. Contributions include: (1) MAS architecture for AI integration; (2) empirical results prioritizing speed and usability; (3) cross-domain applicability insights; and (4) open-source code for replication."
+}

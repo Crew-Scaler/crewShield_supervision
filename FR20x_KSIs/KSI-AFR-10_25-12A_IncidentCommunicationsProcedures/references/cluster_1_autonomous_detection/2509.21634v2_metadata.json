@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2509.21634v2",
+  "title": "MobiLLM: An Agentic AI Framework for Closed-Loop Threat Mitigation in 6G Open RANs",
+  "authors": [
+    "Prakhar Sharma",
+    "Haohuang Wen",
+    "Vinod Yegneswaran",
+    "Ashish Gehani",
+    "Phillip Porras",
+    "Zhiqiang Lin"
+  ],
+  "published": "2025-09-25T21:49:43Z",
+  "url": "http://arxiv.org/abs/2509.21634v2",
+  "pdf_url": "http://arxiv.org/pdf/2509.21634v2.pdf",
+  "relevance_score": 95,
+  "summary": "The evolution toward 6G networks is being accelerated by the Open Radio Access Network (O-RAN) paradigm -- an open, interoperable architecture that enables intelligent, modular applications across public telecom and private enterprise domains. While this openness creates unprecedented opportunities for innovation, it also expands the attack surface, demanding resilient, low-cost, and autonomous security solutions. Legacy defenses remain largely reactive, labor-intensive, and inadequate for the scale and complexity of next-generation systems. Current O-RAN applications focus mainly on network optimization or passive threat detection, with limited capability for closed-loop, automated response.   To address this critical gap, we present an agentic AI framework for fully automated, end-to-end threat mitigation in 6G O-RAN environments. MobiLLM orchestrates security workflows through a modular multi-agent system powered by Large Language Models (LLMs). The framework features a Threat Analysis Agent for real-time data triage, a Threat Classification Agent that uses Retrieval-Augmented Generation (RAG) to map anomalies to specific countermeasures, and a Threat Response Agent that safely operationalizes mitigation actions via O-RAN control interfaces. Grounded in trusted knowledge bases such as the MITRE FiGHT framework and 3GPP specifications, and equipped with robust safety guardrails, MobiLLM provides a blueprint for trustworthy AI-driven network security. Initial evaluations demonstrate that MobiLLM can effectively identify and orchestrate complex mitigation strategies, significantly reducing response latency and showcasing the feasibility of autonomous security operations in 6G."
+}

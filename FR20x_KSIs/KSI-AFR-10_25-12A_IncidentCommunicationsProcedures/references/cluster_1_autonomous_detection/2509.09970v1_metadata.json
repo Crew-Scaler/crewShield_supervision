@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2509.09970v1",
+  "title": "Securing LLM-Generated Embedded Firmware through AI Agent-Driven Validation and Patching",
+  "authors": [
+    "Seyed Moein Abtahi",
+    "Akramul Azim"
+  ],
+  "published": "2025-09-12T05:15:35Z",
+  "url": "http://arxiv.org/abs/2509.09970v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.09970v1.pdf",
+  "relevance_score": 100,
+  "summary": "Large Language Models (LLMs) show promise in generating firmware for embedded systems, but often introduce security flaws and fail to meet real-time performance constraints. This paper proposes a three-phase methodology that combines LLM-based firmware generation with automated security validation and iterative refinement in a virtualized environment. Using structured prompts, models like GPT-4 generate firmware for networking and control tasks, deployed on FreeRTOS via QEMU. These implementations are tested using fuzzing, static analysis, and runtime monitoring to detect vulnerabilities such as buffer overflows (CWE-120), race conditions (CWE-362), and denial-of-service threats (CWE-400). Specialized AI agents for Threat Detection, Performance Optimization, and Compliance Verification collaborate to improve detection and remediation. Identified issues are categorized using CWE, then used to prompt targeted LLM-generated patches in an iterative loop. Experiments show a 92.4\\% Vulnerability Remediation Rate (37.3\\% improvement), 95.8\\% Threat Model Compliance, and 0.87 Security Coverage Index. Real-time metrics include 8.6ms worst-case execution time and 195\u03bcs jitter. This process enhances firmware security and performance while contributing an open-source dataset for future research."
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2509.01533v1",
+  "title": "Forward-Only Continual Learning",
+  "authors": [
+    "Jiao Chen",
+    "Jiayi He",
+    "Fangfang Chen",
+    "Zuohong Lv",
+    "Jianhua Tang"
+  ],
+  "published": "2025-09-01T15:10:38Z",
+  "url": "http://arxiv.org/abs/2509.01533v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.01533v1.pdf",
+  "relevance_score": 77,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Catastrophic forgetting remains a central challenge in continual learning (CL) with pre-trained models. While existing approaches typically freeze the backbone and fine-tune a small number of parameters to mitigate forgetting, they still rely on iterative error backpropagation and gradient-based optimization, which can be computationally intensive and less suitable for resource-constrained environments. To address this, we propose FoRo, a forward-only, gradient-free continual learning method. Fo"
+}

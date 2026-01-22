@@ -1,0 +1,195 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20436v1",
+    "arxiv_id": "2512.20436v1",
+    "title": "Dual-Encoder Transformer-Based Multimodal Learning for Ischemic Stroke Lesion Segmentation Using Diffusion MRI",
+    "summary": "Accurate segmentation of ischemic stroke lesions from diffusion magnetic resonance imaging (MRI) is essential for clinical decision-making and outcome assessment. Diffusion-Weighted Imaging (DWI) and Apparent Diffusion Coefficient (ADC) scans provide complementary information on acute and sub-acute ischemic changes; however, automated lesion delineation remains challenging due to variability in lesion appearance.   In this work, we study ischemic stroke lesion segmentation using multimodal diffusion MRI from the ISLES 2022 dataset. Several state-of-the-art convolutional and transformer-based architectures, including U-Net variants, Swin-UNet, and TransUNet, are benchmarked. Based on performance, a dual-encoder TransUNet architecture is proposed to learn modality-specific representations from DWI and ADC inputs. To incorporate spatial context, adjacent slice information is integrated using a three-slice input configuration.   All models are trained under a unified framework and evaluated using the Dice Similarity Coefficient (DSC). Results show that transformer-based models outperform convolutional baselines, and the proposed dual-encoder TransUNet achieves the best performance, reaching a Dice score of 85.4% on the test set. The proposed framework offers a robust solution for automated ischemic stroke lesion segmentation from diffusion MRI.",
+    "published": "2025-12-23T15:24:31Z",
+    "updated": "2025-12-23T15:24:31Z",
+    "authors": [
+      "Muhammad Usman",
+      "Azka Rehman",
+      "Muhammad Mutti Ur Rehman",
+      "Abd Ur Rehman",
+      "Muhammad Umar Farooq"
+    ],
+    "affiliations": [],
+    "first_author": "Muhammad Usman",
+    "pdf_url": "https://arxiv.org/pdf/2512.20436v1",
+    "primary_category": "eess.IV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20230v1",
+    "arxiv_id": "2512.20230v1",
+    "title": "Benchmarking Universal Interatomic Potentials on Elemental Systems",
+    "summary": "The rapid emergence of universal Machine Learning Interatomic Potentials (uMLIPs) has transformed materials modeling. However, a comprehensive understanding of their generalization behavior across configurational space remains an open challenge. In this work, we introduce a benchmarking framework to evaluate both the equilibrium and far-from-equilibrium performance of state-of-the-art uMLIPs, including three MACE-based models, MatterSim, and PET-MAD. Our assessment utilizes Equation-of-State (EOS) tests to evaluate near-equilibrium properties, such as bulk moduli and equilibrium volumes, alongside extensive Minima Hopping (MH) structural searches to probe the global Potential Energy Surface (PES). Here, we assess universality within the fundamental limit of unary (elemental) systems, which serve as a necessary baseline for broader chemical generalization and provide a framework that can be systematically extended to multicomponent materials. We find that while most models exhibit high accuracy in reproducing equilibrium volumes for transition metals, significant performance gaps emerge in alkali and alkaline earth metal groups. Crucially, our MH results reveal a decoupling between search efficiency and structural fidelity, highlighting that smoother learned PESs do not necessarily yield more accurate energetic landscapes.",
+    "published": "2025-12-23T10:41:11Z",
+    "updated": "2025-12-23T10:41:11Z",
+    "authors": [
+      "Hossein Tahmasbi",
+      "Andreas Kn\u00fcpfer",
+      "Thomas D. K\u00fchne",
+      "Hossein Mirhosseini"
+    ],
+    "affiliations": [],
+    "first_author": "Hossein Tahmasbi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20230v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20168v1",
+    "arxiv_id": "2512.20168v1",
+    "title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+    "summary": "By integrating language understanding with perceptual modalities such as images, multimodal large language models (MLLMs) constitute a critical substrate for modern AI systems, particularly intelligent agents operating in open and interactive environments. However, their increasing accessibility also raises heightened risks of misuse, such as generating harmful or unsafe content. To mitigate these risks, alignment techniques are commonly applied to align model behavior with human values. Despite these efforts, recent studies have shown that jailbreak attacks can circumvent alignment and elicit unsafe outputs. Currently, most existing jailbreak methods are tailored for open-source models and exhibit limited effectiveness against commercial MLLM-integrated systems, which often employ additional filters. These filters can detect and prevent malicious input and output content, significantly reducing jailbreak threats. In this paper, we reveal that the success of these safety filters heavily relies on a critical assumption that malicious content must be explicitly visible in either the input or the output. This assumption, while often valid for traditional LLM-integrated systems, breaks down in MLLM-integrated systems, where attackers can leverage multiple modalities to conceal adversarial intent, leading to a false sense of security in existing MLLM-integrated systems. To challenge this assumption, we propose Odysseus, a novel jailbreak paradigm that introduces dual steganography to covertly embed malicious queries and responses into benign-looking images. Extensive experiments on benchmark datasets demonstrate that our Odysseus successfully jailbreaks several pioneering and realistic MLLM-integrated systems, achieving up to 99% attack success rate. It exposes a fundamental blind spot in existing defenses, and calls for rethinking cross-modal security in MLLM-integrated systems.",
+    "published": "2025-12-23T08:53:36Z",
+    "updated": "2025-12-23T08:53:36Z",
+    "authors": [
+      "Songze Li",
+      "Jiameng Cheng",
+      "Yiming Li",
+      "Xiaojun Jia",
+      "Dacheng Tao"
+    ],
+    "affiliations": [],
+    "first_author": "Songze Li",
+    "pdf_url": "https://arxiv.org/pdf/2512.20168v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20164v1",
+    "arxiv_id": "2512.20164v1",
+    "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications",
+    "summary": "Large Language Models (LLMs) excel at text comprehension and generation, making them ideal for automated tasks like code review and content moderation. However, our research identifies a vulnerability: LLMs can be manipulated by \"adversarial instructions\" hidden in input data, such as resumes or code, causing them to deviate from their intended task. Notably, while defenses may exist for mature domains such as code review, they are often absent in other common applications such as resume screening and peer review. This paper introduces a benchmark to assess this vulnerability in resume screening, revealing attack success rates exceeding 80% for certain attack types. We evaluate two defense mechanisms: prompt-based defenses achieve 10.1% attack reduction with 12.5% false rejection increase, while our proposed FIDS (Foreign Instruction Detection through Separation) using LoRA adaptation achieves 15.4% attack reduction with 10.4% false rejection increase. The combined approach provides 26.3% attack reduction, demonstrating that training-time defenses outperform inference-time mitigations in both security and utility preservation.",
+    "published": "2025-12-23T08:42:09Z",
+    "updated": "2025-12-23T08:42:09Z",
+    "authors": [
+      "Honglin Mu",
+      "Jinghao Liu",
+      "Kaiyang Wan",
+      "Rui Xing",
+      "Xiuying Chen",
+      "Timothy Baldwin",
+      "Wanxiang Che"
+    ],
+    "affiliations": [],
+    "first_author": "Honglin Mu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20164v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20071v1",
+    "arxiv_id": "2512.20071v1",
+    "title": "Robust and Secure Transmission for Movable-RIS Assisted ISAC with Imperfect Sense Estimation",
+    "summary": "Reconfigurable intelligent surfaces (RISs) have been extensively applied in integrated sensing and communication (ISAC) systems due to the capability of enhancing physical layer security (PLS). However, conventional static RIS architectures lack the flexibility required for adaptive beam control in multi-user and multifunctional scenarios. To address this issue without introducing additional hardware complexity and power consumption, in this paper, we exploit a movable RIS (MRIS) architecture, which consists of a large fixed sub-surface and a smaller movable sub-surface that slides on the fixed sub-surface to achieve dynamic beam reconfiguration with static phase shifts. This paper investigates an MRIS-assisted ISAC system under imperfect sensing estimation, where dedicated radar signals serve as artificial noise to enhance secure transmission against potential eavesdroppers (Eves). The transmit beamforming vectors, MRIS phase shifts, and relative positions of the two sub-surfaces are jointly optimized to maximize the minimum secrecy rate, ensuring robust secrecy performance for the weakest user under the uncertainty of the Eves' channels. To handle the non-convexity, a convex bound is derived for the Eve channel uncertainty, and the S-procedure is employed to reformulate semi-infinite constraints as linear matrix inequalities. An efficient alternating optimization and penalty dual decomposition-based algorithm is developed. Simulation results demonstrate that the proposed MRIS architecture substantially improves secrecy performance, especially when only a small number of elements are allocated to the movable sub-surface.",
+    "published": "2025-12-23T05:46:44Z",
+    "updated": "2025-12-23T05:46:44Z",
+    "authors": [
+      "Ling Zhuang",
+      "Ximing Xie",
+      "Fang Fang",
+      "Ali Attaran",
+      "Zhizhong Zhang"
+    ],
+    "affiliations": [],
+    "first_author": "Ling Zhuang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20071v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20025v1",
+    "arxiv_id": "2512.20025v1",
+    "title": "A Contextual Analysis of Driver-Facing and Dual-View Video Inputs for Distraction Detection in Naturalistic Driving Environments",
+    "summary": "Despite increasing interest in computer vision-based distracted driving detection, most existing models rely exclusively on driver-facing views and overlook crucial environmental context that influences driving behavior. This study investigates whether incorporating road-facing views alongside driver-facing footage improves distraction detection accuracy in naturalistic driving conditions. Using synchronized dual-camera recordings from real-world driving, we benchmark three leading spatiotemporal action recognition architectures: SlowFast-R50, X3D-M, and SlowOnly-R50. Each model is evaluated under two input configurations: driver-only and stacked dual-view. Results show that while contextual inputs can improve detection in certain models, performance gains depend strongly on the underlying architecture. The single-pathway SlowOnly model achieved a 9.8 percent improvement with dual-view inputs, while the dual-pathway SlowFast model experienced a 7.2 percent drop in accuracy due to representational conflicts. These findings suggest that simply adding visual context is not sufficient and may lead to interference unless the architecture is specifically designed to support multi-view integration. This study presents one of the first systematic comparisons of single- and dual-view distraction detection models using naturalistic driving data and underscores the importance of fusion-aware design for future multimodal driver monitoring systems.",
+    "published": "2025-12-23T03:36:26Z",
+    "updated": "2025-12-23T03:36:26Z",
+    "authors": [
+      "Anthony Dontoh",
+      "Stephanie Ivey",
+      "Armstrong Aboah"
+    ],
+    "affiliations": [],
+    "first_author": "Anthony Dontoh",
+    "pdf_url": "https://arxiv.org/pdf/2512.20025v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20608v1",
+    "arxiv_id": "2512.20608v1",
+    "title": "R\u00e9nyi-like entanglement probe of the chiral central charge",
+    "summary": "We propose a ground state entanglement probe for gapped, two-dimensional quantum many-body systems that involves taking powers of reduced density matrices in a particular geometric configuration. This quantity, which we denote by $\u03c9_{\u03b1,\u03b2}$, is parameterized by two positive real numbers $\u03b1, \u03b2$, and can be seen as a ``R\u00e9nyi-like\" generalization of the modular commutator -- another entanglement probe proposed as a way to compute the chiral central charge from a bulk wave function. We obtain analytic expressions for $\u03c9_{\u03b1,\u03b2}$ for gapped ground states of non-interacting fermion Hamiltonians as well as ground states of string-net models. In both cases, we find that $\u03c9_{\u03b1,\u03b2}$ takes a universal value related to the chiral central charge. For integer values of $\u03b1$ and $\u03b2$, our quantity $\u03c9_{\u03b1,\u03b2}$ can be expressed as an expectation value of permutation operators acting on an appropriate replica system, providing a natural route to measuring $\u03c9_{\u03b1,\u03b2}$ in numerical simulations and potentially, experiments.",
+    "published": "2025-12-23T18:55:34Z",
+    "updated": "2025-12-23T18:55:34Z",
+    "authors": [
+      "Julian Gass",
+      "Michael Levin"
+    ],
+    "affiliations": [],
+    "first_author": "Julian Gass",
+    "pdf_url": "https://arxiv.org/pdf/2512.20608v1",
+    "primary_category": "cond-mat.str-el",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20591v1",
+    "arxiv_id": "2512.20591v1",
+    "title": "LightTact: A Visual-Tactile Fingertip Sensor for Deformation-Independent Contact Sensing",
+    "summary": "Contact often occurs without macroscopic surface deformation, such as during interaction with liquids, semi-liquids, or ultra-soft materials. Most existing tactile sensors rely on deformation to infer contact, making such light-contact interactions difficult to perceive robustly. To address this, we present LightTact, a visual-tactile fingertip sensor that makes contact directly visible via a deformation-independent, optics-based principle. LightTact uses an ambient-blocking optical configuration that suppresses both external light and internal illumination at non-contact regions, while transmitting only the diffuse light generated at true contacts. As a result, LightTact produces high-contrast raw images in which non-contact pixels remain near-black (mean gray value < 3) and contact pixels preserve the natural appearance of the contacting surface. Built on this, LightTact achieves accurate pixel-level contact segmentation that is robust to material properties, contact force, surface appearance, and environmental lighting. We further integrate LightTact on a robotic arm and demonstrate manipulation behaviors driven by extremely light contact, including water spreading, facial-cream dipping, and thin-film interaction. Finally, we show that LightTact's spatially aligned visual-tactile images can be directly interpreted by existing vision-language models, enabling resistor value reasoning for robotic sorting.",
+    "published": "2025-12-23T18:38:25Z",
+    "updated": "2025-12-23T18:38:25Z",
+    "authors": [
+      "Changyi Lin",
+      "Boda Huo",
+      "Mingyang Yu",
+      "Emily Ruppel",
+      "Bingqing Chen",
+      "Jonathan Francis",
+      "Ding Zhao"
+    ],
+    "affiliations": [],
+    "first_author": "Changyi Lin",
+    "pdf_url": "https://arxiv.org/pdf/2512.20591v1",
+    "primary_category": "cs.RO",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20553v1",
+    "arxiv_id": "2512.20553v1",
+    "title": "Eckart heat-flux applicability in $F(\u03a6,X)R$ theories and the existence of temperature gradients",
+    "summary": "We show that in single--scalar theories of the form $\\mathcal{L}=F(\u03a6,X)R+G(\u03a6,X)$, a generic nonminimal coupling $F(\u03a6,X)$ induces, in the scalar--comoving frame, an additional transverse contribution to the effective heat flux, proportional to $(F_X/8\u03c0F)V_{\\perp a}$, where $V_a \\equiv h_a{}^c\\nabla_c\\nabla_d X\\,u^d$ and $V_{\\perp a}$ denotes the component orthogonal to the 4--acceleration $a_a$. This new term, that is not present in $F(\u03a6)R$ scalar-tensor theories, cannot in general be written as a spatial temperature gradient, and therefore obstructs a standard Eckart interpretation of the scalar sector for arbitrary timelike scalar configurations. As a result, requiring an Eckart heat flux $q_a = -K\\bigl(D_a T_g + T_g\\, a_a\\bigr)$ for all such configurations is possible if and only if $F_X(\u03a6,X)\\equiv 0$, i.e.\\ $F(\u03a6,X)=F(\u03a6)$, resulting in a theory that is a subclass of Horndeski. Thus, only Jordan--like theories of the type $F(\u03a6)R+G(\u03a6,X)$ admit a global Eckart fluid picture of the scalar sector, while models with $F_X\\neq 0$ can recover an Eckart--like form only on highly symmetric backgrounds where the transverse contribution vanishes or collapses to a single gradient direction. We also make a brief comment on the existence of temperature gradients $D_aT_g$.",
+    "published": "2025-12-23T17:51:42Z",
+    "updated": "2025-12-23T17:51:42Z",
+    "authors": [
+      "David S. Pereira",
+      "Jos\u00e9 Pedro Mimoso"
+    ],
+    "affiliations": [],
+    "first_author": "David S. Pereira",
+    "pdf_url": "https://arxiv.org/pdf/2512.20553v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20509v1",
+    "arxiv_id": "2512.20509v1",
+    "title": "Holographic entanglement negativity and thermodynamics in backreacted AdS black hole",
+    "summary": "We investigate holographic entanglement negativity (HEN) as a probe of mixed state quantum correlations in a deformed AdS black hole background with backreaction sourced by a string cloud. The bulk geometry is dual to a strongly coupled large-$N_c$ gauge theory at finite temperature, backreacted by a finite density of heavy static fundamental quarks. Alongside holographic entanglement entropy (HEE), we analyze entanglement thermodynamics and establish a first law like relation in the small backreaction regime by identifying the deformed black hole at zero temperature as the natural ground state of the dual field theory. Using analytic expansions in the low and high temperature limits, we compute the HEN for adjacent, disjoint and bipartite subsystem configurations and examine its dependence on the backreaction parameter $\u03c1$. Our results reveal a clear regime dependence: at low temperature, backreaction suppresses the negativity, signaling a reduction of distillable quantum correlations while at high temperature the negativity is enhanced due to the monotonic $\u03c1$-dependence of near horizon contributions. We further compare the behavior of HEN with HEE and mutual information, demonstrating that entanglement negativity provides a sharper diagnostic of the competition between thermal and quantum correlations in holographic plasmas with matter backreaction.",
+    "published": "2025-12-23T16:59:40Z",
+    "updated": "2025-12-23T16:59:40Z",
+    "authors": [
+      "Sanjay Pant",
+      "Himanshu Parihar",
+      "Pradeep Kumar Sharma"
+    ],
+    "affiliations": [],
+    "first_author": "Sanjay Pant",
+    "pdf_url": "https://arxiv.org/pdf/2512.20509v1",
+    "primary_category": "hep-th",
+    "relevance_score": 12.0
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2511.22889v1",
+  "title": "The Immutable Tensor Architecture: A Pure Dataflow Approach for Secure, Energy-Efficient AI Inference",
+  "authors": [
+    "Fang Li"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-11",
+  "url": "https://arxiv.org/abs/2511.22889v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 8,
+  "key_topics": [],
+  "summary": "The deployment of Large Language Models (LLMs) on consumer edge devices is throttled by the \"Memory Wall\" -- the prohibitive bandwidth and energy cost of fetching gigabytes of model weights from DRAM for every token generated. Current architectures (GPUs, NPUs) treat model weights as mutable software data, incurring massive energy penalties to maintain general-purpose programmability. We propose The Immutable Tensor Architecture (ITA), a paradigm shift that treats model weights not as data, but ..."
+}

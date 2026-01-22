@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2504.10277v1",
+  "title": "RealHarm: A Collection of Real-World Language Model Application Failures",
+  "authors": [
+    "Pierre Le Jeune",
+    "Jiaen Liu",
+    "Luca Rossi",
+    "Matteo Dora"
+  ],
+  "published": "2025-04-14T14:44:41Z",
+  "url": "http://arxiv.org/abs/2504.10277v1",
+  "pdf_url": "http://arxiv.org/pdf/2504.10277v1.pdf",
+  "relevance_score": 85,
+  "summary": "Language model deployments in consumer-facing applications introduce numerous risks. While existing research on harms and hazards of such applications follows top-down approaches derived from regulatory frameworks and theoretical analyses, empirical evidence of real-world failure modes remains underexplored. In this work, we introduce RealHarm, a dataset of annotated problematic interactions with AI agents built from a systematic review of publicly reported incidents. Analyzing harms, causes, and hazards specifically from the deployer's perspective, we find that reputational damage constitutes the predominant organizational harm, while misinformation emerges as the most common hazard category. We empirically evaluate state-of-the-art guardrails and content moderation systems to probe whether such systems would have prevented the incidents, revealing a significant gap in the protection of AI applications."
+}

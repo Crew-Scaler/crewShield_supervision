@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2406.08315v2",
+  "title": "Improving Policy Optimization via $\\varepsilon$-Retrain",
+  "authors": [
+    "Luca Marzari",
+    "Priya L. Donti",
+    "Changliu Liu",
+    "Enrico Marchesini"
+  ],
+  "published": "2024-06-12T15:16:26Z",
+  "url": "http://arxiv.org/abs/2406.08315v2",
+  "pdf_url": "http://arxiv.org/pdf/2406.08315v2.pdf",
+  "relevance_score": 80,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "We present $\\varepsilon$-retrain, an exploration strategy encouraging a behavioral preference while optimizing policies with monotonic improvement guarantees. To this end, we introduce an iterative procedure for collecting retrain areas -- parts of the state space where an agent did not satisfy the behavioral preference. Our method switches between the typical uniform restart state distribution and the retrain areas using a decaying factor $\\varepsilon$, allowing agents to retrain on situations "
+}

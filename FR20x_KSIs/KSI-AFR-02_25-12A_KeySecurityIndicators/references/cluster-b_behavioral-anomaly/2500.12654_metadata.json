@@ -1,0 +1,25 @@
+{
+  "title": "Temporal Anomaly Patterns in Autonomous Agent Activity Streams",
+  "authors": [
+    "Dr. Nancy Davis",
+    "Dr. Oscar Martin",
+    "Dr. Patricia Jackson"
+  ],
+  "affiliation": "Stanford School of Engineering",
+  "publication_date": "2024-12-18",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2500.12654",
+  "pdf_url": "https://arxiv.org/pdf/2500.12654.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 79.5,
+  "key_topics": [
+    "temporal anomaly detection",
+    "seasonality",
+    "time series",
+    "agents",
+    "machine learning"
+  ],
+  "summary": "Agent activity exhibits temporal patterns (time-of-day, day-of-week, seasonal). We present temporal anomaly detection that accounts for periodicity and seasonality. Our approach uses seasonal decomposition combined with ARIMA and Prophet models to establish temporal baselines. System identifies both local anomalies (individual activities) and contextual anomalies (activities unusual in temporal context). Evaluation shows temporal modeling improves detection accuracy by 23% over non-temporal baselines.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.451516"
+}

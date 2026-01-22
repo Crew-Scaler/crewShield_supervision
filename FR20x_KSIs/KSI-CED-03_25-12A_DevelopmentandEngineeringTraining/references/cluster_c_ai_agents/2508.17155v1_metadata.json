@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2508.17155v1",
+  "title": "Mind the Gap: Time-of-Check to Time-of-Use Vulnerabilities in LLM-Enabled Agents",
+  "authors": [
+    "Derek Lilienthal",
+    "Sanghyun Hong"
+  ],
+  "published": "2025-08-23T22:41:49Z",
+  "url": "http://arxiv.org/abs/2508.17155v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.17155v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Large Language Model (LLM)-enabled agents are rapidly emerging across a wide range of applications, but their deployment introduces vulnerabilities with security implications. While prior work has examined prompt-based attacks (e.g., prompt injection) and data-oriented threats (e.g., data exfiltration), time-of-check to time-of-use (TOCTOU) remain largely unexplored in this context. TOCTOU arises when an agent validates external state (e.g., a file or API response) that is later modified before "
+}

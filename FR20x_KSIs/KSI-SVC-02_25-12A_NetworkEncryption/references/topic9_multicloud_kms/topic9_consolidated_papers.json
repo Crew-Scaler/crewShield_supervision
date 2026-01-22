@@ -1,0 +1,264 @@
+[
+  {
+    "rank": 1,
+    "tier": "Tier 1: Highest Relevance",
+    "arxiv_id": "2512.12006v1",
+    "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Robin Vassantlal",
+      "Hasan Heydari",
+      "Bernardo Ferreira",
+      "Alysson Bessani"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "relevance_score": 16.0,
+    "key_metrics": {
+      "processing_capacity": "hundreds of 4KB accesses per second in modern clouds",
+      "fault_tolerance": "Byzantine fault tolerant, no trusted proxies required",
+      "concurrency": "Wait-free protocol supporting concurrent fail-prone clients"
+    },
+    "kms_applicability": "Critical for multi-region key storage with Byzantine fault tolerance. Addresses RTO impact by enabling fast concurrent access to encrypted key material.",
+    "pdf_filename": "2512.12006v1_MVP-ORAM_a_Wait-free_Concurrent_ORAM_for_Confidential_BFT_Storage.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.12006v1"
+  },
+  {
+    "rank": 2,
+    "tier": "Tier 1: Highest Relevance",
+    "arxiv_id": "2511.15031v1",
+    "title": "GeoShield: Byzantine Fault Detection and Recovery for Geo-Distributed Real-Time Cyber-Physical Systems",
+    "year": 2025,
+    "month": "November",
+    "authors": [
+      "Yifan Cai",
+      "Linh Thi Xuan Phan"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 14.0,
+    "key_metrics": {
+      "fault_detection": "Byzantine fault-resilient network measurement for geo-distributed systems",
+      "attack_resistance": "Proactive detection of malicious message delays across regions",
+      "recovery": "Bounded-time recovery without relying on trusted hardware"
+    },
+    "kms_applicability": "Directly addresses multi-region KMS coordination with proactive fault detection. Measures network resilience across geographically distributed key management servers.",
+    "pdf_filename": "2511.15031v1_GeoShield_Byzantine_Fault_Detection_and_Recovery_for_Geo-Distributed_Real-Time_Cyber-Physical_System.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2511.15031v1"
+  },
+  {
+    "rank": 3,
+    "tier": "Tier 1: Highest Relevance",
+    "arxiv_id": "2512.15915v1",
+    "title": "Private Virtual Tree Networks for Secure Multi-Tenant Environments Based on the VIRGO Overlay Network",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Lican Huang"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 14.0,
+    "key_metrics": {
+      "pki_model": "Scalable overlay without global PKI requirements",
+      "authorization": "Cryptographically enforced membership through signed delegation certificates",
+      "multi_tenancy": "Hierarchical organization mirroring real organizational structures"
+    },
+    "kms_applicability": "Enables vendor-agnostic multi-cloud key distribution across regions. Comparable to HashiCorp Vault concepts but with decentralized PKI approach.",
+    "pdf_filename": "2512.15915v1_Private_Virtual_Tree_Networks_for_Secure_Multi-Tenant_Environments_Based_on_the_VIRGO_Overlay_Networ.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.15915v1"
+  },
+  {
+    "rank": 4,
+    "tier": "Tier 2: High Relevance",
+    "arxiv_id": "2512.18488v1",
+    "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Joao Vitor Barros Da Silva",
+      "Arsh Gupta",
+      "Madhusudan Singh"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 20.0,
+    "key_metrics": {
+      "crypto_agility": "First interoperability framework combining PQC + QKD + HSM",
+      "quantum_safety": "Information-theoretic security against quantum and classical adversaries",
+      "latency": "Sub-second validator communication overhead"
+    },
+    "kms_applicability": "Addresses crypto-agility across cloud providers with quantum-resistant encryption. Integrates quantum key distribution for future-proof key management.",
+    "pdf_filename": "2512.18488v1_QLink_Quantum-Safe_Bridge_Architecture_for_Blockchain_Interoperability.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.18488v1"
+  },
+  {
+    "rank": 5,
+    "tier": "Tier 2: High Relevance",
+    "arxiv_id": "2512.17748v2",
+    "title": "Methods and Tools for Secure Quantum Clouds with a specific Case Study on Homomorphic Encryption",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Aurelia Kusumastuti",
+      "Nikolay Tcholtchev",
+      "Philipp Lämmel",
+      "Sebastian Bock",
+      "Manfred Hauswirth"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 18.0,
+    "key_metrics": {
+      "pqc_implementation": "Integration of post-quantum cryptographic algorithms into cloud frameworks",
+      "privacy_preserving": "Homomorphic encryption for computation on encrypted data",
+      "algorithm_options": "QOTP, Chen, GSW algorithms with performance trade-offs"
+    },
+    "kms_applicability": "Future-proofs KMS with quantum-resistant and privacy-preserving encryption. Implements HE for encrypted key operations without decryption.",
+    "pdf_filename": "2512.17748v2_Methods_and_Tools_for_Secure_Quantum_Clouds_with_a_specific_Case_Study_on_Homomorphic_Encryption.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.17748v2"
+  },
+  {
+    "rank": 6,
+    "tier": "Tier 2: High Relevance",
+    "arxiv_id": "2512.19005v1",
+    "title": "Quantum-Resistant Cryptographic Models for Next-Gen Cybersecurity",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Navin Chhibber",
+      "Amber Rastogi",
+      "Ankur Mahida",
+      "Vatsal Gupta",
+      "Piyush Ranjan"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 18.0,
+    "key_metrics": {
+      "pqc_landscape": "Lattice-based, code-based, multivariate polynomial, hash-based cryptography",
+      "hybrid_model": "Classical + quantum-resistant schemes integration",
+      "backward_compatibility": "Forward security with backward compatibility"
+    },
+    "kms_applicability": "Enables crypto-agility for multi-cloud environments with quantum threats. Hybrid model supports gradual migration without breaking existing systems.",
+    "pdf_filename": "2512.19005v1_Quantum-Resistant_Cryptographic_Models_for_Next-Gen_Cybersecurity.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.19005v1"
+  },
+  {
+    "rank": 7,
+    "tier": "Tier 3: Relevant",
+    "arxiv_id": "2512.10732v1",
+    "title": "TriHaRd: Higher Resilience for TEE Trusted Time",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Matthieu Bettinger",
+      "Sonia Ben Mokhtar",
+      "Pascal Felber",
+      "Etienne Rivière",
+      "Valerio Schiavoni",
+      "Anthony Simonet-Boulogne"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "relevance_score": 16.0,
+    "key_metrics": {
+      "clock_resilience": "Byzantine-resilient clock updates for distributed TEE systems",
+      "attack_mitigation": "Resistance to clock speed and offset manipulations",
+      "trusted_hardware": "Leverages TEE for secure time without global synchronization"
+    },
+    "kms_applicability": "Ensures synchronized key operations across geographically distributed regions. Critical for key rotation and expiration coordination in multi-region KMS.",
+    "pdf_filename": "2512.10732v1_TriHaRd_Higher_Resilience_for_TEE_Trusted_Time.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.10732v1"
+  },
+  {
+    "rank": 8,
+    "tier": "Tier 3: Relevant",
+    "arxiv_id": "2512.10372v1",
+    "title": "D2M: A Decentralized, Privacy-Preserving, Incentive-Compatible Data Marketplace for Collaborative Learning",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Yash Srivastava",
+      "Shalin Jain",
+      "Sneha Awathare",
+      "Nitin Awathare"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 14.0,
+    "key_metrics": {
+      "byzantine_tolerance": "99% accuracy with 30% Byzantine nodes",
+      "decentralization": "Blockchain smart contracts for escrow and audit",
+      "off_chain_execution": "Byzantine-robust off-chain compute layer"
+    },
+    "kms_applicability": "Decentralized KMS coordination across multiple cloud providers with Byzantine resilience. Smart contracts manage key escrow and dispute resolution.",
+    "pdf_filename": "2512.10372v1_D2M_A_Decentralized_Privacy-Preserving_Incentive-Compatible_Data_Marketplace_for_Collaborative_Learn.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.10372v1"
+  },
+  {
+    "rank": 9,
+    "tier": "Tier 3: Relevant",
+    "arxiv_id": "2512.17045v1",
+    "title": "Sedna: Sharding transactions in multiple concurrent proposer blockchains",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Alejandro Ranchal-Pedrosa",
+      "Benjamin Marsh",
+      "Lefteris Kokoris-Kogias",
+      "Alberto Sonnino"
+    ],
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 14.0,
+    "key_metrics": {
+      "efficiency_gain": "2-3x efficiency improvement over naive replication",
+      "privacy": "Until-decode privacy guarantees reducing MEV exposure",
+      "bandwidth": "Approaches information-theoretic lower bound for overhead"
+    },
+    "kms_applicability": "Reduces bandwidth overhead in multi-region key sharing protocols. Verifiable rateless coding enables efficient key distribution across multiple cloud providers.",
+    "pdf_filename": "2512.17045v1_Sedna_Sharding_transactions_in_multiple_concurrent_proposer_blockchains.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.17045v1"
+  },
+  {
+    "rank": 10,
+    "tier": "Tier 3: Relevant",
+    "arxiv_id": "2512.18589v1",
+    "title": "DNA-HHE: Dual-mode Near-network Accelerator for Hybrid Homomorphic Encryption on the Edge",
+    "year": 2025,
+    "month": "December",
+    "authors": [
+      "Yifan Zhao",
+      "Xinglong Yu",
+      "Yi Sun",
+      "Honglin Kuang",
+      "Jun Han"
+    ],
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 16.0,
+    "key_metrics": {
+      "latency_reduction": "1.09-1.56x latency reduction for edge-side PPOC",
+      "algorithm_flexibility": "Dual-mode support for RNS-CKKS and Rubato cipher",
+      "resource_efficiency": "DSP-efficient modular reduction with parallel scheduling"
+    },
+    "kms_applicability": "Enables efficient homomorphic encryption for key operations at cloud edges. Supports flexible algorithm switching for different threat models and performance requirements.",
+    "pdf_filename": "2512.18589v1_DNA-HHE_Dual-mode_Near-network_Accelerator_for_Hybrid_Homomorphic_Encryption_on_the_Edge.pdf",
+    "arxiv_url": "https://arxiv.org/abs/2512.18589v1"
+  }
+]

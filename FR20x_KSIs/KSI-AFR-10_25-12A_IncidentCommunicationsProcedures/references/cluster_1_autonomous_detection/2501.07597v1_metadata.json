@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2501.07597v1",
+  "title": "Learning-based Detection of GPS Spoofing Attack for Quadrotors",
+  "authors": [
+    "Pengyu Wang",
+    "Zhaohua Yang",
+    "Jialu Li",
+    "Ling Shi"
+  ],
+  "published": "2025-01-10T02:20:59Z",
+  "url": "http://arxiv.org/abs/2501.07597v1",
+  "pdf_url": "http://arxiv.org/pdf/2501.07597v1.pdf",
+  "relevance_score": 100,
+  "summary": "Safety-critical cyber-physical systems (CPS), such as quadrotor UAVs, are particularly prone to cyber attacks, which can result in significant consequences if not detected promptly and accurately. During outdoor operations, the nonlinear dynamics of UAV systems, combined with non-Gaussian noise, pose challenges to the effectiveness of conventional statistical and machine learning methods. To overcome these limitations, we present QUADFormer, an advanced attack detection framework for quadrotor UAVs leveraging a transformer-based architecture. This framework features a residue generator that produces sequences sensitive to anomalies, which are then analyzed by the transformer to capture statistical patterns for detection and classification. Furthermore, an alert mechanism ensures UAVs can operate safely even when under attack. Extensive simulations and experimental evaluations highlight that QUADFormer outperforms existing state-of-the-art techniques in detection accuracy."
+}

@@ -1,0 +1,22 @@
+{
+  "title": "IRSDA: An Agent-Orchestrated Framework for Enterprise Intrusion Response",
+  "authors": [
+    "Damodar Panigrahi",
+    "Raj Patel",
+    "Shaswata Mitra",
+    "Sudip Mittal",
+    "Shahram Rahimi"
+  ],
+  "published": "2025-11-24T19:21:09+00:00",
+  "arxiv_id": "2511.19644v1",
+  "abstract": "Modern enterprise systems face escalating cyber threats that are increasingly dynamic, distributed, and multi-stage in nature. Traditional intrusion detection and response systems often rely on static rules and manual workflows, which limit their ability to respond with the speed and precision required in high-stakes environments. To address these challenges, we present the Intrusion Response System Digital Assistant (IRSDA), an agent-based framework designed to deliver autonomous and policy-compliant cyber defense. IRSDA combines Self-Adaptive Autonomic Computing Systems (SA-ACS) with the Knowledge guided Monitor, Analyze, Plan, and Execute (MAPE-K) loop to support real-time, partition-aware decision-making across enterprise infrastructure.\n  IRSDA incorporates a knowledge-driven architecture that integrates contextual information with AI-based reasoning to support system-guided intrusion response. The framework leverages retrieval mechanisms and structured representations to inform decision-making while maintaining alignment with operational policies. We assess the system using a representative real-world microservices application, demonstrating its ability to automate containment, enforce compliance, and provide traceable outputs for security analyst interpretation. This work outlines a modular and agent-driven approach to cyber defense that emphasizes explainability, system-state awareness, and operational control in intrusion response.",
+  "categories": [
+    "cs.CR",
+    "cs.AI"
+  ],
+  "relevance_score": 14.5,
+  "query_category": "distributed_defense",
+  "us_affiliation": true,
+  "pdf_url": "https://arxiv.org/pdf/2511.19644v1",
+  "downloaded": "2025-12-11T08:25:28.875959"
+}

@@ -1,0 +1,1729 @@
+[
+  {
+    "title": "Machine Learning Optimization of BEGe Detector Event Selection in the VIP Experiment",
+    "authors": [
+      "Simone Manti",
+      "Jason Yip",
+      "Massimiliano Bazzi",
+      "Nicola Bortolotti",
+      "Mario Bragadireanu",
+      "Ivan Carnevali",
+      "Alberto Clozza",
+      "Luca De Paolis",
+      "Raffaele Del Grande",
+      "Carlo Guaraldo",
+      "Mihai Antoniu Iliescu",
+      "Matthias Laubenstein",
+      "Johan Marton",
+      "Fabrizio Napolitano",
+      "Federico Nola",
+      "Kristian Pischicchia",
+      "Alessio Porcelli",
+      "Alessandro Scordo",
+      "Francesco Sgaramella",
+      "Diana Sirghi",
+      "Florin Sirghi",
+      "Johann Zmeskal",
+      "Catalina Curceanu"
+    ],
+    "published": "2025-12-10 15:56:35+00:00",
+    "arxiv_id": "2512.09777v1",
+    "summary": "The VIP collaboration operates a Broad Energy Germanium detector at the Gran Sasso National Laboratory to measure radiation in the few keV to 100 keV range, aiming to search for spontaneous collapse induced radiation and atomic transitions that violate the Pauli Exclusion Principle. Here we present a machine learning based upgrade for the BEGe detector using an event selection strategy aimed at improving the efficiency in detecting low energy events down to 10 keV. The method employs a denoising",
+    "pdf_url": "https://arxiv.org/pdf/2512.09777v1",
+    "categories": [
+      "physics.ins-det"
+    ]
+  },
+  {
+    "title": "Defining Cost Function of Steganography with Large Language Models",
+    "authors": [
+      "Hanzhou Wu",
+      "Yige Wang"
+    ],
+    "published": "2025-12-10 15:52:44+00:00",
+    "arxiv_id": "2512.09769v1",
+    "summary": "In this paper, we make the first attempt towards defining cost function of steganography with large language models (LLMs), which is totally different from previous works that rely heavily on expert knowledge or require large-scale datasets for cost learning. To achieve this goal, a two-stage strategy combining LLM-guided program synthesis with evolutionary search is applied in the proposed method. In the first stage, a certain number of cost functions in the form of computer program are synthes",
+    "pdf_url": "https://arxiv.org/pdf/2512.09769v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Robust Speech Activity Detection in the Presence of Singing Voice",
+    "authors": [
+      "Philipp Grundhuber",
+      "Mhd Modar Halimeh",
+      "Martin Strau\u00df",
+      "Emanu\u00ebl A. P. Habets"
+    ],
+    "published": "2025-12-10 14:58:36+00:00",
+    "arxiv_id": "2512.09713v1",
+    "summary": "Speech Activity Detection (SAD) systems often misclassify singing as speech, leading to degraded performance in applications such as dialogue enhancement and automatic speech recognition. We introduce Singing-Robust Speech Activity Detection ( SR-SAD ), a neural network designed to robustly detect speech in the presence of singing. Our key contributions are: i) a training strategy using controlled ratios of speech and singing samples to improve discrimination, ii) a computationally efficient mod",
+    "pdf_url": "https://arxiv.org/pdf/2512.09713v1",
+    "categories": [
+      "eess.AS"
+    ]
+  },
+  {
+    "title": "Super4DR: 4D Radar-centric Self-supervised Odometry and Gaussian-based Map Optimization",
+    "authors": [
+      "Zhiheng Li",
+      "Weihua Wang",
+      "Qiang Shen",
+      "Yichen Zhao",
+      "Zheng Fang"
+    ],
+    "published": "2025-12-10 12:55:05+00:00",
+    "arxiv_id": "2512.09608v1",
+    "summary": "Conventional SLAM systems using visual or LiDAR data often struggle in poor lighting and severe weather. Although 4D radar is suited for such environments, its sparse and noisy point clouds hinder accurate odometry estimation, while the radar maps suffer from obscure and incomplete structures. Thus, we propose Super4DR, a 4D radar-centric framework for learning-based odometry estimation and gaussian-based map optimization. First, we design a cluster-aware odometry network that incorporates objec",
+    "pdf_url": "https://arxiv.org/pdf/2512.09608v1",
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "title": "From Graphs to Gates: DNS-HyXNet, A Lightweight and Deployable Sequential Model for Real-Time DNS Tunnel Detection",
+    "authors": [
+      "Faraz Ali",
+      "Muhammad Afaq",
+      "Mahmood Niazi",
+      "Muzammil Behzad"
+    ],
+    "published": "2025-12-10 11:59:05+00:00",
+    "arxiv_id": "2512.09565v1",
+    "summary": "Domain Name System (DNS) tunneling remains a covert channel for data exfiltration and command-and-control communication. Although graph-based methods such as GraphTunnel achieve strong accuracy, they introduce significant latency and computational overhead due to recursive parsing and graph construction, limiting their suitability for real-time deployment. This work presents DNS-HyXNet, a lightweight extended Long Short-Term Memory (xLSTM) hybrid framework designed for efficient sequence-based D",
+    "pdf_url": "https://arxiv.org/pdf/2512.09565v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Comparative Analysis of Hash-based Malware Clustering via K-Means",
+    "authors": [
+      "Aink Acrie Soe Thein",
+      "Nikolaos Pitropakis",
+      "Pavlos Papadopoulos",
+      "Sam Grierson",
+      "Sana Ullah Jan"
+    ],
+    "published": "2025-12-10 11:24:35+00:00",
+    "arxiv_id": "2512.09539v1",
+    "summary": "With the adoption of multiple digital devices in everyday life, the cyber-attack surface has increased. Adversaries are continuously exploring new avenues to exploit them and deploy malware. On the other hand, detection approaches typically employ hashing-based algorithms such as SSDeep, TLSH, and IMPHash to capture structural and behavioural similarities among binaries. This work focuses on the analysis and evaluation of these techniques for clustering malware samples using the K-means algorith",
+    "pdf_url": "https://arxiv.org/pdf/2512.09539v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "REASAN: Learning Reactive Safe Navigation for Legged Robots",
+    "authors": [
+      "Qihao Yuan",
+      "Ziyu Cao",
+      "Ming Cao",
+      "Kailai Li"
+    ],
+    "published": "2025-12-10 11:23:32+00:00",
+    "arxiv_id": "2512.09537v1",
+    "summary": "We present a novel modularized end-to-end framework for legged reactive navigation in complex dynamic environments using a single light detection and ranging (LiDAR) sensor. The system comprises four simulation-trained modules: three reinforcement-learning (RL) policies for locomotion, safety shielding, and navigation, and a transformer-based exteroceptive estimator that processes raw point-cloud inputs. This modular decomposition of complex legged motor-control tasks enables lightweight neural ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09537v1",
+    "categories": [
+      "cs.RO"
+    ]
+  },
+  {
+    "title": "Transport Novelty Distance: A Distributional Metric for Evaluating Material Generative Models",
+    "authors": [
+      "Paul Hagemann",
+      "Simon M\u00fcller",
+      "Janine George",
+      "Philipp Benner"
+    ],
+    "published": "2025-12-10 10:38:58+00:00",
+    "arxiv_id": "2512.09514v1",
+    "summary": "Recent advances in generative machine learning have opened new possibilities for the discovery and design of novel materials. However, as these models become more sophisticated, the need for rigorous and meaningful evaluation metrics has grown. Existing evaluation approaches often fail to capture both the quality and novelty of generated structures, limiting our ability to assess true generative performance. In this paper, we introduce the Transport Novelty Distance (TNovD) to judge generative m",
+    "pdf_url": "https://arxiv.org/pdf/2512.09514v1",
+    "categories": [
+      "cond-mat.mtrl-sci",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Gradient-Guided Learning Network for Infrared Small Target Detection",
+    "authors": [
+      "Jinmiao Zhao",
+      "Chuang Yu",
+      "Zelin Shi",
+      "Yunpeng Liu",
+      "Yingdi Zhang"
+    ],
+    "published": "2025-12-10 10:21:08+00:00",
+    "arxiv_id": "2512.09497v1",
+    "summary": "Recently, infrared small target detection has attracted extensive attention. However, due to the small size and the lack of intrinsic features of infrared small targets, the existing methods generally have the problem of inaccurate edge positioning and the target is easily submerged by the background. Therefore, we propose an innovative gradient-guided learning network (GGL-Net). Specifically, we are the first to explore the introduction of gradient magnitude images into the deep learning-based ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09497v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "LiePrune: Lie Group and Quantum Geometric Dual Representation for One-Shot Structured Pruning of Quantum Neural Networks",
+    "authors": [
+      "Haijian Shao",
+      "Bowen Yang",
+      "Wei Liu",
+      "Xing Deng",
+      "Yingtao Jiang"
+    ],
+    "published": "2025-12-10 09:43:22+00:00",
+    "arxiv_id": "2512.09469v1",
+    "summary": "Quantum neural networks (QNNs) and parameterized quantum circuits (PQCs) are key building blocks for near-term quantum machine learning. However, their scalability is constrained by excessive parameters, barren plateaus, and hardware limitations. We propose LiePrune, the first mathematically grounded one-shot structured pruning framework for QNNs that leverages Lie group structure and quantum geometric information. Each gate is jointly represented in a Lie group--Lie algebra dual space and a qua",
+    "pdf_url": "https://arxiv.org/pdf/2512.09469v1",
+    "categories": [
+      "quant-ph",
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Detection and Localization of Subdural Hematoma Using Deep Learning on Computed Tomography",
+    "authors": [
+      "Vasiliki Stoumpou",
+      "Rohan Kumar",
+      "Bernard Burman",
+      "Diego Ojeda",
+      "Tapan Mehta",
+      "Dimitris Bertsimas"
+    ],
+    "published": "2025-12-10 07:37:42+00:00",
+    "arxiv_id": "2512.09393v1",
+    "summary": "Background. Subdural hematoma (SDH) is a common neurosurgical emergency, with increasing incidence in aging populations. Rapid and accurate identification is essential to guide timely intervention, yet existing automated tools focus primarily on detection and provide limited interpretability or spatial localization. There remains a need for transparent, high-performing systems that integrate multimodal clinical and imaging information to support real-time decision-making.\n  Methods. We developed",
+    "pdf_url": "https://arxiv.org/pdf/2512.09393v1",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "BugSweeper: Function-Level Detection of Smart Contract Vulnerabilities Using Graph Neural Networks",
+    "authors": [
+      "Uisang Lee",
+      "Changhoon Chung",
+      "Junmo Lee",
+      "Soo-Mook Moon"
+    ],
+    "published": "2025-12-10 07:30:03+00:00",
+    "arxiv_id": "2512.09385v1",
+    "summary": "The rapid growth of Ethereum has made it more important to quickly and accurately detect smart contract vulnerabilities. While machine-learning-based methods have shown some promise, many still rely on rule-based preprocessing designed by domain experts. Rule-based preprocessing methods often discard crucial context from the source code, potentially causing certain vulnerabilities to be overlooked and limiting adaptability to newly emerging threats. We introduce BugSweeper, an end-to-end deep le",
+    "pdf_url": "https://arxiv.org/pdf/2512.09385v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Exploring Machine Learning Regression Models for Advancing Foreground Mitigation and Global 21cm Signal Parameter Extraction",
+    "authors": [
+      "Anshuman Tripathi",
+      "Abhirup Datta",
+      "Gursharanjit Kaur"
+    ],
+    "published": "2025-12-10 06:45:26+00:00",
+    "arxiv_id": "2512.09361v1",
+    "summary": "Extracting parameters from the global 21cm signal is crucial for understanding the early Universe. However, detecting the 21cm signal is challenging due to the brighter foreground and associated observational difficulties. In this study, we evaluate the performance of various machine-learning regression models to improve parameter extraction and foreground removal. This evaluation is essential for selecting the most suitable machine learning regression model based on computational efficiency and",
+    "pdf_url": "https://arxiv.org/pdf/2512.09361v1",
+    "categories": [
+      "astro-ph.CO"
+    ]
+  },
+  {
+    "title": "Development and Testing for Perception Based Autonomous Landing of a Long-Range QuadPlane",
+    "authors": [
+      "Ashik E Rasul",
+      "Humaira Tasnim",
+      "Ji Yu Kim",
+      "Young Hyun Lim",
+      "Scott Schmitz",
+      "Bruce W. Jo",
+      "Hyung-Jin Yoon"
+    ],
+    "published": "2025-12-10 06:02:25+00:00",
+    "arxiv_id": "2512.09343v1",
+    "summary": "QuadPlanes combine the range efficiency of fixed-wing aircraft with the maneuverability of multi-rotor platforms for long-range autonomous missions. In GPS-denied or cluttered urban environments, perception-based landing is vital for reliable operation. Unlike structured landing zones, real-world sites are unstructured and highly variable, requiring strong generalization capabilities from the perception system. Deep neural networks (DNNs) provide a scalable solution for learning landing site fea",
+    "pdf_url": "https://arxiv.org/pdf/2512.09343v1",
+    "categories": [
+      "cs.RO",
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Improved Physics-Driven Neural Network to Solve Inverse Scattering Problems",
+    "authors": [
+      "Yutong Du",
+      "Zicheng Liu",
+      "Bo Wu",
+      "Jingwei Kou",
+      "Hang Li",
+      "Changyou Li",
+      "Yali Zong",
+      "Bo Qi"
+    ],
+    "published": "2025-12-10 05:41:09+00:00",
+    "arxiv_id": "2512.09333v1",
+    "summary": "This paper presents an improved physics-driven neural network (IPDNN) framework for solving electromagnetic inverse scattering problems (ISPs). A new Gaussian-localized oscillation-suppressing window (GLOW) activation function is introduced to stabilize convergence and enable a lightweight yet accurate network architecture. A dynamic scatter subregion identification strategy is further developed to adaptively refine the computational domain, preventing missed detections and reducing computationa",
+    "pdf_url": "https://arxiv.org/pdf/2512.09333v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Transformer-Driven Multimodal Fusion for Explainable Suspiciousness Estimation in Visual Surveillance",
+    "authors": [
+      "Kuldeep Singh Yadav",
+      "Lalan Kumar"
+    ],
+    "published": "2025-12-10 04:39:56+00:00",
+    "arxiv_id": "2512.09311v1",
+    "summary": "Suspiciousness estimation is critical for proactive threat detection and ensuring public safety in complex environments. This work introduces a large-scale annotated dataset, USE50k, along with a computationally efficient vision-based framework for real-time suspiciousness analysis. The USE50k dataset contains 65,500 images captured from diverse and uncontrolled environments, such as airports, railway stations, restaurants, parks, and other public areas, covering a broad spectrum of cues includi",
+    "pdf_url": "https://arxiv.org/pdf/2512.09311v1",
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Real-Time-Capable Betatron Tune Measurement from Schottky Spectra Using Deep Learning and Uncertainty-Aware Kalman Filtering",
+    "authors": [
+      "Peihan Sun",
+      "Manzhou Zhang",
+      "Renxian Yuan",
+      "Deming Li",
+      "Jian Dong",
+      "Ying Shi"
+    ],
+    "published": "2025-12-10 04:03:22+00:00",
+    "arxiv_id": "2512.09302v1",
+    "summary": "Betatron tune measurement is essential for beam control in compact proton-therapy synchrotrons, yet conventional peak-detection techniques are not robust under the low signal-to-noise ratio (SNR) conditions typical of these machines. This work presents a lightweight convolutional neural network that performs real-time tune extraction from Schottky spectra with sub-millisecond inference latency and calibrated uncertainty estimates. The model uses attention-based pooling for reliable peak localiza",
+    "pdf_url": "https://arxiv.org/pdf/2512.09302v1",
+    "categories": [
+      "physics.acc-ph"
+    ]
+  },
+  {
+    "title": "FBA$^2$D: Frequency-based Black-box Attack for AI-generated Image Detection",
+    "authors": [
+      "Xiaojing Chen",
+      "Dan Li",
+      "Lijun Peng",
+      "Jun Yan\u0141etter",
+      "Zhiqing Guo",
+      "Junyang Chen",
+      "Xiao Lan",
+      "Zhongjie Ba",
+      "Yunfeng Diao\u0141etter"
+    ],
+    "published": "2025-12-10 02:38:47+00:00",
+    "arxiv_id": "2512.09264v1",
+    "summary": "The prosperous development of Artificial Intelligence-Generated Content (AIGC) has brought people's anxiety about the spread of false information on social media. Designing detectors for filtering is an effective defense method, but most detectors will be compromised by adversarial samples. Currently, most studies exposing AIGC security issues assume information on model structure and data distribution. In real applications, attackers query and interfere with models that provide services in the ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09264v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "A Clinically Interpretable Deep CNN Framework for Early Chronic Kidney Disease Prediction Using Grad-CAM-Based Explainable AI",
+    "authors": [
+      "Anas Bin Ayub",
+      "Nilima Sultana Niha",
+      "Md. Zahurul Haque"
+    ],
+    "published": "2025-12-10 02:03:59+00:00",
+    "arxiv_id": "2512.09244v1",
+    "summary": "Chronic Kidney Disease (CKD) constitutes a major global medical burden, marked by the gradual deterioration of renal function, which results in the impaired clearance of metabolic waste and disturbances in systemic fluid homeostasis. Owing to its substantial contribution to worldwide morbidity and mortality, the development of reliable and efficient diagnostic approaches is critically important to facilitate early detection and prompt clinical management. This study presents a deep convolutional",
+    "pdf_url": "https://arxiv.org/pdf/2512.09244v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Non-invasive Techniques for Flow Rate Measurement in Water Pipes: Protocol for a Systematic Review",
+    "authors": [
+      "Juan Diego Belesaca",
+      "Fabian Astudillo Salinas"
+    ],
+    "published": "2025-12-10 01:58:35+00:00",
+    "arxiv_id": "2512.09239v1",
+    "summary": "Accurate, non-invasive flow measurement is imperative for efficient water resource management and leak detection in distribution systems. Despite the advent of diverse external sensing technologies, a paucity of consolidated evidence exists regarding their comparative performance, energy efficiency, and applicability in varied operational contexts. The document delineates the protocol for a systematic literature review (SLR) that aims to identify, evaluate, and synthesize the extant evidence on ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09239v1",
+    "categories": [
+      "physics.ins-det"
+    ]
+  },
+  {
+    "title": "Analysis of the Security Design, Engineering, and Implementation of the SecureDNA System",
+    "authors": [
+      "Alan T. Sherman",
+      "Jeremy J. Romanik Romano",
+      "Edward Zieglar",
+      "Enis Golaszewski",
+      "Jonathan D. Fuchs",
+      "William E. Byrd"
+    ],
+    "published": "2025-12-10 01:39:52+00:00",
+    "arxiv_id": "2512.09233v1",
+    "summary": "We analyze security aspects of the SecureDNA system regarding its system design, engineering, and implementation. This system enables DNA synthesizers to screen order requests against a database of hazards. By applying novel cryptography, the system aims to keep order requests and the database of hazards secret. Discerning the detailed operation of the system in part from source code (Version 1.0.8), our analysis examines key management, certificate infrastructure, authentication, and rate-limit",
+    "pdf_url": "https://arxiv.org/pdf/2512.09233v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Natural Geometry of Robust Data Attribution: From Convex Models to Deep Networks",
+    "authors": [
+      "Shihao Li",
+      "Jiachen Li",
+      "Dongmei Chen"
+    ],
+    "published": "2025-12-09 20:40:27+00:00",
+    "arxiv_id": "2512.09103v1",
+    "summary": "Data attribution methods identify which training examples are responsible for a model's predictions, but their sensitivity to distributional perturbations undermines practical reliability. We present a unified framework for certified robust attribution that extends from convex models to deep networks. For convex settings, we derive Wasserstein-Robust Influence Functions (W-RIF) with provable coverage guarantees. For deep networks, we demonstrate that Euclidean certification is rendered vacuous b",
+    "pdf_url": "https://arxiv.org/pdf/2512.09103v1",
+    "categories": [
+      "cs.LG",
+      "math.OC"
+    ]
+  },
+  {
+    "title": "Improved Pseudorandom Codes from Permuted Puzzles",
+    "authors": [
+      "Miranda Christ",
+      "Noah Golowich",
+      "Sam Gunn",
+      "Ankur Moitra",
+      "Daniel Wichs"
+    ],
+    "published": "2025-12-09 18:53:42+00:00",
+    "arxiv_id": "2512.08918v1",
+    "summary": "Watermarks are an essential tool for identifying AI-generated content. Recently, Christ and Gunn (CRYPTO '24) introduced pseudorandom error-correcting codes (PRCs), which are equivalent to watermarks with strong robustness and quality guarantees. A PRC is a pseudorandom encryption scheme whose decryption algorithm tolerates a high rate of errors. Pseudorandomness ensures quality preservation of the watermark, and error tolerance of decryption translates to the watermark's ability to withstand mo",
+    "pdf_url": "https://arxiv.org/pdf/2512.08918v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "An Approach for Detection of Entities in Dynamic Media Contents",
+    "authors": [
+      "Nzakiese Mbongo",
+      "Ngombo Armando"
+    ],
+    "published": "2025-12-09 18:24:58+00:00",
+    "arxiv_id": "2512.09011v1",
+    "summary": "The notion of learning underlies almost every evolution of Intelligent Agents. In this paper, we present an approach for searching and detecting a given entity in a video sequence. Specifically, we study how the deep learning technique by artificial neuralnetworks allows us to detect a character in a video sequence. The technique of detecting a character in a video is a complex field of study, considering the multitude of objects present in the data under analysis. From the results obtained, we ",
+    "pdf_url": "https://arxiv.org/pdf/2512.09011v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Decentralized Trust for Space AI: Blockchain-Based Federated Learning Across Multi-Vendor LEO Satellite Networks",
+    "authors": [
+      "Mohamed Elmahallawy",
+      "Asma Jodeiri Akbarfam"
+    ],
+    "published": "2025-12-09 18:16:34+00:00",
+    "arxiv_id": "2512.08882v1",
+    "summary": "The rise of space AI is reshaping government and industry through applications such as disaster detection, border surveillance, and climate monitoring, powered by massive data from commercial and governmental low Earth orbit (LEO) satellites. Federated satellite learning (FSL) enables joint model training without sharing raw data, but suffers from slow convergence due to intermittent connectivity and introduces critical trust challenges--where biased or falsified updates can arise across satelli",
+    "pdf_url": "https://arxiv.org/pdf/2512.08882v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety",
+    "authors": [
+      "Mohamed Elmahallawy",
+      "Sanjay Madria",
+      "Samuel Frimpong"
+    ],
+    "published": "2025-12-09 17:53:19+00:00",
+    "arxiv_id": "2512.08862v1",
+    "summary": "Underground mining operations depend on sensor networks to monitor critical parameters such as temperature, gas concentration, and miner movement, enabling timely hazard detection and safety decisions. However, transmitting raw sensor data to a centralized server for machine learning (ML) model training raises serious privacy and security concerns. Federated Learning (FL) offers a promising alternative by enabling decentralized model training without exposing sensitive local data. Yet, applying ",
+    "pdf_url": "https://arxiv.org/pdf/2512.08862v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Democratizing ML for Enterprise Security: A Self-Sustained Attack Detection Framework",
+    "authors": [
+      "Sadegh Momeni",
+      "Ge Zhang",
+      "Birkett Huber",
+      "Hamza Harkous",
+      "Sam Lipton",
+      "Benoit Seguin",
+      "Yanis Pavlidis"
+    ],
+    "published": "2025-12-09 16:58:08+00:00",
+    "arxiv_id": "2512.08802v1",
+    "summary": "Despite advancements in machine learning for security, rule-based detection remains prevalent in Security Operations Centers due to the resource intensiveness and skill gap associated with ML solutions. While traditional rule-based methods offer efficiency, their rigidity leads to high false positives or negatives and requires continuous manual maintenance. This paper proposes a novel, two-stage hybrid framework to democratize ML-based threat detection. The first stage employs intentionally loos",
+    "pdf_url": "https://arxiv.org/pdf/2512.08802v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "An Explainable AI Model for the Detecting Malicious Smart Contracts Based on EVM Opcode Based Features",
+    "authors": [
+      "Roopak Surendran"
+    ],
+    "published": "2025-12-09 16:34:23+00:00",
+    "arxiv_id": "2512.08782v1",
+    "summary": "Hackers may create malicious solidity programs and deploy it in the Ethereum block chain. These malicious smart contracts try to attack legitimate programs by exploiting its vulnerabilities such as reentrancy, tx.origin attack, bad randomness, deligatecall and so on. This may lead to drain of the funds, denial of service and so on . Hence, it is necessary to identify and prevent the malicious smart contract before deploying it into the blockchain. In this paper, we propose an ML based malicious ",
+    "pdf_url": "https://arxiv.org/pdf/2512.08782v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "RF sensing with dense IoT network graphs: An EM-informed analysis",
+    "authors": [
+      "Federica Fieramosca",
+      "Vittorio Rampa",
+      "Michele D'Amico",
+      "Stefano Savazzi"
+    ],
+    "published": "2025-12-09 15:57:01+00:00",
+    "arxiv_id": "2512.08746v1",
+    "summary": "Radio Frequency (RF) sensing is attracting interest in research, standardization, and industry, especially for its potential in Internet of Things (IoT) applications. By leveraging the properties of the ElectroMagnetic (EM) waves used in wireless networks, RF sensing captures environmental information such as the presence and movement of people and objects, enabling passive localization and vision applications. This paper investigates the theoretical bounds on accuracy and resolution for RF sens",
+    "pdf_url": "https://arxiv.org/pdf/2512.08746v1",
+    "categories": [
+      "eess.SP"
+    ]
+  },
+  {
+    "title": "Adaptive cut reveals multiscale complexity in networks",
+    "authors": [
+      "Louis Boucherie",
+      "Yong-Yeol Ahn",
+      "Sune Lehmann"
+    ],
+    "published": "2025-12-09 15:50:48+00:00",
+    "arxiv_id": "2512.08741v1",
+    "summary": "Hierarchical clustering and community detection are important problems in machine learning and complex network analysis. A common approach to identify clusters is to simply cut dendrograms at some threshold. However, single-level cuts are often suboptimal in terms of capturing underlying structure in the data, especially when the dendrogram is unbalanced. In this paper, we present the adaptive cut, a novel method that leverages the hierarchical structure of dendrograms by employing multi-level c",
+    "pdf_url": "https://arxiv.org/pdf/2512.08741v1",
+    "categories": [
+      "physics.soc-ph"
+    ]
+  },
+  {
+    "title": "The SMART+ Framework for AI Systems",
+    "authors": [
+      "Laxmiraju Kandikatla",
+      "Branislav Radeljic"
+    ],
+    "published": "2025-12-09 13:33:14+00:00",
+    "arxiv_id": "2512.08592v1",
+    "summary": "Artificial Intelligence (AI) systems are now an integral part of multiple industries. In clinical research, AI supports automated adverse event detection in clinical trials, patient eligibility screening for protocol enrollment, and data quality validation. Beyond healthcare, AI is transforming finance through real-time fraud detection, automated loan risk assessment, and algorithmic decision-making. Similarly, in manufacturing, AI enables predictive maintenance to reduce equipment downtime, enh",
+    "pdf_url": "https://arxiv.org/pdf/2512.08592v1",
+    "categories": [
+      "cs.AI",
+      "cs.CY",
+      "cs.HC",
+      "eess.SY"
+    ]
+  },
+  {
+    "title": "Llama-based source code vulnerability detection: Prompt engineering vs Fine tuning",
+    "authors": [
+      "Dyna Soumhane Ouchebara",
+      "St\u00e9phane Dupont"
+    ],
+    "published": "2025-12-09 12:08:24+00:00",
+    "arxiv_id": "2512.09006v1",
+    "summary": "The significant increase in software production, driven by the acceleration of development cycles over the past two decades, has led to a steady rise in software vulnerabilities, as shown by statistics published yearly by the CVE program. The automation of the source code vulnerability detection (CVD) process has thus become essential, and several methods have been proposed ranging from the well established program analysis techniques to the more recent AI-based methods. Our research investigate",
+    "pdf_url": "https://arxiv.org/pdf/2512.09006v1",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components",
+    "authors": [
+      "Yupei Li",
+      "Li Wang",
+      "Yuxiang Wang",
+      "Lei Wang",
+      "Rizhao Cai",
+      "Jie Shi",
+      "Bj\u00f6rn W. Schuller",
+      "Zhizheng Wu"
+    ],
+    "published": "2025-12-09 09:36:38+00:00",
+    "arxiv_id": "2512.08403v1",
+    "summary": "Audio deepfake detection has recently garnered public concern due to its implications for security and reliability. Traditional deep learning methods have been widely applied to this task but often lack generalisability when confronted with newly emerging spoofing techniques and more tasks such as spoof attribution recognition rather than simple binary classification. In principle, Large Language Models (LLMs) are considered to possess the needed generalisation capabilities. However, previous re",
+    "pdf_url": "https://arxiv.org/pdf/2512.08403v1",
+    "categories": [
+      "cs.SD"
+    ]
+  },
+  {
+    "title": "Developing a Strong CPS Defender: An Evolutionary Approach",
+    "authors": [
+      "Qingyuan Hu",
+      "Christopher M. Poskitt",
+      "Jun Sun",
+      "Yuqi Chen"
+    ],
+    "published": "2025-12-09 07:33:26+00:00",
+    "arxiv_id": "2512.08320v1",
+    "summary": "Cyber-physical systems (CPSs) are used extensively in critical infrastructure, underscoring the need for anomaly detection systems that are able to catch even the most motivated attackers. Traditional anomaly detection techniques typically do `one-off' training on datasets crafted by experts or generated by fuzzers, potentially limiting their ability to generalize to unseen and more subtle attack strategies. Stopping at this point misses a key opportunity: a defender can actively challenge the a",
+    "pdf_url": "https://arxiv.org/pdf/2512.08320v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Tumor-anchored deep feature random forests for out-of-distribution detection in lung cancer segmentation",
+    "authors": [
+      "Aneesh Rangnekar",
+      "Harini Veeraraghavan"
+    ],
+    "published": "2025-12-09 03:49:50+00:00",
+    "arxiv_id": "2512.08216v1",
+    "summary": "Accurate segmentation of cancerous lesions from 3D computed tomography (CT) scans is essential for automated treatment planning and response assessment. However, even state-of-the-art models combining self-supervised learning (SSL) pretrained transformers with convolutional decoders are susceptible to out-of-distribution (OOD) inputs, generating confidently incorrect tumor segmentations, posing risks for safe clinical deployment. Existing logit-based methods suffer from task-specific model biase",
+    "pdf_url": "https://arxiv.org/pdf/2512.08216v1",
+    "categories": [
+      "eess.IV",
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Identification of Deforestation Areas in the Amazon Rainforest Using Change Detection Models",
+    "authors": [
+      "Christian Massao Konishi",
+      "Helio Pedrini"
+    ],
+    "published": "2025-12-08 22:18:19+00:00",
+    "arxiv_id": "2512.08075v1",
+    "summary": "The preservation of the Amazon Rainforest is one of the global priorities in combating climate change, protecting biodiversity, and safeguarding indigenous cultures. The Satellite-based Monitoring Project of Deforestation in the Brazilian Legal Amazon (PRODES), a project of the National Institute for Space Research (INPE), stands out as a fundamental initiative in this effort, annually monitoring deforested areas not only in the Amazon but also in other Brazilian biomes. Recently, machine learni",
+    "pdf_url": "https://arxiv.org/pdf/2512.08075v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning",
+    "authors": [
+      "Lukas Johannes M\u00f6ller"
+    ],
+    "published": "2025-12-08 18:55:26+00:00",
+    "arxiv_id": "2512.07827v1",
+    "summary": "The escalating sophistication and variety of cyber threats have rendered static honeypots inadequate, necessitating adaptive, intelligence-driven deception. In this work, ADLAH is introduced: an Adaptive Deep Learning Anomaly Detection Honeynet designed to maximize high-fidelity threat intelligence while minimizing cost through autonomous orchestration of infrastructure. The principal contribution is offered as an end-to-end architectural blueprint and vision for an AI-driven deception platform.",
+    "pdf_url": "https://arxiv.org/pdf/2512.07827v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "When Large Language Models Do Not Work: Online Incivility Prediction through Graph Neural Networks",
+    "authors": [
+      "Zihan Chen",
+      "Lanyu Yu"
+    ],
+    "published": "2025-12-08 16:22:40+00:00",
+    "arxiv_id": "2512.07684v1",
+    "summary": "Online incivility has emerged as a widespread and persistent problem in digital communities, imposing substantial social and psychological burdens on users. Although many platforms attempt to curb incivility through moderation and automated detection, the performance of existing approaches often remains limited in both accuracy and efficiency. To address this challenge, we propose a Graph Neural Network (GNN) framework for detecting three types of uncivil behavior (i.e., toxicity, aggression, an",
+    "pdf_url": "https://arxiv.org/pdf/2512.07684v1",
+    "categories": [
+      "cs.CL",
+      "cs.AI",
+      "cs.SI"
+    ]
+  },
+  {
+    "title": "An AI-Powered Autonomous Underwater System for Sea Exploration and Scientific Research",
+    "authors": [
+      "Hamad Almazrouei",
+      "Mariam Al Nasseri",
+      "Maha Alzaabi"
+    ],
+    "published": "2025-12-08 15:45:40+00:00",
+    "arxiv_id": "2512.07652v1",
+    "summary": "Traditional sea exploration faces significant challenges due to extreme conditions, limited visibility, and high costs, resulting in vast unexplored ocean regions. This paper presents an innovative AI-powered Autonomous Underwater Vehicle (AUV) system designed to overcome these limitations by automating underwater object detection, analysis, and reporting. The system integrates YOLOv12 Nano for real-time object detection, a Convolutional Neural Network (CNN) (ResNet50) for feature extraction, Pr",
+    "pdf_url": "https://arxiv.org/pdf/2512.07652v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+    "authors": [
+      "Yuzhou Nie",
+      "Hongwei Li",
+      "Chengquan Guo",
+      "Ruizhe Jiang",
+      "Zhun Wang",
+      "Bo Li",
+      "Dawn Song",
+      "Wenbo Guo"
+    ],
+    "published": "2025-12-08 13:06:23+00:00",
+    "arxiv_id": "2512.07533v1",
+    "summary": "We propose VulnLLM-R, the~\\emph{first specialized reasoning LLM} for vulnerability detection. Our key insight is that LLMs can reason about program states and analyze the potential vulnerabilities, rather than simple pattern matching. This can improve the model's generalizability and prevent learning shortcuts. However, SOTA reasoning LLMs are typically ultra-large, closed-source, or have limited performance in vulnerability detection. To address this, we propose a novel training recipe with spe",
+    "pdf_url": "https://arxiv.org/pdf/2512.07533v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Dictionary-Based Contrastive Learning for GNSS Jamming Detection",
+    "authors": [
+      "Zawar Hussain",
+      "Arslan Majal",
+      "Aamir Hussain Chughtai",
+      "Talha Nadeem"
+    ],
+    "published": "2025-12-08 12:47:39+00:00",
+    "arxiv_id": "2512.07512v1",
+    "summary": "Global Navigation Satellite System (GNSS) signals are fundamental in applications across navigation, transportation, and industrial networks. However, their extremely low received power makes them highly vulnerable to radio-frequency interference (RFI) and intentional jamming. Modern data-driven methods offer powerful representational power for such applications, however real-time and reliable jamming detection on resource-limited embedded receivers remains a key challenge due to the high comput",
+    "pdf_url": "https://arxiv.org/pdf/2512.07512v1",
+    "categories": [
+      "eess.SP"
+    ]
+  },
+  {
+    "title": "Systematic Evaluation of Black-Box Checking for Fast Bug Detection",
+    "authors": [
+      "Bram Pellen",
+      "Mar\u00eda Bel\u00e9n Rodr\u00edguez",
+      "Frits Vaandrager",
+      "Petra van den Bos"
+    ],
+    "published": "2025-12-08 11:10:05+00:00",
+    "arxiv_id": "2512.07434v1",
+    "summary": "Combinations of active automata learning, model-based testing and model checking have been successfully used in numerous applications, e.g., for spotting bugs in implementations of major network protocols and to support refactoring of embedded controllers. However, in the large majority of these applications, model checking is only used at the very end, when no counterexample can be found anymore for the latest hypothesis model. This contrasts with the original proposal of black-box checking (BB",
+    "pdf_url": "https://arxiv.org/pdf/2512.07434v1",
+    "categories": [
+      "cs.SE",
+      "cs.FL"
+    ]
+  },
+  {
+    "title": "Asymptotic analysis of shallow and deep forgetting in replay with Neural Collapse",
+    "authors": [
+      "Giulia Lanzillotta",
+      "Damiano Meier",
+      "Thomas Hofmann"
+    ],
+    "published": "2025-12-08 10:35:57+00:00",
+    "arxiv_id": "2512.07400v1",
+    "summary": "A persistent paradox in continual learning (CL) is that neural networks often retain linearly separable representations of past tasks even when their output predictions fail. We formalize this distinction as the gap between deep feature-space and shallow classifier-level forgetting. We reveal a critical asymmetry in Experience Replay: while minimal buffers successfully anchor feature geometry and prevent deep forgetting, mitigating shallow forgetting typically requires substantially larger buffe",
+    "pdf_url": "https://arxiv.org/pdf/2512.07400v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Reevaluating Automated Wildlife Species Detection: A Reproducibility Study on a Custom Image Dataset",
+    "authors": [
+      "Tobias Abraham Haider"
+    ],
+    "published": "2025-12-08 08:47:16+00:00",
+    "arxiv_id": "2512.07305v1",
+    "summary": "This study revisits the findings of Carl et al., who evaluated the pre-trained Google Inception-ResNet-v2 model for automated detection of European wild mammal species in camera trap images. To assess the reproducibility and generalizability of their approach, we reimplemented the experiment from scratch using openly available resources and a different dataset consisting of 900 images spanning 90 species. After minimal preprocessing, we obtained an overall classification accuracy of 62%, closely",
+    "pdf_url": "https://arxiv.org/pdf/2512.07305v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Effective Attention-Guided Multi-Scale Medical Network for Skin Lesion Segmentation",
+    "authors": [
+      "Siyu Wang",
+      "Hua Wang",
+      "Huiyu Li",
+      "Fan Zhang"
+    ],
+    "published": "2025-12-08 08:15:39+00:00",
+    "arxiv_id": "2512.07275v1",
+    "summary": "In the field of healthcare, precise skin lesion segmentation is crucial for the early detection and accurate diagnosis of skin diseases. Despite significant advances in deep learning for image processing, existing methods have yet to effectively address the challenges of irregular lesion shapes and low contrast. To address these issues, this paper proposes an innovative encoder-decoder network architecture based on multi-scale residual structures, capable of extracting rich feature information f",
+    "pdf_url": "https://arxiv.org/pdf/2512.07275v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Agentic Artificial Intelligence for Ethical Cybersecurity in Uganda: A Reinforcement Learning Framework for Threat Detection in Resource-Constrained Environments",
+    "authors": [
+      "Ibrahim Adabara",
+      "Bashir Olaniyi Sadiq",
+      "Aliyu Nuhu Shuaibu",
+      "Yale Ibrahim Danjuma",
+      "Venkateswarlu Maninti",
+      "Mutebi Joe"
+    ],
+    "published": "2025-12-08 05:44:25+00:00",
+    "arxiv_id": "2512.07909v1",
+    "summary": "Uganda's rapid digital transformation, supported by national strategies such as Vision 2040 and the Digital Transformation Roadmap, has expanded reliance on networked services while simultaneously increasing exposure to sophisticated cyber threats. In resource-constrained settings, commonly deployed rule-based intrusion detection systems lack the adaptability and ethical safeguards needed to address evolving attack patterns, leading to undetected breaches and excessive blocking of legitimate tra",
+    "pdf_url": "https://arxiv.org/pdf/2512.07909v1",
+    "categories": [
+      "cs.CR",
+      "cs.CY"
+    ]
+  },
+  {
+    "title": "Hyperflex: A SIMD-based DFA Model for Deep Packet Inspection",
+    "authors": [
+      "Yang Liu",
+      "Wenjun Zhu",
+      "Harry Chang",
+      "Yang Hong",
+      "Geoff Langdale",
+      "Kun Qiu",
+      "Jin Zhao"
+    ],
+    "published": "2025-12-08 03:08:11+00:00",
+    "arxiv_id": "2512.07123v1",
+    "summary": "Deep Packet Inspection (DPI) has been extensively employed for network security. It examines traffic payloads by searching for regular expressions (regex) with the Deterministic Finite Automaton (DFA) model. However, as the network bandwidth and ruleset size are increasing rapidly, the conventional DFA model has emerged as a significant performance bottleneck of DPI. Leveraging the Single-Instruction-Multiple-Data (SIMD) instruction to perform state transitions can substantially boost the effici",
+    "pdf_url": "https://arxiv.org/pdf/2512.07123v1",
+    "categories": [
+      "cs.NI"
+    ]
+  },
+  {
+    "title": "MSN: Multi-directional Similarity Network for Hand-crafted and Deep-synthesized Copy-Move Forgery Detection",
+    "authors": [
+      "Liangwei Jiang",
+      "Jinluo Xie",
+      "Yecheng Huang",
+      "Hua Zhang",
+      "Hongyu Yang",
+      "Di Huang"
+    ],
+    "published": "2025-12-08 02:47:05+00:00",
+    "arxiv_id": "2512.07110v1",
+    "summary": "Copy-move image forgery aims to duplicate certain objects or to hide specific contents with copy-move operations, which can be achieved by a sequence of manual manipulations as well as up-to-date deep generative network-based swapping. Its detection is becoming increasingly challenging for the complex transformations and fine-tuned operations on the tampered regions. In this paper, we propose a novel two-stream model, namely Multi-directional Similarity Network (MSN), to accurate and efficient c",
+    "pdf_url": "https://arxiv.org/pdf/2512.07110v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Dual Refinement Cycle Learning: Unsupervised Text Classification of Mamba and Community Detection on Text Attributed Graph",
+    "authors": [
+      "Hong Wang",
+      "Yinglong Zhang",
+      "Hanhan Guo",
+      "Xuewen Xia",
+      "Xing Xu"
+    ],
+    "published": "2025-12-08 02:31:42+00:00",
+    "arxiv_id": "2512.07100v2",
+    "summary": "Pretrained language models offer strong text understanding capabilities but remain difficult to deploy in real-world text-attributed networks due to their heavy dependence on labeled data. Meanwhile, community detection methods typically ignore textual semantics, limiting their usefulness in downstream applications such as content organization, recommendation, and risk monitoring. To overcome these limitations, we present Dual Refinement Cycle Learning (DRCL), a fully unsupervised framework desi",
+    "pdf_url": "https://arxiv.org/pdf/2512.07100v2",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "DFIR-DETR: Frequency Domain Enhancement and Dynamic Feature Aggregation for Cross-Scene Small Object Detection",
+    "authors": [
+      "Bo Gao",
+      "Jingcheng Tong",
+      "Xingsheng Chen",
+      "Han Yu",
+      "Zichen Li"
+    ],
+    "published": "2025-12-08 01:25:10+00:00",
+    "arxiv_id": "2512.07078v1",
+    "summary": "Detecting small objects in UAV remote sensing images and identifying surface defects in industrial inspection remain difficult tasks. These applications face common obstacles: features are sparse and weak, backgrounds are cluttered, and object scales vary dramatically. Current transformer-based detectors, while powerful, struggle with three critical issues. First, features degrade severely as networks downsample progressively. Second, spatial convolutions cannot capture long-range dependencies e",
+    "pdf_url": "https://arxiv.org/pdf/2512.07078v1",
+    "categories": [
+      "cs.CV",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "A Comprehensive Study of Supervised Machine Learning Models for Zero-Day Attack Detection: Analyzing Performance on Imbalanced Data",
+    "authors": [
+      "Zahra Lotfi",
+      "Mostafa Lotfi"
+    ],
+    "published": "2025-12-07 22:42:37+00:00",
+    "arxiv_id": "2512.07030v1",
+    "summary": "Among the various types of cyberattacks, identifying zero-day attacks is problematic because they are unknown to security systems as their pattern and characteristics do not match known blacklisted attacks. There are many Machine Learning (ML) models designed to analyze and detect network attacks, especially using supervised models. However, these models are designed to classify samples (normal and attacks) based on the patterns they learn during the training phase, so they perform inefficiently",
+    "pdf_url": "https://arxiv.org/pdf/2512.07030v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Deep Reinforcement Learning for Phishing Detection with Transformer-Based Semantic Features",
+    "authors": [
+      "Aseer Al Faisal"
+    ],
+    "published": "2025-12-07 17:08:12+00:00",
+    "arxiv_id": "2512.06925v1",
+    "summary": "Phishing is a cybercrime in which individuals are deceived into revealing personal information, often resulting in financial loss. These attacks commonly occur through fraudulent messages, misleading advertisements, and compromised legitimate websites. This study proposes a Quantile Regression Deep Q-Network (QR-DQN) approach that integrates RoBERTa semantic embeddings with handcrafted lexical features to enhance phishing detection while accounting for uncertainties. Unlike traditional DQN metho",
+    "pdf_url": "https://arxiv.org/pdf/2512.06925v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "MINES: Explainable Anomaly Detection through Web API Invariant Inference",
+    "authors": [
+      "Wenjie Zhang",
+      "Yun Lin",
+      "Chun Fung Amos Kwok",
+      "Xiwen Teoh",
+      "Xiaofei Xie",
+      "Frank Liauw",
+      "Hongyu Zhang",
+      "Jin Song Dong"
+    ],
+    "published": "2025-12-07 16:13:35+00:00",
+    "arxiv_id": "2512.06906v1",
+    "summary": "Detecting the anomalies of web applications, important infrastructures for running modern companies and governments, is crucial for providing reliable web services. Many modern web applications operate on web APIs (e.g., RESTful, SOAP, and WebSockets), their exposure invites intended attacks or unintended illegal visits, causing abnormal system behaviors. However, such anomalies can share very similar logs with normal logs, missing crucial information (which could be in database) for log discrim",
+    "pdf_url": "https://arxiv.org/pdf/2512.06906v1",
+    "categories": [
+      "cs.SE",
+      "cs.CR",
+      "cs.DB",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Patronus: Identifying and Mitigating Transferable Backdoors in Pre-trained Language Models",
+    "authors": [
+      "Tianhang Zhao",
+      "Wei Du",
+      "Haodong Zhao",
+      "Sufeng Duan",
+      "Gongshen Liu"
+    ],
+    "published": "2025-12-07 15:51:56+00:00",
+    "arxiv_id": "2512.06899v1",
+    "summary": "Transferable backdoors pose a severe threat to the Pre-trained Language Models (PLMs) supply chain, yet defensive research remains nascent, primarily relying on detecting anomalies in the output feature space. We identify a critical flaw that fine-tuning on downstream tasks inevitably modifies model parameters, shifting the output distribution and rendering pre-computed defense ineffective. To address this, we propose Patronus, a novel framework that use input-side invariance of triggers against",
+    "pdf_url": "https://arxiv.org/pdf/2512.06899v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "CADE: Continual Weakly-supervised Video Anomaly Detection with Ensembles",
+    "authors": [
+      "Satoshi Hashimoto",
+      "Tatsuya Konishi",
+      "Tomoya Kaichi",
+      "Kazunori Matsumoto",
+      "Mori Kurokawa"
+    ],
+    "published": "2025-12-07 13:26:12+00:00",
+    "arxiv_id": "2512.06840v1",
+    "summary": "Video anomaly detection (VAD) has long been studied as a crucial problem in public security and crime prevention. In recent years, weakly-supervised VAD (WVAD) have attracted considerable attention due to their easy annotation process and promising research results. While existing WVAD methods tackle mainly on static datasets, the possibility that the domain of data can vary has been neglected. To adapt such domain-shift, the continual learning (CL) perspective is required because otherwise addi",
+    "pdf_url": "https://arxiv.org/pdf/2512.06840v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Leveraging Pre-trained Neural Network Models for the Classification of Tumor Cells Analyzed by Label-free Phase Holotomographic Microscopy",
+    "authors": [
+      "Leonor V. C. Losa",
+      "Temple A. Douglas",
+      "Lia Santos",
+      "Raquel Monteiro",
+      "Isabel Calejo",
+      "Raphael F. Canadas",
+      "Jana B. Nieder"
+    ],
+    "published": "2025-12-07 11:57:22+00:00",
+    "arxiv_id": "2512.06808v1",
+    "summary": "Can a single label-free image reveal whether cancer cells were exposed to chemotherapy? We present an innovative methodology on the label-free and high-resolution imaging properties of phase holotomographic microscopy coupled with neural network models for the classification of cancer cells. Using 3D phase holotomographic microscopy, we imaged live A549 lung cancer cells with and without paclitaxel, converted stacks to 2D maximum-intensity projections, and evaluated pre-trained convolutional net",
+    "pdf_url": "https://arxiv.org/pdf/2512.06808v1",
+    "categories": [
+      "physics.optics",
+      "physics.app-ph",
+      "physics.bio-ph",
+      "q-bio.CB"
+    ]
+  },
+  {
+    "title": "A Machine Learning study of the two-dimensional antiferromagnetic $q$-state Potts model on the square lattice",
+    "authors": [
+      "Shang-Wei Li",
+      "Kai-Wei Huang",
+      "Chien-Ting Chen",
+      "Fu-Jiun Jiang"
+    ],
+    "published": "2025-12-07 09:53:16+00:00",
+    "arxiv_id": "2512.06762v1",
+    "summary": "The critical phenomena of two-dimensional (2D) antiferromagnetic $q$-state Potts model on the square lattice with $q=2,3,4,5$ and 6 are investigated using the technique of supervised neural network (NN). Unlike the conventional NN approaches, here we train a multilayer perceptron consisting of only one input layer, one hidden layer, and one output layer with two artificially made stagger-like configurations. Remarkably, despite the fact that the MLP is trained without any input from these consid",
+    "pdf_url": "https://arxiv.org/pdf/2512.06762v1",
+    "categories": [
+      "hep-lat",
+      "cond-mat.dis-nn",
+      "cond-mat.stat-mech"
+    ]
+  },
+  {
+    "title": "Graph Convolutional Long Short-Term Memory Attention Network for Post-Stroke Compensatory Movement Detection Based on Skeleton Data",
+    "authors": [
+      "Jiaxing Fan",
+      "Jiaojiao Liu",
+      "Wenkong Wang",
+      "Yang Zhang",
+      "Xin Ma",
+      "Jichen Zhang"
+    ],
+    "published": "2025-12-07 09:00:45+00:00",
+    "arxiv_id": "2512.06736v1",
+    "summary": "Most stroke patients experience upper limb motor dysfunction. Compensatory movements are prevalent during rehabilitation training, which is detrimental to patients' long-term recovery. Therefore, detecting compensatory movements is of great significance. In this study, a Graph Convolutional Long Short-Term Memory Attention Network (GCN-LSTM-ATT) based on skeleton data is proposed for the detection of compensatory movements after stroke. Sixteen stroke patients were selected in the research. The ",
+    "pdf_url": "https://arxiv.org/pdf/2512.06736v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents",
+    "authors": [
+      "Zhibo Liang",
+      "Tianze Hu",
+      "Zaiye Chen",
+      "Mingjie Tang"
+    ],
+    "published": "2025-12-07 08:11:19+00:00",
+    "arxiv_id": "2512.06716v1",
+    "summary": "Autonomous Large Language Model (LLM) agents exhibit significant vulnerability to Indirect Prompt Injection (IPI) attacks. These attacks hijack agent behavior by polluting external information sources, exploiting fundamental trade-offs between security and functionality in existing defense mechanisms. This leads to malicious and unauthorized tool invocations, diverting agents from their original objectives. The success of complex IPIs reveals a deeper systemic fragility: while current defenses d",
+    "pdf_url": "https://arxiv.org/pdf/2512.06716v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Financial Fraud Identification and Interpretability Study for Listed Companies Based on Convolutional Neural Network",
+    "authors": [
+      "Xiao Li"
+    ],
+    "published": "2025-12-07 04:14:16+00:00",
+    "arxiv_id": "2512.06648v2",
+    "summary": "Since the emergence of joint-stock companies, financial fraud by listed firms has repeatedly undermined capital markets. Fraud is difficult to detect because of covert tactics and the high labor and time costs of audits. Traditional statistical models are interpretable but struggle with nonlinear feature interactions, while machine learning models are powerful but often opaque. In addition, most existing methods judge fraud only for the current year based on current year data, limiting timelines",
+    "pdf_url": "https://arxiv.org/pdf/2512.06648v2",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "The Impact of Data Characteristics on GNN Evaluation for Detecting Fake News",
+    "authors": [
+      "Isha Karn",
+      "David Jensen"
+    ],
+    "published": "2025-12-07 03:00:38+00:00",
+    "arxiv_id": "2512.06638v1",
+    "summary": "Graph neural networks (GNNs) are widely used for the detection of fake news by modeling the content and propagation structure of news articles on social media. We show that two of the most commonly used benchmark data sets - GossipCop and PolitiFact - are poorly suited to evaluating the utility of models that use propagation structure. Specifically, these data sets exhibit shallow, ego-like graph topologies that provide little or no ability to differentiate among modeling methods. We systematica",
+    "pdf_url": "https://arxiv.org/pdf/2512.06638v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "BEACON: A Unified Behavioral-Tactical Framework for Explainable Cybercrime Analysis with Large Language Models",
+    "authors": [
+      "Arush Sachdeva",
+      "Rajendraprasad Saravanan",
+      "Gargi Sarkar",
+      "Kavita Vemuri",
+      "Sandeep Kumar Shukla"
+    ],
+    "published": "2025-12-06 19:59:24+00:00",
+    "arxiv_id": "2512.06555v1",
+    "summary": "Cybercrime increasingly exploits human cognitive biases in addition to technical vulnerabilities, yet most existing analytical frameworks focus primarily on operational aspects and overlook psychological manipulation. This paper proposes BEACON, a unified dual-dimension framework that integrates behavioral psychology with the tactical lifecycle of cybercrime to enable structured, interpretable, and scalable analysis of cybercrime. We formalize six psychologically grounded manipulation categories",
+    "pdf_url": "https://arxiv.org/pdf/2512.06555v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "title": "Novel Deep Learning Architectures for Classification and Segmentation of Brain Tumors from MRI Images",
+    "authors": [
+      "Sayan Das",
+      "Arghadip Biswas"
+    ],
+    "published": "2025-12-06 18:49:57+00:00",
+    "arxiv_id": "2512.06531v1",
+    "summary": "Brain tumors pose a significant threat to human life, therefore it is very much necessary to detect them accurately in the early stages for better diagnosis and treatment. Brain tumors can be detected by the radiologist manually from the MRI scan images of the patients. However, the incidence of brain tumors has risen amongst children and adolescents in recent years, resulting in a substantial volume of data, as a result, it is time-consuming and difficult to detect manually. With the emergence ",
+    "pdf_url": "https://arxiv.org/pdf/2512.06531v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Neural expressiveness for beyond importance model compression",
+    "authors": [
+      "Angelos-Christos Maroudis",
+      "Sotirios Xydis"
+    ],
+    "published": "2025-12-06 14:07:34+00:00",
+    "arxiv_id": "2512.06440v1",
+    "summary": "Neural Network Pruning has been established as driving force in the exploration of memory and energy efficient solutions with high throughput both during training and at test time. In this paper, we introduce a novel criterion for model compression, named \"Expressiveness\". Unlike existing pruning methods that rely on the inherent \"Importance\" of neurons' and filters' weights, ``Expressiveness\" emphasizes a neuron's or group of neurons ability to redistribute informational resources effectively, ",
+    "pdf_url": "https://arxiv.org/pdf/2512.06440v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "AgenticCyber: A GenAI-Powered Multi-Agent System for Multimodal Threat Detection and Adaptive Response in Cybersecurity",
+    "authors": [
+      "Shovan Roy"
+    ],
+    "published": "2025-12-06 10:59:21+00:00",
+    "arxiv_id": "2512.06396v1",
+    "summary": "The increasing complexity of cyber threats in distributed environments demands advanced frameworks for real-time detection and response across multimodal data streams. This paper introduces AgenticCyber, a generative AI powered multi-agent system that orchestrates specialized agents to monitor cloud logs, surveillance videos, and environmental audio concurrently. The solution achieves 96.2% F1-score in threat detection, reduces response latency to 420 ms, and enables adaptive security posture ma",
+    "pdf_url": "https://arxiv.org/pdf/2512.06396v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Web Technologies Security in the AI Era: A Survey of CDN-Enhanced Defenses",
+    "authors": [
+      "Mehrab Hosain",
+      "Sabbir Alom Shuvo",
+      "Matthew Ogbe",
+      "Md Shah Jalal Mazumder",
+      "Yead Rahman",
+      "Md Azizul Hakim",
+      "Anukul Pandey"
+    ],
+    "published": "2025-12-06 10:42:14+00:00",
+    "arxiv_id": "2512.06390v1",
+    "summary": "The modern web stack, which is dominated by browser-based applications and API-first backends, now operates under an adversarial equilibrium where automated, AI-assisted attacks evolve continuously. Content Delivery Networks (CDNs) and edge computing place programmable defenses closest to users and bots, making them natural enforcement points for machine-learning (ML) driven inspection, throttling, and isolation. This survey synthesizes the landscape of AI-enhanced defenses deployed at the edge:",
+    "pdf_url": "https://arxiv.org/pdf/2512.06390v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG",
+      "cs.NI",
+      "cs.PF"
+    ]
+  },
+  {
+    "title": "Modeling Spatio-temporal Extremes via Conditional Variational Autoencoders",
+    "authors": [
+      "Xiaoyu Ma",
+      "Likun Zhang",
+      "Christopher K. Wikle"
+    ],
+    "published": "2025-12-06 08:40:41+00:00",
+    "arxiv_id": "2512.06348v1",
+    "summary": "Extreme weather events are widely studied in fields such as agriculture, ecology, and meteorology. The spatio-temporal co-occurrence of extreme events can strengthen or weaken under changing climate conditions. In this paper, we propose a novel approach to model spatio-temporal extremes by integrating climate indices via a conditional variational autoencoder (cXVAE). A convolutional neural network (CNN) is embedded in the decoder to convolve climatological indices with the spatial dependence wit",
+    "pdf_url": "https://arxiv.org/pdf/2512.06348v1",
+    "categories": [
+      "stat.ML",
+      "cs.LG",
+      "stat.ME"
+    ]
+  },
+  {
+    "title": "Quantization Blindspots: How Model Compression Breaks Backdoor Defenses",
+    "authors": [
+      "Rohan Pandey",
+      "Eric Ye"
+    ],
+    "published": "2025-12-06 02:04:32+00:00",
+    "arxiv_id": "2512.06243v1",
+    "summary": "Backdoor attacks embed input-dependent malicious behavior into neural networks while preserving high clean accuracy, making them a persistent threat for deployed ML systems. At the same time, real-world deployments almost never serve full-precision models: post-training quantization to INT8 or lower precision is now standard practice for reducing memory and latency. This work asks a simple question: how do existing backdoor defenses behave under standard quantization pipelines? We conduct a syst",
+    "pdf_url": "https://arxiv.org/pdf/2512.06243v1",
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "GPU-GLMB: Assessing the Scalability of GPU-Accelerated Multi-Hypothesis Tracking",
+    "authors": [
+      "Pranav Balakrishnan",
+      "Sidisha Barik",
+      "Sean M. O'Rourke",
+      "Benjamin M. Marlin"
+    ],
+    "published": "2025-12-06 00:43:22+00:00",
+    "arxiv_id": "2512.06230v1",
+    "summary": "Much recent research on multi-target tracking has focused on multi-hypothesis approaches leveraging random finite sets. Of particular interest are labeled random finite set methods that maintain temporally coherent labels for each object. While these methods enjoy important theoretical properties as closed-form solutions to the multi-target Bayes filter, the maintenance of multiple hypotheses under the standard measurement model is highly computationally expensive, even when hypothesis pruning a",
+    "pdf_url": "https://arxiv.org/pdf/2512.06230v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Curation and Dissemination of Complex Multi-modal Data Sets for Radiation Detection, Localization, and Tracking",
+    "authors": [
+      "Nicolas Abgrall",
+      "Mark S. Bandstra",
+      "Reynold J. Cooper",
+      "Marco Salathe",
+      "Brian J. Quiter",
+      "Rajesh Sankaran",
+      "Yongho Kim",
+      "Sean Shahkarami"
+    ],
+    "published": "2025-12-06 00:17:45+00:00",
+    "arxiv_id": "2512.06225v1",
+    "summary": "The PANDAWN sensor network in Chicago, IL, is a state-of-the-art test-bed for networked, multi-modal sensing. It integrates AI/data science methods into its operation, from data acquisition to automated data labeling and curation workflows. The curation and dissemination of diverse multi-modal data sets will enable the development of new radiological/nuclear (R/N) detection, localization, and tracking algorithms, and methods relevant across the nonproliferation mission space. This paper first in",
+    "pdf_url": "https://arxiv.org/pdf/2512.06225v1",
+    "categories": [
+      "physics.app-ph"
+    ]
+  },
+  {
+    "title": "DEFEND: Poisoned Model Detection and Malicious Client Exclusion Mechanism for Secure Federated Learning-based Road Condition Classification",
+    "authors": [
+      "Sheng Liu",
+      "Panos Papadimitratos"
+    ],
+    "published": "2025-12-05 21:50:27+00:00",
+    "arxiv_id": "2512.06172v1",
+    "summary": "Federated Learning (FL) has drawn the attention of the Intelligent Transportation Systems (ITS) community. FL can train various models for ITS tasks, notably camera-based Road Condition Classification (RCC), in a privacy-preserving collaborative way. However, opening up to collaboration also opens FL-based RCC systems to adversaries, i.e., misbehaving participants that can launch Targeted Label-Flipping Attacks (TLFAs) and threaten transportation safety. Adversaries mounting TLFAs poison trainin",
+    "pdf_url": "https://arxiv.org/pdf/2512.06172v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "AIMNET: An IoT-Empowered Digital Twin for Continuous Gas Emission Monitoring and Early Hazard Detection",
+    "authors": [
+      "Zifan Zhou",
+      "Xuan Wang",
+      "Yang Yan",
+      "Lkhanaajav Mijiddorj",
+      "Yu Ding",
+      "Tyler Beringer",
+      "Parisa Masnadi Khiabani",
+      "Wolfgang G. Jentner",
+      "Xiao-Ming Hu",
+      "Chenghao Wang",
+      "Bryan M. Carroll",
+      "Ming Xue",
+      "David Ebert",
+      "Bin Li",
+      "Binbin Weng"
+    ],
+    "published": "2025-12-05 20:57:49+00:00",
+    "arxiv_id": "2512.06148v1",
+    "summary": "A Digital Twin (DT) framework to enhance carbon-based gas plume monitoring is critical for supporting timely and effective mitigation responses to environmental hazards such as industrial gas leaks, or wildfire outbreaks carrying large carbon emissions. We present AIMNET, a one-of-a-kind DT framework that integrates a built-in-house Internet of Things (IoT)-based continuous sensing network with a physics-based multi-scale weather-gas transport model, that enables high-resolution and real-time si",
+    "pdf_url": "https://arxiv.org/pdf/2512.06148v1",
+    "categories": [
+      "cs.NI"
+    ]
+  },
+  {
+    "title": "Toward Patch Robustness Certification and Detection for Deep Learning Systems Beyond Consistent Samples",
+    "authors": [
+      "Qilin Zhou",
+      "Zhengyuan Wei",
+      "Haipeng Wang",
+      "Zhuo Wang",
+      "W. K. Chan"
+    ],
+    "published": "2025-12-05 20:02:09+00:00",
+    "arxiv_id": "2512.06123v1",
+    "summary": "Patch robustness certification is an emerging kind of provable defense technique against adversarial patch attacks for deep learning systems. Certified detection ensures the detection of all patched harmful versions of certified samples, which mitigates the failures of empirical defense techniques that could (easily) be compromised. However, existing certified detection methods are ineffective in certifying samples that are misclassified or whose mutants are inconsistently pre icted to different",
+    "pdf_url": "https://arxiv.org/pdf/2512.06123v1",
+    "categories": [
+      "cs.SE",
+      "cs.AI",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "SpectraIrisPAD: Leveraging Vision Foundation Models for Spectrally Conditioned Multispectral Iris Presentation Attack Detection",
+    "authors": [
+      "Raghavendra Ramachandra",
+      "Sushma Venkatesh"
+    ],
+    "published": "2025-12-05 19:07:23+00:00",
+    "arxiv_id": "2512.06103v1",
+    "summary": "Iris recognition is widely recognized as one of the most accurate biometric modalities. However, its growing deployment in real-world applications raises significant concerns regarding its vulnerability to Presentation Attacks (PAs). Effective Presentation Attack Detection (PAD) is therefore critical to ensure the integrity and security of iris-based biometric systems. While conventional iris recognition systems predominantly operate in the near-infrared (NIR) spectrum, multispectral imaging acr",
+    "pdf_url": "https://arxiv.org/pdf/2512.06103v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning Integrated Agentic RAG for Software Test Cases Authoring",
+    "authors": [
+      "Mohanakrishnan Hariharan"
+    ],
+    "published": "2025-12-05 17:52:26+00:00",
+    "arxiv_id": "2512.06060v1",
+    "summary": "This paper introduces a framework that integrates reinforcement learning (RL) with autonomous agents to enable continuous improvement in the automated process of software test cases authoring from business requirement documents within Quality Engineering (QE) workflows. Conventional systems employing Large Language Models (LLMs) generate test cases from static knowledge bases, which fundamentally limits their capacity to enhance performance over time. Our proposed Reinforcement Infused Agentic R",
+    "pdf_url": "https://arxiv.org/pdf/2512.06060v1",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Deep learning recognition and analysis of Volatile Organic Compounds based on experimental and synthetic infrared absorption spectra",
+    "authors": [
+      "Andrea Della Valle",
+      "Annalisa D'Arco",
+      "Tiziana Mancini",
+      "Rosanna Mosetti",
+      "Maria Chiara Paolozzi",
+      "Stefano Lupi",
+      "Sebastiano Pilati",
+      "Andrea Perali"
+    ],
+    "published": "2025-12-05 17:43:11+00:00",
+    "arxiv_id": "2512.06059v1",
+    "summary": "Volatile Organic Compounds (VOCs) are organic molecules that have low boiling points and therefore easily evaporate into the air. They pose significant risks to human health, making their accurate detection the crux of efforts to monitor and minimize exposure. Infrared (IR) spectroscopy enables the ultrasensitive detection at low-concentrations of VOCs in the atmosphere by measuring their IR absorption spectra. However, the complexity of the IR spectra limits the possibility to implement VOC rec",
+    "pdf_url": "https://arxiv.org/pdf/2512.06059v1",
+    "categories": [
+      "cs.LG",
+      "physics.app-ph",
+      "physics.chem-ph"
+    ]
+  },
+  {
+    "title": "Learnability Window in Gated Recurrent Neural Networks",
+    "authors": [
+      "Lorenzo Livi"
+    ],
+    "published": "2025-12-05 15:16:59+00:00",
+    "arxiv_id": "2512.05790v1",
+    "summary": "We develop a theoretical framework that explains how gating mechanisms determine the learnability window $\\mathcal{H}_N$ of recurrent neural networks, defined as the largest temporal horizon over which gradient information remains statistically recoverable. While classical analyses emphasize numerical stability of Jacobian products, we show that stability alone is insufficient: learnability is governed instead by the \\emph{effective learning rates} $\u03bc_{t,\\ell}$, per-lag and per-neuron quantities",
+    "pdf_url": "https://arxiv.org/pdf/2512.05790v1",
+    "categories": [
+      "cs.LG",
+      "physics.data-an"
+    ]
+  },
+  {
+    "title": "A Fast Anti-Jamming Cognitive Radar Deployment Algorithm Based on Reinforcement Learning",
+    "authors": [
+      "Wencheng Cai",
+      "Xuchao Gao",
+      "Congying Han",
+      "Mingqiang Li",
+      "Tiande Guo"
+    ],
+    "published": "2025-12-05 14:39:50+00:00",
+    "arxiv_id": "2512.05753v1",
+    "summary": "The fast deployment of cognitive radar to counter jamming remains a critical challenge in modern warfare, where more efficient deployment leads to quicker detection of targets. Existing methods are primarily based on evolutionary algorithms, which are time-consuming and prone to falling into local optima. We tackle these drawbacks via the efficient inference of neural networks and propose a brand new framework: Fast Anti-Jamming Radar Deployment Algorithm (FARDA). We first model the radar deploy",
+    "pdf_url": "https://arxiv.org/pdf/2512.05753v1",
+    "categories": [
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "MicroRacer: Detecting Concurrency Bugs for Cloud Service Systems",
+    "authors": [
+      "Zhiling Deng",
+      "Juepeng Wang",
+      "Zhuangbin Chen"
+    ],
+    "published": "2025-12-05 13:43:31+00:00",
+    "arxiv_id": "2512.05716v1",
+    "summary": "Modern cloud applications delivering global services are often built on distributed systems with a microservice architecture. In such systems, end-to-end user requests traverse multiple different services and machines, exhibiting intricate interactions. Consequently, cloud service systems are vulnerable to concurrency bugs, which pose significant challenges to their reliability. Existing methods for concurrency bug detection often fall short due to their intrusive nature and inability to handle ",
+    "pdf_url": "https://arxiv.org/pdf/2512.05716v1",
+    "categories": [
+      "cs.SE"
+    ]
+  },
+  {
+    "title": "Evaluating Concept Filtering Defenses against Child Sexual Abuse Material Generation by Text-to-Image Models",
+    "authors": [
+      "Ana-Maria Cretu",
+      "Klim Kireev",
+      "Amro Abdalla",
+      "Wisdom Obinna",
+      "Raphael Meier",
+      "Sarah Adel Bargal",
+      "Elissa M. Redmiles",
+      "Carmela Troncoso"
+    ],
+    "published": "2025-12-05 13:34:05+00:00",
+    "arxiv_id": "2512.05707v1",
+    "summary": "We evaluate the effectiveness of child filtering to prevent the misuse of text-to-image (T2I) models to create child sexual abuse material (CSAM). First, we capture the complexity of preventing CSAM generation using a game-based security definition. Second, we show that current detection methods cannot remove all children from a dataset. Third, using an ethical proxy for CSAM (a child wearing glasses, hereafter, CWG), we show that even when only a small percentage of child images are left in the",
+    "pdf_url": "https://arxiv.org/pdf/2512.05707v1",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Deep Learning-Based Real-Time Sequential Facial Expression Analysis Using Geometric Features",
+    "authors": [
+      "Talha Enes Koksal",
+      "Abdurrahman Gumus"
+    ],
+    "published": "2025-12-05 12:26:31+00:00",
+    "arxiv_id": "2512.05669v1",
+    "summary": "Facial expression recognition is a crucial component in enhancing human-computer interaction and developing emotion-aware systems. Real-time detection and interpretation of facial expressions have become increasingly important for various applications, from user experience personalization to intelligent surveillance systems. This study presents a novel approach to real-time sequential facial expression recognition using deep learning and geometric features. The proposed method utilizes MediaPipe",
+    "pdf_url": "https://arxiv.org/pdf/2512.05669v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Bounded Graph Clustering with Graph Neural Networks",
+    "authors": [
+      "Kibidi Neocosmos",
+      "Diego Baptista",
+      "Nicole Ludwig"
+    ],
+    "published": "2025-12-05 11:06:59+00:00",
+    "arxiv_id": "2512.05623v1",
+    "summary": "In community detection, many methods require the user to specify the number of clusters in advance since an exhaustive search over all possible values is computationally infeasible. While some classical algorithms can infer this number directly from the data, this is typically not the case for graph neural networks (GNNs): even when a desired number of clusters is specified, standard GNN-based methods often fail to return the exact number due to the way they are designed. In this work, we addres",
+    "pdf_url": "https://arxiv.org/pdf/2512.05623v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Wasserstein distance based semi-supervised manifold learning and application to GNSS multi-path detection",
+    "authors": [
+      "Antoine Blais",
+      "Nicolas Cou\u00ebllan"
+    ],
+    "published": "2025-12-05 09:48:17+00:00",
+    "arxiv_id": "2512.05567v1",
+    "summary": "The main objective of this study is to propose an optimal transport based semi-supervised approach to learn from scarce labelled image data using deep convolutional networks. The principle lies in implicit graph-based transductive semi-supervised learning where the similarity metric between image samples is the Wasserstein distance. This metric is used in the label propagation mechanism during learning. We apply and demonstrate the effectiveness of the method on a GNSS real life application. Mor",
+    "pdf_url": "https://arxiv.org/pdf/2512.05567v1",
+    "categories": [
+      "cs.LG",
+      "eess.SP",
+      "stat.ML"
+    ]
+  },
+  {
+    "title": "Rethinking Infrared Small Target Detection: A Foundation-Driven Efficient Paradigm",
+    "authors": [
+      "Chuang Yu",
+      "Jinmiao Zhao",
+      "Yunpeng Liu",
+      "Yaokun Li",
+      "Xiujun Shu",
+      "Yuanhao Feng",
+      "Bo Wang",
+      "Yimian Dai",
+      "Xiangyu Yue"
+    ],
+    "published": "2025-12-05 08:12:35+00:00",
+    "arxiv_id": "2512.05511v1",
+    "summary": "While large-scale visual foundation models (VFMs) exhibit strong generalization across diverse visual domains, their potential for single-frame infrared small target (SIRST) detection remains largely unexplored. To fill this gap, we systematically introduce the frozen representations from VFMs into the SIRST task for the first time and propose a Foundation-Driven Efficient Paradigm (FDEP), which can seamlessly adapt to existing encoder-decoder-based methods and significantly improve accuracy wit",
+    "pdf_url": "https://arxiv.org/pdf/2512.05511v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "Sepsis Prediction Using Graph Convolutional Networks over Patient-Feature-Value Triplets",
+    "authors": [
+      "Bozhi Dan",
+      "Di Wu",
+      "Ji Xu",
+      "Xiang Liu",
+      "Yiziting Zhu",
+      "Xin Shu",
+      "Yujie Li",
+      "Bin Yi"
+    ],
+    "published": "2025-12-05 04:30:48+00:00",
+    "arxiv_id": "2512.05416v1",
+    "summary": "In the intensive care setting, sepsis continues to be a major contributor to patient illness and death; however, its timely detection is hindered by the complex, sparse, and heterogeneous nature of electronic health record (EHR) data. We propose Triplet-GCN, a single-branch graph convolutional model that represents each encounter as patient-feature-value triplets, constructs a bipartite EHR graph, and learns patient embeddings via a Graph Convolutional Network (GCN) followed by a lightweight mul",
+    "pdf_url": "https://arxiv.org/pdf/2512.05416v1",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Moving object detection from multi-depth images with an attention-enhanced CNN",
+    "authors": [
+      "Masato Shibukawa",
+      "Fumi Yoshida",
+      "Toshifumi Yanagisawa",
+      "Takashi Ito",
+      "Hirohisa Kurosaki",
+      "Makoto Yoshikawa",
+      "Kohki Kamiya",
+      "Ji-an Jiang",
+      "Wesley Fraser",
+      "JJ Kavelaars",
+      "Susan Benecchi",
+      "Anne Verbiscer",
+      "Akira Hatakeyama",
+      "Hosei O",
+      "Naoya Ozaki"
+    ],
+    "published": "2025-12-05 04:29:37+00:00",
+    "arxiv_id": "2512.05415v1",
+    "summary": "One of the greatest challenges for detecting moving objects in the solar system from wide-field survey data is determining whether a signal indicates a true object or is due to some other source, like noise. Object verification has relied heavily on human eyes, which usually results in significant labor costs. In order to address this limitation and reduce the reliance on manual intervention, we propose a multi-input convolutional neural network integrated with a convolutional block attention mo",
+    "pdf_url": "https://arxiv.org/pdf/2512.05415v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Auto-SPT: Automating Semantic Preserving Transformations for Code",
+    "authors": [
+      "Ashish Hooda",
+      "Mihai Christodorescu",
+      "Chuangang Ren",
+      "Aaron Wilson",
+      "Kassem Fawaz",
+      "Somesh Jha"
+    ],
+    "published": "2025-12-05 04:11:44+00:00",
+    "arxiv_id": "2512.06042v1",
+    "summary": "Machine learning (ML) models for code clone detection determine whether two pieces of code are semantically equivalent, which in turn is a key building block for software-engineering tasks like refactoring and security tasks like vulnerability and malware detection. While these models are predominantly trained on clean, structured code datasets, real-world code often undergoes a variety of semantic-preserving transformations, including refactoring, minification, automated formatting, and compile",
+    "pdf_url": "https://arxiv.org/pdf/2512.06042v1",
+    "categories": [
+      "cs.SE",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "Physics-Guided Deepfake Detection for Voice Authentication Systems",
+    "authors": [
+      "Alireza Mohammadi",
+      "Keshav Sood",
+      "Dhananjay Thiruvady",
+      "Asef Nazari"
+    ],
+    "published": "2025-12-04 23:37:18+00:00",
+    "arxiv_id": "2512.06040v1",
+    "summary": "Voice authentication systems deployed at the network edge face dual threats: a) sophisticated deepfake synthesis attacks and b) control-plane poisoning in distributed federated learning protocols. We present a framework coupling physics-guided deepfake detection with uncertainty-aware in edge learning. The framework fuses interpretable physics features modeling vocal tract dynamics with representations coming from a self-supervised learning module. The representations are then processed via a Mu",
+    "pdf_url": "https://arxiv.org/pdf/2512.06040v1",
+    "categories": [
+      "cs.SD",
+      "cs.AI",
+      "eess.AS"
+    ]
+  },
+  {
+    "title": "Uncertainty Quantification for Scientific Machine Learning using Sparse Variational Gaussian Process Kolmogorov-Arnold Networks (SVGP KAN)",
+    "authors": [
+      "Y. Sungtaek Ju"
+    ],
+    "published": "2025-12-04 22:58:32+00:00",
+    "arxiv_id": "2512.05306v2",
+    "summary": "Kolmogorov-Arnold Networks have emerged as interpretable alternatives to traditional multi-layer perceptrons. However, standard implementations lack principled uncertainty quantification capabilities essential for many scientific applications. We present a framework integrating sparse variational Gaussian process inference with the Kolmogorov-Arnold topology, enabling scalable Bayesian inference with computational complexity quasi-linear in sample size. Through analytic moment matching, we propa",
+    "pdf_url": "https://arxiv.org/pdf/2512.05306v2",
+    "categories": [
+      "cs.LG",
+      "stat.ML"
+    ]
+  },
+  {
+    "title": "Beyond Detection: A Comprehensive Benchmark and Study on Representation Learning for Fine-Grained Webshell Family Classification",
+    "authors": [
+      "Feijiang Han"
+    ],
+    "published": "2025-12-04 22:26:30+00:00",
+    "arxiv_id": "2512.05288v1",
+    "summary": "Malicious WebShells pose a significant and evolving threat by compromising critical digital infrastructures and endangering public services in sectors such as healthcare and finance. While the research community has made significant progress in WebShell detection (i.e., distinguishing malicious samples from benign ones), we argue that it is time to transition from passive detection to in-depth analysis and proactive defense. One promising direction is the automation of WebShell family classifica",
+    "pdf_url": "https://arxiv.org/pdf/2512.05288v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Hardware-inspired Continuous Variables Quantum Optical Neural Networks",
+    "authors": [
+      "Todor Krasimirov-Ivanov",
+      "Alba Cervera-Lierta",
+      "Paolo Stornati",
+      "Federico Centrone"
+    ],
+    "published": "2025-12-04 19:20:27+00:00",
+    "arxiv_id": "2512.05204v1",
+    "summary": "Continuous-variables (CV) quantum optics is a natural formalism for neural networks (NNs) due to its ability to reproduce the information processing of such trainable interconnected systems. In quantum optics, Gaussian operators induce affine mappings on the quadratures of optical modes while non-Gaussian resources -- the challenging piece for physical implementation -- originate the nonlinear effects, unlocking quantum analogs of an artificial neuron. This work presents a novel experimentally-f",
+    "pdf_url": "https://arxiv.org/pdf/2512.05204v1",
+    "categories": [
+      "quant-ph"
+    ]
+  },
+  {
+    "title": "Hybrid Quantum-Classical Autoencoders for Unsupervised Network Intrusion Detection",
+    "authors": [
+      "Mohammad Arif Rasyidi",
+      "Omar Alhussein",
+      "Sami Muhaidat",
+      "Ernesto Damiani"
+    ],
+    "published": "2025-12-04 18:29:05+00:00",
+    "arxiv_id": "2512.05069v1",
+    "summary": "Unsupervised anomaly-based intrusion detection requires models that can generalize to attack patterns not observed during training. This work presents the first large-scale evaluation of hybrid quantum-classical (HQC) autoencoders for this task. We construct a unified experimental framework that iterates over key quantum design choices, including quantum-layer placement, measurement approach, variational and non-variational formulations, and latent-space regularization. Experiments across three ",
+    "pdf_url": "https://arxiv.org/pdf/2512.05069v1",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "quant-ph"
+    ]
+  },
+  {
+    "title": "Crack detection by holomorphic neural networks and transfer-learning-enhanced genetic optimization",
+    "authors": [
+      "Jonas Hund",
+      "Nicolas Cuenca",
+      "Tito Andriollo"
+    ],
+    "published": "2025-12-04 16:12:24+00:00",
+    "arxiv_id": "2512.04947v1",
+    "summary": "A new strategy for detecting cracks in 2D solids based on strain data is introduced. Crack detection is formulated as an inverse problem and solved using genetic optimization. The novelty lies in the evaluation of the model response at each generation. Specifically, the solution to the corresponding plane elasticity problem is expressed via holomorphic potentials, which are determined by training two holomorphic neural networks. As the potentials satisfy equilibrium and traction-free conditions ",
+    "pdf_url": "https://arxiv.org/pdf/2512.04947v1",
+    "categories": [
+      "cs.CE"
+    ]
+  },
+  {
+    "title": "Towards Adaptive Fusion of Multimodal Deep Networks for Human Action Recognition",
+    "authors": [
+      "Novanto Yudistira"
+    ],
+    "published": "2025-12-04 16:09:45+00:00",
+    "arxiv_id": "2512.04943v1",
+    "summary": "This study introduces a pioneering methodology for human action recognition by harnessing deep neural network techniques and adaptive fusion strategies across multiple modalities, including RGB, optical flows, audio, and depth information. Employing gating mechanisms for multimodal fusion, we aim to surpass limitations inherent in traditional unimodal recognition methods while exploring novel possibilities for diverse applications. Through an exhaustive investigation of gating mechanisms and ada",
+    "pdf_url": "https://arxiv.org/pdf/2512.04943v1",
+    "categories": [
+      "cs.CV"
+    ]
+  },
+  {
+    "title": "A Systemic Pathological Network Model and Combinatorial Intervention Strategies for Alzheimer's Disease",
+    "authors": [
+      "She Xutong"
+    ],
+    "published": "2025-12-04 16:06:14+00:00",
+    "arxiv_id": "2512.04937v1",
+    "summary": "Alzheimer's disease (AD) persists as a paramount challenge in neurological research, characterized by the pathological hallmarks of amyloid-$\u03b2$ (A$\u03b2$) plaques and neurofibrillary tangles composed of hyperphosphorylated tau. This review synthesizes the evolving understanding of AD pathogenesis, moving beyond the linear amyloid cascade hypothesis to conceptualize the disease as a cross-talk of intricately interacting pathologies, encompassing A$\u03b2$, tau, and neuroinflammation as the foundation of p",
+    "pdf_url": "https://arxiv.org/pdf/2512.04937v1",
+    "categories": [
+      "q-bio.MN"
+    ]
+  },
+  {
+    "title": "Measuring the Unspoken: A Disentanglement Model and Benchmark for Psychological Analysis in the Wild",
+    "authors": [
+      "Yigui Feng",
+      "Qinglin Wang",
+      "Haotian Mo",
+      "Yang Liu",
+      "Ke Liu",
+      "Gencheng Liu",
+      "Xinhai Chen",
+      "Siqi Shen",
+      "Songzhu Mei",
+      "Jie Liu"
+    ],
+    "published": "2025-12-04 12:13:18+00:00",
+    "arxiv_id": "2512.04728v1",
+    "summary": "Generative psychological analysis of in-the-wild conversations faces two fundamental challenges: (1) existing Vision-Language Models (VLMs) fail to resolve Articulatory-Affective Ambiguity, where visual patterns of speech mimic emotional expressions; and (2) progress is stifled by a lack of verifiable evaluation metrics capable of assessing visual grounding and reasoning depth. We propose a complete ecosystem to address these twin challenges. First, we introduce Multilevel Insight Network for Di",
+    "pdf_url": "https://arxiv.org/pdf/2512.04728v1",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ]
+  },
+  {
+    "title": "QoSDiff: An Implicit Topological Embedding Learning Framework Leveraging Denoising Diffusion and Adversarial Attention for Robust QoS Prediction",
+    "authors": [
+      "Guanchen Du",
+      "Jianlong Xu",
+      "Wei Wei"
+    ],
+    "published": "2025-12-04 09:17:26+00:00",
+    "arxiv_id": "2512.04596v2",
+    "summary": "Accurate Quality of Service (QoS) prediction is fundamental to service computing, providing essential data-driven guidance for service selection and ensuring superior user experiences. However, prevalent approaches, particularly Graph Neural Networks (GNNs), heavily rely on constructing explicit user--service interaction graphs. Such reliance not only leads to the intractability of explicit graph construction in large-scale scenarios but also limits the modeling of implicit topological relations",
+    "pdf_url": "https://arxiv.org/pdf/2512.04596v2",
+    "categories": [
+      "cs.LG"
+    ]
+  },
+  {
+    "title": "Exploiting ftrace's function_graph Tracer Features for Machine Learning: A Case Study on Encryption Detection",
+    "authors": [
+      "Kenan Begovic",
+      "Abdulaziz Al-Ali",
+      "Qutaibah Malluhi"
+    ],
+    "published": "2025-12-04 09:09:36+00:00",
+    "arxiv_id": "2512.04590v2",
+    "summary": "This paper proposes using the Linux kernel ftrace framework, particularly the function graph tracer, to generate informative system level data for machine learning (ML) applications. Experiments on a real world encryption detection task demonstrate the efficacy of the proposed features across several learning algorithms. The learner faces the problem of detecting encryption activities across a large dataset of files, using function call traces and graph based features. Empirical results highligh",
+    "pdf_url": "https://arxiv.org/pdf/2512.04590v2",
+    "categories": [
+      "cs.LG",
+      "cs.CR"
+    ]
+  },
+  {
+    "title": "Tensor Neyman-Pearson Classification: Theory, Algorithms, and Error Control",
+    "authors": [
+      "Lingchong Liu",
+      "Elynn Chen",
+      "Yuefeng Han",
+      "Lucy Xia"
+    ],
+    "published": "2025-12-04 08:54:46+00:00",
+    "arxiv_id": "2512.04583v1",
+    "summary": "Biochemical discovery increasingly relies on classifying molecular structures when the consequences of different errors are highly asymmetric. In mutagenicity and carcinogenicity, misclassifying a harmful compound as benign can trigger substantial scientific, regulatory, and health risks, whereas false alarms primarily increase laboratory workload. Modern representations transform molecular graphs into persistence image tensors that preserve multiscale geometric and topological structure, yet ex",
+    "pdf_url": "https://arxiv.org/pdf/2512.04583v1",
+    "categories": [
+      "stat.ME"
+    ]
+  },
+  {
+    "title": "Searching for binary black hole mergers with deep learning in Advanced LIGO's third observing run",
+    "authors": [
+      "Damon Beveridge",
+      "Alistair McLeod",
+      "Linqing Wen",
+      "Weichangfeng Guo",
+      "Andreas Wicenec"
+    ],
+    "published": "2025-12-04 06:56:47+00:00",
+    "arxiv_id": "2512.04516v1",
+    "summary": "The detection of gravitational waves from compact binary coalescences has provided significant insights into our Universe, and the discovery of new and unique gravitational wave candidates from independent searches remains an ongoing field of research. In this work, we built a hybrid search pipeline that combines matched filtering and deep learning to identify stellar-mass binary black hole candidates from detector strain data. We first present results from a targeted injection study to benchmar",
+    "pdf_url": "https://arxiv.org/pdf/2512.04516v1",
+    "categories": [
+      "gr-qc",
+      "astro-ph.IM"
+    ]
+  }
+]

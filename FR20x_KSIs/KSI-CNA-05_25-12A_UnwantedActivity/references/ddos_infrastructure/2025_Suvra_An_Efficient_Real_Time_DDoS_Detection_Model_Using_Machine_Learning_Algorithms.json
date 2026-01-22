@@ -1,0 +1,17 @@
+{
+  "title": "An Efficient Real Time DDoS Detection Model Using Machine Learning Algorithms",
+  "authors": [
+    "Debashis Kar Suvra"
+  ],
+  "published": "2025-01-24T08:11:57+00:00",
+  "arxiv_id": "2501.14311v1",
+  "abstract": "Distributed Denial of Service attacks have become a significant threat to industries and governments leading to substantial financial losses. With the growing reliance on internet services, DDoS attacks can disrupt services by overwhelming servers with false traffic causing downtime and data breaches. Although various detection techniques exist, selecting an effective method remains challenging due to trade-offs between time efficiency and accuracy. This research focuses on developing an efficient real-time DDoS detection system using machine learning algorithms leveraging the UNB CICDDoS2019 dataset including various traffic features. The study aims to classify DDoS and non-DDoS traffic through various ML classifiers including Logistic Regression, K-Nearest Neighbors, Random Forest, Support Vector Machine, Naive Bayes. The dataset is preprocessed through data cleaning, standardization and feature selection techniques using Principal Component Analysis. The research explores the performance of these algorithms in terms of precision, recall and F1-score as well as time complexity to create a reliable system capable of real-time detection and mitigation of DDoS attacks. The findings indicate that RF, AdaBoost and XGBoost outperform other algorithms in accuracy and efficiency, making them ideal candidates for real-time applications.",
+  "categories": [
+    "cs.LG"
+  ],
+  "relevance_score": 17.0,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2501.14311v1",
+  "downloaded": "2025-12-11T08:24:28.934029"
+}

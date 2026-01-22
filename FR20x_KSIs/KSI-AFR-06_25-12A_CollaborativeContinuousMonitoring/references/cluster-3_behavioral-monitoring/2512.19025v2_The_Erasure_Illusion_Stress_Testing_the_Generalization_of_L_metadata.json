@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.19025v2",
+  "title": "The Erasure Illusion: Stress-Testing the Generalization of LLM Forgetting Evaluation",
+  "authors": [
+    "Hengrui Jia",
+    "Taoran Li",
+    "Jonas Guan",
+    "Varun Chandrasekaran"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.19025v2",
+  "relevance_score": 81.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "model monitoring"
+  ],
+  "summary": "Machine unlearning aims to remove specific data influences from trained models, a capability essential for adhering to copyright laws and ensuring AI safety. Current unlearning metrics typically measure success by monitoring the model's performance degradation on the specific unlearning dataset ($D_u$). We argue that for Large Language Models (LLMs), this evaluation paradigm is insufficient and potentially misleading. Many real-world uses of unlearning--motivated by copyright or safety--implicit..."
+}

@@ -1,0 +1,21 @@
+Title: Effective Command-line Interface Fuzzing with Path-Aware Large Language Model Orchestration
+
+Authors: Momoko Shiraishi, Yinzhi Cao, Takahiro Shinagawa
+
+
+Published: 2025-11-25
+
+Query ID: D-3.3
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 20
+
+URL: https://arxiv.org/pdf/2511.20555.pdf
+
+Abstract:
+Command-line interface (CLI) fuzzing tests programs by mutating both command-line options and input file contents, thus enabling discovery of vulnerabilities that only manifest under specific option-input combinations. Prior works of CLI fuzzing face the challenges of generating semantics-rich option strings and input files, which cannot reach deeply embedded target functions. This often leads to a misdetection of such a deep vulnerability using existing CLI fuzzing techniques. In this paper, we...
+
+Relevance Justification:
+Addresses RAG pipeline attacks

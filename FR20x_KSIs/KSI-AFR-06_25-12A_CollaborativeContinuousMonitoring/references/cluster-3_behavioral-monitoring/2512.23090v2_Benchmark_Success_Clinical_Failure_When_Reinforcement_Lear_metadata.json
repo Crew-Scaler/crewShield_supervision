@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.23090v2",
+  "title": "Benchmark Success, Clinical Failure: When Reinforcement Learning Optimizes for Benchmarks, Not Patients",
+  "authors": [
+    "Armin Berger",
+    "Manuela Bergau",
+    "Helen Schneider",
+    "Saad Ahmad",
+    "Tom Anglim Lagones"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23090v2",
+  "relevance_score": 91.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "Recent Reinforcement Learning (RL) advances for Large Language Models (LLMs) have improved reasoning tasks, yet their resource-constrained application to medical imaging remains underexplored. We introduce ChexReason, a vision-language model trained via R1-style methodology (SFT followed by GRPO) using only 2,000 SFT samples, 1,000 RL samples, and a single A100 GPU. Evaluations on CheXpert and NIH benchmarks reveal a fundamental tension: GRPO recovers in-distribution performance (23% improvement..."
+}

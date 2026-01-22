@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2508.12584v1",
+  "title": "Reducing False Positives with Active Behavioral Analysis for Cloud Security",
+  "authors": [
+    " Dikshant",
+    " Verma"
+  ],
+  "published": "2025-08-18T02:39:02Z",
+  "url": "http://arxiv.org/abs/2508.12584v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.12584v1.pdf",
+  "relevance_score": 95,
+  "summary": "Rule-based cloud security posture management (CSPM) solutions are known to produce a lot of false positives based on the limited contextual understanding and dependence on static heuristics testing. This paper introduces a validation-driven methodology that integrates active behavioral testing in cloud security posture management solution(s) to evaluate the exploitability of policy violations in real time. The proposed system employs lightweight and automated probes, built from open-source tools, validation scripts, and penetration testing test cases, to simulate adversarial attacks on misconfigured or vulnerable cloud assets without any impact to the cloud services or environment. For instance, cloud services may be flagged as publicly exposed and vulnerable despite being protected by access control layers, or secure policies, resulting in non-actionable alerts that consumes analysts time during manual validation. Through controlled experimentation in a reproducible AWS setup, we evaluated the reduction in false positive rates across various misconfiguration and vulnerable alerts. Our findings indicate an average reduction of 93\\% in false positives. Furthermore, the framework demonstrates low latency performance. These results demonstrate a scalable method to improve detection accuracy and analyst productivity in large cloud environments. While our evaluation focuses on AWS, the architecture is modular and extensible to multi-cloud setups."
+}

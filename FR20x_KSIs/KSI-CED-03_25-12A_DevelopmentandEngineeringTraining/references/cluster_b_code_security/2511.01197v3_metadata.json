@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2511.01197v3",
+  "title": "CryptoMoE: Privacy-Preserving and Scalable Mixture of Experts Inference via Balanced Expert Routing",
+  "authors": [
+    "Yifan Zhou",
+    "Tianshi Xu",
+    "Jue Hong",
+    "Ye Wu",
+    "Meng Li"
+  ],
+  "published": "2025-11-03T03:45:08Z",
+  "url": "http://arxiv.org/abs/2511.01197v3",
+  "pdf_url": "http://arxiv.org/pdf/2511.01197v3.pdf",
+  "relevance_score": 68,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Private large language model (LLM) inference based on cryptographic primitives offers a promising path towards privacy-preserving deep learning. However, existing frameworks only support dense LLMs like LLaMA-1 and struggle to scale to mixture-of-experts (MoE) architectures. The key challenge comes from securely evaluating the dynamic routing mechanism in MoE layers, which may reveal sensitive input information if not fully protected. In this paper, we propose CryptoMoE, the first framework that"
+}

@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2601.00566v1",
+  "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+  "published": "2026-01-02T04:42:56Z",
+  "summary": "Low-Rank Adaptation (LoRA) has become a popular solution for fine-tuning large language models (LLMs) in federated settings, dramatically reducing update costs by introducing trainable low-rank matrices. However, when integrated with frameworks like FedIT, LoRA introduces a critical vulnerability: clients submit $A$ and $B$ matrices separately, while only their product $AB$ determines the model update, yet this composite is never directly verified. We propose Gradient Assembly Poisoning (GAP), a",
+  "category": "cs.CR",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2601.00566v1",
+  "cluster": 13,
+  "issue": 170,
+  "downloaded_at": "2026-01-11T10:27:53.517199"
+}

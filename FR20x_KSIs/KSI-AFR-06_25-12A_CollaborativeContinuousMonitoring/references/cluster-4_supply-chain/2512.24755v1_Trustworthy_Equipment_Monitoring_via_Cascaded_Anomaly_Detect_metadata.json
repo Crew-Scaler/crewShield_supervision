@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.24755v1",
+  "title": "Trustworthy Equipment Monitoring via Cascaded Anomaly Detection and Thermal Localization",
+  "authors": [
+    "Sungwoo Kang"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24755v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "anomaly detection",
+    "model monitoring"
+  ],
+  "summary": "Predictive maintenance demands accurate anomaly detection and trustable explanations. Although multimodal fusion of sensor time-series and thermal imagery shows promise, we demonstrate that naive fusion strategies can paradoxically degrade performance. This paper introduces a Cascaded Anomaly Detection framework that decouples detection and localization. Stage 1 employs an LSTM-based sensor encoder with temporal attention for high-accuracy detection, while Stage 2 activates a CNN-based thermal e..."
+}

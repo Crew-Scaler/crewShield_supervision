@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.24665v1",
+  "title": "HeteroHBA: A Generative Structure-Manipulating Backdoor Attack on Heterogeneous Graphs",
+  "authors": [
+    "Honglin Gao",
+    "Lan Zhao",
+    "Junhao Ren",
+    "Xiang Li",
+    "Gaoxi Xiao"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24665v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "Heterogeneous graph neural networks (HGNNs) have achieved strong performance in many real-world applications, yet targeted backdoor poisoning on heterogeneous graphs remains less studied. We consider backdoor attacks for heterogeneous node classification, where an adversary injects a small set of trigger nodes and connections during training to force specific victim nodes to be misclassified into an attacker-chosen label at test time while preserving clean performance. We propose HeteroHBA, a ge..."
+}

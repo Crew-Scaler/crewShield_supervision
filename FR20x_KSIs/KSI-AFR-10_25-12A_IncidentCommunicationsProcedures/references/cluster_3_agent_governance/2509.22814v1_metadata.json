@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2509.22814v1",
+  "title": "Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions",
+  "authors": [
+    "Aditi Tiwari",
+    "Akshit Bhalla",
+    "Darshan Prasad"
+  ],
+  "published": "2025-09-26T18:20:08Z",
+  "url": "http://arxiv.org/abs/2509.22814v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.22814v1.pdf",
+  "relevance_score": 100,
+  "summary": "The Model Context Protocol (MCP) defines a schema bound execution model for agent-tool interaction, enabling modular computer vision workflows without retraining. To our knowledge, this is the first protocol level, deployment scale audit of MCP in vision systems, identifying systemic weaknesses in schema semantics, interoperability, and runtime coordination. We analyze 91 publicly registered vision centric MCP servers, annotated along nine dimensions of compositional fidelity, and develop an executable benchmark with validators to detect and categorize protocol violations. The audit reveals high prevalence of schema format divergence, missing runtime schema validation, undeclared coordinate conventions, and reliance on untracked bridging scripts. Validator based testing quantifies these failures, with schema format checks flagging misalignments in 78.0 percent of systems, coordinate convention checks detecting spatial reference errors in 24.6 percent, and memory scope checks issuing an average of 33.8 warnings per 100 executions. Security probes show that dynamic and multi agent workflows exhibit elevated risks of privilege escalation and untyped tool connections. The proposed benchmark and validator suite, implemented in a controlled testbed and to be released on GitHub, establishes a reproducible framework for measuring and improving the reliability and security of compositional vision workflows."
+}

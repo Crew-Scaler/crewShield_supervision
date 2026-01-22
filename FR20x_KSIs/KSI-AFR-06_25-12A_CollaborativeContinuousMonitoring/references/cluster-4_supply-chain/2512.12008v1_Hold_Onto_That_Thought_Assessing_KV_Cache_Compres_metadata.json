@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.12008v1",
+  "title": "Hold Onto That Thought: Assessing KV Cache Compression On Reasoning",
+  "authors": [
+    "Minghui Liu",
+    "Aadi Palnitkar",
+    "Tahseen Rabbani",
+    "Hyunwoo Jae",
+    "Kyle Rui Sang"
+  ],
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.12008v1",
+  "relevance_score": 81.2,
+  "estimated_pages": 10,
+  "summary": "Large language models (LLMs) have demonstrated remarkable performance on long-context tasks, but are often bottlenecked by memory constraints. Namely, the KV cache, which is used to significantly speed up attention computations, grows linearly with context length. A suite of compression algorithms has been introduced to alleviate cache growth by evicting unimportant tokens. However, several popula"
+}

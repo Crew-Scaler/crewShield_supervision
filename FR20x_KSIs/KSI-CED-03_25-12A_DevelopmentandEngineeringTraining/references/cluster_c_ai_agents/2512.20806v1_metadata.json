@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.20806v1",
+  "title": "Safety Alignment of LMs via Non-cooperative Games",
+  "authors": [
+    "Anselm Paulus",
+    "Ilia Kulikov",
+    "Brandon Amos",
+    "R\u00e9mi Munos",
+    "Ivan Evtimov",
+    "Kamalika Chaudhuri",
+    "Arman Zharmagambetov"
+  ],
+  "published": "2025-12-23T22:13:14Z",
+  "url": "http://arxiv.org/abs/2512.20806v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.20806v1.pdf",
+  "relevance_score": 66,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely on sequential adversarial training: generating adversarial prompts and fine-tuning LMs to defend against them. We introduce a different paradigm: framing safety alignment as a non-zero-sum game between an Attacker LM and a Defender LM trained jointly via online reinforcement learning. Each LM continuously adapts to the other's evolving strategies, "
+}

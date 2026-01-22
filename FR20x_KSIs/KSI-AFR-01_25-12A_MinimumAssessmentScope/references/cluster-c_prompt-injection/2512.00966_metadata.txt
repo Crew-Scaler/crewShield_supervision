@@ -1,0 +1,21 @@
+Title: Mitigating Indirect Prompt Injection via Instruction-Following Intent Analysis
+
+Authors: Mintong Kang, Chong Xiang, Sanjay Kariyappa, Chaowei Xiao, Bo Li
+
+
+Published: 2025-11-30
+
+Query ID: C-2.5
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 20
+
+URL: https://arxiv.org/pdf/2512.00966.pdf
+
+Abstract:
+Indirect prompt injection attacks (IPIAs), where large language models (LLMs) follow malicious instructions hidden in input data, pose a critical threat to LLM-powered agents. In this paper, we present IntentGuard, a general defense framework based on instruction-following intent analysis. The key insight of IntentGuard is that the decisive factor in IPIAs is not the presence of malicious text, but whether the LLM intends to follow instructions from untrusted data. Building on this insight, Inte...
+
+Relevance Justification:
+Directly addresses prompt injection attacks; Analyzes adversarial attacks on language models; Proposes defense mechanisms against attacks

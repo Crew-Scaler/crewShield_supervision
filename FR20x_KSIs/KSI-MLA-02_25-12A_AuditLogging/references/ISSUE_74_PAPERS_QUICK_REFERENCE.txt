@@ -1,0 +1,70 @@
+ISSUE #74 - ArXiv Papers Quick Reference
+=========================================
+
+TOPIC 1: REAL-TIME AI LOG ANALYSIS (5 papers)
+----------------------------------------------
+
+1. 2307.16714 - Comprehensive Study of ML Techniques for Log-Based Anomaly Detection
+   Focus: Traditional ML vs Deep Learning, detection accuracy, time performance
+   Key: Random Forest outperforms deep learning in many practical scenarios
+   
+2. 2407.05639 - Deep Learning-based Anomaly Detection and Log Analysis
+   Focus: Fusion model (Isolation Forest + GAN + Transformer)
+   Key: Hybrid approach reduces false alarm rate
+   
+3. 2412.01066 - Practitioners' Expectations on Log Anomaly Detection
+   Focus: Gap between research and industry needs (312 practitioners, 36 countries)
+   Key: 50%+ of research fails to report detection latency despite practitioner demand
+   
+4. 2402.09082 - Detection Latencies of Anomaly Detectors: An Overlooked Perspective
+   Focus: Evaluation framework for detection timing
+   Key: Latency is as critical as accuracy in real-time systems
+   
+5. 2407.08735 - Real-Time Anomaly Detection with Large Language Models
+   Focus: Two-stage framework (fast classifier + slow reasoner)
+   Key: Model predictive control accounts for detection latency in control loop
+
+TOPIC 2: BASELINE POISONING & CONCEPT DRIFT (7 papers)
+-------------------------------------------------------
+
+6. 2404.09352 - Counteracting Concept Drift by Learning with Future Malware Predictions
+   Focus: Adversarial training vs GAN-based prediction
+   Key: Adversarial drift is intentional evasion, not natural evolution
+   
+7. 2403.13023 - Thwarting Cybersecurity Attacks with Explainable Concept Drift
+   Focus: HVAC systems, sensor data manipulation
+   Key: 85.77% drift detection via autoencoder approach
+   
+8. 2405.04095 - Combating Concept Drift for Android Malware Classification
+   Focus: DREAM system, contrastive autoencoder
+   Key: 76.6% fewer labeled samples needed, accepted ACM CCS 2025
+   
+9. 2506.21142 - Generative Adversarial Evasion and OOD Detection for UAV
+   Focus: Stealthy adversarial attacks, CVAE-based detection
+   Key: Conventional OOD detectors fail against crafted adversarial inputs
+   
+10. 2503.09302 - Detecting and Preventing Data Poisoning Attacks on AI Models
+    Focus: Experimental validation (CIFAR-10, Insurance Claims)
+    Key: 22-27% accuracy degradation, 15-20% restoration via ensemble defenses
+    
+11. 2503.22759 - Data Poisoning in Deep Learning: A Survey
+    Focus: Comprehensive taxonomy, LLM threats
+    Key: BadNets attacks introduce detectable anomalies
+    
+12. 2408.02946 - Scaling Trends for Data Poisoning in LLMs
+    Focus: 24 LLMs (1.5B to 72B parameters)
+    Key: LARGER models MORE vulnerable to poisoning (counter-intuitive)
+
+CROSS-CUTTING INSIGHTS
+-----------------------
+- Latency-Accuracy Tradeoff is Fundamental (Papers 1, 3, 4, 5)
+- Adversarial Drift ≠ Natural Drift (Papers 6, 7, 8)
+- Scale Creates Vulnerability (Papers 10, 11, 12)
+- Research-Practice Gap on Metrics (Paper 3)
+
+FILE NAMING CONVENTION
+----------------------
+{arxiv_id}_{descriptive_title}.pdf
+
+TOTAL STORAGE: ~19.7MB
+LOCATION: /Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-MLA-02_25-12A_AuditLogging/references/

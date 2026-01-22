@@ -1,0 +1,142 @@
+{
+  "archive_purpose": "Papers 11+ ranked by relevance but not selected for primary research collection",
+  "total_archived_papers": 10,
+  "archive_date": "2025-12-25",
+  "selection_note": "These papers were evaluated but ranked lower in relevance for ephemeral workload identity research compared to the top 10 selected papers. They remain valuable references for related topics.",
+  "archived_papers": [
+    {
+      "paper_id": 11,
+      "title": "The Human-Machine Identity Blur: A Unified Framework for Cybersecurity Risk Management in 2025",
+      "authors": "Not specified in search results",
+      "publication_date": "2025-03",
+      "arxiv_id": "2503.18255",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2503.18255",
+      "relevance_score": 7,
+      "key_topics": ["Non-Human Identity", "Machine Identity", "Risk Management", "Ephemeral Workloads"],
+      "reason_for_archiving": "Good coverage of NHI landscape, but less technical depth on attestation mechanisms compared to selected papers"
+    },
+    {
+      "paper_id": 12,
+      "title": "CCxTrust: Confidential Computing Platform Based on TEE and TPM Collaborative Trust",
+      "authors": "Not specified in search results",
+      "publication_date": "2024-12",
+      "arxiv_id": "2412.03842",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2412.03842",
+      "relevance_score": 7,
+      "key_topics": ["Confidential Computing", "TEE", "TPM", "Attestation", "Workload Protection"],
+      "reason_for_archiving": "Strong attestation focus, but hardware-centric (TEE/TPM) rather than software workload identity mechanisms"
+    },
+    {
+      "paper_id": 13,
+      "title": "A Confidential Computing Transparency Framework for a Comprehensive Trust Chain",
+      "authors": "Not specified in search results",
+      "publication_date": "2024-09",
+      "arxiv_id": "2409.03720",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2409.03720",
+      "relevance_score": 7,
+      "key_topics": ["Confidential Computing", "Trust Chain", "Attestation", "TEE"],
+      "reason_for_archiving": "Relevant attestation concepts, but focused on hardware trust rather than ephemeral workload identity"
+    },
+    {
+      "paper_id": 14,
+      "title": "Attestable Audits: Verifiable AI Safety Benchmarks Using Trusted Execution Environments",
+      "authors": "Not specified in search results",
+      "publication_date": "2025-06",
+      "arxiv_id": "2506.23706",
+      "arxiv_category": "cs.AI",
+      "pdf_url": "https://arxiv.org/pdf/2506.23706",
+      "relevance_score": 6,
+      "key_topics": ["TEE", "AI Safety", "Attestation", "Audit"],
+      "reason_for_archiving": "Attestation mechanisms present, but focused on AI safety auditing rather than workload identity"
+    },
+    {
+      "paper_id": 15,
+      "title": "Careful Whisper: Attestation for peer-to-peer Confidential Computing networks",
+      "authors": "Not specified in search results",
+      "publication_date": "2025-07",
+      "arxiv_id": "2507.14796",
+      "arxiv_category": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2507.14796",
+      "relevance_score": 6,
+      "key_topics": ["P2P Networks", "Attestation", "Confidential Computing", "Gossip Protocol"],
+      "reason_for_archiving": "Innovative attestation protocol, but P2P focus diverges from container/cloud workload scenarios"
+    },
+    {
+      "paper_id": 16,
+      "title": "Privacy-Preserving Decentralized AI with Confidential Computing",
+      "authors": "Not specified in search results",
+      "publication_date": "2024-10",
+      "arxiv_id": "2410.13752",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2410.13752",
+      "relevance_score": 6,
+      "key_topics": ["Decentralized AI", "Confidential Computing", "Privacy"],
+      "reason_for_archiving": "Privacy and AI focus, but limited coverage of workload identity or attestation protocols"
+    },
+    {
+      "paper_id": 17,
+      "title": "Confidential Federated Computations",
+      "authors": "Not specified in search results",
+      "publication_date": "2024-04",
+      "arxiv_id": "2404.10764",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2404.10764",
+      "relevance_score": 6,
+      "key_topics": ["Federated Learning", "TEE", "Privacy", "Verification"],
+      "reason_for_archiving": "TEE verification relevant, but federated learning context less applicable to ephemeral workloads"
+    },
+    {
+      "paper_id": 18,
+      "title": "Performance of Confidential Computing GPUs",
+      "authors": "Not specified in search results",
+      "publication_date": "2025-05",
+      "arxiv_id": "2505.16501",
+      "arxiv_category": "cs.PF",
+      "pdf_url": "https://arxiv.org/pdf/2505.16501",
+      "relevance_score": 5,
+      "key_topics": ["GPU", "Confidential Computing", "Performance", "AI Workloads"],
+      "reason_for_archiving": "Performance-focused rather than identity/attestation mechanisms"
+    },
+    {
+      "paper_id": 19,
+      "title": "SoK: A cloudy view on trust relationships of CVMs",
+      "authors": "Not specified in search results",
+      "publication_date": "2025-03",
+      "arxiv_id": "2503.08256",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2503.08256",
+      "relevance_score": 6,
+      "key_topics": ["Confidential VMs", "Trust", "Cloud Computing", "Systematization of Knowledge"],
+      "reason_for_archiving": "SoK paper on CVM trust, but cloud VM focus rather than containerized/ephemeral workloads"
+    },
+    {
+      "paper_id": 20,
+      "title": "Secure API-Driven Research Automation to Accelerate Scientific Discovery",
+      "authors": "Not specified in search results",
+      "publication_date": "2025-06",
+      "arxiv_id": "2506.11950",
+      "arxiv_category": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2506.11950",
+      "relevance_score": 5,
+      "key_topics": ["API Security", "Research Automation", "Service Mesh"],
+      "reason_for_archiving": "API security and service mesh mention, but limited workload identity focus"
+    }
+  ],
+  "summary_statistics": {
+    "avg_relevance_score": 6.1,
+    "primary_focus_areas": [
+      "Confidential Computing / TEE (7 papers)",
+      "Non-Human Identity (1 paper)",
+      "Performance / GPU (1 paper)",
+      "API Security (1 paper)"
+    ],
+    "year_distribution": {
+      "2024": 4,
+      "2025": 6
+    }
+  },
+  "note": "These papers provide valuable context on attestation mechanisms, confidential computing, and trust frameworks, but were ranked lower due to: (1) hardware-centric (TEE/TPM) vs. software workload identity focus, (2) specialized use cases (federated learning, P2P networks) vs. general container orchestration, (3) performance/benchmarking focus vs. identity/authentication mechanisms."
+}

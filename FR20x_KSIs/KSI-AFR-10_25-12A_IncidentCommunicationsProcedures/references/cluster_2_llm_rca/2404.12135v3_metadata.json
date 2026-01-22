@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2404.12135v3",
+  "title": "mABC: multi-Agent Blockchain-Inspired Collaboration for root cause analysis in micro-services architecture",
+  "authors": [
+    "Wei Zhang",
+    "Hongcheng Guo",
+    "Jian Yang",
+    "Zhoujin Tian",
+    "Yi Zhang",
+    "Chaoran Yan",
+    "Zhoujun Li",
+    "Tongliang Li",
+    "Xu Shi",
+    "Liangfan Zheng",
+    "Bo Zhang"
+  ],
+  "published": "2024-04-18T12:35:39Z",
+  "url": "http://arxiv.org/abs/2404.12135v3",
+  "pdf_url": "http://arxiv.org/pdf/2404.12135v3.pdf",
+  "relevance_score": 100,
+  "summary": "Root cause analysis (RCA) in Micro-services architecture (MSA) with escalating complexity encounters complex challenges in maintaining system stability and efficiency due to fault propagation and circular dependencies among nodes. Diverse root cause analysis faults require multi-agents with diverse expertise. To mitigate the hallucination problem of large language models (LLMs), we design blockchain-inspired voting to ensure the reliability of the analysis by using a decentralized decision-making process. To avoid non-terminating loops led by common circular dependency in MSA, we objectively limit steps and standardize task processing through Agent Workflow. We propose a pioneering framework, multi-Agent Blockchain-inspired Collaboration for root cause analysis in micro-services architecture (mABC), where multiple agents based on the powerful LLMs follow Agent Workflow and collaborate in blockchain-inspired voting. Specifically, seven specialized agents derived from Agent Workflow each provide valuable insights towards root cause analysis based on their expertise and the intrinsic software knowledge of LLMs collaborating within a decentralized chain. Our experiments on the AIOps challenge dataset and a newly created Train-Ticket dataset demonstrate superior performance in identifying root causes and generating effective resolutions. The ablation study further highlights Agent Workflow, multi-agent, and blockchain-inspired voting is crucial for achieving optimal performance. mABC offers a comprehensive automated root cause analysis and resolution in micro-services architecture and significantly improves the IT Operation domain. The code and dataset are in https://github.com/zwpride/mABC."
+}

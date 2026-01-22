@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.12818v1",
+  "title": "Hindsight is 20/20: Building Agent Memory that Retains, Recalls, and Reflects",
+  "authors": [
+    "Chris Latimer",
+    "Nicol\u00f3 Boschi",
+    "Andrew Neeser",
+    "Chris Bartholomew",
+    "Gaurav Srivastava"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.12818v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "autonomous systems"
+  ],
+  "summary": "Agent memory has been touted as a dimension of growth for LLM-based applications, enabling agents that can accumulate experience, adapt across sessions, and move beyond single-shot question answering. The current generation of agent memory systems treats memory as an external layer that extracts salient snippets from conversations, stores them in vector or graph-based stores, and retrieves top-k items into the prompt of an otherwise stateless model. While these systems improve personalization an..."
+}

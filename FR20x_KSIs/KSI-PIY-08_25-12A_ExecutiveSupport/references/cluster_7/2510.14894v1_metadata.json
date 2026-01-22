@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2510.14894v1",
+  "title": "Secure Sparse Matrix Multiplications and their Applications to Privacy-Preserving Machine Learning",
+  "authors": [
+    "Marc Damie",
+    "Florian Hahn",
+    "Andreas Peter",
+    "Jan Ramon"
+  ],
+  "published": "2025-10-16T17:12:18Z",
+  "summary": "To preserve privacy, multi-party computation (MPC) enables executing Machine Learning (ML) algorithms on secret-shared or encrypted data. However, existing MPC frameworks are not optimized for sparse data. This makes them unsuitable for ML applications involving sparse data, e.g., recommender systems or genomics. Even in plaintext, such applications involve high-dimensional sparse data, that cannot be processed without sparsity-related optimizations due to prohibitively large memory requirements",
+  "cluster": "cluster_7",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.203289"
+}

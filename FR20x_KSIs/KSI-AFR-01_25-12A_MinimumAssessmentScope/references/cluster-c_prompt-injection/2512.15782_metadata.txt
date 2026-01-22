@@ -1,0 +1,21 @@
+Title: Auto-Tuning Safety Guardrails for Black-Box Large Language Models
+
+Authors: Perry Abdulkadir
+
+
+Published: 2025-12-14
+
+Query ID: C-1.8
+
+Relevance Color: Green
+Relevance Score: 0.81
+
+Pages: 12
+
+URL: https://arxiv.org/pdf/2512.15782.pdf
+
+Abstract:
+Large language models (LLMs) are increasingly deployed behind safety guardrails such as system prompts and content filters, especially in settings where product teams cannot modify model weights. In practice these guardrails are typically hand-tuned, brittle, and difficult to reproduce. This paper studies a simple but practical alternative: treat safety guardrail design itself as a hyperparameter optimization problem over a frozen base model. Concretely, I wrap Mistral-7B-Instruct with modular j...
+
+Relevance Justification:
+Discusses LLM jailbreaking techniques; Addresses safety guardrails and alignment

@@ -1,0 +1,409 @@
+[
+  {
+    "arxiv_id": "2512.23480",
+    "title": "Agentic AI for Autonomous Defense in Software Supply Chain Security: Beyond Provenance to Vulnerability Mitigation",
+    "summary": "The software supply chain attacks are becoming more and more focused on trusted development and delivery procedures, so the conventional post-build integrity mechanisms cannot be used anymore. The available frameworks like SLSA, SBOM and in toto are majorly used to offer provenance and traceability but do not have the capabilities of actively identifying and removing vulnerabilities in software production. The current paper includes an example of agentic artificial intelligence (AI) based on autonomous software supply chain security that combines large language model (LLM)-based reasoning, reinforcement learning (RL), and multi-agent coordination. The suggested system utilizes specialized security agents coordinated with the help of LangChain and LangGraph, communicates with actual CI/CD environments with the Model Context Protocol (MCP), and documents all the observations and actions in a blockchain security ledger to ensure integrity and auditing. Reinforcement learning can be used to achieve adaptive mitigation strategies that consider the balance between security effectiveness and the operational overhead, and LLMs can be used to achieve semantic vulnerability analysis, as well as explainable decisions. This framework is tested based on simulated pipelines, as well as, actual world CI/CD integrations on GitHub Actions and Jenkins, including injection attacks, insecure deserialization, access control violations, and configuration errors. Experimental outcomes indicate better detection accuracy, shorter mitigation latency and reasonable build-time overhead than rule-based, provenance only and RL only baselines. These results show that agentic AI can facilitate the transition to self defending, proactive software supply chains rather than reactive verification ones.",
+    "authors": [
+      "Toqeer Ali Syed",
+      "Mohammad Riyaz Belgaum",
+      "Salman Jan",
+      "Asadullah Abdullah Khan",
+      "Saad Said Alqahtani"
+    ],
+    "published": "2025-12-29T14:06:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 70.0
+  },
+  {
+    "arxiv_id": "2512.23132",
+    "title": "Multi-Agent Framework for Threat Mitigation and Resilience in AI-Based Systems",
+    "summary": "Machine learning (ML) underpins foundation models in finance, healthcare, and critical infrastructure, making them targets for data poisoning, model extraction, prompt injection, automated jailbreaking, and preference-guided black-box attacks that exploit model comparisons. Larger models can be more vulnerable to introspection-driven jailbreaks and cross-modal manipulation. Traditional cybersecurity lacks ML-specific threat modeling for foundation, multimodal, and RAG systems. Objective: Characterize ML security risks by identifying dominant TTPs, vulnerabilities, and targeted lifecycle stages. Methods: We extract 93 threats from MITRE ATLAS (26), AI Incident Database (12), and literature (55), and analyze 854 GitHub/Python repositories. A multi-agent RAG system (ChatGPT-4o, temp 0.4) mines 300+ articles to build an ontology-driven threat graph linking TTPs, vulnerabilities, and stages. Results: We identify unreported threats including commercial LLM API model stealing, parameter memorization leakage, and preference-guided text-only jailbreaks. Dominant TTPs include MASTERKEY-style jailbreaking, federated poisoning, diffusion backdoors, and preference optimization leakage, mainly impacting pre-training and inference. Graph analysis reveals dense vulnerability clusters in libraries with poor patch propagation. Conclusion: Adaptive, ML-specific security frameworks, combining dependency hygiene, threat intelligence, and monitoring, are essential to mitigate supply-chain and inference risks across the ML lifecycle.",
+    "authors": [
+      "Armstrong Foundjem",
+      "Lionel Nganyewou Tidjon",
+      "Leuson Da Silva",
+      "Foutse Khomh"
+    ],
+    "published": "2025-12-29T01:27:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 63.33333333333333
+  },
+  {
+    "arxiv_id": "2601.02624",
+    "title": "LAsset: An LLM-assisted Security Asset Identification Framework for System-on-Chip (SoC) Verification",
+    "summary": "The growing complexity of modern system-on-chip (SoC) and IP designs is making security assurance difficult day by day. One of the fundamental steps in the pre-silicon security verification of a hardware design is the identification of security assets, as it substantially influences downstream security verification tasks, such as threat modeling, security property generation, and vulnerability detection. Traditionally, assets are determined manually by security experts, requiring significant time and expertise. To address this challenge, we present LAsset, a novel automated framework that leverages large language models (LLMs) to identify security assets from both hardware design specifications and register-transfer level (RTL) descriptions. The framework performs structural and semantic analysis to identify intra-module primary and secondary assets and derives inter-module relationships to systematically characterize security dependencies at the design level. Experimental results show that the proposed framework achieves high classification accuracy, reaching up to 90% recall rate in SoC design, and 93% recall rate in IP designs. This automation in asset identification significantly reduces manual overhead and supports a scalable path forward for secure hardware development.",
+    "authors": [
+      "Md Ajoad Hasan",
+      "Dipayan Saha",
+      "Khan Thamid Hasan",
+      "Nashmin Alam",
+      "Azim Uddin"
+    ],
+    "published": "2026-01-06T00:53:23Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.01455",
+    "title": "Security in the Era of Perceptive Networks: A Comprehensive Taxonomic Framework for Integrated Sensing and Communication Security",
+    "summary": "Integrated Sensing and Communication (ISAC) represents a significant shift in the 6G landscape, where wireless networks both sense the environment and communicate. While prior comprehensive surveys have established foundational elements of ISAC security, discussed perception-focused security models, and proposed layered defense strategies, this paper synthesizes these studies into a comprehensive taxonomic framework that covers the whole ISAC security domain. This paper provides a systematic and thorough review of ISAC security across multiple orthogonal dimensions. These include threat taxonomy and propagation methods; vulnerability analysis at design, physical, computational, and architectural levels; defense mechanisms categorized by deployment layer; security-performance trade-offs with theoretical bounds; sector-specific security demands for critical infrastructure; and emerging issues such as quantum resilience, AI-hardening, and privacy preservation. Unlike previous frameworks that primarily focus on vision, this review combines these dimensions, introduces new classification schemes that reveal hidden relationships between threats and defenses, and identifies key research gaps through structured analysis. This detailed taxonomy offers a valuable reference for researchers developing secure ISAC systems and policymakers establishing security standards.",
+    "authors": [
+      "Chandra Thapa",
+      "Surya Nepal"
+    ],
+    "published": "2026-01-04T09:52:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.01289",
+    "title": "dataRLsec: Safety, Security, and Reliability With Robust Offline Reinforcement Learning for DPAs",
+    "summary": "Data poisoning attacks (DPAs) are becoming popular as artificial intelligence (AI) algorithms, machine learning (ML) algorithms, and deep learning (DL) algorithms in this artificial intelligence (AI) era. Hackers and penetration testers are excessively injecting malicious contents in the training data (and in testing data too) that leads to false results that are very hard to inspect and predict. We have analyzed several recent technologies used (from deep reinforcement learning to federated learning) for the DPAs and their safety, security, &amp; countermeasures. The problem setup along with the problem estimation is shown in the MuJoCo environment with performance of HalfCheetah before the dataset is poisoned and after the dataset is poisoned. We have analyzed several risks associated with the DPAs and falsification in medical data from popular poisoning data attacks to some popular data defenses. We have proposed robust offline reinforcement learning (Offline RL) for the safety and reliability with weighted hash verification along with density-ratio weighted behavioral cloning (DWBC) algorithm. The four stages of the proposed algorithm (as the Stage 0, the Stage 1, the Stage 2, and the Stage 3) are described with respect to offline RL, safety, and security for DPAs. The conclusion and future scope are provided with the intent to combine DWBC with other data defense strategies to counter and protect future contamination cyberattacks.",
+    "authors": [
+      "Shriram KS Pandian",
+      "Naresh Kshetri"
+    ],
+    "published": "2026-01-03T21:28:17Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.00556",
+    "title": "Cyberscurity Threats and Defense Mechanisms in IoT network",
+    "summary": "The rapid proliferation of Internet of Things (IoT) technologies, projected to exceed 30 billion interconnected devices by 2030, has significantly escalated the complexity of cybersecurity challenges. This survey aims to provide a comprehensive analysis of vulnerabilities, threats, and defense mechanisms, specifically focusing on the integration of network and application layers within real-time monitoring and decision-making systems. Employing an integrative review methodology, 59 scholarly articles published between 2009 and 2024 were selected from databases such as IEEE Xplore, ScienceDirect, and PubMed, utilizing keywords related to IoT vulnerabilities and security attacks. Key findings identify critical threat categories, including sensor vulnerabilities, Denial-of-Service (DoS) attacks, and public cloud insecurity. Conversely, the study highlights advanced defense approaches leveraging Artificial Intelligence (AI) for anomaly detection, Blockchain for decentralized trust, and Zero Trust Architecture (ZTA) for continuous verification. This paper contributes a novel five-layer IoT model and outlines future research directions involving quantum computing and 6G networks to bolster IoT ecosystem resilience.",
+    "authors": [
+      "Trung Dao",
+      "Minh Nguyen",
+      "Son Do",
+      "Hoang Tran"
+    ],
+    "published": "2026-01-02T04:06:03Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.00900",
+    "title": "Noise-Aware and Dynamically Adaptive Federated Defense Framework for SAR Image Target Recognition",
+    "summary": "As a critical application of computational intelligence in remote sensing, deep learning-based synthetic aperture radar (SAR) image target recognition facilitates intelligent perception but typically relies on centralized training, where multi-source SAR data are uploaded to a single server, raising privacy and security concerns. Federated learning (FL) provides an emerging computational intelligence paradigm for SAR image target recognition, enabling cross-site collaboration while preserving local data privacy. However, FL confronts critical security risks, where malicious clients can exploit SAR's multiplicative speckle noise to conceal backdoor triggers, severely challenging the robustness of the computational intelligence model. To address this challenge, we propose NADAFD, a noise-aware and dynamically adaptive federated defense framework that integrates frequency-domain, spatial-domain, and client-behavior analyses to counter SAR-specific backdoor threats. Specifically, we introduce a frequency-domain collaborative inversion mechanism to expose cross-client spectral inconsistencies indicative of hidden backdoor triggers. We further design a noise-aware adversarial training strategy that embeds $\u0393$-distributed speckle characteristics into mask-guided adversarial sample generation to enhance robustness against both backdoor attacks and SAR speckle noise. In addition, we present a dynamic health assessment module that tracks client update behaviors across training rounds and adaptively adjusts aggregation weights to mitigate evolving malicious contributions. Experiments on MSTAR and OpenSARShip datasets demonstrate that NADAFD achieves higher accuracy on clean test samples and a lower backdoor attack success rate on triggered inputs than existing federated backdoor defenses for SAR target recognition.",
+    "authors": [
+      "Yuchao Hou",
+      "Zixuan Zhang",
+      "Jie Wang",
+      "Wenke Huang",
+      "Lianhui Liang"
+    ],
+    "published": "2025-12-31T17:24:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.00893",
+    "title": "Towards eco friendly cybersecurity: machine learning based anomaly detection with carbon and energy metrics",
+    "summary": "The rising energy footprint of artificial intelligence has become a measurable component of US data center emissions, yet cybersecurity research seldom considers its environmental cost. This study introduces an eco aware anomaly detection framework that unifies machine learning based network monitoring with real time carbon and energy tracking. Using the publicly available Carbon Aware Cybersecurity Traffic Dataset comprising 2300 flow level observations, we benchmark Logistic Regression, Random Forest, Support Vector Machine, Isolation Forest, and XGBoost models across energy, carbon, and performance dimensions. Each experiment is executed in a controlled Colab environment instrumented with the CodeCarbon toolkit to quantify power draw and equivalent CO2 output during both training and inference. We construct an Eco Efficiency Index that expresses F1 score per kilowatt hour to capture the trade off between detection quality and environmental impact. Results reveal that optimized Random Forest and lightweight Logistic Regression models achieve the highest eco efficiency, reducing energy consumption by more than forty percent compared to XGBoost while sustaining competitive detection accuracy. Principal Component Analysis further decreases computational load with negligible loss in recall. Collectively, these findings establish that integrating carbon and energy metrics into cybersecurity workflows enables environmentally responsible machine learning without compromising operational protection. The proposed framework offers a reproducible path toward sustainable carbon accountable cybersecurity aligned with emerging US green computing and federal energy efficiency initiatives.",
+    "authors": [
+      "KC Aashish",
+      "Md Zakir Hossain Zamil",
+      "Md Shafiqul Islam Mridul",
+      "Lamia Akter",
+      "Farmina Sharmin"
+    ],
+    "published": "2025-12-31T14:36:57Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2512.22616",
+    "title": "Raven: Mining Defensive Patterns in Ethereum via Semantic Transaction Revert Invariants Categories",
+    "summary": "We frame Ethereum transactions reverted by invariants-require(&lt;invariant&gt;)/ assert(&lt;invariant&gt;)/if (&lt;invariant&gt;) revert statements in the contract implementation-as a positive signal of active on-chain defenses. Despite their value, the defensive patterns in these transactions remain undiscovered and underutilized in security research. We present Raven, a framework that aligns reverted transactions to the invariant causing the reversion in the smart contract source code, embeds these invariants using our BERT-based fine-tuned model, and clusters them by semantic intent to mine defensive invariant categories on Ethereum. Evaluated on a sample of 20,000 reverted transactions, Raven achieves cohesive and meaningful clusters of transaction-reverting invariants. Manual expert review of the mined 19 semantic clusters uncovers six new invariant categories absent from existing invariant catalogs, including feature toggles, replay prevention, proof/signature verification, counters, caller-provided slippage thresholds, and allow/ban/bot lists. To demonstrate the practical utility of this invariant catalog mining pipeline, we conduct a case study using one of the newly discovered invariant categories as a fuzzing oracle to detect vulnerabilities in a real-world attack. Raven thus can map Ethereum's successful defenses. These invariant categories enable security researchers to develop analysis tools based on data-driven security oracles extracted from the smart contracts' working defenses.",
+    "authors": [
+      "Mojtaba Eshghie",
+      "Melissa Mazura",
+      "Alexandre Bartel"
+    ],
+    "published": "2025-12-27T14:47:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2512.21561",
+    "title": "Security Boundaries of Quantum Key Reuse: A Quantitative Evaluation Method for QKD Key Rotation Interval and Security Benefits Combined with Block Ciphers",
+    "summary": "With the rapid development of quantum computing, classical cryptography systems are facing increasing security threats, making it urgent to build architectures resilient to quantum attacks. Although Quantum Key Distribution (QKD) technology provides information-theoretic security, its limited bandwidth requires it to be combined with classical cryptography-particularly block ciphers such as AES and SM4-in practical deployments.However, when a single key is used to process multiple multi-block files, the resulting reduction in security strength has not yet been systematically quantified.In this work, we focus on the use of both QKD keys and block ciphers, and construct a precise calculation model for the key rotation interval. We further propose a quantitative method to evaluate the security benefit of using QKD keys for block cipher. Building on concrete security models and the security properties of various block cipher modes (CTR, CBC, and ECBC-MAC), we derive the maximum number of files that can be safely encrypted under a single key, denoted Q*, and quantify the benefits of key rotation interval in enhancing security levels. Using SM4 as a case study, our results show that, under an 80-bit security target, uniformly performing k key rotations can increase the security strength by log2(k) to 2log2(k) bits. This study provides theoretical support and a basis for parameter optimization for the integrated application of QKD keys with classical cryptographic algorithms and the engineering deployment of cryptographic systems.",
+    "authors": [
+      "Xiaoming Chen",
+      "Haoze Chen",
+      "Fei Xu",
+      "Meifeng Gao",
+      "Jianguo Xie"
+    ],
+    "published": "2025-12-25T08:13:02Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2512.13666",
+    "title": "SEDULity: A Proof-of-Learning Framework for Distributed and Secure Blockchains with Efficient Useful Work",
+    "summary": "The security and decentralization of Proof-of-Work (PoW) have been well-tested in existing blockchain systems. However, its tremendous energy waste has raised concerns about sustainability. Proof-of-Useful-Work (PoUW) aims to redirect the meaningless computation to meaningful tasks such as solving machine learning (ML) problems, giving rise to the branch of Proof-of-Learning (PoL). While previous studies have proposed various PoLs, they all, to some degree, suffer from security, decentralization, or efficiency issues. In this paper, we propose a PoL framework that trains ML models efficiently while maintaining blockchain security in a fully distributed manner. We name the framework SEDULity, which stands for a Secure, Efficient, Distributed, and Useful Learning-based blockchain system. Specifically, we encode the template block into the training process and design a useful function that is difficult to solve but relatively easy to verify, as a substitute for the PoW puzzle. We show that our framework is distributed, secure, and efficiently trains ML models. We further demonstrate that the proposed PoL framework can be extended to other types of useful work and design an incentive mechanism to incentivize task verification. We show theoretically that a rational miner is incentivized to train fully honestly with well-designed system parameters. Finally, we present simulation results to demonstrate the performance of our framework and validate our analysis.",
+    "authors": [
+      "Weihang Cao",
+      "Mustafa Doger",
+      "Sennur Ulukus"
+    ],
+    "published": "2025-12-15T18:55:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.04034",
+    "title": "HoneyTrap: Deceiving Large Language Model Attackers to Honeypot Traps with Resilient Multi-Agent Defense",
+    "summary": "Jailbreak attacks pose significant threats to large language models (LLMs), enabling attackers to bypass safeguards. However, existing reactive defense approaches struggle to keep up with the rapidly evolving multi-turn jailbreaks, where attackers continuously deepen their attacks to exploit vulnerabilities. To address this critical challenge, we propose HoneyTrap, a novel deceptive LLM defense framework leveraging collaborative defenders to counter jailbreak attacks. It integrates four defensive agents, Threat Interceptor, Misdirection Controller, Forensic Tracker, and System Harmonizer, each performing a specialized security role and collaborating to complete a deceptive defense. To ensure a comprehensive evaluation, we introduce MTJ-Pro, a challenging multi-turn progressive jailbreak dataset that combines seven advanced jailbreak strategies designed to gradually deepen attack strategies across multi-turn attacks. Besides, we present two novel metrics: Mislead Success Rate (MSR) and Attack Resource Consumption (ARC), which provide more nuanced assessments of deceptive defense beyond conventional measures. Experimental results on GPT-4, GPT-3.5-turbo, Gemini-1.5-pro, and LLaMa-3.1 demonstrate that HoneyTrap achieves an average reduction of 68.77% in attack success rates compared to state-of-the-art baselines. Notably, even in a dedicated adaptive attacker setting with intensified conditions, HoneyTrap remains resilient, leveraging deceptive engagement to prolong interactions, significantly increasing the time and computational costs required for successful exploitation. Unlike simple rejection, HoneyTrap strategically wastes attacker resources without impacting benign queries, improving MSR and ARC by 118.11% and 149.16%, respectively.",
+    "authors": [
+      "Siyuan Li",
+      "Xi Lin",
+      "Jun Wu",
+      "Zehao Liu",
+      "Haoyu Li"
+    ],
+    "published": "2026-01-07T15:47:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.03287",
+    "title": "Automated Post-Incident Policy Gap Analysis via Threat-Informed Evidence Mapping using Large Language Models",
+    "summary": "Cybersecurity post-incident reviews are essential for identifying control failures and improving organisational resilience, yet they remain labour-intensive, time-consuming, and heavily reliant on expert judgment. This paper investigates whether Large Language Models (LLMs) can augment post-incident review workflows by autonomously analysing system evidence and identifying security policy gaps. We present a threat-informed, agentic framework that ingests log data, maps observed behaviours to the MITRE ATT&amp;CK framework, and evaluates organisational security policies for adequacy and compliance. Using a simulated brute-force attack scenario against a Windows OpenSSH service (MITRE ATT&amp;CK T1110), the system leverages GPT-4o for reasoning, LangGraph for multi-agent workflow orchestration, and LlamaIndex for traceable policy retrieval. Experimental results indicate that the LLM-based pipeline can interpret log-derived evidence, identify insufficient or missing policy controls, and generate actionable remediation recommendations with explicit evidence-to-policy traceability. Unlike prior work that treats log analysis and policy validation as isolated tasks, this study integrates both into a unified end-to-end proof-of-concept post-incident review framework. The findings suggest that LLM-assisted analysis has the potential to improve the efficiency, consistency, and auditability of post-incident evaluations, while highlighting the continued need for human oversight in high-stakes cybersecurity decision-making.",
+    "authors": [
+      "Huan Lin Oh",
+      "Jay Yong Jun Jie",
+      "Mandy Lee Ling Siu",
+      "Jonathan Pan"
+    ],
+    "published": "2026-01-04T01:39:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.01053",
+    "title": "Byzantine-Robust Federated Learning Framework with Post-Quantum Secure Aggregation for Real-Time Threat Intelligence Sharing in Critical IoT Infrastructure",
+    "summary": "The proliferation of Internet of Things devices in critical infrastructure has created unprecedented cybersecurity challenges, necessitating collaborative threat detection mechanisms that preserve data privacy while maintaining robustness against sophisticated attacks. Traditional federated learning approaches for IoT security suffer from two critical vulnerabilities: susceptibility to Byzantine attacks where malicious participants poison model updates, and inadequacy against future quantum computing threats that can compromise cryptographic aggregation protocols. This paper presents a novel Byzantine-robust federated learning framework integrated with post-quantum secure aggregation specifically designed for real-time threat intelligence sharing across critical IoT infrastructure. The proposed framework combines a adaptive weighted aggregation mechanism with lattice-based cryptographic protocols to simultaneously defend against model poisoning attacks and quantum adversaries. We introduce a reputation-based client selection algorithm that dynamically identifies and excludes Byzantine participants while maintaining differential privacy guarantees. The secure aggregation protocol employs CRYSTALS-Kyber for key encapsulation and homomorphic encryption to ensure confidentiality during parameter updates. Experimental evaluation on industrial IoT intrusion detection datasets demonstrates that our framework achieves 96.8% threat detection accuracy while successfully mitigating up to 40% Byzantine attackers, with only 18% computational overhead compared to non-secure federated approaches. The framework maintains sub-second aggregation latency suitable for real-time applications and provides 256-bit post-quantum security level.",
+    "authors": [
+      "Milad Rahmati",
+      "Nima Rahmati"
+    ],
+    "published": "2026-01-03T03:13:46Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.00571",
+    "title": "Threat Intelligence Driven IP Protection for Entrepreneurial SMEs",
+    "summary": "Entrepreneurial small to medium enterprises face significant cybersecurity challenges when developing valuable intellectual property (IP). This paper addresses the critical gap in research on how E-SMEs can protect their IP assets from cybersecurity threats through effective threat intelligence and IP protection activities. Drawing on Dynamic Capabilities and Knowledge-Based View theoretical frameworks, we propose the Threat Intelligence-driven IP Protection (TI-IPP) model. This conceptual model features to modes of operation, closed IP development and open innovation, enabling E-SMEs to adapt their IP protection and knowledge management strategies. The model incorporates four key phases: sensing opportunities and threats, seizing opportunities, knowledge transfer, and organizational transformation. By integrating cybersecurity threat intelligence with IP protection practices, E-SMEs can develop capabilities to safeguard valuable IP while maintaining competitive advantage. This research-in-progress paper outlines a qualitative research methodology using multiple case studies to validate and refine the proposed model for practical application in resource-constrained entrepreneurial environments.",
+    "authors": [
+      "Sam Pitruzzello",
+      "Atif Ahmad",
+      "Sean Maynard"
+    ],
+    "published": "2026-01-02T05:16:04Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.04697",
+    "title": "Unified Framework for Qualifying Security Boundary of PUFs Against Machine Learning Attacks",
+    "summary": "Physical Unclonable Functions (PUFs) serve as lightweight, hardware-intrinsic entropy sources widely deployed in IoT security applications. However, delay-based PUFs are vulnerable to Machine Learning Attacks (MLAs), undermining their assumed unclonability. There are no valid metrics for evaluating PUF MLA resistance, but empirical modelling experiments, which lack theoretical guarantees and are highly sensitive to advances in machine learning techniques. To address the fundamental gap between PUF designs and security qualifications, this work proposes a novel, formal, and unified framework for evaluating PUF security against modelling attacks by providing security lower bounds, independent of specific attack models or learning algorithms. We mathematically characterise the adversary's advantage in predicting responses to unseen challenges based solely on observed challenge-response pairs (CRPs), formulating the problem as a conditional probability estimation over the space of candidate PUFs. We present our analysis on previous \"broken\" PUFs, e.g., Arbiter PUFs, XOR PUFs, Feed-Forward PUFs, and for the first time compare their MLA resistance in a formal way. In addition, we evaluate the currently \"secure\" CT PUF, and show its security boundary. We demonstrate that the proposed approach systematically quantifies PUF resilience, captures subtle security differences, and provides actionable, theoretically grounded security guarantees for the practical deployment of PUFs.",
+    "authors": [
+      "Hongming Fei",
+      "Zilong Hu",
+      "Prosanta Gope",
+      "Biplab Sikdar"
+    ],
+    "published": "2026-01-08T08:07:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.01241",
+    "title": "MCP-SandboxScan: WASM-based Secure Execution and Runtime Analysis for MCP Tools",
+    "summary": "Tool-augmented LLM agents raise new security risks: tool executions can introduce runtime-only behaviors, including prompt injection and unintended exposure of external inputs (e.g., environment secrets or local files). While existing scanners often focus on static artifacts, analyzing runtime behavior is challenging because directly executing untrusted tools can itself be dangerous. We present MCP-SandboxScan, a lightweight framework motivated by the Model Context Protocol (MCP) that safely executes untrusted tools inside a WebAssembly/WASI sandbox and produces auditable reports of external-to-sink exposures. Our prototype (i) extracts LLM-relevant sinks from runtime outputs (prompt/messages and structured tool-return fields), (ii) instantiates external-input candidates from environment values, mounted file contents, and output-surfaced HTTP fetch intents, and (iii) links sources to sinks via snippet-based substring matching. Case studies on three representative tools show that MCP-SandboxScan can surface provenance evidence when external inputs appear in prompt/messages or tool-return payloads, and can expose filesystem capability violations as runtime evidence. We further compare against a lightweight static string-signature baseline and use a micro-benchmark to characterize false negatives under transformations and false positives from short-token collisions.",
+    "authors": [
+      "Zhuoran Tan",
+      "Run Hao",
+      "Jeremy Singer",
+      "Yutian Tang",
+      "Christos Anagnostopoulos"
+    ],
+    "published": "2026-01-03T17:25:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.00509",
+    "title": "Improving LLM-Assisted Secure Code Generation through Retrieval-Augmented-Generation and Multi-Tool Feedback",
+    "summary": "Large Language Models (LLMs) can generate code but often introduce security vulnerabilities, logical inconsistencies, and compilation errors. Prior work demonstrates that LLMs benefit substantially from structured feedback, static analysis, retrieval augmentation, and execution-based refinement. We propose a retrieval-augmented, multi-tool repair workflow in which a single code-generating LLM iteratively refines its outputs using compiler diagnostics, CodeQL security scanning, and KLEE symbolic execution. A lightweight embedding model is used for semantic retrieval of previously successful repairs, providing security-focused examples that guide generation. Evaluated on a combined dataset of 3,242 programs generated by DeepSeek-Coder-1.3B and CodeLlama-7B, the system demonstrates significant improvements in robustness. For DeepSeek, security vulnerabilities were reduced by 96%. For the larger CodeLlama model, the critical security defect rate was decreased from 58.55% to 22.19%, highlighting the efficacy of tool-assisted self-repair even on \"stubborn\" models.",
+    "authors": [
+      "Vidyut Sriram",
+      "Sawan Pandita",
+      "Achintya Lakshmanan",
+      "Aneesh Shamraj",
+      "Suman Saha"
+    ],
+    "published": "2026-01-01T23:34:00Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.00909",
+    "title": "Security Hardening Using FABRIC: Implementing a Unified Compliance Aggregator for Linux Servers",
+    "summary": "This paper presents a unified framework for evaluating Linux security hardening on the FABRIC testbed through aggregation of heterogeneous security auditing tools. We deploy three Ubuntu 22.04 nodes configured at baseline, partial, and full hardening levels, and evaluate them using Lynis, OpenSCAP, and AIDE across 108 audit runs. To address the lack of a consistent interpretation across tools, we implement a Unified Compliance Aggregator (UCA) that parses tool outputs, normalizes scores to a common 0--100 scale, and combines them into a weighted metric augmented by a customizable rule engine for organization-specific security policies. Experimental results show that full hardening increases OpenSCAP compliance from 39.7 to 71.8, while custom rule compliance improves from 39.3\\% to 83.6\\%. The results demonstrate that UCA provides a clearer and more reproducible assessment of security posture than individual tools alone, enabling systematic evaluation of hardening effectiveness in programmable testbed environments.",
+    "authors": [
+      "Sheldon Paul",
+      "Izzat Alsmadi"
+    ],
+    "published": "2026-01-01T01:17:31Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2512.17310",
+    "title": "Cryptanalysis of Pseudorandom Error-Correcting Codes",
+    "summary": "Pseudorandom error-correcting codes (PRC) is a novel cryptographic primitive proposed at CRYPTO 2024. Due to the dual capability of pseudorandomness and error correction, PRC has been recognized as a promising foundational component for watermarking AI-generated content. However, the security of PRC has not been thoroughly analyzed, especially with concrete parameters or even in the face of cryptographic attacks. To fill this gap, we present the first cryptanalysis of PRC. We first propose three attacks to challenge the undetectability and robustness assumptions of PRC. Among them, two attacks aim to distinguish PRC-based codewords from plain vectors, and one attack aims to compromise the decoding process of PRC. Our attacks successfully undermine the claimed security guarantees across all parameter configurations. Notably, our attack can detect the presence of a watermark with overwhelming probability at a cost of $2^{22}$ operations. We also validate our approach by attacking real-world large generative models such as DeepSeek and Stable Diffusion. To mitigate our attacks, we further propose three defenses to enhance the security of PRC, including parameter suggestions, implementation suggestions, and constructing a revised key generation algorithm. Our proposed revised key generation function effectively prevents the occurrence of weak keys. However, we highlight that the current PRC-based watermarking scheme still cannot achieve a 128-bit security under our parameter suggestions due to the inherent configurations of large generative models, such as the maximum output length of large language models.",
+    "authors": [
+      "Tianrui Wang",
+      "Anyu Wang",
+      "Tianshuo Cong",
+      "Delong Ran",
+      "Jinyuan Liu"
+    ],
+    "published": "2025-12-19T07:48:04Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2512.15915",
+    "title": "Private Virtual Tree Networks for Secure Multi-Tenant Environments Based on the VIRGO Overlay Network",
+    "summary": "Hierarchical organization is a fundamental structure in real-world society, where authority and responsibility are delegated from managers to subordinates. The VIRGO network (Virtual Hierarchical Overlay Network for scalable grid computing) provides a scalable overlay for organizing distributed systems but lacks intrinsic security and privacy mechanisms. This paper proposes Private Virtual Tree Networks (PVTNs), a cryptographically enforced extension that leverages the VIRGO overlay to mirror real organizational hierarchies. In PVTNs, join requests are encrypted with the manager's public key to ensure confidentiality, while membership authorization is enforced through manager-signed delegation certificates. Public keys are treated as organizational secrets and are disclosed only within direct manager-member relationships, resulting in a private, non-enumerable virtual tree. Our work demonstrates, through the system model, protocols, security analysis, and design rationale, that PVTNs achieve scalability, dynamic management, and strong security guarantees without relying on global public key infrastructures.",
+    "authors": [
+      "Lican Huang"
+    ],
+    "published": "2025-12-17T19:29:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2512.11431",
+    "title": "Proving DNSSEC Correctness: A Formal Approach to Secure Domain Name Resolution",
+    "summary": "The Domain Name System Security Extensions (DNSSEC) are critical for preventing DNS spoofing, yet its specifications contain ambiguities and vulnerabilities that elude traditional \"break-and-fix\" approaches. A holistic, foundational security analysis of the protocol has thus remained an open problem. This paper introduces DNSSECVerif, the first framework for comprehensive, automated formal security analysis of the DNSSEC protocol suite. Built on the SAPIC+ symbolic verifier, our high-fidelity model captures protocol-level interactions, including cryptographic operations and stateful caching with fine-grained concurrency control. Using DNSSECVerif, we formally prove four of DNSSEC's core security guarantees and uncover critical ambiguities in the standards--notably, the insecure coexistence of NSEC and NSEC3. Our model also automatically rediscovers three classes of known attacks, demonstrating fundamental weaknesses in the protocol design. To bridge the model-to-reality gap, we validate our findings through targeted testing of mainstream DNS software and a large-scale measurement study of over 2.2 million open resolvers, confirming the real-world impact of these flaws. Our work provides crucial, evidence-based recommendations for hardening DNSSEC specifications and implementations.",
+    "authors": [
+      "Qifan Zhang",
+      "Zilin Shen",
+      "Imtiaz Karim",
+      "Elisa Bertino",
+      "Zhou Li"
+    ],
+    "published": "2025-12-12T10:12:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.03303",
+    "title": "Autonomous Threat Detection and Response in Cloud Security: A Comprehensive Survey of AI-Driven Strategies",
+    "summary": "Cloud computing has changed online communities in three dimensions, which are scalability, adaptability and reduced overhead. But there are serious security concerns which are brought about by its distributed and multi-tenant characteristics. The old methods of detecting and reacting to threats which are mostly reliant on fixed signatures, predefined rules and human operators are becoming less and less effective even in the advanced stages of cyberattacks of cloud infrastructures. The recent trend in the field of addressing these limitations is the creation of technologies of artificial intelligence (AI). The strategies allow independent protection, anomaly detection, and real-time analysis with references to using deep learning, machine learning, and reinforcement learning. Through imbuing AI with a constantly-learning feature, it enables the intrusion detection system to be more accurate and generate a lesser number of false positives and it also enables the possibility of adaptive and predictive security. The fusion of large-scale language models with efficient orchestration platforms contributes to reacting to the arising threats with a quicker and more precise response. This allows automatic control over incidences, self-healing network, and defense mechanisms on a policy basis. Considering the current detection and response methods, this discussion assesses their strengths and weaknesses and outlines key issues such as data privacy, adversarial machine learning and integration complexity in the context of AI-based cloud security. These results suggest the future application of AI to support autonomous, scalable and active cloud security operations.",
+    "authors": [
+      "Gaurav Sarraf",
+      "Vibhor Pal"
+    ],
+    "published": "2026-01-06T04:19:27Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.02680",
+    "title": "Adversarial Contrastive Learning for LLM Quantization Attacks",
+    "summary": "Model quantization is critical for deploying large language models (LLMs) on resource-constrained hardware, yet recent work has revealed severe security risks that benign LLMs in full precision may exhibit malicious behaviors after quantization. In this paper, we propose Adversarial Contrastive Learning (ACL), a novel gradient-based quantization attack that achieves superior attack effectiveness by explicitly maximizing the gap between benign and harmful responses probabilities. ACL formulates the attack objective as a triplet-based contrastive loss, and integrates it with a projected gradient descent two-stage distributed fine-tuning strategy to ensure stable and efficient optimization. Extensive experiments demonstrate ACL's remarkable effectiveness, achieving attack success rates of 86.00% for over-refusal, 97.69% for jailbreak, and 92.40% for advertisement injection, substantially outperforming state-of-the-art methods by up to 44.67%, 18.84%, and 50.80%, respectively.",
+    "authors": [
+      "Dinghong Song",
+      "Zhiwei Xu",
+      "Hai Wan",
+      "Xibin Zhao",
+      "Pengfei Su"
+    ],
+    "published": "2026-01-06T03:26:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.01673",
+    "title": "Exposing Hidden Interfaces: LLM-Guided Type Inference for Reverse Engineering macOS Private Frameworks",
+    "summary": "Private macOS frameworks underpin critical services and daemons but remain undocumented and distributed only as stripped binaries, complicating security analysis. We present MOTIF, an agentic framework that integrates tool-augmented analysis with a finetuned large language model specialized for Objective-C type inference. The agent manages runtime metadata extraction, binary inspection, and constraint checking, while the model generates candidate method signatures that are validated and refined into compilable headers. On MOTIF-Bench, a benchmark built from public frameworks with groundtruth headers, MOTIF improves signature recovery from 15% to 86% compared to baseline static analysis tooling, with consistent gains in tool-use correctness and inference stability. Case studies on private frameworks show that reconstructed headers compile, link, and facilitate downstream security research and vulnerability studies. By transforming opaque binaries into analyzable interfaces, MOTIF establishes a scalable foundation for systematic auditing of macOS internals.",
+    "authors": [
+      "Arina Kharlamova",
+      "Youcheng Sun",
+      "Ting Yu"
+    ],
+    "published": "2026-01-04T21:44:55Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.01436",
+    "title": "Bithoven: Formal Safety for Expressive Bitcoin Smart Contracts",
+    "summary": "The rigorous security model of Bitcoin's UTXO architecture often comes at the cost of developer usability, forcing a reliance on manual stack manipulation that leads to critical financial vulnerabilities like signature malleability, unspendable states and unconstrained execution paths. Industry standards such as Miniscript provide necessary abstractions for policy verification but do not model the full imperative logic required for complex contracts, leaving gaps in state management and resource liveness. This paper introduces Bithoven, a high-level language designed to bridge the gap between expressiveness and formal safety. By integrating a strict type checker and a resource liveness analyzer with a semantic control-flow analyzer, Bithoven eliminates major categories of consensus and logic defects defined in our fault model prior to deployment. Our results indicate that this safety comes at modest cost: Bithoven compiles to Bitcoin Script with efficiency comparable to hand-optimized code, demonstrating that type-safe, developer-friendly abstractions are viable even within the strict byte-size constraints of the Bitcoin blockchain.",
+    "authors": [
+      "Hyunhum Cho",
+      "Ik Rae Jeong"
+    ],
+    "published": "2026-01-04T08:48:34Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.01184",
+    "title": "SecureCodeRL: Security-Aware Reinforcement Learning for Code Generation with Partial-Credit Rewards",
+    "summary": "Large Language Models (LLMs) can generate plausible code, but in settings that require exact stdin/stdout behavior they frequently produce programs that compile yet fail tests, and in some cases they introduce security-sensitive patterns. This paper presents SecureCodeRL, a reinforcement learning (RL) pipeline for security-aware code generation that optimizes a combined reward R = \u03b1Rfunc + \\b{eta}Rsec. The key idea is a partial-credit functional reward that assigns intermediate scores for syntactic validity, successful execution, and producing output, reducing reward sparsity that otherwise stalls learning on competitive programming style tasks. I evaluate supervised fine-tuning (SFT) and PPO variants on a small held-out prompt set from APPS+ and observe that PPO with partial credit (using a continued-training variant) improves syntax validity from 45% (SFT) to 60% and achieves the only non-zero test success signal in this pilot evaluation (5% at-least-one-test-pass), while remaining 100% clean under Bandit static analysis. Although Bandit findings were absent in this small evaluation, the security term is integrated into training to discourage insecure shortcuts when they appear.",
+    "authors": [
+      "Suryansh Singh Sijwali",
+      "Suman Saha"
+    ],
+    "published": "2026-01-03T13:36:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.01134",
+    "title": "AI-Powered Hybrid Intrusion Detection Framework for Cloud Security Using Novel Metaheuristic Optimization",
+    "summary": "Cybersecurity poses considerable problems to Cloud Computing (CC), especially regarding Intrusion Detection Systems (IDSs), facing difficulties with skewed datasets and suboptimal classification model performance. This study presents the Hybrid Intrusion Detection System (HyIDS), an innovative IDS that employs the Energy Valley Optimizer (EVO) for Feature Selection (FS). Additionally, it introduces a novel technique for enhancing the cybersecurity of cloud computing through the integration of machine learning methodologies with the EVO Algorithm. The Energy Valley Optimizer (EVO) effectively diminished features in the CIC-DDoS2019 dataset from 88 to 38 and in the CSE-CIC-IDS2018 data from 80 to 43, significantly enhancing computing efficiency. HyIDS incorporates four Machine Learning (ML) models: Support Vector Machine (SVM), Random Forest (RF), Decision Tree (D_Tree), and K-Nearest Neighbors (KNN). The proposed HyIDS was assessed utilizing two real-world intrusion datasets, CIC-DDoS2019 and CSE-CIC-IDS2018, both distinguished by considerable class imbalances. The CIC-DDoS2019 dataset has a significant imbalance between DDoS assault samples and legal traffic, while the CSE-CIC-IDS2018 dataset primarily comprises benign traffic with insufficient representation of attack types, complicating the detection of minority attacks. A downsampling technique was employed to balance the datasets, hence improving detection efficacy for both benign and malicious traffic. Twenty-four trials were done, revealing substantial enhancements in categorization accuracy, precision, and recall. Our suggested D_TreeEVO model attained an accuracy rate of 99.13% and an F1 score of 98.94% on the CIC-DDoS2019 dataset, and an accuracy rate of 99.78% and an F1 score of 99.70% on the CSE-CIC-IDS2018 data. These data demonstrate that EVO significantly improves cybersecurity in Cloud Computing (CC).",
+    "authors": [
+      "Maryam Mahdi Alhusseini",
+      "Alireza Rouhi",
+      "Mohammad-Reza Feizi-Derakhshi"
+    ],
+    "published": "2026-01-03T09:42:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.00566",
+    "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+    "summary": "Low-Rank Adaptation (LoRA) has become a popular solution for fine-tuning large language models (LLMs) in federated settings, dramatically reducing update costs by introducing trainable low-rank matrices. However, when integrated with frameworks like FedIT, LoRA introduces a critical vulnerability: clients submit $A$ and $B$ matrices separately, while only their product $AB$ determines the model update, yet this composite is never directly verified. We propose Gradient Assembly Poisoning (GAP), a novel attack that exploits this blind spot by crafting individually benign $A$ and $B$ matrices whose product yields malicious updates. GAP operates without access to training data or inter-client coordination and remains undetected by standard anomaly detectors. We identify four systemic vulnerabilities in LoRA-based federated systems and validate GAP across LLaMA, ChatGLM, and GPT-2. GAP consistently induces degraded or biased outputs while preserving surface fluency, reducing BLEU by up to 14.5\\%, increasing factual and grammatical errors by over 800\\%, and maintaining 92.6\\% long-form response length. These results reveal a new class of stealthy, persistent threats in distributed LoRA fine-tuning.",
+    "authors": [
+      "Yueyan Dong",
+      "Minghui Xu",
+      "Qin Hu",
+      "Yinhao Xiao",
+      "Qi Luo"
+    ],
+    "published": "2026-01-02T04:42:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.00911",
+    "title": "Device-Native Autonomous Agents for Privacy-Preserving Negotiations",
+    "summary": "Automated negotiations in insurance and business-to-business (B2B) commerce encounter substantial challenges. Current systems force a trade-off between convenience and privacy by routing sensitive financial data through centralized servers, increasing security risks, and diminishing user trust. This study introduces a device-native autonomous Artificial Intelligence (AI) agent system for privacy-preserving negotiations. The proposed system operates exclusively on user hardware, enabling real-time bargaining while maintaining sensitive constraints locally. It integrates zero-knowledge proofs to ensure privacy and employs distilled world models to support advanced on-device reasoning. The architecture incorporates six technical components within an agentic AI workflow. Agents autonomously plan negotiation strategies, conduct secure multi-party bargaining, and generate cryptographic audit trails without exposing user data to external servers. The system is evaluated in insurance and B2B procurement scenarios across diverse device configurations. Results show an average success rate of 87%, a 2.4x latency improvement over cloud baselines, and strong privacy preservation through zero-knowledge proofs. User studies show 27% higher trust scores when decision trails are available. These findings establish a foundation for trustworthy autonomous agents in privacy-sensitive financial domains.",
+    "authors": [
+      "Joyjit Roy"
+    ],
+    "published": "2026-01-01T04:29:39Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  }
+]

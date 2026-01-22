@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.17911v1",
+  "title": "Towards Reasoning-Preserving Unlearning in Multimodal Large Language Models",
+  "authors": [
+    "Hongji Li",
+    "Junchi yao",
+    "Manjiang Yu",
+    "Priyanka Singh",
+    "Xue Li",
+    "Di Wang",
+    "Lijie Hu"
+  ],
+  "published": "2025-11-26T13:45:52Z",
+  "url": "http://arxiv.org/abs/2512.17911v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.17911v1.pdf",
+  "relevance_score": 91,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Machine unlearning aims to erase requested data from trained models without full retraining. For Reasoning Multimodal Large Language Models (RMLLMs), this is uniquely challenging: intermediate chain-of-thought steps can still leak sensitive information even when final answers are forgotten, and overly aggressive interventions easily damage general reasoning ability. Yet no benchmark jointly evaluates how well unlearning methods suppress reasoning-level leakage while preserving reasoning competen"
+}

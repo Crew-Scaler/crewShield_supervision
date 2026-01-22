@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.13526v1",
+  "title": "Async Control: Stress-testing Asynchronous Control Measures for LLM Agents",
+  "authors": [
+    "Asa Cooper Stickland",
+    "Jan Michelfeit",
+    "Arathi Mani",
+    "Charlie Griffin",
+    "Ollie Matthews",
+    "Tomek Korbak",
+    "Rogan Inglis",
+    "Oliver Makins",
+    "Alan Cooney"
+  ],
+  "published": "2025-12-15T16:56:28Z",
+  "url": "http://arxiv.org/abs/2512.13526v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.13526v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "LLM-based software engineering agents are increasingly used in real-world development tasks, often with access to sensitive data or security-critical codebases. Such agents could intentionally sabotage these codebases if they were misaligned. We investigate asynchronous monitoring, in which a monitoring system reviews agent actions after the fact. Unlike synchronous monitoring, this approach does not impose runtime latency, while still attempting to disrupt attacks before irreversible harm occur"
+}

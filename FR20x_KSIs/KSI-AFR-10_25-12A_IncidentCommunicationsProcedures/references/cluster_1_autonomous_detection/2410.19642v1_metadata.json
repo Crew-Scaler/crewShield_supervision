@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2410.19642v1",
+  "title": "VARS: Vision-based Assessment of Risk in Security Systems",
+  "authors": [
+    "Pranav Gupta",
+    "Pratham Gohil",
+    "Sridhar S"
+  ],
+  "published": "2024-10-25T15:47:13Z",
+  "url": "http://arxiv.org/abs/2410.19642v1",
+  "pdf_url": "http://arxiv.org/pdf/2410.19642v1.pdf",
+  "relevance_score": 95,
+  "summary": "The accurate prediction of danger levels in video content is critical for enhancing safety and security systems, particularly in environments where quick and reliable assessments are essential. In this study, we perform a comparative analysis of various machine learning and deep learning models to predict danger ratings in a custom dataset of 100 videos, each containing 50 frames, annotated with human-rated danger scores ranging from 0 to 10. The danger ratings are further classified into three categories: no alert (less than 7)and high alert (greater than equal to 7). Our evaluation covers classical machine learning models, such as Support Vector Machines, as well as Neural Networks, and transformer-based models. Model performance is assessed using standard metrics such as accuracy, F1-score, and mean absolute error (MAE), and the results are compared to identify the most robust approach. This research contributes to developing a more accurate and generalizable danger assessment framework for video-based risk detection."
+}

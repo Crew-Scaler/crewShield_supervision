@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2512.19058v1",
+  "title": "6DAttack: Backdoor Attacks in the 6DoF Pose Estimation",
+  "authors": [
+    "Jihui Guo",
+    "Zongmin Zhang",
+    "Zhen Sun",
+    "Yuhao Yang",
+    "Jinlin Wu"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.19058v1",
+  "relevance_score": 86.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring",
+    "autonomous systems"
+  ],
+  "summary": "Deep learning advances have enabled accurate six-degree-of-freedom (6DoF) object pose estimation, widely used in robotics, AR/VR, and autonomous systems. However, backdoor attacks pose significant security risks. While most research focuses on 2D vision, 6DoF pose estimation remains largely unexplored. Unlike traditional backdoors that only change classes, 6DoF attacks must control continuous parameters like translation and rotation, rendering 2D methods inapplicable. We propose 6DAttack, a fram..."
+}

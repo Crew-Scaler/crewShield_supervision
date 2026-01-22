@@ -1,0 +1,473 @@
+{
+  "research_topic": "Non-Human Identity (NHI) Credential Lifecycle Acceleration",
+  "issue_number": "69",
+  "topic_number": "5",
+  "search_date": "2025-12-25",
+  "total_papers_identified": 46,
+  "papers_downloaded": 10,
+  "papers_archived": 36,
+  "search_queries": [
+    "credential management AND (agent OR workload OR service account) AND (automation OR continuous rotation) AND (2024 OR 2025)",
+    "secret sprawl AND (agent OR non-human identity) AND (mitigation OR centralization) AND (2024 OR 2025)",
+    "dynamic credential generation AND (runtime OR workload) AND (agent OR serverless) AND (2024 OR 2025)"
+  ],
+  "priority_keywords": [
+    "SPIFFE",
+    "workload identity",
+    "service account",
+    "credential rotation",
+    "secret sprawl",
+    "dynamic credentials",
+    "agentic AI",
+    "zero trust",
+    "OAuth",
+    "OIDC",
+    "decentralized identifiers",
+    "verifiable credentials"
+  ],
+  "downloaded_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2504.14760",
+      "filename": "2504.14760_SPIFFE_Workload_Identity.pdf",
+      "title": "Establishing Workload Identity for Zero Trust CI/CD: From Secrets to SPIFFE-Based Authentication",
+      "authors": ["Surya Teja Avirneni"],
+      "publication_date": "2025-04-20",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "This paper addresses how CI/CD systems use identity credentials for automation. It describes transitioning from static secrets to OpenID Connect federation and introduces SPIFFE as a runtime-issued, platform-neutral identity model for non-human actors. Key topics include workload attestation, mutual authentication, and Zero Trust architecture foundations for CI/CD environments.",
+      "relevance_score": 10,
+      "relevance_justification": "Directly addresses core NHI credential lifecycle concerns including SPIFFE, workload identity, automation, and the transition from static to dynamic credentials. Published in 2025.",
+      "key_concepts": ["SPIFFE", "workload identity", "zero trust", "CI/CD", "OpenID Connect", "mutual authentication", "workload attestation"],
+      "url": "https://arxiv.org/abs/2504.14760",
+      "file_size_mb": 0.838
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2504.17759",
+      "filename": "2504.17759_Identity_Control_Plane.pdf",
+      "title": "Identity Control Plane: The Unifying Layer for Zero Trust Infrastructure",
+      "authors": ["Surya Teja Avirneni"],
+      "publication_date": "2025-04-24",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper introduces an architectural framework that merges identity management across different entity types—human users, workloads, and automation systems. It proposes combining SPIFFE-based credentials, OIDC/SAML authentication, and automation credentials through broker-issued tokens. The work includes policy enforcement mechanisms using attribute-based access control, compliance mappings for FedRAMP and SLSA standards.",
+      "relevance_score": 10,
+      "relevance_justification": "Comprehensive framework for unified identity management across human and non-human identities. Addresses policy enforcement, FedRAMP compliance, and credential brokering. Published in 2025.",
+      "key_concepts": ["identity control plane", "SPIFFE", "OIDC", "SAML", "credential broker", "FedRAMP", "SLSA", "attribute-based access control"],
+      "url": "https://arxiv.org/abs/2504.17759",
+      "file_size_mb": 1.063
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2504.14761",
+      "filename": "2504.14761_Credential_Broker_Patterns.pdf",
+      "title": "Decoupling Identity from Access: Credential Broker Patterns for Secure CI/CD",
+      "authors": ["Surya Teja Avirneni"],
+      "publication_date": "2025-04-20",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper demonstrates how credential brokers can separate identity from access in CI/CD systems. It explains how runtime-issued verifiable identities (such as those from SPIFFE) work with brokers to enable short-lived, policy-driven credentials for pipelines and workloads. The work covers practical design patterns including just-in-time token issuance, access policies, and cross-domain trust.",
+      "relevance_score": 10,
+      "relevance_justification": "Addresses credential brokering, just-in-time credential issuance, and policy-driven access control for workloads. Core NHI credential lifecycle automation topic. Published in 2025.",
+      "key_concepts": ["credential broker", "SPIFFE", "just-in-time credentials", "short-lived credentials", "policy-driven access", "CI/CD", "zero trust"],
+      "url": "https://arxiv.org/abs/2504.14761",
+      "file_size_mb": 2.624
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2505.19301",
+      "filename": "2505.19301_Agentic_AI_Zero_Trust.pdf",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": ["Ken Huang", "Vineeth Sai Narajala", "John Yeoh", "Jason Ross", "Ramesh Raskar", "Youssef Harkati", "Jerry Huang", "Idan Habler", "Chris Hughes"],
+      "publication_date": "2025-05-25",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper argues that conventional Identity and Access Management systems designed for human users are inadequate for AI agents operating in multi-agent systems. The authors propose a framework utilizing rich, verifiable Agent Identities built on Decentralized Identifiers and Verifiable Credentials. Key components include an Agent Naming Service, dynamic access controls, session management, and Zero-Knowledge Proofs for privacy-preserving attribute disclosure.",
+      "relevance_score": 9,
+      "relevance_justification": "Addresses emerging challenge of agentic AI identity management using DIDs and VCs. Highly relevant to NHI credential lifecycle as AI agents represent a new class of non-human identities. Published in 2025.",
+      "key_concepts": ["agentic AI", "decentralized identifiers", "verifiable credentials", "zero trust", "multi-agent systems", "zero-knowledge proofs", "dynamic access control"],
+      "url": "https://arxiv.org/abs/2505.19301",
+      "file_size_mb": 2.180
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2510.25819",
+      "filename": "2510.25819_Identity_Management_Agentic_AI.pdf",
+      "title": "Identity Management for Agentic AI: The new frontier of authorization, authentication, and security for an AI agent world",
+      "authors": ["Tobin South", "Subramanya Nagabhushanaradhya", "Ayesha Dissanayaka", "Sarah Cecchetti", "George Fletcher", "Victor Lu", "Aldo Pietropaolo", "Dean H. Saxe", "Jeff Lombardo", "Abhishek Maligehalli Shivalingaiah", "Stan Bounev", "Alex Keisner", "Andor Kesselman", "Zack Proser", "Ginny Fahs", "Andrew Bunyea", "Ben Moskowitz", "Atul Tulshibagwale", "Dazza Greenwood", "Jiaxin Pei", "Alex Pentland"],
+      "publication_date": "2025-10-29",
+      "year": 2025,
+      "institution": "OpenID Foundation",
+      "country": "International",
+      "abstract": "The rapid rise of AI agents presents urgent challenges in authentication, authorization, and identity management. Current agent-centric protocols highlight the demand for clarified best practices in authentication and authorization. This OpenID Foundation whitepaper outlines the resources already available for securing today's agents and presents a strategic agenda to address the foundational authentication, authorization, and identity problems pivotal for tomorrow's widespread autonomous systems.",
+      "relevance_score": 9,
+      "relevance_justification": "Comprehensive OpenID Foundation whitepaper on agentic AI identity management. Addresses authentication, authorization, and identity lifecycle for autonomous agents. Published in 2025.",
+      "key_concepts": ["agentic AI", "OpenID Foundation", "authentication", "authorization", "identity management", "autonomous agents", "MCP protocol", "agent-centric identity"],
+      "url": "https://arxiv.org/abs/2510.25819",
+      "file_size_mb": 8.576
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2503.18255",
+      "filename": "2503.18255_Human_Machine_Identity_Blur.pdf",
+      "title": "The Human-Machine Identity Blur: A Unified Framework for Cybersecurity Risk Management in 2025",
+      "authors": ["Kush Janani"],
+      "publication_date": "2025-03-24",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "This research addresses cybersecurity challenges arising from the convergence of human and machine digital identities. The author proposes a governance framework built on four principles: treating identity as a spectrum rather than binary, applying uniform risk assessment across all identity categories, employing continuous verification with zero trust methodologies, and sustaining governance throughout an identity's lifecycle. Organizations implementing this unified strategy saw a 47 percent reduction in identity-related security incidents and a 62 percent improvement in incident response time.",
+      "relevance_score": 9,
+      "relevance_justification": "Addresses the convergence of human and machine identities with a unified governance framework. Directly relevant to NHI credential lifecycle management and zero trust. Published in 2025 with empirical results.",
+      "key_concepts": ["human-machine identity", "identity spectrum", "zero trust", "continuous verification", "identity lifecycle", "unified governance", "risk management"],
+      "url": "https://arxiv.org/abs/2503.18255",
+      "file_size_mb": 0.393
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2511.02841",
+      "filename": "2511.02841_AI_Agents_DID_VC.pdf",
+      "title": "AI Agents with Decentralized Identifiers and Verifiable Credentials",
+      "authors": ["Sandro Rodriguez Garzon", "Awid Vaziry", "Enis Mert Kuzu", "Dennis Enrique Gehrmann", "Buse Varkan", "Alexander Gaballa", "Axel Küpper"],
+      "publication_date": "2025-10-01",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper addresses how LLM-based agents can establish trust with one another. It proposes equipping AI agents with self-sovereign digital identities using W3C Decentralized Identifiers (DIDs) combined with W3C Verifiable Credentials (VCs). This framework enables agents to authenticate themselves and establish various cross-domain trust relationships through the spontaneous exchange of their self-hosted DID-bound VCs. The authors created a prototype demonstrating technical feasibility.",
+      "relevance_score": 9,
+      "relevance_justification": "Implements W3C standards (DIDs/VCs) for AI agent identity. Addresses trust establishment and authentication for agentic systems. Published in 2025 with prototype implementation.",
+      "key_concepts": ["AI agents", "decentralized identifiers", "verifiable credentials", "W3C standards", "self-sovereign identity", "cross-domain trust", "LLM agents"],
+      "url": "https://arxiv.org/abs/2511.02841",
+      "file_size_mb": 1.008
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2511.04925",
+      "filename": "2511.04925_Zero_Trust_Microservices_Identity_Federation.pdf",
+      "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+      "authors": ["Rethish Nair Rajendran", "Sathish Krishna Anumula", "Dileep Kumar Rai", "Sachin Agrawal"],
+      "publication_date": "2025-11-07",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper addresses security challenges in microservice environments. It proposes implementing zero trust principles through identity federation using industry-standard technologies like OAuth 2.0, OpenID Connect (OIDC), and SPIFFE/SPIRE. The research demonstrates that this approach reduces attack surface, ensures consistent policy enforcement, and enables multi-domain interoperability while maintaining compliance with DevSecOps standards for cloud-native deployments.",
+      "relevance_score": 9,
+      "relevance_justification": "Addresses zero trust implementation for microservices using OAuth 2.0, OIDC, and SPIFFE/SPIRE. Highly relevant to workload identity and service-to-service authentication. Published in 2025.",
+      "key_concepts": ["zero trust", "microservices", "identity federation", "OAuth 2.0", "OpenID Connect", "SPIFFE", "SPIRE", "DevSecOps"],
+      "url": "https://arxiv.org/abs/2511.04925",
+      "file_size_mb": 0.310
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2509.13597",
+      "filename": "2509.13597_Agentic_JWT.pdf",
+      "title": "Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents",
+      "authors": ["Abhishek Goswami"],
+      "publication_date": "2025-09-16",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper addresses security challenges in autonomous LLM agents that make numerous API calls without human oversight. The author proposes Agentic JWT (A-JWT), a protocol that binds each agent's action to verifiable user intent and, optionally, to a specific workflow step. Agent identity is derived from a one-way checksum hash of the agent's prompt, tools, and configuration. Features include chained delegation assertions, per-agent proof-of-possession keys to prevent replay attacks and impersonation.",
+      "relevance_score": 9,
+      "relevance_justification": "Novel approach to AI agent authentication using enhanced JWT tokens. Addresses delegation, replay attack prevention, and agent identity verification. Published in 2025 with proof-of-concept implementation.",
+      "key_concepts": ["agentic JWT", "AI agents", "delegation protocol", "JWT", "OAuth", "zero trust", "proof-of-possession", "replay attack prevention"],
+      "url": "https://arxiv.org/abs/2509.13597",
+      "file_size_mb": 0.905
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2512.20234",
+      "filename": "2512.20234_Flexible_Secure_Authentication_Privacy.pdf",
+      "title": "Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks",
+      "authors": ["Bin Xie", "Rui Song", "Xuyuan Cai"],
+      "publication_date": "2025-12-23",
+      "year": 2025,
+      "institution": "Not specified",
+      "country": "Unknown",
+      "abstract": "The paper introduces IRAC, a novel scheme addressing limitations in anonymous credentials for decentralized networks. It proposes a flexible credential model using vector commitments, a decentralized revocation mechanism where holders prove non-revocation through gap-based verification, and strengthened attribute hiding via zk-SNARKs. The scheme enables privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies with credential presentation completing in approximately 1 second.",
+      "relevance_score": 8,
+      "relevance_justification": "Addresses credential revocation and privacy-preserving authentication in decentralized systems. Relevant to NHI credential lifecycle management particularly for revocation mechanisms. Very recent publication (December 2025).",
+      "key_concepts": ["decentralized credentials", "credential revocation", "privacy-preserving authentication", "zk-SNARKs", "vector commitments", "anonymous credentials", "gap-based verification"],
+      "url": "https://arxiv.org/abs/2512.20234",
+      "file_size_mb": 1.339
+    }
+  ],
+  "archived_papers": [
+    {
+      "arxiv_id": "2406.11511",
+      "title": "Decentralized Credential Status Management: A Paradigm Shift in Digital Trust",
+      "year": 2024,
+      "relevance_note": "Blockchain-based credential status management"
+    },
+    {
+      "arxiv_id": "2509.09036",
+      "title": "Extended Version: It Should Be Easy but... New Users Experiences and Challenges with Secret Management Tools",
+      "year": 2025,
+      "relevance_note": "Secret management tool usability study"
+    },
+    {
+      "arxiv_id": "2504.18784",
+      "title": "Secret Breach Detection in Source Code with Large Language Models",
+      "year": 2025,
+      "relevance_note": "LLM-based secret detection"
+    },
+    {
+      "arxiv_id": "2507.16870",
+      "title": "Building a robust OAuth token based API Security: A High level Overview",
+      "year": 2025,
+      "relevance_note": "OAuth token-based API security"
+    },
+    {
+      "arxiv_id": "2506.21134",
+      "title": "Inside Job: Defending Kubernetes Clusters Against Network Misconfigurations",
+      "year": 2025,
+      "relevance_note": "Kubernetes security and network policies"
+    },
+    {
+      "arxiv_id": "2402.02455",
+      "title": "A Survey on Decentralized Identifiers and Verifiable Credentials",
+      "year": 2024,
+      "relevance_note": "Comprehensive survey on DIDs and VCs"
+    },
+    {
+      "arxiv_id": "2510.09715",
+      "title": "A Scalable, Privacy-Preserving Decentralized Identity and Verifiable Data Sharing Framework based on Zero-Knowledge Proofs",
+      "year": 2025,
+      "relevance_note": "ZKP-based decentralized identity framework"
+    },
+    {
+      "arxiv_id": "2506.09559",
+      "title": "Identity and Access Management for the Computing Continuum",
+      "year": 2025,
+      "relevance_note": "IAM for edge-cloud continuum"
+    },
+    {
+      "arxiv_id": "2406.11535",
+      "title": "Lifecycle Management of Resumés with Decentralized Identifiers and Verifiable Credentials",
+      "year": 2024,
+      "relevance_note": "DID/VC lifecycle management application"
+    },
+    {
+      "arxiv_id": "2501.09032",
+      "title": "Distributed Identity for Zero Trust and Segmented Access Control: A Novel Approach to Securing Network Infrastructure",
+      "year": 2025,
+      "relevance_note": "Distributed identity for zero trust"
+    },
+    {
+      "arxiv_id": "2403.04651",
+      "title": "Cedar: A New Language for Expressive, Fast, Safe, and Analyzable Authorization",
+      "year": 2024,
+      "relevance_note": "Cedar authorization policy language"
+    },
+    {
+      "arxiv_id": "2407.01688",
+      "title": "How We Built Cedar: A Verification-Guided Approach",
+      "year": 2024,
+      "relevance_note": "Cedar implementation methodology"
+    },
+    {
+      "arxiv_id": "2406.18813",
+      "title": "Towards Secure Management of Edge-Cloud IoT Microservices using Policy as Code",
+      "year": 2024,
+      "relevance_note": "Policy-as-code for IoT microservices"
+    },
+    {
+      "arxiv_id": "2506.11950",
+      "title": "Secure API-Driven Research Automation to Accelerate Scientific Discovery",
+      "year": 2025,
+      "relevance_note": "API security for research automation"
+    },
+    {
+      "arxiv_id": "2508.05334",
+      "title": "A Blockchain-Powered Academic Credential Verification",
+      "year": 2025,
+      "relevance_note": "Blockchain credential verification"
+    },
+    {
+      "arxiv_id": "2507.09859",
+      "title": "Endorsement-Driven Blockchain SSI Framework for Dynamic IoT Ecosystems",
+      "year": 2025,
+      "relevance_note": "SSI framework for IoT"
+    },
+    {
+      "arxiv_id": "2502.15653",
+      "title": "Blockchain-based Trust Management in Security Credential Management System for Vehicular Network",
+      "year": 2025,
+      "relevance_note": "Blockchain trust management for vehicular networks"
+    },
+    {
+      "arxiv_id": "2503.22010",
+      "title": "Towards Privacy-Preserving Revocation of Verifiable Credentials with Time-Flexibility",
+      "year": 2025,
+      "relevance_note": "Privacy-preserving credential revocation"
+    },
+    {
+      "arxiv_id": "2506.02043",
+      "title": "Docker under Siege: Securing Containers in the Modern Era",
+      "year": 2025,
+      "relevance_note": "Container security comprehensive study"
+    },
+    {
+      "arxiv_id": "2501.09674",
+      "title": "Authenticated Delegation and Authorized AI Agents",
+      "year": 2025,
+      "relevance_note": "AI agent delegation and authorization"
+    },
+    {
+      "arxiv_id": "2504.21034",
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "year": 2025,
+      "relevance_note": "Security architecture for AI agents"
+    },
+    {
+      "arxiv_id": "2310.08437",
+      "title": "Cold Start Latency in Serverless Computing: A Systematic Review, Taxonomy, and Future Directions",
+      "year": 2024,
+      "relevance_note": "Serverless cold start comprehensive review"
+    },
+    {
+      "arxiv_id": "2408.02641",
+      "title": "Detection of Compromised Functions in a Serverless Cloud Environment",
+      "year": 2024,
+      "relevance_note": "Serverless function security detection"
+    },
+    {
+      "arxiv_id": "2410.06145",
+      "title": "Serverless Cold Starts and Where to Find Them",
+      "year": 2024,
+      "relevance_note": "Serverless cold start analysis"
+    },
+    {
+      "arxiv_id": "2509.14292",
+      "title": "Taming Serverless Cold Starts Through OS Co-Design",
+      "year": 2025,
+      "relevance_note": "OS-level serverless optimization"
+    },
+    {
+      "arxiv_id": "2510.02404",
+      "title": "Dynamic Function Configuration and its Management in Serverless Computing: A Taxonomy and Future Directions",
+      "year": 2025,
+      "relevance_note": "Serverless function configuration management"
+    },
+    {
+      "arxiv_id": "2512.16066",
+      "title": "Cold-Start Anti-Patterns and Refactorings in Serverless Systems: An Empirical Study",
+      "year": 2025,
+      "relevance_note": "Serverless anti-patterns study"
+    },
+    {
+      "arxiv_id": "2508.07640",
+      "title": "Taming Cold Starts: Proactive Serverless Scheduling with Model Predictive Control",
+      "year": 2025,
+      "relevance_note": "Proactive serverless scheduling"
+    },
+    {
+      "arxiv_id": "2504.21518",
+      "title": "Confidential Serverless Computing",
+      "year": 2025,
+      "relevance_note": "Confidential computing for serverless"
+    },
+    {
+      "arxiv_id": "2510.04516",
+      "title": "Rethinking HTTP API Rate Limiting: A Client-Side Approach",
+      "year": 2025,
+      "relevance_note": "API rate limiting strategies"
+    },
+    {
+      "arxiv_id": "2412.04051",
+      "title": "How to design a Public Key Infrastructure for a Central Bank Digital Currency",
+      "year": 2024,
+      "relevance_note": "PKI design for CBDC"
+    },
+    {
+      "arxiv_id": "2505.04333",
+      "title": "Applied Post Quantum Cryptography: A Practical Approach for Generating Certificates in Industrial Environments",
+      "year": 2025,
+      "relevance_note": "Post-quantum PKI certificates"
+    },
+    {
+      "arxiv_id": "2402.10985",
+      "title": "Leveraging AI Planning For Detecting Cloud Security Vulnerabilities",
+      "year": 2024,
+      "relevance_note": "AI-driven cloud security vulnerability detection"
+    },
+    {
+      "arxiv_id": "2408.10634",
+      "title": "Industry Perception of Security Challenges with Identity Access Management Solutions",
+      "year": 2024,
+      "relevance_note": "IAM security challenges survey"
+    },
+    {
+      "arxiv_id": "2510.23883",
+      "title": "Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges",
+      "year": 2025,
+      "relevance_note": "Comprehensive agentic AI security study"
+    },
+    {
+      "arxiv_id": "2509.22256",
+      "title": "Secure and Efficient Access Control Framework for Computer-Use Agents via Context Space",
+      "year": 2025,
+      "relevance_note": "Access control for AI agents"
+    }
+  ],
+  "key_findings": {
+    "total_2025_papers": 33,
+    "total_2024_papers": 13,
+    "top_institutions": ["OpenID Foundation (1 confirmed)", "Multiple independent researchers"],
+    "dominant_themes": [
+      "SPIFFE/SPIRE workload identity frameworks",
+      "Agentic AI identity and authentication",
+      "Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs)",
+      "Zero Trust architecture implementation",
+      "OAuth 2.0/OIDC for non-human identities",
+      "Credential brokering and just-in-time credential issuance",
+      "Secret sprawl mitigation",
+      "Serverless and microservices security"
+    ],
+    "emerging_trends": [
+      "AI agents as a new class of non-human identities requiring novel IAM approaches",
+      "Shift from static secrets to dynamic, runtime-issued credentials",
+      "Integration of W3C standards (DIDs/VCs) for machine identity",
+      "Policy-as-code approaches (OPA, Cedar) for authorization",
+      "Identity Control Plane as unifying abstraction layer",
+      "Zero-knowledge proofs for privacy-preserving authentication",
+      "Credential broker pattern for decoupling identity from access"
+    ],
+    "technical_approaches": [
+      "SPIFFE (Secure Production Identity Framework for Everyone)",
+      "OAuth 2.0 Token Exchange and Workload Identity Federation",
+      "OpenID Connect (OIDC) for workload authentication",
+      "Decentralized Identifiers (W3C DIDs)",
+      "Verifiable Credentials (W3C VCs)",
+      "Zero-Knowledge Proofs (zk-SNARKs)",
+      "Policy engines (OPA, Cedar)",
+      "Credential brokers for just-in-time token issuance",
+      "Vector commitments for flexible credential models",
+      "Blockchain-based credential status management"
+    ],
+    "compliance_frameworks_mentioned": [
+      "FedRAMP",
+      "SLSA (Supply-chain Levels for Software Artifacts)",
+      "DevSecOps standards",
+      "Zero Trust Architecture (ZTA)"
+    ]
+  },
+  "download_statistics": {
+    "total_download_size_mb": 19.136,
+    "average_paper_size_mb": 1.914,
+    "largest_paper_mb": 8.576,
+    "smallest_paper_mb": 0.310
+  },
+  "research_notes": {
+    "quality_assessment": "All papers are peer-reviewed or submitted to arXiv in 2024-2025, representing cutting-edge research in NHI credential lifecycle management.",
+    "geographical_distribution": "Limited institutional affiliation data available. OpenID Foundation whitepaper indicates international collaboration.",
+    "practical_implementations": "Multiple papers include proof-of-concept implementations (Agentic JWT, AI Agents with DID/VC, IRAC scheme)",
+    "standards_alignment": "Strong alignment with W3C standards (DIDs, VCs), IETF specifications (WIMSE), and OpenID Foundation protocols",
+    "gap_analysis": "Limited papers specifically from US government institutions (e.g., NIST, DoD). Most research appears to be from independent researchers or industry whitepapers."
+  }
+}

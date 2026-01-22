@@ -1,0 +1,287 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20595v1",
+    "arxiv_id": "2512.20595v1",
+    "title": "Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs",
+    "summary": "We introduce Cube Bench, a Rubik's-cube benchmark for evaluating spatial and sequential reasoning in multimodal large language models (MLLMs). The benchmark decomposes performance into five skills: (i) reconstructing cube faces from images and text, (ii) choosing the optimal next move, (iii) predicting the outcome of a candidate move without applying it, (iv) executing multi-step plans while recovering from mistakes, and (v) detecting and revising one's own errors. Using a shared set of scrambled cube states, identical prompts and parsers, and a single distance-to-solved metric, we compare recent MLLMs side by side as a function of scramble depth. Across seven MLLMs, accuracy drops sharply with depth; once a trajectory stalls or diverges, models rarely recover, and high face-reconstruction accuracy does not guarantee competent action selection or multi-step execution. A pronounced closed- vs open-source gap emerges: the strongest closed model leads on both single-step perception tasks and multi-step control tasks, while open-weight models cluster near chance on the hardest settings; yet even the best MLLM degrades at higher cube complexity. A simple self-correction via reflective thinking yields modest gains but can also introduce overthinking. Cube Bench offers a compact, reproducible probe of sequential spatial reasoning in MLLMs.",
+    "published": "2025-12-23T18:43:05Z",
+    "updated": "2025-12-23T18:43:05Z",
+    "authors": [
+      "Dhruv Anand",
+      "Ehsan Shareghi"
+    ],
+    "affiliations": [],
+    "first_author": "Dhruv Anand",
+    "pdf_url": "https://arxiv.org/pdf/2512.20595v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20594v1",
+    "arxiv_id": "2512.20594v1",
+    "title": "The Sensitivity of PUEO to Cosmogenic Neutrinos and Exotic Physics Scenarios",
+    "summary": "Several observatories designed to detect ultrahigh-energy neutrinos are planned for the next decade. The most imminent of these is the Payload for Ultrahigh Energy Observations (PUEO), a long-duration balloon-based experiment that will provide unprecedented sensitivity to neutrinos with energies in the range of ~ 1 - 1000 EeV. In this work, we assess the scientific reach of PUEO. In particular, we evaluate the sensitivity of this observatory to cosmogenic neutrinos and, in turn, to the proton fraction of the ultrahigh-energy cosmic-ray spectrum. We also consider the potential of PUEO to probe scenarios in which neutrinos are produced through the decays of ultraheavy dark matter particles or are radiated from cosmic strings. We find that PUEO will be able to constrain the proton composition of ultrahigh-energy cosmic rays in scenarios that feature very strong source evolution and in which protons are accelerated to extremely high energies. Although gamma-ray observations are generally more sensitive to decaying particles than neutrino observations, PUEO is expected to set the strongest neutrino-detector constraints above 10^19 eV. PUEO will also provide the strongest constraints on some models of cosmic strings.",
+    "published": "2025-12-23T18:42:19Z",
+    "updated": "2025-12-23T18:42:19Z",
+    "authors": [
+      "Angelina Sherman",
+      "Ke Fang",
+      "Dan Hooper"
+    ],
+    "affiliations": [],
+    "first_author": "Angelina Sherman",
+    "pdf_url": "https://arxiv.org/pdf/2512.20594v1",
+    "primary_category": "astro-ph.HE",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20586v1",
+    "arxiv_id": "2512.20586v1",
+    "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+    "summary": "Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metastases treated with 18 Gy single-fraction SRS. We developed SAGE (Secure Agent for Generative Dose Expertise), an LLM-based planning agent for automated SRS treatment planning. Two variants generated plans for each case: one using a non-reasoning model, one using a reasoning model. The reasoning variant showed comparable plan dosimetry relative to human planners on primary endpoints (PTV coverage, maximum dose, conformity index, gradient index; all p > 0.21) while reducing cochlear dose below human baselines (p = 0.022). When prompted to improve conformity, the reasoning model demonstrated systematic planning behaviors including prospective constraint verification (457 instances) and trade-off deliberation (609 instances), while the standard model exhibited none of these deliberative processes (0 and 7 instances, respectively). Content analysis revealed that constraint verification and causal explanation concentrated in the reasoning agent. The optimization traces serve as auditable logs, offering a path toward transparent automated planning.",
+    "published": "2025-12-23T18:32:17Z",
+    "updated": "2025-12-23T18:32:17Z",
+    "authors": [
+      "Humza Nusrat",
+      "Luke Francisco",
+      "Bing Luo",
+      "Hassan Bagher-Ebadian",
+      "Joshua Kim",
+      "Karen Chin-Snyder",
+      "Salim Siddiqui",
+      "Mira Shah",
+      "Eric Mellon",
+      "Mohammad Ghassemi",
+      "Anthony Doemer",
+      "Benjamin Movsas",
+      "Kundan Thind"
+    ],
+    "affiliations": [],
+    "first_author": "Humza Nusrat",
+    "pdf_url": "https://arxiv.org/pdf/2512.20586v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20583v1",
+    "arxiv_id": "2512.20583v1",
+    "title": "Making Sense of Private Advertising: A Principled Approach to a Complex Ecosystem",
+    "summary": "In this work, we model the end-to-end pipeline of the advertising ecosystem, allowing us to identify two main issues with the current trajectory of private advertising proposals. First, prior work has largely considered ad targeting and engagement metrics individually rather than in composition. This has resulted in privacy notions that, while reasonable for each protocol in isolation, fail to compose to a natural notion of privacy for the ecosystem as a whole, permitting advertisers to extract new information about the audience of their advertisements. The second issue serves to explain the first: we prove that \\textit{perfect} privacy is impossible for any, even minimally, useful advertising ecosystem, due to the advertisers' expectation of conducting market research on the results.   Having demonstrated that leakage is inherent in advertising, we re-examine what privacy could realistically mean in advertising, building on the well-established notion of \\textit{sensitive} data in a specific context. We identify that fundamentally new approaches are needed when designing privacy-preserving advertising subsystems in order to ensure that the privacy properties of the end-to-end advertising system are well aligned with people's privacy desires.",
+    "published": "2025-12-23T18:28:24Z",
+    "updated": "2025-12-23T18:28:24Z",
+    "authors": [
+      "Kyle Hogan",
+      "Alishah Chator",
+      "Gabriel Kaptchuk",
+      "Mayank Varia",
+      "Srinivas Devadas"
+    ],
+    "affiliations": [],
+    "first_author": "Kyle Hogan",
+    "pdf_url": "https://arxiv.org/pdf/2512.20583v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20581v1",
+    "arxiv_id": "2512.20581v1",
+    "title": "MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles with chemical probing",
+    "summary": "The function of RNA molecules is deeply related to their secondary structure, which determines which nucleobases are accessible for pairing. Most RNA molecules however function through dynamic and heterogeneous structural ensembles. Chemical probing methods (e.g., DMS probing) rely on selective chemical modification of accessible RNA nucleotides to infer base-pairing status, yet the resulting nucleotide-resolution data represent ensemble averages over dynamic RNA conformations. We present MERGE-RNA, a unified, physics-based framework that explicitly models the full experimental pipeline, from the thermodynamics of probe binding to the mutational profiling readout. By integrating measurements across probe concentrations and replicates, our model learns a small set of transferable and interpretable parameters together with minimal sequence-specific soft constraints. This enables the prediction of secondary structure ensembles that best explain the data and the detection of suboptmal structures involved in dynamic processes. We validate MERGE-RNA on diverse RNAs, showing that it achieves strong structural accuracy while preserving essential conformational heterogeneity. In a designed RNA for which we report new DMS data, MERGE-RNA detects transient intermediate states associated with strand displacement, dynamics that remain invisible to traditional methods.",
+    "published": "2025-12-23T18:26:57Z",
+    "updated": "2025-12-23T18:26:57Z",
+    "authors": [
+      "Giuseppe Sacco",
+      "Jianhui Li",
+      "Redmond P. Smyth",
+      "Guido Sanguinetti",
+      "Giovanni Bussi"
+    ],
+    "affiliations": [],
+    "first_author": "Giuseppe Sacco",
+    "pdf_url": "https://arxiv.org/pdf/2512.20581v1",
+    "primary_category": "q-bio.BM",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20579v1",
+    "arxiv_id": "2512.20579v1",
+    "title": "Spin-induced quadrupole moment based test for eccentric binaries",
+    "summary": "The spin-induced quadrupole moment-based test of black hole nature is routinely used to probe the true nature of detected binary signals, assuming a circular orbit. We extend the applicability of the method to binaries in eccentric orbits. Considering simulated signals of varying masses, spins, and signal strengths, we demonstrate how the systematic errors resulting from neglecting orbital eccentricity compare with the statistical errors, using a semi-analytic Fisher matrix-based formalism that accounts for both current and future detectors. Further, we quantify the systematic errors by developing a Bayesian inference framework for the current detector network. The inspiral-only aligned spin gravitational wave waveform model for eccentric binaries, TaylorF2Ecc, is employed. For the current detector network, neglecting an initial eccentricity of $e_0^{\\rm inj}=0.1$ defined at $20\\,\\mathrm {Hz} $ can lead to a serious bias in binary parameter inference. Notably, a nearly equal-mass, moderately spinning binary black hole in an eccentric orbit can be identified as a non-black hole binary with extreme spins and asymmetric masses. We demonstrate the criticality of biased estimates that may arise when neglecting the orbital eccentricity while performing tests of black hole nature and discuss prospects.",
+    "published": "2025-12-23T18:26:37Z",
+    "updated": "2025-12-23T18:26:37Z",
+    "authors": [
+      "N. V. Krishnendu"
+    ],
+    "affiliations": [],
+    "first_author": "N. V. Krishnendu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20579v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20578v1",
+    "arxiv_id": "2512.20578v1",
+    "title": "Can LLMs Predict Their Own Failures? Self-Awareness via Internal Circuits",
+    "summary": "Large language models (LLMs) generate fluent and complex outputs but often fail to recognize their own mistakes and hallucinations. Existing approaches typically rely on external judges, multi-sample consistency, or text-based self-critique, which incur additional compute or correlate weakly with true correctness. We ask: can LLMs predict their own failures by inspecting internal states during inference? We introduce Gnosis, a lightweight self-awareness mechanism that enables frozen LLMs to perform intrinsic self-verification by decoding signals from hidden states and attention patterns. Gnosis passively observes internal traces, compresses them into fixed-budget descriptors, and predicts correctness with negligible inference cost, adding only ~5M parameters and operating independently of sequence length. Across math reasoning, open-domain question answering, and academic knowledge benchmarks, and over frozen backbones ranging from 1.7B to 20B parameters, Gnosis consistently outperforms strong internal baselines and large external judges in both accuracy and calibration. Moreover, it generalizes zero-shot to partial generations, enabling early detection of failing trajectories and compute-aware control. These results show that reliable correctness cues are intrinsic to generation process and can be extracted efficiently without external supervision.",
+    "published": "2025-12-23T18:21:32Z",
+    "updated": "2025-12-23T18:21:32Z",
+    "authors": [
+      "Amirhosein Ghasemabadi",
+      "Di Niu"
+    ],
+    "affiliations": [],
+    "first_author": "Amirhosein Ghasemabadi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20578v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20543v1",
+    "arxiv_id": "2512.20543v1",
+    "title": "Precision spectroscopy of the 2S-$n$P transitions in atomic hydrogen",
+    "summary": "Precision spectroscopy of atomic hydrogen is an important way to test bound-state quantum electrodynamics (QED), one of the building blocks of the Standard Model. In its simplest form, such a test consists of the comparison of a measured transition frequency with its QED prediction, which can be calculated with very high precision for the hydrogen atom. However, these calculations require some input in the form of physical constants, such as the Rydberg constant $R_\\infty$ and the proton charge radius $r_\\mathrm{p}$, both of which are currently determined to a large degree by hydrogen spectroscopy itself. Therefore, the frequency of at least three different transitions needs to be measured in order to test QED. Equivalently, a comparison of the values of $R_\\infty$ and $r_\\mathrm{p}$ determined from measurements of different transitions constitutes a test of QED.  To this end, laser spectroscopy of optical 2S-$n$P transitions has been performed in this work. As these transitions are one-photon transitions, they are affected by a different set of systematic effects than the two-photon transitions on which most other spectroscopic measurements of hydrogen are based. In order to contribute to the test of QED, their transition frequencies must be determined with a relative uncertainty on the order of one part in $10^{12}$, corresponding to approximately 1 kHz in absolute terms. This is in turn approximately a factor of 10000 smaller than the relatively broad natural linewidth of the 2S-$n$P transitions, and a successful measurement requires both a very large experimental signal-to-noise ratio and a detailed theoretical understanding of the line shape of the observed resonance.  The 2S-$n$P transitions were probed on a cryogenic beam of hydrogen atoms, which were optically excited to the metastable 2S level. The atomic beam was crossed at right angles with counter-propagating spectroscopy laser beams, which further excited the atoms to the $n$P level. The fluorescence from the subsequent rapid spontaneous decay served as experimental signal. The excitation with two counter-propagating beams led to two Doppler shifts of equal magnitude, but opposite sign, which thus canceled each other out. A velocity-resolved detection was used to determine any residual Doppler shifts, which could be excluded within the measurement uncertainty for both of the measurements discussed below.  In a first experiment, the 2S-4P transition was probed. Quantum interference of neighboring atomic resonances produced subtle distortions of the line shape, which were found to be significant because of the very large resolution relative to the linewidth. The line shifts caused by the distortions were directly observed and could be removed by use of a line shape model based on perturbative calculations. With this, the transition frequency was determined with a relative uncertainty of 4 parts in $10^{12}$. In combination with the very precisely measured 1S-2S transition frequency, this allowed the, at the time, most precise determination of $R_\\infty$ and $r_\\mathrm{p}$ from atomic hydrogen. Moreover, good agreement was found with the much more precise value of $r_\\mathrm{p}$ extracted from spectroscopy of muonic hydrogen, which had been in significant disagreement with previous data from (electronic) hydrogen, causing concern about the validity of QED. This result has since been confirmed by other experiments. The 2S-4P measurement is treated in the appendix of this thesis.  The 2S-4P measurement, despite its large signal-to-noise ratio, was limited by counting statistics. To improve precision, a transition with a narrower linewidth and an improved experimental signal was necessary. Hence, the study of the 2S-6P transition, which offers a three times smaller natural linewidth, was begun. The atomic beam apparatus was upgraded, resulting in a corresponding decrease of the experimentally observed linewidth, and a close to an order of magnitude larger flux of atoms in the low-velocity tail of the atomic beam. Together with a detector redesign, this led to an up to 16 times larger signal than for the 2S-4P measurement, opening the path to increased precision. The Doppler-shift suppression was also rebuilt to support such precision, including a fiber collimator developed for this purpose, which provides high-quality spectroscopy beams at the new transition wavelength of 410 nm.  This enabled a measurement of the 2S-6P transition frequency with a statistical uncertainty of 430 Hz, five times lower than for the 2S-4P measurement and corresponding to a suppression of the Doppler shift by six orders of magnitude. At this level of precision, the light force shift from the diffraction of atoms at the light grating formed by the counter-propagating spectroscopy beams becomes significant. This light force shift was directly observed for the first time for the 2S-$n$P transitions and found to be well-described by a model derived for this purpose. The size of all other systematic effects, except the very precisely known recoil shift, is estimated to be below 500 Hz each. The blind data analysis is ongoing at the time of writing and thus no transition frequencies can yet be given. However, a preliminary analysis suggests a five-fold improvement in the determination of $R_\\infty$ and $r_\\mathrm{p}$ as compared to the 2S-4P measurement, and a two-fold improvement over the currently most precise determination from atomic hydrogen. This places the uncertainty of the determined value of $r_\\mathrm{p}$ within a factor of five of that of the muonic value. The 2S-6P measurement is treated in the main text of this thesis.",
+    "published": "2025-12-23T17:35:38Z",
+    "updated": "2025-12-23T17:35:38Z",
+    "authors": [
+      "Lothar Maisenbacher"
+    ],
+    "affiliations": [],
+    "first_author": "Lothar Maisenbacher",
+    "pdf_url": "https://arxiv.org/pdf/2512.20543v1",
+    "primary_category": "physics.atom-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20535v1",
+    "arxiv_id": "2512.20535v1",
+    "title": "ARBITER: AI-Driven Filtering for Role-Based Access Control",
+    "summary": "Role-Based Access Control (RBAC) struggles to adapt to dynamic enterprise environments with documents that contain information that cannot be disclosed to specific user groups. As these documents are used by LLM-driven systems (e.g., in RAG) the problem is exacerbated as LLMs can leak sensitive data due to prompt truncation, classification errors, or loss of system context. We introduce \\our, a system designed to provide RBAC in RAG systems. \\our implements layered input/output validation, role-aware retrieval, and post-generation fact-checking. Unlike traditional RBAC approaches that rely on fine-tuned classifiers, \\our uses LLMs operating in few-shot settings with prompt-based steering for rapid deployment and role updates. We evaluate the approach on 389 queries using a synthetic dataset. Experimental results show 85\\% accuracy and 89\\% F1-score in query filtering, close to traditional RBAC solutions. Results suggest that practical RBAC deployment on RAG systems is approaching the maturity level needed for dynamic enterprise environments.",
+    "published": "2025-12-23T17:25:51Z",
+    "updated": "2025-12-23T17:25:51Z",
+    "authors": [
+      "Michele Lorenzo",
+      "Idilio Drago",
+      "Dario Salvadori",
+      "Fabio Romolo Vayr"
+    ],
+    "affiliations": [],
+    "first_author": "Michele Lorenzo",
+    "pdf_url": "https://arxiv.org/pdf/2512.20535v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20515v1",
+    "arxiv_id": "2512.20515v1",
+    "title": "Modeling Bank Systemic Risk of Emerging Markets under Geopolitical Shocks: Empirical Evidence from BRICS Countries",
+    "summary": "The growing economic influence of the BRICS nations requires risk models that capture complex, long-term dynamics. This paper introduces the Bank Risk Interlinkage with Dynamic Graph and Event Simulations (BRIDGES) framework, which analyzes systemic risk based on the level of information complexity (zero-order, first-order, and second-order). BRIDGES utilizes the Dynamic Time Warping (DTW) distance to construct a dynamic network for 551 BRICS banks based on their strategic similarity, using zero-order information such as annual balance sheet data from 2008 to 2024. It then employs first-order information, including trends in risk ratios, to detect shifts in banks' behavior. A Temporal Graph Neural Network (TGNN), as the core of BRIDGES, is deployed to learn network evolutions and detect second-order information, such as anomalous changes in the structural relationships of the bank network. To measure the impact of anomalous changes on network stability, BRIDGES performs Agent-Based Model (ABM) simulations to assess the banking system's resilience to internal financial failure and external geopolitical shocks at the individual country level and across BRICS nations. Simulation results show that the failure of the largest institutions causes more systemic damage than the failure of the financially vulnerable or dynamically anomalous ones, driven by powerful panic effects. Compared to this \"too big to fail\" scenario, a geopolitical shock with correlated country-wide propagation causes more destructive systemic damage, leading to a near-total systemic collapse. It suggests that the primary threats to BRICS financial stability are second-order panic and large-scale geopolitical shocks, which traditional risk analysis models might not detect.",
+    "published": "2025-12-23T17:03:04Z",
+    "updated": "2025-12-23T17:03:04Z",
+    "authors": [
+      "Haibo Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Haibo Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20515v1",
+    "primary_category": "q-fin.CP",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20501v1",
+    "arxiv_id": "2512.20501v1",
+    "title": "Bridging Modalities and Transferring Knowledge: Enhanced Multimodal Understanding and Recognition",
+    "summary": "This manuscript explores multimodal alignment, translation, fusion, and transference to enhance machine understanding of complex inputs. We organize the work into five chapters, each addressing unique challenges in multimodal machine learning.   Chapter 3 introduces Spatial-Reasoning Bert for translating text-based spatial relations into 2D arrangements between clip-arts. This enables effective decoding of spatial language into visual representations, paving the way for automated scene generation aligned with human spatial understanding.   Chapter 4 presents a method for translating medical texts into specific 3D locations within an anatomical atlas. We introduce a loss function leveraging spatial co-occurrences of medical terms to create interpretable mappings, significantly enhancing medical text navigability.   Chapter 5 tackles translating structured text into canonical facts within knowledge graphs. We develop a benchmark for linking natural language to entities and predicates, addressing ambiguities in text extraction to provide clearer, actionable insights.   Chapter 6 explores multimodal fusion methods for compositional action recognition. We propose a method fusing video frames and object detection representations, improving recognition robustness and accuracy.   Chapter 7 investigates multimodal knowledge transference for egocentric action recognition. We demonstrate how multimodal knowledge distillation enables RGB-only models to mimic multimodal fusion-based capabilities, reducing computational requirements while maintaining performance.   These contributions advance methodologies for spatial language understanding, medical text interpretation, knowledge graph enrichment, and action recognition, enhancing computational systems' ability to process complex, multimodal inputs across diverse applications.",
+    "published": "2025-12-23T16:46:58Z",
+    "updated": "2025-12-23T16:46:58Z",
+    "authors": [
+      "Gorjan Radevski"
+    ],
+    "affiliations": [],
+    "first_author": "Gorjan Radevski",
+    "pdf_url": "https://arxiv.org/pdf/2512.20501v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20489v1",
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23T16:31:12Z",
+    "updated": "2025-12-23T16:31:12Z",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "affiliations": [],
+    "first_author": " Akta\u015f",
+    "pdf_url": "https://arxiv.org/pdf/2512.20489v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20487v1",
+    "arxiv_id": "2512.20487v1",
+    "title": "Multi-temporal Adaptive Red-Green-Blue and Long-Wave Infrared Fusion for You Only Look Once-Based Landmine Detection from Unmanned Aerial Systems",
+    "summary": "Landmines remain a persistent humanitarian threat, with 110 million actively deployed mines across 60 countries, claiming 26,000 casualties annually. This research evaluates adaptive Red-Green-Blue (RGB) and Long-Wave Infrared (LWIR) fusion for Unmanned Aerial Systems (UAS)-based detection of surface-laid landmines, leveraging the thermal contrast between the ordnance and the surrounding soil to enhance feature extraction. Using You Only Look Once (YOLO) architectures (v8, v10, v11) across 114 test images, generating 35,640 model-condition evaluations, YOLOv11 achieved optimal performance (86.8% mAP), with 10 to 30% thermal fusion at 5 to 10m altitude identified as the optimal detection parameters. A complementary architectural comparison revealed that while RF-DETR achieved the highest accuracy (69.2% mAP), followed by Faster R-CNN (67.6%), YOLOv11 (64.2%), and RetinaNet (50.2%), YOLOv11 trained 17.7 times faster than the transformer-based RF-DETR (41 minutes versus 12 hours), presenting a critical accuracy-efficiency tradeoff for operational deployment. Aggregated multi-temporal training datasets outperformed season-specific approaches by 1.8 to 9.6%, suggesting that models benefit from exposure to diverse thermal conditions. Anti-Tank (AT) mines achieved 61.9% detection accuracy, compared with 19.2% for Anti-Personnel (AP) mines, reflecting both the size differential and thermal-mass differences between these ordnance classes. As this research examined surface-laid mines where thermal contrast is maximized, future research should quantify thermal contrast effects for mines buried at varying depths across heterogeneous soil types.",
+    "published": "2025-12-23T16:26:47Z",
+    "updated": "2025-12-23T16:26:47Z",
+    "authors": [
+      "James E. Gallagher",
+      "Edward J. Oughton",
+      "Jana Kosecka"
+    ],
+    "affiliations": [],
+    "first_author": "James E. Gallagher",
+    "pdf_url": "https://arxiv.org/pdf/2512.20487v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20482v1",
+    "arxiv_id": "2512.20482v1",
+    "title": "SweRank+: Multilingual, Multi-Turn Code Ranking for Software Issue Localization",
+    "summary": "Maintaining large-scale, multilingual codebases hinges on accurately localizing issues, which requires mapping natural-language error descriptions to the relevant functions that need to be modified. However, existing ranking approaches are often Python-centric and perform a single-pass search over the codebase. This work introduces SweRank+, a framework that couples SweRankMulti, a cross-lingual code ranking tool, with SweRankAgent, an agentic search setup, for iterative, multi-turn reasoning over the code repository. SweRankMulti comprises a code embedding retriever and a listwise LLM reranker, and is trained using a carefully curated large-scale issue localization dataset spanning multiple popular programming languages. SweRankAgent adopts an agentic search loop that moves beyond single-shot localization with a memory buffer to reason and accumulate relevant localization candidates over multiple turns. Our experiments on issue localization benchmarks spanning various languages demonstrate new state-of-the-art performance with SweRankMulti, while SweRankAgent further improves localization over single-pass ranking.",
+    "published": "2025-12-23T16:18:39Z",
+    "updated": "2025-12-23T16:18:39Z",
+    "authors": [
+      "Revanth Gangi Reddy",
+      "Ye Liu",
+      "Wenting Zhao",
+      "JaeHyeok Doo",
+      "Tarun Suresh",
+      "Daniel Lee",
+      "Caiming Xiong",
+      "Yingbo Zhou",
+      "Semih Yavuz",
+      "Shafiq Joty"
+    ],
+    "affiliations": [],
+    "first_author": "Revanth Gangi Reddy",
+    "pdf_url": "https://arxiv.org/pdf/2512.20482v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20475v1",
+    "arxiv_id": "2512.20475v1",
+    "title": "Drift-Corrected Monocular VIO and Perception-Aware Planning for Autonomous Drone Racing",
+    "summary": "The Abu Dhabi Autonomous Racing League(A2RL) x Drone Champions League competition(DCL) requires teams to perform high-speed autonomous drone racing using only a single camera and a low-quality inertial measurement unit -- a minimal sensor set that mirrors expert human drone racing pilots. This sensor limitation makes the system susceptible to drift from Visual-Inertial Odometry (VIO), particularly during long and fast flights with aggressive maneuvers. This paper presents the system developed for the championship, which achieved a competitive performance. Our approach corrected VIO drift by fusing its output with global position measurements derived from a YOLO-based gate detector using a Kalman filter. A perception-aware planner generated trajectories that balance speed with the need to keep gates visible for the perception system. The system demonstrated high performance, securing podium finishes across multiple categories: third place in the AI Grand Challenge with top speed of 43.2 km/h, second place in the AI Drag Race with over 59 km/h, and second place in the AI Multi-Drone Race. We detail the complete architecture and present a performance analysis based on experimental data from the competition, contributing our insights on building a successful system for monocular vision-based autonomous drone flight.",
+    "published": "2025-12-23T16:12:10Z",
+    "updated": "2025-12-23T16:12:10Z",
+    "authors": [
+      "Maulana Bisyir Azhari",
+      "Donghun Han",
+      "Je In You",
+      "Sungjun Park",
+      "David Hyunchul Shim"
+    ],
+    "affiliations": [],
+    "first_author": "Maulana Bisyir Azhari",
+    "pdf_url": "https://arxiv.org/pdf/2512.20475v1",
+    "primary_category": "cs.RO",
+    "relevance_score": 10.0
+  }
+]

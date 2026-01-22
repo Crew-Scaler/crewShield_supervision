@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2501.07555v1",
+  "title": "Dynamic Prototype Rehearsal for Continual Learning in ECG Arrhythmia Detection",
+  "authors": [
+    "Sana Rahmani",
+    "Reetam Chatterjee",
+    "Ali Etemad",
+    "Javad Hashemi"
+  ],
+  "published": "2025-01-13T18:37:10Z",
+  "url": "http://arxiv.org/abs/2501.07555v1",
+  "pdf_url": "http://arxiv.org/pdf/2501.07555v1.pdf",
+  "relevance_score": 85,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Continual Learning (CL) methods aim to learn from a sequence of tasks while avoiding the challenge of forgetting previous knowledge. We present DREAM-CL, a novel CL method for ECG arrhythmia detection that introduces dynamic prototype rehearsal memory. DREAM-CL selects representative prototypes by clustering data based on learning behavior during each training session. Within each cluster, we apply a smooth sorting operation that ranks samples by training difficulty, compressing extreme values a"
+}

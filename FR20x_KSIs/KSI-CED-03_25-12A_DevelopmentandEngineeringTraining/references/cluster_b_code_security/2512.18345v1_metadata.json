@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.18345v1",
+  "title": "Theodosian: A Deep Dive into Memory-Hierarchy-Centric FHE Acceleration",
+  "authors": [
+    "Wonseok Choi",
+    "Hyunah Yu",
+    "Jongmin Kim",
+    "Hyesung Ji",
+    "Jaiyoung Park",
+    "Jung Ho Ahn"
+  ],
+  "published": "2025-12-20T12:18:29Z",
+  "url": "http://arxiv.org/abs/2512.18345v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.18345v1.pdf",
+  "relevance_score": 66,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Fully homomorphic encryption (FHE) enables secure computation on encrypted data, mitigating privacy concerns in cloud and edge environments. However, due to its high compute and memory demands, extensive acceleration research has been pursued across diverse hardware platforms, especially GPUs. In this paper, we perform a microarchitectural analysis of CKKS, a popular FHE scheme, on modern GPUs. We focus on on-chip cache behavior, and show that the dominant kernels remain bound by memory bandwidt"
+}

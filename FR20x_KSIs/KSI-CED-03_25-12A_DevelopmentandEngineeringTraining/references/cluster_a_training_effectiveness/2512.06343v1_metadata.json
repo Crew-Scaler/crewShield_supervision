@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.06343v1",
+  "title": "When Distance Distracts: Representation Distance Bias in BT-Loss for Reward Models",
+  "authors": [
+    "Tong Xie",
+    "Andrew Bai",
+    "Yuanhao Ban",
+    "Yunqi Hong",
+    "Haoyu Li",
+    "Cho-jui Hsieh"
+  ],
+  "published": "2025-12-06T08:15:37Z",
+  "url": "http://arxiv.org/abs/2512.06343v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.06343v1.pdf",
+  "relevance_score": 62,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Reward models are central to Large Language Model (LLM) alignment within the framework of RLHF. The standard objective used in reward modeling is the Bradley-Terry (BT) loss, which learns from pairwise data consisting of a pair of chosen and rejected responses. In this work, we analyze the per-sample gradient of BT-loss and show that its norm scales with two distinct components: (1) the difference in predicted rewards between chosen and rejected responses, which reflects the prediction error, an"
+}

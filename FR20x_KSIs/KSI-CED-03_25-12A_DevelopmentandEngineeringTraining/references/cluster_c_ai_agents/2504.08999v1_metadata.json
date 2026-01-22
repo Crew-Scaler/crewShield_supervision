@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2504.08999v1",
+  "title": "MCP Bridge: A Lightweight, LLM-Agnostic RESTful Proxy for Model Context Protocol Servers",
+  "authors": [
+    "Arash Ahmadi",
+    "Sarah Sharif",
+    "Yaser M. Banad"
+  ],
+  "published": "2025-04-11T22:19:48Z",
+  "url": "http://arxiv.org/abs/2504.08999v1",
+  "pdf_url": "http://arxiv.org/pdf/2504.08999v1.pdf",
+  "relevance_score": 65,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Large Language Models (LLMs) are increasingly augmented with external tools through standardized interfaces like the Model Context Protocol (MCP). However, current MCP implementations face critical limitations: they typically require local process execution through STDIO transports, making them impractical for resource-constrained environments like mobile devices, web browsers, and edge computing. We present MCP Bridge, a lightweight RESTful proxy that connects to multiple MCP servers and expose"
+}

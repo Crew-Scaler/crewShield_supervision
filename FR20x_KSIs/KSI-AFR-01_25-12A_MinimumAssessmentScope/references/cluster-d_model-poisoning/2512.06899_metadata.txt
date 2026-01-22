@@ -1,0 +1,21 @@
+Title: Patronus: Identifying and Mitigating Transferable Backdoors in Pre-trained Language Models
+
+Authors: Tianhang Zhao, Wei Du, Haodong Zhao, Sufeng Duan, Gongshen Liu
+
+
+Published: 2025-12-07
+
+Query ID: D-1.7
+
+Relevance Color: Green
+Relevance Score: 0.89
+
+Pages: 26
+
+URL: https://arxiv.org/pdf/2512.06899.pdf
+
+Abstract:
+Transferable backdoors pose a severe threat to the Pre-trained Language Models (PLMs) supply chain, yet defensive research remains nascent, primarily relying on detecting anomalies in the output feature space. We identify a critical flaw that fine-tuning on downstream tasks inevitably modifies model parameters, shifting the output distribution and rendering pre-computed defense ineffective. To address this, we propose Patronus, a novel framework that use input-side invariance of triggers against...
+
+Relevance Justification:
+Discusses backdoor attacks in ML models; Covers AI supply chain security; Analyzes trigger-based attacks

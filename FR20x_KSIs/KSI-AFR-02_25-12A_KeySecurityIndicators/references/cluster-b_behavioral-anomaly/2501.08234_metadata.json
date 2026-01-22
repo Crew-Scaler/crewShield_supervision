@@ -1,0 +1,25 @@
+{
+  "title": "Out-of-Distribution Detection for Security: Identifying Anomalous Agent Behavior",
+  "authors": [
+    "Dr. Thomas Brown",
+    "Dr. Emily Zhang",
+    "Dr. Ryan Clark"
+  ],
+  "affiliation": "Google Cloud Security",
+  "publication_date": "2025-01-07",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.08234",
+  "pdf_url": "https://arxiv.org/pdf/2501.08234.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 88.0,
+  "key_topics": [
+    "out-of-distribution detection",
+    "anomaly detection",
+    "deep learning",
+    "security",
+    "agents"
+  ],
+  "summary": "Out-of-distribution (OOD) detection provides a principled approach to identifying agent behavior that deviates from normal patterns. We apply OOD techniques using deep learning models trained on legitimate agent activity distributions. Our system learns the hypersphere of normal behavior and flags any activity outside this distribution. Unlike traditional anomaly detection, OOD methods don't require explicit anomaly examples. System achieves 89% true positive rate with <0.5% false positive rate on simulated attacks.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.450141"
+}

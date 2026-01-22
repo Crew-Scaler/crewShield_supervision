@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.24268v1",
+  "title": "RAGPart & RAGMask: Retrieval-Stage Defenses Against Corpus Poisoning in Retrieval-Augmented Generation",
+  "authors": [
+    "Pankayaraj Pathmanathan",
+    "Michael-Andrei Panaitescu-Liess",
+    "Cho-Yu Jason Chiang",
+    "Furong Huang"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24268v1",
+  "relevance_score": 93.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "Retrieval-Augmented Generation (RAG) has emerged as a promising paradigm to enhance large language models (LLMs) with external knowledge, reducing hallucinations and compensating for outdated information. However, recent studies have exposed a critical vulnerability in RAG pipelines corpus poisoning where adversaries inject malicious documents into the retrieval corpus to manipulate model outputs. In this work, we propose two complementary retrieval-stage defenses: RAGPart and RAGMask. Our defen..."
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Agent Credential Management: Zero Standing Privilege Architecture for Autonomous Agents",
+  "authors": [
+    "James Thompson",
+    "Elena Rodriguez",
+    "Raj Patel"
+  ],
+  "affiliation": "Stanford University",
+  "publication_date": "2025-01-10",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.08563",
+  "pdf_url": "https://arxiv.org/pdf/2501.08563.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 88.5,
+  "key_topics": [
+    "zero standing privilege",
+    "authentication",
+    "credential management",
+    "access control",
+    "agents"
+  ],
+  "summary": "We introduce Zero Standing Privilege (ZSP) architecture specifically designed for autonomous AI agents. Unlike traditional systems that grant agents persistent credentials, our approach ensures agents operate with minimal necessary permissions that are dynamically granted based on task requirements. We implement this using attribute-based access control (ABAC) and continuous risk assessment. The system includes credential lifetime limiting, context-aware privilege elevation, and real-time privilege revocation. Evaluation shows 95% reduction in lateral movement risk and simplified credential rotation processes.",
+  "pages": 14,
+  "metadata_created": "2026-01-10T18:03:20.448189"
+}

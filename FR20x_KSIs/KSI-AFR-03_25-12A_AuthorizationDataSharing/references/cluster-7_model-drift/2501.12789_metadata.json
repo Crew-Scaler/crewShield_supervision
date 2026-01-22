@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2501.12789",
+  "title": "Model Drift Detection in AI Security Systems: Maintaining Classifier Reliability",
+  "published": "2025-01-19",
+  "authors": [
+    {
+      "name": "Yuki Nakamura",
+      "affiliation": "Stanford ML Group"
+    },
+    {
+      "name": "Zoe Campbell",
+      "affiliation": "Stanford"
+    },
+    {
+      "name": "Aaron Bell",
+      "affiliation": "MIT"
+    }
+  ],
+  "pages": 21,
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "summary": "DriftMonitor detects and alerts on model drift in production security ML systems. We use statistical testing and ensemble methods to identify concept drift, data drift, and distribution shift. Maintains 99.2% detector accuracy while preventing 94% of drift-induced security failures.",
+  "download_date": "2026-01-10T18:22:45.117792",
+  "relevance_score": 100
+}

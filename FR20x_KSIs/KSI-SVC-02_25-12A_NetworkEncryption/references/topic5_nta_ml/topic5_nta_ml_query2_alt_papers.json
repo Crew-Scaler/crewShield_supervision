@@ -1,0 +1,191 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.01365v1",
+    "arxiv_id": "2512.01365v1",
+    "title": "Modeling Wavelet Transformed Quantum Support Vector for Network Intrusion Detection",
+    "summary": "Network traffic anomaly detection is a critical cybersecurity challenge requiring robust solutions for complex Internet of Things (IoT) environments. We present a novel hybrid quantum-classical framework integrating an enhanced Quantum Support Vector Machine (QSVM) with the Quantum Haar Wavelet Packet Transform (QWPT) for superior anomaly classification under realistic noisy intermediate-scale Quantum conditions. Our methodology employs amplitude-encoded quantum state preparation, multi-level QWPT feature extraction, and behavioral analysis via Shannon Entropy profiling and Chi-square testing. Features are classified using QSVM with fidelity-based quantum kernels optimized through hybrid training with simultaneous perturbation stochastic approximation (SPSA) optimizer. Evaluation under noiseless and depolarizing noise conditions demonstrates exceptional performance: 96.67% accuracy on BoT-IoT and 89.67% on IoT-23 datasets, surpassing quantum autoencoder approaches by over 7 percentage points.",
+    "published": "2025-12-01T07:23:20Z",
+    "updated": "2025-12-01T07:23:20Z",
+    "authors": [
+      "Swati Kumari",
+      "Shiva Raj Pokhrel",
+      "Swathi Chandrasekhar",
+      "Navneet Singh",
+      "Hridoy Sankar Dutta",
+      "Adnan Anwar",
+      "Sutharshan Rajasegarar",
+      "Robin Doss"
+    ],
+    "affiliations": [],
+    "first_author": "Swati Kumari",
+    "pdf_url": "https://arxiv.org/pdf/2512.01365v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.21932v1",
+    "arxiv_id": "2511.21932v1",
+    "title": "Modeling Quantum Autoencoder Trainable Kernel for IoT Anomaly Detection",
+    "summary": "Escalating cyber threats and the high-dimensional complexity of IoT traffic have outpaced classical anomaly detection methods. While deep learning offers improvements, computational bottlenecks limit real-time deployment at scale. We present a quantum autoencoder (QAE) framework that compresses network traffic into discriminative latent representations and employs quantum support vector classification (QSVC) for intrusion detection. Evaluated on three datasets, our approach achieves improved accuracy on ideal simulators and on the IBM Quantum hardware demonstrating practical quantum advantage on current NISQ devices. Crucially, moderate depolarizing noise acts as implicit regularization, stabilizing training and enhancing generalization. This work establishes quantum machine learning as a viable, hardware-ready solution for real-world cybersecurity challenges.",
+    "published": "2025-11-26T21:45:02Z",
+    "updated": "2025-11-26T21:45:02Z",
+    "authors": [
+      "Swathi Chandrasekhar",
+      "Shiva Raj Pokhrel",
+      "Swati Kumari",
+      "Navneet Singh"
+    ],
+    "affiliations": [],
+    "first_author": "Swathi Chandrasekhar",
+    "pdf_url": "https://arxiv.org/pdf/2511.21932v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.07793v1",
+    "arxiv_id": "2511.07793v1",
+    "title": "HybridGuard: Enhancing Minority-Class Intrusion Detection in Dew-Enabled Edge-of-Things Networks",
+    "summary": "Securing Dew-Enabled Edge-of-Things (EoT) networks against sophisticated intrusions is a critical challenge. This paper presents HybridGuard, a framework that integrates machine learning and deep learning to improve intrusion detection. HybridGuard addresses data imbalance through mutual information based feature selection, ensuring that the most relevant features are used to improve detection performance, especially for minority attack classes. The framework leverages Wasserstein Conditional Generative Adversarial Networks with Gradient Penalty (WCGAN-GP) to further reduce class imbalance and enhance detection precision. It adopts a two-phase architecture called DualNetShield to support advanced traffic analysis and anomaly detection, improving the granular identification of threats in complex EoT environments. HybridGuard is evaluated on the UNSW-NB15, CIC-IDS-2017, and IOTID20 datasets, where it demonstrates strong performance across diverse attack scenarios and outperforms existing solutions in adapting to evolving cybersecurity threats. This approach establishes HybridGuard as an effective tool for protecting EoT networks against modern intrusions.",
+    "published": "2025-11-11T03:19:25Z",
+    "updated": "2025-11-11T03:19:25Z",
+    "authors": [
+      "Binayak Kara",
+      "Ujjwal Sahua",
+      "Ciza Thomas",
+      "Jyoti Prakash Sahoo"
+    ],
+    "affiliations": [],
+    "first_author": "Binayak Kara",
+    "pdf_url": "https://arxiv.org/pdf/2511.07793v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.00828v1",
+    "arxiv_id": "2511.00828v1",
+    "title": "Towards Ultra-Low Latency: Binarized Neural Network Architectures for In-Vehicle Network Intrusion Detection",
+    "summary": "The Control Area Network (CAN) protocol is essential for in-vehicle communication, facilitating high-speed data exchange among Electronic Control Units (ECUs). However, its inherent design lacks robust security features, rendering vehicles susceptible to cyberattacks. While recent research has investigated machine learning and deep learning techniques to enhance network security, their practical applicability remains uncertain. This paper presents a lightweight intrusion detection technique based on Binarized Neural Networks (BNNs), which utilizes payload data, message IDs, and CAN message frequencies for effective intrusion detection. Additionally, we develop hybrid binary encoding techniques to integrate non-binary features, such as message IDs and frequencies. The proposed method, namely the BNN framework specifically optimized for in-vehicle intrusion detection combined with hybrid binary quantization techniques for non-payload attributes, demonstrates efficacy in both anomaly detection and multi-class network traffic classification. The system is well-suited for deployment on micro-controllers and Gateway ECUs, aligning with the real-time requirements of CAN bus safety applications.",
+    "published": "2025-11-02T06:47:56Z",
+    "updated": "2025-11-02T06:47:56Z",
+    "authors": [
+      "Huiyao Dong",
+      "Igor Kotenko"
+    ],
+    "affiliations": [],
+    "first_author": "Huiyao Dong",
+    "pdf_url": "https://arxiv.org/pdf/2511.00828v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19037v1",
+    "arxiv_id": "2512.19037v1",
+    "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+    "summary": "The proliferation of IoT devices and their reliance on Wi-Fi networks have introduced significant security vulnerabilities, particularly the KRACK and Kr00k attacks, which exploit weaknesses in WPA2 encryption to intercept and manipulate sensitive data. Traditional IDS using classifiers face challenges such as model overfitting, incomplete feature extraction, and high false positive rates, limiting their effectiveness in real-world deployments. To address these challenges, this study proposes a robust multiclass machine learning based intrusion detection framework. The methodology integrates advanced feature selection techniques to identify critical attributes, mitigating redundancy and enhancing detection accuracy. Two distinct ML architectures are implemented: a baseline classifier pipeline and a stacked ensemble model combining noise injection, Principal Component Analysis (PCA), and meta learning to improve generalization and reduce false positives. Evaluated on the AWID3 data set, the proposed ensemble architecture achieves superior performance, with an accuracy of 98%, precision of 98%, recall of 98%, and a false positive rate of just 2%, outperforming existing state-of-the-art methods. This work demonstrates the efficacy of combining preprocessing strategies with ensemble learning to fortify network security against sophisticated Wi-Fi attacks, offering a scalable and reliable solution for IoT environments. Future directions include real-time deployment and adversarial resilience testing to further enhance the model's adaptability.",
+    "published": "2025-12-22T05:14:26Z",
+    "updated": "2025-12-22T05:14:26Z",
+    "authors": [
+      "Md Minhazul Islam Munna",
+      "Md Mahbubur Rahman",
+      "Jaroslav Frnda",
+      "Muhammad Shahid Anwar",
+      "Alpamis Kutlimuratov"
+    ],
+    "affiliations": [],
+    "first_author": "Md Minhazul Islam Munna",
+    "pdf_url": "https://arxiv.org/pdf/2512.19037v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15286v1",
+    "arxiv_id": "2512.15286v1",
+    "title": "Quantum Machine Learning for Cybersecurity: A Taxonomy and Future Directions",
+    "summary": "The increasing number of cyber threats and rapidly evolving tactics, as well as the high volume of data in recent years, have caused classical machine learning, rules, and signature-based defence strategies to fail, rendering them unable to keep up. An alternative, Quantum Machine Learning (QML), has recently emerged, making use of computations based on quantum mechanics. It offers better encoding and processing of high-dimensional structures for certain problems. This survey provides a comprehensive overview of QML techniques relevant to the domain of security, such as Quantum Neural Networks (QNNs), Quantum Support Vector Machines (QSVMs), Variational Quantum Circuits (VQCs), and Quantum Generative Adversarial Networks (QGANs), and discusses the contributions of this paper in relation to existing research in the field and how it improves over them. It also maps these methods across supervised, unsupervised, and generative learning paradigms, and to core cybersecurity tasks, including intrusion and anomaly detection, malware and botnet classification, and encrypted-traffic analytics. It also discusses their application in the domain of cloud computing security, where QML can enhance secure and scalable operations. Many limitations of QML in the domain of cybersecurity have also been discussed, along with the directions for addressing them.",
+    "published": "2025-12-17T10:39:14Z",
+    "updated": "2025-12-17T10:39:14Z",
+    "authors": [
+      "Siva Sai",
+      "Ishika Goyal",
+      "Shubham Sharma",
+      "Sri Harshita Manuri",
+      "Vinay Chamola",
+      "Rajkumar Buyya"
+    ],
+    "affiliations": [],
+    "first_author": "Siva Sai",
+    "pdf_url": "https://arxiv.org/pdf/2512.15286v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14958v1",
+    "arxiv_id": "2512.14958v1",
+    "title": "Intrusion Detection in Internet of Vehicles Using Machine Learning",
+    "summary": "The Internet of Vehicles (IoV) has evolved modern transportation through enhanced connectivity and intelligent systems. However, this increased connectivity introduces critical vulnerabilities, making vehicles susceptible to cyber-attacks such Denial-ofService (DoS) and message spoofing. This project aims to develop a machine learning-based intrusion detection system to classify malicious Controller Area network (CAN) bus traffic using the CiCIoV2024 benchmark dataset. We analyzed various attack patterns including DoS and spoofing attacks targeting critical vehicle parameters such as Spoofing-GAS - gas pedal position, Spoofing-RPM, Spoofing-Speed, and Spoofing-Steering\\_Wheel. Our initial findings confirm a multi-class classification problem with a clear structural difference between attack types and benign data, providing a strong foundation for machine learning models.",
+    "published": "2025-12-16T22:54:39Z",
+    "updated": "2025-12-16T22:54:39Z",
+    "authors": [
+      "Hop Le",
+      "Izzat Alsmadi"
+    ],
+    "affiliations": [],
+    "first_author": "Hop Le",
+    "pdf_url": "https://arxiv.org/pdf/2512.14958v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13501v1",
+    "arxiv_id": "2512.13501v1",
+    "title": "Behavior-Aware and Generalizable Defense Against Black-Box Adversarial Attacks for ML-Based IDS",
+    "summary": "Machine learning based intrusion detection systems are increasingly targeted by black box adversarial attacks, where attackers craft evasive inputs using indirect feedback such as binary outputs or behavioral signals like response time and resource usage. While several defenses have been proposed, including input transformation, adversarial training, and surrogate detection, they often fall short in practice. Most are tailored to specific attack types, require internal model access, or rely on static mechanisms that fail to generalize across evolving attack strategies. Furthermore, defenses such as input transformation can degrade intrusion detection system performance, making them unsuitable for real time deployment.   To address these limitations, we propose Adaptive Feature Poisoning, a lightweight and proactive defense mechanism designed specifically for realistic black box scenarios. Adaptive Feature Poisoning assumes that probing can occur silently and continuously, and introduces dynamic and context aware perturbations to selected traffic features, corrupting the attacker feedback loop without impacting detection capabilities. The method leverages traffic profiling, change point detection, and adaptive scaling to selectively perturb features that an attacker is likely exploiting, based on observed deviations.   We evaluate Adaptive Feature Poisoning against multiple realistic adversarial attack strategies, including silent probing, transferability based attacks, and decision boundary based attacks. The results demonstrate its ability to confuse attackers, degrade attack effectiveness, and preserve detection performance. By offering a generalizable, attack agnostic, and undetectable defense, Adaptive Feature Poisoning represents a significant step toward practical and robust adversarial resilience in machine learning based intrusion detection systems.",
+    "published": "2025-12-15T16:29:23Z",
+    "updated": "2025-12-15T16:29:23Z",
+    "authors": [
+      "Sabrine Ennaji",
+      "Elhadj Benkhelifa",
+      "Luigi Vincenzo Mancini"
+    ],
+    "affiliations": [],
+    "first_author": "Sabrine Ennaji",
+    "pdf_url": "https://arxiv.org/pdf/2512.13501v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15779v1",
+    "arxiv_id": "2512.15779v1",
+    "title": "Hyperparameter Tuning-Based Optimized Performance Analysis of Machine Learning Algorithms for Network Intrusion Detection",
+    "summary": "Network Intrusion Detection Systems (NIDS) are essential for securing networks by identifying and mitigating unauthorized activities indicative of cyberattacks. As cyber threats grow increasingly sophisticated, NIDS must evolve to detect both emerging threats and deviations from normal behavior. This study explores the application of machine learning (ML) methods to improve the NIDS accuracy through analyzing intricate structures in deep-featured network traffic records. Leveraging the 1999 KDD CUP intrusion dataset as a benchmark, this research evaluates and optimizes several ML algorithms, including Support Vector Machines (SVM), Na\u00efve Bayes variants (MNB, BNB), Random Forest (RF), k-Nearest Neighbors (k-NN), Decision Trees (DT), AdaBoost, XGBoost, Logistic Regression (LR), Ridge Classifier, Passive-Aggressive (PA) Classifier, Rocchio Classifier, Artificial Neural Networks (ANN), and Perceptron (PPN). Initial evaluations without hyper-parameter optimization demonstrated suboptimal performance, highlighting the importance of tuning to enhance classification accuracy. After hyper-parameter optimization using grid and random search techniques, the SVM classifier achieved 99.12% accuracy with a 0.0091 False Alarm Rate (FAR), outperforming its default configuration (98.08% accuracy, 0.0123 FAR) and all other classifiers. This result confirms that SVM accomplishes the highest accuracy among the evaluated classifiers. We validated the effectiveness of all classifiers using a tenfold cross-validation approach, incorporating Recursive Feature Elimination (RFE) for feature selection to enhance the classifiers accuracy and efficiency. Our outcomes indicate that ML classifiers are both adaptable and reliable, contributing to enhanced accuracy in systems for detecting network intrusions.",
+    "published": "2025-12-14T15:02:48Z",
+    "updated": "2025-12-14T15:02:48Z",
+    "authors": [
+      "Sudhanshu Sekhar Tripathy",
+      "Bichitrananda Behera"
+    ],
+    "affiliations": [],
+    "first_author": "Sudhanshu Sekhar Tripathy",
+    "pdf_url": "https://arxiv.org/pdf/2512.15779v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.04590v2",
+    "arxiv_id": "2512.04590v2",
+    "title": "Exploiting ftrace's function_graph Tracer Features for Machine Learning: A Case Study on Encryption Detection",
+    "summary": "This paper proposes using the Linux kernel ftrace framework, particularly the function graph tracer, to generate informative system level data for machine learning (ML) applications. Experiments on a real world encryption detection task demonstrate the efficacy of the proposed features across several learning algorithms. The learner faces the problem of detecting encryption activities across a large dataset of files, using function call traces and graph based features. Empirical results highlight an outstanding accuracy of 99.28 on the task at hand, underscoring the efficacy of features derived from the function graph tracer. The results were further validated in an additional experiment targeting a multilabel classification problem, in which running programs were identified from trace data. This work provides comprehensive methodologies for preprocessing raw trace data and extracting graph based features, offering significant advancements in applying ML to system behavior analysis, program identification, and anomaly detection. By bridging the gap between system tracing and ML, this paper paves the way for innovative solutions in performance monitoring and security analytics.",
+    "published": "2025-12-04T09:09:36Z",
+    "updated": "2025-12-08T10:27:57Z",
+    "authors": [
+      "Kenan Begovic",
+      "Abdulaziz Al-Ali",
+      "Qutaibah Malluhi"
+    ],
+    "affiliations": [],
+    "first_author": "Kenan Begovic",
+    "pdf_url": "https://arxiv.org/pdf/2512.04590v2",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  }
+]

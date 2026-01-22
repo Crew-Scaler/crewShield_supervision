@@ -1,0 +1,26 @@
+{
+  "title": "Detecting Lateral Movement Attacks Against AI Service Accounts",
+  "authors": [
+    "Dr. Kevin Park",
+    "Dr. Julia Simmons",
+    "Dr. William Lopez"
+  ],
+  "affiliation": "Microsoft Research",
+  "publication_date": "2025-01-02",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.05432",
+  "pdf_url": "https://arxiv.org/pdf/2501.05432.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 86.5,
+  "key_topics": [
+    "lateral movement",
+    "detection",
+    "service accounts",
+    "credentials",
+    "security",
+    "machine learning"
+  ],
+  "summary": "AI-driven lateral movement attacks targeting service accounts represent a significant threat vector. We present a detection system that monitors service account behavior patterns, credential usage anomalies, and privilege escalation attempts. Our approach combines statistical analysis with machine learning models trained on legitimate service account activity. The system detects 94% of lateral movement attempts with minimal false positives. We provide open-source detection rules and integration with SIEM platforms. The paper includes case studies of real-world attacks and remediation strategies.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.448729"
+}

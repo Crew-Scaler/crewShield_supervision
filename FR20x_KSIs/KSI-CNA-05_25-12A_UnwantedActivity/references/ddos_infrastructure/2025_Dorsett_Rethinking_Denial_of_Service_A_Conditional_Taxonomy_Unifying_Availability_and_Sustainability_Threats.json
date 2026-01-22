@@ -1,0 +1,19 @@
+{
+  "title": "Rethinking Denial-of-Service: A Conditional Taxonomy Unifying Availability and Sustainability Threats",
+  "authors": [
+    "Mark Dorsett",
+    "Scott Man",
+    "Tim Koussas"
+  ],
+  "published": "2025-08-24T13:23:09+00:00",
+  "arxiv_id": "2508.19283v1",
+  "abstract": "This paper proposes a unified, condition-based framework for classifying both legacy and cloud-era denial-of-service (DoS) attacks. The framework comprises three interrelated models: a formal conditional tree taxonomy, a hierarchical lattice structure based on order theory, and a conceptual Venn diagram. At its core, the taxonomy introduces six observable conditions (C0-C5) grounded in real-world attack behaviours, including source distribution, traffic volume, infrastructure targeting, and financial exploitation. These conditions enable consistent classification of known attacks-such as DoS, DDoS, LDoS, LDDoS, EDoS, DoW, and DDoW, while supporting identification of emerging or hybrid variants. The lattice structure captures the cumulative satisfaction of conditions, allowing hierarchical reasoning across denial attack classes. The Venn diagram highlights conceptual overlaps between availability- and sustainability-focused attacks, improving comparative insight. Together, these models provide a robust analytical lens for threat modeling, mitigation strategy design, and attacker intent classification. The framework is particularly relevant in cloud-native and serverless environments, where sustainability-based attacks are increasingly impactful yet under-recognised. Its extensibility also permits future integration of socio-technical or behavioural dimensions. By offering a structured taxonomy with theoretical grounding and real-world applicability, this work advances denial attack comprehension and equips defenders, researchers, and cloud architects with a shared vocabulary for interpreting and mitigating evolving threat vectors.",
+  "categories": [
+    "cs.CR"
+  ],
+  "relevance_score": 13.5,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2508.19283v1",
+  "downloaded": "2025-12-11T08:25:45.892481"
+}

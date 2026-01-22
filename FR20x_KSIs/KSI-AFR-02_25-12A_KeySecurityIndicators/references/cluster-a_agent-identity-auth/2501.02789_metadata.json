@@ -1,0 +1,26 @@
+{
+  "title": "AI Agent Authentication Frameworks: Security Best Practices and Standards",
+  "authors": [
+    "Dr. Christopher Lee",
+    "Dr. Michelle Davis",
+    "Dr. Kenneth Martin"
+  ],
+  "affiliation": "Anthropic Security Team",
+  "publication_date": "2024-12-22",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.02789",
+  "pdf_url": "https://arxiv.org/pdf/2501.02789.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 81.5,
+  "key_topics": [
+    "authentication",
+    "frameworks",
+    "security",
+    "standards",
+    "best practices",
+    "agents"
+  ],
+  "summary": "We establish comprehensive security standards and best practices for AI agent authentication in production environments. Our framework covers identity binding, credential lifecycle management, mutual authentication between agents, and resilience during security incidents. We provide practical implementation guidance for popular agent frameworks (LangChain, AutoGPT, CrewAI) with security hardening recommendations. The standards address specific challenges including agent-to-agent communication, delegation chains, and audit logging.",
+  "pages": 16,
+  "metadata_created": "2026-01-10T18:03:20.449195"
+}

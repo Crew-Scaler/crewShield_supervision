@@ -1,0 +1,133 @@
+CLUSTER 4: Model Poisoning & AI Supply Chain Integrity
+=====================================================
+
+LANDMARK PAPERS (Must Read)
+---------------------------
+1. Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training
+   ArXiv: 2401.05566
+   URL: https://arxiv.org/abs/2401.05566
+   PDF: https://arxiv.org/pdf/2401.05566.pdf
+   Relevance: 10/10
+   Key: Deceptive backdoors persist through safety training
+
+HIGH-PRIORITY PAPERS (9/10 Relevance)
+--------------------------------------
+2. Virus: Harmful Fine-tuning Attack for Large Language Models Bypassing Guardrail Moderation
+   ArXiv: 2501.17433
+   URL: https://arxiv.org/abs/2501.17433
+   PDF: https://arxiv.org/pdf/2501.17433.pdf
+   Key: Fine-tuning API exploitation, safety guardrail bypass
+
+3. Harmful Fine-tuning Attacks and Defenses for Large Language Models: A Survey
+   ArXiv: 2409.18169
+   URL: https://arxiv.org/abs/2409.18169
+   PDF: https://arxiv.org/pdf/2409.18169.pdf
+   Key: Comprehensive survey of fine-tuning attack vectors
+
+4. Malice in Agentland: Down the Rabbit Hole of Backdoors in the AI Supply Chain
+   ArXiv: 2510.05159
+   URL: https://arxiv.org/abs/2510.05159
+   PDF: https://arxiv.org/pdf/2510.05159.pdf
+   Key: AI agent supply chain vulnerabilities, backdoors
+
+5. Practical, Generalizable and Robust Backdoor Attacks on Text-to-Image Diffusion Models
+   ArXiv: 2508.01605
+   URL: https://arxiv.org/abs/2508.01605
+   PDF: https://arxiv.org/pdf/2508.01605.pdf
+   Key: >90% success rate with minimal samples, diffusion poisoning
+
+6. Model Poisoning Attacks to Federated Learning via Multi-Round Consistency
+   ArXiv: 2404.15611
+   URL: https://arxiv.org/abs/2404.15611
+   PDF: https://arxiv.org/pdf/2404.15611.pdf
+   Key: Breaks 8 state-of-the-art defenses, multi-round poisoning
+
+IMPORTANT PAPERS (8/10 Relevance)
+----------------------------------
+7. Securing the AI Supply Chain: What Can We Learn From Developer-Reported Security Issues and Solutions of AI Projects?
+   ArXiv: 2512.23385
+   URL: https://arxiv.org/abs/2512.23385
+   PDF: https://arxiv.org/pdf/2512.23385.pdf
+
+8. Concealed Backdoor Attack on Deep Neural Networks using Machine Unlearning
+   ArXiv: 2502.11687
+   URL: https://arxiv.org/abs/2502.11687
+   PDF: https://arxiv.org/pdf/2502.11687.pdf
+   Key: Concealed backdoors evading detection, machine unlearning
+
+9. BadGraph: A Backdoor Attack Against Latent Diffusion Model for Text-Guided Graph Generation
+   ArXiv: 2510.20792
+   URL: https://arxiv.org/abs/2510.20792
+   PDF: https://arxiv.org/pdf/2510.20792.pdf
+   Key: Diffusion model backdoors via text triggers
+
+10. DarkHash: A Data-Free Backdoor Attack Against Deep Hashing
+    ArXiv: 2510.08094
+    URL: https://arxiv.org/abs/2510.08094
+    PDF: https://arxiv.org/pdf/2510.08094.pdf
+    Key: Data-free backdoor attacks on hashing
+
+11. A Survey of Recent Backdoor Attacks and Defenses in Large Language Models
+    ArXiv: 2406.06852
+    URL: https://arxiv.org/abs/2406.06852
+    PDF: https://arxiv.org/pdf/2406.06852.pdf
+    Key: Survey of LLM backdoor attack techniques
+
+12. BadPatches: Backdoor Attacks Against Patch-based Mixture of Experts Architectures
+    ArXiv: 2505.01811
+    URL: https://arxiv.org/abs/2505.01811
+    PDF: https://arxiv.org/pdf/2505.01811.pdf
+    Key: 100% success on MoE with 2% poisoning
+
+13. Backdoor Attack with Invisible Triggers Based on Model Architecture Modification
+    ArXiv: 2412.16905
+    URL: https://arxiv.org/abs/2412.16905
+    PDF: https://arxiv.org/pdf/2412.16905.pdf
+    Key: Invisible trigger backdoors, architecture-based
+
+14. Backdoor Attack on Vision Language Models with Stealthy Semantic Manipulation
+    ArXiv: 2506.07214
+    URL: https://arxiv.org/abs/2506.07214
+    PDF: https://arxiv.org/pdf/2506.07214.pdf
+    Key: BadSem, 98% success rate on VLMs
+
+15. Detecting Sleeper Agents in Large Language Models via Semantic Drift Analysis
+    ArXiv: 2511.15992
+    URL: https://arxiv.org/abs/2511.15992
+    PDF: https://arxiv.org/pdf/2511.15992.pdf
+    Key: 92.5% detection accuracy for backdoored LLMs
+
+16. SleeperNets: Universal Backdoor Poisoning Attacks Against Reinforcement Learning Agents
+    ArXiv: 2405.20539
+    URL: https://arxiv.org/abs/2405.20539
+    PDF: https://arxiv.org/pdf/2405.20539.pdf
+    Key: RL agent backdoor poisoning, universal attacks
+
+SUPPORTING PAPERS (7/10 Relevance)
+-----------------------------------
+17. Input-aware Backdoor Attack on VLMs for Visual Grounding
+    ArXiv: 2508.09456
+    URL: https://arxiv.org/abs/2508.09456
+    PDF: https://arxiv.org/pdf/2508.09456.pdf
+
+18. Revisiting Backdoor Attacks on Time Series Classification in the Frequency Domain
+    ArXiv: 2503.09712
+    URL: https://arxiv.org/abs/2503.09712
+    PDF: https://arxiv.org/pdf/2503.09712.pdf
+    Key: Frequency domain backdoors on time series
+
+19. Prompt Injection attack against LLM-integrated Applications
+    ArXiv: 2306.05499
+    URL: https://arxiv.org/abs/2306.05499
+    PDF: https://arxiv.org/pdf/2306.05499.pdf
+    Key: 31/36 LLM apps vulnerable to injection
+
+20. Weight Poisoning Attacks on Pre-trained Models
+    ArXiv: 2004.06660
+    URL: https://arxiv.org/abs/2004.06660
+    PDF: https://arxiv.org/pdf/2004.06660.pdf
+    Key: Weight poisoning in transfer learning
+
+=====================================================
+For detailed metadata, see: cluster_4_metadata.csv
+For analysis and findings, see: README.md

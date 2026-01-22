@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.24400v1",
+  "title": "SourceBroken: A large-scale analysis on the (un)reliability of SourceRank in the PyPI ecosystem",
+  "authors": [
+    "Biagio Montaruli",
+    "Serena Elisa Ponta",
+    "Luca Compagna",
+    "Davide Balzarotti"
+  ],
+  "published": "2025-12-30T18:34:07Z",
+  "summary": "SourceRank is a scoring system made of 18 metrics that assess the popularity and quality of open-source packages. Despite being used in several recent studies, none has thoroughly analyzed its reliability against evasion attacks aimed at inflating the score of malicious packages, thereby masquerading them as trustworthy. To fill this gap, we first propose a threat model that identifies potential evasion approaches for each metric, including the URL confusion technique, which can affect 5 out of ",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.179805"
+}

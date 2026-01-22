@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2510.10074v1",
+  "title": "Agentic Troubleshooting Guide Automation for Incident Management",
+  "authors": [
+    "Jiayi Mao",
+    "Liqun Li",
+    "Yanjie Gao",
+    "Zegang Peng",
+    "Shilin He",
+    "Chaoyun Zhang",
+    "Si Qin",
+    "Samia Khalid",
+    "Qingwei Lin",
+    "Saravan Rajmohan",
+    "Sitaram Lanka",
+    "Dongmei Zhang"
+  ],
+  "published": "2025-10-11T07:18:36Z",
+  "url": "http://arxiv.org/abs/2510.10074v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.10074v1.pdf",
+  "relevance_score": 100,
+  "summary": "Effective incident management in large-scale IT systems relies on troubleshooting guides (TSGs), but their manual execution is slow and error-prone. While recent advances in LLMs offer promise for automating incident management tasks, existing LLM-based solutions lack specialized support for several key challenges, including managing TSG quality issues, interpreting complex control flow, handling data-intensive queries, and exploiting execution parallelism. We first conducted an empirical study on 92 real-world TSGs, and, guided by our findings, we present StepFly, a novel end-to-end agentic framework for troubleshooting guide automation. Our approach features a three-stage workflow: the first stage provides a comprehensive guide together with a tool, TSG Mentor, to assist SREs in improving TSG quality; the second stage performs offline preprocessing using LLMs to extract structured execution DAGs from unstructured TSGs and to create dedicated Query Preparation Plugins (QPPs); and the third stage executes online using a DAG-guided scheduler-executor framework with a memory system to guarantee correct workflow and support parallel execution of independent steps. Our empirical evaluation on a collection of real-world TSGs and incidents demonstrates that StepFly achieves a ~94% success rate on GPT-4.1, outperforming baselines with less time and token consumption. Furthermore, it achieves a remarkable execution time reduction of 32.9% to 70.4% for parallelizable TSGs."
+}

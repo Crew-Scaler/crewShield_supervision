@@ -1,0 +1,289 @@
+{
+  "research_topic": "Certificate Lifecycle Management Automation at Scale",
+  "issue_number": 68,
+  "topic_number": 6,
+  "search_date": "2025-12-25",
+  "total_papers_found": 342,
+  "papers_analyzed_2024_2025": 167,
+  "papers_selected": 10,
+  "papers_archived": 157,
+  "search_queries": [
+    "PKI automation",
+    "TLS certificate management",
+    "X.509 lifecycle",
+    "Certificate authority automation",
+    "Kubernetes security certificates",
+    "Cloud PKI",
+    "Certificate transparency",
+    "ACME protocol",
+    "Let's Encrypt",
+    "Certificate revocation",
+    "mTLS mutual TLS",
+    "Zero trust certificates",
+    "Service mesh security",
+    "Istio security",
+    "Container security TLS",
+    "Microservices PKI"
+  ],
+  "selection_criteria": {
+    "year_preference": "2025 > 2024",
+    "focus_areas": [
+      "Certificate lifecycle automation",
+      "mTLS in service meshes",
+      "PKI scalability",
+      "Certificate rotation and renewal",
+      "Certificate discovery and management",
+      "Zero-downtime certificate operations",
+      "Cloud-native certificate infrastructure",
+      "Post-quantum cryptography in PKI"
+    ],
+    "scoring_method": "Keyword-based relevance scoring with year and institution bonuses"
+  },
+  "papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2411.02267v1",
+      "title": "Technical Report: Performance Comparison of Service Mesh Frameworks: the MTLS Test Case",
+      "authors": [
+        "Anat Bremler Barr",
+        "Ofek Lavi",
+        "Yaniv Naor",
+        "Sanjeev Rampal",
+        "Jhonatan Tavori"
+      ],
+      "published_date": "2024-11-04T16:57:33Z",
+      "year": 2024,
+      "abstract": "Service Mesh has become essential for modern cloud-native applications by abstracting communication between microservices and providing zero-trust security, observability, and advanced traffic control without requiring code changes. This allows developers to leverage new network capabilities and focus on application logic without managing network complexities. However, the additional layer can significantly impact system performance, latency, and resource consumption, posing challenges for cloud managers and operators.   In this work, we investigate the impact of the mTLS protocol - a common security and authentication mechanism - on application performance within service meshes. Recognizing that security is a primary motivation for deploying a service mesh, we evaluated the performance overhead introduced by leading service meshes: Istio, Istio Ambient, Linkerd, and Cilium. Our experiments were conducted by testing their performance in service-to-service communications within a Kubernetes cluster.   Our experiments reveal significant performance differences (in terms of latency and memory consumption) among the service meshes, rooting from the different architecture of the service mesh, sidecar versus sidecareless, and default extra features hidden in the mTLS implementation. Our results highlight the understanding of the service mesh architecture and its impact on performance.",
+      "categories": [
+        "cs.NI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2411.02267v1",
+      "pdf_filename": "01_2411.02267v1_Technical Report_ Performance Comparison of Service Mesh Frameworks_ the MTLS Te.pdf",
+      "relevance_score": 90,
+      "key_topics": [
+        "mTLS",
+        "Service Mesh",
+        "Container/Kubernetes",
+        "Cloud/Microservices"
+      ]
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2401.10787v6",
+      "title": "Hybrid Online Certificate Status Protocol with Certificate Revocation List for Smart Grid Public Key Infrastructure",
+      "authors": [
+        "Hong-Sheng Huang",
+        "Zhe-Yi Jiang",
+        "Hsuan-Tung Chen",
+        "Hung-Min Sun"
+      ],
+      "published_date": "2024-01-19T16:16:11Z",
+      "year": 2024,
+      "abstract": "Hsu et al. (2022) proposed a cryptographic scheme within the public key infrastructure to bolster the security of smart grid meters. Their proposal involved developing the Certificate Management over CMS mechanism to establish Simple Certificate Enrollment Protocol and Enrollment over Secure Transport protocol. Additionally, they implemented Online Certificate Status Protocol (OCSP) services to independently query the status of certificates. However, their implementation featured a single OCSP server handling all query requests. Considering the typical scenario in smart grid PKI environments with over tens of thousands of end-meters, we introduced a Hybrid Online Certificate Status Protocol mechanism. This approach decreases demand of query resources from the client to OCSP servers collaborating with Certificate Revocation Lists. Our simulations, mimicking meter behavior, demonstrated increased efficiency, creating a more robust architecture tailored to the smart grid meter landscape.",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2401.10787v6",
+      "pdf_filename": "02_2401.10787v6_Hybrid Online Certificate Status Protocol with Certificate Revocation List for S.pdf",
+      "relevance_score": 85,
+      "key_topics": [
+        "PKI",
+        "Certificate Revocation"
+      ]
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2406.18813v2",
+      "title": "Towards Secure Management of Edge-Cloud IoT Microservices using Policy as Code",
+      "authors": [
+        "Samodha Pallewatta",
+        "Muhammad Ali Babar"
+      ],
+      "published_date": "2024-06-27T01:03:23Z",
+      "year": 2024,
+      "abstract": "IoT application providers increasingly use MicroService Architecture (MSA) to develop applications that convert IoT data into valuable information. The independently deployable and scalable nature of microservices enables dynamic utilization of edge and cloud resources provided by various service providers, thus improving performance. However, IoT data security should be ensured during multi-domain data processing and transmission among distributed and dynamically composed microservices. The ability to implement granular security controls at the microservices level has the potential to solve this. To this end, edge-cloud environments require intricate and scalable security frameworks that operate across multi-domain environments to enforce various security policies during the management of microservices (i.e., initial placement, scaling, migration, and dynamic composition), considering the sensitivity of the IoT data. To address the lack of such a framework, we propose an architectural framework that uses Policy-as-Code to ensure secure microservice management within multi-domain edge-cloud environments. The proposed framework contains a \"control plane\" to intelligently and dynamically utilise and configure cloud-native (i.e., container orchestrators and service mesh) technologies to enforce security policies. We implement a prototype of the proposed framework using open-source cloud-native technologies such as Docker, Kubernetes, Istio, and Open Policy Agent to validate the framework. Evaluations verify our proposed framework's ability to enforce security policies for distributed microservices management, thus harvesting the MSA characteristics to ensure IoT application security needs.",
+      "categories": [
+        "cs.CR",
+        "cs.DC",
+        "cs.SE"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2406.18813v2",
+      "pdf_filename": "03_2406.18813v2_Towards Secure Management of Edge-Cloud IoT Microservices using Policy as Code.pdf",
+      "relevance_score": 75,
+      "key_topics": [
+        "Service Mesh",
+        "Container/Kubernetes",
+        "Cloud/Microservices"
+      ]
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2404.15582v6",
+      "title": "Now Let's Make It Physical: Enabling Physically Trusted Certificate Issuance for Keyless Security in CAs",
+      "authors": [
+        "Xiaolin Zhang",
+        "Chenghao Chen",
+        "Kailun Qin",
+        "Yuxuan Wang",
+        "Shipei Qu",
+        "Tengfei Wang",
+        "Chi Zhang",
+        "Dawu Gu"
+      ],
+      "published_date": "2024-04-24T01:31:23Z",
+      "year": 2024,
+      "abstract": "The signing key protection of Certificate Authorities (CAs) remains a critical challenge in PKI. Traditional approaches struggle to eliminate the risk of key exposure due to those (un)intentional human errors. This long-standing dilemma motivates us to propose Armored Core, a novel PKI security extension using the trusted binding of Physically Unclonable Function (PUF) for CAs. PUFs leverage manufacturing variations to generate unique and random responses. Combining with XOR and hash, they can make key exposure impossible for CAs through keyless certificate issuance.   In Armored Core, we design a set of PUF-based X.509v3 certificate functions for CAs to generate physically trusted \"signatures\" without using a digital key. Moreover, we introduce a novel PUF transparency mechanism to effectively monitor the PUF operations in CAs. We integrate Armored Core into real-world PKI systems including Let's Encrypt Pebble and Certbot. We also provide a PUF-embedded hardware prototype. The evaluation results show that Armored Core can achieve keyless certificate issuance while improving the computation performance by 4.9%~73.7%. It only incurs small communication and storage overhead (<4%).",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2404.15582v6",
+      "pdf_filename": "04_2404.15582v6_Now Let_s Make It Physical_ Enabling Physically Trusted Certificate Issuance for.pdf",
+      "relevance_score": 70,
+      "key_topics": [
+        "PKI"
+      ]
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2510.04052v2",
+      "title": "Enabling Network Policy Enforcement in Service Meshes",
+      "authors": [
+        "Behrooz Farkiani",
+        "Fan Liu",
+        "Patrick Crowley"
+      ],
+      "published_date": "2025-10-05T06:16:19Z",
+      "year": 2025,
+      "abstract": "Portable service mesh implementations enable Layer 4 to Layer 7 policy enforcement across heterogeneous infrastructures, yet they depend on the underlying network's connectivity and policies. Layer 3 network policies govern IP traffic regardless of whether upper layers authorize the flow. While these policies are integral to security, correct enforcement often requires coordination across multiple teams, and achieving consistent policy behavior across heterogeneous environments is challenging. Studies show that most Kubernetes clusters do not enforce any network policies. We propose integrating Layer 3 network policy enforcement with service meshes to protect data-plane traffic in a portable, infrastructure-agnostic manner. This integration allows developers to define Layer 3-7 policies and to ensure enforcement across any infrastructure. Our solution builds an overlay Layer 3 network and enforces Layer 3 policies by routing traffic through specific policy enforcement points and applying default-deny principles with authorization keys. We prototyped our approach using Kubernetes and Istio and found that it adds less than 1ms of latency while supporting complex policies comparable to native Kubernetes network policies.",
+      "categories": [
+        "cs.NI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2510.04052v2",
+      "pdf_filename": "05_2510.04052v2_Enabling Network Policy Enforcement in Service Meshes.pdf",
+      "relevance_score": 65,
+      "key_topics": [
+        "Service Mesh",
+        "Container/Kubernetes"
+      ]
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2504.12062v1",
+      "title": "A Scalable Framework for Post-Quantum Authentication in Public Key Infrastructures",
+      "authors": [
+        "Antonia Tsili",
+        "Konstantinos Kordolaimis",
+        "Konstantinos Krilakis",
+        "Dimitris Syvridis"
+      ],
+      "published_date": "2025-04-16T13:18:11Z",
+      "year": 2025,
+      "abstract": "This work explores the performance and scalability of a hierarchical certificate authority framework with automated certificate issuance employing post-quantum cryptographic (PQC) signature algorithms. The system is designed for compatibility with both classical and PQC algorithms, promoting crypto-agility while ensuring robust security against quantum-based threats. The proposed framework design expects minimal cryptographic requirements from potential clients, protects certificates of high importance against cross-dependent chains-of-trust and allows for prompt switching between classical and PQC algorithms. Finally, we evaluate SPHINCS$^+$, Falcon, and Dilithium variants in various configurations of certificate issuance and verification accommodating a large client base, underlining the trade-offs in balancing performance, scalability, and security.",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2504.12062v1",
+      "pdf_filename": "06_2504.12062v1_A Scalable Framework for Post-Quantum Authentication in Public Key Infrastructur.pdf",
+      "relevance_score": 60,
+      "key_topics": [
+        "PKI",
+        "Automation",
+        "Post-Quantum"
+      ]
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2503.14611v1",
+      "title": "Transparent Attested DNS for Confidential Computing Services",
+      "authors": [
+        "Antoine Delignat-Lavaud",
+        "Cédric Fournet",
+        "Kapil Vaswani",
+        "Manuel Costa",
+        "Sylvan Clebsch",
+        "Christoph M. Wintersteiger"
+      ],
+      "published_date": "2025-03-18T18:07:09Z",
+      "year": 2025,
+      "abstract": "Confidential services running in hardware-protected Trusted Execution Environments (TEEs) can provide higher security assurance, but this requires custom clients and protocols to distribute, update, and verify their attestation evidence. Compared with classic Internet security, built upon universal abstractions such as domain names, origins, and certificates, this puts a significant burden on service users and providers. In particular, Web browsers and other legacy clients do not get the same security guaranties as custom clients.   We present a new approach for users to establish trust in confidential services. We propose attested DNS (aDNS): a name service that securely binds the attested implementation of confidential services to their domain names. ADNS enforces policies for all names in its zone of authority: any TEE that runs a service must present hardware attestation that complies with the domain-specific policy before registering keys and obtaining certificates for any name in this domain. ADNS provides protocols for zone delegation, TEE registration, and certificate issuance. ADNS builds on standards such as DNSSEC, DANE, ACME and Certificate Transparency. ADNS provides DNS transparency by keeping all records, policies, and attestations in a public append-only log, thereby enabling auditing and preventing targeted attacks.   We implement aDNS as a confidential service using a fault-tolerant network of TEEs. We evaluate it using sample confidential services that illustrate various TEE platforms. On the client side, we provide a generic browser extension that queries and verifies attestation records before opening TLS connections, with negligible performance overhead, and we show that, with aDNS, even legacy Web clients benefit from confidential computing as long as some enlightened clients verify attestations to deter or blame malicious actors.",
+      "categories": [
+        "cs.CR",
+        "cs.NI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2503.14611v1",
+      "pdf_filename": "07_2503.14611v1_Transparent Attested DNS for Confidential Computing Services.pdf",
+      "relevance_score": 60,
+      "key_topics": []
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2409.10929v4",
+      "title": "An Enhanced Online Certificate Status Protocol for Public Key Infrastructure with Smart Grid and Energy Storage System",
+      "authors": [
+        "Hong-Sheng Huang",
+        "Cheng-Che Chuang",
+        "Jhih-Zen Shih",
+        "Hsuan-Tung Chen",
+        "Hung-Min Sun"
+      ],
+      "published_date": "2024-09-17T06:57:17Z",
+      "year": 2024,
+      "abstract": "The efficiency of checking certificate status is one of the key indicators in the public key infrastructure (PKI). This prompted researchers to design the Online Certificate Status Protocol (OCSP) standard, defined in RFC 6960, to guide developers in implementing OCSP components. However, as the environment increasingly relies on PKI for identity authentication, it is essential to protect the communication between clients and servers from rogue elements. This can be achieved by using SSL/TLS techniques to establish a secure channel, allowing Certificate Authorities (CAs) to safely transfer certificate status information. In this work, we introduce the OCSP Stapling approach to optimize OCSP query costs in our smart grid environment. This approach reduces the number of queries from the Device Language Message Specification (DLMS) server to the OCSP server. Our experimental results show that OCSP stapling increases both efficiency and security, creating a more robust architecture for the smart grid.",
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2409.10929v4",
+      "pdf_filename": "08_2409.10929v4_An Enhanced Online Certificate Status Protocol for Public Key Infrastructure wit.pdf",
+      "relevance_score": 55,
+      "key_topics": [
+        "PKI",
+        "Certificate Revocation"
+      ]
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2406.11511v2",
+      "title": "Decentralized Credential Status Management: A Paradigm Shift in Digital Trust",
+      "authors": [
+        "Patrick Herbke",
+        "Thomas Cory",
+        "Mauro Migliardi"
+      ],
+      "published_date": "2024-06-17T13:17:56Z",
+      "year": 2024,
+      "abstract": "Public key infrastructures are essential for Internet security, ensuring robust certificate management and revocation mechanisms. The transition from centralized to decentralized systems presents challenges such as trust distribution and privacy-preserving credential management. The transition from centralized to decentralized systems is motivated by addressing the single points of failure inherent in centralized systems and leveraging decentralized technologies' transparency and resilience. This paper explores the evolution of certificate status management from centralized to decentralized frameworks, focusing on blockchain technology and advanced cryptography. We provide a taxonomy of the challenges of centralized systems and discuss opportunities provided by existing decentralized technologies. Our findings reveal that, although blockchain technologies enhance security and trust distribution, they represent a bottleneck for parallel computation and face inefficiencies in cryptographic computations. For this reason, we propose a framework of decentralized technology components that addresses such shortcomings to advance the paradigm shift toward decentralized credential status management.",
+      "categories": [
+        "cs.CR",
+        "cs.NI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2406.11511v2",
+      "pdf_filename": "09_2406.11511v2_Decentralized Credential Status Management_ A Paradigm Shift in Digital Trust.pdf",
+      "relevance_score": 55,
+      "key_topics": [
+        "PKI",
+        "Certificate Revocation"
+      ]
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2506.07379v1",
+      "title": "Addressing tokens dynamic generation, propagation, storage and renewal to secure the GlideinWMS pilot based jobs and system",
+      "authors": [
+        "Bruno Moreira Coimbra",
+        "Marco Mambelli"
+      ],
+      "published_date": "2025-06-09T02:58:42Z",
+      "year": 2025,
+      "abstract": "GlideinWMS has been one of the first middleware in the WLCG community to transition from X.509 to support also tokens. The first step was to get from the prototype in 2019 to using tokens in production in 2022. This paper will present the challenges introduced by the wider adoption of tokens and the evolution plans for securing the pilot infrastructure of GlideinWMS and supporting the new requirements. In the last couple of years, the GlideinWMS team supported the migration of experiments and resources to tokens. Inadequate support in the current infrastructure, more stringent requirements, and the higher spatial and temporal granularity forced GlideinWMS to revisit once more how credentials are generated, used, and propagated. The new credential modules have been designed to be used in multiple systems (GlideinWMS, HEPCloud) and use a model where credentials have type, purpose, and different flows. Credentials are dynamically generated in order to customize the duration and limit the scope to the targeted resource. This allows to enforce the least privilege principle. Finally, we also considered adding credential storage, renewal, and invalidation mechanisms within the GlideinWMS infrastructure to better serve the experiments' needs.",
+      "categories": [
+        "cs.DC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2506.07379v1",
+      "pdf_filename": "10_2506.07379v1_Addressing tokens dynamic generation_ propagation_ storage and renewal to secure.pdf",
+      "relevance_score": 55,
+      "key_topics": [
+        "Cloud/Microservices"
+      ]
+    }
+  ]
+}

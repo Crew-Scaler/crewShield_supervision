@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2512.16822v1",
+  "title": "MEPIC: Memory Efficient Position Independent Caching for LLM Serving",
+  "authors": [
+    "Qian Wang",
+    "Zahra Yousefijamarani",
+    "Morgan Lindsay Heisler",
+    "Rongzhi Gu",
+    "Bai Xiaolong",
+    "Shan Yizhou",
+    "Wei Zhang",
+    "Wang Lan",
+    "Ying Xiong",
+    "Yong Zhang",
+    "Zhenan Fan"
+  ],
+  "published": "2025-12-18T18:04:01Z",
+  "url": "http://arxiv.org/abs/2512.16822v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.16822v1.pdf",
+  "relevance_score": 78,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Modern LLM applications such as deep-research assistants, coding agents, and Retrieval-Augmented Generation (RAG) systems, repeatedly process long prompt histories containing shared document or code chunks, creating significant pressure on the Key Value (KV) cache, which must operate within limited memory while sustaining high throughput and low latency. Prefix caching partially alleviates some of these costs by reusing KV cache for previously processed tokens, but limited by strict prefix match"
+}

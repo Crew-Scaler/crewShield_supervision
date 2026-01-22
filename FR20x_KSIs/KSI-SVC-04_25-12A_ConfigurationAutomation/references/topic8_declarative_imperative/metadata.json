@@ -1,0 +1,240 @@
+{
+  "search_date": "2025-12-25T10:03:43.907609",
+  "total_papers": 10,
+  "papers": [
+    {
+      "arxiv_id": "2507.17852v1",
+      "title": "Technical Implementation of Tippy: Multi-Agent Architecture and System Design for Drug Discovery Laboratory Automation",
+      "authors": [
+        "Yao Fehlis",
+        "Charles Crain",
+        "Aidan Jensen",
+        "Michael Watson",
+        "James Juhasz",
+        "Paul Mandel",
+        "Betty Liu",
+        "Shawn Mahon",
+        "Daren Wilson",
+        "Nick Lynch-Jonely",
+        "Ben Leedom",
+        "David Fuller"
+      ],
+      "summary": "Building on the conceptual framework presented in our previous work on agentic AI for pharmaceutical research, this paper provides a comprehensive technical analysis of Tippy's multi-agent system implementation for drug discovery laboratory automation. We present a distributed microservices architecture featuring five specialized agents (Supervisor, Molecule, Lab, Analysis, and Report) that coordinate through OpenAI Agents SDK orchestration and access laboratory tools via the Model Context Protocol (MCP). The system architecture encompasses agent-specific tool integration, asynchronous communication patterns, and comprehensive configuration management through Git-based tracking. Our production deployment strategy utilizes Kubernetes container orchestration with Helm charts, Docker containerization, and CI/CD pipelines for automated testing and deployment. The implementation integrates vector databases for RAG functionality and employs an Envoy reverse proxy for secure external access. This work demonstrates how specialized AI agents can effectively coordinate complex laboratory workflows while maintaining security, scalability, reliability, and integration with existing laboratory infrastructure through standardized protocols.",
+      "published": "2025-07-18T17:57:40Z",
+      "year": "2025",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2507.17852v1.pdf",
+      "relevance_score": 107.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/01_2507.17852v1.pdf"
+    },
+    {
+      "arxiv_id": "2509.18761v1",
+      "title": "Security smells in infrastructure as code: a taxonomy update beyond the seven sins",
+      "authors": [
+        "Aicha War",
+        "Serge L. B. Nikiema",
+        "Jordan Samhi",
+        "Jacques Klein",
+        "Tegawende F. Bissyande"
+      ],
+      "summary": "Infrastructure as Code (IaC) has become essential for modern software management, yet security flaws in IaC scripts can have severe consequences, as exemplified by the recurring exploits of Cloud Web Services. Prior work has recognized the need to build a precise taxonomy of security smells in IaC scripts as a first step towards developing approaches to improve IaC security. This first effort led to the unveiling of seven sins, limited by the focus on a single IaC tool as well as by the extensive, and potentially biased, manual effort that was required. We propose, in our work, to revisit this taxonomy: first, we extend the study of IaC security smells to a more diverse dataset with scripts associated with seven popular IaC tools, including Terraform, Ansible, Chef, Puppet, Pulumi, Saltstack, and Vagrant; second, we bring in some automation for the analysis by relying on an LLM. While we leverage LLMs for initial pattern processing, all taxonomic decisions underwent systematic human validation and reconciliation with established security standards. Our study yields a comprehensive taxonomy of 62 security smell categories, significantly expanding beyond the previously known seven. We demonstrate actionability by implementing new security checking rules within linters for seven popular IaC tools, often achieving 1.00 precision score. Our evolution study of security smells in GitHub projects reveals that these issues persist for extended periods, likely due to inadequate detection and mitigation tools. This work provides IaC practitioners with insights for addressing common security smells and systematically adopting DevSecOps practices to build safer infrastructure code.",
+      "published": "2025-09-23T07:55:35Z",
+      "year": "2025",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2509.18761v1.pdf",
+      "relevance_score": 106.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/02_2509.18761v1.pdf"
+    },
+    {
+      "arxiv_id": "2511.05663v1",
+      "title": "Accelerating Control Systems with GitOps: A Path to Automation and Reliability",
+      "authors": [
+        "M. Gonzalez",
+        "M. Acosta"
+      ],
+      "summary": "GitOps is a foundational approach for modernizing infrastructure by leveraging Git as the single source of truth for declarative configurations. The poster explores how GitOps transforms traditional control system infrastructure, services and applications by enabling fully automated, auditable, and version-controlled infrastructure management. Cloud-native and containerized environments are shifting the ecosystem not only in the IT industry but also within the computational science field, as is the case of CERN [1] and Diamond Light Source [2] among other Accelerator/Science facilities which are slowly shifting towards modern software and infrastructure paradigms. The ACORN project, which aims to modernize Fermilab's control system infrastructure and software is implementing proven best-practices and cutting-edge technology standards including GitOps, containerization, infrastructure as code and modern data pipelines for control system data acquisition and the inclusion of AI/ML in our accelerator complex.",
+      "published": "2025-11-07T19:04:05Z",
+      "year": "2025",
+      "categories": [
+        "cs.SE",
+        "physics.acc-ph"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2511.05663v1.pdf",
+      "relevance_score": 105.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/03_2511.05663v1.pdf"
+    },
+    {
+      "arxiv_id": "2505.01568v3",
+      "title": "A Defect Taxonomy for Infrastructure as Code: A Replication Study",
+      "authors": [
+        "Wendell Oliveira",
+        "Filipe Paiva",
+        "Thiago Emmanuel Pereira",
+        "Jo\u00e3o Brunet"
+      ],
+      "summary": "Background: As Infrastructure as Code (IaC) becomes standard practice, ensuring the reliability of IaC scripts is essential. Defect taxonomies are valuable tools for this, offering a common language for issues and enabling systematic tracking. A significant prior study developed such a taxonomy, but based it exclusively on the declarative language Puppet. It remained unknown whether this taxonomy applies to programming language-based IaC (PL-IaC) tools like Pulumi, Terraform CDK, and AWS CDK. Aim: We replicated this foundational work to assess the generalizability of the taxonomy across a broader and more diverse landscape. Method: We performed qualitative analysis on 3,364 defect-related commits from 285 open-source PL-IaC repositories (PIPr dataset) to derive a PL-IaC-specific defect taxonomy. We then enhanced the ACID tool, originally developed for the prior study, to automatically classify and analyze defect distributions across an expanded dataset-447 open-source repositories and 94 proprietary projects from VTEX (e-commerce) and Nubank (financial). Results: Our research confirmed the same eight defect categories identified in the original study, with idempotency and security defects appearing infrequently but persistently across projects. Configuration Data defects maintain high frequency in both open-source and proprietary codebases. Conclusions: Our replication supports the generalizability of the original taxonomy, suggesting IaC development challenges surpass organizational boundaries. Configuration Data defects emerge as a persistent high-frequency problem, while idempotency and security defects remain important concerns despite lower frequency. These patterns appear consistent across open-source and proprietary projects, indicating they are fundamental to the IaC paradigm itself, transcending specific tools or project types.",
+      "published": "2025-05-02T20:18:55Z",
+      "year": "2025",
+      "categories": [
+        "cs.SE"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2505.01568v3.pdf",
+      "relevance_score": 102.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/04_2505.01568v3.pdf"
+    },
+    {
+      "arxiv_id": "2509.18790v1",
+      "title": "Detection of security smells in IaC scripts through semantics-aware code and language processing",
+      "authors": [
+        "Aicha War",
+        "Adnan A. Rawass",
+        "Abdoul K. Kabore",
+        "Jordan Samhi",
+        "Jacques Klein",
+        "Tegawende F. Bissyande"
+      ],
+      "summary": "Infrastructure as Code (IaC) automates the provisioning and management of IT infrastructure through scripts and tools, streamlining software deployment. Prior studies have shown that IaC scripts often contain recurring security misconfigurations, and several detection and mitigation approaches have been proposed. Most of these rely on static analysis, using statistical code representations or Machine Learning (ML) classifiers to distinguish insecure configurations from safe code. In this work, we introduce a novel approach that enhances static analysis with semantic understanding by jointly leveraging natural language and code representations. Our method builds on two complementary ML models: CodeBERT, to capture semantics across code and text, and LongFormer, to represent long IaC scripts without losing contextual information. We evaluate our approach on misconfiguration datasets from two widely used IaC tools, Ansible and Puppet. To validate its effectiveness, we conduct two ablation studies (removing code text from the natural language input and truncating scripts to reduce context) and compare against four large language models (LLMs) and prior work. Results show that semantic enrichment substantially improves detection, raising precision and recall from 0.46 and 0.79 to 0.92 and 0.88 on Ansible, and from 0.55 and 0.97 to 0.87 and 0.75 on Puppet, respectively.",
+      "published": "2025-09-23T08:28:49Z",
+      "year": "2025",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG",
+        "cs.SE"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2509.18790v1.pdf",
+      "relevance_score": 101.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/05_2509.18790v1.pdf"
+    },
+    {
+      "arxiv_id": "2508.16268v1",
+      "title": "Self-Healing Network of Interconnected Edge Devices Empowered by Infrastructure-as-Code and LoRa Communication",
+      "authors": [
+        "Rob Carson",
+        "Mohamed Chahine Ghanem",
+        "Feriel Bouakkaz"
+      ],
+      "summary": "This Paper proposes a self-healing, automated network of Raspberry Pi devices designed for deployment in scenarios where traditional networking is unavailable. Leveraging the low-power, long-range capabilities of the LoRa (Long Range) protocol alongside Infrastructure as Code (IaC) methodologies, the research addresses challenges such as limited bandwidth, data collisions, and node failures. Given that LoRa's packet-based system is incompatible with conventional IaC tools like Ansible and Terraform, which rely on TCP/IP networking, the research adapts IaC principles within a containerised architecture deployed across a Raspberry Pi cluster. Evaluation experiments indicate that fragmenting data packets and retransmitting any missed fragments can mitigate LoRa's inherent throughput and packet size limitations, although issues such as collisions and line-of-sight interference persist. An automated failover mechanism was integrated into the architecture, enabling unresponsive services to be redeployed to alternative nodes within one second, demonstrating the system's resilience in maintaining operational continuity despite node or service failures. The paper also identifies practical challenges, including the necessity for time-slotting transmissions to prevent data packet overlap and collisions. Future research should explore the integration of mesh networking to enhance range, develop more advanced scheduling algorithms, and adopt cutting-edge low-power wide-area network (LPWAN) techniques.",
+      "published": "2025-08-22T10:09:08Z",
+      "year": "2025",
+      "categories": [
+        "cs.NI",
+        "cs.DC"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2508.16268v1.pdf",
+      "relevance_score": 101.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/06_2508.16268v1.pdf"
+    },
+    {
+      "arxiv_id": "2507.10584v2",
+      "title": "ARPaCCino: An Agentic-RAG for Policy as Code Compliance",
+      "authors": [
+        "Francesco Romeo",
+        "Luigi Arena",
+        "Francesco Blefari",
+        "Francesco Aurelio Pironti",
+        "Matteo Lupinacci",
+        "Angelo Furfaro"
+      ],
+      "summary": "Policy as Code (PaC) is a paradigm that encodes security and compliance policies into machine-readable formats, enabling automated enforcement in Infrastructure as Code (IaC) environments. However, its adoption is hindered by the complexity of policy languages and the risk of misconfigurations. In this work, we present ARPaCCino, an agentic system that combines Large Language Models (LLMs), Retrieval-Augmented-Generation (RAG), and tool-based validation to automate the generation and verification of PaC rules. Given natural language descriptions of the desired policies, ARPaCCino generates formal Rego rules, assesses IaC compliance, and iteratively refines the IaC configurations to ensure conformance. Thanks to its modular agentic architecture and integration with external tools and knowledge bases, ARPaCCino supports policy validation across a wide range of technologies, including niche or emerging IaC frameworks. Experimental evaluation involving a Terraform-based case study demonstrates ARPaCCino's effectiveness in generating syntactically and semantically correct policies, identifying non-compliant infrastructures, and applying corrective modifications, even when using smaller, open-weight LLMs. Our results highlight the potential of agentic RAG architectures to enhance the automation, reliability, and accessibility of PaC workflows.",
+      "published": "2025-07-11T12:36:33Z",
+      "year": "2025",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2507.10584v2.pdf",
+      "relevance_score": 96.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/07_2507.10584v2.pdf"
+    },
+    {
+      "arxiv_id": "2512.14792v1",
+      "title": "IaC Generation with LLMs: An Error Taxonomy and A Study on Configuration Knowledge Injection",
+      "authors": [
+        "Roman Nekrasov",
+        "Stefano Fossati",
+        "Indika Kumara",
+        "Damian Andrew Tamburri",
+        "Willem-Jan van den Heuvel"
+      ],
+      "summary": "Large Language Models (LLMs) currently exhibit low success rates in generating correct and intent-aligned Infrastructure as Code (IaC). This research investigated methods to improve LLM-based IaC generation, specifically for Terraform, by systematically injecting structured configuration knowledge. To facilitate this, an existing IaC-Eval benchmark was significantly enhanced with cloud emulation and automated error analysis. Additionally, a novel error taxonomy for LLM-assisted IaC code generation was developed. A series of knowledge injection techniques was implemented and evaluated, progressing from Naive Retrieval-Augmented Generation (RAG) to more sophisticated Graph RAG approaches. These included semantic enrichment of graph components and modeling inter-resource dependencies. Experimental results demonstrated that while baseline LLM performance was poor (27.1% overall success), injecting structured configuration knowledge increased technical validation success to 75.3% and overall success to 62.6%. Despite these gains in technical correctness, intent alignment plateaued, revealing a \"Correctness-Congruence Gap\" where LLMs can become proficient \"coders\" but remain limited \"architects\" in fulfilling nuanced user intent.",
+      "published": "2025-12-16T14:58:00Z",
+      "year": "2025",
+      "categories": [
+        "cs.AI",
+        "cs.SE"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2512.14792v1.pdf",
+      "relevance_score": 93.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/08_2512.14792v1.pdf"
+    },
+    {
+      "arxiv_id": "2509.05303v1",
+      "title": "Multi-IaC-Eval: Benchmarking Cloud Infrastructure as Code Across Multiple Formats",
+      "authors": [
+        "Sam Davidson",
+        "Li Sun",
+        "Bhavana Bhasker",
+        "Laurent Callot",
+        "Anoop Deoras"
+      ],
+      "summary": "Infrastructure as Code (IaC) is fundamental to modern cloud computing, enabling teams to define and manage infrastructure through machine-readable configuration files. However, different cloud service providers utilize diverse IaC formats. The lack of a standardized format requires cloud architects to be proficient in multiple IaC languages, adding complexity to cloud deployment. While Large Language Models (LLMs) show promise in automating IaC creation and maintenance, progress has been limited by the lack of comprehensive benchmarks across multiple IaC formats. We present Multi-IaC-Bench, a novel benchmark dataset for evaluating LLM-based IaC generation and mutation across AWS CloudFormation, Terraform, and Cloud Development Kit (CDK) formats. The dataset consists of triplets containing initial IaC templates, natural language modification requests, and corresponding updated templates, created through a synthetic data generation pipeline with rigorous validation. We evaluate several state-of-the-art LLMs on Multi-IaC-Bench, demonstrating that while modern LLMs can achieve high success rates (>95%) in generating syntactically valid IaC across formats, significant challenges remain in semantic alignment and handling complex infrastructure patterns. Our ablation studies highlight the importance of prompt engineering and retry mechanisms in successful IaC generation. We release Multi-IaC-Bench to facilitate further research in AI-assisted infrastructure management and establish standardized evaluation metrics for this crucial domain.",
+      "published": "2025-08-21T22:37:18Z",
+      "year": "2025",
+      "categories": [
+        "cs.DC",
+        "cs.AI"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2509.05303v1.pdf",
+      "relevance_score": 93.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/09_2509.05303v1.pdf"
+    },
+    {
+      "arxiv_id": "2512.20184v1",
+      "title": "Reaching Agreement Among Reasoning LLM Agents",
+      "authors": [
+        "Chaoyi Ruan",
+        "Yiliang Wang",
+        "Ziji Shi",
+        "Jialin Li"
+      ],
+      "summary": "Multi-agent systems have extended the capability of agentic AI. Instead of single inference passes, multiple agents perform collective reasoning to derive high quality answers. However, existing multi-agent orchestration relies on static heuristic workflows such as fixed loop limits and barrier synchronization. These ad-hoc approaches waste computational resources, incur high latency due to stragglers, and risk finalizing transient agreements. We argue that reliable multi-agent reasoning requires a formal foundation analogous to classical distributed consensus problem. To that end, we propose a formal model of the multi-agent refinement problem. The model includes definitions of the correctness guarantees and formal semantics of agent reasoning. We then introduce Aegean, a consensus protocol designed for stochastic reasoning agents that solves multi-agent refinement. We implement the protocol in Aegean-Serve, a consensus-aware serving engine that performs incremental quorum detection across concurrent agent executions, enabling early termination when sufficient agents converge. Evaluation using four mathematical reasoning benchmarks shows that Aegean provides provable safety and liveness guarantees while reducing latency by 1.2--20$\\times$ compared to state-of-the-art baselines, maintaining answer quality within 2.5%. Consistent gains across both local GPU deployments and commercial API providers validate that consensus-based orchestration eliminates straggler delays without sacrificing correctness.",
+      "published": "2025-12-23T09:20:42Z",
+      "year": "2025",
+      "categories": [
+        "cs.DC"
+      ],
+      "primary_category": "",
+      "pdf_url": "http://arxiv.org/pdf/2512.20184v1.pdf",
+      "relevance_score": 90.0,
+      "downloaded": true,
+      "download_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-04_25-12A_ConfigurationAutomation/references/topic8_declarative_imperative/10_2512.20184v1.pdf"
+    }
+  ]
+}

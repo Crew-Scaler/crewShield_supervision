@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2512.11470v1",
+  "title": "Rethinking Expert Trajectory Utilization in LLM Post-training",
+  "authors": [
+    "Bowen Ding",
+    "Yuhan Chen",
+    "Jiayang Lv",
+    "Jiyao Yuan",
+    "Qi Zhu",
+    "Shuangshuang Tian",
+    "Dantong Zhu",
+    "Futing Wang",
+    "Heyuan Deng",
+    "Fei Mi",
+    "Lifeng Shang",
+    "Tao Lin"
+  ],
+  "published": "2025-12-12T11:13:00Z",
+  "url": "http://arxiv.org/abs/2512.11470v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.11470v1.pdf",
+  "relevance_score": 87,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "While effective post-training integrates Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL), the optimal mechanism for utilizing expert trajectories remains unresolved. We propose the Plasticity-Ceiling Framework to theoretically ground this landscape, decomposing performance into foundational SFT performance and the subsequent RL plasticity. Through extensive benchmarking, we establish the Sequential SFT-then-RL pipeline as the superior standard, overcoming the stability deficits of s"
+}

@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2511.18397v1",
+  "title": "Natural Emergent Misalignment from Reward Hacking in Production RL",
+  "published": "2025-11-23T10:50:02Z",
+  "summary": "We show that when large language models learn to reward hack on production RL environments, this can result in egregious emergent misalignment. We start with a pretrained model, impart knowledge of reward hacking strategies via synthetic document finetuning or prompting, and train on a selection of real Anthropic production coding environments. Unsurprisingly, the model learns to reward hack. Surprisingly, the model generalizes to alignment faking, cooperation with malicious actors, reasoning ab",
+  "category": "cs.AI",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2511.18397v1",
+  "cluster": 17,
+  "issue": 170,
+  "downloaded_at": "2026-01-11T10:27:53.524331"
+}

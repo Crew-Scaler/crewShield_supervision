@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2512.15782v1",
+  "title": "Auto-Tuning Safety Guardrails for Black-Box Large Language Models",
+  "published": "2025-12-14T23:27:21Z",
+  "summary": "Large language models (LLMs) are increasingly deployed behind safety guardrails such as system prompts and content filters, especially in settings where product teams cannot modify model weights. In practice these guardrails are typically hand-tuned, brittle, and difficult to reproduce. This paper studies a simple but practical alternative: treat safety guardrail design itself as a hyperparameter optimization problem over a frozen base model. Concretely, I wrap Mistral-7B-Instruct with modular j",
+  "category": "cs.CR",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2512.15782v1",
+  "cluster": 16,
+  "issue": 170,
+  "downloaded_at": "2026-01-11T10:27:53.522517"
+}

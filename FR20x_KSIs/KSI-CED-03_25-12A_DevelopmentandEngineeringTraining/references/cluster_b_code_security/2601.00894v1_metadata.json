@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2601.00894v1",
+  "title": "When to Ponder: Adaptive Compute Allocation for Code Generation via Test-Time Training",
+  "authors": [
+    "Gihyeon Sim"
+  ],
+  "published": "2025-12-31T14:49:54Z",
+  "url": "http://arxiv.org/abs/2601.00894v1",
+  "pdf_url": "http://arxiv.org/pdf/2601.00894v1.pdf",
+  "relevance_score": 94,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Large language models apply uniform computation to all inputs, regardless of difficulty. We propose PonderTTT, a gating strategy using the TTT layer's self-supervised reconstruction loss to selectively trigger Test-Time Training (TTT) updates. The gating decision itself is training-free--requiring no learned classifier or auxiliary networks; only a single scalar threshold is initially calibrated on unlabeled data and continuously adapted via EMA to maintain target update rates. Our experiments w"
+}

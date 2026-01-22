@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.05812v2",
+  "title": "Toward Efficient and Robust Behavior Models for Multi-Agent Driving Simulation",
+  "authors": [
+    "Fabian Konstantinidis",
+    "Moritz Sackmann",
+    "Ulrich Hofmann",
+    "Christoph Stiller"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.05812v2",
+  "relevance_score": 86.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "autonomous systems"
+  ],
+  "summary": "Scalable multi-agent driving simulation requires behavior models that are both realistic and computationally efficient. We address this by optimizing the behavior model that controls individual traffic participants. To improve efficiency, we adopt an instance-centric scene representation, where each traffic participant and map element is modeled in its own local coordinate frame. This design enables efficient, viewpoint-invariant scene encoding and allows static map tokens to be reused across si..."
+}

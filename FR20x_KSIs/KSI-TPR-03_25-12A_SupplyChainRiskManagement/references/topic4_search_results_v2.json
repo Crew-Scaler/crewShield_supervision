@@ -1,0 +1,182 @@
+[
+  {
+    "arxiv_id": "2512.21241v1",
+    "title": "Improving the Convergence Rate of Ray Search Optimization for Query-Efficient Hard-Label Attacks",
+    "authors": [
+      "Xinjie Xu",
+      "Shuyu Cheng",
+      "Dongwei Xu",
+      "Qi Xuan",
+      "Chen Ma"
+    ],
+    "abstract": "In hard-label black-box adversarial attacks, where only the top-1 predicted label is accessible, the prohibitive query complexity poses a major obstacle to practical deployment. In this paper, we focus on optimizing a representative class of attacks that search for the optimal ray direction yielding the minimum $\\ell_2$-norm perturbation required to move a benign image into the adversarial region. Inspired by Nesterov's Accelerated Gradient (NAG), we propose a momentum-based algorithm, ARS-OPT, which proactively estimates the gradient with respect to a future ray direction inferred from accumulated momentum. We provide a theoretical analysis of its convergence behavior, showing that ARS-OPT enables more accurate directional updates and achieves faster, more stable optimization. To further accelerate convergence, we incorporate surrogate-model priors into ARS-OPT's gradient estimation, resulting in PARS-OPT with enhanced performance. The superiority of our approach is supported by theoretical guarantees under standard assumptions. Extensive experiments on ImageNet and CIFAR-10 demonstrate that our method surpasses 13 state-of-the-art approaches in query efficiency.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21241v1",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.CV"
+    ],
+    "preferred_author": false,
+    "query": "backdoor attack neural network",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21048v1",
+    "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+    "authors": [
+      "Savvy Sharma",
+      "George Petrovic",
+      "Sarthak Kaushik"
+    ],
+    "abstract": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. We present zkFL-Health, an architecture that combines FL with zero-knowledge proofs (ZKPs) and Trusted Execution Environments (TEEs) to deliver privacy-preserving, verifiably correct collaborative training for medical AI. Clients locally train and commit their updates; the aggregator operates within a TEE to compute the global update and produces a succinct ZK proof (via Halo2/Nova) that it used exactly the committed inputs and the correct aggregation rule, without revealing any client update to the host. Verifier nodes validate the proof and record cryptographic commitments on-chain, providing an immutable audit trail and removing the need to trust any single party. We outline system and threat models tailored to healthcare, the zkFL-Health protocol, security/privacy guarantees, and a performance evaluation plan spanning accuracy, privacy risk, latency, and cost. This framework enables multi-institutional medical AI with strong confidentiality, integrity, and auditability, key properties for clinical adoption and regulatory compliance.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21048v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "membership inference attack",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.20893v1",
+    "title": "Time-Efficient Evaluation and Enhancement of Adversarial Robustness in Deep Neural Networks",
+    "authors": [
+      "Runqi Lin"
+    ],
+    "abstract": "With deep neural networks (DNNs) increasingly embedded in modern society, ensuring their safety has become a critical and urgent issue. In response, substantial efforts have been dedicated to the red-blue adversarial framework, where the red team focuses on identifying vulnerabilities in DNNs and the blue team on mitigating them. However, existing approaches from both teams remain computationally intensive, constraining their applicability to large-scale models. To overcome this limitation, this thesis endeavours to provide time-efficient methods for the evaluation and enhancement of adversarial robustness in DNNs.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.20893v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "adversarial examples defense",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.20821v1",
+    "title": "Defending against adversarial attacks using mixture of experts",
+    "authors": [
+      "Mohammad Meymani",
+      "Roozbeh Razavi-Far"
+    ],
+    "abstract": "Machine learning is a powerful tool enabling full automation of a huge number of tasks without explicit programming. Despite recent progress of machine learning in different domains, these models have shown vulnerabilities when they are exposed to adversarial threats. Adversarial threats aim to hinder the machine learning models from satisfying their objectives. They can create adversarial perturbations, which are imperceptible to humans' eyes but have the ability to cause misclassification during inference. Moreover, they can poison the training data to harm the model's performance or they can query the model to steal its sensitive information. In this paper, we propose a defense system, which devises an adversarial training module within mixture-of-experts architecture to enhance its robustness against adversarial threats. In our proposed defense system, we use nine pre-trained experts with ResNet-18 as their backbone. During end-to-end training, the parameters of expert models and gating mechanism are jointly updated allowing further optimization of the experts. Our proposed defense system outperforms state-of-the-art defense systems and plain classifiers, which use a more complex architecture than our model's backbone.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20821v1",
+    "categories": [
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "adversarial examples defense",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.20806v1",
+    "title": "Safety Alignment of LMs via Non-cooperative Games",
+    "authors": [
+      "Anselm Paulus",
+      "Ilia Kulikov",
+      "Brandon Amos",
+      "R\u00e9mi Munos",
+      "Ivan Evtimov",
+      "Kamalika Chaudhuri",
+      "Arman Zharmagambetov"
+    ],
+    "abstract": "Ensuring the safety of language models (LMs) while maintaining their usefulness remains a critical challenge in AI alignment. Current approaches rely on sequential adversarial training: generating adversarial prompts and fine-tuning LMs to defend against them. We introduce a different paradigm: framing safety alignment as a non-zero-sum game between an Attacker LM and a Defender LM trained jointly via online reinforcement learning. Each LM continuously adapts to the other's evolving strategies, driving iterative improvement. Our method uses a preference-based reward signal derived from pairwise comparisons instead of point-wise scores, providing more robust supervision and potentially reducing reward hacking. Our RL recipe, AdvGame, shifts the Pareto frontier of safety and utility, yielding a Defender LM that is simultaneously more helpful and more resilient to adversarial attacks. In addition, the resulting Attacker LM converges into a strong, general-purpose red-teaming agent that can be directly deployed to probe arbitrary target models.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20806v1",
+    "categories": [
+      "cs.AI"
+    ],
+    "preferred_author": false,
+    "query": "adversarial examples defense",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.20712v1",
+    "title": "Real-World Adversarial Attacks on RF-Based Drone Detectors",
+    "authors": [
+      "Omer Gazit",
+      "Yael Itzhakev",
+      "Yuval Elovici",
+      "Asaf Shabtai"
+    ],
+    "abstract": "Radio frequency (RF) based systems are increasingly used to detect drones by analyzing their RF signal patterns, converting them into spectrogram images which are processed by object detection models. Existing RF attacks against image based models alter digital features, making over-the-air (OTA) implementation difficult due to the challenge of converting digital perturbations to transmittable waveforms that may introduce synchronization errors and interference, and encounter hardware limitations. We present the first physical attack on RF image based drone detectors, optimizing class-specific universal complex baseband (I/Q) perturbation waveforms that are transmitted alongside legitimate communications. We evaluated the attack using RF recordings and OTA experiments with four types of drones. Our results show that modest, structured I/Q perturbations are compatible with standard RF chains and reliably reduce target drone detection while preserving detection of legitimate drones.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20712v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "preferred_author": false,
+    "query": "adversarial examples defense",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "abstract": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "published": "2025-12-23",
+    "pdf_url": "https://arxiv.org/pdf/2512.20423v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.NI"
+    ],
+    "preferred_author": false,
+    "query": "adversarial examples defense",
+    "relevance": "MEDIUM"
+  },
+  {
+    "arxiv_id": "2512.21250v1",
+    "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+    "authors": [
+      "Haoyang Li",
+      "Mingjin Li",
+      "Jinxin Zuo",
+      "Siqi Li",
+      "Xiao Li",
+      "Hao Wu",
+      "Yueming Lu",
+      "Xiaochuan He"
+    ],
+    "abstract": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.21250v1",
+    "categories": [
+      "cs.CR",
+      "cs.MA"
+    ],
+    "preferred_author": false,
+    "query": "backdoor attack neural network",
+    "relevance": "HIGH"
+  },
+  {
+    "arxiv_id": "2512.20865v1",
+    "title": "Robustness Certificates for Neural Networks against Adversarial Attacks",
+    "authors": [
+      "Sara Taheri",
+      "Mahalakshmi Sabanayagam",
+      "Debarghya Ghoshdastidar",
+      "Majid Zamani"
+    ],
+    "abstract": "The increasing use of machine learning in safety-critical domains amplifies the risk of adversarial threats, especially data poisoning attacks that corrupt training data to degrade performance or induce unsafe behavior. Most existing defenses lack formal guarantees or rely on restrictive assumptions about the model class, attack type, extent of poisoning, or point-wise certification, limiting their practical reliability. This paper introduces a principled formal robustness certification framework that models gradient-based training as a discrete-time dynamical system (dt-DS) and formulates poisoning robustness as a formal safety verification problem. By adapting the concept of barrier certificates (BCs) from control theory, we introduce sufficient conditions to certify a robust radius ensuring that the terminal model remains safe under worst-case ${\\ell}_p$-norm based poisoning. To make this practical, we parameterize BCs as neural networks trained on finite sets of poisoned trajectories. We further derive probably approximately correct (PAC) bounds by solving a scenario convex program (SCP), which yields a confidence lower bound on the certified robustness radius generalizing beyond the training set. Importantly, our framework also extends to certification against test-time attacks, making it the first unified framework to provide formal guarantees in both training and test-time attack settings. Experiments on MNIST, SVHN, and CIFAR-10 show that our approach certifies non-trivial perturbation budgets while being model-agnostic and requiring no prior knowledge of the attack or contamination level.",
+    "published": "2025-12-24",
+    "pdf_url": "https://arxiv.org/pdf/2512.20865v1",
+    "categories": [
+      "cs.LG",
+      "eess.SY"
+    ],
+    "preferred_author": false,
+    "query": "adversarial examples defense",
+    "relevance": "HIGH"
+  }
+]

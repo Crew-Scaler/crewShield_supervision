@@ -1,0 +1,78 @@
+{
+  "topic": "Cascade Failures & Feedback Loops in AI/Multi-Agent Systems",
+  "total_papers": 10,
+  "total_pages_est": 511,
+  "avg_relevance": 3.7,
+  "papers": [
+    {
+      "arxiv_id": "2512.21314v1",
+      "title": "A Lyapunov-Based Small-Gain Theorem for Fixed-Time ISS: Theory, Optimization, and Games",
+      "relevance_score": 5,
+      "reason": "Core paper on interconnected systems stability, feedback analysis, and cascade effects. Directly addresses small-gain conditions to prevent instability propagation in networked systems.",
+      "page_est": 16
+    },
+    {
+      "arxiv_id": "2512.21196v1",
+      "title": "Flocking phase transition and threat responses in bio-inspired autonomous swarms",
+      "relevance_score": 5,
+      "reason": "Multi-agent autonomous systems with phase transitions, coordination failures, and emergent behavior. Directly relevant to cascade failures in swarm systems.",
+      "page_est": 107
+    },
+    {
+      "arxiv_id": "2512.21309v1",
+      "title": "A Plan Reuse Mechanism for LLM-Driven Agent",
+      "relevance_score": 4,
+      "reason": "LLM agent systems with plan failures and error handling. Addresses robustness in AI agent operations.",
+      "page_est": 18
+    },
+    {
+      "arxiv_id": "2512.21066v1",
+      "title": "Agentic Explainable Artificial Intelligence (Agentic-XAI): Approach To Explainability in Agentic Systems",
+      "relevance_score": 4,
+      "reason": "Multi-agent AI systems with focus on agent interactions and system-level behaviors. Addresses understanding complex agent failures.",
+      "page_est": 44
+    },
+    {
+      "arxiv_id": "2512.21198v1",
+      "title": "Safe Navigation with Zonotopic Tubes: An Elastic Tube-based MPC Framework",
+      "relevance_score": 4,
+      "reason": "Robustness and safety in control systems with disturbance propagation, feedback control, and error tolerance mechanisms.",
+      "page_est": 20
+    },
+    {
+      "arxiv_id": "2512.21293v1",
+      "title": "Quadruped-Legged Robot Movement Plan Generation using Large Language Model",
+      "relevance_score": 3,
+      "reason": "LLM-driven autonomous robot system with distributed architecture and failure handling. Relevant to AI-driven operational systems.",
+      "page_est": 37
+    },
+    {
+      "arxiv_id": "2512.21335v1",
+      "title": "Autonomous Uncertainty Quantification for Computational Point-of-care Sensors",
+      "relevance_score": 3,
+      "reason": "Autonomous systems with error detection and uncertainty quantification to prevent diagnostic failures. Shows operational robustness mechanisms.",
+      "page_est": 22
+    },
+    {
+      "arxiv_id": "2512.21269v1",
+      "title": "The Dynamical Anatomy of Anderson Acceleration: From Adaptive Momentum to Variable-Mass ODEs",
+      "relevance_score": 3,
+      "reason": "Instability mechanisms, energy injection, and feedback dynamics in optimization systems. Demonstrates how unchecked growth creates system instability.",
+      "page_est": 59
+    },
+    {
+      "arxiv_id": "2512.21219v1",
+      "title": "Wireless Center of Pressure Feedback System for Humanoid Robot Balance Control using ESP32-C3",
+      "relevance_score": 3,
+      "reason": "Real-time feedback control system for robot stability with wireless architecture. Shows distributed control and failure prevention.",
+      "page_est": 104
+    },
+    {
+      "arxiv_id": "2512.21238v1",
+      "title": "Assessing the Software Security Comprehension of Large Language Models",
+      "relevance_score": 3,
+      "reason": "LLM systems with vulnerability detection and security failure analysis. Relevant to AI system safety and error propagation in code generation.",
+      "page_est": 84
+    }
+  ]
+}

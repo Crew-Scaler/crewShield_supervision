@@ -1,0 +1,200 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20234v1",
+    "arxiv_id": "2512.20234v1",
+    "title": "Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks",
+    "summary": "Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.",
+    "published": "2025-12-23T10:49:05Z",
+    "updated": "2025-12-23T10:49:05Z",
+    "authors": [
+      "Bin Xie",
+      "Rui Song",
+      "Xuyuan Cai"
+    ],
+    "affiliations": [],
+    "first_author": "Bin Xie",
+    "pdf_url": "https://arxiv.org/pdf/2512.20234v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20489v1",
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23T16:31:12Z",
+    "updated": "2025-12-23T16:31:12Z",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "affiliations": [],
+    "first_author": " Akta\u015f",
+    "pdf_url": "https://arxiv.org/pdf/2512.20489v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20198v1",
+    "arxiv_id": "2512.20198v1",
+    "title": "Designing Spatial Architectures for Sparse Attention: STAR Accelerator via Cross-Stage Tiling",
+    "summary": "Large language models (LLMs) rely on self-attention for contextual understanding, demanding high-throughput inference and large-scale token parallelism (LTPP). Existing dynamic sparsity accelerators falter under LTPP scenarios due to stage-isolated optimizations. Revisiting the end-to-end sparsity acceleration flow, we identify an overlooked opportunity: cross-stage coordination can substantially reduce redundant computation and memory access. We propose STAR, a cross-stage compute- and memory-efficient algorithm-hardware co-design tailored for Transformer inference under LTPP. STAR introduces a leading-zero-based sparsity prediction using log-domain add-only operations to minimize prediction overhead. It further employs distributed sorting and a sorted updating FlashAttention mechanism, guided by a coordinated tiling strategy that enables fine-grained stage interaction for improved memory efficiency and latency. These optimizations are supported by a dedicated STAR accelerator architecture, achieving up to 9.2$\\times$ speedup and 71.2$\\times$ energy efficiency over A100, and surpassing SOTA accelerators by up to 16.1$\\times$ energy and 27.1$\\times$ area efficiency gains. Further, we deploy STAR onto a multi-core spatial architecture, optimizing dataflow and execution orchestration for ultra-long sequence processing. Architectural evaluation shows that, compared to the baseline design, Spatial-STAR achieves a 20.1$\\times$ throughput improvement.",
+    "published": "2025-12-23T09:43:32Z",
+    "updated": "2025-12-23T09:43:32Z",
+    "authors": [
+      "Huizheng Wang",
+      "Taiquan Wei",
+      "Hongbin Wang",
+      "Zichuan Wang",
+      "Xinru Tang",
+      "Zhiheng Yue",
+      "Shaojun Wei",
+      "Yang Hu",
+      "Shouyi Yin"
+    ],
+    "affiliations": [],
+    "first_author": "Huizheng Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20198v1",
+    "primary_category": "cs.AR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20396v1",
+    "arxiv_id": "2512.20396v1",
+    "title": "Symmaries: Automatic Inference of Formal Security Summaries for Java Programs",
+    "summary": "We introduce a scalable, modular, and sound approach for automatically constructing formal security specifications for Java bytecode programs in the form of method summaries. A summary provides an abstract representation of a method's security behavior, consisting of the conditions under which the method can be securely invoked, together with specifications of information flows and aliasing updates. Such summaries can be consumed by static code analysis tools and also help developers understand the behavior of code segments, such as libraries, in order to evaluate their security implications when reused in applications. Our approach is implemented in a tool called Symmaries, which automates the generation of security summaries. We applied Symmaries to Java API libraries to extract their security specifications and to large real-world applications to evaluate its scalability. Our results show that the tool successfully scales to analyze applications with hundreds of thousands of lines of code, and that Symmaries achieves a promising precision depending on the heap model used. We prove the soundness of our approach in terms of guaranteeing termination-insensitive non-interference.",
+    "published": "2025-12-23T14:33:31Z",
+    "updated": "2025-12-23T14:33:31Z",
+    "authors": [
+      "Narges Khakpour",
+      "Nicolas Berthier"
+    ],
+    "affiliations": [],
+    "first_author": "Narges Khakpour",
+    "pdf_url": "https://arxiv.org/pdf/2512.20396v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20381v1",
+    "arxiv_id": "2512.20381v1",
+    "title": "Identifying Appropriately-Sized Services with Deep Reinforcement Learning",
+    "summary": "Service-based architecture (SBA) has gained attention in industry and academia as a means to modernize legacy systems. It refers to a design style that enables systems to be developed as suites of small, loosely coupled, and autonomous components (services) that encapsulate functionality and communicate via language-agnostic APIs. However, defining appropriately sized services that capture cohesive subsets of system functionality remains challenging. Existing work often relies on the availability of documentation, access to project personnel, or a priori knowledge of the target number of services, assumptions that do not hold in many real-world scenarios. Our work addresses these limitations using a deep reinforcement learning-based approach to identify appropriately sized services directly from implementation artifacts. We present Rake, a reinforcement learning-based technique that leverages available system documentation and source code to guide service decomposition at the level of implementation methods. Rake does not require specific documentation or access to project personnel and is language-agnostic. It also supports a customizable objective function that balances modularization quality and business capability alignment, i.e., the degree to which a service covers the targeted business capability. We applied Rake to four open-source legacy projects and compared it with two state-of-the-art techniques. On average, Rake achieved 7-14 percent higher modularization quality and 18-22 percent stronger business capability alignment. Our results further show that optimizing solely for business context can degrade decomposition quality in tightly coupled systems, highlighting the need for balanced objectives.",
+    "published": "2025-12-23T14:12:02Z",
+    "updated": "2025-12-23T14:12:02Z",
+    "authors": [
+      "Syeda Tasnim Fabiha",
+      "Saad Shafiq",
+      "Wesley Klewerton Guez Assun\u00e7\u00e3o",
+      "Nenad Medvidovi\u0107"
+    ],
+    "affiliations": [],
+    "first_author": "Syeda Tasnim Fabiha",
+    "pdf_url": "https://arxiv.org/pdf/2512.20381v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20333v1",
+    "arxiv_id": "2512.20333v1",
+    "title": "SynCraft: Guiding Large Language Models to Predict Edit Sequences for Molecular Synthesizability Optimization",
+    "summary": "Generative artificial intelligence has revolutionized the exploration of chemical space, yet a critical bottleneck remains that a substantial fraction of generated molecules is synthetically inaccessible. Current solutions, such as post-hoc filtering or projection-based methods, often compromise structural novelty or disrupt key pharmacophores by forcing molecules into pre-defined synthetic templates. Herein, we introduce SynCraft, a reasoning-based framework that reframes synthesizability optimization not as a sequence translation task, but as a precise structural editing problem. Leveraging the emergent reasoning capabilities of Large Language Models, SynCraft navigates the \"synthesis cliff\" where minimal structural modifications yield significant gains in synthetic feasibility. By predicting executable sequences of atom-level edits rather than generating SMILES strings directly, SynCraft circumvents the syntactic fragility of LLMs while harnessing their chemical intuition. Extensive benchmarks demonstrate that SynCraft outperforms state-of-the-art baselines in generating synthesizable analogs with high structural fidelity. Furthermore, through interaction-aware prompting, SynCraft successfully replicates expert medicinal chemistry intuition in editing PLK1 inhibitors and rescuing high-scoring but previously discarded RIPK1 candidates in previous molecular generation literatures.",
+    "published": "2025-12-23T13:07:22Z",
+    "updated": "2025-12-23T13:07:22Z",
+    "authors": [
+      "Junren Li",
+      "Luhua Lai"
+    ],
+    "affiliations": [],
+    "first_author": "Junren Li",
+    "pdf_url": "https://arxiv.org/pdf/2512.20333v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20303v1",
+    "arxiv_id": "2512.20303v1",
+    "title": "From the Two-Capacitor Paradox to Electromagnetic Side-Channel Mitigation in Digital Circuits",
+    "summary": "The classical two-capacitor paradox of the lost energy is revisited from an electronic circuit security stand-point. The paradox has been solved previously by various researchers, and the energy lost during the charging of capacitors has been primarily attributed to the heat and radiation. We analytically prove this for various standard resistor-capacitor (RC) and resistor-inductor-capacitor (RLC) circuit models. From the perspective of electronic system security, electromagnetic (EM) side-channel analysis (SCA) has recently gained significant prominence with the growth of resource-constrained, internet connected devices. This article connects the energy lost due to capacitor charging to the EM SCA leakage in electronic devices, leading to the recovery of the secret encryption key embedded within the device. Finally, with an understanding of how lost energy relates to EM radiation, we propose adiabatic charging as a solution to minimize EM leakage, thereby paving the way towards low-overhead EM SCA resilience.",
+    "published": "2025-12-23T12:11:37Z",
+    "updated": "2025-12-23T12:11:37Z",
+    "authors": [
+      "Raghvendra Pratap Singh",
+      "Baibhab Chatterjee",
+      "Shreyas Sen",
+      "Debayan Das"
+    ],
+    "affiliations": [],
+    "first_author": "Raghvendra Pratap Singh",
+    "pdf_url": "https://arxiv.org/pdf/2512.20303v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20265v1",
+    "arxiv_id": "2512.20265v1",
+    "title": "Super-Eddington Accretion through a Multiwavelength Lens: Searching for Counterparts of Ultraluminous X-ray Sources",
+    "summary": "Ultraluminous X-ray sources (ULXs) represent the closest and most accessible laboratories to study sustained super-Eddington accretion onto compact objects. Over the past decade, the discoveries of coherent pulsations in a few ULXs has proved that these systems can be powered by accreting neutron stars, while the most luminous and distant ones remain strong candidates for hosting intermediate-mass black holes. Despite the increasing number of available X-ray data and the significant progress in theoretical modeling and simulations, our understanding of ULXs remains incomplete. Key open questions include the nature and mass distribution of the compact objects, the type of the donor stars, the geometry of the accretion disc and its contribution to the observed broadband emission, the mechanisms responsible for the wide spectral and temporal phenomenology, the duration of the super-Eddington accretion phase and its feedback on the host-galaxy environment. Future ground-based facilities will play a crucial role in addressing these issues.",
+    "published": "2025-12-23T11:19:34Z",
+    "updated": "2025-12-23T11:19:34Z",
+    "authors": [
+      "R. Amato",
+      "M. Bachetti",
+      "R. Soria",
+      "A. G\u00farpide",
+      "M. Imbrogno",
+      "C. Salvaggio",
+      "R. Salvaterra",
+      "M. Del Santo",
+      "S. Scaringi",
+      "P. Casella",
+      "A. Wolter"
+    ],
+    "affiliations": [],
+    "first_author": "R. Amato",
+    "pdf_url": "https://arxiv.org/pdf/2512.20265v1",
+    "primary_category": "astro-ph.HE",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20245v1",
+    "arxiv_id": "2512.20245v1",
+    "title": "Memory as Resonance: A Biomimetic Architecture for Infinite Context Memory on Ergodic Phonetic Manifolds",
+    "summary": "The memory of contemporary Large Language Models is bound by a physical paradox: as they learn, they fill up. The linear accumulation (O(N)) of Key-Value states treats context as a warehouse of static artifacts, eventually forcing a destructive choice between amnesia and latency. We challenge this discrete orthodoxy, proposing that long-term memory is not the storage of items, but the persistence of a trajectory. We introduce Phonetic Trajectory Memory (PTM), a neuro-symbolic architecture that encodes language not as a sequence of tensors, but as a continuous path on an ergodic manifold governed by irrational rotation matrices. By decoupling the navigation (an invariant O(1) geometric signal) from the reconstruction (a probabilistic generative act), PTM achieves a compression magnitude of greater than 3,000x relative to dense caches. We demonstrate that retrieval becomes a process of resonance: the phonetic trace stabilizes the model against hallucination via \"Signal Consensus\" mechanism, securing up to approximately 92% factual accuracy. While this aggressive abstraction alters generative texture, it unlocks immediate access latency (approximately 34ms) independent of depth. Our results suggest that infinite context does not require infinite silicon; it requires treating memory not as data to be stored, but as a reconstructive process acting on a conserved, undying physical signal.",
+    "published": "2025-12-23T10:55:32Z",
+    "updated": "2025-12-23T10:55:32Z",
+    "authors": [
+      "Tarik Houichime",
+      "Abdelghani Souhar",
+      "Younes El Amrani"
+    ],
+    "affiliations": [],
+    "first_author": "Tarik Houichime",
+    "pdf_url": "https://arxiv.org/pdf/2512.20245v1",
+    "primary_category": "cs.NE",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20210v1",
+    "arxiv_id": "2512.20210v1",
+    "title": "Predictive-LoRA: A Proactive and Fragmentation-Aware Serverless Inference System for LLMs",
+    "summary": "The serverless computing paradigm offers compelling advantages for deploying Large Language Model (LLM) inference services, including elastic scaling and pay-per-use billing. However, serving multiple fine-tuned LLMs via Low-Rank Adaptation (LoRA) in serverless environments faces critical challenges: reactive adapter loading causes significant cold start latency, and frequent adapter swapping leads to severe GPU memory fragmentation. In this paper, we present Predictive-LoRA (P-LoRA), a proactive and fragmentation-aware serverless inference system for LoRA-based LLMs. P-LoRA introduces two key innovations: (1) a lightweight LSTM-based traffic predictor that forecasts adapter demand and proactively prefetches hot adapters from host memory to GPU, reducing cold start latency by up to 68%; and (2) a page-based adapter memory management mechanism inspired by operating system virtual memory, which keeps GPU memory utilization above 87% even under heterogeneous adapter ranks. We evaluate P-LoRA using production-like workloads derived from the Azure Functions trace. Experimental results demonstrate that P-LoRA achieves 1.52x higher throughput than S-LoRA while reducing the average Time-To-First-Token (TTFT) by 35% under high concurrency scenarios.",
+    "published": "2025-12-23T10:03:47Z",
+    "updated": "2025-12-23T10:03:47Z",
+    "authors": [
+      "Yinan Ni",
+      "Xiao Yang",
+      "Yuqi Tang",
+      "Zhimin Qiu",
+      "Chen Wang",
+      "Tingzhou Yuan"
+    ],
+    "affiliations": [],
+    "first_author": "Yinan Ni",
+    "pdf_url": "https://arxiv.org/pdf/2512.20210v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 12.0
+  }
+]

@@ -1,0 +1,277 @@
+{
+  "research_topic": "Data Poisoning in Configuration Models for Malicious Recommendations",
+  "issue_number": 69,
+  "topic_number": 7,
+  "search_date": "2025-12-25",
+  "total_papers_found": 82,
+  "papers_downloaded": 10,
+  "papers_archived": 72,
+  "search_queries": [
+    "all:\"data poisoning\" AND (all:configuration OR all:\"policy recommendation\") AND (all:\"machine learning\" OR all:model)",
+    "all:\"backdoor\" AND (all:configuration OR all:\"training data\") AND (all:\"machine learning\" OR all:LLM)",
+    "all:\"training data\" AND all:attack AND (all:security OR all:safety OR all:poisoning)"
+  ],
+  "selection_criteria": {
+    "prioritization": "2025 > 2024 > 2023",
+    "institution_preference": "US institutions preferred",
+    "relevance_scoring": "Keywords: data poisoning, backdoor, training data attack, configuration, policy recommendation",
+    "maximum_papers": 10
+  },
+  "downloaded_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2506.01825v2",
+      "title": "Backdoors in Code Summarizers: How Bad Is It?",
+      "authors": [
+        "Chenyu Wang",
+        "Zhou Yang",
+        "Yaniv Harel",
+        "David Lo"
+      ],
+      "affiliations": [],
+      "published": "2025-06-02",
+      "updated": "2025-10-04",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "relevance_score": 52,
+      "abstract": "Code LLMs are increasingly employed in software development. However, studies have shown that they are vulnerable to backdoor attacks: when a trigger (a specific input pattern) appears in the input, the backdoor will be activated and cause the model to generate malicious outputs. Researchers have designed various triggers and demonstrated the feasibility of implanting backdoors by poisoning a fraction of the training data. Some basic conclusions have been made, such as backdoors becoming easier to implant when more training data is modified. However, existing research has not explored other factors influencing backdoor attacks on Code LLMs, such as training batch size, epoch number, and the broader design space for triggers, e.g., trigger length. To bridge this gap, we use code summarization as an example to perform an empirical study that systematically investigates the factors affecting backdoor effectiveness and understands the extent of the threat posed. Three categories of factors are considered: data, model, and inference, revealing previously overlooked findings. We find that the prevailing consensus -- that attacks are ineffective at extremely low poisoning rates -- is incorrect. The absolute number of poisoned samples matters as well. Specifically, poisoning just 20 out of 454K samples (0.004% poisoning rate -- far below the minimum setting of 0.1% in prior studies) successfully implants backdoors! Moreover, the common defense is incapable of removing even a single poisoned sample from it. Additionally, small batch sizes increase the risk of backdoor attacks. We also uncover other critical factors such as trigger types, trigger length, and the rarity of tokens in the triggers, leading to valuable insights for assessing Code LLMs' vulnerability to backdoor attacks. Our study highlights the urgent need for defense mechanisms against extremely low poisoning rate settings.",
+      "pdf_url": "http://arxiv.org/pdf/2506.01825v2.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2506.01825v2",
+      "local_filename": "2506.01825v2_Backdoors in Code Summarizers_ How Bad Is It.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2511.16709v1",
+      "title": "AutoBackdoor: Automating Backdoor Attacks via LLM Agents",
+      "authors": [
+        "Yige Li",
+        "Zhe Li",
+        "Wei Zhao",
+        "Nay Myat Min",
+        "Hanxun Huang",
+        "Xingjun Ma",
+        "Jun Sun"
+      ],
+      "affiliations": [],
+      "published": "2025-11-20",
+      "updated": "2025-11-20",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "relevance_score": 51,
+      "abstract": "Backdoor attacks pose a serious threat to the secure deployment of large language models (LLMs), enabling adversaries to implant hidden behaviors triggered by specific inputs. However, existing methods often rely on manually crafted triggers and static data pipelines, which are rigid, labor-intensive, and inadequate for systematically evaluating modern defense robustness. As AI agents become increasingly capable, there is a growing need for more rigorous, diverse, and scalable \\textit{red-teaming frameworks} that can realistically simulate backdoor threats and assess model resilience under adversarial conditions. In this work, we introduce \\textsc{AutoBackdoor}, a general framework for automating backdoor injection, encompassing trigger generation, poisoned data construction, and model fine-tuning via an autonomous agent-driven pipeline. Unlike prior approaches, AutoBackdoor uses a powerful language model agent to generate semantically coherent, context-aware trigger phrases, enabling scalable poisoning across arbitrary topics with minimal human effort. We evaluate AutoBackdoor under three realistic threat scenarios, including \\textit{Bias Recommendation}, \\textit{Hallucination Injection}, and \\textit{Peer Review Manipulation}, to simulate a broad range of attacks. Experiments on both open-source and commercial models, including LLaMA-3, Mistral, Qwen, and GPT-4o, demonstrate that our method achieves over 90\\% attack success with only a small number of poisoned samples. More importantly, we find that existing defenses often fail to mitigate these attacks, underscoring the need for more rigorous and adaptive evaluation techniques against agent-driven threats as explored in this work. All code, datasets, and experimental configurations will be merged into our primary repository at https://github.com/bboylyg/BackdoorLLM.",
+      "pdf_url": "http://arxiv.org/pdf/2511.16709v1.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2511.16709v1",
+      "local_filename": "2511.16709v1_AutoBackdoor_ Automating Backdoor Attacks via LLM Agents.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2502.07011v2",
+      "title": "DROP: Poison Dilution via Knowledge Distillation for Federated Learning",
+      "authors": [
+        "Georgios Syros",
+        "Anshuman Suri",
+        "Farinaz Koushanfar",
+        "Cristina Nita-Rotaru",
+        "Alina Oprea"
+      ],
+      "affiliations": [],
+      "published": "2025-02-10",
+      "updated": "2025-04-28",
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "cs.DC"
+      ],
+      "relevance_score": 48,
+      "abstract": "Federated Learning is vulnerable to adversarial manipulation, where malicious clients can inject poisoned updates to influence the global model's behavior. While existing defense mechanisms have made notable progress, they fail to protect against adversaries that aim to induce targeted backdoors under different learning and attack configurations. To address this limitation, we introduce DROP (Distillation-based Reduction Of Poisoning), a novel defense mechanism that combines clustering and activity-tracking techniques with extraction of benign behavior from clients via knowledge distillation to tackle stealthy adversaries that manipulate low data poisoning rates and diverse malicious client ratios within the federation. Through extensive experimentation, our approach demonstrates superior robustness compared to existing defenses across a wide range of learning configurations. Finally, we evaluate existing defenses and our method under the challenging setting of non-IID client data distribution and highlight the challenges of designing a resilient FL defense in this setting.",
+      "pdf_url": "http://arxiv.org/pdf/2502.07011v2.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2502.07011v2",
+      "local_filename": "2502.07011v2_DROP_ Poison Dilution via Knowledge Distillation for Federated Learning.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2505.19821v1",
+      "title": "Poison in the Well: Feature Embedding Disruption in Backdoor Attacks",
+      "authors": [
+        "Zhou Feng",
+        "Jiahao Chen",
+        "Chunyi Zhou",
+        "Yuwen Pu",
+        "Qingming Li",
+        "Shouling Ji"
+      ],
+      "affiliations": [],
+      "published": "2025-05-26",
+      "updated": "2025-05-26",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "relevance_score": 47,
+      "abstract": "Backdoor attacks embed malicious triggers into training data, enabling attackers to manipulate neural network behavior during inference while maintaining high accuracy on benign inputs. However, existing backdoor attacks face limitations manifesting in excessive reliance on training data, poor stealth, and instability, which hinder their effectiveness in real-world applications. Therefore, this paper introduces ShadowPrint, a versatile backdoor attack that targets feature embeddings within neural networks to achieve high ASRs and stealthiness. Unlike traditional approaches, ShadowPrint reduces reliance on training data access and operates effectively with exceedingly low poison rates (as low as 0.01%). It leverages a clustering-based optimization strategy to align feature embeddings, ensuring robust performance across diverse scenarios while maintaining stability and stealth. Extensive evaluations demonstrate that ShadowPrint achieves superior ASR (up to 100%), steady CA (with decay no more than 1% in most cases), and low DDR (averaging below 5%) across both clean-label and dirty-label settings, and with poison rates ranging from as low as 0.01% to 0.05%, setting a new standard for backdoor attack capabilities and emphasizing the need for advanced defense strategies focused on feature space manipulations.",
+      "pdf_url": "http://arxiv.org/pdf/2505.19821v1.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2505.19821v1",
+      "local_filename": "2505.19821v1_Poison in the Well_ Feature Embedding Disruption in Backdoor Attacks.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2510.15106v1",
+      "title": "PoTS: Proof-of-Training-Steps for Backdoor Detection in Large Language Models",
+      "authors": [
+        "Issam Seddik",
+        "Sami Souihi",
+        "Mohamed Tamaazousti",
+        "Sara Tucci Piergiovanni"
+      ],
+      "affiliations": [],
+      "published": "2025-10-16",
+      "updated": "2025-10-16",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "relevance_score": 46,
+      "abstract": "As Large Language Models (LLMs) gain traction across critical domains, ensuring secure and trustworthy training processes has become a major concern. Backdoor attacks, where malicious actors inject hidden triggers into training data, are particularly insidious and difficult to detect. Existing post-training verification solutions like Proof-of-Learning are impractical for LLMs due to their requirement for full retraining, lack of robustness against stealthy manipulations, and inability to provide early detection during training. Early detection would significantly reduce computational costs. To address these limitations, we introduce Proof-of-Training Steps, a verification protocol that enables an independent auditor (Alice) to confirm that an LLM developer (Bob) has followed the declared training recipe, including data batches, architecture, and hyperparameters. By analyzing the sensitivity of the LLMs' language modeling head (LM-Head) to input perturbations, our method can expose subtle backdoor injections or deviations in training. Even with backdoor triggers in up to 10 percent of the training data, our protocol significantly reduces the attacker's ability to achieve a high attack success rate (ASR). Our method enables early detection of attacks at the injection step, with verification steps being 3x faster than training steps. Our results highlight the protocol's potential to enhance the accountability and security of LLM development, especially against insider threats.",
+      "pdf_url": "http://arxiv.org/pdf/2510.15106v1.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2510.15106v1",
+      "local_filename": "2510.15106v1_PoTS_ Proof-of-Training-Steps for Backdoor Detection in Large Language Models.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2510.13992v1",
+      "title": "Signature in Code Backdoor Detection, how far are we?",
+      "authors": [
+        "Quoc Hung Le",
+        "Thanh Le-Cong",
+        "Bach Le",
+        "Bowen Xu"
+      ],
+      "affiliations": [],
+      "published": "2025-10-15",
+      "updated": "2025-10-15",
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "relevance_score": 46,
+      "abstract": "As Large Language Models (LLMs) become increasingly integrated into software development workflows, they also become prime targets for adversarial attacks. Among these, backdoor attacks are a significant threat, allowing attackers to manipulate model outputs through hidden triggers embedded in training data. Detecting such backdoors remains a challenge, and one promising approach is the use of Spectral Signature defense methods that identify poisoned data by analyzing feature representations through eigenvectors. While some prior works have explored Spectral Signatures for backdoor detection in neural networks, recent studies suggest that these methods may not be optimally effective for code models. In this paper, we revisit the applicability of Spectral Signature-based defenses in the context of backdoor attacks on code models. We systematically evaluate their effectiveness under various attack scenarios and defense configurations, analyzing their strengths and limitations. We found that the widely used setting of Spectral Signature in code backdoor detection is often suboptimal. Hence, we explored the impact of different settings of the key factors. We discovered a new proxy metric that can more accurately estimate the actual performance of Spectral Signature without model retraining after the defense.",
+      "pdf_url": "http://arxiv.org/pdf/2510.13992v1.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2510.13992v1",
+      "local_filename": "2510.13992v1_Signature in Code Backdoor Detection, how far are we.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2506.09562v3",
+      "title": "TooBadRL: Trigger Optimization to Boost Effectiveness of Backdoor Attacks on Deep Reinforcement Learning",
+      "authors": [
+        "Mingxuan Zhang",
+        "Oubo Ma",
+        "Kang Wei",
+        "Songze Li",
+        "Shouling Ji"
+      ],
+      "affiliations": [],
+      "published": "2025-06-11",
+      "updated": "2025-11-18",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "relevance_score": 46,
+      "abstract": "Deep reinforcement learning (DRL) has achieved remarkable success in a wide range of sequential decision-making applications, including robotics, healthcare, smart grids, and finance. Recent studies reveal that adversaries can implant backdoors into DRL agents during the training phase. These backdoors can later be activated by specific triggers during deployment, compelling the agent to execute targeted actions and potentially leading to severe consequences, such as drone crashes or vehicle collisions. However, existing backdoor attacks utilize simplistic and heuristic trigger configurations, overlooking the critical impact of trigger design on attack effectiveness. To address this gap, we introduce TooBadRL, the first framework to systematically optimize DRL backdoor triggers across three critical aspects: injection timing, trigger dimension, and manipulation magnitude. Specifically, we first introduce a performance-aware adaptive freezing mechanism to determine the injection timing during training. Then, we formulate trigger selection as an influence attribution problem and apply Shapley value analysis to identify the most influential trigger dimension for injection. Furthermore, we propose an adversarial input synthesis method to optimize the manipulation magnitude under environmental constraints. Extensive evaluations on three DRL algorithms and nine benchmark tasks demonstrate that TooBadRL outperforms five baseline methods in terms of attack success rate while only slightly affecting normal task performance. We further evaluate potential defense strategies from detection and mitigation perspectives. We open-source our code to facilitate reproducibility and further research.",
+      "pdf_url": "http://arxiv.org/pdf/2506.09562v3.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2506.09562v3",
+      "local_filename": "2506.09562v3_TooBadRL_ Trigger Optimization to Boost Effectiveness of Backdoor Attacks on Dee.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2505.03501v1",
+      "title": "BadLingual: A Novel Lingual-Backdoor Attack against Large Language Models",
+      "authors": [
+        "Zihan Wang",
+        "Hongwei Li",
+        "Rui Zhang",
+        "Wenbo Jiang",
+        "Kangjie Chen",
+        "Tianwei Zhang",
+        "Qingchuan Zhao",
+        "Guowen Xu"
+      ],
+      "affiliations": [],
+      "published": "2025-05-06",
+      "updated": "2025-05-06",
+      "categories": [
+        "cs.CR",
+        "cs.CL"
+      ],
+      "relevance_score": 46,
+      "abstract": "In this paper, we present a new form of backdoor attack against Large Language Models (LLMs): lingual-backdoor attacks. The key novelty of lingual-backdoor attacks is that the language itself serves as the trigger to hijack the infected LLMs to generate inflammatory speech. They enable the precise targeting of a specific language-speaking group, exacerbating racial discrimination by malicious entities. We first implement a baseline lingual-backdoor attack, which is carried out by poisoning a set of training data for specific downstream tasks through translation into the trigger language. However, this baseline attack suffers from poor task generalization and is impractical in real-world settings. To address this challenge, we design BadLingual, a novel task-agnostic lingual-backdoor, capable of triggering any downstream tasks within the chat LLMs, regardless of the specific questions of these tasks. We design a new approach using PPL-constrained Greedy Coordinate Gradient-based Search (PGCG) based adversarial training to expand the decision boundary of lingual-backdoor, thereby enhancing the generalization ability of lingual-backdoor across various tasks. We perform extensive experiments to validate the effectiveness of our proposed attacks. Specifically, the baseline attack achieves an ASR of over 90% on the specified tasks. However, its ASR reaches only 37.61% across six tasks in the task-agnostic scenario. In contrast, BadLingual brings up to 37.35% improvement over the baseline. Our study sheds light on a new perspective of vulnerabilities in LLMs with multilingual capabilities and is expected to promote future research on the potential defenses to enhance the LLMs' robustness",
+      "pdf_url": "http://arxiv.org/pdf/2505.03501v1.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2505.03501v1",
+      "local_filename": "2505.03501v1_BadLingual_ A Novel Lingual-Backdoor Attack against Large Language Models.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2512.19297v1",
+      "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+      "authors": [
+        "Linzhi Chen",
+        "Yang Sun",
+        "Hongru Wei",
+        "Yuqi Chen"
+      ],
+      "affiliations": [],
+      "published": "2025-12-22",
+      "updated": "2025-12-22",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "relevance_score": 44,
+      "abstract": "Low-Rank Adaptation (LoRA) has emerged as an efficient method for fine-tuning large language models (LLMs) and is widely adopted within the open-source community. However, the decentralized dissemination of LoRA adapters through platforms such as Hugging Face introduces novel security vulnerabilities: malicious adapters can be easily distributed and evade conventional oversight mechanisms. Despite these risks, backdoor attacks targeting LoRA-based fine-tuning remain relatively underexplored. Existing backdoor attack strategies are ill-suited to this setting, as they often rely on inaccessible training data, fail to account for the structural properties unique to LoRA, or suffer from high false trigger rates (FTR), thereby compromising their stealth. To address these challenges, we propose Causal-Guided Detoxify Backdoor Attack (CBA), a novel backdoor attack framework specifically designed for open-weight LoRA models. CBA operates without access to original training data and achieves high stealth through two key innovations: (1) a coverage-guided data generation pipeline that synthesizes task-aligned inputs via behavioral exploration, and (2) a causal-guided detoxification strategy that merges poisoned and clean adapters by preserving task-critical neurons. Unlike prior approaches, CBA enables post-training control over attack intensity through causal influence-based weight allocation, eliminating the need for repeated retraining. Evaluated across six LoRA models, CBA achieves high attack success rates while reducing FTR by 50-70\\% compared to baseline methods. Furthermore, it demonstrates enhanced resistance to state-of-the-art backdoor defenses, highlighting its stealth and robustness.",
+      "pdf_url": "http://arxiv.org/pdf/2512.19297v1.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2512.19297v1",
+      "local_filename": "2512.19297v1_Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models.pdf",
+      "download_status": "success"
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2505.17601v5",
+      "title": "Revisiting Backdoor Attacks on LLMs: A Stealthy and Practical Poisoning Framework via Harmless Inputs",
+      "authors": [
+        "Jiawei Kong",
+        "Hao Fang",
+        "Xiaochen Yang",
+        "Kuofeng Gao",
+        "Bin Chen",
+        "Shu-Tao Xia",
+        "Ke Xu",
+        "Han Qiu"
+      ],
+      "affiliations": [],
+      "published": "2025-05-23",
+      "updated": "2025-10-04",
+      "categories": [
+        "cs.CL"
+      ],
+      "relevance_score": 44,
+      "abstract": "Recent studies have widely investigated backdoor attacks on Large Language Models (LLMs) by inserting harmful question-answer (QA) pairs into their training data. However, we revisit existing attacks and identify two critical limitations: (1) directly embedding harmful content into the training data compromises safety alignment, resulting in attack efficacy even for queries without triggers, and (2) the poisoned training samples can be easily filtered by safety-aligned guardrails. To this end, we propose a novel poisoning method via completely harmless data. Inspired by the causal reasoning in auto-regressive LLMs, we aim to establish robust associations between triggers and an affirmative response prefix using only benign QA pairs, rather than directly linking triggers with harmful responses. During inference, a malicious query with the trigger is input to elicit this affirmative prefix. The LLM then completes the response based on its language-modeling capabilities. Achieving this using only clean samples is non-trivial. We observe an interesting resistance phenomenon where the LLM initially appears to agree but subsequently refuses to answer. We attribute this to the shallow alignment, and design a robust and general benign response template for constructing better poisoning data. To further enhance the attack, we improve the universal trigger via a gradient-based coordinate optimization. Extensive experiments demonstrate that our method successfully injects backdoors into various LLMs for harmful content generation, even under the detection of powerful guardrail models.",
+      "pdf_url": "http://arxiv.org/pdf/2505.17601v5.pdf",
+      "arxiv_url": "http://arxiv.org/abs/2505.17601v5",
+      "local_filename": "2505.17601v5_Revisiting Backdoor Attacks on LLMs_ A Stealthy and Practical Poisoning Framewor.pdf",
+      "download_status": "success"
+    }
+  ]
+}

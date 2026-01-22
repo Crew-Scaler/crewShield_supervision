@@ -1,0 +1,21 @@
+Title: Prompt Fencing: A Cryptographic Approach to Establishing Security Boundaries in Large Language Model Prompts
+
+Authors: Steven Peh
+
+
+Published: 2025-11-24
+
+Query ID: C-2.5
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 51
+
+URL: https://arxiv.org/pdf/2511.19727.pdf
+
+Abstract:
+Large Language Models (LLMs) remain vulnerable to prompt injection attacks, representing the most significant security threat in production deployments. We present Prompt Fencing, a novel architectural approach that applies cryptographic authentication and data architecture principles to establish explicit security boundaries within LLM prompts. Our approach decorates prompt segments with cryptographically signed metadata including trust ratings and content types, enabling LLMs to distinguish be...
+
+Relevance Justification:
+Directly addresses prompt injection attacks

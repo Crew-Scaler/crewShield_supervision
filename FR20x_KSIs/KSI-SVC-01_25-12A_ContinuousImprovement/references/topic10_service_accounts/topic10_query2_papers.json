@@ -1,0 +1,59 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.20920v1",
+    "arxiv_id": "2511.20920v1",
+    "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+    "summary": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+    "published": "2025-11-25T23:24:26Z",
+    "updated": "2025-11-25T23:24:26Z",
+    "authors": [
+      "Herman Errico",
+      "Jiquan Ngiam",
+      "Shanita Sojan"
+    ],
+    "affiliations": [],
+    "first_author": "Herman Errico",
+    "pdf_url": "https://arxiv.org/pdf/2511.20920v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.27140v2",
+    "arxiv_id": "2510.27140v2",
+    "title": "Measuring the Security of Mobile LLM Agents under Adversarial Prompts from Untrusted Third-Party Channels",
+    "summary": "Large Language Models (LLMs) have transformed software development, enabling AI-powered applications known as LLM-based agents that promise to automate tasks across diverse apps and workflows. Yet, the security implications of deploying such agents in adversarial mobile environments remain poorly understood. In this paper, we present the first systematic study of security risks in mobile LLM agents. We design and evaluate a suite of adversarial case studies, ranging from opportunistic manipulations such as pop-up advertisements to advanced, end-to-end workflows involving malware installation and cross-app data exfiltration. Our evaluation covers eight state-of-the-art mobile agents across three architectures, with over 2,000 adversarial and paired benign trials. The results reveal systemic vulnerabilities: low-barrier vectors such as fraudulent ads succeed with over 80% reliability, while even workflows requiring the circumvention of operating-system warnings, such as malware installation, are consistently completed by advanced multi-app agents. By mapping these attacks to the MITRE ATT&CK Mobile framework, we uncover novel privilege-escalation and persistence pathways unique to LLM-driven automation. Collectively, our findings provide the first end-to-end evidence that mobile LLM agents are exploitable in realistic adversarial settings, where untrusted third-party channels (e.g., ads, embedded webviews, cross-app notifications) are an inherent part of the mobile ecosystem.",
+    "published": "2025-10-31T03:35:59Z",
+    "updated": "2025-11-06T03:52:08Z",
+    "authors": [
+      "Chenghao Du",
+      "Quanfeng Huang",
+      "Tingxuan Tang",
+      "Zihao Wang",
+      "Adwait Nadkarni",
+      "Yue Xiao"
+    ],
+    "affiliations": [],
+    "first_author": "Chenghao Du",
+    "pdf_url": "https://arxiv.org/pdf/2510.27140v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.12490v3",
+    "arxiv_id": "2505.12490v3",
+    "title": "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems",
+    "summary": "Googles A2A protocol provides a secure communication framework for AI agents but demonstrates critical limitations when handling highly sensitive information such as payment credentials and identity documents. These gaps increase the risk of unintended harms, including unauthorized disclosure, privilege escalation, and misuse of private data in generative multi-agent environments. In this paper, we identify key weaknesses of A2A: insufficient token lifetime control, lack of strong customer authentication, overbroad access scopes, and missing consent flows. We propose protocol-level enhancements grounded in a structured threat model for semi-trusted multi-agent systems. Our refinements introduce explicit consent orchestration, ephemeral scoped tokens, and direct user-to-service data channels to minimize exposure across time, context, and topology. Empirical evaluation using adversarial prompt injection tests shows that the enhanced protocol substantially reduces sensitive data leakage while maintaining low communication latency. Comparative analysis highlights the advantages of our approach over both the original A2A specification and related academic proposals. These contributions establish a practical path for evolving A2A into a privacy-preserving framework that mitigates unintended harms in multi-agent generative AI systems.",
+    "published": "2025-05-18T16:25:21Z",
+    "updated": "2025-08-28T20:13:32Z",
+    "authors": [
+      "Yedidel Louck",
+      "Ariel Stulman",
+      "Amit Dvir"
+    ],
+    "affiliations": [],
+    "first_author": "Yedidel Louck",
+    "pdf_url": "https://arxiv.org/pdf/2505.12490v3",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  }
+]

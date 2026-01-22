@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.23447v1",
+  "title": "Coupling Experts and Routers in Mixture-of-Experts via an Auxiliary Loss",
+  "authors": [
+    "Ang Lv",
+    "Jin Ma",
+    "Yiyuan Ma",
+    "Siyuan Qiao"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23447v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Mixture-of-Experts (MoE) models lack explicit constraints to ensure the router's decisions align well with the experts' capabilities, which ultimately limits model performance. To address this, we propose expert-router coupling (ERC) loss, a lightweight auxiliary loss that tightly couples the router's decisions with expert capabilities. Our approach treats each expert's router embedding as a proxy token for the tokens assigned to that expert, and feeds perturbed router embeddings through the exp..."
+}

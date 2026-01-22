@@ -1,0 +1,21 @@
+{
+  "title": "Quantum Encrypted Control of Networked Systems",
+  "authors": [
+    "Zihao Ren",
+    "Daniel Quevedo",
+    "Salah Sukkarieh",
+    "Guodong Shi"
+  ],
+  "published": "2025-12-03T04:27:39+00:00",
+  "arxiv_id": "2512.03434v1",
+  "abstract": "Encrypted control has been extensively studied to ensure the confidentiality of system states and control inputs for networked control systems. This paper presents a computationally efficient encrypted control framework for networked systems enabled by quantum communication. A quantum channel between sensors and actuators is used to generate identical secret keys, whose security is further enhanced through quantum key distribution. These keys enable lightweight encryption and decryption while preserving confidentiality and control accuracy. We develop a novel encryption-decryption architecture for state-feedback control of linear systems based on quantum keys, and characterize the impact of quantum state errors on closed-loop stability. In particular, we establish the existence of a critical threshold on intrinsic quantum noise below which stability is guaranteed. In contrast to classical encrypted control schemes, which may collapse under a single key-bit error, the proposed quantum encrypted control exhibits strong robustness to key imperfections. We further adopt quantization techniques to address the scenarios with limited communication bits in practical situations, and implement privacy protection for quantum keys based on a stochastic quantizer. These results demonstrate that integrating quantum technologies into control systems in a nontrivial and principled manner, even at their current level of maturity, can yield substantial performance gains in reducing computational complexity and improving resilience to key errors while ensuring security against multiple eavesdropping sources.",
+  "categories": [
+    "quant-ph",
+    "eess.SY"
+  ],
+  "relevance_score": 13.5,
+  "query_category": "distributed_defense",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2512.03434v1",
+  "downloaded": "2025-12-11T08:26:10.781992"
+}

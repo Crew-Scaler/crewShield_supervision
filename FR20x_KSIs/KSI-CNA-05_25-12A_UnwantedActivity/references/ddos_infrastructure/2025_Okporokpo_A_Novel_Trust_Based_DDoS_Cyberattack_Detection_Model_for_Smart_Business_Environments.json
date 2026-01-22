@@ -1,0 +1,20 @@
+{
+  "title": "A Novel Trust-Based DDoS Cyberattack Detection Model for Smart Business Environments",
+  "authors": [
+    "Oghenetejiri Okporokpo",
+    "Funminiyi Olajide",
+    "Nemitari Ajienka",
+    "Xiaoqi Ma"
+  ],
+  "published": "2025-12-04T14:37:55+00:00",
+  "arxiv_id": "2512.04855v1",
+  "abstract": "As the frequency and complexity of Distributed Denial-of-Service (DDoS) attacks continue to increase, the level of threats posed to Smart Internet of Things (SIoT) business environments have also increased. These environments generally have several interconnected SIoT systems and devices that are integral to daily operations, usually depending on cloud infrastructure and real-time data analytics, which require continuous availability and secure data exchange. Conventional detection mechanisms, while useful in static or traditional network environments, often are inadequate in responding to the needs of these dynamic and diverse SIoT networks. In this paper, we introduce a novel trust-based DDoS detection model tailored to meet the unique requirements of smart business environments. The proposed model incorporates a trust evaluation engine that continuously monitors node behaviour, calculating trust scores based on packet delivery ratio, response time, and anomaly detection. These trust metrics are then aggregated by a central trust-based repository that uses inherent trust values to identify traffic patterns indicative of DDoS attacks. By integrating both trust scores and central trust-based outputs, the trust calculation is enhanced, ensuring that threats are accurately identified and addressed in real-time. The model demonstrated a significant improvement in detection accuracy, and a low false-positive rate with enhanced scalability and adaptability under TCP SYN, Ping Flood, and UDP Flood attacks. The results show that a trust-based approach provides an effective, lightweight alternative for securing resource-constrained business IoT environments.",
+  "categories": [
+    "cs.CR"
+  ],
+  "relevance_score": 21.5,
+  "query_category": "cloud_security",
+  "us_affiliation": true,
+  "pdf_url": "https://arxiv.org/pdf/2512.04855v1",
+  "downloaded": "2025-12-11T08:23:39.660470"
+}

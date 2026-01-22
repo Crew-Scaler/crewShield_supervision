@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.20256v1",
+  "title": "The Image as Its Own Reward: Reinforcement Learning with Adversarial Reward for Image Generation",
+  "authors": [
+    "Weijia Mao",
+    "Hao Chen",
+    "Zhenheng Yang",
+    "Mike Zheng Shou"
+  ],
+  "published": "2025-11-25T12:35:57Z",
+  "url": "http://arxiv.org/abs/2511.20256v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.20256v1.pdf",
+  "relevance_score": 79,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "A reliable reward function is essential for reinforcement learning (RL) in image generation. Most current RL approaches depend on pre-trained preference models that output scalar rewards to approximate human preferences. However, these rewards often fail to capture human perception and are vulnerable to reward hacking, where higher scores do not correspond to better images. To address this, we introduce Adv-GRPO, an RL framework with an adversarial reward that iteratively updates both the reward"
+}

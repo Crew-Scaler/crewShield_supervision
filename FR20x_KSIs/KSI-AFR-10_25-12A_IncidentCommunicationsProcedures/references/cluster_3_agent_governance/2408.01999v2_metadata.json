@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2408.01999v2",
+  "title": "Reinforcement Learning for an Efficient and Effective Malware Investigation during Cyber Incident Response",
+  "authors": [
+    "Dipo Dunsin",
+    "Mohamed Chahine Ghanem",
+    "Karim Ouazzane",
+    "Vassil Vassilev"
+  ],
+  "published": "2024-08-04T11:55:24Z",
+  "url": "http://arxiv.org/abs/2408.01999v2",
+  "pdf_url": "http://arxiv.org/pdf/2408.01999v2.pdf",
+  "relevance_score": 100,
+  "summary": "This research focused on enhancing post-incident malware forensic investigation using reinforcement learning RL. We proposed an advanced MDP post incident malware forensics investigation model and framework to expedite post incident forensics. We then implement our RL Malware Investigation Model based on structured MDP within the proposed framework. To identify malware artefacts, the RL agent acquires and examines forensics evidence files, iteratively improving its capabilities using Q Table and temporal difference learning. The Q learning algorithm significantly improved the agent ability to identify malware. An epsilon greedy exploration strategy and Q learning updates enabled efficient learning and decision making. Our experimental testing revealed that optimal learning rates depend on the MDP environment complexity, with simpler environments benefiting from higher rates for quicker convergence and complex ones requiring lower rates for stability. Our model performance in identifying and classifying malware reduced malware analysis time compared to human experts, demonstrating robustness and adaptability. The study highlighted the significance of hyper parameter tuning and suggested adaptive strategies for complex environments. Our RL based approach produced promising results and is validated as an alternative to traditional methods notably by offering continuous learning and adaptation to new and evolving malware threats which ultimately enhance the post incident forensics investigations."
+}

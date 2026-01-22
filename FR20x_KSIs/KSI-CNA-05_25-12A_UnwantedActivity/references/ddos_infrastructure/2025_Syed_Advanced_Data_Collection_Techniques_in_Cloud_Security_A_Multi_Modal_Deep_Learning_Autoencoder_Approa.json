@@ -1,0 +1,18 @@
+{
+  "title": "Advanced Data Collection Techniques in Cloud Security: A Multi-Modal Deep Learning Autoencoder Approach",
+  "authors": [
+    "Aamiruddin Syed",
+    "Mohammed Ilyas Ahmad"
+  ],
+  "published": "2025-11-26T17:10:54+00:00",
+  "arxiv_id": "2511.21795v1",
+  "abstract": "Cloud security is an important concern. To identify and stop cyber threats, efficient data collection methods are necessary. This research presents an innovative method to cloud security by integrating numerous data sources and modalities with multi-modal deep learning autoencoders. The Multi-Modal Deep Learning Ensemble Architecture (MMDLEA), a unique approach for anomaly detection and classification in multi-modal data, is proposed in this study. The proposed design integrates the best features of six deep learning models: Multi-Modal Deep Learning Autoencoder (MMDLA), Anomaly Detection using Adaptive Metric Learning (ADAM), ADADELTA, ADAGRAD, RMSPROP, and Stacked Graph Transformer (SGT). A final prediction is produced by combining the outputs of all the models, each of which is trained using a distinct modality of the data. Based on the test dataset, the recommended MMDLA architecture achieves an accuracy of 98.5% and an F1-score of 0.985, demonstrating its superior performance over each individual model. Of the different models, the ADAM model performs the best, with an accuracy of 96.2% and an F1-score of 0.962. With an F1-score of 0.955 and an accuracy of 95.5%, the ADADELTA model trails closely behind. MMDLA obtains an F1-score of 0.948 and an accuracy of 94.8%. Additionally, the suggested MMDLEA design exhibits enhanced resilience to fluctuating modalities and noisy data, proving its usefulness in practical settings. Future study in this area is made possible by the results, which show the potential of the proposed framework for abnormal identification and categorization in multi-modal data.",
+  "categories": [
+    "cs.CR"
+  ],
+  "relevance_score": 13.5,
+  "query_category": "cloud_security",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2511.21795v1",
+  "downloaded": "2025-12-11T08:25:52.891936"
+}

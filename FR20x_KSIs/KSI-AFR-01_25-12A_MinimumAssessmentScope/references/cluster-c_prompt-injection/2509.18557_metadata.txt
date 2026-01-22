@@ -1,0 +1,21 @@
+Title: LLMZ+: Contextual Prompt Whitelist Principles for Agentic LLMs
+
+Authors: Tom Pawelek, Raj Patel, Charlotte Crowell, Noorbakhsh Amiri, Sudip Mittal
+ [US Institution: MIT]
+
+Published: 2025-09-23
+
+Query ID: C-3.1
+
+Relevance Color: Green
+Relevance Score: 0.86
+
+Pages: 10
+
+URL: https://arxiv.org/pdf/2509.18557.pdf
+
+Abstract:
+Compared to traditional models, agentic AI represents a highly valuable target for potential attackers as they possess privileged access to data sources and API tools, which are traditionally not incorporated into classical agents. Unlike a typical software application residing in a Demilitarized Zone (DMZ), agentic LLMs consciously rely on nondeterministic behavior of the AI (only defining a final goal, leaving the path selection to LLM). This characteristic introduces substantial security risk...
+
+Relevance Justification:
+Directly addresses prompt injection attacks; Discusses LLM jailbreaking techniques; Proposes defense mechanisms against attacks

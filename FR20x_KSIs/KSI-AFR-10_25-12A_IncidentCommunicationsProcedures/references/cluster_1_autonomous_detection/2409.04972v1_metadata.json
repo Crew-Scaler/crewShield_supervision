@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2409.04972v1",
+  "title": "Balancing Security and Accuracy: A Novel Federated Learning Approach for Cyberattack Detection in Blockchain Networks",
+  "authors": [
+    "Tran Viet Khoa",
+    "Mohammad Abu Alsheikh",
+    "Yibeltal Alem",
+    "Dinh Thai Hoang"
+  ],
+  "published": "2024-09-08T04:38:07Z",
+  "url": "http://arxiv.org/abs/2409.04972v1",
+  "pdf_url": "http://arxiv.org/pdf/2409.04972v1.pdf",
+  "relevance_score": 85,
+  "summary": "This paper presents a novel Collaborative Cyberattack Detection (CCD) system aimed at enhancing the security of blockchain-based data-sharing networks by addressing the complex challenges associated with noise addition in federated learning models. Leveraging the theoretical principles of differential privacy, our approach strategically integrates noise into trained sub-models before reconstructing the global model through transmission. We systematically explore the effects of various noise types, i.e., Gaussian, Laplace, and Moment Accountant, on key performance metrics, including attack detection accuracy, deep learning model convergence time, and the overall runtime of global model generation. Our findings reveal the intricate trade-offs between ensuring data privacy and maintaining system performance, offering valuable insights into optimizing these parameters for diverse CCD environments. Through extensive simulations, we provide actionable recommendations for achieving an optimal balance between data protection and system efficiency, contributing to the advancement of secure and reliable blockchain networks."
+}

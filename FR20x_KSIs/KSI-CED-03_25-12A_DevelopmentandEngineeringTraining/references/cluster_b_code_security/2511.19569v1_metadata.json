@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2511.19569v1",
+  "title": "An Invariant Latent Space Perspective on Language Model Inversion",
+  "authors": [
+    "Wentao Ye",
+    "Jiaqi Hu",
+    "Haobo Wang",
+    "Xinpeng Ti",
+    "Zhiqing Xiao",
+    "Hao Chen",
+    "Liyao Li",
+    "Lei Feng",
+    "Sai Wu",
+    "Junbo Zhao"
+  ],
+  "published": "2025-11-24T17:29:40Z",
+  "url": "http://arxiv.org/abs/2511.19569v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.19569v1.pdf",
+  "relevance_score": 78,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Language model inversion (LMI), i.e., recovering hidden prompts from outputs, emerges as a concrete threat to user privacy and system security. We recast LMI as reusing the LLM's own latent space and propose the Invariant Latent Space Hypothesis (ILSH): (1) diverse outputs from the same source prompt should preserve consistent semantics (source invariance), and (2) input&lt;-&gt;output cyclic mappings should be self-consistent within a shared latent space (cyclic invariance). Accordingly, we pre"
+}

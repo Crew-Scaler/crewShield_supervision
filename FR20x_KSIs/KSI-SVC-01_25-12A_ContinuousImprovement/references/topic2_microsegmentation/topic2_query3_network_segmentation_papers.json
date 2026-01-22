@@ -1,0 +1,272 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20489v1",
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23T16:31:12Z",
+    "updated": "2025-12-23T16:31:12Z",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "affiliations": [],
+    "first_author": " Akta\u015f",
+    "pdf_url": "https://arxiv.org/pdf/2512.20489v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20567v1",
+    "arxiv_id": "2512.20567v1",
+    "title": "Classification using quantum kernels in a radial basis function network",
+    "summary": "Radial basis function (RBF) networks are expanded to incorporate quantum kernel functions enabling a new type of hybrid quantum-classical machine learning algorithm. Using this approach, synthetic examples are introduced which allow for proof of concept on interpolation and classification applications. Quantum kernels have primarily been applied to support vector machines (SVMs), however the quantum kernel RBF network offers potential benefit over quantum kernel based SVMs due to the RBF networks ability to perform multi-class classification natively compared to the standard implementation of the SVM.",
+    "published": "2025-12-23T18:11:23Z",
+    "updated": "2025-12-23T18:11:23Z",
+    "authors": [
+      "Emily Micklethwaite",
+      "Adam Lowe"
+    ],
+    "affiliations": [],
+    "first_author": "Emily Micklethwaite",
+    "pdf_url": "https://arxiv.org/pdf/2512.20567v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20431v1",
+    "arxiv_id": "2512.20431v1",
+    "title": "Skin Lesion Classification Using a Soft Voting Ensemble of Convolutional Neural Networks",
+    "summary": "Skin cancer can be identified by dermoscopic examination and ocular inspection, but early detection significantly increases survival chances. Artificial intelligence (AI), using annotated skin images and Convolutional Neural Networks (CNNs), improves diagnostic accuracy. This paper presents an early skin cancer classification method using a soft voting ensemble of CNNs. In this investigation, three benchmark datasets, namely HAM10000, ISIC 2016, and ISIC 2019, were used. The process involved rebalancing, image augmentation, and filtering techniques, followed by a hybrid dual encoder for segmentation via transfer learning. Accurate segmentation focused classification models on clinically significant features, reducing background artifacts and improving accuracy. Classification was performed through an ensemble of MobileNetV2, VGG19, and InceptionV3, balancing accuracy and speed for real-world deployment. The method achieved lesion recognition accuracies of 96.32\\%, 90.86\\%, and 93.92\\% for the three datasets. The system performance was evaluated using established skin lesion detection metrics, yielding impressive results.",
+    "published": "2025-12-23T15:20:47Z",
+    "updated": "2025-12-23T15:20:47Z",
+    "authors": [
+      "Abdullah Al Shafi",
+      "Abdul Muntakim",
+      "Pintu Chandra Shill",
+      "Rowzatul Zannat",
+      "Abdullah Al-Amin"
+    ],
+    "affiliations": [],
+    "first_author": "Abdullah Al Shafi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20431v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20407v1",
+    "arxiv_id": "2512.20407v1",
+    "title": "AUDRON: A Deep Learning Framework with Fused Acoustic Signatures for Drone Type Recognition",
+    "summary": "Unmanned aerial vehicles (UAVs), commonly known as drones, are increasingly used across diverse domains, including logistics, agriculture, surveillance, and defense. While these systems provide numerous benefits, their misuse raises safety and security concerns, making effective detection mechanisms essential. Acoustic sensing offers a low-cost and non-intrusive alternative to vision or radar-based detection, as drone propellers generate distinctive sound patterns. This study introduces AUDRON (AUdio-based Drone Recognition Network), a hybrid deep learning framework for drone sound detection, employing a combination of Mel-Frequency Cepstral Coefficients (MFCC), Short-Time Fourier Transform (STFT) spectrograms processed with convolutional neural networks (CNNs), recurrent layers for temporal modeling, and autoencoder-based representations. Feature-level fusion integrates complementary information before classification. Experimental evaluation demonstrates that AUDRON effectively differentiates drone acoustic signatures from background noise, achieving high accuracy while maintaining generalizability across varying conditions. AUDRON achieves 98.51 percent and 97.11 percent accuracy in binary and multiclass classification. The results highlight the advantage of combining multiple feature representations with deep learning for reliable acoustic drone detection, suggesting the framework's potential for deployment in security and surveillance applications where visual or radar sensing may be limited.",
+    "published": "2025-12-23T14:55:08Z",
+    "updated": "2025-12-23T14:55:08Z",
+    "authors": [
+      "Rajdeep Chatterjee",
+      "Sudip Chakrabarty",
+      "Trishaani Acharjee",
+      "Deepanjali Mishra"
+    ],
+    "affiliations": [],
+    "first_author": "Rajdeep Chatterjee",
+    "pdf_url": "https://arxiv.org/pdf/2512.20407v1",
+    "primary_category": "cs.SD",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20234v1",
+    "arxiv_id": "2512.20234v1",
+    "title": "Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks",
+    "summary": "Anonymous credentials (ACs) are a crucial cryptographic tool for privacy-preserving authentication in decentralized networks, allowing holders to prove eligibility without revealing their identity. However, a major limitation of standard ACs is the disclosure of the issuer's identity, which can leak sensitive contextual information about the holder. Issuer-hiding ACs address this by making a credential's origin indistinguishable among a set of approved issuers. Despite this advancement, existing solutions suffer from practical limitations that hinder their deployment in decentralized environments: unflexible credential models that restrict issuer and holder autonomy, flawed revocation mechanisms that compromise security, and weak attribute hiding that fails to meet data minimization principles. This paper introduces a new scheme called IRAC to overcome these challenges. We propose a flexible credential model that employs vector commitments with a padding strategy to unify credentials from heterogeneous issuers, enabling privacy-preserving authentication without enforcing a global static attribute set or verifier-defined policies. Furthermore, we design a secure decentralized revocation mechanism where holders prove non-revocation by demonstrating their credential's hash lies within a gap in the issuer's sorted revocation list, effectively decoupling revocation checks from verifier policies while maintaining issuer anonymity. IRAC also strengthens attribute hiding by utilizing zk-SNARKs and vector commitments, allowing holders to prove statements about their attributes without disclosing the attributes themselves or the credential structure. Security analysis and performance evaluations demonstrate its practical feasibility for decentralized networks, where presenting a credential can be finished in 1s.",
+    "published": "2025-12-23T10:49:05Z",
+    "updated": "2025-12-23T10:49:05Z",
+    "authors": [
+      "Bin Xie",
+      "Rui Song",
+      "Xuyuan Cai"
+    ],
+    "affiliations": [],
+    "first_author": "Bin Xie",
+    "pdf_url": "https://arxiv.org/pdf/2512.20234v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20607v1",
+    "arxiv_id": "2512.20607v1",
+    "title": "Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures",
+    "summary": "Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explains a simplicity bias arising from saddle-to-saddle learning dynamics for a general class of neural networks, incorporating fully-connected, convolutional, and attention-based architectures. Here, simple means expressible with few hidden units, i.e., hidden neurons, convolutional kernels, or attention heads. Specifically, we show that linear networks learn solutions of increasing rank, ReLU networks learn solutions with an increasing number of kinks, convolutional networks learn solutions with an increasing number of convolutional kernels, and self-attention models learn solutions with an increasing number of attention heads. By analyzing fixed points, invariant manifolds, and dynamics of gradient descent learning, we show that saddle-to-saddle dynamics operates by iteratively evolving near an invariant manifold, approaching a saddle, and switching to another invariant manifold. Our analysis also illuminates the effects of data distribution and weight initialization on the duration and number of plateaus in learning, dissociating previously confounding factors. Overall, our theory offers a framework for understanding when and why gradient descent progressively learns increasingly complex solutions.",
+    "published": "2025-12-23T18:55:30Z",
+    "updated": "2025-12-23T18:55:30Z",
+    "authors": [
+      "Yedi Zhang",
+      "Andrew Saxe",
+      "Peter E. Latham"
+    ],
+    "affiliations": [],
+    "first_author": "Yedi Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20607v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20600v1",
+    "arxiv_id": "2512.20600v1",
+    "title": "Modeling Economic Systems as Multiport Networks",
+    "summary": "In this paper, we demonstrate how multiport network theory can be used as a powerful modeling tool in economics. The critical insight is using the port concept to pair the flow of goods (the electrical current) with the agent's incentive (the voltage) in an economic interaction. By building networks of agents interacting through ports, we create models with multiple levels of abstraction, from the macro level down to the micro level. We are thereby able to model complex macroeconomic systems whose dynamical behavior is emergent from the micro level. Using the LTSpice circuit simulator, we then design and analyze a series of example systems that range in complexity from the textbook Robinson Crusoe economy to a model of an entire economy.",
+    "published": "2025-12-23T18:47:32Z",
+    "updated": "2025-12-23T18:47:32Z",
+    "authors": [
+      "Coen Hutters",
+      "Max B. Mendel"
+    ],
+    "affiliations": [],
+    "first_author": "Coen Hutters",
+    "pdf_url": "https://arxiv.org/pdf/2512.20600v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20582v1",
+    "arxiv_id": "2512.20582v1",
+    "title": "Relu and softplus neural nets as zero-sum turn-based games",
+    "summary": "We show that the output of a ReLU neural network can be interpreted as the value of a zero-sum, turn-based, stopping game, which we call the ReLU net game. The game runs in the direction opposite to that of the network, and the input of the network serves as the terminal reward of the game. In fact, evaluating the network is the same as running the Shapley-Bellman backward recursion for the value of the game. Using the expression of the value of the game as an expected total payoff with respect to the path measure induced by the transition probabilities and a pair of optimal policies, we derive a discrete Feynman-Kac-type path-integral formula for the network output. This game-theoretic representation can be used to derive bounds on the output from bounds on the input, leveraging the monotonicity of Shapley operators, and to verify robustness properties using policies as certificates. Moreover, training the neural network becomes an inverse game problem: given pairs of terminal rewards and corresponding values, one seeks transition probabilities and rewards of a game that reproduces them. Finally, we show that a similar approach applies to neural networks with Softplus activation functions, where the ReLU net game is replaced by its entropic regularization.",
+    "published": "2025-12-23T18:27:41Z",
+    "updated": "2025-12-23T18:27:41Z",
+    "authors": [
+      "Stephane Gaubert",
+      "Yiannis Vlassopoulos"
+    ],
+    "affiliations": [],
+    "first_author": "Stephane Gaubert",
+    "pdf_url": "https://arxiv.org/pdf/2512.20582v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20580v1",
+    "arxiv_id": "2512.20580v1",
+    "title": "Programmable Optical Spectrum Shapers as Computing Primitives for Accelerating Convolutional Neural Networks",
+    "summary": "Photonic convolutional accelerators have emerged as low-energy alternatives to power-demanding digital convolutional neural networks, though they often face limitations in scalability. In this work, we introduce a convolutional photonic accelerator that employs programmable kernels manifesting as trainable waveforms in the frequency domain to enable low-energy, high-throughput scalable image classification. The proposed scheme inherently provides dimensionality reduction and feature extraction directly in the optical domain. Numerical results targeting the Fashion-MNIST show that by using only 16 optical nodes, the system's classification accuracy tops at 90.1% when typical backpropagation is used. Moreover, by adapting the training technique to the forward-forward approach, a marginal drop of 1% is recorded compared to the backpropagation scenario, thus showcasing the compatibility of the overall architecture with a hardware-friendly training approach. Finally, we experimentally implement the trained kernels using a programmable waveshaper. Despite the difference between the simulated and experimentally generated transfer functions of the programmable kernels, the classification accuracy based on the experimentally obtained kernels exhibits a marginal 0.2% reduction, proving the validity of the idea and its high robustness to variations of the frequency-applied complex weights.",
+    "published": "2025-12-23T18:26:51Z",
+    "updated": "2025-12-23T18:26:51Z",
+    "authors": [
+      "Georgios Moustakas",
+      "Adonis Bogris",
+      "Charis Mesaritakis"
+    ],
+    "affiliations": [],
+    "first_author": "Georgios Moustakas",
+    "pdf_url": "https://arxiv.org/pdf/2512.20580v1",
+    "primary_category": "physics.optics",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20579v1",
+    "arxiv_id": "2512.20579v1",
+    "title": "Spin-induced quadrupole moment based test for eccentric binaries",
+    "summary": "The spin-induced quadrupole moment-based test of black hole nature is routinely used to probe the true nature of detected binary signals, assuming a circular orbit. We extend the applicability of the method to binaries in eccentric orbits. Considering simulated signals of varying masses, spins, and signal strengths, we demonstrate how the systematic errors resulting from neglecting orbital eccentricity compare with the statistical errors, using a semi-analytic Fisher matrix-based formalism that accounts for both current and future detectors. Further, we quantify the systematic errors by developing a Bayesian inference framework for the current detector network. The inspiral-only aligned spin gravitational wave waveform model for eccentric binaries, TaylorF2Ecc, is employed. For the current detector network, neglecting an initial eccentricity of $e_0^{\\rm inj}=0.1$ defined at $20\\,\\mathrm {Hz} $ can lead to a serious bias in binary parameter inference. Notably, a nearly equal-mass, moderately spinning binary black hole in an eccentric orbit can be identified as a non-black hole binary with extreme spins and asymmetric masses. We demonstrate the criticality of biased estimates that may arise when neglecting the orbital eccentricity while performing tests of black hole nature and discuss prospects.",
+    "published": "2025-12-23T18:26:37Z",
+    "updated": "2025-12-23T18:26:37Z",
+    "authors": [
+      "N. V. Krishnendu"
+    ],
+    "affiliations": [],
+    "first_author": "N. V. Krishnendu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20579v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20566v1",
+    "arxiv_id": "2512.20566v1",
+    "title": "Random Gradient-Free Optimization in Infinite Dimensional Spaces",
+    "summary": "In this paper, we propose a random gradient-free method for optimization in infinite dimensional Hilbert spaces, applicable to functional optimization in diverse settings. Though such problems are often solved through finite-dimensional gradient descent over a parametrization of the functions, such as neural networks, an interesting alternative is to instead perform gradient descent directly in the function space by leveraging its Hilbert space structure, thus enabling provable guarantees and fast convergence. However, infinite-dimensional gradients are often hard to compute in practice, hindering the applicability of such methods. To overcome this limitation, our framework requires only the computation of directional derivatives and a pre-basis for the Hilbert space domain, i.e., a linearly-independent set whose span is dense in the Hilbert space. This fully resolves the tractability issue, as pre-bases are much more easily obtained than full orthonormal bases or reproducing kernels -- which may not even exist -- and individual directional derivatives can be easily computed using forward-mode scalar automatic differentiation. We showcase the use of our method to solve partial differential equations \u00e0 la physics informed neural networks (PINNs), where it effectively enables provable convergence.",
+    "published": "2025-12-23T18:09:49Z",
+    "updated": "2025-12-23T18:09:49Z",
+    "authors": [
+      "Caio Lins Peixoto",
+      "Daniel Csillag",
+      "Bernardo F. P. da Costa",
+      "Yuri F. Saporito"
+    ],
+    "affiliations": [],
+    "first_author": "Caio Lins Peixoto",
+    "pdf_url": "https://arxiv.org/pdf/2512.20566v1",
+    "primary_category": "math.OC",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20562v1",
+    "arxiv_id": "2512.20562v1",
+    "title": "Shallow Neural Networks Learn Low-Degree Spherical Polynomials with Learnable Channel Attention",
+    "summary": "We study the problem of learning a low-degree spherical polynomial of degree $\\ell_0 = \u0398(1) \\ge 1$ defined on the unit sphere in $\\RR^d$ by training an over-parameterized two-layer neural network (NN) with channel attention in this paper. Our main result is the significantly improved sample complexity for learning such low-degree polynomials. We show that, for any regression risk $\\eps \\in (0,1)$, a carefully designed two-layer NN with channel attention and finite width of $m \\ge \u0398({n^4 \\log (2n/\u03b4)}/{d^{2\\ell_0}})$ trained by the vanilla gradient descent (GD) requires the lowest sample complexity of $n \\asymp \u0398(d^{\\ell_0}/\\eps)$ with probability $1-\u03b4$ for every $\u03b4\\in (0,1)$, in contrast with the representative sample complexity $\u0398\\pth{d^{\\ell_0} \\max\\set{\\eps^{-2},\\log d}}$, where $n$ is the training daata size. Moreover, such sample complexity is not improvable since the trained network renders a sharp rate of the nonparametric regression risk of the order $\u0398(d^{\\ell_0}/{n})$ with probability at least $1-\u03b4$. On the other hand, the minimax optimal rate for the regression risk with a kernel of rank $\u0398(d^{\\ell_0})$ is $\u0398(d^{\\ell_0}/{n})$, so that the rate of the nonparametric regression risk of the network trained by GD is minimax optimal. The training of the two-layer NN with channel attention consists of two stages. In Stage 1, a provable learnable channel selection algorithm identifies the ground-truth channel number $\\ell_0$ from the initial $L \\ge \\ell_0$ channels in the first-layer activation, with high probability. This learnable selection is achieved by an efficient one-step GD update on both layers, enabling feature learning for low-degree polynomial targets. In Stage 2, the second layer is trained by standard GD using the activation function with the selected channels.",
+    "published": "2025-12-23T18:05:55Z",
+    "updated": "2025-12-23T18:05:55Z",
+    "authors": [
+      "Yingzhen Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Yingzhen Yang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20562v1",
+    "primary_category": "stat.ML",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20552v1",
+    "arxiv_id": "2512.20552v1",
+    "title": "Information-theoretic signatures of causality in Bayesian networks and hypergraphs",
+    "summary": "Analyzing causality in multivariate systems involves establishing how information is generated, distributed and combined, and thus requires tools that capture interactions beyond pairwise relations. Higher-order information theory provides such tools. In particular, Partial Information Decomposition (PID) allows the decomposition of the information that a set of sources provides about a target into redundant, unique, and synergistic components. Yet the mathematical connection between such higher-order information-theoretic measures and causal structure remains undeveloped. Here we establish the first theoretical correspondence between PID components and causal structure in both Bayesian networks and hypergraphs. We first show that in Bayesian networks unique information precisely characterizes direct causal neighbors, while synergy identifies collider relationships. This establishes a localist causal discovery paradigm in which the structure surrounding each variable can be recovered from its immediate informational footprint, eliminating the need for global search over graph space. Extending these results to higher-order systems, we prove that PID signatures in Bayesian hypergraphs differentiate parents, children, co-heads, and co-tails, revealing a higher-order collider effect unique to multi-tail hyperedges. We also present procedures by which our results can be used to characterize systematically the causal structure of Bayesian networks and hypergraphs. Our results position PID as a rigorous, model-agnostic foundation for inferring both pairwise and higher-order causal structure, and introduce a fundamentally local information-theoretic viewpoint on causal discovery.",
+    "published": "2025-12-23T17:46:53Z",
+    "updated": "2025-12-23T17:46:53Z",
+    "authors": [
+      "Sung En Chiang",
+      "Zhaolu Liu",
+      "Robert L. Peach",
+      "Mauricio Barahona"
+    ],
+    "affiliations": [],
+    "first_author": "Sung En Chiang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20552v1",
+    "primary_category": "cs.IT",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20533v1",
+    "arxiv_id": "2512.20533v1",
+    "title": "Over-the-Air Goal-Oriented Communications",
+    "summary": "Goal-oriented communications offer an attractive alternative to the Shannon-based communication paradigm, where the data is never reconstructed at the Receiver (RX) side. Rather, focusing on the case of edge inference, the Transmitter (TX) and the RX cooperate to exchange features of the input data that will be used to predict an unseen attribute of them, leveraging information from collected data sets. This chapter demonstrates that the wireless channel can be used to perform computations over the data, when equipped with programmable metasurfaces. The end-to-end system of the TX, RX, and MS-based channel is treated as a single deep neural network which is trained through backpropagation to perform inference on unseen data. Using Stacked Intelligent Metasurfaces (SIM), it is shown that this Metasurfaces-Integrated Neural Network (MINN) can achieve performance comparable to fully digital neural networks under various system parameters and data sets. By offloading computations onto the channel itself, important benefits may be achieved in terms of energy consumption, arising from reduced computations at the transceivers and smaller transmission power required for successful inference.",
+    "published": "2025-12-23T17:24:39Z",
+    "updated": "2025-12-23T17:24:39Z",
+    "authors": [
+      "Kyriakos Stylianopoulos",
+      "Paolo Di Lorenzo",
+      "George C. Alexandropoulos"
+    ],
+    "affiliations": [],
+    "first_author": "Kyriakos Stylianopoulos",
+    "pdf_url": "https://arxiv.org/pdf/2512.20533v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20531v1",
+    "arxiv_id": "2512.20531v1",
+    "title": "SirenPose: Dynamic Scene Reconstruction via Geometric Supervision",
+    "summary": "We introduce SirenPose, a geometry-aware loss formulation that integrates the periodic activation properties of sinusoidal representation networks with keypoint-based geometric supervision, enabling accurate and temporally consistent reconstruction of dynamic 3D scenes from monocular videos. Existing approaches often struggle with motion fidelity and spatiotemporal coherence in challenging settings involving fast motion, multi-object interaction, occlusion, and rapid scene changes. SirenPose incorporates physics inspired constraints to enforce coherent keypoint predictions across both spatial and temporal dimensions, while leveraging high frequency signal modeling to capture fine grained geometric details. We further expand the UniKPT dataset to 600,000 annotated instances and integrate graph neural networks to model keypoint relationships and structural correlations. Extensive experiments on benchmarks including Sintel, Bonn, and DAVIS demonstrate that SirenPose consistently outperforms state-of-the-art methods. On DAVIS, SirenPose achieves a 17.8 percent reduction in FVD, a 28.7 percent reduction in FID, and a 6.0 percent improvement in LPIPS compared to MoSCA. It also improves temporal consistency, geometric accuracy, user score, and motion smoothness. In pose estimation, SirenPose outperforms Monst3R with lower absolute trajectory error as well as reduced translational and rotational relative pose error, highlighting its effectiveness in handling rapid motion, complex dynamics, and physically plausible reconstruction.",
+    "published": "2025-12-23T17:23:21Z",
+    "updated": "2025-12-23T17:23:21Z",
+    "authors": [
+      "Kaitong Cai",
+      "Jensen Zhang",
+      "Jing Yang",
+      "Keze Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Kaitong Cai",
+    "pdf_url": "https://arxiv.org/pdf/2512.20531v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  }
+]

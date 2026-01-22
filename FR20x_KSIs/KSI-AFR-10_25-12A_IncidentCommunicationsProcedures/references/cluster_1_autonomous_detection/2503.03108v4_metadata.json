@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2503.03108v4",
+  "title": "OMNISEC: LLM-Driven Provenance-based Intrusion Detection via Retrieval-Augmented Behavior Prompting",
+  "authors": [
+    "Wenrui Cheng",
+    "Tiantian Zhu",
+    "Shunan Jing",
+    "Jian-Ping Mei",
+    "Mingjun Ma",
+    "Jiaobo Jin",
+    "Zhengqiu Weng"
+  ],
+  "published": "2025-03-05T02:08:12Z",
+  "url": "http://arxiv.org/abs/2503.03108v4",
+  "pdf_url": "http://arxiv.org/pdf/2503.03108v4.pdf",
+  "relevance_score": 100,
+  "summary": "Recently, Provenance-based Intrusion Detection Systems (PIDSes) have been widely used for endpoint threat analysis. These studies can be broadly categorized into rule-based detection systems and learning-based detection systems. Among these, due to the evolution of attack techniques, rules cannot dynamically model all the characteristics of attackers. As a result, such systems often face false negatives. Learning-based detection systems are further divided into supervised learning and anomaly detection. The scarcity of attack samples hinders the usability and effectiveness of supervised learning-based detection systems in practical applications. Anomaly-based detection systems face a massive false positive problem because they cannot distinguish between changes in normal behavior and real attack behavior. The alert results of detection systems are closely related to the manual labor costs of subsequent security analysts. To reduce manual analysis time, we propose OMNISEC, which applies large language models (LLMs) to anomaly-based intrusion detection systems via retrieval-augmented behavior prompting. OMNISEC can identify abnormal nodes and corresponding abnormal events by constructing suspicious nodes and rare paths. By combining two external knowledge bases, OMNISEC uses Retrieval Augmented Generation (RAG) to enable the LLM to determine whether abnormal behavior is a real attack. Finally, OMNISEC can reconstruct the attack graph and restore the complete attack behavior chain of the attacker's intrusion. Experimental results show that OMNISEC outperforms state-of-the-art methods on public benchmark datasets."
+}

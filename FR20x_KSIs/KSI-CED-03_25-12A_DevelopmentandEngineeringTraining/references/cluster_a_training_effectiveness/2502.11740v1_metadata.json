@@ -1,0 +1,25 @@
+{
+  "arxiv_id": "2502.11740v1",
+  "title": "Mitigating Visual Knowledge Forgetting in MLLM Instruction-tuning via Modality-decoupled Gradient Descent",
+  "authors": [
+    "Junda Wu",
+    "Yuxin Xiong",
+    "Xintong Li",
+    "Yu Xia",
+    "Ruoyu Wang",
+    "Yu Wang",
+    "Tong Yu",
+    "Sungchul Kim",
+    "Ryan A. Rossi",
+    "Lina Yao",
+    "Jingbo Shang",
+    "Julian McAuley"
+  ],
+  "published": "2025-02-17T12:26:34Z",
+  "url": "http://arxiv.org/abs/2502.11740v1",
+  "pdf_url": "http://arxiv.org/pdf/2502.11740v1.pdf",
+  "relevance_score": 82,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Recent MLLMs have shown emerging visual understanding and reasoning abilities after being pre-trained on large-scale multimodal datasets. Unlike pre-training, where MLLMs receive rich visual-text alignment, instruction-tuning is often text-driven with weaker visual supervision, leading to the degradation of pre-trained visual understanding and causing visual forgetting. Existing approaches, such as direct fine-tuning and continual learning methods, fail to explicitly address this issue, often co"
+}

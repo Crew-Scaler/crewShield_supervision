@@ -1,0 +1,185 @@
+[
+  {
+    "rank": 1,
+    "arxiv_id": "2507.04372v1",
+    "title": "Adaptive Malware Detection using Sequential Feature Selection: A Dueling Double Deep Q-Network (D3QN) Framework for Intelligent Classification",
+    "authors": ["Naseem Khan", "Aref Y. Al-Tamimi", "Amine Bermak", "Issa M. Khalil"],
+    "published": "2025-07-06",
+    "category": "cs.LG",
+    "relevance_score": 16.0,
+    "pdf_url": "https://arxiv.org/pdf/2507.04372v1",
+    "key_metrics": {
+      "accuracy_big2015": "99.22%",
+      "accuracy_bodmas": "98.83%",
+      "dimensionality_reduction": "96.6-97.6%",
+      "computational_efficiency": "30.1x-42.5x",
+      "policy_deviation_baseline": "62.5%"
+    },
+    "evasion_focus": "Reinforcement learning-based adaptive feature selection for malware evasion and detection",
+    "summary": "Proposes D3QN framework for adaptive sequential feature selection. Agent learns to dynamically select informative features per sample, optimizing both accuracy and computational efficiency through learned policies."
+  },
+  {
+    "rank": 2,
+    "arxiv_id": "2510.12310v1",
+    "title": "DeepTrust: Multi-Step Classification through Dissimilar Adversarial Representations for Robust Android Malware Detection",
+    "authors": ["Daniel Pulido-Cortázar", "Daniel Gibert", "Felip Manyà"],
+    "published": "2025-10-14",
+    "category": "cs.CR",
+    "relevance_score": 14.0,
+    "pdf_url": "https://arxiv.org/pdf/2510.12310v1",
+    "key_metrics": {
+      "competition_rank": "1st place IEEE SaTML 2025",
+      "performance_improvement": "266%",
+      "false_positive_rate": "<1%",
+      "evasion_attack_robustness": "266% better than next competitor"
+    },
+    "evasion_focus": "Adversarial robustness against feature-space evasion attacks",
+    "summary": "Novel metaheuristic with classifiers arranged in ordered sequence. Maximizes divergence of learned representations, making decision space unpredictable for attackers."
+  },
+  {
+    "rank": 3,
+    "arxiv_id": "2501.10996v1",
+    "title": "Effectiveness of Adversarial Benign and Malware Examples in Evasion and Poisoning Attacks",
+    "authors": ["Matouš Kozák", "Martin Jurecek"],
+    "published": "2025-01-19",
+    "category": "cs.CR",
+    "relevance_score": 14.0,
+    "pdf_url": "https://arxiv.org/pdf/2501.10996v1",
+    "key_metrics": {
+      "benign_ae_evasion_effectiveness": "Equal to malware AEs",
+      "poisoning_attack_impact": "More decisive than malware AEs",
+      "attack_surface_expansion": "Significant"
+    },
+    "evasion_focus": "Benign adversarial examples for evasion and poisoning attacks",
+    "summary": "Investigates effectiveness of benign and malicious adversarial examples in PE file domain. Shows benign AEs can increase false positives in antivirus systems."
+  },
+  {
+    "rank": 4,
+    "arxiv_id": "2511.17761v1",
+    "title": "StealthCup: Realistic, Multi-Stage, Evasion-Focused CTF for Benchmarking IDS",
+    "authors": ["Manuel Kern", "Dominik Steffan", "Felix Schuster", "Florian Skopik", "Max Landauer", "David Allison", "Simon Freudenthaler", "Edgar Weippl"],
+    "published": "2025-11-21",
+    "category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2511.17761v1",
+    "key_metrics": {
+      "techniques_evaluated": 32,
+      "undetected_techniques": 11,
+      "wazuh_suricata_fp_rate": ">90%",
+      "volt_typhoon_techniques": 28,
+      "techniques_in_writeups": 19
+    },
+    "evasion_focus": "Real-world IDS evasion through multi-stage attacks",
+    "summary": "Novel IDS evaluation methodology using CTF competition with professional penetration testers. Demonstrates blind spots in both open-source and commercial IDS systems."
+  },
+  {
+    "rank": 5,
+    "arxiv_id": "2508.08656v1",
+    "title": "Evasive Ransomware Attacks Using Low-level Behavioral Adversarial Examples",
+    "authors": ["Manabu Hirano", "Ryotaro Kobayashi"],
+    "published": "2025-08-12",
+    "category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2508.08656v1",
+    "key_metrics": {
+      "behavior_parameters": ["threads", "encryption_ratio", "delay_after_encryption"],
+      "test_sample": "Conti ransomware source code"
+    },
+    "evasion_focus": "Low-level behavioral modification for ransomware evasion",
+    "summary": "Introduces low-level behavioral adversarial examples for ransomware. Demonstrates optimal malware generation through micro-behavior control functions."
+  },
+  {
+    "rank": 6,
+    "arxiv_id": "2505.09342v2",
+    "title": "Evaluating the robustness of adversarial defenses in malware detection systems",
+    "authors": ["Mostafa Jafari", "Alireza Shameli-Sendi"],
+    "published": "2025-05-14",
+    "updated": "2025-12-08",
+    "category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2505.09342v2",
+    "key_metrics": {
+      "sigma_binary_unrestricted": "94.56%",
+      "sigma_binary_constrained": "16.55%",
+      "kde_dla_dnn_success": "90%+",
+      "at_rfgsm_success": "99.45%",
+      "at_maxma_success": "96.62%",
+      "pad_sma_baseline": "16.55%"
+    },
+    "evasion_focus": "Binary feature evasion attacks",
+    "summary": "Proposes Prioritized Binary Rounding and sigma-binary attack. Exposes vulnerabilities in state-of-the-art malware defenses in binary-constrained domains."
+  },
+  {
+    "rank": 7,
+    "arxiv_id": "2504.14886v1",
+    "title": "Zero Day Malware Detection with Alpha: Fast DBI with Transformer Models for Real World Application",
+    "authors": ["Matthew Gaber", "Mohiuddin Ahmed", "Helge Janicke"],
+    "published": "2025-04-21",
+    "category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2504.14886v1",
+    "key_metrics": {
+      "ransomware_accuracy": "Perfect",
+      "worms_accuracy": "Perfect",
+      "apt_accuracy": "Perfect",
+      "benign_classification": "Flawless",
+      "analysis_level": "Assembly (ASM) instruction level"
+    },
+    "evasion_focus": "Detection of adaptive malware through behavioral patterns",
+    "summary": "Framework for zero-day detection using Transformer models and Assembly patterns. Uses DBI to capture authentic behavior while defeating evasion techniques."
+  },
+  {
+    "rank": 8,
+    "arxiv_id": "2511.04440v1",
+    "title": "Adversarially Robust and Interpretable Magecart Malware Detection",
+    "authors": ["Pedro Pereira", "José Gouveia", "João Vitorino", "Eva Maia", "Isabel Praça"],
+    "published": "2025-11-06",
+    "category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2511.04440v1",
+    "key_metrics": {
+      "adversarial_training": "Applied",
+      "interpretability": "High",
+      "attack_domain": "Client-side web scripts"
+    },
+    "evasion_focus": "Web-based malware evasion through script obfuscation",
+    "summary": "ML models (tree-based, linear, kernel-based) for Magecart detection with adversarial training. Behavior DFA for analyzing script execution patterns."
+  },
+  {
+    "rank": 9,
+    "arxiv_id": "2510.18324v1",
+    "title": "CryptoGuard: Lightweight Hybrid Detection and Response to Host-based Cryptojackers in Linux Cloud Environments",
+    "authors": ["Gyeonghoon Park", "Jaehan Kim", "Jinu Choi", "Jinwoo Kim"],
+    "published": "2025-10-21",
+    "category": "cs.CR",
+    "relevance_score": 10.0,
+    "pdf_url": "https://arxiv.org/pdf/2510.18324v1",
+    "key_metrics": {
+      "f1_score_phase1": "96.12%",
+      "f1_score_phase2": "92.26%",
+      "samples_evaluated": 123,
+      "cpu_overhead": "0.06%",
+      "evasion_techniques": ["entry_point_poisoning", "pid_manipulation"]
+    },
+    "evasion_focus": "Stealth cryptojacking evasion detection",
+    "summary": "Lightweight hybrid solution with sketch and sliding window-based syscall monitoring. Two-phase classification with eBPF-based remediation."
+  },
+  {
+    "rank": 10,
+    "arxiv_id": "2510.16251v1",
+    "title": "LibIHT: A Hardware-Based Approach to Efficient and Evasion-Resistant Dynamic Binary Analysis",
+    "authors": ["Changyu Zhao", "Yohan Beugin", "Jean-Charles Noirot Ferrand", "Quinn Burke", "Guancheng Li", "Patrick McDaniel"],
+    "published": "2025-10-17",
+    "category": "cs.CR",
+    "relevance_score": 10.0,
+    "pdf_url": "https://arxiv.org/pdf/2510.16251v1",
+    "key_metrics": {
+      "overhead_reduction": "150x vs Intel Pin",
+      "slowdown_ratio": "7x vs 1053x",
+      "cfg_coverage": "99%+",
+      "hardware_features": ["Intel LBR", "Intel BTS"]
+    },
+    "evasion_focus": "Anti-instrumentation evasion resistance",
+    "summary": "Hardware-assisted tracing framework using Intel branch tracing. Preserves program behavior against anti-analysis evasion techniques."
+  }
+]

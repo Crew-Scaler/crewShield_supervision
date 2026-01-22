@@ -1,0 +1,547 @@
+{
+  "research_metadata": {
+    "topic": "Multi-Tenant Configuration Isolation with Cryptographic Enforcement",
+    "issue_number": "69",
+    "topic_number": "6",
+    "search_date": "2025-12-25",
+    "total_papers_found": 60,
+    "papers_downloaded": 10,
+    "papers_archived": 9,
+    "search_queries": [
+      "multi-tenant isolation AND (configuration OR data) AND (encryption OR cryptographic) AND (2024 OR 2025)",
+      "configuration isolation AND (tenant AND multi-tenant) AND (security OR segregation) AND (2024 OR 2025)",
+      "tenant-aware configuration AND (isolation OR enforcement) AND (cloud OR CSP) AND (2024 OR 2025)",
+      "homomorphic encryption multi-tenant cloud 2024 2025",
+      "confidential computing tenant isolation TEE 2025",
+      "kubernetes multi-tenancy security isolation 2024 2025",
+      "zero trust multi-tenant architecture 2025",
+      "database isolation multi-tenant encryption 2024"
+    ]
+  },
+  "top_10_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2507.12364",
+      "title": "Rethinking the confidential cloud through a unified low-level abstraction for composable isolation",
+      "authors": [
+        "Adrien Ghosn",
+        "Charly Castes",
+        "Neelu S. Kalani",
+        "Yuchen Qian",
+        "Marios Kogias",
+        "Edouard Bugnion"
+      ],
+      "publication_date": "2025-07-16",
+      "year": 2025,
+      "month": "July",
+      "abstract_summary": "Introduces Tyche, a security monitor that delegates enforceable, composable, and attestable isolation to a single trusted security monitor using trust domains as building blocks for constructing enclaves, sandboxes, and confidential virtual machines on commodity x86_64 hardware.",
+      "key_topics": [
+        "Composable isolation",
+        "Confidential computing",
+        "Trust domains",
+        "Enclaves",
+        "Sandboxes",
+        "Confidential VMs"
+      ],
+      "relevance_score": 10,
+      "us_institution": "Unknown",
+      "pdf_filename": "2507.12364_Tyche_Confidential_Cloud_Isolation.pdf"
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2510.10436",
+      "title": "Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey",
+      "authors": [
+        "Gaurab Chhetri",
+        "Shriyank Somvanshi",
+        "Pavan Hebli",
+        "Shamyo Brotee",
+        "Subasish Das"
+      ],
+      "publication_date": "2025-10-12",
+      "year": 2025,
+      "month": "October",
+      "abstract_summary": "Addresses the transition of post-quantum cryptography from evaluation to deployment, covering lattice-, code-, hash-, multivariate-, isogeny-, and MPC-in-the-Head families alongside performance metrics, hardware acceleration, protocol integration, and deployment scenarios across IoT, cloud, finance, and blockchain sectors with focus on multi-tenant cloud security.",
+      "key_topics": [
+        "Post-quantum cryptography",
+        "Multi-tenant cloud security",
+        "NIST algorithms",
+        "Cryptographic deployment",
+        "Cloud isolation"
+      ],
+      "relevance_score": 10,
+      "us_institution": "Unknown",
+      "pdf_filename": "2510.10436_PostQuantum_Crypto_Survey.pdf"
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2510.24498",
+      "title": "Design and Optimization of Cloud-Native Homomorphic Encryption Workflows for Privacy-Preserving ML Inference",
+      "authors": [
+        "Tejaswini Bollikonda"
+      ],
+      "publication_date": "2025-10-28",
+      "year": 2025,
+      "month": "October",
+      "abstract_summary": "Presents a systematic framework for design and optimization of cloud-native homomorphic encryption workflows integrating containerized encryption modules with Kubernetes orchestration, enabling elastic scaling and parallel encrypted computation across distributed multi-tenant environments with up to 3.2x inference acceleration.",
+      "key_topics": [
+        "Homomorphic encryption",
+        "Kubernetes orchestration",
+        "Multi-tenant isolation",
+        "Privacy-preserving ML",
+        "Cloud-native security"
+      ],
+      "relevance_score": 10,
+      "us_institution": "Unknown",
+      "pdf_filename": "2510.24498_CloudNative_HE_Workflows.pdf"
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2512.10341",
+      "title": "A Privacy-Preserving Cloud Architecture for Distributed Machine Learning at Scale",
+      "authors": [
+        "Vinoth Punniyamoorthy",
+        "Ashok Gadi Parthi",
+        "Mayilsamy Palanigounder",
+        "Ravi Kiran Kodali",
+        "Bikesh Kumar",
+        "Kabilan Kannan"
+      ],
+      "publication_date": "2025-12-11",
+      "year": 2025,
+      "month": "December",
+      "abstract_summary": "Presents a cloud-native framework combining federated learning, differential privacy, zero-knowledge compliance proofs, and adaptive governance powered by reinforcement learning for secure model training with tenant isolation, workload distribution, encrypted service-to-service communication, and identity/access control.",
+      "key_topics": [
+        "Federated learning",
+        "Differential privacy",
+        "Tenant isolation",
+        "Zero-knowledge proofs",
+        "Multi-tenant ML"
+      ],
+      "relevance_score": 10,
+      "us_institution": "Unknown",
+      "pdf_filename": "2512.10341_Privacy_Preserving_Cloud_ML.pdf"
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2510.12469",
+      "title": "Proof of Cloud: Data Center Execution Assurance for Confidential VMs",
+      "authors": [
+        "Filip Rezabek",
+        "Moe Mahhouk",
+        "Andrew Miller",
+        "Stefan Genchev",
+        "Quintus Kilbourn",
+        "Georg Carle",
+        "Jonathan Passerat-Palmbach"
+      ],
+      "publication_date": "2025-10-14",
+      "year": 2025,
+      "month": "October",
+      "abstract_summary": "Introduces Data Center Execution Assurance (DCEA) mechanism that binds confidential VMs to their underlying physical infrastructure using vTPM measurements to ensure CVM launch evidence and TPM quotes refer to the same physical chassis, enabling verification that systems operate on trusted platforms.",
+      "key_topics": [
+        "Confidential VMs",
+        "Remote attestation",
+        "vTPM",
+        "Platform trust",
+        "Multi-tenant security"
+      ],
+      "relevance_score": 9,
+      "us_institution": "Possible (Andrew Miller)",
+      "pdf_filename": "2510.12469_Proof_Cloud_CVM_Attestation.pdf"
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2505.07692",
+      "title": "ABase: the Multi-Tenant NoSQL Serverless Database for Diverse and Dynamic Workloads in Large-scale Cloud Environments",
+      "authors": [
+        "Rong Kang",
+        "Yanbin Chen",
+        "Ye Liu",
+        "Fuxin Jiang",
+        "Qingshuo Li",
+        "Miao Ma",
+        "Jian Liu",
+        "Guangliang Zhao",
+        "Tieying Zhang",
+        "Jianjun Chen",
+        "Lei Zhang"
+      ],
+      "publication_date": "2025-05-12",
+      "year": 2025,
+      "month": "May",
+      "abstract_summary": "Introduces a two-layer caching mechanism with cache-aware isolation to ensure accurate resource consumption estimates in multi-tenant NoSQL databases, employing predictive autoscaling policy to dynamically adjust resources in response to tenant traffic changes, achieving peak QPS over 13 billion at ByteDance.",
+      "key_topics": [
+        "Multi-tenant databases",
+        "Cache-aware isolation",
+        "Resource isolation",
+        "NoSQL",
+        "Autoscaling",
+        "SIGMOD 2025"
+      ],
+      "relevance_score": 9,
+      "us_institution": "Unknown",
+      "pdf_filename": "2505.07692_ABase_MultiTenant_NoSQL.pdf"
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2507.02770",
+      "title": "NVIDIA GPU Confidential Computing Demystified",
+      "authors": [
+        "Zhongshu Gu",
+        "Enriquillo Valdez",
+        "Salman Ahmed",
+        "Julian James Stephen",
+        "Michael Le",
+        "Hani Jamjoom",
+        "Shixuan Zhao",
+        "Zhiqiang Lin"
+      ],
+      "publication_date": "2025-07-03",
+      "year": 2025,
+      "month": "July",
+      "abstract_summary": "Examines NVIDIA's GPU Confidential Computing architecture with Hopper generation, analyzing cryptographic isolation mechanisms including per-CVM unique ephemeral keys and AES memory encryption for multi-tenant GPU environments, identifying security weaknesses through instrumentation.",
+      "key_topics": [
+        "GPU confidential computing",
+        "Memory encryption",
+        "Multi-tenant GPU",
+        "Cryptographic isolation",
+        "Trusted VMs"
+      ],
+      "relevance_score": 9,
+      "us_institution": "Unknown",
+      "pdf_filename": "2507.02770_NVIDIA_GPU_Confidential_Computing.pdf"
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2510.16067",
+      "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+      "authors": [
+        "Saurabh Deochake",
+        "Ryan Murphy",
+        "Jeremiah Gearheart"
+      ],
+      "publication_date": "2025-10-17",
+      "year": 2025,
+      "month": "October",
+      "abstract_summary": "Presents framework utilizing Workload Identity Federation (WIF) and OpenID Connect (OIDC) for secretless authentication using cryptographically-verified ephemeral tokens, reducing attack surface in Kubernetes multi-tenant environments while supporting attribute-based access control across cloud platforms.",
+      "key_topics": [
+        "Zero-trust",
+        "Workload identity",
+        "OIDC",
+        "Multi-cloud",
+        "Kubernetes",
+        "Attribute-based access control"
+      ],
+      "relevance_score": 9,
+      "us_institution": "Unknown",
+      "pdf_filename": "2510.16067_MultiCloud_ZeroTrust_Framework.pdf"
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2503.11659",
+      "title": "Zero Trust Architecture: A Systematic Literature Review",
+      "authors": [
+        "Muhammad Liman Gambo",
+        "Ahmad Almulhem"
+      ],
+      "publication_date": "2025-02-07",
+      "year": 2025,
+      "month": "February",
+      "abstract_summary": "Systematic review examining ten years of Zero Trust Architecture research (2016-2025) using PRISMA framework, presenting taxonomy of ZTA application domains including multi-tenant cloud environments with dynamic access policies, real-time authentication, and precise micro-segmentation.",
+      "key_topics": [
+        "Zero trust architecture",
+        "Multi-tenant environments",
+        "Micro-segmentation",
+        "Continuous verification",
+        "Access control"
+      ],
+      "relevance_score": 8,
+      "us_institution": "Unknown",
+      "pdf_filename": "2503.11659_ZeroTrust_Architecture_Review.pdf"
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2505.19301",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": [
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "John Yeoh",
+        "Jason Ross",
+        "Ramesh Raskar",
+        "Youssef Harkati",
+        "Jerry Huang",
+        "Idan Habler",
+        "Chris Hughes"
+      ],
+      "publication_date": "2025-05-25",
+      "year": 2025,
+      "month": "May",
+      "abstract_summary": "Proposes framework using Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs) for AI agents in Multi-Agent Systems, incorporating Agent Naming Service, dynamic access controls, and Zero-Knowledge Proofs for privacy-preserving compliance verification in distributed multi-tenant environments.",
+      "key_topics": [
+        "Zero-trust identity",
+        "Decentralized identifiers",
+        "Verifiable credentials",
+        "Multi-agent systems",
+        "Zero-knowledge proofs"
+      ],
+      "relevance_score": 8,
+      "us_institution": "Possible (Ramesh Raskar - MIT Media Lab)",
+      "pdf_filename": "2505.19301_ZeroTrust_Identity_Agentic_AI.pdf"
+    }
+  ],
+  "archived_papers": [
+    {
+      "arxiv_id": "2410.13752",
+      "title": "Privacy-Preserving Decentralized AI with Confidential Computing",
+      "authors": [
+        "Dayeol Lee",
+        "Jorge António",
+        "Hisham Khan"
+      ],
+      "publication_date": "2024-10-17",
+      "year": 2024,
+      "reason_archived": "2024 paper, less relevant to configuration isolation",
+      "pdf_filename": "2410.13752_Privacy_Decentralized_AI.pdf"
+    },
+    {
+      "arxiv_id": "2412.03842",
+      "title": "CCxTrust: Confidential Computing Platform Based on TEE and TPM Collaborative Trust",
+      "authors": [
+        "Ketong Shang",
+        "Jiangnan Lin",
+        "Yu Qin",
+        "Muyan Shen",
+        "Hongzhan Ma",
+        "Wei Feng",
+        "Dengguo Feng"
+      ],
+      "publication_date": "2024-12-05",
+      "year": 2024,
+      "reason_archived": "2024 paper, TPM focus less relevant to tenant configuration isolation",
+      "pdf_filename": "2412.03842_CCxTrust_TEE_TPM.pdf"
+    },
+    {
+      "arxiv_id": "2402.11438",
+      "title": "The Road to Trust: Building Enclaves within Confidential VMs",
+      "authors": [
+        "Wenhao Wang",
+        "Linke Song",
+        "Benshan Mei",
+        "Shuang Liu",
+        "Shijun Zhao",
+        "Shoumeng Yan",
+        "XiaoFeng Wang",
+        "Dan Meng",
+        "Rui Hou"
+      ],
+      "publication_date": "2024-02-18",
+      "year": 2024,
+      "reason_archived": "2024 paper, focuses on enclaves within CVMs rather than tenant configuration isolation",
+      "pdf_filename": "2402.11438_Road_Trust_Enclaves.pdf"
+    },
+    {
+      "arxiv_id": "2510.09494",
+      "title": "The Data Enclave Advantage: A New Paradigm for Least-Privileged Data Access in a Zero-Trust World",
+      "authors": [
+        "Nico Bistolfi",
+        "Andreea Georgescu",
+        "Dave Hodson"
+      ],
+      "publication_date": "2025-10-10",
+      "year": 2025,
+      "reason_archived": "Company whitepaper, focuses on data access rather than configuration isolation",
+      "pdf_filename": "2510.09494_Data_Enclave_Advantage.pdf"
+    },
+    {
+      "arxiv_id": "2512.17748",
+      "title": "Methods and Tools for Secure Quantum Clouds with a specific Case Study on Homomorphic Encryption",
+      "authors": [
+        "Aurelia Kusumastuti",
+        "Nikolay Tcholtchev",
+        "Philipp Lämmel",
+        "Sebastian Bock",
+        "Manfred Hauswirth"
+      ],
+      "publication_date": "2025-12-19",
+      "year": 2025,
+      "reason_archived": "Quantum computing focus, less applicable to traditional multi-tenant configuration isolation",
+      "pdf_filename": "2512.17748_Quantum_Cloud_HE.pdf"
+    },
+    {
+      "arxiv_id": "2510.20243",
+      "title": "HHEML: Hybrid Homomorphic Encryption for Privacy-Preserving Machine Learning on Edge",
+      "authors": [
+        "Yu Hin Chan",
+        "Hao Yang",
+        "Shiyu Shen",
+        "Xingyu Fan",
+        "Shengzhe Lyu",
+        "Patrick S. Y. Hung",
+        "Ray C. C. Cheung"
+      ],
+      "publication_date": "2025-10-23",
+      "year": 2025,
+      "reason_archived": "Edge computing focus, not primarily multi-tenant cloud configuration isolation",
+      "pdf_filename": "2510.20243_HHEML_Hybrid_HE.pdf"
+    },
+    {
+      "arxiv_id": "2504.08508",
+      "title": "An Early Experience with Confidential Computing Architecture for On-Device Model Protection",
+      "authors": [
+        "Sina Abdollahi",
+        "Mohammad Maheri",
+        "Sandra Siby",
+        "Marios Kogias",
+        "Hamed Haddadi"
+      ],
+      "publication_date": "2025-04-11",
+      "year": 2025,
+      "reason_archived": "On-device focus using Arm CCA, less relevant to cloud multi-tenant configuration isolation",
+      "pdf_filename": "2504.08508_Arm_CCA_OnDevice.pdf"
+    },
+    {
+      "arxiv_id": "2402.15277",
+      "title": "Trustworthy confidential virtual machines for the masses",
+      "authors": [
+        "Anna Galanou",
+        "Khushboo Bindlish",
+        "Luca Preibsch",
+        "Yvonne-Anne Pignolet",
+        "Christof Fetzer",
+        "Rüdiger Kapitza"
+      ],
+      "publication_date": "2024-02-23",
+      "year": 2024,
+      "reason_archived": "2024 paper, focuses on web workloads and attestation rather than configuration isolation",
+      "pdf_filename": "2402.15277_Trustworthy_CVM.pdf"
+    },
+    {
+      "arxiv_id": "2412.08534",
+      "title": "Protecting Confidentiality, Privacy and Integrity in Collaborative Learning",
+      "authors": [
+        "Dong Chen",
+        "Alice Dethise",
+        "Istemi Ekin Akkus",
+        "Ivica Rimac",
+        "Klaus Satzke",
+        "Antti Koskela",
+        "Marco Canini",
+        "Wei Wang",
+        "Ruichuan Chen"
+      ],
+      "publication_date": "2024-12-11",
+      "year": 2024,
+      "reason_archived": "2024 paper, focuses on collaborative ML rather than tenant configuration isolation",
+      "pdf_filename": "2412.08534_Citadel_Collaborative_Learning.pdf"
+    }
+  ],
+  "key_findings": {
+    "primary_themes": [
+      "Confidential computing with TEEs (Trusted Execution Environments) and hardware isolation",
+      "Homomorphic encryption for privacy-preserving computation in multi-tenant clouds",
+      "Zero-trust architecture with dynamic access policies and micro-segmentation",
+      "Cryptographic enforcement through per-tenant encryption keys and cryptographic silos",
+      "Container orchestration (Kubernetes) with tenant-aware isolation mechanisms",
+      "Post-quantum cryptography for future-proof multi-tenant security",
+      "Remote attestation and verification for confidential VMs",
+      "Cache-aware and resource isolation in multi-tenant databases",
+      "Federated learning with differential privacy for tenant data protection",
+      "Workload identity federation for secretless authentication"
+    ],
+    "cryptographic_techniques": [
+      "Homomorphic Encryption (HE) - computation on encrypted data",
+      "Fully Homomorphic Encryption (FHE) - arbitrary computation on ciphertext",
+      "Post-Quantum Cryptography (CRYSTALS-Kyber, CRYSTALS-Dilithium, SPHINCS+)",
+      "Zero-Knowledge Proofs (ZKPs) - privacy-preserving compliance verification",
+      "Attribute-Based Encryption (ABE) - fine-grained access control",
+      "Application-Level Encryption (ALE) - per-tenant encryption keys",
+      "Memory encryption (AES) - runtime data protection in CVMs",
+      "Differential Privacy - privacy-preserving ML training"
+    ],
+    "isolation_mechanisms": [
+      "Trust domains - composable isolation building blocks",
+      "Hardware enclaves (Intel SGX, AMD SEV-SNP, Intel TDX, ARM CCA)",
+      "Confidential Virtual Machines (CVMs) with cryptographic memory isolation",
+      "Kubernetes namespaces with RBAC, NetworkPolicies, ResourceQuotas",
+      "Virtual TPM (vTPM) for platform binding and attestation",
+      "Cache-aware isolation for accurate resource consumption",
+      "Micro-segmentation for network isolation",
+      "Database-per-tenant architecture with cryptographic silos",
+      "Container sandboxing (Kata containers) for VM-level isolation"
+    ],
+    "deployment_contexts": [
+      "Multi-cloud environments with hybrid Kubernetes infrastructure",
+      "Large-scale cloud providers (AWS, Azure, GCP, ByteDance)",
+      "FedRAMP compliance and federal cloud security",
+      "Healthcare institutions with sensitive data",
+      "Financial services and blockchain",
+      "GPU computing for AI/ML workloads",
+      "Edge computing with on-device security",
+      "IoT and resource-constrained environments"
+    ],
+    "performance_considerations": [
+      "3.2x inference acceleration with optimized HE workflows",
+      "40% reduction in memory utilization",
+      "24% efficiency gains in attestation processes",
+      "22% performance overhead for on-device confidential computing",
+      "50x reduction in client-side encryption latency",
+      "Peak QPS over 13 billion in multi-tenant databases",
+      "1.9x-2.1x context switching overhead for nested enclaves"
+    ],
+    "emerging_trends": [
+      "Integration of confidential computing with Kubernetes and cloud-native architectures",
+      "Shift from document-driven to data-driven compliance (FedRAMP 20x)",
+      "Combination of multiple isolation layers (defense-in-depth)",
+      "Automated policy enforcement with machine-readable evidence",
+      "Decentralized identity management for AI agents",
+      "Quantum-safe cryptography deployment in cloud environments",
+      "Privacy-preserving federated learning at scale",
+      "Hardware acceleration for cryptographic operations"
+    ]
+  },
+  "recommendations": {
+    "fedramp_relevance": [
+      "Adopt multi-layer isolation combining cryptographic enforcement, hardware enclaves, and policy-based controls",
+      "Implement continuous attestation and verification for confidential VMs (Proof of Cloud approach)",
+      "Deploy per-tenant encryption with unique cryptographic keys to create virtual silos",
+      "Leverage Kubernetes-native isolation with RBAC, NetworkPolicies, and PodSecurityStandards",
+      "Prepare for post-quantum cryptography transition using NIST-approved algorithms",
+      "Implement zero-trust principles with dynamic access policies and micro-segmentation",
+      "Use workload identity federation for secretless authentication across multi-cloud",
+      "Deploy homomorphic encryption for sensitive computations on tenant data"
+    ],
+    "implementation_priorities": [
+      "High Priority: Confidential VMs with hardware-based TEEs (AMD SEV-SNP, Intel TDX)",
+      "High Priority: Per-tenant cryptographic isolation with unique encryption keys",
+      "High Priority: Zero-trust architecture with continuous verification",
+      "Medium Priority: Kubernetes multi-tenancy with namespace isolation and RBAC",
+      "Medium Priority: Remote attestation for platform trust verification",
+      "Medium Priority: Cache-aware resource isolation for accurate tenant accounting",
+      "Low Priority: Homomorphic encryption for specific use cases requiring computation on encrypted data",
+      "Low Priority: Post-quantum cryptography migration planning"
+    ],
+    "research_gaps": [
+      "Limited research on configuration-specific isolation (most focus on data isolation)",
+      "Few papers address tenant-aware configuration management at scale",
+      "Insufficient coverage of configuration drift detection in multi-tenant environments",
+      "Need for more research on cryptographic enforcement of configuration policies",
+      "Limited work on formal verification of multi-tenant isolation guarantees",
+      "Gap in practical implementations combining multiple isolation mechanisms",
+      "Insufficient guidance on performance-security tradeoffs in production systems"
+    ]
+  },
+  "notable_institutions_mentioned": [
+    "ByteDance (ABase deployment with 13B QPS)",
+    "NVIDIA (GPU Confidential Computing)",
+    "NIST (Post-quantum cryptography standards)",
+    "AMD (SEV-SNP confidential computing)",
+    "Intel (TDX, SGX)",
+    "ARM (CCA - Confidential Compute Architecture)",
+    "SIGMOD 2025 (ABase acceptance)",
+    "NDSS 2025 (NestedSGX acceptance)",
+    "Possible MIT Media Lab (Ramesh Raskar)",
+    "Possible US institutions for Andrew Miller, others unconfirmed"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2508.10052v1",
+  "title": "NetMoniAI: An Agentic AI Framework for Network Security & Monitoring",
+  "authors": [
+    "Pallavi Zambare",
+    "Venkata Nikhil Thanikella",
+    "Nikhil Padmanabh Kottur",
+    "Sree Akhil Akula",
+    "Ying Liu"
+  ],
+  "published": "2025-08-12T15:48:53Z",
+  "url": "http://arxiv.org/abs/2508.10052v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.10052v1.pdf",
+  "relevance_score": 100,
+  "summary": "In this paper, we present NetMoniAI, an agentic AI framework for automatic network monitoring and security that integrates decentralized analysis with lightweight centralized coordination. The framework consists of two layers: autonomous micro-agents at each node perform local traffic analysis and anomaly detection. A central controller then aggregates insights across nodes to detect coordinated attacks and maintain system-wide situational awareness. We evaluated NetMoniAI on a local micro-testbed and through NS-3 simulations. Results confirm that the two-tier agentic-AI design scales under resource constraints, reduces redundancy, and improves response time without compromising accuracy. To facilitate broader adoption and reproducibility, the complete framework is available as open source. This enables researchers and practitioners to replicate, validate, and extend it across diverse network environments and threat scenarios. Github link: https://github.com/pzambare3/NetMoniAI"
+}

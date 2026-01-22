@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.20514v1",
+  "title": "Explainable time-series forecasting with sampling-free SHAP for Transformers",
+  "authors": [
+    "Matthias Hertel",
+    "Sebastian P\u00fctz",
+    "Ralf Mikut",
+    "Veit Hagenmeyer",
+    "Benjamin Sch\u00e4fer"
+  ],
+  "published": "2025-12-23T17:02:35Z",
+  "summary": "Time-series forecasts are essential for planning and decision-making in many domains. Explainability is key to building user trust and meeting transparency requirements. Shapley Additive Explanations (SHAP) is a popular explainable AI framework, but it lacks efficient implementations for time series and often assumes feature independence when sampling counterfactuals. We introduce SHAPformer, an accurate, fast and sampling-free explainable time-series forecasting model based on the Transformer a",
+  "cluster": "cluster_3",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.172683"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.11933v1",
+  "title": "InData: Towards Secure Multi-Step, Tool-Based Data Analysis",
+  "authors": [
+    "Karthikeyan K",
+    "Raghuveer Thirukovalluru",
+    "Bhuwan Dhingra",
+    "David Edwin Carlson"
+  ],
+  "published": "2025-11-14T23:15:41Z",
+  "url": "http://arxiv.org/abs/2511.11933v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.11933v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Large language model agents for data analysis typically generate and execute code directly on databases. However, when applied to sensitive data, this approach poses significant security risks. To address this issue, we propose a security-motivated alternative: restrict LLMs from direct code generation and data access, and require them to interact with data exclusively through a predefined set of secure, verified tools. Although recent tool-use benchmarks exist, they primarily target tool select"
+}

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2503.18345v1",
+  "title": "Attacking and Improving the Tor Directory Protocol",
+  "authors": [
+    "Zhongtang Luo",
+    "Adithya Bhat",
+    "Kartik Nayak",
+    "Aniket Kate"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-03",
+  "url": "https://arxiv.org/abs/2503.18345v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "The Tor network enhances clients' privacy by routing traffic through an overlay network of volunteered intermediate relays. Tor employs a distributed protocol among nine hard-coded Directory Authority (DA) servers to securely disseminate information about these relays to produce a new consensus document every hour. With a straightforward voting mechanism to ensure consistency, the protocol is expected to be secure even when a minority of those authorities get compromised. However, the current co..."
+}

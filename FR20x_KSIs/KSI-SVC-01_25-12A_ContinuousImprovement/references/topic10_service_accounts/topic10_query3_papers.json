@@ -1,0 +1,193 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20554v1",
+    "arxiv_id": "2512.20554v1",
+    "title": "Hardware-aware and Resource-efficient Circuit Packing and Scheduling on Trapped-Ion Quantum Computers",
+    "summary": "The rapid expansion of quantum cloud services has led to long job queues due to single-tenant execution models that underutilize hardware resources. Quantum multi-programming (QMP) mitigates this by executing multiple circuits in parallel on a single device, but existing methods target superconducting systems with limited connectivity, high crosstalk, and lower gate fidelity. Trapped-ion architectures, with all-to-all connectivity, long coherence times, and high-fidelity mid-circuit measurement properties, presents itself as a more suitable platform for scalable QMP. We present CircPack, a hardware-aware circuit packing framework designed for modular trapped-ion devices based on the Quantum Charge-Coupled Device (QCCD) architecture. CircPack formulates static circuit scheduling as a two-dimensional packing problem with hardware-specific shuttling constraints. Compared to superconducting-based QMP approaches, CircPack achieves up to 70.72% better fidelity, 62.67% higher utilization, and 32.80% improved layer reduction. This framework is also capable of scalable, balanced scheduling across a cluster of independent QCCD modules, highlighting trapped-ion systems' potential in improving the throughput of quantum cloud computing in the near future.",
+    "published": "2025-12-23T17:53:47Z",
+    "updated": "2025-12-23T17:53:47Z",
+    "authors": [
+      "Miguel Palma",
+      "Shuwen Kan",
+      "Wenqi Wei",
+      "Juntao Chen",
+      "Kaixun Hua",
+      "Sara Mouradian",
+      "Ying Mao"
+    ],
+    "affiliations": [
+      "fordham university",
+      "fordham university",
+      "fordham university",
+      "fordham university",
+      "university of south florida",
+      "university of washington",
+      "fordham university"
+    ],
+    "first_author": "Miguel Palma",
+    "pdf_url": "https://arxiv.org/pdf/2512.20554v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19974v1",
+    "arxiv_id": "2512.19974v1",
+    "title": "Securing the Sensing Functionality in ISAC: KLD-Based Ambiguity Function Shaping",
+    "summary": "As integrated sensing and communication (ISAC) systems are deployed in next-generation wireless networks, a new security vulnerability emerges, particularly in terms of sensing privacy. Unauthorized sensing eavesdroppers (Eve) can potentially exploit the ISAC signal for their own independent passive sensing. However, solutions for sensing-secure ISAC remain largely unexplored to date. This work addresses sensing-security for OFDM- and OTFS-based ISAC waveforms from a target-detection perspective, aiming to prevent Eves from exploiting the ISAC signal for unauthorized passive sensing. We develop ISAC system models for the base station (BS), communication user equipment, and the sensing Eve, and define a Kullback-Leibler-divergence-based detection metric that accounts for mainlobe, sidelobe, and noise components in the ambiguity function and the resulting range-Doppler maps of the legitimate BS's and Eve's sensing. Building on this analysis, we formulate a sensing-secure ISAC signaling design problem that tunes a perturbation matrix to jointly control signal amplitude and phase in the time-frequency domain and solve it via simulated annealing. Simulation results show that the proposed scheme substantially degrades Eve's detection probability -- from 79.4% to 37.4% for OTFS and from 94.3% to 33.0% for OFDM -- while incurring only a small loss in BS sensing performance. In addition, it allows controllable trade-offs across sensing-security and communication performance.",
+    "published": "2025-12-23T01:38:25Z",
+    "updated": "2025-12-23T01:38:25Z",
+    "authors": [
+      "Borui Du",
+      "Kawon Han",
+      "Christos Masouros"
+    ],
+    "affiliations": [],
+    "first_author": "Borui Du",
+    "pdf_url": "https://arxiv.org/pdf/2512.19974v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19297v1",
+    "arxiv_id": "2512.19297v1",
+    "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+    "summary": "Low-Rank Adaptation (LoRA) has emerged as an efficient method for fine-tuning large language models (LLMs) and is widely adopted within the open-source community. However, the decentralized dissemination of LoRA adapters through platforms such as Hugging Face introduces novel security vulnerabilities: malicious adapters can be easily distributed and evade conventional oversight mechanisms. Despite these risks, backdoor attacks targeting LoRA-based fine-tuning remain relatively underexplored. Existing backdoor attack strategies are ill-suited to this setting, as they often rely on inaccessible training data, fail to account for the structural properties unique to LoRA, or suffer from high false trigger rates (FTR), thereby compromising their stealth. To address these challenges, we propose Causal-Guided Detoxify Backdoor Attack (CBA), a novel backdoor attack framework specifically designed for open-weight LoRA models. CBA operates without access to original training data and achieves high stealth through two key innovations: (1) a coverage-guided data generation pipeline that synthesizes task-aligned inputs via behavioral exploration, and (2) a causal-guided detoxification strategy that merges poisoned and clean adapters by preserving task-critical neurons. Unlike prior approaches, CBA enables post-training control over attack intensity through causal influence-based weight allocation, eliminating the need for repeated retraining. Evaluated across six LoRA models, CBA achieves high attack success rates while reducing FTR by 50-70\\% compared to baseline methods. Furthermore, it demonstrates enhanced resistance to state-of-the-art backdoor defenses, highlighting its stealth and robustness.",
+    "published": "2025-12-22T11:40:47Z",
+    "updated": "2025-12-22T11:40:47Z",
+    "authors": [
+      "Linzhi Chen",
+      "Yang Sun",
+      "Hongru Wei",
+      "Yuqi Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Linzhi Chen",
+    "pdf_url": "https://arxiv.org/pdf/2512.19297v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18155v1",
+    "arxiv_id": "2512.18155v1",
+    "title": "Performance Guarantees for Data Freshness in Resource-Constrained Adversarial IoT Systems",
+    "summary": "Timely updates are critical for real-time monitoring and control applications powered by the Internet of Things (IoT). As these systems scale, they become increasingly vulnerable to adversarial attacks, where malicious agents interfere with legitimate transmissions to reduce data rates, thereby inflating the age of information (AoI). Existing adversarial AoI models often assume stationary channels and overlook queueing dynamics arising from compromised sensing sources operating under resource constraints. Motivated by the G-queue framework, this paper investigates a two-source M/G/1/1 system in which one source is adversarial and disrupts the update process by injecting negative arrivals according to a Poisson process and inducing i.i.d. service slowdowns, bounded in attack rate and duration. Using moment generating functions, we then derive closed-form expressions for average and peak AoI for an arbitrary number of sources. Moreover, we introduce a worst-case constrained attack model and employ stochastic dominance arguments to establish analytical AoI bounds. Numerical results validate the analysis and highlight the impact of resource-limited adversarial interference under general service time distributions.",
+    "published": "2025-12-20T00:31:24Z",
+    "updated": "2025-12-20T00:31:24Z",
+    "authors": [
+      "Aresh Dadlani",
+      "Muthukrishnan Senthil Kumar",
+      "Omid Ardakanian",
+      "Ioanis Nikolaidis"
+    ],
+    "affiliations": [],
+    "first_author": "Aresh Dadlani",
+    "pdf_url": "https://arxiv.org/pdf/2512.18155v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17602v1",
+    "arxiv_id": "2512.17602v1",
+    "title": "Sandwiched and Silent: Behavioral Adaptation and Private Channel Exploitation in Ethereum MEV",
+    "summary": "How users adapt after being sandwiched remains unclear; this paper provides an empirical quantification. Using transaction level data from November 2024 to February 2025, enriched with mempool visibility and ZeroMEV labels, we track user outcomes after their n-th public sandwich: (i) reactivation, i.e., the resumption of on-chain activity within a 60-day window, and (ii) first-time adoption of private routing. We refer to users who do not reactivate within this window as churned, and to users experiencing multiple attacks (n>1) as undergoing repeated exposure. Our analysis reveals measurable behavioral adaptation: around 40% of victims migrate to private routing within 60 days, rising to 54% with repeated exposures. Churn peaks at 7.5% after the first sandwich but declines to 1-2%, consistent with survivor bias. In Nov-Dec 2024 we confirm 2,932 private sandwich attacks affecting 3,126 private victim transactions, producing \\$409,236 in losses and \\$293,786 in attacker profits. A single bot accounts for nearly two-thirds of private frontruns, and private sandwich activity is heavily concentrated on a small set of DEX pools. These results highlight that private routing does not guarantee protection from MEV extraction: while execution failures push users toward private channels, these remain exploitable and highly concentrated, demanding continuous monitoring and protocol-level defenses.",
+    "published": "2025-12-19T14:09:02Z",
+    "updated": "2025-12-19T14:09:02Z",
+    "authors": [
+      "Davide Mancino",
+      "Davide Rezzoli"
+    ],
+    "affiliations": [],
+    "first_author": "Davide Mancino",
+    "pdf_url": "https://arxiv.org/pdf/2512.17602v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20062v1",
+    "arxiv_id": "2512.20062v1",
+    "title": "On the Effectiveness of Instruction-Tuning Local LLMs for Identifying Software Vulnerabilities",
+    "summary": "Large Language Models (LLMs) show significant promise in automating software vulnerability analysis, a critical task given the impact of security failure of modern software systems. However, current approaches in using LLMs to automate vulnerability analysis mostly rely on using online API-based LLM services, requiring the user to disclose the source code in development. Moreover, they predominantly frame the task as a binary classification(vulnerable or not vulnerable), limiting potential practical utility. This paper addresses these limitations by reformulating the problem as Software Vulnerability Identification (SVI), where LLMs are asked to output the type of weakness in Common Weakness Enumeration (CWE) IDs rather than simply indicating the presence or absence of a vulnerability. We also tackle the reliance on large, API-based LLMs by demonstrating that instruction-tuning smaller, locally deployable LLMs can achieve superior identification performance. In our analysis, instruct-tuning a local LLM showed better overall performance and cost trade-off than online API-based LLMs. Our findings indicate that instruct-tuned local models represent a more effective, secure, and practical approach for leveraging LLMs in real-world vulnerability management workflows.",
+    "published": "2025-12-23T05:30:53Z",
+    "updated": "2025-12-23T05:30:53Z",
+    "authors": [
+      "Sangryu Park",
+      "Gihyuk Ko",
+      "Homook Cho"
+    ],
+    "affiliations": [],
+    "first_author": "Sangryu Park",
+    "pdf_url": "https://arxiv.org/pdf/2512.20062v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19994v1",
+    "arxiv_id": "2512.19994v1",
+    "title": "Efficient Gradient-Based Optimization for Joint Layout Design and Control of Wind Turbines",
+    "summary": "A central challenge in the design of energy-efficient wind farms is the presence of wake effects between turbines. When a wind turbine harvests energy from free wind, it produces a turbulent region with reduced energy for downstream turbines. Strategies for increasing the efficiency of wind farms by mitigating wake effects have been the subject of much computational research. To this end, both the positioning of the turbines and their cooperative control must be taken into account. Since they are mutually dependent, increasing attention has been paid to the joint consideration of layout design and control. However, joint modeling approaches lead to large-scale and difficult optimization problems, which lack efficient solution strategies. This paper describes an efficient optimization framework for the joint design and steady-state control of wind turbines under a continuous wake effect model. Through a multi-level reformulation of the joint optimization problem, it shows how problem sub-structure can be efficiently exploited to yield order-of-magnitude reduction in convergence times over naive approaches and prior proposals.",
+    "published": "2025-12-23T02:43:47Z",
+    "updated": "2025-12-23T02:43:47Z",
+    "authors": [
+      "James Kotary",
+      "Natalie Isenberg",
+      "Draguna Vrabie"
+    ],
+    "affiliations": [],
+    "first_author": "James Kotary",
+    "pdf_url": "https://arxiv.org/pdf/2512.19994v1",
+    "primary_category": "math.OC",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19563v1",
+    "arxiv_id": "2512.19563v1",
+    "title": "On Network-Aware Semantic Communication and Edge-Cloud Collaborative Intelligence Systems",
+    "summary": "Semantic communication and edge-cloud collaborative intelligence are increasingly recognized as foundational enablers for next-generation intelligent services operating under stringent bandwidth, latency, and resource constraints. By shifting the communication objective from bit-perfect delivery toward the transmission of task-relevant semantic representations, semantic communication enables adaptive tradeoffs among communication overhead, inference accuracy, computational load, and end-to-end latency. This survey provides a comprehensive and system-level synthesis of recent advances in semantic communication at the edge-cloud interface, encompassing architectural models for collaborative intelligence, representation learning and semantic abstraction techniques, network-aware and resource-adaptive semantic encoding strategies, and learning-driven optimization and orchestration mechanisms. Beyond efficiency considerations, the survey situates semantic communication within practical operational contexts, including security, trust, resilience, and scalability, drawing connections to zero-trust networking, physical-layer security, and emerging edge-cloud control paradigms. Finally, open challenges and research directions are identified, highlighting the role of semantic communication as a key building block for AI-native networking and 6G-ready intelligent systems.",
+    "published": "2025-12-22T16:44:32Z",
+    "updated": "2025-12-22T16:44:32Z",
+    "authors": [
+      "Murdadha Nasif",
+      "Ahmed Refaey Hussein"
+    ],
+    "affiliations": [],
+    "first_author": "Murdadha Nasif",
+    "pdf_url": "https://arxiv.org/pdf/2512.19563v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19061v1",
+    "arxiv_id": "2512.19061v1",
+    "title": "Fraud Detection Through Large-Scale Graph Clustering with Heterogeneous Link Transformation",
+    "summary": "Collaborative fraud, where multiple fraudulent accounts coordinate to exploit online payment systems, poses significant challenges due to the formation of complex network structures. Traditional detection methods that rely solely on high-confidence identity links suffer from limited coverage, while approaches using all available linkages often result in fragmented graphs with reduced clustering effectiveness. In this paper, we propose a novel graph-based fraud detection framework that addresses the challenge of large-scale heterogeneous graph clustering through a principled link transformation approach. Our method distinguishes between \\emph{hard links} (high-confidence identity relationships such as phone numbers, credit cards, and national IDs) and \\emph{soft links} (behavioral associations including device fingerprints, cookies, and IP addresses). We introduce a graph transformation technique that first identifies connected components via hard links, merges them into super-nodes, and then reconstructs a weighted soft-link graph amenable to efficient embedding and clustering. The transformed graph is processed using LINE (Large-scale Information Network Embedding) for representation learning, followed by HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise) for density-based cluster discovery. Experiments on a real-world payment platform dataset demonstrate that our approach achieves significant graph size reduction (from 25 million to 7.7 million nodes), doubles the detection coverage compared to hard-link-only baselines, and maintains high precision across identified fraud clusters. Our framework provides a scalable and practical solution for industrial-scale fraud detection systems.",
+    "published": "2025-12-22T05:59:13Z",
+    "updated": "2025-12-22T05:59:13Z",
+    "authors": [
+      "Chi Liu"
+    ],
+    "affiliations": [],
+    "first_author": "Chi Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.19061v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18755v1",
+    "arxiv_id": "2512.18755v1",
+    "title": "MEEA: Mere Exposure Effect-Driven Confrontational Optimization for LLM Jailbreaking",
+    "summary": "The rapid advancement of large language models (LLMs) has intensified concerns about the robustness of their safety alignment. While existing jailbreak studies explore both single-turn and multi-turn strategies, most implicitly assume a static safety boundary and fail to account for how contextual interactions dynamically influence model behavior, leading to limited stability and generalization. Motivated by this gap, we propose MEEA (Mere Exposure Effect Attack), a psychology-inspired, fully automated black-box framework for evaluating multi-turn safety robustness, grounded in the mere exposure effect. MEEA leverages repeated low-toxicity semantic exposure to induce a gradual shift in a model's effective safety threshold, enabling progressive erosion of alignment constraints over sustained interactions. Concretely, MEEA constructs semantically progressive prompt chains and optimizes them using a simulated annealing strategy guided by semantic similarity, toxicity, and jailbreak effectiveness. Extensive experiments on both closed-source and open-source models, including GPT-4, Claude-3.5, and DeepSeek-R1, demonstrate that MEEA consistently achieves higher attack success rates than seven representative baselines, with an average Attack Success Rate (ASR) improvement exceeding 20%. Ablation studies further validate the necessity of both annealing-based optimization and contextual exposure mechanisms. Beyond improved attack effectiveness, our findings indicate that LLM safety behavior is inherently dynamic and history-dependent, challenging the common assumption of static alignment boundaries and highlighting the need for interaction-aware safety evaluation and defense mechanisms. Our code is available at: https://github.com/Carney-lsz/MEEA",
+    "published": "2025-12-21T14:43:26Z",
+    "updated": "2025-12-21T14:43:26Z",
+    "authors": [
+      "Jianyi Zhang",
+      "Shizhao Liu",
+      "Ziyin Zhou",
+      "Zhen Li"
+    ],
+    "affiliations": [],
+    "first_author": "Jianyi Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.18755v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 12.0
+  }
+]

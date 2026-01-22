@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.07472v1",
+  "title": "Affordance Field Intervention: Enabling VLAs to Escape Memory Traps in Robotic Manipulation",
+  "authors": [
+    "Siyu Xu",
+    "Zijian Wang",
+    "Yunke Wang",
+    "Chenghao Xia",
+    "Tao Huang"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.07472v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "Vision-Language-Action (VLA) models have shown great performance in robotic manipulation by mapping visual observations and language instructions directly to actions. However, they remain brittle under distribution shifts: when test scenarios change, VLAs often reproduce memorized trajectories instead of adapting to the updated scene, which is a failure mode we refer to as the \"Memory Trap\". This limitation stems from the end-to-end design, which lacks explicit 3D spatial reasoning and prevents ..."
+}

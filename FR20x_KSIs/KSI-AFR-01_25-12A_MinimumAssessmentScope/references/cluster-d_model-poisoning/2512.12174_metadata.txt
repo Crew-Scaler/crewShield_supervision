@@ -1,0 +1,21 @@
+Title: EIP-7702 Phishing Attack
+
+Authors: Minfeng Qi, Qin Wang, Ruiqiang Li, Tianqing Zhu, Shiping Chen
+
+
+Published: 2025-12-13
+
+Query ID: D-1.6
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 20
+
+URL: https://arxiv.org/pdf/2512.12174.pdf
+
+Abstract:
+EIP-7702 introduces a delegation-based authorization mechanism that allows an externally owned account (EOA) to authenticate a single authorization tuple, after which all subsequent calls are routed to arbitrary delegate code. We show that this design enables a qualitatively new class of phishing attacks: instead of deceiving users into signing individual transactions, an attacker can induce a victim to sign a single authorization tuple that grants unconditional and persistent execution control ...
+
+Relevance Justification:
+Analyzes trigger-based attacks

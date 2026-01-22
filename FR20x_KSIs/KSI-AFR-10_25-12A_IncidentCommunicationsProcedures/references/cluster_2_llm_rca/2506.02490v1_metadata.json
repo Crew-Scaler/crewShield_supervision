@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2506.02490v1",
+  "title": "Simplifying Root Cause Analysis in Kubernetes with StateGraph and LLM",
+  "authors": [
+    "Yong Xiang",
+    "Charley Peter Chen",
+    "Liyi Zeng",
+    "Wei Yin",
+    "Xin Liu",
+    "Hu Li",
+    "Wei Xu"
+  ],
+  "published": "2025-06-03T06:09:13Z",
+  "url": "http://arxiv.org/abs/2506.02490v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.02490v1.pdf",
+  "relevance_score": 100,
+  "summary": "Kubernetes, a notably complex and distributed system, utilizes an array of controllers to uphold cluster management logic through state reconciliation. Nevertheless, maintaining state consistency presents significant challenges due to unexpected failures, network disruptions, and asynchronous issues, especially within dynamic cloud environments. These challenges result in operational disruptions and economic losses, underscoring the necessity for robust root cause analysis (RCA) to enhance Kubernetes reliability. The development of large language models (LLMs) presents a promising direction for RCA. However, existing methodologies encounter several obstacles, including the diverse and evolving nature of Kubernetes incidents, the intricate context of incidents, and the polymorphic nature of these incidents. In this paper, we introduce SynergyRCA, an innovative tool that leverages LLMs with retrieval augmentation from graph databases and enhancement with expert prompts. SynergyRCA constructs a StateGraph to capture spatial and temporal relationships and utilizes a MetaGraph to outline entity connections. Upon the occurrence of an incident, an LLM predicts the most pertinent resource, and SynergyRCA queries the MetaGraph and StateGraph to deliver context-specific insights for RCA. We evaluate SynergyRCA using datasets from two production Kubernetes clusters, highlighting its capacity to identify numerous root causes, including novel ones, with high efficiency and precision. SynergyRCA demonstrates the ability to identify root causes in an average time of about two minutes and achieves an impressive precision of approximately 0.90."
+}

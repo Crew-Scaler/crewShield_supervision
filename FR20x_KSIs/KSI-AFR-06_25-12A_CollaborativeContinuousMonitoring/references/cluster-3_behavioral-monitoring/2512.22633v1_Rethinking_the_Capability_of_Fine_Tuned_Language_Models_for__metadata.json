@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.22633v1",
+  "title": "Rethinking the Capability of Fine-Tuned Language Models for Automated Vulnerability Repair",
+  "authors": [
+    "Woorim Han",
+    "Yeongjun Kwak",
+    "Miseon Yu",
+    "Kyeongmin Kim",
+    "Younghan Lee"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22633v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "Learning-based automated vulnerability repair (AVR) techniques that utilize fine-tuned language models have shown promise in generating vulnerability patches. However, questions remain about their ability to repair unseen vulnerabilities. Our empirical study reveals that state-of-the-art models often overfit to the training set and are evaluated using training, validation, and test sets that are not mutually exclusive. Furthermore, relying on match-based metrics that compare generated patches to..."
+}

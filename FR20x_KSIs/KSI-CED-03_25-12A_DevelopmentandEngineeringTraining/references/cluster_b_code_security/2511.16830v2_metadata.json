@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2511.16830v2",
+  "title": "PEPPER: Perception-Guided Perturbation for Robust Backdoor Defense in Text-to-Image Diffusion Models",
+  "authors": [
+    "Oscar Chew",
+    "Po-Yi Lu",
+    "Jayden Lin",
+    "Kuan-Hao Huang",
+    "Hsuan-Tien Lin"
+  ],
+  "published": "2025-11-20T22:21:34Z",
+  "url": "http://arxiv.org/abs/2511.16830v2",
+  "pdf_url": "http://arxiv.org/pdf/2511.16830v2.pdf",
+  "relevance_score": 65,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Recent studies show that text to image (T2I) diffusion models are vulnerable to backdoor attacks, where a trigger in the input prompt can steer generation toward harmful or unintended content. To address this, we introduce PEPPER (PErcePtion Guided PERturbation), a backdoor defense that rewrites the caption into a semantically distant yet visually similar caption while adding unobstructive elements. With this rewriting strategy, PEPPER disrupt the trigger embedded in the input prompt, dilute the"
+}

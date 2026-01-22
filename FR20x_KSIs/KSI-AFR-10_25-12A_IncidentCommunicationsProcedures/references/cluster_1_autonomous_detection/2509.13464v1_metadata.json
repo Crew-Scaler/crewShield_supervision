@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2509.13464v1",
+  "title": "LIGHT-HIDS: A Lightweight and Effective Machine Learning-Based Framework for Robust Host Intrusion Detection",
+  "authors": [
+    "Onat Gungor",
+    "Ishaan Kale",
+    "Jiasheng Zhou",
+    "Tajana Rosing"
+  ],
+  "published": "2025-09-16T19:02:23Z",
+  "url": "http://arxiv.org/abs/2509.13464v1",
+  "pdf_url": "http://arxiv.org/pdf/2509.13464v1.pdf",
+  "relevance_score": 95,
+  "summary": "The expansion of edge computing has increased the attack surface, creating an urgent need for robust, real-time machine learning (ML)-based host intrusion detection systems (HIDS) that balance accuracy and efficiency. In such settings, inference latency poses a critical security risk, as delays may provide exploitable opportunities for attackers. However, many state-of-the-art ML-based HIDS solutions rely on computationally intensive architectures with high inference costs, limiting their practical deployment. This paper proposes LIGHT-HIDS, a lightweight machine learning framework that combines a compressed neural network feature extractor trained via Deep Support Vector Data Description (DeepSVDD) with an efficient novelty detection model. This hybrid approach enables the learning of compact, meaningful representations of normal system call behavior for accurate anomaly detection. Experimental results on multiple datasets demonstrate that LIGHT-HIDS consistently enhances detection accuracy while reducing inference time by up to 75x compared to state-of-the-art methods. These findings highlight its effectiveness and scalability as a machine learning-based solution for real-time host intrusion detection."
+}

@@ -1,0 +1,470 @@
+# KSI-SVC-08: Prevent Residual Risk - Question Library
+
+**FedRAMP Control**: SC-4 (Information in Shared Resources), SC-7 (Boundary Protection)
+**KSI Title**: Prevent Residual Risk
+**Date Generated**: 2026-01-12
+**Status**: Ready for Human Review
+
+---
+
+## Summary Statistics
+
+**Original Question Count**: 21
+**Questions Removed**: 6
+**Questions Added**: 12
+**Final Question Count**: 27
+
+**Removed Questions Rationale**:
+- CIO-2, CIO-7: Budget and general assessment questions lacking AI residual risk specificity
+- Customer-1, Customer-7: General CSP capabilities without AI/agent focus
+- Auditor-2, Auditor-3, Auditor-7: Traditional control verification without AI-specific residual element coverage
+
+**Added Questions Focus**:
+- RAG contamination and vector database residual cleanup
+- Prompt injection residual state persistence and recovery
+- Training artifact lifecycle management (checkpoints, datasets, optimizer state)
+- Configuration drift detection from autonomous agent actions
+- IaC state file exposure and architectural reconnaissance risks
+- Container image layer residual contamination risks
+- Federated learning distributed artifact cleanup coordination
+- Agent rollback/roll-forward procedures for residual correction
+- Unlearning verification limitations and customer transparency
+- Cross-session agent memory isolation mechanisms
+- GPU memory cryptographic wiping validation
+- Service mesh residual configuration detection
+
+---
+
+## CIO Questions: Residual Risk Management Governance and Decision-Making
+
+### SVC-08-Q001: Agent Change Governance and Accountability Framework
+
+How does your organization currently track and justify autonomous agent-initiated infrastructure changes within compliance frameworks?
+
+**Sub-questions**:
+- What decision-level audit trails do your agents maintain (detection triggers, evaluation criteria, rejected alternatives, confidence thresholds, decision rationale)?
+- How do you attribute multi-system infrastructure modifications executed by agents when failures occur across distributed systems?
+- What change rollback procedures exist for agent-initiated changes that create unintended residual elements, and how do you coordinate rollback with downstream systems already depending on those changes?
+
+**Compliance Implication**: FedRAMP requires persistent review and justification of post-change residual elements; agent autonomy that lacks sufficient decision-level logging creates compliance gaps preventing forensic reconstruction.
+
+**AI/Agent Context**: Autonomous agents collapse traditional change management review gates, creating residual elements outside established compliance frameworks. Attribution becomes critical when multi-agent systems create distributed state changes.
+
+---
+
+### SVC-08-Q002: Multi-Tenant Isolation Validation and Cross-Contamination Prevention
+
+For multi-tenant infrastructure serving federal customers at different impact levels, how does your organization validate that residual elements from higher-impact customer workloads do not contaminate lower-impact customer systems?
+
+**Sub-questions**:
+- GPU memory wiping procedures between tenant job transitions—what validation confirms overwrites are cryptographically secure?
+- Container image layer sharing detection—how frequently are shared nodes tested for residual files from previous tenants?
+- Service mesh configuration cleanup procedures—what verification confirms residual configurations do not persist between tenant terminations?
+
+**Compliance Implication**: Cross-tenant residual contamination represents unmitigated risk violating isolation assumptions federal customers depend on for FedRAMP authorization.
+
+**AI/Agent Context**: GPU memory retains model weights and inference batch data between tenant workloads. Container caches and shared service mesh configurations create additional cross-tenant residual exposure vectors.
+
+---
+
+### SVC-08-Q003: Model Lifecycle and Ghost Data Governance
+
+How does your organization manage residual data embedded in machine learning models used for federal customer services?
+
+**Sub-questions**:
+- What policies define how long raw training data persists after model training completes, and who enforces these policies?
+- What membership inference testing frequency (quarterly, post-update, post-fine-tuning) verifies that customer training data is not embedded as ghost data in production models?
+- When unlearning procedures are applied to remove ghost data, what verification methodology confirms unlearning effectiveness, and how do you communicate unlearning limitations to federal customers?
+
+**Compliance Implication**: Ghost data represents a fundamentally new residual category that FedRAMP assessors frequently do not address; explicit governance demonstrates proactive risk management.
+
+**AI/Agent Context**: Model parameters memorize training data extractable through membership inference attacks. Unlearning techniques cannot definitively prove information absence, only that detection methods fail.
+
+---
+
+### SVC-08-Q004: Non-Human Identity Credential Lifecycle and Service Discontinuation Coordination
+
+Given AI workloads' dramatic increase in service account, API key, and temporary token sprawl, how does your organization manage credential lifecycle to prevent residual access from discontinued services?
+
+**Sub-questions**:
+- What quarterly NHI inventory audit process verifies each credential is still necessary, has expiration dates set (no permanent credentials), and has access scope matching current workload requirements?
+- When services discontinue, what procedures ensure credentials are removed from active systems and deleted from backups within acceptable windows?
+- What incident response scope determination methodology uses NHI inventory to quantify potentially compromised credentials' blast radius?
+
+**Compliance Implication**: Credential residue from discontinued services creates persistent attack surface; systematic NHI lifecycle management is foundational for incident response efficiency.
+
+**AI/Agent Context**: A 30-second agent task receives credentials valid for 1 hour, leaving 59.5 minutes of unnecessary exposure. Hardcoded credentials in Jupyter notebooks, container images, and deployment manifests prevent cleanup on artifact updates.
+
+---
+
+### SVC-08-Q005: Ephemeral Infrastructure Residual Artifact Cleanup Coordination
+
+AI workloads extensively use ephemeral compute (containers, functions, jobs) that create residual artifacts across multiple persistence systems. How does your organization coordinate cleanup across this heterogeneous environment?
+
+**Sub-questions**:
+- What declarative artifact lifecycle specifications automatically trigger cleanup across storage, databases, caches, credentials, and logging systems when a task completes?
+- For training jobs creating multi-terabyte intermediate datasets "for the next run," what policies explicitly manage when this data is retained versus deleted?
+- What verification procedures confirm that cleanup succeeded across all systems (e.g., deleting a model checkpoint removes it from all serving infrastructure caches, not just primary storage)?
+
+**Compliance Implication**: Residual artifacts in secondary systems (forgotten model checkpoints, cached training datasets) create unquantified attack surface that traditional residual risk assessments miss.
+
+**AI/Agent Context**: Ephemeral containers create assumption of no persistent residue, but persistent volumes, ConfigMaps, Secrets, and cached datasets accumulate without explicit ownership cleanup rules.
+
+---
+
+### SVC-08-Q006: RAG Contamination and Vector Database Residual Cleanup
+
+For Retrieval-Augmented Generation systems supporting AI agents or models, how does your organization manage residual information in vector databases when sensitive documents must be removed?
+
+**Sub-questions**:
+- When a document containing sensitive information (credentials, PII, classified data) is deleted, what procedures remove its semantic embeddings from vector databases?
+- What verification confirms that semantically similar queries do not retrieve residual vector representations near deleted content?
+- What re-embedding procedures balance completeness (removing all traces) against availability (service disruption during re-indexing)?
+
+**Compliance Implication**: Vector database embeddings retain semantic representation of sensitive information even after source documents are deleted, creating information disclosure risks.
+
+**AI/Agent Context**: RAG systems embed documents into high-dimensional vector spaces where deletion requires re-embedding entire knowledge bases, an operation affecting service availability. Incomplete deletion enables residual information retrieval through semantic similarity.
+
+---
+
+### SVC-08-Q007: Configuration Drift Detection from Autonomous Agent Modifications
+
+How does your organization distinguish beneficial configuration drift from autonomous agents versus unauthorized changes that create residual risk?
+
+**Sub-questions**:
+- What agent decision frameworks document drift authorization criteria?
+- How do drift detection systems identify legitimate agent-initiated changes without creating false positive operational friction?
+- What audit trails track configuration changes including agent remediation rationale?
+
+**Compliance Implication**: FedRAMP requires infrastructure to match documented baselines; agent-driven drift that compliance treats as unauthorized creates validation challenges.
+
+**AI/Agent Context**: Self-healing and optimization agents autonomously modify infrastructure without explicit IaC updates. Traditional drift detection cannot distinguish beneficial agent actions from malicious configuration changes.
+
+---
+
+### SVC-08-Q008: Prompt Injection Residual State and Recovery Procedures
+
+When prompt injection attacks are detected affecting AI agents or RAG systems, what procedures identify and remediate residual state persisting beyond the attack session?
+
+**Sub-questions**:
+- What forensic investigation procedures identify all data stored in agent memory, vector databases, and tool execution logs during the attack window?
+- How do you verify that injected instructions are completely removed from RAG knowledge bases without requiring full re-embedding?
+- What behavioral monitoring detects residual effects from injection-driven tool executions that modified connected systems?
+
+**Compliance Implication**: Injection persistence represents residual threat affecting future agent operations; post-compromise cleanup requires forensic analysis of all tool executions.
+
+**AI/Agent Context**: Malicious instructions stored in agent memory or RAG knowledge bases persist across sessions, enabling cross-session attack effects. Tool chain exploitation creates residual elements in connected systems.
+
+---
+
+## Customer Questions: CSP Capability Evaluation and Service Commitments
+
+### SVC-08-Q009: Model Ghost Data Transparency and Removal Guarantees
+
+If your CSP hosts machine learning models trained or fine-tuned on customer data, what transparency can you provide about ghost data?
+
+**Sub-questions**:
+- What membership inference testing results document that customer training data is not embedded in production models?
+- If ghost data is detected, what unlearning procedures are applied and what verification confirms their effectiveness?
+- Can you provide explicit statements about unlearning limitations—acknowledging that ghost data absence cannot be definitively proven?
+- If models are shared across multiple customers (multi-tenant fine-tuning), what cryptographic isolation guarantees prevent one customer's training data from contaminating another customer's model?
+
+**Customer Implication**: Current unlearning techniques cannot definitively prove information absence; customers need honest assessment of ghost data risks rather than over-confident removal guarantees.
+
+**AI/Agent Context**: Models memorize training data in parameters extractable through specialized attacks. Multi-tenant model hosting risks federal data exposure between customers through fine-tuning contamination.
+
+---
+
+### SVC-08-Q010: Agent-Driven Infrastructure Changes and Audit Trail Availability
+
+If your CSP uses autonomous agents for infrastructure management (auto-scaling, self-healing, optimization), what audit trail transparency exists for changes affecting customer services?
+
+**Sub-questions**:
+- Can you provide decision-level logs showing why agents made specific changes (detection triggers, evaluation criteria, confidence thresholds)?
+- How is multi-agent coordination tracked when one agent's decisions depend on other agents' outputs?
+- What incident investigation procedures reconstruct agent-driven changes that created unintended residual elements?
+
+**Customer Implication**: Customers need to understand who (or which agent) made changes affecting their services and the reasoning behind those decisions for compliance and operational understanding.
+
+**AI/Agent Context**: Agent decision-making frequently lacks sufficient audit trails for forensic reconstruction of why changes occurred, complicating compliance validation and incident investigation.
+
+---
+
+### SVC-08-Q011: Credential Exposure Risk and NHI Incident Response Scope
+
+If credentials are discovered compromised (discovered in code repositories, backup leaks, or logs), how does your CSP determine which customer systems could have been affected?
+
+**Sub-questions**:
+- Do you maintain a complete NHI inventory mapping all service accounts, API keys, and system identities to specific services?
+- How quickly can you calculate compromise scope (which systems could the compromised credentials access, what data could they have accessed)?
+- What incident notification procedures do you follow to inform customers of credential compromise, including scope analysis and remediation evidence?
+
+**Customer Implication**: Incident response scope determination depends on NHI inventory completeness; vague "we do not know if your data was accessed" notifications significantly damage customer confidence.
+
+**AI/Agent Context**: AI deployments dramatically increase non-human identity credential sprawl across service accounts, API keys, and temporary tokens. Multiple credential copies (source, backup, documentation) complicate cleanup.
+
+---
+
+### SVC-08-Q012: Ephemeral Workload Residual Cleanup Verification
+
+For ephemeral workloads (batch jobs, training jobs, inference tasks), what verification procedures confirm that residual elements are completely cleaned up?
+
+**Sub-questions**:
+- When a customer's training job completes, what procedures delete model checkpoints, intermediate datasets, and training artifacts across all storage systems?
+- Can you provide evidence that temporary credentials issued for the job have expired or been revoked?
+- What residual state testing (attempting to trigger information from completed tasks) confirms cleanup succeeded?
+
+**Customer Implication**: Ephemeral workloads create assumption that "no persistent residue exists" because containers are deleted; customers need verification that this assumption holds across all artifact repositories.
+
+**AI/Agent Context**: Training jobs create multi-terabyte datasets and hundreds of checkpoint snapshots. Kubernetes persistent volumes, ConfigMaps, and Secrets remain after pod deletion unless explicit ownership cleanup rules apply.
+
+---
+
+### SVC-08-Q013: Multi-Tenant Isolation Validation During Service Execution
+
+If your infrastructure is multi-tenant (sharing compute, storage, or model serving resources with other customers), what validation can you provide that customer data is not accessible through residual contamination?
+
+**Sub-questions**:
+- What GPU memory wiping procedures (with cryptographically secure overwriting) execute between customer job transitions?
+- What testing detects container image layer sharing between customer workloads?
+- What service mesh configuration cleanup prevents residual routing rules from one customer's workload exposing another customer's endpoints?
+
+**Customer Implication**: Federal customers require assurance that multi-tenancy does not create residual cross-tenant visibility of their data through infrastructure residue.
+
+**AI/Agent Context**: GPU memory between tenant workloads retains model weights and inference batch data accessible to subsequent jobs. Container image layers cached on shared nodes are accessible across tenant executions.
+
+---
+
+### SVC-08-Q014: Training Artifact Lifecycle Management and Retention Clarity
+
+For machine learning training pipelines, what explicit lifecycle policies govern retention and cleanup of model artifacts?
+
+**Sub-questions**:
+- What retention windows apply to model checkpoints saved every N training steps (potentially hundreds of snapshots for large models)?
+- How are optimizer state files, gradient checkpoints, and hyperparameter search results managed for cleanup?
+- What procedures coordinate federated learning artifact cleanup across distributed participant systems?
+
+**Customer Implication**: Training artifacts accumulate without explicit lifecycle policies, creating storage costs and potential data exposure from forgotten artifacts.
+
+**AI/Agent Context**: ML lifecycle creates artifact proliferation challenging traditional cleanup. Expensive-to-regenerate artifacts encourage long retention. Distributed training creates multiple copies requiring coordinated cleanup.
+
+---
+
+### SVC-08-Q015: Cross-Session Agent Memory Isolation Guarantees
+
+For conversational agents or persistent AI assistants serving multiple users, what isolation guarantees prevent context leakage between sessions?
+
+**Sub-questions**:
+- How is session-level memory isolation implemented (separate agent instances per session versus software filtering within shared instances)?
+- What memory sanitization procedures execute between user sessions to prevent information from one user influencing another user's interactions?
+- What verification testing attempts to trigger residual information from previous sessions to confirm isolation effectiveness?
+
+**Customer Implication**: Context leakage between sessions enables cross-contamination of sensitive information, violating confidentiality assumptions for multi-user agent services.
+
+**AI/Agent Context**: Shared agent instances serving multiple users create context bleed where information from one user's session influences subsequent users through agent memory mechanisms lacking user-level isolation.
+
+---
+
+## Auditor Questions: Control Implementation and Verification Procedures
+
+### SVC-08-Q016: Automated Residual Element Detection System Effectiveness
+
+What automated systems does your organization maintain for detecting residual elements across your infrastructure?
+
+**Sub-questions**:
+- For orphaned resources: what cloud provider APIs (AWS Config, Azure Resource Graph, GCP Resource Manager) are queried, how frequently, and what detection thresholds trigger cleanup?
+- For explicit data remnants: what DLP tools and sensitive pattern scanning (PII, financial data, credentials) operate continuously, and what false positive rates are acceptable before manual review?
+- For AI-specific residual categories (ghost data, agent memory, training artifacts): what specialized detection techniques are deployed, and what are their detection coverage gaps?
+
+**Audit Implication**: Effective control implementation requires demonstrating that automated detection systems function continuously and that detected residual elements trigger documented remediation.
+
+**AI/Agent Context**: AI-specific residual categories require specialized detection beyond traditional infrastructure scanning: membership inference testing for ghost data, conversation history analysis for agent memory, storage pattern matching for training artifacts.
+
+---
+
+### SVC-08-Q017: Membership Inference Testing for ML Models and Ghost Data Verification
+
+For machine learning models used in production (especially those trained or fine-tuned on customer data), what testing verifies ghost data absence?
+
+**Sub-questions**:
+- What membership inference testing methodology is applied, how frequently, and what positive/negative decision thresholds indicate ghost data risk?
+- When membership inference succeeds (indicating ghost data), what unlearning procedures are applied and what re-testing confirms effectiveness?
+- What documentation explicitly acknowledges unlearning limitations and communicates residual uncertainty to customers?
+- For multi-tenant models, what isolation validation procedures confirm that one customer's fine-tuning cannot extract another customer's training data?
+
+**Audit Implication**: Ghost data represents non-traditional residual risk that FedRAMP assessors are learning to evaluate; explicit testing and documentation demonstrate proactive control implementation.
+
+**AI/Agent Context**: Ghost data persists in model parameters despite training data deletion. Unlearning verification cannot definitively prove information absence, only that specific attack vectors fail.
+
+---
+
+### SVC-08-Q018: Agent Change Attribution and Decision-Level Audit Trail Completeness
+
+For autonomous agent-driven infrastructure changes, what audit trail evidence documents the control effectiveness required by FedRAMP?
+
+**Sub-questions**:
+- What agent decision logging captures detection triggers, evaluation criteria, alternative options considered, confidence thresholds, and final decision rationale?
+- How is multi-agent coordination documented when agent decisions depend on other agents' outputs?
+- What forensic investigation tools enable reconstruction of agent-driven changes to validate that residual elements were unintended versus expected side effects?
+- How frequently are agent decision logs audited to ensure sufficient completeness for compliance reporting?
+
+**Audit Implication**: Traditional change management documentation standards do not address agent autonomy; explicit agent audit trail requirements demonstrate FedRAMP-compliant control adaptation.
+
+**AI/Agent Context**: Autonomous agents collapse change execution into milliseconds without human approval at each step. Multi-system transaction residue from partial failures lacks clear attribution.
+
+---
+
+### SVC-08-Q019: Credential Lifecycle Validation and NHI Inventory Audit
+
+What procedures validate that credential lifecycle management prevents residual credentials from discontinued services?
+
+**Sub-questions**:
+- What quarterly NHI inventory audit procedures verify each credential's necessity, expiration dates (confirming no permanent credentials), and access scope appropriateness?
+- How are audit findings (unnecessary credentials, missing expirations, overly-broad permissions) remediated and re-validated?
+- What incident response scope analysis procedures use NHI inventory to quantify potentially compromised credentials' blast radius?
+- For hardcoded credentials discovered in artifacts (notebooks, images, manifests), what incident procedures trigger immediate revocation, artifact rebuild, and exposure investigation?
+
+**Audit Implication**: Complete NHI inventory and credential lifecycle validation are foundational for incident response efficiency and FedRAMP compliance; audit frequency and remediation documentation demonstrates control maturity.
+
+**AI/Agent Context**: Service accounts, API keys, temporary tokens, and service mesh identities accumulate across AI workloads. Credential lifecycle mismatches create persistent exposure when short-lived tasks retain long-lived credentials.
+
+---
+
+### SVC-08-Q020: GPU Memory Cryptographic Wiping Validation Procedures
+
+For multi-tenant GPU workload transitions, what procedures validate that memory wiping is cryptographically secure?
+
+**Sub-questions**:
+- What overwrite patterns (aligned with NIST SP 800-88 guidelines) are used for GPU memory sanitization between tenant jobs?
+- What verification reads confirm that overwritten memory is no longer recoverable through cryptanalysis?
+- For high-impact federal workloads, what confidential computing enclaves (AMD SEV, Intel SGX) provide hardware-enforced isolation instead of software-based cleanup?
+
+**Audit Implication**: GPU memory contamination violates multi-tenant isolation assumptions; cryptographic validation demonstrates control effectiveness.
+
+**AI/Agent Context**: GPU memory retains model weights and inference batch data accessible to subsequent tenant jobs. Software-based cleanup without cryptographic verification is insufficient for federal data protection.
+
+---
+
+### SVC-08-Q021: Container Image Layer Residual Contamination Testing
+
+How frequently are shared container nodes tested for residual files from previous tenants' container executions?
+
+**Sub-questions**:
+- What testing procedures scan container image caches for residual files accessible across tenant boundaries?
+- When residual contamination is discovered, what incident procedures trigger node maintenance (storage wiping, re-provisioning)?
+- What documentation in compliance reports demonstrates multi-tenant infrastructure residual risks are actively monitored?
+
+**Audit Implication**: Container image layer sharing creates cross-tenant visibility risks; monthly testing frequency demonstrates continuous monitoring.
+
+**AI/Agent Context**: Container images cached on shared nodes are accessible across tenant executions. Multi-tenant Kubernetes environments accumulate residual ConfigMaps, Secrets, and persistent volume data without ownership cleanup.
+
+---
+
+### SVC-08-Q022: Service Mesh Residual Configuration Detection and Cleanup
+
+When tenant workloads terminate, what procedures detect and remove residual service mesh configurations?
+
+**Sub-questions**:
+- What automated cleanup removes ingress rules, load balancer configurations, mTLS certificates, circuit breaker policies, and observability rules specific to terminated tenants?
+- What verification testing attempts to establish connections to deleted tenant endpoints to confirm residual configuration absence?
+- How are cleanup procedures tested end-to-end before tenant offboarding in production?
+
+**Audit Implication**: Service mesh configurations carry forward tenant-specific policies and routing rules that violate isolation when workloads terminate.
+
+**AI/Agent Context**: Agent workloads create dynamic service mesh configurations. Autonomous scaling and termination leave residual routing rules and policy configurations accessible to unintended workloads.
+
+---
+
+### SVC-08-Q023: IaC State File Exposure and Architectural Reconnaissance Risk
+
+What procedures protect Infrastructure-as-Code state files from exposure and residual reconnaissance risks?
+
+**Sub-questions**:
+- What access controls protect Terraform state files and CloudFormation templates containing sensitive architecture information (database endpoints, model serving URLs, integration points)?
+- What procedures manage residual state files from decommissioned AI systems retained for potential rollback?
+- How long are historical state files retained, and what justification supports retention windows?
+
+**Audit Implication**: State file exposure reveals entire AI system architecture; residual state files from discontinued services create persistent reconnaissance risks.
+
+**AI/Agent Context**: AI infrastructure state files reveal model serving endpoints, training job configurations, and data pipeline architectures. Agent-driven infrastructure creates frequent state updates with residual exposure windows.
+
+---
+
+### SVC-08-Q024: Agent Rollback and Roll-Forward Residual Correction Procedures
+
+When agent-initiated changes create unintended residual elements, what procedures correct the residual state?
+
+**Sub-questions**:
+- What rollback coordination procedures notify downstream systems already depending on agent changes?
+- What roll-forward correction mechanisms re-engage agent loops to execute additional corrective actions?
+- What validation confirms that rollback/roll-forward succeeded without creating new residual elements?
+
+**Audit Implication**: Agent decision-making depends on temporal context; rollback impossibility requires documented roll-forward procedures.
+
+**AI/Agent Context**: Agent decisions based on market conditions, threat intelligence, or system performance cannot be rolled back when context changes. Multi-system agent actions lack transactional guarantees creating partial failure residue.
+
+---
+
+### SVC-08-Q025: Unlearning Verification Limitations and Customer Communication
+
+What documentation explicitly communicates machine learning unlearning limitations to customers and auditors?
+
+**Sub-questions**:
+- What unlearning verification procedures are applied (membership inference testing, model inversion attack attempts)?
+- What explicit statements acknowledge that ghost data absence cannot be definitively proven, only that detection techniques fail?
+- How are unlearning limitations documented in customer-facing materials and compliance artifacts?
+
+**Audit Implication**: Honest assessment of unlearning limitations demonstrates transparency required for federal customer confidence.
+
+**AI/Agent Context**: Current research cannot definitively prove training data removal from models. Verification techniques only confirm specific detection methods fail, not absolute information absence.
+
+---
+
+### SVC-08-Q026: Federated Learning Distributed Artifact Cleanup Coordination
+
+For federated learning deployments, what procedures coordinate artifact cleanup across distributed participant systems?
+
+**Sub-questions**:
+- What cleanup coordination protocols ensure all participants delete local dataset replicas when model training completes?
+- What verification confirms that distributed model checkpoints and gradient updates are removed from participant systems?
+- What incident procedures address incomplete cleanup when participants are offline or unresponsive during cleanup coordination?
+
+**Audit Implication**: Distributed training creates residual data copies at each participant; cleanup coordination failures create unquantified data exposure.
+
+**AI/Agent Context**: Federated learning maintains dataset replicas at each participant for multiple training rounds. Centralized model completion does not guarantee distributed artifact cleanup.
+
+---
+
+### SVC-08-Q027: Configuration Drift Authorization and Compliance Documentation
+
+How does your organization document that agent-initiated configuration drift is authorized rather than representing unauthorized changes?
+
+**Sub-questions**:
+- What agent decision frameworks capture drift authorization criteria?
+- How are drift detection systems configured to distinguish agent-initiated changes from malicious modifications?
+- What audit trails enable compliance reporting of authorized drift post-change?
+
+**Audit Implication**: FedRAMP requires infrastructure matching documented baselines; agent-driven drift requires explicit authorization documentation.
+
+**AI/Agent Context**: Self-healing agents, optimization agents, and remediation agents autonomously modify infrastructure creating legitimate drift. Compliance frameworks treating all drift as unauthorized create validation challenges.
+
+---
+
+## Cross-Cutting Themes
+
+**Residual Element Classification**: Questions address traditional categories (orphaned resources, explicit data remnants, configuration carryover) and AI-specific categories (ghost data, agent memory, training artifacts, ephemeral credential persistence, multi-tenant contamination).
+
+**Continuous Monitoring Integration**: Questions support monthly FedRAMP reporting requirements through automated detection systems, remediation validation, and audit trail completeness.
+
+**Cost-Benefit Calibration**: Questions address operational tradeoffs between aggressive residual cleanup (performance overhead, availability impact) and compliance requirements.
+
+**Audit Readiness**: Questions provide evidence frameworks for demonstrating control effectiveness to independent auditors through testing results, remediation documentation, and forensic investigation capabilities.
+
+---
+
+**Document Status**: Ready for human review and approval before generating JSON question libraries (global and binding formats).
+
+**Next Steps**:
+1. Human review and approval of question library
+2. Generate SVC-08_questions_global.json (Q-SVC-08-001 format, no related_expectations)
+3. Generate SVC-08_questions_binding.json (SVC-08-B01 format, no related_expectations)

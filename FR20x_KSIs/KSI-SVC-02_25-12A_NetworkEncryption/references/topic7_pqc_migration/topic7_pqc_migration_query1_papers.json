@@ -1,0 +1,294 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.10436v1",
+    "arxiv_id": "2510.10436v1",
+    "title": "Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey",
+    "summary": "Post-quantum cryptography (PQC) is moving from evaluation to deployment as NIST finalizes standards for ML-KEM, ML-DSA, and SLH-DSA. This survey maps the space from foundations to practice. We first develop a taxonomy across lattice-, code-, hash-, multivariate-, isogeny-, and MPC-in-the-Head families, summarizing security assumptions, cryptanalysis, and standardization status. We then compare performance and communication costs using representative, implementation-grounded measurements, and review hardware acceleration (AVX2, FPGA/ASIC) and implementation security with a focus on side-channel resistance. Building upward, we examine protocol integration (TLS, DNSSEC), PKI and certificate hygiene, and deployment in constrained and high-assurance environments (IoT, cloud, finance, blockchain). We also discuss complementarity with quantum technologies (QKD, QRNGs) and the limits of near-term quantum computing. Throughout, we emphasize crypto-agility, hybrid migration, and evidence-based guidance for operators. We conclude with open problems spanning parameter agility, leakage-resilient implementations, and domain-specific rollout playbooks. This survey aims to be a practical reference for researchers and practitioners planning quantum-safe systems, bridging standards, engineering, and operations.",
+    "published": "2025-10-12T04:00:01Z",
+    "updated": "2025-10-12T04:00:01Z",
+    "authors": [
+      "Gaurab Chhetri",
+      "Shriyank Somvanshi",
+      "Pavan Hebli",
+      "Shamyo Brotee",
+      "Subasish Das"
+    ],
+    "affiliations": [],
+    "first_author": "Gaurab Chhetri",
+    "pdf_url": "https://arxiv.org/pdf/2510.10436v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.01701v2",
+    "arxiv_id": "2509.01701v2",
+    "title": "AmphiKey: A Dual-Mode Secure Authenticated Key Encapsulation Protocol for Smart Grid",
+    "summary": "AmphiKey, a dual-mode post-quantum/traditional (PQ/T) hybrid authenticated key exchange mechanism (AKEM) has been designed to secure smart grid communications against both classical and quantum threats. AmphiKey offers two distinct operational modes within a single framework: an Authenticated Mode and a Deniable Mode. The Authenticated Mode employs a blackbox approach, combining ephemeral ML-KEM-768 and X25519 with long-term Raccoon DSA keys to provide forward secrecy and strong, non-repudiable authenticity. This design achieves \"OR\" confidentiality, where security holds if either of the KEMs is unbroken, and robust \"AND\" authenticity. For the signature operation, it leverages the 'masking-friendly' Raccoon digital signature (DSA), which is specifically designed for side-channel attack resistance, though this protection is localized to the signing key and does not provide deniability. In contrast, Deniable Mode provides deniable authentication, preserving privacy. The protocol used ML-KEM-768 (AKEM-1), Ephemeral X25519 (AKEM-2), Raccoon-based DSA (Rac) (compared performance to ML-DSA-65), and the Ascon cipher to deliver its security guarantees. Key contributions include providing a flexible protocol with enhanced security, optional deniability, and efficiency adapted to the diverse needs of the smart grid infrastructure. We present a comprehensive performance evaluation on a heterogeneous testbed featuring a powerful server and client (AMD Ryzen 5) and a resource-constrained client (Raspberry Pi). In efficient Deniable mode, the full handshake completes in 0.15 ms on the server and 0.41 ms on the Raspberry Pi client. In contrast, the Authenticated Mode is bottlenecked by the client-side signature generation; the handshake takes 4.8 ms for the Raspberry Pi client to initiate and 0.84 ms for the server to verify.",
+    "published": "2025-09-01T18:21:51Z",
+    "updated": "2025-09-18T22:20:45Z",
+    "authors": [
+      "Kazi Hassan Shakib",
+      "Muhammad Asfand Hafeez",
+      "Arslan Munir"
+    ],
+    "affiliations": [],
+    "first_author": "Kazi Hassan Shakib",
+    "pdf_url": "https://arxiv.org/pdf/2509.01701v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.17074v1",
+    "arxiv_id": "2507.17074v1",
+    "title": "Analysis of Post-Quantum Cryptography in User Equipment in 5G and Beyond",
+    "summary": "The advent of quantum computing threatens the security of classical public-key cryptographic systems, prompting the transition to post-quantum cryptography (PQC). While PQC has been analyzed in theory, its performance in practical wireless communication environments remains underexplored. This paper presents a detailed implementation and performance evaluation of NIST-selected PQC algorithms in user equipment (UE) to UE communications over 5G networks. Using a full 5G emulation stack (Open5GS and UERANSIM) and PQC-enabled TLS 1.3 via BoringSSL and liboqs, we examine key encapsulation mechanisms and digital signature schemes across realistic network conditions. We evaluate performance based on handshake latency, CPU and memory usage, bandwidth, and retransmission rates, under varying cryptographic configurations and client loads. Our findings show that ML-KEM with ML-DSA offers the best efficiency for latency-sensitive applications, while SPHINCS+ and HQC combinations incur higher computational and transmission overheads, making them unsuitable for security-critical but time-sensitive 5G scenarios.",
+    "published": "2025-07-22T23:21:16Z",
+    "updated": "2025-07-22T23:21:16Z",
+    "authors": [
+      "Sanzida Hoque",
+      "Abdullah Aydeger",
+      "Engin Zeydan",
+      "Madhusanka Liyanage"
+    ],
+    "affiliations": [],
+    "first_author": "Sanzida Hoque",
+    "pdf_url": "https://arxiv.org/pdf/2507.17074v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.13716v1",
+    "arxiv_id": "2501.13716v1",
+    "title": "A Comprehensive Framework for Building Highly Secure, Network-Connected Devices: Chip to App",
+    "summary": "The rapid expansion of connected devices has amplified the need for robust and scalable security frameworks. This paper proposes a holistic approach to securing network-connected devices, covering essential layers: hardware, firmware, communication, and application. At the hardware level, we focus on secure key management, reliable random number generation, and protecting critical assets. Firmware security is addressed through mechanisms like cryptographic integrity validation and secure boot processes. For secure communication, we emphasize TLS 1.3 and optimized cipher suites tailored for both standard and resource-constrained devices. To overcome the challenges of IoT, compact digital certificates, such as CBOR, are recommended to reduce overhead and enhance performance. Additionally, the paper explores forward-looking solutions, including post-quantum cryptography, to future-proof systems against emerging threats. This framework provides actionable guidelines for manufacturers and system administrators to build secure devices that maintain confidentiality, integrity, and availability throughout their lifecycle.",
+    "published": "2025-01-23T14:44:34Z",
+    "updated": "2025-01-23T14:44:34Z",
+    "authors": [
+      "Khan Reaz",
+      "Gerhard Wunder"
+    ],
+    "affiliations": [],
+    "first_author": "Khan Reaz",
+    "pdf_url": "https://arxiv.org/pdf/2501.13716v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2502.17202v1",
+    "arxiv_id": "2502.17202v1",
+    "title": "Quantum-Safe integration of TLS in SDN networks",
+    "summary": "Shor's algorithm efficiently solves factoring and discrete logarithm problems using quantum computers, compromising all public key schemes used today. These schemes rely on assumptions on their computational complexity, which quantum computers can easily bypass. The solutions have to come from new algorithms - called Post-Quantum Cryptography (PQC) - or from new methods, such as Quantum Key Distribution (QKD). The former replicate the computational security ideas of classical public key algorithms, while the latter recurs to use the quantum properties of nature, which also brings a mathematical security proof, potentially offering Information-Theoretic Security. To secure data in the future, we must adopt these paradigms. With the speed of quantum computing advancements, the transition to quantum-safe cryptography within the next decade is critical. Delays could expose long-lived confidential data, as current encryption may be broken before its value expires. However, the shift must balance the adoption of new technologies with maintaining proven systems to protect against present and future threats. In this work, we have selected Transport Layer Security, one of the most widely used protocols, as the foundation to hybridize classical, quantum, and post-quantum cryptography in a way suitable for broad adoption in Software-Defined Networking, the most flexible networking paradigm that has been used to deploy integrated quantum-classical networks. To this end, we use standards for QKD key extraction and SDN integration. The purposed implementation is based on the latest version of TLS and demonstrates advanced capabilities such as rekeying and key transport across a large QKD network, while supporting crypto-agility and maintaining backward compatibility through the use of ciphersuites. The performance of this approach has been demonstrated using a deployed production infrastructure.",
+    "published": "2025-02-24T14:35:56Z",
+    "updated": "2025-02-24T14:35:56Z",
+    "authors": [
+      "Jaime S. Buruaga",
+      "Ruben B. M\u00e9ndez",
+      "Juan P. Brito",
+      "Vicente Martin"
+    ],
+    "affiliations": [],
+    "first_author": "Jaime S. Buruaga",
+    "pdf_url": "https://arxiv.org/pdf/2502.17202v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.12478v1",
+    "arxiv_id": "2509.12478v1",
+    "title": "QKD Oracles for Authenticated Key Exchange",
+    "summary": "Authenticated Key Exchange (AKE) establishes shared ('symmetric') cryptographic keys which are essential for secure online communication. AKE protocols can be constructed from public-key cryptography like Key Encapsulation Mechanisms (KEMs). Another approach is to use Quantum Key Distribution (QKD) to establish a symmetric key, which uses quantum communication. Combining post-quantum AKE and QKD appropriately may provide security against quantum attacks even if only one of the two approaches turns out to be secure.   We provide an extensive review of existing security analyses for combined AKE and their formal security models, and identify some gaps in their treatment of QKD key IDs. In particular, improper handling of QKD key IDs leads to Dependent-Key attacks on AKE.   As our main conceptual contribution, we model QKD as an oracle that closely resembles the standard ETSI 014 QKD interface. We demonstrate the usability of our QKD oracle for cryptographic security analyses by integrating it into a prominent security model for AKE, called CK+ model, thereby obtaining a security model for combined AKE that catches Dependent-Key attacks. In this model, we formally prove security of a new protocol that combines QKD with a triple-KEM handshake. This is the first provably secure hybrid protocol that maintains information-theoretic security of QKD.",
+    "published": "2025-09-15T21:55:55Z",
+    "updated": "2025-09-15T21:55:55Z",
+    "authors": [
+      "Kathrin H\u00f6velmanns",
+      "Daan Planken",
+      "Christian Schaffner",
+      "Sebastian R. Verschoor"
+    ],
+    "affiliations": [],
+    "first_author": "Kathrin H\u00f6velmanns",
+    "pdf_url": "https://arxiv.org/pdf/2509.12478v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.19943v1",
+    "arxiv_id": "2506.19943v1",
+    "title": "Quantum-Resistant Domain Name System: A Comprehensive System-Level Study",
+    "summary": "The Domain Name System (DNS) plays a foundational role in Internet infrastructure, yet its core protocols remain vulnerable to compromise by quantum adversaries. As cryptographically relevant quantum computers become a realistic threat, ensuring DNS confidentiality, authenticity, and integrity in the post-quantum era is imperative. In this paper, we present a comprehensive system-level study of post-quantum DNS security across three widely deployed mechanisms: DNSSEC, DNS-over-TLS (DoT), and DNS-over-HTTPS (DoH). We propose Post-Quantum Cryptographic (PQC)-DNS, a unified framework for benchmarking DNS security under legacy, post-quantum, and hybrid cryptographic configurations. Our implementation leverages the Open Quantum Safe (OQS) libraries and integrates lattice- and hash-based primitives into BIND9 and TLS 1.3 stacks. We formalize performance and threat models and analyze the impact of post-quantum key encapsulation and digital signatures on end-to-end DNS resolution. Experimental results on a containerized testbed reveal that lattice-based primitives such as Module-Lattice-Based Key-Encapsulation Mechanism (MLKEM) and Falcon offer practical latency and resource profiles, while hash-based schemes like SPHINCS+ significantly increase message sizes and processing overhead. We also examine security implications including downgrade risks, fragmentation vulnerabilities, and susceptibility to denial-of-service amplification. Our findings inform practical guidance for deploying quantum-resilient DNS and contribute to the broader effort of securing core Internet protocols for the post-quantum future.",
+    "published": "2025-06-24T18:35:24Z",
+    "updated": "2025-06-24T18:35:24Z",
+    "authors": [
+      "Juyoul Lee",
+      "Sanzida Hoque",
+      "Abdullah Aydeger",
+      "Engin Zeydan"
+    ],
+    "affiliations": [],
+    "first_author": "Juyoul Lee",
+    "pdf_url": "https://arxiv.org/pdf/2506.19943v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2405.09264v1",
+    "arxiv_id": "2405.09264v1",
+    "title": "A Quantum of QUIC: Dissecting Cryptography with Post-Quantum Insights",
+    "summary": "QUIC is a new network protocol standardized in 2021. It was designed to replace the TCP/TLS stack and is based on UDP. The most current web standard HTTP/3 is specifically designed to use QUIC as transport protocol. QUIC claims to provide secure and fast transport with low-latency connection establishment, flow and congestion control, reliable delivery, and stream multiplexing. To achieve the security goals, QUIC enforces the usage of TLS 1.3. It uses authenticated encryption with additional data (AEAD) algorithms to not only protect the payload but also parts of the header. The handshake relies on asymmetric cryptography, which will be broken with the introduction of powerful quantum computers, making the use of post-quantum cryptography inevitable. This paper presents a detailed evaluation of the impact of cryptography on QUIC performance. The high-performance QUIC implementations LSQUIC, quiche, and MsQuic are evaluated under different aspects. We break symmetric cryptography down to the different security features. To be able to isolate the impact of cryptography, we implemented a NOOP AEAD algorithm which leaves plaintext unaltered. We show that QUIC performance increases by 10 to 20% when removing packet protection. The header protection has negligible impact on performance, especially for AES ciphers. We integrate post-quantum cryptographic algorithms into QUIC, demonstrating its feasibility without major changes to the QUIC libraries by using a TLS library that implements post-quantum algorithms. Kyber, Dilithium, and FALCON are promising candidates for post-quantum secure QUIC, as they have a low impact on the handshake duration. Algorithms like SPHINCS+ with larger key sizes or more complex calculations significantly impact the handshake duration and cause additional issues in our measurements.",
+    "published": "2024-05-15T11:27:28Z",
+    "updated": "2024-05-15T11:27:28Z",
+    "authors": [
+      "Marcel Kempf",
+      "Nikolas Gauder",
+      "Benedikt Jaeger",
+      "Johannes Zirngibl",
+      "Georg Carle"
+    ],
+    "affiliations": [],
+    "first_author": "Marcel Kempf",
+    "pdf_url": "https://arxiv.org/pdf/2405.09264v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 11.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2404.13544v2",
+    "arxiv_id": "2404.13544v2",
+    "title": "Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and Assessment",
+    "summary": "TLS is extensively utilized for secure data transmission over networks. However, with the advent of quantum computers, the security of TLS based on traditional public-key cryptography is under threat. To counter quantum threats, it is imperative to integrate post-quantum algorithms into TLS. Most PQ-TLS research focuses on integration and evaluation, but few studies address the improvement of PQ-TLS performance by optimizing PQC implementation. For the TLS protocol, handshake performance is crucial, and for post-quantum TLS (PQ-TLS) the performance of post-quantum key encapsulation mechanisms (KEMs) directly impacts handshake performance. In this work, we explore the impact of post-quantum KEMs on PQ-TLS performance. We explore how to improve ML-KEM performance using the latest Intel's Advanced Vector Extensions instruction set AVX-512. We detail a spectrum of techniques devised to parallelize polynomial multiplication, modular reduction, and other computationally intensive modules within ML-KEM. Our optimized ML-KEM implementation achieves up to 1.64x speedup compared to the latest AVX2 implementation. Furthermore, we introduce a novel batch key generation method for ML-KEM that can seamlessly integrate into the TLS protocols. The batch method accelerates the key generation procedure by 3.5x to 4.9x. We integrate the optimized AVX-512 implementation of ML-KEM into TLS 1.3, and assess handshake performance under both PQ-only and hybrid modes. The assessment demonstrates that our faster ML-KEM implementation results in a higher number of TLS 1.3 handshakes per second under both modes. Additionally, we revisit two IND-1-CCA KEM constructions discussed in Eurocrypt22 and Asiacrypt23. Besides, we implement them based on ML-KEM and integrate the one of better performance into TLS 1.3 with benchmarks.",
+    "published": "2024-04-21T05:59:04Z",
+    "updated": "2024-04-23T03:53:09Z",
+    "authors": [
+      "Jieyu Zheng",
+      "Haoliang Zhu",
+      "Yifan Dong",
+      "Zhenyu Song",
+      "Zhenhao Zhang",
+      "Yafang Yang",
+      "Yunlei Zhao"
+    ],
+    "affiliations": [],
+    "first_author": "Jieyu Zheng",
+    "pdf_url": "https://arxiv.org/pdf/2404.13544v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 11.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.14657v3",
+    "arxiv_id": "2509.14657v3",
+    "title": "Threat Modeling for Enhancing Security of IoT Audio Classification Devices under a Secure Protocols Framework",
+    "summary": "The rapid proliferation of IoT nodes equipped with microphones and capable of performing on-device audio classification exposes highly sensitive data while operating under tight resource constraints. To protect against this, we present a defence-in-depth architecture comprising a security protocol that treats the edge device, cellular network and cloud backend as three separate trust domains, linked by TPM-based remote attestation and mutually authenticated TLS 1.3. A STRIDE-driven threat model and attack-tree analysis guide the design. At startup, each boot stage is measured into TPM PCRs. The node can only decrypt its LUKS-sealed partitions after the cloud has verified a TPM quote and released a one-time unlock key. This ensures that rogue or tampered devices remain inert. Data in transit is protected by TLS 1.3 and hybridised with Kyber and Dilithium to provide post-quantum resilience. Meanwhile, end-to-end encryption and integrity hashes safeguard extracted audio features. Signed, rollback-protected AI models and tamper-responsive sensors harden firmware and hardware. Data at rest follows a 3-2-1 strategy comprising a solid-state drive sealed with LUKS, an offline cold archive encrypted with a hybrid post-quantum cipher and an encrypted cloud replica. Finally, we set out a plan for evaluating the physical and logical security of the proposed protocol.",
+    "published": "2025-09-18T06:25:50Z",
+    "updated": "2025-11-14T08:24:09Z",
+    "authors": [
+      "Sergio Benlloch-Lopez",
+      "Miquel Viel-Vazquez",
+      "Javier Naranjo-Alcazar",
+      "Jordi Grau-Haro",
+      "Pedro Zuccarello"
+    ],
+    "affiliations": [],
+    "first_author": "Sergio Benlloch-Lopez",
+    "pdf_url": "https://arxiv.org/pdf/2509.14657v3",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.17830v3",
+    "arxiv_id": "2503.17830v3",
+    "title": "Fingerprinting Implementations of Cryptographic Primitives and Protocols that Use Post-Quantum Algorithms",
+    "summary": "Fingerprinting is a technique used to create behavioral profiles of systems to identify threats and weaknesses. When applied to cryptographic primitives and network protocols, it can be exploited by attackers for denial-of-service, key recovery, or downgrade attacks. In this paper, we evaluate the feasibility of fingerprinting post-quantum (PQ) algorithms by analyzing key exchange and digital signature primitives, their integration into protocols like TLS, SSH, QUIC, OpenVPN, and OIDC, and their usage in SNARK libraries (pysnark and lattice_zksnark). PQ algorithms differ from classical ones in memory and computation demands. We examine implementations across liboqs and CIRCL libraries on Windows, Ubuntu, and MacOS. Our experiments show that we can distinguish classical from PQ key exchange and signatures with 98% and 100% accuracy, respectively; identify the specific PQ algorithm used with 97% and 86% accuracy; distinguish between liboqs and CIRCL implementations with up to 100% accuracy; and identify PQ vs. hybrid implementations within CIRCL with 97% accuracy. In protocol-level analysis, we can detect the presence and type of PQ key exchange. SNARK libraries are distinguishable with 100% accuracy. To demonstrate real-world applicability, we apply our fingerprinting methods to the Tranco dataset to detect domains using PQ TLS and integrate our methods into QUARTZ, an open-source threat analysis tool developed by Cisco.",
+    "published": "2025-03-22T18:00:21Z",
+    "updated": "2025-04-06T20:17:18Z",
+    "authors": [
+      "Tushin Mallick",
+      "Ramana Kompella",
+      "Ashish Kundu",
+      "Cristina Nita-Rotaru"
+    ],
+    "affiliations": [],
+    "first_author": "Tushin Mallick",
+    "pdf_url": "https://arxiv.org/pdf/2503.17830v3",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2409.05298v1",
+    "arxiv_id": "2409.05298v1",
+    "title": "Evaluating Post-Quantum Cryptography on Embedded Systems: A Performance Analysis",
+    "summary": "The National Institute of Standards and Technology (NIST) has finalized the selection of post-quantum cryptographic (PQC) algorithms for use in the era of quantum computing. Despite their integration into TLS protocol for key establishment and signature generation, there is limited study on profiling these newly standardized algorithms in resource-constrained communication systems. In this work, we integrate PQC into both TLS servers and clients built upon embedded systems. Additionally, we compare the performance overhead of PQC pairs to currently used non-PQC schemes.",
+    "published": "2024-09-09T03:12:28Z",
+    "updated": "2024-09-09T03:12:28Z",
+    "authors": [
+      "Ben Dong",
+      "Qian Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Ben Dong",
+    "pdf_url": "https://arxiv.org/pdf/2409.05298v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 9.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2401.06657v3",
+    "arxiv_id": "2401.06657v3",
+    "title": "How Resilient is QUIC to Security and Privacy Attacks?",
+    "summary": "QUIC has rapidly evolved into a cornerstone transport protocol for secure, low-latency communications, yet its deployment continues to expose critical security and privacy vulnerabilities, particularly during connection establishment phases and via traffic analysis. This paper systematically revisits a comprehensive set of attacks on QUIC and emerging privacy threats. Building upon these observations, we critically analyze recent IETF mitigation efforts, including TLS Encrypted Client Hello (ECH), Oblivious HTTP (OHTTP) and MASQUE. We analyze how these mechanisms enhance privacy while introducing new operational risks, particularly under adversarial load. Additionally, we discuss emerging challenges posed by post-quantum cryptographic (PQC) handshakes, including handshake expansion and metadata leakage risks. Our analysis highlights ongoing gaps between theoretical defenses and practical deployments, and proposes new research directions focused on adaptive privacy mechanisms. Building on these insights, we propose future directions to ensure long-term security of QUIC and aim to guide its evolution as a robust, privacy-preserving, and resilient transport foundation for the next-generation Internet.",
+    "published": "2024-01-12T16:05:13Z",
+    "updated": "2025-07-01T11:12:37Z",
+    "authors": [
+      "Jayasree Sengupta",
+      "Debasmita Dey",
+      "Simone Ferlin-Reiter",
+      "Nirnay Ghosh",
+      "Vaibhav Bajpai"
+    ],
+    "affiliations": [],
+    "first_author": "Jayasree Sengupta",
+    "pdf_url": "https://arxiv.org/pdf/2401.06657v3",
+    "primary_category": "cs.CR",
+    "relevance_score": 9.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.04030v2",
+    "arxiv_id": "2411.04030v2",
+    "title": "Quantum-Safe Hybrid Key Exchanges with KEM-Based Authentication",
+    "summary": "Authenticated Key Exchange (AKE) between any two entities is one of the most important security protocols available for securing our digital networks and infrastructures. In PQCrypto 2023, Bruckner, Ramacher and Striecks proposed a novel hybrid AKE (HAKE) protocol, dubbed Muckle+, that is particularly useful in large quantum-safe networks consisting of a large number of nodes. Their protocol is hybrid in the sense that it allows key material from conventional and post-quantum primitives, as well as from quantum key distribution, to be incorporated into a single end-to-end shared key.   To achieve the desired authentication properties, Muckle+ utilizes post-quantum digital signatures. However, available instantiations of such signatures schemes are not yet efficient enough compared to their post-quantum key-encapsulation mechanism (KEM) counterparts, particularly in large networks with potentially several connections in a short period of time.   To mitigate this gap, we propose Muckle# that pushes the efficiency boundaries of currently known HAKE constructions. Muckle# uses post-quantum key-encapsulating mechanisms for implicit authentication inspired by recent works done in the area of Transport Layer Security (TLS) protocols, particularly, in KEMTLS (CCS'20).   We port those ideas to the HAKE framework and develop novel proof techniques on the way. Due to our novel KEM-based approach, the resulting protocol has a slightly different message flow compared to prior work that we carefully align with the HAKE framework and which makes our changes to the Muckle+ non-trivial.",
+    "published": "2024-11-06T16:28:17Z",
+    "updated": "2025-07-23T14:41:48Z",
+    "authors": [
+      "Christopher Battarbee",
+      "Christoph Striecks",
+      "Ludovic Perret",
+      "Sebastian Ramacher",
+      "Kevin Verhaeghe"
+    ],
+    "affiliations": [],
+    "first_author": "Christopher Battarbee",
+    "pdf_url": "https://arxiv.org/pdf/2411.04030v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 5.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2301.00062v2",
+    "arxiv_id": "2301.00062v2",
+    "title": "FIPS Compliant Quantum Secure Communication using Quantum Permutation Pad",
+    "summary": "Quantum computing has entered fast development track since Shor's algorithm was proposed in 1994. Multi-cloud services of quantum computing farms are currently available. One of which, IBM quantum computing, presented a road map showing their Kookaburra system with over 4158 qubits will be available in 2025. For the standardization of Post-Quantum Cryptography or PQC, the National Institute of Standards and Technology or NIST recently announced the first candidates for standardization with one algorithm for key encapsulation mechanism (KEM), Kyber, and three algorithms for digital signatures. NIST has also issued a new call for quantum-safe digital signature algorithms due June 1, 2023. This timeline shows that FIPS-certified quantum-safe TLS protocol would take a predictably long time. However, \"steal now, crack later\" tactic requires protecting data against future quantum threat actors today. NIST recommended the use of a hybrid mode of TLS 1.3 with its extensions to support PQC. The hybrid mode works for certain cases but FIPS certification for the hybridized cryptomodule might still be required. This paper proposes to take a nested mode to enable TLS 1.3 protocol with quantum-safe data, which can be made available today and is FIPS compliant. We discussed the performance impacts of the handshaking phase of the nested TLS 1.3 with PQC and the symmetric encryption phase. The major impact on performance using the nested mode is in the data symmetric encryption with AES. To overcome this performance reduction, we suggest using quantum encryption with a quantum permutation pad for the data encryption with a minor performance reduction of less than 10 percent.",
+    "published": "2022-12-30T21:56:35Z",
+    "updated": "2023-12-28T13:48:43Z",
+    "authors": [
+      "Alex He",
+      "Dafu Lou",
+      "Eric She",
+      "Shangjie Guo",
+      "Hareesh Watson",
+      "Sibyl Weng",
+      "Maria Perepechaenko",
+      "Rand Kuang"
+    ],
+    "affiliations": [],
+    "first_author": "Alex He",
+    "pdf_url": "https://arxiv.org/pdf/2301.00062v2",
+    "primary_category": "quant-ph",
+    "relevance_score": 4.0
+  }
+]

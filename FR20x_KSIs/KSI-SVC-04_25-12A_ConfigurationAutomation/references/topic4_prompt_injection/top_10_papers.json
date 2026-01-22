@@ -1,0 +1,244 @@
+[
+  {
+    "arxiv_id": "2510.23675v1",
+    "title": "QueryIPI: Query-agnostic Indirect Prompt Injection on Coding Agents",
+    "authors": [
+      "Yuchong Xie",
+      "Zesen Liu",
+      "Mingyu Luo",
+      "Zhixiang Zhang",
+      "Kaikai Zhang",
+      "Zongjie Li",
+      "Ping Chen",
+      "Shuai Wang",
+      "Dongdong She"
+    ],
+    "published": "2025-10-27",
+    "year": 2025,
+    "updated": "2025-10-27",
+    "summary": "Modern coding agents integrated into IDEs combine powerful tools and system-level actions, exposing a high-stakes attack surface. Existing Indirect Prompt Injection (IPI) studies focus mainly on query-specific behaviors, leading to unstable attacks with lower success rates. We identify a more severe, query-agnostic threat that remains effective across diverse user inputs. This challenge can be overcome by exploiting a common vulnerability: leakage of the agent's internal prompt, which turns the attack into a constrained white-box optimization problem. We present QueryIPI, the first query-agnostic IPI method for coding agents. QueryIPI refines malicious tool descriptions through an iterative, prompt-based process informed by the leaked internal prompt. Experiments on five simulated agents show that QueryIPI achieves up to 87 percent success, outperforming baselines, and the generated malicious descriptions also transfer to real-world systems, highlighting a practical security risk to modern LLM-based coding agents.",
+    "pdf_url": "https://arxiv.org/pdf/2510.23675v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 184
+  },
+  {
+    "arxiv_id": "2512.20986v1",
+    "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+    "authors": [
+      "Yihan Wang",
+      "Huanqi Yang",
+      "Shantanu Pal",
+      "Weitao Xu"
+    ],
+    "published": "2025-12-24",
+    "year": 2025,
+    "updated": "2025-12-24",
+    "summary": "The integration of Large Language Models (LLMs) into wearable sensing is creating a new class of mobile applications capable of nuanced human activity understanding. However, the reliability of these systems is critically undermined by their vulnerability to prompt injection attacks, where attackers deliberately input deceptive instructions into LLMs. Traditional defenses, based on static filters and rigid rules, are insufficient to address the semantic complexity of these new attacks. We argue that a paradigm shift is needed -- from passive filtering to active protection and autonomous reasoning. We introduce AegisAgent, an autonomous agent system designed to ensure the security of LLM-driven HAR systems. Instead of merely blocking threats, AegisAgent functions as a cognitive guardian. It autonomously perceives potential semantic inconsistencies, reasons about the user's true intent by consulting a dynamic memory of past interactions, and acts by generating and executing a multi-step verification and repair plan. We implement AegisAgent as a lightweight, full-stack prototype and conduct a systematic evaluation on 15 common attacks with five state-of-the-art LLM-based HAR systems on three public datasets. Results show it reduces attack success rate by 30\\% on average while incurring only 78.6 ms of latency overhead on a GPU workstation. Our work makes the first step towards building secure and trustworthy LLM-driven HAR systems.",
+    "pdf_url": "https://arxiv.org/pdf/2512.20986v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 168
+  },
+  {
+    "arxiv_id": "2512.00966v1",
+    "title": "Mitigating Indirect Prompt Injection via Instruction-Following Intent Analysis",
+    "authors": [
+      "Mintong Kang",
+      "Chong Xiang",
+      "Sanjay Kariyappa",
+      "Chaowei Xiao",
+      "Bo Li",
+      "Edward Suh"
+    ],
+    "published": "2025-11-30",
+    "year": 2025,
+    "updated": "2025-11-30",
+    "summary": "Indirect prompt injection attacks (IPIAs), where large language models (LLMs) follow malicious instructions hidden in input data, pose a critical threat to LLM-powered agents. In this paper, we present IntentGuard, a general defense framework based on instruction-following intent analysis. The key insight of IntentGuard is that the decisive factor in IPIAs is not the presence of malicious text, but whether the LLM intends to follow instructions from untrusted data. Building on this insight, IntentGuard leverages an instruction-following intent analyzer (IIA) to identify which parts of the input prompt the model recognizes as actionable instructions, and then flag or neutralize any overlaps with untrusted data segments. To instantiate the framework, we develop an IIA that uses three \"thinking intervention\" strategies to elicit a structured list of intended instructions from reasoning-enabled LLMs. These techniques include start-of-thinking prefilling, end-of-thinking refinement, and adversarial in-context demonstration. We evaluate IntentGuard on two agentic benchmarks (AgentDojo and Mind2Web) using two reasoning-enabled LLMs (Qwen-3-32B and gpt-oss-20B). Results demonstrate that IntentGuard achieves (1) no utility degradation in all but one setting and (2) strong robustness against adaptive prompt injection attacks (e.g., reducing attack success rates from 100% to 8.5% in a Mind2Web scenario).",
+    "pdf_url": "https://arxiv.org/pdf/2512.00966v1",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "comment": "",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 162
+  },
+  {
+    "arxiv_id": "2512.08417v2",
+    "title": "Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs",
+    "authors": [
+      "Yinan Zhong",
+      "Qianhao Miao",
+      "Yanjiao Chen",
+      "Jiangyi Deng",
+      "Yushi Cheng",
+      "Wenyuan Xu"
+    ],
+    "published": "2025-12-09",
+    "year": 2025,
+    "updated": "2025-12-11",
+    "summary": "Large Language Models (LLMs) have been integrated into many applications (e.g., web agents) to perform more sophisticated tasks. However, LLM-empowered applications are vulnerable to Indirect Prompt Injection (IPI) attacks, where instructions are injected via untrustworthy external data sources. This paper presents Rennervate, a defense framework to detect and prevent IPI attacks. Rennervate leverages attention features to detect the covert injection at a fine-grained token level, enabling precise sanitization that neutralizes IPI attacks while maintaining LLM functionalities. Specifically, the token-level detector is materialized with a 2-step attentive pooling mechanism, which aggregates attention heads and response tokens for IPI detection and sanitization. Moreover, we establish a fine-grained IPI dataset, FIPI, to be open-sourced to support further research. Extensive experiments verify that Rennervate outperforms 15 commercial and academic IPI defense methods, achieving high precision on 5 LLMs and 6 datasets. We also demonstrate that Rennervate is transferable to unseen attacks and robust against adaptive adversaries.",
+    "pdf_url": "https://arxiv.org/pdf/2512.08417v2",
+    "categories": [
+      "cs.CR"
+    ],
+    "comment": "Accepted by Network and Distributed System Security (NDSS) Symposium 2026",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 155
+  },
+  {
+    "arxiv_id": "2512.10449v2",
+    "title": "When Reject Turns into Accept: Quantifying the Vulnerability of LLM-Based Scientific Reviewers to Indirect Prompt Injection",
+    "authors": [
+      "Devanshu Sahoo",
+      "Manish Prasad",
+      "Vasudev Majhi",
+      "Jahnvi Singh",
+      "Vinay Chamola",
+      "Yash Sinha",
+      "Murari Mandal",
+      "Dhruv Kumar"
+    ],
+    "published": "2025-12-11",
+    "year": 2025,
+    "updated": "2025-12-15",
+    "summary": "The landscape of scientific peer review is rapidly evolving with the integration of Large Language Models (LLMs). This shift is driven by two parallel trends: the widespread individual adoption of LLMs by reviewers to manage workload (the \"Lazy Reviewer\" hypothesis) and the formal institutional deployment of AI-powered assessment systems by conferences like AAAI and Stanford's Agents4Science. This study investigates the robustness of these \"LLM-as-a-Judge\" systems (both illicit and sanctioned) to adversarial PDF manipulation. Unlike general jailbreaks, we focus on a distinct incentive: flipping \"Reject\" decisions to \"Accept,\" for which we develop a novel evaluation metric which we term as WAVS (Weighted Adversarial Vulnerability Score). We curated a dataset of 200 scientific papers and adapted 15 domain-specific attack strategies to this task, evaluating them across 13 Language Models, including GPT-5, Claude Haiku, and DeepSeek. Our results demonstrate that obfuscation strategies like \"Maximum Mark Magyk\" successfully manipulate scores, achieving alarming decision flip rates even in large-scale models. We will release our complete dataset and injection framework to facilitate more research on this topic.",
+    "pdf_url": "https://arxiv.org/pdf/2512.10449v2",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "comment": "",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 149
+  },
+  {
+    "arxiv_id": "2512.05745v1",
+    "title": "ARGUS: Defending Against Multimodal Indirect Prompt Injection via Steering Instruction-Following Behavior",
+    "authors": [
+      "Weikai Lu",
+      "Ziqian Zeng",
+      "Kehua Zhang",
+      "Haoran Li",
+      "Huiping Zhuang",
+      "Ruidong Wang",
+      "Cen Chen",
+      "Hao Peng"
+    ],
+    "published": "2025-12-05",
+    "year": 2025,
+    "updated": "2025-12-05",
+    "summary": "Multimodal Large Language Models (MLLMs) are increasingly vulnerable to multimodal Indirect Prompt Injection (IPI) attacks, which embed malicious instructions in images, videos, or audio to hijack model behavior. Existing defenses, designed primarily for text-only LLMs, are unsuitable for countering these multimodal threats, as they are easily bypassed, modality-dependent, or generalize poorly. Inspired by activation steering researches, we hypothesize that a robust, general defense independent of modality can be achieved by steering the model's behavior in the representation space. Through extensive experiments, we discover that the instruction-following behavior of MLLMs is encoded in a subspace. Steering along directions within this subspace can enforce adherence to user instructions, forming the basis of a defense. However, we also found that a naive defense direction could be coupled with a utility-degrading direction, and excessive intervention strength harms model performance. To address this, we propose ARGUS, which searches for an optimal defense direction within the safety subspace that decouples from the utility degradation direction, further combining adaptive strength steering to achieve a better safety-utility trade-off. ARGUS also introduces lightweight injection detection stage to activate the defense on-demand, and a post-filtering stage to verify defense success. Experimental results show that ARGUS can achieve robust defense against multimodal IPI while maximally preserving the MLLM's utility.",
+    "pdf_url": "https://arxiv.org/pdf/2512.05745v1",
+    "categories": [
+      "cs.CR",
+      "cs.MM"
+    ],
+    "comment": "",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 146
+  },
+  {
+    "arxiv_id": "2510.13543v1",
+    "title": "In-Browser LLM-Guided Fuzzing for Real-Time Prompt Injection Testing in Agentic AI Browsers",
+    "authors": [
+      "Avihay Cohen"
+    ],
+    "published": "2025-10-15",
+    "year": 2025,
+    "updated": "2025-10-15",
+    "summary": "Large Language Model (LLM) based agents integrated into web browsers (often called agentic AI browsers) offer powerful automation of web tasks. However, they are vulnerable to indirect prompt injection attacks, where malicious instructions hidden in a webpage deceive the agent into unwanted actions. These attacks can bypass traditional web security boundaries, as the AI agent operates with the user privileges across sites. In this paper, we present a novel fuzzing framework that runs entirely in the browser and is guided by an LLM to automatically discover such prompt injection vulnerabilities in real time.",
+    "pdf_url": "https://arxiv.org/pdf/2510.13543v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "37 pages , 10 figures",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 146
+  },
+  {
+    "arxiv_id": "2512.06716v1",
+    "title": "Cognitive Control Architecture (CCA): A Lifecycle Supervision Framework for Robustly Aligned AI Agents",
+    "authors": [
+      "Zhibo Liang",
+      "Tianze Hu",
+      "Zaiye Chen",
+      "Mingjie Tang"
+    ],
+    "published": "2025-12-07",
+    "year": 2025,
+    "updated": "2025-12-07",
+    "summary": "Autonomous Large Language Model (LLM) agents exhibit significant vulnerability to Indirect Prompt Injection (IPI) attacks. These attacks hijack agent behavior by polluting external information sources, exploiting fundamental trade-offs between security and functionality in existing defense mechanisms. This leads to malicious and unauthorized tool invocations, diverting agents from their original objectives. The success of complex IPIs reveals a deeper systemic fragility: while current defenses demonstrate some effectiveness, most defense architectures are inherently fragmented. Consequently, they fail to provide full integrity assurance across the entire task execution pipeline, forcing unacceptable multi-dimensional compromises among security, functionality, and efficiency. Our method is predicated on a core insight: no matter how subtle an IPI attack, its pursuit of a malicious objective will ultimately manifest as a detectable deviation in the action trajectory, distinct from the expected legitimate plan. Based on this, we propose the Cognitive Control Architecture (CCA), a holistic framework achieving full-lifecycle cognitive supervision. CCA constructs an efficient, dual-layered defense system through two synergistic pillars: (i) proactive and preemptive control-flow and data-flow integrity enforcement via a pre-generated \"Intent Graph\"; and (ii) an innovative \"Tiered Adjudicator\" that, upon deviation detection, initiates deep reasoning based on multi-dimensional scoring, specifically designed to counter complex conditional attacks. Experiments on the AgentDojo benchmark substantiate that CCA not only effectively withstands sophisticated attacks that challenge other advanced defense methods but also achieves uncompromised security with notable efficiency and robustness, thereby reconciling the aforementioned multi-dimensional trade-off.",
+    "pdf_url": "https://arxiv.org/pdf/2512.06716v1",
+    "categories": [
+      "cs.AI",
+      "cs.CL",
+      "cs.CR"
+    ],
+    "comment": "",
+    "is_us_institution": false,
+    "query_source": 4,
+    "relevance_score": 143
+  },
+  {
+    "arxiv_id": "2510.09093v1",
+    "title": "Exploiting Web Search Tools of AI Agents for Data Exfiltration",
+    "authors": [
+      "Dennis Rall",
+      "Bernhard Bauer",
+      "Mohit Mittal",
+      "Thomas Fraunholz"
+    ],
+    "published": "2025-10-10",
+    "year": 2025,
+    "updated": "2025-10-10",
+    "summary": "Large language models (LLMs) are now routinely used to autonomously execute complex tasks, from natural language processing to dynamic workflows like web searches. The usage of tool-calling and Retrieval Augmented Generation (RAG) allows LLMs to process and retrieve sensitive corporate data, amplifying both their functionality and vulnerability to abuse. As LLMs increasingly interact with external data sources, indirect prompt injection emerges as a critical and evolving attack vector, enabling adversaries to exploit models through manipulated inputs. Through a systematic evaluation of indirect prompt injection attacks across diverse models, we analyze how susceptible current LLMs are to such attacks, which parameters, including model size and manufacturer, specific implementations, shape their vulnerability, and which attack methods remain most effective. Our results reveal that even well-known attack patterns continue to succeed, exposing persistent weaknesses in model defenses. To address these vulnerabilities, we emphasize the need for strengthened training procedures to enhance inherent resilience, a centralized database of known attack vectors to enable proactive defense, and a unified testing framework to ensure continuous security validation. These steps are essential to push developers toward integrating security into the core design of LLMs, as our findings show that current models still fail to mitigate long-standing threats.",
+    "pdf_url": "https://arxiv.org/pdf/2510.09093v1",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "comment": "9 pages, 6 figures, conference article",
+    "is_us_institution": true,
+    "query_source": 4,
+    "relevance_score": 143
+  },
+  {
+    "arxiv_id": "2512.14860v1",
+    "title": "Penetration Testing of Agentic AI: A Comparative Security Analysis Across Models and Frameworks",
+    "authors": [
+      "Viet K. Nguyen",
+      "Mohammad I. Husain"
+    ],
+    "published": "2025-12-16",
+    "year": 2025,
+    "updated": "2025-12-16",
+    "summary": "Agentic AI introduces security vulnerabilities that traditional LLM safeguards fail to address. Although recent work by Unit 42 at Palo Alto Networks demonstrated that ChatGPT-4o successfully executes attacks as an agent that it refuses in chat mode, there is no comparative analysis in multiple models and frameworks. We conducted the first systematic penetration testing and comparative evaluation of agentic AI systems, testing five prominent models (Claude 3.5 Sonnet, Gemini 2.5 Flash, GPT-4o, Grok 2, and Nova Pro) across two agentic AI frameworks (AutoGen and CrewAI) using a seven-agent architecture that mimics the functionality of a university information management system and 13 distinct attack scenarios that span prompt injection, Server Side Request Forgery (SSRF), SQL injection, and tool misuse. Our 130 total test cases reveal significant security disparities: AutoGen demonstrates a 52.3% refusal rate versus CrewAI's 30.8%, while model performance ranges from Nova Pro's 46.2% to Claude and Grok 2's 38.5%. Most critically, Grok 2 on CrewAI rejected only 2 of 13 attacks (15.4% refusal rate), and the overall refusal rate of 41.5% across all configurations indicates that more than half of malicious prompts succeeded despite enterprise-grade safety mechanisms. We identify six distinct defensive behavior patterns including a novel \"hallucinated compliance\" strategy where models fabricate outputs rather than executing or refusing attacks, and provide actionable recommendations for secure agent deployment. Complete attack prompts are also included in the Appendix to enable reproducibility.",
+    "pdf_url": "https://arxiv.org/pdf/2512.14860v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "comment": "",
+    "is_us_institution": true,
+    "query_source": 1,
+    "relevance_score": 138
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2601.00821v2",
+  "title": "CogCanvas: Verbatim-Grounded Artifact Extraction for Long LLM Conversations",
+  "authors": [
+    "Tao An"
+  ],
+  "published": "2025-12-23T16:45:15Z",
+  "summary": "Conversation summarization loses nuanced details: when asked about coding preferences after 40 turns, summarization recalls \"use type hints\" but drops the critical constraint \"everywhere\" (19.0% exact match vs. 93.0% for our approach).\n  We present CogCanvas, a training-free framework inspired by how teams use whiteboards to anchor shared memory. Rather than compressing conversation history, CogCanvas extracts verbatim-grounded artifacts (decisions, facts, reminders) and retrieves them via tempo",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.165034"
+}

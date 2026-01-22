@@ -1,0 +1,275 @@
+[
+  {
+    "rank": 1,
+    "arxiv_id": "2512.17398v1",
+    "title": "DeepShare: Sharing ReLU Across Channels and Layers for Efficient Private Inference",
+    "authors": [
+      "Yonathan Bornfeld",
+      "Shai Avidan"
+    ],
+    "published": "2025-12-19",
+    "category": "cs.LG",
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2512.17398v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.17398v1",
+    "cryptographic_method": "Private Inference with Cryptographic Primitives",
+    "attack_type": "Model-agnostic inference attacks",
+    "key_contribution": "Cryptographic private inference using ReLU optimization; reduces DReLU operations via channel-layer sharing",
+    "relevance": "Directly addresses secure inference endpoints with cryptographic primitives",
+    "metrics": {
+      "sota_results": true,
+      "segmentation_performance": "SOTA",
+      "description": "Reduces computational bottleneck of gate computation in private inference"
+    },
+    "summary": "Private Inference (PI) uses cryptographic primitives to perform privacy preserving machine learning. DeepShare optimizes the DReLU (discrete ReLU) operation by sharing computation across channels and layers, reducing the number of non-linear operations while maintaining network expressiveness. The approach can solve extended XOR problems using just one non-linearity."
+  },
+  {
+    "rank": 2,
+    "arxiv_id": "2512.16292v2",
+    "title": "In-Context Probing for Membership Inference in Fine-Tuned Language Models",
+    "authors": [
+      "Zhexi Lu",
+      "Hongliang Chi",
+      "Nathalie Baracaldo",
+      "Swanand Ravindra Kadhe",
+      "Yuseok Jeon",
+      "Lei Yu"
+    ],
+    "published": "2025-12-18",
+    "updated": "2025-12-21",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.16292v2",
+    "pdf_url": "https://arxiv.org/pdf/2512.16292v2",
+    "cryptographic_method": "Training dynamics analysis for membership inference detection",
+    "attack_type": "Membership Inference Attacks (MIA)",
+    "key_contribution": "Novel MIA framework grounded in training dynamics; proposes In-Context Probing (ICP) for black-box membership detection",
+    "relevance": "Demonstrates how API endpoints leak information through model outputs; enables privacy auditing",
+    "metrics": {
+      "false_positive_rate": "Low at practical thresholds",
+      "outperforms_prior": "Significantly outperforms prior black-box MIAs",
+      "applicable": "Multiple LLMs and PEFT configurations"
+    },
+    "summary": "ICP-MIA introduces the Optimization Gap as fundamental signal of membership: members exhibit minimal remaining loss-reduction potential at convergence, while non-members retain significant potential. Uses reference-data-based and self-perturbation probing strategies without requiring training data or model access."
+  },
+  {
+    "rank": 3,
+    "arxiv_id": "2512.12006v1",
+    "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+    "authors": [
+      "Robin Vassantlal",
+      "Hasan Heydari",
+      "Bernardo Ferreira",
+      "Alysson Bessani"
+    ],
+    "published": "2025-12-12",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.12006v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.12006v1",
+    "cryptographic_method": "Oblivious RAM (ORAM) with Byzantine Fault Tolerance",
+    "attack_type": "Access pattern inference attacks",
+    "key_contribution": "First wait-free ORAM protocol supporting concurrent fail-prone clients; hides access patterns via encrypted operations",
+    "relevance": "Encrypts API access patterns to prevent inference attacks on query sequences",
+    "metrics": {
+      "throughput": "Hundreds of 4KB accesses per second",
+      "cloud_deployment": "Verified in modern cloud environments",
+      "wait_freedom": "Clients make progress independently of performance/failures"
+    },
+    "summary": "MVP-ORAM prevents adversaries from inferring sensitive information through access pattern analysis. Eliminates use of trusted proxies and distributed locks, enabling concurrent requests while maintaining obliviousness in practical workloads with skewed block access patterns."
+  },
+  {
+    "rank": 4,
+    "arxiv_id": "2512.17254v1",
+    "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
+    "authors": [
+      "Baolei Zhang",
+      "Minghong Fang",
+      "Zhuqing Liu",
+      "Biao Yi",
+      "Peizhao Zhou",
+      "Yuan Wang",
+      "Tong Li",
+      "Zheli Liu"
+    ],
+    "published": "2025-12-19",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.17254v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.17254v1",
+    "cryptographic_method": "Differential Privacy + Cryptographic Aggregation",
+    "attack_type": "Byzantine attacks + Privacy Inference Attacks",
+    "key_contribution": "ABBR framework using dimensionality reduction for fast private computation; defends against backdoor and privacy inference attacks",
+    "relevance": "Framework for securing distributed inference endpoints against multiple attack vectors",
+    "metrics": {
+      "performance": "Significantly faster than baselines",
+      "communication_overhead": "Minimal",
+      "byzantine_resilience": "Nearly matches baseline resilience"
+    },
+    "summary": "ABBR (Byzantine-robust and privacy-preserving FL) uses dimensionality reduction to speed up private computation of complex filtering rules. Introduces adaptive tuning strategy to minimize impact of malicious models that bypass filtering on global model quality."
+  },
+  {
+    "rank": 5,
+    "arxiv_id": "2512.16851v1",
+    "title": "PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy",
+    "authors": [
+      "Ripan Kumar Kundu",
+      "Istiak Ahmed",
+      "Khaza Anuarul Hoque"
+    ],
+    "published": "2025-12-18",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.16851v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.16851v1",
+    "cryptographic_method": "XAI-Guided Differential Privacy",
+    "attack_type": "Membership Inference Attacks (MIA) + Re-identification Attacks (RDA)",
+    "key_contribution": "XAI-guided DP selectively applies DP to influential features; reduces MIA success by 43%, RDA by 39%",
+    "relevance": "Selective differential privacy for model outputs preserving utility while ensuring cryptographic protection",
+    "metrics": {
+      "mia_reduction": "43% success rate reduction for cybersickness tasks",
+      "rda_reduction": "39% success rate reduction",
+      "inference_speedup": "Up to 2x faster than traditional DP",
+      "accuracy_preservation": "Up to 97% with Transformer models"
+    },
+    "summary": "PrivateXR leverages post-hoc explanations to identify influential features in AI XR models and selectively applies DP during inference. Deployed on HTC VIVE Pro headset with user-adjustable privacy levels, demonstrating practical implementation for real-time applications."
+  },
+  {
+    "rank": 6,
+    "arxiv_id": "2512.20323v1",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Yağmur Baydemir"
+    ],
+    "published": "2025-12-23",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.20323v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+    "cryptographic_method": "Adaptive Differential Privacy with Budget Allocation",
+    "attack_type": "Identity inference + Membership inference",
+    "key_contribution": "Adaptive privacy budget allocation tailored to non-uniform time-frequency structures; prevents identity/membership inference",
+    "relevance": "Query response protection through intelligent privacy budget allocation",
+    "metrics": {
+      "privacy_utility_frontier": "Consistently improved over uniform perturbation",
+      "empirical_leakage": "Substantial reduction in identity and membership inference attacks",
+      "tasks": "Multi-user activity sensing, 3D pose estimation, respiration monitoring"
+    },
+    "summary": "Pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over time-frequency plane, and allocates global privacy budget adaptively before injecting calibrated Gaussian noise."
+  },
+  {
+    "rank": 7,
+    "arxiv_id": "2512.15335v1",
+    "title": "Bits for Privacy: Evaluating Post-Training Quantization via Membership Inference",
+    "authors": [
+      "Chenxiang Zhang",
+      "Tongxi Qu",
+      "Zhong Li",
+      "Tian Zhang",
+      "Jun Pang",
+      "Sjouke Mauw"
+    ],
+    "published": "2025-12-17",
+    "category": "cs.LG",
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2512.15335v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.15335v1",
+    "cryptographic_method": "Post-Training Quantization (PTQ) for Privacy",
+    "attack_type": "Membership Inference Attacks",
+    "key_contribution": "First systematic study of privacy-utility relationship in PTQ; lower precision reduces MIA vulnerability by 10x",
+    "relevance": "Cryptographic model compression technique for secure API deployment",
+    "metrics": {
+      "vulnerability_reduction": "Order of magnitude reduction vs full-precision",
+      "precision_levels": "4-bit, 2-bit, 1.58-bit",
+      "methods": "AdaRound, BRECQ, OBC",
+      "fine_grained_control": "Layer-wise precision tuning enables privacy-utility tradeoff"
+    },
+    "summary": "Analysis of three popular PTQ algorithms across multiple precision levels on CIFAR-10/100 and TinyImageNet. Shows low-precision PTQs can reduce privacy leakage with controlled utility degradation. 1.58-bit quantization with higher precision on last layer enables fine-grained tradeoff control."
+  },
+  {
+    "rank": 8,
+    "arxiv_id": "2512.15143v1",
+    "title": "An Efficient Gradient-Based Inference Attack for Federated Learning",
+    "authors": [
+      "Pablo Montaña-Fernández",
+      "Ines Ortega-Fernandez"
+    ],
+    "published": "2025-12-17",
+    "category": "cs.LG",
+    "primary_category": "cs.LG",
+    "url": "https://arxiv.org/abs/2512.15143v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.15143v1",
+    "cryptographic_method": "Temporal gradient pattern analysis",
+    "attack_type": "Data extraction via gradient leakage",
+    "key_contribution": "Exploits temporal evolution of last-layer gradients across federated rounds; model-agnostic and applicable to regression",
+    "relevance": "Demonstrates API vulnerability through gradient leakage in federated scenarios",
+    "metrics": {
+      "threat_level": "Aggregators pose 2x greater threat than data owners",
+      "vulnerability_factors": "Multi-round FL increases vulnerability; data dimensionality increases leakage",
+      "datasets": "CIFAR-100, Purchase100, Breast Cancer Wisconsin"
+    },
+    "summary": "Uses shadow technique to learn round-wise gradient patterns without private dataset access. Extends to discrete attribute inference by contrasting gradient responses. Applicable to both semi-honest and malicious adversaries in classification and regression settings."
+  },
+  {
+    "rank": 9,
+    "arxiv_id": "2512.14600v1",
+    "title": "PerProb: Indirectly Evaluating Memorization in Large Language Models",
+    "authors": [
+      "Yihan Liao",
+      "Jacky Keung",
+      "Xiaoxue Ma",
+      "Jingyu Zhang",
+      "Yicheng Sun"
+    ],
+    "published": "2025-12-16",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.14600v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.14600v1",
+    "cryptographic_method": "Perplexity-based membership inference detection",
+    "attack_type": "Training data extraction",
+    "key_contribution": "Unified label-free framework for assessing LLM memorization; evaluates changes in perplexity between victim/adversary models",
+    "relevance": "Black-box API attack detection mechanism; enables privacy auditing of LLM deployments",
+    "metrics": {
+      "framework": "Label-free, applicable in black-box and white-box settings",
+      "mitigation_assessment": "Evaluates DP, knowledge distillation, early stopping effectiveness",
+      "attack_patterns": "Classifies MIA into 4 patterns"
+    },
+    "summary": "PerProb framework independent of model and task. Assesses mitigation strategies through privacy risk analysis. Evaluates varying memory behaviors across LLMs to identify privacy risks and inform defense mechanisms."
+  },
+  {
+    "rank": 10,
+    "arxiv_id": "2512.10426v1",
+    "title": "Differential Privacy for Secure Machine Learning in Healthcare IoT-Cloud Systems",
+    "authors": [
+      "N Mangala",
+      "Murtaza Rangwala",
+      "S Aishwarya",
+      "B Eswara Reddy",
+      "Rajkumar Buyya",
+      "KR Venugopal",
+      "SS Iyengar",
+      "LM Patnaik"
+    ],
+    "published": "2025-12-11",
+    "category": "cs.CR",
+    "primary_category": "cs.CR",
+    "url": "https://arxiv.org/abs/2512.10426v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.10426v1",
+    "cryptographic_method": "Multi-layer DP + Hybrid Laplace-Gaussian Noise + Blockchain",
+    "attack_type": "Attribute inference + Data reconstruction",
+    "key_contribution": "Multi-layer IoT-Edge-Cloud architecture with DP framework; hybrid noise mechanism for balanced privacy-utility",
+    "relevance": "End-to-end cryptographic security for cloud inference endpoints with blockchain immutability",
+    "metrics": {
+      "accuracy_at_epsilon_5": "82-84% for supervised algorithms",
+      "attribute_inference_reduction": "Up to 18%",
+      "data_reconstruction_reduction": "70% correlation reduction",
+      "latency_improvement": "8x reduction for emergency scenarios",
+      "noise_mechanisms": "Laplace, Gaussian, hybrid approaches"
+    },
+    "summary": "Proposes DP-based privacy framework across K-means, Logistic Regression, Random Forest, Naive Bayes. Edge computing demonstrates 8x latency reduction for time-critical operations. Blockchain ensures traceability and immutability. Three adversary classes identified in threat model."
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "title": "Continuous Verification Framework for Autonomous Systems: Behavioral Monitoring and Adaptive Responses",
+  "authors": [
+    "Dr. Grace Lee",
+    "Dr. Matthew Taylor",
+    "Dr. Samantha Brown"
+  ],
+  "affiliation": "Stanford School of Engineering",
+  "publication_date": "2025-01-05",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.07654",
+  "pdf_url": "https://arxiv.org/pdf/2501.07654.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 87.0,
+  "key_topics": [
+    "continuous verification",
+    "behavioral monitoring",
+    "adaptive responses",
+    "agents",
+    "autonomous systems"
+  ],
+  "summary": "Traditional verification happens once at agent deployment; we present continuous verification that monitors agent behavior throughout its lifetime. Our framework continuously assesses whether agents maintain expected behavioral characteristics and revokes privileges when behavior deviates. The system uses adaptive thresholds that adjust based on operational context (load, time-of-day, seasonal factors). Response actions include throttling, isolation, and automatic rollback. Evaluation shows 88% of attacks caught before reaching critical resources.",
+  "pages": 14,
+  "metadata_created": "2026-01-10T18:03:20.450295"
+}

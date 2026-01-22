@@ -1,0 +1,18 @@
+{
+  "title": "Temporal Analysis Framework for Intrusion Detection Systems: A Novel Taxonomy for Time-Aware Cybersecurity",
+  "authors": [
+    "Tatiana S. Parlanti",
+    "Carlos A. Catania"
+  ],
+  "published": "2025-11-05T19:03:40+00:00",
+  "arxiv_id": "2511.03799v1",
+  "abstract": "Most intrusion detection systems still identify attacks only after significant damage has occurred, detecting late-stage tactics rather than early indicators of compromise. This paper introduces a temporal analysis framework and taxonomy for time-aware network intrusion detection. Through a systematic review of over 40 studies published between 2020 and 2025, we classify NIDS methods according to their treatment of time, from static per-flow analysis to multi-window sequential modeling. The proposed taxonomy reveals that inter-flow sequential and temporal window-based methods provide the broadest temporal coverage across MITRE ATT&CK tactics, enabling detection from Reconnaissance through Impact stages. Our analysis further exposes systematic bias in widely used datasets, which emphasize late-stage attacks and thus limit progress toward early detection. This framework provides essential groundwork for developing IDS capable of anticipating rather than merely reacting to cyber threats, advancing the field toward truly proactive defense mechanisms.",
+  "categories": [
+    "cs.CR"
+  ],
+  "relevance_score": 15.0,
+  "query_category": "network_defense",
+  "us_affiliation": true,
+  "pdf_url": "https://arxiv.org/pdf/2511.03799v1",
+  "downloaded": "2025-12-11T08:25:18.903086"
+}

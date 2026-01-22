@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2506.05977v1",
+  "title": "Mitigating Catastrophic Forgetting with Adaptive Transformer Block Expansion in Federated Fine-Tuning",
+  "authors": [
+    "Yujia Huo",
+    "Jianchun Liu",
+    "Hongli Xu",
+    "Zhenguo Ma",
+    "Shilong Wang",
+    "Liusheng Huang"
+  ],
+  "published": "2025-06-06T10:59:11Z",
+  "url": "http://arxiv.org/abs/2506.05977v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.05977v1.pdf",
+  "relevance_score": 62,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Federated fine-tuning (FedFT) of large language models (LLMs) has emerged as a promising solution for adapting models to distributed data environments while ensuring data privacy.\n  Existing FedFT methods predominantly utilize parameter-efficient fine-tuning (PEFT) techniques to reduce communication and computation overhead.\n  However, they often fail to adequately address the catastrophic forgetting, a critical challenge arising from continual adaptation in distributed environments. The traditi"
+}

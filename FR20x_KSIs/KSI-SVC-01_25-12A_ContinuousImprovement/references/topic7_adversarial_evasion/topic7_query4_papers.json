@@ -1,0 +1,189 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.05133v1",
+    "arxiv_id": "2511.05133v1",
+    "title": "A Secured Intent-Based Networking (sIBN) with Data-Driven Time-Aware Intrusion Detection",
+    "summary": "While Intent-Based Networking (IBN) promises operational efficiency through autonomous and abstraction-driven network management, a critical unaddressed issue lies in IBN's implicit trust in the integrity of intent ingested by the network. This inherent assumption of data reliability creates a blind spot exploitable by Man-in-the-Middle (MitM) attacks, where an adversary intercepts and alters intent before it is enacted, compelling the network to orchestrate malicious configurations. This study proposes a secured IBN (sIBN) system with data driven intrusion detection method designed to secure legitimate user intent from adversarial tampering. The proposed intent intrusion detection system uses a ML model applied for network behavioral anomaly detection to reveal temporal patterns of intent tampering. This is achieved by leveraging a set of original behavioral metrics and newly engineered time-aware features, with the model's hyperparameters fine-tuned through the randomized search cross-validation (RSCV) technique. Numerical results based on real-world data sets, show the effectiveness of sIBN, achieving the best performance across standard evaluation metrics, in both binary and multi classification tasks, while maintaining low error rates.",
+    "published": "2025-11-07T10:28:01Z",
+    "updated": "2025-11-07T10:28:01Z",
+    "authors": [
+      "Urslla Uchechi Izuazu",
+      "Mounir Bensalem",
+      "Admela Jukan"
+    ],
+    "affiliations": [],
+    "first_author": "Urslla Uchechi Izuazu",
+    "pdf_url": "https://arxiv.org/pdf/2511.05133v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15286v1",
+    "arxiv_id": "2512.15286v1",
+    "title": "Quantum Machine Learning for Cybersecurity: A Taxonomy and Future Directions",
+    "summary": "The increasing number of cyber threats and rapidly evolving tactics, as well as the high volume of data in recent years, have caused classical machine learning, rules, and signature-based defence strategies to fail, rendering them unable to keep up. An alternative, Quantum Machine Learning (QML), has recently emerged, making use of computations based on quantum mechanics. It offers better encoding and processing of high-dimensional structures for certain problems. This survey provides a comprehensive overview of QML techniques relevant to the domain of security, such as Quantum Neural Networks (QNNs), Quantum Support Vector Machines (QSVMs), Variational Quantum Circuits (VQCs), and Quantum Generative Adversarial Networks (QGANs), and discusses the contributions of this paper in relation to existing research in the field and how it improves over them. It also maps these methods across supervised, unsupervised, and generative learning paradigms, and to core cybersecurity tasks, including intrusion and anomaly detection, malware and botnet classification, and encrypted-traffic analytics. It also discusses their application in the domain of cloud computing security, where QML can enhance secure and scalable operations. Many limitations of QML in the domain of cybersecurity have also been discussed, along with the directions for addressing them.",
+    "published": "2025-12-17T10:39:14Z",
+    "updated": "2025-12-17T10:39:14Z",
+    "authors": [
+      "Siva Sai",
+      "Ishika Goyal",
+      "Shubham Sharma",
+      "Sri Harshita Manuri",
+      "Vinay Chamola",
+      "Rajkumar Buyya"
+    ],
+    "affiliations": [],
+    "first_author": "Siva Sai",
+    "pdf_url": "https://arxiv.org/pdf/2512.15286v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.18223v1",
+    "arxiv_id": "2511.18223v1",
+    "title": "A Novel and Practical Universal Adversarial Perturbations against Deep Reinforcement Learning based Intrusion Detection Systems",
+    "summary": "Intrusion Detection Systems (IDS) play a vital role in defending modern cyber physical systems against increasingly sophisticated cyber threats. Deep Reinforcement Learning-based IDS, have shown promise due to their adaptive and generalization capabilities. However, recent studies reveal their vulnerability to adversarial attacks, including Universal Adversarial Perturbations (UAPs), which can deceive models with a single, input-agnostic perturbation. In this work, we propose a novel UAP attack against Deep Reinforcement Learning (DRL)-based IDS under the domain-specific constraints derived from network data rules and feature relationships. To the best of our knowledge, there is no existing study that has explored UAP generation for the DRL-based IDS. In addition, this is the first work that focuses on developing a UAP against a DRL-based IDS under realistic domain constraints based on not only the basic domain rules but also mathematical relations between the features. Furthermore, we enhance the evasion performance of the proposed UAP, by introducing a customized loss function based on the Pearson Correlation Coefficient, and we denote it as Customized UAP. To the best of our knowledge, this is also the first work using the PCC value in the UAP generation, even in the broader context. Four additional established UAP baselines are implemented for a comprehensive comparison. Experimental results demonstrate that our proposed Customized UAP outperforms two input-dependent attacks including Fast Gradient Sign Method (FGSM), Basic Iterative Method (BIM), and four UAP baselines, highlighting its effectiveness for real-world adversarial scenarios.",
+    "published": "2025-11-22T23:52:01Z",
+    "updated": "2025-11-22T23:52:01Z",
+    "authors": [
+      "H. Zhang",
+      "L. Zhang",
+      "G. Epiphaniou",
+      "C. Maple"
+    ],
+    "affiliations": [],
+    "first_author": "H. Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2511.18223v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.07793v1",
+    "arxiv_id": "2511.07793v1",
+    "title": "HybridGuard: Enhancing Minority-Class Intrusion Detection in Dew-Enabled Edge-of-Things Networks",
+    "summary": "Securing Dew-Enabled Edge-of-Things (EoT) networks against sophisticated intrusions is a critical challenge. This paper presents HybridGuard, a framework that integrates machine learning and deep learning to improve intrusion detection. HybridGuard addresses data imbalance through mutual information based feature selection, ensuring that the most relevant features are used to improve detection performance, especially for minority attack classes. The framework leverages Wasserstein Conditional Generative Adversarial Networks with Gradient Penalty (WCGAN-GP) to further reduce class imbalance and enhance detection precision. It adopts a two-phase architecture called DualNetShield to support advanced traffic analysis and anomaly detection, improving the granular identification of threats in complex EoT environments. HybridGuard is evaluated on the UNSW-NB15, CIC-IDS-2017, and IOTID20 datasets, where it demonstrates strong performance across diverse attack scenarios and outperforms existing solutions in adapting to evolving cybersecurity threats. This approach establishes HybridGuard as an effective tool for protecting EoT networks against modern intrusions.",
+    "published": "2025-11-11T03:19:25Z",
+    "updated": "2025-11-11T03:19:25Z",
+    "authors": [
+      "Binayak Kara",
+      "Ujjwal Sahua",
+      "Ciza Thomas",
+      "Jyoti Prakash Sahoo"
+    ],
+    "affiliations": [],
+    "first_author": "Binayak Kara",
+    "pdf_url": "https://arxiv.org/pdf/2511.07793v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.06197v1",
+    "arxiv_id": "2511.06197v1",
+    "title": "Enhancing Adversarial Robustness of IoT Intrusion Detection via SHAP-Based Attribution Fingerprinting",
+    "summary": "The rapid proliferation of Internet of Things (IoT) devices has transformed numerous industries by enabling seamless connectivity and data-driven automation. However, this expansion has also exposed IoT networks to increasingly sophisticated security threats, including adversarial attacks targeting artificial intelligence (AI) and machine learning (ML)-based intrusion detection systems (IDS) to deliberately evade detection, induce misclassification, and systematically undermine the reliability and integrity of security defenses. To address these challenges, we propose a novel adversarial detection model that enhances the robustness of IoT IDS against adversarial attacks through SHapley Additive exPlanations (SHAP)-based fingerprinting. Using SHAP's DeepExplainer, we extract attribution fingerprints from network traffic features, enabling the IDS to reliably distinguish between clean and adversarially perturbed inputs. By capturing subtle attribution patterns, the model becomes more resilient to evasion attempts and adversarial manipulations. We evaluated the model on a standard IoT benchmark dataset, where it significantly outperformed a state-of-the-art method in detecting adversarial attacks. In addition to enhanced robustness, this approach improves model transparency and interpretability, thereby increasing trust in the IDS through explainable AI.",
+    "published": "2025-11-09T02:56:54Z",
+    "updated": "2025-11-09T02:56:54Z",
+    "authors": [
+      "Dilli Prasad Sharma",
+      "Liang Xue",
+      "Xiaowei Sun",
+      "Xiaodong Lin",
+      "Pulei Xiong"
+    ],
+    "affiliations": [],
+    "first_author": "Dilli Prasad Sharma",
+    "pdf_url": "https://arxiv.org/pdf/2511.06197v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.26350v1",
+    "arxiv_id": "2509.26350v1",
+    "title": "SoK: Systematic analysis of adversarial threats against deep learning approaches for autonomous anomaly detection systems in SDN-IoT networks",
+    "summary": "Integrating SDN and the IoT enhances network control and flexibility. DL-based AAD systems improve security by enabling real-time threat detection in SDN-IoT networks. However, these systems remain vulnerable to adversarial attacks that manipulate input data or exploit model weaknesses, significantly degrading detection accuracy. Existing research lacks a systematic analysis of adversarial vulnerabilities specific to DL-based AAD systems in SDN-IoT environments. This SoK study introduces a structured adversarial threat model and a comprehensive taxonomy of attacks, categorising them into data, model, and hybrid-level threats. Unlike previous studies, we systematically evaluate white, black, and grey-box attack strategies across popular benchmark datasets. Our findings reveal that adversarial attacks can reduce detection accuracy by up to 48.4%, with Membership Inference causing the most significant drop. C&W and DeepFool achieve high evasion success rates. However, adversarial training enhances robustness, and its high computational overhead limits the real-time deployment of SDN-IoT applications. We propose adaptive countermeasures, including real-time adversarial mitigation, enhanced retraining mechanisms, and explainable AI-driven security frameworks. By integrating structured threat models, this study offers a more comprehensive approach to attack categorisation, impact assessment, and defence evaluation than previous research. Our work highlights critical vulnerabilities in existing DL-based AAD models and provides practical recommendations for improving resilience, interpretability, and computational efficiency. This study serves as a foundational reference for researchers and practitioners seeking to enhance DL-based AAD security in SDN-IoT networks, offering a systematic adversarial threat model and conceptual defence evaluation based on prior empirical studies.",
+    "published": "2025-09-30T14:54:42Z",
+    "updated": "2025-09-30T14:54:42Z",
+    "authors": [
+      "Tharindu Lakshan Yasarathna",
+      "Nhien-An Le-Khac"
+    ],
+    "affiliations": [],
+    "first_author": "Tharindu Lakshan Yasarathna",
+    "pdf_url": "https://arxiv.org/pdf/2509.26350v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.17987v1",
+    "arxiv_id": "2509.17987v1",
+    "title": "Budgeted Adversarial Attack against Graph-Based Anomaly Detection in Sensor Networks",
+    "summary": "Graph Neural Networks (GNNs) have emerged as powerful models for anomaly detection in sensor networks, particularly when analyzing multivariate time series. In this work, we introduce BETA, a novel grey-box evasion attack targeting such GNN-based detectors, where the attacker is constrained to perturb sensor readings from a limited set of nodes, excluding the target sensor, with the goal of either suppressing a true anomaly or triggering a false alarm at the target node. BETA identifies the sensors most influential to the target node's classification and injects carefully crafted adversarial perturbations into their features, all while maintaining stealth and respecting the attacker's budget. Experiments on three real-world sensor network datasets show that BETA reduces the detection accuracy of state-of-the-art GNN-based detectors by 30.62 to 39.16% on average, and significantly outperforms baseline attack strategies, while operating within realistic constraints.",
+    "published": "2025-09-22T16:30:19Z",
+    "updated": "2025-09-22T16:30:19Z",
+    "authors": [
+      "Sanju Xaviar",
+      "Omid Ardakanian"
+    ],
+    "affiliations": [],
+    "first_author": "Sanju Xaviar",
+    "pdf_url": "https://arxiv.org/pdf/2509.17987v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19037v1",
+    "arxiv_id": "2512.19037v1",
+    "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+    "summary": "The proliferation of IoT devices and their reliance on Wi-Fi networks have introduced significant security vulnerabilities, particularly the KRACK and Kr00k attacks, which exploit weaknesses in WPA2 encryption to intercept and manipulate sensitive data. Traditional IDS using classifiers face challenges such as model overfitting, incomplete feature extraction, and high false positive rates, limiting their effectiveness in real-world deployments. To address these challenges, this study proposes a robust multiclass machine learning based intrusion detection framework. The methodology integrates advanced feature selection techniques to identify critical attributes, mitigating redundancy and enhancing detection accuracy. Two distinct ML architectures are implemented: a baseline classifier pipeline and a stacked ensemble model combining noise injection, Principal Component Analysis (PCA), and meta learning to improve generalization and reduce false positives. Evaluated on the AWID3 data set, the proposed ensemble architecture achieves superior performance, with an accuracy of 98%, precision of 98%, recall of 98%, and a false positive rate of just 2%, outperforming existing state-of-the-art methods. This work demonstrates the efficacy of combining preprocessing strategies with ensemble learning to fortify network security against sophisticated Wi-Fi attacks, offering a scalable and reliable solution for IoT environments. Future directions include real-time deployment and adversarial resilience testing to further enhance the model's adaptability.",
+    "published": "2025-12-22T05:14:26Z",
+    "updated": "2025-12-22T05:14:26Z",
+    "authors": [
+      "Md Minhazul Islam Munna",
+      "Md Mahbubur Rahman",
+      "Jaroslav Frnda",
+      "Muhammad Shahid Anwar",
+      "Alpamis Kutlimuratov"
+    ],
+    "affiliations": [],
+    "first_author": "Md Minhazul Islam Munna",
+    "pdf_url": "https://arxiv.org/pdf/2512.19037v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15275v1",
+    "arxiv_id": "2512.15275v1",
+    "title": "Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",
+    "summary": "Adversary emulation is an essential procedure for cybersecurity assessments such as evaluating an organization's security posture or facilitating structured training and research in dedicated environments. To allow for systematic and time-efficient assessments, several approaches from academia and industry have worked towards the automation of adversarial actions. However, they exhibit significant limitations regarding autonomy, tactics coverage, and real-world applicability. Consequently, adversary emulation remains a predominantly manual task requiring substantial human effort and security expertise - even amidst the rise of Large Language Models. In this paper, we present Bounty Hunter, an automated adversary emulation method, designed and implemented as an open-source plugin for the popular adversary emulation platform Caldera, that enables autonomous emulation of adversaries with multi-faceted behavior while providing a wide coverage of tactics. To this end, it realizes diverse adversarial behavior, such as different levels of detectability and varying attack paths across repeated emulations. By autonomously compromising a simulated enterprise network, Bounty Hunter showcases its ability to achieve given objectives without prior knowledge of its target, including pre-compromise, initial compromise, and post-compromise attack tactics. Overall, Bounty Hunter facilitates autonomous, comprehensive, and multi-faceted adversary emulation to help researchers and practitioners in performing realistic and time-efficient security assessments, training exercises, and intrusion detection research.",
+    "published": "2025-12-17T10:27:11Z",
+    "updated": "2025-12-17T10:27:11Z",
+    "authors": [
+      "Louis Hackl\u00e4nder-Jansen",
+      "Rafael Uetz",
+      "Martin Henze"
+    ],
+    "affiliations": [],
+    "first_author": "Louis Hackl\u00e4nder-Jansen",
+    "pdf_url": "https://arxiv.org/pdf/2512.15275v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15768v1",
+    "arxiv_id": "2512.15768v1",
+    "title": "PHANTOM: Progressive High-fidelity Adversarial Network for Threat Object Modeling",
+    "summary": "The scarcity of cyberattack data hinders the development of robust intrusion detection systems. This paper introduces PHANTOM, a novel adversarial variational framework for generating high-fidelity synthetic attack data. Its innovations include progressive training, a dual-path VAE-GAN architecture, and domain-specific feature matching to preserve the semantics of attacks. Evaluated on 100,000 network traffic samples, models trained on PHANTOM data achieve 98% weighted accuracy on real attacks. Statistical analyses confirm that the synthetic data preserves authentic distributions and diversity. Limitations in generating rare attack types are noted, highlighting challenges with severe class imbalance. This work advances the generation of synthetic data for training robust, privacy-preserving detection systems.",
+    "published": "2025-12-12T18:14:19Z",
+    "updated": "2025-12-12T18:14:19Z",
+    "authors": [
+      "Jamal Al-Karaki",
+      "Muhammad Al-Zafar Khan",
+      "Rand Derar Mohammad Al Athamneh"
+    ],
+    "affiliations": [],
+    "first_author": "Jamal Al-Karaki",
+    "pdf_url": "https://arxiv.org/pdf/2512.15768v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

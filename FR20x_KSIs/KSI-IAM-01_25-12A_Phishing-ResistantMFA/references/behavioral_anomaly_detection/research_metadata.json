@@ -1,0 +1,1076 @@
+{
+  "total_papers": 45,
+  "last_updated": "2025-12-11T12:58:35.218558",
+  "papers": [
+    {
+      "arxiv_id": "2507.21101v1",
+      "title": "SoK: A Systematic Review of Context- and Behavior-Aware Adaptive Authentication in Mobile Environments",
+      "authors": [
+        "Vyoma Harshitha Podapati",
+        "Divyansh Nigam",
+        "Sanchari Das"
+      ],
+      "published": "2025-07-06",
+      "updated": "2025-07-06",
+      "category": "behavioral_ml_authentication",
+      "query": "ti:behavioral AND (ti:authentication OR ti:biometric) AND (abs:anomaly OR abs:\"machine learning\" OR abs:\"deep learning\")",
+      "relevance_score": 25,
+      "file_size_mb": 0.37684154510498047,
+      "pdf_url": "https://arxiv.org/pdf/2507.21101v1",
+      "abstract": "As mobile computing becomes central to digital interaction, researchers have turned their attention to adaptive authentication for its real-time, context- and behavior-aware verification capabilities. However, many implementations remain fragmented, inconsistently apply intelligent techniques, and fall short of user expectations. In this Systematization of Knowledge (SoK), we analyze 41 peer-reviewed studies since 2011 that focus on adaptive authentication in mobile environments. Our analysis sp...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:55:35.316279"
+    },
+    {
+      "arxiv_id": "2402.16430v2",
+      "title": "Improving behavior based authentication against adversarial attack using XAI",
+      "authors": [
+        "Dong Qin",
+        "George Amariucai",
+        "Daji Qiao",
+        "Yong Guan"
+      ],
+      "published": "2024-02-26",
+      "updated": "2024-03-10",
+      "category": "behavioral_ml_authentication",
+      "query": "ti:behavioral AND (ti:authentication OR ti:biometric) AND (abs:anomaly OR abs:\"machine learning\" OR abs:\"deep learning\")",
+      "relevance_score": 21,
+      "file_size_mb": 1.1774530410766602,
+      "pdf_url": "https://arxiv.org/pdf/2402.16430v2",
+      "abstract": "In recent years, machine learning models, especially deep neural networks, have been widely used for classification tasks in the security domain. However, these models have been shown to be vulnerable to adversarial manipulation: small changes learned by an adversarial attack model, when applied to the input, can cause significant changes in the output. Most research on adversarial attacks and corresponding defense methods focuses only on scenarios where adversarial samples are directly generate...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.HC"
+      ],
+      "downloaded_at": "2025-12-11T12:55:39.014271"
+    },
+    {
+      "arxiv_id": "2401.16649v1",
+      "title": "Using Motion Forecasting for Behavior-Based Virtual Reality (VR) Authentication",
+      "authors": [
+        "Mingjun Li",
+        "Natasha Kholgade Banerjee",
+        "Sean Banerjee"
+      ],
+      "published": "2024-01-30",
+      "updated": "2024-01-30",
+      "category": "behavioral_ml_authentication",
+      "query": "ti:behavioral AND (ti:authentication OR ti:biometric) AND (abs:anomaly OR abs:\"machine learning\" OR abs:\"deep learning\")",
+      "relevance_score": 22,
+      "file_size_mb": 0.7617282867431641,
+      "pdf_url": "https://arxiv.org/pdf/2401.16649v1",
+      "abstract": "Task-based behavioral biometric authentication of users interacting in virtual reality (VR) environments enables seamless continuous authentication by using only the motion trajectories of the person's body as a unique signature. Deep learning-based approaches for behavioral biometrics show high accuracy when using complete or near complete portions of the user trajectory, but show lower performance when using smaller segments from the start of the task. Thus, any systems designed with existing ...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:55:42.338728"
+    },
+    {
+      "arxiv_id": "2508.13690v1",
+      "title": "Know Me by My Pulse: Toward Practical Continuous Authentication on Wearable Devices via Wrist-Worn PPG",
+      "authors": [
+        "Wei Shao",
+        "Zequan Liang",
+        "Ruoyu Zhang",
+        "Ruijie Fang",
+        "Ning Miao",
+        "Ehsan Kourkchi",
+        "Setareh Rafatirad",
+        "Houman Homayoun",
+        "Chongzhou Fang"
+      ],
+      "published": "2025-08-19",
+      "updated": "2025-08-19",
+      "category": "continuous_auth_ml",
+      "query": "ti:\"continuous authentication\" AND (abs:behavioral OR abs:biometric) AND (abs:\"machine learning\" OR abs:lstm OR abs:transformer)",
+      "relevance_score": 22,
+      "file_size_mb": 1.8751869201660156,
+      "pdf_url": "https://arxiv.org/pdf/2508.13690v1",
+      "abstract": "Biometric authentication using physiological signals offers a promising path toward secure and user-friendly access control in wearable devices. While electrocardiogram (ECG) signals have shown high discriminability, their intrusive sensing requirements and discontinuous acquisition limit practicality. Photoplethysmography (PPG), on the other hand, enables continuous, non-intrusive authentication with seamless integration into wrist-worn wearable devices. However, most prior work relies on high-...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:55:47.121445"
+    },
+    {
+      "arxiv_id": "2505.05015v1",
+      "title": "An Agent-Based Modeling Approach to Free-Text Keyboard Dynamics for Continuous Authentication",
+      "authors": [
+        "Roberto Dillon",
+        "Arushi"
+      ],
+      "published": "2025-05-08",
+      "updated": "2025-05-08",
+      "category": "continuous_auth_ml",
+      "query": "ti:\"continuous authentication\" AND (abs:behavioral OR abs:biometric) AND (abs:\"machine learning\" OR abs:lstm OR abs:transformer)",
+      "relevance_score": 28,
+      "file_size_mb": 0.7692556381225586,
+      "pdf_url": "https://arxiv.org/pdf/2505.05015v1",
+      "abstract": "Continuous authentication systems leveraging free-text keyboard dynamics offer a promising additional layer of security in a multifactor authentication setup that can be used in a transparent way with no impact on user experience. This study investigates the efficacy of behavioral biometrics by employing an Agent-Based Model (ABM) to simulate diverse typing profiles across mechanical and membrane keyboards. Specifically, we generated synthetic keystroke data from five unique agents, capturing fe...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:55:50.417246"
+    },
+    {
+      "arxiv_id": "2502.20359v1",
+      "title": "Evaluating the long-term viability of eye-tracking for continuous authentication in virtual reality",
+      "authors": [
+        "Sai Ganesh Grandhi",
+        "Saeed Samet"
+      ],
+      "published": "2025-02-27",
+      "updated": "2025-02-27",
+      "category": "continuous_auth_ml",
+      "query": "ti:\"continuous authentication\" AND (abs:behavioral OR abs:biometric) AND (abs:\"machine learning\" OR abs:lstm OR abs:transformer)",
+      "relevance_score": 28,
+      "file_size_mb": 0.4747896194458008,
+      "pdf_url": "https://arxiv.org/pdf/2502.20359v1",
+      "abstract": "Traditional authentication methods, such as passwords and biometrics, verify a user's identity only at the start of a session, leaving systems vulnerable to session hijacking. Continuous authentication, however, ensures ongoing verification by monitoring user behavior. This study investigates the long-term feasibility of eye-tracking as a behavioral biometric for continuous authentication in virtual reality (VR) environments, using data from the GazebaseVR dataset. Our approach evaluates three a...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:55:53.976818"
+    },
+    {
+      "arxiv_id": "2403.03832v1",
+      "title": "Your device may know you better than you know yourself -- continuous authentication on novel dataset using machine learning",
+      "authors": [
+        "Pedro Gomes do Nascimento",
+        "Pidge Witiak",
+        "Tucker MacCallum",
+        "Zachary Winterfeldt",
+        "Rushit Dave"
+      ],
+      "published": "2024-03-06",
+      "updated": "2024-03-06",
+      "category": "continuous_auth_ml",
+      "query": "ti:\"continuous authentication\" AND (abs:behavioral OR abs:biometric) AND (abs:\"machine learning\" OR abs:lstm OR abs:transformer)",
+      "relevance_score": 31,
+      "file_size_mb": 1.3880805969238281,
+      "pdf_url": "https://arxiv.org/pdf/2403.03832v1",
+      "abstract": "This research aims to further understanding in the field of continuous authentication using behavioral biometrics. We are contributing a novel dataset that encompasses the gesture data of 15 users playing Minecraft with a Samsung Tablet, each for a duration of 15 minutes. Utilizing this dataset, we employed machine learning (ML) binary classifiers, being Random Forest (RF), K-Nearest Neighbors (KNN), and Support Vector Classifier (SVC), to determine the authenticity of specific user actions. Our...",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:55:57.703264"
+    },
+    {
+      "arxiv_id": "2403.03828v1",
+      "title": "From Clicks to Security: Investigating Continuous Authentication via Mouse Dynamics",
+      "authors": [
+        "Rushit Dave",
+        "Marcho Handoko",
+        "Ali Rashid",
+        "Cole Schoenbauer"
+      ],
+      "published": "2024-03-06",
+      "updated": "2024-03-06",
+      "category": "continuous_auth_ml",
+      "query": "ti:\"continuous authentication\" AND (abs:behavioral OR abs:biometric) AND (abs:\"machine learning\" OR abs:lstm OR abs:transformer)",
+      "relevance_score": 31,
+      "file_size_mb": 0.46118736267089844,
+      "pdf_url": "https://arxiv.org/pdf/2403.03828v1",
+      "abstract": "In the realm of computer security, the importance of efficient and reliable user authentication methods has become increasingly critical. This paper examines the potential of mouse movement dynamics as a consistent metric for continuous authentication. By analyzing user mouse movement patterns in two contrasting gaming scenarios, \"Team Fortress\" and Poly Bridge we investigate the distinctive behavioral patterns inherent in high-intensity and low-intensity UI interactions. The study extends beyon...",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:56:00.971003"
+    },
+    {
+      "arxiv_id": "2412.12324v1",
+      "title": "F-RBA: A Federated Learning-based Framework for Risk-based Authentication",
+      "authors": [
+        "Hamidreza Fereidouni",
+        "Abdelhakim Senhaji Hafid",
+        "Dimitrios Makrakis",
+        "Yaser Baseri"
+      ],
+      "published": "2024-12-16",
+      "updated": "2024-12-16",
+      "category": "risk_based_adaptive",
+      "query": "(ti:\"risk-based authentication\" OR ti:\"adaptive MFA\") AND (abs:behavioral OR abs:\"anomaly detection\" OR abs:\"machine learning\")",
+      "relevance_score": 24,
+      "file_size_mb": 1.2400074005126953,
+      "pdf_url": "https://arxiv.org/pdf/2412.12324v1",
+      "abstract": "The proliferation of Internet services has led to an increasing need to protect private data. User authentication serves as a crucial mechanism to ensure data security. Although robust authentication forms the cornerstone of remote service security, it can still leave users vulnerable to credential disclosure, device-theft attacks, session hijacking, and inadequate adaptive security measures. Risk-based Authentication (RBA) emerges as a potential solution, offering a multi-level authentication a...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:56:04.673529"
+    },
+    {
+      "arxiv_id": "2403.11798v1",
+      "title": "Is It Really You Who Forgot the Password? When Account Recovery Meets Risk-Based Authentication",
+      "authors": [
+        "Andre B\u00fcttner",
+        "Andreas Thue Pedersen",
+        "Stephan Wiefling",
+        "Nils Gruschka",
+        "Luigi Lo Iacono"
+      ],
+      "published": "2024-03-18",
+      "updated": "2024-03-18",
+      "category": "risk_based_adaptive",
+      "query": "(ti:\"risk-based authentication\" OR ti:\"adaptive MFA\") AND (abs:behavioral OR abs:\"anomaly detection\" OR abs:\"machine learning\")",
+      "relevance_score": 21,
+      "file_size_mb": 0.8378458023071289,
+      "pdf_url": "https://arxiv.org/pdf/2403.11798v1",
+      "abstract": "Risk-based authentication (RBA) is used in online services to protect user accounts from unauthorized takeover. RBA commonly uses contextual features that indicate a suspicious login attempt when the characteristic attributes of the login context deviate from known and thus expected values. Previous research on RBA and anomaly detection in authentication has mainly focused on the login process. However, recent attacks have revealed vulnerabilities in other parts of the authentication process, sp...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:56:08.301709"
+    },
+    {
+      "arxiv_id": "2508.19465v1",
+      "title": "Addressing Weak Authentication like RFID, NFC in EVs and EVCs using AI-powered Adaptive Authentication",
+      "authors": [
+        "Onyinye Okoye"
+      ],
+      "published": "2025-08-26",
+      "updated": "2025-08-26",
+      "category": "adaptive_risk_ml",
+      "query": "abs:\"adaptive authentication\" AND abs:behavioral AND (abs:\"risk score\" OR abs:\"risk assessment\" OR abs:ml)",
+      "relevance_score": 26,
+      "file_size_mb": 1.2834482192993164,
+      "pdf_url": "https://arxiv.org/pdf/2508.19465v1",
+      "abstract": "The rapid expansion of the Electric Vehicles (EVs) and Electric Vehicle Charging Systems (EVCs) has introduced new cybersecurity challenges, specifically in authentication protocols that protect vehicles, users, and energy infrastructure. Although widely adopted for convenience, traditional authentication mechanisms like Radio Frequency Identification (RFID) and Near Field Communication (NFC) rely on static identifiers and weak encryption, making them highly vulnerable to attack vectors such as ...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:56:11.892774"
+    },
+    {
+      "arxiv_id": "2508.18453v3",
+      "title": "Privacy-Preserving Federated Learning Framework for Risk-Based Adaptive Authentication",
+      "authors": [
+        "Yaser Baseri",
+        "Abdelhakim Senhaji Hafid",
+        "Dimitrios Makrakis",
+        "Hamidreza Fereidouni"
+      ],
+      "published": "2025-08-25",
+      "updated": "2025-09-19",
+      "category": "adaptive_risk_ml",
+      "query": "abs:\"adaptive authentication\" AND abs:behavioral AND (abs:\"risk score\" OR abs:\"risk assessment\" OR abs:ml)",
+      "relevance_score": 29,
+      "file_size_mb": 1.441070556640625,
+      "pdf_url": "https://arxiv.org/pdf/2508.18453v3",
+      "abstract": "Balancing robust security with strong privacy guarantees is critical for Risk-Based Adaptive Authentication (RBA), particularly in decentralized settings. Federated Learning (FL) offers a promising solution by enabling collaborative risk assessment without centralizing user data. However, existing FL approaches struggle with Non-Independent and Identically Distributed (Non-IID) user features, resulting in biased, unstable, and poorly generalized global models. This paper introduces FL-RBA2, a no...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:56:15.223327"
+    },
+    {
+      "arxiv_id": "2505.19577v3",
+      "title": "MFA-KWS: Effective Keyword Spotting with Multi-head Frame-asynchronous Decoding",
+      "authors": [
+        "Yu Xi",
+        "Haoyu Li",
+        "Xiaoyu Gu",
+        "Yidi Jiang",
+        "Kai Yu"
+      ],
+      "published": "2025-05-26",
+      "updated": "2025-06-30",
+      "category": "mfa_ml_behavioral",
+      "query": "ti:MFA OR ti:\"multi-factor authentication\" AND abs:\"machine learning\" AND (abs:behavioral OR abs:adaptive)",
+      "relevance_score": 7,
+      "file_size_mb": 0.70782470703125,
+      "pdf_url": "https://arxiv.org/pdf/2505.19577v3",
+      "abstract": "Keyword spotting (KWS) is essential for voice-driven applications, demanding both accuracy and efficiency. Traditional ASR-based KWS methods, such as greedy and beam search, explore the entire search space without explicitly prioritizing keyword detection, often leading to suboptimal performance. In this paper, we propose an effective keyword-specific KWS framework by introducing a streaming-oriented CTC-Transducer-combined frame-asynchronous system with multi-head frame-asynchronous decoding (M...",
+      "primary_category": "eess.AS",
+      "categories": [
+        "eess.AS",
+        "cs.SD"
+      ],
+      "downloaded_at": "2025-12-11T12:56:19.139564"
+    },
+    {
+      "arxiv_id": "2504.07315v2",
+      "title": "Multilingual MFA: Forced Alignment on Low-Resource Related Languages",
+      "authors": [
+        "Alessio Tosolini",
+        "Claire Bowern"
+      ],
+      "published": "2025-04-09",
+      "updated": "2025-04-23",
+      "category": "mfa_ml_behavioral",
+      "query": "ti:MFA OR ti:\"multi-factor authentication\" AND abs:\"machine learning\" AND (abs:behavioral OR abs:adaptive)",
+      "relevance_score": 5,
+      "file_size_mb": 1.4305458068847656,
+      "pdf_url": "https://arxiv.org/pdf/2504.07315v2",
+      "abstract": "We compare the outcomes of multilingual and crosslingual training for related and unrelated Australian languages with similar phonological inventories. We use the Montreal Forced Aligner to train acoustic models from scratch and adapt a large English model, evaluating results against seen data, unseen data (seen language), and unseen data and language. Results indicate benefits of adapting the English baseline model for previously unseen languages....",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL"
+      ],
+      "downloaded_at": "2025-12-11T12:56:23.181763"
+    },
+    {
+      "arxiv_id": "2406.09000v1",
+      "title": "A Passwordless MFA Utlizing Biometrics, Proximity and Contactless Communication",
+      "authors": [
+        "Sneha Shukla",
+        "Gaurav Varshney",
+        "Shreya Singh",
+        "Swati Goel"
+      ],
+      "published": "2024-06-13",
+      "updated": "2024-06-13",
+      "category": "mfa_ml_behavioral",
+      "query": "ti:MFA OR ti:\"multi-factor authentication\" AND abs:\"machine learning\" AND (abs:behavioral OR abs:adaptive)",
+      "relevance_score": 18,
+      "file_size_mb": 1.007065773010254,
+      "pdf_url": "https://arxiv.org/pdf/2406.09000v1",
+      "abstract": "Despite being more secure and strongly promoted, two-factor (2FA) or multi-factor (MFA) schemes either fail to protect against recent phishing threats such as real-time MITM, controls/relay MITM, malicious browser extension-based phishing attacks, and/or need the users to purchase and carry other hardware for additional account protection. Leveraging the unprecedented popularity of NFC and BLE-enabled smartphones, we explore a new horizon for designing an MFA scheme. This paper introduces an adv...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:56:27.047611"
+    },
+    {
+      "arxiv_id": "2405.04064v2",
+      "title": "MFA-Net: Multi-Scale feature fusion attention network for liver tumor segmentation",
+      "authors": [
+        "Yanli Yuan",
+        "Bingbing Wang",
+        "Chuan Zhang",
+        "Jingyi Xu",
+        "Ximeng Liu",
+        "Liehuang Zhu"
+      ],
+      "published": "2024-05-07",
+      "updated": "2024-05-09",
+      "category": "mfa_ml_behavioral",
+      "query": "ti:MFA OR ti:\"multi-factor authentication\" AND abs:\"machine learning\" AND (abs:behavioral OR abs:adaptive)",
+      "relevance_score": 7,
+      "file_size_mb": 2.7965173721313477,
+      "pdf_url": "https://arxiv.org/pdf/2405.04064v2",
+      "abstract": "Segmentation of organs of interest in medical CT images is beneficial for diagnosis of diseases. Though recent methods based on Fully Convolutional Neural Networks (F-CNNs) have shown success in many segmentation tasks, fusing features from images with different scales is still a challenge: (1) Due to the lack of spatial awareness, F-CNNs share the same weights at different spatial locations. (2) F-CNNs can only obtain surrounding information through local receptive fields. To address the above ...",
+      "primary_category": "cs.AI",
+      "categories": [
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:56:30.848382"
+    },
+    {
+      "arxiv_id": "2511.12468v1",
+      "title": "Detecting LLM-Assisted Academic Dishonesty using Keystroke Dynamics",
+      "authors": [
+        "Atharva Mehta",
+        "Rajesh Kumar",
+        "Aman Singla",
+        "Kartik Bisht",
+        "Yaman Kumar Singla",
+        "Rajiv Ratn Shah"
+      ],
+      "published": "2025-11-16",
+      "updated": "2025-11-16",
+      "category": "behavioral_biometrics_ml",
+      "query": "(abs:\"keystroke dynamics\" OR abs:\"mouse dynamics\" OR abs:\"touch dynamics\") AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:lstm)",
+      "relevance_score": 13,
+      "file_size_mb": 3.457235336303711,
+      "pdf_url": "https://arxiv.org/pdf/2511.12468v1",
+      "abstract": "The rapid adoption of generative AI tools has intensified the challenge of maintaining academic integrity. Conventional plagiarism detectors, which rely on text-matching or text-intrinsic features, often fail to identify submissions that have been AI-assisted or paraphrased. To address this limitation, we introduce keystroke-dynamics-based detectors that analyze how, rather than what, a person writes to distinguish genuine from assisted writing. Building on our earlier study, which collected key...",
+      "primary_category": "cs.HC",
+      "categories": [
+        "cs.HC"
+      ],
+      "downloaded_at": "2025-12-11T12:56:35.873465"
+    },
+    {
+      "arxiv_id": "2510.15950v1",
+      "title": "Cross-dataset Multivariate Time-series Model for Parkinson's Diagnosis via Keyboard Dynamics",
+      "authors": [
+        "Arianna Francesconi",
+        "Donato Cappetta",
+        "Fabio Rebecchi",
+        "Paolo Soda",
+        "Valerio Guarrasi",
+        "Rosa Sicilia"
+      ],
+      "published": "2025-10-10",
+      "updated": "2025-10-10",
+      "category": "behavioral_biometrics_ml",
+      "query": "(abs:\"keystroke dynamics\" OR abs:\"mouse dynamics\" OR abs:\"touch dynamics\") AND (abs:\"machine learning\" OR abs:\"deep learning\" OR abs:lstm)",
+      "relevance_score": 5,
+      "file_size_mb": 1.1128435134887695,
+      "pdf_url": "https://arxiv.org/pdf/2510.15950v1",
+      "abstract": "Parkinson's disease (PD) presents a growing global challenge, affecting over 10 million individuals, with prevalence expected to double by 2040. Early diagnosis remains difficult due to the late emergence of motor symptoms and limitations of traditional clinical assessments. In this study, we propose a novel pipeline that leverages keystroke dynamics as a non-invasive and scalable biomarker for remote PD screening and telemonitoring. Our methodology involves three main stages: (i) preprocessing ...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:56:39.779807"
+    },
+    {
+      "arxiv_id": "2512.08879v1",
+      "title": "DAO-GP Drift Aware Online Non-Linear Regression Gaussian-Process",
+      "authors": [
+        "Mohammad Abu-Shaira",
+        "Ajita Rattani",
+        "Weishi Shi"
+      ],
+      "published": "2025-12-09",
+      "updated": "2025-12-09",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 5,
+      "file_size_mb": 2.6723642349243164,
+      "pdf_url": "https://arxiv.org/pdf/2512.08879v1",
+      "abstract": "Real-world datasets often exhibit temporal dynamics characterized by evolving data distributions. Disregarding this phenomenon, commonly referred to as concept drift, can significantly diminish a model's predictive accuracy. Furthermore, the presence of hyperparameters in online models exacerbates this issue. These parameters are typically fixed and cannot be dynamically adjusted by the user in response to the evolving data distribution. Gaussian Process (GP) models offer powerful non-parametric...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:56:45.960486"
+    },
+    {
+      "arxiv_id": "2511.22078v1",
+      "title": "ARES: Anomaly Recognition Model For Edge Streams",
+      "authors": [
+        "Simone Mungari",
+        "Albert Bifet",
+        "Giuseppe Manco",
+        "Bernhard Pfahringer"
+      ],
+      "published": "2025-11-27",
+      "updated": "2025-11-27",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 0.718902587890625,
+      "pdf_url": "https://arxiv.org/pdf/2511.22078v1",
+      "abstract": "Many real-world scenarios involving streaming information can be represented as temporal graphs, where data flows through dynamic changes in edges over time. Anomaly detection in this context has the objective of identifying unusual temporal connections within the graph structure. Detecting edge anomalies in real time is crucial for mitigating potential risks. Unlike traditional anomaly detection, this task is particularly challenging due to concept drifts, large data volumes, and the need for r...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:56:49.268273"
+    },
+    {
+      "arxiv_id": "2511.11979v1",
+      "title": "CITADEL: A Semi-Supervised Active Learning Framework for Malware Detection Under Continuous Distribution Drift",
+      "authors": [
+        "Md Ahsanul Haque",
+        "Md Mahmuduzzaman Kamol",
+        "Ismail Hossain",
+        "Suresh Kumar Amalapuram",
+        "Vladik Kreinovich",
+        "Mohammad Saidur Rahman"
+      ],
+      "published": "2025-11-15",
+      "updated": "2025-11-15",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 8,
+      "file_size_mb": 8.123552322387695,
+      "pdf_url": "https://arxiv.org/pdf/2511.11979v1",
+      "abstract": "Android malware evolves rapidly, leading to concept drift that degrades the performance of traditional machine learning (ML)-based detection systems. While recent approaches incorporate active learning and hierarchical contrastive loss to handle this drift, they remain fully supervised, computationally expensive, and perform poorly on real-world datasets with long temporal spans. In particular, our evaluation highlights these limitations, particularly on LAMDA, a 12-year longitudinal dataset exh...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:56:55.635830"
+    },
+    {
+      "arxiv_id": "2511.03807v1",
+      "title": "Fair and Explainable Credit-Scoring under Concept Drift: Adaptive Explanation Frameworks for Evolving Populations",
+      "authors": [
+        "Shivogo John"
+      ],
+      "published": "2025-11-05",
+      "updated": "2025-11-05",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 16,
+      "file_size_mb": 0.8463754653930664,
+      "pdf_url": "https://arxiv.org/pdf/2511.03807v1",
+      "abstract": "Evolving borrower behaviors, shifting economic conditions, and changing regulatory landscapes continuously reshape the data distributions underlying modern credit-scoring systems. Conventional explainability techniques, such as SHAP, assume static data and fixed background distributions, making their explanations unstable and potentially unfair when concept drift occurs. This study addresses that challenge by developing adaptive explanation frameworks that recalibrate interpretability and fairne...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:56:58.932553"
+    },
+    {
+      "arxiv_id": "2511.00704v2",
+      "title": "Investigating the Robustness of Knowledge Tracing Models in the Presence of Student Concept Drift",
+      "authors": [
+        "Morgan Lee",
+        "Artem Frenk",
+        "Eamon Worden",
+        "Karish Gupta",
+        "Thinh Pham",
+        "Ethan Croteau",
+        "Neil Heffernan"
+      ],
+      "published": "2025-11-01",
+      "updated": "2025-11-04",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 0.5097503662109375,
+      "pdf_url": "https://arxiv.org/pdf/2511.00704v2",
+      "abstract": "Knowledge Tracing (KT) has been an established problem in the educational data mining field for decades, and it is commonly assumed that the underlying learning process being modeled remains static. Given the ever-changing landscape of online learning platforms (OLPs), we investigate how concept drift and changing student populations can impact student behavior within an OLP through testing model performance both within a single academic year and across multiple academic years. Four well-studied...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "downloaded_at": "2025-12-11T12:57:02.572440"
+    },
+    {
+      "arxiv_id": "2510.03911v1",
+      "title": "THEMIS: Unlocking Pretrained Knowledge with Foundation Model Embeddings for Anomaly Detection in Time Series",
+      "authors": [
+        "Yadav Mahesh Lorik",
+        "Kaushik Sarveswaran",
+        "Nagaraj Sundaramahalingam",
+        "Aravindakumar Venugopalan"
+      ],
+      "published": "2025-10-04",
+      "updated": "2025-10-04",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 12,
+      "file_size_mb": 2.3243408203125,
+      "pdf_url": "https://arxiv.org/pdf/2510.03911v1",
+      "abstract": "Time series anomaly detection forms a very crucial area in several domains but poses substantial challenges. Due to time series data possessing seasonality, trends, noise, and evolving patterns (concept drift), it becomes very difficult to set a general notion of what constitutes normal behavior. Anomalies themselves could be varied, ranging from a single outlier to contextual or collective anomalies, and are normally very rare; hence, the dataset is largely imbalanced. Additional layers of comp...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:05.903069"
+    },
+    {
+      "arxiv_id": "2509.19654v1",
+      "title": "Symbol-Temporal Consistency Self-supervised Learning for Robust Time Series Classification",
+      "authors": [
+        "Kevin Garcia",
+        "Cassandra Garza",
+        "Brooklyn Berry",
+        "Yifeng Gao"
+      ],
+      "published": "2025-09-24",
+      "updated": "2025-09-24",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 5,
+      "file_size_mb": 0.7592411041259766,
+      "pdf_url": "https://arxiv.org/pdf/2509.19654v1",
+      "abstract": "The surge in the significance of time series in digital health domains necessitates advanced methodologies for extracting meaningful patterns and representations. Self-supervised contrastive learning has emerged as a promising approach for learning directly from raw data. However, time series data in digital health is known to be highly noisy, inherently involves concept drifting, and poses a challenge for training a generalizable deep learning model. In this paper, we specifically focus on data...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:09.503088"
+    },
+    {
+      "arxiv_id": "2509.11367v1",
+      "title": "Detecting Model Drifts in Non-Stationary Environment Using Edit Operation Measures",
+      "authors": [
+        "Chang-Hwan Lee",
+        "Alexander Shim"
+      ],
+      "published": "2025-09-14",
+      "updated": "2025-09-14",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 0.4614295959472656,
+      "pdf_url": "https://arxiv.org/pdf/2509.11367v1",
+      "abstract": "Reinforcement learning (RL) agents typically assume stationary environment dynamics. Yet in real-world applications such as healthcare, robotics, and finance, transition probabilities or reward functions may evolve, leading to model drift. This paper proposes a novel framework to detect such drifts by analyzing the distributional changes in sequences of agent behavior. Specifically, we introduce a suite of edit operation-based measures to quantify deviations between state-action trajectories gen...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:57:12.778538"
+    },
+    {
+      "arxiv_id": "2508.18289v1",
+      "title": "Data-driven models for production forecasting and decision supporting in petroleum reservoirs",
+      "authors": [
+        "Mateus A. Fernandes",
+        "Michael M. Furlanetti",
+        "Eduardo Gildin",
+        "Marcio A. Sampaio"
+      ],
+      "published": "2025-08-21",
+      "updated": "2025-08-21",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 6,
+      "file_size_mb": 2.304684638977051,
+      "pdf_url": "https://arxiv.org/pdf/2508.18289v1",
+      "abstract": "Forecasting production reliably and anticipating changes in the behavior of rock-fluid systems are the main challenges in petroleum reservoir engineering. This project proposes to deal with this problem through a data-driven approach and using machine learning methods. The objective is to develop a methodology to forecast production parameters based on simple data as produced and injected volumes and, eventually, gauges located in wells, without depending on information from geological models, f...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:16.125566"
+    },
+    {
+      "arxiv_id": "2508.07927v1",
+      "title": "Adaptive Fine-Tuning via Pattern Specialization for Deep Time Series Forecasting",
+      "authors": [
+        "Amal Saadallah",
+        "Abdulaziz Al-Ademi"
+      ],
+      "published": "2025-08-11",
+      "updated": "2025-08-11",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 8,
+      "file_size_mb": 1.4918737411499023,
+      "pdf_url": "https://arxiv.org/pdf/2508.07927v1",
+      "abstract": "Time series forecasting poses significant challenges in non-stationary environments where underlying patterns evolve over time. In this work, we propose a novel framework that enhances deep neural network (DNN) performance by leveraging specialized model adaptation and selection. Initially, a base DNN is trained offline on historical time series data. A reserved validation subset is then segmented to extract and cluster the most dominant patterns within the series, thereby identifying distinct r...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:19.977980"
+    },
+    {
+      "arxiv_id": "2508.05695v1",
+      "title": "MambaITD: An Efficient Cross-Modal Mamba Network for Insider Threat Detection",
+      "authors": [
+        "Kaichuan Kong",
+        "Dongjie Liu",
+        "Xiaobo Jin",
+        "Zhiying Li",
+        "Guanggang Geng",
+        "Jian Weng"
+      ],
+      "published": "2025-08-06",
+      "updated": "2025-08-06",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 0.7702646255493164,
+      "pdf_url": "https://arxiv.org/pdf/2508.05695v1",
+      "abstract": "Enterprises are facing increasing risks of insider threats, while existing detection methods are unable to effectively address these challenges due to reasons such as insufficient temporal dynamic feature modeling, computational efficiency and real-time bottlenecks and cross-modal information island problem. This paper proposes a new insider threat detection framework MambaITD based on the Mamba state space model and cross-modal adaptive fusion. First, the multi-source log preprocessing module a...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:23.278719"
+    },
+    {
+      "arxiv_id": "2508.08281v1",
+      "title": "Multi-grained spatial-temporal feature complementarity for accurate online cellular traffic prediction",
+      "authors": [
+        "Ningning Fu",
+        "Shengheng Liu",
+        "Weiliang Xie",
+        "Yongming Huang"
+      ],
+      "published": "2025-08-01",
+      "updated": "2025-08-01",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 7,
+      "file_size_mb": 4.9161529541015625,
+      "pdf_url": "https://arxiv.org/pdf/2508.08281v1",
+      "abstract": "Knowledge discovered from telecom data can facilitate proactive understanding of network dynamics and user behaviors, which in turn empowers service providers to optimize cellular traffic scheduling and resource allocation. Nevertheless, the telecom industry still heavily relies on manual expert intervention. Existing studies have been focused on exhaustively explore the spatial-temporal correlations. However, they often overlook the underlying characteristics of cellular traffic, which are shap...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "downloaded_at": "2025-12-11T12:57:28.028814"
+    },
+    {
+      "arxiv_id": "2507.16749v1",
+      "title": "Bootstrapped Control Limits for Score-Based Concept Drift Control Charts",
+      "authors": [
+        "Jiezhong Wu",
+        "Daniel W. Apley"
+      ],
+      "published": "2025-07-22",
+      "updated": "2025-07-22",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 0.7615842819213867,
+      "pdf_url": "https://arxiv.org/pdf/2507.16749v1",
+      "abstract": "Monitoring for changes in a predictive relationship represented by a fitted supervised learning model (aka concept drift detection) is a widespread problem, e.g., for retrospective analysis to determine whether the predictive relationship was stable over the training data, for prospective analysis to determine when it is time to update the predictive model, for quality control of processes whose behavior can be characterized by a predictive relationship, etc. A general and powerful Fisher score-...",
+      "primary_category": "stat.ME",
+      "categories": [
+        "stat.ME",
+        "stat.ML"
+      ],
+      "downloaded_at": "2025-12-11T12:57:31.703900"
+    },
+    {
+      "arxiv_id": "2507.14876v1",
+      "title": "Tidal-Like Concept Drift in RIS-Covered Buildings: When Programmable Wireless Environments Meet Human Behaviors",
+      "authors": [
+        "Zi-Yang Wu",
+        "Muhammad Ismail",
+        "Jiliang Zhang",
+        "Jie Zhang"
+      ],
+      "published": "2025-07-20",
+      "updated": "2025-07-20",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 11,
+      "file_size_mb": 7.184918403625488,
+      "pdf_url": "https://arxiv.org/pdf/2507.14876v1",
+      "abstract": "Indoor mobile networks handle the majority of data traffic, with their performance limited by building materials and structures. However, building designs have historically not prioritized wireless performance. Prior to the advent of reconfigurable intelligent surfaces (RIS), the industry passively adapted to wireless propagation challenges within buildings. Inspired by RIS's successes in outdoor networks, we propose embedding RIS into building structures to manipulate and enhance building wirel...",
+      "primary_category": "cs.NI",
+      "categories": [
+        "cs.NI"
+      ],
+      "downloaded_at": "2025-12-11T12:57:37.734837"
+    },
+    {
+      "arxiv_id": "2506.10049v2",
+      "title": "Online Discovery of Simulation Models for Evolving Business Processes (Extended Version)",
+      "authors": [
+        "Francesco Vinci",
+        "Gyunam Park",
+        "Wil van der Aalst",
+        "Massimiliano de Leoni"
+      ],
+      "published": "2025-06-11",
+      "updated": "2025-06-24",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 5,
+      "file_size_mb": 2.4855728149414062,
+      "pdf_url": "https://arxiv.org/pdf/2506.10049v2",
+      "abstract": "Business Process Simulation (BPS) refers to techniques designed to replicate the dynamic behavior of a business process. Many approaches have been proposed to automatically discover simulation models from historical event logs, reducing the cost and time to manually design them. However, in dynamic business environments, organizations continuously refine their processes to enhance efficiency, reduce costs, and improve customer satisfaction. Existing techniques to process simulation discovery lac...",
+      "primary_category": "cs.SE",
+      "categories": [
+        "cs.SE",
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:41.996375"
+    },
+    {
+      "arxiv_id": "2505.07852v1",
+      "title": "Joint Detection of Fraud and Concept Drift inOnline Conversations with LLM-Assisted Judgment",
+      "authors": [
+        "Ali Senol",
+        "Garima Agrawal",
+        "Huan Liu"
+      ],
+      "published": "2025-05-07",
+      "updated": "2025-05-07",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 13,
+      "file_size_mb": 0.7107400894165039,
+      "pdf_url": "https://arxiv.org/pdf/2505.07852v1",
+      "abstract": "Detecting fake interactions in digital communication platforms remains a challenging and insufficiently addressed problem. These interactions may appear as harmless spam or escalate into sophisticated scam attempts, making it difficult to flag malicious intent early. Traditional detection methods often rely on static anomaly detection techniques that fail to adapt to dynamic conversational shifts. One key limitation is the misinterpretation of benign topic transitions referred to as concept drif...",
+      "primary_category": "cs.CL",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:57:45.273069"
+    },
+    {
+      "arxiv_id": "2502.20627v1",
+      "title": "Towards Zero Touch Networks: Cross-Layer Automated Security Solutions for 6G Wireless Networks",
+      "authors": [
+        "Li Yang",
+        "Shimaa Naser",
+        "Abdallah Shami",
+        "Sami Muhaidat",
+        "Lyndon Ong",
+        "M\u00e9rouane Debbah"
+      ],
+      "published": "2025-02-28",
+      "updated": "2025-02-28",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 10,
+      "file_size_mb": 7.969973564147949,
+      "pdf_url": "https://arxiv.org/pdf/2502.20627v1",
+      "abstract": "The transition from 5G to 6G mobile networks necessitates network automation to meet the escalating demands for high data rates, ultra-low latency, and integrated technology. Recently, Zero-Touch Networks (ZTNs), driven by Artificial Intelligence (AI) and Machine Learning (ML), are designed to automate the entire lifecycle of network operations with minimal human intervention, presenting a promising solution for enhancing automation in 5G/6G networks. However, the implementation of ZTNs brings f...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.LG",
+        "cs.NI"
+      ],
+      "downloaded_at": "2025-12-11T12:57:51.610803"
+    },
+    {
+      "arxiv_id": "2502.16406v2",
+      "title": "TrustChain: A Blockchain Framework for Auditing and Verifying Aggregators in Decentralized Federated Learning",
+      "authors": [
+        "Ehsan Hallaji",
+        "Roozbeh Razavi-Far",
+        "Mehrdad Saif"
+      ],
+      "published": "2025-02-23",
+      "updated": "2025-11-08",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 7,
+      "file_size_mb": 2.3327531814575195,
+      "pdf_url": "https://arxiv.org/pdf/2502.16406v2",
+      "abstract": "The server-less nature of Decentralized Federated Learning (DFL) requires allocating the aggregation role to specific participants in each federated round. Current DFL architectures ensure the trustworthiness of the aggregator node upon selection. However, most of these studies overlook the possibility that the aggregating node may turn rogue and act maliciously after being nominated. To address this problem, this paper proposes a DFL structure, called TrustChain, that scores the aggregators bef...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:57:55.665448"
+    },
+    {
+      "arxiv_id": "2501.00438v1",
+      "title": "METANOIA: A Lifelong Intrusion Detection and Investigation System for Mitigating Concept Drift",
+      "authors": [
+        "Jie Ying",
+        "Tiantian Zhu",
+        "Aohan Zheng",
+        "Tieming Chen",
+        "Mingqi Lv",
+        "Yan Chen"
+      ],
+      "published": "2024-12-31",
+      "updated": "2024-12-31",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 13,
+      "file_size_mb": 0.7246837615966797,
+      "pdf_url": "https://arxiv.org/pdf/2501.00438v1",
+      "abstract": "As Advanced Persistent Threat (APT) complexity increases, provenance data is increasingly used for detection. Anomaly-based systems are gaining attention due to their attack-knowledge-agnostic nature and ability to counter zero-day vulnerabilities. However, traditional detection paradigms, which train on offline, limited-size data, often overlook concept drift - unpredictable changes in streaming data distribution over time. This leads to high false positive rates. We propose incremental learnin...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:57:59.504164"
+    },
+    {
+      "arxiv_id": "2411.16591v2",
+      "title": "Adversarial Attacks for Drift Detection",
+      "authors": [
+        "Fabian Hinder",
+        "Valerie Vaquet",
+        "Barbara Hammer"
+      ],
+      "published": "2024-11-25",
+      "updated": "2025-02-06",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 11,
+      "file_size_mb": 0.5946426391601562,
+      "pdf_url": "https://arxiv.org/pdf/2411.16591v2",
+      "abstract": "Concept drift refers to the change of data distributions over time. While drift poses a challenge for learning models, requiring their continual adaption, it is also relevant in system monitoring to detect malfunctions, system failures, and unexpected behavior. In the latter case, the robust and reliable detection of drifts is imperative. This work studies the shortcomings of commonly used drift detection schemes. We show how to construct data streams that are drifting without being detected. We...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "stat.ML"
+      ],
+      "downloaded_at": "2025-12-11T12:58:03.092064"
+    },
+    {
+      "arxiv_id": "2410.10041v2",
+      "title": "WormKAN: Are KAN Effective for Identifying and Tracking Concept Drift in Time Series?",
+      "authors": [
+        "Kunpeng Xu",
+        "Lifei Chen",
+        "Shengrui Wang"
+      ],
+      "published": "2024-10-13",
+      "updated": "2024-12-13",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 10,
+      "file_size_mb": 3.340871810913086,
+      "pdf_url": "https://arxiv.org/pdf/2410.10041v2",
+      "abstract": "Dynamic concepts in time series are crucial for understanding complex systems such as financial markets, healthcare, and online activity logs. These concepts help reveal structures and behaviors in sequential data for better decision-making and forecasting. However, existing models often struggle to detect and track concept drift due to limitations in interpretability and adaptability. To address this challenge, inspired by the flexibility of the recent Kolmogorov-Arnold Network (KAN), we propos...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:58:06.536203"
+    },
+    {
+      "arxiv_id": "2407.10052v2",
+      "title": "Augmented Neural Fine-Tuning for Efficient Backdoor Purification",
+      "authors": [
+        "Nazmul Karim",
+        "Abdullah Al Arafat",
+        "Umar Khalid",
+        "Zhishan Guo",
+        "Nazanin Rahnavard"
+      ],
+      "published": "2024-07-14",
+      "updated": "2024-07-17",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 1.8005857467651367,
+      "pdf_url": "https://arxiv.org/pdf/2407.10052v2",
+      "abstract": "Recent studies have revealed the vulnerability of deep neural networks (DNNs) to various backdoor attacks, where the behavior of DNNs can be compromised by utilizing certain types of triggers or poisoning mechanisms. State-of-the-art (SOTA) defenses employ too-sophisticated mechanisms that require either a computationally expensive adversarial search module for reverse-engineering the trigger distribution or an over-sensitive hyper-parameter selection module. Moreover, they offer sub-par perform...",
+      "primary_category": "cs.CV",
+      "categories": [
+        "cs.CV"
+      ],
+      "downloaded_at": "2025-12-11T12:58:10.510101"
+    },
+    {
+      "arxiv_id": "2407.05379v1",
+      "title": "AiGAS-dEVL: An Adaptive Incremental Neural Gas Model for Drifting Data Streams under Extreme Verification Latency",
+      "authors": [
+        "Maria Arostegi",
+        "Miren Nekane Bilbao",
+        "Jesus L. Lobo",
+        "Javier Del Ser"
+      ],
+      "published": "2024-07-07",
+      "updated": "2024-07-07",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 12,
+      "file_size_mb": 15.664103507995605,
+      "pdf_url": "https://arxiv.org/pdf/2407.05379v1",
+      "abstract": "The ever-growing speed at which data are generated nowadays, together with the substantial cost of labeling processes cause Machine Learning models to face scenarios in which data are partially labeled. The extreme case where such a supervision is indefinitely unavailable is referred to as extreme verification latency. On the other hand, in streaming setups data flows are affected by exogenous factors that yield non-stationarities in the patterns (concept drift), compelling models learned increm...",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.NE"
+      ],
+      "downloaded_at": "2025-12-11T12:58:15.855889"
+    },
+    {
+      "arxiv_id": "2405.04095v3",
+      "title": "Combating Concept Drift with Explanatory Detection and Adaptation for Android Malware Classification",
+      "authors": [
+        "Yiling He",
+        "Junchi Lei",
+        "Zhan Qin",
+        "Kui Ren",
+        "Chun Chen"
+      ],
+      "published": "2024-05-07",
+      "updated": "2025-05-24",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 12,
+      "file_size_mb": 4.12811279296875,
+      "pdf_url": "https://arxiv.org/pdf/2405.04095v3",
+      "abstract": "Machine learning-based Android malware classifiers achieve high accuracy in stationary environments but struggle with concept drift. The rapid evolution of malware, especially with new families, can depress classification accuracy to near-random levels. Previous research has largely centered on detecting drift samples, with expert-led label revisions on these samples to guide model retraining. However, these methods often lack a comprehensive understanding of malware concepts and provide limited...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:58:20.291715"
+    },
+    {
+      "arxiv_id": "2405.03667v2",
+      "title": "Fault Detection and Monitoring using a Data-Driven Information-Based Strategy: Method, Theory, and Application",
+      "authors": [
+        "Camilo Ram\u00edrez",
+        "Jorge F. Silva",
+        "Ferhat Tamssaouet",
+        "Tom\u00e1s Rojas",
+        "Marcos E. Orchard"
+      ],
+      "published": "2024-05-06",
+      "updated": "2025-02-12",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 9,
+      "file_size_mb": 8.607745170593262,
+      "pdf_url": "https://arxiv.org/pdf/2405.03667v2",
+      "abstract": "The ability to detect when a system undergoes an incipient fault is of paramount importance in preventing a critical failure. Classic methods for fault detection (including model-based and data-driven approaches) rely on thresholding error statistics or simple input-residual dependencies but face difficulties with non-linear or non-Gaussian systems. Behavioral methods (e.g., those relying on digital twins) address these difficulties but still face challenges when faulty data is scarce, decision ...",
+      "primary_category": "eess.SP",
+      "categories": [
+        "eess.SP",
+        "cs.IT",
+        "cs.LG"
+      ],
+      "downloaded_at": "2025-12-11T12:58:26.735871"
+    },
+    {
+      "arxiv_id": "2402.11082v1",
+      "title": "The AI Security Pyramid of Pain",
+      "authors": [
+        "Chris M. Ward",
+        "Josh Harguess",
+        "Julia Tao",
+        "Daniel Christman",
+        "Paul Spicer",
+        "Mike Tan"
+      ],
+      "published": "2024-02-16",
+      "updated": "2024-02-16",
+      "category": "model_drift_auth",
+      "query": "(abs:\"model drift\" OR abs:\"concept drift\") AND (abs:authentication OR abs:behavioral OR abs:biometric)",
+      "relevance_score": 8,
+      "file_size_mb": 0.3359088897705078,
+      "pdf_url": "https://arxiv.org/pdf/2402.11082v1",
+      "abstract": "We introduce the AI Security Pyramid of Pain, a framework that adapts the cybersecurity Pyramid of Pain to categorize and prioritize AI-specific threats. This framework provides a structured approach to understanding and addressing various levels of AI threats. Starting at the base, the pyramid emphasizes Data Integrity, which is essential for the accuracy and reliability of datasets and AI models, including their weights and parameters. Ensuring data integrity is crucial, as it underpins the ef...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "downloaded_at": "2025-12-11T12:58:30.216681"
+    },
+    {
+      "arxiv_id": "2509.20767v1",
+      "title": "ExpIDS: A Drift-adaptable Network Intrusion Detection System With Improved Explainability",
+      "authors": [
+        "Ayush Kumar",
+        "Kar Wai Fok",
+        "Vrizlynn L. L. Thing"
+      ],
+      "published": "2025-09-25",
+      "updated": "2025-09-25",
+      "category": "data_drift_security",
+      "query": "(ti:\"data drift\" OR abs:\"distribution drift\") AND (abs:\"machine learning\" OR abs:\"deep learning\") AND abs:security",
+      "relevance_score": 5,
+      "file_size_mb": 0.36859703063964844,
+      "pdf_url": "https://arxiv.org/pdf/2509.20767v1",
+      "abstract": "Despite all the advantages associated with Network Intrusion Detection Systems (NIDSs) that utilize machine learning (ML) models, there is a significant reluctance among cyber security experts to implement these models in real-world production settings. This is primarily because of their opaque nature, meaning it is unclear how and why the models make their decisions. In this work, we design a deep learning-based NIDS, ExpIDS to have high decision tree explanation fidelity, i.e., the predictions...",
+      "primary_category": "cs.CR",
+      "categories": [
+        "cs.CR"
+      ],
+      "downloaded_at": "2025-12-11T12:58:35.218441"
+    }
+  ]
+}

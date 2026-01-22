@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.22973v2",
+  "title": "YOLO-IOD: Towards Real Time Incremental Object Detection",
+  "authors": [
+    "Shizhou Zhang",
+    "Xueqiang Lv",
+    "Yinghui Xing",
+    "Qirui Wu",
+    "Di Xu"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22973v2",
+  "relevance_score": 93.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Current methods for incremental object detection (IOD) primarily rely on Faster R-CNN or DETR series detectors; however, these approaches do not accommodate the real-time YOLO detection frameworks. In this paper, we first identify three primary types of knowledge conflicts that contribute to catastrophic forgetting in YOLO-based incremental detectors: foreground-background confusion, parameter interference, and misaligned knowledge distillation. Subsequently, we introduce YOLO-IOD, a real-time I..."
+}

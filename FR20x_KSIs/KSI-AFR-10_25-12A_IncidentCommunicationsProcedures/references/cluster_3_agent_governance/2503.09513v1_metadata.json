@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2503.09513v1",
+  "title": "RESTRAIN: Reinforcement Learning-Based Secure Framework for Trigger-Action IoT Environment",
+  "authors": [
+    "Md Morshed Alam",
+    "Lokesh Chandra Das",
+    "Sandip Roy",
+    "Sachin Shetty",
+    "Weichao Wang"
+  ],
+  "published": "2025-03-12T16:23:14Z",
+  "url": "http://arxiv.org/abs/2503.09513v1",
+  "pdf_url": "http://arxiv.org/pdf/2503.09513v1.pdf",
+  "relevance_score": 95,
+  "summary": "Internet of Things (IoT) platforms with trigger-action capability allow event conditions to trigger actions in IoT devices autonomously by creating a chain of interactions. Adversaries exploit this chain of interactions to maliciously inject fake event conditions into IoT hubs, triggering unauthorized actions on target IoT devices to implement remote injection attacks. Existing defense mechanisms focus mainly on the verification of event transactions using physical event fingerprints to enforce the security policies to block unsafe event transactions. These approaches are designed to provide offline defense against injection attacks. The state-of-the-art online defense mechanisms offer real-time defense, but extensive reliability on the inference of attack impacts on the IoT network limits the generalization capability of these approaches. In this paper, we propose a platform-independent multi-agent online defense system, namely RESTRAIN, to counter remote injection attacks at runtime. RESTRAIN allows the defense agent to profile attack actions at runtime and leverages reinforcement learning to optimize a defense policy that complies with the security requirements of the IoT network. The experimental results show that the defense agent effectively takes real-time defense actions against complex and dynamic remote injection attacks and maximizes the security gain with minimal computational overhead."
+}

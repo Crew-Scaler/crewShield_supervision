@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2508.10677v1",
+  "title": "Advancing Autonomous Incident Response: Leveraging LLMs and Cyber Threat Intelligence",
+  "authors": [
+    "Amine Tellache",
+    "Abdelaziz Amara Korba",
+    "Amdjed Mokhtari",
+    "Horea Moldovan",
+    "Yacine Ghamri-Doudane"
+  ],
+  "published": "2025-08-14T14:20:34Z",
+  "url": "http://arxiv.org/abs/2508.10677v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.10677v1.pdf",
+  "relevance_score": 100,
+  "summary": "Effective incident response (IR) is critical for mitigating cyber threats, yet security teams are overwhelmed by alert fatigue, high false-positive rates, and the vast volume of unstructured Cyber Threat Intelligence (CTI) documents. While CTI holds immense potential for enriching security operations, its extensive and fragmented nature makes manual analysis time-consuming and resource-intensive. To bridge this gap, we introduce a novel Retrieval-Augmented Generation (RAG)-based framework that leverages Large Language Models (LLMs) to automate and enhance IR by integrating dynamically retrieved CTI. Our approach introduces a hybrid retrieval mechanism that combines NLP-based similarity searches within a CTI vector database with standardized queries to external CTI platforms, facilitating context-aware enrichment of security alerts. The augmented intelligence is then leveraged by an LLM-powered response generation module, which formulates precise, actionable, and contextually relevant incident mitigation strategies. We propose a dual evaluation paradigm, wherein automated assessment using an auxiliary LLM is systematically cross-validated by cybersecurity experts. Empirical validation on real-world and simulated alerts demonstrates that our approach enhances the accuracy, contextualization, and efficiency of IR, alleviating analyst workload and reducing response latency. This work underscores the potential of LLM-driven CTI fusion in advancing autonomous security operations and establishing a foundation for intelligent, adaptive cybersecurity frameworks."
+}

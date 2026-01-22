@@ -1,0 +1,275 @@
+[
+  {
+    "arxiv_id": "2512.21404v1",
+    "title": "LLM-Driven Feature-Level Adversarial Attacks on Android Malware Detectors",
+    "authors": "Tianwei Lan, Farid Na\u00eft-Abdesselam",
+    "first_author": "Tianwei Lan",
+    "publish_date": "2025-12-24",
+    "year": 2025,
+    "abstract": "The rapid growth in both the scale and complexity of Android malware has driven the widespread adoption of machine learning (ML) techniques for scalable and accurate malware detection. Despite their effectiveness, these models remain vulnerable to adversarial attacks that introduce carefully crafted feature-level perturbations to evade detection while preserving malicious functionality. In this paper, we present LAMLAD, a novel adversarial attack framework that exploits the generative and reasoning capabilities of large language models (LLMs) to bypass ML-based Android malware classifiers. LAMLAD employs a dual-agent architecture composed of an LLM manipulator, which generates realistic and functionality-preserving feature perturbations, and an LLM analyzer, which guides the perturbation process toward successful evasion. To improve efficiency and contextual awareness, LAMLAD integrates retrieval-augmented generation (RAG) into the LLM pipeline. Focusing on Drebin-style feature representations, LAMLAD enables stealthy and high-confidence attacks against widely deployed Android malware detection systems. We evaluate LAMLAD against three representative ML-based Android malware detectors and compare its performance with two state-of-the-art adversarial attack methods. Experimental results demonstrate that LAMLAD achieves an attack success rate (ASR) of up to 97%, requiring on average only three attempts per adversarial sample, highlighting its effectiveness, efficiency, and adaptability in practical adversarial settings. Furthermore, we propose an adversarial training-based defense strategy that reduces the ASR by more than 30% on average, significantly enhancing model robustness against LAMLAD-style attacks.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2512.21404v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.21404v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2512.21250v1",
+    "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+    "authors": "Haoyang Li, Mingjin Li, Jinxin Zuo, Siqi Li, Xiao Li, Hao Wu, Yueming Lu, Xiaochuan He",
+    "first_author": "Haoyang Li",
+    "publish_date": "2025-12-24",
+    "year": 2025,
+    "abstract": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2512.21250v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.21250v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.MA"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2512.04338v1",
+    "title": "One Detector Fits All: Robust and Adaptive Detection of Malicious Packages from PyPI to Enterprises",
+    "authors": "Biagio Montaruli, Luca Compagna, Serena Elisa Ponta, Davide Balzarotti",
+    "first_author": "Biagio Montaruli",
+    "publish_date": "2025-12-03",
+    "year": 2025,
+    "abstract": "The rise of supply chain attacks via malicious Python packages demands robust detection solutions. Current approaches, however, overlook two critical challenges: robustness against adversarial source code transformations and adaptability to the varying false positive rate (FPR) requirements of different actors, from repository maintainers (requiring low FPR) to enterprise security teams (higher FPR tolerance).\n  We introduce a robust detector capable of seamless integration into both public repositories like PyPI and enterprise ecosystems. To ensure robustness, we propose a novel methodology for generating adversarial packages using fine-grained code obfuscation. Combining these with adversarial training (AT) enhances detector robustness by 2.5x. We comprehensively evaluate AT effectiveness by testing our detector against 122,398 packages collected daily from PyPI over 80 days, showing that AT needs careful application: it makes the detector more robust to obfuscations and allows finding 10% more obfuscated packages, but slightly decreases performance on non-obfuscated packages.\n  We demonstrate production adaptability of our detector via two case studies: (i) one for PyPI maintainers (tuned at 0.1% FPR) and (ii) one for enterprise teams (tuned at 10% FPR). In the former, we analyze 91,949 packages collected from PyPI over 37 days, achieving a daily detection rate of 2.48 malicious packages with only 2.18 false positives. In the latter, we analyze 1,596 packages adopted by a multinational software company, obtaining only 1.24 false positives daily. These results show that our detector can be seamlessly integrated into both public repositories like PyPI and enterprise ecosystems, ensuring a very low time budget of a few minutes to review the false positives.\n  Overall, we uncovered 346 malicious packages, now reported to the community.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2512.04338v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.04338v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2511.19330v1",
+    "title": "Targeted Manipulation: Slope-Based Attacks on Financial Time-Series Data",
+    "authors": "Dominik Luszczynski",
+    "first_author": "Dominik Luszczynski",
+    "publish_date": "2025-11-24",
+    "year": 2025,
+    "abstract": "A common method of attacking deep learning models is through adversarial attacks, which occur when an attacker specifically modifies the input of a model to produce an incorrect result. Adversarial attacks have been deeply investigated in the image domain; however, there is less research in the time-series domain and very little for forecasting financial data. To address these concerns, this study aims to build upon previous research on adversarial attacks for time-series data by introducing two new slope-based methods aimed to alter the trends of the predicted stock forecast generated by an N-HiTS model. Compared to the normal N-HiTS predictions, the two new slope-based methods, the General Slope Attack and Least-Squares Slope Attack, can manipulate N-HiTS predictions by doubling the slope. These new slope attacks can bypass standard security mechanisms, such as a discriminator that filters real and perturbed inputs, reducing a 4-layered CNN's specificity to 28% and accuracy to 57%. Furthermore, the slope based methods were incorporated into a GAN architecture as a means of generating realistic synthetic data, while simultaneously fooling the model. Finally, this paper also proposes a sample malware designed to inject an adversarial attack in the model inference library, proving that ML-security research should not only focus on making the model safe, but also securing the entire pipeline.",
+    "page_count": 13,
+    "url": "http://arxiv.org/abs/2511.19330v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.19330v1",
+    "primary_category": "cs.LG",
+    "categories": [
+      "cs.LG"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2511.16020v2",
+    "title": "Physically Realistic Sequence-Level Adversarial Clothing for Robust Human-Detection Evasion",
+    "authors": "Dingkun Zhou, Patrick P. K. Chan, Hengxu Wu, Shikang Zheng, Ruiqi Huang, Yuanjie Zhao",
+    "first_author": "Dingkun Zhou",
+    "publish_date": "2025-11-20",
+    "year": 2025,
+    "abstract": "Deep neural networks used for human detection are highly vulnerable to adversarial manipulation, creating safety and privacy risks in real surveillance environments. Wearable attacks offer a realistic threat model, yet existing approaches usually optimize textures frame by frame and therefore fail to maintain concealment across long video sequences with motion, pose changes, and garment deformation. In this work, a sequence-level optimization framework is introduced to generate natural, printable adversarial textures for shirts, trousers, and hats that remain effective throughout entire walking videos in both digital and physical settings. Product images are first mapped to UV space and converted into a compact palette and control-point parameterization, with ICC locking to keep all colors printable. A physically based human-garment pipeline is then employed to simulate motion, multi-angle camera viewpoints, cloth dynamics, and illumination variation. An expectation-over-transformation objective with temporal weighting is used to optimize the control points so that detection confidence is minimized across whole sequences. Extensive experiments demonstrate strong and stable concealment, high robustness to viewpoint changes, and superior cross-model transferability. Physical garments produced with sublimation printing achieve reliable suppression under indoor and outdoor recordings, confirming real-world feasibility.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2511.16020v2",
+    "pdf_url": "https://arxiv.org/pdf/2511.16020v2",
+    "primary_category": "cs.CV",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2511.06197v1",
+    "title": "Enhancing Adversarial Robustness of IoT Intrusion Detection via SHAP-Based Attribution Fingerprinting",
+    "authors": "Dilli Prasad Sharma, Liang Xue, Xiaowei Sun, Xiaodong Lin, Pulei Xiong",
+    "first_author": "Dilli Prasad Sharma",
+    "publish_date": "2025-11-09",
+    "year": 2025,
+    "abstract": "The rapid proliferation of Internet of Things (IoT) devices has transformed numerous industries by enabling seamless connectivity and data-driven automation. However, this expansion has also exposed IoT networks to increasingly sophisticated security threats, including adversarial attacks targeting artificial intelligence (AI) and machine learning (ML)-based intrusion detection systems (IDS) to deliberately evade detection, induce misclassification, and systematically undermine the reliability and integrity of security defenses. To address these challenges, we propose a novel adversarial detection model that enhances the robustness of IoT IDS against adversarial attacks through SHapley Additive exPlanations (SHAP)-based fingerprinting. Using SHAP's DeepExplainer, we extract attribution fingerprints from network traffic features, enabling the IDS to reliably distinguish between clean and adversarially perturbed inputs. By capturing subtle attribution patterns, the model becomes more resilient to evasion attempts and adversarial manipulations. We evaluated the model on a standard IoT benchmark dataset, where it significantly outperformed a state-of-the-art method in detecting adversarial attacks. In addition to enhanced robustness, this approach improves model transparency and interpretability, thereby increasing trust in the IDS through explainable AI.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2511.06197v1",
+    "pdf_url": "https://arxiv.org/pdf/2511.06197v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.CL",
+      "cs.LG",
+      "cs.NI"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2510.12310v1",
+    "title": "DeepTrust: Multi-Step Classification through Dissimilar Adversarial Representations for Robust Android Malware Detection",
+    "authors": "Daniel Pulido-Cort\u00e1zar, Daniel Gibert, Felip Many\u00e0",
+    "first_author": "Daniel Pulido-Cort\u00e1zar",
+    "publish_date": "2025-10-14",
+    "year": 2025,
+    "abstract": "Over the last decade, machine learning has been extensively applied to identify malicious Android applications. However, such approaches remain vulnerable against adversarial examples, i.e., examples that are subtly manipulated to fool a machine learning model into making incorrect predictions. This research presents DeepTrust, a novel metaheuristic that arranges flexible classifiers, like deep neural networks, into an ordered sequence where the final decision is made by a single internal model based on conditions activated in cascade. In the Robust Android Malware Detection competition at the 2025 IEEE Conference SaTML, DeepTrust secured the first place and achieved state-of-the-art results, outperforming the next-best competitor by up to 266% under feature-space evasion attacks. This is accomplished while maintaining the highest detection rate on non-adversarial malware and a false positive rate below 1%. The method's efficacy stems from maximizing the divergence of the learned representations among the internal models. By using classifiers inducing fundamentally dissimilar embeddings of the data, the decision space becomes unpredictable for an attacker. This frustrates the iterative perturbation process inherent to evasion attacks, enhancing system robustness without compromising accuracy on clean examples.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2510.12310v1",
+    "pdf_url": "https://arxiv.org/pdf/2510.12310v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2510.01676v1",
+    "title": "Evaluating the Robustness of a Production Malware Detection System to Transferable Adversarial Attacks",
+    "authors": "Milad Nasr, Yanick Fratantonio, Luca Invernizzi, Ange Albertini, Loua Farah, Alex Petit-Bianco, Andreas Terzis, Kurt Thomas, Elie Bursztein, Nicholas Carlini",
+    "first_author": "Milad Nasr",
+    "publish_date": "2025-10-02",
+    "year": 2025,
+    "abstract": "As deep learning models become widely deployed as components within larger production systems, their individual shortcomings can create system-level vulnerabilities with real-world impact. This paper studies how adversarial attacks targeting an ML component can degrade or bypass an entire production-grade malware detection system, performing a case study analysis of Gmail's pipeline where file-type identification relies on a ML model.\n  The malware detection pipeline in use by Gmail contains a machine learning model that routes each potential malware sample to a specialized malware classifier to improve accuracy and performance. This model, called Magika, has been open sourced. By designing adversarial examples that fool Magika, we can cause the production malware service to incorrectly route malware to an unsuitable malware detector thereby increasing our chance of evading detection. Specifically, by changing just 13 bytes of a malware sample, we can successfully evade Magika in 90% of cases and thereby allow us to send malware files over Gmail. We then turn our attention to defenses, and develop an approach to mitigate the severity of these types of attacks. For our defended production model, a highly resourced adversary requires 50 bytes to achieve just a 20% attack success rate. We implement this defense, and, thanks to a collaboration with Google engineers, it has already been deployed in production for the Gmail classifier.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2510.01676v1",
+    "pdf_url": "https://arxiv.org/pdf/2510.01676v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2509.11187v1",
+    "title": "DMLDroid: Deep Multimodal Fusion Framework for Android Malware Detection with Resilience to Code Obfuscation and Adversarial Perturbations",
+    "authors": "Doan Minh Trung, Tien Duc Anh Hao, Luong Hoang Minh, Nghi Hoang Khoa, Nguyen Tan Cam, Van-Hau Pham, Phan The Duy",
+    "first_author": "Doan Minh Trung",
+    "publish_date": "2025-09-14",
+    "year": 2025,
+    "abstract": "In recent years, learning-based Android malware detection has seen significant advancements, with detectors generally falling into three categories: string-based, image-based, and graph-based approaches. While these methods have shown strong detection performance, they often struggle to sustain robustness in real-world settings, particularly when facing code obfuscation and adversarial examples (AEs). Deep multimodal learning has emerged as a promising solution, leveraging the strengths of multiple feature types to enhance robustness and generalization. However, a systematic investigation of multimodal fusion for both accuracy and resilience remains underexplored. In this study, we propose DMLDroid, an Android malware detection based on multimodal fusion that leverages three different representations of malware features, including permissions & intents (tabular-based), DEX file representations (image-based), and API calls (graph-derived sequence-based). We conduct exhaustive experiments independently on each feature, as well as in combination, using different fusion strategies. Experimental results on the CICMalDroid 2020 dataset demonstrate that our multimodal approach with the dynamic weighted fusion mechanism achieves high performance, reaching 97.98% accuracy and 98.67% F1-score on original malware detection. Notably, the proposed method maintains strong robustness, sustaining over 98% accuracy and 98% F1-score under both obfuscation and adversarial attack scenarios. Our findings highlight the benefits of multimodal fusion in improving both detection accuracy and robustness against evolving Android malware threats.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2509.11187v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.11187v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2508.15848v1",
+    "title": "Self-Disguise Attack: Induce the LLM to disguise itself for AIGT detection evasion",
+    "authors": "Yinghan Zhou, Juan Wen, Wanli Peng, Zhengxian Wu, Ziwei Zhang, Yiming Xue",
+    "first_author": "Yinghan Zhou",
+    "publish_date": "2025-08-20",
+    "year": 2025,
+    "abstract": "AI-generated text (AIGT) detection evasion aims to reduce the detection probability of AIGT, helping to identify weaknesses in detectors and enhance their effectiveness and reliability in practical applications. Although existing evasion methods perform well, they suffer from high computational costs and text quality degradation. To address these challenges, we propose Self-Disguise Attack (SDA), a novel approach that enables Large Language Models (LLM) to actively disguise its output, reducing the likelihood of detection by classifiers. The SDA comprises two main components: the adversarial feature extractor and the retrieval-based context examples optimizer. The former generates disguise features that enable LLMs to understand how to produce more human-like text. The latter retrieves the most relevant examples from an external knowledge base as in-context examples, further enhancing the self-disguise ability of LLMs and mitigating the impact of the disguise process on the diversity of the generated text. The SDA directly employs prompts containing disguise features and optimized context examples to guide the LLM in generating detection-resistant text, thereby reducing resource consumption. Experimental results demonstrate that the SDA effectively reduces the average detection accuracy of various AIGT detectors across texts generated by three different LLMs, while maintaining the quality of AIGT.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2508.15848v1",
+    "pdf_url": "https://arxiv.org/pdf/2508.15848v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.CL"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2502.06418v1",
+    "title": "Robust Watermarks Leak: Channel-Aware Feature Extraction Enables Adversarial Watermark Manipulation",
+    "authors": "Zhongjie Ba, Yitao Zhang, Peng Cheng, Bin Gong, Xinyu Zhang, Qinglong Wang, Kui Ren",
+    "first_author": "Zhongjie Ba",
+    "publish_date": "2025-02-10",
+    "year": 2025,
+    "abstract": "Watermarking plays a key role in the provenance and detection of AI-generated content. While existing methods prioritize robustness against real-world distortions (e.g., JPEG compression and noise addition), we reveal a fundamental tradeoff: such robust watermarks inherently improve the redundancy of detectable patterns encoded into images, creating exploitable information leakage. To leverage this, we propose an attack framework that extracts leakage of watermark patterns through multi-channel feature learning using a pre-trained vision model. Unlike prior works requiring massive data or detector access, our method achieves both forgery and detection evasion with a single watermarked image. Extensive experiments demonstrate that our method achieves a 60\\% success rate gain in detection evasion and 51\\% improvement in forgery accuracy compared to state-of-the-art methods while maintaining visual fidelity. Our work exposes the robustness-stealthiness paradox: current \"robust\" watermarks sacrifice security for distortion resistance, providing insights for future watermark design.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2502.06418v1",
+    "pdf_url": "https://arxiv.org/pdf/2502.06418v1",
+    "primary_category": "cs.CV",
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2409.13828v1",
+    "title": "ViTGuard: Attention-aware Detection against Adversarial Examples for Vision Transformer",
+    "authors": "Shihua Sun, Kenechukwu Nwodo, Shridatt Sugrim, Angelos Stavrou, Haining Wang",
+    "first_author": "Shihua Sun",
+    "publish_date": "2024-09-20",
+    "year": 2024,
+    "abstract": "The use of transformers for vision tasks has challenged the traditional dominant role of convolutional neural networks (CNN) in computer vision (CV). For image classification tasks, Vision Transformer (ViT) effectively establishes spatial relationships between patches within images, directing attention to important areas for accurate predictions. However, similar to CNNs, ViTs are vulnerable to adversarial attacks, which mislead the image classifier into making incorrect decisions on images with carefully designed perturbations. Moreover, adversarial patch attacks, which introduce arbitrary perturbations within a small area, pose a more serious threat to ViTs. Even worse, traditional detection methods, originally designed for CNN models, are impractical or suffer significant performance degradation when applied to ViTs, and they generally overlook patch attacks.\n  In this paper, we propose ViTGuard as a general detection method for defending ViT models against adversarial attacks, including typical attacks where perturbations spread over the entire input and patch attacks. ViTGuard uses a Masked Autoencoder (MAE) model to recover randomly masked patches from the unmasked regions, providing a flexible image reconstruction strategy. Then, threshold-based detectors leverage distinctive ViT features, including attention maps and classification (CLS) token representations, to distinguish between normal and adversarial samples. The MAE model does not involve any adversarial samples during training, ensuring the effectiveness of our detectors against unseen attacks. ViTGuard is compared with seven existing detection methods under nine attacks across three datasets. The evaluation results show the superiority of ViTGuard over existing detectors. Finally, considering the potential detection evasion, we further demonstrate ViTGuard's robustness against adaptive attacks for evasion.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2409.13828v1",
+    "pdf_url": "https://arxiv.org/pdf/2409.13828v1",
+    "primary_category": "cs.CV",
+    "categories": [
+      "cs.CV",
+      "cs.CR"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2304.11300v3",
+    "title": "MAWSEO: Adversarial Wiki Search Poisoning for Illicit Online Promotion",
+    "authors": "Zilong Lin, Zhengyi Li, Xiaojing Liao, XiaoFeng Wang, Xiaozhong Liu",
+    "first_author": "Zilong Lin",
+    "publish_date": "2023-04-22",
+    "year": 2023,
+    "abstract": "As a prominent instance of vandalism edits, Wiki search poisoning for illicit promotion is a cybercrime in which the adversary aims at editing Wiki articles to promote illicit businesses through Wiki search results of relevant queries. In this paper, we report a study that, for the first time, shows that such stealthy blackhat SEO on Wiki can be automated. Our technique, called MAWSEO, employs adversarial revisions to achieve real-world cybercriminal objectives, including rank boosting, vandalism detection evasion, topic relevancy, semantic consistency, user awareness (but not alarming) of promotional content, etc. Our evaluation and user study demonstrate that MAWSEO is capable of effectively and efficiently generating adversarial vandalism edits, which can bypass state-of-the-art built-in Wiki vandalism detectors, and also get promotional content through to Wiki users without triggering their alarms. In addition, we investigated potential defense, including coherence based detection and adversarial training of vandalism detection, against our attack in the Wiki ecosystem.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2304.11300v3",
+    "pdf_url": "https://arxiv.org/pdf/2304.11300v3",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.IR"
+    ],
+    "relevance_score": 10
+  },
+  {
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "authors": "Rahul Yumlembam, Biju Issac, Seibu Mary Jacob, Longzhi Yang",
+    "first_author": "Rahul Yumlembam",
+    "publish_date": "2025-12-23",
+    "year": 2025,
+    "abstract": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+    "page_count": 13,
+    "url": "http://arxiv.org/abs/2512.20004v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.20004v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "relevance_score": 9.5
+  },
+  {
+    "arxiv_id": "2512.16538v1",
+    "title": "A Systematic Study of Code Obfuscation Against LLM-based Vulnerability Detection",
+    "authors": "Xiao Li, Yue Li, Hao Wu, Yue Zhang, Yechao Zhang, Fengyuan Xu, Sheng Zhong",
+    "first_author": "Xiao Li",
+    "publish_date": "2025-12-18",
+    "year": 2025,
+    "abstract": "As large language models (LLMs) are increasingly adopted for code vulnerability detection, their reliability and robustness across diverse vulnerability types have become a pressing concern. In traditional adversarial settings, code obfuscation has long been used as a general strategy to bypass auditing tools, preserving exploitability without tampering with the tools themselves. Numerous efforts have explored obfuscation methods and tools, yet their capabilities differ in terms of supported techniques, granularity, and programming languages, making it difficult to systematically assess their impact on LLM-based vulnerability detection. To address this gap, we provide a structured systematization of obfuscation techniques and evaluate them under a unified framework. Specifically, we categorize existing obfuscation methods into three major classes (layout, data flow, and control flow) covering 11 subcategories and 19 concrete techniques. We implement these techniques across four programming languages (Solidity, C, C++, and Python) using a consistent LLM-driven approach, and evaluate their effects on 15 LLMs spanning four model families (DeepSeek, OpenAI, Qwen, and LLaMA), as well as on two coding agents (GitHub Copilot and Codex). Our findings reveal both positive and negative impacts of code obfuscation on LLM-based vulnerability detection, highlighting conditions under which obfuscation leads to performance improvements or degradations. We further analyze these outcomes with respect to vulnerability characteristics, code properties, and model attributes. Finally, we outline several open problems and propose future directions to enhance the robustness of LLMs for real-world vulnerability detection.",
+    "page_count": 7,
+    "url": "http://arxiv.org/abs/2512.16538v1",
+    "pdf_url": "https://arxiv.org/pdf/2512.16538v1",
+    "primary_category": "cs.CR",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 9.5
+  }
+]

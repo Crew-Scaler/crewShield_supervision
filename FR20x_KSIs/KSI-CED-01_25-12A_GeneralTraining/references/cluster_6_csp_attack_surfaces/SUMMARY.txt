@@ -1,0 +1,98 @@
+================================================================================
+CLUSTER 6: CSP-SPECIFIC ATTACK SURFACES - RESEARCH SUMMARY
+Issue #81: KSI-CED-01_25-12A_GeneralTraining: AI-Driven Transformation & CSP Implications
+================================================================================
+
+COMPLETION STATUS: ✓ COMPLETE
+
+PAPERS COLLECTED: 15
+TOTAL SIZE: ~120 MB
+ALL PDFS: DOWNLOADED
+
+FOCUS AREAS:
+1. API Security (3 papers)
+   - Cloud API authentication, authorization, broken access control
+   - Key: BacAlarm (2512.19997v1.pdf) - CRITICAL
+
+2. Multi-Tenant Cloud Isolation (2 papers)
+   - Co-location attacks, serverless security, side-channels
+   - Key: "Bit of a Close Talker" (2512.10361v2.pdf) - CRITICAL
+
+3. Vector Database Security (3 papers)
+   - Embedding integrity, vector search stability, quantization
+   - Privacy preservation in cloud ML platforms
+
+4. RAG (Retrieval-Augmented Generation) Security (4 papers)
+   - LLM integration risks, scalability in cloud, prompt injection risks
+   - Implementations on cloud storage systems
+
+5. Cloud Infrastructure & Control (3 papers)
+   - Network hardware security, IAM policies, control plane access
+   - Key: CloudFix (2512.09957v1.pdf) - AWS/Azure/GCP specific
+
+PUBLICATION DATES:
+- 2025: 14 papers (93%)
+- 2024: 1 paper (7%)
+
+RELEVANCE SCORES:
+- Score 9 (Critical): 4 papers
+- Score 8 (High): 7 papers
+- Score 7 (Medium): 3 papers
+- Score 6 (Supporting): 1 paper
+
+CRITICAL PAPERS (Highest CSP Impact):
+1. 2512.19997v1.pdf - BacAlarm: API Security & BOLA Prevention
+2. 2512.10361v2.pdf - Co-Location Attacks in Serverless
+3. 2512.09957v1.pdf - CloudFix: IAM Policy Repair (AWS/Azure/GCP)
+4. 2511.01910v2.pdf - Network Hardware Security (Cloud Infrastructure)
+
+KEY METRICS & FINDINGS:
+- Average relevance score: 8.0/10
+- 93% papers from 2025 (recent)
+- Focus on practical attack vectors and remediation
+- Cross-CSP analysis (AWS, Azure, Google Cloud)
+
+CSP IMPLICATIONS:
+- BOLA attacks on cloud APIs are most critical
+- Multi-tenant isolation in serverless is fundamentally vulnerable
+- Vector databases lack robust security patterns
+- RAG integration creates new attack surface
+- IAM policy misconfiguration affects all CSPs
+
+TRAINING USE CASES:
+✓ Cloud architects (infrastructure risks)
+✓ API developers (secure design patterns)
+✓ ML engineers (LLM security)
+✓ Security teams (threat modeling)
+✓ DevOps/SRE (IAM and hardening)
+
+FILES INCLUDED:
+- 15 research papers (PDFs)
+- cluster_6_metadata.csv (detailed paper metadata)
+- README.md (comprehensive overview and analysis)
+- SUMMARY.txt (this file)
+
+RESEARCH QUALITY:
+- All papers from recognized venues/archives
+- Recent publications (2024-2025)
+- Mix of academic research and industry security
+- Practical attack demonstrations included
+- Remediation strategies provided
+
+KNOWN LIMITATIONS:
+- Some papers lack quantitative metrics
+- Limited cross-CSP comparative analysis
+- Few production environment validations
+- Emerging threats (vector DB, RAG) still being researched
+
+NEXT STEPS:
+1. Integrate papers into training modules
+2. Extract key metrics and case studies
+3. Cross-reference with other clusters
+4. Develop remediation playbooks based on findings
+5. Update with new papers quarterly
+
+================================================================================
+Generated: 2026-01-06
+Repository: /Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-CED-01_25-12A_GeneralTraining/references/cluster_6_csp_attack_surfaces/
+================================================================================

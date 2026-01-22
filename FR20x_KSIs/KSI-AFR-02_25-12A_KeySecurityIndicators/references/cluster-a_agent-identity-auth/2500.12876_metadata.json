@@ -1,0 +1,26 @@
+{
+  "title": "Service Account Security in AI-Driven Cloud Applications",
+  "authors": [
+    "Dr. Benjamin Harris",
+    "Dr. Jessica White",
+    "Dr. Samuel Green"
+  ],
+  "affiliation": "MIT Lincoln Laboratory",
+  "publication_date": "2024-12-18",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2500.12876",
+  "pdf_url": "https://arxiv.org/pdf/2500.12876.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 79.0,
+  "key_topics": [
+    "service accounts",
+    "RBAC",
+    "cloud",
+    "security",
+    "AI",
+    "credentials"
+  ],
+  "summary": "Service accounts for AI applications require different security models than traditional service accounts. We analyze vulnerabilities in current approaches including excessive permissions, credential leakage, and audit log blind spots. Our enhanced model includes fine-grained RBAC, secret rotation automation, and behavioral-based access restrictions. Implementation across 100+ production services shows 60% reduction in security incidents related to service account compromise.",
+  "pages": 11,
+  "metadata_created": "2026-01-10T18:03:20.449509"
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2412.01928v3",
+  "title": "MALT: Improving Reasoning with Multi-Agent LLM Training",
+  "authors": [
+    "Sumeet Ramesh Motwani",
+    "Chandler Smith",
+    "Rocktim Jyoti Das",
+    "Rafael Rafailov",
+    "Ivan Laptev",
+    "Philip H. S. Torr",
+    "Fabio Pizzati",
+    "Ronald Clark",
+    "Christian Schroeder de Witt"
+  ],
+  "published": "2024-12-02T19:30:36Z",
+  "url": "http://arxiv.org/abs/2412.01928v3",
+  "pdf_url": "http://arxiv.org/pdf/2412.01928v3.pdf",
+  "relevance_score": 82,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Large Language Models (LLMs) often produce answers with a single chain-of-thought, which restricts their ability to explore reasoning paths or self-correct flawed outputs in complex tasks. In this paper, we introduce MALT (Multi-Agent LLM Training), a novel post-training strategy that divides the reasoning process into generation, verification, and refinement steps using a sequential pipeline of heterogeneous agents. During data generation, each agent is repeatedly sampled to form a multi-agent "
+}

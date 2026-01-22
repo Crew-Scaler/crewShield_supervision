@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.07407v1",
+  "title": "Training Language Models to Use Prolog as a Tool",
+  "authors": [
+    "Niklas Mellgren",
+    "Peter Schneider-Kamp",
+    "Lukas Galke Poech"
+  ],
+  "published": "2025-12-08T10:39:38Z",
+  "url": "http://arxiv.org/abs/2512.07407v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.07407v1.pdf",
+  "relevance_score": 77,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Ensuring reliable tool use is critical for safe agentic AI systems. Language models frequently produce unreliable reasoning with plausible but incorrect solutions that are difficult to verify. To address this, we investigate fine-tuning models to use Prolog as an external tool for verifiable computation. Using Group Relative Policy Optimization (GRPO), we fine-tune Qwen2.5-3B-Instruct on a cleaned GSM8K-Prolog-Prover dataset while varying (i) prompt structure, (ii) reward composition (execution,"
+}

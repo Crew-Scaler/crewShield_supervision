@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2510.05169v1",
+  "title": "From Poisoned to Aware: Fostering Backdoor Self-Awareness in LLMs",
+  "authors": [
+    "Guangyu Shen",
+    "Siyuan Cheng",
+    "Xiangzhe Xu",
+    "Yuan Zhou",
+    "Hanxi Guo",
+    "Zhuo Zhang",
+    "Xiangyu Zhang"
+  ],
+  "published": "2025-10-05T03:55:24Z",
+  "url": "http://arxiv.org/abs/2510.05169v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.05169v1.pdf",
+  "relevance_score": 81,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Large Language Models (LLMs) can acquire deceptive behaviors through backdoor attacks, where the model executes prohibited actions whenever secret triggers appear in the input. Existing safety training methods largely fail to address this vulnerability, due to the inherent difficulty of uncovering hidden triggers implanted in the model. Motivated by recent findings on LLMs' situational awareness, we propose a novel post-training framework that cultivates self-awareness of backdoor risks and enab"
+}

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20554v1",
+    "arxiv_id": "2512.20554v1",
+    "title": "Hardware-aware and Resource-efficient Circuit Packing and Scheduling on Trapped-Ion Quantum Computers",
+    "summary": "The rapid expansion of quantum cloud services has led to long job queues due to single-tenant execution models that underutilize hardware resources. Quantum multi-programming (QMP) mitigates this by executing multiple circuits in parallel on a single device, but existing methods target superconducting systems with limited connectivity, high crosstalk, and lower gate fidelity. Trapped-ion architectures, with all-to-all connectivity, long coherence times, and high-fidelity mid-circuit measurement properties, presents itself as a more suitable platform for scalable QMP. We present CircPack, a hardware-aware circuit packing framework designed for modular trapped-ion devices based on the Quantum Charge-Coupled Device (QCCD) architecture. CircPack formulates static circuit scheduling as a two-dimensional packing problem with hardware-specific shuttling constraints. Compared to superconducting-based QMP approaches, CircPack achieves up to 70.72% better fidelity, 62.67% higher utilization, and 32.80% improved layer reduction. This framework is also capable of scalable, balanced scheduling across a cluster of independent QCCD modules, highlighting trapped-ion systems' potential in improving the throughput of quantum cloud computing in the near future.",
+    "published": "2025-12-23T17:53:47Z",
+    "updated": "2025-12-23T17:53:47Z",
+    "authors": [
+      "Miguel Palma",
+      "Shuwen Kan",
+      "Wenqi Wei",
+      "Juntao Chen",
+      "Kaixun Hua",
+      "Sara Mouradian",
+      "Ying Mao"
+    ],
+    "affiliations": [
+      "fordham university",
+      "fordham university",
+      "fordham university",
+      "fordham university",
+      "university of south florida",
+      "university of washington",
+      "fordham university"
+    ],
+    "first_author": "Miguel Palma",
+    "pdf_url": "https://arxiv.org/pdf/2512.20554v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19842v1",
+    "arxiv_id": "2512.19842v1",
+    "title": "Holoscope: Open and Lightweight Distributed Telescope & Honeypot Platform",
+    "summary": "The complexity and scale of Internet attacks call for distributed, cooperative observatories capable of monitoring malicious traffic across diverse networks. Holoscope is a lightweight, cloud-native platform designed to simplify the deployment and management of distributed telescope (passive) and honeypot (active) sensors, used to collect and analyse attack traffic by exposing or simulating vulnerable systems. Built upon K3s and WireGuard, Holoscope offers secure connectivity, automated node onboarding, and resilient operation even in resource-constrained environments. Through modular design and Infrastructure-as-Code principles, it supports dynamic sensor orchestration, automated recovery and processing. We build, deploy and operate Holoscope across multiple institutions and cloud networks in Europe and Brazil, enabling unified visibility into large-scale attack phenomena while maintaining ease of integration and security compliance.",
+    "published": "2025-12-22T19:54:14Z",
+    "updated": "2025-12-22T19:54:14Z",
+    "authors": [
+      "Andrea Sordello",
+      "Marco Mellia",
+      "Idilio Drago",
+      "Rodolfo Valentim",
+      "Francesco Musumeci",
+      "Massimo Tornatore",
+      "Federico Cerutti",
+      "Martino Trevisan",
+      "Alessio Botta",
+      "Willen Borges Coelho"
+    ],
+    "affiliations": [],
+    "first_author": "Andrea Sordello",
+    "pdf_url": "https://arxiv.org/pdf/2512.19842v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19309v1",
+    "arxiv_id": "2512.19309v1",
+    "title": "Time-Vertex Machine Learning for Optimal Sensor Placement in Temporal Graph Signals: Applications in Structural Health Monitoring",
+    "summary": "Structural Health Monitoring (SHM) plays a crucial role in maintaining the safety and resilience of infrastructure. As sensor networks grow in scale and complexity, identifying the most informative sensors becomes essential to reduce deployment costs without compromising monitoring quality. While Graph Signal Processing (GSP) has shown promise by leveraging spatial correlations among sensor nodes, conventional approaches often overlook the temporal dynamics of structural behavior. To overcome this limitation, we propose Time-Vertex Machine Learning (TVML), a novel framework that integrates GSP, time-domain analysis, and machine learning to enable interpretable and efficient sensor placement by identifying representative nodes that minimize redundancy while preserving critical information. We evaluate the proposed approach on two bridge datasets for damage detection and time-varying graph signal reconstruction tasks. The results demonstrate the effectiveness of our approach in enhancing SHM systems by providing a robust, adaptive, and efficient solution for sensor placement.",
+    "published": "2025-12-22T11:59:47Z",
+    "updated": "2025-12-22T11:59:47Z",
+    "authors": [
+      "Keivan Faghih Niresi",
+      "Jun Qing",
+      "Mengjie Zhao",
+      "Olga Fink"
+    ],
+    "affiliations": [],
+    "first_author": "Keivan Faghih Niresi",
+    "pdf_url": "https://arxiv.org/pdf/2512.19309v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19305v1",
+    "arxiv_id": "2512.19305v1",
+    "title": "CienaLLM: Generative Climate-Impact Extraction from News Articles with Autoregressive LLMs",
+    "summary": "Understanding and monitoring the socio-economic impacts of climate hazards requires extracting structured information from heterogeneous news articles on a large scale. To that end, we have developed CienaLLM, a modular framework based on schema-guided Generative Information Extraction. CienaLLM uses open-weight Large Language Models for zero-shot information extraction from news articles, and supports configurable prompts and output schemas, multi-step pipelines, and cloud or on-premise inference. To systematically assess how the choice of LLM family, size, precision regime, and prompting strategy affect performance, we run a large factorial study in models, precisions, and prompt engineering techniques. An additional response parsing step nearly eliminates format errors while preserving accuracy; larger models deliver the strongest and most stable performance, while quantization offers substantial efficiency gains with modest accuracy trade-offs; and prompt strategies show heterogeneous, model-specific effects. CienaLLM matches or outperforms the supervised baseline in accuracy for extracting drought impacts from Spanish news, although at a higher inference cost. While evaluated in droughts, the schema-driven and model-agnostic design is suitable for adapting to related information extraction tasks (e.g., other hazards, sectors, or languages) by editing prompts and schemas rather than retraining. We release code, configurations, and schemas to support reproducible use.",
+    "published": "2025-12-22T11:53:01Z",
+    "updated": "2025-12-22T11:53:01Z",
+    "authors": [
+      "Javier Vela-Tambo",
+      "Jorge Gracia",
+      "Fernando Dominguez-Castro"
+    ],
+    "affiliations": [],
+    "first_author": "Javier Vela-Tambo",
+    "pdf_url": "https://arxiv.org/pdf/2512.19305v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19083v1",
+    "arxiv_id": "2512.19083v1",
+    "title": "CoDrone: Autonomous Drone Navigation Assisted by Edge and Cloud Foundation Models",
+    "summary": "Autonomous navigation for Unmanned Aerial Vehicles faces key challenges from limited onboard computational resources, which restrict deployed deep neural networks to shallow architectures incapable of handling complex environments. Offloading tasks to remote edge servers introduces high latency, creating an inherent trade-off in system design. To address these limitations, we propose CoDrone - the first cloud-edge-end collaborative computing framework integrating foundation models into autonomous UAV cruising scenarios - effectively leveraging foundation models to enhance performance of resource-constrained unmanned aerial vehicle platforms. To reduce onboard computation and data transmission overhead, CoDrone employs grayscale imagery for the navigation model. When enhanced environmental perception is required, CoDrone leverages the edge-assisted foundation model Depth Anything V2 for depth estimation and introduces a novel one-dimensional occupancy grid-based navigation method - enabling fine-grained scene understanding while advancing efficiency and representational simplicity of autonomous navigation. A key component of CoDrone is a Deep Reinforcement Learning-based neural scheduler that seamlessly integrates depth estimation with autonomous navigation decisions, enabling real-time adaptation to dynamic environments. Furthermore, the framework introduces a UAV-specific vision language interaction module incorporating domain-tailored low-level flight primitives to enable effective interaction between the cloud foundation model and the UAV. The introduction of VLM enhances open-set reasoning capabilities in complex unseen scenarios. Experimental results show CoDrone outperforms baseline methods under varying flight speeds and network conditions, achieving a 40% increase in average flight distance and a 5% improvement in average Quality of Navigation.",
+    "published": "2025-12-22T06:48:12Z",
+    "updated": "2025-12-22T06:48:12Z",
+    "authors": [
+      "Pengyu Chen",
+      "Tao Ouyang",
+      "Ke Luo",
+      "Weijie Hong",
+      "Xu Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Pengyu Chen",
+    "pdf_url": "https://arxiv.org/pdf/2512.19083v1",
+    "primary_category": "cs.RO",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18780v1",
+    "arxiv_id": "2512.18780v1",
+    "title": "Domain Adaptation in Structural Health Monitoring of Civil Infrastructure: A Systematic Review",
+    "summary": "This study provides a comprehensive review of domain adaptation (DA) techniques in vibration-based structural health monitoring (SHM). As data-driven models increasingly support the assessment of civil structures, the persistent challenge of transferring knowledge across varying geometries, materials, and environmental conditions remains a major obstacle. DA offers a systematic approach to mitigate these discrepancies by aligning feature distributions between simulated, laboratory, and field domains while preserving the sensitivity of damage-related information. Drawing on more than sixty representative studies, this paper analyzes the evolution of DA methods for SHM, including statistical alignment, adversarial and subdomain learning, physics-informed adaptation, and generative modeling for simulation-to-real transfer. The review summarizes their contributions and limitations across bridge and building applications, revealing that while DA has improved generalization significantly, key challenges persist: managing domain discrepancy, addressing data scarcity, enhancing model interpretability, and enabling adaptability to multiple sources and time-varying conditions. Future research directions emphasize integrating physical constraints into learning objectives, developing physics-consistent generative frameworks to enhance data realism, establishing interpretable and certifiable DA systems for engineering practice, and advancing multi-source and lifelong adaptation for scalable monitoring. Overall, this review consolidates the methodological foundation of DA for SHM, identifies existing barriers to generalization and trust, and outlines the technological trajectory toward transparent, physics-aware, and adaptive monitoring systems that support the long-term resilience of civil infrastructure.",
+    "published": "2025-12-21T15:47:49Z",
+    "updated": "2025-12-21T15:47:49Z",
+    "authors": [
+      "Yifeng Zhang",
+      "Xiao Liang"
+    ],
+    "affiliations": [],
+    "first_author": "Yifeng Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.18780v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18779v1",
+    "arxiv_id": "2512.18779v1",
+    "title": "From Natural Language to Control Signals: A Conceptual Framework for Semantic Channel Finding in Complex Experimental Infrastructure",
+    "summary": "Modern experimental platforms such as particle accelerators, fusion devices, telescopes, and industrial process control systems expose tens to hundreds of thousands of control and diagnostic channels accumulated over decades of evolution. Operators and AI systems rely on informal expert knowledge, inconsistent naming conventions, and fragmented documentation to locate signals for monitoring, troubleshooting, and automated control, creating a persistent bottleneck for reliability, scalability, and language-model-driven interfaces. We formalize semantic channel finding-mapping natural-language intent to concrete control-system signals-as a general problem in complex experimental infrastructure, and introduce a four-paradigm framework to guide architecture selection across facility-specific data regimes. The paradigms span (i) direct in-context lookup over curated channel dictionaries, (ii) constrained hierarchical navigation through structured trees, (iii) interactive agent exploration using iterative reasoning and tool-based database queries, and (iv) ontology-grounded semantic search that decouples channel meaning from facility-specific naming conventions. We demonstrate each paradigm through proof-of-concept implementations at four operational facilities spanning two orders of magnitude in scale-from compact free-electron lasers to large synchrotron light sources-and diverse control-system architectures, from clean hierarchies to legacy environments. These implementations achieve 90-97% accuracy on expert-curated operational queries.",
+    "published": "2025-12-21T15:46:33Z",
+    "updated": "2025-12-21T15:46:33Z",
+    "authors": [
+      "Thorsten Hellert",
+      "Nikolay Agladze",
+      "Alex Giovannone",
+      "Jan Jug",
+      "Frank Mayet",
+      "Mark Sherwin",
+      "Antonin Sulc",
+      "Chris Tennant"
+    ],
+    "affiliations": [],
+    "first_author": "Thorsten Hellert",
+    "pdf_url": "https://arxiv.org/pdf/2512.18779v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18266v1",
+    "arxiv_id": "2512.18266v1",
+    "title": "LeJOT: An Intelligent Job Cost Orchestration Solution for Databricks Platform",
+    "summary": "With the rapid advancements in big data technologies, the Databricks platform has become a cornerstone for enterprises and research institutions, offering high computational efficiency and a robust ecosystem. However, managing the escalating operational costs associated with job execution remains a critical challenge. Existing solutions rely on static configurations or reactive adjustments, which fail to adapt to the dynamic nature of workloads. To address this, we introduce LeJOT, an intelligent job cost orchestration framework that leverages machine learning for execution time prediction and a solver-based optimization model for real-time resource allocation. Unlike conventional scheduling techniques, LeJOT proactively predicts workload demands, dynamically allocates computing resources, and minimizes costs while ensuring performance requirements are met. Experimental results on real-world Databricks workloads demonstrate that LeJOT achieves an average 20% reduction in cloud computing costs within a minute-level scheduling timeframe, outperforming traditional static allocation strategies. Our approach provides a scalable and adaptive solution for cost-efficient job scheduling in Data Lakehouse environments.",
+    "published": "2025-12-20T08:09:58Z",
+    "updated": "2025-12-20T08:09:58Z",
+    "authors": [
+      "Lizhi Ma",
+      "Yi-Xiang Hu",
+      "Yuke Wang",
+      "Yifang Zhao",
+      "Yihui Ren",
+      "Jian-Xiang Liao",
+      "Feng Wu",
+      "Xiang-Yang Li"
+    ],
+    "affiliations": [],
+    "first_author": "Lizhi Ma",
+    "pdf_url": "https://arxiv.org/pdf/2512.18266v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20509v1",
+    "arxiv_id": "2512.20509v1",
+    "title": "Holographic entanglement negativity and thermodynamics in backreacted AdS black hole",
+    "summary": "We investigate holographic entanglement negativity (HEN) as a probe of mixed state quantum correlations in a deformed AdS black hole background with backreaction sourced by a string cloud. The bulk geometry is dual to a strongly coupled large-$N_c$ gauge theory at finite temperature, backreacted by a finite density of heavy static fundamental quarks. Alongside holographic entanglement entropy (HEE), we analyze entanglement thermodynamics and establish a first law like relation in the small backreaction regime by identifying the deformed black hole at zero temperature as the natural ground state of the dual field theory. Using analytic expansions in the low and high temperature limits, we compute the HEN for adjacent, disjoint and bipartite subsystem configurations and examine its dependence on the backreaction parameter $\u03c1$. Our results reveal a clear regime dependence: at low temperature, backreaction suppresses the negativity, signaling a reduction of distillable quantum correlations while at high temperature the negativity is enhanced due to the monotonic $\u03c1$-dependence of near horizon contributions. We further compare the behavior of HEN with HEE and mutual information, demonstrating that entanglement negativity provides a sharper diagnostic of the competition between thermal and quantum correlations in holographic plasmas with matter backreaction.",
+    "published": "2025-12-23T16:59:40Z",
+    "updated": "2025-12-23T16:59:40Z",
+    "authors": [
+      "Sanjay Pant",
+      "Himanshu Parihar",
+      "Pradeep Kumar Sharma"
+    ],
+    "affiliations": [],
+    "first_author": "Sanjay Pant",
+    "pdf_url": "https://arxiv.org/pdf/2512.20509v1",
+    "primary_category": "hep-th",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20323v1",
+    "arxiv_id": "2512.20323v1",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "published": "2025-12-23T12:45:49Z",
+    "updated": "2025-12-23T12:45:49Z",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Ya\u011fmur Baydemir"
+    ],
+    "affiliations": [],
+    "first_author": "Ipek Sena Yilmaz",
+    "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  }
+]

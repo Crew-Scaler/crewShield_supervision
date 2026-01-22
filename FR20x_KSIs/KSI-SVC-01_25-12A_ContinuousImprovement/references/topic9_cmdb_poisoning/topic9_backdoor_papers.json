@@ -1,0 +1,204 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.08336v2",
+    "arxiv_id": "2506.08336v2",
+    "title": "Your Agent Can Defend Itself against Backdoor Attacks",
+    "summary": "Despite their growing adoption across domains, large language model (LLM)-powered agents face significant security risks from backdoor attacks during training and fine-tuning. These compromised agents can subsequently be manipulated to execute malicious operations when presented with specific triggers in their inputs or environments. To address this pressing risk, we present ReAgent, a novel defense against a range of backdoor attacks on LLM-based agents. Intuitively, backdoor attacks often result in inconsistencies among the user's instruction, the agent's planning, and its execution. Drawing on this insight, ReAgent employs a two-level approach to detect potential backdoors. At the execution level, ReAgent verifies consistency between the agent's thoughts and actions; at the planning level, ReAgent leverages the agent's capability to reconstruct the instruction based on its thought trajectory, checking for consistency between the reconstructed instruction and the user's instruction. Extensive evaluation demonstrates ReAgent's effectiveness against various backdoor attacks across tasks. For instance, ReAgent reduces the attack success rate by up to 90\\% in database operation tasks, outperforming existing defenses by large margins. This work reveals the potential of utilizing compromised agents themselves to mitigate backdoor risks.",
+    "published": "2025-06-10T01:45:56Z",
+    "updated": "2025-06-11T01:39:01Z",
+    "authors": [
+      "Li Changjiang",
+      "Liang Jiacheng",
+      "Cao Bochuan",
+      "Chen Jinghui",
+      "Wang Ting"
+    ],
+    "affiliations": [],
+    "first_author": "Li Changjiang",
+    "pdf_url": "https://arxiv.org/pdf/2506.08336v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.05445v3",
+    "arxiv_id": "2503.05445v3",
+    "title": "Are Your LLM-based Text-to-SQL Models Secure? Exploring SQL Injection via Backdoor Attacks",
+    "summary": "Large language models (LLMs) have shown state-of-the-art results in translating natural language questions into SQL queries (Text-to-SQL), a long-standing challenge within the database community. However, security concerns remain largely unexplored, particularly the threat of backdoor attacks, which can introduce malicious behaviors into models through fine-tuning with poisoned datasets. In this work, we systematically investigate the vulnerabilities of LLM-based Text-to-SQL models and present ToxicSQL, a novel backdoor attack framework. Our approach leverages stealthy {semantic and character-level triggers} to make backdoors difficult to detect and remove, ensuring that malicious behaviors remain covert while maintaining high model accuracy on benign inputs. Furthermore, we propose leveraging SQL injection payloads as backdoor targets, enabling the generation of malicious yet executable SQL queries, which pose severe security and privacy risks in language model-based SQL development. We demonstrate that injecting only 0.44% of poisoned data can result in an attack success rate of 79.41%, posing a significant risk to database security. Additionally, we propose detection and mitigation strategies to enhance model reliability. Our findings highlight the urgent need for security-aware Text-to-SQL development, emphasizing the importance of robust defenses against backdoor threats.",
+    "published": "2025-03-07T14:16:48Z",
+    "updated": "2025-09-08T07:36:01Z",
+    "authors": [
+      "Meiyu Lin",
+      "Haichuan Zhang",
+      "Jiale Lao",
+      "Renyuan Li",
+      "Yuanchun Zhou",
+      "Carl Yang",
+      "Yang Cao",
+      "Mingjie Tang"
+    ],
+    "affiliations": [],
+    "first_author": "Meiyu Lin",
+    "pdf_url": "https://arxiv.org/pdf/2503.05445v3",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.13340v2",
+    "arxiv_id": "2501.13340v2",
+    "title": "Retrievals Can Be Detrimental: A Contrastive Backdoor Attack Paradigm on Retrieval-Augmented Diffusion Models",
+    "summary": "Diffusion models (DMs) have recently demonstrated remarkable generation capability. However, their training generally requires huge computational resources and large-scale datasets. To solve these, recent studies empower DMs with the advanced Retrieval-Augmented Generation (RAG) technique and propose retrieval-augmented diffusion models (RDMs). By incorporating rich knowledge from an auxiliary database, RAG enhances diffusion models' generation and generalization ability while significantly reducing model parameters. Despite the great success, RAG may introduce novel security issues that warrant further investigation. In this paper, we reveal that the RDM is susceptible to backdoor attacks by proposing a multimodal contrastive attack approach named BadRDM. Our framework fully considers RAG's characteristics and is devised to manipulate the retrieved items for given text triggers, thereby further controlling the generated contents. Specifically, we first insert a tiny portion of images into the retrieval database as target toxicity surrogates. Subsequently, a malicious variant of contrastive learning is adopted to inject backdoors into the retriever, which builds shortcuts from triggers to the toxicity surrogates. Furthermore, we enhance the attacks through novel entropy-based selection and generative augmentation strategies that can derive better toxicity surrogates. Extensive experiments on two mainstream tasks demonstrate the proposed BadRDM achieves outstanding attack effects while preserving the model's benign utility.",
+    "published": "2025-01-23T02:42:28Z",
+    "updated": "2025-03-09T06:55:26Z",
+    "authors": [
+      "Hao Fang",
+      "Xiaohang Sui",
+      "Hongyao Yu",
+      "Kuofeng Gao",
+      "Jiawei Kong",
+      "Sijin Yu",
+      "Bin Chen",
+      "Hao Wu",
+      "Shu-Tao Xia"
+    ],
+    "affiliations": [],
+    "first_author": "Hao Fang",
+    "pdf_url": "https://arxiv.org/pdf/2501.13340v2",
+    "primary_category": "cs.CV",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2501.06650v2",
+    "arxiv_id": "2501.06650v2",
+    "title": "SafeSplit: A Novel Defense Against Client-Side Backdoor Attacks in Split Learning (Full Version)",
+    "summary": "Split Learning (SL) is a distributed deep learning approach enabling multiple clients and a server to collaboratively train and infer on a shared deep neural network (DNN) without requiring clients to share their private local data. The DNN is partitioned in SL, with most layers residing on the server and a few initial layers and inputs on the client side. This configuration allows resource-constrained clients to participate in training and inference. However, the distributed architecture exposes SL to backdoor attacks, where malicious clients can manipulate local datasets to alter the DNN's behavior. Existing defenses from other distributed frameworks like Federated Learning are not applicable, and there is a lack of effective backdoor defenses specifically designed for SL.   We present SafeSplit, the first defense against client-side backdoor attacks in Split Learning (SL). SafeSplit enables the server to detect and filter out malicious client behavior by employing circular backward analysis after a client's training is completed, iteratively reverting to a trained checkpoint where the model under examination is found to be benign. It uses a two-fold analysis to identify client-induced changes and detect poisoned models. First, a static analysis in the frequency domain measures the differences in the layer's parameters at the server. Second, a dynamic analysis introduces a novel rotational distance metric that assesses the orientation shifts of the server's layer parameters during training. Our comprehensive evaluation across various data distributions, client counts, and attack scenarios demonstrates the high efficacy of this dual analysis in mitigating backdoor attacks while preserving model utility.",
+    "published": "2025-01-11T22:20:20Z",
+    "updated": "2025-02-24T05:31:25Z",
+    "authors": [
+      "Phillip Rieger",
+      "Alessandro Pegoraro",
+      "Kavita Kumari",
+      "Tigist Abera",
+      "Jonathan Knauer",
+      "Ahmad-Reza Sadeghi"
+    ],
+    "affiliations": [],
+    "first_author": "Phillip Rieger",
+    "pdf_url": "https://arxiv.org/pdf/2501.06650v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.16709v1",
+    "arxiv_id": "2511.16709v1",
+    "title": "AutoBackdoor: Automating Backdoor Attacks via LLM Agents",
+    "summary": "Backdoor attacks pose a serious threat to the secure deployment of large language models (LLMs), enabling adversaries to implant hidden behaviors triggered by specific inputs. However, existing methods often rely on manually crafted triggers and static data pipelines, which are rigid, labor-intensive, and inadequate for systematically evaluating modern defense robustness. As AI agents become increasingly capable, there is a growing need for more rigorous, diverse, and scalable \\textit{red-teaming frameworks} that can realistically simulate backdoor threats and assess model resilience under adversarial conditions. In this work, we introduce \\textsc{AutoBackdoor}, a general framework for automating backdoor injection, encompassing trigger generation, poisoned data construction, and model fine-tuning via an autonomous agent-driven pipeline. Unlike prior approaches, AutoBackdoor uses a powerful language model agent to generate semantically coherent, context-aware trigger phrases, enabling scalable poisoning across arbitrary topics with minimal human effort. We evaluate AutoBackdoor under three realistic threat scenarios, including \\textit{Bias Recommendation}, \\textit{Hallucination Injection}, and \\textit{Peer Review Manipulation}, to simulate a broad range of attacks. Experiments on both open-source and commercial models, including LLaMA-3, Mistral, Qwen, and GPT-4o, demonstrate that our method achieves over 90\\% attack success with only a small number of poisoned samples. More importantly, we find that existing defenses often fail to mitigate these attacks, underscoring the need for more rigorous and adaptive evaluation techniques against agent-driven threats as explored in this work. All code, datasets, and experimental configurations will be merged into our primary repository at https://github.com/bboylyg/BackdoorLLM.",
+    "published": "2025-11-20T03:58:54Z",
+    "updated": "2025-11-20T03:58:54Z",
+    "authors": [
+      "Yige Li",
+      "Zhe Li",
+      "Wei Zhao",
+      "Nay Myat Min",
+      "Hanxun Huang",
+      "Xingjun Ma",
+      "Jun Sun"
+    ],
+    "affiliations": [],
+    "first_author": "Yige Li",
+    "pdf_url": "https://arxiv.org/pdf/2511.16709v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.13992v1",
+    "arxiv_id": "2510.13992v1",
+    "title": "Signature in Code Backdoor Detection, how far are we?",
+    "summary": "As Large Language Models (LLMs) become increasingly integrated into software development workflows, they also become prime targets for adversarial attacks. Among these, backdoor attacks are a significant threat, allowing attackers to manipulate model outputs through hidden triggers embedded in training data. Detecting such backdoors remains a challenge, and one promising approach is the use of Spectral Signature defense methods that identify poisoned data by analyzing feature representations through eigenvectors. While some prior works have explored Spectral Signatures for backdoor detection in neural networks, recent studies suggest that these methods may not be optimally effective for code models. In this paper, we revisit the applicability of Spectral Signature-based defenses in the context of backdoor attacks on code models. We systematically evaluate their effectiveness under various attack scenarios and defense configurations, analyzing their strengths and limitations. We found that the widely used setting of Spectral Signature in code backdoor detection is often suboptimal. Hence, we explored the impact of different settings of the key factors. We discovered a new proxy metric that can more accurately estimate the actual performance of Spectral Signature without model retraining after the defense.",
+    "published": "2025-10-15T18:18:08Z",
+    "updated": "2025-10-15T18:18:08Z",
+    "authors": [
+      "Quoc Hung Le",
+      "Thanh Le-Cong",
+      "Bach Le",
+      "Bowen Xu"
+    ],
+    "affiliations": [],
+    "first_author": "Quoc Hung Le",
+    "pdf_url": "https://arxiv.org/pdf/2510.13992v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.23834v1",
+    "arxiv_id": "2509.23834v1",
+    "title": "GPM: The Gaussian Pancake Mechanism for Planting Undetectable Backdoors in Differential Privacy",
+    "summary": "Differential privacy (DP) has become the gold standard for preserving individual privacy in data analysis. However, an implicit yet fundamental assumption underlying these rigorous privacy guarantees is the correct implementation and execution of DP mechanisms. Several incidents of unintended privacy loss have occurred due to numerical issues and inappropriate configurations of DP software, which have been successfully exploited in privacy attacks. To better understand the seriousness of defective DP software, we ask the following question: is it possible to elevate these passive defects into active privacy attacks while maintaining covertness?   To address this question, we present the Gaussian pancake mechanism (GPM), a novel mechanism that is computationally indistinguishable from the widely used Gaussian mechanism (GM), yet exhibits arbitrarily weaker statistical DP guarantees. This unprecedented separation enables a new class of backdoor attacks: by indistinguishably passing off as the authentic GM, GPM can covertly degrade statistical privacy. Unlike the unintentional privacy loss caused by GM's numerical issues, GPM is an adversarial yet undetectable backdoor attack against data privacy. We formally prove GPM's covertness, characterize its statistical leakage, and demonstrate a concrete distinguishing attack that can achieve near-perfect success rates under suitable parameter choices, both theoretically and empirically.   Our results underscore the importance of using transparent, open-source DP libraries and highlight the need for rigorous scrutiny and formal verification of DP implementations to prevent subtle, undetectable privacy compromises in real-world systems.",
+    "published": "2025-09-28T12:14:06Z",
+    "updated": "2025-09-28T12:14:06Z",
+    "authors": [
+      "Haochen Sun",
+      "Xi He"
+    ],
+    "affiliations": [],
+    "first_author": "Haochen Sun",
+    "pdf_url": "https://arxiv.org/pdf/2509.23834v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.15934v1",
+    "arxiv_id": "2508.15934v1",
+    "title": "Strategic Sample Selection for Improved Clean-Label Backdoor Attacks in Text Classification",
+    "summary": "Backdoor attacks pose a significant threat to the integrity of text classification models used in natural language processing. While several dirty-label attacks that achieve high attack success rates (ASR) have been proposed, clean-label attacks are inherently more difficult. In this paper, we propose three sample selection strategies to improve attack effectiveness in clean-label scenarios: Minimum, Above50, and Below50. Our strategies identify those samples which the model predicts incorrectly or with low confidence, and by injecting backdoor triggers into such samples, we aim to induce a stronger association between the trigger patterns and the attacker-desired target label. We apply our methods to clean-label variants of four canonical backdoor attacks (InsertSent, WordInj, StyleBkd, SynBkd) and evaluate them on three datasets (IMDB, SST2, HateSpeech) and four model types (LSTM, BERT, DistilBERT, RoBERTa). Results show that the proposed strategies, particularly the Minimum strategy, significantly improve the ASR over random sample selection with little or no degradation in the model's clean accuracy. Furthermore, clean-label attacks enhanced by our strategies outperform BITE, a state of the art clean-label attack method, in many configurations.",
+    "published": "2025-08-21T19:53:26Z",
+    "updated": "2025-08-21T19:53:26Z",
+    "authors": [
+      "Onur Alp Kirci",
+      "M. Emre Gursoy"
+    ],
+    "affiliations": [],
+    "first_author": "Onur Alp Kirci",
+    "pdf_url": "https://arxiv.org/pdf/2508.15934v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.01932v1",
+    "arxiv_id": "2508.01932v1",
+    "title": "Proactive Disentangled Modeling of Trigger-Object Pairings for Backdoor Defense",
+    "summary": "Deep neural networks (DNNs) and generative AI (GenAI) are increasingly vulnerable to backdoor attacks, where adversaries embed triggers into inputs to cause models to misclassify or misinterpret target labels. Beyond traditional single-trigger scenarios, attackers may inject multiple triggers across various object classes, forming unseen backdoor-object configurations that evade standard detection pipelines. In this paper, we introduce DBOM (Disentangled Backdoor-Object Modeling), a proactive framework that leverages structured disentanglement to identify and neutralize both seen and unseen backdoor threats at the dataset level. Specifically, DBOM factorizes input image representations by modeling triggers and objects as independent primitives in the embedding space through the use of Vision-Language Models (VLMs). By leveraging the frozen, pre-trained encoders of VLMs, our approach decomposes the latent representations into distinct components through a learnable visual prompt repository and prompt prefix tuning, ensuring that the relationships between triggers and objects are explicitly captured. To separate trigger and object representations in the visual prompt repository, we introduce the trigger-object separation and diversity losses that aids in disentangling trigger and object visual features. Next, by aligning image features with feature decomposition and fusion, as well as learned contextual prompt tokens in a shared multimodal space, DBOM enables zero-shot generalization to novel trigger-object pairings that were unseen during training, thereby offering deeper insights into adversarial attack patterns. Experimental results on CIFAR-10 and GTSRB demonstrate that DBOM robustly detects poisoned images prior to downstream training, significantly enhancing the security of DNN training pipelines.",
+    "published": "2025-08-03T21:58:15Z",
+    "updated": "2025-08-03T21:58:15Z",
+    "authors": [
+      "Kyle Stein",
+      "Andrew A. Mahyari",
+      "Guillermo Francia",
+      "Eman El-Sheikh"
+    ],
+    "affiliations": [],
+    "first_author": "Kyle Stein",
+    "pdf_url": "https://arxiv.org/pdf/2508.01932v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.01607v4",
+    "arxiv_id": "2507.01607v4",
+    "title": "Survivability of Backdoor Attacks on Unconstrained Face Recognition Systems",
+    "summary": "The widespread deployment of Deep Learning-based Face Recognition Systems raises multiple security concerns. While prior research has identified backdoor vulnerabilities on isolated components, Backdoor Attacks on real-world, unconstrained pipelines remain underexplored. This paper presents the first comprehensive system-level analysis of Backdoor Attacks targeting Face Recognition Systems and provides three contributions. We first show that face feature extractors trained with large margin metric learning losses are susceptible to Backdoor Attacks. By analyzing 20 pipeline configurations and 15 attack scenarios, we then reveal that a single backdoor can compromise an entire Face Recognition System. Finally, we propose effective best practices and countermeasures for stakeholders.",
+    "published": "2025-07-02T11:21:27Z",
+    "updated": "2025-09-18T04:06:37Z",
+    "authors": [
+      "Quentin Le Roux",
+      "Yannick Teglia",
+      "Teddy Furon",
+      "Philippe Loubet-Moundi",
+      "Eric Bourbao"
+    ],
+    "affiliations": [],
+    "first_author": "Quentin Le Roux",
+    "pdf_url": "https://arxiv.org/pdf/2507.01607v4",
+    "primary_category": "cs.CV",
+    "relevance_score": 16.0
+  }
+]

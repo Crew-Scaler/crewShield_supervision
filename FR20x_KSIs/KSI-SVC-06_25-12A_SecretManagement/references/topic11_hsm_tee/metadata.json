@@ -1,0 +1,246 @@
+{
+  "search_date": "2025-12-25T08:45:53.000497",
+  "topic": "Topic 11: HSM and Trusted Execution Environment Integration for Agent Key Storage",
+  "search_queries": [
+    "all:\"hardware security module\" AND (all:HSM OR all:\"trusted module\") AND (all:\"key management\" OR all:encryption) AND (submittedDate:[202401* TO 202512*])",
+    "all:\"trusted execution environment\" AND (all:TEE OR all:enclave) AND (all:key OR all:\"cryptographic operation\") AND (submittedDate:[202401* TO 202512*])",
+    "all:\"key storage\" AND (all:hardware OR all:HSM) AND (all:cloud OR all:serverless) AND (submittedDate:[202401* TO 202512*])"
+  ],
+  "total_papers_found": 69,
+  "papers_downloaded": 10,
+  "papers_archived": 59,
+  "top_papers": [
+    {
+      "url": "http://arxiv.org/abs/2507.17655v2",
+      "arxiv_id": "2507.17655v2",
+      "title": "HSM and TPM Failures in Cloud: A Real-World Taxonomy and Emerging Defenses",
+      "authors": [
+        "Shams Shaikh",
+        "Trima P. Fernandes e Fizardo"
+      ],
+      "abstract": "As cloud infrastructure becomes the backbone of modern organizations, the security of cryptographic key management, especially using Hardware Security Modules (HSMs) and Trusted Platform Modules (TPMs), faces unprecedented challenges. While these hardware-based solutions offer strong protection in isolated environments, their effectiveness is being undermined by cloud-native threats such as misconfigurations, compromised APIs, and lateral privilege escalations. This paper presents a comprehensive analysis of publicly disclosed attacks and breaches involving HSMs and TPMs in cloud environments, identifying recurring architectural and operational flaws. We propose a taxonomy of attack vectors based on real-world case studies and threat intelligence reports, highlighting the gaps between hardware trust anchors and dynamic cloud ecosystems. Furthermore, we evaluate emerging defensive paradigms: confidential computing, post-quantum cryptography, and decentralized key management systems (dKMS), assessing their potential to address these gaps. Our findings emphasize that securing cloud-based cryptographic trust requires a layered, context-aware approach that integrates both hardware and software safeguards. The study serves as a practical framework for cloud architects and security engineers to reassess key protection strategies in light of evolving threats. To our knowledge, this is the first work to synthesize documented, real-world cloud HSM and TPM failures into a coherent taxonomy grounded in modern threat models.",
+      "published": "2025-07-23T16:18:16Z",
+      "updated": "2025-08-07T08:19:06Z",
+      "pdf_url": "https://arxiv.org/pdf/2507.17655v2",
+      "categories": [
+        "cs.CR",
+        "cs.NI",
+        "cs.SE"
+      ],
+      "relevance_score": 81.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2507.17655v2_HSM_and_TPM_Failures_in_Cloud_A_Real_World_Taxonomy_and_Emerging_Defenses.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2506.14964v1",
+      "arxiv_id": "2506.14964v1",
+      "title": "Narrowing the Gap between TEEs Threat Model and Deployment Strategies",
+      "authors": [
+        "Filip Rezabek",
+        "Jonathan Passerat-Palmbach",
+        "Moe Mahhouk",
+        "Frieder Erdmann",
+        "Andrew Miller"
+      ],
+      "abstract": "Confidential Virtual Machines (CVMs) provide isolation guarantees for data in use, but their threat model does not include physical level protection and side-channel attacks. Therefore, current deployments rely on trusted cloud providers to host the CVMs' underlying infrastructure. However, TEE attestations do not provide information about the operator hosting a CVM. Without knowing whether a Trusted Execution Environment (TEE) runs within a provider's infrastructure, a user cannot accurately assess the risks of physical attacks. We observe a misalignment in the threat model where the workloads are protected against other tenants but do not offer end-to-end security assurances to external users without relying on cloud providers. The attestation should be extended to bind the CVM with the provider. A possible solution can rely on the Protected Platform Identifier (PPID), a unique CPU identifier. However, the implementation details of various TEE manufacturers, attestation flows, and providers vary. This makes verification of attestations, ease of migration, and building applications without relying on a trusted party challenging, highlighting a key limitation that must be addressed for the adoption of CVMs. We discuss two points focusing on hardening and extensions of TEEs' attestation.",
+      "published": "2025-06-17T20:22:07Z",
+      "updated": "2025-06-17T20:22:07Z",
+      "pdf_url": "https://arxiv.org/pdf/2506.14964v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 64.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2506.14964v1_Narrowing_the_Gap_between_TEEs_Threat_Model_and_Deployment_Strategies.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2508.20962v1",
+      "arxiv_id": "2508.20962v1",
+      "title": "Characterizing Trust Boundary Vulnerabilities in TEE Containers",
+      "authors": [
+        "Weijie Liu",
+        "Hongbo Chen",
+        "Shuo Huai",
+        "Zhen Xu",
+        "Wenhao Wang",
+        "Zhi Li",
+        "Zheli Liu"
+      ],
+      "abstract": "Trusted Execution Environments (TEEs) have emerged as a cornerstone of confidential computing, garnering significant attention from both academia and industry. To enable the secure development, execution, and deployment, of applications on TEE platforms, TEE containers have been introduced as middleware solutions. These containers aim to shield applications from potentially malicious operating systems and orchestration interfaces while maintaining usability and reliability. In this paper, we analyze the isolation strategies employed by existing TEE containers to protect secure applications. To address the challenges in analyzing these interfaces, we designed an automated analyzer to precisely identify and evaluate their isolation boundaries. We observed that some TEE containers fail to achieve their intended goals due to critical design and implementation flaws, such as information leakage, rollback attacks, denial-of-service, and Iago attacks, which pose significant security risks. Drawing from our findings, we share key lessons to guide the development of more secure container solutions and discuss emerging trends in TEE containerization design.",
+      "published": "2025-08-28T16:20:08Z",
+      "updated": "2025-08-28T16:20:08Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.20962v1",
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "relevance_score": 62.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2508.20962v1_Characterizing_Trust_Boundary_Vulnerabilities_in_TEE_Containers.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2505.04014v2",
+      "arxiv_id": "2505.04014v2",
+      "title": "Rollbaccine : Herd Immunity against Storage Rollback Attacks in TEEs [Technical Report]",
+      "authors": [
+        "David Chu",
+        "Aditya Balasubramanian",
+        "Dee Bao",
+        "Natacha Crooks",
+        "Heidi Howard",
+        "Lucky E. Katahanas",
+        "Soujanya Ponnapalli"
+      ],
+      "abstract": "Today, users can \"lift-and-shift\" unmodified applications into modern, VM-based Trusted Execution Environments (TEEs) in order to gain hardware-based security guarantees. However, TEEs do not protect applications against disk rollback attacks, where persistent storage can be reverted to an earlier state after a crash; existing rollback resistance solutions either only support a subset of applications or require code modification. Our key insight is that restoring disk consistency after a rollback attack guarantees rollback resistance for any application. We present Rollbaccine, a device mapper that provides automatic rollback resistance for all applications by provably preserving disk consistency. Rollbaccine intercepts and replicates writes to disk, restores lost state from backups during recovery, and minimizes overheads by taking advantage of the weak, multi-threaded semantics of disk operations. Rollbaccine performs on-par with state-of-the-art, non-automatic rollback resistant solutions; in fact, across benchmarks over PostgreSQL, HDFS, and two file systems (ext4 and xfs), Rollbaccine adds only 19% overhead, except for the fsync-heavy Filebench Varmail.",
+      "published": "2025-05-06T23:24:14Z",
+      "updated": "2025-11-05T21:55:56Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.04014v2",
+      "categories": [
+        "cs.CR",
+        "cs.DC"
+      ],
+      "relevance_score": 57.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2505.04014v2_Rollbaccine_Herd_Immunity_against_Storage_Rollback_Attacks_in_TEEs_Technical_Report.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2505.22735v1",
+      "arxiv_id": "2505.22735v1",
+      "title": "TensorShield: Safeguarding On-Device Inference by Shielding Critical DNN Tensors with TEE",
+      "authors": [
+        "Tong Sun",
+        "Bowen Jiang",
+        "Hailong Lin",
+        "Borui Li",
+        "Yixiao Teng",
+        "Yi Gao",
+        "Wei Dong"
+      ],
+      "abstract": "To safeguard user data privacy, on-device inference has emerged as a prominent paradigm on mobile and Internet of Things (IoT) devices. This paradigm involves deploying a model provided by a third party on local devices to perform inference tasks. However, it exposes the private model to two primary security threats: model stealing (MS) and membership inference attacks (MIA). To mitigate these risks, existing wisdom deploys models within Trusted Execution Environments (TEEs), which is a secure isolated execution space. Nonetheless, the constrained secure memory capacity in TEEs makes it challenging to achieve full model security with low inference latency. This paper fills the gap with TensorShield, the first efficient on-device inference work that shields partial tensors of the model while still fully defending against MS and MIA. The key enabling techniques in TensorShield include: (i) a novel eXplainable AI (XAI) technique exploits the model's attention transition to assess critical tensors and shields them in TEE to achieve secure inference, and (ii) two meticulous designs with critical feature identification and latency-aware placement to accelerate inference while maintaining security. Extensive evaluations show that TensorShield delivers almost the same security protection as shielding the entire model inside TEE, while being up to 25.35$\\times$ (avg. 5.85$\\times$) faster than the state-of-the-art work, without accuracy loss.",
+      "published": "2025-05-28T18:00:24Z",
+      "updated": "2025-05-28T18:00:24Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.22735v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 55.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2505.22735v1_TensorShield_Safeguarding_On_Device_Inference_by_Shielding_Critical_DNN_Tensors_with_TEE.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2503.09317v2",
+      "arxiv_id": "2503.09317v2",
+      "title": "RaceTEE: Enabling Interoperability of Confidential Smart Contracts",
+      "authors": [
+        "Keyu Zhang",
+        "Andrew Martin"
+      ],
+      "abstract": "Decentralized smart contracts enable trustless collaboration but suffer from limited privacy and scalability, which hinders broader adoption. Trusted Execution Environment (TEE) based off-chain execution frameworks offer a promising solution to both issues. Although TEE-based frameworks have made significant progress, prior work has yet to fully explore contract interoperability, a critical foundation for building complex real-world decentralized applications. This paper identifies the key challenges impeding such interoperability and presents practical solutions. Based on these insights, we introduce RaceTEE, a novel framework that leverages off-chain TEE-enabled nodes to efficiently execute confidential, long-lived smart contracts with interactions of arbitrary complexity among contracts. We implement a RaceTEE prototype using Intel SGX, integrate it with Ethereum, and release it as open source. Evaluation across diverse use cases demonstrates its practicality and effectiveness.",
+      "published": "2025-03-12T12:10:02Z",
+      "updated": "2025-11-06T14:33:10Z",
+      "pdf_url": "https://arxiv.org/pdf/2503.09317v2",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 55.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2503.09317v2_RaceTEE_Enabling_Interoperability_of_Confidential_Smart_Contracts.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2501.03118v1",
+      "arxiv_id": "2501.03118v1",
+      "title": "TEE-based Key-Value Stores: a Survey",
+      "authors": [
+        "Aghiles Ait Messaoud",
+        "Sonia Ben Mokhtar",
+        "Anthony Simonet-Boulogne"
+      ],
+      "abstract": "Key-Value Stores (KVSs) are No-SQL databases that store data as key-value pairs and have gained popularity due to their simplicity, scalability, and fast retrieval capabilities. However, storing sensitive data in KVSs requires strong security properties to prevent data leakage and unauthorized tampering. While software (SW)-based encryption techniques are commonly used to maintain data confidentiality and integrity, they suffer from several drawbacks. They strongly assume trust in the hosting system stack and do not secure data during processing unless using performance-heavy techniques (e.g., homomorphic encryption). Alternatively, Trusted Execution Environments (TEEs) provide a solution that enforces the confidentiality and integrity of code and data at the CPU level, allowing users to build trusted applications in an untrusted environment. They also secure data in use by providing an encapsulated processing environment called enclave. Nevertheless, TEEs come with their own set of drawbacks, including performance issues due to memory size limitations and CPU context switching. This paper examines the state of the art in TEE-based confidential KVSs and highlights common design strategies used in KVSs to leverage TEE security features while overcoming their inherent limitations. This work aims to provide a comprehensive understanding of the use of TEEs in KVSs and to identify research directions for future work.",
+      "published": "2025-01-06T16:26:44Z",
+      "updated": "2025-01-06T16:26:44Z",
+      "pdf_url": "https://arxiv.org/pdf/2501.03118v1",
+      "categories": [
+        "cs.CR",
+        "cs.DB"
+      ],
+      "relevance_score": 55.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2501.03118v1_TEE_based_Key_Value_Stores_a_Survey.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2408.00443v1",
+      "arxiv_id": "2408.00443v1",
+      "title": "An Experimental Evaluation of TEE technology Evolution: Benchmarking Transparent Approaches based on SGX, SEV, and TDX",
+      "authors": [
+        "Luigi Coppolino",
+        "Salvatore D'Antonio",
+        "Davide Iasio",
+        "Giovanni Mazzeo",
+        "Luigi Romano"
+      ],
+      "abstract": "Protection of data-in-use is a key priority, for which Trusted Execution Environment (TEE) technology has unarguably emerged as a, possibly the most, promising solution. Multiple server-side TEE offerings have been released over the years, exhibiting substantial differences with respect to several aspects. The first comer was Intel SGX, which featured Process-based TEE protection, an efficient yet difficult to use approach. Some SGX limitations were (partially) overcome by runtimes, notably: Gramine, Scone, and Occlum. A major paradigm shift was later brought by AMD SEV, with VM-based TEE protection, which enabled lift-and-shift deployment of legacy applications. This new paradigm has been implemented by Intel only recently, in TDX. While the threat model of the aforementioned TEE solutions has been widely discussed, a thorough performance comparison is still lacking in the literature. This paper provides a comparative evaluation of TDX, SEV, Gramine-SGX, and Occlum-SGX. We study computational overhead and resource usage, under different operational scenarios and using a diverse suite of legacy applications. By doing so, we provide a reliable performance assessment under realistic conditions. We explicitly emphasize that, at the time of writing, TDX was not yet available to the public. Thus, the evaluation of TDX is a unique feature of this study.",
+      "published": "2024-08-01T10:29:11Z",
+      "updated": "2024-08-01T10:29:11Z",
+      "pdf_url": "https://arxiv.org/pdf/2408.00443v1",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 55.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2408.00443v1_An_Experimental_Evaluation_of_TEE_technology_Evolution_Benchmarking_Transparent_Approaches_based_on_.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2402.08908v2",
+      "arxiv_id": "2402.08908v2",
+      "title": "Teamwork Makes TEE Work: Open and Resilient Remote Attestation on Decentralized Trust",
+      "authors": [
+        "Xiaolin Zhang",
+        "Kailun Qin",
+        "Shipei Qu",
+        "Tengfei Wang",
+        "Chi Zhang",
+        "Dawu Gu"
+      ],
+      "abstract": "Remote Attestation (RA) enables the integrity and authenticity of applications in Trusted Execution Environment (TEE) to be verified. Existing TEE RA designs employ a centralized trust model where they rely on a single provisioned secret key and a centralized verifier to establish trust for remote parties. This model is however brittle and can be untrusted under advanced attacks nowadays. Besides, most designs only have fixed procedures once deployed, making them hard to adapt to different emerging situations and provide resilient functionalities. Therefore, we propose JANUS, an open and resilient TEE RA scheme. To decentralize trust, we, on one hand, introduce Physically Unclonable Function (PUF) as an intrinsic root of trust (RoT) in TEE to directly provide physical trusted measurements. On the other hand, we design novel decentralized verification functions on smart contract with result audits and RA session snapshot. Furthermore, we design an automated switch mechanism that allows JANUS to remain resilient and offer flexible RA services under various situations. We provide a UC-based security proof and demonstrate the scalability and generality of JANUS by implementing an complete prototype.",
+      "published": "2024-02-14T02:51:01Z",
+      "updated": "2024-08-09T04:03:17Z",
+      "pdf_url": "https://arxiv.org/pdf/2402.08908v2",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 54.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2402.08908v2_Teamwork_Makes_TEE_Work_Open_and_Resilient_Remote_Attestation_on_Decentralized_Trust.pdf",
+      "downloaded": true
+    },
+    {
+      "url": "http://arxiv.org/abs/2405.15537v3",
+      "arxiv_id": "2405.15537v3",
+      "title": "Do Not Trust Power Management: A Survey on Internal Energy-based Attacks Circumventing Trusted Execution Environments Security Properties",
+      "authors": [
+        "Gwenn Le Gonidec",
+        "Maria M\u00e9ndez Real",
+        "Guillaume Bouffard",
+        "Jean-Christophe Pr\u00e9votet"
+      ],
+      "abstract": "Over the past few years, several research groups have introduced innovative hardware designs for Trusted Execution Environments (TEEs), aiming to secure applications against potentially compromised privileged software, including the kernel. Since 2015, a new class of software-enabled hardware attacks leveraging energy management mechanisms has emerged. These internal energy-based attacks comprise fault, side-channel and covert channel attacks. Their aim is to bypass TEE security guarantees and expose sensitive information such as cryptographic keys. They have increased in prevalence in the past few years. Popular TEE implementations, such as ARM TrustZone and Intel SGX, incorporate countermeasures against these attacks. However, these countermeasures either hinder the capabilities of the power management mechanisms or have been shown to provide insufficient system protection. This article presents the first comprehensive knowledge survey of these attacks, along with an evaluation of literature countermeasures. We believe that this study will spur further community efforts towards this increasingly important type of attacks.",
+      "published": "2024-05-24T13:26:39Z",
+      "updated": "2024-10-04T12:47:26Z",
+      "pdf_url": "https://arxiv.org/pdf/2405.15537v3",
+      "categories": [
+        "cs.CR",
+        "cs.AR",
+        "cs.ET"
+      ],
+      "relevance_score": 53.0,
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-06_25-12A_SecretManagement/references/topic11_hsm_tee/2405.15537v3_Do_Not_Trust_Power_Management_A_Survey_on_Internal_Energy_based_Attacks_Circumventing_Trusted_Execut.pdf",
+      "downloaded": true
+    }
+  ],
+  "statistics": {
+    "papers_2025": 26,
+    "papers_2024": 20,
+    "papers_2023": 8,
+    "papers_older": 15,
+    "avg_relevance_score": 59.1
+  }
+}

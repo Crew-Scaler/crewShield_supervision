@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2504.17669v2",
+  "title": "Towards a HIPAA Compliant Agentic AI System in Healthcare",
+  "authors": [
+    "Subash Neupane",
+    "Sudip Mittal",
+    "Shahram Rahimi"
+  ],
+  "published": "2025-04-24T15:38:20Z",
+  "url": "http://arxiv.org/abs/2504.17669v2",
+  "pdf_url": "http://arxiv.org/pdf/2504.17669v2.pdf",
+  "relevance_score": 100,
+  "summary": "Agentic AI systems powered by Large Language Models (LLMs) as their foundational reasoning engine, are transforming clinical workflows such as medical report generation and clinical summarization by autonomously analyzing sensitive healthcare data and executing decisions with minimal human oversight. However, their adoption demands strict compliance with regulatory frameworks such as Health Insurance Portability and Accountability Act (HIPAA), particularly when handling Protected Health Information (PHI). This work-in-progress paper introduces a HIPAA-compliant Agentic AI framework that enforces regulatory compliance through dynamic, context-aware policy enforcement. Our framework integrates three core mechanisms: (1) Attribute-Based Access Control (ABAC) for granular PHI governance, (2) a hybrid PHI sanitization pipeline combining regex patterns and BERT-based model to minimize leakage, and (3) immutable audit trails for compliance verification."
+}

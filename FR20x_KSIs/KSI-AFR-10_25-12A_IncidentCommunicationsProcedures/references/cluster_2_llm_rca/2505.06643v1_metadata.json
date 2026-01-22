@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2505.06643v1",
+  "title": "Practical Reasoning Interruption Attacks on Reasoning Large Language Models",
+  "authors": [
+    "Yu Cui",
+    "Cong Zuo"
+  ],
+  "published": "2025-05-10T13:36:01Z",
+  "url": "http://arxiv.org/abs/2505.06643v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.06643v1.pdf",
+  "relevance_score": 100,
+  "summary": "Reasoning large language models (RLLMs) have demonstrated outstanding performance across a variety of tasks, yet they also expose numerous security vulnerabilities. Most of these vulnerabilities have centered on the generation of unsafe content. However, recent work has identified a distinct \"thinking-stopped\" vulnerability in DeepSeek-R1: under adversarial prompts, the model's reasoning process ceases at the system level and produces an empty final answer. Building upon this vulnerability, researchers developed a novel prompt injection attack, termed reasoning interruption attack, and also offered an initial analysis of its root cause. Through extensive experiments, we verify the previous analyses, correct key errors based on three experimental findings, and present a more rigorous explanation of the fundamental causes driving the vulnerability. Moreover, existing attacks typically require over 2,000 tokens, impose significant overhead, reduce practicality, and are easily detected. To overcome these limitations, we propose the first practical reasoning interruption attack. It succeeds with just 109 tokens by exploiting our newly uncovered \"reasoning token overflow\" (RTO) effect to overwrite the model's final answer, forcing it to return an invalid response. Experimental results demonstrate that our proposed attack is highly effective. Furthermore, we discover that the method for triggering RTO differs between the official DeepSeek-R1 release and common unofficial deployments. As a broadened application of RTO, we also construct a novel jailbreak attack that enables the transfer of unsafe content within the reasoning tokens into final answer, thereby exposing it to the user. Our work carries significant implications for enhancing the security of RLLMs."
+}

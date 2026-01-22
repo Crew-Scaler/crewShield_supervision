@@ -1,0 +1,1253 @@
+{
+  "collection_timestamp": "2025-12-11T12:58:56.572594",
+  "total_papers": 45,
+  "papers_by_topic": {
+    "deepfake_liveness": 45
+  },
+  "papers": [
+    {
+      "title": "Human perception of audio deepfakes: the role of language and speaking style",
+      "authors": [
+        "Eugenia San Segundo",
+        "Aurora L\u00f3pez-Jare\u00f1o",
+        "Xin Wang",
+        "Junichi Yamagishi"
+      ],
+      "published": "2025-12-10T01:04:59+00:00",
+      "arxiv_id": "2512.09221v1",
+      "categories": [
+        "eess.AS",
+        "eess.SP"
+      ],
+      "summary": "Audio deepfakes have reached a level of realism that makes it increasingly difficult to distinguish between human and artificial voices, which poses risks such as identity theft or spread of disinformation. Despite these concerns, research on humans' ability to identify deepfakes is limited, with most studies focusing on English and very few exploring the reasons behind listeners' perceptual decisions. This study addresses this gap through a perceptual experiment in which 54 listeners (28 native Spanish speakers and 26 native Japanese speakers) classified voices as natural or synthetic, and justified their choices. The experiment included 80 stimuli (50% artificial), organized according to three variables: language (Spanish/Japanese), speech style (audiobooks/interviews), and familiarity with the voice (familiar/unfamiliar). The goal was to examine how these variables influence detection and to analyze qualitatively the reasoning behind listeners' perceptual decisions. Results indicate an average accuracy of 59.11%, with higher performance on authentic samples. Judgments of vocal naturalness rely on a combination of linguistic and non-linguistic cues. Comparing Japanese and Spanish listeners, our qualitative analysis further reveals both shared cues and notable cross-linguistic differences in how listeners conceptualize the \"humanness\" of speech. Overall, participants relied primarily on suprasegmental and higher-level or extralinguistic characteristics - such as intonation, rhythm, fluency, pauses, speed, breathing, and laughter - over segmental features. These findings underscore the complexity of human perceptual strategies in distinguishing natural from artificial speech and align partly with prior research emphasizing the importance of prosody and phenomena typical of spontaneous speech, such as disfluencies.",
+      "pdf_url": "https://arxiv.org/pdf/2512.09221v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Segundo_Human_perception_of_audio_deepfakes:.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:55:31.110332"
+    },
+    {
+      "title": "DFALLM: Achieving Generalizable Multitask Deepfake Detection by Optimizing Audio LLM Components",
+      "authors": [
+        "Yupei Li",
+        "Li Wang",
+        "Yuxiang Wang",
+        "Lei Wang",
+        "Rizhao Cai",
+        "Jie Shi",
+        "Bj\u00f6rn W. Schuller",
+        "Zhizheng Wu"
+      ],
+      "published": "2025-12-09T09:36:38+00:00",
+      "arxiv_id": "2512.08403v1",
+      "categories": [
+        "cs.SD"
+      ],
+      "summary": "Audio deepfake detection has recently garnered public concern due to its implications for security and reliability. Traditional deep learning methods have been widely applied to this task but often lack generalisability when confronted with newly emerging spoofing techniques and more tasks such as spoof attribution recognition rather than simple binary classification. In principle, Large Language Models (LLMs) are considered to possess the needed generalisation capabilities. However, previous research on Audio LLMs (ALLMs) indicates a generalization bottleneck in audio deepfake detection performance, even when sufficient data is available. Consequently, this study investigates the model architecture and examines the effects of the primary components of ALLMs, namely the audio encoder and the text-based LLM. Our experiments demonstrate that the careful selection and combination of audio encoders and text-based LLMs are crucial for unlocking the deepfake detection potential of ALLMs. We further propose an ALLM structure capable of generalizing deepfake detection abilities to out-of-domain spoofing tests and other deepfake tasks, such as spoof positioning and spoof attribution recognition. Our proposed model architecture achieves state-of-the-art (SOTA) performance across multiple datasets, including ASVSpoof2019, InTheWild, and Demopage, with accuracy reaching up to 95.76% on average, and exhibits competitive capabilities in other deepfake detection tasks such as attribution, and localisation compared to SOTA audio understanding models. Data and codes are provided in supplementary materials.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08403v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Li_DFALLM:_Achieving_Generalizable_Multitask_Deepfake.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:55:34.331901"
+    },
+    {
+      "title": "BUT Systems for Environmental Sound Deepfake Detection in the ESDD 2026 Challenge",
+      "authors": [
+        "Junyi Peng",
+        "Lin Zhang",
+        "Jin Li",
+        "Oldrich Plchot",
+        "Jan Cernocky"
+      ],
+      "published": "2025-12-09T07:32:55+00:00",
+      "arxiv_id": "2512.08319v1",
+      "categories": [
+        "eess.AS"
+      ],
+      "summary": "This paper describes the BUT submission to the ESDD 2026 Challenge, specifically focusing on Track 1: Environmental Sound Deepfake Detection with Unseen Generators. To address the critical challenge of generalizing to audio generated by unseen synthesis algorithms, we propose a robust ensemble framework leveraging diverse Self-Supervised Learning (SSL) models. We conduct a comprehensive analysis of general audio SSL models (including BEATs, EAT, and Dasheng) and speech-specific SSLs. These front-ends are coupled with a lightweight Multi-Head Factorized Attention (MHFA) back-end to capture discriminative representations. Furthermore, we introduce a feature domain augmentation strategy based on distribution uncertainty modeling to enhance model robustness against unseen spectral distortions. All models are trained exclusively on the official EnvSDD data, without using any external resources. Experimental results demonstrate the effectiveness of our approach: our best single system achieved Equal Error Rates (EER) of 0.00\\%, 4.60\\%, and 4.80\\% on the Development, Progress (Track 1), and Final Evaluation sets, respectively. The fusion system further improved generalization, yielding EERs of 0.00\\%, 3.52\\%, and 4.38\\% across the same partitions.",
+      "pdf_url": "https://arxiv.org/pdf/2512.08319v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Peng_BUT_Systems_for_Environmental_Sound.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:55:37.640809"
+    },
+    {
+      "title": "Towards Sustainable Universal Deepfake Detection with Frequency-Domain Masking",
+      "authors": [
+        "Chandler Timm C. Doloriel",
+        "Habib Ullah",
+        "Kristian Hovde Liland",
+        "Fadi Al Machot",
+        "Ngai-Man Cheung"
+      ],
+      "published": "2025-12-08T21:08:25+00:00",
+      "arxiv_id": "2512.08042v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Universal deepfake detection aims to identify AI-generated images across a broad range of generative models, including unseen ones. This requires robust generalization to new and unseen deepfakes, which emerge frequently, while minimizing computational overhead to enable large-scale deepfake screening, a critical objective in the era of Green AI. In this work, we explore frequency-domain masking as a training strategy for deepfake detectors. Unlike traditional methods that rely heavily on spatial features or large-scale pretrained models, our approach introduces random masking and geometric transformations, with a focus on frequency masking due to its superior generalization properties. We demonstrate that frequency masking not only enhances detection accuracy across diverse generators but also maintains performance under significant model pruning, offering a scalable and resource-conscious solution. Our method achieves state-of-the-art generalization on GAN- and diffusion-generated image datasets and exhibits consistent robustness under structured pruning. These results highlight the potential of frequency-based masking as a practical step toward sustainable and generalizable deepfake detection. Code and models are available at: [https://github.com/chandlerbing65nm/FakeImageDetection](https://github.com/chandlerbing65nm/FakeImageDetection).",
+      "pdf_url": "https://arxiv.org/pdf/2512.08042v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Doloriel_Towards_Sustainable_Universal_Deepfake_Detection.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:55:41.300072"
+    },
+    {
+      "title": "Towards Robust DeepFake Detection under Unstable Face Sequences: Adaptive Sparse Graph Embedding with Order-Free Representation and Explicit Laplacian Spectral Prior",
+      "authors": [
+        "Chih-Chung Hsu",
+        "Shao-Ning Chen",
+        "Chia-Ming Lee",
+        "Yi-Fang Wang",
+        "Yi-Shiuan Chou"
+      ],
+      "published": "2025-12-08T12:31:07+00:00",
+      "arxiv_id": "2512.07498v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Ensuring the authenticity of video content remains challenging as DeepFake generation becomes increasingly realistic and robust against detection. Most existing detectors implicitly assume temporally consistent and clean facial sequences, an assumption that rarely holds in real-world scenarios where compression artifacts, occlusions, and adversarial attacks destabilize face detection and often lead to invalid or misdetected faces. To address these challenges, we propose a Laplacian-Regularized Graph Convolutional Network (LR-GCN) that robustly detects DeepFakes from noisy or unordered face sequences, while being trained only on clean facial data. Our method constructs an Order-Free Temporal Graph Embedding (OF-TGE) that organizes frame-wise CNN features into an adaptive sparse graph based on semantic affinities. Unlike traditional methods constrained by strict temporal continuity, OF-TGE captures intrinsic feature consistency across frames, making it resilient to shuffled, missing, or heavily corrupted inputs. We further impose a dual-level sparsity mechanism on both graph structure and node features to suppress the influence of invalid faces. Crucially, we introduce an explicit Graph Laplacian Spectral Prior that acts as a high-pass operator in the graph spectral domain, highlighting structural anomalies and forgery artifacts, which are then consolidated by a low-pass GCN aggregation. This sequential design effectively realizes a task-driven spectral band-pass mechanism that suppresses background information and random noise while preserving manipulation cues. Extensive experiments on FF++, Celeb-DFv2, and DFDC demonstrate that LR-GCN achieves state-of-the-art performance and significantly improved robustness under severe global and local disruptions, including missing faces, occlusions, and adversarially perturbed face detections.",
+      "pdf_url": "https://arxiv.org/pdf/2512.07498v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Hsu_Towards_Robust_DeepFake_Detection_under.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:55:45.241596"
+    },
+    {
+      "title": "DeepAgent: A Dual Stream Multi Agent Fusion for Robust Multimodal Deepfake Detection",
+      "authors": [
+        "Sayeem Been Zaman",
+        "Wasimul Karim",
+        "Arefin Ittesafun Abian",
+        "Reem E. Mohamed",
+        "Md Rafiqul Islam",
+        "Asif Karim",
+        "Sami Azam"
+      ],
+      "published": "2025-12-08T09:43:30+00:00",
+      "arxiv_id": "2512.07351v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "summary": "The increasing use of synthetic media, particularly deepfakes, is an emerging challenge for digital content verification. Although recent studies use both audio and visual information, most integrate these cues within a single model, which remains vulnerable to modality mismatches, noise, and manipulation. To address this gap, we propose DeepAgent, an advanced multi-agent collaboration framework that simultaneously incorporates both visual and audio modalities for the effective detection of deepfakes. DeepAgent consists of two complementary agents. Agent-1 examines each video with a streamlined AlexNet-based CNN to identify the symbols of deepfake manipulation, while Agent-2 detects audio-visual inconsistencies by combining acoustic features, audio transcriptions from Whisper, and frame-reading sequences of images through EasyOCR. Their decisions are fused through a Random Forest meta-classifier that improves final performance by taking advantage of the different decision boundaries learned by each agent. This study evaluates the proposed framework using three benchmark datasets to demonstrate both component-level and fused performance. Agent-1 achieves a test accuracy of 94.35% on the combined Celeb-DF and FakeAVCeleb datasets. On the FakeAVCeleb dataset, Agent-2 and the final meta-classifier attain accuracies of 93.69% and 81.56%, respectively. In addition, cross-dataset validation on DeepFakeTIMIT confirms the robustness of the meta-classifier, which achieves a final accuracy of 97.49%, and indicates a strong capability across diverse datasets. These findings confirm that hierarchy-based fusion enhances robustness by mitigating the weaknesses of individual modalities and demonstrate the effectiveness of a multi-agent approach in addressing diverse types of manipulations in deepfakes.",
+      "pdf_url": "https://arxiv.org/pdf/2512.07351v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Zaman_DeepAgent:_A_Dual_Stream_Multi.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:55:48.694262"
+    },
+    {
+      "title": "Towards Robust Protective Perturbation against DeepFake Face Swapping",
+      "authors": [
+        "Hengyang Yao",
+        "Lin Li",
+        "Ke Sun",
+        "Jianing Qiu",
+        "Huiping Chen"
+      ],
+      "published": "2025-12-08T07:12:43+00:00",
+      "arxiv_id": "2512.07228v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "summary": "DeepFake face swapping enables highly realistic identity forgeries, posing serious privacy and security risks. A common defence embeds invisible perturbations into images, but these are fragile and often destroyed by basic transformations such as compression or resizing. In this paper, we first conduct a systematic analysis of 30 transformations across six categories and show that protection robustness is highly sensitive to the choice of training transformations, making the standard Expectation over Transformation (EOT) with uniform sampling fundamentally suboptimal. Motivated by this, we propose Expectation Over Learned distribution of Transformation (EOLT), the framework to treat transformation distribution as a learnable component rather than a fixed design choice. Specifically, EOLT employs a policy network that learns to automatically prioritize critical transformations and adaptively generate instance-specific perturbations via reinforcement learning, enabling explicit modeling of defensive bottlenecks while maintaining broad transferability. Extensive experiments demonstrate that our method achieves substantial improvements over state-of-the-art approaches, with 26% higher average robustness and up to 30% gains on challenging transformation categories.",
+      "pdf_url": "https://arxiv.org/pdf/2512.07228v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Yao_Towards_Robust_Protective_Perturbation_against.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:55:53.125326"
+    },
+    {
+      "title": "Technical Report of Nomi Team in the Environmental Sound Deepfake Detection Challenge 2026",
+      "authors": [
+        "Candy Olivia Mawalim",
+        "Haotian Zhang",
+        "Shogo Okada"
+      ],
+      "published": "2025-12-05T03:37:18+00:00",
+      "arxiv_id": "2512.06041v1",
+      "categories": [
+        "cs.SD",
+        "eess.AS"
+      ],
+      "summary": "This paper presents our work for the ICASSP 2026 Environmental Sound Deepfake Detection (ESDD) Challenge. The challenge is based on the large-scale EnvSDD dataset that consists of various synthetic environmental sounds. We focus on addressing the complexities of unseen generators and low-resource black-box scenarios by proposing an audio-text cross-attention model. Experiments with individual and combined text-audio models demonstrate competitive EER improvements over the challenge baseline (BEATs+AASIST model).",
+      "pdf_url": "https://arxiv.org/pdf/2512.06041v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Mawalim_Technical_Report_of_Nomi_Team.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:55:56.338291"
+    },
+    {
+      "title": "Physics-Guided Deepfake Detection for Voice Authentication Systems",
+      "authors": [
+        "Alireza Mohammadi",
+        "Keshav Sood",
+        "Dhananjay Thiruvady",
+        "Asef Nazari"
+      ],
+      "published": "2025-12-04T23:37:18+00:00",
+      "arxiv_id": "2512.06040v1",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "eess.AS"
+      ],
+      "summary": "Voice authentication systems deployed at the network edge face dual threats: a) sophisticated deepfake synthesis attacks and b) control-plane poisoning in distributed federated learning protocols. We present a framework coupling physics-guided deepfake detection with uncertainty-aware in edge learning. The framework fuses interpretable physics features modeling vocal tract dynamics with representations coming from a self-supervised learning module. The representations are then processed via a Multi-Modal Ensemble Architecture, followed by a Bayesian ensemble providing uncertainty estimates. Incorporating physics-based characteristics evaluations and uncertainty estimates of audio samples allows our proposed framework to remain robust to both advanced deepfake attacks and sophisticated control-plane poisoning, addressing the complete threat model for networked voice authentication.",
+      "pdf_url": "https://arxiv.org/pdf/2512.06040v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Mohammadi_Physics-Guided_Deepfake_Detection_for_Voice.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:55:59.634376"
+    },
+    {
+      "title": "A Sanity Check for Multi-In-Domain Face Forgery Detection in the Real World",
+      "authors": [
+        "Jikang Cheng",
+        "Renye Yan",
+        "Zhiyuan Yan",
+        "Yaozhong Gan",
+        "Xueyi Zhang",
+        "Zhongyuan Wang",
+        "Wei Peng",
+        "Ling Liang"
+      ],
+      "published": "2025-12-04T14:21:08+00:00",
+      "arxiv_id": "2512.04837v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Existing methods for deepfake detection aim to develop generalizable detectors. Although \"generalizable\" is the ultimate target once and for all, with limited training forgeries and domains, it appears idealistic to expect generalization that covers entirely unseen variations, especially given the diversity of real-world deepfakes. Therefore, introducing large-scale multi-domain data for training can be feasible and important for real-world applications. However, within such a multi-domain scenario, the differences between multiple domains, rather than the subtle real/fake distinctions, dominate the feature space. As a result, despite detectors being able to relatively separate real and fake within each domain (i.e., high AUC), they struggle with single-image real/fake judgments in domain-unspecified conditions (i.e., low ACC). In this paper, we first define a new research paradigm named Multi-In-Domain Face Forgery Detection (MID-FFD), which includes sufficient volumes of real-fake domains for training. Then, the detector should provide definitive real-fake judgments to the domain-unspecified inputs, which simulate the frame-by-frame independent detection scenario in the real world. Meanwhile, to address the domain-dominant issue, we propose a model-agnostic framework termed DevDet (Developer for Detector) to amplify real/fake differences and make them dominant in the feature space. DevDet consists of a Face Forgery Developer (FFDev) and a Dose-Adaptive detector Fine-Tuning strategy (DAFT). Experiments demonstrate our superiority in predicting real-fake under the MID-FFD scenario while maintaining original generalization ability to unseen data.",
+      "pdf_url": "https://arxiv.org/pdf/2512.04837v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Cheng_A_Sanity_Check_for_Multi-In-Domain.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:03.652000"
+    },
+    {
+      "title": "Beyond Flicker: Detecting Kinematic Inconsistencies for Generalizable Deepfake Video Detection",
+      "authors": [
+        "Alejandro Cobo",
+        "Roberto Valle",
+        "Jos\u00e9 Miguel Buenaposada",
+        "Luis Baumela"
+      ],
+      "published": "2025-12-03T19:00:07+00:00",
+      "arxiv_id": "2512.04175v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Generalizing deepfake detection to unseen manipulations remains a key challenge. A recent approach to tackle this issue is to train a network with pristine face images that have been manipulated with hand-crafted artifacts to extract more generalizable clues. While effective for static images, extending this to the video domain is an open issue. Existing methods model temporal artifacts as frame-to-frame instabilities, overlooking a key vulnerability: the violation of natural motion dependencies between different facial regions. In this paper, we propose a synthetic video generation method that creates training data with subtle kinematic inconsistencies. We train an autoencoder to decompose facial landmark configurations into motion bases. By manipulating these bases, we selectively break the natural correlations in facial movements and introduce these artifacts into pristine videos via face morphing. A network trained on our data learns to spot these sophisticated biomechanical flaws, achieving state-of-the-art generalization results on several popular benchmarks.",
+      "pdf_url": "https://arxiv.org/pdf/2512.04175v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Cobo_Beyond_Flicker:_Detecting_Kinematic_Inconsistencies.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:09.649764"
+    },
+    {
+      "title": "MVAD : A Comprehensive Multimodal Video-Audio Dataset for AIGC Detection",
+      "authors": [
+        "Mengxue Hu",
+        "Yunfeng Diao",
+        "Changtao Miao",
+        "Jianshu Li",
+        "Zhe Li",
+        "Joey Tianyi Zhou"
+      ],
+      "published": "2025-11-29T05:59:38+00:00",
+      "arxiv_id": "2512.00336v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The rapid advancement of AI-generated multimodal video-audio content has raised significant concerns regarding information security and content authenticity. Existing synthetic video datasets predominantly focus on the visual modality alone, while the few incorporating audio are largely confined to facial deepfakes--a limitation that fails to address the expanding landscape of general multimodal AI-generated content and substantially impedes the development of trustworthy detection systems. To bridge this critical gap, we introduce the Multimodal Video-Audio Dataset (MVAD), the first comprehensive dataset specifically designed for detecting AI-generated multimodal video-audio content. Our dataset exhibits three key characteristics: (1) genuine multimodality with samples generated according to three realistic video-audio forgery patterns; (2) high perceptual quality achieved through diverse state-of-the-art generative models; and (3) comprehensive diversity spanning realistic and anime visual styles, four content categories (humans, animals, objects, and scenes), and four video-audio multimodal data types. Our dataset will be available at https://github.com/HuMengXue0104/MVAD.",
+      "pdf_url": "https://arxiv.org/pdf/2512.00336v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Hu_MVAD_:_A_Comprehensive_Multimodal.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:13.259733"
+    },
+    {
+      "title": "Beyond Real versus Fake Towards Intent-Aware Video Analysis",
+      "authors": [
+        "Saurabh Atreya",
+        "Nabyl Quignon",
+        "Baptiste Chopin",
+        "Abhijit Das",
+        "Antitza Dantcheva"
+      ],
+      "published": "2025-11-27T13:44:06+00:00",
+      "arxiv_id": "2511.22455v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The rapid advancement of generative models has led to increasingly realistic deepfake videos, posing significant societal and security risks. While existing detection methods focus on distinguishing real from fake videos, such approaches fail to address a fundamental question: What is the intent behind a manipulated video? Towards addressing this question, we introduce IntentHQ: a new benchmark for human-centered intent analysis, shifting the paradigm from authenticity verification to contextual understanding of videos. IntentHQ consists of 5168 videos that have been meticulously collected and annotated with 23 fine-grained intent-categories, including \"Financial fraud\", \"Indirect marketing\", \"Political propaganda\", as well as \"Fear mongering\". We perform intent recognition with supervised and self-supervised multi-modality models that integrate spatio-temporal video features, audio processing, and text analysis to infer underlying motivations and goals behind videos. Our proposed model is streamlined to differentiate between a wide range of intent-categories.",
+      "pdf_url": "https://arxiv.org/pdf/2511.22455v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Atreya_Beyond_Real_versus_Fake_Towards.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:56:20.797683"
+    },
+    {
+      "title": "Do You See What I Say? Generalizable Deepfake Detection based on Visual Speech Recognition",
+      "authors": [
+        "Maheswar Bora",
+        "Tashvik Dhamija",
+        "Shukesh Reddy",
+        "Baptiste Chopin",
+        "Pranav Balaji",
+        "Abhijit Das",
+        "Antitza Dantcheva"
+      ],
+      "published": "2025-11-27T13:30:59+00:00",
+      "arxiv_id": "2511.22443v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Deepfake generation has witnessed remarkable progress, contributing to highly realistic generated images, videos, and audio. While technically intriguing, such progress has raised serious concerns related to the misuse of manipulated media. To mitigate such misuse, robust and reliable deepfake detection is urgently needed. Towards this, we propose a novel network FauxNet, which is based on pre-trained Visual Speech Recognition (VSR) features. By extracting temporal VSR features from videos, we identify and segregate real videos from manipulated ones. The holy grail in this context has to do with zero-shot detection, i.e., generalizable detection, which we focus on in this work. FauxNet consistently outperforms the state-of-the-art in this setting. In addition, FauxNet is able to attribute - distinguish between generation techniques from which the videos stem. Finally, we propose new datasets, referred to as Authentica-Vox and Authentica-HDTF, comprising about 38,000 real and fake videos in total, the latter created with six recent deepfake generation techniques. We provide extensive analysis and results on the Authentica datasets and FaceForensics++, demonstrating the superiority of FauxNet. The Authentica datasets will be made publicly available.",
+      "pdf_url": "https://arxiv.org/pdf/2511.22443v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Bora_Do_You_See_What_I.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:56:27.515946"
+    },
+    {
+      "title": "INSIGHT: An Interpretable Neural Vision-Language Framework for Reasoning of Generative Artifacts",
+      "authors": [
+        "Anshul Bagaria"
+      ],
+      "published": "2025-11-27T11:43:50+00:00",
+      "arxiv_id": "2511.22351v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The growing realism of AI-generated images produced by recent GAN and diffusion models has intensified concerns over the reliability of visual media. Yet, despite notable progress in deepfake detection, current forensic systems degrade sharply under real-world conditions such as severe downsampling, compression, and cross-domain distribution shifts. Moreover, most detectors operate as opaque classifiers, offering little insight into why an image is flagged as synthetic, undermining trust and hindering adoption in high-stakes settings.\n  We introduce INSIGHT (Interpretable Neural Semantic and Image-based Generative-forensic Hallucination Tracing), a unified multimodal framework for robust detection and transparent explanation of AI-generated images, even at extremely low resolutions (16x16 - 64x64). INSIGHT combines hierarchical super-resolution for amplifying subtle forensic cues without inducing misleading artifacts, Grad-CAM driven multi-scale localization to reveal spatial regions indicative of generative patterns, and CLIP-guided semantic alignment to map visual anomalies to human-interpretable descriptors. A vision-language model is then prompted using a structured ReAct + Chain-of-Thought protocol to produce consistent, fine-grained explanations, verified through a dual-stage G-Eval + LLM-as-a-judge pipeline to minimize hallucinations and ensure factuality.\n  Across diverse domains, including animals, vehicles, and abstract synthetic scenes, INSIGHT substantially improves both detection robustness and explanation quality under extreme degradation, outperforming prior detectors and black-box VLM baselines. Our results highlight a practical path toward transparent, reliable AI-generated image forensics and establish INSIGHT as a step forward in trustworthy multimodal content verification.",
+      "pdf_url": "https://arxiv.org/pdf/2511.22351v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Bagaria_INSIGHT:_An_Interpretable_Neural_Vision-Language.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:31.696407"
+    },
+    {
+      "title": "Generalized Design Choices for Deepfake Detectors",
+      "authors": [
+        "Lorenzo Pellegrini",
+        "Serafino Pandolfini",
+        "Davide Maltoni",
+        "Matteo Ferrara",
+        "Marco Prati",
+        "Marco Ramilli"
+      ],
+      "published": "2025-11-26T15:40:58+00:00",
+      "arxiv_id": "2511.21507v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The effectiveness of deepfake detection methods often depends less on their core design and more on implementation details such as data preprocessing, augmentation strategies, and optimization techniques. These factors make it difficult to fairly compare detectors and to understand which factors truly contribute to their performance. To address this, we systematically investigate how different design choices influence the accuracy and generalization capabilities of deepfake detection models, focusing on aspects related to training, inference, and incremental updates. By isolating the impact of individual factors, we aim to establish robust, architecture-agnostic best practices for the design and development of future deepfake detection systems. Our experiments identify a set of design choices that consistently improve deepfake detection and enable state-of-the-art performance on the AI-GenBench benchmark.",
+      "pdf_url": "https://arxiv.org/pdf/2511.21507v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Pellegrini_Generalized_Design_Choices_for_Deepfake.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:34.981399"
+    },
+    {
+      "title": "SONAR: Spectral-Contrastive Audio Residuals for Generalizable Deepfake Detection",
+      "authors": [
+        "Ido Nitzan HIdekel",
+        "Gal lifshitz",
+        "Khen Cohen",
+        "Dan Raviv"
+      ],
+      "published": "2025-11-26T12:16:38+00:00",
+      "arxiv_id": "2511.21325v1",
+      "categories": [
+        "cs.SD",
+        "cs.AI"
+      ],
+      "summary": "Deepfake (DF) audio detectors still struggle to generalize to out of distribution inputs. A central reason is spectral bias, the tendency of neural networks to learn low-frequency structure before high-frequency (HF) details, which both causes DF generators to leave HF artifacts and leaves those same artifacts under-exploited by common detectors. To address this gap, we propose Spectral-cONtrastive Audio Residuals (SONAR), a frequency-guided framework that explicitly disentangles an audio signal into complementary representations. An XLSR encoder captures the dominant low-frequency content, while the same cloned path, preceded by learnable SRM, value-constrained high-pass filters, distills faint HF residuals. Frequency cross-attention reunites the two views for long- and short-range frequency dependencies, and a frequency-aware Jensen-Shannon contrastive loss pulls real content-noise pairs together while pushing fake embeddings apart, accelerating optimization and sharpening decision boundaries. Evaluated on the ASVspoof 2021 and in-the-wild benchmarks, SONAR attains state-of-the-art performance and converges four times faster than strong baselines. By elevating faint high-frequency residuals to first-class learning signals, SONAR unveils a fully data-driven, frequency-guided contrastive framework that splits the latent space into two disjoint manifolds: natural-HF for genuine audio and distorted-HF for synthetic audio, thereby sharpening decision boundaries. Because the scheme operates purely at the representation level, it is architecture-agnostic and, in future work, can be seamlessly integrated into any model or modality where subtle high-frequency cues are decisive.",
+      "pdf_url": "https://arxiv.org/pdf/2511.21325v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_HIdekel_SONAR:_Spectral-Contrastive_Audio_Residuals_for.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:38.881626"
+    },
+    {
+      "title": "DinoLizer: Learning from the Best for Generative Inpainting Localization",
+      "authors": [
+        "Minh Thong Doi",
+        "Jan Butora",
+        "Vincent Itier",
+        "J\u00e9r\u00e9mie Boulanger",
+        "Patrick Bas"
+      ],
+      "published": "2025-11-25T08:37:24+00:00",
+      "arxiv_id": "2511.20722v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "We introduce DinoLizer, a DINOv2-based model for localizing manipulated regions in generative inpainting. Our method builds on a DINOv2 model pretrained to detect synthetic images on the B-Free dataset. We add a linear classification head on top of the Vision Transformer's patch embeddings to predict manipulations at a $14\\times 14$ patch resolution. The head is trained to focus on semantically altered regions, treating non-semantic edits as part of the original content. Because the ViT accepts only fixed-size inputs, we use a sliding-window strategy to aggregate predictions over larger images; the resulting heatmaps are post-processed to refine the estimated binary manipulation masks. Empirical results show that DinoLizer surpasses state-of-the-art local manipulation detectors on a range of inpainting datasets derived from different generative models. It remains robust to common post-processing operations such as resizing, noise addition, and JPEG (double) compression. On average, DinoLizer achieves a 12\\% higher Intersection-over-Union (IoU) than the next best model, with even greater gains after post-processing. Our experiments with off-the-shelf DINOv2 demonstrate the strong representational power of Vision Transformers for this task. Finally, extensive ablation studies comparing DINOv2 and its successor, DINOv3, in deepfake localization confirm DinoLizer's superiority. The code will be publicly available upon acceptance of the paper.",
+      "pdf_url": "https://arxiv.org/pdf/2511.20722v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Doi_DinoLizer:_Learning_from_the_Best.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:56:43.350049"
+    },
+    {
+      "title": "Continual Audio Deepfake Detection via Universal Adversarial Perturbation",
+      "authors": [
+        "Wangjie Li",
+        "Lin Li",
+        "Qingyang Hong"
+      ],
+      "published": "2025-11-25T06:41:11+00:00",
+      "arxiv_id": "2511.19974v1",
+      "categories": [
+        "cs.SD"
+      ],
+      "summary": "The rapid advancement of speech synthesis and voice conversion technologies has raised significant security concerns in multimedia forensics. Although current detection models demonstrate impressive performance, they struggle to maintain effectiveness against constantly evolving deepfake attacks. Additionally, continually fine-tuning these models using historical training data incurs substantial computational and storage costs. To address these limitations, we propose a novel framework that incorporates Universal Adversarial Perturbation (UAP) into audio deepfake detection, enabling models to retain knowledge of historical spoofing distribution without direct access to past data. Our method integrates UAP seamlessly with pre-trained self-supervised audio models during fine-tuning. Extensive experiments validate the effectiveness of our approach, showcasing its potential as an efficient solution for continual learning in audio deepfake detection.",
+      "pdf_url": "https://arxiv.org/pdf/2511.19974v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Li_Continual_Audio_Deepfake_Detection_via.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:47.073858"
+    },
+    {
+      "title": "SpectraNet: FFT-assisted Deep Learning Classifier for Deepfake Face Detection",
+      "authors": [
+        "Nithira Jayarathne",
+        "Naveen Basnayake",
+        "Keshawa Jayasundara",
+        "Pasindu Dodampegama",
+        "Praveen Wijesinghe",
+        "Hirushika Pelagewatta",
+        "Kavishka Abeywardana",
+        "Sandushan Ranaweera",
+        "Chamira Edussooriya"
+      ],
+      "published": "2025-11-24T14:54:00+00:00",
+      "arxiv_id": "2511.19187v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG"
+      ],
+      "summary": "Detecting deepfake images is crucial in combating misinformation. We present a lightweight, generalizable binary classification model based on EfficientNet-B6, fine-tuned with transformation techniques to address severe class imbalances. By leveraging robust preprocessing, oversampling, and optimization strategies, our model achieves high accuracy, stability, and generalization. While incorporating Fourier transform-based phase and amplitude features showed minimal impact, our proposed framework helps non-experts to effectively identify deepfake images, making significant strides toward accessible and reliable deepfake detection.",
+      "pdf_url": "https://arxiv.org/pdf/2511.19187v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Jayarathne_SpectraNet:_FFT-assisted_Deep_Learning_Classifier.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:50.397383"
+    },
+    {
+      "title": "Towards Generalizable Deepfake Detection via Forgery-aware Audio-Visual Adaptation: A Variational Bayesian Approach",
+      "authors": [
+        "Fan Nie",
+        "Jiangqun Ni",
+        "Jian Zhang",
+        "Bin Zhang",
+        "Weizhe Zhang",
+        "Bin Li"
+      ],
+      "published": "2025-11-24T13:20:03+00:00",
+      "arxiv_id": "2511.19080v1",
+      "categories": [
+        "cs.MM",
+        "cs.CV"
+      ],
+      "summary": "The widespread application of AIGC contents has brought not only unprecedented opportunities, but also potential security concerns, e.g., audio-visual deepfakes. Therefore, it is of great importance to develop an effective and generalizable method for multi-modal deepfake detection. Typically, the audio-visual correlation learning could expose subtle cross-modal inconsistencies, e.g., audio-visual misalignment, which serve as crucial clues in deepfake detection. In this paper, we reformulate the correlation learning with variational Bayesian estimation, where audio-visual correlation is approximated as a Gaussian distributed latent variable, and thus develop a novel framework for deepfake detection, i.e., Forgery-aware Audio-Visual Adaptation with Variational Bayes (FoVB). Specifically, given the prior knowledge of pre-trained backbones, we adopt two core designs to estimate audio-visual correlations effectively. First, we exploit various difference convolutions and a high-pass filter to discern local and global forgery traces from both modalities. Second, with the extracted forgery-aware features, we estimate the latent Gaussian variable of audio-visual correlation via variational Bayes. Then, we factorize the variable into modality-specific and correlation-specific ones with orthogonality constraint, allowing them to better learn intra-modal and cross-modal forgery traces with less entanglement. Extensive experiments demonstrate that our FoVB outperforms other state-of-the-art methods in various benchmarks.",
+      "pdf_url": "https://arxiv.org/pdf/2511.19080v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Nie_Towards_Generalizable_Deepfake_Detection_via.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:54.862177"
+    },
+    {
+      "title": "AuViRe: Audio-visual Speech Representation Reconstruction for Deepfake Temporal Localization",
+      "authors": [
+        "Christos Koutlis",
+        "Symeon Papadopoulos"
+      ],
+      "published": "2025-11-24T11:19:21+00:00",
+      "arxiv_id": "2511.18993v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "With the rapid advancement of sophisticated synthetic audio-visual content, e.g., for subtle malicious manipulations, ensuring the integrity of digital media has become paramount. This work presents a novel approach to temporal localization of deepfakes by leveraging Audio-Visual Speech Representation Reconstruction (AuViRe). Specifically, our approach reconstructs speech representations from one modality (e.g., lip movements) based on the other (e.g., audio waveform). Cross-modal reconstruction is significantly more challenging in manipulated video segments, leading to amplified discrepancies, thereby providing robust discriminative cues for precise temporal forgery localization. AuViRe outperforms the state of the art by +8.9 AP@0.95 on LAV-DF, +9.6 AP@0.5 on AV-Deepfake1M, and +5.1 AUC on an in-the-wild experiment. Code available at https://github.com/mever-team/auvire.",
+      "pdf_url": "https://arxiv.org/pdf/2511.18993v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Koutlis_AuViRe:_Audio-visual_Speech_Representation_Reconstruction.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:56:59.879049"
+    },
+    {
+      "title": "UMCL: Unimodal-generated Multimodal Contrastive Learning for Cross-compression-rate Deepfake Detection",
+      "authors": [
+        "Ching-Yi Lai",
+        "Chih-Yu Jian",
+        "Pei-Cheng Chuang",
+        "Chia-Ming Lee",
+        "Chih-Chung Hsu",
+        "Chiou-Ting Hsu",
+        "Chia-Wen Lin"
+      ],
+      "published": "2025-11-24T10:56:22+00:00",
+      "arxiv_id": "2511.18983v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "In deepfake detection, the varying degrees of compression employed by social media platforms pose significant challenges for model generalization and reliability. Although existing methods have progressed from single-modal to multimodal approaches, they face critical limitations: single-modal methods struggle with feature degradation under data compression in social media streaming, while multimodal approaches require expensive data collection and labeling and suffer from inconsistent modal quality or accessibility in real-world scenarios. To address these challenges, we propose a novel Unimodal-generated Multimodal Contrastive Learning (UMCL) framework for robust cross-compression-rate (CCR) deepfake detection. In the training stage, our approach transforms a single visual modality into three complementary features: compression-robust rPPG signals, temporal landmark dynamics, and semantic embeddings from pre-trained vision-language models. These features are explicitly aligned through an affinity-driven semantic alignment (ASA) strategy, which models inter-modal relationships through affinity matrices and optimizes their consistency through contrastive learning. Subsequently, our cross-quality similarity learning (CQSL) strategy enhances feature robustness across compression rates. Extensive experiments demonstrate that our method achieves superior performance across various compression rates and manipulation types, establishing a new benchmark for robust deepfake detection. Notably, our approach maintains high detection accuracy even when individual features degrade, while providing interpretable insights into feature relationships through explicit alignment.",
+      "pdf_url": "https://arxiv.org/pdf/2511.18983v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Lai_UMCL:_Unimodal-generated_Multimodal_Contrastive_Learning.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:04.016397"
+    },
+    {
+      "title": "When Generative Replay Meets Evolving Deepfakes: Domain-Aware Relative Weighting for Incremental Face Forgery Detection",
+      "authors": [
+        "Hao Shen",
+        "Jikang Cheng",
+        "Renye Yan",
+        "Zhongyuan Wang",
+        "Wei Peng",
+        "Baojin Huang"
+      ],
+      "published": "2025-11-23T13:09:02+00:00",
+      "arxiv_id": "2511.18436v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The rapid advancement of face generation techniques has led to a growing variety of forgery methods. Incremental forgery detection aims to gradually update existing models with new forgery data, yet current sample replay-based methods are limited by low diversity and privacy concerns. Generative replay offers a potential solution by synthesizing past data, but its feasibility for forgery detection remains unclear. In this work, we systematically investigate generative replay and identify two scenarios: when the replay generator closely resembles the new forgery model, generated real samples blur the domain boundary, creating domain-risky samples; when the replay generator differs significantly, generated samples can be safely supervised, forming domain-safe samples. To exploit generative replay effectively, we propose a novel Domain-Aware Relative Weighting (DARW) strategy. DARW directly supervises domain-safe samples while applying a Relative Separation Loss to balance supervision and potential confusion for domain-risky samples. A Domain Confusion Score dynamically adjusts this tradeoff according to sample reliability. Extensive experiments demonstrate that DARW consistently improves incremental learning performance for forgery detection under different generative replay settings and alleviates the adverse impact of domain overlap.",
+      "pdf_url": "https://arxiv.org/pdf/2511.18436v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Shen_When_Generative_Replay_Meets_Evolving.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:10.165023"
+    },
+    {
+      "title": "Deepfake Geography: Detecting AI-Generated Satellite Images",
+      "authors": [
+        "Mansur Yerzhanuly"
+      ],
+      "published": "2025-11-21T20:30:10+00:00",
+      "arxiv_id": "2511.17766v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The rapid advancement of generative models such as StyleGAN2 and Stable Diffusion poses a growing threat to the authenticity of satellite imagery, which is increasingly vital for reliable analysis and decision-making across scientific and security domains. While deepfake detection has been extensively studied in facial contexts, satellite imagery presents distinct challenges, including terrain-level inconsistencies and structural artifacts. In this study, we conduct a comprehensive comparison between Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs) for detecting AI-generated satellite images. Using a curated dataset of over 130,000 labeled RGB images from the DM-AER and FSI datasets, we show that ViTs significantly outperform CNNs in both accuracy (95.11 percent vs. 87.02 percent) and overall robustness, owing to their ability to model long-range dependencies and global semantic structures. We further enhance model transparency using architecture-specific interpretability methods, including Grad-CAM for CNNs and Chefer's attention attribution for ViTs, revealing distinct detection behaviors and validating model trustworthiness. Our results highlight the ViT's superior performance in detecting structural inconsistencies and repetitive textural patterns characteristic of synthetic imagery. Future work will extend this research to multispectral and SAR modalities and integrate frequency-domain analysis to further strengthen detection capabilities and safeguard satellite imagery integrity in high-stakes applications.",
+      "pdf_url": "https://arxiv.org/pdf/2511.17766v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Yerzhanuly_Deepfake_Geography:_Detecting_AI-Generated_Satellite.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:57:14.782172"
+    },
+    {
+      "title": "Investigating self-supervised representations for audio-visual deepfake detection",
+      "authors": [
+        "Dragos-Alexandru Boldisor",
+        "Stefan Smeu",
+        "Dan Oneata",
+        "Elisabeta Oneata"
+      ],
+      "published": "2025-11-21T12:04:00+00:00",
+      "arxiv_id": "2511.17181v1",
+      "categories": [
+        "cs.CV",
+        "cs.LG",
+        "cs.SD"
+      ],
+      "summary": "Self-supervised representations excel at many vision and speech tasks, but their potential for audio-visual deepfake detection remains underexplored. Unlike prior work that uses these features in isolation or buried within complex architectures, we systematically evaluate them across modalities (audio, video, multimodal) and domains (lip movements, generic visual content). We assess three key dimensions: detection effectiveness, interpretability of encoded information, and cross-modal complementarity. We find that most self-supervised features capture deepfake-relevant information, and that this information is complementary. Moreover, models primarily attend to semantically meaningful regions rather than spurious artifacts. Yet none generalize reliably across datasets. This generalization failure likely stems from dataset characteristics, not from the features themselves latching onto superficial patterns. These results expose both the promise and fundamental challenges of self-supervised representations for deepfake detection: while they learn meaningful patterns, achieving robust cross-domain performance remains elusive.",
+      "pdf_url": "https://arxiv.org/pdf/2511.17181v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Boldisor_Investigating_self-supervised_representations_for_audio-visual.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:24.256801"
+    },
+    {
+      "title": "ForensicFlow: A Tri-Modal Adaptive Network for Robust Deepfake Detection",
+      "authors": [
+        "Mohammad Romani"
+      ],
+      "published": "2025-11-18T14:56:34+00:00",
+      "arxiv_id": "2511.14554v1",
+      "categories": [
+        "cs.CV",
+        "cs.CR",
+        "cs.LG"
+      ],
+      "summary": "Deepfakes generated by advanced GANs and autoencoders severely threaten information integrity and societal stability. Single-stream CNNs fail to capture multi-scale forgery artifacts across spatial, texture, and frequency domains, limiting robustness and generalization. We introduce the ForensicFlow, a tri-modal forensic framework that synergistically fuses RGB, texture, and frequency evidence for video Deepfake detection. The RGB branch (ConvNeXt-tiny) extracts global visual inconsistencies; the texture branch (Swin Transformer-tiny) detects fine-grained blending artifacts; the frequency branch (CNN + SE) identifies periodic spectral noise. Attention-based temporal pooling dynamically prioritizes high-evidence frames, while adaptive attention fusion balances branch contributions.Trained on Celeb-DF (v2) with Focal Loss, ForensicFlow achieves AUC 0.9752, F1-Score 0.9408, and accuracy 0.9208, outperforming single-stream baselines. Ablation validates branch synergy; Grad-CAM confirms forensic focus. This comprehensive feature fusion provides superior resilience against subtle forgeries.",
+      "pdf_url": "https://arxiv.org/pdf/2511.14554v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Romani_ForensicFlow:_A_Tri-Modal_Adaptive_Network.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:27.528468"
+    },
+    {
+      "title": "ManipShield: A Unified Framework for Image Manipulation Detection, Localization and Explanation",
+      "authors": [
+        "Zitong Xu",
+        "Huiyu Duan",
+        "Xiaoyu Wang",
+        "Zhaolin Cai",
+        "Kaiwei Zhang",
+        "Qiang Hu",
+        "Jing Liu",
+        "Xiongkuo Min",
+        "Guangtao Zhai"
+      ],
+      "published": "2025-11-18T08:50:17+00:00",
+      "arxiv_id": "2511.14259v2",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "With the rapid advancement of generative models, powerful image editing methods now enable diverse and highly realistic image manipulations that far surpass traditional deepfake techniques, posing new challenges for manipulation detection. Existing image manipulation detection and localization (IMDL) benchmarks suffer from limited content diversity, narrow generative-model coverage, and insufficient interpretability, which hinders the generalization and explanation capabilities of current manipulation detection methods. To address these limitations, we introduce \\textbf{ManipBench}, a large-scale benchmark for image manipulation detection and localization focusing on AI-edited images. ManipBench contains over 450K manipulated images produced by 25 state-of-the-art image editing models across 12 manipulation categories, among which 100K images are further annotated with bounding boxes, judgment cues, and textual explanations to support interpretable detection. Building upon ManipBench, we propose \\textbf{ManipShield}, an all-in-one model based on a Multimodal Large Language Model (MLLM) that leverages contrastive LoRA fine-tuning and task-specific decoders to achieve unified image manipulation detection, localization, and explanation. Extensive experiments on ManipBench and several public datasets demonstrate that ManipShield achieves state-of-the-art performance and exhibits strong generality to unseen manipulation models. Both ManipBench and ManipShield will be released upon publication.",
+      "pdf_url": "https://arxiv.org/pdf/2511.14259v2",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Xu_ManipShield:_A_Unified_Framework_for.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:33.257727"
+    },
+    {
+      "title": "Unlocking the Forgery Detection Potential of Vanilla MLLMs: A Novel Training-Free Pipeline",
+      "authors": [
+        "Rui Zuo",
+        "Qinyue Tong",
+        "Zhe-Ming Lu",
+        "Ziqian Lu"
+      ],
+      "published": "2025-11-17T14:49:57+00:00",
+      "arxiv_id": "2511.13442v2",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "With the rapid advancement of artificial intelligence-generated content (AIGC) technologies, including multimodal large language models (MLLMs) and diffusion models, image generation and manipulation have become remarkably effortless. Existing image forgery detection and localization (IFDL) methods often struggle to generalize across diverse datasets and offer limited interpretability. Nowadays, MLLMs demonstrate strong generalization potential across diverse vision-language tasks, and some studies introduce this capability to IFDL via large-scale training. However, such approaches cost considerable computational resources, while failing to reveal the inherent generalization potential of vanilla MLLMs to address this problem. Inspired by this observation, we propose Foresee, a training-free MLLM-based pipeline tailored for image forgery analysis. It eliminates the need for additional training and enables a lightweight inference process, while surpassing existing MLLM-based methods in both tamper localization accuracy and the richness of textual explanations. Foresee employs a type-prior-driven strategy and utilizes a Flexible Feature Detector (FFD) module to specifically handle copy-move manipulations, thereby effectively unleashing the potential of vanilla MLLMs in the forensic domain. Extensive experiments demonstrate that our approach simultaneously achieves superior localization accuracy and provides more comprehensive textual explanations. Moreover, Foresee exhibits stronger generalization capability, outperforming existing IFDL methods across various tampering types, including copy-move, splicing, removal, local enhancement, deepfake, and AIGC-based editing. The code will be released in the final version.",
+      "pdf_url": "https://arxiv.org/pdf/2511.13442v2",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Zuo_Unlocking_the_Forgery_Detection_Potential.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:57:37.162373"
+    },
+    {
+      "title": "SynthGuard: An Open Platform for Detecting AI-Generated Multimedia with Multimodal LLMs",
+      "authors": [
+        "Shail Desai",
+        "Aditya Pawar",
+        "Li Lin",
+        "Xin Wang",
+        "Shu Hu"
+      ],
+      "published": "2025-11-16T00:50:24+00:00",
+      "arxiv_id": "2511.12404v1",
+      "categories": [
+        "cs.MM",
+        "cs.AI",
+        "cs.SD"
+      ],
+      "summary": "Artificial Intelligence (AI) has made it possible for anyone to create images, audio, and video with unprecedented ease, enriching education, communication, and creative expression. At the same time, the rapid rise of AI-generated media has introduced serious risks, including misinformation, identity misuse, and the erosion of public trust as synthetic content becomes increasingly indistinguishable from real media. Although deepfake detection has advanced, many existing tools remain closed-source, limited in modality, or lacking transparency and educational value, making it difficult for users to understand how detection decisions are made. To address these gaps, we introduce SynthGuard, an open, user-friendly platform for detecting and analyzing AI-generated multimedia using both traditional detectors and multimodal large language models (MLLMs). SynthGuard provides explainable inference, unified image and audio support, and an interactive interface designed to make forensic analysis accessible to researchers, educators, and the public. The SynthGuard platform is available at: https://in-engr-nova.it.purdue.edu/",
+      "pdf_url": "https://arxiv.org/pdf/2511.12404v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Desai_SynthGuard:_An_Open_Platform_for.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:57:41.349576"
+    },
+    {
+      "title": "Fine-Grained DINO Tuning with Dual Supervision for Face Forgery Detection",
+      "authors": [
+        "Tianxiang Zhang",
+        "Peipeng Yu",
+        "Zhihua Xia",
+        "Longchen Dai",
+        "Xiaoyu Zhou",
+        "Hui Gao"
+      ],
+      "published": "2025-11-15T08:57:21+00:00",
+      "arxiv_id": "2511.12107v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The proliferation of sophisticated deepfakes poses significant threats to information integrity. While DINOv2 shows promise for detection, existing fine-tuning approaches treat it as generic binary classification, overlooking distinct artifacts inherent to different deepfake methods. To address this, we propose a DeepFake Fine-Grained Adapter (DFF-Adapter) for DINOv2. Our method incorporates lightweight multi-head LoRA modules into every transformer block, enabling efficient backbone adaptation. DFF-Adapter simultaneously addresses authenticity detection and fine-grained manipulation type classification, where classifying forgery methods enhances artifact sensitivity. We introduce a shared branch propagating fine-grained manipulation cues to the authenticity head. This enables multi-task cooperative optimization, explicitly enhancing authenticity discrimination with manipulation-specific knowledge. Utilizing only 3.5M trainable parameters, our parameter-efficient approach achieves detection accuracy comparable to or even surpassing that of current complex state-of-the-art methods.",
+      "pdf_url": "https://arxiv.org/pdf/2511.12107v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Zhang_Fine-Grained_DINO_Tuning_with_Dual.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:45.709538"
+    },
+    {
+      "title": "DeiTFake: Deepfake Detection Model using DeiT Multi-Stage Training",
+      "authors": [
+        "Saksham Kumar",
+        "Ashish Singh",
+        "Srinivasarao Thota",
+        "Sunil Kumar Singh",
+        "Chandan Kumar"
+      ],
+      "published": "2025-11-15T05:55:09+00:00",
+      "arxiv_id": "2511.12048v1",
+      "categories": [
+        "cs.CV",
+        "cs.CR"
+      ],
+      "summary": "Deepfakes are major threats to the integrity of digital media. We propose DeiTFake, a DeiT-based transformer and a novel two-stage progressive training strategy with increasing augmentation complexity. The approach applies an initial transfer-learning phase with standard augmentations followed by a fine-tuning phase using advanced affine and deepfake-specific augmentations. DeiT's knowledge distillation model captures subtle manipulation artifacts, increasing robustness of the detection model. Trained on the OpenForensics dataset (190,335 images), DeiTFake achieves 98.71\\% accuracy after stage one and 99.22\\% accuracy with an AUROC of 0.9997, after stage two, outperforming the latest OpenForensics baselines. We analyze augmentation impact and training schedules, and provide practical benchmarks for facial deepfake detection.",
+      "pdf_url": "https://arxiv.org/pdf/2511.12048v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Kumar_DeiTFake:_Deepfake_Detection_Model_using.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:57:49.791478"
+    },
+    {
+      "title": "Toward Generalized Detection of Synthetic Media: Limitations, Challenges, and the Path to Multimodal Solutions",
+      "authors": [
+        "Redwan Hussain",
+        "Mizanur Rahman",
+        "Prithwiraj Bhattacharjee"
+      ],
+      "published": "2025-11-14T09:44:44+00:00",
+      "arxiv_id": "2511.11116v1",
+      "categories": [
+        "cs.CV",
+        "cs.NE"
+      ],
+      "summary": "Artificial intelligence (AI) in media has advanced rapidly over the last decade. The introduction of Generative Adversarial Networks (GANs) improved the quality of photorealistic image generation. Diffusion models later brought a new era of generative media. These advances made it difficult to separate real and synthetic content. The rise of deepfakes demonstrated how these tools could be misused to spread misinformation, political conspiracies, privacy violations, and fraud. For this reason, many detection models have been developed. They often use deep learning methods such as Convolutional Neural Networks (CNNs) and Vision Transformers (ViTs). These models search for visual, spatial, or temporal anomalies. However, such approaches often fail to generalize across unseen data and struggle with content from different models. In addition, existing approaches are ineffective in multimodal data and highly modified content. This study reviews twenty-four recent works on AI-generated media detection. Each study was examined individually to identify its contributions and weaknesses, respectively. The review then summarizes the common limitations and key challenges faced by current approaches. Based on this analysis, a research direction is suggested with a focus on multimodal deep learning models. Such models have the potential to provide more robust and generalized detection. It offers future researchers a clear starting point for building stronger defenses against harmful synthetic media.",
+      "pdf_url": "https://arxiv.org/pdf/2511.11116v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Hussain_Toward_Generalized_Detection_of_Synthetic.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:57:53.101531"
+    },
+    {
+      "title": "Synthetic Voices, Real Threats: Evaluating Large Text-to-Speech Models in Generating Harmful Audio",
+      "authors": [
+        "Guangke Chen",
+        "Yuhui Wang",
+        "Shouling Ji",
+        "Xiapu Luo",
+        "Ting Wang"
+      ],
+      "published": "2025-11-14T03:00:04+00:00",
+      "arxiv_id": "2511.10913v1",
+      "categories": [
+        "cs.SD",
+        "cs.AI",
+        "cs.CR",
+        "cs.MM",
+        "eess.AS"
+      ],
+      "summary": "Modern text-to-speech (TTS) systems, particularly those built on Large Audio-Language Models (LALMs), generate high-fidelity speech that faithfully reproduces input text and mimics specified speaker identities. While prior misuse studies have focused on speaker impersonation, this work explores a distinct content-centric threat: exploiting TTS systems to produce speech containing harmful content. Realizing such threats poses two core challenges: (1) LALM safety alignment frequently rejects harmful prompts, yet existing jailbreak attacks are ill-suited for TTS because these systems are designed to faithfully vocalize any input text, and (2) real-world deployment pipelines often employ input/output filters that block harmful text and audio.\n  We present HARMGEN, a suite of five attacks organized into two families that address these challenges. The first family employs semantic obfuscation techniques (Concat, Shuffle) that conceal harmful content within text. The second leverages audio-modality exploits (Read, Spell, Phoneme) that inject harmful content through auxiliary audio channels while maintaining benign textual prompts. Through evaluation across five commercial LALMs-based TTS systems and three datasets spanning two languages, we demonstrate that our attacks substantially reduce refusal rates and increase the toxicity of generated speech.\n  We further assess both reactive countermeasures deployed by audio-streaming platforms and proactive defenses implemented by TTS providers. Our analysis reveals critical vulnerabilities: deepfake detectors underperform on high-fidelity audio; reactive moderation can be circumvented by adversarial perturbations; while proactive moderation detects 57-93% of attacks. Our work highlights a previously underexplored content-centric misuse vector for TTS and underscore the need for robust cross-modal safeguards throughout training and deployment.",
+      "pdf_url": "https://arxiv.org/pdf/2511.10913v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Chen_Synthetic_Voices,_Real_Threats:_Evaluating.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:57:56.884967"
+    },
+    {
+      "title": "Curved Worlds, Clear Boundaries: Generalizing Speech Deepfake Detection using Hyperbolic and Spherical Geometry Spaces",
+      "authors": [
+        "Farhan Sheth",
+        "Girish",
+        "Mohd Mujtaba Akhtar",
+        "Muskaan Singh"
+      ],
+      "published": "2025-11-13T20:43:31+00:00",
+      "arxiv_id": "2511.10793v1",
+      "categories": [
+        "eess.AS"
+      ],
+      "summary": "In this work, we address the challenge of generalizable audio deepfake detection (ADD) across diverse speech synthesis paradigms-including conventional text-to-speech (TTS) systems and modern diffusion or flow-matching (FM) based generators. Prior work has mostly targeted individual synthesis families and often fails to generalize across paradigms due to overfitting to generation-specific artifacts. We hypothesize that synthetic speech, irrespective of its generative origin, leaves behind shared structural distortions in the embedding space that can be aligned through geometry-aware modeling. To this end, we propose RHYME, a unified detection framework that fuses utterance-level embeddings from diverse pretrained speech encoders using non-Euclidean projections. RHYME maps representations into hyperbolic and spherical manifolds-where hyperbolic geometry excels at modeling hierarchical generator families, and spherical projections capture angular, energy-invariant cues such as periodic vocoder artifacts. The fused representation is obtained via Riemannian barycentric averaging, enabling synthesis-invariant alignment. RHYME outperforms individual PTMs and homogeneous fusion baselines, achieving top performance and setting new state-of-the-art in cross-paradigm ADD.",
+      "pdf_url": "https://arxiv.org/pdf/2511.10793v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Sheth_Curved_Worlds,_Clear_Boundaries:_Generalizing.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:58:02.172584"
+    },
+    {
+      "title": "Next-Frame Feature Prediction for Multimodal Deepfake Detection and Temporal Localization",
+      "authors": [
+        "Ashutosh Anshul",
+        "Shreyas Gopal",
+        "Deepu Rajan",
+        "Eng Siong Chng"
+      ],
+      "published": "2025-11-13T11:34:03+00:00",
+      "arxiv_id": "2511.10212v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Recent multimodal deepfake detection methods designed for generalization conjecture that single-stage supervised training struggles to generalize across unseen manipulations and datasets. However, such approaches that target generalization require pretraining over real samples. Additionally, these methods primarily focus on detecting audio-visual inconsistencies and may overlook intra-modal artifacts causing them to fail against manipulations that preserve audio-visual alignment. To address these limitations, we propose a single-stage training framework that enhances generalization by incorporating next-frame prediction for both uni-modal and cross-modal features. Additionally, we introduce a window-level attention mechanism to capture discrepancies between predicted and actual frames, enabling the model to detect local artifacts around every frame, which is crucial for accurately classifying fully manipulated videos and effectively localizing deepfake segments in partially spoofed samples. Our model, evaluated on multiple benchmark datasets, demonstrates strong generalization and precise temporal localization.",
+      "pdf_url": "https://arxiv.org/pdf/2511.10212v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Anshul_Next-Frame_Feature_Prediction_for_Multimodal.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:58:06.102252"
+    },
+    {
+      "title": "Fairness-Aware Deepfake Detection: Leveraging Dual-Mechanism Optimization",
+      "authors": [
+        "Feng Ding",
+        "Wenhui Yi",
+        "Yunpeng Zhou",
+        "Xinan He",
+        "Hong Rao",
+        "Shu Hu"
+      ],
+      "published": "2025-11-13T10:04:45+00:00",
+      "arxiv_id": "2511.10150v3",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Fairness is a core element in the trustworthy deployment of deepfake detection models, especially in the field of digital identity security. Biases in detection models toward different demographic groups, such as gender and race, may lead to systemic misjudgments, exacerbating the digital divide and social inequities. However, current fairness-enhanced detectors often improve fairness at the cost of detection accuracy. To address this challenge, we propose a dual-mechanism collaborative optimization framework. Our proposed method innovatively integrates structural fairness decoupling and global distribution alignment: decoupling channels sensitive to demographic groups at the model architectural level, and subsequently reducing the distance between the overall sample distribution and the distributions corresponding to each demographic group at the feature level. Experimental results demonstrate that, compared with other methods, our framework improves both inter-group and intra-group fairness while maintaining overall detection accuracy across domains.",
+      "pdf_url": "https://arxiv.org/pdf/2511.10150v3",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Ding_Fairness-Aware_Deepfake_Detection:_Leveraging_Dual-Mechanism.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:58:13.118326"
+    },
+    {
+      "title": "Exposing DeepFakes via Hyperspectral Domain Mapping",
+      "authors": [
+        "Aditya Mehta",
+        "Swarnim Chaudhary",
+        "Pratik Narang",
+        "Jagat Sesh Challa"
+      ],
+      "published": "2025-11-13T06:25:44+00:00",
+      "arxiv_id": "2511.11732v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Modern generative and diffusion models produce highly realistic images that can mislead human perception and even sophisticated automated detection systems. Most detection methods operate in RGB space and thus analyze only three spectral channels. We propose HSI-Detect, a two-stage pipeline that reconstructs a 31-channel hyperspectral image from a standard RGB input and performs detection in the hyperspectral domain. Expanding the input representation into denser spectral bands amplifies manipulation artifacts that are often weak or invisible in the RGB domain, particularly in specific frequency bands. We evaluate HSI-Detect across FaceForensics++ dataset and show the consistent improvements over RGB-only baselines, illustrating the promise of spectral-domain mapping for Deepfake detection.",
+      "pdf_url": "https://arxiv.org/pdf/2511.11732v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Mehta_Exposing_DeepFakes_via_Hyperspectral_Domain.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:58:18.692431"
+    },
+    {
+      "title": "Multi-modal Deepfake Detection and Localization with FPN-Transformer",
+      "authors": [
+        "Chende Zheng",
+        "Ruiqi Suo",
+        "Zhoulin Ji",
+        "Jingyi Deng",
+        "Fangbin Yi",
+        "Chenhao Lin",
+        "Chao Shen"
+      ],
+      "published": "2025-11-11T09:33:39+00:00",
+      "arxiv_id": "2511.08031v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "The rapid advancement of generative adversarial networks (GANs) and diffusion models has enabled the creation of highly realistic deepfake content, posing significant threats to digital trust across audio-visual domains. While unimodal detection methods have shown progress in identifying synthetic media, their inability to leverage cross-modal correlations and precisely localize forged segments limits their practicality against sophisticated, fine-grained manipulations. To address this, we introduce a multi-modal deepfake detection and localization framework based on a Feature Pyramid-Transformer (FPN-Transformer), addressing critical gaps in cross-modal generalization and temporal boundary regression. The proposed approach utilizes pre-trained self-supervised models (WavLM for audio, CLIP for video) to extract hierarchical temporal features. A multi-scale feature pyramid is constructed through R-TLM blocks with localized attention mechanisms, enabling joint analysis of cross-context temporal dependencies. The dual-branch prediction head simultaneously predicts forgery probabilities and refines temporal offsets of manipulated segments, achieving frame-level localization precision. We evaluate our approach on the test set of the IJCAI'25 DDL-AV benchmark, showing a good performance with a final score of 0.7535 for cross-modal deepfake detection and localization in challenging environments. Experimental results confirm the effectiveness of our approach and provide a novel way for generalized deepfake detection. Our code is available at https://github.com/Zig-HS/MM-DDL",
+      "pdf_url": "https://arxiv.org/pdf/2511.08031v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Zheng_Multi-modal_Deepfake_Detection_and_Localization.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:58:22.509809"
+    },
+    {
+      "title": "LiveNeRF: Efficient Face Replacement Through Neural Radiance Fields Integration",
+      "authors": [
+        "Tung Vu",
+        "Hai Nguyen",
+        "Cong Tran"
+      ],
+      "published": "2025-11-10T19:04:07+00:00",
+      "arxiv_id": "2511.07552v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Face replacement technology enables significant advancements in entertainment, education, and communication applications, including dubbing, virtual avatars, and cross-cultural content adaptation. Our LiveNeRF framework addresses critical limitations of existing methods by achieving real-time performance (33 FPS) with superior visual quality, enabling practical deployment in live streaming, video conferencing, and interactive media. The technology particularly benefits content creators, educators, and individuals with speech impairments through accessible avatar communication. While acknowledging potential misuse in unauthorized deepfake creation, we advocate for responsible deployment with user consent verification and integration with detection systems to ensure positive societal impact while minimizing risks.",
+      "pdf_url": "https://arxiv.org/pdf/2511.07552v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Vu_LiveNeRF:_Efficient_Face_Replacement_Through.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": false,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:58:26.549150"
+    },
+    {
+      "title": "Improving Deepfake Detection with Reinforcement Learning-Based Adaptive Data Augmentation",
+      "authors": [
+        "Yuxuan Zhou",
+        "Tao Yu",
+        "Wen Huang",
+        "Yuheng Zhang",
+        "Tao Dai",
+        "Shu-Tao Xia"
+      ],
+      "published": "2025-11-10T12:45:52+00:00",
+      "arxiv_id": "2511.07051v1",
+      "categories": [
+        "cs.CV",
+        "cs.CR"
+      ],
+      "summary": "The generalization capability of deepfake detectors is critical for real-world use. Data augmentation via synthetic fake face generation effectively enhances generalization, yet current SoTA methods rely on fixed strategies-raising a key question: Is a single static augmentation sufficient, or does the diversity of forgery features demand dynamic approaches? We argue existing methods overlook the evolving complexity of real-world forgeries (e.g., facial warping, expression manipulation), which fixed policies cannot fully simulate. To address this, we propose CRDA (Curriculum Reinforcement-Learning Data Augmentation), a novel framework guiding detectors to progressively master multi-domain forgery features from simple to complex. CRDA synthesizes augmented samples via a configurable pool of forgery operations and dynamically generates adversarial samples tailored to the detector's current learning state. Central to our approach is integrating reinforcement learning (RL) and causal inference. An RL agent dynamically selects augmentation actions based on detector performance to efficiently explore the vast augmentation space, adapting to increasingly challenging forgeries. Simultaneously, the agent introduces action space variations to generate heterogeneous forgery patterns, guided by causal inference to mitigate spurious correlations-suppressing task-irrelevant biases and focusing on causally invariant features. This integration ensures robust generalization by decoupling synthetic augmentation patterns from the model's learned representations. Extensive experiments show our method significantly improves detector generalizability, outperforming SOTA methods across multiple cross-domain datasets.",
+      "pdf_url": "https://arxiv.org/pdf/2511.07051v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Zhou_Improving_Deepfake_Detection_with_Reinforcement.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:58:31.003156"
+    },
+    {
+      "title": "Performance Decay in Deepfake Detection: The Limitations of Training on Outdated Data",
+      "authors": [
+        "Jack Richings",
+        "Margaux Leblanc",
+        "Ian Groves",
+        "Victoria Nockles"
+      ],
+      "published": "2025-11-10T11:58:34+00:00",
+      "arxiv_id": "2511.07009v1",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "The continually advancing quality of deepfake technology exacerbates the threats of disinformation, fraud, and harassment by making maliciously-generated synthetic content increasingly difficult to distinguish from reality. We introduce a simple yet effective two-stage detection method that achieves an AUROC of over 99.8% on contemporary deepfakes. However, this high performance is short-lived. We show that models trained on this data suffer a recall drop of over 30% when evaluated on deepfakes created with generation techniques from just six months later, demonstrating significant decay as threats evolve. Our analysis reveals two key insights for robust detection. Firstly, continued performance requires the ongoing curation of large, diverse datasets. Second, predictive power comes primarily from static, frame-level artifacts, not temporal inconsistencies. The future of effective deepfake detection therefore depends on rapid data collection and the development of advanced frame-level feature detectors.",
+      "pdf_url": "https://arxiv.org/pdf/2511.07009v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Richings_Performance_Decay_in_Deepfake_Detection:.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:58:34.666730"
+    },
+    {
+      "title": "DeepForgeSeal: Latent Space-Driven Semi-Fragile Watermarking for Deepfake Detection Using Multi-Agent Adversarial Reinforcement Learning",
+      "authors": [
+        "Tharindu Fernando",
+        "Clinton Fookes",
+        "Sridha Sridharan"
+      ],
+      "published": "2025-11-07T03:24:50+00:00",
+      "arxiv_id": "2511.04949v1",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Rapid advances in generative AI have led to increasingly realistic deepfakes, posing growing challenges for law enforcement and public trust. Existing passive deepfake detectors struggle to keep pace, largely due to their dependence on specific forgery artifacts, which limits their ability to generalize to new deepfake types. Proactive deepfake detection using watermarks has emerged to address the challenge of identifying high-quality synthetic media. However, these methods often struggle to balance robustness against benign distortions with sensitivity to malicious tampering. This paper introduces a novel deep learning framework that harnesses high-dimensional latent space representations and the Multi-Agent Adversarial Reinforcement Learning (MAARL) paradigm to develop a robust and adaptive watermarking approach. Specifically, we develop a learnable watermark embedder that operates in the latent space, capturing high-level image semantics, while offering precise control over message encoding and extraction. The MAARL paradigm empowers the learnable watermarking agent to pursue an optimal balance between robustness and fragility by interacting with a dynamic curriculum of benign and malicious image manipulations simulated by an adversarial attacker agent. Comprehensive evaluations on the CelebA and CelebA-HQ benchmarks reveal that our method consistently outperforms state-of-the-art approaches, achieving improvements of over 4.5% on CelebA and more than 5.3% on CelebA-HQ under challenging manipulation scenarios.",
+      "pdf_url": "https://arxiv.org/pdf/2511.04949v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Fernando_DeepForgeSeal:_Latent_Space-Driven_Semi-Fragile_Watermarking.pdf",
+      "metrics": {
+        "has_accuracy_metric": false,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": false
+      },
+      "download_timestamp": "2025-12-11T12:58:41.062386"
+    },
+    {
+      "title": "Proto-LeakNet: Towards Signal-Leak Aware Attribution in Synthetic Human Face Imagery",
+      "authors": [
+        "Claudio Giusti",
+        "Luca Guarnera",
+        "Sebastiano Battiato"
+      ],
+      "published": "2025-11-06T10:51:11+00:00",
+      "arxiv_id": "2511.04260v2",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "The growing sophistication of synthetic image and deepfake generation models has turned source attribution and authenticity verification into a critical challenge for modern computer vision systems. Recent studies suggest that diffusion pipelines unintentionally imprint persistent statistical traces, known as signal-leaks, within their outputs, particularly in latent representations. Building on this observation, we propose Proto-LeakNet, a signal-leak-aware and interpretable attribution framework that integrates closed-set classification with a density-based open-set evaluation on the learned embeddings, enabling analysis of unseen generators without retraining. Acting in the latent domain of diffusion models, our method re-simulates partial forward diffusion to expose residual generator-specific cues. A temporal attention encoder aggregates multi-step latent features, while a feature-weighted prototype head structures the embedding space and enables transparent attribution. Trained solely on closed data and achieving a Macro AUC of 98.13%, Proto-LeakNet learns a latent geometry that remains robust under post-processing, surpassing state-of-the-art methods, and achieves strong separability both between real images and known generators, and between known and unseen ones. The codebase will be available after acceptance.",
+      "pdf_url": "https://arxiv.org/pdf/2511.04260v2",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Giusti_Proto-LeakNet:_Towards_Signal-Leak_Aware_Attribution.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:58:48.089569"
+    },
+    {
+      "title": "AI-Generated Image Detection: An Empirical Study and Future Research Directions",
+      "authors": [
+        "Nusrat Tasnim",
+        "Kutub Uddin",
+        "Khalid Mahmood Malik"
+      ],
+      "published": "2025-11-04T18:13:48+00:00",
+      "arxiv_id": "2511.02791v1",
+      "categories": [
+        "cs.CV",
+        "cs.GT"
+      ],
+      "summary": "The threats posed by AI-generated media, particularly deepfakes, are now raising significant challenges for multimedia forensics, misinformation detection, and biometric system resulting in erosion of public trust in the legal system, significant increase in frauds, and social engineering attacks. Although several forensic methods have been proposed, they suffer from three critical gaps: (i) use of non-standardized benchmarks with GAN- or diffusion-generated images, (ii) inconsistent training protocols (e.g., scratch, frozen, fine-tuning), and (iii) limited evaluation metrics that fail to capture generalization and explainability. These limitations hinder fair comparison, obscure true robustness, and restrict deployment in security-critical applications. This paper introduces a unified benchmarking framework for systematic evaluation of forensic methods under controlled and reproducible conditions. We benchmark ten SoTA forensic methods (scratch, frozen, and fine-tuned) and seven publicly available datasets (GAN and diffusion) to perform extensive and systematic evaluations. We evaluate performance using multiple metrics, including accuracy, average precision, ROC-AUC, error rate, and class-wise sensitivity. We also further analyze model interpretability using confidence curves and Grad-CAM heatmaps. Our evaluations demonstrate substantial variability in generalization, with certain methods exhibiting strong in-distribution performance but degraded cross-model transferability. This study aims to guide the research community toward a deeper understanding of the strengths and limitations of current forensic approaches, and to inspire the development of more robust, generalizable, and explainable solutions.",
+      "pdf_url": "https://arxiv.org/pdf/2511.02791v1",
+      "topic": "deepfake_liveness",
+      "filepath": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-IAM-01_25-12A_Phishing-ResistantMFA/references/biometric_spoofing/deepfake_liveness/2025_Tasnim_AI-Generated_Image_Detection:_An_Empirical.pdf",
+      "metrics": {
+        "has_accuracy_metric": true,
+        "has_attack_success": false,
+        "has_evaluation": true,
+        "empirical_study": true
+      },
+      "download_timestamp": "2025-12-11T12:58:53.559752"
+    }
+  ],
+  "search_queries": [
+    {
+      "query": "deepfake AND (liveness detection OR biometric spoofing OR facial recognition)",
+      "max_results": 50,
+      "topic": "deepfake_liveness"
+    },
+    {
+      "query": "voice synthesis AND (voice cloning OR speaker verification OR spoofing)",
+      "max_results": 50,
+      "topic": "voice_spoofing"
+    },
+    {
+      "query": "fingerprint spoofing AND (presentation attacks OR AI generation)",
+      "max_results": 50,
+      "topic": "fingerprint_spoofing"
+    },
+    {
+      "query": "multi-modal biometric AND (fusion OR security OR deepfake detection)",
+      "max_results": 50,
+      "topic": "multimodal_biometric"
+    },
+    {
+      "query": "GAN AND (adversarial attacks OR biometric systems OR authentication)",
+      "max_results": 50,
+      "topic": "gan_attacks"
+    },
+    {
+      "query": "face anti-spoofing AND (deep learning OR neural networks)",
+      "max_results": 40,
+      "topic": "face_antispoofing"
+    },
+    {
+      "query": "iris recognition AND (spoofing OR liveness detection)",
+      "max_results": 30,
+      "topic": "iris_spoofing"
+    },
+    {
+      "query": "behavioral biometrics AND (authentication OR continuous verification)",
+      "max_results": 30,
+      "topic": "behavioral_biometric"
+    }
+  ],
+  "research_focus": {
+    "issue": "#14: AI-Era MFA Authentication",
+    "subtopic": "Biometric Spoofing & Deepfake Detection",
+    "objectives": [
+      "AI-generated deepfakes defeating biometric MFA systems",
+      "Liveness detection robustness against AI video synthesis",
+      "Fingerprint spoofing using AI-generated images",
+      "Multi-modal biometric security against GAN-generated attacks",
+      "Voice spoofing and audio deepfakes for authentication bypass"
+    ]
+  }
+}

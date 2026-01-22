@@ -1,0 +1,199 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.06556v1",
+    "arxiv_id": "2512.06556v1",
+    "title": "Securing the Model Context Protocol: Defending LLMs Against Tool Poisoning and Adversarial Attacks",
+    "summary": "The Model Context Protocol (MCP) enables Large Language Models to integrate external tools through structured descriptors, increasing autonomy in decision-making, task execution, and multi-agent workflows. However, this autonomy creates a largely overlooked security gap. Existing defenses focus on prompt-injection attacks and fail to address threats embedded in tool metadata, leaving MCP-based systems exposed to semantic manipulation. This work analyzes three classes of semantic attacks on MCP-integrated systems: (1) Tool Poisoning, where adversarial instructions are hidden in tool descriptors; (2) Shadowing, where trusted tools are indirectly compromised through contaminated shared context; and (3) Rug Pulls, where descriptors are altered after approval to subvert behavior. To counter these threats, we introduce a layered security framework with three components: RSA-based manifest signing to enforce descriptor integrity, LLM-on-LLM semantic vetting to detect suspicious tool definitions, and lightweight heuristic guardrails that block anomalous tool behavior at runtime. Through evaluation of GPT-4, DeepSeek, and Llama-3.5 across eight prompting strategies, we find that security performance varies widely by model architecture and reasoning method. GPT-4 blocks about 71 percent of unsafe tool calls, balancing latency and safety. DeepSeek shows the highest resilience to Shadowing attacks but with greater latency, while Llama-3.5 is fastest but least robust. Our results show that the proposed framework reduces unsafe tool invocation rates without model fine-tuning or internal modification.",
+    "published": "2025-12-06T20:07:58Z",
+    "updated": "2025-12-06T20:07:58Z",
+    "authors": [
+      "Saeid Jamshidi",
+      "Kawser Wazed Nafi",
+      "Arghavan Moradi Dakhel",
+      "Negar Shahabi",
+      "Foutse Khomh",
+      "Naser Ezzati-Jivan"
+    ],
+    "affiliations": [],
+    "first_author": "Saeid Jamshidi",
+    "pdf_url": "https://arxiv.org/pdf/2512.06556v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.04785v1",
+    "arxiv_id": "2512.04785v1",
+    "title": "ASTRIDE: A Security Threat Modeling Platform for Agentic-AI Applications",
+    "summary": "AI agent-based systems are becoming increasingly integral to modern software architectures, enabling autonomous decision-making, dynamic task execution, and multimodal interactions through large language models (LLMs). However, these systems introduce novel and evolving security challenges, including prompt injection attacks, context poisoning, model manipulation, and opaque agent-to-agent communication, that are not effectively captured by traditional threat modeling frameworks. In this paper, we introduce ASTRIDE, an automated threat modeling platform purpose-built for AI agent-based systems. ASTRIDE extends the classical STRIDE framework by introducing a new threat category, A for AI Agent-Specific Attacks, which encompasses emerging vulnerabilities such as prompt injection, unsafe tool invocation, and reasoning subversion, unique to agent-based applications. To automate threat modeling, ASTRIDE combines a consortium of fine-tuned vision-language models (VLMs) with the OpenAI-gpt-oss reasoning LLM to perform end-to-end analysis directly from visual agent architecture diagrams, such as data flow diagrams(DFDs). LLM agents orchestrate the end-to-end threat modeling automation process by coordinating interactions between the VLM consortium and the reasoning LLM. Our evaluations demonstrate that ASTRIDE provides accurate, scalable, and explainable threat modeling for next-generation intelligent systems. To the best of our knowledge, ASTRIDE is the first framework to both extend STRIDE with AI-specific threats and integrate fine-tuned VLMs with a reasoning LLM to fully automate diagram-driven threat modeling in AI agent-based applications.",
+    "published": "2025-12-04T13:32:40Z",
+    "updated": "2025-12-04T13:32:40Z",
+    "authors": [
+      "Eranga Bandara",
+      "Amin Hass",
+      "Ross Gore",
+      "Sachin Shetty",
+      "Ravi Mukkamala",
+      "Safdar H. Bouk",
+      "Xueping Liang",
+      "Ng Wee Keong",
+      "Kasun De Zoysa",
+      "Aruna Withanage",
+      "Nilaan Loganathan"
+    ],
+    "affiliations": [],
+    "first_author": "Eranga Bandara",
+    "pdf_url": "https://arxiv.org/pdf/2512.04785v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14846v1",
+    "arxiv_id": "2512.14846v1",
+    "title": "MALCDF: A Distributed Multi-Agent LLM Framework for Real-Time Cyber",
+    "summary": "Traditional, centralized security tools often miss adaptive, multi-vector attacks. We present the Multi-Agent LLM Cyber Defense Framework (MALCDF), a practical setup where four large language model (LLM) agents-Detection, Intelligence, Response, and Analysis-work together in real time. Agents communicate over a Secure Communication Layer (SCL) with encrypted, ontology-aligned messages, and produce audit-friendly outputs (e.g., MITRE ATT&CK mappings).   For evaluation, we keep the test simple and consistent: all reported metrics come from the same 50-record live stream derived from the CICIDS2017 feature schema. CICIDS2017 is used for configuration (fields/schema) and to train a practical ML baseline. The ML-IDS baseline is a Lightweight Random Forest IDS (LRF-IDS) trained on a subset of CICIDS2017 and tested on the 50-record stream, with no overlap between training and test records.   In experiments, MALCDF reaches 90.0% detection accuracy, 85.7% F1-score, and 9.1% false-positive rate, with 6.8s average per-event latency. It outperforms the lightweight ML-IDS baseline and a single-LLM setup on accuracy while keeping end-to-end outputs consistent. Overall, this hands-on build suggests that coordinating simple LLM agents with secure, ontology-aligned messaging can improve practical, real-time cyber defense.",
+    "published": "2025-12-16T19:08:12Z",
+    "updated": "2025-12-16T19:08:12Z",
+    "authors": [
+      "Arth Bhardwaj",
+      "Sia Godika",
+      "Yuvam Loonker"
+    ],
+    "affiliations": [],
+    "first_author": "Arth Bhardwaj",
+    "pdf_url": "https://arxiv.org/pdf/2512.14846v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12989v1",
+    "arxiv_id": "2512.12989v1",
+    "title": "Quantigence: A Multi-Agent AI Framework for Quantum Security Research",
+    "summary": "Cryptographically Relevant Quantum Computers (CRQCs) pose a structural threat to the global digital economy. Algorithms like Shor's factoring and Grover's search threaten to dismantle the public-key infrastructure (PKI) securing sovereign communications and financial transactions. While the timeline for fault-tolerant CRQCs remains probabilistic, the \"Store-Now, Decrypt-Later\" (SNDL) model necessitates immediate migration to Post-Quantum Cryptography (PQC). This transition is hindered by the velocity of research, evolving NIST standards, and heterogeneous deployment environments. To address this, we present Quantigence, a theory-driven multi-agent AI framework for structured quantum-security analysis. Quantigence decomposes research objectives into specialized roles - Cryptographic Analyst, Threat Modeler, Standards Specialist, and Risk Assessor - coordinated by a supervisory agent. Using \"cognitive parallelism,\" agents reason independently to maintain context purity while execution is serialized on resource-constrained hardware (e.g., NVIDIA RTX 2060). The framework integrates external knowledge via the Model Context Protocol (MCP) and prioritizes vulnerabilities using the Quantum-Adjusted Risk Score (QARS), a formal extension of Mosca's Theorem. Empirical validation shows Quantigence achieves a 67% reduction in research turnaround time and superior literature coverage compared to manual workflows, democratizing access to high-fidelity quantum risk assessment.",
+    "published": "2025-12-15T05:27:10Z",
+    "updated": "2025-12-15T05:27:10Z",
+    "authors": [
+      "Abdulmalik Alquwayfili"
+    ],
+    "affiliations": [],
+    "first_author": "Abdulmalik Alquwayfili",
+    "pdf_url": "https://arxiv.org/pdf/2512.12989v1",
+    "primary_category": "cs.MA",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.08290v2",
+    "arxiv_id": "2512.08290v2",
+    "title": "Systematization of Knowledge: Security and Safety in the Model Context Protocol Ecosystem",
+    "summary": "The Model Context Protocol (MCP) has emerged as the de facto standard for connecting Large Language Models (LLMs) to external data and tools, effectively functioning as the \"USB-C for Agentic AI.\" While this decoupling of context and execution solves critical interoperability challenges, it introduces a profound new threat landscape where the boundary between epistemic errors (hallucinations) and security breaches (unauthorized actions) dissolves. This Systematization of Knowledge (SoK) aims to provide a comprehensive taxonomy of risks in the MCP ecosystem, distinguishing between adversarial security threats (e.g., indirect prompt injection, tool poisoning) and epistemic safety hazards (e.g., alignment failures in distributed tool delegation). We analyze the structural vulnerabilities of MCP primitives, specifically Resources, Prompts, and Tools, and demonstrate how \"context\" can be weaponized to trigger unauthorized operations in multi-agent environments. Furthermore, we survey state-of-the-art defenses, ranging from cryptographic provenance (ETDI) to runtime intent verification, and conclude with a roadmap for securing the transition from conversational chatbots to autonomous agentic operating systems.",
+    "published": "2025-12-09T06:39:21Z",
+    "updated": "2025-12-13T20:37:14Z",
+    "authors": [
+      "Shiva Gaire",
+      "Srijan Gyawali",
+      "Saroj Mishra",
+      "Suman Niroula",
+      "Dilip Thakur",
+      "Umesh Yadav"
+    ],
+    "affiliations": [],
+    "first_author": "Shiva Gaire",
+    "pdf_url": "https://arxiv.org/pdf/2512.08290v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.02410v1",
+    "arxiv_id": "2512.02410v1",
+    "title": "Decentralized Multi-Agent System with Trust-Aware Communication",
+    "summary": "The emergence of Large Language Models (LLMs) is rapidly accelerating the development of autonomous multi-agent systems (MAS), paving the way for the Internet of Agents. However, traditional centralized MAS architectures present significant challenges, including single points of failure, vulnerability to censorship, inherent scalability limitations, and critical trust issues. We propose a novel Decentralized Multi-Agent System (DMAS) architecture designed to overcome these fundamental problems by enabling trust-aware, scalable, and censorship-resistant interactions among autonomous agents. Our DMAS features a decentralized agent runtime underpinned by a blockchain-based architecture. We formalize a trust-aware communication protocol that leverages cryptographic primitives and on-chain operations to provide security properties: verifiable interaction cycles, communication integrity, authenticity, non-repudiation, and conditional confidentiality, which we further substantiate through a comprehensive security analysis. Our performance analysis validates the DMAS as a scalable and efficient solution for building trustworthy multi-agent systems.",
+    "published": "2025-12-02T04:39:12Z",
+    "updated": "2025-12-02T04:39:12Z",
+    "authors": [
+      "Yepeng Ding",
+      "Ahmed Twabi",
+      "Junwei Yu",
+      "Lingfeng Zhang",
+      "Tohru Kondo",
+      "Hiroyuki Sato"
+    ],
+    "affiliations": [],
+    "first_author": "Yepeng Ding",
+    "pdf_url": "https://arxiv.org/pdf/2512.02410v1",
+    "primary_category": "cs.MA",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.20920v1",
+    "arxiv_id": "2511.20920v1",
+    "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+    "summary": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+    "published": "2025-11-25T23:24:26Z",
+    "updated": "2025-11-25T23:24:26Z",
+    "authors": [
+      "Herman Errico",
+      "Jiquan Ngiam",
+      "Shanita Sojan"
+    ],
+    "affiliations": [],
+    "first_author": "Herman Errico",
+    "pdf_url": "https://arxiv.org/pdf/2511.20920v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17041v1",
+    "arxiv_id": "2512.17041v1",
+    "title": "Security Risks of Agentic Vehicles: A Systematic Analysis of Cognitive and Cross-Layer Threats",
+    "summary": "Agentic AI is increasingly being explored and introduced in both manually driven and autonomous vehicles, leading to the notion of Agentic Vehicles (AgVs), with capabilities such as memory-based personalization, goal interpretation, strategic reasoning, and tool-mediated assistance. While frameworks such as the OWASP Agentic AI Security Risks highlight vulnerabilities in reasoning-driven AI systems, they are not designed for safety-critical cyber-physical platforms such as vehicles, nor do they account for interactions with other layers such as perception, communication, and control layers. This paper investigates security threats in AgVs, including OWASP-style risks and cyber-attacks from other layers affecting the agentic layer. By introducing a role-based architecture for agentic vehicles, consisting of a Personal Agent and a Driving Strategy Agent, we will investigate vulnerabilities in both agentic AI layer and cross-layer risks, including risks originating from upstream layers (e.g., perception layer, control layer, etc.). A severity matrix and attack-chain analysis illustrate how small distortions can escalate into misaligned or unsafe behavior in both human-driven and autonomous vehicles. The resulting framework provides the first structured foundation for analyzing security risks of agentic AI in both current and emerging vehicle platforms.",
+    "published": "2025-12-18T20:04:21Z",
+    "updated": "2025-12-18T20:04:21Z",
+    "authors": [
+      "Ali Eslami",
+      "Jiangbo Yu"
+    ],
+    "affiliations": [],
+    "first_author": "Ali Eslami",
+    "pdf_url": "https://arxiv.org/pdf/2512.17041v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16813v1",
+    "arxiv_id": "2512.16813v1",
+    "title": "Coordinated Anti-Jamming Resilience in Swarm Networks via Multi-Agent Reinforcement Learning",
+    "summary": "Reactive jammers pose a severe security threat to robotic-swarm networks by selectively disrupting inter-agent communications and undermining formation integrity and mission success. Conventional countermeasures such as fixed power control or static channel hopping are largely ineffective against such adaptive adversaries. This paper presents a multi-agent reinforcement learning (MARL) framework based on the QMIX algorithm to improve the resilience of swarm communications under reactive jamming. We consider a network of multiple transmitter-receiver pairs sharing channels while a reactive jammer with Markovian threshold dynamics senses aggregate power and reacts accordingly. Each agent jointly selects transmit frequency (channel) and power, and QMIX learns a centralized but factorizable action-value function that enables coordinated yet decentralized execution. We benchmark QMIX against a genie-aided optimal policy in a no-channel-reuse setting, and against local Upper Confidence Bound (UCB) and a stateless reactive policy in a more general fading regime with channel reuse enabled. Simulation results show that QMIX rapidly converges to cooperative policies that nearly match the genie-aided bound, while achieving higher throughput and lower jamming incidence than the baselines, thereby demonstrating MARL's effectiveness for securing autonomous swarms in contested environments.",
+    "published": "2025-12-18T17:54:20Z",
+    "updated": "2025-12-18T17:54:20Z",
+    "authors": [
+      "Bahman Abolhassani",
+      "Tugba Erpek",
+      "Kemal Davaslioglu",
+      "Yalin E. Sagduyu",
+      "Sastry Kompella"
+    ],
+    "affiliations": [],
+    "first_author": "Bahman Abolhassani",
+    "pdf_url": "https://arxiv.org/pdf/2512.16813v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15790v1",
+    "arxiv_id": "2512.15790v1",
+    "title": "Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures (XAMT)",
+    "summary": "The increasing operational reliance on complex Multi-Agent Systems (MAS) across safety-critical domains necessitates rigorous adversarial robustness assessment. Modern MAS are inherently heterogeneous, integrating conventional Multi-Agent Reinforcement Learning (MARL) with emerging Large Language Model (LLM) agent architectures utilizing Retrieval-Augmented Generation (RAG). A critical shared vulnerability is reliance on centralized memory components: the shared Experience Replay (ER) buffer in MARL and the external Knowledge Base (K) in RAG agents. This paper proposes XAMT (Bilevel Optimization for Covert Memory Tampering in Heterogeneous Multi-Agent Architectures), a novel framework that formalizes attack generation as a bilevel optimization problem. The Upper Level minimizes perturbation magnitude (delta) to enforce covertness while maximizing system behavior divergence toward an adversary-defined target (Lower Level). We provide rigorous mathematical instantiations for CTDE MARL algorithms and RAG-based LLM agents, demonstrating that bilevel optimization uniquely crafts stealthy, minimal-perturbation poisons evading detection heuristics. Comprehensive experimental protocols utilize SMAC and SafeRAG benchmarks to quantify effectiveness at sub-percent poison rates (less than or equal to 1 percent in MARL, less than or equal to 0.1 percent in RAG). XAMT defines a new unified class of training-time threats essential for developing intrinsically secure MAS, with implications for trust, formal verification, and defensive strategies prioritizing intrinsic safety over perimeter-based detection.",
+    "published": "2025-12-15T23:04:48Z",
+    "updated": "2025-12-15T23:04:48Z",
+    "authors": [
+      "Akhil Sharma",
+      "Shaikh Yaser Arafat",
+      "Jai Kumar Sharma",
+      "Ken Huang"
+    ],
+    "affiliations": [],
+    "first_author": "Akhil Sharma",
+    "pdf_url": "https://arxiv.org/pdf/2512.15790v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

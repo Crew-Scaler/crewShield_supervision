@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2409.10828v1",
+  "title": "AutoCRAT: Automatic Cumulative Reconstruction of Alert Trees",
+  "authors": [
+    "Eric Ficke",
+    "Raymond M. Bateman",
+    "Shouhuai Xu"
+  ],
+  "published": "2024-09-17T01:41:45Z",
+  "url": "http://arxiv.org/abs/2409.10828v1",
+  "pdf_url": "http://arxiv.org/pdf/2409.10828v1.pdf",
+  "relevance_score": 85,
+  "summary": "When a network is attacked, cyber defenders need to precisely identify which systems (i.e., computers or devices) were compromised and what damage may have been inflicted. This process is sometimes referred to as cyber triage and is an important part of the incident response procedure. Cyber triage is challenging because the impacts of a network breach can be far-reaching with unpredictable consequences. This highlights the importance of automating this process. In this paper we propose AutoCRAT, a system for quantifying the breadth and severity of threats posed by a network exposure, and for prioritizing cyber triage activities during incident response. Specifically, AutoCRAT automatically reconstructs what we call alert trees, which track network security events emanating from, or leading to, a particular computer on the network. We validate the usefulness of AutoCRAT using a real-world dataset. Experimental results show that our prototype system can reconstruct alert trees efficiently and can facilitate data visualization in both incident response and threat intelligence analysis."
+}

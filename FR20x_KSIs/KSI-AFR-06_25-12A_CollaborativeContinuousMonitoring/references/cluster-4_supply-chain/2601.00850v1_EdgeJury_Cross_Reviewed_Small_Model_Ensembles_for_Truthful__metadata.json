@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2601.00850v1",
+  "title": "EdgeJury: Cross-Reviewed Small-Model Ensembles for Truthful Question Answering on Serverless Edge Inference",
+  "authors": [
+    "Aayush Kumar"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2601.00850v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness"
+  ],
+  "summary": "Hallucinations hinder reliable question answering, especially in resource-constrained deployments where frontier-scale models or retrieval pipelines may be impractical. We present EdgeJury, a lightweight ensemble framework that improves truthfulness and robustness using only small instruction-tuned language models (3B-8B) suitable for serverless edge inference. EdgeJury orchestrates four stages: (1) parallel role-specialized generation, (2) anonymized cross-review with structured critiques and r..."
+}

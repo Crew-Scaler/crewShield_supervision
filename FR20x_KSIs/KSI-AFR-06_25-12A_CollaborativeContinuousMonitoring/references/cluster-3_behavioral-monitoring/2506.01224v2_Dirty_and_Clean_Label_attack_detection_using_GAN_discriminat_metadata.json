@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2506.01224v2",
+  "title": "Dirty and Clean-Label attack detection using GAN discriminators",
+  "authors": [
+    "John W. Smutny"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-06",
+  "url": "https://arxiv.org/abs/2506.01224v2",
+  "relevance_score": 83.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness"
+  ],
+  "summary": "Gathering enough images to train a deep computer vision model is a constant challenge. Unfortunately, collecting images from unknown sources can leave your model s behavior at risk of being manipulated by a dirty-label or clean-label attack unless the images are properly inspected. Manually inspecting each image-label pair is impractical and common poison-detection methods that involve re-training your model can be time consuming. This research uses GAN discriminators to protect a single class a..."
+}

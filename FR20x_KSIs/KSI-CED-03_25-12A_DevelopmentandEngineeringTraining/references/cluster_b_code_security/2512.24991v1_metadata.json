@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.24991v1",
+  "title": "Efficiently Estimating Data Efficiency for Language Model Fine-tuning",
+  "authors": [
+    "Gyung Hyun Je",
+    "Colin Raffel"
+  ],
+  "published": "2025-12-31T17:37:29Z",
+  "url": "http://arxiv.org/abs/2512.24991v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24991v1.pdf",
+  "relevance_score": 69,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "While large language models (LLMs) demonstrate reasonable zero-shot capability across many downstream tasks, fine-tuning is a common practice to improve their performance. However, a task's data efficiency--i.e., the number of fine-tuning examples needed to achieve a desired level of performance--is often unknown, resulting in costly cycles of incremental annotation and retraining. Indeed, we demonstrate across a curated set of 30 specialized tasks that performant LLMs may struggle zero-shot but"
+}

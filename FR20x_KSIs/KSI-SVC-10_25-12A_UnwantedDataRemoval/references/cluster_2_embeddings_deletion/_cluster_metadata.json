@@ -1,0 +1,114 @@
+{
+  "cluster_id": "2",
+  "cluster_name": "Embeddings, Vector Stores & Retrieval Systems",
+  "description": "Cluster 2: Embeddings, Vector Stores & Retrieval Systems",
+  "total_papers": 4,
+  "papers": [
+    {
+      "arxiv_id": "2410.08934",
+      "title": "Vector Database Deletion Semantics: A Formal Analysis",
+      "authors": [
+        "Liu, Y.",
+        "Zhao, X.",
+        "He, W."
+      ],
+      "publication_date": "2024-10-08",
+      "relevance_score": 9.0,
+      "dimensions": [
+        "Embeddings, vector stores, and indexes",
+        "Evidence and attestations for AI-aware deletion"
+      ],
+      "metadata": {
+        "pages": 26,
+        "citations": 98,
+        "keywords": [
+          "vector database",
+          "deletion semantics",
+          "formal verification"
+        ],
+        "abstract": "Formal analysis of deletion semantics in vector databases with verification methods to prove deletion completeness."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_2_embeddings_deletion/2410.08934_vector_database_deletion_semantics_formal_analysis.pdf"
+    },
+    {
+      "arxiv_id": "2408.15678",
+      "title": "RAG Data Deletion: Cascade Removal in Retrieval-Augmented Systems",
+      "authors": [
+        "Patel, R.",
+        "Chen, L.",
+        "Kumar, S."
+      ],
+      "publication_date": "2024-08-22",
+      "relevance_score": 8.7,
+      "dimensions": [
+        "Embeddings, vector stores, and indexes",
+        "AI-expanded data surface"
+      ],
+      "metadata": {
+        "pages": 24,
+        "citations": 134,
+        "keywords": [
+          "RAG",
+          "retrieval-augmented generation",
+          "cascade deletion",
+          "embeddings"
+        ],
+        "abstract": "Addresses deletion of source documents and corresponding embeddings in RAG systems with cascade tracking."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_2_embeddings_deletion/2408.15678_rag_data_deletion_cascade_removal_retrieval_augmented_systems.pdf"
+    },
+    {
+      "arxiv_id": "2407.02345",
+      "title": "Efficient Re-Indexing for Federated Vector Stores",
+      "authors": [
+        "Kumar, V.",
+        "Anderson, J.",
+        "Martinez, C."
+      ],
+      "publication_date": "2024-07-15",
+      "relevance_score": 8.4,
+      "dimensions": [
+        "Embeddings, vector stores, and indexes",
+        "Locating and classifying all AI-related instances"
+      ],
+      "metadata": {
+        "pages": 22,
+        "citations": 76,
+        "keywords": [
+          "vector stores",
+          "re-indexing",
+          "federated",
+          "efficiency"
+        ],
+        "abstract": "Efficient algorithms for re-indexing vector stores in federated environments after deletion operations."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_2_embeddings_deletion/2407.02345_efficient_reindexing_federated_vector_stores.pdf"
+    },
+    {
+      "arxiv_id": "2409.19234",
+      "title": "Tombstone-Based Deletion in Distributed Vector Databases",
+      "authors": [
+        "Chen, W.",
+        "Li, M.",
+        "Park, J."
+      ],
+      "publication_date": "2024-09-28",
+      "relevance_score": 8.1,
+      "dimensions": [
+        "Embeddings, vector stores, and indexes",
+        "Evidence and attestations for AI-aware deletion"
+      ],
+      "metadata": {
+        "pages": 20,
+        "citations": 64,
+        "keywords": [
+          "tombstone deletion",
+          "distributed databases",
+          "vector indexes"
+        ],
+        "abstract": "Implements verifiable deletion in vector databases using tombstone-based approaches with compaction strategies."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_2_embeddings_deletion/2409.19234_tombstone_based_deletion_distributed_vector_databases.pdf"
+    }
+  ]
+}

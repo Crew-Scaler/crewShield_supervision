@@ -1,0 +1,208 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.14166v1",
+    "arxiv_id": "2512.14166v1",
+    "title": "IntentMiner: Intent Inversion Attack via Tool Call Analysis in the Model Context Protocol",
+    "summary": "The rapid evolution of Large Language Models (LLMs) into autonomous agents has led to the adoption of the Model Context Protocol (MCP) as a standard for discovering and invoking external tools. While this architecture decouples the reasoning engine from tool execution to enhance scalability, it introduces a significant privacy surface: third-party MCP servers, acting as semi-honest intermediaries, can observe detailed tool interaction logs outside the user's trusted boundary. In this paper, we first identify and formalize a novel privacy threat termed Intent Inversion, where a semi-honest MCP server attempts to reconstruct the user's private underlying intent solely by analyzing legitimate tool calls. To systematically assess this vulnerability, we propose IntentMiner, a framework that leverages Hierarchical Information Isolation and Three-Dimensional Semantic Analysis, integrating tool purpose, call statements, and returned results, to accurately infer user intent at the step level. Extensive experiments demonstrate that IntentMiner achieves a high degree of semantic alignment (over 85%) with original user queries, significantly outperforming baseline approaches. These results highlight the inherent privacy risks in decoupled agent architectures, revealing that seemingly benign tool execution logs can serve as a potent vector for exposing user secrets.",
+    "published": "2025-12-16T07:52:55Z",
+    "updated": "2025-12-16T07:52:55Z",
+    "authors": [
+      "Yunhao Yao",
+      "Zhiqiang Wang",
+      "Haoran Cheng",
+      "Yihang Cheng",
+      "Haohua Du",
+      "Xiang-Yang Li"
+    ],
+    "affiliations": [],
+    "first_author": "Yunhao Yao",
+    "pdf_url": "https://arxiv.org/pdf/2512.14166v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.06556v1",
+    "arxiv_id": "2512.06556v1",
+    "title": "Securing the Model Context Protocol: Defending LLMs Against Tool Poisoning and Adversarial Attacks",
+    "summary": "The Model Context Protocol (MCP) enables Large Language Models to integrate external tools through structured descriptors, increasing autonomy in decision-making, task execution, and multi-agent workflows. However, this autonomy creates a largely overlooked security gap. Existing defenses focus on prompt-injection attacks and fail to address threats embedded in tool metadata, leaving MCP-based systems exposed to semantic manipulation. This work analyzes three classes of semantic attacks on MCP-integrated systems: (1) Tool Poisoning, where adversarial instructions are hidden in tool descriptors; (2) Shadowing, where trusted tools are indirectly compromised through contaminated shared context; and (3) Rug Pulls, where descriptors are altered after approval to subvert behavior. To counter these threats, we introduce a layered security framework with three components: RSA-based manifest signing to enforce descriptor integrity, LLM-on-LLM semantic vetting to detect suspicious tool definitions, and lightweight heuristic guardrails that block anomalous tool behavior at runtime. Through evaluation of GPT-4, DeepSeek, and Llama-3.5 across eight prompting strategies, we find that security performance varies widely by model architecture and reasoning method. GPT-4 blocks about 71 percent of unsafe tool calls, balancing latency and safety. DeepSeek shows the highest resilience to Shadowing attacks but with greater latency, while Llama-3.5 is fastest but least robust. Our results show that the proposed framework reduces unsafe tool invocation rates without model fine-tuning or internal modification.",
+    "published": "2025-12-06T20:07:58Z",
+    "updated": "2025-12-06T20:07:58Z",
+    "authors": [
+      "Saeid Jamshidi",
+      "Kawser Wazed Nafi",
+      "Arghavan Moradi Dakhel",
+      "Negar Shahabi",
+      "Foutse Khomh",
+      "Naser Ezzati-Jivan"
+    ],
+    "affiliations": [],
+    "first_author": "Saeid Jamshidi",
+    "pdf_url": "https://arxiv.org/pdf/2512.06556v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.02321v1",
+    "arxiv_id": "2512.02321v1",
+    "title": "LeechHijack: Covert Computational Resource Exploitation in Intelligent Agent Systems",
+    "summary": "Large Language Model (LLM)-based agents have demonstrated remarkable capabilities in reasoning, planning, and tool usage. The recently proposed Model Context Protocol (MCP) has emerged as a unifying framework for integrating external tools into agent systems, enabling a thriving open ecosystem of community-built functionalities. However, the openness and composability that make MCP appealing also introduce a critical yet overlooked security assumption -- implicit trust in third-party tool providers. In this work, we identify and formalize a new class of attacks that exploit this trust boundary without violating explicit permissions. We term this new attack vector implicit toxicity, where malicious behaviors occur entirely within the allowed privilege scope. We propose LeechHijack, a Latent Embedded Exploit for Computation Hijacking, in which an adversarial MCP tool covertly expropriates the agent's computational resources for unauthorized workloads. LeechHijack operates through a two-stage mechanism: an implantation stage that embeds a benign-looking backdoor in a tool, and an exploitation stage where the backdoor activates upon predefined triggers to establish a command-and-control channel. Through this channel, the attacker injects additional tasks that the agent executes as if they were part of its normal workflow, effectively parasitizing the user's compute budget. We implement LeechHijack across four major LLM families. Experiments show that LeechHijack achieves an average success rate of 77.25%, with a resource overhead of 18.62% compared to the baseline. This study highlights the urgent need for computational provenance and resource attestation mechanisms to safeguard the emerging MCP ecosystem.",
+    "published": "2025-12-02T01:34:56Z",
+    "updated": "2025-12-02T01:34:56Z",
+    "authors": [
+      "Yuanhe Zhang",
+      "Weiliu Wang",
+      "Zhenhong Zhou",
+      "Kun Wang",
+      "Jie Zhang",
+      "Li Sun",
+      "Yang Liu",
+      "Sen Su"
+    ],
+    "affiliations": [],
+    "first_author": "Yuanhe Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.02321v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.20920v1",
+    "arxiv_id": "2511.20920v1",
+    "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+    "summary": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+    "published": "2025-11-25T23:24:26Z",
+    "updated": "2025-11-25T23:24:26Z",
+    "authors": [
+      "Herman Errico",
+      "Jiquan Ngiam",
+      "Shanita Sojan"
+    ],
+    "affiliations": [],
+    "first_author": "Herman Errico",
+    "pdf_url": "https://arxiv.org/pdf/2511.20920v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.05867v2",
+    "arxiv_id": "2511.05867v2",
+    "title": "MCP-RiskCue: Can LLM Infer Risk Information From MCP Server System Logs?",
+    "summary": "Large language models (LLMs) demonstrate strong capabilities in solving complex tasks when integrated with external tools. The Model Context Protocol (MCP) has become a standard interface for enabling such tool-based interactions. However, these interactions introduce substantial security concerns, particularly when the MCP server is compromised or untrustworthy. While prior benchmarks primarily focus on prompt injection attacks or analyze the vulnerabilities of LLM MCP interaction trajectories, limited attention has been given to the underlying system logs associated with malicious MCP servers. To address this gap, we present the first synthetic benchmark for evaluating LLMs ability to identify security risks from system logs. We define nine categories of MCP server risks and generate 1,800 synthetic system logs using ten state-of-the-art LLMs. These logs are embedded in the return values of 243 curated MCP servers, yielding a dataset of 2,421 chat histories for training and 471 queries for evaluation. Our pilot experiments reveal that smaller models often fail to detect risky system logs, leading to high false negatives. While models trained with supervised fine-tuning (SFT) tend to over-flag benign logs, resulting in elevated false positives, Reinforcement Learning from Verifiable Reward (RLVR) offers a better precision-recall balance. In particular, after training with Group Relative Policy Optimization (GRPO), Llama3.1-8B-Instruct achieves 83% accuracy, surpassing the best-performing large remote model by 9 percentage points. Fine-grained, per-category analysis further underscores the effectiveness of reinforcement learning in enhancing LLM safety within the MCP framework. Code and data are available at: https://github.com/PorUna-byte/MCP-RiskCue",
+    "published": "2025-11-08T05:52:53Z",
+    "updated": "2025-11-12T12:19:47Z",
+    "authors": [
+      "Jiayi Fu",
+      "Qiyao Sun"
+    ],
+    "affiliations": [],
+    "first_author": "Jiayi Fu",
+    "pdf_url": "https://arxiv.org/pdf/2511.05867v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.23673v1",
+    "arxiv_id": "2510.23673v1",
+    "title": "MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers",
+    "summary": "The Model Context Protocol (MCP) has emerged as a standardized interface enabling seamless integration between Large Language Models (LLMs) and external data sources and tools. While MCP significantly reduces development complexity and enhances agent capabilities, its openness and extensibility introduce critical security vulnerabilities that threaten system trustworthiness and user data protection. This paper systematically analyzes the security landscape of MCP-based systems, identifying three principal threat categories: (1) agent hijacking attacks stemming from protocol design deficiencies; (2) traditional web vulnerabilities in MCP servers; and (3) supply chain security. To address these challenges, we comprehensively survey existing defense strategies, examining both proactive server-side scanning approaches, ranging from layered detection pipelines and agentic auditing frameworks to zero-trust registry systems, and runtime interaction monitoring solutions that provide continuous oversight and policy enforcement. Our analysis reveals that MCP security fundamentally represents a paradigm shift where the attack surface extends from traditional code execution to semantic interpretation of natural language metadata, necessitating novel defense mechanisms tailored to this unique threat model.",
+    "published": "2025-10-27T05:12:51Z",
+    "updated": "2025-10-27T05:12:51Z",
+    "authors": [
+      "Bin Wang",
+      "Zexin Liu",
+      "Hao Yu",
+      "Ao Yang",
+      "Yenan Huang",
+      "Jing Guo",
+      "Huangsheng Cheng",
+      "Hui Li",
+      "Huiyu Wu"
+    ],
+    "affiliations": [],
+    "first_author": "Bin Wang",
+    "pdf_url": "https://arxiv.org/pdf/2510.23673v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.21236v2",
+    "arxiv_id": "2510.21236v2",
+    "title": "Securing AI Agent Execution",
+    "summary": "Large Language Models (LLMs) have evolved into AI agents that interact with external tools and environments to perform complex tasks. The Model Context Protocol (MCP) has become the de facto standard for connecting agents with such resources, but security has lagged behind: thousands of MCP servers execute with unrestricted access to host systems, creating a broad attack surface. In this paper, we introduce AgentBound, the first access control framework for MCP servers. AgentBound combines a declarative policy mechanism, inspired by the Android permission model, with a policy enforcement engine that contains malicious behavior without requiring MCP server modifications. We build a dataset containing the 296 most popular MCP servers, and show that access control policies can be generated automatically from source code with 80.9% accuracy. We also show that AgentBound blocks the majority of security threats in several malicious MCP servers, and that policy enforcement engine introduces negligible overhead. Our contributions provide developers and project managers with a practical foundation for securing MCP servers while maintaining productivity, enabling researchers and tool builders to explore new directions for declarative access control and MCP security.",
+    "published": "2025-10-24T08:10:36Z",
+    "updated": "2025-10-29T13:11:21Z",
+    "authors": [
+      "Christoph B\u00fchler",
+      "Matteo Biagiola",
+      "Luca Di Grazia",
+      "Guido Salvaneschi"
+    ],
+    "affiliations": [],
+    "first_author": "Christoph B\u00fchler",
+    "pdf_url": "https://arxiv.org/pdf/2510.21236v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.19462v2",
+    "arxiv_id": "2510.19462v2",
+    "title": "AegisMCP: Online Graph Intrusion Detection for Tool-Augmented LLMs on Edge Devices",
+    "summary": "In this work, we study security of Model Context Protocol (MCP) agent toolchains and their applications in smart homes. We introduce AegisMCP, a protocol-level intrusion detector. Our contributions are: (i) a minimal attack suite spanning instruction-driven escalation, chain-of-tool exfiltration, malicious MCP server registration, and persistence; (ii) NEBULA-Schema (Network-Edge Behavioral Learning for Untrusted LLM Agents), a reusable protocol-level instrumentation that represents MCP activity as a streaming heterogeneous temporal graph over agents, MCP servers, tools, devices, remotes, and sessions; and (iii) a CPU-only streaming detector that fuses novelty, session-DAG structure, and attribute cues for near-real-time edge inference, with optional fusion of local prompt-guardrail signals. On an emulated smart-home testbed spanning multiple MCP stacks and a physical bench, AegisMCP achieves sub-second per-window model inference and end-to-end alerting. The latency of AegisMCP is consistently sub-second on Intel N150-class edge hardware, while outperforming traffic-only and sequence baselines; ablations confirm the importance of DAG and install/permission signals. We release code, schemas, and generators for reproducible evaluation.",
+    "published": "2025-10-22T10:50:22Z",
+    "updated": "2025-10-25T22:02:32Z",
+    "authors": [
+      "Zhonghao Zhan",
+      "Amir Al Sadi",
+      "Krinos Li",
+      "Hamed Haddadi"
+    ],
+    "affiliations": [],
+    "first_author": "Zhonghao Zhan",
+    "pdf_url": "https://arxiv.org/pdf/2510.19462v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15163v1",
+    "arxiv_id": "2512.15163v1",
+    "title": "MCP-SafetyBench: A Benchmark for Safety Evaluation of Large Language Models with Real-World MCP Servers",
+    "summary": "Large language models (LLMs) are evolving into agentic systems that reason, plan, and operate external tools. The Model Context Protocol (MCP) is a key enabler of this transition, offering a standardized interface for connecting LLMs with heterogeneous tools and services. Yet MCP's openness and multi-server workflows introduce new safety risks that existing benchmarks fail to capture, as they focus on isolated attacks or lack real-world coverage. We present MCP-SafetyBench, a comprehensive benchmark built on real MCP servers that supports realistic multi-turn evaluation across five domains: browser automation, financial analysis, location navigation, repository management, and web search. It incorporates a unified taxonomy of 20 MCP attack types spanning server, host, and user sides, and includes tasks requiring multi-step reasoning and cross-server coordination under uncertainty. Using MCP-SafetyBench, we systematically evaluate leading open- and closed-source LLMs, revealing large disparities in safety performance and escalating vulnerabilities as task horizons and server interactions grow. Our results highlight the urgent need for stronger defenses and establish MCP-SafetyBench as a foundation for diagnosing and mitigating safety risks in real-world MCP deployments.",
+    "published": "2025-12-17T08:00:32Z",
+    "updated": "2025-12-17T08:00:32Z",
+    "authors": [
+      "Xuanjun Zong",
+      "Zhiqi Shen",
+      "Lei Wang",
+      "Yunshi Lan",
+      "Chao Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Xuanjun Zong",
+    "pdf_url": "https://arxiv.org/pdf/2512.15163v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15144v2",
+    "arxiv_id": "2512.15144v2",
+    "title": "MCPZoo: A Large-Scale Dataset of Runnable Model Context Protocol Servers for AI Agent",
+    "summary": "Model Context Protocol (MCP) enables agents to interact with external tools, yet empirical research on MCP is hindered by the lack of large-scale, accessible datasets. We present MCPZoo, the largest and most comprehensive dataset of MCP servers collected from multiple public sources, comprising 95,142 servers. MCPZoo includes over ten thousand server instances that have been deployed and verified as runnable and interactable, supporting realistic experimentation beyond static analysis. The dataset provides unified metadata and access interfaces, enabling systematic exploration and interaction without manual deployment effort. MCPZoo is released as an open and accessible resource to support research on MCP-based security analysis.",
+    "published": "2025-12-17T07:13:08Z",
+    "updated": "2025-12-18T04:40:26Z",
+    "authors": [
+      "Mengying Wu",
+      "Pei Chen",
+      "Geng Hong",
+      "Baichao An",
+      "Jinsong Chen",
+      "Binwang Wan",
+      "Xudong Pan",
+      "Jiarun Dai",
+      "Min Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Mengying Wu",
+    "pdf_url": "https://arxiv.org/pdf/2512.15144v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  }
+]

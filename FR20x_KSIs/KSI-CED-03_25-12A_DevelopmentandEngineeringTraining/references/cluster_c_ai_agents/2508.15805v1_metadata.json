@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2508.15805v1",
+  "title": "ALAS: Autonomous Learning Agent for Self-Updating Language Models",
+  "authors": [
+    "Dhruv Atreja"
+  ],
+  "published": "2025-08-14T06:55:51Z",
+  "url": "http://arxiv.org/abs/2508.15805v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.15805v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Large language models (LLMs) often have a fixed knowledge cutoff, limiting their accuracy on emerging information. We present ALAS (Autonomous Learning Agent System), a modular pipeline that continuously updates an LLM's knowledge with minimal human intervention. ALAS autonomously generates a learning curriculum for a target domain, retrieves up-to-date information from the web (with citations), distills this into question-answer training data, and fine-tunes the model through supervised fine-tu"
+}

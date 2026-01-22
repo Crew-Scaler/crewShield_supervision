@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2601.00042v2",
+  "title": "Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing",
+  "authors": [
+    "Manish Bhatt",
+    "Adrian Wood",
+    "Idan Habler",
+    "Ammar Al-Kahfah"
+  ],
+  "published": "2025-12-31T03:38:38Z",
+  "summary": "Production LLM agents with tool-using capabilities require security testing despite their safety training. We adapt Go-Explore to evaluate GPT-4o-mini across 28 experimental runs spanning six research questions. We find that random-seed variance dominates algorithmic parameters, yielding an 8x spread in outcomes; single-seed comparisons are unreliable, while multi-seed averaging materially reduces variance in our setup. Reward shaping consistently harms performance, causing exploration collapse ",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.180485"
+}

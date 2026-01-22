@@ -1,0 +1,223 @@
+{
+  "research_topic": "Supply Chain Security for Configuration Templates and Policies",
+  "research_id": "Topic 12 - Issue #69",
+  "search_date": "2025-12-25",
+  "arxiv_queries": [
+    "supply chain AND (configuration OR infrastructure-as-code OR template) AND (poisoning OR compromise) AND (2024 OR 2025)",
+    "artifact signing AND (integrity OR verification) AND (deployment OR configuration) AND (2024 OR 2025)",
+    "dependency security AND (Terraform OR Helm OR IaC) AND (vulnerability OR poisoning) AND (2024 OR 2025)",
+    "cat:cs.CR AND supply AND chain",
+    "cat:cs.CR AND (package OR dependency OR build) AND (poisoning OR injection OR backdoor)"
+  ],
+  "total_papers_found": 500,
+  "papers_downloaded": 10,
+  "papers_archived": 5,
+  "downloaded_papers": [
+    {
+      "arxiv_id": "2511.01395",
+      "filename": "2025_2511.01395_characterizing_build_compromises.pdf",
+      "title": "Characterizing Build Compromises Through Vulnerability Disclosure Analysis",
+      "year": 2025,
+      "authors": ["Maimouna Tamah Diao", "Moustapha Awwalou Diouf", "Iyiola Emmanuel Olatunji", "Abdoul Kader Kaboré", "Gervais Mendy", "Jacques Klein", "Tegawendé F. Bissyandé"],
+      "published_date": "2025-11-03",
+      "size_bytes": 3452530,
+      "relevance": "CRITICAL",
+      "tags": ["build security", "supply chain attacks", "attack taxonomy", "CVE analysis"],
+      "abstract": "Presents empirically-derived taxonomy of attack vectors targeting the build process through CVE mining of 621 vulnerability disclosures. Analyzes 168 documented supply chain attacks, identifying 40 incidents targeting build phases. Reveals 23.8% of supply chain attacks exploit build vulnerabilities, with dependency confusion and build script injection as most prevalent vectors."
+    },
+    {
+      "arxiv_id": "2511.00140",
+      "filename": "2025_2511.00140_supply_chain_exploitation_ros.pdf",
+      "title": "Supply Chain Exploitation of Secure ROS 2 Systems: A Proof-of-Concept on Autonomous Platform Compromise via Keystore Exfiltration",
+      "year": 2025,
+      "authors": ["Tahmid Hasan Sakib", "Yago Romano Martinez", "Carter Brady", "Syed Rafay Hasan", "Terry N. Guo"],
+      "published_date": "2025-10-31",
+      "size_bytes": 4564792,
+      "relevance": "CRITICAL",
+      "tags": ["supply chain attack", "ROS 2", "autonomous systems", "trojan package", "keystore compromise"],
+      "abstract": "Demonstrates proof-of-concept supply chain attack against Secure ROS 2 via Trojan-infected Debian package that exfiltrates keystore credentials. Shows impact on autonomous vehicle control including forced braking and acceleration. Highlights need for supply chain integrity controls and runtime semantic validation in DDS-based robotic systems."
+    },
+    {
+      "arxiv_id": "2512.04338",
+      "filename": "2025_2512.04338_robust_malicious_packages_detector.pdf",
+      "title": "One Detector Fits All: Robust and Adaptive Detection of Malicious Packages from PyPI to Enterprises",
+      "year": 2025,
+      "authors": ["Biagio Montaruli", "Luca Compagna", "Serena Elisa Ponta", "Davide Balzarotti"],
+      "published_date": "2025-12-03",
+      "size_bytes": 485353,
+      "relevance": "HIGH",
+      "tags": ["malicious package detection", "supply chain security", "PyPI", "adversarial robustness"],
+      "abstract": "Introduces robust detector for malicious Python packages addressing adversarial obfuscation and varying FPR requirements across repositories and enterprises. Uses adversarial training with fine-grained code obfuscation. Detected 346 malicious packages from 91,949 PyPI packages with 2.48 daily detection rate and only 2.18 false positives."
+    },
+    {
+      "arxiv_id": "2512.12559",
+      "filename": "2025_2512.12559_unveiling_malicious_logic_python.pdf",
+      "title": "Unveiling Malicious Logic: Towards a Statement-Level Taxonomy and Dataset for Securing Python Packages",
+      "year": 2025,
+      "authors": ["Ahmed Ryan", "Junaid Mansur Ifti", "Md Erfan", "Akond Ashfaque Ur Rahman", "Md Rayhanur Rahman"],
+      "published_date": "2025-12-14",
+      "size_bytes": 362182,
+      "relevance": "HIGH",
+      "tags": ["malicious indicators", "Python security", "statement-level analysis", "supply chain defense"],
+      "abstract": "Constructs statement-level dataset of 370 malicious Python packages (90,527 lines) with 2,962 labeled malicious indicators. Derives fine-grained taxonomy of 47 malicious indicators across 7 types and uncovers recurring attack workflows through sequential pattern mining. Enables explainable detection and behavior-centric defense mechanisms."
+    },
+    {
+      "arxiv_id": "2512.11602",
+      "filename": "2025_2512.11602_granite_github_actions_permissions.pdf",
+      "title": "Granite: Granular Runtime Enforcement for GitHub Actions Permissions",
+      "year": 2025,
+      "authors": ["Mojtaba Moazen", "Amir. M Ahmadian", "Musard Balliu"],
+      "published_date": "2025-12-12",
+      "size_bytes": 645793,
+      "relevance": "HIGH",
+      "tags": ["CI/CD security", "GitHub Actions", "permission enforcement", "least privilege"],
+      "abstract": "Presents Granite, runtime proxy-based system enforcing fine-grained step-level permissions for GitHub Actions. Transparently monitors requests and checks against policies at runtime. Evaluation on 500 workflows shows 52.7% of jobs can be protected. Prevents permission misuse attacks with 55% overhead and reduces CI/CD attack surface."
+    },
+    {
+      "arxiv_id": "2509.16899",
+      "filename": "2025_2509.16899_supply_chain_autonomous_vehicles.pdf",
+      "title": "Security Vulnerabilities in Software Supply Chain for Autonomous Vehicles",
+      "year": 2025,
+      "authors": ["Md Wasiul Haque", "Md Erfan", "Sagar Dasgupta", "Md Rayhanur Rahman", "Mizanur Rahman"],
+      "published_date": "2025-09-21",
+      "size_bytes": 1707061,
+      "relevance": "MEDIUM-HIGH",
+      "tags": ["autonomous vehicles", "open-source security", "supply chain vulnerabilities", "static analysis"],
+      "abstract": "Analyzes security vulnerabilities in open-source software components in AV systems using static analyzers on Autoware, Apollo, and openpilot. Covers prevalent vulnerabilities and static analyzer comparisons. Emphasizes necessity of security best practices in SDLC to reduce cybersecurity risks in critical autonomous vehicle systems."
+    },
+    {
+      "arxiv_id": "2504.17473",
+      "filename": "2024_2504.17473_wolves_in_repository_xz_utils.pdf",
+      "title": "Wolves in the Repository: A Software Engineering Analysis of the XZ Utils Supply Chain Attack",
+      "year": 2024,
+      "authors": ["Piotr Przymus", "Thomas Durieux"],
+      "published_date": "2025-04-24",
+      "size_bytes": 495534,
+      "relevance": "CRITICAL",
+      "tags": ["XZ Utils", "backdoor attack", "social engineering", "open-source security"],
+      "abstract": "Examines sophisticated XZ Utils attack (CVE-2024-3094) revealing new supply chain attack manipulating development processes, community management, and CI/CD. Reconstructs attack timeline and analyzes attacker tactics. Demonstrates how seemingly beneficial infrastructure contributions bypassed security measures in critical Linux library."
+    },
+    {
+      "arxiv_id": "2504.14760",
+      "filename": "2024_2504.14760_workload_identity_zero_trust_cicd.pdf",
+      "title": "Establishing Workload Identity for Zero Trust CI/CD: From Secrets to SPIFFE-Based Authentication",
+      "year": 2024,
+      "authors": ["Surya Teja Avirneni"],
+      "published_date": "2025-04-20",
+      "size_bytes": 858512,
+      "relevance": "HIGH",
+      "tags": ["zero trust", "CI/CD security", "SPIFFE", "workload identity", "authentication"],
+      "abstract": "Describes shift from static credentials to OIDC federation and introduces SPIFFE as runtime-issued identity model for non-human actors. Shows how SPIFFE enables policy alignment, workload attestation, and mutual authentication. Outlines next steps for policy-based access forming basis of Zero Trust CI/CD architecture."
+    },
+    {
+      "arxiv_id": "2511.17070",
+      "filename": "2024_2511.17070_tical_trusted_compilation.pdf",
+      "title": "TICAL: Trusted and Integrity-protected Compilation of AppLications",
+      "year": 2024,
+      "authors": ["Robert Krahn", "Nikson Kanti Paul", "Franz Gregor", "Do Le Quoc", "Andrey Brito", "André Martin", "Christof Fetzer"],
+      "published_date": "2025-11-21",
+      "size_bytes": 424157,
+      "relevance": "HIGH",
+      "tags": ["build security", "trusted execution", "compiler security", "CI/CD integrity"],
+      "abstract": "Presents Tical framework for trusted compilation providing integrity and confidentiality in build pipelines. Uses TEEs with file system shielding and immutable audit logs. Ensures compiler chain accesses only trusted files and verified output. Evaluation shows Tical protects CI/CD pipelines with acceptable performance overhead."
+    },
+    {
+      "arxiv_id": "2509.23970",
+      "filename": "2025_2509.23970_binary_diff_summarization_llm.pdf",
+      "title": "Binary Diff Summarization using Large Language Models",
+      "year": 2025,
+      "authors": ["Meet Udeshi", "Venkata Sai Charan Putrevu", "Prashanth Krishnamurthy", "Prashant Anantharaman", "Sean Carrick", "Ramesh Karri", "Farshad Khorrami"],
+      "published_date": "2025-09-28",
+      "size_bytes": 2258244,
+      "relevance": "MEDIUM-HIGH",
+      "tags": ["binary analysis", "malware detection", "supply chain security", "LLM application"],
+      "abstract": "Proposes framework for binary diff summarization using LLMs combined with binary diffing for automated malware detection in supply chains. Introduces functional sensitivity score (FSS). Creates benchmark by injecting malware into 6 projects generating 104 binary versions. Achieves 0.98 precision, 0.64 recall and correctly detects XZ utils backdoor."
+    }
+  ],
+  "archived_papers": [
+    {
+      "arxiv_id": "2411.11017",
+      "filename": "_archived_low_relevance/2024_2411.11017_malware_prevention_linux_distributions.pdf",
+      "title": "A Study of Malware Prevention in Linux Distributions",
+      "year": 2024,
+      "authors": ["Duc-Ly Vu", "Trevor Dunlap", "Karla Obermeier-Velazquez", "Thanh-Cong Nguyen", "Paul Gibert", "John Speed Meyers", "Santiago Torres-Arias"],
+      "published_date": "2024-11-17",
+      "size_bytes": 339409,
+      "relevance": "MEDIUM",
+      "reason_archived": "Broader distribution-level focus rather than configuration/template specific security",
+      "tags": ["Linux distributions", "malware scanning", "package repositories", "reproducible builds"]
+    },
+    {
+      "arxiv_id": "2409.09368",
+      "filename": "_archived_low_relevance/2024_2409.09368_models_are_codes_malicious_code_poisoning.pdf",
+      "title": "Models Are Codes: Towards Measuring Malicious Code Poisoning Attacks on Pre-trained Model Hubs",
+      "year": 2024,
+      "authors": ["Jian Zhao", "Shenao Wang", "Yanjie Zhao", "Xinyi Hou", "Kailong Wang", "Peiming Gao", "Yuanchao Zhang", "Chen Wei", "Haoyu Wang"],
+      "published_date": "2024-09-14",
+      "size_bytes": 1483055,
+      "relevance": "MEDIUM",
+      "reason_archived": "Focused on ML model poisoning rather than infrastructure/configuration templates",
+      "tags": ["model hubs", "Hugging Face", "poisoning attacks", "malware detection"]
+    },
+    {
+      "arxiv_id": "2505.21642",
+      "filename": "_archived_low_relevance/2025_2505.21642_reproducible_builds_arch_linux.pdf",
+      "title": "Reproducible Builds and Insights from an Independent Verifier for Arch Linux",
+      "year": 2025,
+      "authors": ["Joshua Drexel", "Esther Hänggi", "Iyán Méndez Veiga"],
+      "published_date": "2025-05-27",
+      "size_bytes": 361829,
+      "relevance": "MEDIUM",
+      "reason_archived": "Generic reproducible builds practice rather than configuration/template-specific",
+      "tags": ["reproducible builds", "Arch Linux", "packaging", "supply chain attacks"]
+    },
+    {
+      "arxiv_id": "2505.10538",
+      "filename": "_archived_low_relevance/2025_2505.10538_s3c2_summit_2024_09_industry_supply_chain.pdf",
+      "title": "S3C2 Summit 2024-09: Industry Secure Software Supply Chain Summit",
+      "year": 2025,
+      "authors": ["Imranur Rahman", "Yasemin Acar", "Michel Cukier", "William Enck", "Christian Kastner", "Alexandros Kapravelos", "Dominik Wermke", "Laurie Williams"],
+      "published_date": "2025-05-15",
+      "size_bytes": 442134,
+      "relevance": "MEDIUM",
+      "reason_archived": "Summit summary rather than research with specific technical contributions",
+      "tags": ["S3C2 summit", "industry practices", "supply chain security", "practitioner insights"]
+    },
+    {
+      "arxiv_id": "2504.00924",
+      "filename": "_archived_low_relevance/2025_2504.00924_s3c2_summit_2024_08_government_supply_chain.pdf",
+      "title": "S3C2 Summit 2024-08: Government Secure Supply Chain Summit",
+      "year": 2025,
+      "authors": ["Courtney Miller", "William Enck", "Yasemin Acar", "Michel Cukier", "Alexandros Kapravelos", "Christian Kastner", "Dominik Wermke", "Laurie Williams"],
+      "published_date": "2025-04-01",
+      "size_bytes": 431338,
+      "relevance": "MEDIUM",
+      "reason_archived": "Summit summary rather than research with specific technical contributions",
+      "tags": ["S3C2 summit", "government agencies", "supply chain security", "policy insights"]
+    }
+  ],
+  "research_summary": {
+    "total_download_size_mb": 16.24,
+    "average_paper_size_mb": 1.62,
+    "year_distribution": {
+      "2025": 7,
+      "2024": 3
+    },
+    "top_institutions": [
+      "TU Delft & Endor Labs",
+      "Nicolaus Copernicus University",
+      "Microsoft & Academia",
+      "NSF Secure Software Supply Chain Center (S3C2)"
+    ],
+    "key_themes": [
+      "Build System Security & Integrity",
+      "Package/Dependency Poisoning Detection",
+      "CI/CD Pipeline Security",
+      "Supply Chain Attack Taxonomy",
+      "Malicious Code Detection in Supply Chains",
+      "Trusted Compilation Frameworks",
+      "Zero Trust Architecture for Infrastructure",
+      "Runtime Permission Enforcement"
+    ]
+  }
+}

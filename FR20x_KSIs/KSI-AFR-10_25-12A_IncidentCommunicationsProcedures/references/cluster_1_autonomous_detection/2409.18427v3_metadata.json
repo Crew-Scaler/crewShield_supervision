@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2409.18427v3",
+  "title": "Neural Collaborative Filtering to Detect Anomalies in Human Semantic Trajectories",
+  "authors": [
+    "Yueyang Liu",
+    "Lance Kennedy",
+    "Hossein Amiri",
+    "Andreas Z\u00fcfle"
+  ],
+  "published": "2024-09-27T03:28:11Z",
+  "url": "http://arxiv.org/abs/2409.18427v3",
+  "pdf_url": "http://arxiv.org/pdf/2409.18427v3.pdf",
+  "relevance_score": 95,
+  "summary": "Human trajectory anomaly detection has become increasingly important across a wide range of applications, including security surveillance and public health. However, existing trajectory anomaly detection methods are primarily focused on vehicle-level traffic, while human-level trajectory anomaly detection remains under-explored. Since human trajectory data is often very sparse, machine learning methods have become the preferred approach for identifying complex patterns. However, concerns regarding potential biases and the robustness of these models have intensified the demand for more transparent and explainable alternatives. In response to these challenges, our research focuses on developing a lightweight anomaly detection model specifically designed to detect anomalies in human trajectories. We propose a Neural Collaborative Filtering approach to model and predict normal mobility. Our method is designed to model users' daily patterns of life without requiring prior knowledge, thereby enhancing performance in scenarios where data is sparse or incomplete, such as in cold start situations. Our algorithm consists of two main modules. The first is the collaborative filtering module, which applies collaborative filtering to model normal mobility of individual humans to places of interest. The second is the neural module, responsible for interpreting the complex spatio-temporal relationships inherent in human trajectory data. To validate our approach, we conducted extensive experiments using simulated and real-world datasets comparing to numerous state-of-the-art trajectory anomaly detection approaches."
+}

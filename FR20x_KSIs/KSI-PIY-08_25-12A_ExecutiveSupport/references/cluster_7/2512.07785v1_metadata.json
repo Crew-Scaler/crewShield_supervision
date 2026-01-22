@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.07785v1",
+  "title": "Automating High Energy Physics Data Analysis with LLM-Powered Agents",
+  "authors": [
+    "Eli Gendreau-Distler",
+    "Joshua Ho",
+    "Dongwon Kim",
+    "Luc Tomas Le Pottier",
+    "Haichen Wang",
+    "Chengxi Yang"
+  ],
+  "published": "2025-12-08T18:13:13Z",
+  "summary": "We present a proof-of-principle study demonstrating the use of large language model (LLM) agents to automate a representative high energy physics (HEP) analysis. Using the Higgs boson diphoton cross-section measurement as a case study with ATLAS Open Data, we design a hybrid system that combines an LLM-based supervisor-coder agent with the Snakemake workflow manager. In this architecture, the workflow manager enforces reproducibility and determinism, while the agent autonomously generates, execu",
+  "cluster": "cluster_7",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.203864"
+}

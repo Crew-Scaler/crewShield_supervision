@@ -1,0 +1,21 @@
+Title: Attention is All You Need to Defend Against Indirect Prompt Injection Attacks in LLMs
+
+Authors: Yinan Zhong, Qianhao Miao, Yanjiao Chen, Jiangyi Deng, Yushi Cheng
+
+
+Published: 2025-12-09
+
+Query ID: C-2.3
+
+Relevance Color: Green
+Relevance Score: 0.73
+
+Pages: 22
+
+URL: https://arxiv.org/pdf/2512.08417.pdf
+
+Abstract:
+Large Language Models (LLMs) have been integrated into many applications (e.g., web agents) to perform more sophisticated tasks. However, LLM-empowered applications are vulnerable to Indirect Prompt Injection (IPI) attacks, where instructions are injected via untrustworthy external data sources. This paper presents Rennervate, a defense framework to detect and prevent IPI attacks. Rennervate leverages attention features to detect the covert injection at a fine-grained token level, enabling preci...
+
+Relevance Justification:
+Directly addresses prompt injection attacks; Proposes defense mechanisms against attacks; Focuses on AI agent security

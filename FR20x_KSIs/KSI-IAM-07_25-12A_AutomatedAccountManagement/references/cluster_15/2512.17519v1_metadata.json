@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2512.17519v1",
+  "title": "Key-Conditioned Orthonormal Transform Gating (K-OTG): Multi-Key Access Control with Hidden-State Scrambling for LoRA-Tuned Models",
+  "published": "2025-12-19T12:42:53Z",
+  "summary": "We present a simple, PEFT-compatible mechanism that enforces secret-key access control in instruction-tuned language models. K-OTG trains on a dual-path corpus: authorized examples (prefixed with a role key) learn the task output, while unauthorized examples learn a visible block token. At inference, a pre-lm_head hook applies an orthonormal transform to the hidden state: with the correct key/role the inverse map restores the model's native basis; otherwise a session-ephemeral scrambler (permuta",
+  "category": "cs.CR",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2512.17519v1",
+  "cluster": 15,
+  "issue": 171,
+  "downloaded_at": "2026-01-11T10:27:49.555111"
+}

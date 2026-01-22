@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2510.25017v1",
+  "title": "StorageXTuner: An LLM Agent-Driven Automatic Tuning Framework for Heterogeneous Storage Systems",
+  "authors": [
+    "Qi Lin",
+    "Zhenyu Zhang",
+    "Viraj Thakkar",
+    "Zhenjie Sun",
+    "Mai Zheng",
+    "Zhichao Cao"
+  ],
+  "published": "2025-10-28T22:33:14Z",
+  "url": "http://arxiv.org/abs/2510.25017v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.25017v1.pdf",
+  "relevance_score": 83,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Automatically configuring storage systems is hard: parameter spaces are large and conditions vary across workloads, deployments, and versions. Heuristic and ML tuners are often system specific, require manual glue, and degrade under changes. Recent LLM-based approaches help but usually treat tuning as a single-shot, system-specific task, which limits cross-system reuse, constrains exploration, and weakens validation. We present StorageXTuner, an LLM agent-driven auto-tuning framework for heterog"
+}

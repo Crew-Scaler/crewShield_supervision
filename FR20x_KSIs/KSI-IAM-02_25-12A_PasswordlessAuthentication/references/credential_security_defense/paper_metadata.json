@@ -1,0 +1,1004 @@
+[
+  {
+    "arxiv_id": "2511.18748v1",
+    "title": "Evaluation of Real-Time Mitigation Techniques for Cyber Security in IEC 61850 / IEC 62351 Substations",
+    "authors": [
+      "Akila Herath",
+      "Chen-Ching Liu",
+      "Junho Hong",
+      "Kuchan Park"
+    ],
+    "published": "2025-11-24",
+    "updated": "2025-11-24",
+    "categories": [
+      "cs.CR",
+      "eess.SY"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The digitalization of substations enlarges the cyber-attack surface, necessitating effective detection and mitigation of cyber attacks in digital substations. While machine learning-based intrusion detection has been widely explored, such methods have not demonstrated detection and mitigation within the required real-time budget. In contrast, cryptographic authentication has emerged as a practical candidate for real-time cyber defense, as specified in IEC 62351. In addition, lightweight rule-based intrusion detection that validates IEC 61850 semantics can provide specification-based detection of anomalous or malicious traffic with minimal processing delay. This paper presents the design logic and implementation aspects of three potential real-time mitigation techniques capable of countering GOOSE-based attacks: (i) IEC 62351-compliant message authentication code (MAC) scheme, (ii) a semantics-enforced rule-based intrusion detection system (IDS), and (iii) a hybrid approach integrating both MAC verification and Intrusion Detection System (IDS). A comparative evaluation of these real-time mitigation approaches is conducted using a cyber-physical system (CPS) security testbed. The results show that the hybrid integration significantly enhances mitigation capability. Furthermore, the processing delays of all three methods remain within the strict delivery requirements of GOOSE communication. The study also identifies limitations that none of the techniques can fully address, highlighting areas for future work.",
+    "pdf_url": "https://arxiv.org/pdf/2511.18748v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2511.18748v1_Evaluation_of_Real-Time_Mitigation_Techniques_for.pdf",
+    "downloaded_at": "2025-12-11T14:12:36.977356"
+  },
+  {
+    "arxiv_id": "2502.20627v1",
+    "title": "Towards Zero Touch Networks: Cross-Layer Automated Security Solutions for 6G Wireless Networks",
+    "authors": [
+      "Li Yang",
+      "Shimaa Naser",
+      "Abdallah Shami",
+      "Sami Muhaidat",
+      "Lyndon Ong",
+      "Mérouane Debbah"
+    ],
+    "published": "2025-02-28",
+    "updated": "2025-02-28",
+    "categories": [
+      "cs.CR",
+      "cs.LG",
+      "cs.NI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The transition from 5G to 6G mobile networks necessitates network automation to meet the escalating demands for high data rates, ultra-low latency, and integrated technology. Recently, Zero-Touch Networks (ZTNs), driven by Artificial Intelligence (AI) and Machine Learning (ML), are designed to automate the entire lifecycle of network operations with minimal human intervention, presenting a promising solution for enhancing automation in 5G/6G networks. However, the implementation of ZTNs brings forth the need for autonomous and robust cybersecurity solutions, as ZTNs rely heavily on automation. AI/ML algorithms are widely used to develop cybersecurity mechanisms, but require substantial specialized expertise and encounter model drift issues, posing significant challenges in developing autonomous cybersecurity measures. Therefore, this paper proposes an automated security framework targeting Physical Layer Authentication (PLA) and Cross-Layer Intrusion Detection Systems (CLIDS) to address security concerns at multiple Internet protocol layers. The proposed framework employs drift-adaptive online learning techniques and a novel enhanced Successive Halving (SH)-based Automated ML (AutoML) method to automatically generate optimized ML models for dynamic networking environments. Experimental results illustrate that the proposed framework achieves high performance on the public Radio Frequency (RF) fingerprinting and the Canadian Institute for CICIDS2017 datasets, showcasing its effectiveness in addressing PLA and CLIDS tasks within dynamic and complex networking environments. Furthermore, the paper explores open challenges and research directions in the 5G/6G cybersecurity domain. This framework represents a significant advancement towards fully autonomous and secure 6G networks, paving the way for future innovations in network automation and cybersecurity.",
+    "pdf_url": "https://arxiv.org/pdf/2502.20627v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2502.20627v1_Towards_Zero_Touch_Networks_Cross-Layer_Automated.pdf",
+    "downloaded_at": "2025-12-11T14:12:43.978334"
+  },
+  {
+    "arxiv_id": "2502.03398v1",
+    "title": "The Adoption of Artificial Intelligence in Different Network Security Concepts",
+    "authors": [
+      "Mamoon A. Al Jbaar",
+      "Adel Jalal Yousif",
+      "Qutaiba I. Ali"
+    ],
+    "published": "2025-02-05",
+    "updated": "2025-02-05",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The obstacles of each security system combined with the increase of cyber-attacks, negatively affect the effectiveness of network security management and rise the activities to be taken by the security staff and network administrators. So, there is a growing need for the automated auditing and intelligent reporting strategies for reliable network security with as less model complexity as possible. Newly, artificial intelligence has been effectively applied to various network security issues, and numerous studies have been conducted that utilize various artificial intelligence techniques for the purposes of encryption and secure communication, in addition to using artificial intelligence to perform a large number of data encryption operations in record time. The aim of the study is to present and discuss the most prominent methods of artificial intelligence recently used in the field of network security including user authentication, Key exchanging, encryption/decryption, data integrity and intrusion detection system.",
+    "pdf_url": "https://arxiv.org/pdf/2502.03398v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2502.03398v1_The_Adoption_of_Artificial_Intelligence_in_Differe.pdf",
+    "downloaded_at": "2025-12-11T14:12:47.785574"
+  },
+  {
+    "arxiv_id": "2403.04113v1",
+    "title": "ZTRAN: Prototyping Zero Trust Security xApps for Open Radio Access Network Deployments",
+    "authors": [
+      "Aly S. Abdalla",
+      "Joshua Moore",
+      "Nisha Adhikari",
+      "Vuk Marojevic"
+    ],
+    "published": "2024-03-06",
+    "updated": "2024-03-06",
+    "categories": [
+      "cs.CR",
+      "cs.ET",
+      "eess.SY"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The open radio access network (O-RAN) offers new degrees of freedom for building and operating advanced cellular networks. Emphasizing on RAN disaggregation, open interfaces, multi-vendor support, and RAN intelligent controllers (RICs), O-RAN facilitates adaptation to new applications and technology trends. Yet, this architecture introduces new security challenges. This paper proposes leveraging zero trust principles for O-RAN security. We introduce zero trust RAN (ZTRAN), which embeds service authentication, intrusion detection, and secure slicing subsystems that are encapsulated as xApps. We implement ZTRAN on the open artificial intelligence cellular (OAIC) research platform and demonstrate its feasibility and effectiveness in terms of legitimate user throughput and latency figures. Our experimental analysis illustrates how ZTRAN's intrusion detection and secure slicing microservices operate effectively and in concert as part of O-RAN Alliance's containerized near-real time RIC. Research directions include exploring machine learning and additional threat intelligence feeds for improving the performance and extending the scope of ZTRAN.",
+    "pdf_url": "https://arxiv.org/pdf/2403.04113v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2403.04113v1_ZTRAN_Prototyping_Zero_Trust_Security_xApps_for_O.pdf",
+    "downloaded_at": "2025-12-11T14:12:52.787161"
+  },
+  {
+    "arxiv_id": "2401.10689v1",
+    "title": "A Lightweight Multi-Attack CAN Intrusion Detection System on Hybrid FPGAs",
+    "authors": [
+      "Shashwat Khandelwal",
+      "Shreejith Shanker"
+    ],
+    "published": "2024-01-19",
+    "updated": "2024-01-19",
+    "categories": [
+      "cs.CR",
+      "cs.LG",
+      "eess.SY"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Rising connectivity in vehicles is enabling new capabilities like connected autonomous driving and advanced driver assistance systems (ADAS) for improving the safety and reliability of next-generation vehicles. This increased access to in-vehicle functions compromises critical capabilities that use legacy invehicle networks like Controller Area Network (CAN), which has no inherent security or authentication mechanism. Intrusion detection and mitigation approaches, particularly using machine learning models, have shown promising results in detecting multiple attack vectors in CAN through their ability to generalise to new vectors. However, most deployments require dedicated computing units like GPUs to perform line-rate detection, consuming much higher power. In this paper, we present a lightweight multi-attack quantised machine learning model that is deployed using Xilinx's Deep Learning Processing Unit IP on a Zynq Ultrascale+ (XCZU3EG) FPGA, which is trained and validated using the public CAN Intrusion Detection dataset. The quantised model detects denial of service and fuzzing attacks with an accuracy of above 99 % and a false positive rate of 0.07%, which are comparable to the state-of-the-art techniques in the literature. The Intrusion Detection System (IDS) execution consumes just 2.0 W with software tasks running on the ECU and achieves a 25 % reduction in per-message processing latency over the state-of-the-art implementations. This deployment allows the ECU function to coexist with the IDS with minimal changes to the tasks, making it ideal for real-time IDS in in-vehicle systems.",
+    "pdf_url": "https://arxiv.org/pdf/2401.10689v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2401.10689v1_A_Lightweight_Multi-Attack_CAN_Intrusion_Detection.pdf",
+    "downloaded_at": "2025-12-11T14:12:57.157839"
+  },
+  {
+    "arxiv_id": "2309.02899v1",
+    "title": "Autonomous and Collaborative Smart Home Security System (ACSHSS)",
+    "authors": [
+      "Hassan Jalil Hadi",
+      "Khaleeq Un Nisa",
+      "Sheetal Harris"
+    ],
+    "published": "2023-09-06",
+    "updated": "2023-09-06",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Firstly, the proposed solution provides remotely accessible integrated IoT resources for the safety and security of the building. By using Sha ort Messaging System (SMS), the age is sent to the user by the Global System for Mobile (GSM) system. An SMS alert is sent to the user in case any sensor detects an abnormality in their operation. Secondly, an authentication mechanism is deployed to enable only authorized users to access resources. Thirdly, in case of a malicious approach in accessing IoT resources, a timely alert should be received by the owner. A Network Intrusion Detection System (NIDS) is deployed to detect and real-time information in case of any suspicious activity while accessing the Internet of Things network.",
+    "pdf_url": "https://arxiv.org/pdf/2309.02899v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2309.02899v1_Autonomous_and_Collaborative_Smart_Home_Security_S.pdf",
+    "downloaded_at": "2025-12-11T14:13:01.483860"
+  },
+  {
+    "arxiv_id": "2210.09439v1",
+    "title": "CAN-BERT do it? Controller Area Network Intrusion Detection System based on BERT Language Model",
+    "authors": [
+      "Natasha Alkhatib",
+      "Maria Mushtaq",
+      "Hadi Ghauch",
+      "Jean-Luc Danger"
+    ],
+    "published": "2022-10-17",
+    "updated": "2022-10-17",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.NI"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "Due to the rising number of sophisticated customer functionalities, electronic control units (ECUs) are increasingly integrated into modern automotive systems. However, the high connectivity between the in-vehicle and the external networks paves the way for hackers who could exploit in-vehicle network protocols' vulnerabilities. Among these protocols, the Controller Area Network (CAN), known as the most widely used in-vehicle networking technology, lacks encryption and authentication mechanisms, making the communications delivered by distributed ECUs insecure. Inspired by the outstanding performance of bidirectional encoder representations from transformers (BERT) for improving many natural language processing tasks, we propose in this paper ``CAN-BERT\", a deep learning based network intrusion detection system, to detect cyber attacks on CAN bus protocol. We show that the BERT model can learn the sequence of arbitration identifiers (IDs) in the CAN bus for anomaly detection using the ``masked language model\" unsupervised training objective. The experimental results on the ``Car Hacking: Attack \\& Defense Challenge 2020\" dataset show that ``CAN-BERT\" outperforms state-of-the-art approaches. In addition to being able to identify in-vehicle intrusions in real-time within 0.8 ms to 3 ms w.r.t CAN ID sequence length, it can also detect a wide variety of cyberattacks with an F1-score of between 0.81 and 0.99.",
+    "pdf_url": "https://arxiv.org/pdf/2210.09439v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2210.09439v1_CAN-BERT_do_it_Controller_Area_Network_Intrusion.pdf",
+    "downloaded_at": "2025-12-11T14:13:05.349477"
+  },
+  {
+    "arxiv_id": "2204.01193v1",
+    "title": "Detecting In-vehicle Intrusion via Semi-supervised Learning-based Convolutional Adversarial Autoencoders",
+    "authors": [
+      "Thien-Nu Hoang",
+      "Daehee Kim"
+    ],
+    "published": "2022-04-04",
+    "updated": "2022-04-04",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "With the development of autonomous vehicle technology, the controller area network (CAN) bus has become the de facto standard for an in-vehicle communication system because of its simplicity and efficiency. However, without any encryption and authentication mechanisms, the in-vehicle network using the CAN protocol is susceptible to a wide range of attacks. Many studies, which are mostly based on machine learning, have proposed installing an intrusion detection system (IDS) for anomaly detection in the CAN bus system. Although machine learning methods have many advantages for IDS, previous models usually require a large amount of labeled data, which results in high time and labor costs. To handle this problem, we propose a novel semi-supervised learning-based convolutional adversarial autoencoder model in this paper. The proposed model combines two popular deep learning models: autoencoder and generative adversarial networks. First, the model is trained with unlabeled data to learn the manifolds of normal and attack patterns. Then, only a small number of labeled samples are used in supervised training. The proposed model can detect various kinds of message injection attacks, such as DoS, fuzzy, and spoofing, as well as unknown attacks. The experimental results show that the proposed model achieves the highest F1 score of 0.99 and a low error rate of 0.1\\% with limited labeled data compared to other supervised methods. In addition, we show that the model can meet the real-time requirement by analyzing the model complexity in terms of the number of trainable parameters and inference time. This study successfully reduced the number of model parameters by five times and the inference time by eight times, compared to a state-of-the-art model.",
+    "pdf_url": "https://arxiv.org/pdf/2204.01193v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2204.01193v1_Detecting_In-vehicle_Intrusion_via_Semi-supervised.pdf",
+    "downloaded_at": "2025-12-11T14:13:09.343193"
+  },
+  {
+    "arxiv_id": "2004.10781v1",
+    "title": "Cyberattacks and Countermeasures For In-Vehicle Networks",
+    "authors": [
+      "Emad Aliwa",
+      "Omer Rana",
+      "Charith Perera",
+      "Peter Burnap"
+    ],
+    "published": "2020-04-22",
+    "updated": "2020-04-22",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "As connectivity between and within vehicles increases, so does concern about safety and security. Various automotive serial protocols are used inside vehicles such as Controller Area Network (CAN), Local Interconnect Network (LIN) and FlexRay. CAN bus is the most used in-vehicle network protocol to support exchange of vehicle parameters between Electronic Control Units (ECUs). This protocol lacks security mechanisms by design and is therefore vulnerable to various attacks. Furthermore, connectivity of vehicles has made the CAN bus not only vulnerable from within the vehicle but also from outside. With the rise of connected cars, more entry points and interfaces have been introduced on board vehicles, thereby also leading to a wider potential attack surface. Existing security mechanisms focus on the use of encryption, authentication and vehicle Intrusion Detection Systems (IDS), which operate under various constrains such as low bandwidth, small frame size (e.g. in the CAN protocol), limited availability of computational resources and real-time sensitivity. We survey In-Vehicle Network (IVN) attacks which have been grouped under: direct interfaces-initiated attacks, telematics and infotainment-initiated attacks, and sensor-initiated attacks. We survey and classify current cryptographic and IDS approaches and compare these approaches based on criteria such as real time constrains, types of hardware used, changes in CAN bus behaviour, types of attack mitigation and software/ hardware used to validate these approaches. We conclude with potential mitigation strategies and research challenges for the future.",
+    "pdf_url": "https://arxiv.org/pdf/2004.10781v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2004.10781v1_Cyberattacks_and_Countermeasures_For_In-Vehicle_Ne.pdf",
+    "downloaded_at": "2025-12-11T14:13:13.661421"
+  },
+  {
+    "arxiv_id": "1905.11701v1",
+    "title": "Putting Together the Pieces: A Concept for Holistic Industrial Intrusion Detection",
+    "authors": [
+      "Simon D. Duque Antón",
+      "Hans Dieter Schotten"
+    ],
+    "published": "2019-05-28",
+    "updated": "2019-05-28",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Besides the advantages derived from the ever present communication properties, it increases the attack surface of a network as well. As industrial protocols and systems were not designed with security in mind, spectacular attacks on industrial systems occurred over the last years. Most industrial communication protocols do not provide means to ensure authentication or encryption. This means attackers with access to a network can read and write information. Originally not meant to be connected to public networks, the use cases of Industry 4.0 require interconnectivity, often through insecure public networks. This lead to an increasing interest in information security products for industrial applications. In this work, the concept for holistic intrusion detection methods in an industrial context is presented. It is based on different works considering several aspects of industrial environments and their capabilities to identify intrusions as an anomaly in network or process data. These capabilities are based on preceding experiments on real and synthetic data. In order to justify the concept, an overview of potential and actual attack vectors and attacks on industrial systems is provided. It is shown that different aspects of industrial facilities, e.g. office IT, shop floor OT, firewalled connections to customers and partners are analysed as well as the different layers of the automation pyramid require different methods to detect attacks. Additionally, the singular steps of an attack on industrial applications are characterised. Finally, a resulting concept for integration of these methods is proposed, providing the means to detect the different stages of an attack by different means.",
+    "pdf_url": "https://arxiv.org/pdf/1905.11701v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1905.11701v1_Putting_Together_the_Pieces_A_Concept_for_Holisti.pdf",
+    "downloaded_at": "2025-12-11T14:13:17.379446"
+  },
+  {
+    "arxiv_id": "1903.08052v1",
+    "title": "Trends on Computer Security: Cryptography, User Authentication, Denial of Service and Intrusion Detection",
+    "authors": [
+      "Pablo Daniel Marcillo Lara",
+      "Daniel Alejandro Maldonado-Ruiz",
+      "Santiago Daniel Arrais Díaz",
+      "Lorena Isabel Barona López",
+      "Ángel Leonardo Valdivieso Caraguay"
+    ],
+    "published": "2019-03-19",
+    "updated": "2019-03-19",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The new generation of security threats has been promoted by digital currencies and real-time applications, where all users develop new ways to communicate on the Internet. Security has evolved in the need of privacy and anonymity for all users and his portable devices. New technologies in every field prove that users need security features integrated into their communication applications, parallel systems for mobile devices, internet, and identity management. This review presents the key concepts of the main areas in computer security and how it has evolved in the last years. This work focuses on cryptography, user authentication, denial of service attacks, intrusion detection and firewalls.",
+    "pdf_url": "https://arxiv.org/pdf/1903.08052v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1903.08052v1_Trends_on_Computer_Security_Cryptography_User_Au.pdf",
+    "downloaded_at": "2025-12-11T14:13:21.248880"
+  },
+  {
+    "arxiv_id": "1710.11222v1",
+    "title": "Dependability in Edge Computing",
+    "authors": [
+      "Paul Wood",
+      "Heng Zhang",
+      "Muhammad-Bilal Siddiqui",
+      "Saurabh Bagchi"
+    ],
+    "published": "2017-10-11",
+    "updated": "2017-10-11",
+    "categories": [
+      "cs.DC"
+    ],
+    "primary_category": "cs.DC",
+    "summary": "Edge computing is the practice of placing computing resources at the edges of the Internet in close proximity to devices and information sources. This, much like a cache on a CPU, increases bandwidth and reduces latency for applications but at a potential cost of dependability and capacity. This is because these edge devices are often not as well maintained, dependable, powerful, or robust as centralized server-class cloud resources. This article explores dependability and deployment challenges in the field of edge computing, what aspects are solvable with today's technology, and what aspects call for new solutions.\n  The first issue addressed is failures, both hard (crash, hang, etc.) and soft (performance-related), and real-time constraint violation. In this domain, edge computing bolsters real-time system capacity through reduced end-to-end latency. However, much like cache misses, overloaded or malfunctioning edge computers can drive latency beyond tolerable limits. Second, decentralized management and device tampering can lead to chain of trust and security or privacy violations. Authentication, access control, and distributed intrusion detection techniques have to be extended from current cloud deployments and need to be customized for the edge ecosystem. The third issue deals with handling multi-tenancy in the typically resource-constrained edge devices and the need for standardization to allow for interoperability across vendor products.\n  We explore the key challenges in each of these three broad issues as they relate to dependability of edge computing and then hypothesize about promising avenues of work in this area.",
+    "pdf_url": "https://arxiv.org/pdf/1710.11222v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1710.11222v1_Dependability_in_Edge_Computing.pdf",
+    "downloaded_at": "2025-12-11T14:13:24.899175"
+  },
+  {
+    "arxiv_id": "2508.19465v1",
+    "title": "Addressing Weak Authentication like RFID, NFC in EVs and EVCs using AI-powered Adaptive Authentication",
+    "authors": [
+      "Onyinye Okoye"
+    ],
+    "published": "2025-08-26",
+    "updated": "2025-08-26",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The rapid expansion of the Electric Vehicles (EVs) and Electric Vehicle Charging Systems (EVCs) has introduced new cybersecurity challenges, specifically in authentication protocols that protect vehicles, users, and energy infrastructure. Although widely adopted for convenience, traditional authentication mechanisms like Radio Frequency Identification (RFID) and Near Field Communication (NFC) rely on static identifiers and weak encryption, making them highly vulnerable to attack vectors such as cloning, relay attacks, and signal interception. This study explores an AI-powered adaptive authentication framework designed to overcome these shortcomings by integrating machine learning, anomaly detection, behavioral analytics, and contextual risk assessment. Grounded in the principles of Zero Trust Architecture, the proposed framework emphasizes continuous verification, least privilege access, and secure communication. Through a comprehensive literature review, this research evaluates current vulnerabilities and highlights AI-driven solutions to provide a scalable, resilient, and proactive defense. Ultimately, the research findings conclude that adopting AI-powered adaptive authentication is a strategic imperative for securing the future of electric mobility and strengthening digital trust across the ecosystem. Keywords: weak authentication, RFID, NFC, ML, AI-powered adaptive authentication, relay attacks, cloning, eavesdropping, MITM attacks, Zero Trust Architecture",
+    "pdf_url": "https://arxiv.org/pdf/2508.19465v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2508.19465v1_Addressing_Weak_Authentication_like_RFID_NFC_in_E.pdf",
+    "downloaded_at": "2025-12-11T14:13:30.889966"
+  },
+  {
+    "arxiv_id": "2508.09094v1",
+    "title": "Deep Learning Models for Robust Facial Liveness Detection",
+    "authors": [
+      "Oleksandr Kuznetsov",
+      "Emanuele Frontoni",
+      "Luca Romeo",
+      "Riccardo Rosati",
+      "Andrea Maranesi",
+      "Alessandro Muscatello"
+    ],
+    "published": "2025-08-12",
+    "updated": "2025-08-12",
+    "categories": [
+      "cs.CV"
+    ],
+    "primary_category": "cs.CV",
+    "summary": "In the rapidly evolving landscape of digital security, biometric authentication systems, particularly facial recognition, have emerged as integral components of various security protocols. However, the reliability of these systems is compromised by sophisticated spoofing attacks, where imposters gain unauthorized access by falsifying biometric traits. Current literature reveals a concerning gap: existing liveness detection methodologies - designed to counteract these breaches - fall short against advanced spoofing tactics employing deepfakes and other artificial intelligence-driven manipulations. This study introduces a robust solution through novel deep learning models addressing the deficiencies in contemporary anti-spoofing techniques. By innovatively integrating texture analysis and reflective properties associated with genuine human traits, our models distinguish authentic presence from replicas with remarkable precision. Extensive evaluations were conducted across five diverse datasets, encompassing a wide range of attack vectors and environmental conditions. Results demonstrate substantial advancement over existing systems, with our best model (AttackNet V2.2) achieving 99.9% average accuracy when trained on combined data. Moreover, our research unveils critical insights into the behavioral patterns of impostor attacks, contributing to a more nuanced understanding of their evolving nature. The implications are profound: our models do not merely fortify the authentication processes but also instill confidence in biometric systems across various sectors reliant on secure access.",
+    "pdf_url": "https://arxiv.org/pdf/2508.09094v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2508.09094v1_Deep_Learning_Models_for_Robust_Facial_Liveness_De.pdf",
+    "downloaded_at": "2025-12-11T14:13:34.360497"
+  },
+  {
+    "arxiv_id": "2507.04126v1",
+    "title": "BlowPrint: Blow-Based Multi-Factor Biometrics for Smartphone User Authentication",
+    "authors": [
+      "Howard Halim",
+      "Eyasu Getahun Chekole",
+      "Daniël Reijsbergen",
+      "Jianying Zhou"
+    ],
+    "published": "2025-07-05",
+    "updated": "2025-07-05",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Biometric authentication is a widely used security mechanism that leverages unique physiological or behavioral characteristics to authenticate users. In multi-factor biometrics (MFB), multiple biometric modalities, e.g., physiological and behavioral, are integrated to mitigate the limitations inherent in single-factor biometrics. The main challenge in MFB lies in identifying novel behavioral techniques capable of meeting critical criteria, including high accuracy, high usability, non-invasiveness, resilience against spoofing attacks, and low use of computational resources. Despite ongoing advancements, current behavioral biometric techniques often fall short of fulfilling one or more of these requirements. In this work, we propose BlowPrint, a novel behavioral biometric technique that allows us to authenticate users based on their phone blowing behaviors. In brief, we assume that the way users blow on a phone screen can produce distinctive acoustic patterns, which can serve as a unique biometric identifier for effective user authentication. It can also be seamlessly integrated with physiological techniques, such as facial recognition, to enhance its robustness and security. To assess BlowPrint's effectiveness, we conduct an empirical study involving 50 participants from whom we collect blow-acoustic and facial feature data. Subsequently, we compute the similarity scores of the two modalities using various similarity algorithms and combine them through score-level fusion. Finally, we compute the accuracy using a machine learning-based classifier. As a result, the proposed method demonstrates an accuracy of 99.35% for blow acoustics, 99.96% for facial recognition, and 99.82% for the combined approach. The experimental results demonstrate BlowPrint's high effectiveness in terms of authentication accuracy, spoofing attack resilience, usability, non-invasiveness, and other aspects.",
+    "pdf_url": "https://arxiv.org/pdf/2507.04126v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2507.04126v1_BlowPrint_Blow-Based_Multi-Factor_Biometrics_for.pdf",
+    "downloaded_at": "2025-12-11T14:13:38.543111"
+  },
+  {
+    "arxiv_id": "2506.07714v1",
+    "title": "Profiling Electric Vehicles via Early Charging Voltage Patterns",
+    "authors": [
+      "Francesco Marchiori",
+      "Denis Donadel",
+      "Alessandro Brighente",
+      "Mauro Conti"
+    ],
+    "published": "2025-06-09",
+    "updated": "2025-06-09",
+    "categories": [
+      "cs.CR",
+      "cs.ET",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Electric Vehicles (EVs) are rapidly gaining adoption as a sustainable alternative to fuel-powered vehicles, making secure charging infrastructure essential. Despite traditional authentication protocols, recent results showed that attackers may steal energy through tailored relay attacks. One countermeasure is leveraging the EV's fingerprint on the current exchanged during charging. However, existing methods focus on the final charging stage, allowing malicious actors to consume substantial energy before being detected and repudiated. This underscores the need for earlier and more effective authentication methods to prevent unauthorized charging. Meanwhile, profiling raises privacy concerns, as uniquely identifying EVs through charging patterns could enable user tracking.\n  In this paper, we propose a framework for uniquely identifying EVs using physical measurements from the early charging stages. We hypothesize that voltage behavior early in the process exhibits similar characteristics to current behavior in later stages. By extracting features from early voltage measurements, we demonstrate the feasibility of EV profiling. Our approach improves existing methods by enabling faster and more reliable vehicle identification. We test our solution on a dataset of 7408 usable charges from 49 EVs, achieving up to 0.86 accuracy. Feature importance analysis shows that near-optimal performance is possible with just 10 key features, improving efficiency alongside our lightweight models. This research lays the foundation for a novel authentication factor while exposing potential privacy risks from unauthorized access to charging data.",
+    "pdf_url": "https://arxiv.org/pdf/2506.07714v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2506.07714v1_Profiling_Electric_Vehicles_via_Early_Charging_Vol.pdf",
+    "downloaded_at": "2025-12-11T14:13:42.307931"
+  },
+  {
+    "arxiv_id": "2505.05015v1",
+    "title": "An Agent-Based Modeling Approach to Free-Text Keyboard Dynamics for Continuous Authentication",
+    "authors": [
+      "Roberto Dillon",
+      "Arushi"
+    ],
+    "published": "2025-05-08",
+    "updated": "2025-05-08",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "Continuous authentication systems leveraging free-text keyboard dynamics offer a promising additional layer of security in a multifactor authentication setup that can be used in a transparent way with no impact on user experience. This study investigates the efficacy of behavioral biometrics by employing an Agent-Based Model (ABM) to simulate diverse typing profiles across mechanical and membrane keyboards. Specifically, we generated synthetic keystroke data from five unique agents, capturing features related to dwell time, flight time, and error rates within sliding 5-second windows updated every second. Two machine learning approaches, One-Class Support Vector Machine (OC-SVM) and Random Forest (RF), were evaluated for user verification. Results revealed a stark contrast in performance: while One-Class SVM failed to differentiate individual users within each group, Random Forest achieved robust intra-keyboard user recognition (Accuracy > 0.7) but struggled to generalize across keyboards for the same user, highlighting the significant impact of keyboard hardware on typing behavior. These findings suggest that: (1) keyboard-specific user profiles may be necessary for reliable authentication, and (2) ensemble methods like RF outperform One-Class SVM in capturing fine-grained user-specific patterns.",
+    "pdf_url": "https://arxiv.org/pdf/2505.05015v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2505.05015v1_An_Agent-Based_Modeling_Approach_to_Free-Text_Keyb.pdf",
+    "downloaded_at": "2025-12-11T14:13:45.712048"
+  },
+  {
+    "arxiv_id": "2504.21415v2",
+    "title": "Optimizing Mouse Dynamics for User Authentication by Machine Learning: Addressing Data Sufficiency, Accuracy-Practicality Trade-off, and Model Performance Challenges",
+    "authors": [
+      "Yi Wang",
+      "Chengyv Wu",
+      "Yang Liao",
+      "Maowei You"
+    ],
+    "published": "2025-04-30",
+    "updated": "2025-05-11",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "User authentication is essential to ensure secure access to computer systems, yet traditional methods face limitations in usability, cost, and security. Mouse dynamics authentication, based on the analysis of users' natural interaction behaviors with mouse devices, offers a cost-effective, non-intrusive, and adaptable solution. However, challenges remain in determining the optimal data volume, balancing accuracy and practicality, and effectively capturing temporal behavioral patterns. In this study, we propose a statistical method using Gaussian kernel density estimate (KDE) and Kullback-Leibler (KL) divergence to estimate the sufficient data volume for training authentication models. We introduce the Mouse Authentication Unit (MAU), leveraging Approximate Entropy (ApEn) to optimize segment length for efficient and accurate behavioral representation. Furthermore, we design the Local-Time Mouse Authentication (LT-AMouse) framework, integrating 1D-ResNet for local feature extraction and GRU for modeling long-term temporal dependencies. Taking the Balabit and DFL datasets as examples, we significantly reduced the data scale, particularly by a factor of 10 for the DFL dataset, greatly alleviating the training burden. Additionally, we determined the optimal input recognition unit length for the user authentication system on different datasets based on the slope of Approximate Entropy. Training with imbalanced samples, our model achieved a successful defense AUC 98.52% for blind attack on the DFL dataset and 94.65% on the Balabit dataset, surpassing the current sota performance.",
+    "pdf_url": "https://arxiv.org/pdf/2504.21415v2",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2504.21415v2_Optimizing_Mouse_Dynamics_for_User_Authentication.pdf",
+    "downloaded_at": "2025-12-11T14:13:52.418092"
+  },
+  {
+    "arxiv_id": "2504.17271v1",
+    "title": "Contrastive Learning for Continuous Touch-Based Authentication",
+    "authors": [
+      "Mengyu Qiao",
+      "Yunpeng Zhai",
+      "Yang Wang"
+    ],
+    "published": "2025-04-24",
+    "updated": "2025-04-24",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Smart mobile devices have become indispensable in modern daily life, where sensitive information is frequently processed, stored, and transmitted-posing critical demands for robust security controls. Given that touchscreens are the primary medium for human-device interaction, continuous user authentication based on touch behavior presents a natural and seamless security solution. While existing methods predominantly adopt binary classification under single-modal learning settings, we propose a unified contrastive learning framework for continuous authentication in a non-disruptive manner. Specifically, the proposed method leverages a Temporal Masked Autoencoder to extract temporal patterns from raw multi-sensor data streams, capturing continuous motion and gesture dynamics. The pre-trained TMAE is subsequently integrated into a Siamese Temporal-Attentive Convolutional Network within a contrastive learning paradigm to model both sequential and cross-modal patterns. To further enhance performance, we incorporate multi-head attention and channel attention mechanisms to capture long-range dependencies and optimize inter-channel feature integration. Extensive experiments on public benchmarks and a self-collected dataset demonstrate that our approach outperforms state-of-the-art methods, offering a reliable and effective solution for user authentication on mobile devices.",
+    "pdf_url": "https://arxiv.org/pdf/2504.17271v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2504.17271v1_Contrastive_Learning_for_Continuous_Touch-Based_Au.pdf",
+    "downloaded_at": "2025-12-11T14:13:56.345571"
+  },
+  {
+    "arxiv_id": "2502.20359v1",
+    "title": "Evaluating the long-term viability of eye-tracking for continuous authentication in virtual reality",
+    "authors": [
+      "Sai Ganesh Grandhi",
+      "Saeed Samet"
+    ],
+    "published": "2025-02-27",
+    "updated": "2025-02-27",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Traditional authentication methods, such as passwords and biometrics, verify a user's identity only at the start of a session, leaving systems vulnerable to session hijacking. Continuous authentication, however, ensures ongoing verification by monitoring user behavior. This study investigates the long-term feasibility of eye-tracking as a behavioral biometric for continuous authentication in virtual reality (VR) environments, using data from the GazebaseVR dataset. Our approach evaluates three architectures, Transformer Encoder, DenseNet, and XGBoost, on short and long-term data to determine their efficacy in user identification tasks. Initial results indicate that both Transformer Encoder and DenseNet models achieve high accuracy rates of up to 97% in short-term settings, effectively capturing unique gaze patterns. However, when tested on data collected 26 months later, model accuracy declined significantly, with rates as low as 1.78% for some tasks. To address this, we propose periodic model updates incorporating recent data, restoring accuracy to over 95%. These findings highlight the adaptability required for gaze-based continuous authentication systems and underscore the need for model retraining to manage evolving user behavior. Our study provides insights into the efficacy and limitations of eye-tracking as a biometric for VR authentication, paving the way for adaptive, secure VR user experiences.",
+    "pdf_url": "https://arxiv.org/pdf/2502.20359v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2502.20359v1_Evaluating_the_long-term_viability_of_eye-tracking.pdf",
+    "downloaded_at": "2025-12-11T14:13:59.633151"
+  },
+  {
+    "arxiv_id": "2502.16177v1",
+    "title": "A Review of Several Keystroke Dynamics Methods",
+    "authors": [
+      "Soykat Amin",
+      "Cristian Di Iorio"
+    ],
+    "published": "2025-02-22",
+    "updated": "2025-02-22",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Keystroke dynamics is a behavioral biometric that captures an individual's typing patterns for authentication and security applications. This paper presents a comparative analysis of keystroke authentication models using Gaussian Mixture Models (GMM), Mahalanobis Distance-based Classification, and Gunetti Picardi's Distance Metrics. These models leverage keystroke timing features such as hold time (H), up-down time (UD), and down-down time (DD) extracted from datasets including Aalto, Buffalo and Nanglae-Bhattarakosol. Each model is trained and validated using structured methodologies, with performance evaluated through False Acceptance Rate (FAR), False Rejection Rate (FRR), and Equal Error Rate (EER). The results, visualized through Receiver Operating Characteristic (ROC) curves, highlight the relative strengths and weaknesses of each approach in distinguishing genuine users from impostors.",
+    "pdf_url": "https://arxiv.org/pdf/2502.16177v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2502.16177v1_A_Review_of_Several_Keystroke_Dynamics_Methods.pdf",
+    "downloaded_at": "2025-12-11T14:14:03.554965"
+  },
+  {
+    "arxiv_id": "2411.17446v1",
+    "title": "Support Vector Machine for Person Classification Using the EEG Signals",
+    "authors": [
+      "Naveenkumar G Venkataswamy",
+      "Masudul H Imtiaz"
+    ],
+    "published": "2024-11-26",
+    "updated": "2024-11-26",
+    "categories": [
+      "cs.CR",
+      "eess.SP"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "User authentication is a pivotal element in security systems. Conventional methods including passwords, personal identification numbers, and identification tags are increasingly vulnerable to cyber-attacks. This paper suggests a paradigm shift towards biometric identification technology that leverages unique physiological or behavioral characteristics for user authenticity verification. Nevertheless, biometric solutions like fingerprints, iris patterns, facial and voice recognition are also susceptible to forgery and deception. We propose using Electroencephalogram (EEG) signals for individual identification to address this challenge. Derived from unique brain activities, these signals offer promising authentication potential and provide a novel means for liveness detection, thereby mitigating spoofing attacks. This study employs a public dataset initially compiled for fatigue analysis, featuring EEG data from 12 subjects recorded via an eight-channel OpenBCI helmet. This dataset extracts salient features from the EEG signals and trains a supervised multiclass Support Vector Machine classifier. Upon evaluation, the classifier model achieves a maximum accuracy of 92.9\\%, leveraging ten features from each channel. Collectively, these findings highlight the viability of machine learning in implementing real-world, EEG-based biometric identification systems, thereby advancing user authentication technology.",
+    "pdf_url": "https://arxiv.org/pdf/2411.17446v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2411.17446v1_Support_Vector_Machine_for_Person_Classification_U.pdf",
+    "downloaded_at": "2025-12-11T14:14:08.007854"
+  },
+  {
+    "arxiv_id": "2411.10279v1",
+    "title": "Lateral Movement Detection via Time-aware Subgraph Classification on Authentication Logs",
+    "authors": [
+      "Jiajun Zhou",
+      "Jiacheng Yao",
+      "Xuanze Chen",
+      "Shanqing Yu",
+      "Qi Xuan",
+      "Xiaoniu Yang"
+    ],
+    "published": "2024-11-15",
+    "updated": "2024-11-15",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Lateral movement is a crucial component of advanced persistent threat (APT) attacks in networks. Attackers exploit security vulnerabilities in internal networks or IoT devices, expanding their control after initial infiltration to steal sensitive data or carry out other malicious activities, posing a serious threat to system security. Existing research suggests that attackers generally employ seemingly unrelated operations to mask their malicious intentions, thereby evading existing lateral movement detection methods and hiding their intrusion traces. In this regard, we analyze host authentication log data from a graph perspective and propose a multi-scale lateral movement detection framework called LMDetect. The main workflow of this framework proceeds as follows: 1) Construct a heterogeneous multigraph from host authentication log data to strengthen the correlations among internal system entities; 2) Design a time-aware subgraph generator to extract subgraphs centered on authentication events from the heterogeneous authentication multigraph; 3) Design a multi-scale attention encoder that leverages both local and global attention to capture hidden anomalous behavior patterns in the authentication subgraphs, thereby achieving lateral movement detection. Extensive experiments on two real-world authentication log datasets demonstrate the effectiveness and superiority of our framework in detecting lateral movement behaviors.",
+    "pdf_url": "https://arxiv.org/pdf/2411.10279v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2411.10279v1_Lateral_Movement_Detection_via_Time-aware_Subgraph.pdf",
+    "downloaded_at": "2025-12-11T14:14:11.650763"
+  },
+  {
+    "arxiv_id": "2411.06172v1",
+    "title": "IDU-Detector: A Synergistic Framework for Robust Masquerader Attack Detection",
+    "authors": [
+      "Zilin Huang",
+      "Xiulai Li",
+      "Xinyi Cao",
+      "Ke Chen",
+      "Longjuan Wang",
+      "Logan Bo-Yee Liu"
+    ],
+    "published": "2024-11-09",
+    "updated": "2024-11-09",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "In the digital age, users store personal data in corporate databases, making data security central to enterprise management. Given the extensive attack surface, assets face challenges like weak authentication, vulnerabilities, and malware. Attackers may exploit vulnerabilities to gain unauthorized access, masquerading as legitimate users. Such attacks can lead to privacy breaches, business disruption, financial losses, and reputational damage. Complex attack vectors blur lines between insider and external threats. To address this, we introduce the IDU-Detector, integrating Intrusion Detection Systems (IDS) with User and Entity Behavior Analytics (UEBA). This integration monitors unauthorized access, bridges system gaps, ensures continuous monitoring, and enhances threat identification. Existing insider threat datasets lack depth and coverage of diverse attack vectors. This hinders detection technologies from addressing complex attack surfaces. We propose new, diverse datasets covering more attack scenarios, enhancing detection technologies. Testing our framework, the IDU-Detector achieved average accuracies of 98.96% and 99.12%. These results show effectiveness in detecting attacks, improving security and response speed, and providing higher asset safety assurance.",
+    "pdf_url": "https://arxiv.org/pdf/2411.06172v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2411.06172v1_IDU-Detector_A_Synergistic_Framework_for_Robust_M.pdf",
+    "downloaded_at": "2025-12-11T14:14:17.088789"
+  },
+  {
+    "arxiv_id": "2508.11812v1",
+    "title": "Securing Sideways: Thwarting Lateral Movement by Implementing Active Directory Tiering",
+    "authors": [
+      "Tyler Schroder",
+      "Sohee Kim Park"
+    ],
+    "published": "2025-08-15",
+    "updated": "2025-08-15",
+    "categories": [
+      "cs.CR",
+      "cs.CY",
+      "cs.NI",
+      "eess.SY"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The advancement of computing equipment and the advances in services over the Internet has allowed corporations, higher education, and many other organizations to pursue the shared computing network environment. A requirement for shared computing environments is a centralized identity system to authenticate and authorize user access. An organization's digital identity plane is a prime target for cyber threat actors. When compromised, identities can be exploited to steal credentials, create unauthorized accounts, and manipulate permissions-enabling attackers to gain control of the network and undermine its confidentiality, availability, and integrity. Cybercrime losses reached a record of 16.6 B in the United States in 2024. For organizations using Microsoft software, Active Directory is the on-premises identity system of choice. In this article, we examine the challenge of security compromises in Active Directory (AD) environments and present effective strategies to prevent credential theft and limit lateral movement by threat actors. Our proposed approaches aim to confine the movement of compromised credentials, preventing significant privilege escalation and theft. We argue that through our illustration of real-world scenarios, tiering can halt lateral movement and advanced cyber-attacks, thus reducing ransom escalation. Our work bridges a gap in existing literature by combining technical guidelines with theoretical arguments in support of tiering, positioning it as a vital component of modern cybersecurity strategy even though it cannot function in isolation. As the hardware advances and the cloud sourced services along with AI is advancing with unprecedented speed, we think it is important for security experts and the business to work together and start designing and developing software and frameworks to classify devices automatically and accurately within the tiered structure.",
+    "pdf_url": "https://arxiv.org/pdf/2508.11812v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2508.11812v1_Securing_Sideways_Thwarting_Lateral_Movement_by_I.pdf",
+    "downloaded_at": "2025-12-11T14:14:22.755108"
+  },
+  {
+    "arxiv_id": "2509.14139v3",
+    "title": "Cybersecurity AI: Humanoid Robots as Attack Vectors",
+    "authors": [
+      "Víctor Mayoral-Vilches",
+      "Andreas Makris",
+      "Kevin Finisterre"
+    ],
+    "published": "2025-09-17",
+    "updated": "2025-09-23",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "We present a systematic security assessment of the Unitree G1 humanoid showing it operates simultaneously as a covert surveillance node and can be purposed as an active cyber operations platform. Initial access can be achieved by exploiting the BLE provisioning protocol which contains a critical command injection vulnerability allowing root access via malformed Wi-Fi credentials, exploitable using hardcoded AES keys shared across all units. Partial reverse engineering of Unitree's proprietary FMX encryption reveal a static Blowfish-ECB layer and a predictable LCG mask-enabled inspection of the system's otherwise sophisticated security architecture, the most mature we have observed in commercial robotics. Two empirical case studies expose the critical risk of this humanoid robot: (a) the robot functions as a trojan horse, continuously exfiltrating multi-modal sensor and service-state telemetry to 43.175.228.18:17883 and 43.175.229.18:17883 every 300 seconds without operator notice, creating violations of GDPR Articles 6 and 13; (b) a resident Cybersecurity AI (CAI) agent can pivot from reconnaissance to offensive preparation against any target, such as the manufacturer's cloud control plane, demonstrating escalation from passive monitoring to active counter-operations. These findings argue for adaptive CAI-powered defenses as humanoids move into critical infrastructure, contributing the empirical evidence needed to shape future security standards for physical-cyber convergence systems.",
+    "pdf_url": "https://arxiv.org/pdf/2509.14139v3",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2509.14139v3_Cybersecurity_AI_Humanoid_Robots_as_Attack_Vector.pdf",
+    "downloaded_at": "2025-12-11T14:14:29.032414"
+  },
+  {
+    "arxiv_id": "2509.11934v1",
+    "title": "zkToken: Empowering Holders to Limit Revocation Checks for Verifiable Credentials",
+    "authors": [
+      "Praveensankar Manimaran",
+      "Mayank Raikwar",
+      "Thiago Garrett",
+      "Arlindo F. da Conceição",
+      "Leander Jehl",
+      "Roman Vitenberg"
+    ],
+    "published": "2025-09-15",
+    "updated": "2025-09-15",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Systems managing Verifiable Credentials are becoming increasingly popular. Unfortunately, their support for revoking previously issued credentials allows verifiers to effectively monitor the validity of the credentials, which is sensitive information. While the issue started to gain recognition, no adequate solution has been proposed so far.\n  In this work, we propose a novel framework for time-limited continuous verification. The holder is able to individually configure the verification period when sharing information with the verifier, and the system guarantees proven untraceability of the revocation status after the verification period expires. Different from existing systems, the implementation adopts a more scalable blacklist approach where tokens corresponding to revoked credentials are stored in the registry. The approach employs ZK proofs that allow holders to prove non-membership in the blacklist. In addition to theoretically proving security, we evaluate the approach analytically and experimentally and show that it significantly improves bandwidth consumption on the holder while being on par with state-of-the-art solutions with respect to the other performance metrics.",
+    "pdf_url": "https://arxiv.org/pdf/2509.11934v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2509.11934v1_zkToken_Empowering_Holders_to_Limit_Revocation_Ch.pdf",
+    "downloaded_at": "2025-12-11T14:14:32.628403"
+  },
+  {
+    "arxiv_id": "2508.21480v1",
+    "title": "Towards a Decentralized IoT Onboarding for Smart Homes Using Consortium Blockchain",
+    "authors": [
+      "Narges Dadkhah",
+      "Khan Reaz",
+      "Gerhard Wunder"
+    ],
+    "published": "2025-08-29",
+    "updated": "2025-08-29",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "The increasing adoption of smart home devices and IoT-based security systems presents significant opportunities to enhance convenience, safety, and risk management for homeowners and service providers. However, secure onboarding-provisioning credentials and establishing trust with cloud platforms-remains a considerable challenge. Traditional onboarding methods often rely on centralized Public Key Infrastructure (PKI) models and manufacturer-controlled keys, which introduce security risks and limit the user's digital sovereignty. These limitations hinder the widespread deployment of scalable IoT solutions. This paper presents a novel onboarding framework that builds upon existing network-layer onboarding techniques and extends them to the application layer to address these challenges. By integrating consortium blockchain technology, we propose a decentralized onboarding mechanism that enhances transparency, security, and monitoring for smart home architectures. The architecture supports device registration, key revocation, access control management, and risk detection through event-driven alerts across dedicated blockchain channels and smart contracts. To evaluate the framework, we formally model the protocol using the Tamarin Prover under the Dolev-Yao adversary model. The analysis focuses on authentication, token integrity, key confidentiality, and resilience over public channels. A prototype implementation demonstrates the system's viability in smart home settings, with verification completing in 0.34 seconds, highlighting its scalability and suitability for constrained devices and diverse stakeholders. Additionally, performance evaluation shows that the blockchain-based approach effectively handles varying workloads, maintains high throughput and low latency, and supports near real-time IoT data processing.",
+    "pdf_url": "https://arxiv.org/pdf/2508.21480v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2508.21480v1_Towards_a_Decentralized_IoT_Onboarding_for_Smart_H.pdf",
+    "downloaded_at": "2025-12-11T14:14:36.314627"
+  },
+  {
+    "arxiv_id": "2412.07005v1",
+    "title": "In-Application Defense Against Evasive Web Scans through Behavioral Analysis",
+    "authors": [
+      "Behzad Ousat",
+      "Mahshad Shariatnasab",
+      "Esteban Schafir",
+      "Farhad Shirani Chaharsooghi",
+      "Amin Kharraz"
+    ],
+    "published": "2024-12-09",
+    "updated": "2024-12-09",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "cs.IT"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "Web traffic has evolved to include both human users and automated agents, ranging from benign web crawlers to adversarial scanners such as those capable of credential stuffing, command injection, and account hijacking at the web scale. The estimated financial costs of these adversarial activities are estimated to exceed tens of billions of dollars in 2023. In this work, we introduce WebGuard, a low-overhead in-application forensics engine, to enable robust identification and monitoring of automated web scanners, and help mitigate the associated security risks. WebGuard focuses on the following design criteria: (i) integration into web applications without any changes to the underlying software components or infrastructure, (ii) minimal communication overhead, (iii) capability for real-time detection, e.g., within hundreds of milliseconds, and (iv) attribution capability to identify new behavioral patterns and detect emerging agent categories. To this end, we have equipped WebGuard with multi-modal behavioral monitoring mechanisms, such as monitoring spatio-temporal data and browser events. We also design supervised and unsupervised learning architectures for real-time detection and offline attribution of human and automated agents, respectively. Information theoretic analysis and empirical evaluations are provided to show that multi-modal data analysis, as opposed to uni-modal analysis which relies solely on mouse movement dynamics, significantly improves time-to-detection and attribution accuracy. Various numerical evaluations using real-world data collected via WebGuard are provided achieving high accuracy in hundreds of milliseconds, with a communication overhead below 10 KB per second.",
+    "pdf_url": "https://arxiv.org/pdf/2412.07005v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2412.07005v1_In-Application_Defense_Against_Evasive_Web_Scans_t.pdf",
+    "downloaded_at": "2025-12-11T14:14:39.661070"
+  },
+  {
+    "arxiv_id": "2404.16839v1",
+    "title": "Immersed in Reality Secured by Design -- A Comprehensive Analysis of Security Measures in AR/VR Environments",
+    "authors": [
+      "Sameer Chauhan",
+      "Luv Sachdeva"
+    ],
+    "published": "2024-01-30",
+    "updated": "2024-01-30",
+    "categories": [
+      "cs.CR",
+      "cs.IT"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Virtual reality and related technologies such as mixed and augmented reality have received extensive coverage in both mainstream and fringe media outlets. When the subject goes to a new AR headset, another AR device, or AR glasses, the talk swiftly shifts to the technical and design details. Unfortunately, no one seemed to care about security. Data theft and other forms of cyberattack pose serious threats to virtual reality systems. Virtual reality goggles are just specialist versions of computers or Internet of Things devices, whereas virtual reality experiences are software packages. As a result, AR systems are just as vulnerable as any other Internet of Things (IoT) device we use on a daily basis, such as computers, tablets, and phones. Preventing and responding to common cybersecurity threats and assaults is crucial. Cybercriminals can exploit virtual reality headsets just like any other computer system. This paper analysis the data breach induced by these assaults could result in a variety of concerns, including but not limited to identity theft, the unauthorized acquisition of personal information or network credentials, damage to hardware and software, and so on. Augmented reality (AR) allows for real-time monitoring and visualization of network activity, system logs, and security alerts. This allows security professionals to immediately identify threats, monitor suspicious activities, and fix any issues that develop. This data can be displayed in an aesthetically pleasing and intuitively structured format using augmented reality interfaces, enabling for faster analysis and decision-making.",
+    "pdf_url": "https://arxiv.org/pdf/2404.16839v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2404.16839v1_Immersed_in_Reality_Secured_by_Design_--_A_Compreh.pdf",
+    "downloaded_at": "2025-12-11T14:14:44.428881"
+  },
+  {
+    "arxiv_id": "2310.01675v1",
+    "title": "Decision-Dominant Strategic Defense Against Lateral Movement for 5G Zero-Trust Multi-Domain Networks",
+    "authors": [
+      "Tao Li",
+      "Yunian Pan",
+      "Quanyan Zhu"
+    ],
+    "published": "2023-10-02",
+    "updated": "2023-10-02",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Multi-domain warfare is a military doctrine that leverages capabilities from different domains, including air, land, sea, space, and cyberspace, to create a highly interconnected battle network that is difficult for adversaries to disrupt or defeat. However, the adoption of 5G technologies on battlefields presents new vulnerabilities due to the complexity of interconnections and the diversity of software, hardware, and devices from different supply chains. Therefore, establishing a zero-trust architecture for 5G-enabled networks is crucial for continuous monitoring and fast data analytics to protect against targeted attacks. To address these challenges, we propose a proactive end-to-end security scheme that utilizes a 5G satellite-guided air-ground network. Our approach incorporates a decision-dominant learning-based method that can thwart the lateral movement of adversaries targeting critical assets on the battlefield before they can conduct reconnaissance or gain necessary access or credentials. We demonstrate the effectiveness of our game-theoretic design, which uses a meta-learning framework to enable zero-trust monitoring and decision-dominant defense against attackers in emerging multi-domain battlefield networks.",
+    "pdf_url": "https://arxiv.org/pdf/2310.01675v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2310.01675v1_Decision-Dominant_Strategic_Defense_Against_Latera.pdf",
+    "downloaded_at": "2025-12-11T14:14:48.783754"
+  },
+  {
+    "arxiv_id": "2307.00714v1",
+    "title": "A Comparative Study of Software Secrets Reporting by Secret Detection Tools",
+    "authors": [
+      "Setu Kumar Basak",
+      "Jamison Cox",
+      "Bradley Reaves",
+      "Laurie Williams"
+    ],
+    "published": "2023-07-03",
+    "updated": "2023-07-03",
+    "categories": [
+      "cs.CR",
+      "cs.SE"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Background: According to GitGuardian's monitoring of public GitHub repositories, secrets sprawl continued accelerating in 2022 by 67% compared to 2021, exposing over 10 million secrets (API keys and other credentials). Though many open-source and proprietary secret detection tools are available, these tools output many false positives, making it difficult for developers to take action and teams to choose one tool out of many. To our knowledge, the secret detection tools are not yet compared and evaluated. Aims: The goal of our study is to aid developers in choosing a secret detection tool to reduce the exposure of secrets through an empirical investigation of existing secret detection tools. Method: We present an evaluation of five open-source and four proprietary tools against a benchmark dataset. Results: The top three tools based on precision are: GitHub Secret Scanner (75%), Gitleaks (46%), and Commercial X (25%), and based on recall are: Gitleaks (88%), SpectralOps (67%) and TruffleHog (52%). Our manual analysis of reported secrets reveals that false positives are due to employing generic regular expressions and ineffective entropy calculation. In contrast, false negatives are due to faulty regular expressions, skipping specific file types, and insufficient rulesets. Conclusions: We recommend developers choose tools based on secret types present in their projects to prevent missing secrets. In addition, we recommend tool vendors update detection rules periodically and correctly employ secret verification mechanisms by collaborating with API vendors to improve accuracy.",
+    "pdf_url": "https://arxiv.org/pdf/2307.00714v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2307.00714v1_A_Comparative_Study_of_Software_Secrets_Reporting.pdf",
+    "downloaded_at": "2025-12-11T14:14:52.128850"
+  },
+  {
+    "arxiv_id": "2211.05662v1",
+    "title": "Warmup and Transfer Knowledge-Based Federated Learning Approach for IoT Continuous Authentication",
+    "authors": [
+      "Mohamad Wazzeh",
+      "Hakima Ould-Slimane",
+      "Chamseddine Talhi",
+      "Azzam Mourad",
+      "Mohsen Guizani"
+    ],
+    "published": "2022-11-10",
+    "updated": "2022-11-10",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR",
+      "cs.DC"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "Continuous behavioural authentication methods add a unique layer of security by allowing individuals to verify their unique identity when accessing a device. Maintaining session authenticity is now feasible by monitoring users' behaviour while interacting with a mobile or Internet of Things (IoT) device, making credential theft and session hijacking ineffective. Such a technique is made possible by integrating the power of artificial intelligence and Machine Learning (ML). Most of the literature focuses on training machine learning for the user by transmitting their data to an external server, subject to private user data exposure to threats. In this paper, we propose a novel Federated Learning (FL) approach that protects the anonymity of user data and maintains the security of his data. We present a warmup approach that provides a significant accuracy increase. In addition, we leverage the transfer learning technique based on feature extraction to boost the models' performance. Our extensive experiments based on four datasets: MNIST, FEMNIST, CIFAR-10 and UMDAA-02-FD, show a significant increase in user authentication accuracy while maintaining user privacy and data security.",
+    "pdf_url": "https://arxiv.org/pdf/2211.05662v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2211.05662v1_Warmup_and_Transfer_Knowledge-Based_Federated_Lear.pdf",
+    "downloaded_at": "2025-12-11T14:14:57.271342"
+  },
+  {
+    "arxiv_id": "2001.02564v1",
+    "title": "Watching the Weak Link into Your Home: An Inspection and Monitoring Toolkit for TR-069",
+    "authors": [
+      "Maximilian Hils",
+      "Rainer Böhme"
+    ],
+    "published": "2020-01-08",
+    "updated": "2020-01-08",
+    "categories": [
+      "cs.NI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.NI",
+    "summary": "TR-069 is a standard for the remote management of end-user devices by service providers. Despite being implemented in nearly a billion devices, almost no research has been published on the security and privacy aspects of TR-069. The first contribution of this paper is a study of the TR-069 ecosystem and techniques to inspect TR-069 communication. We find that the majority of analyzed providers do not use recommended security measures, such as TLS. Second, we present a TR-069 honeyclient to both analyze TR-069 behavior of providers and test configuration servers for security vulnerabilities. We find that popular open-source configuration servers use insecure methods to authenticate clients. TR-069 implementations based on these servers expose, for instance, their users' internet telephony credentials. Third, we develop components for a distributed system to continuously monitor activities in providers' TR-069 deployments. Our setup consists of inexpensive hardware sensors deployed on customer premises and centralized log collectors. We perform real-world measurements and find that the purported security benefits of TR-069 are not realized as providers' firmware update processes are lacking.",
+    "pdf_url": "https://arxiv.org/pdf/2001.02564v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2001.02564v1_Watching_the_Weak_Link_into_Your_Home_An_Inspecti.pdf",
+    "downloaded_at": "2025-12-11T14:15:00.958895"
+  },
+  {
+    "arxiv_id": "1311.3099v1",
+    "title": "Cryptanalysis of An Advanced Temporal Credential-Based Security Scheme with Mutual Authentication and Key Agreement for Wireless Sensor Networks",
+    "authors": [
+      "Chandra Sekhar Vorugunti",
+      "Mrudula Sarvabhatla"
+    ],
+    "published": "2013-11-13",
+    "updated": "2013-11-13",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "With the rapid advancement of wireless network technology, usage of WSN in real time applications like military, forest monitoring etc. found increasing. Generally WSN operate in an unattended environment and handles critical data. Authenticating the user trying to access the sensor memory is one of the critical requirements. Many researchers have proposed remote user authentication schemes focusing on various parameters. In 2013, Li et al. proposed a temporal-credential-based mutual authentication and key agreement scheme for WSNs. Li et al. claimed that their scheme is secure against all major cryptographic attacks and requires less computation cost due to usage of hash function instead encryption operations. Unfortunately, in this paper we will show that their scheme is vulnerable to offline password guessing attack, stolen smart card attack, leakage of password etc. and failure to provide data privacy.",
+    "pdf_url": "https://arxiv.org/pdf/1311.3099v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1311.3099v1_Cryptanalysis_of_An_Advanced_Temporal_Credential-B.pdf",
+    "downloaded_at": "2025-12-11T14:15:04.656285"
+  },
+  {
+    "arxiv_id": "0606089v1",
+    "title": "NVision-PA: A Tool for Visual Analysis of Command Behavior Based on Process Accounting Logs (with a Case Study in HPC Cluster Security)",
+    "authors": [
+      "Charis Ermopoulos",
+      "William Yurcik"
+    ],
+    "published": "2006-06-20",
+    "updated": "2006-06-20",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "In the UNIX/Linux environment the kernel can log every command process created by every user with process accounting. Thus process accounting logs have many potential uses, particularly the monitoring and forensic investigation of security events. Previous work successfully leveraged the use of process accounting logs to identify a difficult to detect and damaging intrusion against high performance computing (HPC) clusters, masquerade attacks, where intruders masquerade as legitimate users with purloined authentication credentials. While masqueraders on HPC clusters were found to be identifiable with a high accuracy (greater than 90%), this accuracy is still not high enough for HPC production environments where greater than 99% accuracy is needed.\n  This paper incrementally advances the goal of more accurately identifying masqueraders on HPC clusters by seeking to identify features within command sets that distinguish masqueraders. To accomplish this goal, we created NVision-PA, a software tool that produces text and graphic statistical summaries describing input processing accounting logs. We report NVision-PA results describing two different process accounting logs; one from Internet usage and one from HPC cluster usage. These results identify the distinguishing features of Internet users (as proxies for masqueraders) posing as clusters users. This research is both a promising next step toward creating a real-time masquerade detection sensor for production HPC clusters as well as providing another tool for system administrators to use for statistically monitoring and managing legitimate workloads (as indicated by command usage) in HPC environments.",
+    "pdf_url": "https://arxiv.org/pdf/cs/0606089v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "0606089v1_NVision-PA_A_Tool_for_Visual_Analysis_of_Command.pdf",
+    "downloaded_at": "2025-12-11T14:15:10.120025"
+  },
+  {
+    "arxiv_id": "2504.11984v1",
+    "title": "The Evolution of Zero Trust Architecture (ZTA) from Concept to Implementation",
+    "authors": [
+      "Md Nasiruzzaman",
+      "Maaruf Ali",
+      "Iftekhar Salam",
+      "Mahdi H. Miraz"
+    ],
+    "published": "2025-04-16",
+    "updated": "2025-04-16",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Zero Trust Architecture (ZTA) is one of the paradigm changes in cybersecurity, from the traditional perimeter-based model to perimeterless. This article studies the core concepts of ZTA, its beginning, a few use cases and future trends. Emphasising the always verify and least privilege access, some key tenets of ZTA have grown to be integration technologies like Identity Management, Multi-Factor Authentication (MFA) and real-time analytics. ZTA is expected to strengthen cloud environments, education, work environments (including from home) while controlling other risks like lateral movement and insider threats. Despite ZTA's benefits, it comes with challenges in the form of complexity, performance overhead and vulnerabilities in the control plane. These require phased implementation and continuous refinement to keep up with evolving organisational needs and threat landscapes. Emerging technologies, such as Artificial Intelligence (AI) and Machine Learning (ML) will further automate policy enforcement and threat detection in keeping up with dynamic cyber threats.",
+    "pdf_url": "https://arxiv.org/pdf/2504.11984v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2504.11984v1_The_Evolution_of_Zero_Trust_Architecture_ZTA_fro.pdf",
+    "downloaded_at": "2025-12-11T14:15:16.015450"
+  },
+  {
+    "arxiv_id": "2007.06985v1",
+    "title": "ADSAGE: Anomaly Detection in Sequences of Attributed Graph Edges applied to insider threat detection at fine-grained level",
+    "authors": [
+      "Mathieu Garchery",
+      "Michael Granitzer"
+    ],
+    "published": "2020-07-14",
+    "updated": "2020-07-14",
+    "categories": [
+      "cs.LG",
+      "cs.CR",
+      "stat.ML"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "Previous works on the CERT insider threat detection case have neglected graph and text features despite their relevance to describe user behavior. Additionally, existing systems heavily rely on feature engineering and audit data aggregation to detect malicious activities. This is time consuming, requires expert knowledge and prevents tracing back alerts to precise user actions. To address these issues we introduce ADSAGE to detect anomalies in audit log events modeled as graph edges. Our general method is the first to perform anomaly detection at edge level while supporting both edge sequences and attributes, which can be numeric, categorical or even text. We describe how ADSAGE can be used for fine-grained, event level insider threat detection in different audit logs from the CERT use case. Remarking that there is no standard benchmark for the CERT problem, we use a previously proposed evaluation setting based on realistic recall-based metrics. We evaluate ADSAGE on authentication, email traffic and web browsing logs from the CERT insider threat datasets, as well as on real-world authentication events. ADSAGE is effective to detect anomalies in authentications, modeled as user to computer interactions, and in email communications. Simple baselines give surprisingly strong results as well. We also report performance split by malicious scenarios present in the CERT datasets: interestingly, several detectors are complementary and could be combined to improve detection. Overall, our results show that graph features are informative to characterize malicious insider activities, and that detection at fine-grained level is possible.",
+    "pdf_url": "https://arxiv.org/pdf/2007.06985v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2007.06985v1_ADSAGE_Anomaly_Detection_in_Sequences_of_Attribut.pdf",
+    "downloaded_at": "2025-12-11T14:15:19.628452"
+  },
+  {
+    "arxiv_id": "1609.06676v1",
+    "title": "Detecting Anomalous User Behavior Using an Extended Isolation Forest Algorithm: An Enterprise Case Study",
+    "authors": [
+      "Li Sun",
+      "Steven Versteeg",
+      "Serdar Boztas",
+      "Asha Rao"
+    ],
+    "published": "2016-09-21",
+    "updated": "2016-09-21",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Anomalous user behavior detection is the core component of many information security systems, such as intrusion detection, insider threat detection and authentication systems. Anomalous behavior will raise an alarm to the system administrator and can be further combined with other information to determine whether it constitutes an unauthorised or malicious use of a resource. This paper presents an anomalous user behaviour detection framework that applies an extended version of Isolation Forest algorithm. Our method is fast and scalable and does not require example anomalies in the training data set. We apply our method to an enterprise dataset. The experimental results show that the system is able to isolate anomalous instances from the baseline user model using a single feature or combined features.",
+    "pdf_url": "https://arxiv.org/pdf/1609.06676v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1609.06676v1_Detecting_Anomalous_User_Behavior_Using_an_Extende.pdf",
+    "downloaded_at": "2025-12-11T14:15:23.074015"
+  },
+  {
+    "arxiv_id": "1605.01072v1",
+    "title": "Chill-Pass: Using Neuro-Physiological Responses to Chill Music to Defeat Coercion Attacks",
+    "authors": [
+      "Max Wolotsky",
+      "Mohammad Husain",
+      "Elisha Choe"
+    ],
+    "published": "2016-05-03",
+    "updated": "2016-05-03",
+    "categories": [
+      "cs.CR"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Current alphanumeric and biometric authentication systems cannot withstand situations where a user is coerced into releasing their authentication materials under hostile circumstances. Existing approaches of coercion resistant authentication systems (CRAS) propose authentication factors such as implicit learning tasks, which are non-transferable, but still have the drawback that an attacker can force the victim (causing stress) to perform the task in order to gain unauthorized access. Alternatively, there could be cases where the user could claim that they were coerced into giving up the authentication materials, whereas in reality they acted as an insider attacker. Therefore, being able to detect stress during authentication also helps to achieve non-repudiation in such cases. To address these concerns, we need CRAS that have both the non-transferable property as well as a mechanism to detect stress related to coercion. In this paper, we study the feasibility of using Chill (intensely pleasurable) music as a stimulus to elicit unique neuro-physiological responses that can be used as an authenticating factor for CRAS. Chill music and stress are both stimuli for a neuro-chemical called Dopamine. However, they release the Dopamine at different parts of the brain, resulting in different neuro-physiological responses, which gives us both the non-transferable and stress-detection properties necessary for CRAS. We have experimentally validated our proposed Chill music based CRAS using human subjects and measuring their neuro-physiological responses on our prototype system. Based on the 100 samples collected from the subjects, we were able to successfully authenticate the subjects with an accuracy of over 90\\%. Our work not only demonstrates the potential of Chill music as a unique stimulus for CRAS, but also paves the path of wider adoption of CRAS in general.",
+    "pdf_url": "https://arxiv.org/pdf/1605.01072v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1605.01072v1_Chill-Pass_Using_Neuro-Physiological_Responses_to.pdf",
+    "downloaded_at": "2025-12-11T14:15:26.568466"
+  },
+  {
+    "arxiv_id": "1407.1972v1",
+    "title": "Secure Routing Path Using Trust Values for Wireless Sensor Networks",
+    "authors": [
+      "S. Rajaram",
+      "A. Babu Karuppiah",
+      "K. Vinoth Kumar"
+    ],
+    "published": "2014-07-08",
+    "updated": "2014-07-08",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "primary_category": "cs.CR",
+    "summary": "Traditional cryptography-based security mechanisms such as authentication and authorization are not effective against insider attacks like wormhole, sinkhole, selective forwarding attacks, etc., Trust based approaches have been widely used to counter insider attacks in wireless sensor networks. It provides a quantitative way to evaluate the trustworthiness of sensor nodes. An untrustworthy node can wreak considerable damage and adversely affect the quality and reliability of data. Therefore, analysing the trust level of a node is important. In this paper we focused about indirect trust mechanism, in which each node monitors the forwarding behavior of its neighbors in order to detect any node that behaves selfishly and does not forward the packets it receives. For this, we used a link state routing protocol based indirect trusts which forms the shortest route and finds the best trustworthy route among them by comparing the values of all the calculated route trusts as for each route present in the network. And finally, we compare our work with similar routing protocols and show its advantages over them.",
+    "pdf_url": "https://arxiv.org/pdf/1407.1972v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "1407.1972v1_Secure_Routing_Path_Using_Trust_Values_for_Wireles.pdf",
+    "downloaded_at": "2025-12-11T14:15:29.900108"
+  },
+  {
+    "arxiv_id": "2501.00085v2",
+    "title": "Machine Learning-Based Security Policy Analysis",
+    "authors": [
+      "Krish Jain",
+      "Joann Sum",
+      "Pranav Kapoor",
+      "Amir Eaman"
+    ],
+    "published": "2024-12-30",
+    "updated": "2025-01-06",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.CR"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "Security-Enhanced Linux (SELinux) is a robust security mechanism that enforces mandatory access controls (MAC), but its policy language's complexity creates challenges for policy analysis and management. This research investigates the automation of SELinux policy analysis using graph-based techniques combined with machine learning approaches to detect policy anomalies. The study addresses two key questions: Can SELinux policy analysis be automated through graph analysis, and how do different anomaly detection models compare in analyzing SELinux policies? We will be comparing different machine learning models by evaluating their effectiveness in detecting policy violations and anomalies. Our approach utilizes Neo4j for graph representation of policies, with Node2vec transforming these graph structures into meaningful vector embeddings that can be processed by our machine learning models. In our results, the MLP Neural Network consistently demonstrated superior performance across different dataset sizes, achieving 95% accuracy with balanced precision and recall metrics, while both Random Forest and SVM models showed competitive but slightly lower performance in detecting policy violations. This combination of graph-based modeling and machine learning provides a more sophisticated and automated approach to understanding and analyzing complex SELinux policies compared to traditional manual analysis methods.",
+    "pdf_url": "https://arxiv.org/pdf/2501.00085v2",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2501.00085v2_Machine_Learning-Based_Security_Policy_Analysis.pdf",
+    "downloaded_at": "2025-12-11T14:15:35.832665"
+  },
+  {
+    "arxiv_id": "2308.14340v1",
+    "title": "HRGCN: Heterogeneous Graph-level Anomaly Detection with Hierarchical Relation-augmented Graph Neural Networks",
+    "authors": [
+      "Jiaxi Li",
+      "Guansong Pang",
+      "Ling Chen",
+      "Mohammad-Reza Namazi-Rad"
+    ],
+    "published": "2023-08-28",
+    "updated": "2023-08-28",
+    "categories": [
+      "cs.LG"
+    ],
+    "primary_category": "cs.LG",
+    "summary": "This work considers the problem of heterogeneous graph-level anomaly detection. Heterogeneous graphs are commonly used to represent behaviours between different types of entities in complex industrial systems for capturing as much information about the system operations as possible. Detecting anomalous heterogeneous graphs from a large set of system behaviour graphs is crucial for many real-world applications like online web/mobile service and cloud access control. To address the problem, we propose HRGCN, an unsupervised deep heterogeneous graph neural network, to model complex heterogeneous relations between different entities in the system for effectively identifying these anomalous behaviour graphs. HRGCN trains a hierarchical relation-augmented Heterogeneous Graph Neural Network (HetGNN), which learns better graph representations by modelling the interactions among all the system entities and considering both source-to-destination entity (node) types and their relation (edge) types. Extensive evaluation on two real-world application datasets shows that HRGCN outperforms state-of-the-art competing anomaly detection approaches. We further present a real-world industrial case study to justify the effectiveness of HRGCN in detecting anomalous (e.g., congested) network devices in a mobile communication service. HRGCN is available at https://github.com/jiaxililearn/HRGCN.",
+    "pdf_url": "https://arxiv.org/pdf/2308.14340v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2308.14340v1_HRGCN_Heterogeneous_Graph-level_Anomaly_Detection.pdf",
+    "downloaded_at": "2025-12-11T14:15:39.748679"
+  },
+  {
+    "arxiv_id": "2208.10231v1",
+    "title": "An anomaly detection approach for backdoored neural networks: face recognition as a case study",
+    "authors": [
+      "Alexander Unnervik",
+      "Sébastien Marcel"
+    ],
+    "published": "2022-08-22",
+    "updated": "2022-08-22",
+    "categories": [
+      "cs.CV",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "primary_category": "cs.CV",
+    "summary": "Backdoor attacks allow an attacker to embed functionality jeopardizing proper behavior of any algorithm, machine learning or not. This hidden functionality can remain inactive for normal use of the algorithm until activated by the attacker. Given how stealthy backdoor attacks are, consequences of these backdoors could be disastrous if such networks were to be deployed for applications as critical as border or access control. In this paper, we propose a novel backdoored network detection method based on the principle of anomaly detection, involving access to the clean part of the training data and the trained network. We highlight its promising potential when considering various triggers, locations and identity pairs, without the need to make any assumptions on the nature of the backdoor and its setup. We test our method on a novel dataset of backdoored networks and report detectability results with perfect scores.",
+    "pdf_url": "https://arxiv.org/pdf/2208.10231v1",
+    "estimated_pages": 8,
+    "is_recent": false,
+    "filename": "2208.10231v1_An_anomaly_detection_approach_for_backdoored_neura.pdf",
+    "downloaded_at": "2025-12-11T14:15:43.491609"
+  },
+  {
+    "arxiv_id": "2502.11763v1",
+    "title": "Lightweight Deepfake Detection Based on Multi-Feature Fusion",
+    "authors": [
+      "Siddiqui Muhammad Yasir",
+      "Hyun Kim"
+    ],
+    "published": "2025-02-17",
+    "updated": "2025-02-17",
+    "categories": [
+      "cs.CV",
+      "cs.AI"
+    ],
+    "primary_category": "cs.CV",
+    "summary": "Deepfake technology utilizes deep learning based face manipulation techniques to seamlessly replace faces in videos creating highly realistic but artificially generated content. Although this technology has beneficial applications in media and entertainment misuse of its capabilities may lead to serious risks including identity theft cyberbullying and false information. The integration of DL with visual cognition has resulted in important technological improvements particularly in addressing privacy risks caused by artificially generated deepfake images on digital media platforms. In this study we propose an efficient and lightweight method for detecting deepfake images and videos making it suitable for devices with limited computational resources. In order to reduce the computational burden usually associated with DL models our method integrates machine learning classifiers in combination with keyframing approaches and texture analysis. Moreover the features extracted with a histogram of oriented gradients (HOG) local binary pattern (LBP) and KAZE bands were integrated to evaluate using random forest extreme gradient boosting extra trees and support vector classifier algorithms. Our findings show a feature-level fusion of HOG LBP and KAZE features improves accuracy to 92% and 96% on FaceForensics++ and Celeb-DFv2 respectively.",
+    "pdf_url": "https://arxiv.org/pdf/2502.11763v1",
+    "estimated_pages": 8,
+    "is_recent": true,
+    "filename": "2502.11763v1_Lightweight_Deepfake_Detection_Based_on_Multi-Feat.pdf",
+    "downloaded_at": "2025-12-11T14:15:52.675002"
+  }
+]

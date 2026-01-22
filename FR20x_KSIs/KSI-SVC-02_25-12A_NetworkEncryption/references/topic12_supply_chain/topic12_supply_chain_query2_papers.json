@@ -1,0 +1,280 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20610v1",
+    "arxiv_id": "2512.20610v1",
+    "title": "FedPOD: the deployable units of training for federated learning",
+    "summary": "This paper proposes FedPOD (Proportionally Orchestrated Derivative) for optimizing learning efficiency and communication cost in federated learning among multiple clients. Inspired by FedPIDAvg, we define a round-wise task for FedPOD to enhance training efficiency. FedPIDAvg achieved performance improvement by incorporating the training loss reduction for prediction entropy as weights using differential terms. Furthermore, by modeling data distribution with a Poisson distribution and using a PID controller, it reduced communication costs even in skewed data distribution. However, excluding participants classified as outliers based on the Poisson distribution can limit data utilization. Additionally, PID controller requires the same participants to be maintained throughout the federated learning process as it uses previous rounds' learning information in the current round. In our approach, FedPOD addresses these issues by including participants excluded as outliers, eliminating dependency on previous rounds' learning information, and applying a method for calculating validation loss at each round. In this challenge, FedPOD presents comparable performance to FedPIDAvg in metrics of Dice score, 0.78, 0.71 and 0.72 for WT, ET and TC in average, and projected convergence score, 0.74 in average. Furthermore, the concept of FedPOD draws inspiration from Kubernetes' smallest computing unit, POD, designed to be compatible with Kubernetes auto-scaling. Extending round-wise tasks of FedPOD to POD units allows flexible design by applying scale-out similar to Kubernetes' auto-scaling. This work demonstrated the potentials of FedPOD to enhance federated learning by improving efficiency, flexibility, and performance in metrics.",
+    "published": "2025-12-23T18:57:53Z",
+    "updated": "2025-12-23T18:57:53Z",
+    "authors": [
+      "Daewoon Kim",
+      "Si Young Yie",
+      "Jae Sung Lee"
+    ],
+    "affiliations": [],
+    "first_author": "Daewoon Kim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20610v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20601v1",
+    "arxiv_id": "2512.20601v1",
+    "title": "Squeezed States in Gravity",
+    "summary": "We present a general framework for the production of squeezed quantum states of the gravitational field in linearized quantum gravity. Time-dependent couplings in the quadratic part of the action generically produce squeezed states from the vacuum. Using the harmonic oscillator as an example, we describe three techniques to obtain the squeezing parameter from such quadratic terms. For gravity, the action to quadratic order in metric perturbations contains couplings both to background curvature as well as to matter sources. Thus, both time-dependent classical spacetimes and time-dependent classical matter typically produce squeezed states of gravity.",
+    "published": "2025-12-23T18:49:00Z",
+    "updated": "2025-12-23T18:49:00Z",
+    "authors": [
+      "Arunima Das",
+      "Maulik Parikh",
+      "Frank Wilczek",
+      "Raphaela Wutte"
+    ],
+    "affiliations": [],
+    "first_author": "Arunima Das",
+    "pdf_url": "https://arxiv.org/pdf/2512.20601v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20593v1",
+    "arxiv_id": "2512.20593v1",
+    "title": "Structural properties of the Airy wanderer line ensembles",
+    "summary": "The Airy wanderer line ensembles are infinite-parameter generalizations of the classical Airy line ensemble that arise naturally as scaling limits of inhomogeneous (spiked) models in the Kardar-Parisi-Zhang universality class. In this paper, we establish several structural properties of these ensembles. Our results show their laws depend continuously on the parameters, which encode the asymptotic slopes of the ensemble's curves near positive and negative infinity. We further prove that these ensembles admit multiple monotone couplings with respect to their parameters. Finally, we show that the Airy wanderer line ensembles are extreme points in the space of all Brownian Gibbsian line ensembles on the real line.",
+    "published": "2025-12-23T18:41:35Z",
+    "updated": "2025-12-23T18:41:35Z",
+    "authors": [
+      "Evgeni Dimitrov"
+    ],
+    "affiliations": [],
+    "first_author": "Evgeni Dimitrov",
+    "pdf_url": "https://arxiv.org/pdf/2512.20593v1",
+    "primary_category": "math.PR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20585v1",
+    "arxiv_id": "2512.20585v1",
+    "title": "Integrable perturbation theory for dark solitons of the defocusing nonlinear Schr\u00f6dinger equation",
+    "summary": "The goal of this work is to revisit the squared-eigenfunctions-based perturbation theory of the scalar defocusing nonlinear Schr\u00f6dinger equation on a nonzero background, and develop it so that it can correctly predict the slow-time evolution of the dark soliton parameters, as well as the radiation shelf emerging on the sides of the soliton. Proof of the completeness of the squared eigenfunctions is provided. Our closure relation accounts for the singularities of the scattering data at the branch points of the continuous spectrum, which leads to the correct discrete eigenfunctions of the closure relation. Using the one-soliton closure relation and its discrete eigenmodes, the slow-time evolution equations of the soliton parameters are determined. Moreover, the first-order correction integral to the dark soliton is shown to contain a pole due to singularities of the scattering data at the branch points. Analysis of this first-order correction integral leads to predictions for the height, velocity and phase gradient of the shelves, as well as a formula for the slow time evolution of the soliton's phase, which in turn allows one to determine the slow-time dependence of the soliton center. All the results are corroborated by direct numerical simulations, and compared with earlier results.",
+    "published": "2025-12-23T18:30:56Z",
+    "updated": "2025-12-23T18:30:56Z",
+    "authors": [
+      "Nicholas J. Ossi",
+      "Barbara Prinari",
+      "Jianke Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Nicholas J. Ossi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20585v1",
+    "primary_category": "nlin.SI",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20584v1",
+    "arxiv_id": "2512.20584v1",
+    "title": "A human-centered approach to reframing job satisfaction in the BIM-enabled construction industry",
+    "summary": "As the construction industry undergoes rapid digital transformation, ensuring that new technologies enhance rather than hinder human experience has become essential. The inclusion of Building Information Modeling (BIM) plays a central role in this shift, yet its influence on job satisfaction remains underexplored. In response, this study developed a human-centered measurement model for evaluating job satisfaction in BIM work environments by adapting Hackman and Oldham's Job Characteristics Model for the architecture, engineering, and construction (AEC) industry to create a survey that captured industry perspectives on BIM use and job satisfaction. The model uses Partial Least Squares Structural Equation Modeling to analyze the survey results and identify what dimensions of BIM-related work affect job satisfaction. While it was hypothesized that BIM use increases job satisfaction, the results show that only some dimensions of BIM use positively impact BIM job satisfaction; the use of BIM does not guarantee an increase in overall job satisfaction. Additionally, more frequent BIM use was not associated with higher satisfaction levels. These findings suggest that in the AEC industry, sustainable job satisfaction depends less on technological autonomy and more on human-centric factors, particularly collaboration and meaningful engagement within digital workflows.",
+    "published": "2025-12-23T18:29:51Z",
+    "updated": "2025-12-23T18:29:51Z",
+    "authors": [
+      "Sharareh Mirzaei",
+      "Stephanie Bunt",
+      "Susan M Bogus"
+    ],
+    "affiliations": [],
+    "first_author": "Sharareh Mirzaei",
+    "pdf_url": "https://arxiv.org/pdf/2512.20584v1",
+    "primary_category": "cs.HC",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20565v1",
+    "arxiv_id": "2512.20565v1",
+    "title": "Microwave Response of Superconductors with Paramagnetic Impurities",
+    "summary": "We develop theoretical methods to predict the effects of paramagnetic impurities on the microwave response of conventional spin-singlet superconductors. Our focus is on superconducting devices and resonators with low concentrations of impurities and exchange interactions with conduction electrons. We connect the sub-gap quasiparticle spectrum generated by pair-breaking to the frequency and temperature dependence of the conductivity for superconductors operating at microwave frequencies. We report theoretical results for superconducting device performance -- dissipation, quality factor and frequency shift anomalies -- based on self-consistent calculations of the current response and penetraion of the electromagnetic field at the vacuum-superconducting interface. Key results include the prediction of a non-monotonic anomaly in the low-frequency superfluid fraction and penetration depth at very low temperatures related to the sub-gap quasiparticle spectrum. Dissipation of microwave power is predicted from intra- and inter- impurity band transitions at GHz frequencies at low temperatures, including a physical mechanism responsible for residual resistance. We predict anomalies in the resonant frequency, $f(T)$, and quality factor, $Q(T)$, of high-Q SRF cavities operating in the GHz range at low-temperatures that are sensitive to non-magnetic and paramagnetic impurity disorder.",
+    "published": "2025-12-23T18:09:37Z",
+    "updated": "2025-12-23T18:09:37Z",
+    "authors": [
+      "Mehdi Zarea",
+      "J. A. Sauls"
+    ],
+    "affiliations": [],
+    "first_author": "Mehdi Zarea",
+    "pdf_url": "https://arxiv.org/pdf/2512.20565v1",
+    "primary_category": "cond-mat.supr-con",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20564v1",
+    "arxiv_id": "2512.20564v1",
+    "title": "Kinetic energy constructed from exact gradient expansion of second order in uniform gas limit",
+    "summary": "Orbital-Free Density Functional Theory (OFDFT) has re-emerged as a viable alternative to Kohn-Sham DFT, driven by recent advances in kinetic energy density functionals (KEDFs). Nonlocal (NL) KEDFs have significantly extended OFDFT's applicability, particularly for bulk solids, but their high computational cost and dependence of system-specific parameters limit their universality. In this work, we propose a semilocal KEDF at the Generalized Gradient Approximation (GGA) level that achieves accuracy comparable to state-of-the-art NL and meta-GGA functionals, while remaining entirely parameter-free. Our construction revives the Thomas-Fermi-von Weizsacker (TFvW) framework by modulating the relative contributions of TF and vW terms through physically motivated constraints and preserving the exact second-order gradient expansion. Despite its simple form, the proposed functional (KGE2) performs remarkably well across both extended systems (metals and semiconductors) and finite systems (clusters), without any need for parameter tuning. These results mark a step toward a transferable, computationally efficient, and general-purpose KEDF suitable for large-scale OFDFT simulations.",
+    "published": "2025-12-23T18:09:24Z",
+    "updated": "2025-12-23T18:09:24Z",
+    "authors": [
+      "Abhishek Bhattacharjee",
+      "Hemanadhan Myneni",
+      "Manoj K. Harbola",
+      "Prasanjit Samal"
+    ],
+    "affiliations": [],
+    "first_author": "Abhishek Bhattacharjee",
+    "pdf_url": "https://arxiv.org/pdf/2512.20564v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20559v1",
+    "arxiv_id": "2512.20559v1",
+    "title": "Comparative study of plasmons in half-filled graphene via Quantum Monte Carlo and Random Phase Approximation",
+    "summary": "Transport properties of strongly correlated materials have contributions from quasiparticle excitations such as electrons and holes as well as emerging collective excitations such as sounds and plasmons which are sustained by interactions. It was previously shown in [Phys. Rev. B 106, 205127] that thermal excitation of the long-lived plasmons in graphene provides a substantial contribution to heat and momentum transport in the interaction-dominated regime. Detailed information on these excitations is therefore necessary for the understanding of hydrodynamic transport with quantitative precision. On the other hand, dynamics of graphene plasmons is usually studied using the perturbation theory within the Dirac-cone approximation, thus neglecting the effects of a finite Brillouin zone and higher-order perturbative corrections. Both these effects can be however significant for strong-interacting systems including free-standing graphene where the effective coupling constant can reach values up to two. Therefore, in this paper, we studied the behavior of plasmons in half-filled free standing graphene using unbiased Quantum Monte Carlo (QMC) calculations. We confirm the existence of well-defined resonance peaks for plasmons around the $\u0393$ point, report their dispersion and the dependence of their quasiparticle residue on momentum. Comparison with the Random-phase-approximation (RPA) calculation for the Dirac theory shows that strong interactions and finite Brillouin zone effects, automatically taken into account in QMC calculations substantially alter the results. Our findings highlight the need to account for these effects analytically when developing theories of electronic transport in free-standing graphene.",
+    "published": "2025-12-23T17:58:42Z",
+    "updated": "2025-12-23T17:58:42Z",
+    "authors": [
+      "Maksim Ulybyshev",
+      "Adrien Reingruber",
+      "Kitinan Pongsangangan"
+    ],
+    "affiliations": [],
+    "first_author": "Maksim Ulybyshev",
+    "pdf_url": "https://arxiv.org/pdf/2512.20559v1",
+    "primary_category": "cond-mat.mes-hall",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20558v1",
+    "arxiv_id": "2512.20558v1",
+    "title": "The role of charge in thermodynamic uncertainty relations",
+    "summary": "We demonstrate that the charge value of transport mechanisms heavily impacts the validity of thermodynamic uncertainty relations (TURs). Specifically, we show within the framework of full counting statistics, that the recently established quantum TUR can be violated by the presence of transport processes that carry more than one charge, like Andreev reflection processes in normal metal-superconductor junctions. We propose a modified quantum TUR, which incorporates the charge value and demonstrate that this charge-dependent quantum TUR can only be violated if the highest charge transport process exceeds this charge value. In particular, we establish that the breaking of the quantum TUR solely originates from the charge value of the highest charge transport process. Namely, our analytical considerations do not invoke the existence of superconductivity, and these considerations generally hold for non-interacting electronic transport which can be described by the scattering formalism.",
+    "published": "2025-12-23T17:58:41Z",
+    "updated": "2025-12-23T17:58:41Z",
+    "authors": [
+      "David Christian Ohnmacht",
+      "Wolfgang Belzig",
+      "Juan Carlos Cuevas"
+    ],
+    "affiliations": [],
+    "first_author": "David Christian Ohnmacht",
+    "pdf_url": "https://arxiv.org/pdf/2512.20558v1",
+    "primary_category": "cond-mat.mes-hall",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20546v1",
+    "arxiv_id": "2512.20546v1",
+    "title": "Normal approximation of stabilizing Poisson pair functionals with column-type dependence",
+    "summary": "In this paper, we study two specific types of $d$-dimensional Poisson functionals: a double-sum type and a sum-log-sum type, both over pairs of Poisson points. On these functionals, we impose column-type dependence, i.e., local behavior in the first $k$ directions and allow non-local, yet stabilizing behavior in the remaining $d-k$ directions.   The main contribution of the paper is to establish sufficient conditions for Normal approximation for sequences of such functionals over growing regions. Specifically, for any fixed region, we provide an upper bound on the Wasserstein distance between each functional and the standard Normal distribution.   We then apply these results to several examples. Inspired by problems in computer science, we prove a Normal approximation for the rectilinear crossing number, arising from projections of certain random graphs onto a 2-dimensional plane. From the field of topological data analysis, we examine two types of barcode summaries, the inversion count and the tree realization number, and establish Normal approximations for both summaries under suitable models of the topological lifetimes.",
+    "published": "2025-12-23T17:39:53Z",
+    "updated": "2025-12-23T17:39:53Z",
+    "authors": [
+      "Hanna D\u00f6ring",
+      "Ad\u00e9lie Garin",
+      "Christian Hirsch",
+      "Nikolaj Nyvold Lundbye"
+    ],
+    "affiliations": [],
+    "first_author": "Hanna D\u00f6ring",
+    "pdf_url": "https://arxiv.org/pdf/2512.20546v1",
+    "primary_category": "math.PR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20540v1",
+    "arxiv_id": "2512.20540v1",
+    "title": "Uniform spanning trees and random matrix statistics",
+    "summary": "We consider a uniform spanning tree in a $\u03b4$-square grid approximation of a planar domain $\u03a9$. For given integer $n\\ge 2$, we condition the tree on the following $n$-arm event: we pick $n$ branches, emanating from $n$ points microscopically close to a given interior point, and condition them to connect to the boundary $\\partial \u03a9$ without intersecting. What can be said about the geometry of these branches?   We derive an exact formula for the characteristic function of the total winding of the branches. A surprising consequence of this formula is that in the scaling limit, the behaviour of this function depends on the total number of branches $n$ only through its parity.   We also describe the scaling limit of the branches. If $\u03a9$ is the unit disc, then they hit the boundary (i.e., the unit circle) at random positions which coincide exactly with the eigenvalues of a random matrix of size $n$ drawn from the Circular Orthogonal Ensemble (COE, also called C$\u03b2$E with $\u03b2=1$). Furthermore, the branches converge to Loewner evolution driven by the circular Dyson Brownian motion with parameter $\u03b2= 4$ (i.e., $n$-sided radial SLE$_\u03ba$ with $\u03ba=2$). We thus verify a prediction made by Cardy in this setting.   Along the way, we develop a flow-line (imaginary geometry) coupling of $n$-sided radial SLE$_\u03ba$ with the Gaussian free field, which may be of independent interest. Surprisingly, we find that the variance of the corresponding field near the singularity also does not depend on the number $n\\ge 2$ of curves. In contrast, the variance of the the winding of the curves behaves as $\u03ba/n^2$, which agrees with the predictions from the physics literature made by Wieland and Wilson numerically, and by Duplantier and Binder using Coulomb gas methods -- but disagrees with a result of Kenyon.",
+    "published": "2025-12-23T17:31:59Z",
+    "updated": "2025-12-23T17:31:59Z",
+    "authors": [
+      "Nathana\u00ebl Berestycki",
+      "Marcin Lis",
+      "Mingchang Liu",
+      "Eveliina Peltola"
+    ],
+    "affiliations": [],
+    "first_author": "Nathana\u00ebl Berestycki",
+    "pdf_url": "https://arxiv.org/pdf/2512.20540v1",
+    "primary_category": "math.PR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20536v1",
+    "arxiv_id": "2512.20536v1",
+    "title": "Nonlocal decoding of positional and correlational information during development",
+    "summary": "In many developmental systems, cells differentiate into a tissue by reading out morphogen concentration fields, a process fundamentally limited by noise. How much can the precision of this process be improved by nonlocal information, e.g., via cell-cell communication? Using a Bayes-optimal framework, we show that positional inference depends crucially on morphogen spatial correlations and on the ``structural prior'' that encodes the geometry of the cellular lattice performing the readout. We derive upper bounds on positional information gain due to nonlocal readout and identify signal processing algorithms that approximate optimal positional inference, as well as simple chemical reaction schemes which implement such algorithms. Our theory suggests that correlational information can be exploited to significantly enhance developmental precision.",
+    "published": "2025-12-23T17:26:06Z",
+    "updated": "2025-12-23T17:26:06Z",
+    "authors": [
+      "Alex Chen Yi Zhang",
+      "Pablo Mateu Hoyos",
+      "David Br\u00fcckner",
+      "Ga\u0161per Tka\u010dik"
+    ],
+    "affiliations": [],
+    "first_author": "Alex Chen Yi Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20536v1",
+    "primary_category": "physics.bio-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20528v1",
+    "arxiv_id": "2512.20528v1",
+    "title": "Magnetic excitons in a suspended 2D antiferromagnetic membrane",
+    "summary": "Layered magnetic and strongly correlated materials present a rich platform for condensed matter physics with intrinsic properties intertwined by magnetism and low-dimensionality. A suspended light-emitting 2D antiferromagnetic membrane forms a highly controllable hybrid system in which the interplay between spin ordering, optical and mechanical degrees of freedom can be uniquely explored. NiPS$_3$ hosts excitons responsible for a puzzling luminescence down to a few atomic layers, linked to its zigzag antiferromagnetic order. The nature of these excitons remains unclear. Here we report on the magnetic excitons of a suspended few-layer NiPS$_3$ membrane. We reveal nematic zigzag states and study the optical transitions induced by the magnon-mediated motion of the excitation in the magnetic lattice, resulting in magnon-dressed excitons. We observe a strain tuning of these emission lines, dependent on their microscopic origin, with rates that sign a strong localization of the magnetic excitons, fading with the number of magnon-mediated hops.",
+    "published": "2025-12-23T17:22:23Z",
+    "updated": "2025-12-23T17:22:23Z",
+    "authors": [
+      "Joanna L. P. Wolff",
+      "Lo\u00efc Moczko",
+      "J\u00e9r\u00e9my Thoraval",
+      "Michelangelo Romeo",
+      "Benjamin Bacq-Labreuil",
+      "St\u00e9phane Berciaud",
+      "Arnaud Gloppe"
+    ],
+    "affiliations": [],
+    "first_author": "Joanna L. P. Wolff",
+    "pdf_url": "https://arxiv.org/pdf/2512.20528v1",
+    "primary_category": "cond-mat.mes-hall",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20517v1",
+    "arxiv_id": "2512.20517v1",
+    "title": "Kerr Isolated Horizon Revisited: Caustic-Free Congruence and Adapted Tetrad",
+    "summary": "We revisit the near-horizon description of the Kerr space-time in the isolated horizon formalism using a non-twisting null geodesic congruence and eliminate the coordinate and geodesic pathologies that arise when the Carter constant of motion is globally fixed to a single constant. Adopting instead a previously proposed choice of the Carter constant which depends on the polar angle on the horizon, we obtain an analytic construction of the Newman--Penrose tetrad adapted to isolated horizons together with horizon-adapted coordinates in which its defining properties are manifest. We compute the associated curvature scalars and provide initial data on characteristics for the isolated horizon. In addition to an analytical solution, derived by leveraging extensive results on Kerr null geodesics, we develop two complementary series expansions and outline a practical numerical recipe to make the construction readily usable. Relative to earlier treatments, our formulation avoids caustic-induced breakdowns and incomplete coordinate coverage while yielding a detailed description of the Kerr black hole in the isolated horizon approach.",
+    "published": "2025-12-23T17:06:01Z",
+    "updated": "2025-12-23T17:06:01Z",
+    "authors": [
+      "Ale\u0161 Flandera",
+      "David Kofro\u0148",
+      "Tom\u00e1\u0161 Ledvinka"
+    ],
+    "affiliations": [],
+    "first_author": "Ale\u0161 Flandera",
+    "pdf_url": "https://arxiv.org/pdf/2512.20517v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20516v1",
+    "arxiv_id": "2512.20516v1",
+    "title": "How fast can a liquid metal drop respond to a time-dependent electrocapillary excitation?",
+    "summary": "Gallium alloys are promising materials in biomedical engineering, electronics, and wireless communications, thanks to their good conductivity, non toxicity and their ability to sustain large deformations. They can be transported in capillaries using purely electric means by continuous electrowetting (CEW). Current models of CEW-driven flows do not address the transient response to fast changes in the excitation, crucial in many applications. Here, we present a theory that describes the CEW-driven oscillatory motion of a drop of Eutectic Gallium-Indium alloy inside a capillary. We consider inertia, viscosity and the transient response of the electrical circuit consisting of the drop plus the electrolyte where it is immersed. The theory describes fairly well the experimental drop velocity and explains the existence of an optimal frequency that maximizes the velocity.",
+    "published": "2025-12-23T17:05:17Z",
+    "updated": "2025-12-23T17:05:17Z",
+    "authors": [
+      "Javier Otero Martinez",
+      "Ana Garcia Armada",
+      "Yi Li",
+      "Christian Nijhuis",
+      "Javier Rodr\u00edguez-Rodr\u00edguez"
+    ],
+    "affiliations": [],
+    "first_author": "Javier Otero Martinez",
+    "pdf_url": "https://arxiv.org/pdf/2512.20516v1",
+    "primary_category": "physics.flu-dyn",
+    "relevance_score": 10.0
+  }
+]

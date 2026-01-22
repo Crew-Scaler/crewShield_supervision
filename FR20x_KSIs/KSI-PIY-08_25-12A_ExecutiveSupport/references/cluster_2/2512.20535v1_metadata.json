@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.20535v1",
+  "title": "ARBITER: AI-Driven Filtering for Role-Based Access Control",
+  "authors": [
+    "Michele Lorenzo",
+    "Idilio Drago",
+    "Dario Salvadori",
+    "Fabio Romolo Vayr"
+  ],
+  "published": "2025-12-23T17:25:51Z",
+  "summary": "Role-Based Access Control (RBAC) struggles to adapt to dynamic enterprise environments with documents that contain information that cannot be disclosed to specific user groups. As these documents are used by LLM-driven systems (e.g., in RAG) the problem is exacerbated as LLMs can leak sensitive data due to prompt truncation, classification errors, or loss of system context. We introduce \\our, a system designed to provide RBAC in RAG systems. \\our implements layered input/output validation, role-",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.168216"
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2505.19364v1",
+    "arxiv_id": "2505.19364v1",
+    "title": "RADEP: A Resilient Adaptive Defense Framework Against Model Extraction Attacks",
+    "summary": "Machine Learning as a Service (MLaaS) enables users to leverage powerful machine learning models through cloud-based APIs, offering scalability and ease of deployment. However, these services are vulnerable to model extraction attacks, where adversaries repeatedly query the application programming interface (API) to reconstruct a functionally similar model, compromising intellectual property and security. Despite various defense strategies being proposed, many suffer from high computational costs, limited adaptability to evolving attack techniques, and a reduction in performance for legitimate users. In this paper, we introduce a Resilient Adaptive Defense Framework for Model Extraction Attack Protection (RADEP), a multifaceted defense framework designed to counteract model extraction attacks through a multi-layered security approach. RADEP employs progressive adversarial training to enhance model resilience against extraction attempts. Malicious query detection is achieved through a combination of uncertainty quantification and behavioral pattern analysis, effectively identifying adversarial queries. Furthermore, we develop an adaptive response mechanism that dynamically modifies query outputs based on their suspicion scores, reducing the utility of stolen models. Finally, ownership verification is enforced through embedded watermarking and backdoor triggers, enabling reliable identification of unauthorized model use. Experimental evaluations demonstrate that RADEP significantly reduces extraction success rates while maintaining high detection accuracy with minimal impact on legitimate queries. Extensive experiments show that RADEP effectively defends against model extraction attacks and remains resilient even against adaptive adversaries, making it a reliable security framework for MLaaS models.",
+    "published": "2025-05-25T23:28:05Z",
+    "updated": "2025-05-25T23:28:05Z",
+    "authors": [
+      "Amit Chakraborty",
+      "Sayyed Farid Ahamed",
+      "Sandip Roy",
+      "Soumya Banerjee",
+      "Kevin Choi",
+      "Abdul Rahman",
+      "Alison Hu",
+      "Edward Bowen",
+      "Sachin Shetty"
+    ],
+    "affiliations": [],
+    "first_author": "Amit Chakraborty",
+    "pdf_url": "https://arxiv.org/pdf/2505.19364v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.23748v1",
+    "arxiv_id": "2503.23748v1",
+    "title": "THEMIS: Towards Practical Intellectual Property Protection for Post-Deployment On-Device Deep Learning Models",
+    "summary": "On-device deep learning (DL) has rapidly gained adoption in mobile apps, offering the benefits of offline model inference and user privacy preservation over cloud-based approaches. However, it inevitably stores models on user devices, introducing new vulnerabilities, particularly model-stealing attacks and intellectual property infringement. While system-level protections like Trusted Execution Environments (TEEs) provide a robust solution, practical challenges remain in achieving scalable on-device DL model protection, including complexities in supporting third-party models and limited adoption in current mobile solutions. Advancements in TEE-enabled hardware, such as NVIDIA's GPU-based TEEs, may address these obstacles in the future. Currently, watermarking serves as a common defense against model theft but also faces challenges here as many mobile app developers lack corresponding machine learning expertise and the inherent read-only and inference-only nature of on-device DL models prevents third parties like app stores from implementing existing watermarking techniques in post-deployment models.   To protect the intellectual property of on-device DL models, in this paper, we propose THEMIS, an automatic tool that lifts the read-only restriction of on-device DL models by reconstructing their writable counterparts and leverages the untrainable nature of on-device DL models to solve watermark parameters and protect the model owner's intellectual property. Extensive experimental results across various datasets and model structures show the superiority of THEMIS in terms of different metrics. Further, an empirical investigation of 403 real-world DL mobile apps from Google Play is performed with a success rate of 81.14%, showing the practicality of THEMIS.",
+    "published": "2025-03-31T05:58:57Z",
+    "updated": "2025-03-31T05:58:57Z",
+    "authors": [
+      "Yujin Huang",
+      "Zhi Zhang",
+      "Qingchuan Zhao",
+      "Xingliang Yuan",
+      "Chunyang Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Yujin Huang",
+    "pdf_url": "https://arxiv.org/pdf/2503.23748v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.13047v2",
+    "arxiv_id": "2411.13047v2",
+    "title": "Bounding-box Watermarking: Defense against Model Extraction Attacks on Object Detectors",
+    "summary": "Deep neural networks (DNNs) deployed in a cloud often allow users to query models via the APIs. However, these APIs expose the models to model extraction attacks (MEAs). In this attack, the attacker attempts to duplicate the target model by abusing the responses from the API. Backdoor-based DNN watermarking is known as a promising defense against MEAs, wherein the defender injects a backdoor into extracted models via API responses. The backdoor is used as a watermark of the model; if a suspicious model has the watermark (i.e., backdoor), it is verified as an extracted model. This work focuses on object detection (OD) models. Existing backdoor attacks on OD models are not applicable for model watermarking as the defense against MEAs on a realistic threat model. Our proposed approach involves inserting a backdoor into extracted models via APIs by stealthily modifying the bounding-boxes (BBs) of objects detected in queries while keeping the OD capability. In our experiments on three OD datasets, the proposed approach succeeded in identifying the extracted models with 100% accuracy in a wide variety of experimental scenarios.",
+    "published": "2024-11-20T05:40:20Z",
+    "updated": "2025-06-25T10:37:16Z",
+    "authors": [
+      "Satoru Koda",
+      "Ikuya Morikawa"
+    ],
+    "affiliations": [],
+    "first_author": "Satoru Koda",
+    "pdf_url": "https://arxiv.org/pdf/2411.13047v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 11.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2405.16361v3",
+    "arxiv_id": "2405.16361v3",
+    "title": "LDPKiT: Superimposing Remote Queries for Privacy-Preserving Local Model Training",
+    "summary": "Users of modern Machine Learning (ML) cloud services face a privacy conundrum -- on one hand, they may have concerns about sending private data to the service for inference, but on the other hand, for specialized models, there may be no alternative but to use the proprietary model of the ML service. In this work, we present LDPKiT, a framework for non-adversarial, privacy-preserving model extraction that leverages a user's private in-distribution data while bounding privacy leakage. LDPKiT introduces a novel superimposition technique that generates approximately in-distribution samples, enabling effective knowledge transfer under local differential privacy (LDP). Experiments on Fashion-MNIST, SVHN, and PathMNIST demonstrate that LDPKiT consistently improves utility while maintaining privacy, with benefits that become more pronounced at stronger noise levels. For example, on SVHN, LDPKiT achieves nearly the same inference accuracy at $\u03b5=1.25$ as at $\u03b5=2.0$, yielding stronger privacy guarantees with less than a 2% accuracy reduction. We further conduct sensitivity analyses to examine the effect of dataset size on performance and provide a systematic analysis of latent space representations, offering theoretical insights into the accuracy gains of LDPKiT.",
+    "published": "2024-05-25T21:53:58Z",
+    "updated": "2025-10-11T20:01:53Z",
+    "authors": [
+      "Kexin Li",
+      "Aastha Mehta",
+      "David Lie"
+    ],
+    "affiliations": [],
+    "first_author": "Kexin Li",
+    "pdf_url": "https://arxiv.org/pdf/2405.16361v3",
+    "primary_category": "cs.LG",
+    "relevance_score": 11.0
+  }
+]

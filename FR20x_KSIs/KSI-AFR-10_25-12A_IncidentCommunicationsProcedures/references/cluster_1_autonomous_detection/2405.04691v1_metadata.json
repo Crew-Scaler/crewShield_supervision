@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2405.04691v1",
+  "title": "Carbon Filter: Real-time Alert Triage Using Large Scale Clustering and Fast Search",
+  "authors": [
+    "Jonathan Oliver",
+    "Raghav Batta",
+    "Adam Bates",
+    "Muhammad Adil Inam",
+    "Shelly Mehta",
+    "Shugao Xia"
+  ],
+  "published": "2024-05-07T22:06:24Z",
+  "url": "http://arxiv.org/abs/2405.04691v1",
+  "pdf_url": "http://arxiv.org/pdf/2405.04691v1.pdf",
+  "relevance_score": 95,
+  "summary": "\"Alert fatigue\" is one of the biggest challenges faced by the Security Operations Center (SOC) today, with analysts spending more than half of their time reviewing false alerts. Endpoint detection products raise alerts by pattern matching on event telemetry against behavioral rules that describe potentially malicious behavior, but can suffer from high false positives that distract from actual attacks. While alert triage techniques based on data provenance may show promise, these techniques can take over a minute to inspect a single alert, while EDR customers may face tens of millions of alerts per day; the current reality is that these approaches aren't nearly scalable enough for production environments.   We present Carbon Filter, a statistical learning based system that dramatically reduces the number of alerts analysts need to manually review. Our approach is based on the observation that false alert triggers can be efficiently identified and separated from suspicious behaviors by examining the process initiation context (e.g., the command line) that launched the responsible process. Through the use of fast-search algorithms for training and inference, our approach scales to millions of alerts per day. Through batching queries to the model, we observe a theoretical maximum throughput of 20 million alerts per hour. Based on the analysis of tens of million alerts from customer deployments, our solution resulted in a 6-fold improvement in the Signal-to-Noise ratio without compromising on alert triage performance."
+}

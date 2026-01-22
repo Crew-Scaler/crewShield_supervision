@@ -1,0 +1,20 @@
+{
+  "title": "Resilient and Reliable Cloud Network Control for Mission-Critical Latency-Sensitive Service Chains",
+  "authors": [
+    "Chin-Wei Huang",
+    "Jaime Llorca",
+    "Antonia M. Tulino",
+    "Andreas F. Molisch"
+  ],
+  "published": "2025-11-26T22:38:32+00:00",
+  "arxiv_id": "2511.21960v1",
+  "abstract": "The proliferation of mission-critical latency-sensitive services has intensified the demand for next-generation cloud-integrated networks to guarantee both reliable and resilient service delivery. While reliability imposes timely-throughput requirements, i.e., percentage of packets to be delivered within a prescribed per-packet deadline, resilience relates to the network's ability to swiftly recover timely-throughput performance following an outage event, such as node or link failures. While recent studies have increasingly focused on designing reliable network control policies, a comprehensive solution that combines reliable and resilient network control has yet to be fully explored. This paper formulates the multi-commodity least-cost resilient and reliable network control (MC-LC-ResRNC) problem as a stochastic control problem with long and short-term timely throughput constraints. We then present a solution through the Multi-Commodity Resilient and Reliable Cloud Network Control (MC-ResRCNC) algorithm and show through numerical experiments that it jointly ensures reliability under normal conditions and resilience upon network failure.",
+  "categories": [
+    "cs.NI"
+  ],
+  "relevance_score": 15.0,
+  "query_category": "cloud_security",
+  "us_affiliation": true,
+  "pdf_url": "https://arxiv.org/pdf/2511.21960v1",
+  "downloaded": "2025-12-11T08:25:08.574434"
+}

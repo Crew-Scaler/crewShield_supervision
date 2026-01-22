@@ -1,0 +1,204 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20589v1",
+    "arxiv_id": "2512.20589v1",
+    "title": "Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information",
+    "summary": "As systems engineering (SE) objectives evolve from design and operation of monolithic systems to complex System of Systems (SoS), the discipline of Mission Engineering (ME) has emerged which is increasingly being accepted as a new line of thinking for the SE community. Moreover, mission environments are uncertain, dynamic, and mission outcomes are a direct function of how the mission assets will interact with this environment. This proves static architectures brittle and calls for analytically rigorous approaches for ME. To that end, this paper proposes an intelligent mission coordination methodology that integrates digital mission models with Reinforcement Learning (RL), that specifically addresses the need for adaptive task allocation and reconfiguration. More specifically, we are leveraging a Digital Engineering (DE) based infrastructure that is composed of a high-fidelity digital mission model and agent-based simulation; and then we formulate the mission tactics management problem as a Markov Decision Process (MDP), and employ an RL agent trained via Proximal Policy Optimization. By leveraging the simulation as a sandbox, we map the system states to actions, refining the policy based on realized mission outcomes. The utility of the RL-based intelligent mission coordinator is demonstrated through an aerial firefighting case study. Our findings indicate that the RL-based intelligent mission coordinator not only surpasses baseline performance but also significantly reduces the variability in mission performance. Thus, this study serves as a proof of concept demonstrating that DE-enabled mission simulations combined with advanced analytical tools offer a mission-agnostic framework for improving ME practice; which can be extended to more complicated fleet design and selection problems in the future from a mission-first perspective.",
+    "published": "2025-12-23T18:36:07Z",
+    "updated": "2025-12-23T18:36:07Z",
+    "authors": [
+      "\u0130brahim O\u011fuz \u00c7etinkaya",
+      "Sajad Khodadadian",
+      "Taylan G. Top\u00e7u"
+    ],
+    "affiliations": [],
+    "first_author": "\u0130brahim O\u011fuz \u00c7etinkaya",
+    "pdf_url": "https://arxiv.org/pdf/2512.20589v1",
+    "primary_category": "cs.CY",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20586v1",
+    "arxiv_id": "2512.20586v1",
+    "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+    "summary": "Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metastases treated with 18 Gy single-fraction SRS. We developed SAGE (Secure Agent for Generative Dose Expertise), an LLM-based planning agent for automated SRS treatment planning. Two variants generated plans for each case: one using a non-reasoning model, one using a reasoning model. The reasoning variant showed comparable plan dosimetry relative to human planners on primary endpoints (PTV coverage, maximum dose, conformity index, gradient index; all p > 0.21) while reducing cochlear dose below human baselines (p = 0.022). When prompted to improve conformity, the reasoning model demonstrated systematic planning behaviors including prospective constraint verification (457 instances) and trade-off deliberation (609 instances), while the standard model exhibited none of these deliberative processes (0 and 7 instances, respectively). Content analysis revealed that constraint verification and causal explanation concentrated in the reasoning agent. The optimization traces serve as auditable logs, offering a path toward transparent automated planning.",
+    "published": "2025-12-23T18:32:17Z",
+    "updated": "2025-12-23T18:32:17Z",
+    "authors": [
+      "Humza Nusrat",
+      "Luke Francisco",
+      "Bing Luo",
+      "Hassan Bagher-Ebadian",
+      "Joshua Kim",
+      "Karen Chin-Snyder",
+      "Salim Siddiqui",
+      "Mira Shah",
+      "Eric Mellon",
+      "Mohammad Ghassemi",
+      "Anthony Doemer",
+      "Benjamin Movsas",
+      "Kundan Thind"
+    ],
+    "affiliations": [],
+    "first_author": "Humza Nusrat",
+    "pdf_url": "https://arxiv.org/pdf/2512.20586v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20618v1",
+    "arxiv_id": "2512.20618v1",
+    "title": "LongVideoAgent: Multi-Agent Reasoning with Long Videos",
+    "summary": "Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We propose a multi-agent framework in which a master LLM coordinates a grounding agent to localize question-relevant segments and a vision agent to extract targeted textual observations. The master agent plans with a step limit, and is trained with reinforcement learning to encourage concise, correct, and efficient multi-agent cooperation. This design helps the master agent focus on relevant clips via grounding, complements subtitles with visual detail, and yields interpretable trajectories. On our proposed LongTVQA and LongTVQA+ which are episode-level datasets aggregated from TVQA/TVQA+, our multi-agent system significantly outperforms strong non-agent baselines. Experiments also show reinforcement learning further strengthens reasoning and planning for the trained agent. Code and data will be shared at https://longvideoagent.github.io/.",
+    "published": "2025-12-23T18:59:49Z",
+    "updated": "2025-12-23T18:59:49Z",
+    "authors": [
+      "Runtao Liu",
+      "Ziyi Liu",
+      "Jiaqi Tang",
+      "Yue Ma",
+      "Renjie Pi",
+      "Jipeng Zhang",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Runtao Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20618v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20615v1",
+    "arxiv_id": "2512.20615v1",
+    "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+    "summary": "Current video avatar generation methods excel at identity preservation and motion alignment but lack genuine agency, they cannot autonomously pursue long-term goals through adaptive environmental interaction. We address this by introducing L-IVA (Long-horizon Interactive Visual Avatar), a task and benchmark for evaluating goal-directed planning in stochastic generative environments, and ORCA (Online Reasoning and Cognitive Architecture), the first framework enabling active intelligence in video avatars. ORCA embodies Internal World Model (IWM) capabilities through two key innovations: (1) a closed-loop OTAR cycle (Observe-Think-Act-Reflect) that maintains robust state tracking under generative uncertainty by continuously verifying predicted outcomes against actual generations, and (2) a hierarchical dual-system architecture where System 2 performs strategic reasoning with state prediction while System 1 translates abstract plans into precise, model-specific action captions. By formulating avatar control as a POMDP and implementing continuous belief updating with outcome verification, ORCA enables autonomous multi-step task completion in open-domain scenarios. Extensive experiments demonstrate that ORCA significantly outperforms open-loop and non-reflective baselines in task success rate and behavioral coherence, validating our IWM-inspired design for advancing video avatar intelligence from passive animation to active, goal-oriented behavior.",
+    "published": "2025-12-23T18:59:16Z",
+    "updated": "2025-12-23T18:59:16Z",
+    "authors": [
+      "Xuanhua He",
+      "Tianyu Yang",
+      "Ke Cao",
+      "Ruiqi Wu",
+      "Cheng Meng",
+      "Yong Zhang",
+      "Zhuoliang Kang",
+      "Xiaoming Wei",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Xuanhua He",
+    "pdf_url": "https://arxiv.org/pdf/2512.20615v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20610v1",
+    "arxiv_id": "2512.20610v1",
+    "title": "FedPOD: the deployable units of training for federated learning",
+    "summary": "This paper proposes FedPOD (Proportionally Orchestrated Derivative) for optimizing learning efficiency and communication cost in federated learning among multiple clients. Inspired by FedPIDAvg, we define a round-wise task for FedPOD to enhance training efficiency. FedPIDAvg achieved performance improvement by incorporating the training loss reduction for prediction entropy as weights using differential terms. Furthermore, by modeling data distribution with a Poisson distribution and using a PID controller, it reduced communication costs even in skewed data distribution. However, excluding participants classified as outliers based on the Poisson distribution can limit data utilization. Additionally, PID controller requires the same participants to be maintained throughout the federated learning process as it uses previous rounds' learning information in the current round. In our approach, FedPOD addresses these issues by including participants excluded as outliers, eliminating dependency on previous rounds' learning information, and applying a method for calculating validation loss at each round. In this challenge, FedPOD presents comparable performance to FedPIDAvg in metrics of Dice score, 0.78, 0.71 and 0.72 for WT, ET and TC in average, and projected convergence score, 0.74 in average. Furthermore, the concept of FedPOD draws inspiration from Kubernetes' smallest computing unit, POD, designed to be compatible with Kubernetes auto-scaling. Extending round-wise tasks of FedPOD to POD units allows flexible design by applying scale-out similar to Kubernetes' auto-scaling. This work demonstrated the potentials of FedPOD to enhance federated learning by improving efficiency, flexibility, and performance in metrics.",
+    "published": "2025-12-23T18:57:53Z",
+    "updated": "2025-12-23T18:57:53Z",
+    "authors": [
+      "Daewoon Kim",
+      "Si Young Yie",
+      "Jae Sung Lee"
+    ],
+    "affiliations": [],
+    "first_author": "Daewoon Kim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20610v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20608v1",
+    "arxiv_id": "2512.20608v1",
+    "title": "R\u00e9nyi-like entanglement probe of the chiral central charge",
+    "summary": "We propose a ground state entanglement probe for gapped, two-dimensional quantum many-body systems that involves taking powers of reduced density matrices in a particular geometric configuration. This quantity, which we denote by $\u03c9_{\u03b1,\u03b2}$, is parameterized by two positive real numbers $\u03b1, \u03b2$, and can be seen as a ``R\u00e9nyi-like\" generalization of the modular commutator -- another entanglement probe proposed as a way to compute the chiral central charge from a bulk wave function. We obtain analytic expressions for $\u03c9_{\u03b1,\u03b2}$ for gapped ground states of non-interacting fermion Hamiltonians as well as ground states of string-net models. In both cases, we find that $\u03c9_{\u03b1,\u03b2}$ takes a universal value related to the chiral central charge. For integer values of $\u03b1$ and $\u03b2$, our quantity $\u03c9_{\u03b1,\u03b2}$ can be expressed as an expectation value of permutation operators acting on an appropriate replica system, providing a natural route to measuring $\u03c9_{\u03b1,\u03b2}$ in numerical simulations and potentially, experiments.",
+    "published": "2025-12-23T18:55:34Z",
+    "updated": "2025-12-23T18:55:34Z",
+    "authors": [
+      "Julian Gass",
+      "Michael Levin"
+    ],
+    "affiliations": [],
+    "first_author": "Julian Gass",
+    "pdf_url": "https://arxiv.org/pdf/2512.20608v1",
+    "primary_category": "cond-mat.str-el",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20604v1",
+    "arxiv_id": "2512.20604v1",
+    "title": "MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts",
+    "summary": "We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diffusion models in long document generation. Existing diffusion based text generation models, such as DiffuSeq, suffer from high computational cost and memory overhead when applied to extended sequences. To address these challenges, MoE-DiffuSeq integrates sparse attention with a mixture of experts architecture, enabling efficient and scalable long sequence modeling. Our approach introduces a customized sparse attention mechanism designed to reduce computational complexity while preserving text quality and coherence. In addition, we incorporate a soft absorbing state within the diffusion process to accelerate sequence reconstruction and improve generation precision. Extensive experiments demonstrate that MoE-DiffuSeq significantly improves training efficiency and sampling speed compared to existing diffusion models. These advantages are particularly effective for long document scenarios, including scientific article generation, code repository modeling, and long form dialogue generation. Benchmark results further show that MoE-DiffuSeq improves efficiency, speed, accuracy, and expressiveness, advancing the practical applicability of diffusion models for high quality long form text generation.",
+    "published": "2025-12-23T18:50:54Z",
+    "updated": "2025-12-23T18:50:54Z",
+    "authors": [
+      "Alexandros Christoforos",
+      "Chadbourne Davis"
+    ],
+    "affiliations": [],
+    "first_author": "Alexandros Christoforos",
+    "pdf_url": "https://arxiv.org/pdf/2512.20604v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20591v1",
+    "arxiv_id": "2512.20591v1",
+    "title": "LightTact: A Visual-Tactile Fingertip Sensor for Deformation-Independent Contact Sensing",
+    "summary": "Contact often occurs without macroscopic surface deformation, such as during interaction with liquids, semi-liquids, or ultra-soft materials. Most existing tactile sensors rely on deformation to infer contact, making such light-contact interactions difficult to perceive robustly. To address this, we present LightTact, a visual-tactile fingertip sensor that makes contact directly visible via a deformation-independent, optics-based principle. LightTact uses an ambient-blocking optical configuration that suppresses both external light and internal illumination at non-contact regions, while transmitting only the diffuse light generated at true contacts. As a result, LightTact produces high-contrast raw images in which non-contact pixels remain near-black (mean gray value < 3) and contact pixels preserve the natural appearance of the contacting surface. Built on this, LightTact achieves accurate pixel-level contact segmentation that is robust to material properties, contact force, surface appearance, and environmental lighting. We further integrate LightTact on a robotic arm and demonstrate manipulation behaviors driven by extremely light contact, including water spreading, facial-cream dipping, and thin-film interaction. Finally, we show that LightTact's spatially aligned visual-tactile images can be directly interpreted by existing vision-language models, enabling resistor value reasoning for robotic sorting.",
+    "published": "2025-12-23T18:38:25Z",
+    "updated": "2025-12-23T18:38:25Z",
+    "authors": [
+      "Changyi Lin",
+      "Boda Huo",
+      "Mingyang Yu",
+      "Emily Ruppel",
+      "Bingqing Chen",
+      "Jonathan Francis",
+      "Ding Zhao"
+    ],
+    "affiliations": [],
+    "first_author": "Changyi Lin",
+    "pdf_url": "https://arxiv.org/pdf/2512.20591v1",
+    "primary_category": "cs.RO",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20587v1",
+    "arxiv_id": "2512.20587v1",
+    "title": "Quantum Gates from Wolfram Model Multiway Rewriting Systems",
+    "summary": "We show how representations of finite-dimensional quantum operators can be constructed using nondeterministic rewriting systems. In particular, we investigate Wolfram model multiway rewriting systems based on string substitutions. Multiway systems were proposed by S. Wolfram as generic model systems for multicomputational processes, emphasizing their significance as a foundation for modeling complexity, nondeterminism, and branching structures of measurement outcomes. Here, we investigate a specific class of multiway systems based on cyclic character strings with a neighborhood constraint - the latter called Leibnizian strings. We show that such strings exhibit a Fermi-Dirac distribution for expectation values of occupation numbers of character neighborhoods. A Leibnizian string serves as an abstraction of a $N$-fermion system. A multiway system of these strings encodes causal relations between rewriting events in a nondeterministic manner. The collection of character strings realizes a $\\mathbb{Z}$-module with a symmetric $\\mathbb{Z}$-bilinear form. For discrete spaces, this generalizes the notion of an inner product over a vector field. This admits a discrete analogue of the path integral and a $S$-matrix for multiway systems of Leibnizian strings. The elements of this $S$-matrix yield transition amplitudes between states of the multiway system based on an action defined over a sequence of Leibnizian strings. We then show that these $S$-matrices give explicit representations of quantum gates for qubits and qudits, and also circuits composed of such gates. We find that, as formal models of nondeterministic computation, rewriting systems of Leibnizian strings with causal structure encode representations of the CNOT, $\u03c0/8$, and Hadamard gates. Hence, using multiway systems one can represent quantum circuits for qubits.",
+    "published": "2025-12-23T18:34:42Z",
+    "updated": "2025-12-23T18:34:42Z",
+    "authors": [
+      "Furkan Semih D\u00fcndar",
+      "Xerxes D. Arsiwalla",
+      "Hatem Elshatlawy"
+    ],
+    "affiliations": [],
+    "first_author": "Furkan Semih D\u00fcndar",
+    "pdf_url": "https://arxiv.org/pdf/2512.20587v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20580v1",
+    "arxiv_id": "2512.20580v1",
+    "title": "Programmable Optical Spectrum Shapers as Computing Primitives for Accelerating Convolutional Neural Networks",
+    "summary": "Photonic convolutional accelerators have emerged as low-energy alternatives to power-demanding digital convolutional neural networks, though they often face limitations in scalability. In this work, we introduce a convolutional photonic accelerator that employs programmable kernels manifesting as trainable waveforms in the frequency domain to enable low-energy, high-throughput scalable image classification. The proposed scheme inherently provides dimensionality reduction and feature extraction directly in the optical domain. Numerical results targeting the Fashion-MNIST show that by using only 16 optical nodes, the system's classification accuracy tops at 90.1% when typical backpropagation is used. Moreover, by adapting the training technique to the forward-forward approach, a marginal drop of 1% is recorded compared to the backpropagation scenario, thus showcasing the compatibility of the overall architecture with a hardware-friendly training approach. Finally, we experimentally implement the trained kernels using a programmable waveshaper. Despite the difference between the simulated and experimentally generated transfer functions of the programmable kernels, the classification accuracy based on the experimentally obtained kernels exhibits a marginal 0.2% reduction, proving the validity of the idea and its high robustness to variations of the frequency-applied complex weights.",
+    "published": "2025-12-23T18:26:51Z",
+    "updated": "2025-12-23T18:26:51Z",
+    "authors": [
+      "Georgios Moustakas",
+      "Adonis Bogris",
+      "Charis Mesaritakis"
+    ],
+    "affiliations": [],
+    "first_author": "Georgios Moustakas",
+    "pdf_url": "https://arxiv.org/pdf/2512.20580v1",
+    "primary_category": "physics.optics",
+    "relevance_score": 12.0
+  }
+]

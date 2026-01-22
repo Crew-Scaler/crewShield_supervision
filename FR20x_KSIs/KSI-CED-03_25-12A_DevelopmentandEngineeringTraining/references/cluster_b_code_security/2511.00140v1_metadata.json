@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2511.00140v1",
+  "title": "Supply Chain Exploitation of Secure ROS 2 Systems: A Proof-of-Concept on Autonomous Platform Compromise via Keystore Exfiltration",
+  "authors": [
+    "Tahmid Hasan Sakib",
+    "Yago Romano Martinez",
+    "Carter Brady",
+    "Syed Rafay Hasan",
+    "Terry N. Guo"
+  ],
+  "published": "2025-10-31T17:27:10Z",
+  "url": "http://arxiv.org/abs/2511.00140v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.00140v1.pdf",
+  "relevance_score": 80,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "This paper presents a proof-of-concept supply chain attack against the Secure ROS 2 (SROS 2) framework, demonstrated on a Quanser QCar2 autonomous vehicle platform. A Trojan-infected Debian package modifies core ROS 2 security commands to exfiltrate newly generated keystore credentials via DNS in base64-encoded chunks to an attacker-controlled nameserver. Possession of these credentials enables the attacker to rejoin the SROS 2 network as an authenticated participant and publish spoofed control "
+}

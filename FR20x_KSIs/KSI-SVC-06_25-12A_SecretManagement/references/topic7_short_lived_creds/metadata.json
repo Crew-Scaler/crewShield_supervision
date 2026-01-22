@@ -1,0 +1,362 @@
+{
+  "research_topic": "Agent Compromise Impact Minimization Through Short-Lived Credentials",
+  "issue_number": "68",
+  "topic_number": "7",
+  "search_date": "2025-12-25",
+  "total_papers_found": 25,
+  "papers_downloaded": 10,
+  "papers_archived": 15,
+  "search_queries": [
+    "short-lived credentials AND (agent OR workload) AND (compromise OR security) AND (2024 OR 2025)",
+    "proof of possession AND (token OR JWT OR SAML) AND (binding OR security) AND (2024 OR 2025)",
+    "token binding AND (compromise OR theft) AND (attack OR defense) AND (2024 OR 2025)",
+    "credential rotation ephemeral token TTL 2024 2025",
+    "OAuth DPoP token binding cryptographic 2024 2025",
+    "zero trust workload identity certificate 2024 2025"
+  ],
+  "selection_criteria": {
+    "relevance": "Direct relevance to short-lived credentials, token security, workload identity, and compromise mitigation",
+    "priority": "2025 papers prioritized over 2024",
+    "institution_preference": "US institutions when identifiable",
+    "limit": "Top 10 papers only"
+  },
+  "top_10_papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2510.16067",
+      "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+      "filename": "2510.16067_Multi-Cloud_Zero-Trust_Workload_Authentication.pdf",
+      "publication_date": "2025-10",
+      "year": 2025,
+      "relevance_score": "HIGHEST",
+      "key_topics": [
+        "Workload Identity Federation (WIF)",
+        "OpenID Connect (OIDC)",
+        "Ephemeral tokens",
+        "Cryptographically verifiable tokens",
+        "Credential rotation",
+        "Zero-Trust authentication",
+        "Multi-cloud workload authentication"
+      ],
+      "abstract_summary": "Presents WIF with OIDC that replaces static secrets with ephemeral, cryptographically verifiable tokens, allowing workloads to authenticate without persistent private keys and mitigating credential theft. Addresses lack of robust automated rotation and revocation mechanisms.",
+      "url": "https://arxiv.org/abs/2510.16067",
+      "pdf_url": "https://arxiv.org/pdf/2510.16067"
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2504.14760",
+      "title": "Establishing Workload Identity for Zero Trust CI/CD: From Secrets to SPIFFE-Based Authentication",
+      "filename": "2504.14760_Workload_Identity_SPIFFE_Authentication.pdf",
+      "publication_date": "2025-04",
+      "year": 2025,
+      "relevance_score": "VERY HIGH",
+      "key_topics": [
+        "SPIFFE (Secure Production Identity Framework)",
+        "SPIRE",
+        "Workload attestation",
+        "Runtime-issued identity",
+        "Platform-neutral identity",
+        "Temporary credentials",
+        "CI/CD security",
+        "Zero Trust"
+      ],
+      "abstract_summary": "Introduces SPIFFE as runtime-issued, platform-neutral identity model for non-human actors. Demonstrates shift from static credentials to OIDC federation. SPIFFE identities support policy alignment, workload attestation, and mutual authentication.",
+      "url": "https://arxiv.org/abs/2504.14760",
+      "pdf_url": "https://arxiv.org/pdf/2504.14760"
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2504.14761",
+      "title": "Decoupling Identity from Access: Credential Broker Patterns for Secure CI/CD",
+      "filename": "2504.14761_Credential_Broker_Patterns_Secure_CICD.pdf",
+      "publication_date": "2025-04",
+      "year": 2025,
+      "relevance_score": "VERY HIGH",
+      "key_topics": [
+        "Credential broker patterns",
+        "Policy-aware runtime mediation",
+        "Decoupling identity from access",
+        "Dynamic credential issuance",
+        "CI/CD pipeline security",
+        "Automated credential management"
+      ],
+      "abstract_summary": "Introduces credential broker: a policy-aware, runtime mediator that decouples identity from access in CI/CD pipelines. Part of three-part series on Zero Trust CI/CD and dynamic Workload Identity enforcement.",
+      "url": "https://arxiv.org/abs/2504.14761",
+      "pdf_url": "https://arxiv.org/pdf/2504.14761"
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2504.17759",
+      "title": "Identity Control Plane: The Unifying Layer for Zero Trust Infrastructure",
+      "filename": "2504.17759_Identity_Control_Plane_Zero_Trust.pdf",
+      "publication_date": "2025-04",
+      "year": 2025,
+      "relevance_score": "VERY HIGH",
+      "key_topics": [
+        "Identity Control Plane (ICP)",
+        "SPIFFE-based workload identity",
+        "OIDC/SAML user identity",
+        "Scoped automation tokens",
+        "Zero Trust architecture",
+        "Identity-aware access control"
+      ],
+      "abstract_summary": "Introduces Identity Control Plane (ICP), an architectural framework for enforcing identity-aware Zero Trust access across human users, workloads, and automation systems. Integrates SPIFFE-based workload identity with OIDC/SAML user identity.",
+      "url": "https://arxiv.org/abs/2504.17759",
+      "pdf_url": "https://arxiv.org/pdf/2504.17759"
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2507.16870",
+      "title": "Building a Robust OAuth Token Based API Security: A High Level Overview",
+      "filename": "2507.16870_OAuth_Token_Based_API_Security.pdf",
+      "publication_date": "2025-07",
+      "year": 2025,
+      "authors": ["Senthilkumar Gopal"],
+      "relevance_score": "HIGH",
+      "key_topics": [
+        "OAuth 2.0",
+        "Token lifecycle management",
+        "Automated key rotation",
+        "Token expiration policies",
+        "Revocation mechanisms",
+        "API security",
+        "Cryptographic foundations"
+      ],
+      "abstract_summary": "Covers managing token lifecycle, automating key rotation, reducing token exposure, and ensuring atomic consistency. Explores best practices for token lifecycle management, scope definition, expiration policies, and revocation mechanisms.",
+      "url": "https://arxiv.org/abs/2507.16870",
+      "pdf_url": "https://arxiv.org/pdf/2507.16870"
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2510.25819",
+      "title": "Identity Management for Agentic AI: The New Frontier of Authorization, Authentication, and Security for an AI Agent World",
+      "filename": "2510.25819_Identity_Management_Agentic_AI.pdf",
+      "publication_date": "2025-10",
+      "year": 2025,
+      "relevance_score": "HIGH",
+      "key_topics": [
+        "AI agent identity",
+        "Agent authentication",
+        "Agent authorization",
+        "Delegated authority",
+        "Agent compromise impact",
+        "High-velocity autonomous operation",
+        "Cross-domain agent security"
+      ],
+      "abstract_summary": "Addresses how agents are designed for high-velocity, autonomous, cross-domain operation, making them uniquely dangerous if compromised. An agent wields delegated authority of a human but operates with speed and scale of a machine, creating vastly amplified blast radius for potential breach.",
+      "url": "https://arxiv.org/abs/2510.25819",
+      "pdf_url": "https://arxiv.org/pdf/2510.25819"
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2510.23883",
+      "title": "Agentic AI Security: Threats, Defenses, Evaluation, and Open Challenges",
+      "filename": "2510.23883_Agentic_AI_Security_Threats_Defenses.pdf",
+      "publication_date": "2025-10",
+      "year": 2025,
+      "relevance_score": "HIGH",
+      "key_topics": [
+        "Agentic AI security",
+        "LLM agent threats",
+        "Agent compromise",
+        "Credential exfiltration",
+        "EchoLeak (CVE-2025-32711)",
+        "Multi-agent cascade threats",
+        "Defense strategies"
+      ],
+      "abstract_summary": "Documents EchoLeak exploit against Microsoft Copilot where infected email messages with engineered prompts could trigger Copilot to exfiltrate sensitive data automatically. Reveals cascade-based threats can compromise networks of LLM agents with alarming speed and stealth.",
+      "url": "https://arxiv.org/abs/2510.23883",
+      "pdf_url": "https://arxiv.org/pdf/2510.23883"
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2505.19301",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "filename": "2505.19301_Zero_Trust_Framework_Agentic_AI.pdf",
+      "publication_date": "2025-05",
+      "year": 2025,
+      "relevance_score": "HIGH",
+      "key_topics": [
+        "Zero-Trust identity framework",
+        "Decentralized Identifiers (DIDs)",
+        "Verifiable Credentials (VCs)",
+        "Agent capabilities verification",
+        "Behavioral scope limitation",
+        "Fine-grained access control",
+        "Multi-Agent Systems security"
+      ],
+      "abstract_summary": "Argues traditional IAM systems (OAuth, OIDC, SAML) are inadequate for dynamic, interdependent, ephemeral nature of AI agents. Proposes framework built on rich, verifiable Agent Identities using DIDs and VCs to encapsulate agent capabilities, provenance, and security posture.",
+      "url": "https://arxiv.org/abs/2505.19301",
+      "pdf_url": "https://arxiv.org/pdf/2505.19301"
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2512.15781",
+      "title": "Detecting Malicious Entra OAuth Apps with LLM-Based Permission Risk Scoring",
+      "filename": "2512.15781_Detecting_Malicious_OAuth_Apps.pdf",
+      "publication_date": "2025-12",
+      "year": 2025,
+      "relevance_score": "MEDIUM-HIGH",
+      "key_topics": [
+        "OAuth app security",
+        "Malicious credential detection",
+        "Microsoft Graph permissions",
+        "LLM-based risk scoring",
+        "OAuth consent security",
+        "Real-time detection"
+      ],
+      "abstract_summary": "Presents unified detection framework that constructs complete corpus of Microsoft Graph permissions, generates consistent LLM-based risk scores, and integrates them into real-time detection engine to identify malicious OAuth consent activity.",
+      "url": "https://arxiv.org/abs/2512.15781",
+      "pdf_url": "https://arxiv.org/pdf/2512.15781"
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2506.13090",
+      "title": "Detecting Hard-Coded Credentials in Software Repositories via LLMs",
+      "filename": "2506.13090_Detecting_Hard_Coded_Credentials_LLMs.pdf",
+      "publication_date": "2025-06",
+      "year": 2025,
+      "authors": ["Chidera Biringa", "Gokhan Kul"],
+      "publication_status": "Accepted to ACM Digital Threats: Research and Practice (DTRAP)",
+      "relevance_score": "MEDIUM-HIGH",
+      "key_topics": [
+        "Hard-coded credentials detection",
+        "Static credential risks",
+        "LLM-based detection",
+        "GPT transformer architecture",
+        "Password and secret detection",
+        "Private key detection",
+        "Credential sprawl prevention"
+      ],
+      "abstract_summary": "Addresses how developers frequently hard-code credentials (passwords, secrets, private keys, tokens) creating attack surfaces for backdoor attacks. Leverages context-dependent LLMs like GPT to capture contextual dependencies and reduce false positives in credential detection.",
+      "url": "https://arxiv.org/abs/2506.13090",
+      "pdf_url": "https://arxiv.org/pdf/2506.13090"
+    }
+  ],
+  "archived_papers": [
+    {
+      "arxiv_id": "2406.08689",
+      "title": "Security of AI Agents",
+      "publication_date": "2024-06",
+      "year": 2024,
+      "reason": "2024 paper, less specific to credential management"
+    },
+    {
+      "arxiv_id": "2505.02077",
+      "title": "Open Challenges in Multi-Agent Security: Towards Secure Systems of Interacting AI Agents",
+      "publication_date": "2025-05",
+      "year": 2025,
+      "reason": "Broader multi-agent security focus, less specific to credentials"
+    },
+    {
+      "arxiv_id": "2505.08807",
+      "title": "Security of Internet of Agents: Attacks and Countermeasures",
+      "publication_date": "2025-05",
+      "year": 2025,
+      "reason": "General IoA security survey, not credential-specific"
+    },
+    {
+      "arxiv_id": "2506.09559",
+      "title": "Identity and Access Management for the Computing Continuum",
+      "publication_date": "2025-06",
+      "year": 2025,
+      "reason": "Focus on DIDs/VCs for computing continuum, less on short-lived credentials"
+    },
+    {
+      "arxiv_id": "2512.20234",
+      "title": "Achieving Flexible and Secure Authentication with Strong Privacy in Decentralized Networks",
+      "publication_date": "2025-12",
+      "year": 2025,
+      "reason": "Focus on anonymous credentials and privacy, not short-lived token TTL"
+    },
+    {
+      "arxiv_id": "2503.18255",
+      "title": "The Human-Machine Identity Blur: A Unified Framework for Cybersecurity Risk Management in 2025",
+      "publication_date": "2025-03",
+      "year": 2025,
+      "reason": "Broad identity governance framework, not specific to credential lifetime"
+    },
+    {
+      "arxiv_id": "2406.11511",
+      "title": "Decentralized Credential Status Management: A Paradigm Shift in Digital Trust",
+      "publication_date": "2024-06",
+      "year": 2024,
+      "reason": "2024 paper, focus on certificate status/revocation not short-lived tokens"
+    },
+    {
+      "arxiv_id": "2511.02841",
+      "title": "AI Agents with Decentralized Identifiers and Verifiable Credentials",
+      "publication_date": "2025-11",
+      "year": 2025,
+      "reason": "Focus on DIDs/VCs for agent trust, not credential TTL/rotation"
+    },
+    {
+      "arxiv_id": "2510.14133",
+      "title": "Formalizing the Safety, Security, and Functional Properties of Agentic AI Systems",
+      "publication_date": "2025-10",
+      "year": 2025,
+      "reason": "Formal verification focus, not credential management"
+    },
+    {
+      "arxiv_id": "2510.06445",
+      "title": "A Survey on Agentic Security: Applications, Threats and Defenses",
+      "publication_date": "2025-10",
+      "year": 2025,
+      "reason": "Broad survey of 160+ papers, less specific to credential lifecycle"
+    },
+    {
+      "arxiv_id": "2511.11619",
+      "title": "DIAP: A Decentralized Agent Identity Protocol with Zero-Knowledge Proofs and a Hybrid P2P Stack",
+      "publication_date": "2025-11",
+      "year": 2025,
+      "reason": "Focus on agent identity protocol, not credential expiration"
+    },
+    {
+      "arxiv_id": "2511.15712",
+      "title": "Secure Autonomous Agent Payments: Verifying Authenticity and Intent in a Trustless Environment",
+      "publication_date": "2025-11",
+      "year": 2025,
+      "reason": "Focus on payment verification, not credential compromise mitigation"
+    },
+    {
+      "arxiv_id": "2504.14777",
+      "title": "Intent-Aware Authorization for Zero Trust CI/CD",
+      "publication_date": "2025-04",
+      "year": 2025,
+      "reason": "Focus on intent-aware authorization policy, not credential lifetime"
+    },
+    {
+      "arxiv_id": "2504.20493",
+      "title": "Token-Efficient Prompt Injection Attack: Provoking Cessation in LLM Reasoning via Adaptive Token Compression",
+      "publication_date": "2025-04",
+      "year": 2025,
+      "reason": "Focus on LLM prompt injection attacks, not authentication tokens"
+    },
+    {
+      "arxiv_id": "2504.21367",
+      "title": "Security Analysis and Implementation of Cryptocurrency Systems on Blockchain 2.0",
+      "publication_date": "2025-04",
+      "year": 2025,
+      "reason": "Focus on blockchain/cryptocurrency tokens, not OAuth/API tokens"
+    }
+  ],
+  "key_findings": {
+    "ephemeral_credentials": "Multiple papers (2510.16067, 2504.14760, 2510.25819) emphasize shift from static, long-lived credentials to ephemeral, runtime-issued tokens with short TTL to minimize compromise impact.",
+    "workload_identity_frameworks": "SPIFFE/SPIRE emerged as leading framework for workload identity with runtime attestation and temporary credential issuance (2504.14760, 2504.17759).",
+    "credential_broker_pattern": "Decoupling identity from access through credential brokers provides policy-aware runtime mediation and dynamic credential issuance (2504.14761).",
+    "oauth_token_lifecycle": "Best practices include automated key rotation, short expiration policies, and robust revocation mechanisms (2507.16870, 2512.15781).",
+    "agent_compromise_risks": "AI agents create amplified blast radius when compromised due to delegated authority operating at machine speed and scale (2510.25819, 2510.23883).",
+    "zero_trust_architecture": "Identity Control Plane integrates SPIFFE workload identity, OIDC/SAML user identity, and scoped automation tokens for unified Zero Trust (2504.17759).",
+    "detection_mechanisms": "LLM-based approaches effective for detecting hard-coded credentials and malicious OAuth apps (2506.13090, 2512.15781).",
+    "proof_of_possession": "DPoP (Demonstrating Proof of Possession) cryptographically binds tokens to client keys, preventing token theft even with short TTL (industry research)."
+  },
+  "research_gaps": {
+    "limited_dpop_research": "While DPoP (RFC 9449) is critical for proof-of-possession, limited recent academic research found on ArXiv - mostly IETF RFCs and industry implementation guides.",
+    "token_binding_deprecation": "HTTP Token Binding largely deprecated; research shifted to DPoP and other sender-constraint mechanisms.",
+    "empirical_studies": "Limited empirical studies on optimal token TTL values for different workload types and threat models.",
+    "agent_specific_ttl": "Few papers address optimal credential TTL specifically for AI agents vs. traditional workloads."
+  },
+  "institution_analysis": {
+    "note": "ArXiv papers don't always clearly indicate author institutions in abstracts. US institution preference applied where identifiable from author affiliations."
+  }
+}

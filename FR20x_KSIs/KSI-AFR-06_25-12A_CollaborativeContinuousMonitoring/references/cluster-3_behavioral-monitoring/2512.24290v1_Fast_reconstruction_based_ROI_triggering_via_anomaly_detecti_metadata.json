@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.24290v1",
+  "title": "Fast reconstruction-based ROI triggering via anomaly detection in the CYGNO optical TPC",
+  "authors": [
+    "F. D. Amaro",
+    "R. Antonietti",
+    "E. Baracchini",
+    "L. Benussi",
+    "C. Capoccia"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24290v1",
+  "relevance_score": 86.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "anomaly detection",
+    "behavioral monitoring"
+  ],
+  "summary": "Optical-readout Time Projection Chambers (TPCs) produce megapixel-scale images whose fine-grained topological information is essential for rare-event searches, but whose size challenges real-time data selection. We present an unsupervised, reconstruction-based anomaly-detection strategy for fast Region-of-Interest (ROI) extraction that operates directly on minimally processed camera frames. A convolutional autoencoder trained exclusively on pedestal images learns the detector noise morphology wi..."
+}

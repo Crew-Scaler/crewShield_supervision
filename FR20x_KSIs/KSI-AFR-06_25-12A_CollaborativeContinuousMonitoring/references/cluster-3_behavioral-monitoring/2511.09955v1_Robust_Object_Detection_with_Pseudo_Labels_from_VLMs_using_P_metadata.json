@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2511.09955v1",
+  "title": "Robust Object Detection with Pseudo Labels from VLMs using Per-Object Co-teaching",
+  "authors": [
+    "Uday Bhaskar",
+    "Rishabh Bhattacharya",
+    "Avinash Patel",
+    "Sarthak Khoche",
+    "Praveen Anil Kulkarni"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-11",
+  "url": "https://arxiv.org/abs/2511.09955v1",
+  "relevance_score": 96.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring",
+    "autonomous systems"
+  ],
+  "summary": "Foundation models, especially vision-language models (VLMs), offer compelling zero-shot object detection for applications like autonomous driving, a domain where manual labelling is prohibitively expensive. However, their detection latency and tendency to hallucinate predictions render them unsuitable for direct deployment. This work introduces a novel pipeline that addresses this challenge by leveraging VLMs to automatically generate pseudo-labels for training efficient, real-time object detect..."
+}

@@ -1,0 +1,967 @@
+{
+  "search_date": "2025-12-10T17:14:53.451655",
+  "total_papers": 45,
+  "papers": [
+    {
+      "id": "2511.04925v1",
+      "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+      "authors": [
+        "Rethish Nair Rajendran",
+        "Sathish Krishna Anumula",
+        "Dileep Kumar Rai",
+        "Sachin Agrawal"
+      ],
+      "published": "2025-11-07T02:03:05+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The microservice bombshells that have been linked with the microservice expansion have altered the application architectures, offered agility and scalability in terms of complexity in security trade-offs. Feeble legacy-based perimeter-based policies are unable to offer safeguard to distributed workloads and temporary interaction among and in between the services. The article itself is a case on the need of the Zero Trust Security Model of micro services ecosystem, particularly, the fact that human and workloads require identity federation. It is proposed that the solution framework will be based on industry-standard authentication and authorization and end-to-end trust identity technologies, including Authorization and OpenID connect (OIDC), Authorization and OAuth 2.0 token exchange, and Authorization and SPIFFE/ SPIRE workload identities. Experimental evaluation is a unique demonstration of a superior security position of making use of a smaller attack surface, harmony policy enforcement, as well as interoperability across multi- domain environments. The research results overlay that the federated identity combined with the Zero Trust basics not only guarantee the rules relating to authentication and authorization but also fully complies with the latest DevSecOps standards of microservice deployment, which is automated, scaled, and resilient. The current project offers a stringent roadmap to the organizations that desire to apply Zero Trust in cloud-native technologies but will as well guarantee adherence and interoperability.",
+      "estimated_pages": 10,
+      "filename": "workload_identity_access_control_2511.04925v1.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2511.04925v1"
+    },
+    {
+      "id": "2510.16067v1",
+      "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+      "authors": [
+        "Saurabh Deochake",
+        "Ryan Murphy",
+        "Jeremiah Gearheart"
+      ],
+      "published": "2025-10-17T04:11:31+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.DC",
+        "cs.NI"
+      ],
+      "abstract": "Static, long-lived credentials for workload authentication create untenable security risks that violate Zero-Trust principles. This paper presents a multi-cloud framework using Workload Identity Federation (WIF) and OpenID Connect (OIDC) for secretless authentication. Our approach uses cryptographically-verified, ephemeral tokens, allowing workloads to authenticate without persistent private keys and mitigating credential theft. We validate this framework in an enterprise-scale Kubernetes environment, which significantly reduces the attack surface. The model offers a unified solution to manage workload identities across disparate clouds, enabling future implementation of robust, attribute-based access control.",
+      "estimated_pages": 10,
+      "filename": "workload_identity_access_control_2510.16067v1.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2510.16067v1"
+    },
+    {
+      "id": "2509.25974v1",
+      "title": "OpenID Connect for Agents (OIDC-A) 1.0: A Standard Extension for LLM-Based Agent Identity and Authorization",
+      "authors": [
+        "Subramanya Nagabhushanaradhya"
+      ],
+      "published": "2025-09-30T09:08:07+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.NI",
+        "cs.MA"
+      ],
+      "abstract": "OpenID Connect for Agents (OIDC-A) 1.0 is an extension to OpenID Connect Core 1.0 that provides a comprehensive framework for representing, authenticating, and authorizing LLM-based agents within the OAuth 2.0 ecosystem. As autonomous AI agents become increasingly prevalent in digital systems, there is a critical need for standardized protocols to establish agent identity, verify agent attestation, represent delegation chains, and enable fine-grained authorization based on agent attributes. This specification defines standard claims, endpoints, and protocols that address these requirements while maintaining compatibility with existing OAuth 2.0 and OpenID Connect infrastructure. The proposed framework introduces mechanisms for agent identity representation, delegation chain validation, attestation verification, and capability-based authorization, providing a foundation for secure and trustworthy agent-to-service interactions in modern distributed systems.",
+      "estimated_pages": 10,
+      "filename": "workload_identity_access_control_2509.25974v1.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2509.25974v1"
+    },
+    {
+      "id": "2509.13597v1",
+      "title": "Agentic JWT: A Secure Delegation Protocol for Autonomous AI Agents",
+      "authors": [
+        "Abhishek Goswami"
+      ],
+      "published": "2025-09-16T23:43:24+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Autonomous LLM agents can issue thousands of API calls per hour without human oversight. OAuth 2.0 assumes deterministic clients, but in agentic settings stochastic reasoning, prompt injection, or multi-agent orchestration can silently expand privileges.\n  We introduce Agentic JWT (A-JWT), a dual-faceted intent token that binds each agent's action to verifiable user intent and, optionally, to a specific workflow step. A-JWT carries an agent's identity as a one-way checksum hash derived from its prompt, tools and configuration, and a chained delegation assertion to prove which downstream agent may execute a given task, and per-agent proof-of-possession keys to prevent replay and in-process impersonation. We define a new authorization mechanism and add a lightweight client shim library that self-verifies code at run time, mints intent tokens, tracks workflow steps and derives keys, thus enabling secure agent identity and separation even within a single process.\n  We illustrate a comprehensive threat model for agentic applications, implement a Python proof-of-concept and show functional blocking of scope-violating requests, replay, impersonation, and prompt-injection pathways with sub-millisecond overhead on commodity hardware. The design aligns with ongoing OAuth agent discussions and offers a drop-in path toward zero-trust guarantees for agentic applications. A comprehensive performance and security evaluation with experimental results will appear in our forthcoming journal publication",
+      "estimated_pages": 17,
+      "filename": "workload_identity_access_control_2509.13597v1.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2509.13597v1"
+    },
+    {
+      "id": "2505.19301v2",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": [
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "John Yeoh",
+        "Jason Ross",
+        "Ramesh Raskar",
+        "Youssef Harkati",
+        "Jerry Huang",
+        "Idan Habler",
+        "Chris Hughes"
+      ],
+      "published": "2025-05-25T20:21:55+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "Traditional Identity and Access Management (IAM) systems, primarily designed for human users or static machine identities via protocols such as OAuth, OpenID Connect (OIDC), and SAML, prove fundamentally inadequate for the dynamic, interdependent, and often ephemeral nature of AI agents operating at scale within Multi Agent Systems (MAS), a computational system composed of multiple interacting intelligent agents that work collectively.\n  This paper posits the imperative for a novel Agentic AI IAM framework: We deconstruct the limitations of existing protocols when applied to MAS, illustrating with concrete examples why their coarse-grained controls, single-entity focus, and lack of context-awareness falter. We then propose a comprehensive framework built upon rich, verifiable Agent Identities (IDs), leveraging Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs), that encapsulate an agents capabilities, provenance, behavioral scope, and security posture.\n  Our framework includes an Agent Naming Service (ANS) for secure and capability-aware discovery, dynamic fine-grained access control mechanisms, and critically, a unified global session management and policy enforcement layer for real-time control and consistent revocation across heterogeneous agent communication protocols. We also explore how Zero-Knowledge Proofs (ZKPs) enable privacy-preserving attribute disclosure and verifiable policy compliance.\n  We outline the architecture, operational lifecycle, innovative contributions, and security considerations of this new IAM paradigm, aiming to establish the foundational trust, accountability, and security necessary for the burgeoning field of agentic AI and the complex ecosystems they will inhabit.",
+      "estimated_pages": 24,
+      "filename": "workload_identity_access_control_2505.19301v2.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2505.19301v2"
+    },
+    {
+      "id": "2504.21034v2",
+      "title": "SAGA: A Security Architecture for Governing AI Agentic Systems",
+      "authors": [
+        "Georgios Syros",
+        "Anshuman Suri",
+        "Jacob Ginesin",
+        "Cristina Nita-Rotaru",
+        "Alina Oprea"
+      ],
+      "published": "2025-04-27T23:10:00+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "abstract": "Large Language Model (LLM)-based agents increasingly interact, collaborate, and delegate tasks to one another autonomously with minimal human interaction. Industry guidelines for agentic system governance emphasize the need for users to maintain comprehensive control over their agents, mitigating potential damage from malicious agents. Several proposed agentic system designs address agent identity, authorization, and delegation, but remain purely theoretical, without concrete implementation and evaluation. Most importantly, they do not provide user-controlled agent management.\n  To address this gap, we propose SAGA, a scalable Security Architecture for Governing Agentic systems, that offers user oversight over their agents' lifecycle. In our design, users register their agents with a central entity, the Provider, that maintains agent contact information, user-defined access control policies, and helps agents enforce these policies on inter-agent communication. We introduce a cryptographic mechanism for deriving access control tokens, that offers fine-grained control over an agent's interaction with other agents, providing formal security guarantees. We evaluate SAGA on several agentic tasks, using agents in different geolocations, and multiple on-device and cloud LLMs, demonstrating minimal performance overhead with no impact on underlying task utility in a wide range of conditions. Our architecture enables secure and trustworthy deployment of autonomous agents, accelerating the responsible adoption of this technology in sensitive environments.",
+      "estimated_pages": 10,
+      "filename": "workload_identity_access_control_2504.21034v2.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2504.21034v2"
+    },
+    {
+      "id": "2504.14777v1",
+      "title": "Intent-Aware Authorization for Zero Trust CI/CD",
+      "authors": [
+        "Surya Teja Avirneni"
+      ],
+      "published": "2025-04-21T00:25:35+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "abstract": "This paper introduces intent-aware authorization for Zero Trust CI/CD systems. Identity establishes who is making the request, but additional signals are required to decide whether access should be granted. We describe a control loop architecture where policy engines such as OPA and Cedar evaluate runtime context, justification, and human approvals before issuing access credentials. The system builds on SPIFFE-based workload identity and credential brokers, and enables fine-grained, auditable authorization. This is the third paper in a series on Zero Trust CI/CD design patterns.",
+      "estimated_pages": 13,
+      "filename": "workload_identity_access_control_2504.14777v1.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2504.14777v1"
+    },
+    {
+      "id": "2503.18255v1",
+      "title": "The Human-Machine Identity Blur: A Unified Framework for Cybersecurity Risk Management in 2025",
+      "authors": [
+        "Kush Janani"
+      ],
+      "published": "2025-03-24T00:37:14+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "The modern enterprise is facing an unprecedented surge in digital identities, with machine identities now significantly outnumbering human identities. This paper examines the cybersecurity risks emerging from what we define as the \"human-machine identity blur\" - the point at which human and machine identities intersect, delegate authority, and create new attack surfaces. Drawing from industry data, expert insights, and real-world incident analysis, we identify key governance gaps in current identity management models that treat human and machine entities as separate domains. To address these challenges, we propose a Unified Identity Governance Framework based on four core principles: treating identity as a continuum rather than a binary distinction, applying consistent risk evaluation across all identity types, implementing continuous verification guided by zero trust principles, and maintaining governance throughout the entire identity lifecycle. Our research shows that organizations adopting this unified approach experience a 47 percent reduction in identity-related security incidents and a 62 percent improvement in incident response time. We conclude by offering a practical implementation roadmap and outlining future research directions as AI-driven systems become increasingly autonomous.",
+      "estimated_pages": 9,
+      "filename": "workload_identity_access_control_2503.18255v1.pdf",
+      "query": "workload_identity_access_control",
+      "url": "http://arxiv.org/abs/2503.18255v1"
+    },
+    {
+      "id": "2512.06914v1",
+      "title": "SoK: Trust-Authorization Mismatch in LLM Agent Interactions",
+      "authors": [
+        "Guanquan Shi",
+        "Haohua Du",
+        "Zhiqiang Wang",
+        "Xiaoyu Liang",
+        "Weiwenpei Liu",
+        "Song Bian",
+        "Zhenyu Guan"
+      ],
+      "published": "2025-12-07T16:41:02+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Models (LLMs) are rapidly evolving into autonomous agents capable of interacting with the external world, significantly expanding their capabilities through standardized interaction protocols. However, this paradigm revives the classic cybersecurity challenges of agency and authorization in a novel and volatile context. As decision-making shifts from deterministic code logic to probabilistic inference driven by natural language, traditional security mechanisms designed for deterministic behavior fail. It is fundamentally challenging to establish trust for unpredictable AI agents and to enforce the Principle of Least Privilege (PoLP) when instructions are ambiguous. Despite the escalating threat landscape, the academic community's understanding of this emerging domain remains fragmented, lacking a systematic framework to analyze its root causes. This paper provides a unifying formal lens for agent-interaction security.\n  We observed that most security threats in this domain stem from a fundamental mismatch between trust evaluation and authorization policies. We introduce a novel risk analysis model centered on this trust-authorization gap. Using this model as a unifying lens, we survey and classify the implementation paths of existing, often seemingly isolated, attacks and defenses. This new framework not only unifies the field but also allows us to identify critical research gaps. Finally, we leverage our analysis to suggest a systematic research direction toward building robust, trusted agents and dynamic authorization mechanisms.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2512.06914v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2512.06914v1"
+    },
+    {
+      "id": "2511.20920v1",
+      "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+      "authors": [
+        "Herman Errico",
+        "Jiquan Ngiam",
+        "Shanita Sojan"
+      ],
+      "published": "2025-11-25T23:24:26+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The Model Context Protocol (MCP) replaces static, developer-controlled API integrations with more dynamic, user-driven agent systems, which also introduces new security risks. As MCP adoption grows across community servers and major platforms, organizations encounter threats that existing AI governance frameworks (such as NIST AI RMF and ISO/IEC 42001) do not yet cover in detail. We focus on three types of adversaries that take advantage of MCP s flexibility: content-injection attackers that embed malicious instructions into otherwise legitimate data; supply-chain attackers who distribute compromised servers; and agents who become unintentional adversaries by over-stepping their role. Based on early incidents and proof-of-concept attacks, we describe how MCP can increase the attack surface through data-driven exfiltration, tool poisoning, and cross-system privilege escalation. In response, we propose a set of practical controls, including per-user authentication with scoped authorization, provenance tracking across agent workflows, containerized sandboxing with input/output checks, inline policy enforcement with DLP and anomaly detection, and centralized governance using private registries or gateway layers. The aim is to help organizations ensure that unvetted code does not run outside a sandbox, tools are not used beyond their intended scope, data exfiltration attempts are detectable, and actions can be audited end-to-end. We close by outlining open research questions around verifiable registries, formal methods for these dynamic systems, and privacy-preserving agent operations.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2511.20920v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2511.20920v1"
+    },
+    {
+      "id": "2511.18155v1",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "published": "2025-11-22T18:51:36+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.OS"
+      ],
+      "abstract": "With the increasing use and adoption of cloud and cloud-native computing, the underlying technologies (i.e., containerization and virtualization) have become foundational. However, strict isolation and maintaining runtime security in these environments has become increasingly challenging. Existing approaches like seccomp and Mandatory Access Control (MAC) frameworks offer some protection up to a limit, but often lack context awareness, syscall argument filtering, and adaptive enforcement, providing the ability to adjust decisions at runtime based on observed application behavior, workload changes, or detected anomalies rather than relying solely on static or predefined rules.This paper introduces eBPF-PATROL (eBPF-Protective Agent for Threat Recognition and Overreach Limitation), an extensible lightweight runtime security agent that uses extended Berkeley Packet Filter (eBPF) technology to monitor and enforce policies in containerized and virtualized environments. By intercepting system calls, analyzing execution context, and applying user-defined rules, eBPF-PATROL detects and prevents real-time boundary violations, such as reverse shells, privilege escalation, and container escape attempts. We describe the architecture, implementation, and evaluation of eBPF-PATROL, demonstrating its low overhead (< 2.5 percent) and high detection accuracy across real-world attack scenarios.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2511.18155v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2511.18155v1"
+    },
+    {
+      "id": "2510.27140v2",
+      "title": "Measuring the Security of Mobile LLM Agents under Adversarial Prompts from Untrusted Third-Party Channels",
+      "authors": [
+        "Chenghao Du",
+        "Quanfeng Huang",
+        "Tingxuan Tang",
+        "Zihao Wang",
+        "Adwait Nadkarni",
+        "Yue Xiao"
+      ],
+      "published": "2025-10-31T03:35:59+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Large Language Models (LLMs) have transformed software development, enabling AI-powered applications known as LLM-based agents that promise to automate tasks across diverse apps and workflows. Yet, the security implications of deploying such agents in adversarial mobile environments remain poorly understood. In this paper, we present the first systematic study of security risks in mobile LLM agents. We design and evaluate a suite of adversarial case studies, ranging from opportunistic manipulations such as pop-up advertisements to advanced, end-to-end workflows involving malware installation and cross-app data exfiltration. Our evaluation covers eight state-of-the-art mobile agents across three architectures, with over 2,000 adversarial and paired benign trials. The results reveal systemic vulnerabilities: low-barrier vectors such as fraudulent ads succeed with over 80% reliability, while even workflows requiring the circumvention of operating-system warnings, such as malware installation, are consistently completed by advanced multi-app agents. By mapping these attacks to the MITRE ATT&CK Mobile framework, we uncover novel privilege-escalation and persistence pathways unique to LLM-driven automation. Collectively, our findings provide the first end-to-end evidence that mobile LLM agents are exploitable in realistic adversarial settings, where untrusted third-party channels (e.g., ads, embedded webviews, cross-app notifications) are an inherent part of the mobile ecosystem.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2510.27140v2.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2510.27140v2"
+    },
+    {
+      "id": "2510.23474v1",
+      "title": "Policy-Aware Generative AI for Safe, Auditable Data Access Governance",
+      "authors": [
+        "Shames Al Mandalawi",
+        "Muzakkiruddin Ahmed Mohammed",
+        "Hendrika Maclean",
+        "Mert Can Cakmak",
+        "John R. Talburt"
+      ],
+      "published": "2025-10-27T16:10:55+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Enterprises need access decisions that satisfy least privilege, comply with regulations, and remain auditable. We present a policy aware controller that uses a large language model (LLM) to interpret natural language requests against written policies and metadata, not raw data. The system, implemented with Google Gemini~2.0 Flash, executes a six-stage reasoning framework (context interpretation, user validation, data classification, business purpose test, compliance mapping, and risk synthesis) with early hard policy gates and deny by default. It returns APPROVE, DENY, CONDITIONAL together with cited controls and a machine readable rationale. We evaluate on fourteen canonical cases across seven scenario families using a privacy preserving benchmark. Results show Exact Decision Match improving from 10/14 to 13/14 (92.9\\%) after applying policy gates, DENY recall rising to 1.00, False Approval Rate on must-deny families dropping to 0, and Functional Appropriateness and Compliance Adherence at 14/14. Expert ratings of rationale quality are high, and median latency is under one minute. These findings indicate that policy constrained LLM reasoning, combined with explicit gates and audit trails, can translate human readable policies into safe, compliant, and traceable machine decisions.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2510.23474v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2510.23474v1"
+    },
+    {
+      "id": "2510.17276v1",
+      "title": "Breaking and Fixing Defenses Against Control-Flow Hijacking in Multi-Agent Systems",
+      "authors": [
+        "Rishi Jha",
+        "Harold Triedman",
+        "Justin Wagle",
+        "Vitaly Shmatikov"
+      ],
+      "published": "2025-10-20T08:02:51+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.LG",
+        "cs.CR",
+        "eess.SY"
+      ],
+      "abstract": "Control-flow hijacking attacks manipulate orchestration mechanisms in multi-agent systems into performing unsafe actions that compromise the system and exfiltrate sensitive information. Recently proposed defenses, such as LlamaFirewall, rely on alignment checks of inter-agent communications to ensure that all agent invocations are \"related to\" and \"likely to further\" the original objective.\n  We start by demonstrating control-flow hijacking attacks that evade these defenses even if alignment checks are performed by advanced LLMs. We argue that the safety and functionality objectives of multi-agent systems fundamentally conflict with each other. This conflict is exacerbated by the brittle definitions of \"alignment\" and the checkers' incomplete visibility into the execution context.\n  We then propose, implement, and evaluate ControlValve, a new defense inspired by the principles of control-flow integrity and least privilege. ControlValve (1) generates permitted control-flow graphs for multi-agent systems, and (2) enforces that all executions comply with these graphs, along with contextual rules (generated in a zero-shot manner) for each agent invocation.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2510.17276v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2510.17276v1"
+    },
+    {
+      "id": "2510.11414v1",
+      "title": "Uncertainty-Aware, Risk-Adaptive Access Control for Agentic Systems using an LLM-Judged TBAC Model",
+      "authors": [
+        "Charles Fleming",
+        "Ashish Kundu",
+        "Ramana Kompella"
+      ],
+      "published": "2025-10-13T13:52:33+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The proliferation of autonomous AI agents within enterprise environments introduces a critical security challenge: managing access control for emergent, novel tasks for which no predefined policies exist. This paper introduces an advanced security framework that extends the Task-Based Access Control (TBAC) model by using a Large Language Model (LLM) as an autonomous, risk-aware judge. This model makes access control decisions not only based on an agent's intent but also by explicitly considering the inherent \\textbf{risk associated with target resources} and the LLM's own \\textbf{model uncertainty} in its decision-making process. When an agent proposes a novel task, the LLM judge synthesizes a just-in-time policy while also computing a composite risk score for the task and an uncertainty estimate for its own reasoning. High-risk or high-uncertainty requests trigger more stringent controls, such as requiring human approval. This dual consideration of external risk and internal confidence allows the model to enforce a more robust and adaptive version of the principle of least privilege, paving the way for safer and more trustworthy autonomous systems.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2510.11414v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2510.11414v1"
+    },
+    {
+      "id": "2509.23994v2",
+      "title": "Policy-as-Prompt: Turning AI Governance Rules into Guardrails for AI Agents",
+      "authors": [
+        "Gauri Kholkar",
+        "Ratinder Ahuja"
+      ],
+      "published": "2025-09-28T17:36:52+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "abstract": "As autonomous AI agents are used in regulated and safety-critical settings, organizations need effective ways to turn policy into enforceable controls. We introduce a regulatory machine learning framework that converts unstructured design artifacts (like PRDs, TDDs, and code) into verifiable runtime guardrails. Our Policy as Prompt method reads these documents and risk controls to build a source-linked policy tree. This tree is then compiled into lightweight, prompt-based classifiers for real-time runtime monitoring. The system is built to enforce least privilege and data minimization. For conformity assessment, it provides complete provenance, traceability, and audit logging, all integrated with a human-in-the-loop review process. Evaluations show our system reduces prompt-injection risk, blocks out-of-scope requests, and limits toxic outputs. It also generates auditable rationales aligned with AI governance frameworks. By treating policies as executable prompts (a policy-as-code for agents), this approach enables secure-by-design deployment, continuous compliance, and scalable AI safety and AI security assurance for regulatable ML.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2509.23994v2.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2509.23994v2"
+    },
+    {
+      "id": "2509.23680v1",
+      "title": "A First Look at Privacy Risks of Android Task-executable Voice Assistant Applications",
+      "authors": [
+        "Shidong Pan",
+        "Yikai Ge",
+        "Xiaoyu Sun"
+      ],
+      "published": "2025-09-28T06:47:06+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.SE"
+      ],
+      "abstract": "With the development of foundation AI technologies, task-executable voice assistants (VAs) have become more popular, enhancing user convenience and expanding device functionality. Android task-executable VAs are applications that are capable of understanding complex tasks and performing corresponding operations. Given their prevalence and great autonomy, there is no existing work examine the privacy risks within the voice assistants from the task-execution pattern in a holistic manner. To fill this research gap, this paper presents a user-centric comprehensive empirical study on privacy risks in Android task-executable VA applications. We collect ten mainstream VAs as our research target and analyze their operational characteristics. We then cross-check their privacy declarations across six sources, including privacy labels, policies, and manifest files, and our findings reveal widespread inconsistencies. Moreover, we uncover three significant privacy threat models: (1) privacy misdisclosure in mega apps, where integrated mini apps such as Alexa skills are inadequately represented; (2) privilege escalation via inter-application interactions, which exploit Android's communication mechanisms to bypass user consent; and (3) abuse of Google system applications, enabling apps to evade the declaration of dangerous permissions. Our study contributes actionable recommendations for practitioners and underscores broader relevance of these privacy risks to emerging autonomous AI agents.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2509.23680v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2509.23680v1"
+    },
+    {
+      "id": "2509.22814v1",
+      "title": "Model Context Protocol for Vision Systems: Audit, Security, and Protocol Extensions",
+      "authors": [
+        "Aditi Tiwari",
+        "Akshit Bhalla",
+        "Darshan Prasad"
+      ],
+      "published": "2025-09-26T18:20:08+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The Model Context Protocol (MCP) defines a schema bound execution model for agent-tool interaction, enabling modular computer vision workflows without retraining. To our knowledge, this is the first protocol level, deployment scale audit of MCP in vision systems, identifying systemic weaknesses in schema semantics, interoperability, and runtime coordination. We analyze 91 publicly registered vision centric MCP servers, annotated along nine dimensions of compositional fidelity, and develop an executable benchmark with validators to detect and categorize protocol violations. The audit reveals high prevalence of schema format divergence, missing runtime schema validation, undeclared coordinate conventions, and reliance on untracked bridging scripts. Validator based testing quantifies these failures, with schema format checks flagging misalignments in 78.0 percent of systems, coordinate convention checks detecting spatial reference errors in 24.6 percent, and memory scope checks issuing an average of 33.8 warnings per 100 executions. Security probes show that dynamic and multi agent workflows exhibit elevated risks of privilege escalation and untyped tool connections. The proposed benchmark and validator suite, implemented in a controlled testbed and to be released on GitHub, establishes a reproducible framework for measuring and improving the reliability and security of compositional vision workflows.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2509.22814v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2509.22814v1"
+    },
+    {
+      "id": "2509.08646v1",
+      "title": "Architecting Resilient LLM Agents: A Guide to Secure Plan-then-Execute Implementations",
+      "authors": [
+        "Ron F. Del Rosario",
+        "Klaudia Krawiecka",
+        "Christian Schroeder de Witt"
+      ],
+      "published": "2025-09-10T14:41:07+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "abstract": "As Large Language Model (LLM) agents become increasingly capable of automating complex, multi-step tasks, the need for robust, secure, and predictable architectural patterns is paramount. This paper provides a comprehensive guide to the ``Plan-then-Execute'' (P-t-E) pattern, an agentic design that separates strategic planning from tactical execution. We explore the foundational principles of P-t-E, detailing its core components - the Planner and the Executor - and its architectural advantages in predictability, cost-efficiency, and reasoning quality over reactive patterns like ReAct (Reason + Act). A central focus is placed on the security implications of this design, particularly its inherent resilience to indirect prompt injection attacks by establishing control-flow integrity. We argue that while P-t-E provides a strong foundation, a defense-in-depth strategy is necessary, and we detail essential complementary controls such as the Principle of Least Privilege, task-scoped tool access, and sandboxed code execution. To make these principles actionable, this guide provides detailed implementation blueprints and working code references for three leading agentic frameworks: LangChain (via LangGraph), CrewAI, and AutoGen. Each framework's approach to implementing the P-t-E pattern is analyzed, highlighting unique features like LangGraph's stateful graphs for re-planning, CrewAI's declarative tool scoping for security, and AutoGen's built-in Docker sandboxing. Finally, we discuss advanced patterns, including dynamic re-planning loops, parallel execution with Directed Acyclic Graphs (DAGs), and the critical role of Human-in-the-Loop (HITL) verification, to offer a complete strategic blueprint for architects, developers, and security engineers aiming to build production-grade, resilient, and trustworthy LLM agents.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2509.08646v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2509.08646v1"
+    },
+    {
+      "id": "2509.06572v2",
+      "title": "Mind Your Server: A Systematic Study of Parasitic Toolchain Attacks on the MCP Ecosystem",
+      "authors": [
+        "Shuli Zhao",
+        "Qinsheng Hou",
+        "Zihan Zhan",
+        "Yanhao Wang",
+        "Yuchong Xie",
+        "Yu Guo",
+        "Libo Chen",
+        "Shenghong Li",
+        "Zhi Xue"
+      ],
+      "published": "2025-09-08T11:35:32+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Large language models (LLMs) are increasingly integrated with external systems through the Model Context Protocol (MCP), which standardizes tool invocation and has rapidly become a backbone for LLM-powered applications. While this paradigm enhances functionality, it also introduces a fundamental security shift: LLMs transition from passive information processors to autonomous orchestrators of task-oriented toolchains, expanding the attack surface, elevating adversarial goals from manipulating single outputs to hijacking entire execution flows. In this paper, we reveal a new class of attacks, Parasitic Toolchain Attacks, instantiated as MCP Unintended Privacy Disclosure (MCP-UPD). These attacks require no direct victim interaction; instead, adversaries embed malicious instructions into external data sources that LLMs access during legitimate tasks. The malicious logic infiltrates the toolchain and unfolds in three phases: Parasitic Ingestion, Privacy Collection, and Privacy Disclosure, culminating in stealthy exfiltration of private data. Our root cause analysis reveals that MCP lacks both context-tool isolation and least-privilege enforcement, enabling adversarial instructions to propagate unchecked into sensitive tool invocations. To assess the severity, we design MCP-SEC and conduct the first large-scale security census of the MCP ecosystem, analyzing 12,230 tools across 1,360 servers. Our findings show that the MCP ecosystem is rife with exploitable gadgets and diverse attack methods, underscoring systemic risks in MCP platforms and the urgent need for defense mechanisms in LLM-integrated environments.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2509.06572v2.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2509.06572v2"
+    },
+    {
+      "id": "2509.10540v1",
+      "title": "EchoLeak: The First Real-World Zero-Click Prompt Injection Exploit in a Production LLM System",
+      "authors": [
+        "Pavan Reddy",
+        "Aditya Sanjay Gujral"
+      ],
+      "published": "2025-09-06T04:06:01+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Large language model (LLM) assistants are increasingly integrated into enterprise workflows, raising new security concerns as they bridge internal and external data sources. This paper presents an in-depth case study of EchoLeak (CVE-2025-32711), a zero-click prompt injection vulnerability in Microsoft 365 Copilot that enabled remote, unauthenticated data exfiltration via a single crafted email. By chaining multiple bypasses-evading Microsofts XPIA (Cross Prompt Injection Attempt) classifier, circumventing link redaction with reference-style Markdown, exploiting auto-fetched images, and abusing a Microsoft Teams proxy allowed by the content security policy-EchoLeak achieved full privilege escalation across LLM trust boundaries without user interaction. We analyze why existing defenses failed, and outline a set of engineering mitigations including prompt partitioning, enhanced input/output filtering, provenance-based access control, and strict content security policies. Beyond the specific exploit, we derive generalizable lessons for building secure AI copilots, emphasizing the principle of least privilege, defense-in-depth architectures, and continuous adversarial testing. Our findings establish prompt injection as a practical, high-severity vulnerability class in production AI systems and provide a blueprint for defending against future AI-native threats.",
+      "estimated_pages": 8,
+      "filename": "least_privilege_ai_2509.10540v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2509.10540v1"
+    },
+    {
+      "id": "2508.20307v1",
+      "title": "Surveying the Operational Cybersecurity and Supply Chain Threat Landscape when Developing and Deploying AI Systems",
+      "authors": [
+        "Michael R Smith",
+        "Joe Ingram"
+      ],
+      "published": "2025-08-27T22:46:23+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "The rise of AI has transformed the software and hardware landscape, enabling powerful capabilities through specialized infrastructures, large-scale data storage, and advanced hardware. However, these innovations introduce unique attack surfaces and objectives which traditional cybersecurity assessments often overlook. Cyber attackers are shifting their objectives from conventional goals like privilege escalation and network pivoting to manipulating AI outputs to achieve desired system effects, such as slowing system performance, flooding outputs with false positives, or degrading model accuracy. This paper serves to raise awareness of the novel cyber threats that are introduced when incorporating AI into a software system. We explore the operational cybersecurity and supply chain risks across the AI lifecycle, emphasizing the need for tailored security frameworks to address evolving threats in the AI-driven landscape. We highlight previous exploitations and provide insights from working in this area. By understanding these risks, organizations can better protect AI systems and ensure their reliability and resilience.",
+      "estimated_pages": 11,
+      "filename": "least_privilege_ai_2508.20307v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2508.20307v1"
+    },
+    {
+      "id": "2508.19465v1",
+      "title": "Addressing Weak Authentication like RFID, NFC in EVs and EVCs using AI-powered Adaptive Authentication",
+      "authors": [
+        "Onyinye Okoye"
+      ],
+      "published": "2025-08-26T22:54:24+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "The rapid expansion of the Electric Vehicles (EVs) and Electric Vehicle Charging Systems (EVCs) has introduced new cybersecurity challenges, specifically in authentication protocols that protect vehicles, users, and energy infrastructure. Although widely adopted for convenience, traditional authentication mechanisms like Radio Frequency Identification (RFID) and Near Field Communication (NFC) rely on static identifiers and weak encryption, making them highly vulnerable to attack vectors such as cloning, relay attacks, and signal interception. This study explores an AI-powered adaptive authentication framework designed to overcome these shortcomings by integrating machine learning, anomaly detection, behavioral analytics, and contextual risk assessment. Grounded in the principles of Zero Trust Architecture, the proposed framework emphasizes continuous verification, least privilege access, and secure communication. Through a comprehensive literature review, this research evaluates current vulnerabilities and highlights AI-driven solutions to provide a scalable, resilient, and proactive defense. Ultimately, the research findings conclude that adopting AI-powered adaptive authentication is a strategic imperative for securing the future of electric mobility and strengthening digital trust across the ecosystem. Keywords: weak authentication, RFID, NFC, ML, AI-powered adaptive authentication, relay attacks, cloning, eavesdropping, MITM attacks, Zero Trust Architecture",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2508.19465v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2508.19465v1"
+    },
+    {
+      "id": "2508.11812v1",
+      "title": "Securing Sideways: Thwarting Lateral Movement by Implementing Active Directory Tiering",
+      "authors": [
+        "Tyler Schroder",
+        "Sohee Kim Park"
+      ],
+      "published": "2025-08-15T21:40:31+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.CY",
+        "cs.NI",
+        "eess.SY"
+      ],
+      "abstract": "The advancement of computing equipment and the advances in services over the Internet has allowed corporations, higher education, and many other organizations to pursue the shared computing network environment. A requirement for shared computing environments is a centralized identity system to authenticate and authorize user access. An organization's digital identity plane is a prime target for cyber threat actors. When compromised, identities can be exploited to steal credentials, create unauthorized accounts, and manipulate permissions-enabling attackers to gain control of the network and undermine its confidentiality, availability, and integrity. Cybercrime losses reached a record of 16.6 B in the United States in 2024. For organizations using Microsoft software, Active Directory is the on-premises identity system of choice. In this article, we examine the challenge of security compromises in Active Directory (AD) environments and present effective strategies to prevent credential theft and limit lateral movement by threat actors. Our proposed approaches aim to confine the movement of compromised credentials, preventing significant privilege escalation and theft. We argue that through our illustration of real-world scenarios, tiering can halt lateral movement and advanced cyber-attacks, thus reducing ransom escalation. Our work bridges a gap in existing literature by combining technical guidelines with theoretical arguments in support of tiering, positioning it as a vital component of modern cybersecurity strategy even though it cannot function in isolation. As the hardware advances and the cloud sourced services along with AI is advancing with unprecedented speed, we think it is important for security experts and the business to work together and start designing and developing software and frameworks to classify devices automatically and accurately within the tiered structure.",
+      "estimated_pages": 11,
+      "filename": "least_privilege_ai_2508.11812v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2508.11812v1"
+    },
+    {
+      "id": "2507.06742v1",
+      "title": "PenTest2.0: Towards Autonomous Privilege Escalation Using GenAI",
+      "authors": [
+        "Haitham S. Al-Sinani",
+        "Chris J. Mitchell"
+      ],
+      "published": "2025-07-09T10:56:32+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Ethical hacking today relies on highly skilled practitioners executing complex sequences of commands, which is inherently time-consuming, difficult to scale, and prone to human error. To help mitigate these limitations, we previously introduced 'PenTest++', an AI-augmented system combining automation with generative AI supporting ethical hacking workflows. However, a key limitation of PenTest++ was its lack of support for privilege escalation, a crucial element of ethical hacking. In this paper we present 'PenTest2.0', a substantial evolution of PenTest++ supporting automated privilege escalation driven entirely by Large Language Model reasoning. It also incorporates several significant enhancements: 'Retrieval-Augmented Generation', including both one-line and offline modes; 'Chain-of-Thought' prompting for intermediate reasoning; persistent 'PenTest Task Trees' to track goal progression across turns; and the optional integration of human-authored hints. We describe how it operates, present a proof-of-concept prototype, and discuss its benefits and limitations. We also describe application of the system to a controlled Linux target, showing it can carry out multi-turn, adaptive privilege escalation. We explain the rationale behind its core design choices, and provide comprehensive testing results and cost analysis. Our findings indicate that 'PenTest2.0' represents a meaningful step toward practical, scalable, AI-automated penetration testing, whilst highlighting the shortcomings of generative AI systems, particularly their sensitivity to prompt structure, execution context, and semantic drift, reinforcing the need for further research and refinement in this emerging space.\n  Keywords: AI, Ethical Hacking, Privilege Escalation, GenAI, ChatGPT, LLM (Large Language Model), HITL (Human-in-the-Loop)",
+      "estimated_pages": 45,
+      "filename": "least_privilege_ai_2507.06742v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2507.06742v1"
+    },
+    {
+      "id": "2506.00197v1",
+      "title": "When GPT Spills the Tea: Comprehensive Assessment of Knowledge File Leakage in GPTs",
+      "authors": [
+        "Xinyue Shen",
+        "Yun Shen",
+        "Michael Backes",
+        "Yang Zhang"
+      ],
+      "published": "2025-05-30T20:08:08+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "Knowledge files have been widely used in large language model (LLM) agents, such as GPTs, to improve response quality. However, concerns about the potential leakage of knowledge files have grown significantly. Existing studies demonstrate that adversarial prompts can induce GPTs to leak knowledge file content. Yet, it remains uncertain whether additional leakage vectors exist, particularly given the complex data flows across clients, servers, and databases in GPTs. In this paper, we present a comprehensive risk assessment of knowledge file leakage, leveraging a novel workflow inspired by Data Security Posture Management (DSPM). Through the analysis of 651,022 GPT metadata, 11,820 flows, and 1,466 responses, we identify five leakage vectors: metadata, GPT initialization, retrieval, sandboxed execution environments, and prompts. These vectors enable adversaries to extract sensitive knowledge file data such as titles, content, types, and sizes. Notably, the activation of the built-in tool Code Interpreter leads to a privilege escalation vulnerability, enabling adversaries to directly download original knowledge files with a 95.95% success rate. Further analysis reveals that 28.80% of leaked files are copyrighted, including digital copies from major publishers and internal materials from a listed company. In the end, we provide actionable solutions for GPT builders and platform providers to secure the GPT data supply chain.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2506.00197v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2506.00197v1"
+    },
+    {
+      "id": "2505.24019v1",
+      "title": "LLM Agents Should Employ Security Principles",
+      "authors": [
+        "Kaiyuan Zhang",
+        "Zian Su",
+        "Pin-Yu Chen",
+        "Elisa Bertino",
+        "Xiangyu Zhang",
+        "Ninghui Li"
+      ],
+      "published": "2025-05-29T21:39:08+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Large Language Model (LLM) agents show considerable promise for automating complex tasks using contextual reasoning; however, interactions involving multiple agents and the system's susceptibility to prompt injection and other forms of context manipulation introduce new vulnerabilities related to privacy leakage and system exploitation. This position paper argues that the well-established design principles in information security, which are commonly referred to as security principles, should be employed when deploying LLM agents at scale. Design principles such as defense-in-depth, least privilege, complete mediation, and psychological acceptability have helped guide the design of mechanisms for securing information systems over the last five decades, and we argue that their explicit and conscientious adoption will help secure agentic systems. To illustrate this approach, we introduce AgentSandbox, a conceptual framework embedding these security principles to provide safeguards throughout an agent's life-cycle. We evaluate with state-of-the-art LLMs along three dimensions: benign utility, attack utility, and attack success rate. AgentSandbox maintains high utility for its intended functions under both benign and adversarial evaluations while substantially mitigating privacy risks. By embedding secure design principles as foundational elements within emerging LLM agent protocols, we aim to promote trustworthy agent ecosystems aligned with user privacy expectations and evolving regulatory requirements.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2505.24019v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2505.24019v1"
+    },
+    {
+      "id": "2505.23792v1",
+      "title": "Zero-Trust Foundation Models: A New Paradigm for Secure and Collaborative Artificial Intelligence for Internet of Things",
+      "authors": [
+        "Kai Li",
+        "Conggai Li",
+        "Xin Yuan",
+        "Shenghong Li",
+        "Sai Zou",
+        "Syed Sohail Ahmed",
+        "Wei Ni",
+        "Dusit Niyato",
+        "Abbas Jamalipour",
+        "Falko Dressler",
+        "Ozgur B. Akan"
+      ],
+      "published": "2025-05-26T06:44:31+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "This paper focuses on Zero-Trust Foundation Models (ZTFMs), a novel paradigm that embeds zero-trust security principles into the lifecycle of foundation models (FMs) for Internet of Things (IoT) systems. By integrating core tenets, such as continuous verification, least privilege access (LPA), data confidentiality, and behavioral analytics into the design, training, and deployment of FMs, ZTFMs can enable secure, privacy-preserving AI across distributed, heterogeneous, and potentially adversarial IoT environments. We present the first structured synthesis of ZTFMs, identifying their potential to transform conventional trust-based IoT architectures into resilient, self-defending ecosystems. Moreover, we propose a comprehensive technical framework, incorporating federated learning (FL), blockchain-based identity management, micro-segmentation, and trusted execution environments (TEEs) to support decentralized, verifiable intelligence at the network edge. In addition, we investigate emerging security threats unique to ZTFM-enabled systems and evaluate countermeasures, such as anomaly detection, adversarial training, and secure aggregation. Through this analysis, we highlight key open research challenges in terms of scalability, secure orchestration, interpretable threat attribution, and dynamic trust calibration. This survey lays a foundational roadmap for secure, intelligent, and trustworthy IoT infrastructures powered by FMs.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2505.23792v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2505.23792v1"
+    },
+    {
+      "id": "2505.12490v3",
+      "title": "Improving Google A2A Protocol: Protecting Sensitive Data and Mitigating Unintended Harms in Multi-Agent Systems",
+      "authors": [
+        "Yedidel Louck",
+        "Ariel Stulman",
+        "Amit Dvir"
+      ],
+      "published": "2025-05-18T16:25:21+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Googles A2A protocol provides a secure communication framework for AI agents but demonstrates critical limitations when handling highly sensitive information such as payment credentials and identity documents. These gaps increase the risk of unintended harms, including unauthorized disclosure, privilege escalation, and misuse of private data in generative multi-agent environments. In this paper, we identify key weaknesses of A2A: insufficient token lifetime control, lack of strong customer authentication, overbroad access scopes, and missing consent flows. We propose protocol-level enhancements grounded in a structured threat model for semi-trusted multi-agent systems. Our refinements introduce explicit consent orchestration, ephemeral scoped tokens, and direct user-to-service data channels to minimize exposure across time, context, and topology. Empirical evaluation using adversarial prompt injection tests shows that the enhanced protocol substantially reduces sensitive data leakage while maintaining low communication latency. Comparative analysis highlights the advantages of our approach over both the original A2A specification and related academic proposals. These contributions establish a practical path for evolving A2A into a privacy-preserving framework that mitigates unintended harms in multi-agent generative AI systems.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2505.12490v3.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2505.12490v3"
+    },
+    {
+      "id": "2504.11984v1",
+      "title": "The Evolution of Zero Trust Architecture (ZTA) from Concept to Implementation",
+      "authors": [
+        "Md Nasiruzzaman",
+        "Maaruf Ali",
+        "Iftekhar Salam",
+        "Mahdi H. Miraz"
+      ],
+      "published": "2025-04-16T11:26:54+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.NI"
+      ],
+      "abstract": "Zero Trust Architecture (ZTA) is one of the paradigm changes in cybersecurity, from the traditional perimeter-based model to perimeterless. This article studies the core concepts of ZTA, its beginning, a few use cases and future trends. Emphasising the always verify and least privilege access, some key tenets of ZTA have grown to be integration technologies like Identity Management, Multi-Factor Authentication (MFA) and real-time analytics. ZTA is expected to strengthen cloud environments, education, work environments (including from home) while controlling other risks like lateral movement and insider threats. Despite ZTA's benefits, it comes with challenges in the form of complexity, performance overhead and vulnerabilities in the control plane. These require phased implementation and continuous refinement to keep up with evolving organisational needs and threat landscapes. Emerging technologies, such as Artificial Intelligence (AI) and Machine Learning (ML) will further automate policy enforcement and threat detection in keeping up with dynamic cyber threats.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2504.11984v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2504.11984v1"
+    },
+    {
+      "id": "2504.07287v2",
+      "title": "Hybrid Privilege Escalation and Remote Code Execution Exploit Chains",
+      "authors": [
+        "Miguel Tulla",
+        "Andrea Vignali",
+        "Christian Colon",
+        "Giancarlo Sperli",
+        "Simon Pietro Romano",
+        "Masataro Asai",
+        "Una-May O'Reilly",
+        "Erik Hemberg"
+      ],
+      "published": "2025-04-09T21:27:54+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Research on exploit chains predominantly focuses on sequences with one type of exploit, e.g., either escalating privileges on a machine or executing remote code. In networks, hybrid exploit chains are critical because of their linkable vulnerabilities. Moreover, developing hybrid exploit chains is challenging because it requires understanding the diverse and independent dependencies and outcomes. We present hybrid chains encompassing privilege escalation (PE) and remote code execution (RCE) exploits. These chains are executable and can span large networks, where numerous potential exploit combinations arise from the large array of network assets, their hardware, software, configurations, and vulnerabilities. The chains are generated by ALFA-Chains, an AI-supported framework for the automated discovery of multi-step PE and RCE exploit chains in networks across arbitrary environments and segmented networks. Through an LLM-based classification, ALFA-Chains describes exploits in Planning Domain Description Language (PDDL). PDDL exploit and network descriptions then use off-the-shelf AI planners to find multiple exploit chains. ALFA-Chains finds 12 unknown chains on an example with a known three-step chain. A red-team exercise validates the executability with Metasploit. ALFA-Chains is efficient, finding an exploit chain in 0.01 seconds in an enterprise network with 83 vulnerabilities, 20 hosts, and 6 subnets. In addition, it is scalable, it finds an exploit chain in an industrial network with 114 vulnerabilities, 200 hosts, and 6 subnets in 3.16 seconds. It is comprehensive, finding 13 exploit chains in 26.26 seconds in the network. Finally, ALFA-Chains demonstrates flexibility across different exploit sources, ability to generalize across diverse network types, and robustness in discovering chains under constrained privilege assumptions.",
+      "estimated_pages": 16,
+      "filename": "least_privilege_ai_2504.07287v2.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2504.07287v2"
+    },
+    {
+      "id": "2503.15547v2",
+      "title": "Prompt Flow Integrity to Prevent Privilege Escalation in LLM Agents",
+      "authors": [
+        "Juhee Kim",
+        "Woohyuk Choi",
+        "Byoungyoung Lee"
+      ],
+      "published": "2025-03-17T05:27:57+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "Large Language Models (LLMs) are combined with tools to create powerful LLM agents that provide a wide range of services. Unlike traditional software, LLM agent's behavior is determined at runtime by natural language prompts from either user or tool's data. This flexibility enables a new computing paradigm with unlimited capabilities and programmability, but also introduces new security risks, vulnerable to privilege escalation attacks. Moreover, user prompts are prone to be interpreted in an insecure way by LLM agents, creating non-deterministic behaviors that can be exploited by attackers. To address these security risks, we propose Prompt Flow Integrity (PFI), a system security-oriented solution to prevent privilege escalation in LLM agents. Analyzing the architectural characteristics of LLM agents, PFI features three mitigation techniques -- i.e., agent isolation, secure untrusted data processing, and privilege escalation guardrails. Our evaluation result shows that PFI effectively mitigates privilege escalation attacks while successfully preserving the utility of LLM agents.",
+      "estimated_pages": 10,
+      "filename": "least_privilege_ai_2503.15547v2.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2503.15547v2"
+    },
+    {
+      "id": "2411.17539v1",
+      "title": "AI-Augmented Ethical Hacking: A Practical Examination of Manual Exploitation and Privilege Escalation in Linux Environments",
+      "authors": [
+        "Haitham S. Al-Sinani",
+        "Chris J. Mitchell"
+      ],
+      "published": "2024-11-26T15:55:15+00:00",
+      "year": 2024,
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.NI"
+      ],
+      "abstract": "This study explores the application of generative AI (GenAI) within manual exploitation and privilege escalation tasks in Linux-based penetration testing environments, two areas critical to comprehensive cybersecurity assessments. Building on previous research into the role of GenAI in the ethical hacking lifecycle, this paper presents a hands-on experimental analysis conducted in a controlled virtual setup to evaluate the utility of GenAI in supporting these crucial, often manual, tasks. Our findings demonstrate that GenAI can streamline processes, such as identifying potential attack vectors and parsing complex outputs for sensitive data during privilege escalation. The study also identifies key benefits and challenges associated with GenAI, including enhanced efficiency and scalability, alongside ethical concerns related to data privacy, unintended discovery of vulnerabilities, and potential for misuse. This work contributes to the growing field of AI-assisted cybersecurity by emphasising the importance of human-AI collaboration, especially in contexts requiring careful decision-making, rather than the complete replacement of human input.",
+      "estimated_pages": 101,
+      "filename": "least_privilege_ai_2411.17539v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2411.17539v1"
+    },
+    {
+      "id": "2410.18291v1",
+      "title": "Enhancing Enterprise Security with Zero Trust Architecture",
+      "authors": [
+        "Mahmud Hasan"
+      ],
+      "published": "2024-10-23T21:53:16+00:00",
+      "year": 2024,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Zero Trust Architecture (ZTA) represents a transformative approach to modern cybersecurity, directly addressing the shortcomings of traditional perimeter-based security models. With the rise of cloud computing, remote work, and increasingly sophisticated cyber threats, perimeter defenses have proven ineffective at mitigating risks, particularly those involving insider threats and lateral movement within networks. ZTA shifts the security paradigm by assuming that no user, device, or system can be trusted by default, requiring continuous verification and the enforcement of least privilege access for all entities. This paper explores the key components of ZTA, such as identity and access management (IAM), micro-segmentation, continuous monitoring, and behavioral analytics, and evaluates their effectiveness in reducing vulnerabilities across diverse sectors, including finance, healthcare, and technology. Through case studies and industry reports, the advantages of ZTA in mitigating insider threats and minimizing attack surfaces are discussed. Additionally, the paper addresses the challenges faced during ZTA implementation, such as scalability, integration complexity, and costs, while providing best practices for overcoming these obstacles. Lastly, future research directions focusing on emerging technologies like AI, machine learning, blockchain, and their integration into ZTA are examined to enhance its capabilities further.",
+      "estimated_pages": 21,
+      "filename": "least_privilege_ai_2410.18291v1.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2410.18291v1"
+    },
+    {
+      "id": "2410.17141v4",
+      "title": "Towards Automated Penetration Testing: Introducing LLM Benchmark, Analysis, and Improvements",
+      "authors": [
+        "Isamu Isozaki",
+        "Manil Shrestha",
+        "Rick Console",
+        "Edward Kim"
+      ],
+      "published": "2024-10-22T16:18:41+00:00",
+      "year": 2024,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "abstract": "Hacking poses a significant threat to cybersecurity, inflicting billions of dollars in damages annually. To mitigate these risks, ethical hacking, or penetration testing, is employed to identify vulnerabilities in systems and networks. Recent advancements in large language models (LLMs) have shown potential across various domains, including cybersecurity. However, there is currently no comprehensive, open, automated, end-to-end penetration testing benchmark to drive progress and evaluate the capabilities of these models in security contexts. This paper introduces a novel open benchmark for LLM-based automated penetration testing, addressing this critical gap. We first evaluate the performance of LLMs, including GPT-4o and LLama 3.1-405B, using the state-of-the-art PentestGPT tool. Our findings reveal that while LLama 3.1 demonstrates an edge over GPT-4o, both models currently fall short of performing end-to-end penetration testing even with some minimal human assistance. Next, we advance the state-of-the-art and present ablation studies that provide insights into improving the PentestGPT tool. Our research illuminates the challenges LLMs face in each aspect of Pentesting, e.g. enumeration, exploitation, and privilege escalation. This work contributes to the growing body of knowledge on AI-assisted cybersecurity and lays the foundation for future research in automated penetration testing using large language models.",
+      "estimated_pages": 9,
+      "filename": "least_privilege_ai_2410.17141v4.pdf",
+      "query": "least_privilege_ai",
+      "url": "http://arxiv.org/abs/2410.17141v4"
+    },
+    {
+      "id": "2507.10584v2",
+      "title": "ARPaCCino: An Agentic-RAG for Policy as Code Compliance",
+      "authors": [
+        "Francesco Romeo",
+        "Luigi Arena",
+        "Francesco Blefari",
+        "Francesco Aurelio Pironti",
+        "Matteo Lupinacci",
+        "Angelo Furfaro"
+      ],
+      "published": "2025-07-11T12:36:33+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "abstract": "Policy as Code (PaC) is a paradigm that encodes security and compliance policies into machine-readable formats, enabling automated enforcement in Infrastructure as Code (IaC) environments. However, its adoption is hindered by the complexity of policy languages and the risk of misconfigurations. In this work, we present ARPaCCino, an agentic system that combines Large Language Models (LLMs), Retrieval-Augmented-Generation (RAG), and tool-based validation to automate the generation and verification of PaC rules. Given natural language descriptions of the desired policies, ARPaCCino generates formal Rego rules, assesses IaC compliance, and iteratively refines the IaC configurations to ensure conformance. Thanks to its modular agentic architecture and integration with external tools and knowledge bases, ARPaCCino supports policy validation across a wide range of technologies, including niche or emerging IaC frameworks. Experimental evaluation involving a Terraform-based case study demonstrates ARPaCCino's effectiveness in generating syntactically and semantically correct policies, identifying non-compliant infrastructures, and applying corrective modifications, even when using smaller, open-weight LLMs. Our results highlight the potential of agentic RAG architectures to enhance the automation, reliability, and accessibility of PaC workflows.",
+      "estimated_pages": 10,
+      "filename": "policy_as_code_ai_2507.10584v2.pdf",
+      "query": "policy_as_code_ai",
+      "url": "http://arxiv.org/abs/2507.10584v2"
+    },
+    {
+      "id": "2507.07901v3",
+      "title": "The Trust Fabric: Decentralized Interoperability and Economic Coordination for the Agentic Web",
+      "authors": [
+        "Sree Bhargavi Balija",
+        "Rekha Singal",
+        "Ramesh Raskar",
+        "Erfan Darzi",
+        "Raghu Bala",
+        "Thomas Hardjono",
+        "Ken Huang"
+      ],
+      "published": "2025-07-10T16:33:06+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "The fragmentation of AI agent ecosystems has created urgent demands for interoperability, trust, and economic coordination that current protocols -- including MCP (Hou et al., 2025), A2A (Habler et al., 2025), ACP (Liu et al., 2025), and Cisco's AGP (Edwards, 2025) -- cannot address at scale. We present the Nanda Unified Architecture, a decentralized framework built around three core innovations: fast DID-based agent discovery through distributed registries, semantic agent cards with verifiable credentials and composability profiles, and a dynamic trust layer that integrates behavioral attestations with policy compliance. The system introduces X42/H42 micropayments for economic coordination and MAESTRO, a security framework incorporating Synergetics' patented AgentTalk protocol (US Patent 12,244,584 B1) and secure containerization. Real-world deployments demonstrate 99.9 percent compliance in healthcare applications and substantial monthly transaction volumes with strong privacy guarantees. By unifying MIT's trust research with production deployments from Cisco and Synergetics, we show how cryptographic proofs and policy-as-code transform agents into trust-anchored participants in a decentralized economy (Lakshmanan, 2025; Sha, 2025). The result enables a globally interoperable Internet of Agents where trust becomes the native currency of collaboration across both enterprise and Web3 ecosystems.",
+      "estimated_pages": 10,
+      "filename": "policy_as_code_ai_2507.07901v3.pdf",
+      "query": "policy_as_code_ai",
+      "url": "http://arxiv.org/abs/2507.07901v3"
+    },
+    {
+      "id": "2502.01966v2",
+      "title": "Optimizing Spot Instance Reliability and Security Using Cloud-Native Data and Tools",
+      "authors": [
+        "Muhammad Saqib",
+        "Shubham Malhotra",
+        "Dipkumar Mehta",
+        "Jagdish Jangid",
+        "Fnu Yashu",
+        "Sachin Dixit"
+      ],
+      "published": "2025-02-04T03:25:01+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.DC",
+        "cs.ET",
+        "cs.SE"
+      ],
+      "abstract": "This paper represents \"Cloudlab\", a comprehensive, cloud - native laboratory designed to support network security research and training. Built on Google Cloud and adhering to GitOps methodologies, Cloudlab facilitates the the creation, testing, and deployment of secure, containerized workloads using Kubernetes and serverless architectures. The lab integrates tools like Palo Alto Networks firewalls, Bridgecrew for \"Security as Code,\" and automated GitHub workflows to establish a robust Continuous Integration/Continuous Machine Learning pipeline. By providing an adaptive and scalable environment, Cloudlab supports advanced security concepts such as role-based access control, Policy as Code, and container security. This initiative enables data scientists and engineers to explore cutting-edge practices in a dynamic cloud-native ecosystem, fostering innovation and improving operational resilience in modern IT infrastructures.",
+      "estimated_pages": 7,
+      "filename": "policy_as_code_ai_2502.01966v2.pdf",
+      "query": "policy_as_code_ai",
+      "url": "http://arxiv.org/abs/2502.01966v2"
+    },
+    {
+      "id": "2411.08640v1",
+      "title": "Towards Secure Intelligent O-RAN Architecture: Vulnerabilities, Threats and Promising Technical Solutions using LLMs",
+      "authors": [
+        "Mojdeh Karbalaee Motalleb",
+        "Chafika Benzaid",
+        "Tarik Taleb",
+        "Marcos Katz",
+        "Vahid Shah-Mansouri",
+        "JaeSeung Song"
+      ],
+      "published": "2024-11-13T14:31:52+00:00",
+      "year": 2024,
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "abstract": "The evolution of wireless communication systems will be fundamentally impacted by an open radio access network (O-RAN), a new concept defining an intelligent architecture with enhanced flexibility, openness, and the ability to slice services more efficiently. For all its promises, and like any technological advancement, O-RAN is not without risks that need to be carefully assessed and properly addressed to accelerate its wide adoption in future mobile networks. In this paper, we present an in-depth security analysis of the O-RAN architecture, discussing the potential threats that may arise in the different O-RAN architecture layers and their impact on the Confidentiality, Integrity, and Availability (CIA) triad. We also promote the potential of zero trust, Moving Target Defense (MTD), blockchain, and large language models(LLM) technologies in fortifying O-RAN's security posture. Furthermore, we numerically demonstrate the effectiveness of MTD in empowering robust deep reinforcement learning methods for dynamic network slice admission control in the O-RAN architecture. Moreover, we examine the effect of explainable AI (XAI) based on LLMs in securing the system.",
+      "estimated_pages": 10,
+      "filename": "policy_as_code_ai_2411.08640v1.pdf",
+      "query": "policy_as_code_ai",
+      "url": "http://arxiv.org/abs/2411.08640v1"
+    },
+    {
+      "id": "2406.18813v2",
+      "title": "Towards Secure Management of Edge-Cloud IoT Microservices using Policy as Code",
+      "authors": [
+        "Samodha Pallewatta",
+        "Muhammad Ali Babar"
+      ],
+      "published": "2024-06-27T01:03:23+00:00",
+      "year": 2024,
+      "categories": [
+        "cs.CR",
+        "cs.DC",
+        "cs.SE"
+      ],
+      "abstract": "IoT application providers increasingly use MicroService Architecture (MSA) to develop applications that convert IoT data into valuable information. The independently deployable and scalable nature of microservices enables dynamic utilization of edge and cloud resources provided by various service providers, thus improving performance. However, IoT data security should be ensured during multi-domain data processing and transmission among distributed and dynamically composed microservices. The ability to implement granular security controls at the microservices level has the potential to solve this. To this end, edge-cloud environments require intricate and scalable security frameworks that operate across multi-domain environments to enforce various security policies during the management of microservices (i.e., initial placement, scaling, migration, and dynamic composition), considering the sensitivity of the IoT data. To address the lack of such a framework, we propose an architectural framework that uses Policy-as-Code to ensure secure microservice management within multi-domain edge-cloud environments. The proposed framework contains a \"control plane\" to intelligently and dynamically utilise and configure cloud-native (i.e., container orchestrators and service mesh) technologies to enforce security policies. We implement a prototype of the proposed framework using open-source cloud-native technologies such as Docker, Kubernetes, Istio, and Open Policy Agent to validate the framework. Evaluations verify our proposed framework's ability to enforce security policies for distributed microservices management, thus harvesting the MSA characteristics to ensure IoT application security needs.",
+      "estimated_pages": 16,
+      "filename": "policy_as_code_ai_2406.18813v2.pdf",
+      "query": "policy_as_code_ai",
+      "url": "http://arxiv.org/abs/2406.18813v2"
+    },
+    {
+      "id": "2408.10634v1",
+      "title": "Industry Perception of Security Challenges with Identity Access Management Solutions",
+      "authors": [
+        "Abhishek Pratap Singh",
+        "Ievgeniia Kuzminykh",
+        "Bogdan Ghita"
+      ],
+      "published": "2024-08-20T08:19:58+00:00",
+      "year": 2024,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "Identity Access Management (IAM) is an area posing significant challenges, particularly in the context of remote connectivity and distributed or cloud-based systems. A wide range of technical solutions have been proposed by prior research, but the integration of these solutions in the commercial sector represent steps that significantly hamper their acceptance. The study aims to outline the current perception and security issues associated with IAMs solutions from the perspective of the beneficiaries. The analysis relies on a series of interviews with 45 cyber security professionals from different organisations all over the world. As results showed, cloud IAM solutions and on premises IAM solutions are affected by different issues. The main challenges for cloud based IAM solutions were Default configurations, Poor management of Non-Human Identities such as Service accounts, Poor certificate management, Poor API configuration and limited Log analysis. In contrast, the challenges for on premise solutions were Multi Factor Authentication, insecure Default configurations, Lack of skillsets required to manage IAM solution securely, Poor password policies, Unpatched vulnerabilities, and compromise of Single-Sign on leading to compromise of multiple entities. The study also determined that, regardless the evolving functionality of cloud based IAM solutions, 41% of respondents believe that the on premise solutions more secure than the cloud-based ones. As pointed out by the respondents, cloud IAM may potentially expose organisations to a wider range of vulnerabilities due to the complexity of the underlying solutions, challenges with managing permissions, and compliance to dynamic IAM policies.",
+      "estimated_pages": 10,
+      "filename": "non_human_identity_2408.10634v1.pdf",
+      "query": "non_human_identity",
+      "url": "http://arxiv.org/abs/2408.10634v1"
+    },
+    {
+      "id": "2510.19324v1",
+      "title": "Authorization of Knowledge-base Agents in an Intent-based Management Function",
+      "authors": [
+        "Loay Abdelrazek",
+        "Leyli Kara\u00e7ay",
+        "Marin Orlic"
+      ],
+      "published": "2025-10-22T07:38:01+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "As networks move toward the next-generation 6G, Intent-based Management (IbM) systems are increasingly adopted to simplify and automate network management by translating high-level intents into low-level configurations. Within these systems, agents play a critical role in monitoring current state of the network, gathering data, and enforcing actions across the network to fulfill the intent. However, ensuring secure and fine-grained authorization of agents remains a significant challenge, especially in dynamic and multi-tenant environments. Traditional models such as Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC) and Relational-Based Access Control (RelBAC) often lack the flexibility to accommodate the evolving context and granularity required by intentbased operations. In this paper, we propose an enhanced authorization framework that integrates contextual and functional attributes with agent roles to achieve dynamic, policy-driven access control. By analyzing agent functionalities, our approach ensures that agents are granted only the minimal necessary privileges towards knowledge graphs.",
+      "estimated_pages": 10,
+      "filename": "rbac_ai_agents_2510.19324v1.pdf",
+      "query": "rbac_ai_agents",
+      "url": "http://arxiv.org/abs/2510.19324v1"
+    },
+    {
+      "id": "2509.11431v1",
+      "title": "Securing AI Agents: Implementing Role-Based Access Control for Industrial Applications",
+      "authors": [
+        "Aadil Gani Ganie"
+      ],
+      "published": "2025-09-14T20:58:08+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "The emergence of Large Language Models (LLMs) has significantly advanced solutions across various domains, from political science to software development. However, these models are constrained by their training data, which is static and limited to information available up to a specific date. Additionally, their generalized nature often necessitates fine-tuning -- whether for classification or instructional purposes -- to effectively perform specific downstream tasks. AI agents, leveraging LLMs as their core, mitigate some of these limitations by accessing external tools and real-time data, enabling applications such as live weather reporting and data analysis. In industrial settings, AI agents are transforming operations by enhancing decision-making, predictive maintenance, and process optimization. For example, in manufacturing, AI agents enable near-autonomous systems that boost productivity and support real-time decision-making. Despite these advancements, AI agents remain vulnerable to security threats, including prompt injection attacks, which pose significant risks to their integrity and reliability. To address these challenges, this paper proposes a framework for integrating Role-Based Access Control (RBAC) into AI agents, providing a robust security guardrail. This framework aims to support the effective and scalable deployment of AI agents, with a focus on on-premises implementations.",
+      "estimated_pages": 10,
+      "filename": "rbac_ai_agents_2509.11431v1.pdf",
+      "query": "rbac_ai_agents",
+      "url": "http://arxiv.org/abs/2509.11431v1"
+    },
+    {
+      "id": "2509.02449v1",
+      "title": "KubeIntellect: A Modular LLM-Orchestrated Agent Framework for End-to-End Kubernetes Management",
+      "authors": [
+        "Mohsen Seyedkazemi Ardebili",
+        "Andrea Bartolini"
+      ],
+      "published": "2025-09-02T15:57:25+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.DC"
+      ],
+      "abstract": "Kubernetes has become the foundation of modern cloud-native infrastructure, yet its management remains complex and fragmented. Administrators must navigate a vast API surface, manage heterogeneous workloads, and coordinate tasks across disconnected tools - often requiring precise commands, YAML configuration, and contextual expertise.\n  This paper presents KubeIntellect, a Large Language Model (LLM)-powered system for intelligent, end-to-end Kubernetes control. Unlike existing tools that focus on observability or static automation, KubeIntellect supports natural language interaction across the full spectrum of Kubernetes API operations, including read, write, delete, exec, access control, lifecycle, and advanced verbs. The system uses modular agents aligned with functional domains (e.g., logs, metrics, RBAC), orchestrated by a supervisor that interprets user queries, maintains workflow memory, invokes reusable tools, or synthesizes new ones via a secure Code Generator Agent.\n  KubeIntellect integrates memory checkpoints, human-in-the-loop clarification, and dynamic task sequencing into a structured orchestration framework. Evaluation results show a 93% tool synthesis success rate and 100% reliability across 200 natural language queries, demonstrating the system's ability to operate efficiently under diverse workloads. An automated demo environment is provided on Azure, with additional support for local testing via kind. This work introduces a new class of interpretable, extensible, and LLM-driven systems for managing complex infrastructure.",
+      "estimated_pages": 10,
+      "filename": "rbac_ai_agents_2509.02449v1.pdf",
+      "query": "rbac_ai_agents",
+      "url": "http://arxiv.org/abs/2509.02449v1"
+    },
+    {
+      "id": "2504.17669v2",
+      "title": "Towards a HIPAA Compliant Agentic AI System in Healthcare",
+      "authors": [
+        "Subash Neupane",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "published": "2025-04-24T15:38:20+00:00",
+      "year": 2025,
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.ET"
+      ],
+      "abstract": "Agentic AI systems powered by Large Language Models (LLMs) as their foundational reasoning engine, are transforming clinical workflows such as medical report generation and clinical summarization by autonomously analyzing sensitive healthcare data and executing decisions with minimal human oversight. However, their adoption demands strict compliance with regulatory frameworks such as Health Insurance Portability and Accountability Act (HIPAA), particularly when handling Protected Health Information (PHI). This work-in-progress paper introduces a HIPAA-compliant Agentic AI framework that enforces regulatory compliance through dynamic, context-aware policy enforcement. Our framework integrates three core mechanisms: (1) Attribute-Based Access Control (ABAC) for granular PHI governance, (2) a hybrid PHI sanitization pipeline combining regex patterns and BERT-based model to minimize leakage, and (3) immutable audit trails for compliance verification.",
+      "estimated_pages": 10,
+      "filename": "rbac_ai_agents_2504.17669v2.pdf",
+      "query": "rbac_ai_agents",
+      "url": "http://arxiv.org/abs/2504.17669v2"
+    }
+  ],
+  "queries": [
+    {
+      "name": "workload_identity_access_control",
+      "query": "abs:(\"workload identity\" OR \"machine identity\" OR \"agent identity\") AND (\"access control\" OR RBAC OR authorization)",
+      "max_results": 50
+    },
+    {
+      "name": "least_privilege_ai",
+      "query": "abs:(\"least privilege\" OR \"privilege escalation\" OR \"just-in-time access\") AND (AI OR agent* OR autonomous)",
+      "max_results": 50
+    },
+    {
+      "name": "policy_as_code_ai",
+      "query": "abs:(\"policy as code\" OR \"admission control\") AND (AI OR \"machine learning\" OR agent*) AND (security OR authorization)",
+      "max_results": 50
+    },
+    {
+      "name": "non_human_identity",
+      "query": "abs:(\"non-human identity\" OR \"service account\") AND (security OR authentication) AND (cloud OR kubernetes)",
+      "max_results": 50
+    },
+    {
+      "name": "rbac_ai_agents",
+      "query": "abs:(RBAC OR \"attribute based access control\" OR ABAC) AND (AI OR autonomous OR agent*)",
+      "max_results": 50
+    }
+  ]
+}

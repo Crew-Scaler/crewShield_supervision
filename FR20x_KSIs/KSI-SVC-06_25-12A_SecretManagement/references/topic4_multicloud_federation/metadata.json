@@ -1,0 +1,252 @@
+{
+  "search_date": "2025-12-25T08:16:58.496772",
+  "total_papers_searched": 253,
+  "papers_2024_2025": 190,
+  "top_10_downloaded": 10,
+  "papers_archived": 180,
+  "queries_used": [
+    "cat:cs.CR AND (all:\"key management\" OR all:\"key distribution\")",
+    "cat:cs.CR AND all:\"cloud encryption\"",
+    "cat:cs.CR AND all:\"federated learning\" AND all:\"encryption\"",
+    "cat:cs.CR AND all:\"multi-party computation\"",
+    "cat:cs.CR AND all:\"threshold signature\"",
+    "cat:cs.CR AND all:\"threshold encryption\"",
+    "cat:cs.CR AND all:\"secret sharing\"",
+    "cat:cs.CR AND all:\"homomorphic encryption\"",
+    "cat:cs.CR AND all:\"multi-key homomorphic\"",
+    "cat:cs.CR AND all:\"cloud security\" AND all:\"key\"",
+    "cat:cs.CR AND all:\"secure aggregation\"",
+    "cat:cs.CR AND all:\"key agreement\"",
+    "cat:cs.DC AND all:\"key management\"",
+    "cat:cs.DC AND all:\"distributed encryption\""
+  ],
+  "papers": [
+    {
+      "id": "2510.16331v1",
+      "url": "http://arxiv.org/abs/2510.16331v1",
+      "pdf_url": "http://arxiv.org/pdf/2510.16331v1.pdf",
+      "title": "Efficient and Privacy-Preserving Binary Dot Product via Multi-Party Computation",
+      "authors": [
+        "Fatemeh Jafarian Dehkordi",
+        "Elahe Vedadi",
+        "Alireza Feizbakhsh",
+        "Yasaman Keshtkarjahromi",
+        "Hulya Seferoglu"
+      ],
+      "abstract": "Striking a balance between protecting data privacy and enabling collaborative computation is a critical challenge for distributed machine learning. While privacy-preserving techniques for federated learning have been extensively developed, methods for scenarios involving bitwise operations, such as tree-based vertical federated learning (VFL), are still underexplored. Traditional mechanisms, including Shamir's secret sharing and multi-party computation (MPC), are not optimized for bitwise operations over binary data, particularly in settings where each participant holds a different part of the binary vector. This paper addresses the limitations of existing methods by proposing a novel binary multi-party computation (BiMPC) framework. The BiMPC mechanism facilitates privacy-preserving bitwise operations, with a particular focus on dot product computations of binary vectors, ensuring the privacy of each individual bit. The core of BiMPC is a novel approach called Dot Product via Modular Addition (DoMA), which uses regular and modular additions for efficient binary dot product calculation. To ensure privacy, BiMPC uses random masking in a higher field for linear computations and a three-party oblivious transfer (triot) protocol for non-linear binary operations. The privacy guarantees of the BiMPC framework are rigorously analyzed, demonstrating its efficiency and scalability in distributed settings.",
+      "published": "2025-10-18T03:35:42Z",
+      "year": 2025,
+      "updated": "2025-10-18T03:35:42Z",
+      "categories": [
+        "cs.CR",
+        "cs.CC"
+      ],
+      "relevance_score": 53.0,
+      "downloaded": true,
+      "filename": "01_2510.16331v1.pdf"
+    },
+    {
+      "id": "2509.21147v1",
+      "url": "http://arxiv.org/abs/2509.21147v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.21147v1.pdf",
+      "title": "Emerging Paradigms for Securing Federated Learning Systems",
+      "authors": [
+        "Amr Akmal Abouelmagd",
+        "Amr Hilal"
+      ],
+      "abstract": "Federated Learning (FL) facilitates collaborative model training while keeping raw data decentralized, making it a conduit for leveraging the power of IoT devices while maintaining privacy of the locally collected data. However, existing privacy- preserving techniques present notable hurdles. Methods such as Multi-Party Computation (MPC), Homomorphic Encryption (HE), and Differential Privacy (DP) often incur high compu- tational costs and suffer from limited scalability. This survey examines emerging approaches that hold promise for enhancing both privacy and efficiency in FL, including Trusted Execution Environments (TEEs), Physical Unclonable Functions (PUFs), Quantum Computing (QC), Chaos-Based Encryption (CBE), Neuromorphic Computing (NC), and Swarm Intelligence (SI). For each paradigm, we assess its relevance to the FL pipeline, outlining its strengths, limitations, and practical considerations. We conclude by highlighting open challenges and prospective research avenues, offering a detailed roadmap for advancing secure and scalable FL systems.",
+      "published": "2025-09-25T13:34:44Z",
+      "year": 2025,
+      "updated": "2025-09-25T13:34:44Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "relevance_score": 52.0,
+      "downloaded": true,
+      "filename": "02_2509.21147v1.pdf"
+    },
+    {
+      "id": "2507.13591v2",
+      "url": "http://arxiv.org/abs/2507.13591v2",
+      "pdf_url": "http://arxiv.org/pdf/2507.13591v2.pdf",
+      "title": "FuSeFL: Fully Secure and Scalable Cross-Silo Federated Learning",
+      "authors": [
+        "Sahar Ghoflsaz Ghinani",
+        "Elaheh Sadredini"
+      ],
+      "abstract": "Federated Learning (FL) enables collaborative model training without centralizing client data, making it attractive for privacy-sensitive domains. While existing approaches employ cryptographic techniques such as homomorphic encryption, differential privacy, or secure multiparty computation to mitigate inference attacks-including model inversion, membership inference, and gradient leakage-they often suffer from high computational, communication, or memory overheads. Moreover, many methods overlook the confidentiality of the global model itself, which may be proprietary and sensitive. These challenges limit the practicality of secure FL, especially in cross-silo deployments involving large datasets and strict compliance requirements. We present FuSeFL, a fully secure and scalable FL scheme designed for cross-silo settings. FuSeFL decentralizes training across client pairs using lightweight secure multiparty computation (MPC), while confining the server's role to secure aggregation. This design eliminates server bottlenecks, avoids data offloading, and preserves full confidentiality of data, model, and updates throughout training. FuSeFL defends against inference threats, achieves up to 95% lower communication latency and 50% lower server memory usage, and improves accuracy over prior secure FL solutions, demonstrating strong security and efficiency at scale.",
+      "published": "2025-07-18T00:50:44Z",
+      "year": 2025,
+      "updated": "2025-08-23T00:34:03Z",
+      "categories": [
+        "cs.CR",
+        "cs.LG"
+      ],
+      "relevance_score": 48.0,
+      "downloaded": true,
+      "filename": "03_2507.13591v2.pdf"
+    },
+    {
+      "id": "2512.06747v1",
+      "url": "http://arxiv.org/abs/2512.06747v1",
+      "pdf_url": "http://arxiv.org/pdf/2512.06747v1.pdf",
+      "title": "PrivLLMSwarm: Privacy-Preserving LLM-Driven UAV Swarms for Secure IoT Surveillance",
+      "authors": [
+        "Jifar Wakuma Ayana",
+        "Huang Qiming"
+      ],
+      "abstract": "Large Language Models (LLMs) are emerging as powerful enablers for autonomous reasoning and natural-language coordination in unmanned aerial vehicle (UAV) swarms operating within Internet of Things (IoT) environments. However, existing LLM-driven UAV systems process sensitive operational data in plaintext, exposing them to privacy and security risks. This work introduces PrivLLMSwarm, a privacy-preserving framework that performs secure LLM inference for UAV swarm coordination through Secure Multi-Party Computation (MPC). The framework incorporates MPC-optimized transformer components with efficient approximations of nonlinear activations, enabling practical encrypted inference on resource-constrained aerial platforms. A fine-tuned GPT-based command generator, enhanced through reinforcement learning in simulation, provides reliable instructions while maintaining confidentiality. Experimental evaluation in urban-scale simulations demonstrates that PrivLLMSwarm achieves high semantic accuracy, low encrypted inference latency, and robust formation control under privacy constraints. Comparative analysis shows PrivLLMSwarm offers a superior privacy-utility balance compared to differential privacy, federated learning, and plaintext baselines. To support reproducibility, the full implementation including source code, MPC components, and a synthetic dataset is publicly available. PrivLLMSwarm establishes a practical foundation for secure, LLM-enabled UAV swarms in privacy-sensitive IoT applications including smart-city monitoring and emergency response.",
+      "published": "2025-12-07T09:20:14Z",
+      "year": 2025,
+      "updated": "2025-12-07T09:20:14Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "relevance_score": 47.0,
+      "downloaded": true,
+      "filename": "04_2512.06747v1.pdf"
+    },
+    {
+      "id": "2509.25072v1",
+      "url": "http://arxiv.org/abs/2509.25072v1",
+      "pdf_url": "http://arxiv.org/pdf/2509.25072v1.pdf",
+      "title": "Optimizing Privacy-Preserving Primitives to Support LLM-Scale Applications",
+      "authors": [
+        "Yaman Jandali",
+        "Ruisi Zhang",
+        "Nojan Sheybani",
+        "Farinaz Koushanfar"
+      ],
+      "abstract": "Privacy-preserving technologies have introduced a paradigm shift that allows for realizable secure computing in real-world systems. The significant barrier to the practical adoption of these primitives is the computational and communication overhead that is incurred when applied at scale. In this paper, we present an overview of our efforts to bridge the gap between this overhead and practicality for privacy-preserving learning systems using multi-party computation (MPC), zero-knowledge proofs (ZKPs), and fully homomorphic encryption (FHE). Through meticulous hardware/software/algorithm co-design, we show progress towards enabling LLM-scale applications in privacy-preserving settings. We demonstrate the efficacy of our solutions in several contexts, including DNN IP ownership, ethical LLM usage enforcement, and transformer inference.",
+      "published": "2025-09-29T17:16:51Z",
+      "year": 2025,
+      "updated": "2025-09-29T17:16:51Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "relevance_score": 47.0,
+      "downloaded": true,
+      "filename": "05_2509.25072v1.pdf"
+    },
+    {
+      "id": "2508.19525v2",
+      "url": "http://arxiv.org/abs/2508.19525v2",
+      "pdf_url": "http://arxiv.org/pdf/2508.19525v2.pdf",
+      "title": "Breaking the Layer Barrier: Remodeling Private Transformer Inference with Hybrid CKKS and MPC",
+      "authors": [
+        "Tianshi Xu",
+        "Wen-jie Lu",
+        "Jiangrui Yu",
+        "Chen Yi",
+        "Chenqi Lin",
+        "Runsheng Wang",
+        "Meng Li"
+      ],
+      "abstract": "This paper presents an efficient framework for private Transformer inference that combines Homomorphic Encryption (HE) and Secure Multi-party Computation (MPC) to protect data privacy. Existing methods often leverage HE for linear layers (e.g., matrix multiplications) and MPC for non-linear layers (e.g., Softmax activation functions), but the conversion between HE and MPC introduces significant communication costs. The proposed framework, dubbed BLB, overcomes this by breaking down layers into fine-grained operators and further fusing adjacent linear operators, reducing the need for HE/MPC conversions. To manage the increased ciphertext bit width from the fused linear operators, BLB proposes the first secure conversion protocol between CKKS and MPC and enables CKKS-based computation of the fused operators. Additionally, BLB proposes an efficient matrix multiplication protocol for fused computation in Transformers. Extensive evaluations on BERT-base, BERT-large, and GPT2-base show that BLB achieves a $21\\times$ reduction in communication overhead compared to BOLT (S\\&P'24) and a $2\\times$ reduction compared to Bumblebee (NDSS'25), along with latency reductions of $13\\times$ and $1.8\\times$, respectively, when leveraging GPU acceleration.",
+      "published": "2025-08-27T02:40:50Z",
+      "year": 2025,
+      "updated": "2025-09-01T13:24:24Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 47.0,
+      "downloaded": true,
+      "filename": "06_2508.19525v2.pdf"
+    },
+    {
+      "id": "2508.01798v1",
+      "url": "http://arxiv.org/abs/2508.01798v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.01798v1.pdf",
+      "title": "A Survey on Privacy-Preserving Computing in the Automotive Domain",
+      "authors": [
+        "Nergiz Yuca",
+        "Nikolay Matyunin",
+        "Ektor Arzoglou",
+        "Nikolaos Athanasios Anagnostopoulos",
+        "Stefan Katzenbeisser"
+      ],
+      "abstract": "As vehicles become increasingly connected and autonomous, they accumulate and manage various personal data, thereby presenting a key challenge in preserving privacy during data sharing and processing. This survey reviews applications of Secure Multi-Party Computation (MPC) and Homomorphic Encryption (HE) that address these privacy concerns in the automotive domain. First, we identify the scope of privacy-sensitive use cases for these technologies, by surveying existing works that address privacy issues in different automotive contexts, such as location-based services, mobility infrastructures, traffic management, etc. Then, we review recent works that employ MPC and HE as solutions for these use cases in detail. Our survey highlights the applicability of these privacy-preserving technologies in the automotive context, while also identifying challenges and gaps in the current research landscape. This work aims to provide a clear and comprehensive overview of this emerging field and to encourage further research in this domain.",
+      "published": "2025-08-03T15:23:41Z",
+      "year": 2025,
+      "updated": "2025-08-03T15:23:41Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 47.0,
+      "downloaded": true,
+      "filename": "07_2508.01798v1.pdf"
+    },
+    {
+      "id": "2512.02287v1",
+      "url": "http://arxiv.org/abs/2512.02287v1",
+      "pdf_url": "http://arxiv.org/pdf/2512.02287v1.pdf",
+      "title": "HOT Protocol",
+      "authors": [
+        "Peter Volnov",
+        "Georgii Kuksa",
+        "Andrey Zhevlakov"
+      ],
+      "abstract": "HOT Protocol provides the infrastructure that allows smart contracts to securely own and manage private keys. The Multi-Party Computation (MPC) Network manages signing keys. By running an MPC node inside a Trusted Execution Environment (TEE), the protocol achieves stronger security guarantees while lowering economic requirements for participants. The NEAR Protocol provides a decentralized and efficient state layer. Key management can be integrated with any smart contract across Stellar, TON, Solana, and EVM-compatible networks.",
+      "published": "2025-12-01T23:57:29Z",
+      "year": 2025,
+      "updated": "2025-12-01T23:57:29Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 46.0,
+      "downloaded": true,
+      "filename": "08_2512.02287v1.pdf"
+    },
+    {
+      "id": "2512.01604v1",
+      "url": "http://arxiv.org/abs/2512.01604v1",
+      "pdf_url": "http://arxiv.org/pdf/2512.01604v1.pdf",
+      "title": "On the Context-Hiding Property of Shamir-Based Homomorphic Secret Sharing",
+      "authors": [
+        "Shuai Feng",
+        "Liang Feng Zhang"
+      ],
+      "abstract": "Homomorphic secret sharing (HSS) allows multiple input clients to secretly share their private inputs to a function among several servers such that each server can homomorphically compute the function over its share to produce a share of the function's output. In HSS-enabled applications such as secure multi-party computation (MPC), security requires that the output shares leak no more information about the inputs than the function output. Such security is ensured by the context-hiding property of HSS. The typical rerandomization technique achieves context hiding but increases the share size. To address this, we formalize the context-hiding property of HSS for individual functions, examine the context-hiding property of Shamir-based HSS for monomials, and extend the study to polynomials.",
+      "published": "2025-12-01T12:23:19Z",
+      "year": 2025,
+      "updated": "2025-12-01T12:23:19Z",
+      "categories": [
+        "cs.CR"
+      ],
+      "relevance_score": 46.0,
+      "downloaded": true,
+      "filename": "09_2512.01604v1.pdf"
+    },
+    {
+      "id": "2508.01636v1",
+      "url": "http://arxiv.org/abs/2508.01636v1",
+      "pdf_url": "http://arxiv.org/pdf/2508.01636v1.pdf",
+      "title": "Privacy-Preserving Inference for Quantized BERT Models",
+      "authors": [
+        "Tianpei Lu",
+        "Bingsheng Zhang",
+        "Lekun Peng",
+        "Bowen Zheng",
+        "Lichun Li",
+        "Kui Ren"
+      ],
+      "abstract": "With the increasing deployment of generative machine learning models in privacy-sensitive domains such as healthcare and personalized services, ensuring secure inference has become a critical challenge. Secure multi-party computation (MPC) enables privacy-preserving model inference but suffers from high communication and computation overhead. The main bottleneck lies in the expensive secure evaluation of floating-point operations. Quantization offers a promising solution by converting floating-point operations into lower-precision integer computations, significantly reducing overhead. However, existing MPC-based quantized inference methods either rely on public quantization parameters-posing privacy risks-or suffer from inefficiencies, particularly in handling nonlinear functions such as activations and softmax. In this work, we propose a fine-grained, layer-wise quantization scheme and support 1-bit weight fully connected layers in a secure setting. We design a multi-input lookup table protocol to evaluate softmax efficiently and securely. Furthermore, we use dual secret sharing schemes and perform precision conversions via lookup tables, eliminating truncation overhead entirely. Experimental evaluation on BERT-base models demonstrates that our approach achieves up to $8\\times$ speedup compared to Lu \\emph{et al}. (NDSS 25), $9\\times$ speedup compared to Gupta \\emph{et al}. (PETS 24) and $22 \\times$ speedup compared to Knott \\emph{et al}. (NeurIPS 21).",
+      "published": "2025-08-03T07:52:08Z",
+      "year": 2025,
+      "updated": "2025-08-03T07:52:08Z",
+      "categories": [
+        "cs.LG",
+        "cs.CR"
+      ],
+      "relevance_score": 46.0,
+      "downloaded": true,
+      "filename": "10_2508.01636v1.pdf"
+    }
+  ]
+}

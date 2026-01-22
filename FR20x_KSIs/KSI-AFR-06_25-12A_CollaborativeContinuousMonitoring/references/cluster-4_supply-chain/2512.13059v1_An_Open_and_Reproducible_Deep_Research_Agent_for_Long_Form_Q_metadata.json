@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.13059v1",
+  "title": "An Open and Reproducible Deep Research Agent for Long-Form Question Answering",
+  "authors": [
+    "Ikuya Yamada",
+    "Wataru Ikeda",
+    "Ko Yoshida",
+    "Mengyu Ye",
+    "Hinata Sugimoto"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.13059v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 8,
+  "key_topics": [
+    "autonomous systems"
+  ],
+  "summary": "We present an open deep research system for long-form question answering, selected as a winning system in the text-to-text track of the MMU-RAG competition at NeurIPS 2025. The system combines an open-source large language model (LLM) with an open web search API to perform iterative retrieval, reasoning, and synthesis in real-world open-domain settings. To enhance reasoning quality, we apply preference tuning based on LLM-as-a-judge feedback that evaluates multiple aspects, including clarity, in..."
+}

@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.19737v1",
+  "title": "Simulation-Driven Railway Delay Prediction: An Imitation Learning Approach",
+  "authors": [
+    "Cl\u00e9ment Elliker",
+    "Jesse Read",
+    "Sonia Vanier",
+    "Albert Bifet"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.19737v1",
+  "relevance_score": 96.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "anomaly detection",
+    "behavioral monitoring",
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "Reliable prediction of train delays is essential for enhancing the robustness and efficiency of railway transportation systems. In this work, we reframe delay forecasting as a stochastic simulation task, modeling state-transition dynamics through imitation learning. We introduce Drift-Corrected Imitation Learning (DCIL), a novel self-supervised algorithm that extends DAgger by incorporating distance-based drift correction, thereby mitigating covariate shift during rollouts without requiring acce..."
+}

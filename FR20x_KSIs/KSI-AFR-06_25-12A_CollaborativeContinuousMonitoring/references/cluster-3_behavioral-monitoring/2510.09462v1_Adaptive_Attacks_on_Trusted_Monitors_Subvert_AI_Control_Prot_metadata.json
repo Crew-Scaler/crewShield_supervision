@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.09462v1",
+  "title": "Adaptive Attacks on Trusted Monitors Subvert AI Control Protocols",
+  "authors": [
+    "Mikhail Terekhov",
+    "Alexander Panfilov",
+    "Daniil Dzenhaliou",
+    "Caglar Gulcehre",
+    "Maksym Andriushchenko"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-10",
+  "url": "https://arxiv.org/abs/2510.09462v1",
+  "relevance_score": 86.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "autonomous systems"
+  ],
+  "summary": "AI control protocols serve as a defense mechanism to stop untrusted LLM agents from causing harm in autonomous settings. Prior work treats this as a security problem, stress testing with exploits that use the deployment context to subtly complete harmful side tasks, such as backdoor insertion. In practice, most AI control protocols are fundamentally based on LLM monitors, which can become a central point of failure. We study adaptive attacks by an untrusted model that knows the protocol and the ..."
+}

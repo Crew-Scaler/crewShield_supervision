@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.11112v1",
+  "title": "An LLVM-Based Optimization Pipeline for SPDZ",
+  "authors": [
+    "Tianye Dai",
+    "Hammurabi Mendes",
+    "Heuichan Lim"
+  ],
+  "published": "2025-12-11T20:53:35Z",
+  "url": "http://arxiv.org/abs/2512.11112v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.11112v1.pdf",
+  "relevance_score": 59,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Actively secure arithmetic MPC is now practical for real applications, but performance and usability are still limited by framework-specific compilation stacks, the need for programmers to explicitly express parallelism, and high communication overhead. We design and implement a proof-of-concept LLVM-based optimization pipeline for the SPDZ protocol that addresses these bottlenecks. Our front end accepts a subset of C with lightweight privacy annotations and lowers it to LLVM IR, allowing us to "
+}

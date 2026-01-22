@@ -1,0 +1,286 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20607v1",
+    "arxiv_id": "2512.20607v1",
+    "title": "Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures",
+    "summary": "Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explains a simplicity bias arising from saddle-to-saddle learning dynamics for a general class of neural networks, incorporating fully-connected, convolutional, and attention-based architectures. Here, simple means expressible with few hidden units, i.e., hidden neurons, convolutional kernels, or attention heads. Specifically, we show that linear networks learn solutions of increasing rank, ReLU networks learn solutions with an increasing number of kinks, convolutional networks learn solutions with an increasing number of convolutional kernels, and self-attention models learn solutions with an increasing number of attention heads. By analyzing fixed points, invariant manifolds, and dynamics of gradient descent learning, we show that saddle-to-saddle dynamics operates by iteratively evolving near an invariant manifold, approaching a saddle, and switching to another invariant manifold. Our analysis also illuminates the effects of data distribution and weight initialization on the duration and number of plateaus in learning, dissociating previously confounding factors. Overall, our theory offers a framework for understanding when and why gradient descent progressively learns increasingly complex solutions.",
+    "published": "2025-12-23T18:55:30Z",
+    "updated": "2025-12-23T18:55:30Z",
+    "authors": [
+      "Yedi Zhang",
+      "Andrew Saxe",
+      "Peter E. Latham"
+    ],
+    "affiliations": [],
+    "first_author": "Yedi Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20607v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20603v1",
+    "arxiv_id": "2512.20603v1",
+    "title": "Coexistence of distinct Discrete Time-Crystalline orders in the Floquet Lipkin-Meshkov-Glick model",
+    "summary": "We examine the distinct discrete time crystals (DTCs) that emerge in the Lipkin-Meshkov-Glick model, subjected to spatially nonuniform periodic driving. Intriguingly, we demonstrate that by appropriately tailoring the drive protocol, distinct DTC orders can be realized in different spatial regions of the system. Consequently, the system exhibits spatially varying sub-harmonic responses with distinct frequencies. We employ a semi-classical analysis to establish the stability of these co-existing DTC orders in the thermodynamic limit. Furthermore, we establish the stability of the stability of these co-existing DTCs in the presence of quantum fluctuations. Our results establish spatially structured driving as a powerful route to engineer novel forms of time-crystalline order.",
+    "published": "2025-12-23T18:50:12Z",
+    "updated": "2025-12-23T18:50:12Z",
+    "authors": [
+      "Shashank Mishra",
+      "Sayan Choudhury"
+    ],
+    "affiliations": [],
+    "first_author": "Shashank Mishra",
+    "pdf_url": "https://arxiv.org/pdf/2512.20603v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20600v1",
+    "arxiv_id": "2512.20600v1",
+    "title": "Modeling Economic Systems as Multiport Networks",
+    "summary": "In this paper, we demonstrate how multiport network theory can be used as a powerful modeling tool in economics. The critical insight is using the port concept to pair the flow of goods (the electrical current) with the agent's incentive (the voltage) in an economic interaction. By building networks of agents interacting through ports, we create models with multiple levels of abstraction, from the macro level down to the micro level. We are thereby able to model complex macroeconomic systems whose dynamical behavior is emergent from the micro level. Using the LTSpice circuit simulator, we then design and analyze a series of example systems that range in complexity from the textbook Robinson Crusoe economy to a model of an entire economy.",
+    "published": "2025-12-23T18:47:32Z",
+    "updated": "2025-12-23T18:47:32Z",
+    "authors": [
+      "Coen Hutters",
+      "Max B. Mendel"
+    ],
+    "affiliations": [],
+    "first_author": "Coen Hutters",
+    "pdf_url": "https://arxiv.org/pdf/2512.20600v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20599v1",
+    "arxiv_id": "2512.20599v1",
+    "title": "Random Stinespring superchannel: converting channel queries into dilation isometry queries",
+    "summary": "The recently introduced random purification channel, which converts $n$ copies of an arbitrary mixed quantum state into $n$ copies of the same uniformly random purification, has emerged as a powerful tool in quantum information theory. Motivated by this development, we introduce a channel-level analogue, which we call the random Stinespring superchannel. This consists in a procedure to transform $n$ parallel queries of an arbitrary quantum channel into $n$ parallel queries of the same uniformly random Stinespring isometry, via universal encoding and decoding operations that are efficiently implementable. When the channel is promised to have Choi rank at most $r$, the procedure can be tailored to yield a Stinespring environment of dimension $r$. As a consequence, quantum channel learning reduces to isometry learning, yielding a simple channel learning algorithm, based on existing isometry learning protocols, that matches the performance of the two recently proposed channel tomography algorithms. Complementarily, whereas the optimality of these algorithms had previously been established only up to a logarithmic factor in the dimension, we close this gap by removing this logarithmic factor from the lower bound. Taken together, our results fully establish the optimality of these recently introduced channel learning algorithms, showing that the optimal query complexity of learning a quantum channel with input dimension $d_A$, output dimension $d_B$, and Choi rank $r$ is $\u0398(d_A d_B r)$.",
+    "published": "2025-12-23T18:46:07Z",
+    "updated": "2025-12-23T18:46:07Z",
+    "authors": [
+      "Filippo Girardi",
+      "Francesco Anna Mele",
+      "Haimeng Zhao",
+      "Marco Fanizza",
+      "Ludovico Lami"
+    ],
+    "affiliations": [],
+    "first_author": "Filippo Girardi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20599v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20586v1",
+    "arxiv_id": "2512.20586v1",
+    "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+    "summary": "Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metastases treated with 18 Gy single-fraction SRS. We developed SAGE (Secure Agent for Generative Dose Expertise), an LLM-based planning agent for automated SRS treatment planning. Two variants generated plans for each case: one using a non-reasoning model, one using a reasoning model. The reasoning variant showed comparable plan dosimetry relative to human planners on primary endpoints (PTV coverage, maximum dose, conformity index, gradient index; all p > 0.21) while reducing cochlear dose below human baselines (p = 0.022). When prompted to improve conformity, the reasoning model demonstrated systematic planning behaviors including prospective constraint verification (457 instances) and trade-off deliberation (609 instances), while the standard model exhibited none of these deliberative processes (0 and 7 instances, respectively). Content analysis revealed that constraint verification and causal explanation concentrated in the reasoning agent. The optimization traces serve as auditable logs, offering a path toward transparent automated planning.",
+    "published": "2025-12-23T18:32:17Z",
+    "updated": "2025-12-23T18:32:17Z",
+    "authors": [
+      "Humza Nusrat",
+      "Luke Francisco",
+      "Bing Luo",
+      "Hassan Bagher-Ebadian",
+      "Joshua Kim",
+      "Karen Chin-Snyder",
+      "Salim Siddiqui",
+      "Mira Shah",
+      "Eric Mellon",
+      "Mohammad Ghassemi",
+      "Anthony Doemer",
+      "Benjamin Movsas",
+      "Kundan Thind"
+    ],
+    "affiliations": [],
+    "first_author": "Humza Nusrat",
+    "pdf_url": "https://arxiv.org/pdf/2512.20586v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20583v1",
+    "arxiv_id": "2512.20583v1",
+    "title": "Making Sense of Private Advertising: A Principled Approach to a Complex Ecosystem",
+    "summary": "In this work, we model the end-to-end pipeline of the advertising ecosystem, allowing us to identify two main issues with the current trajectory of private advertising proposals. First, prior work has largely considered ad targeting and engagement metrics individually rather than in composition. This has resulted in privacy notions that, while reasonable for each protocol in isolation, fail to compose to a natural notion of privacy for the ecosystem as a whole, permitting advertisers to extract new information about the audience of their advertisements. The second issue serves to explain the first: we prove that \\textit{perfect} privacy is impossible for any, even minimally, useful advertising ecosystem, due to the advertisers' expectation of conducting market research on the results.   Having demonstrated that leakage is inherent in advertising, we re-examine what privacy could realistically mean in advertising, building on the well-established notion of \\textit{sensitive} data in a specific context. We identify that fundamentally new approaches are needed when designing privacy-preserving advertising subsystems in order to ensure that the privacy properties of the end-to-end advertising system are well aligned with people's privacy desires.",
+    "published": "2025-12-23T18:28:24Z",
+    "updated": "2025-12-23T18:28:24Z",
+    "authors": [
+      "Kyle Hogan",
+      "Alishah Chator",
+      "Gabriel Kaptchuk",
+      "Mayank Varia",
+      "Srinivas Devadas"
+    ],
+    "affiliations": [],
+    "first_author": "Kyle Hogan",
+    "pdf_url": "https://arxiv.org/pdf/2512.20583v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20582v1",
+    "arxiv_id": "2512.20582v1",
+    "title": "Relu and softplus neural nets as zero-sum turn-based games",
+    "summary": "We show that the output of a ReLU neural network can be interpreted as the value of a zero-sum, turn-based, stopping game, which we call the ReLU net game. The game runs in the direction opposite to that of the network, and the input of the network serves as the terminal reward of the game. In fact, evaluating the network is the same as running the Shapley-Bellman backward recursion for the value of the game. Using the expression of the value of the game as an expected total payoff with respect to the path measure induced by the transition probabilities and a pair of optimal policies, we derive a discrete Feynman-Kac-type path-integral formula for the network output. This game-theoretic representation can be used to derive bounds on the output from bounds on the input, leveraging the monotonicity of Shapley operators, and to verify robustness properties using policies as certificates. Moreover, training the neural network becomes an inverse game problem: given pairs of terminal rewards and corresponding values, one seeks transition probabilities and rewards of a game that reproduces them. Finally, we show that a similar approach applies to neural networks with Softplus activation functions, where the ReLU net game is replaced by its entropic regularization.",
+    "published": "2025-12-23T18:27:41Z",
+    "updated": "2025-12-23T18:27:41Z",
+    "authors": [
+      "Stephane Gaubert",
+      "Yiannis Vlassopoulos"
+    ],
+    "affiliations": [],
+    "first_author": "Stephane Gaubert",
+    "pdf_url": "https://arxiv.org/pdf/2512.20582v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20580v1",
+    "arxiv_id": "2512.20580v1",
+    "title": "Programmable Optical Spectrum Shapers as Computing Primitives for Accelerating Convolutional Neural Networks",
+    "summary": "Photonic convolutional accelerators have emerged as low-energy alternatives to power-demanding digital convolutional neural networks, though they often face limitations in scalability. In this work, we introduce a convolutional photonic accelerator that employs programmable kernels manifesting as trainable waveforms in the frequency domain to enable low-energy, high-throughput scalable image classification. The proposed scheme inherently provides dimensionality reduction and feature extraction directly in the optical domain. Numerical results targeting the Fashion-MNIST show that by using only 16 optical nodes, the system's classification accuracy tops at 90.1% when typical backpropagation is used. Moreover, by adapting the training technique to the forward-forward approach, a marginal drop of 1% is recorded compared to the backpropagation scenario, thus showcasing the compatibility of the overall architecture with a hardware-friendly training approach. Finally, we experimentally implement the trained kernels using a programmable waveshaper. Despite the difference between the simulated and experimentally generated transfer functions of the programmable kernels, the classification accuracy based on the experimentally obtained kernels exhibits a marginal 0.2% reduction, proving the validity of the idea and its high robustness to variations of the frequency-applied complex weights.",
+    "published": "2025-12-23T18:26:51Z",
+    "updated": "2025-12-23T18:26:51Z",
+    "authors": [
+      "Georgios Moustakas",
+      "Adonis Bogris",
+      "Charis Mesaritakis"
+    ],
+    "affiliations": [],
+    "first_author": "Georgios Moustakas",
+    "pdf_url": "https://arxiv.org/pdf/2512.20580v1",
+    "primary_category": "physics.optics",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20579v1",
+    "arxiv_id": "2512.20579v1",
+    "title": "Spin-induced quadrupole moment based test for eccentric binaries",
+    "summary": "The spin-induced quadrupole moment-based test of black hole nature is routinely used to probe the true nature of detected binary signals, assuming a circular orbit. We extend the applicability of the method to binaries in eccentric orbits. Considering simulated signals of varying masses, spins, and signal strengths, we demonstrate how the systematic errors resulting from neglecting orbital eccentricity compare with the statistical errors, using a semi-analytic Fisher matrix-based formalism that accounts for both current and future detectors. Further, we quantify the systematic errors by developing a Bayesian inference framework for the current detector network. The inspiral-only aligned spin gravitational wave waveform model for eccentric binaries, TaylorF2Ecc, is employed. For the current detector network, neglecting an initial eccentricity of $e_0^{\\rm inj}=0.1$ defined at $20\\,\\mathrm {Hz} $ can lead to a serious bias in binary parameter inference. Notably, a nearly equal-mass, moderately spinning binary black hole in an eccentric orbit can be identified as a non-black hole binary with extreme spins and asymmetric masses. We demonstrate the criticality of biased estimates that may arise when neglecting the orbital eccentricity while performing tests of black hole nature and discuss prospects.",
+    "published": "2025-12-23T18:26:37Z",
+    "updated": "2025-12-23T18:26:37Z",
+    "authors": [
+      "N. V. Krishnendu"
+    ],
+    "affiliations": [],
+    "first_author": "N. V. Krishnendu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20579v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20567v1",
+    "arxiv_id": "2512.20567v1",
+    "title": "Classification using quantum kernels in a radial basis function network",
+    "summary": "Radial basis function (RBF) networks are expanded to incorporate quantum kernel functions enabling a new type of hybrid quantum-classical machine learning algorithm. Using this approach, synthetic examples are introduced which allow for proof of concept on interpolation and classification applications. Quantum kernels have primarily been applied to support vector machines (SVMs), however the quantum kernel RBF network offers potential benefit over quantum kernel based SVMs due to the RBF networks ability to perform multi-class classification natively compared to the standard implementation of the SVM.",
+    "published": "2025-12-23T18:11:23Z",
+    "updated": "2025-12-23T18:11:23Z",
+    "authors": [
+      "Emily Micklethwaite",
+      "Adam Lowe"
+    ],
+    "affiliations": [],
+    "first_author": "Emily Micklethwaite",
+    "pdf_url": "https://arxiv.org/pdf/2512.20567v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20566v1",
+    "arxiv_id": "2512.20566v1",
+    "title": "Random Gradient-Free Optimization in Infinite Dimensional Spaces",
+    "summary": "In this paper, we propose a random gradient-free method for optimization in infinite dimensional Hilbert spaces, applicable to functional optimization in diverse settings. Though such problems are often solved through finite-dimensional gradient descent over a parametrization of the functions, such as neural networks, an interesting alternative is to instead perform gradient descent directly in the function space by leveraging its Hilbert space structure, thus enabling provable guarantees and fast convergence. However, infinite-dimensional gradients are often hard to compute in practice, hindering the applicability of such methods. To overcome this limitation, our framework requires only the computation of directional derivatives and a pre-basis for the Hilbert space domain, i.e., a linearly-independent set whose span is dense in the Hilbert space. This fully resolves the tractability issue, as pre-bases are much more easily obtained than full orthonormal bases or reproducing kernels -- which may not even exist -- and individual directional derivatives can be easily computed using forward-mode scalar automatic differentiation. We showcase the use of our method to solve partial differential equations \u00e0 la physics informed neural networks (PINNs), where it effectively enables provable convergence.",
+    "published": "2025-12-23T18:09:49Z",
+    "updated": "2025-12-23T18:09:49Z",
+    "authors": [
+      "Caio Lins Peixoto",
+      "Daniel Csillag",
+      "Bernardo F. P. da Costa",
+      "Yuri F. Saporito"
+    ],
+    "affiliations": [],
+    "first_author": "Caio Lins Peixoto",
+    "pdf_url": "https://arxiv.org/pdf/2512.20566v1",
+    "primary_category": "math.OC",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20562v1",
+    "arxiv_id": "2512.20562v1",
+    "title": "Shallow Neural Networks Learn Low-Degree Spherical Polynomials with Learnable Channel Attention",
+    "summary": "We study the problem of learning a low-degree spherical polynomial of degree $\\ell_0 = \u0398(1) \\ge 1$ defined on the unit sphere in $\\RR^d$ by training an over-parameterized two-layer neural network (NN) with channel attention in this paper. Our main result is the significantly improved sample complexity for learning such low-degree polynomials. We show that, for any regression risk $\\eps \\in (0,1)$, a carefully designed two-layer NN with channel attention and finite width of $m \\ge \u0398({n^4 \\log (2n/\u03b4)}/{d^{2\\ell_0}})$ trained by the vanilla gradient descent (GD) requires the lowest sample complexity of $n \\asymp \u0398(d^{\\ell_0}/\\eps)$ with probability $1-\u03b4$ for every $\u03b4\\in (0,1)$, in contrast with the representative sample complexity $\u0398\\pth{d^{\\ell_0} \\max\\set{\\eps^{-2},\\log d}}$, where $n$ is the training daata size. Moreover, such sample complexity is not improvable since the trained network renders a sharp rate of the nonparametric regression risk of the order $\u0398(d^{\\ell_0}/{n})$ with probability at least $1-\u03b4$. On the other hand, the minimax optimal rate for the regression risk with a kernel of rank $\u0398(d^{\\ell_0})$ is $\u0398(d^{\\ell_0}/{n})$, so that the rate of the nonparametric regression risk of the network trained by GD is minimax optimal. The training of the two-layer NN with channel attention consists of two stages. In Stage 1, a provable learnable channel selection algorithm identifies the ground-truth channel number $\\ell_0$ from the initial $L \\ge \\ell_0$ channels in the first-layer activation, with high probability. This learnable selection is achieved by an efficient one-step GD update on both layers, enabling feature learning for low-degree polynomial targets. In Stage 2, the second layer is trained by standard GD using the activation function with the selected channels.",
+    "published": "2025-12-23T18:05:55Z",
+    "updated": "2025-12-23T18:05:55Z",
+    "authors": [
+      "Yingzhen Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Yingzhen Yang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20562v1",
+    "primary_category": "stat.ML",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20561v1",
+    "arxiv_id": "2512.20561v1",
+    "title": "FlashVLM: Text-Guided Visual Token Selection for Large Multimodal Models",
+    "summary": "Large vision-language models (VLMs) typically process hundreds or thousands of visual tokens per image or video frame, incurring quadratic attention cost and substantial redundancy. Existing token reduction methods often ignore the textual query or rely on deep attention maps, whose instability under aggressive pruning leads to degraded semantic alignment.   We propose FlashVLM, a text guided visual token selection framework that dynamically adapts visual inputs to the query. Instead of relying on noisy attention weights, FlashVLM computes an explicit cross modal similarity between projected image tokens and normalized text embeddings in the language model space. This extrinsic relevance is fused with intrinsic visual saliency using log domain weighting and temperature controlled sharpening. In addition, a diversity preserving partition retains a minimal yet representative set of background tokens to maintain global context.   Under identical token budgets and evaluation protocols, FlashVLM achieves beyond lossless compression, slightly surpassing the unpruned baseline while pruning up to 77.8 percent of visual tokens on LLaVA 1.5, and maintaining 92.8 percent accuracy even under 94.4 percent compression. Extensive experiments on 14 image and video benchmarks demonstrate that FlashVLM delivers state of the art efficiency performance trade offs while maintaining strong robustness and generalization across mainstream VLMs.",
+    "published": "2025-12-23T18:05:43Z",
+    "updated": "2025-12-23T18:05:43Z",
+    "authors": [
+      "Kaitong Cai",
+      "Jusheng Zhang",
+      "Jing Yang",
+      "Yijia Fan",
+      "Pengtao Xie",
+      "Jian Wang",
+      "Keze Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Kaitong Cai",
+    "pdf_url": "https://arxiv.org/pdf/2512.20561v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20552v1",
+    "arxiv_id": "2512.20552v1",
+    "title": "Information-theoretic signatures of causality in Bayesian networks and hypergraphs",
+    "summary": "Analyzing causality in multivariate systems involves establishing how information is generated, distributed and combined, and thus requires tools that capture interactions beyond pairwise relations. Higher-order information theory provides such tools. In particular, Partial Information Decomposition (PID) allows the decomposition of the information that a set of sources provides about a target into redundant, unique, and synergistic components. Yet the mathematical connection between such higher-order information-theoretic measures and causal structure remains undeveloped. Here we establish the first theoretical correspondence between PID components and causal structure in both Bayesian networks and hypergraphs. We first show that in Bayesian networks unique information precisely characterizes direct causal neighbors, while synergy identifies collider relationships. This establishes a localist causal discovery paradigm in which the structure surrounding each variable can be recovered from its immediate informational footprint, eliminating the need for global search over graph space. Extending these results to higher-order systems, we prove that PID signatures in Bayesian hypergraphs differentiate parents, children, co-heads, and co-tails, revealing a higher-order collider effect unique to multi-tail hyperedges. We also present procedures by which our results can be used to characterize systematically the causal structure of Bayesian networks and hypergraphs. Our results position PID as a rigorous, model-agnostic foundation for inferring both pairwise and higher-order causal structure, and introduce a fundamentally local information-theoretic viewpoint on causal discovery.",
+    "published": "2025-12-23T17:46:53Z",
+    "updated": "2025-12-23T17:46:53Z",
+    "authors": [
+      "Sung En Chiang",
+      "Zhaolu Liu",
+      "Robert L. Peach",
+      "Mauricio Barahona"
+    ],
+    "affiliations": [],
+    "first_author": "Sung En Chiang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20552v1",
+    "primary_category": "cs.IT",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20545v1",
+    "arxiv_id": "2512.20545v1",
+    "title": "Experimental characterization of the Toffoli gate via channel spectrum benchmarking",
+    "summary": "Channel spectrum benchmarking (CSB) provides a robust framework for characterizing quantum gate fidelities while remaining insensitive to state preparation and measurement (SPAM) errors. Yet, current CSB implementations encounter fundamental challenges when reconstructing noisy eigenvalues, particularly in the presence of spectral degeneracies and off-diagonal noise components in the target gate's eigenbasis. These issues become especially pronounced in the strong noise regime for gates with fidelities around $90\\%$. To address these limitations, we introduce an extended CSB model together with a fidelity estimate interval (FEI) -- an interval-valued estimate of the target gate fidelity. Numerical simulation demonstrates that FEI remains sufficiently narrow, with its midpoint reliably approximating the true fidelity. We further validate the protocol on a trapped-ion quantum processor by benchmarking two implementations of the three-qubit Toffoli gate. The results reveal a clear advantage of the qutrit-based implementation over its qubit-based counterpart.",
+    "published": "2025-12-23T17:38:57Z",
+    "updated": "2025-12-23T17:38:57Z",
+    "authors": [
+      "D. K. Korliakov",
+      "B. I. Bantysh",
+      "A. S. Borisenko",
+      "I. V. Zalivako",
+      "E. O. Kiktenko"
+    ],
+    "affiliations": [],
+    "first_author": "D. K. Korliakov",
+    "pdf_url": "https://arxiv.org/pdf/2512.20545v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  }
+]

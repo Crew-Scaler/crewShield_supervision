@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2508.10043v1",
+  "title": "Securing Agentic AI: Threat Modeling and Risk Analysis for Network Monitoring Agentic AI System",
+  "authors": [
+    "Pallavi Zambare",
+    "Venkata Nikhil Thanikella",
+    "Ying Liu"
+  ],
+  "published": "2025-08-12T00:14:12Z",
+  "url": "http://arxiv.org/abs/2508.10043v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.10043v1.pdf",
+  "relevance_score": 100,
+  "summary": "When combining Large Language Models (LLMs) with autonomous agents, used in network monitoring and decision-making systems, this will create serious security issues. In this research, the MAESTRO framework consisting of the seven layers threat modeling architecture in the system was used to expose, evaluate, and eliminate vulnerabilities of agentic AI. The prototype agent system was constructed and implemented, using Python, LangChain, and telemetry in WebSockets, and deployed with inference, memory, parameter tuning, and anomaly detection modules. Two practical threat cases were confirmed as follows: (i) resource denial of service by traffic replay denial-of-service, and (ii) memory poisoning by tampering with the historical log file maintained by the agent. These situations resulted in measurable levels of performance degradation, i.e. telemetry updates were delayed, and computational loads were increased, as a result of poor system adaptations. It was suggested to use a multilayered defense-in-depth approach with memory isolation, validation of planners and anomaly response systems in real-time. These findings verify that MAESTRO is viable in operational threat mapping, prospective risk scoring, and the basis of the resilient system design. The authors bring attention to the importance of the enforcement of memory integrity, paying attention to the adaptation logic monitoring, and cross-layer communication protection that guarantee the agentic AI reliability in adversarial settings."
+}

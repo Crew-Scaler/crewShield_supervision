@@ -1,0 +1,191 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20004v1",
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "summary": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+    "published": "2025-12-23T02:57:33Z",
+    "updated": "2025-12-23T02:57:33Z",
+    "authors": [
+      "Rahul Yumlembam",
+      "Biju Issac",
+      "Seibu Mary Jacob",
+      "Longzhi Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Rahul Yumlembam",
+    "pdf_url": "https://arxiv.org/pdf/2512.20004v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20567v1",
+    "arxiv_id": "2512.20567v1",
+    "title": "Classification using quantum kernels in a radial basis function network",
+    "summary": "Radial basis function (RBF) networks are expanded to incorporate quantum kernel functions enabling a new type of hybrid quantum-classical machine learning algorithm. Using this approach, synthetic examples are introduced which allow for proof of concept on interpolation and classification applications. Quantum kernels have primarily been applied to support vector machines (SVMs), however the quantum kernel RBF network offers potential benefit over quantum kernel based SVMs due to the RBF networks ability to perform multi-class classification natively compared to the standard implementation of the SVM.",
+    "published": "2025-12-23T18:11:23Z",
+    "updated": "2025-12-23T18:11:23Z",
+    "authors": [
+      "Emily Micklethwaite",
+      "Adam Lowe"
+    ],
+    "affiliations": [],
+    "first_author": "Emily Micklethwaite",
+    "pdf_url": "https://arxiv.org/pdf/2512.20567v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20489v1",
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23T16:31:12Z",
+    "updated": "2025-12-23T16:31:12Z",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "affiliations": [],
+    "first_author": " Akta\u015f",
+    "pdf_url": "https://arxiv.org/pdf/2512.20489v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20464v1",
+    "arxiv_id": "2512.20464v1",
+    "title": "Snapshot 3D image projection using a diffractive decoder",
+    "summary": "3D image display is essential for next-generation volumetric imaging; however, dense depth multiplexing for 3D image projection remains challenging because diffraction-induced cross-talk rapidly increases as the axial image planes get closer. Here, we introduce a 3D display system comprising a digital encoder and a diffractive optical decoder, which simultaneously projects different images onto multiple target axial planes with high axial resolution. By leveraging multi-layer diffractive wavefront decoding and deep learning-based end-to-end optimization, the system achieves high-fidelity depth-resolved 3D image projection in a snapshot, enabling axial plane separations on the order of a wavelength. The digital encoder leverages a Fourier encoder network to capture multi-scale spatial and frequency-domain features from input images, integrates axial position encoding, and generates a unified phase representation that simultaneously encodes all images to be axially projected in a single snapshot through a jointly-optimized diffractive decoder. We characterized the impact of diffractive decoder depth, output diffraction efficiency, spatial light modulator resolution, and axial encoding density, revealing trade-offs that govern axial separation and 3D image projection quality. We further demonstrated the capability to display volumetric images containing 28 axial slices, as well as the ability to dynamically reconfigure the axial locations of the image planes, performed on demand. Finally, we experimentally validated the presented approach, demonstrating close agreement between the measured results and the target images. These results establish the diffractive 3D display system as a compact and scalable framework for depth-resolved snapshot 3D image projection, with potential applications in holographic displays, AR/VR interfaces, and volumetric optical computing.",
+    "published": "2025-12-23T15:57:08Z",
+    "updated": "2025-12-23T15:57:08Z",
+    "authors": [
+      "Cagatay Isil",
+      "Alexander Chen",
+      "Yuhang Li",
+      "F. Onuralp Ardic",
+      "Shiqi Chen",
+      "Che-Yung Shen",
+      "Aydogan Ozcan"
+    ],
+    "affiliations": [],
+    "first_author": "Cagatay Isil",
+    "pdf_url": "https://arxiv.org/pdf/2512.20464v1",
+    "primary_category": "physics.optics",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20423v1",
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "published": "2025-12-23T15:07:17Z",
+    "updated": "2025-12-23T15:07:17Z",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "affiliations": [],
+    "first_author": "Adam Elaoumari",
+    "pdf_url": "https://arxiv.org/pdf/2512.20423v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20407v1",
+    "arxiv_id": "2512.20407v1",
+    "title": "AUDRON: A Deep Learning Framework with Fused Acoustic Signatures for Drone Type Recognition",
+    "summary": "Unmanned aerial vehicles (UAVs), commonly known as drones, are increasingly used across diverse domains, including logistics, agriculture, surveillance, and defense. While these systems provide numerous benefits, their misuse raises safety and security concerns, making effective detection mechanisms essential. Acoustic sensing offers a low-cost and non-intrusive alternative to vision or radar-based detection, as drone propellers generate distinctive sound patterns. This study introduces AUDRON (AUdio-based Drone Recognition Network), a hybrid deep learning framework for drone sound detection, employing a combination of Mel-Frequency Cepstral Coefficients (MFCC), Short-Time Fourier Transform (STFT) spectrograms processed with convolutional neural networks (CNNs), recurrent layers for temporal modeling, and autoencoder-based representations. Feature-level fusion integrates complementary information before classification. Experimental evaluation demonstrates that AUDRON effectively differentiates drone acoustic signatures from background noise, achieving high accuracy while maintaining generalizability across varying conditions. AUDRON achieves 98.51 percent and 97.11 percent accuracy in binary and multiclass classification. The results highlight the advantage of combining multiple feature representations with deep learning for reliable acoustic drone detection, suggesting the framework's potential for deployment in security and surveillance applications where visual or radar sensing may be limited.",
+    "published": "2025-12-23T14:55:08Z",
+    "updated": "2025-12-23T14:55:08Z",
+    "authors": [
+      "Rajdeep Chatterjee",
+      "Sudip Chakrabarty",
+      "Trishaani Acharjee",
+      "Deepanjali Mishra"
+    ],
+    "affiliations": [],
+    "first_author": "Rajdeep Chatterjee",
+    "pdf_url": "https://arxiv.org/pdf/2512.20407v1",
+    "primary_category": "cs.SD",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20319v1",
+    "arxiv_id": "2512.20319v1",
+    "title": "Deep Learning Classification of EEG Responses to Multi-Dimensional Transcranial Electrical Stimulation",
+    "summary": "A major shortcoming of medical practice is the lack of an objective measure of conscious level. Impairment of consciousness is common, e.g. following brain injury and seizures, which can also interfere with sensory processing and volitional responses. This is also an important pitfall in neurophysiological methods that infer awareness via command following, e.g. using functional MRI or electroencephalography (EEG).   Transcranial electrical stimulation (TES) can be employed to non-invasively stimulate the brain, bypassing sensory inputs, and has already showed promising results in providing reliable indicators of brain state. However, current non-invasive solutions have been limited to magnetic stimulation, which is not easily translatable to clinical settings. Our long-term vision is to develop an objective measure of brain state that can be used at the bedside, without requiring patients to understand commands or initiate motor responses.   In this study, we demonstrated the feasibility of a framework using Deep Learning algorithms to classify EEG brain responses evoked by a defined multi-dimensional pattern of TES. We collected EEG-TES data from 11 participants and found that delivering transcranial direct current stimulation (tDCS) to posterior cortical areas targeting the angular gyrus elicited an exceptionally reliable brain response. For this paradigm, our best Convolutional Neural Network model reached a 92% classification F1-score on Holdout data from participants never seen during training, significantly surpassing human-level performance at 60-70% accuracy.   These findings establish a framework for robust consciousness measurement for clinical use. In this spirit, we documented and open-sourced our datasets and codebase in full, to be used freely by the neuroscience and AI research communities, who may replicate our results with free tools like GitHub, Kaggle, and Colab.",
+    "published": "2025-12-23T12:40:51Z",
+    "updated": "2025-12-23T12:40:51Z",
+    "authors": [
+      "Alexis Pomares Pastor",
+      "Ines Ribeiro Violante",
+      "Gregory Scott"
+    ],
+    "affiliations": [],
+    "first_author": "Alexis Pomares Pastor",
+    "pdf_url": "https://arxiv.org/pdf/2512.20319v1",
+    "primary_category": "q-bio.NC",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20305v1",
+    "arxiv_id": "2512.20305v1",
+    "title": "KAN-AFT: An Interpretable Nonlinear Survival Model Integrating Kolmogorov-Arnold Networks with Accelerated Failure Time Analysis",
+    "summary": "Survival analysis relies fundamentally on the semi-parametric Cox Proportional Hazards (CoxPH) model and the parametric Accelerated Failure Time (AFT) model. CoxPH assumes constant hazard ratios, often failing to capture real-world dynamics, while traditional AFT models are limited by rigid distributional assumptions. Although deep learning models like DeepAFT address these constraints by improving predictive accuracy and handling censoring, they inherit the significant challenge of black-box interpretability. The recent introduction of CoxKAN demonstrated the successful integration of Kolmogorov-Arnold Networks (KANs), a novel architecture that yields highly accurate and interpretable symbolic representations, within the CoxPH framework. Motivated by the interpretability gains of CoxKAN, we introduce KAN-AFT (Kolmogorov Arnold Network-based AFT), the first framework to apply KANs to the AFT model. KAN-AFT effectively models complex nonlinear relationships within the AFT framework. Our primary contributions include: (i) a principled AFT-KAN formulation, (ii) robust optimization strategies for right-censored observations (e.g., Buckley-James and IPCW), and (iii) an interpretability pipeline that converts the learned spline functions into closed-form symbolic equations for survival time. Empirical results on multiple datasets confirm that KAN-AFT achieves performance comparable to or better than DeepAFT, while uniquely providing transparent, symbolic models of the survival process.",
+    "published": "2025-12-23T12:16:06Z",
+    "updated": "2025-12-23T12:16:06Z",
+    "authors": [
+      "Mebin Jose",
+      "Jisha Francis",
+      "Sudheesh Kumar Kattumannil"
+    ],
+    "affiliations": [],
+    "first_author": "Mebin Jose",
+    "pdf_url": "https://arxiv.org/pdf/2512.20305v1",
+    "primary_category": "stat.ML",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20288v1",
+    "arxiv_id": "2512.20288v1",
+    "title": "UbiQVision: Quantifying Uncertainty in XAI for Image Recognition",
+    "summary": "Recent advances in deep learning have led to its widespread adoption across diverse domains, including medical imaging. This progress is driven by increasingly sophisticated model architectures, such as ResNets, Vision Transformers, and Hybrid Convolutional Neural Networks, that offer enhanced performance at the cost of greater complexity. This complexity often compromises model explainability and interpretability. SHAP has emerged as a prominent method for providing interpretable visualizations that aid domain experts in understanding model predictions. However, SHAP explanations can be unstable and unreliable in the presence of epistemic and aleatoric uncertainty. In this study, we address this challenge by using Dirichlet posterior sampling and Dempster-Shafer theory to quantify the uncertainty that arises from these unstable explanations in medical imaging applications. The framework uses a belief, plausible, and fusion map approach alongside statistical quantitative analysis to produce quantification of uncertainty in SHAP. Furthermore, we evaluated our framework on three medical imaging datasets with varying class distributions, image qualities, and modality types which introduces noise due to varying image resolutions and modality-specific aspect covering the examples from pathology, ophthalmology, and radiology, introducing significant epistemic uncertainty.",
+    "published": "2025-12-23T11:57:34Z",
+    "updated": "2025-12-23T11:57:34Z",
+    "authors": [
+      "Akshat Dubey",
+      "Aleksandar An\u017eel",
+      "Bahar \u0130lgen",
+      "Georges Hattab"
+    ],
+    "affiliations": [],
+    "first_author": "Akshat Dubey",
+    "pdf_url": "https://arxiv.org/pdf/2512.20288v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20185v1",
+    "arxiv_id": "2512.20185v1",
+    "title": "Deep learning-driven atmospheric parameter prediction for hot subdwarf stars with synthetic and observed spectra",
+    "summary": "We design a convolutional neural network (CNN) incorporating channel attention and spatial attention mechanisms to predict atmospheric parameters of hot subdwarfs. The experimental dataset comprises spectra at nine distinct signal-to-noise ratio (SNR) levels, with each SNR level containing 11 396 synthetic spectra and 945 observed spectra. The trained deep learning models achieves mean absolute errors (AME) in predicting hot subdwarf atmospheric parameters of 730 K for effective temperature (Teff ), 0.09 dex for surface gravity (log g), and 0.03 dex for helium abundance (log(nHe/nH)), respectively, which reaches the accuracy of traditional spectral fitting methods. Utilizing the trained deep learning models and low-resolution spectra from LAMOST DR12, we confirm 1512 hot subdwarfs from the catalog of hot subdwarf candidates, of which 291 are newly identified. Our results demonstrate that the deep learning model not only achieves accuracy comparable to traditional methods in obtaining hot subdwarf atmospheric parameters, but also far exceeds them in speed and efficiency, making it particularly suitable for the analysis of large datasets of hot subdwarf spectra.",
+    "published": "2025-12-23T09:20:54Z",
+    "updated": "2025-12-23T09:20:54Z",
+    "authors": [
+      "Zhenxin Lei",
+      "Yangyang Dong",
+      "Bokai Kou",
+      "Mengqi Feng",
+      "Ke Hu",
+      "Yude Bu",
+      "Jingkun Zhao"
+    ],
+    "affiliations": [],
+    "first_author": "Zhenxin Lei",
+    "pdf_url": "https://arxiv.org/pdf/2512.20185v1",
+    "primary_category": "astro-ph.SR",
+    "relevance_score": 12.0
+  }
+]

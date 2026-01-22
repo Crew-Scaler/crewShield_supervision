@@ -1,0 +1,47 @@
+[
+  {
+    "arxiv_id": "2511.12668",
+    "title": "AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) Framework",
+    "summary": "Assurance for artificial intelligence (AI) systems remains fragmented across software supply-chain security, adversarial machine learning, and governance documentation. Existing transparency mechanisms - including Model Cards, Datasheets, and Software Bills of Materials (SBOMs) - advance provenance reporting but rarely provide verifiable, machine-readable evidence of model security. This paper introduces the AI Risk Scanning (AIRS) Framework, a threat-model-based, evidence-generating framework designed to operationalize AI assurance. The AIRS Framework evolved through three progressive pilot studies - Smurf (AIBOM schema design), OPAL (operational validation), and Pilot C (AIRS) - that reframed AI documentation from descriptive disclosure toward measurable, evidence-bound verification. The framework aligns its assurance fields to the MITRE ATLAS adversarial ML taxonomy and automatically produces structured artifacts capturing model integrity, packaging and serialization safety, structural adapters, and runtime behaviors. Currently, the AIRS Framework is scoped to provide model-level assurances for LLMs, but it could be expanded to include other modalities and cover system-level threats (e.g. application-layer abuses, tool-calling). A proof-of-concept on a quantized GPT-OSS-20B model demonstrates enforcement of safe loader policies, per-shard hash verification, and contamination and backdoor probes executed under controlled runtime conditions. Comparative analysis with SBOM standards of SPDX 3.0 and CycloneDX 1.6 reveals alignment on identity and evaluation metadata, but identifies critical gaps in representing AI-specific assurance fields. The AIRS Framework thus extends SBOM practice to the AI domain by coupling threat modeling with automated, auditable evidence generation, providing a principled foundation for standardized, trustworthy, and machine-verifiable AI risk documentation.",
+    "authors": [
+      "Samuel Nathanson",
+      "Alexander Lee",
+      "Catherine Chen Kieffer",
+      "Jared Junkin",
+      "Jessica Ye"
+    ],
+    "published": "2025-11-16T16:10:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 63.33333333333333
+  },
+  {
+    "arxiv_id": "2601.05022",
+    "title": "Knowledge-to-Data: LLM-Driven Synthesis of Structured Network Traffic for Testbed-Free IDS Evaluation",
+    "summary": "Realistic, large-scale, and well-labeled cybersecurity datasets are essential for training and evaluating Intrusion Detection Systems (IDS). However, they remain difficult to obtain due to privacy constraints, data sensitivity, and the cost of building controlled collection environments such as testbeds and cyber ranges. This paper investigates whether Large Language Models (LLMs) can operate as controlled knowledge-to-data engines for generating structured synthetic network traffic datasets suitable for IDS research. We propose a methodology that combines protocol documentation, attack semantics, and explicit statistical rules to condition LLMs without fine-tuning or access to raw samples. Using the AWID3 IEEE~802.11 benchmark as a demanding case study, we generate labeled datasets with four state-of-the-art LLMs and assess fidelity through a multi-level validation framework including global similarity metrics, per-feature distribution testing, structural comparison, and cross-domain classification. Results show that, under explicit constraints, LLM-generated datasets can closely approximate the statistical and structural characteristics of real network traffic, enabling gradient-boosting classifiers to achieve F1-scores up to 0.956 when evaluated on real samples. Overall, the findings suggest that constrained LLM-driven generation can facilitate on-demand IDS experimentation, providing a testbed-free, privacy-preserving alternative that overcomes the traditional bottlenecks of physical traffic collection and manual labeling.",
+    "authors": [
+      "Konstantinos E. Kampourakis",
+      "Vyron Kampourakis",
+      "Efstratios Chatzoglou",
+      "Georgios Kambourakis",
+      "Stefanos Gritzalis"
+    ],
+    "published": "2026-01-08T15:31:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.00477",
+    "title": "Security in the Age of AI Teammates: An Empirical Study of Agentic Pull Requests on GitHub",
+    "summary": "Autonomous coding agents are increasingly deployed as AI teammates in modern software engineering, independently authoring pull requests (PRs) that modify production code at scale. This study aims to systematically characterize how autonomous coding agents contribute to software security in practice, how these security-related contributions are reviewed and accepted, and which observable signals are associated with PR rejection. We conduct a large-scale empirical analysis of agent-authored PRs using the AIDev dataset, comprising of over 33,000 curated PRs from popular GitHub repositories. Security-relevant PRs are identified using a keyword filtering strategy, followed by manual validation, resulting in 1,293 confirmed security-related agentic-PRs. We then analyze prevalence, acceptance outcomes, and review latency across autonomous agents, programming ecosystems, and types of code changes. Moreover, we apply qualitative open coding to identify recurring security-related actions and underlying intents, and examine review metadata to identify early signals associated with PR rejection. Security-related Agentic-PRs constitute a meaningful share of agent activity (approximately 4\\%). Rather than focusing solely on narrow vulnerability fixes, agents most frequently perform supportive security hardening activities, including testing, documentation, configuration, and improved error handling. Compared to non-security PRs, security-related Agentic-PRs exhibit lower merge rates and longer review latency, reflecting heightened human scrutiny, with variation across agents and programming ecosystems. PR rejection is more strongly associated with PR complexity and verbosity than with explicit security topics.",
+    "authors": [
+      "Mohammed Latif Siddiq",
+      "Xinye Zhao",
+      "Vinicius Carvalho Lopes",
+      "Beatrice Casey",
+      "Joanna C. S. Santos"
+    ],
+    "published": "2026-01-01T21:14:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  }
+]

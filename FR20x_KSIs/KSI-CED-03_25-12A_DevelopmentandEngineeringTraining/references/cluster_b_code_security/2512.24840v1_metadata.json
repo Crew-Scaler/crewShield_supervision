@@ -1,0 +1,29 @@
+{
+  "arxiv_id": "2512.24840v1",
+  "title": "Scalable Stellar Parameter Inference Using Python-based LASP: From CPU Optimization to GPU Acceleration",
+  "authors": [
+    "Jun-Chao Liang",
+    "Yin-Bi Li",
+    "A-Li Luo",
+    "Fang Zuo",
+    "Bing Du",
+    "Shuo Li",
+    "Xiao-Xiao Ma",
+    "Shu-Guo Ma",
+    "Hai-Ling Lu",
+    "Ke-Fei Wu",
+    "Zhi-Hua Zhong",
+    "Wen Hou",
+    "Xiao Kong",
+    "Shuo Ye",
+    "Li-Li Wang",
+    "Hugh R. A. Jones"
+  ],
+  "published": "2025-12-31T12:59:56Z",
+  "url": "http://arxiv.org/abs/2512.24840v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24840v1.pdf",
+  "relevance_score": 71,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "To enhance the efficiency, scalability, and cross-survey applicability of stellar parameter inference in large spectroscopic datasets, we present a modular, parallelized Python framework with automated error estimation, built on the LAMOST Atmospheric Parameter Pipeline (LASP) originally implemented in IDL. Rather than a direct code translation, this framework refactors LASP with two complementary modules: LASP-CurveFit, a new implementation of the LASP fitting procedure that runs on a CPU, pres"
+}

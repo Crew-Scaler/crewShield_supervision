@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2507.04931v1",
+  "title": "LIFT: Automating Symbolic Execution Optimization with Large Language Models for AI Networks",
+  "authors": [
+    "Ruoxi Wang",
+    "Kun Li",
+    "Minghui Xu",
+    "Yue Zhang",
+    "Kaidi Xu",
+    "Chunchi Liu",
+    "Yinhao Xiao",
+    "Xiuzhen Cheng"
+  ],
+  "published": "2025-07-07T12:26:56Z",
+  "url": "http://arxiv.org/abs/2507.04931v1",
+  "pdf_url": "http://arxiv.org/pdf/2507.04931v1.pdf",
+  "relevance_score": 85,
+  "summary": "Dynamic Symbolic Execution (DSE) is a key technique in program analysis, widely used in software testing, vulnerability discovery, and formal verification. In distributed AI systems, DSE plays a crucial role in identifying hard-to-detect bugs, especially those arising from complex network communication patterns. However, traditional approaches to symbolic execution are often hindered by scalability issues and inefficiencies, particularly in large-scale systems. This paper introduces LIFT (Large-language-model Integrated Functional-equivalent-IR Transformation), a novel framework that leverages Large Language Models (LLMs) to automate the optimization of Intermediate Representations (IRs) in symbolic execution. LIFT addresses the challenges of symbolic execution by providing a scalable, context-sensitive solution for IR transformation. The framework consists of two phases: IR Analysis and Optimization, where LLMs optimize time-intensive IR blocks, and Symbolic Execution and Validation, which includes benchmarking and semantic verification to ensure correctness and generalizability. Experiments on real-world binaries demonstrated significant performance improvements, including a 53.5\\% reduction in execution time for bigtest and a 10.24\\% reduction for random, along with reductions in IR statements, PUT instructions, and temporary variables. These results demonstrate that LLMs simplify IRs while maintaining functional correctness, enhancing symbolic execution in distributed AI systems."
+}

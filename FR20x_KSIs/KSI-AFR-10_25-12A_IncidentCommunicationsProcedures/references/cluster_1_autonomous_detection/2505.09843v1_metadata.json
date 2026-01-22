@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2505.09843v1",
+  "title": "Automated Alert Classification and Triage (AACT): An Intelligent System for the Prioritisation of Cybersecurity Alerts",
+  "authors": [
+    "Melissa Turcotte",
+    "Fran\u00e7ois Labr\u00e8che",
+    "Serge-Olivier Paquette"
+  ],
+  "published": "2025-05-14T23:02:32Z",
+  "url": "http://arxiv.org/abs/2505.09843v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.09843v1.pdf",
+  "relevance_score": 95,
+  "summary": "Enterprise networks are growing ever larger with a rapidly expanding attack surface, increasing the volume of security alerts generated from security controls. Security Operations Centre (SOC) analysts triage these alerts to identify malicious activity, but they struggle with alert fatigue due to the overwhelming number of benign alerts. Organisations are turning to managed SOC providers, where the problem is amplified by context switching and limited visibility into business processes.   A novel system, named AACT, is introduced that automates SOC workflows by learning from analysts' triage actions on cybersecurity alerts. It accurately predicts triage decisions in real time, allowing benign alerts to be closed automatically and critical ones prioritised. This reduces the SOC queue allowing analysts to focus on the most severe, relevant or ambiguous threats. The system has been trained and evaluated on both real SOC data and an open dataset, obtaining high performance in identifying malicious alerts from benign alerts.   Additionally, the system has demonstrated high accuracy in a real SOC environment, reducing alerts shown to analysts by 61% over six months, with a low false negative rate of 1.36% over millions of alerts."
+}

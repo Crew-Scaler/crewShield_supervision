@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2502.00592v2",
+  "title": "M+: Extending MemoryLLM with Scalable Long-Term Memory",
+  "authors": [
+    "Yu Wang",
+    "Dmitry Krotov",
+    "Yuanzhe Hu",
+    "Yifan Gao",
+    "Wangchunshu Zhou",
+    "Julian McAuley",
+    "Dan Gutfreund",
+    "Rogerio Feris",
+    "Zexue He"
+  ],
+  "published": "2025-02-01T23:13:10Z",
+  "url": "http://arxiv.org/abs/2502.00592v2",
+  "pdf_url": "http://arxiv.org/pdf/2502.00592v2.pdf",
+  "relevance_score": 58,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Equipping large language models (LLMs) with latent-space memory has attracted increasing attention as they can extend the context window of existing language models. However, retaining information from the distant past remains a challenge. For example, MemoryLLM (Wang et al., 2024a), as a representative work with latent-space memory, compresses past information into hidden states across all layers, forming a memory pool of 1B parameters. While effective for sequence lengths up to 16k tokens, it "
+}

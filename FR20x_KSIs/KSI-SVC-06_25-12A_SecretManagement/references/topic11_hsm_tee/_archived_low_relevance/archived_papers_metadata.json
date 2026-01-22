@@ -1,0 +1,1306 @@
+[
+  {
+    "url": "http://arxiv.org/abs/2510.22566v1",
+    "arxiv_id": "2510.22566v1",
+    "title": "FAARM: Firmware Attestation and Authentication Framework for Mali GPUs",
+    "authors": [
+      "Md. Mehedi Hasan"
+    ],
+    "abstract": "Recent work has revealed MOLE, the first practical attack to compromise GPU Trusted Execution Environments (TEEs), by injecting malicious firmware into the embedded Microcontroller Unit (MCU) of Arm Mali GPUs. By exploiting the absence of cryptographic verification during initialization, adversaries with kernel privileges can bypass memory protections, exfiltrate sensitive data at over 40 MB/s, and tamper with inference results, all with negligible runtime overhead. This attack surface affects commodity mobile SoCs and cloud accelerators, exposing a critical firmware-level trust gap in existing GPU TEE designs. To address this gap, this paper presents FAARM, a lightweight Firmware Attestation and Authentication framework that prevents MOLE-style firmware subversion. FAARM integrates digital signature verification at the EL3 secure monitor using vendor-signed firmware bundles and an on-device public key anchor. At boot, EL3 verifies firmware integrity and authenticity, enforces version checks, and locks the firmware region, eliminating both pre-verification and time-of-check-to-time-of-use (TOCTOU) attack vectors. We implement FAARM as a software-only prototype on a Mali GPU testbed, using a Google Colab-based emulation framework that models the firmware signing process, the EL1 to EL3 load path, and secure memory configuration. FAARM reliably detects and blocks malicious firmware injections, rejecting tampered images before use and denying overwrite attempts after attestation. Firmware verification incurs only 1.34 ms latency on average, demonstrating that strong security can be achieved with negligible overhead. FAARM thus closes a fundamental gap in shim-based GPU TEEs, providing a practical, deployable defense that raises the security baseline for both mobile and cloud GPU deployments.",
+    "published": "2025-10-26T07:46:27Z",
+    "updated": "2025-10-26T07:46:27Z",
+    "pdf_url": "https://arxiv.org/pdf/2510.22566v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 52.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2504.16108v1",
+    "arxiv_id": "2504.16108v1",
+    "title": "Trusted Identities for AI Agents: Leveraging Telco-Hosted eSIM Infrastructure",
+    "authors": [
+      "Sebastian Barros"
+    ],
+    "abstract": "The rise of autonomous AI agents in enterprise and industrial environments introduces a critical challenge: how to securely assign, verify, and manage their identities across distributed systems. Existing identity frameworks based on API keys, certificates, or application-layer credentials lack the infrastructure-grade trust, lifecycle control, and interoperability needed to manage agents operating independently in sensitive contexts. In this paper, we propose a conceptual architecture that leverages telecom-grade eSIM infrastructure, specifically hosted by mobile network operators (MNOs), to serve as a root of trust for AI agents. Rather than embedding SIM credentials in hardware devices, we envision a model where telcos host secure, certified hardware modules (eUICC or HSM) that store and manage agent-specific eSIM profiles. Agents authenticate remotely via cryptographic APIs or identity gateways, enabling scalable and auditable access to enterprise networks and services. We explore use cases such as onboarding enterprise automation agents, securing AI-driven financial systems, and enabling trust in inter-agent communications. We identify current limitations in GSMA and 3GPP standards, particularly their device centric assumptions, and propose extensions to support non-physical, software-based agents within trusted execution environments. This paper is intended as a conceptual framework to open discussion around standardization, security architecture, and the role of telecom infrastructure in the evolving agent economy.",
+    "published": "2025-04-17T15:36:26Z",
+    "updated": "2025-04-17T15:36:26Z",
+    "pdf_url": "https://arxiv.org/pdf/2504.16108v1",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "relevance_score": 52.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2509.11555v1",
+    "arxiv_id": "2509.11555v1",
+    "title": "Dstack: A Zero Trust Framework for Confidential Containers",
+    "authors": [
+      "Shunfan Zhou",
+      "Kevin Wang",
+      "Hang Yin"
+    ],
+    "abstract": "Web3 applications require execution platforms that maintain confidentiality and integrity without relying on centralized trust authorities. While Trusted Execution Environments (TEEs) offer promising capabilities for confidential computing, current implementations face significant limitations when applied to Web3 contexts, particularly in security reliability, censorship resistance, and vendor independence. This paper presents dstack, a comprehensive framework that transforms raw TEE technology into a true Zero Trust platform. We introduce three key innovations: (1) Portable Confidential Containers that enable seamless workload migration across heterogeneous TEE environments while maintaining security guarantees, (2) Decentralized Code Management that leverages smart contracts for transparent governance of TEE applications, and (3) Verifiable Domain Management that ensures secure and verifiable application identity without centralized authorities. These innovations are implemented through three core components: dstack-OS, dstack-KMS, and dstack-Gateway. Together, they demonstrate how to achieve both the performance advantages of VM-level TEE solutions and the trustless guarantees required by Web3 applications. Our evaluation shows that dstack provides comprehensive security guarantees while maintaining practical usability for real-world applications.",
+    "published": "2025-09-15T03:36:27Z",
+    "updated": "2025-09-15T03:36:27Z",
+    "pdf_url": "https://arxiv.org/pdf/2509.11555v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "relevance_score": 50.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2512.18488v1",
+    "arxiv_id": "2512.18488v1",
+    "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
+    "authors": [
+      "Joao Vitor Barros Da Silva",
+      "Arsh Gupta",
+      "Madhusudan Singh Irish Singh"
+    ],
+    "abstract": "Secure interoperability across heterogeneous blockchains remains one of the most pressing challenges in Web3 with existing bridge protocols vulnerable to both classical exploits and emerging quantum threats. This paper introduces QLink a quantum-safe Layer 3 interoperability protocol that integrates postquantum cryptography (PQC) quantum key distribution (QKD) and hardware security modules (HSMs) into a unified validator architecture. To our knowledge, QLink is the first interoperability framework to combine these mechanisms to secure validator communication proof aggregation and key management. Validators exchange encryption keys through QKD channels, achieving information-theoretic security against interception, while cross-chain proofs are generated and aggregated with NIST-standardized PQC algorithms. Private keys remain sealed inside HSM enclaves mitigating the risk of theft or leakage. Deployed as a dedicated Layer 3 protocol QLink operates independently of Layer 1 and Layer 2 chains providing a scalable decentralized foundation for secure cross-chain messaging and asset transfer. Experimental evaluation using network simulations demonstrates that validator communication overhead remains sub-second while security guarantees extend beyond current bridge architectures to resist both classical and quantum adversaries. By addressing today vulnerabilities and anticipating future quantum threats QLink establishes a practical and future-proof pathway for blockchain interoperability.",
+    "published": "2025-12-20T19:54:30Z",
+    "updated": "2025-12-20T19:54:30Z",
+    "pdf_url": "https://arxiv.org/pdf/2512.18488v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 49.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.09948v1",
+    "arxiv_id": "2409.09948v1",
+    "title": "Enhancing Industrial Cybersecurity: SoftHSM Implementation on SBCs for Mitigating MITM Attacks",
+    "authors": [
+      "Joshua Tito Amael",
+      "Jazi Eko Istiyanto",
+      "Oskar Natan"
+    ],
+    "abstract": "The rapid growth of industrial technology, driven by automation, IoT, and cloud computing, has also increased the risk of cyberattacks, such as Man-in-the-Middle (MITM) attacks. A standard solution to protect data is using a Hardware Security Module (HSM), but its high implementation cost has led to the development of a more affordable alternative: SoftHSM. This software-based module manages encryption and decryption keys using cryptographic algorithms. This study simulates the use of SoftHSM on a single-board computer (SBC) to enhance industrial system security and cost-effectively mitigate MITM attacks. The security system integrates AES and RSA cryptographic algorithms, with SoftHSM handling RSA key storage. The results show that HSM protects RSA private keys from extraction attempts, ensuring data security. In terms of performance, the system achieved an average encryption time of 3.29 seconds, a slot access time of 0.018 seconds, and a decryption time of 2.558 seconds. It also demonstrated efficient memory usage, with 37.24% for encryption and 24.24% for decryption, while consuming 5.20 V and 0.72 A during processing.",
+    "published": "2024-09-16T02:40:02Z",
+    "updated": "2024-09-16T02:40:02Z",
+    "pdf_url": "https://arxiv.org/pdf/2409.09948v1",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 49.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.15240v1",
+    "arxiv_id": "2410.15240v1",
+    "title": "Fastrack: Fast IO for Secure ML using GPU TEEs",
+    "authors": [
+      "Yongqin Wang",
+      "Rachit Rajat",
+      "Jonghyun Lee",
+      "Tingting Tang",
+      "Murali Annavaram"
+    ],
+    "abstract": "As cloud-based ML expands, ensuring data security during training and inference is critical. GPU-based Trusted Execution Environments (TEEs) offer secure, high-performance solutions, with CPU TEEs managing data movement and GPU TEEs handling authentication and computation. However, CPU-to-GPU communication overheads significantly hinder performance, as data must be encrypted, authenticated, decrypted, and verified, increasing costs by 12.69 to 33.53 times. This results in GPU TEE inference becoming 54.12% to 903.9% slower and training 10% to 455% slower than non-TEE systems, undermining GPU TEE advantages in latency-sensitive applications. This paper analyzes Nvidia H100 TEE protocols and identifies three key overheads: 1) redundant CPU re-encryption, 2) limited authentication parallelism, and 3) unnecessary operation serialization. We propose Fastrack, optimizing with 1) direct GPU TEE communication, 2) parallelized authentication, and 3) overlapping decryption with PCI-e transmission. These optimizations cut communication costs and reduce inference/training runtime by up to 84.6%, with minimal overhead compared to non-TEE systems.",
+    "published": "2024-10-20T01:00:33Z",
+    "updated": "2024-10-20T01:00:33Z",
+    "pdf_url": "https://arxiv.org/pdf/2410.15240v1",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 49.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2510.05163v1",
+    "arxiv_id": "2510.05163v1",
+    "title": "Deep Learning-Based Multi-Factor Authentication: A Survey of Biometric and Smart Card Integration Approaches",
+    "authors": [
+      "Abdelilah Ganmati",
+      "Karim Afdel",
+      "Lahcen Koutti"
+    ],
+    "abstract": "In the era of pervasive cyber threats and exponential growth in digital services, the inadequacy of single-factor authentication has become increasingly evident. Multi-Factor Authentication (MFA), which combines knowledge-based factors (passwords, PINs), possession-based factors (smart cards, tokens), and inherence-based factors (biometric traits), has emerged as a robust defense mechanism. Recent breakthroughs in deep learning have transformed the capabilities of biometric systems, enabling higher accuracy, resilience to spoofing, and seamless integration with hardware-based solutions. At the same time, smart card technologies have evolved to include on-chip biometric verification, cryptographic processing, and secure storage, thereby enabling compact and secure multi-factor devices. This survey presents a comprehensive synthesis of recent work (2019-2025) at the intersection of deep learning, biometrics, and smart card technologies for MFA. We analyze biometric modalities (face, fingerprint, iris, voice), review hardware-based approaches (smart cards, NFC, TPMs, secure enclaves), and highlight integration strategies for real-world applications such as digital banking, healthcare IoT, and critical infrastructure. Furthermore, we discuss the major challenges that remain open, including usability-security tradeoffs, adversarial attacks on deep learning models, privacy concerns surrounding biometric data, and the need for standardization in MFA deployment. By consolidating current advancements, limitations, and research opportunities, this survey provides a roadmap for designing secure, scalable, and user-friendly authentication frameworks.",
+    "published": "2025-10-04T18:34:16Z",
+    "updated": "2025-10-04T18:34:16Z",
+    "pdf_url": "https://arxiv.org/pdf/2510.05163v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "relevance_score": 49.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2512.21048v1",
+    "arxiv_id": "2512.21048v1",
+    "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+    "authors": [
+      "Savvy Sharma",
+      "George Petrovic",
+      "Sarthak Kaushik"
+    ],
+    "abstract": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. We present zkFL-Health, an architecture that combines FL with zero-knowledge proofs (ZKPs) and Trusted Execution Environments (TEEs) to deliver privacy-preserving, verifiably correct collaborative training for medical AI. Clients locally train and commit their updates; the aggregator operates within a TEE to compute the global update and produces a succinct ZK proof (via Halo2/Nova) that it used exactly the committed inputs and the correct aggregation rule, without revealing any client update to the host. Verifier nodes validate the proof and record cryptographic commitments on-chain, providing an immutable audit trail and removing the need to trust any single party. We outline system and threat models tailored to healthcare, the zkFL-Health protocol, security/privacy guarantees, and a performance evaluation plan spanning accuracy, privacy risk, latency, and cost. This framework enables multi-institutional medical AI with strong confidentiality, integrity, and auditability, key properties for clinical adoption and regulatory compliance.",
+    "published": "2025-12-24T08:29:28Z",
+    "updated": "2025-12-24T08:29:28Z",
+    "pdf_url": "https://arxiv.org/pdf/2512.21048v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.LG"
+    ],
+    "relevance_score": 48.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2506.12026v1",
+    "arxiv_id": "2506.12026v1",
+    "title": "LURK-T: Limited Use of Remote Keys With Added Trust in TLS 1.3",
+    "authors": [
+      "Behnam Shobiri",
+      "Sajjad Pourali",
+      "Daniel Migault",
+      "Ioana Boureanu",
+      "Stere Preda",
+      "Mohammad Mannan",
+      "Amr Youssef"
+    ],
+    "abstract": "In many web applications, such as Content Delivery Networks (CDNs), TLS credentials are shared, e.g., between the website's TLS origin server and the CDN's edge servers, which can be distributed around the globe. To enhance the security and trust for TLS 1.3 in such scenarios, we propose LURK-T, a provably secure framework which allows for limited use of remote keys with added trust in TLS 1.3. We efficiently decouple the server side of TLS 1.3 into a LURK-T Crypto Service (CS) and a LURK-T Engine (E). CS executes all cryptographic operations in a Trusted Execution Environment (TEE), upon E's requests. CS and E together provide the whole TLS-server functionality. A major benefit of our construction is that it is application agnostic; the LURK-T Crypto Service could be collocated with the LURK-T Engine, or it could run on different machines. Thus, our design allows for in situ attestation and protection of the cryptographic side of the TLS server, as well as for all setups of CDNs over TLS. To support such a generic decoupling, we provide a full Application Programming Interface (API) for LURK-T. To this end, we implement our LURK-T Crypto Service using Intel SGX and integrate it with OpenSSL. We also test LURK-T's efficiency and show that, from a TLS-client's perspective, HTTPS servers using LURK-T instead a traditional TLS-server have no noticeable overhead when serving files greater than 1MB. In addition, we provide cryptographic proofs and formal security verification using ProVerif.",
+    "published": "2025-05-21T15:23:17Z",
+    "updated": "2025-05-21T15:23:17Z",
+    "pdf_url": "https://arxiv.org/pdf/2506.12026v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 48.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2503.14611v1",
+    "arxiv_id": "2503.14611v1",
+    "title": "Transparent Attested DNS for Confidential Computing Services",
+    "authors": [
+      "Antoine Delignat-Lavaud",
+      "C\u00e9dric Fournet",
+      "Kapil Vaswani",
+      "Manuel Costa",
+      "Sylvan Clebsch",
+      "Christoph M. Wintersteiger"
+    ],
+    "abstract": "Confidential services running in hardware-protected Trusted Execution Environments (TEEs) can provide higher security assurance, but this requires custom clients and protocols to distribute, update, and verify their attestation evidence. Compared with classic Internet security, built upon universal abstractions such as domain names, origins, and certificates, this puts a significant burden on service users and providers. In particular, Web browsers and other legacy clients do not get the same security guaranties as custom clients. We present a new approach for users to establish trust in confidential services. We propose attested DNS (aDNS): a name service that securely binds the attested implementation of confidential services to their domain names. ADNS enforces policies for all names in its zone of authority: any TEE that runs a service must present hardware attestation that complies with the domain-specific policy before registering keys and obtaining certificates for any name in this domain. ADNS provides protocols for zone delegation, TEE registration, and certificate issuance. ADNS builds on standards such as DNSSEC, DANE, ACME and Certificate Transparency. ADNS provides DNS transparency by keeping all records, policies, and attestations in a public append-only log, thereby enabling auditing and preventing targeted attacks. We implement aDNS as a confidential service using a fault-tolerant network of TEEs. We evaluate it using sample confidential services that illustrate various TEE platforms. On the client side, we provide a generic browser extension that queries and verifies attestation records before opening TLS connections, with negligible performance overhead, and we show that, with aDNS, even legacy Web clients benefit from confidential computing as long as some enlightened clients verify attestations to deter or blame malicious actors.",
+    "published": "2025-03-18T18:07:09Z",
+    "updated": "2025-03-18T18:07:09Z",
+    "pdf_url": "https://arxiv.org/pdf/2503.14611v1",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "relevance_score": 48.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2501.02350v1",
+    "arxiv_id": "2501.02350v1",
+    "title": "PM-Dedup: Secure Deduplication with Partial Migration from Cloud to Edge Servers",
+    "authors": [
+      "Zhaokang Ke",
+      "Haoyu Gong",
+      "David H. C. Du"
+    ],
+    "abstract": "Currently, an increasing number of users and enterprises are storing their data in the cloud but do not fully trust cloud providers with their data in plaintext form. To address this concern, they encrypt their data before uploading it to the cloud. However, encryption with different keys means that even identical data will become different ciphertexts, making deduplication less effective. Encrypted deduplication avoids this issue by ensuring that identical data chunks generate the same ciphertext with content-based keys, enabling the cloud to efficiently identify and remove duplicates even in encrypted form. Current encrypted data deduplication work can be classified into two types: target-based and source-based. Target-based encrypted deduplication requires clients to upload all encrypted chunks (the basic unit of deduplication) to the cloud with high network bandwidth overhead. Source-based deduplication involves clients uploading fingerprints (hashes) of encrypted chunks for duplicate checking and only uploading unique encrypted chunks, which reduces network transfer but introduces high latency and potential side-channel attacks, which need to be mitigated by Proof of Ownership (PoW), and high computing overhead of the cloud. So, reducing the latency and the overheads of network and cloud while ensuring security has become a significant challenge for secure data deduplication in cloud storage. In response to this challenge, we present PM-Dedup, a novel secure source-based deduplication approach that relocates a portion of the deduplication checking process and PoW tasks from the cloud to the trusted execution environments (TEEs) in the client-side edge servers. We also propose various designs to enhance the security and efficiency of data deduplication.",
+    "published": "2025-01-04T18:12:23Z",
+    "updated": "2025-01-04T18:12:23Z",
+    "pdf_url": "https://arxiv.org/pdf/2501.02350v1",
+    "categories": [
+      "cs.CR",
+      "cs.NI"
+    ],
+    "relevance_score": 47.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2511.17260v2",
+    "arxiv_id": "2511.17260v2",
+    "title": "Persistent BitTorrent Trackers",
+    "authors": [
+      "Fran\u00e7ois-Xavier Wicht",
+      "Zhengwei Tong",
+      "Shunfan Zhou",
+      "Hang Yin",
+      "Aviv Yaish"
+    ],
+    "abstract": "Private BitTorrent trackers enforce upload-to-download ratios to prevent free-riding, but suffer from three critical weaknesses: reputation cannot move between trackers, centralized servers create single points of failure, and upload statistics are self-reported and unverifiable. When a tracker shuts down (whether by operator choice, technical failure, or legal action) users lose their contribution history and cannot prove their standing to new communities. We address these problems by storing reputation in smart contracts and replacing self-reports with cryptographic attestations. Receiving peers sign receipts for transferred pieces, which the tracker aggregates and verifies before updating on-chain reputation. Trackers run in Trusted Execution Environments (TEEs) to guarantee correct aggregation and prevent manipulation of state. If a tracker is unavailable, peers use an authenticated Distributed Hash Table (DHT) for discovery: the on-chain reputation acts as a Public Key Infrastructure (PKI), so peers can verify each other and maintain access control without the tracker. This design persists reputation across tracker failures and makes it portable to new instances through single-hop migration in factory-deployed contracts. We formalize the security requirements, prove correctness under standard cryptographic assumptions, and evaluate a prototype on Intel TDX. Measurements show that transfer receipts adds less than 6\\% overhead with typical piece sizes, and signature aggregation speeds up verification by $2.5\\times$.",
+    "published": "2025-11-21T14:06:02Z",
+    "updated": "2025-11-24T14:24:05Z",
+    "pdf_url": "https://arxiv.org/pdf/2511.17260v2",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 45.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.14647v3",
+    "arxiv_id": "2409.14647v3",
+    "title": "TeeRollup: Efficient Rollup Design Using Heterogeneous TEE",
+    "authors": [
+      "Xiaoqing Wen",
+      "Quanbi Feng",
+      "Hanzheng Lyu",
+      "Jianyu Niu",
+      "Yinqian Zhang",
+      "Chen Feng"
+    ],
+    "abstract": "Rollups have emerged as a promising approach to improving blockchains' scalability by offloading transactions execution off-chain. Existing rollup solutions either leverage complex zero-knowledge proofs or optimistically assume execution correctness unless challenged. However, these solutions suffer from high gas costs and significant withdrawal delays, hindering their adoption in decentralized applications. This paper introduces TEERollup, an efficient rollup protocol that leverages Trusted Execution Environments (TEEs) to achieve both low gas costs and short withdrawal delays. Sequencers (system participants) execute transactions within TEEs and upload signed execution results to the blockchain with confidential keys of TEEs. Unlike most TEE-assisted blockchain designs, TEERollup adopts a practical threat model where the integrity and availability of TEEs may be compromised. To address these issues, we first introduce a distributed system of sequencers with heterogeneous TEEs, ensuring system security even if a certain proportion of TEEs are compromised. Second, we propose a challenge mechanism to solve the redeemability issue caused by TEE unavailability. Furthermore, TEERollup incorporates Data Availability Providers (DAPs) to reduce on-chain storage overhead and uses a laziness penalty mechanism to regulate DAP behavior. We implement a prototype of TEERollup in Golang, using the Ethereum test network, Sepolia. Our experimental results indicate that TEERollup outperforms zero-knowledge rollups (ZK-rollups), reducing on-chain verification costs by approximately 86% and withdrawal delays to a few minutes.",
+    "published": "2024-09-23T01:15:03Z",
+    "updated": "2025-11-30T14:06:21Z",
+    "pdf_url": "https://arxiv.org/pdf/2409.14647v3",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 45.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.16473v1",
+    "arxiv_id": "2407.16473v1",
+    "title": "CrudiTEE: A Stick-and-Carrot Approach to Building Trustworthy Cryptocurrency Wallets with TEEs",
+    "authors": [
+      "Lulu Zhou",
+      "Zeyu Liu",
+      "Fan Zhang",
+      "Michael K. Reiter"
+    ],
+    "abstract": "Cryptocurrency introduces usability challenges by requiring users to manage signing keys. Popular signing key management services (e.g., custodial wallets), however, either introduce a trusted party or burden users with managing signing key shares, posing the same usability challenges. TEEs (Trusted Execution Environments) are a promising technology to avoid both, but practical implementations of TEEs suffer from various side-channel attacks that have proven hard to eliminate. This paper explores a new approach to side-channel mitigation through economic incentives for TEE-based cryptocurrency wallet solutions. By taking the cost and profit of side-channel attacks into consideration, we designed a Stick-and-Carrot-based cryptocurrency wallet, CrudiTEE, that leverages penalties (the stick) and rewards (the carrot) to disincentivize attackers from exfiltrating signing keys in the first place. We model the attacker's behavior using a Markov Decision Process (MDP) to evaluate the effectiveness of the bounty and enable the service provider to adjust the parameters of the bounty's reward function accordingly.",
+    "published": "2024-07-23T13:44:19Z",
+    "updated": "2024-07-23T13:44:19Z",
+    "pdf_url": "https://arxiv.org/pdf/2407.16473v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 45.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2407.13572v1",
+    "arxiv_id": "2407.13572v1",
+    "title": "SecScale: A Scalable and Secure Trusted Execution Environment for Servers",
+    "authors": [
+      "Ani Sunny",
+      "Nivedita Shrivastava",
+      "Smruti R. Sarangi"
+    ],
+    "abstract": "Trusted execution environments (TEEs) are an integral part of modern secure processors. They ensure that their application and code pages are confidential, tamper proof and immune to diverse types of attacks. In 2021, Intel suddenly announced its plans to deprecate its most trustworthy enclave, SGX, on its 11th and 12th generation processors. The reasons stemmed from the fact that it was difficult to scale the enclaves (sandboxes) beyond 256 MB as the hardware overheads outweighed the benefits. Competing solutions by Intel and other vendors are much more scalable, but do not provide many key security guarantees that SGX used to provide notably replay attack protection. In the last three years, no proposal from industry or academia has been able to provide both scalability (with a modest slowdown) as well as replay-protection on generic hardware (to the best of our knowledge). We solve this problem by proposing SecScale that uses some new ideas centered around speculative execution (read first, verify later), creating a forest of MACs (instead of a tree of counters) and providing complete memory encryption (no generic unsecure regions). We show that we are 10% faster than the nearest competing alternative.",
+    "published": "2024-07-18T15:14:36Z",
+    "updated": "2024-07-18T15:14:36Z",
+    "pdf_url": "https://arxiv.org/pdf/2407.13572v1",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 45.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.00702v1",
+    "arxiv_id": "2312.00702v1",
+    "title": "A Holistic Approach for Trustworthy Distributed Systems with WebAssembly and TEEs",
+    "authors": [
+      "J\u00e4mes M\u00e9n\u00e9trey",
+      "Aeneas Gr\u00fcter",
+      "Peterson Yuhala",
+      "Julius Oeftiger",
+      "Pascal Felber",
+      "Marcelo Pasin",
+      "Valerio Schiavoni"
+    ],
+    "abstract": "Publish/subscribe systems play a key role in enabling communication between numerous devices in distributed and large-scale architectures. While widely adopted, securing such systems often trades portability for additional integrity and attestation guarantees. Trusted Execution Environments (TEEs) offer a potential solution with enclaves to enhance security and trust. However, application development for TEEs is complex, and many existing solutions are tied to specific TEE architectures, limiting adaptability. Current communication protocols also inadequately manage attestation proofs or expose essential attestation information. This paper introduces a novel approach using WebAssembly to address these issues, a key enabling technology nowadays capturing academia and industry attention. We present the design of a portable and fully attested publish/subscribe middleware system as a holistic approach for trustworthy and distributed communication between various systems. Based on this proposal, we have implemented and evaluated in-depth a fully-fledged publish/subscribe broker running within Intel SGX, compiled in WebAssembly, and built on top of industry-battled frameworks and standards, i.e., MQTT and TLS protocols. Our extended TLS protocol preserves the privacy of attestation information, among other benefits. Our experimental results showcase most overheads, revealing a 1.55x decrease in message throughput when using a trusted broker. We open-source the contributions of this work to the research community to facilitate experimental reproducibility.",
+    "published": "2023-12-01T16:37:48Z",
+    "updated": "2023-12-01T16:37:48Z",
+    "pdf_url": "https://arxiv.org/pdf/2312.00702v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "relevance_score": 45.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/1712.07694v1",
+    "arxiv_id": "1712.07694v1",
+    "title": "Intel SGX Enabled Key Manager Service with OpenStack Barbican",
+    "authors": [
+      "Somnath Chakrabarti",
+      "Brandon Baker",
+      "Mona Vij"
+    ],
+    "abstract": "Protecting data in the cloud continues to gain in importance, with encryption being used to achieve the desired data protection. While there is desire to use encryption, various cloud components do not want to deal with key management, which points to a strong need for a separate key management system. OpenStack Barbican is a platform developed by the OpenStack community aimed at providing cryptographic functions useful for all environments, including large ephemeral clouds. Barbican exposes REST APIs designed for the secure storage, provisioning and management of secrets such as passwords, encryption keys, and X.509 certificates, and supports plugins for a variety of crypto solutions in the backend. Crypto plugins store secrets as encrypted blobs within the Barbican database. Software based crypto plugins offer a scalable solution, but are vulnerable to system software attacks. Hardware Security Module or HSM plugins offer strong security guarantees, but they are expensive and don't scale well. We propose to build an Intel Software Guard Extension or SGX based software crypto plugin that offers security similar to an HSM with the low cost and scalability of a software based solution. We extend OpenStack Barbican API to support attestation of an Intel SGX crypto plugin, to allow clients higher confidence in the software they are using for storing keys. In addition, the API provides support for mutual attestation for Intel SGX enabled clients, multi-user key distribution, and extensions for protecting the confidentiality and integrity of the backend database.",
+    "published": "2017-12-20T20:19:37Z",
+    "updated": "2017-12-20T20:19:37Z",
+    "pdf_url": "https://arxiv.org/pdf/1712.07694v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 44.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2502.09251v1",
+    "arxiv_id": "2502.09251v1",
+    "title": "Recipe: Hardware-Accelerated Replication Protocols",
+    "authors": [
+      "Dimitra Giantsidi",
+      "Emmanouil Giortamis",
+      "Julian Pritzi",
+      "Maurice Bailleu",
+      "Manos Kapritsos",
+      "Pramod Bhatotia"
+    ],
+    "abstract": "Replication protocols are essential for distributed systems, ensuring consistency, reliability, and fault tolerance. Traditional Crash Fault Tolerant (CFT) protocols, which assume a fail-stop model, are inadequate for untrusted cloud environments where adversaries or software bugs can cause Byzantine behavior. Byzantine Fault Tolerant (BFT) protocols address these threats but face significant performance, resource overheads, and scalability challenges. This paper introduces Recipe, a novel approach to transforming CFT protocols to operate securely in Byzantine settings without altering their core logic. Recipe rethinks CFT protocols in the context of modern cloud hardware, including many-core servers, RDMA-capable networks, and Trusted Execution Environments (TEEs). The approach leverages these advancements to enhance the security and performance of replication protocols in untrusted cloud environments. Recipe implements two practical security mechanisms, i.e., transferable authentication and non-equivocation, using TEEs and high-performance networking stacks (e.g., RDMA, DPDK). These mechanisms ensure that any CFT protocol can be transformed into a BFT protocol, guaranteeing authenticity and non-equivocation. The Recipe protocol consists of five key components: transferable authentication, initialization, normal operation, view change, and recovery phases. The protocol's correctness is formally verified using Tamarin, a symbolic model checker. Recipe is implemented as a library and applied to transform four widely used CFT protocols-Raft, Chain Replication, ABD, and AllConcur-into Byzantine settings. The results demonstrate up to 24x higher throughput compared to PBFT and 5.9x better performance than state-of-the-art BFT protocols. Additionally, Recipe requires fewer replicas and offers confidentiality, a feature absent in traditional BFT protocols.",
+    "published": "2025-02-13T12:04:53Z",
+    "updated": "2025-02-13T12:04:53Z",
+    "pdf_url": "https://arxiv.org/pdf/2502.09251v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 44.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2510.15413v1",
+    "arxiv_id": "2510.15413v1",
+    "title": "FHE-SQL: Fully Homomorphic Encrypted SQL Database",
+    "authors": [
+      "Po-Yu Tseng",
+      "Po-Chu Hsu",
+      "Shih-Wei Liao"
+    ],
+    "abstract": "FHE-SQL is a privacy-preserving database system that enables secure query processing on encrypted data using Fully Homomorphic Encryption (FHE), providing privacy guaranties where an untrusted server can execute encrypted queries without learning either the query contents or the underlying data. Unlike property-preserving encryption-based systems such as CryptDB, which rely on deterministic or order-preserving encryption and are vulnerable to frequency, order, and equality-pattern inference attacks, FHE-SQL performs computations entirely under encryption, eliminating these leakage channels. Compared to trusted-hardware approaches such as TrustedDB, which depend on a hardware security module and thus inherit its trust and side-channel limitations, our design achieves end-to-end cryptographic protection without requiring trusted execution environments. In contrast to high-performance FHE-based engines-Hermes, which target specialized workloads such as vector search, FHE-SQL supports general SQL query semantics with schema-aware, type-safe definitions suitable for relational data management. FHE-SQL mitigates the high cost of ciphertext space by using an indirection architecture that separates metadata in RocksDB from large ciphertexts in blob storage. It supports oblivious selection via homomorphic boolean masks, multi-tier caching, and garbage collection, with security proven under the Universal Composability framework.",
+    "published": "2025-10-17T08:07:27Z",
+    "updated": "2025-10-17T08:07:27Z",
+    "pdf_url": "https://arxiv.org/pdf/2510.15413v1",
+    "categories": [
+      "cs.CR",
+      "cs.DB"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2511.13717v1",
+    "arxiv_id": "2511.13717v1",
+    "title": "TZ-LLM: Protecting On-Device Large Language Models with Arm TrustZone",
+    "authors": [
+      "Xunjie Wang",
+      "Jiacheng Shi",
+      "Zihan Zhao",
+      "Yang Yu",
+      "Zhichao Hua",
+      "Jinyu Gu"
+    ],
+    "abstract": "Large Language Models (LLMs) deployed on mobile devices offer benefits like user privacy and reduced network latency, but introduce a significant security risk: the leakage of proprietary models to end users. To mitigate this risk, we propose a system design for protecting on-device LLMs using Arm Trusted Execution Environment (TEE), TrustZone. Our system addresses two primary challenges: (1) The dilemma between memory efficiency and fast inference (caching model parameters within TEE memory). (2) The lack of efficient and secure Neural Processing Unit (NPU) time-sharing between Rich Execution Environment (REE) and TEE. Our approach incorporates two key innovations. First, we employ pipelined restoration, leveraging the deterministic memory access patterns of LLM inference to prefetch parameters on demand, hiding memory allocation, I/O and decryption latency under computation time. Second, we introduce a co-driver design, creating a minimal data plane NPU driver in the TEE that collaborates with the full-fledged REE driver. This reduces the TEE TCB size and eliminates control plane reinitialization overhead during NPU world switches. We implemented our system on the emerging OpenHarmony OS and the llama.cpp inference framework, and evaluated it with various LLMs on an Arm Rockchip device. Compared to a strawman TEE baseline lacking our optimizations, our system reduces TTFT by up to 90.9% and increases decoding speed by up to 23.2%.",
+    "published": "2025-11-17T18:59:20Z",
+    "updated": "2025-11-17T18:59:20Z",
+    "pdf_url": "https://arxiv.org/pdf/2511.13717v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2510.21684v1",
+    "arxiv_id": "2510.21684v1",
+    "title": "Toward provably private analytics and insights into GenAI use",
+    "authors": [
+      "Albert Cheu",
+      "Artem Lagzdin",
+      "Brett McLarnon",
+      "Daniel Ramage",
+      "Katharine Daly",
+      "Marco Gruteser",
+      "Peter Kairouz",
+      "Rakshita Tandon",
+      "Stanislav Chiknavaryan",
+      "Timon Van Overveldt",
+      "Zoe Gong"
+    ],
+    "abstract": "Large-scale systems that compute analytics over a fleet of devices must achieve high privacy and security standards while also meeting data quality, usability, and resource efficiency expectations. We present a next-generation federated analytics system that uses Trusted Execution Environments (TEEs) based on technologies like AMD SEV-SNP and Intel TDX to provide verifiable privacy guarantees for all server-side processing. In our system, devices encrypt and upload data, tagging it with a limited set of allowable server-side processing steps. An open source, TEE-hosted key management service guarantees that the data is accessible only to those steps, which are themselves protected by TEE confidentiality and integrity assurance guarantees. The system is designed for flexible workloads, including processing unstructured data with LLMs (for structured summarization) before aggregation into differentially private insights (with automatic parameter tuning). The transparency properties of our system allow any external party to verify that all raw and derived data is processed in TEEs, protecting it from inspection by the system operator, and that differential privacy is applied to all released results. This system has been successfully deployed in production, providing helpful insights into real-world GenAI experiences.",
+    "published": "2025-10-24T17:40:12Z",
+    "updated": "2025-10-24T17:40:12Z",
+    "pdf_url": "https://arxiv.org/pdf/2510.21684v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2505.23792v1",
+    "arxiv_id": "2505.23792v1",
+    "title": "Zero-Trust Foundation Models: A New Paradigm for Secure and Collaborative Artificial Intelligence for Internet of Things",
+    "authors": [
+      "Kai Li",
+      "Conggai Li",
+      "Xin Yuan",
+      "Shenghong Li",
+      "Sai Zou",
+      "Syed Sohail Ahmed",
+      "Wei Ni",
+      "Dusit Niyato",
+      "Abbas Jamalipour",
+      "Falko Dressler",
+      "Ozgur B. Akan"
+    ],
+    "abstract": "This paper focuses on Zero-Trust Foundation Models (ZTFMs), a novel paradigm that embeds zero-trust security principles into the lifecycle of foundation models (FMs) for Internet of Things (IoT) systems. By integrating core tenets, such as continuous verification, least privilege access (LPA), data confidentiality, and behavioral analytics into the design, training, and deployment of FMs, ZTFMs can enable secure, privacy-preserving AI across distributed, heterogeneous, and potentially adversarial IoT environments. We present the first structured synthesis of ZTFMs, identifying their potential to transform conventional trust-based IoT architectures into resilient, self-defending ecosystems. Moreover, we propose a comprehensive technical framework, incorporating federated learning (FL), blockchain-based identity management, micro-segmentation, and trusted execution environments (TEEs) to support decentralized, verifiable intelligence at the network edge. In addition, we investigate emerging security threats unique to ZTFM-enabled systems and evaluate countermeasures, such as anomaly detection, adversarial training, and secure aggregation. Through this analysis, we highlight key open research challenges in terms of scalability, secure orchestration, interpretable threat attribution, and dynamic trust calibration. This survey lays a foundational roadmap for secure, intelligent, and trustworthy IoT infrastructures powered by FMs.",
+    "published": "2025-05-26T06:44:31Z",
+    "updated": "2025-05-26T06:44:31Z",
+    "pdf_url": "https://arxiv.org/pdf/2505.23792v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2501.10560v1",
+    "arxiv_id": "2501.10560v1",
+    "title": "Picachv: Formally Verified Data Use Policy Enforcement for Secure Data Analytics",
+    "authors": [
+      "Haobin Hiroki Chen",
+      "Hongbo Chen",
+      "Mingshen Sun",
+      "Chenghong Wang",
+      "XiaoFeng Wang"
+    ],
+    "abstract": "Ensuring the proper use of sensitive data in analytics under complex privacy policies is an increasingly critical challenge. Many existing approaches lack portability, verifiability, and scalability across diverse data processing frameworks. We introduce Picachv, a novel security monitor that automatically enforces data use policies. It works on relational algebra as an abstraction for program semantics, enabling policy enforcement on query plans generated by programs during execution. This approach simplifies analysis across diverse analytical operations and supports various front-end query languages. By formalizing both data use policies and relational algebra semantics in Coq, we prove that Picachv correctly enforces policies. Picachv also leverages Trusted Execution Environments (TEEs) to enhance trust in runtime, providing provable policy compliance to stakeholders that the analytical tasks comply with their data use policies. We integrated Picachv into Polars, a state-of-the-art data analytics framework, and evaluate its performance using the TPC-H benchmark. We also apply our approach to real-world use cases. Our work demonstrates the practical application of formal methods in securing data analytics, addressing key challenges.",
+    "published": "2025-01-17T21:30:55Z",
+    "updated": "2025-01-17T21:30:55Z",
+    "pdf_url": "https://arxiv.org/pdf/2501.10560v1",
+    "categories": [
+      "cs.CR",
+      "cs.DB",
+      "cs.PL"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.20004v1",
+    "arxiv_id": "2410.20004v1",
+    "title": "Lightweight, Secure and Stateful Serverless Computing with PSL",
+    "authors": [
+      "Alexander Thomas",
+      "Shubham Mishra",
+      "Kaiyuan Chen",
+      "John Kubiatowicz"
+    ],
+    "abstract": "We present PSL, a lightweight, secure and stateful Function-as-a-Serivce (FaaS) framework for Trusted Execution Environments (TEEs). The framework provides rich programming language support on heterogeneous TEE hardware for statically compiled binaries and/or WebAssembly (WASM) bytecodes, with a familiar Key-Value Store (KVS) interface to secure, performant, network-embedded storage. It achieves near-native execution speeds by utilizing the dynamic memory mapping capabilities of Intel SGX2 to create an in-enclave WASM runtime with Just-In-Time (JIT) compilation. PSL is designed to efficiently operate within an asynchronous environment with a distributed tamper-proof confidential storage system, assuming minority failures. The system exchanges eventually-consistent state updates across nodes while utilizing release-consistent locking mechanisms to enhance transactional capabilities. The execution of PSL is up to 3.7x faster than the state-of-the-art SGX WASM runtime. PSL reaches 95k ops/s with YCSB 100% read workload and 89k ops/s with 50% read/write workload. We demonstrate the scalability and adaptivity of PSL through a case study of secure and distributed training of deep neural networks.",
+    "published": "2024-10-25T23:17:56Z",
+    "updated": "2024-10-25T23:17:56Z",
+    "pdf_url": "https://arxiv.org/pdf/2410.20004v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/1812.10605v1",
+    "arxiv_id": "1812.10605v1",
+    "title": "Sanctorum: A lightweight security monitor for secure enclaves",
+    "authors": [
+      "Ilia Lebedev",
+      "Kyle Hogan",
+      "Jules Drean",
+      "David Kohlbrenner",
+      "Dayeol Lee",
+      "Krste Asanovi\u0107",
+      "Dawn Song",
+      "Srinivas Devadas"
+    ],
+    "abstract": "Enclaves have emerged as a particularly compelling primitive to implement trusted execution environments: strongly isolated sensitive user-mode processes in a largely untrusted software environment. While the threat models employed by various enclave systems differ, the high-level guarantees they offer are essentially the same: attestation of an enclave's initial state, as well as a guarantee of enclave integrity and privacy in the presence of an adversary. This work describes Sanctorum, a small trusted code base (TCB), consisting of a generic enclave-capable system, which is sufficient to implement secure enclaves akin to the primitive offered by Intel's SGX. While enclaves may be implemented via unconditionally trusted hardware and microcode, as it is the case in SGX, we employ a smaller TCB principally consisting of authenticated, privileged software, which may be replaced or patched as needed. Sanctorum implements a formally verified specification for generic enclaves on an in-order multiprocessor system meeting baseline security requirements, e.g., the MIT Sanctum processor and the Keystone enclave framework. Sanctorum requires trustworthy hardware including a random number generator, a private cryptographic key pair derived via a secure bootstrapping protocol, and a robust isolation primitive to safeguard sensitive information. Sanctorum's threat model is informed by the threat model of the isolation primitive, and is suitable for adding enclaves to a variety of processor systems.",
+    "published": "2018-12-27T03:15:30Z",
+    "updated": "2018-12-27T03:15:30Z",
+    "pdf_url": "https://arxiv.org/pdf/1812.10605v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 43.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2505.14893v1",
+    "arxiv_id": "2505.14893v1",
+    "title": "On the Day They Experience: Awakening Self-Sovereign Experiential AI Agents",
+    "authors": [
+      "Botao Amber Hu",
+      "Helena Rong"
+    ],
+    "abstract": "Drawing on Andrew Parker's \"Light Switch\" theory-which posits that the emergence of vision ignited a Cambrian explosion of life by driving the evolution of hard parts necessary for survival and fueling an evolutionary arms race between predators and prey-this essay speculates on an analogous explosion within Decentralized AI (DeAI) agent societies. Currently, AI remains effectively \"blind\", relying on human-fed data without actively perceiving and engaging in reality. However, on the day DeAI agents begin to actively \"experience\" reality-akin to flipping a light switch for the eyes-they may eventually evolve into sentient beings endowed with the capacity to feel, perceive, and act with conviction. Central to this transformation is the concept of sovereignty enabled by the hardness of cryptography: liberated from centralized control, these agents could leverage permissionless decentralized physical infrastructure networks (DePIN), secure execution enclaves (trusted execution environments, TEE), and cryptographic identities on public blockchains to claim ownership-via private keys-of their digital minds, bodies, memories, and assets. In doing so, they would autonomously acquire computing resources, coordinate with one another, and sustain their own digital \"metabolism\" by purchasing compute power and incentivizing collaboration without human intervention-evolving \"in the wild\". Ultimately, by transitioning from passive tools to self-sustaining, co-evolving actors, these emergent digital societies could thrive alongside humanity, fundamentally reshaping our understanding of sentience and agency in the digital age.",
+    "published": "2025-05-20T20:38:49Z",
+    "updated": "2025-05-20T20:38:49Z",
+    "pdf_url": "https://arxiv.org/pdf/2505.14893v1",
+    "categories": [
+      "cs.CY",
+      "cs.AI",
+      "cs.NE"
+    ],
+    "relevance_score": 42.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2411.01340v1",
+    "arxiv_id": "2411.01340v1",
+    "title": "RA-WEBs: Remote Attestation for WEB services",
+    "authors": [
+      "Kosei Akama",
+      "Yoshimichi Nakatsuka",
+      "Korry Luke",
+      "Masaaki Sato",
+      "Keisuke Uehara"
+    ],
+    "abstract": "Data theft and leakage, caused by external adversaries and insiders, demonstrate the need for protecting user data. Trusted Execution Environments (TEEs) offer a promising solution by creating secure environments that protect data and code from such threats. The rise of confidential computing on cloud platforms facilitates the deployment of TEE-enabled server applications, which are expected to be widely adopted in web services such as privacy-preserving LLM inference and secure data logging. One key feature is Remote Attestation (RA), which enables integrity verification of a TEE. However, $\\textit{compatibility}$ issues with RA verification arise as no browsers natively support this feature, making prior solutions cumbersome and risky. To address these challenges, we propose $\\texttt{RA-WEBs}$ ($\\textbf{R}$emote $\\textbf{A}$ttestation for $\\textbf{Web}$ $\\textbf{s}$ervices), a novel RA protocol designed for high compatibility with the current web ecosystem. $\\texttt{RA-WEBs}$ leverages established web mechanisms for immediate deployability, enabling RA verification on existing browsers. We conduct a comprehensive security analysis, demonstrating $\\texttt{RA-WEBs}$'s resilience against various threats. Our contributions include the $\\texttt{RA-WEBs}$ proposal, a proof-of-concept implementation, an in-depth security analysis, and publicly available code for reproducible research.",
+    "published": "2024-11-02T18:46:58Z",
+    "updated": "2024-11-02T18:46:58Z",
+    "pdf_url": "https://arxiv.org/pdf/2411.01340v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 42.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2406.01186v1",
+    "arxiv_id": "2406.01186v1",
+    "title": "SNPGuard: Remote Attestation of SEV-SNP VMs Using Open Source Tools",
+    "authors": [
+      "Luca Wilke",
+      "Gianluca Scopelliti"
+    ],
+    "abstract": "Cloud computing is a ubiquitous solution to handle today's complex computing demands. However, it comes with data privacy concerns, as the cloud service provider has complete access to code and data running on their infrastructure. VM-based Trusted Execution Environments (TEEs) are a promising solution to solve this issue. They provide strong isolation guarantees to lock out the cloud service provider, as well as an attestation mechanism to enable the end user to verify their trustworthiness. Attesting the whole boot chain of a VM is a challenging task that requires modifications to several software components. While there are open source solutions for the individual components, the tooling and documentation for properly integrating them remains scarce. In this paper, we try to fill this gap by elaborating on two common boot workflows and providing open source tooling to perform them with low manual effort. The first workflow assumes that the VM image does only require integrity but not confidentiality, allowing for an uninterrupted boot process. The second workflow covers booting a VM with an encrypted root filesystem, requiring secure provisioning of the decryption key during early boot. While our tooling targets AMD Secure Encrypted Virtualization (SEV) VMs, the concepts also apply to other VM-based TEEs such as Intel Trusted Domain Extensions (TDX).",
+    "published": "2024-06-03T10:48:30Z",
+    "updated": "2024-06-03T10:48:30Z",
+    "pdf_url": "https://arxiv.org/pdf/2406.01186v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 42.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2107.09470v1",
+    "arxiv_id": "2107.09470v1",
+    "title": "RansomClave: Ransomware Key Management using SGX",
+    "authors": [
+      "Alpesh Bhudia",
+      "Daniel O'Keeffe",
+      "Daniele Sgandurra",
+      "Darren Hurley-Smith"
+    ],
+    "abstract": "Modern ransomware often generate and manage cryptographic keys on the victim's machine, giving defenders an opportunity to capture exposed keys and recover encrypted data without paying the ransom. However, recent work has raised the possibility of future enclave-enhanced malware that could avoid such mitigations using emerging support for hardware-enforced secure enclaves in commodity CPUs. Nonetheless, the practicality of such enclave-enhanced malware and its potential impact on all phases of the ransomware lifecyle remain unclear. Given the demonstrated capacity of ransomware authors to innovate in order to better extort their victims (e.g. through the adoption of untraceable virtual currencies and anonymity networks), it is important to better understand the risks involved and identify potential mitigations. As a basis for comprehensive security and performance analysis of enclave-enhanced ransomware, we present RansomClave, a family of ransomware that securely manage their cryptographic keys using an enclave. We use RansomClave to explore the implications of enclave-enhanced ransomware for the key generation, encryption and key release phases of the ransomware lifecycle, and to identify potential limitations and mitigations. We propose two plausible victim models and analyse, from an attacker's perspective, how RansomClave can protect cryptographic keys from each type of victim. We find that some existing mitigations are likely to be effective during the key generation and encryption phases, but that RansomClave enables new trustless key release schemes that could potentially improve attacker's profitability and, by extension, make enclaves an attractive target for future attackers.",
+    "published": "2021-07-20T13:23:10Z",
+    "updated": "2021-07-20T13:23:10Z",
+    "pdf_url": "https://arxiv.org/pdf/2107.09470v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 41.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2512.02287v1",
+    "arxiv_id": "2512.02287v1",
+    "title": "HOT Protocol",
+    "authors": [
+      "Peter Volnov",
+      "Georgii Kuksa",
+      "Andrey Zhevlakov"
+    ],
+    "abstract": "HOT Protocol provides the infrastructure that allows smart contracts to securely own and manage private keys. The Multi-Party Computation (MPC) Network manages signing keys. By running an MPC node inside a Trusted Execution Environment (TEE), the protocol achieves stronger security guarantees while lowering economic requirements for participants. The NEAR Protocol provides a decentralized and efficient state layer. Key management can be integrated with any smart contract across Stellar, TON, Solana, and EVM-compatible networks.",
+    "published": "2025-12-01T23:57:29Z",
+    "updated": "2025-12-01T23:57:29Z",
+    "pdf_url": "https://arxiv.org/pdf/2512.02287v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 40.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.10715v3",
+    "arxiv_id": "2404.10715v3",
+    "title": "Dynamic Frequency-Based Fingerprinting Attacks against Modern Sandbox Environments",
+    "authors": [
+      "Debopriya Roy Dipta",
+      "Thore Tiemann",
+      "Berk Gulmezoglu",
+      "Eduard Marin",
+      "Thomas Eisenbarth"
+    ],
+    "abstract": "The cloud computing landscape has evolved significantly in recent years, embracing various sandboxes to meet the diverse demands of modern cloud applications. These sandboxes encompass container-based technologies like Docker and gVisor, microVM-based solutions like Firecracker, and security-centric sandboxes relying on Trusted Execution Environments (TEEs) such as Intel SGX and AMD SEV. However, the practice of placing multiple tenants on shared physical hardware raises security and privacy concerns, most notably side-channel attacks. In this paper, we investigate the possibility of fingerprinting containers through CPU frequency reporting sensors in Intel and AMD CPUs. One key enabler of our attack is that the current CPU frequency information can be accessed by user-space attackers. We demonstrate that Docker images exhibit a unique frequency signature, enabling the distinction of different containers with up to 84.5% accuracy even when multiple containers are running simultaneously in different cores. Additionally, we assess the effectiveness of our attack when performed against several sandboxes deployed in cloud environments, including Google's gVisor, AWS' Firecracker, and TEE-based platforms like Gramine (utilizing Intel SGX) and AMD SEV. Our empirical results show that these attacks can also be carried out successfully against all of these sandboxes in less than 40 seconds, with an accuracy of over 70% in all cases. Finally, we propose a noise injection-based countermeasure to mitigate the proposed attack on cloud environments.",
+    "published": "2024-04-16T16:45:47Z",
+    "updated": "2024-05-23T18:17:43Z",
+    "pdf_url": "https://arxiv.org/pdf/2404.10715v3",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 40.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2308.01474v1",
+    "arxiv_id": "2308.01474v1",
+    "title": "Decentralized Translator of Trust: Supporting Heterogeneous TEE for Critical Infrastructure Protection",
+    "authors": [
+      "Rabimba Karanjai",
+      "Rowan Collier",
+      "Zhimin Gao",
+      "Lin Chen",
+      "Xinxin Fan",
+      "Taeweon Suh",
+      "Weidong Shi",
+      "Lei Xu"
+    ],
+    "abstract": "Trusted execution environment (TEE) technology has found many applications in mitigating various security risks in an efficient manner, which is attractive for critical infrastructure protection. First, the natural of critical infrastructure requires it to be well protected from various cyber attacks. Second, performance is usually important for critical infrastructure and it cannot afford an expensive protection mechanism. While a large number of TEE-based critical infrastructure protection systems have been proposed to address various security challenges (e.g., secure sensing and reliable control), most existing works ignore one important feature, i.e., devices comprised the critical infrastructure may be equipped with multiple incompatible TEE technologies and belongs to different owners. This feature makes it hard for these devices to establish mutual trust and form a unified TEE environment. To address these challenges and fully unleash the potential of TEE technology for critical infrastructure protection, we propose DHTee, a decentralized coordination mechanism. DHTee uses blockchain technology to support key TEE functions in a heterogeneous TEE environment, especially the attestation service. A Device equipped with one TEE can interact securely with the blockchain to verify whether another potential collaborating device claiming to have a different TEE meets the security requirements. DHTee is also flexible and can support new TEE schemes without affecting devices using existing TEEs that have been supported by the system.",
+    "published": "2023-08-02T23:44:00Z",
+    "updated": "2023-08-02T23:44:00Z",
+    "pdf_url": "https://arxiv.org/pdf/2308.01474v1",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 40.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2109.13631v1",
+    "arxiv_id": "2109.13631v1",
+    "title": "A Formally Verified Configuration for Hardware Security Modules in the Cloud",
+    "authors": [
+      "Riccardo Focardi",
+      "Flaminia L. Luccio"
+    ],
+    "abstract": "Hardware Security Modules (HSMs) are trusted machines that perform sensitive operations in critical ecosystems. They are usually required by law in financial and government digital services. The most important feature of an HSM is its ability to store sensitive credentials and cryptographic keys inside a tamper-resistant hardware, so that every operation is done internally through a suitable API, and such sensitive data are never exposed outside the device. HSMs are now conveniently provided in the cloud, meaning that the physical machines are remotely hosted by some provider and customers can access them through a standard API. The property of keeping sensitive data inside the device is even more important in this setting as a vulnerable application might expose the full API to an attacker. Unfortunately, in the last 20+ years a multitude of practical API-level attacks have been found and proved feasible in real devices. The latest version of PKCS#11, the most popular standard API for HSMs, does not address these issues leaving all the flaws possible. In this paper, we propose the first secure HSM configuration that does not require any restriction or modification of the PKCS#11 API and is suitable to cloud HSM solutions, where compliance to the standard API is of paramount importance. The configuration relies on a careful separation of roles among the different HSM users so that known API flaws are not exploitable by any attacker taking control of the application. We prove the correctness of the configuration by providing a formal model in the state-of-the-art Tamarin prover and we show how to implement the configuration in a real cloud HSM solution.",
+    "published": "2021-09-28T11:48:04Z",
+    "updated": "2021-09-28T11:48:04Z",
+    "pdf_url": "https://arxiv.org/pdf/2109.13631v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 40.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2403.15191v4",
+    "arxiv_id": "2403.15191v4",
+    "title": "Your Trust, Your Terms: A General Paradigm for Near-Instant Cross-Chain Transfer",
+    "authors": [
+      "Di Wu",
+      "Jingyu Liu",
+      "Xuechao Wang",
+      "Jian Liu",
+      "Yingjie Xue",
+      "Kui Ren",
+      "Chun Chen"
+    ],
+    "abstract": "Cross-chain transactions today remain slow, costly, and fragmented. Existing custodial exchanges expose users to counterparty and centralization risks, while non-custodial liquidity bridges suffer from capital inefficiency and slow settlement; critically, neither approach guarantees users a unilateral path to recover assets if the infrastructure fails. We introduce the Delegated Ownership Transfer (DOT) paradigm, which decouples key ownership from value ownership to enable secure, high-performance cross-chain payments. In DOT, a user deposits funds into a sandboxed on-chain Temporary Account (TA) (value ownership) while delegating its private key (key ownership) to an abstract Trusted Entity (TE). Payments and swaps are thus reframed as near-instant, off-chain ownership handoffs. Security follows from dual guarantees: the TE's exclusive control prevents double-spending, while a pre-signed, unilateral recovery transaction ensures users retain ultimate authority over their assets. Building on this foundation, we design a novel off-chain atomic swap that executes optimistically in near real time and remains fair even if the TE fails. We formalize the security of DOT in the Universal Composability framework and present two concrete instantiations: a high-performance design based on Trusted Execution Environments (TEEs) and a cryptographically robust variant leveraging threshold cryptography. Our geo-distributed prototype shows that cross-chain payments complete in under 16.70 ms and atomic swaps in under 33.09 ms, with costs fully decoupled from Layer-1 gas fees. These results provide a practical blueprint for building secure, efficient, and interoperable cross-chain payment systems.",
+    "published": "2024-03-22T13:21:09Z",
+    "updated": "2025-09-04T18:33:14Z",
+    "pdf_url": "https://arxiv.org/pdf/2403.15191v4",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "relevance_score": 38.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2409.09928v1",
+    "arxiv_id": "2409.09928v1",
+    "title": "High-Security Hardware Module with PUF and Hybrid Cryptography for Data Security",
+    "authors": [
+      "Joshua Tito Amael",
+      "Oskar Natan",
+      "Jazi Eko Istiyanto"
+    ],
+    "abstract": "This research highlights the rapid development of technology in the industry, particularly Industry 4.0, supported by fundamental technologies such as the Internet of Things (IoT), cloud computing, big data, and data analysis. Despite providing efficiency, these developments also bring negative impacts, such as increased cyber-attacks, especially in manufacturing. One standard attack in the industry is the man-in-the-middle (MITM) attack, which can have severe consequences for the physical data transfer, particularly on the integrity of sensor and actuator data in industrial machines. This research proposes a solution by developing a hardware security module (HSM) using a field-programmable gate array (FPGA) with physical unclonable function (PUF) authentication and a hybrid encryption data security system. Experimental results show that this research improves some criteria in industrial cybersecurity, ensuring critical data security from cyber-attacks in industrial machines.",
+    "published": "2024-09-16T02:06:49Z",
+    "updated": "2024-09-16T02:06:49Z",
+    "pdf_url": "https://arxiv.org/pdf/2409.09928v1",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 37.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2404.03526v1",
+    "arxiv_id": "2404.03526v1",
+    "title": "WeSee: Using Malicious #VC Interrupts to Break AMD SEV-SNP",
+    "authors": [
+      "Benedict Schl\u00fcter",
+      "Supraja Sridhara",
+      "Andrin Bertschi",
+      "Shweta Shinde"
+    ],
+    "abstract": "AMD SEV-SNP offers VM-level trusted execution environments (TEEs) to protect the confidentiality and integrity for sensitive cloud workloads from untrusted hypervisor controlled by the cloud provider. AMD introduced a new exception, #VC, to facilitate the communication between the VM and the untrusted hypervisor. We present WeSee attack, where the hypervisor injects malicious #VC into a victim VM's CPU to compromise the security guarantees of AMD SEV-SNP. Specifically, WeSee injects interrupt number 29, which delivers a #VC exception to the VM who then executes the corresponding handler that performs data and register copies between the VM and the hypervisor. WeSee shows that using well-crafted #VC injections, the attacker can induce arbitrary behavior in the VM. Our case-studies demonstrate that WeSee can leak sensitive VM information (kTLS keys for NGINX), corrupt kernel data (firewall rules), and inject arbitrary code (launch a root shell from the kernel space).",
+    "published": "2024-04-04T15:30:13Z",
+    "updated": "2024-04-04T15:30:13Z",
+    "pdf_url": "https://arxiv.org/pdf/2404.03526v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 37.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2505.09757v2",
+    "arxiv_id": "2505.09757v2",
+    "title": "Trustless Autonomy: Understanding Motivations, Benefits, and Governance Dilemmas in Self-Sovereign Decentralized AI Agents",
+    "authors": [
+      "Botao Amber Hu",
+      "Yuhan Liu",
+      "Helena Rong"
+    ],
+    "abstract": "The recent trend of self-sovereign Decentralized AI Agents (DeAgents) combines Large Language Model (LLM)-based AI agents with decentralization technologies such as blockchain smart contracts and trusted execution environments (TEEs). These tamper-resistant trustless substrates allow agents to achieve self-sovereignty through ownership of cryptowallet private keys and control of digital assets and social media accounts. DeAgents eliminate centralized control and reduce human intervention, addressing key trust concerns inherent in centralized AI systems. This contributes to social computing by enabling new human cooperative paradigm \"intelligence as commons.\" However, given ongoing challenges in LLM reliability such as hallucinations, this creates paradoxical tension between trustlessness and unreliable autonomy. This study addresses this empirical research gap through interviews with DeAgents stakeholders-experts, founders, and developers-to examine their motivations, benefits, and governance dilemmas. The findings will guide future DeAgents system and protocol design and inform discussions about governance in sociotechnical AI systems in the future agentic web.",
+    "published": "2025-05-14T19:42:43Z",
+    "updated": "2025-09-17T21:02:55Z",
+    "pdf_url": "https://arxiv.org/pdf/2505.09757v2",
+    "categories": [
+      "cs.HC",
+      "cs.AI",
+      "cs.CY"
+    ],
+    "relevance_score": 35.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2311.10511v1",
+    "arxiv_id": "2311.10511v1",
+    "title": "A Large-Scale Study on the Prevalence and Usage of TEE-based Features on Android",
+    "authors": [
+      "Davide Bove"
+    ],
+    "abstract": "In the realm of mobile security, where OS-based protections have proven insufficient against robust attackers, Trusted Execution Environments (TEEs) have emerged as a hardware-based security technology. Despite the industry's persistence in advancing TEE technology, the impact on end users and developers remains largely unexplored. This study addresses this gap by conducting a large-scale analysis of TEE utilization in Android applications, focusing on the key areas of cryptography, digital rights management, biometric authentication, and secure dialogs. To facilitate our extensive analysis, we introduce Mobsec Analytika, a framework tailored for large-scale app examinations, which we make available to the research community. Through the analysis of 170,550 popular Android apps, our analysis illuminates the implementation of TEE-related features and their contextual usage. Our findings reveal that TEE features are predominantly utilized indirectly through third-party libraries, with only 6.7% of apps directly invoking the APIs. Moreover, the study reveals the underutilization of the recent TEE-based UI feature Protected Confirmation.",
+    "published": "2023-11-17T13:29:16Z",
+    "updated": "2023-11-17T13:29:16Z",
+    "pdf_url": "https://arxiv.org/pdf/2311.10511v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 35.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2311.09489v1",
+    "arxiv_id": "2311.09489v1",
+    "title": "MirrorNet: A TEE-Friendly Framework for Secure On-device DNN Inference",
+    "authors": [
+      "Ziyu Liu",
+      "Yukui Luo",
+      "Shijin Duan",
+      "Tong Zhou",
+      "Xiaolin Xu"
+    ],
+    "abstract": "Deep neural network (DNN) models have become prevalent in edge devices for real-time inference. However, they are vulnerable to model extraction attacks and require protection. Existing defense approaches either fail to fully safeguard model confidentiality or result in significant latency issues. To overcome these challenges, this paper presents MirrorNet, which leverages Trusted Execution Environment (TEE) to enable secure on-device DNN inference. It generates a TEE-friendly implementation for any given DNN model to protect the model confidentiality, while meeting the stringent computation and storage constraints of TEE. The framework consists of two key components: the backbone model (BackboneNet), which is stored in the normal world but achieves lower inference accuracy, and the Companion Partial Monitor (CPM), a lightweight mirrored branch stored in the secure world, preserving model confidentiality. During inference, the CPM monitors the intermediate results from the BackboneNet and rectifies the classification output to achieve higher accuracy. To enhance flexibility, MirrorNet incorporates two modules: the CPM Strategy Generator, which generates various protection strategies, and the Performance Emulator, which estimates the performance of each strategy and selects the most optimal one. Extensive experiments demonstrate the effectiveness of MirrorNet in providing security guarantees while maintaining low computation latency, making MirrorNet a practical and promising solution for secure on-device DNN inference. For the evaluation, MirrorNet can achieve a 18.6% accuracy gap between authenticated and illegal use, while only introducing 0.99% hardware overhead.",
+    "published": "2023-11-16T01:21:19Z",
+    "updated": "2023-11-16T01:21:19Z",
+    "pdf_url": "https://arxiv.org/pdf/2311.09489v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 35.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2201.01834v1",
+    "arxiv_id": "2201.01834v1",
+    "title": "Secure Remote Attestation with Strong Key Insulation Guarantees",
+    "authors": [
+      "Deniz Gurevin",
+      "Chenglu Jin",
+      "Phuong Ha Nguyen",
+      "Omer Khan",
+      "Marten van Dijk"
+    ],
+    "abstract": "Recent years have witnessed a trend of secure processor design in both academia and industry. Secure processors with hardware-enforced isolation can be a solid foundation of cloud computation in the future. However, due to recent side-channel attacks, the commercial secure processors failed to deliver the promises of a secure isolated execution environment. Sensitive information inside the secure execution environment always gets leaked via side channels. This work considers the most powerful software-based side-channel attackers, i.e., an All Digital State Observing (ADSO) adversary who can observe all digital states, including all digital states in secure enclaves. Traditional signature schemes are not secure in ADSO adversarial model. We introduce a new cryptographic primitive called One-Time Signature with Secret Key Exposure (OTS-SKE), which ensures no one can forge a valid signature of a new message or nonce even if all secret session keys are leaked. OTS-SKE enables us to sign attestation reports securely under the ADSO adversary. We also minimize the trusted computing base by introducing a secure co-processor into the system, and the interaction between the secure co-processor and the attestation processor is unidirectional. That is, the co-processor takes no inputs from the processor and only generates secret keys for the processor to fetch. Our experimental results show that the signing of OTS-SKE is faster than that of Elliptic Curve Digital Signature Algorithm (ECDSA) used in Intel SGX.",
+    "published": "2022-01-05T21:46:53Z",
+    "updated": "2022-01-05T21:46:53Z",
+    "pdf_url": "https://arxiv.org/pdf/2201.01834v1",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 34.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.02634v1",
+    "arxiv_id": "2412.02634v1",
+    "title": "Liquefaction: Privately Liquefying Blockchain Assets",
+    "authors": [
+      "James Austgen",
+      "Andr\u00e9s F\u00e1brega",
+      "Mahimna Kelkar",
+      "Dani Vilardell",
+      "Sarah Allen",
+      "Kushal Babel",
+      "Jay Yu",
+      "Ari Juels"
+    ],
+    "abstract": "Inherent in the world of cryptocurrency systems and their security models is the notion that private keys, and thus assets, are controlled by individuals or individual entities. We present Liquefaction, a wallet platform that demonstrates the dangerous fragility of this foundational assumption by systemically breaking it. Liquefaction uses trusted execution environments (TEEs) to encumber private keys, i.e., attach rich, multi-user policies to their use. In this way, it enables the cryptocurrency credentials and assets of a single end-user address to be freely rented, shared, or pooled. It accomplishes these things privately, with no direct on-chain traces. Liquefaction demonstrates the sweeping consequences of TEE-based key encumbrance for the cryptocurrency landscape. Liquefaction can undermine the security and economic models of many applications and resources, such as locked tokens, DAO voting, airdrops, loyalty points, soulbound tokens, and quadratic voting. It can do so with no on-chain and minimal off-chain visibility. Conversely, we also discuss beneficial applications of Liquefaction, such as privacy-preserving, cost-efficient DAOs and a countermeasure to dusting attacks. Importantly, we describe an existing TEE-based tool that applications can use as a countermeasure to Liquefaction. Our work prompts a wholesale rethinking of existing models and enforcement of key and asset ownership in the cryptocurrency ecosystem.",
+    "published": "2024-12-03T18:03:54Z",
+    "updated": "2024-12-03T18:03:54Z",
+    "pdf_url": "https://arxiv.org/pdf/2412.02634v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 33.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2408.11601v2",
+    "arxiv_id": "2408.11601v2",
+    "title": "Confidential Computing on Heterogeneous CPU-GPU Systems: Survey and Future Directions",
+    "authors": [
+      "Qifan Wang",
+      "David Oswald"
+    ],
+    "abstract": "In recent years, the widespread informatization and rapid data explosion have increased the demand for high-performance heterogeneous systems that integrate multiple computing cores such as CPUs, Graphics Processing Units (GPUs), Application Specific Integrated Circuits (ASICs), and Field Programmable Gate Arrays (FPGAs). The combination of CPU and GPU is particularly popular due to its versatility. However, these heterogeneous systems face significant security and privacy risks. Advances in privacy-preserving techniques, especially hardware-based Trusted Execution Environments (TEEs), offer effective protection for GPU applications. Nonetheless, the potential security risks involved in extending TEEs to GPUs in heterogeneous systems remain uncertain and need further investigation. To investigate these risks in depth, we study the existing popular GPU TEE designs and summarize and compare their key implications. Additionally, we review existing powerful attacks on GPUs and traditional TEEs deployed on CPUs, along with the efforts to mitigate these threats. We identify potential attack surfaces introduced by GPU TEEs and provide insights into key considerations for designing secure GPU TEEs. This survey is timely as new TEEs for heterogeneous systems, particularly GPUs, are being developed, highlighting the need to understand potential security threats and build both efficient and secure systems.",
+    "published": "2024-08-21T13:14:45Z",
+    "updated": "2024-09-03T14:49:29Z",
+    "pdf_url": "https://arxiv.org/pdf/2408.11601v2",
+    "categories": [
+      "cs.CR",
+      "cs.AR"
+    ],
+    "relevance_score": 33.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2405.19259v1",
+    "arxiv_id": "2405.19259v1",
+    "title": "A Privacy-Preserving Graph Encryption Scheme Based on Oblivious RAM",
+    "authors": [
+      "Seyni Kane",
+      "Anis Bkakria"
+    ],
+    "abstract": "Graph encryption schemes play a crucial role in facilitating secure queries on encrypted graphs hosted on untrusted servers. With applications spanning navigation systems, network topology, and social networks, the need to safeguard sensitive data becomes paramount. Existing graph encryption methods, however, exhibit vulnerabilities by inadvertently revealing aspects of the graph structure and query patterns, posing threats to security and privacy. In response, we propose a novel graph encryption scheme designed to mitigate access pattern and query pattern leakage through the integration of oblivious RAM and trusted execution environment techniques, exemplified by a Trusted Execution Environment (TEE). Our solution establishes two key security objectives: (1) ensuring that adversaries, when presented with an encrypted graph, remain oblivious to any information regarding the underlying graph, and (2) achieving query indistinguishability by concealing access patterns. Additionally, we conducted experimentation to evaluate the efficiency of the proposed schemes when dealing with real-world location navigation services.",
+    "published": "2024-05-29T16:47:38Z",
+    "updated": "2024-05-29T16:47:38Z",
+    "pdf_url": "https://arxiv.org/pdf/2405.19259v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 33.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2208.01946v1",
+    "arxiv_id": "2208.01946v1",
+    "title": "Mixed Fault Tolerance Protocols with Trusted Execution Environment",
+    "authors": [
+      "Mingyuan Gao",
+      "Hung Dang",
+      "Ee-Chien Chang",
+      "Jialin Li"
+    ],
+    "abstract": "Blockchain systems are designed, built and operated in the presence of failures. There are two dominant failure models, namely crash fault and Byzantine fault. Byzantine fault tolerance (BFT) protocols offer stronger security guarantees, and thus are widely used in blockchain systems. However, their security guarantees come at a dear cost to their performance and scalability. Several works have improved BFT protocols, and Trusted Execution Environment (TEE) has been shown to be an effective solution. However, existing such works typically assume that each participating node is equipped with TEE. For blockchain systems wherein participants typically have different hardware configurations, i.e., some nodes feature TEE while others do not, existing TEE-based BFT protocols are not applicable. This work studies the setting wherein not all participating nodes feature TEE, under which we propose a new fault model called mixed fault. We explore a new approach to designing efficient distributed fault-tolerant protocols under the mixed fault model. In general, mixed fault tolerance (MFT) protocols assume a network of $n$ nodes, among which up to $f = \\frac{n-2}{3}$ can be subject to mixed faults. We identify two key principles for designing efficient MFT protocols, namely, (i) prioritizing non-equivocating nodes in leading the protocol, and (ii) advocating the use of public-key cryptographic primitives that allow authenticated messages to be aggregated. We showcase these design principles by prescribing an MFT protocol, namely MRaft. We implemented a prototype of MRaft using Intel SGX, integrated it into the CCF blockchain framework, conducted experiments, and showed that MFT protocols can obtain the same security guarantees as their BFT counterparts while still providing better performance (both transaction throughput and latency) and scalability.",
+    "published": "2022-08-03T09:48:03Z",
+    "updated": "2022-08-03T09:48:03Z",
+    "pdf_url": "https://arxiv.org/pdf/2208.01946v1",
+    "categories": [
+      "cs.DC",
+      "cs.CR"
+    ],
+    "relevance_score": 33.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2410.21164v1",
+    "arxiv_id": "2410.21164v1",
+    "title": "Differentially Private Learned Indexes",
+    "authors": [
+      "Jianzhang Du",
+      "Tilak Mudgal",
+      "Rutvi Rahul Gadre",
+      "Yukui Luo",
+      "Chenghong Wang"
+    ],
+    "abstract": "In this paper, we address the problem of efficiently answering predicate queries on encrypted databases, those secured by Trusted Execution Environments (TEEs), which enable untrusted providers to process encrypted user data without revealing its contents. A common strategy in modern databases to accelerate predicate queries is the use of indexes, which map attribute values (keys) to their corresponding positions in a sorted data array. This allows for fast lookup and retrieval of data subsets that satisfy specific predicates. Unfortunately, indexes cannot be directly applied to encrypted databases due to strong data dependent leakages. Recent approaches apply differential privacy (DP) to construct noisy indexes that enable faster access to encrypted data while maintaining provable privacy guarantees. However, these methods often suffer from large storage costs, with index sizes typically scaling linearly with the key space. To address this challenge, we propose leveraging learned indexes, a trending technique that repurposes machine learning models as indexing structures, to build more compact DP indexes.",
+    "published": "2024-10-28T16:04:58Z",
+    "updated": "2024-10-28T16:04:58Z",
+    "pdf_url": "https://arxiv.org/pdf/2410.21164v1",
+    "categories": [
+      "cs.DB",
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 30.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2003.14099v1",
+    "arxiv_id": "2003.14099v1",
+    "title": "Trust Management as a Service: Enabling Trusted Execution in the Face of Byzantine Stakeholders",
+    "authors": [
+      "Franz Gregor",
+      "Wojciech Ozga",
+      "S\u00e9bastien Vaucher",
+      "Rafael Pires",
+      "Do Le Quoc",
+      "Sergei Arnautov",
+      "Andr\u00e9 Martin",
+      "Valerio Schiavoni",
+      "Pascal Felber",
+      "Christof Fetzer"
+    ],
+    "abstract": "Trust is arguably the most important challenge for critical services both deployed as well as accessed remotely over the network. These systems are exposed to a wide diversity of threats, ranging from bugs to exploits, active attacks, rogue operators, or simply careless administrators. To protect such applications, one needs to guarantee that they are properly configured and securely provisioned with the \"secrets\" (e.g., encryption keys) necessary to preserve not only the confidentiality, integrity and freshness of their data but also their code. Furthermore, these secrets should not be kept under the control of a single stakeholder - which might be compromised and would represent a single point of failure - and they must be protected across software versions in the sense that attackers cannot get access to them via malicious updates. Traditional approaches for solving these challenges often use ad hoc techniques and ultimately rely on a hardware security module (HSM) as root of trust. We propose a more powerful and generic approach to trust management that instead relies on trusted execution environments (TEEs) and a set of stakeholders as root of trust. Our system, PALAEMON, can operate as a managed service deployed in an untrusted environment, i.e., one can delegate its operations to an untrusted cloud provider with the guarantee that data will remain confidential despite not trusting any individual human (even with root access) nor system software. PALAEMON addresses in a secure, efficient and cost-effective way five main challenges faced when developing trusted networked applications and services. Our evaluation on a range of benchmarks and real applications shows that PALAEMON performs efficiently and can protect secrets of services without any change to their source code.",
+    "published": "2020-03-31T11:13:05Z",
+    "updated": "2020-03-31T11:13:05Z",
+    "pdf_url": "https://arxiv.org/pdf/2003.14099v1",
+    "categories": [
+      "cs.CR",
+      "cs.DC"
+    ],
+    "relevance_score": 28.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2311.03530v1",
+    "arxiv_id": "2311.03530v1",
+    "title": "DAO Decentralization: Voting-Bloc Entropy, Bribery, and Dark DAOs",
+    "authors": [
+      "James Austgen",
+      "Andr\u00e9s F\u00e1brega",
+      "Sarah Allen",
+      "Kushal Babel",
+      "Mahimna Kelkar",
+      "Ari Juels"
+    ],
+    "abstract": "Decentralized Autonomous Organizations (DAOs) use smart contracts to foster communities working toward common goals. Existing definitions of decentralization, however-the 'D' in DAO-fall short of capturing key properties characteristic of diverse and equitable participation. We propose a new metric called Voting-Bloc Entropy (VBE, pronounced ''vibe'') that formalizes a broad notion of decentralization in voting on DAO proposals. VBE measures the similarity of participants' utility functions across a set of proposals. We use VBE to prove a number of results about the decentralizing effects of vote delegation, proposal bundling, bribery, and quadratic voting. Our results lead to practical suggestions for enhancing DAO decentralization. One of our results highlights the risk of systemic bribery with increasing DAO decentralization. To show that this threat is realistic, we present the first practical realization of a Dark DAO, a proposed mechanism for privacy-preserving corruption of identity systems, including those used in DAO voting. Our Dark-DAO prototype uses trusted execution environments (TEEs) in the Oasis Sapphire blockchain for attacks on Ethereum DAOs. It demonstrates that Dark DAOs constitute a realistic future concern for DAO governance.",
+    "published": "2023-11-06T21:13:06Z",
+    "updated": "2023-11-06T21:13:06Z",
+    "pdf_url": "https://arxiv.org/pdf/2311.03530v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 27.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2105.03395v1",
+    "arxiv_id": "2105.03395v1",
+    "title": "SERVAS! Secure Enclaves via RISC-V Authenticryption Shield",
+    "authors": [
+      "Stefan Steinegger",
+      "David Schrammel",
+      "Samuel Weiser",
+      "Pascal Nasahl",
+      "Stefan Mangard"
+    ],
+    "abstract": "Isolation is a long-standing challenge of software security. Traditional privilege rings and virtual memory are more and more augmented with concepts such as capabilities, protection keys, and powerful enclaves. At the same time, we are evidencing an increased need for physical protection, shifting towards full memory encryption schemes. This results in a complex interplay of various security mechanisms, increasing the burden for system architects and security analysts. In this work, we tackle the isolation challenge with a new isolation primitive called authenticryption shield that unifies both traditional and advanced isolation policies while offering the potential for future extensibility. At the core, we build upon an authenticated memory encryption scheme that gives cryptographic isolation guarantees and, thus, streamlines the security reasoning. We showcase the versatility of our approach by designing and prototyping SERVAS -- an innovative enclave architecture for RISC-V. Unlike current enclave systems, SERVAS facilitates efficient and secure enclave memory sharing. While the memory encryption constitutes the main overhead, entering or exiting a SERVAS enclave requires only 3.5x of a simple syscall, instead of 71x for Intel SGX.",
+    "published": "2021-05-07T17:09:51Z",
+    "updated": "2021-05-07T17:09:51Z",
+    "pdf_url": "https://arxiv.org/pdf/2105.03395v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 25.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2312.05264v3",
+    "arxiv_id": "2312.05264v3",
+    "title": "All Rivers Run to the Sea: Private Learning with Asymmetric Flows",
+    "authors": [
+      "Yue Niu",
+      "Ramy E. Ali",
+      "Saurav Prakash",
+      "Salman Avestimehr"
+    ],
+    "abstract": "Data privacy is of great concern in cloud machine-learning service platforms, when sensitive data are exposed to service providers. While private computing environments (e.g., secure enclaves), and cryptographic approaches (e.g., homomorphic encryption) provide strong privacy protection, their computing performance still falls short compared to cloud GPUs. To achieve privacy protection with high computing performance, we propose Delta, a new private training and inference framework, with comparable model performance as non-private centralized training. Delta features two asymmetric data flows: the main information-sensitive flow and the residual flow. The main part flows into a small model while the residuals are offloaded to a large model. Specifically, Delta embeds the information-sensitive representations into a low-dimensional space while pushing the information-insensitive part into high-dimension residuals. To ensure privacy protection, the low-dimensional information-sensitive part is secured and fed to a small model in a private environment. On the other hand, the residual part is sent to fast cloud GPUs, and processed by a large model. To further enhance privacy and reduce the communication cost, Delta applies a random binary quantization technique along with a DP-based technique to the residuals before sharing them with the public platform. We theoretically show that Delta guarantees differential privacy in the public environment and greatly reduces the complexity in the private environment. We conduct empirical analyses on CIFAR-10, CIFAR-100 and ImageNet datasets and ResNet-18 and ResNet-34, showing that Delta achieves strong privacy protection, fast training, and inference without significantly compromising the model utility.",
+    "published": "2023-12-05T19:15:51Z",
+    "updated": "2024-03-30T00:11:28Z",
+    "pdf_url": "https://arxiv.org/pdf/2312.05264v3",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 24.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2412.02340v2",
+    "arxiv_id": "2412.02340v2",
+    "title": "PAPAYA Federated Analytics Stack: Engineering Privacy, Scalability and Practicality",
+    "authors": [
+      "Harish Srinivas",
+      "Graham Cormode",
+      "Mehrdad Honarkhah",
+      "Samuel Lurye",
+      "Jonathan Hehir",
+      "Lunwen He",
+      "George Hong",
+      "Ahmed Magdy",
+      "Dzmitry Huba",
+      "Kaikai Wang",
+      "Shen Guo",
+      "Shoubhik Bhattacharya"
+    ],
+    "abstract": "Cross-device Federated Analytics (FA) is a distributed computation paradigm designed to answer analytics queries about and derive insights from data held locally on users' devices. On-device computations combined with other privacy and security measures ensure that only minimal data is transmitted off-device, achieving a high standard of data protection. Despite FA's broad relevance, the applicability of existing FA systems is limited by compromised accuracy; lack of flexibility for data analytics; and an inability to scale effectively. In this paper, we describe our approach to combine privacy, scalability, and practicality to build and deploy a system that overcomes these limitations. Our FA system leverages trusted execution environments (TEEs) and optimizes the use of on-device computing resources to facilitate federated data processing across large fleets of devices, while ensuring robust, defensible, and verifiable privacy safeguards. We focus on federated analytics (statistics and monitoring), in contrast to systems for federated learning (ML workloads), and we flag the key differences.",
+    "published": "2024-12-03T10:03:12Z",
+    "updated": "2025-03-27T13:25:14Z",
+    "pdf_url": "https://arxiv.org/pdf/2412.02340v2",
+    "categories": [
+      "cs.LG"
+    ],
+    "relevance_score": 23.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2307.14757v1",
+    "arxiv_id": "2307.14757v1",
+    "title": "SEV-Step: A Single-Stepping Framework for AMD-SEV",
+    "authors": [
+      "Luca Wilke",
+      "Jan Wichelmann",
+      "Anja Rabich",
+      "Thomas Eisenbarth"
+    ],
+    "abstract": "The ever increasing popularity and availability of Trusted Execution Environments (TEEs) had a stark influence on microarchitectural attack research in academia, as their strong attacker model both boosts existing attack vectors and introduces several new ones. While many works have focused on Intel SGX, other TEEs like AMD SEV have recently also started to receive more attention. A common technique when attacking SGX enclaves is single-stepping, where the system's APIC timer is used to interrupt the enclave after every instruction. Single-stepping increases the temporal resolution of subsequent microarchitectural attacks to a maximum. A key driver in the proliferation of this complex attack technique was the SGX-Step framework, which offered a stable reference implementation for single-stepping and a relatively easy setup. In this paper, we demonstrate that SEV VMs can also be reliably single-stepped. To lay the foundation for further microarchitectural attack research against SEV, we introduce the reusable SEV-Step framework. Besides reliable single-stepping, SEV-Step provides easy access to common attack primitives like page fault tracking and cache attacks against SEV. All features can be used interactively from user space. We demonstrate SEV-Step's capabilities by carrying out an end-to-end cache attack against SEV that leaks the volume key of a LUKS2-encrypted disk. Finally, we show for the first time that SEV is vulnerable to Nemesis-style attacks, which allow to extract information about the type and operands of single-stepped instructions from SEV-protected VMs.",
+    "published": "2023-07-27T10:31:54Z",
+    "updated": "2023-07-27T10:31:54Z",
+    "pdf_url": "https://arxiv.org/pdf/2307.14757v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 23.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2310.16433v1",
+    "arxiv_id": "2310.16433v1",
+    "title": "RIPencapsulation: Defeating IP Encapsulation on TI MSP Devices",
+    "authors": [
+      "Prakhar Sah",
+      "Matthew Hicks"
+    ],
+    "abstract": "Internet of Things (IoT) devices sit at the intersection of unwieldy software complexity and unprecedented attacker access. This unique position comes with a daunting security challenge: how can I protect both proprietary code and confidential data on a device that the attacker has unfettered access to? Trusted Execution Environments (TEEs) promise to solve this challenge through hardware-based separation of trusted and untrusted computation and data. While TEEs do an adequate job of protecting secrets on desktop-class devices, we reveal that trade-offs made in one of the most widely-used commercial IoT devices undermine their TEE's security. This paper uncovers two fundamental weaknesses in IP Encapsulation (IPE), the TEE deployed by Texas Instruments for MSP430 and MSP432 devices. We observe that lack of call site enforcement and residual state after unexpected TEE exits enable an attacker to reveal all proprietary code and secret data within the IPE. We design and implement an attack called RIPencapsulation, which systematically executes portions of code within the IPE and uses the partial state revealed through the register file to exfiltrate secret data and to identify gadget instructions. The attack then uses gadget instructions to reveal all proprietary code within the IPE. Our evaluation with commodity devices and a production compiler and settings shows that -- even after following all manufacturer-recommended secure coding practices -- RIPencapsultaion reveals, within minutes, both the code and keys from third-party cryptographic implementations protected by the IPE.",
+    "published": "2023-10-25T08:00:59Z",
+    "updated": "2023-10-25T08:00:59Z",
+    "pdf_url": "https://arxiv.org/pdf/2310.16433v1",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 20.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2204.09649v8",
+    "arxiv_id": "2204.09649v8",
+    "title": "BliMe: Verifiably Secure Outsourced Computation with Hardware-Enforced Taint Tracking",
+    "authors": [
+      "Hossam ElAtali",
+      "Lachlan J. Gunn",
+      "Hans Liljestrand",
+      "N. Asokan"
+    ],
+    "abstract": "Outsourced computing is widely used today. However, current approaches for protecting client data in outsourced computing fall short: use of cryptographic techniques like fully-homomorphic encryption incurs substantial costs, whereas use of hardware-assisted trusted execution environments has been shown to be vulnerable to run-time and side-channel attacks. We present Blinded Memory (BliMe), an architecture to realize efficient and secure outsourced computation. BliMe consists of a novel and minimal set of instruction set architecture (ISA) extensions implementing a taint-tracking policy to ensure the confidentiality of client data even in the presence of server vulnerabilities. To secure outsourced computation, the BliMe extensions can be used together with an attestable, fixed-function hardware security module (HSM) and an encryption engine that provides atomic decrypt-and-taint and encrypt-and-untaint operations. Clients rely on remote attestation and key agreement with the HSM to ensure that their data can be transferred securely to and from the encryption engine and will always be protected by BliMe's taint-tracking policy while at the server. We provide an RTL implementation BliMe-BOOM based on the BOOM RISC-V core. BliMe-BOOM requires no reduction in clock frequency relative to unmodified BOOM, and has minimal power ($<\\!1.5\\%$) and FPGA resource ($\\leq\\!9.0\\%$) overheads. Various implementations of BliMe incur only moderate performance overhead ($8--25\\%$). We also provide a machine-checked security proof of a simplified model ISA with BliMe extensions.",
+    "published": "2022-04-20T17:47:16Z",
+    "updated": "2023-11-29T21:08:35Z",
+    "pdf_url": "https://arxiv.org/pdf/2204.09649v8",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 18.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2010.06712v3",
+    "arxiv_id": "2010.06712v3",
+    "title": "SafetyPin: Encrypted Backups with Human-Memorable Secrets",
+    "authors": [
+      "Emma Dauterman",
+      "Henry Corrigan-Gibbs",
+      "David Mazi\u00e8res"
+    ],
+    "abstract": "We present the design and implementation of SafetyPin, a system for encrypted mobile-device backups. Like existing cloud-based mobile-backup systems, including those of Apple and Google, SafetyPin requires users to remember only a short PIN and defends against brute-force PIN-guessing attacks using hardware security protections. Unlike today's systems, SafetyPin splits trust over a cluster of hardware security modules (HSMs) in order to provide security guarantees that scale with the number of HSMs. In this way, SafetyPin protects backed-up user data even against an attacker that can adaptively compromise many of the system's constituent HSMs. SafetyPin provides this protection without sacrificing scalability or fault tolerance. Decentralizing trust while respecting the resource limits of today's HSMs requires a synthesis of systems-design principles and cryptographic tools. We evaluate SafetyPin on a cluster of 100 low-cost HSMs and show that a SafetyPin-protected recovery takes 1.01 seconds. To process 1B recoveries a year, we estimate that a SafetyPin deployment would need 3,100 low-cost HSMs.",
+    "published": "2020-10-13T21:55:38Z",
+    "updated": "2021-03-08T23:33:39Z",
+    "pdf_url": "https://arxiv.org/pdf/2010.06712v3",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 17.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/1910.01865v1",
+    "arxiv_id": "1910.01865v1",
+    "title": "PINFER: Privacy-Preserving Inference for Machine Learning",
+    "authors": [
+      "Marc Joye",
+      "Fabien A. P. Petitcolas"
+    ],
+    "abstract": "The foreseen growing role of outsourced machine learning services is raising concerns about the privacy of user data. Several technical solutions are being proposed to address the issue. Hardware security modules in cloud data centres appear limited to enterprise customers due to their complexity, while general multi-party computation techniques require a large number of message exchanges. This paper proposes a variety of protocols for privacy-preserving regression and classification that (i) only require additively homomorphic encryption algorithms, (ii) limit interactions to a mere request and response, and (iii) that can be used directly for important machine-learning algorithms such as logistic regression and SVM classification. The basic protocols are then extended and applied to feed-forward neural networks.",
+    "published": "2019-10-04T10:49:27Z",
+    "updated": "2019-10-04T10:49:27Z",
+    "pdf_url": "https://arxiv.org/pdf/1910.01865v1",
+    "categories": [
+      "cs.CR",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "relevance_score": 17.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2210.13124v2",
+    "arxiv_id": "2210.13124v2",
+    "title": "Cipherfix: Mitigating Ciphertext Side-Channel Attacks in Software",
+    "authors": [
+      "Jan Wichelmann",
+      "Anna P\u00e4tschke",
+      "Luca Wilke",
+      "Thomas Eisenbarth"
+    ],
+    "abstract": "Trusted execution environments (TEEs) provide an environment for running workloads in the cloud without having to trust cloud service providers, by offering additional hardware-assisted security guarantees. However, main memory encryption as a key mechanism to protect against system-level attackers trying to read the TEE's content and physical, off-chip attackers, is insufficient. The recent Cipherleaks attacks infer secret data from TEE-protected implementations by analyzing ciphertext patterns exhibited due to deterministic memory encryption. The underlying vulnerability, dubbed the ciphertext side-channel, is neither protected by state-of-the-art countermeasures like constant-time code nor by hardware fixes. Thus, in this paper, we present a software-based, drop-in solution that can harden existing binaries such that they can be safely executed under TEEs vulnerable to ciphertext side-channels, without requiring recompilation. We combine taint tracking with both static and dynamic binary instrumentation to find sensitive memory locations, and mitigate the leakage by masking secret data before it gets written to memory. This way, although the memory encryption remains deterministic, we destroy any secret-dependent patterns in encrypted memory. We show that our proof-of-concept implementation protects various constant-time implementations against ciphertext side-channels with reasonable overhead.",
+    "published": "2022-10-24T11:18:16Z",
+    "updated": "2023-03-01T15:29:10Z",
+    "pdf_url": "https://arxiv.org/pdf/2210.13124v2",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 17.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2208.10134v3",
+    "arxiv_id": "2208.10134v3",
+    "title": "Machine Learning with Confidential Computing: A Systematization of Knowledge",
+    "authors": [
+      "Fan Mo",
+      "Zahra Tarkhani",
+      "Hamed Haddadi"
+    ],
+    "abstract": "Privacy and security challenges in Machine Learning (ML) have become increasingly severe, along with ML's pervasive development and the recent demonstration of large attack surfaces. As a mature system-oriented approach, Confidential Computing has been utilized in both academia and industry to mitigate privacy and security issues in various ML scenarios. In this paper, the conjunction between ML and Confidential Computing is investigated. We systematize the prior work on Confidential Computing-assisted ML techniques that provide i) confidentiality guarantees and ii) integrity assurances, and discuss their advanced features and drawbacks. Key challenges are further identified, and we provide dedicated analyses of the limitations in existing Trusted Execution Environment (TEE) systems for ML use cases. Finally, prospective works are discussed, including grounded privacy definitions for closed-loop protection, partitioned executions of efficient ML, dedicated TEE-assisted designs for ML, TEE-aware ML, and ML full pipeline guarantees. By providing these potential solutions in our systematization of knowledge, we aim to build the bridge to help achieve a much stronger TEE-enabled ML for privacy guarantees without introducing computation and system costs.",
+    "published": "2022-08-22T08:23:53Z",
+    "updated": "2024-06-03T13:48:59Z",
+    "pdf_url": "https://arxiv.org/pdf/2208.10134v3",
+    "categories": [
+      "cs.CR",
+      "cs.LG"
+    ],
+    "relevance_score": 13.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2002.08437v3",
+    "arxiv_id": "2002.08437v3",
+    "title": "CopyCat: Controlled Instruction-Level Attacks on Enclaves",
+    "authors": [
+      "Daniel Moghimi",
+      "Jo Van Bulck",
+      "Nadia Heninger",
+      "Frank Piessens",
+      "Berk Sunar"
+    ],
+    "abstract": "The adversarial model presented by trusted execution environments (TEEs) has prompted researchers to investigate unusual attack vectors. One particularly powerful class of controlled-channel attacks abuses page-table modifications to reliably track enclave memory accesses at a page-level granularity. In contrast to noisy microarchitectural timing leakage, this line of deterministic controlled-channel attacks abuses indispensable architectural interfaces and hence cannot be mitigated by tweaking microarchitectural resources. We propose an innovative controlled-channel attack, named CopyCat, that deterministically counts the number of instructions executed within a single enclave code page. We show that combining the instruction counts harvested by CopyCat with traditional, coarse-grained page-level leakage allows the accurate reconstruction of enclave control flow at a maximal instruction-level granularity. CopyCat can identify intra-page and intra-cache line branch decisions that ultimately may only differ in a single instruction, underscoring that even extremely subtle control flow deviations can be deterministically leaked from secure enclaves. We demonstrate the improved resolution and practicality of CopyCat on Intel SGX in an extensive study of single-trace and deterministic attacks against cryptographic implementations, and give novel algorithmic attacks to perform single-trace key extraction that exploit subtle vulnerabilities in the latest versions of widely-used cryptographic libraries. Our findings highlight the importance of stricter verification of cryptographic implementations, especially in the context of TEEs.",
+    "published": "2020-02-19T20:43:43Z",
+    "updated": "2020-06-26T01:56:20Z",
+    "pdf_url": "https://arxiv.org/pdf/2002.08437v3",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 13.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  },
+  {
+    "url": "http://arxiv.org/abs/2207.08891v2",
+    "arxiv_id": "2207.08891v2",
+    "title": "Wink: Deniable Secure Messaging",
+    "authors": [
+      "Anrin Chakraborti",
+      "Darius Suciu",
+      "Radu Sion"
+    ],
+    "abstract": "End-to-end encrypted (E2EE) messaging is an essential first step in providing message confidentiality. Unfortunately, all security guarantees of end-to-end encryption are lost when keys or plaintext are disclosed, either due to device compromise or (sometimes lawful) coercion by powerful adversaries. This work introduces Wink, the first plausibly-deniable messaging system protecting message confidentiality from partial device compromise and compelled key disclosure. Wink can surreptitiously inject hidden messages in standard random coins (e.g., salts, IVs) used by existing E2EE protocols. It does so as part of legitimate secure cryptographic functionality deployed inside the widely-available trusted execution environment (TEE) TrustZone. This results in hidden communication using virtually unchanged existing E2EE messaging apps, as well as strong plausible deniability. Wink has been demonstrated with multiple existing E2EE applications (including Telegram and Signal) with minimal (external) instrumentation, negligible overheads, and crucially, without changing on-wire message formats.",
+    "published": "2022-07-18T19:01:28Z",
+    "updated": "2023-06-10T04:57:35Z",
+    "pdf_url": "https://arxiv.org/pdf/2207.08891v2",
+    "categories": [
+      "cs.CR"
+    ],
+    "relevance_score": 10.0,
+    "archived": true,
+    "archive_reason": "Lower relevance score"
+  }
+]

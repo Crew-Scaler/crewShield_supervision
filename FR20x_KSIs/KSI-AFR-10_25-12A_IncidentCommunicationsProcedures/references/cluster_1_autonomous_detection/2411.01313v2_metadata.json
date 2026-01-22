@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2411.01313v2",
+  "title": "False Data Injection Attack Detection in Edge-based Smart Metering Networks with Federated Learning",
+  "authors": [
+    "Md Raihan Uddin",
+    "Ratun Rahman",
+    "Dinh C. Nguyen"
+  ],
+  "published": "2024-11-02T17:23:08Z",
+  "url": "http://arxiv.org/abs/2411.01313v2",
+  "pdf_url": "http://arxiv.org/pdf/2411.01313v2.pdf",
+  "relevance_score": 85,
+  "summary": "Smart metering networks are increasingly susceptible to cyber threats, where false data injection (FDI) appears as a critical attack. Data-driven-based machine learning (ML) methods have shown immense benefits in detecting FDI attacks via data learning and prediction abilities. Literature works have mostly focused on centralized learning and deploying FDI attack detection models at the control center, which requires data collection from local utilities like meters and transformers. However, this data sharing may raise privacy concerns due to the potential disclosure of household information like energy usage patterns. This paper proposes a new privacy-preserved FDI attack detection by developing an efficient federated learning (FL) framework in the smart meter network with edge computing. Distributed edge servers located at the network edge run an ML-based FDI attack detection model and share the trained model with the grid operator, aiming to build a strong FDI attack detection model without data sharing. Simulation results demonstrate the efficiency of our proposed FL method over the conventional method without collaboration."
+}

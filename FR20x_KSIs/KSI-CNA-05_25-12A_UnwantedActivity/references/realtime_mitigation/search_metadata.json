@@ -1,0 +1,1349 @@
+{
+  "search_date": "2025-12-11T08:54:30.267207",
+  "total_papers_found": 75,
+  "total_papers_downloaded": 40,
+  "search_results": {
+    "Real-time Detection & Streaming Analytics": {
+      "query": "abs:(real-time detection OR streaming analytics) AND (network security OR DDoS OR intrusion) AND submittedDate:[202401010000 TO 202512312359]",
+      "total_found": 50,
+      "papers_2025": 50,
+      "papers_2024": 0,
+      "papers": [
+        {
+          "id": "2512.09917v1",
+          "title": "Evaluating Function-as-a-Service (FaaS) frameworks for the Accelerator Control System",
+          "authors": [
+            "A. Jaikar",
+            "J. Diamond",
+            "A. Tiradani",
+            "B. Harrison"
+          ],
+          "published": "2025-12-10",
+          "abstract": "As particle accelerator control systems evolve in complexity and scale, the need for responsive, scalable, and cost-effective computational infrastructure becomes increasingly critical. Function-as-a-Service (FaaS) offers an alternative to traditional monolithic architecture by enabling event-driven execution, automatic scaling, and fine-grained resource utilization. This paper explores the applicability and performance of FaaS frameworks in the context of a modern particle accelerator control system, with the objective of evaluating their suitability for short lived and triggered workloads. In this paper, we evaluate prominent open-source FaaS platforms in executing functional logic, triggers, and diagnostics routines. Evaluation metrics consist of cold-start latency, scalability, performance, integration with other open-source tools like Kafka. Experimental workloads were designed to simulate real-world control tasks when implemented as stateless FaaS functions. These workloads were benchmarked under various invocation loads and network conditions. Self-hosted FaaS platforms, when deployed within accelerator networks, offer greater control over execution environment, better integration with legacy systems, and support for real-time guarantees when paired with message queues. Based on lessons learned and evaluation metrics, this paper describes reliability of the FaaS framework for the Accelerator Control Systems (ACS).",
+          "pdf_url": "https://arxiv.org/pdf/2512.09917v1",
+          "categories": [
+            "physics.acc-ph"
+          ]
+        },
+        {
+          "id": "2512.09912v1",
+          "title": "Supervised learning pays attention",
+          "authors": [
+            "Erin Craig",
+            "Robert Tibshirani"
+          ],
+          "published": "2025-12-10",
+          "abstract": "In-context learning with attention enables large neural networks to make context-specific predictions by selectively focusing on relevant examples. Here, we adapt this idea to supervised learning procedures such as lasso regression and gradient boosting, for tabular data. Our goals are to (1) flexibly fit personalized models for each prediction point and (2) retain model simplicity and interpretability. Our method fits a local model for each test observation by weighting the training data according to attention, a supervised similarity measure that emphasizes features and interactions that are predictive of the outcome. Attention weighting allows the method to adapt to heterogeneous data in a data-driven way, without requiring cluster or similarity pre-specification. Further, our approach is uniquely interpretable: for each test observation, we identify which features are most predictive and which training observations are most relevant. We then show how to use attention weighting for time series and spatial data, and we present a method for adapting pretrained tree-based models to distributional shift using attention-weighted residual corrections. Across real and simulated datasets, attention weighting improves predictive performance while preserving interpretability, and theory shows that attention-weighting linear models attain lower mean squared error than the standard linear model under mixture-of-models data-generating processes with known subgroup structure.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09912v1",
+          "categories": [
+            "stat.ML",
+            "cs.AI",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.09898v1",
+          "title": "Visual Heading Prediction for Autonomous Aerial Vehicles",
+          "authors": [
+            "Reza Ahmari",
+            "Ahmad Mohammadi",
+            "Vahid Hemmati",
+            "Mohammed Mynuddin",
+            "Parham Kebria",
+            "Mahmoud Nabil Mahmoud",
+            "Xiaohong Yuan",
+            "Abdollah Homaifar"
+          ],
+          "published": "2025-12-10",
+          "abstract": "The integration of Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) is increasingly central to the development of intelligent autonomous systems for applications such as search and rescue, environmental monitoring, and logistics. However, precise coordination between these platforms in real-time scenarios presents major challenges, particularly when external localization infrastructure such as GPS or GNSS is unavailable or degraded [1]. This paper proposes a vision-based, data-driven framework for real-time UAV-UGV integration, with a focus on robust UGV detection and heading angle prediction for navigation and coordination. The system employs a fine-tuned YOLOv5 model to detect UGVs and extract bounding box features, which are then used by a lightweight artificial neural network (ANN) to estimate the UAV's required heading angle. A VICON motion capture system was used to generate ground-truth data during training, resulting in a dataset of over 13,000 annotated images collected in a controlled lab environment. The trained ANN achieves a mean absolute error of 0.1506\u00b0 and a root mean squared error of 0.1957\u00b0, offering accurate heading angle predictions using only monocular camera inputs. Experimental evaluations achieve 95% accuracy in UGV detection. This work contributes a vision-based, infrastructure- independent solution that demonstrates strong potential for deployment in GPS/GNSS-denied environments, supporting reliable multi-agent coordination under realistic dynamic conditions. A demonstration video showcasing the system's real-time performance, including UGV detection, heading angle prediction, and UAV alignment under dynamic conditions, is available at: https://github.com/Kooroshraf/UAV-UGV-Integration",
+          "pdf_url": "https://arxiv.org/pdf/2512.09898v1",
+          "categories": [
+            "cs.RO",
+            "cs.AI",
+            "cs.CV",
+            "cs.MA",
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.09809v1",
+          "title": "Towards Practical and Usable In-network Classification",
+          "authors": [
+            "Di Zhu",
+            "Jianxi Chen",
+            "Hyojoon Kim"
+          ],
+          "published": "2025-12-10",
+          "abstract": "In-network machine learning enables real-time classification directly on network hardware, offering consistently low inference latency. However, current solutions are limited by strict hardware constraints, scarce on-device resources, and poor usability, making them impractical for ML developers and cloud operators. To this end, we propose ACORN, an end-to-end system that automates the distributed deployment of practical machine learning models across the network. ACORN provides a fully automated pipeline that loads and deploys Python ML models on network devices using an optimized deployment plan from an ILP planner. To support larger models under hardware constraints and allow runtime programmability, ACORN adopts a novel data plane representation for Decision Tree, Random Forest, and Support Vector Machine models. We implement ACORN prototype in P4 and run it on real programmable hardware. Our evaluation shows ACORN can deploy classification ML models with 2-4x more features than state-of-the-art solutions, while imposing negligible overhead on network performance and traffic. We will make our data plane program, model translator, optimizer, and all related scripts publicly available.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09809v1",
+          "categories": [
+            "cs.NI"
+          ]
+        },
+        {
+          "id": "2512.09797v1",
+          "title": "M3Net: A Multi-Metric Mixture of Experts Network Digital Twin with Graph Neural Networks",
+          "authors": [
+            "Blessed Guda",
+            "Carlee Joe-Wong"
+          ],
+          "published": "2025-12-10",
+          "abstract": "The rise of 5G/6G network technologies promises to enable applications like autonomous vehicles and virtual reality, resulting in a significant increase in connected devices and necessarily complicating network management. Even worse, these applications often have strict, yet heterogeneous, performance requirements across metrics like latency and reliability. Much recent work has thus focused on developing the ability to predict network performance. However, traditional methods for network modeling, like discrete event simulators and emulation, often fail to balance accuracy and scalability. Network Digital Twins (NDTs), augmented by machine learning, present a viable solution by creating virtual replicas of physical networks for real- time simulation and analysis. State-of-the-art models, however, fall short of full-fledged NDTs, as they often focus only on a single performance metric or simulated network data. We introduce M3Net, a Multi-Metric Mixture-of-experts (MoE) NDT that uses a graph neural network architecture to estimate multiple performance metrics from an expanded set of network state data in a range of scenarios. We show that M3Net significantly enhances the accuracy of flow delay predictions by reducing the MAPE (Mean Absolute Percentage Error) from 20.06% to 17.39%, while also achieving 66.47% and 78.7% accuracy on jitter and packets dropped for each flow",
+          "pdf_url": "https://arxiv.org/pdf/2512.09797v1",
+          "categories": [
+            "cs.NI",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.09777v1",
+          "title": "Machine Learning Optimization of BEGe Detector Event Selection in the VIP Experiment",
+          "authors": [
+            "Simone Manti",
+            "Jason Yip",
+            "Massimiliano Bazzi",
+            "Nicola Bortolotti",
+            "Mario Bragadireanu",
+            "Ivan Carnevali",
+            "Alberto Clozza",
+            "Luca De Paolis",
+            "Raffaele Del Grande",
+            "Carlo Guaraldo",
+            "Mihai Antoniu Iliescu",
+            "Matthias Laubenstein",
+            "Johan Marton",
+            "Fabrizio Napolitano",
+            "Federico Nola",
+            "Kristian Pischicchia",
+            "Alessio Porcelli",
+            "Alessandro Scordo",
+            "Francesco Sgaramella",
+            "Diana Sirghi",
+            "Florin Sirghi",
+            "Johann Zmeskal",
+            "Catalina Curceanu"
+          ],
+          "published": "2025-12-10",
+          "abstract": "The VIP collaboration operates a Broad Energy Germanium detector at the Gran Sasso National Laboratory to measure radiation in the few keV to 100 keV range, aiming to search for spontaneous collapse induced radiation and atomic transitions that violate the Pauli Exclusion Principle. Here we present a machine learning based upgrade for the BEGe detector using an event selection strategy aimed at improving the efficiency in detecting low energy events down to 10 keV. The method employs a denoising autoencoder to suppress electronic and microphonic noises and to reconstruct pulse shapes, followed by a convolutional neural network that classifies waveforms as normal single site or events with anomalies. The workflow was validated on a dataset comprising more than 20000 waveforms recorded in 2021. The classifier achieves a receiver operating characteristic curve with an area under the curve of 0.99 and an accuracy of 95 percent. Applying this procedure lowers the minimum detectable energy of the final spectrum to approximately 10 keV. It also yields a measurable enhancement in spectral quality, including an improvement of about 14 percent in the signal to background ratio and a reduction of the energy resolution for the characteristic Pb and Bi gamma lines. These developments enhance the sensitivity of the BEGe detector to rare low energy signals and provide a scalable framework for future precision tests of quantum foundations in low background environments.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09777v1",
+          "categories": [
+            "physics.ins-det"
+          ]
+        },
+        {
+          "id": "2512.09769v1",
+          "title": "Defining Cost Function of Steganography with Large Language Models",
+          "authors": [
+            "Hanzhou Wu",
+            "Yige Wang"
+          ],
+          "published": "2025-12-10",
+          "abstract": "In this paper, we make the first attempt towards defining cost function of steganography with large language models (LLMs), which is totally different from previous works that rely heavily on expert knowledge or require large-scale datasets for cost learning. To achieve this goal, a two-stage strategy combining LLM-guided program synthesis with evolutionary search is applied in the proposed method. In the first stage, a certain number of cost functions in the form of computer program are synthesized from LLM responses to structured prompts. These cost functions are then evaluated with pretrained steganalysis models so that candidate cost functions suited to steganography can be collected. In the second stage, by retraining a steganalysis model for each candidate cost function, the optimal cost function(s) can be determined according to the detection accuracy. This two-stage strategy is performed by an iterative fashion so that the best cost function can be collected at the last iteration. Experiments show that the proposed method enables LLMs to design new cost functions of steganography that significantly outperform existing works in terms of resisting steganalysis tools, which verifies the superiority of the proposed method. To the best knowledge of the authors, this is the first work applying LLMs to the design of advanced cost function of steganography, which presents a novel perspective for steganography design and may shed light on further research.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09769v1",
+          "categories": [
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.09765v1",
+          "title": "Origins of Instability in Dynamical Systems on Undirected Networks",
+          "authors": [
+            "Shraosi Dawn",
+            "Subrata Ghosh",
+            "Chandrakala Meena",
+            "Tim Rogers",
+            "Chittaranjan Hens"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Robustness to perturbation is a key topic in the study of complex systems occurring across a wide variety of applications from epidemiology to biochemistry. Here we analyze the eigenspectrum of the Jacobian matrices associated to a general class of networked dynamical systems, which contains information on how perturbations to a stationary state develop over time. We find that stability is always determined by a spectral outlier, but with pronounced differences to the corresponding eigenvector in different regimes. We show that, depending on model details, instability may originate in nodes of anomalously low or high degree, or may occur everywhere in the network at once. Importantly, the dependence on extremal degrees results in considerable finite-size effects with different scaling depending on the ensemble degree distribution. Our results have potentially useful applications in network monitoring to predict or prevent catastrophic failures, and we validate our analytical findings through applications to epidemic dynamics and gene regulatory systems.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09765v1",
+          "categories": [
+            "nlin.AO",
+            "math-ph",
+            "physics.bio-ph"
+          ]
+        },
+        {
+          "id": "2512.09732v1",
+          "title": "Network Meta Analysis of Mean Survival",
+          "authors": [
+            "Anastasios Apsemidis",
+            "Dimitris Mavridis",
+            "Nikolaos Demiris"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Decisions based upon pairwise comparisons of multiple treatments are naturally performed in terms of the mean survival of the selected study arms or functions thereof. However, synthesis of treatment comparisons is usually performed on surrogates of the mean survival, such as hazard ratios or restricted mean survival times. Thus, network meta-analysis techniques may suffer from the limitations of these approaches, such as incorrect proportional hazards assumption or short-term follow-up periods. We propose a Bayesian framework for the network meta-analysis of the main outcome informing the decision, the mean survival of a treatment. Its derivation involves extrapolation of the observed survival curves. We use methods for stable extrapolation that integrate long term evidence based upon mortality projections. Extrapolations are performed using flexible poly-hazard parametric models and M-spline-based methods. We assess the computational and statistical efficiency of different techniques using a simulation study and apply the developed methods to two real data sets. The proposed method is formulated within a decision theoretic framework for cost-effectiveness analyses, where the `best' treatment is to be selected and incorporating the associated cost information is straightforward.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09732v1",
+          "categories": [
+            "stat.AP",
+            "stat.ME"
+          ]
+        },
+        {
+          "id": "2512.09717v1",
+          "title": "Innovation ARIMA models application to predict pressure variations in water supply networks with open-loop control. Case study in Noja (Cantabria, Spain)",
+          "authors": [
+            "David Munoz-Rodriguez",
+            "Manuel J. Gonzalez-Ortega",
+            "Maria-Jesus Aguilera-Urena",
+            "Andres Ortega-Ballesteros",
+            "Alberto-Jesus Perea-Moreno"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Water utilities are increasingly concerned about losses, leaks, and illegal connections in their distribution networks. Pressure control is typically managed through pressure reducing valves with electrically controlled actuators based on predefined tables according to the pressure at the critical point control. This openloop control method lacks direct feedback between the PRV and CPC, making it challenging to distinguish whether pressure variations originate from normal head losses or abnormal network conditions. Unlike traditional applications of ARIMA focused on water demand forecasting, this study explores its novel use in pressure management within distribution networks, aiming to predict P3 pressure based on head losses across a defined hydraulic sector. To achieve this objective, a predictive model based on the Box-Jenkins methodology and its variations is implemented to analyse time series data. An action path is established to determine the optimal model ARIMA, ARMA, ARMAX, etc. which is subsequently validated using real operational data from Noja, a coastal town in northern Spain characterized by significant seasonal population fluctuations. By accurately forecasting CPC pressure, this system enhances the detection of anomalous patterns, enabling more efficient network pressure management. The study demonstrates the potential of advanced modelling techniques in optimizing water distribution networks, providing valuable insights to improve system efficiency, reliability, and sustainability in urban environments.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09717v1",
+          "categories": [
+            "physics.app-ph",
+            "stat.AP"
+          ]
+        },
+        {
+          "id": "2512.09713v1",
+          "title": "Robust Speech Activity Detection in the Presence of Singing Voice",
+          "authors": [
+            "Philipp Grundhuber",
+            "Mhd Modar Halimeh",
+            "Martin Strau\u00df",
+            "Emanu\u00ebl A. P. Habets"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Speech Activity Detection (SAD) systems often misclassify singing as speech, leading to degraded performance in applications such as dialogue enhancement and automatic speech recognition. We introduce Singing-Robust Speech Activity Detection ( SR-SAD ), a neural network designed to robustly detect speech in the presence of singing. Our key contributions are: i) a training strategy using controlled ratios of speech and singing samples to improve discrimination, ii) a computationally efficient model that maintains robust performance while reducing inference runtime, and iii) a new evaluation metric tailored to assess SAD robustness in mixed speech-singing scenarios. Experiments on a challenging dataset spanning multiple musical genres show that SR-SAD maintains high speech detection accuracy (AUC = 0.919) while rejecting singing. By explicitly learning to distinguish between speech and singing, SR-SAD enables more reliable SAD in mixed speech-singing scenarios.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09713v1",
+          "categories": [
+            "eess.AS"
+          ]
+        },
+        {
+          "id": "2512.09672v1",
+          "title": "Pattern Based Quantum Key Distribution using the five qubit perfect code for eavesdropper detection",
+          "authors": [
+            "Mehedi Hasan Rumi"
+          ],
+          "published": "2025-12-10",
+          "abstract": "I propose a new quantum key distribution protocol that uses the five qubit error correction code to detect the presence of eavesdropper reliably. The protocol turns any information theoretical attacks into a classical guess about the pattern. The logical qubit is encoded with a specific pattern into a block of five physical qubits. The security of the protocol relies on the correct pattern choice of Alice and Bob. Decoding with any wrong pattern choice increases multi qubit error rate and the 5 qubit code transforms an eavesdropper's logical disturbance into a signature that is detectable and distinguishable from natural channel noise up to a certain distance.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09672v1",
+          "categories": [
+            "quant-ph"
+          ]
+        },
+        {
+          "id": "2512.09648v1",
+          "title": "Optyx: A ZX-based Python library for networked quantum architectures",
+          "authors": [
+            "Mateusz Kupper",
+            "Richie Yeung",
+            "Boldizs\u00e1r Po\u00f3r",
+            "Alexis Toumi",
+            "William Cashman",
+            "Giovanni de Felice"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Distributed, large-scale quantum computing will need architectures that combine matter-based qubits with photonic links, but today's software stacks target either gate-based chips or linear-optical devices in isolation. We introduce Optyx, an open-source Python framework offering a unified language to program, simulate, and prototype hybrid, networked systems: users create experiments that mix qubit registers, discrete-variable photonic modes, lossy channels, heralded measurements, and real-time feedback; Optyx compiles them via ZX/ZW calculus into optimised tensor-network forms, and executes with state-of-the-art contraction schedulers based on Quimb and Cotengra. Benchmarking on exact multi-photon circuit simulations shows that, versus permanent-based methods, tensor network contraction can deliver speedups of orders of magnitude for low-depth circuits and entangled photon sources, and natively supports loss and distinguishability -- establishing it as both a high-performance simulator and a rapid-prototyping environment for next-generation photonic-network experiments.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09648v1",
+          "categories": [
+            "quant-ph"
+          ]
+        },
+        {
+          "id": "2512.09606v1",
+          "title": "A unified framework for identifying influential nodes in hypergraphs",
+          "authors": [
+            "Yajing Hao",
+            "Longzhao Liu",
+            "Xin Wang",
+            "Zhihao Han",
+            "Ming Wei",
+            "Zhiming Zheng",
+            "Shaoting Tang"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Identifying influential nodes plays a pivotal role in understanding, controlling, and optimizing the behavior of complex systems, ranging from social to biological and technological domains. Yet most centrality-based approaches rely on pairwise topology and are purely structural, neglecting the higher-order interactions and the coupling between structure and dynamics. Consequently, the practical effectiveness of existing approaches remains uncertain when applied to complex spreading processes. To bridge this gap, we propose a unified framework, Initial Propagation Score (IPS), to directly embed propagation dynamics into influence assessment on higher-order networks. We analytically derive mechanism-aware influence measures by relating the early-stage dynamics and local topological characteristics to long-term outbreak sizes, and such explicit physical context endows IPS with robustness, transferability, and interpretability. Extensive experiments across multiple dynamics and more than 20 real-world hypergraphs show that IPS consistently outperforms other leading baseline centralities. Furthermore, IPS estimates node influence with only local neighborhood information, yielding computational efficiency and scalability to large-scale networks. This work underscores the necessity of considering dynamics for reliable identification of influential nodes and provides a concise principled basis for optimizing interventions in epidemiology, information diffusion, and collective intelligence.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09606v1",
+          "categories": [
+            "physics.soc-ph"
+          ]
+        },
+        {
+          "id": "2512.09589v1",
+          "title": "Temporal Windows of Integration for Multisensory Wireless Systems as Enablers of Physical AI",
+          "authors": [
+            "Anup Mishra",
+            "Jo\u00e3o Henrique Inacio de Souza",
+            "Petar Popovski"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Physical artificial intelligence (AI) refers to the AI that interacts with the physical world in real time. Similar to multisensory perception, Physical AI makes decisions based on multimodal updates from sensors and devices. Physical AI thus operates with a finite spatial footprint of its sensory tributaries. The multimodal updates traverse heterogeneous and unreliable paths, involving wireless links. Throughput or latency guarantees do not ensure correct decision-making, as misaligned, misordered, or stale inputs still yield wrong inferences. Preserving decision-time coherence hinges on three timing primitives at the network-application interface: (i) simultaneity, a short coincidence window that groups measurements as co-temporal, (ii) causality, path-wise delivery that never lets a consequence precede its precursor, and (iii) usefulness, a validity horizon that drops information too stale to influence the current action. In this work, we focus on usefulness and adopt temporal window of integration (TWI)-Causality: the TWI enforces decision-time usefulness by assuming path-wise causal consistency and cross-path simultaneity are handled upstream. We model end-to-end path delay as the sum of sensing/propagation, computation, and access/transmission latencies, and formulate network design as minimizing the validity horizon under a delivery reliability constraint. In effect, this calibrates delay-reliability budgets for a timing-aware system operating over sensors within a finite spatial footprint. The joint choice of horizon and per-path reliability is cast as a convex optimization problem, solved to global optimality to obtain the minimal horizon and per-path allocation of reliability. This is compared favourably to a benchmark based on uniform-after-threshold allocation. Overall, this study contributes to timing-aware Physical AI in next-generation networks.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09589v1",
+          "categories": [
+            "eess.SP"
+          ]
+        }
+      ]
+    },
+    "Automated Response & Incident Response": {
+      "query": "abs:(automated response OR incident response) AND (security OR DDoS OR mitigation) AND (real-time OR fast) AND submittedDate:[202401010000 TO 202512312359]",
+      "total_found": 50,
+      "papers_2025": 50,
+      "papers_2024": 0,
+      "papers": [
+        {
+          "id": "2512.08592v1",
+          "title": "The SMART+ Framework for AI Systems",
+          "authors": [
+            "Laxmiraju Kandikatla",
+            "Branislav Radeljic"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Artificial Intelligence (AI) systems are now an integral part of multiple industries. In clinical research, AI supports automated adverse event detection in clinical trials, patient eligibility screening for protocol enrollment, and data quality validation. Beyond healthcare, AI is transforming finance through real-time fraud detection, automated loan risk assessment, and algorithmic decision-making. Similarly, in manufacturing, AI enables predictive maintenance to reduce equipment downtime, enhances quality control through computer-vision inspection, and optimizes production workflows using real-time operational data. While these technologies enhance operational efficiency, they introduce new challenges regarding safety, accountability, and regulatory compliance. To address these concerns, we introduce the SMART+ Framework - a structured model built on the pillars of Safety, Monitoring, Accountability, Reliability, and Transparency, and further enhanced with Privacy & Security, Data Governance, Fairness & Bias, and Guardrails. SMART+ offers a practical, comprehensive approach to evaluating and governing AI systems across industries. This framework aligns with evolving mechanisms and regulatory guidance to integrate operational safeguards, oversight procedures, and strengthened privacy and governance controls. SMART+ demonstrates risk mitigation, trust-building, and compliance readiness. By enabling responsible AI adoption and ensuring auditability, SMART+ provides a robust foundation for effective AI governance in clinical research.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08592v1",
+          "categories": [
+            "cs.AI",
+            "cs.CY",
+            "cs.HC",
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.08289v1",
+          "title": "MIRAGE: Misleading Retrieval-Augmented Generation via Black-box and Query-agnostic Poisoning Attacks",
+          "authors": [
+            "Tailun Chen",
+            "Yu He",
+            "Yan Wang",
+            "Shuo Shao",
+            "Haolun Zheng",
+            "Zhihao Liu",
+            "Jinfeng Li",
+            "Yuefeng Chen",
+            "Zhixuan Chu",
+            "Zhan Qin"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Retrieval-Augmented Generation (RAG) systems enhance LLMs with external knowledge but introduce a critical attack surface: corpus poisoning. While recent studies have demonstrated the potential of such attacks, they typically rely on impractical assumptions, such as white-box access or known user queries, thereby underestimating the difficulty of real-world exploitation. In this paper, we bridge this gap by proposing MIRAGE, a novel multi-stage poisoning pipeline designed for strict black-box and query-agnostic environments. Operating on surrogate model feedback, MIRAGE functions as an automated optimization framework that integrates three key mechanisms: it utilizes persona-driven query synthesis to approximate latent user search distributions, employs semantic anchoring to imperceptibly embed these intents for high retrieval visibility, and leverages an adversarial variant of Test-Time Preference Optimization (TPO) to maximize persuasion. To rigorously evaluate this threat, we construct a new benchmark derived from three long-form, domain-specific datasets. Extensive experiments demonstrate that MIRAGE significantly outperforms existing baselines in both attack efficacy and stealthiness, exhibiting remarkable transferability across diverse retriever-LLM configurations and highlighting the urgent need for robust defense strategies.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08289v1",
+          "categories": [
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.08076v1",
+          "title": "Mitigation of Datacenter Demand Ramping and Fluctuation using Hybrid ESS and Supercapacitor",
+          "authors": [
+            "Min-Seung Ko",
+            "Jae Woong Shim",
+            "Hao Zhu"
+          ],
+          "published": "2025-12-08",
+          "abstract": "This paper proposes a hybrid energy storage system (HESS)-based control framework that enables comprehensive power smoothing for hyperscale AI datacenters with large load variations. Datacenters impose severe ramping and fluctuation-induced stresses on the grid frequency and voltage stability. To mitigate such disturbances, the proposed HESS integrates a battery energy storage system (BESS) and a supercapacitor (SC) through coordinated multi-timescale control. A high-pass filter (HPF) separates the datacenter demand into slow and fast components, allocating them respectively to the ESS via a leaky-integral controller and to the SC via a phase-lead proportional-derivative controller enhanced with feedforward and ramp-tracking compensation. Adaptive weighting and repetitive control mechanisms further improve transient and periodic responses. Case studies verify that the proposed method effectively suppresses both ramping and fluctuations, stabilizes the system frequency, and maintains sustainable state-of-charge (SoC) trajectories for both ESS and SC under prolonged, stochastic training cycles.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08076v1",
+          "categories": [
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.07827v1",
+          "title": "An Adaptive Multi-Layered Honeynet Architecture for Threat Behavior Analysis via Deep Learning",
+          "authors": [
+            "Lukas Johannes M\u00f6ller"
+          ],
+          "published": "2025-12-08",
+          "abstract": "The escalating sophistication and variety of cyber threats have rendered static honeypots inadequate, necessitating adaptive, intelligence-driven deception. In this work, ADLAH is introduced: an Adaptive Deep Learning Anomaly Detection Honeynet designed to maximize high-fidelity threat intelligence while minimizing cost through autonomous orchestration of infrastructure. The principal contribution is offered as an end-to-end architectural blueprint and vision for an AI-driven deception platform. Feasibility is evidenced by a functional prototype of the central decision mechanism, in which a reinforcement learning (RL) agent determines, in real time, when sessions should be escalated from low-interaction sensor nodes to dynamically provisioned, high-interaction honeypots. Because sufficient live data were unavailable, field-scale validation is not claimed; instead, design trade-offs and limitations are detailed, and a rigorous roadmap toward empirical evaluation at scale is provided. Beyond selective escalation and anomaly detection, the architecture pursues automated extraction, clustering, and versioning of bot attack chains, a core capability motivated by the empirical observation that exposed services are dominated by automated traffic. Together, these elements delineate a practical path toward cost-efficient capture of high-value adversary behavior, systematic bot versioning, and the production of actionable threat intelligence.",
+          "pdf_url": "https://arxiv.org/pdf/2512.07827v1",
+          "categories": [
+            "cs.CR",
+            "cs.DC",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.08995v1",
+          "title": "PoultryTalk: A Multi-modal Retrieval-Augmented Generation (RAG) System for Intelligent Poultry Management and Decision Support",
+          "authors": [
+            "Kapalik Khanal",
+            "Biswash Khatiwada",
+            "Stephen Afrifa",
+            "Ranjan Sapkota",
+            "Sanjay Shah",
+            "Frank Bai",
+            "Ramesh Bahadur Bist"
+          ],
+          "published": "2025-12-08",
+          "abstract": "The Poultry industry plays a vital role in global food security, yet small- and medium-scale farmers frequently lack timely access to expert-level support for disease diagnosis, nutrition planning, and management decisions. With rising climate stress, unpredictable feed prices, and persistent disease threats, poultry producers often struggle to make quick, informed decisions. Therefore, there is a critical need for intelligent, data-driven systems that can deliver reliable, on-demand consultation. This paper presents PoultryTalk, a novel multi-modal Retrieval-Augmented Generation (RAG) system designed to provide real-time expert guidance through text and image-based interaction. PoultryTalk uses OpenAI's text-embedding-3-small and GPT-4o to provide smart, context-aware poultry management advice from text, images, or questions. System usability and performance were evaluated using 200 expert-verified queries and feedback from 34 participants who submitted 267 queries to the PoultryTalk prototype. The expert-verified benchmark queries confirmed strong technical performance, achieving a semantic similarity of 84.0% and an average response latency of 3.6 seconds. Compared with OpenAI's GPT-4o, PoultryTalk delivered more accurate and reliable information related to poultry. Based on participants' evaluations, PoultryTalk achieved a response accuracy of 89.9%, with about 9.1% of responses rated as incorrect. A post-use survey indicated high user satisfaction: 95.6% of participants reported that the chatbot provided \"always correct\" and \"mostly correct\" answers. 82.6% indicated they would recommend the tool, and 17.4% responded \"maybe.\" These results collectively demonstrate that PoultryTalk not only delivers accurate, contextually relevant information but also demonstrates strong user acceptance and scalability potential.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08995v1",
+          "categories": [
+            "cs.HC",
+            "cs.IR"
+          ]
+        },
+        {
+          "id": "2512.06802v1",
+          "title": "VDOT: Efficient Unified Video Creation via Optimal Transport Distillation",
+          "authors": [
+            "Yutong Wang",
+            "Haiyu Zhang",
+            "Tianfan Xue",
+            "Yu Qiao",
+            "Yaohui Wang",
+            "Chang Xu",
+            "Xinyuan Chen"
+          ],
+          "published": "2025-12-07",
+          "abstract": "The rapid development of generative models has significantly advanced image and video applications. Among these, video creation, aimed at generating videos under various conditions, has gained substantial attention. However, existing video creation models either focus solely on a few specific conditions or suffer from excessively long generation times due to complex model inference, making them impractical for real-world applications. To mitigate these issues, we propose an efficient unified video creation model, named VDOT. Concretely, we model the training process with the distribution matching distillation (DMD) paradigm. Instead of using the Kullback-Leibler (KL) minimization, we additionally employ a novel computational optimal transport (OT) technique to optimize the discrepancy between the real and fake score distributions. The OT distance inherently imposes geometric constraints, mitigating potential zero-forcing or gradient collapse issues that may arise during KL-based distillation within the few-step generation scenario, and thus, enhances the efficiency and stability of the distillation process. Further, we integrate a discriminator to enable the model to perceive real video data, thereby enhancing the quality of generated videos. To support training unified video creation models, we propose a fully automated pipeline for video data annotation and filtering that accommodates multiple video creation tasks. Meanwhile, we curate a unified testing benchmark, UVCBench, to standardize evaluation. Experiments demonstrate that our 4-step VDOT outperforms or matches other baselines with 100 denoising steps.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06802v1",
+          "categories": [
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "2512.06644v1",
+          "title": "From Forecast to Action: A Deep Learning Model for Predicting Power Outages During Tropical Cyclones",
+          "authors": [
+            "Yongchuan Yang",
+            "Naiyu Wang",
+            "Zhenguo Wang",
+            "Min Ouyang",
+            "Can Wan"
+          ],
+          "published": "2025-12-07",
+          "abstract": "Power outages caused by tropical cyclones (TCs) pose serious risks to electric power systems and the communities they serve. Accurate, high-resolution outage forecasting is essential for enabling both proactive mitigation planning and real-time emergency response. This study introduces the SpatioTemporal Outage ForeCAST (STO-CAST) model, a deep learning framework developed for real-time, regional-scale outage prediction during TC events with high-resolution outputs in both space and time. STO-CAST integrates static environmental and infrastructure attributes with dynamic meteorological and outage sequences using gated recurrent units (GRUs) and fully connected layers, and is trained via a Leave-One-Storm-Out (LOSO) cross-validation strategy along with holdout grid experiments to demonstrate its preliminary generalization capability to unseen storms and grids. The model produces hourly outage forecasts at a 4 km * 4 km resolution and supports dual forecasting modes: short-term nowcasting with a 6-hour lead time via assimilation of real-time observations, and long-term forecasting with a 60-hour lead time based on evolving meteorological projections. A case study on Typhoon Muifa (2022) demonstrates STO-CAST's operational effectiveness, including error decomposition across model design, meteorological uncertainty, and observation gaps, while highlighting the value of real-time data assimilation and the model's capacity to identify evolving outage hotspots. STO-CAST offers a scalable, data-driven solution to support risk-informed emergency response and enhance power system resilience under intensifying TC threats.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06644v1",
+          "categories": [
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.06396v1",
+          "title": "AgenticCyber: A GenAI-Powered Multi-Agent System for Multimodal Threat Detection and Adaptive Response in Cybersecurity",
+          "authors": [
+            "Shovan Roy"
+          ],
+          "published": "2025-12-06",
+          "abstract": "The increasing complexity of cyber threats in distributed environments demands advanced frameworks for real-time detection and response across multimodal data streams. This paper introduces AgenticCyber, a generative AI powered multi-agent system that orchestrates specialized agents to monitor cloud logs, surveillance videos, and environmental audio concurrently. The solution achieves 96.2% F1-score in threat detection, reduces response latency to 420 ms, and enables adaptive security posture management using multimodal language models like Google's Gemini coupled with LangChain for agent orchestration. Benchmark datasets, such as AWS CloudTrail logs, UCF-Crime video frames, and UrbanSound8K audio clips, show greater performance over standard intrusion detection systems, reducing mean time to respond (MTTR) by 65% and improving situational awareness. This work introduces a scalable, modular proactive cybersecurity architecture for enterprise networks and IoT ecosystems that overcomes siloed security technologies with cross-modal reasoning and automated remediation.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06396v1",
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ]
+        },
+        {
+          "id": "2512.06148v1",
+          "title": "AIMNET: An IoT-Empowered Digital Twin for Continuous Gas Emission Monitoring and Early Hazard Detection",
+          "authors": [
+            "Zifan Zhou",
+            "Xuan Wang",
+            "Yang Yan",
+            "Lkhanaajav Mijiddorj",
+            "Yu Ding",
+            "Tyler Beringer",
+            "Parisa Masnadi Khiabani",
+            "Wolfgang G. Jentner",
+            "Xiao-Ming Hu",
+            "Chenghao Wang",
+            "Bryan M. Carroll",
+            "Ming Xue",
+            "David Ebert",
+            "Bin Li",
+            "Binbin Weng"
+          ],
+          "published": "2025-12-05",
+          "abstract": "A Digital Twin (DT) framework to enhance carbon-based gas plume monitoring is critical for supporting timely and effective mitigation responses to environmental hazards such as industrial gas leaks, or wildfire outbreaks carrying large carbon emissions. We present AIMNET, a one-of-a-kind DT framework that integrates a built-in-house Internet of Things (IoT)-based continuous sensing network with a physics-based multi-scale weather-gas transport model, that enables high-resolution and real-time simulation and detection of carbon gas emissions. AIMNET features a three-layer system architecture: (i) physical world: custom-built devices for continuous monitoring; (ii) bidirectional information feedback links: intelligent data transmission and reverse control; and (iii) digital twin world: AI-driven analytics for prediction, anomaly detection, and dynamic weather-gas coupled molecule transport modeling. Designed for scalable, energy-efficient deployment in remote environments, AIMNET architecture is realized through a small-scale distributed sensing network over an oil and gas production basin. To demonstrate the high-resolution, fast-responding concept, an equivalent mobile-based emission monitoring network was deployed around a wastewater treatment plant that constantly emits methane plumes. Our preliminary results through which, have successfully captured the methane emission events whose dynamics have been further resolved by the tiered model simulations. This work supports our position that AIMNET provides a promising DT framework for reliable, real-time monitoring and predictive risk assessment. In the end, we also discuss key implementation challenges and outline future directions for advancing such a new DT framework for translation deployment.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06148v1",
+          "categories": [
+            "cs.NI"
+          ]
+        },
+        {
+          "id": "2512.05650v1",
+          "title": "Efficient sequential Bayesian inference for state-space epidemic models using ensemble data assimilation",
+          "authors": [
+            "Dhorasso Temfack",
+            "Jason Wyse"
+          ],
+          "published": "2025-12-05",
+          "abstract": "Estimating latent epidemic states and model parameters from partially observed, noisy data remains a major challenge in infectious disease modeling. State-space formulations provide a coherent probabilistic framework for such inference, yet fully Bayesian estimation is often computationally prohibitive because evaluating the observed-data likelihood requires integration over all latent trajectories. The Sequential Monte Carlo squared (SMC$^2$) algorithm offers a principled approach for joint state and parameter inference, combining an outer SMC sampler over parameters with an inner particle filter that estimates the likelihood up to the current time point. Despite its theoretical appeal, this nested particle filter imposes substantial computational cost, limiting routine use in near-real-time outbreak response. We propose Ensemble SMC$^2$ (eSMC$^2$), a scalable variant that replaces the inner particle filter with an Ensemble Kalman Filter (EnKF) to approximate the incremental likelihood at each observation time. While this substitution introduces bias via a Gaussian approximation, we mitigate finite-sample effects using an unbiased Gaussian density estimator and adapt the EnKF for epidemic data through state-dependent observation variance. This makes our approach particularly suitable for overdispersed incidence data commonly encountered in infectious disease surveillance. Simulation experiments with known ground truth and an application to 2022 United States (U.S.) monkeypox incidence data demonstrate that eSMC$^2$ achieves substantial computational gains while producing posterior estimates comparable to SMC$^2$. The method accurately recovers latent epidemic trajectories and key epidemiological parameters, providing an efficient framework for sequential Bayesian inference from imperfect surveillance data.",
+          "pdf_url": "https://arxiv.org/pdf/2512.05650v1",
+          "categories": [
+            "stat.ME",
+            "stat.CO"
+          ]
+        },
+        {
+          "id": "2512.05365v1",
+          "title": "MCP-AI: Protocol-Driven Intelligence Framework for Autonomous Reasoning in Healthcare",
+          "authors": [
+            "Zag ElSayed",
+            "Craig Erickson",
+            "Ernest Pedapati"
+          ],
+          "published": "2025-12-05",
+          "abstract": "Healthcare AI systems have historically faced challenges in merging contextual reasoning, long-term state management, and human-verifiable workflows into a cohesive framework. This paper introduces a completely innovative architecture and concept: combining the Model Context Protocol (MCP) with a specific clinical application, known as MCP-AI. This integration allows intelligent agents to reason over extended periods, collaborate securely, and adhere to authentic clinical logic, representing a significant shift away from traditional Clinical Decision Support Systems (CDSS) and prompt-based Large Language Models (LLMs). As healthcare systems become more complex, the need for autonomous, context-aware clinical reasoning frameworks has become urgent. We present MCP-AI, a novel architecture for explainable medical decision-making built upon the Model Context Protocol (MCP) a modular, executable specification for orchestrating generative and descriptive AI agents in real-time workflows. Each MCP file captures clinical objectives, patient context, reasoning state, and task logic, forming a reusable and auditable memory object. Unlike conventional CDSS or stateless prompt-based AI systems, MCP-AI supports adaptive, longitudinal, and collaborative reasoning across care settings. MCP-AI is validated through two use cases: (1) diagnostic modeling of Fragile X Syndrome with comorbid depression, and (2) remote coordination for Type 2 Diabetes and hypertension. In either scenario, the protocol facilitates physician-in-the-loop validation, streamlines clinical processes, and guarantees secure transitions of AI responsibilities between healthcare providers. The system connects with HL7/FHIR interfaces and adheres to regulatory standards, such as HIPAA and FDA SaMD guidelines. MCP-AI provides a scalable basis for interpretable, composable, and safety-oriented AI within upcoming clinical environments.",
+          "pdf_url": "https://arxiv.org/pdf/2512.05365v1",
+          "categories": [
+            "cs.AI",
+            "q-bio.QM"
+          ]
+        },
+        {
+          "id": "2512.05321v1",
+          "title": "A Practical Honeypot-Based Threat Intelligence Framework for Cyber Defence in the Cloud",
+          "authors": [
+            "Darren Malvern Chin",
+            "Bilal Isfaq",
+            "Simon Yusuf Enoch"
+          ],
+          "published": "2025-12-04",
+          "abstract": "In cloud environments, conventional firewalls rely on predefined rules and manual configurations, limiting their ability to respond effectively to evolving or zero-day threats. As organizations increasingly adopt platforms such as Microsoft Azure, this static defense model exposes cloud assets to zero-day exploits, botnets, and advanced persistent threats. In this paper, we introduce an automated defense framework that leverages medium- to high-interaction honeypot telemetry to dynamically update firewall rules in real time. The framework integrates deception sensors (Cowrie), Azure-native automation tools (Monitor, Sentinel, Logic Apps), and MITRE ATT&CK-aligned detection within a closed-loop feedback mechanism. We developed a testbed to automatically observe adversary tactics, classify them using the MITRE ATT&CK framework, and mitigate network-level threats automatically with minimal human intervention. To assess the framework's effectiveness, we defined and applied a set of attack- and defense-oriented security metrics. Building on existing adaptive defense strategies, our solution extends automated capabilities into cloud-native environments. The experimental results show an average Mean Time to Block of 0.86 seconds - significantly faster than benchmark systems - while accurately classifying over 12,000 SSH attempts across multiple MITRE ATT&CK tactics. These findings demonstrate that integrating deception telemetry with Azure-native automation reduces attacker dwell time, enhances SOC visibility, and provides a scalable, actionable defense model for modern cloud infrastructures.",
+          "pdf_url": "https://arxiv.org/pdf/2512.05321v1",
+          "categories": [
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.05288v1",
+          "title": "Beyond Detection: A Comprehensive Benchmark and Study on Representation Learning for Fine-Grained Webshell Family Classification",
+          "authors": [
+            "Feijiang Han"
+          ],
+          "published": "2025-12-04",
+          "abstract": "Malicious WebShells pose a significant and evolving threat by compromising critical digital infrastructures and endangering public services in sectors such as healthcare and finance. While the research community has made significant progress in WebShell detection (i.e., distinguishing malicious samples from benign ones), we argue that it is time to transition from passive detection to in-depth analysis and proactive defense. One promising direction is the automation of WebShell family classification, which involves identifying the specific malware lineage in order to understand an adversary's tactics and enable a precise, rapid response. This crucial task, however, remains a largely unexplored area that currently relies on slow, manual expert analysis. To address this gap, we present the first systematic study to automate WebShell family classification. Our method begins with extracting dynamic function call traces to capture inherent behaviors that are resistant to common encryption and obfuscation. To enhance the scale and diversity of our dataset for a more stable evaluation, we augment these real-world traces with new variants synthesized by Large Language Models. These augmented traces are then abstracted into sequences, graphs, and trees, providing a foundation to benchmark a comprehensive suite of representation methods. Our evaluation spans classic sequence-based embeddings (CBOW, GloVe), transformers (BERT, SimCSE), and a range of structure-aware algorithms, including Graph Kernels, Graph Edit Distance, Graph2Vec, and various Graph Neural Networks. Through extensive experiments on four real-world, family-annotated datasets under both supervised and unsupervised settings, we establish a robust baseline and provide practical insights into the most effective combinations of data abstractions, representation models, and learning paradigms for this challenge.",
+          "pdf_url": "https://arxiv.org/pdf/2512.05288v1",
+          "categories": [
+            "cs.CR",
+            "cs.AI",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.04895v1",
+          "title": "Chameleon: Adaptive Adversarial Agents for Scaling-Based Visual Prompt Injection in Multimodal AI Systems",
+          "authors": [
+            "M Zeeshan",
+            "Saud Satti"
+          ],
+          "published": "2025-12-04",
+          "abstract": "Multimodal Artificial Intelligence (AI) systems, particularly Vision-Language Models (VLMs), have become integral to critical applications ranging from autonomous decision-making to automated document processing. As these systems scale, they rely heavily on preprocessing pipelines to handle diverse inputs efficiently. However, this dependency on standard preprocessing operations, specifically image downscaling, creates a significant yet often overlooked security vulnerability. While intended for computational optimization, scaling algorithms can be exploited to conceal malicious visual prompts that are invisible to human observers but become active semantic instructions once processed by the model. Current adversarial strategies remain largely static, failing to account for the dynamic nature of modern agentic workflows. To address this gap, we propose Chameleon, a novel, adaptive adversarial framework designed to expose and exploit scaling vulnerabilities in production VLMs. Unlike traditional static attacks, Chameleon employs an iterative, agent-based optimization mechanism that dynamically refines image perturbations based on the target model's real-time feedback. This allows the framework to craft highly robust adversarial examples that survive standard downscaling operations to hijack downstream execution. We evaluate Chameleon against Gemini 2.5 Flash model. Our experiments demonstrate that Chameleon achieves an Attack Success Rate (ASR) of 84.5% across varying scaling factors, significantly outperforming static baseline attacks which average only 32.1%. Furthermore, we show that these attacks effectively compromise agentic pipelines, reducing decision-making accuracy by over 45% in multi-step tasks. Finally, we discuss the implications of these vulnerabilities and propose multi-scale consistency checks as a necessary defense mechanism.",
+          "pdf_url": "https://arxiv.org/pdf/2512.04895v1",
+          "categories": [
+            "cs.AI",
+            "cs.MA"
+          ]
+        },
+        {
+          "id": "2512.04855v1",
+          "title": "A Novel Trust-Based DDoS Cyberattack Detection Model for Smart Business Environments",
+          "authors": [
+            "Oghenetejiri Okporokpo",
+            "Funminiyi Olajide",
+            "Nemitari Ajienka",
+            "Xiaoqi Ma"
+          ],
+          "published": "2025-12-04",
+          "abstract": "As the frequency and complexity of Distributed Denial-of-Service (DDoS) attacks continue to increase, the level of threats posed to Smart Internet of Things (SIoT) business environments have also increased. These environments generally have several interconnected SIoT systems and devices that are integral to daily operations, usually depending on cloud infrastructure and real-time data analytics, which require continuous availability and secure data exchange. Conventional detection mechanisms, while useful in static or traditional network environments, often are inadequate in responding to the needs of these dynamic and diverse SIoT networks. In this paper, we introduce a novel trust-based DDoS detection model tailored to meet the unique requirements of smart business environments. The proposed model incorporates a trust evaluation engine that continuously monitors node behaviour, calculating trust scores based on packet delivery ratio, response time, and anomaly detection. These trust metrics are then aggregated by a central trust-based repository that uses inherent trust values to identify traffic patterns indicative of DDoS attacks. By integrating both trust scores and central trust-based outputs, the trust calculation is enhanced, ensuring that threats are accurately identified and addressed in real-time. The model demonstrated a significant improvement in detection accuracy, and a low false-positive rate with enhanced scalability and adaptability under TCP SYN, Ping Flood, and UDP Flood attacks. The results show that a trust-based approach provides an effective, lightweight alternative for securing resource-constrained business IoT environments.",
+          "pdf_url": "https://arxiv.org/pdf/2512.04855v1",
+          "categories": [
+            "cs.CR"
+          ]
+        }
+      ]
+    },
+    "SLA & Service Level Management": {
+      "query": "abs:(SLA OR service level agreement) AND (security OR availability OR uptime) AND (monitoring OR measurement) AND submittedDate:[202401010000 TO 202512312359]",
+      "total_found": 50,
+      "papers_2025": 50,
+      "papers_2024": 0,
+      "papers": [
+        {
+          "id": "2512.09461v1",
+          "title": "Cytoplasmic Strings Analysis in Human Embryo Time-Lapse Videos using Deep Learning Framework",
+          "authors": [
+            "Anabia Sohail",
+            "Mohamad Alansari",
+            "Ahmed Abughali",
+            "Asmaa Chehab",
+            "Abdelfatah Ahmed",
+            "Divya Velayudhan",
+            "Sajid Javed",
+            "Hasan Al Marzouqi",
+            "Ameena Saad Al-Sumaiti",
+            "Junaid Kashir",
+            "Naoufel Werghi"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Infertility is a major global health issue, and while in-vitro fertilization has improved treatment outcomes, embryo selection remains a critical bottleneck. Time-lapse imaging enables continuous, non-invasive monitoring of embryo development, yet most automated assessment methods rely solely on conventional morphokinetic features and overlook emerging biomarkers. Cytoplasmic Strings, thin filamentous structures connecting the inner cell mass and trophectoderm in expanded blastocysts, have been associated with faster blastocyst formation, higher blastocyst grades, and improved viability. However, CS assessment currently depends on manual visual inspection, which is labor-intensive, subjective, and severely affected by detection and subtle visual appearance. In this work, we present, to the best of our knowledge, the first computational framework for CS analysis in human IVF embryos. We first design a human-in-the-loop annotation pipeline to curate a biologically validated CS dataset from TLI videos, comprising 13,568 frames with highly sparse CS-positive instances. Building on this dataset, we propose a two-stage deep learning framework that (i) classifies CS presence at the frame level and (ii) localizes CS regions in positive cases. To address severe imbalance and feature uncertainty, we introduce the Novel Uncertainty-aware Contractive Embedding (NUCE) loss, which couples confidence-aware reweighting with an embedding contraction term to form compact, well-separated class clusters. NUCE consistently improves F1-score across five transformer backbones, while RF-DETR-based localization achieves state-of-the-art (SOTA) detection performance for thin, low-contrast CS structures. The source code will be made publicly available at: https://github.com/HamadYA/CS_Detection.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09461v1",
+          "categories": [
+            "cs.CV",
+            "cs.AI"
+          ]
+        },
+        {
+          "id": "2512.09409v1",
+          "title": "Proof of Trusted Execution: A Consensus Paradigm for Deterministic Blockchain Finality",
+          "authors": [
+            "Kyle Habib",
+            "Vladislav Kapitsyn",
+            "Giovanni Mazzeo",
+            "Faisal Mehrban"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Current blockchain consensus protocols -- notably, Proof of Work (PoW) and Proof of Stake (PoS) -- deliver global agreement but exhibit structural constraints. PoW anchors security in heavy computation, inflating energy use and imposing high confirmation latency. PoS improves efficiency but introduces stake concentration, long-range and \"nothing-at-stake\" vulnerabilities, and a hard performance ceiling shaped by slot times and multi-round committee voting. In this paper, we propose Proof of Trusted Execution (PoTE), a consensus paradigm where agreement emerges from verifiable execution rather than replicated re-execution. Validators operate inside heterogeneous VM-based TEEs, each running the same canonical program whose measurement is publicly recorded, and each producing vendor-backed attestations that bind the enclave code hash to the block contents. Because the execution is deterministic and the proposer is uniquely derived from public randomness, PoTE avoids forks, eliminates slot.time bottlenecks, and commits blocks in a single round of verification. We present the design of a PoTE consensus client, describe our reference implementation, and evaluate its performance against the stringent throughput requirements of the Trillion decentralized exchange.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09409v1",
+          "categories": [
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.09062v1",
+          "title": "SIP: Site in Pieces- A Dataset of Disaggregated Construction-Phase 3D Scans for Semantic Segmentation and Scene Understanding",
+          "authors": [
+            "Seongyong Kim",
+            "Yong Kwon Cho"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Accurate 3D scene interpretation in active construction sites is essential for progress monitoring, safety assessment, and digital twin development. LiDAR is widely used in construction because it offers advantages over camera-based systems, performing reliably in cluttered and dynamically changing conditions. Yet most public datasets for 3D perception are derived from densely fused scans with uniform sampling and complete visibility, conditions that do not reflect real construction sites. Field data are often collected as isolated single-station LiDAR views, constrained by safety requirements, limited access, and ongoing operations. These factors lead to radial density decay, fragmented geometry, and view-dependent visibility-characteristics that remain underrepresented in existing datasets. This paper presents SIP, Site in Pieces, a dataset created to reflect the practical constraints of LiDAR acquisition during construction. SIP provides indoor and outdoor scenes captured with a terrestrial LiDAR scanner and annotated at the point level using a taxonomy tailored to construction environments: A. Built Environment, B. Construction Operations, and C. Site Surroundings. The dataset includes both structural components and slender temporary objects such as scaffolding, MEP piping, and scissor lifts, where sparsity caused by occlusion and fragmented geometry make segmentation particularly challenging. The scanning protocol, annotation workflow, and quality control procedures establish a consistent foundation for the dataset. SIP is openly available with a supporting Git repository, offering adaptable class configurations that streamline adoption within modern 3D deep learning frameworks. By providing field data that retain real-world sensing characteristics, SIP enables robust benchmarking and contributes to advancing construction-oriented 3D vision tasks.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09062v1",
+          "categories": [
+            "cs.CV",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.08461v1",
+          "title": "Measuring Agile Agreement: Development and Validation of the Manifesto and Principle Scales",
+          "authors": [
+            "Nicolas Matton",
+            "Anthony Simonofski",
+            "Marie-Ange Remiche",
+            "Beno\u00eet Vanderose"
+          ],
+          "published": "2025-12-09",
+          "abstract": "While the importance of human factors in agile software development is widely acknowledged, the measurement of an individual's \"agile agreement\" remains an ill-defined and challenging area. A key limitation in existing research is the failure to distinguish between agreement with the abstract, high-level values of the Agile Manifesto and agreement with the concrete, day-to-day practices derived from the 12 Principles. This paper addresses this methodological gap by presenting the design and validation of two distinct instruments: the novel Manifesto Agreement Scale (MAS), and the Principle Agreement Scale (PAS), which is a systematic adaptation and refinement of a prior instrument. We detail the systematic process of item creation and selection, survey design, and validation. The results demonstrate that both scales possess important internal consistency and construct validity. A convergence and divergence analysis, including Proportional Odds Logistic Regression, a Bland-Altman plot, and an Intraclass Correlation Coefficient (ICC), reveals that while the two scales are moderately correlated, they are not interchangeable and capture distinct dimensions of agile agreement. The primary contribution of this work is a pair of publicly available instruments, validated within a specific demographic of Belgian IT professionals. These scales represent a critical initial step toward facilitating a more nuanced measurement of agile agreement, distinguishing agile agreement across various levels of perception and aiding in a more refined interpretation of person-agile fit.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08461v1",
+          "categories": [
+            "cs.SE"
+          ]
+        },
+        {
+          "id": "2512.08434v1",
+          "title": "Trans-Arctic route feasibility on a pan-Arctic grid under bathymetric and sea-ice constraints",
+          "authors": [
+            "Abdella Mohamed",
+            "Xiangyu Hu"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Climate driven reductions in Arctic sea ice have renewed interest in trans Arctic shipping, but adoption remains limited by basic questions of route feasibility, safety and excess distance. Existing studies mostly compare idealised great circle shortcuts or use full weather routing systems, leaving a gap for simple basin scale diagnostics on realistic bathymetry and sea ice. We develop an offline graph based framework on a 0.5 degree pan Arctic grid that combines GEBCO 2024 bathymetry with a summer 2018 Arctic sea ice reanalysis from the Copernicus Marine Environment Monitoring Service (CMEMS). An A* pathfinding algorithm is applied to a canonical Europe Asia origin destination pair to quantify route availability and route length inflation relative to a great circle. Enforcing sea only feasibility increases route length by about 10 percent before depth and ice constraints are applied. Depth thresholds representative of under keel clearance (hmin = 20-50 m) remove up to roughly 15 percent of the sea mask but preserve a trans Arctic connection for hmin = 20 m. Summer sea ice exerts a strong seasonal control: continuous ice safe routes emerge only from mid August, with distances inflated by roughly 20-25 percent even in late summer. When depth and ice constraints are imposed jointly, only about 75 percent of sea cells remain safe and no continuous joint safe trans Arctic route exists in the tested season. The framework provides a basin scale screening tool for Arctic shipping and a baseline for forecast driven, multi objective routing studies.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08434v1",
+          "categories": [
+            "physics.geo-ph"
+          ]
+        },
+        {
+          "id": "2512.09001v1",
+          "title": "A Physics-Constrained, Design-Driven Methodology for Defect Dataset Generation in Optical Lithography",
+          "authors": [
+            "Yuehua Hu",
+            "Jiyeong Kong",
+            "Dong-yeol Shin",
+            "Jaekyun Kim",
+            "Kyung-Tae Kang"
+          ],
+          "published": "2025-12-09",
+          "abstract": "The efficacy of Artificial Intelligence (AI) in micro/nano manufacturing is fundamentally constrained by the scarcity of high-quality and physically grounded training data for defect inspection. Lithography defect data from semiconductor industry are rarely accessible for research use, resulting in a shortage of publicly available datasets. To address this bottleneck in lithography, this study proposes a novel methodology for generating large-scale, physically valid defect datasets with pixel-level annotations. The framework begins with the ab initio synthesis of defect layouts using controllable, physics-constrained mathematical morphology operations (erosion and dilation) applied to the original design-level layout. These synthesized layouts, together with their defect-free counterparts, are fabricated into physical samples via high-fidelity digital micromirror device (DMD)-based lithography. Optical micrographs of the synthesized defect samples and their defect-free references are then compared to create consistent defect delineation annotations. Using this methodology, we constructed a comprehensive dataset of 3,530 Optical micrographs containing 13,365 annotated defect instances including four classes: bridge, burr, pinch, and contamination. Each defect instance is annotated with a pixel-accurate segmentation mask, preserving full contour and geometry. The segmentation-based Mask R-CNN achieves AP@0.5 of 0.980, 0.965, and 0.971, compared with 0.740, 0.719, and 0.717 for Faster R-CNN on bridge, burr, and pinch classes, representing a mean AP@0.5 improvement of approximately 34%. For the contamination class, Mask R-CNN achieves an AP@0.5 roughly 42% higher than Faster R-CNN. These consistent gains demonstrate that our proposed methodology to generate defect datasets with pixel-level annotations is feasible for robust AI-based Measurement/Inspection (MI) in semiconductor fabrication.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09001v1",
+          "categories": [
+            "cs.CV",
+            "cs.AI"
+          ]
+        },
+        {
+          "id": "2512.08204v1",
+          "title": "Evaluating Vulnerabilities of Connected Vehicles Under Cyber Attacks by Attack-Defense Tree",
+          "authors": [
+            "Muhammad Baqer Mollah",
+            "Honggang Wang",
+            "Hua Fang"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Connected vehicles represent a key enabler of intelligent transportation systems, where vehicles are equipped with advanced communication, sensing, and computing technologies to interact not only with one another but also with surrounding infrastructures and the environment. Through continuous data exchange, such vehicles are capable of enhancing road safety, improving traffic efficiency, and ensuring more reliable mobility services. Further, when these capabilities are integrated with advanced automation technologies, the concept essentially evolves into connected and autonomous vehicles (CAVs). While connected vehicles primarily focus on seamless information sharing, autonomous vehicles are mainly dependent on advanced perception, decision-making, and control mechanisms to operate with minimal or without human intervention. However, as a result of connectivity, an adversary with malicious intentions might be able to compromise successfully by breaching the system components of CAVs. In this paper, we present an attack-tree based methodology for evaluating cyber security vulnerabilities in CAVs. In particular, we utilize the attack-defense tree formulation to systematically assess attack-leaf vulnerabilities, and before analyzing the vulnerability indices, we also define a measure of vulnerabilities, which is based on existing cyber security threats and corresponding defensive countermeasures.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08204v1",
+          "categories": [
+            "cs.CR",
+            "cs.NI"
+          ]
+        },
+        {
+          "id": "2512.07603v1",
+          "title": "Determination of nuclear quadrupole moments of $^{25}$Mg, $^{87}$Sr, and $^{135,137}$Ba via configuration-interaction plus coupled-cluster approach",
+          "authors": [
+            "Yong-Bo Tang"
+          ],
+          "published": "2025-12-08",
+          "abstract": "Using the configuration-interaction plus coupled-cluster approach, we calculate the electric-field gradients $q$ for the low-lying states of alkaline-earth atoms, including magnesium (Mg), strontium (Sr), and barium (Ba). These low-lying states specifically include the $3s3p~^3\\!P_{1,2}$ states of Mg; the $5s4d~^1\\!D_{2}$ and $5s5p~^3\\!P_{1,2}$ states of Sr; as well as the $6s5d~^3\\!D_{1,2,3}$, $6s5d~^1\\!D_{2}$, and $6s6p~^1\\!P_{1}$ states of Ba. By combining the measured electric quadrupole hyperfine-structure constants of these states, we accurately determine the nuclear quadrupole moments of $^{25}$Mg, $^{87}$Sr, and $^{135,137}$Ba. These results are compared with the available data. The comparison shows that our nuclear quadrupole moment of $^{25}$Mg is in perfect agreement with the result from the mesonic X-ray experiment. However, there are approximately 10\\% and 4\\% differences between our results and the currently adopted values [Pyykk$\\rm \\ddot{o}$, Mol. Phys. 116, 1328(2018)] for the nuclear quadrupole moments of $^{87}$Sr and $^{135,137}$Ba respectively. Moreover, we also calculate the magnetic dipole hyperfine-structure constants of these states, and the calculated results exhibit good agreement with the measured data.",
+          "pdf_url": "https://arxiv.org/pdf/2512.07603v1",
+          "categories": [
+            "physics.atom-ph"
+          ]
+        },
+        {
+          "id": "2512.07312v1",
+          "title": "DCO: Dynamic Cache Orchestration for LLM Accelerators through Predictive Management",
+          "authors": [
+            "Zhongchun Zhou",
+            "Chengtao Lai",
+            "Yuhang Gu",
+            "Wei Zhang"
+          ],
+          "published": "2025-12-08",
+          "abstract": "The rapid adoption of large language models (LLMs) is pushing AI accelerators toward increasingly powerful and specialized designs. Instead of further complicating software development with deeply hierarchical scratchpad memories (SPMs) and their asynchronous management, we investigate the opposite point of the design spectrum: a multi-core AI accelerator equipped with a shared system-level cache and application-aware management policies, which keeps the programming effort modest. Our approach exploits dataflow information available in the software stack to guide cache replacement (including dead-block prediction), in concert with bypass decisions and mechanisms that alleviate cache thrashing. We assess the proposal using a cycle-accurate simulator and observe substantial performance gains (up to 1.80x speedup) compared with conventional cache architectures. In addition, we build and validate an analytical model that takes into account the actual overlapping behaviors to extend the measurement results of our policies to real-world larger-scale workloads. Experiment results show that when functioning together, our bypassing and thrashing mitigation strategies can handle scenarios both with and without inter-core data sharing and achieve remarkable speedups. Finally, we implement the design in RTL and the area of our design is $\\mathbf{0.064mm^2}$ with 15nm process, which can run at 2 GHz clock frequency. Our findings explore the potential of the shared cache design to assist the development of future AI accelerator systems.",
+          "pdf_url": "https://arxiv.org/pdf/2512.07312v1",
+          "categories": [
+            "cs.AR",
+            "cs.AI",
+            "cs.DC"
+          ]
+        },
+        {
+          "id": "2512.07121v1",
+          "title": "The relationship between offline partisan geographical segregation and online partisan segregation",
+          "authors": [
+            "Megan A. Brown",
+            "Tiago Ventura",
+            "Joshua A. Tucker",
+            "Jonathan Nagler"
+          ],
+          "published": "2025-12-08",
+          "abstract": "Social media is often blamed for the creation of echo chambers. However, these claims fail to consider the prevalence of offline echo chambers resulting from high levels of partisan segregation in the United States. Our article empirically assesses these online versus offline dynamics by linking a novel dataset of voters' offline partisan segregation extracted from publicly available voter files for 180 million US voters with their online network segregation on Twitter. We investigate offline and online partisan segregation using measures of geographical and network isolation of every matched voter-twitter user to their co-partisans online and offline. Our results show that while social media users tend to form politically homogeneous online networks, these levels of partisan sorting are significantly lower than those found in offline settings. Notably, Democrats are more isolated than Republicans in both settings, and only older Republicans exhibit higher online than offline segregation. Our results contribute to the emerging literature on political communication and the homophily of online networks, providing novel evidence on partisan sorting both online and offline.",
+          "pdf_url": "https://arxiv.org/pdf/2512.07121v1",
+          "categories": [
+            "cs.SI",
+            "cs.CY"
+          ]
+        },
+        {
+          "id": "2512.06649v1",
+          "title": "Estimating Black Carbon Concentration from Urban Traffic Using Vision-Based Machine Learning",
+          "authors": [
+            "Camellia Zakaria",
+            "Aryan Sadeghi",
+            "Weaam Jaafar",
+            "Junshi Xu",
+            "Alex Mariakakis",
+            "Marianne Hatzopoulou"
+          ],
+          "published": "2025-12-07",
+          "abstract": "Black carbon (BC) emissions in urban areas are primarily driven by traffic, with hotspots near major roads disproportionately affecting marginalized communities. Because BC monitoring is typically performed using costly and specialized instruments. there is little to no available data on BC from local traffic sources that could help inform policy interventions targeting local factors. By contrast, traffic monitoring systems are widely deployed in cities around the world, highlighting the imbalance between what we know about traffic conditions and what do not know about their environmental consequences. To bridge this gap, we propose a machine learning-driven system that extracts visual information from traffic video to capture vehicles behaviors and conditions. Combining these features with weather data, our model estimates BC at street level, achieving an R-squared value of 0.72 and RMSE of 129.42 ng/m3 (nanogram per cubic meter). From a sustainability perspective, this work leverages resources already supported by urban infrastructure and established modeling techniques to generate information relevant to traffic emission. Obtaining BC concentration data provides actionable insights to support pollution reduction, urban planning, public health, and environmental justice at the local municipal level.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06649v1",
+          "categories": [
+            "cs.LG",
+            "cs.CV",
+            "cs.CY",
+            "cs.ET"
+          ]
+        },
+        {
+          "id": "2512.06619v1",
+          "title": "Fault-Tolerant Information Processing with Quantum Weak Measurement",
+          "authors": [
+            "Qi Song",
+            "Hongjing Li",
+            "Chengxi Yu",
+            "Jingzheng Huang",
+            "Ding Wang",
+            "Peng Huang",
+            "Guihua Zeng"
+          ],
+          "published": "2025-12-07",
+          "abstract": "Noise is an important factor that influences the reliability of information acquisition, transmission, processing, and storage. In order to suppress the inevitable noise effects, a fault-tolerant information processing approach via quantum weak measurement is proposed, where pairwise orthogonal postselected measurement bases with various tiny angles and optimal compositions of measured results are chosen as a decoding rule. The signal to be protected can be retrieved with a minimal distortion after having been transmitted through a noisy channel. Demonstrated by typical examples of encoding signal on two-level superposition state or Einstein-Podolsky-Rossen state transmitted through random telegraph noise and decoherence noises channel, the mean squared error distortion may be close to $0$ and the fault-tolerant capability could reach $1$ with finite quantum resources. To verify the availability of the proposed approach, classic coherent light and quantum coherent state are used for encoding information in the experiment. Potentially, the proposed approach may provide a solution for suppressing noise effects in long-distance quantum communication, high-sensitivity quantum sensing, and accurate quantum computation.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06619v1",
+          "categories": [
+            "quant-ph",
+            "physics.app-ph",
+            "physics.optics"
+          ]
+        },
+        {
+          "id": "2512.06589v1",
+          "title": "OmniSafeBench-MM: A Unified Benchmark and Toolbox for Multimodal Jailbreak Attack-Defense Evaluation",
+          "authors": [
+            "Xiaojun Jia",
+            "Jie Liao",
+            "Qi Guo",
+            "Teng Ma",
+            "Simeng Qin",
+            "Ranjie Duan",
+            "Tianlin Li",
+            "Yihao Huang",
+            "Zhitao Zeng",
+            "Dongxian Wu",
+            "Yiming Li",
+            "Wenqi Ren",
+            "Xiaochun Cao",
+            "Yang Liu"
+          ],
+          "published": "2025-12-06",
+          "abstract": "Recent advances in multi-modal large language models (MLLMs) have enabled unified perception-reasoning capabilities, yet these systems remain highly vulnerable to jailbreak attacks that bypass safety alignment and induce harmful behaviors. Existing benchmarks such as JailBreakV-28K, MM-SafetyBench, and HADES provide valuable insights into multi-modal vulnerabilities, but they typically focus on limited attack scenarios, lack standardized defense evaluation, and offer no unified, reproducible toolbox. To address these gaps, we introduce OmniSafeBench-MM, which is a comprehensive toolbox for multi-modal jailbreak attack-defense evaluation. OmniSafeBench-MM integrates 13 representative attack methods, 15 defense strategies, and a diverse dataset spanning 9 major risk domains and 50 fine-grained categories, structured across consultative, imperative, and declarative inquiry types to reflect realistic user intentions. Beyond data coverage, it establishes a three-dimensional evaluation protocol measuring (1) harmfulness, distinguished by a granular, multi-level scale ranging from low-impact individual harm to catastrophic societal threats, (2) intent alignment between responses and queries, and (3) response detail level, enabling nuanced safety-utility analysis. We conduct extensive experiments on 10 open-source and 8 closed-source MLLMs to reveal their vulnerability to multi-modal jailbreak. By unifying data, methodology, and evaluation into an open-source, reproducible platform, OmniSafeBench-MM provides a standardized foundation for future research. The code is released at https://github.com/jiaxiaojunQAQ/OmniSafeBench-MM.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06589v1",
+          "categories": [
+            "cs.CR",
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "2512.06293v1",
+          "title": "Importance-aware Topic Modeling for Discovering Public Transit Risk from Noisy Social Media",
+          "authors": [
+            "Fatima Ashraf",
+            "Muhammad Ayub Sabir",
+            "Jiaxin Deng",
+            "Junbiao Pang",
+            "Haitao Yu"
+          ],
+          "published": "2025-12-06",
+          "abstract": "Urban transit agencies increasingly turn to social media to monitor emerging service risks such as crowding, delays, and safety incidents, yet the signals of concern are sparse, short, and easily drowned by routine chatter. We address this challenge by jointly modeling linguistic interactions and user influence. First, we construct an influence-weighted keyword co-occurrence graph from cleaned posts so that socially impactful posts contributes proportionally to the underlying evidence. The core of our framework is a Poisson Deconvolution Factorization (PDF) that decomposes this graph into a low-rank topical structure and topic-localized residual interactions, producing an interpretable topic--keyword basis together with topic importance scores. A decorrelation regularizer \\emph{promotes} distinct topics, and a lightweight optimization procedure ensures stable convergence under nonnegativity and normalization constraints. Finally, the number of topics is selected through a coherence-driven sweep that evaluates the quality and distinctness of the learned topics. On large-scale social streams, the proposed model achieves state-of-the-art topic coherence and strong diversity compared with leading baselines. The code and dataset are publicly available at https://github.com/pangjunbiao/Topic-Modeling_ITS.git",
+          "pdf_url": "https://arxiv.org/pdf/2512.06293v1",
+          "categories": [
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.06280v1",
+          "title": "Assessing the Information Content of Individual Spikes in Population-Level Models of Neural Spiking Activity",
+          "authors": [
+            "Azar Ghahari",
+            "Uri T. Eden"
+          ],
+          "published": "2025-12-06",
+          "abstract": "In the last decade, there have been major advances in clusterless decoding algorithms for neural data analysis. These algorithms use the theory of marked point processes to describe the joint activity of many neurons simultaneously, without the need for spike sorting. In this study, we examine information-theoretic metrics to analyze the information extracted from each observed spike under such clusterless models. In an analysis of spatial coding in the rat hippocampus, we compared the entropy reduction between spike-sorted and clusterless models for both individual spikes observed in isolation and when the prior information from all previously observed spikes is accounted for. Our analysis demonstrates that low-amplitude spikes, which are difficult to cluster and often left out of spike sorting, provide reduced information compared to sortable, high-amplitude spikes when considered in isolation, but the two provide similar levels of information when considering all the prior information available from past spiking. These findings demonstrate the value of combining information measures with state-space modeling and yield new insights into the underlying mechanisms of neural computation.",
+          "pdf_url": "https://arxiv.org/pdf/2512.06280v1",
+          "categories": [
+            "q-bio.NC",
+            "q-bio.QM",
+            "stat.ME"
+          ]
+        }
+      ]
+    },
+    "Always-On & Continuous Monitoring": {
+      "query": "abs:(always-on OR continuous monitoring) AND (security OR defense OR protection) AND submittedDate:[202401010000 TO 202512312359]",
+      "total_found": 50,
+      "papers_2025": 50,
+      "papers_2024": 0,
+      "papers": [
+        {
+          "id": "2512.09835v1",
+          "title": "Predicting the Containment Time of California Wildfires Using Machine Learning",
+          "authors": [
+            "Shashank Bhardwaj"
+          ],
+          "published": "2025-12-10",
+          "abstract": "California's wildfire season keeps getting worse over the years, overwhelming the emergency response teams. These fires cause massive destruction to both property and human life. Because of these reasons, there's a growing need for accurate and practical predictions that can help assist with resources allocation for the Wildfire managers or the response teams. In this research, we built machine learning models to predict the number of days it will require to fully contain a wildfire in California. Here, we addressed an important gap in the current literature. Most prior research has concentrated on wildfire risk or how fires spread, and the few that examine the duration typically predict it in broader categories rather than a continuous measure. This research treats the wildfire duration prediction as a regression task, which allows for more detailed and precise forecasts rather than just the broader categorical predictions used in prior work. We built the models by combining three publicly available datasets from California Department of Forestry and Fire Protection's Fire and Resource Assessment Program (FRAP). This study compared the performance of baseline ensemble regressor, Random Forest and XGBoost, with a Long Short-Term Memory (LSTM) neural network. The results show that the XGBoost model slightly outperforms the Random Forest model, likely due to its superior handling of static features in the dataset. The LSTM model, on the other hand, performed worse than the ensemble models because the dataset lacked temporal features. Overall, this study shows that, depending on the feature availability, Wildfire managers or Fire management authorities can select the most appropriate model to accurately predict wildfire containment duration and allocate resources effectively.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09835v1",
+          "categories": [
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.09625v1",
+          "title": "RIS-Assisted Coordinated Multi-Point ISAC for Low-Altitude Sensing Coverage",
+          "authors": [
+            "Ying Zhang",
+            "Zeqi Hao",
+            "Tingting Zhang"
+          ],
+          "published": "2025-12-10",
+          "abstract": "The low-altitude economy (LAE) has emerged and developed in various fields, which has gained considerable interest. To ensure the security of LAE, it is essential to establish a proper sensing coverage scheme for monitoring the unauthorized targets. Introducing integrated sensing and communication (ISAC) into cellular networks is a promising solution that enables coordinated multiple base stations (BSs) to significantly enhance sensing performance and extend coverage. Meanwhile, deploying a reconfigurable intelligent surface (RIS) can mitigate signal blockages between BSs and low-altitude targets in urban areas. Therefore, this paper focuses on the low-altitude sensing coverage problem in RIS-assisted coordinated multi-point ISAC networks, where a RIS is employed to enable multiple BSs to sense a prescribed region while serving multiple communication users. A joint beamforming and phase shifts design is proposed to minimize the total transmit power while guaranteeing sensing signal-to-noise ratio and communication spectral efficiency. To tackle this non-convex optimization problem, an efficient algorithm is proposed by using the alternating optimization and semi-definite relaxation techniques. Numerical results demonstrate the superiority of our proposed scheme over the baseline schemes.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09625v1",
+          "categories": [
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.09539v1",
+          "title": "Comparative Analysis of Hash-based Malware Clustering via K-Means",
+          "authors": [
+            "Aink Acrie Soe Thein",
+            "Nikolaos Pitropakis",
+            "Pavlos Papadopoulos",
+            "Sam Grierson",
+            "Sana Ullah Jan"
+          ],
+          "published": "2025-12-10",
+          "abstract": "With the adoption of multiple digital devices in everyday life, the cyber-attack surface has increased. Adversaries are continuously exploring new avenues to exploit them and deploy malware. On the other hand, detection approaches typically employ hashing-based algorithms such as SSDeep, TLSH, and IMPHash to capture structural and behavioural similarities among binaries. This work focuses on the analysis and evaluation of these techniques for clustering malware samples using the K-means algorithm. More specifically, we experimented with established malware families and traits and found that TLSH and IMPHash produce more distinct, semantically meaningful clusters, whereas SSDeep is more efficient for broader classification tasks. The findings of this work can guide the development of more robust threat-detection mechanisms and adaptive security mechanisms.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09539v1",
+          "categories": [
+            "cs.CR",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.09403v1",
+          "title": "Black-Box Behavioral Distillation Breaks Safety Alignment in Medical LLMs",
+          "authors": [
+            "Sohely Jahan",
+            "Ruimin Sun"
+          ],
+          "published": "2025-12-10",
+          "abstract": "As medical large language models (LLMs) become increasingly integrated into clinical workflows, concerns around alignment robustness, and safety are escalating. Prior work on model extraction has focused on classification models or memorization leakage, leaving the vulnerability of safety-aligned generative medical LLMs underexplored. We present a black-box distillation attack that replicates the domain-specific reasoning of safety-aligned medical LLMs using only output-level access. By issuing 48,000 instruction queries to Meditron-7B and collecting 25,000 benign instruction response pairs, we fine-tune a LLaMA3 8B surrogate via parameter efficient LoRA under a zero-alignment supervision setting, requiring no access to model weights, safety filters, or training data. With a cost of $12, the surrogate achieves strong fidelity on benign inputs while producing unsafe completions for 86% of adversarial prompts, far exceeding both Meditron-7B (66%) and the untuned base model (46%). This reveals a pronounced functional-ethical gap, task utility transfers, while alignment collapses. To analyze this collapse, we develop a dynamic adversarial evaluation framework combining Generative Query (GQ)-based harmful prompt generation, verifier filtering, category-wise failure analysis, and adaptive Random Search (RS) jailbreak attacks. We also propose a layered defense system, as a prototype detector for real-time alignment drift in black-box deployments. Our findings show that benign-only black-box distillation exposes a practical and under-recognized threat: adversaries can cheaply replicate medical LLM capabilities while stripping safety mechanisms, underscoring the need for extraction-aware safety monitoring.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09403v1",
+          "categories": [
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.08882v1",
+          "title": "Decentralized Trust for Space AI: Blockchain-Based Federated Learning Across Multi-Vendor LEO Satellite Networks",
+          "authors": [
+            "Mohamed Elmahallawy",
+            "Asma Jodeiri Akbarfam"
+          ],
+          "published": "2025-12-09",
+          "abstract": "The rise of space AI is reshaping government and industry through applications such as disaster detection, border surveillance, and climate monitoring, powered by massive data from commercial and governmental low Earth orbit (LEO) satellites. Federated satellite learning (FSL) enables joint model training without sharing raw data, but suffers from slow convergence due to intermittent connectivity and introduces critical trust challenges--where biased or falsified updates can arise across satellite constellations, including those injected through cyberattacks on inter-satellite or satellite-ground communication links. We propose OrbitChain, a blockchain-backed framework that empowers trustworthy multi-vendor collaboration in LEO networks. OrbitChain (i) offloads consensus to high-altitude platforms (HAPs) with greater computational capacity, (ii) ensures transparent, auditable provenance of model updates from different orbits owned by different vendors, and (iii) prevents manipulated or incomplete contributions from affecting global FSL model aggregation. Extensive simulations show that OrbitChain reduces computational and communication overhead while improving privacy, security, and global model accuracy. Its permissioned proof-of-authority ledger finalizes over 1000 blocks with sub-second latency (0.16,s, 0.26,s, 0.35,s for 1-of-5, 3-of-5, and 5-of-5 quorums). Moreover, OrbitChain reduces convergence time by up to 30 hours on real satellite datasets compared to single-vendor, demonstrating its effectiveness for real-time, multi-vendor learning. Our code is available at https://github.com/wsu-cyber-security-lab-ai/OrbitChain.git",
+          "pdf_url": "https://arxiv.org/pdf/2512.08882v1",
+          "categories": [
+            "cs.CR",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.08862v1",
+          "title": "Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety",
+          "authors": [
+            "Mohamed Elmahallawy",
+            "Sanjay Madria",
+            "Samuel Frimpong"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Underground mining operations depend on sensor networks to monitor critical parameters such as temperature, gas concentration, and miner movement, enabling timely hazard detection and safety decisions. However, transmitting raw sensor data to a centralized server for machine learning (ML) model training raises serious privacy and security concerns. Federated Learning (FL) offers a promising alternative by enabling decentralized model training without exposing sensitive local data. Yet, applying FL in underground mining presents unique challenges: (i) Adversaries may eavesdrop on shared model updates to launch model inversion or membership inference attacks, compromising data privacy and operational safety; (ii) Non-IID data distributions across mines and sensor noise can hinder model convergence. To address these issues, we propose FedMining--a privacy-preserving FL framework tailored for underground mining. FedMining introduces two core innovations: (1) a Decentralized Functional Encryption (DFE) scheme that keeps local models encrypted, thwarting unauthorized access and inference attacks; and (2) a balancing aggregation mechanism to mitigate data heterogeneity and enhance convergence. Evaluations on real-world mining datasets demonstrate FedMining's ability to safeguard privacy while maintaining high model accuracy and achieving rapid convergence with reduced communication and computation overhead. These advantages make FedMining both secure and practical for real-time underground safety monitoring.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08862v1",
+          "categories": [
+            "cs.CR",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.08802v1",
+          "title": "Democratizing ML for Enterprise Security: A Self-Sustained Attack Detection Framework",
+          "authors": [
+            "Sadegh Momeni",
+            "Ge Zhang",
+            "Birkett Huber",
+            "Hamza Harkous",
+            "Sam Lipton",
+            "Benoit Seguin",
+            "Yanis Pavlidis"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Despite advancements in machine learning for security, rule-based detection remains prevalent in Security Operations Centers due to the resource intensiveness and skill gap associated with ML solutions. While traditional rule-based methods offer efficiency, their rigidity leads to high false positives or negatives and requires continuous manual maintenance. This paper proposes a novel, two-stage hybrid framework to democratize ML-based threat detection. The first stage employs intentionally loose YARA rules for coarse-grained filtering, optimized for high recall. The second stage utilizes an ML classifier to filter out false positives from the first stage's output. To overcome data scarcity, the system leverages Simula, a seedless synthetic data generation framework, enabling security analysts to create high-quality training datasets without extensive data science expertise or pre-labeled examples. A continuous feedback loop incorporates real-time investigation results to adaptively tune the ML model, preventing rule degradation. This proposed model with active learning has been rigorously tested for a prolonged time in a production environment spanning tens of thousands of systems. The system handles initial raw log volumes often reaching 250 billion events per day, significantly reducing them through filtering and ML inference to a handful of daily tickets for human investigation. Live experiments over an extended timeline demonstrate a general improvement in the model's precision over time due to the active learning feature. This approach offers a self-sustained, low-overhead, and low-maintenance solution, allowing security professionals to guide model learning as expert ``teachers''.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08802v1",
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ]
+        },
+        {
+          "id": "2512.08592v1",
+          "title": "The SMART+ Framework for AI Systems",
+          "authors": [
+            "Laxmiraju Kandikatla",
+            "Branislav Radeljic"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Artificial Intelligence (AI) systems are now an integral part of multiple industries. In clinical research, AI supports automated adverse event detection in clinical trials, patient eligibility screening for protocol enrollment, and data quality validation. Beyond healthcare, AI is transforming finance through real-time fraud detection, automated loan risk assessment, and algorithmic decision-making. Similarly, in manufacturing, AI enables predictive maintenance to reduce equipment downtime, enhances quality control through computer-vision inspection, and optimizes production workflows using real-time operational data. While these technologies enhance operational efficiency, they introduce new challenges regarding safety, accountability, and regulatory compliance. To address these concerns, we introduce the SMART+ Framework - a structured model built on the pillars of Safety, Monitoring, Accountability, Reliability, and Transparency, and further enhanced with Privacy & Security, Data Governance, Fairness & Bias, and Guardrails. SMART+ offers a practical, comprehensive approach to evaluating and governing AI systems across industries. This framework aligns with evolving mechanisms and regulatory guidance to integrate operational safeguards, oversight procedures, and strengthened privacy and governance controls. SMART+ demonstrates risk mitigation, trust-building, and compliance readiness. By enabling responsible AI adoption and ensuring auditability, SMART+ provides a robust foundation for effective AI governance in clinical research.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08592v1",
+          "categories": [
+            "cs.AI",
+            "cs.CY",
+            "cs.HC",
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.08372v1",
+          "title": "USCSA: Evolution-Aware Security Analysis for Proxy-Based Upgradeable Smart Contracts",
+          "authors": [
+            "Xiaoqi Li",
+            "Lei Xie",
+            "Wenkai Li",
+            "Zongwei Li"
+          ],
+          "published": "2025-12-09",
+          "abstract": "In the case of upgrading smart contracts on blockchain systems, it is essential to consider the continuity of upgrade and subsequent maintenance. In practice, upgrade operations often introduce new vulnerabilities. To address this, we propose an Upgradable Smart Contract Security Analyzer, USCSA, which evaluates the risks associated with the upgrade process using the Abstract Syntax Tree (AST) differential analysis. We collected and analyzed 3,546 cases of vulnerabilities in upgradable contracts,covering common vulnerability categories such as reentrancy, access control flaws, and integer overflow. Experimental results show that USCSA achieves an accuracy of 92.3%, recall of 89.7%, and F1-score of 91.0% in detecting upgrade-induced vulnerabilities. In addition, the efficiency of mapping high-risk changes has achieved a 30% improvement over the conventional approach. As a result, USCSA provides a significant advantage to improve the security and integrity of upgradable smart contracts, providing a novel and efficient solution to secure audits on blockchain applications.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08372v1",
+          "categories": [
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.08204v1",
+          "title": "Evaluating Vulnerabilities of Connected Vehicles Under Cyber Attacks by Attack-Defense Tree",
+          "authors": [
+            "Muhammad Baqer Mollah",
+            "Honggang Wang",
+            "Hua Fang"
+          ],
+          "published": "2025-12-09",
+          "abstract": "Connected vehicles represent a key enabler of intelligent transportation systems, where vehicles are equipped with advanced communication, sensing, and computing technologies to interact not only with one another but also with surrounding infrastructures and the environment. Through continuous data exchange, such vehicles are capable of enhancing road safety, improving traffic efficiency, and ensuring more reliable mobility services. Further, when these capabilities are integrated with advanced automation technologies, the concept essentially evolves into connected and autonomous vehicles (CAVs). While connected vehicles primarily focus on seamless information sharing, autonomous vehicles are mainly dependent on advanced perception, decision-making, and control mechanisms to operate with minimal or without human intervention. However, as a result of connectivity, an adversary with malicious intentions might be able to compromise successfully by breaching the system components of CAVs. In this paper, we present an attack-tree based methodology for evaluating cyber security vulnerabilities in CAVs. In particular, we utilize the attack-defense tree formulation to systematically assess attack-leaf vulnerabilities, and before analyzing the vulnerability indices, we also define a measure of vulnerabilities, which is based on existing cyber security threats and corresponding defensive countermeasures.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08204v1",
+          "categories": [
+            "cs.CR",
+            "cs.NI"
+          ]
+        },
+        {
+          "id": "2512.08154v1",
+          "title": "Laser-assisted deposition of carbon nanotubes in optical fibers with multiparameter control",
+          "authors": [
+            "Ricardo E. da Silva",
+            "Cristiano M. B. Cordeiro"
+          ],
+          "published": "2025-12-09",
+          "abstract": "We demonstrate a new method to deposit carbon nanotubes (CNT) on optical fibers based on a syringe-loaded CNT solution axially aligned to the fiber tip. A laser generates an optical tweezer in a water-based CNT solution, depositing nanotubes over the fiber cross-section. The parameters are adjusted, resulting in two deposited CNT layers with distinct thicknesses. This setup employs smaller solution volumes than those commonly used in beckers, providing high confinement, protection, and interaction of nanotubes, laser, and fiber, offering a promising alternative for real-time monitoring, which are significant to the development of industrial fiber lasers and biomedical optoacoustic devices.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08154v1",
+          "categories": [
+            "physics.optics"
+          ]
+        },
+        {
+          "id": "2512.08133v1",
+          "title": "Improvements to the NSO Farside Mapping Pipeline: Noise Reduction Updates",
+          "authors": [
+            "Mitchell Creelman",
+            "Kiran Jain",
+            "Niles Oien",
+            "John Britanik",
+            "Thomas M. Wentzel"
+          ],
+          "published": "2025-12-09",
+          "abstract": "The National Solar Observatory (NSO)'s Farside Pipeline is a critical tool of the space weather industry. It enables the detection and tracking of solar active regions that have rotated to the farside (invisible surface) of the Sun without relying on direct observational platforms such as satellites. By applying the technique of helioseismic holography to continuous Doppler images of the front side (visible surface), the pipeline infers the size and location of these regions through the acoustic signatures. These farside maps, produced using data from the NSO's GONG Network, allow scientists and solar observers to monitor the behavior of solar active regions. They support efforts to protect vital telecommunications and national interest infrastructure. While the data from this pipeline are widely used to many scientific, industrial, and national security applications, global helioseismic monitoring remains a developing field, with ongoing refinements in methodology and reliability. In this report, we will outline the updates made to the NSO's Farside Pipeline which have resulted in more accurate and consistent helioseismic maps, strengthening its value for both operational forecasting and scientific research.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08133v1",
+          "categories": [
+            "astro-ph.SR",
+            "astro-ph.IM"
+          ]
+        },
+        {
+          "id": "2512.08104v1",
+          "title": "AgentCrypt: Advancing Privacy and (Secure) Computation in AI Agent Collaboration",
+          "authors": [
+            "Harish Karthikeyan",
+            "Yue Guo",
+            "Leo de Castro",
+            "Antigoni Polychroniadou",
+            "Leo Ardon",
+            "Udari Madhushani Sehwag",
+            "Sumitra Ganesh",
+            "Manuela Veloso"
+          ],
+          "published": "2025-12-08",
+          "abstract": "As AI agents increasingly operate in real-world, multi-agent environments, ensuring reliable and context-aware privacy in agent communication is critical, especially to comply with evolving regulatory requirements. Traditional access controls are insufficient, as privacy risks often arise after access is granted; agents may use information in ways that compromise privacy, such as messaging humans, sharing context with other agents, making tool calls, persisting data, or generating derived private information. Existing approaches often treat privacy as a binary constraint, whether data is shareable or not, overlooking nuanced, role-specific, and computation-dependent privacy needs essential for regulatory compliance. Agents, including those based on large language models, are inherently probabilistic and heuristic. There is no formal guarantee of how an agent will behave for any query, making them ill-suited for operations critical to security. To address this, we introduce AgentCrypt, a four-tiered framework for fine-grained, encrypted agent communication that adds a protection layer atop any AI agent platform. AgentCrypt spans unrestricted data exchange (Level 1) to fully encrypted computation using techniques such as homomorphic encryption (Level 4). Crucially, it guarantees the privacy of tagged data is always maintained, prioritizing privacy above correctness. AgentCrypt ensures privacy across diverse interactions and enables computation on otherwise inaccessible data, overcoming barriers such as data silos. We implemented and tested it with Langgraph and Google ADK, demonstrating versatility across platforms. We also introduce a benchmark dataset simulating privacy-critical tasks at all privacy levels, enabling systematic evaluation and fostering the development of regulatable machine learning systems for secure agent communication and computation.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08104v1",
+          "categories": [
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.08075v1",
+          "title": "Identification of Deforestation Areas in the Amazon Rainforest Using Change Detection Models",
+          "authors": [
+            "Christian Massao Konishi",
+            "Helio Pedrini"
+          ],
+          "published": "2025-12-08",
+          "abstract": "The preservation of the Amazon Rainforest is one of the global priorities in combating climate change, protecting biodiversity, and safeguarding indigenous cultures. The Satellite-based Monitoring Project of Deforestation in the Brazilian Legal Amazon (PRODES), a project of the National Institute for Space Research (INPE), stands out as a fundamental initiative in this effort, annually monitoring deforested areas not only in the Amazon but also in other Brazilian biomes. Recently, machine learning models have been developed using PRODES data to support this effort through the comparative analysis of multitemporal satellite images, treating deforestation detection as a change detection problem. However, existing approaches present significant limitations: models evaluated in the literature still show unsatisfactory effectiveness, many do not incorporate modern architectures, such as those based on self-attention mechanisms, and there is a lack of methodological standardization that allows direct comparisons between different studies. In this work, we address these gaps by evaluating various change detection models in a unified dataset, including fully convolutional models and networks incorporating self-attention mechanisms based on Transformers. We investigate the impact of different pre- and post-processing techniques, such as filtering deforested areas predicted by the models based on the size of connected components, texture replacement, and image enhancements; we demonstrate that such approaches can significantly improve individual model effectiveness. Additionally, we test different strategies for combining the evaluated models to achieve results superior to those obtained individually, reaching an F1-score of 80.41%, a value comparable to other recent works in the literature.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08075v1",
+          "categories": [
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "2512.08995v1",
+          "title": "PoultryTalk: A Multi-modal Retrieval-Augmented Generation (RAG) System for Intelligent Poultry Management and Decision Support",
+          "authors": [
+            "Kapalik Khanal",
+            "Biswash Khatiwada",
+            "Stephen Afrifa",
+            "Ranjan Sapkota",
+            "Sanjay Shah",
+            "Frank Bai",
+            "Ramesh Bahadur Bist"
+          ],
+          "published": "2025-12-08",
+          "abstract": "The Poultry industry plays a vital role in global food security, yet small- and medium-scale farmers frequently lack timely access to expert-level support for disease diagnosis, nutrition planning, and management decisions. With rising climate stress, unpredictable feed prices, and persistent disease threats, poultry producers often struggle to make quick, informed decisions. Therefore, there is a critical need for intelligent, data-driven systems that can deliver reliable, on-demand consultation. This paper presents PoultryTalk, a novel multi-modal Retrieval-Augmented Generation (RAG) system designed to provide real-time expert guidance through text and image-based interaction. PoultryTalk uses OpenAI's text-embedding-3-small and GPT-4o to provide smart, context-aware poultry management advice from text, images, or questions. System usability and performance were evaluated using 200 expert-verified queries and feedback from 34 participants who submitted 267 queries to the PoultryTalk prototype. The expert-verified benchmark queries confirmed strong technical performance, achieving a semantic similarity of 84.0% and an average response latency of 3.6 seconds. Compared with OpenAI's GPT-4o, PoultryTalk delivered more accurate and reliable information related to poultry. Based on participants' evaluations, PoultryTalk achieved a response accuracy of 89.9%, with about 9.1% of responses rated as incorrect. A post-use survey indicated high user satisfaction: 95.6% of participants reported that the chatbot provided \"always correct\" and \"mostly correct\" answers. 82.6% indicated they would recommend the tool, and 17.4% responded \"maybe.\" These results collectively demonstrate that PoultryTalk not only delivers accurate, contextually relevant information but also demonstrates strong user acceptance and scalability potential.",
+          "pdf_url": "https://arxiv.org/pdf/2512.08995v1",
+          "categories": [
+            "cs.HC",
+            "cs.IR"
+          ]
+        }
+      ]
+    },
+    "Performance Monitoring & Latency": {
+      "query": "abs:(performance monitoring OR latency OR throughput) AND (network security OR DDoS OR real-time) AND submittedDate:[202401010000 TO 202512312359]",
+      "total_found": 50,
+      "papers_2025": 50,
+      "papers_2024": 0,
+      "papers": [
+        {
+          "id": "2512.09927v1",
+          "title": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+          "authors": [
+            "Yifan Ye",
+            "Jiaqi Ma",
+            "Jun Cen",
+            "Zhihe Lu"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Vision-Language-Action (VLA) models pretrained on large-scale multimodal datasets have emerged as powerful foundations for robotic perception and control. However, their massive scale, often billions of parameters, poses significant challenges for real-time deployment, as inference becomes computationally expensive and latency-sensitive in dynamic environments. To address this, we propose Token Expand-and-Merge-VLA (TEAM-VLA), a training-free token compression framework that accelerates VLA inference while preserving task performance. TEAM-VLA introduces a dynamic token expansion mechanism that identifies and samples additional informative tokens in the spatial vicinity of attention-highlighted regions, enhancing contextual completeness. These expanded tokens are then selectively merged in deeper layers under action-aware guidance, effectively reducing redundancy while maintaining semantic coherence. By coupling expansion and merging within a single feed-forward pass, TEAM-VLA achieves a balanced trade-off between efficiency and effectiveness, without any retraining or parameter updates. Extensive experiments on LIBERO benchmark demonstrate that TEAM-VLA consistently improves inference speed while maintaining or even surpassing the task success rate of full VLA models. The code is public available on \\href{https://github.com/Jasper-aaa/TEAM-VLA}{https://github.com/Jasper-aaa/TEAM-VLA}",
+          "pdf_url": "https://arxiv.org/pdf/2512.09927v1",
+          "categories": [
+            "cs.RO"
+          ]
+        },
+        {
+          "id": "2512.09917v1",
+          "title": "Evaluating Function-as-a-Service (FaaS) frameworks for the Accelerator Control System",
+          "authors": [
+            "A. Jaikar",
+            "J. Diamond",
+            "A. Tiradani",
+            "B. Harrison"
+          ],
+          "published": "2025-12-10",
+          "abstract": "As particle accelerator control systems evolve in complexity and scale, the need for responsive, scalable, and cost-effective computational infrastructure becomes increasingly critical. Function-as-a-Service (FaaS) offers an alternative to traditional monolithic architecture by enabling event-driven execution, automatic scaling, and fine-grained resource utilization. This paper explores the applicability and performance of FaaS frameworks in the context of a modern particle accelerator control system, with the objective of evaluating their suitability for short lived and triggered workloads. In this paper, we evaluate prominent open-source FaaS platforms in executing functional logic, triggers, and diagnostics routines. Evaluation metrics consist of cold-start latency, scalability, performance, integration with other open-source tools like Kafka. Experimental workloads were designed to simulate real-world control tasks when implemented as stateless FaaS functions. These workloads were benchmarked under various invocation loads and network conditions. Self-hosted FaaS platforms, when deployed within accelerator networks, offer greater control over execution environment, better integration with legacy systems, and support for real-time guarantees when paired with message queues. Based on lessons learned and evaluation metrics, this paper describes reliability of the FaaS framework for the Accelerator Control Systems (ACS).",
+          "pdf_url": "https://arxiv.org/pdf/2512.09917v1",
+          "categories": [
+            "physics.acc-ph"
+          ]
+        },
+        {
+          "id": "2512.09912v1",
+          "title": "Supervised learning pays attention",
+          "authors": [
+            "Erin Craig",
+            "Robert Tibshirani"
+          ],
+          "published": "2025-12-10",
+          "abstract": "In-context learning with attention enables large neural networks to make context-specific predictions by selectively focusing on relevant examples. Here, we adapt this idea to supervised learning procedures such as lasso regression and gradient boosting, for tabular data. Our goals are to (1) flexibly fit personalized models for each prediction point and (2) retain model simplicity and interpretability. Our method fits a local model for each test observation by weighting the training data according to attention, a supervised similarity measure that emphasizes features and interactions that are predictive of the outcome. Attention weighting allows the method to adapt to heterogeneous data in a data-driven way, without requiring cluster or similarity pre-specification. Further, our approach is uniquely interpretable: for each test observation, we identify which features are most predictive and which training observations are most relevant. We then show how to use attention weighting for time series and spatial data, and we present a method for adapting pretrained tree-based models to distributional shift using attention-weighted residual corrections. Across real and simulated datasets, attention weighting improves predictive performance while preserving interpretability, and theory shows that attention-weighting linear models attain lower mean squared error than the standard linear model under mixture-of-models data-generating processes with known subgroup structure.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09912v1",
+          "categories": [
+            "stat.ML",
+            "cs.AI",
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.09910v1",
+          "title": "Efficient Continual Learning in Neural Machine Translation: A Low-Rank Adaptation Approach",
+          "authors": [
+            "Salvador Carri\u00f3n",
+            "Francisco Casacuberta"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Continual learning in Neural Machine Translation (NMT) faces the dual challenges of catastrophic forgetting and the high computational cost of retraining. This study establishes Low-Rank Adaptation (LoRA) as a parameter-efficient framework to address these challenges in dedicated NMT architectures. We first demonstrate that LoRA-based fine-tuning adapts NMT models to new languages and domains with performance on par with full-parameter techniques, while utilizing only a fraction of the parameter space. Second, we propose an interactive adaptation method using a calibrated linear combination of LoRA modules. This approach functions as a gate-free mixture of experts, enabling real-time, user-controllable adjustments to domain and style without retraining. Finally, to mitigate catastrophic forgetting, we introduce a novel gradient-based regularization strategy specifically designed for low-rank decomposition matrices. Unlike methods that regularize the full parameter set, our approach weights the penalty on the low-rank updates using historical gradient information. Experimental results indicate that this strategy efficiently preserves prior domain knowledge while facilitating the acquisition of new tasks, offering a scalable paradigm for interactive and continual NMT.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09910v1",
+          "categories": [
+            "cs.CL",
+            "cs.AI"
+          ]
+        },
+        {
+          "id": "2512.09902v1",
+          "title": "Link-Sharing Backpressure Routing In Wireless Multi-Hop Networks",
+          "authors": [
+            "Zhongyuan Zhao",
+            "Yujun Ming",
+            "Ananthram Swami",
+            "Kevin Chan",
+            "Fikadu Dagefu",
+            "Santiago Segarra"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Backpressure (BP) routing and scheduling is an established resource allocation method for wireless multi-hop networks, noted for its fully distributed operation and maximum queue stability. Recent advances in shortest path-biased BP routing (SP-BP) mitigate shortcomings such as slow startup and random walks, yet exclusive link-level commodity selection still causes last-packet problem and bandwidth underutilization. By revisiting the Lyapunov drift theory underlying BP, we show that the legacy exclusive commodity selection is unnecessary, and propose a Maximum Utility (MaxU) link-sharing method to expand its performance envelope without increasing control message overhead. Numerical results show that MaxU SP-BP substantially mitigates the last-packet problem and slightly expands the network capacity region.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09902v1",
+          "categories": [
+            "cs.NI",
+            "cs.DC",
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.09898v1",
+          "title": "Visual Heading Prediction for Autonomous Aerial Vehicles",
+          "authors": [
+            "Reza Ahmari",
+            "Ahmad Mohammadi",
+            "Vahid Hemmati",
+            "Mohammed Mynuddin",
+            "Parham Kebria",
+            "Mahmoud Nabil Mahmoud",
+            "Xiaohong Yuan",
+            "Abdollah Homaifar"
+          ],
+          "published": "2025-12-10",
+          "abstract": "The integration of Unmanned Aerial Vehicles (UAVs) and Unmanned Ground Vehicles (UGVs) is increasingly central to the development of intelligent autonomous systems for applications such as search and rescue, environmental monitoring, and logistics. However, precise coordination between these platforms in real-time scenarios presents major challenges, particularly when external localization infrastructure such as GPS or GNSS is unavailable or degraded [1]. This paper proposes a vision-based, data-driven framework for real-time UAV-UGV integration, with a focus on robust UGV detection and heading angle prediction for navigation and coordination. The system employs a fine-tuned YOLOv5 model to detect UGVs and extract bounding box features, which are then used by a lightweight artificial neural network (ANN) to estimate the UAV's required heading angle. A VICON motion capture system was used to generate ground-truth data during training, resulting in a dataset of over 13,000 annotated images collected in a controlled lab environment. The trained ANN achieves a mean absolute error of 0.1506\u00b0 and a root mean squared error of 0.1957\u00b0, offering accurate heading angle predictions using only monocular camera inputs. Experimental evaluations achieve 95% accuracy in UGV detection. This work contributes a vision-based, infrastructure- independent solution that demonstrates strong potential for deployment in GPS/GNSS-denied environments, supporting reliable multi-agent coordination under realistic dynamic conditions. A demonstration video showcasing the system's real-time performance, including UGV detection, heading angle prediction, and UAV alignment under dynamic conditions, is available at: https://github.com/Kooroshraf/UAV-UGV-Integration",
+          "pdf_url": "https://arxiv.org/pdf/2512.09898v1",
+          "categories": [
+            "cs.RO",
+            "cs.AI",
+            "cs.CV",
+            "cs.MA",
+            "eess.SY"
+          ]
+        },
+        {
+          "id": "2512.09872v1",
+          "title": "FlipLLM: Efficient Bit-Flip Attacks on Multimodal LLMs using Reinforcement Learning",
+          "authors": [
+            "Khurram Khalil",
+            "Khaza Anuarul Hoque"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Generative Artificial Intelligence models, such as Large Language Models (LLMs) and Large Vision Models (VLMs), exhibit state-of-the-art performance but remain vulnerable to hardware-based threats, specifically bit-flip attacks (BFAs). Existing BFA discovery methods lack generalizability and struggle to scale, often failing to analyze the vast parameter space and complex interdependencies of modern foundation models in a reasonable time. This paper proposes FlipLLM, a reinforcement learning (RL) architecture-agnostic framework that formulates BFA discovery as a sequential decision-making problem. FlipLLM combines sensitivity-guided layer pruning with Q-learning to efficiently identify minimal, high-impact bit sets that can induce catastrophic failure. We demonstrate the effectiveness and generalizability of FlipLLM by applying it to a diverse set of models, including prominent text-only LLMs (GPT-2 Large, LLaMA 3.1 8B, and DeepSeek-V2 7B), VLMs such as LLaVA 1.6, and datasets, such as MMLU, MMLU-Pro, VQAv2, and TextVQA. Our results show that FlipLLM can identify critical bits that are vulnerable to BFAs up to 2.5x faster than SOTA methods. We demonstrate that flipping the FlipLLM-identified bits plummets the accuracy of LLaMA 3.1 8B from 69.9% to ~0.2%, and for LLaVA's VQA score from 78% to almost 0%, by flipping as few as 5 and 7 bits, respectively. Further analysis reveals that applying standard hardware protection mechanisms, such as ECC SECDED, to the FlipLLM-identified bit locations completely mitigates the BFA impact, demonstrating the practical value of our framework in guiding hardware-level defenses. FlipLLM offers the first scalable and adaptive methodology for exploring the BFA vulnerability of both language and multimodal foundation models, paving the way for comprehensive hardware-security evaluation.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09872v1",
+          "categories": [
+            "cs.CR",
+            "cs.AI"
+          ]
+        },
+        {
+          "id": "2512.09863v1",
+          "title": "Error Mitigation of Fault-Tolerant Quantum Circuits with Soft Information",
+          "authors": [
+            "Zeyuan Zhou",
+            "Shaun Pexton",
+            "Aleksander Kubica",
+            "Yongshan Ding"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Quantum error mitigation (QEM) is typically viewed as a suite of practical techniques for today's noisy intermediate-scale quantum devices, with limited relevance once fault-tolerant quantum computers become available. In this work, we challenge this conventional wisdom by showing that QEM can continue to provide substantial benefits in the era of quantum error correction (QEC), and in an even more efficient manner than it does on current devices. We introduce a framework for logical-level QEM that leverages soft information naturally produced by QEC decoders, requiring no additional data, hardware modifications, or runtime overhead beyond what QEC protocols already provide. Within this framework, we develop and analyze three logical-level QEM techniques: post-selection and runtime abort policies, probabilistic error cancellation, and zero-noise extrapolation. Our techniques reduce logical error rates by more than 100x while discarding fewer than 0.1% of shots; they also provide in situ characterization of logical channels for QEM protocols. As a proof of principle, we benchmark our approach using a surface-code architecture and two state-of-the-art decoders based on tensor-network contraction and minimum-weight perfect matching. We evaluate logical-level QEM on random Clifford circuits and molecular simulation algorithms and find that, compared to previous approaches relying on QEC only or QEC combined with QEM, we can achieve up to 87.4% spacetime overhead savings. Our results demonstrate that logical-level QEM with QEC decoder soft information can reliably improve logical performance, underscoring the efficiency and usefulness of QEM techniques for fault-tolerant quantum computers.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09863v1",
+          "categories": [
+            "quant-ph"
+          ]
+        },
+        {
+          "id": "2512.09862v1",
+          "title": "True Random Number Generators on IQM Spark",
+          "authors": [
+            "Andrzej Gnatowski",
+            "Jaros\u0142aw Rudy",
+            "Teodor Ni\u017cy\u0144ski",
+            "Krzysztof \u015awi\u0119cicki"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Random number generation is fundamental for many modern applications including cryptography, simulations and machine learning. Traditional pseudo-random numbers may offer statistical unpredictability, but are ultimately deterministic. On the other hand, True Random Number Generation (TRNG) offers true randomness. One way of obtaining such randomness are quantum systems, including quantum computers. As such the use of quantum computers for TRNG has received considerable attention in recent years. However, existing studies almost exclusively consider IBM quantum computers, often stop at using simulations and usually test only a handful of different TRNG quantum circuits. In this paper, we address those issues by presenting a study of TRNG circuits on Odra 5 a real-life quantum computer installed at Wroc\u0142aw University of Science and Technology. It is also the first study to utilize the IQM superconducting architecture. Since Odra 5 is available on-premises it allows for much more comprehensive study of various TRNG circuits. In particular, we consider 5 types of TRNG circuits with 105 circuit subvariants in total. Each circuit is used to generate 1 million bits. We then perform an analysis of the quality of the obtained random sequences using the NIST SP 800-22 and NIST SP 800-90B test suites. We also provide a comprehensive review of existing literature on quantum computer-based TRNGs.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09862v1",
+          "categories": [
+            "quant-ph",
+            "cs.CR"
+          ]
+        },
+        {
+          "id": "2512.09847v1",
+          "title": "From Detection to Anticipation: Online Understanding of Struggles across Various Tasks and Activities",
+          "authors": [
+            "Shijia Feng",
+            "Michael Wray",
+            "Walterio Mayol-Cuevas"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Understanding human skill performance is essential for intelligent assistive systems, with struggle recognition offering a natural cue for identifying user difficulties. While prior work focuses on offline struggle classification and localization, real-time applications require models capable of detecting and anticipating struggle online. We reformulate struggle localization as an online detection task and further extend it to anticipation, predicting struggle moments before they occur. We adapt two off-the-shelf models as baselines for online struggle detection and anticipation. Online struggle detection achieves 70-80% per-frame mAP, while struggle anticipation up to 2 seconds ahead yields comparable performance with slight drops. We further examine generalization across tasks and activities and analyse the impact of skill evolution. Despite larger domain gaps in activity-level generalization, models still outperform random baselines by 4-20%. Our feature-based models run at up to 143 FPS, and the whole pipeline, including feature extraction, operates at around 20 FPS, sufficient for real-time assistive applications.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09847v1",
+          "categories": [
+            "cs.CV"
+          ]
+        },
+        {
+          "id": "2512.09841v1",
+          "title": "ChronusOmni: Improving Time Awareness of Omni Large Language Models",
+          "authors": [
+            "Yijing Chen",
+            "Yihan Wu",
+            "Kaisi Guan",
+            "Yuchen Ren",
+            "Yuyue Wang",
+            "Ruihua Song",
+            "Liyun Ru"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Time awareness is a fundamental ability of omni large language models, especially for understanding long videos and answering complex questions. Previous approaches mainly target vision-language scenarios and focus on the explicit temporal grounding questions, such as identifying when a visual event occurs or determining what event happens at aspecific time. However, they often make insufficient use of the audio modality, and overlook implicit temporal grounding across modalities--for example, identifying what is visually present when a character speaks, or determining what is said when a visual event occurs--despite such cross-modal temporal relations being prevalent in real-world scenarios. In this paper, we propose ChronusOmni, an omni large language model designed to enhance temporal awareness for both explicit and implicit audiovisual temporal grounding. First, we interleave text-based timestamp tokens with visual and audio representations at each time unit, enabling unified temporal modeling across modalities. Second, to enforce correct temporal ordering and strengthen fine-grained temporal reasoning, we incorporate reinforcement learning with specially designed reward functions. Moreover, we construct ChronusAV, a temporally-accurate, modality-complete, and cross-modal-aligned dataset to support the training and evaluation on audiovisual temporal grounding task. Experimental results demonstrate that ChronusOmni achieves state-of-the-art performance on ChronusAV with more than 30% improvement and top results on most metrics upon other temporal grounding benchmarks. This highlights the strong temporal awareness of our model across modalities, while preserving general video and audio understanding capabilities.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09841v1",
+          "categories": [
+            "cs.CL",
+            "cs.CV",
+            "cs.MM"
+          ]
+        },
+        {
+          "id": "2512.09835v1",
+          "title": "Predicting the Containment Time of California Wildfires Using Machine Learning",
+          "authors": [
+            "Shashank Bhardwaj"
+          ],
+          "published": "2025-12-10",
+          "abstract": "California's wildfire season keeps getting worse over the years, overwhelming the emergency response teams. These fires cause massive destruction to both property and human life. Because of these reasons, there's a growing need for accurate and practical predictions that can help assist with resources allocation for the Wildfire managers or the response teams. In this research, we built machine learning models to predict the number of days it will require to fully contain a wildfire in California. Here, we addressed an important gap in the current literature. Most prior research has concentrated on wildfire risk or how fires spread, and the few that examine the duration typically predict it in broader categories rather than a continuous measure. This research treats the wildfire duration prediction as a regression task, which allows for more detailed and precise forecasts rather than just the broader categorical predictions used in prior work. We built the models by combining three publicly available datasets from California Department of Forestry and Fire Protection's Fire and Resource Assessment Program (FRAP). This study compared the performance of baseline ensemble regressor, Random Forest and XGBoost, with a Long Short-Term Memory (LSTM) neural network. The results show that the XGBoost model slightly outperforms the Random Forest model, likely due to its superior handling of static features in the dataset. The LSTM model, on the other hand, performed worse than the ensemble models because the dataset lacked temporal features. Overall, this study shows that, depending on the feature availability, Wildfire managers or Fire management authorities can select the most appropriate model to accurately predict wildfire containment duration and allocate resources effectively.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09835v1",
+          "categories": [
+            "cs.LG"
+          ]
+        },
+        {
+          "id": "2512.09827v1",
+          "title": "Energy-Efficient Federated Learning with Relay-Assisted Aggregation in IIoT Networks",
+          "authors": [
+            "Hamid Reza Hashempour",
+            "Mostafa Nozari",
+            "Gilberto Berardinelli",
+            "Yanjiao Li",
+            "Jie Zhang",
+            "Hien Quoc Ngo",
+            "Shashi Raj Pandey"
+          ],
+          "published": "2025-12-10",
+          "abstract": "This paper presents an energy-efficient transmission framework for federated learning (FL) in industrial Internet of Things (IIoT) environments with strict latency and energy constraints. Machinery subnetworks (SNs) collaboratively train a global model by uploading local updates to an edge server (ES), either directly or via neighboring SNs acting as decode-and-forward relays. To enhance communication efficiency, relays perform partial aggregation before forwarding the models to the ES, significantly reducing overhead and training latency. We analyze the convergence behavior of this relay-assisted FL scheme. To address the inherent energy efficiency (EE) challenges, we decompose the original non-convex optimization problem into sub-problems addressing computation and communication energy separately. An SN grouping algorithm categorizes devices into single-hop and two-hop transmitters based on latency minimization, followed by a relay selection mechanism. To improve FL reliability, we further maximize the number of SNs that meet the roundwise delay constraint, promoting broader participation and improved convergence stability under practical IIoT data distributions. Transmit power levels are then optimized to maximize EE, and a sequential parametric convex approximation (SPCA) method is proposed for joint configuration of system parameters. We further extend the EE formulation to the imperfect channel state information (ICSI). Simulation results demonstrate that the proposed framework significantly enhances convergence speed, reduces outage probability from 10-2 in single-hop to 10-6 and achieves substantial energy savings, with the SPCA approach reducing energy consumption by at least 2x compared to unaggregated cooperation and up to 6x over single-hop transmission.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09827v1",
+          "categories": [
+            "eess.SP"
+          ]
+        },
+        {
+          "id": "2512.09809v1",
+          "title": "Towards Practical and Usable In-network Classification",
+          "authors": [
+            "Di Zhu",
+            "Jianxi Chen",
+            "Hyojoon Kim"
+          ],
+          "published": "2025-12-10",
+          "abstract": "In-network machine learning enables real-time classification directly on network hardware, offering consistently low inference latency. However, current solutions are limited by strict hardware constraints, scarce on-device resources, and poor usability, making them impractical for ML developers and cloud operators. To this end, we propose ACORN, an end-to-end system that automates the distributed deployment of practical machine learning models across the network. ACORN provides a fully automated pipeline that loads and deploys Python ML models on network devices using an optimized deployment plan from an ILP planner. To support larger models under hardware constraints and allow runtime programmability, ACORN adopts a novel data plane representation for Decision Tree, Random Forest, and Support Vector Machine models. We implement ACORN prototype in P4 and run it on real programmable hardware. Our evaluation shows ACORN can deploy classification ML models with 2-4x more features than state-of-the-art solutions, while imposing negligible overhead on network performance and traffic. We will make our data plane program, model translator, optimizer, and all related scripts publicly available.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09809v1",
+          "categories": [
+            "cs.NI"
+          ]
+        },
+        {
+          "id": "2512.09807v1",
+          "title": "Pinball: A Cryogenic Predecoder for Quantum Error Correction Decoding Under Circuit-Level Noise",
+          "authors": [
+            "Alexander Knapen",
+            "Guanchen Tao",
+            "Jacob Mack",
+            "Tomas Bruno",
+            "Mehdi Saligane",
+            "Dennis Sylvester",
+            "Qirui Zhang",
+            "Gokul Subramanian Ravi"
+          ],
+          "published": "2025-12-10",
+          "abstract": "Scaling fault tolerant quantum computers, especially cryogenic systems, to millions of qubits is challenging due to poorly-scaling data processing and power consumption overheads. One key challenge is the design of decoders for real-time quantum error correction (QEC), which demands high data rates for error processing; this is particularly apparent in systems with cryogenic qubits and room temperature (RT) decoders. In response, cryogenic predecoding using lightweight logic has been proposed to handle common, sparse errors in the cryogenic domain. However, prior work only accounts for a subset of error sources present in real-world quantum systems with limited accuracy, often degrading performance below a useful level in practical scenarios. Furthermore, prior reliance on SFQ logic precludes detailed architecture-technology co-optimization. To address these shortcomings, this paper introduces Pinball, a comprehensive design in cryogenic CMOS of a QEC predecoder tailored to realistic, circuit-level noise. By accounting for error generation and propagation through QEC circuits, our design achieves higher predecoding accuracy, outperforming logical error rates (LER) of the current state-of-the-art cryogenic predecoder by nearly six orders of magnitude. Remarkably, despite operating under much stricter power and area constraints, Pinball also reduces LER by 32.58x and 5x, respectively, compared to the state-of-the-art RT predecoder and RT ensemble configurations. By increasing cryogenic coverage, we also reduce syndrome bandwidth up to 3780.72x. Through co-design with 4 K-characterized 22 nm FDSOI technology, we achieve a peak power consumption under 0.56 mW. Voltage/frequency scaling and body biasing enable 22.2x lower typical power consumption, yielding up to 67.4x total energy savings. Assuming a 4 K power budget of 1.5 W, our predecoder supports up to 2,668 logical qubits at d=21.",
+          "pdf_url": "https://arxiv.org/pdf/2512.09807v1",
+          "categories": [
+            "quant-ph",
+            "cs.AR",
+            "cs.ET"
+          ]
+        }
+      ]
+    }
+  }
+}

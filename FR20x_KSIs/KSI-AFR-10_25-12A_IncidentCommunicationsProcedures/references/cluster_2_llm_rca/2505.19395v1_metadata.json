@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2505.19395v1",
+  "title": "VADER: A Human-Evaluated Benchmark for Vulnerability Assessment, Detection, Explanation, and Remediation",
+  "authors": [
+    "Ethan TS. Liu",
+    "Austin Wang",
+    "Spencer Mateega",
+    "Carlos Georgescu",
+    "Danny Tang"
+  ],
+  "published": "2025-05-26T01:20:44Z",
+  "url": "http://arxiv.org/abs/2505.19395v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.19395v1.pdf",
+  "relevance_score": 85,
+  "summary": "Ensuring that large language models (LLMs) can effectively assess, detect, explain, and remediate software vulnerabilities is critical for building robust and secure software systems. We introduce VADER, a human-evaluated benchmark designed explicitly to assess LLM performance across four key vulnerability-handling dimensions: assessment, detection, explanation, and remediation. VADER comprises 174 real-world software vulnerabilities, each carefully curated from GitHub repositories and annotated by security experts. For each vulnerability case, models are tasked with identifying the flaw, classifying it using Common Weakness Enumeration (CWE), explaining its underlying cause, proposing a patch, and formulating a test plan. Using a one-shot prompting strategy, we benchmark six state-of-the-art LLMs (Claude 3.7 Sonnet, Gemini 2.5 Pro, GPT-4.1, GPT-4.5, Grok 3 Beta, and o3) on VADER, and human security experts evaluated each response according to a rigorous scoring rubric emphasizing remediation (quality of the code fix, 50%), explanation (20%), and classification and test plan (30%) according to a standardized rubric. Our results show that current state-of-the-art LLMs achieve only moderate success on VADER - OpenAI's o3 attained 54.7% accuracy overall, with others in the 49-54% range, indicating ample room for improvement. Notably, remediation quality is strongly correlated (Pearson r > 0.97) with accurate classification and test plans, suggesting that models that effectively categorize vulnerabilities also tend to fix them well. VADER's comprehensive dataset, detailed evaluation rubrics, scoring tools, and visualized results with confidence intervals are publicly released, providing the community with an interpretable, reproducible benchmark to advance vulnerability-aware LLMs. All code and data are available at: https://github.com/AfterQuery/vader"
+}

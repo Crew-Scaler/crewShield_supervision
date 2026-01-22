@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.26311v1",
+  "title": "Model Inversion with Layer-Specific Modeling and Alignment for Data-Free Continual Learning",
+  "authors": [
+    "Ruilin Tong",
+    "Haodong Lu",
+    "Yuhang Liu",
+    "Dong Gong"
+  ],
+  "published": "2025-10-30T09:58:48Z",
+  "url": "http://arxiv.org/abs/2510.26311v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.26311v1.pdf",
+  "relevance_score": 87,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Continual learning (CL) aims to incrementally train a model on a sequence of tasks while retaining performance on prior ones. However, storing and replaying data is often infeasible due to privacy or security constraints and impractical for arbitrary pre-trained models. Data-free CL seeks to update models without access to previous data. Beyond regularization, we employ model inversion to synthesize data from the trained model, enabling replay without storing samples. Yet, model inversion in pre"
+}

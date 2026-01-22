@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.22364v1",
+  "title": "Cost-Aware Text-to-SQL: An Empirical Study of Cloud Compute Costs for LLM-Generated Queries",
+  "authors": [
+    "Saurabh Deochake",
+    "Debajyoti Mukhopadhyay"
+  ],
+  "published": "2025-12-26T19:51:35Z",
+  "summary": "Text-to-SQL systems powered by Large Language Models (LLMs) achieve high accuracy on standard benchmarks, yet existing efficiency metrics such as the Valid Efficiency Score (VES) measure execution time rather than the consumption-based costs of cloud data warehouses. This paper presents the first systematic evaluation of cloud compute costs for LLM-generated SQL queries. We evaluate six state-of-the-art LLMs across 180 query executions on Google BigQuery using the StackOverflow dataset (230GB), ",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.170448"
+}

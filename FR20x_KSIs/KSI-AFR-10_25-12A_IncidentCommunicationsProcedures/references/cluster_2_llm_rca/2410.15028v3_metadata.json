@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2410.15028v3",
+  "title": "A Novel Reinforcement Learning Model for Post-Incident Malware Investigations",
+  "authors": [
+    "Dipo Dunsin",
+    "Mohamed Chahine Ghanem",
+    "Karim Ouazzane",
+    "Vassil Vassilev"
+  ],
+  "published": "2024-10-19T07:59:10Z",
+  "url": "http://arxiv.org/abs/2410.15028v3",
+  "pdf_url": "http://arxiv.org/pdf/2410.15028v3.pdf",
+  "relevance_score": 95,
+  "summary": "This Research proposes a Novel Reinforcement Learning (RL) model to optimise malware forensics investigation during cyber incident response. It aims to improve forensic investigation efficiency by reducing false negatives and adapting current practices to evolving malware signatures. The proposed RL framework leverages techniques such as Q-learning and the Markov Decision Process (MDP) to train the system to identify malware patterns in live memory dumps, thereby automating forensic tasks. The RL model is based on a detailed malware workflow diagram that guides the analysis of malware artefacts using static and behavioural techniques as well as machine learning algorithms. Furthermore, it seeks to address challenges in the UK justice system by ensuring the accuracy of forensic evidence. We conduct testing and evaluation in controlled environments, using datasets created with Windows operating systems to simulate malware infections. The experimental results demonstrate that RL improves malware detection rates compared to conventional methods, with the RL model's performance varying depending on the complexity and learning rate of the environment. The study concludes that while RL offers promising potential for automating malware forensics, its efficacy across diverse malware types requires ongoing refinement of reward systems and feature extraction methods."
+}

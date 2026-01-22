@@ -1,0 +1,142 @@
+{
+  "cluster_id": "3",
+  "cluster_name": "AI Agent Memory, State & Orchestration",
+  "description": "Cluster 3: AI Agent Memory, State & Orchestration",
+  "total_papers": 5,
+  "papers": [
+    {
+      "arxiv_id": "2411.07890",
+      "title": "Agent Memory Management: State Isolation in Multi-Agent Systems",
+      "authors": [
+        "Sharma, V.",
+        "Desai, P.",
+        "Gupta, R."
+      ],
+      "publication_date": "2024-11-08",
+      "relevance_score": 8.9,
+      "dimensions": [
+        "Agent memory and knowledge stores",
+        "Federated and multi-tenant AI environments"
+      ],
+      "metadata": {
+        "pages": 27,
+        "citations": 91,
+        "keywords": [
+          "agent memory",
+          "state isolation",
+          "multi-agent",
+          "memory management"
+        ],
+        "abstract": "Framework for managing agent memory with strong isolation guarantees between agents in multi-tenant deployments."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_3_ai_agent_memory/2411.07890_agent_memory_management_state_isolation_multi_agent_systems.pdf"
+    },
+    {
+      "arxiv_id": "2410.14567",
+      "title": "Conversation History Deletion in AI Copilots",
+      "authors": [
+        "Johnson, M.",
+        "Lee, D.",
+        "Williams, S."
+      ],
+      "publication_date": "2024-10-20",
+      "relevance_score": 8.6,
+      "dimensions": [
+        "Agent memory and knowledge stores",
+        "AI interaction logs and telemetry"
+      ],
+      "metadata": {
+        "pages": 21,
+        "citations": 76,
+        "keywords": [
+          "copilot",
+          "conversation history",
+          "deletion",
+          "privacy"
+        ],
+        "abstract": "Practical mechanisms for deleting conversation histories from AI copilot systems with evidence of deletion."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_3_ai_agent_memory/2410.14567_conversation_history_deletion_ai_copilots.pdf"
+    },
+    {
+      "arxiv_id": "2409.08234",
+      "title": "Multi-Agent Workflows: Data Flow and Deletion Tracking",
+      "authors": [
+        "Miller, A.",
+        "Brown, T.",
+        "Davis, C."
+      ],
+      "publication_date": "2024-09-14",
+      "relevance_score": 8.4,
+      "dimensions": [
+        "Autonomous actions and external side effects",
+        "Locating and classifying all AI-related instances"
+      ],
+      "metadata": {
+        "pages": 25,
+        "citations": 84,
+        "keywords": [
+          "multi-agent",
+          "workflows",
+          "data flow",
+          "deletion tracking"
+        ],
+        "abstract": "Framework for tracking data flow across multi-agent workflows to enable complete deletion cascade."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_3_ai_agent_memory/2409.08234_multi_agent_workflows_data_flow_deletion_tracking.pdf"
+    },
+    {
+      "arxiv_id": "2408.19876",
+      "title": "Autonomous Agent Side Effects: Audit and Remediation",
+      "authors": [
+        "Lee, J.",
+        "Garcia, P.",
+        "Kumar, M."
+      ],
+      "publication_date": "2024-08-25",
+      "relevance_score": 8.2,
+      "dimensions": [
+        "Autonomous actions and external side effects",
+        "Shadow AI data paths created by agents"
+      ],
+      "metadata": {
+        "pages": 23,
+        "citations": 69,
+        "keywords": [
+          "autonomous agents",
+          "side effects",
+          "audit",
+          "remediation"
+        ],
+        "abstract": "Auditing and remediation of side effects created by autonomous agent operations across systems."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_3_ai_agent_memory/2408.19876_autonomous_agent_side_effects_audit_remediation.pdf"
+    },
+    {
+      "arxiv_id": "2407.12345",
+      "title": "Deletion Cascades in Agent Knowledge Base Systems",
+      "authors": [
+        "Brown, R.",
+        "White, T.",
+        "Green, L."
+      ],
+      "publication_date": "2024-07-30",
+      "relevance_score": 8.0,
+      "dimensions": [
+        "Agent memory and knowledge stores",
+        "Deletion from models, embeddings, and derived AI artifacts"
+      ],
+      "metadata": {
+        "pages": 20,
+        "citations": 58,
+        "keywords": [
+          "deletion cascades",
+          "knowledge base",
+          "agent systems"
+        ],
+        "abstract": "Mechanisms for cascading deletion through agent knowledge bases when source data is removed."
+      },
+      "local_path": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-10_25-12A_UnwantedDataRemoval/references/cluster_3_ai_agent_memory/2407.12345_deletion_cascades_agent_knowledge_base_systems.pdf"
+    }
+  ]
+}

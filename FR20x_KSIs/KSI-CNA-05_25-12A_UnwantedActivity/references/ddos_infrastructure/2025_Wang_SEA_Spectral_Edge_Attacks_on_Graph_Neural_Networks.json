@@ -1,0 +1,17 @@
+{
+  "title": "SEA: Spectral Edge Attacks on Graph Neural Networks",
+  "authors": [
+    "Yongyu Wang"
+  ],
+  "published": "2025-11-30T01:40:15+00:00",
+  "arxiv_id": "2512.08964v1",
+  "abstract": "Graph Neural Networks (GNNs) achieve strong performance on graph-structured data, but are notoriously vulnerable to small, carefully crafted perturbations of the graph structure. Most existing structure-based attacks rely on gradient-based heuristics or local connectivity patterns, and treat edges as equally important candidates for manipulation. In this paper, we propose Spectral Edge Attacks (SEA), a new family of adversarial attacks that explicitly leverage spectral robustness evaluation to guide structural perturbations. Our key idea is to compute a spectral embedding that captures the most fragile directions of the input manifold and to use it to assign a robustness score to each edge or non-edge. Based on these scores, we introduce two complementary attack variants: (i) a Spade-guided deletion attack that removes the most spectrally robust edges, and (ii) a Spade-guided addition attack that inserts edges between nodes that are maximally incompatible in the fragile spectral space. Both attacks operate at the graph level, are model-aware but conceptually simple, and can be plugged into existing GNN architectures without requiring gradients. We describe the spectral formulation, the attack algorithms, and experiments on benchmarks.",
+  "categories": [
+    "cs.LG"
+  ],
+  "relevance_score": 13.5,
+  "query_category": "edge_cdn_security",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2512.08964v1",
+  "downloaded": "2025-12-11T08:25:49.181041"
+}

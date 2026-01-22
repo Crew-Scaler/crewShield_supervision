@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2512.24997v1",
+  "title": "Classifying long legal documents using short random chunks",
+  "authors": [
+    "Luis Adri\u00e1n Cabrera-Diego"
+  ],
+  "published": "2025-12-31T17:48:08Z",
+  "url": "http://arxiv.org/abs/2512.24997v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24997v1.pdf",
+  "relevance_score": 59,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Classifying legal documents is a challenge, besides their specialized vocabulary, sometimes they can be very long. This means that feeding full documents to a Transformers-based models for classification might be impossible, expensive or slow. Thus, we present a legal document classifier based on DeBERTa V3 and a LSTM, that uses as input a collection of 48 randomly-selected short chunks (max 128 tokens). Besides, we present its deployment pipeline using Temporal, a durable execution solution, wh"
+}

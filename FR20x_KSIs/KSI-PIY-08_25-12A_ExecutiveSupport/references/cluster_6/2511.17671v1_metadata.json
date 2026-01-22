@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.17671v1",
+  "title": "MURMUR: Using cross-user chatter to break collaborative language agents in groups",
+  "authors": [
+    "Atharv Singh Patlan",
+    "Peiyao Sheng",
+    "S. Ashwin Hebbar",
+    "Prateek Mittal",
+    "Pramod Viswanath"
+  ],
+  "published": "2025-11-21T04:56:37Z",
+  "summary": "Language agents are rapidly expanding from single-user assistants to multi-user collaborators in shared workspaces and groups. However, today's language models lack a mechanism for isolating user interactions and concurrent tasks, creating a new attack vector inherent to this new setting: cross-user poisoning (CUP). In a CUP attack, an adversary injects ordinary-looking messages that poison the persistent, shared state, which later triggers the agent to execute unintended, attacker-specified act",
+  "cluster": "cluster_6",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.196447"
+}

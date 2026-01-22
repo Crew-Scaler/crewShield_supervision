@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2509.10086v1",
+  "title": "Towards Data Drift Monitoring for Speech Deepfake Detection in the context of MLOps",
+  "authors": [
+    "Xin Wang",
+    "Wanying Ge",
+    "Junichi Yamagishi"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-09",
+  "url": "https://arxiv.org/abs/2509.10086v1",
+  "relevance_score": 86.0,
+  "estimated_pages": 8,
+  "key_topics": [
+    "anomaly detection",
+    "adversarial robustness",
+    "vulnerability management",
+    "model monitoring"
+  ],
+  "summary": "When being delivered in applications or services on the cloud, static speech deepfake detectors that are not updated will become vulnerable to newly created speech deepfake attacks. From the perspective of machine learning operations (MLOps), this paper tries to answer whether we can monitor new and unseen speech deepfake data that drifts away from a seen reference data set. We further ask, if drift is detected, whether we can fine-tune the detector using similarly drifted data, reduce the drift..."
+}

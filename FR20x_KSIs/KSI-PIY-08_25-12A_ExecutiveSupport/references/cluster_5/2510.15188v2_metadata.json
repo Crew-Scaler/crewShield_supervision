@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2510.15188v2",
+  "title": "OCR-APT: Reconstructing APT Stories from Audit Logs using Subgraph Anomaly Detection and LLMs",
+  "authors": [
+    "Ahmed Aly",
+    "Essam Mansour",
+    "Amr Youssef"
+  ],
+  "published": "2025-10-16T23:14:03Z",
+  "summary": "Advanced Persistent Threats (APTs) are stealthy cyberattacks that often evade detection in system-level audit logs. Provenance graphs model these logs as connected entities and events, revealing relationships that are missed by linear log representations. Existing systems apply anomaly detection to these graphs but often suffer from high false positive rates and coarse-grained alerts. Their reliance on node attributes like file paths or IPs leads to spurious correlations, reducing detection robu",
+  "cluster": "cluster_5",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.186956"
+}

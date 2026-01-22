@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.17079v1",
+  "title": "Can Large Reasoning Models Improve Accuracy on Mathematical Tasks Using Flawed Thinking?",
+  "authors": [
+    "Saraswathy Amjith",
+    "Mihika Dusad",
+    "Neha Muramalla",
+    "Shweta Shah"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.17079v1",
+  "relevance_score": 83.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "Chain-of-thought (CoT) prompting has become central to mathematical reasoning in large language models, yet models remain brittle to early errors: a single arithmetic slip or unjustified inference typically propagates uncorrected to an incorrect final answer. We investigate whether training on intentionally flawed reasoning traces can teach models to detect and recover from such errors without degrading standard problem-solving ability. Using competition-level problems from MATH-lighteval, we ge..."
+}

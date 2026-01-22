@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2507.06274v2",
+  "title": "Enhancing LLM Watermark Resilience Against Both Scrubbing and Spoofing Attacks",
+  "authors": [
+    "Huanming Shen",
+    "Baizhou Huang",
+    "Xiaojun Wan"
+  ],
+  "published": "2025-07-08T11:14:00Z",
+  "summary": "Watermarking is a promising defense against the misuse of large language models (LLMs), yet it remains vulnerable to scrubbing and spoofing attacks. This vulnerability stems from an inherent trade-off governed by watermark window size: smaller windows resist scrubbing better but are easier to reverse-engineer, enabling low-cost statistics-based spoofing attacks. This work breaks this trade-off by introducing a novel mechanism, equivalent texture keys, where multiple tokens within a watermark win",
+  "cluster": "cluster_7",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.202094"
+}

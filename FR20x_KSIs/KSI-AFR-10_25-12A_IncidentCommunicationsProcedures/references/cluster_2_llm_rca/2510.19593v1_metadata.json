@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.19593v1",
+  "title": "A Goal-Driven Survey on Root Cause Analysis",
+  "authors": [
+    "Aoyang Fang",
+    "Haowen Yang",
+    "Haoze Dong",
+    "Qisheng Lu",
+    "Junjielong Xu",
+    "Pinjia He"
+  ],
+  "published": "2025-10-22T13:43:07Z",
+  "url": "http://arxiv.org/abs/2510.19593v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.19593v1.pdf",
+  "relevance_score": 90,
+  "summary": "Root Cause Analysis (RCA) is a crucial aspect of incident management in large-scale cloud services. While the term root cause analysis or RCA has been widely used, different studies formulate the task differently. This is because the term \"RCA\" implicitly covers tasks with distinct underlying goals. For instance, the goal of localizing a faulty service for rapid triage is fundamentally different from identifying a specific functional bug for a definitive fix. However, previous surveys have largely overlooked these goal-based distinctions, conventionally categorizing papers by input data types (e.g., metric-based vs. trace-based methods). This leads to the grouping of works with disparate objectives, thereby obscuring the true progress and gaps in the field. Meanwhile, the typical audience of an RCA survey is either laymen who want to know the goals and big picture of the task or RCA researchers who want to figure out past research under the same task formulation. Thus, an RCA survey that organizes the related papers according to their goals is in high demand. To this end, this paper presents a goal-driven framework that effectively categorizes and integrates 135 papers on RCA in the context of cloud incident management based on their diverse goals, spanning the period from 2014 to 2025. In addition to the goal-driven categorization, it discusses the ultimate goal of all RCA papers as an umbrella covering different RCA formulations. Moreover, the paper discusses open challenges and future directions in RCA."
+}

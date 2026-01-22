@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2511.14022v1",
+  "title": "Keeping Code-Aware LLMs Fresh: Full Refresh, In-Context Deltas, and Incremental Fine-Tuning",
+  "authors": [
+    "Pradeep Kumar Sharma",
+    "Ishaan Puri",
+    "Mantinder Jit Singh",
+    "Swapnil Shivaprasad",
+    "Hritvik Shrivastava"
+  ],
+  "published": "2025-11-18T01:01:56Z",
+  "url": "http://arxiv.org/abs/2511.14022v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.14022v1.pdf",
+  "relevance_score": 68,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Modern codebases evolve continuously: files are renamed or deleted; public APIs drift; behavior shifts within otherwise familiar modules. A model trained yesterday to map a developer's natural-language question to the exact set of repository file paths that matter will degrade tomorrow, even if the questions themselves look unchanged. In this paper we study, at system scale and across several widely used repositories, how to keep such a model fresh without surrendering retention on earlier code."
+}

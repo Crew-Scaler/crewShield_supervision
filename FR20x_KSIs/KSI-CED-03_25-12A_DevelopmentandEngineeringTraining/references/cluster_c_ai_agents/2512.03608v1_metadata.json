@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.03608v1",
+  "title": "KVNAND: Efficient On-Device Large Language Model Inference Using DRAM-Free In-Flash Computing",
+  "authors": [
+    "Lishuo Deng",
+    "Shaojie Xu",
+    "Jinwu Chen",
+    "Changwei Yan",
+    "Jiajie Wang",
+    "Zhe Jiang",
+    "Weiwei Shan"
+  ],
+  "published": "2025-12-03T09:41:03Z",
+  "url": "http://arxiv.org/abs/2512.03608v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.03608v1.pdf",
+  "relevance_score": 76,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Deploying large language models (LLMs) on edge devices enables personalized agents with strong privacy and low cost. However, with tens to hundreds of billions of parameters, single-batch autoregressive inference suffers from extremely low arithmetic intensity, creating severe weight-loading and bandwidth pressures on resource-constrained platforms. Recent in-flash computing (IFC) solutions alleviate this bottleneck by co-locating weight-related linear computations in the decode phase with flash"
+}

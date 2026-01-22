@@ -1,0 +1,190 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20275v1",
+    "arxiv_id": "2512.20275v1",
+    "title": "Graph-Symbolic Policy Enforcement and Control (G-SPEC): A Neuro-Symbolic Framework for Safe Agentic AI in 5G Autonomous Networks",
+    "summary": "As networks evolve toward 5G Standalone and 6G, operators face orchestration challenges that exceed the limits of static automation and Deep Reinforcement Learning. Although Large Language Model (LLM) agents offer a path toward intent-based networking, they introduce stochastic risks, including topology hallucinations and policy non-compliance. To mitigate this, we propose Graph-Symbolic Policy Enforcement and Control (G-SPEC), a neuro-symbolic framework that constrains probabilistic planning with deterministic verification. The architecture relies on a Governance Triad - a telecom-adapted agent (TSLAM-4B), a Network Knowledge Graph (NKG), and SHACL constraints. We evaluated G-SPEC on a simulated 450-node 5G Core, achieving zero safety violations and a 94.1% remediation success rate, significantly outperforming the 82.4% baseline. Ablation analysis indicates that NKG validation drives the majority of safety gains (68%), followed by SHACL policies (24%). Scalability tests on topologies ranging from 10K to 100K nodes demonstrate that validation latency scales as $O(k^{1.2})$ where $k$ is subgraph size. With a processing overhead of 142ms, G-SPEC is viable for SMO-layer operations.",
+    "published": "2025-12-23T11:27:17Z",
+    "updated": "2025-12-23T11:27:17Z",
+    "authors": [
+      "Divya Vijay",
+      "Vignesh Ethiraj"
+    ],
+    "affiliations": [],
+    "first_author": "Divya Vijay",
+    "pdf_url": "https://arxiv.org/pdf/2512.20275v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20589v1",
+    "arxiv_id": "2512.20589v1",
+    "title": "Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information",
+    "summary": "As systems engineering (SE) objectives evolve from design and operation of monolithic systems to complex System of Systems (SoS), the discipline of Mission Engineering (ME) has emerged which is increasingly being accepted as a new line of thinking for the SE community. Moreover, mission environments are uncertain, dynamic, and mission outcomes are a direct function of how the mission assets will interact with this environment. This proves static architectures brittle and calls for analytically rigorous approaches for ME. To that end, this paper proposes an intelligent mission coordination methodology that integrates digital mission models with Reinforcement Learning (RL), that specifically addresses the need for adaptive task allocation and reconfiguration. More specifically, we are leveraging a Digital Engineering (DE) based infrastructure that is composed of a high-fidelity digital mission model and agent-based simulation; and then we formulate the mission tactics management problem as a Markov Decision Process (MDP), and employ an RL agent trained via Proximal Policy Optimization. By leveraging the simulation as a sandbox, we map the system states to actions, refining the policy based on realized mission outcomes. The utility of the RL-based intelligent mission coordinator is demonstrated through an aerial firefighting case study. Our findings indicate that the RL-based intelligent mission coordinator not only surpasses baseline performance but also significantly reduces the variability in mission performance. Thus, this study serves as a proof of concept demonstrating that DE-enabled mission simulations combined with advanced analytical tools offer a mission-agnostic framework for improving ME practice; which can be extended to more complicated fleet design and selection problems in the future from a mission-first perspective.",
+    "published": "2025-12-23T18:36:07Z",
+    "updated": "2025-12-23T18:36:07Z",
+    "authors": [
+      "\u0130brahim O\u011fuz \u00c7etinkaya",
+      "Sajad Khodadadian",
+      "Taylan G. Top\u00e7u"
+    ],
+    "affiliations": [],
+    "first_author": "\u0130brahim O\u011fuz \u00c7etinkaya",
+    "pdf_url": "https://arxiv.org/pdf/2512.20589v1",
+    "primary_category": "cs.CY",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20576v1",
+    "arxiv_id": "2512.20576v1",
+    "title": "Performative Policy Gradient: Optimality in Performative Reinforcement Learning",
+    "summary": "Post-deployment machine learning algorithms often influence the environments they act in, and thus shift the underlying dynamics that the standard reinforcement learning (RL) methods ignore. While designing optimal algorithms in this performative setting has recently been studied in supervised learning, the RL counterpart remains under-explored. In this paper, we prove the performative counterparts of the performance difference lemma and the policy gradient theorem in RL, and further introduce the Performative Policy Gradient algorithm (PePG). PePG is the first policy gradient algorithm designed to account for performativity in RL. Under softmax parametrisation, and also with and without entropy regularisation, we prove that PePG converges to performatively optimal policies, i.e. policies that remain optimal under the distribution shifts induced by themselves. Thus, PePG significantly extends the prior works in Performative RL that achieves performative stability but not optimality. Furthermore, our empirical analysis on standard performative RL environments validate that PePG outperforms standard policy gradient algorithms and the existing performative RL algorithms aiming for stability.",
+    "published": "2025-12-23T18:20:06Z",
+    "updated": "2025-12-23T18:20:06Z",
+    "authors": [
+      "Debabrota Basu",
+      "Udvas Das",
+      "Brahim Driss",
+      "Uddalak Mukherjee"
+    ],
+    "affiliations": [],
+    "first_author": "Debabrota Basu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20576v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20563v1",
+    "arxiv_id": "2512.20563v1",
+    "title": "LEAD: Minimizing Learner-Expert Asymmetry in End-to-End Driving",
+    "summary": "Simulators can generate virtually unlimited driving data, yet imitation learning policies in simulation still struggle to achieve robust closed-loop performance. Motivated by this gap, we empirically study how misalignment between privileged expert demonstrations and sensor-based student observations can limit the effectiveness of imitation learning. More precisely, experts have significantly higher visibility (e.g., ignoring occlusions) and far lower uncertainty (e.g., knowing other vehicles' actions), making them difficult to imitate reliably. Furthermore, navigational intent (i.e., the route to follow) is under-specified in student models at test time via only a single target point. We demonstrate that these asymmetries can measurably limit driving performance in CARLA and offer practical interventions to address them. After careful modifications to narrow the gaps between expert and student, our TransFuser v6 (TFv6) student policy achieves a new state of the art on all major publicly available CARLA closed-loop benchmarks, reaching 95 DS on Bench2Drive and more than doubling prior performances on Longest6~v2 and Town13. Additionally, by integrating perception supervision from our dataset into a shared sim-to-real pipeline, we show consistent gains on the NAVSIM and Waymo Vision-Based End-to-End driving benchmarks. Our code, data, and models are publicly available at https://github.com/autonomousvision/lead.",
+    "published": "2025-12-23T18:07:43Z",
+    "updated": "2025-12-23T18:07:43Z",
+    "authors": [
+      "Long Nguyen",
+      "Micha Fauth",
+      "Bernhard Jaeger",
+      "Daniel Dauner",
+      "Maximilian Igl",
+      "Andreas Geiger",
+      "Kashyap Chitta"
+    ],
+    "affiliations": [],
+    "first_author": "Long Nguyen",
+    "pdf_url": "https://arxiv.org/pdf/2512.20563v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20523v1",
+    "arxiv_id": "2512.20523v1",
+    "title": "ScoreMatchingRiesz: Auto-DML with Infinitesimal Classification",
+    "summary": "This study proposes Riesz representer estimation methods based on score matching. The Riesz representer is a key component in debiased machine learning for constructing $\\sqrt{n}$-consistent and efficient estimators in causal inference and structural parameter estimation. To estimate the Riesz representer, direct approaches have garnered attention, such as Riesz regression and the covariate balancing propensity score. These approaches can also be interpreted as variants of direct density ratio estimation (DRE) in several applications such as average treatment effect estimation. In DRE, it is well known that flexible models can easily overfit the observed data due to the estimand and the form of the loss function. To address this issue, recent work has proposed modeling the density ratio as a product of multiple intermediate density ratios and estimating it using score-matching techniques, which are often used in the diffusion model literature. We extend score-matching-based DRE methods to Riesz representer estimation. Our proposed method not only mitigates overfitting but also provides insights for causal inference by bridging marginal effects and average policy effects through time score functions.",
+    "published": "2025-12-23T17:14:14Z",
+    "updated": "2025-12-23T17:14:14Z",
+    "authors": [
+      "Masahiro Kato"
+    ],
+    "affiliations": [],
+    "first_author": "Masahiro Kato",
+    "pdf_url": "https://arxiv.org/pdf/2512.20523v1",
+    "primary_category": "econ.EM",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20513v1",
+    "arxiv_id": "2512.20513v1",
+    "title": "Recurrent Off-Policy Deep Reinforcement Learning Doesn't Have to be Slow",
+    "summary": "Recurrent off-policy deep reinforcement learning models achieve state-of-the-art performance but are often sidelined due to their high computational demands. In response, we introduce RISE (Recurrent Integration via Simplified Encodings), a novel approach that can leverage recurrent networks in any image-based off-policy RL setting without significant computational overheads via using both learnable and non-learnable encoder layers. When integrating RISE into leading non-recurrent off-policy RL algorithms, we observe a 35.6% human-normalized interquartile mean (IQM) performance improvement across the Atari benchmark. We analyze various implementation strategies to highlight the versatility and potential of our proposed framework.",
+    "published": "2025-12-23T17:02:17Z",
+    "updated": "2025-12-23T17:02:17Z",
+    "authors": [
+      "Tyler Clark",
+      "Christine Evers",
+      "Jonathon Hare"
+    ],
+    "affiliations": [],
+    "first_author": "Tyler Clark",
+    "pdf_url": "https://arxiv.org/pdf/2512.20513v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20394v1",
+    "arxiv_id": "2512.20394v1",
+    "title": "Resilient Packet Forwarding: A Reinforcement Learning Approach to Routing in Gaussian Interconnected Networks with Clustered Faults",
+    "summary": "As Network-on-Chip (NoC) and Wireless Sensor Network architectures continue to scale, the topology of the underlying network becomes a critical factor in performance. Gaussian Interconnected Networks based on the arithmetic of Gaussian integers, offer attractive properties regarding diameter and symmetry. Despite their attractive theoretical properties, adaptive routing techniques in these networks are vulnerable to node and link faults, leading to rapid degradation in communication reliability. Node failures (particularly those following Gaussian distributions, such as thermal hotspots or physical damage clusters) pose severe challenges to traditional deterministic routing. This paper proposes a fault-aware Reinforcement Learning (RL) routing scheme tailored for Gaussian Interconnected Networks. By utilizing a PPO (Proximal Policy Optimization) agent with a specific reward structure designed to penalize fault proximity, the system dynamically learns to bypass faulty regions. We compare our proposed RL-based routing protocol against a greedy adaptive shortest-path routing algorithm. Experimental results demonstrate that the RL agent significantly outperforms the adaptive routing sustaining a Packet Delivery Ratio (PDR) of 0.95 at 40% fault density compared to 0.66 for the greedy. Furthermore, the RL approach exhibits effective delivery rates compared to the greedy adaptive routing, particularly under low network load of 20% at 0.57 vs. 0.43, showing greater proficiency in managing congestion, validating its efficacy in stochastic, fault-prone topologies",
+    "published": "2025-12-23T14:31:24Z",
+    "updated": "2025-12-23T14:31:24Z",
+    "authors": [
+      "Mohammad Walid Charrwi",
+      "Zaid Hussain"
+    ],
+    "affiliations": [],
+    "first_author": "Mohammad Walid Charrwi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20394v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20350v1",
+    "arxiv_id": "2512.20350v1",
+    "title": "Field-Space Attention for Structure-Preserving Earth System Transformers",
+    "summary": "Accurate and physically consistent modeling of Earth system dynamics requires machine-learning architectures that operate directly on continuous geophysical fields and preserve their underlying geometric structure. Here we introduce Field-Space attention, a mechanism for Earth system Transformers that computes attention in the physical domain rather than in a learned latent space. By maintaining all intermediate representations as continuous fields on the sphere, the architecture enables interpretable internal states and facilitates the enforcement of scientific constraints. The model employs a fixed, non-learned multiscale decomposition and learns structure-preserving deformations of the input field, allowing coherent integration of coarse and fine-scale information while avoiding the optimization instabilities characteristic of standard single-scale Vision Transformers. Applied to global temperature super-resolution on a HEALPix grid, Field-Space Transformers converge more rapidly and stably than conventional Vision Transformers and U-Net baselines, while requiring substantially fewer parameters. The explicit preservation of field structure throughout the network allows physical and statistical priors to be embedded directly into the architecture, yielding improved fidelity and reliability in data-driven Earth system modeling. These results position Field-Space Attention as a compact, interpretable, and physically grounded building block for next-generation Earth system prediction and generative modeling frameworks.",
+    "published": "2025-12-23T13:31:21Z",
+    "updated": "2025-12-23T13:31:21Z",
+    "authors": [
+      "Maximilian Witte",
+      "Johannes Meuer",
+      "\u00c9tienne Pl\u00e9siat",
+      "Christopher Kadow"
+    ],
+    "affiliations": [],
+    "first_author": "Maximilian Witte",
+    "pdf_url": "https://arxiv.org/pdf/2512.20350v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20188v1",
+    "arxiv_id": "2512.20188v1",
+    "title": "Asynchronous Fast-Slow Vision-Language-Action Policies for Whole-Body Robotic Manipulation",
+    "summary": "Most Vision-Language-Action (VLA) systems integrate a Vision-Language Model (VLM) for semantic reasoning with an action expert generating continuous action signals, yet both typically run at a single unified frequency. As a result, policy performance is constrained by the low inference speed of large VLMs. This mandatory synchronous execution severely limits control stability and real-time performance in whole-body robotic manipulation, which involves more joints, larger motion spaces, and dynamically changing views. We introduce a truly asynchronous Fast-Slow VLA framework (DuoCore-FS), organizing the system into a fast pathway for high-frequency action generation and a slow pathway for rich VLM reasoning. The system is characterized by two key features. First, a latent representation buffer bridges the slow and fast systems. It stores instruction semantics and action-reasoning representation aligned with the scene-instruction context, providing high-level guidance to the fast pathway. Second, a whole-body action tokenizer provides a compact, unified representation of whole-body actions. Importantly, the VLM and action expert are still jointly trained end-to-end, preserving unified policy learning while enabling asynchronous execution. DuoCore-FS supports a 3B-parameter VLM while achieving 30 Hz whole-body action-chunk generation, approximately three times as fast as prior VLA models with comparable model sizes. Real-world whole-body manipulation experiments demonstrate improved task success rates and significantly enhanced responsiveness compared to synchronous Fast-Slow VLA baselines. The implementation of DuoCore-FS, including training, inference, and deployment, is provided to commercial users by Astribot as part of the Astribot robotic platform.",
+    "published": "2025-12-23T09:28:20Z",
+    "updated": "2025-12-23T09:28:20Z",
+    "authors": [
+      "Teqiang Zou",
+      "Hongliang Zeng",
+      "Yuxuan Nong",
+      "Yifan Li",
+      "Kehui Liu",
+      "Haotian Yang",
+      "Xinyang Ling",
+      "Xin Li",
+      "Lianyang Ma"
+    ],
+    "affiliations": [],
+    "first_author": "Teqiang Zou",
+    "pdf_url": "https://arxiv.org/pdf/2512.20188v1",
+    "primary_category": "cs.RO",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20173v1",
+    "arxiv_id": "2512.20173v1",
+    "title": "Offline Safe Policy Optimization From Heterogeneous Feedback",
+    "summary": "Offline Preference-based Reinforcement Learning (PbRL) learns rewards and policies aligned with human preferences without the need for extensive reward engineering and direct interaction with human annotators. However, ensuring safety remains a critical challenge across many domains and tasks. Previous works on safe RL from human feedback (RLHF) first learn reward and cost models from offline data, then use constrained RL to optimize a safe policy. While such an approach works in the contextual bandits settings (LLMs), in long horizon continuous control tasks, errors in rewards and costs accumulate, leading to impairment in performance when used with constrained RL methods. To address these challenges, (a) instead of indirectly learning policies (from rewards and costs), we introduce a framework that learns a policy directly based on pairwise preferences regarding the agent's behavior in terms of rewards, as well as binary labels indicating the safety of trajectory segments; (b) we propose \\textsc{PreSa} (Preference and Safety Alignment), a method that combines preference learning module with safety alignment in a constrained optimization problem. This optimization problem is solved within a Lagrangian paradigm that directly learns reward-maximizing safe policy \\textit{without explicitly learning reward and cost models}, avoiding the need for constrained RL; (c) we evaluate our approach on continuous control tasks with both synthetic and real human feedback. Empirically, our method successfully learns safe policies with high rewards, outperforming state-of-the-art baselines, and offline safe RL approaches with ground-truth reward and cost.",
+    "published": "2025-12-23T09:07:53Z",
+    "updated": "2025-12-23T09:07:53Z",
+    "authors": [
+      "Ze Gong",
+      "Pradeep Varakantham",
+      "Akshat Kumar"
+    ],
+    "affiliations": [],
+    "first_author": "Ze Gong",
+    "pdf_url": "https://arxiv.org/pdf/2512.20173v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 12.0
+  }
+]

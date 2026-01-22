@@ -1,0 +1,25 @@
+{
+  "title": "Model Drift Detection and Adaptation in Continuous Anomaly Detection Systems",
+  "authors": [
+    "Dr. Patricia Johnson",
+    "Dr. Kevin Hart",
+    "Dr. Linda Wells"
+  ],
+  "affiliation": "Microsoft Research",
+  "publication_date": "2025-01-09",
+  "year": 2025,
+  "arxiv_url": "https://arxiv.org/abs/2501.08765",
+  "pdf_url": "https://arxiv.org/pdf/2501.08765.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 90.5,
+  "key_topics": [
+    "model drift",
+    "anomaly detection",
+    "machine learning",
+    "adaptation",
+    "continuous monitoring"
+  ],
+  "summary": "Anomaly detection models degrade over time as legitimate behavior patterns evolve (model drift). We present an automated drift detection and adaptation system that continuously monitors model performance without ground truth labels. Our approach uses ensemble divergence detection and adversarial validation to identify model degradation. When drift is detected, the system automatically retrains on recent data with human-in-the-loop confirmation. Evaluation shows system maintains >90% detection accuracy over 12-month deployment periods.",
+  "pages": 13,
+  "metadata_created": "2026-01-10T18:03:20.449989"
+}

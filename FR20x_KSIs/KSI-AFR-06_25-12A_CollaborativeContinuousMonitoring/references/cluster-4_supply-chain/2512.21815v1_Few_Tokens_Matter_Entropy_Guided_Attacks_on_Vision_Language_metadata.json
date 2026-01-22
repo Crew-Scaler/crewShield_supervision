@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.21815v1",
+  "title": "Few Tokens Matter: Entropy Guided Attacks on Vision-Language Models",
+  "authors": [
+    "Mengqi He",
+    "Xinyu Tian",
+    "Xin Shen",
+    "Jinhong Ni",
+    "Shu Zou"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.21815v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "vulnerability management",
+    "model monitoring"
+  ],
+  "summary": "Vision-language models (VLMs) achieve remarkable performance but remain vulnerable to adversarial attacks. Entropy, a measure of model uncertainty, is strongly correlated with the reliability of VLM. Prior entropy-based attacks maximize uncertainty at all decoding steps, implicitly assuming that every token contributes equally to generation instability. We show instead that a small fraction (about 20%) of high-entropy tokens, i.e., critical decision points in autoregressive generation, dispropor..."
+}

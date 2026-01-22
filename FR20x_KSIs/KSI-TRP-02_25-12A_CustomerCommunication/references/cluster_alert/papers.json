@@ -1,0 +1,78 @@
+[
+  {
+    "arxiv_id": "2512.08169",
+    "title": "Information-Dense Reasoning for Efficient and Auditable Security Alert Triage",
+    "summary": "Security Operations Centers face massive, heterogeneous alert streams under minute-level service windows, creating the Alert Triage Latency Paradox: verbose reasoning chains ensure accuracy and compliance but incur prohibitive latency and token costs, while minimal chains sacrifice transparency and auditability. Existing solutions fail: signature systems are brittle, anomaly methods lack actionability, and fully cloud-hosted LLMs raise latency, cost, and privacy concerns. We propose AIDR, a hybrid cloud-edge framework that addresses this trade-off through constrained information-density optimization. The core innovation is gradient-based compression of reasoning chains to retain only decision-critical steps--minimal evidence sufficient to justify predictions while respecting token and latency budgets. We demonstrate that this approach preserves decision-relevant information while minimizing complexity. We construct compact datasets by distilling alerts into 3-5 high-information bullets (68% token reduction), train domain-specialized experts via LoRA, and deploy a cloud-edge architecture: a cloud LLM routes alerts to on-premises experts generating SOAR-ready JSON. Experiments demonstrate AIDR achieves higher accuracy and 40.6% latency reduction versus Chain-of-Thought, with robustness to data corruption and out-of-distribution generalization, enabling auditable and efficient SOC triage with full data residency compliance.",
+    "authors": [
+      "Guangze Zhao",
+      "Yongzheng Zhang",
+      "Changbo Tian",
+      "Dan Xie",
+      "Hongri Liu"
+    ],
+    "published": "2025-12-09T01:57:24Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.01308",
+    "title": "Automated SBOM-Driven Vulnerability Triage for IoT Firmware: A Lightweight Pipeline for Risk Prioritization",
+    "summary": "The proliferation of Internet of Things (IoT) devices has introduced significant security challenges, primarily due to the opacity of firmware components and the complexity of supply chain dependencies. IoT firmware frequently relies on outdated, third-party libraries embedded within monolithic binary blobs, making vulnerability management difficult. While Software Bill of Materials (SBOM) standards have matured, generating actionable intelligence from raw firmware dumps remains a manual and error-prone process. This paper presents a lightweight, automated pipeline designed to extract file systems from Linux-based IoT firmware, generate a comprehensive SBOM, map identified components to known vulnerabilities, and apply a multi-factor triage scoring model. The proposed system focuses on risk prioritization by integrating signals from the Common Vulnerability Scoring System (CVSS), Exploit Prediction Scoring System (EPSS), and the CISA Known Exploited Vulnerabilities (KEV) catalog. Unlike conventional scanners that produce high volumes of uncontextualized alerts, this approach emphasizes triage by calculating a localized risk score for each finding. We describe the architecture, the normalization challenges of embedded Linux, and a scoring methodology intended to reduce alert fatigue. The study outlines a planned evaluation strategy to validate the extraction success rate and triage efficacy using a dataset of public vendor firmware, offering a reproducibility framework for future research in firmware security.",
+    "authors": [
+      "Abdurrahman Tolay"
+    ],
+    "published": "2026-01-04T00:09:01Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2504.07457",
+    "title": "CyberAlly: Leveraging LLMs and Knowledge Graphs to Empower Cyber Defenders",
+    "summary": "The increasing frequency and sophistication of cyberattacks demand innovative approaches to strengthen defense capabilities. Training on live infrastructure poses significant risks to organizations, making secure, isolated cyber ranges an essential tool for conducting Red vs. Blue Team training events. These events enable security teams to refine their skills without impacting operational environments. While such training provides a strong foundation, the ever-evolving nature of cyber threats necessitates additional support for effective defense. To address this challenge, we introduce CyberAlly, a knowledge graph-enhanced AI assistant designed to enhance the efficiency and effectiveness of Blue Teams during incident response. Integrated into our cyber range alongside an open-source SIEM platform, CyberAlly monitors alerts, tracks Blue Team actions, and suggests tailored mitigation recommendations based on insights from prior Red vs. Blue Team exercises. This demonstration highlights the feasibility and impact of CyberAlly in augmenting incident response and equipping defenders to tackle evolving threats with greater precision and confidence.",
+    "authors": [
+      "Minjune Kim",
+      "Jeff Wang",
+      "Kristen Moore",
+      "Diksha Goel",
+      "Derui Wang"
+    ],
+    "published": "2025-04-10T05:03:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.18199",
+    "title": "PROVEX: Enhancing SOC Analyst Trust with Explainable Provenance-Based IDS",
+    "summary": "Modern intrusion detection systems (IDS) leverage graph neural networks (GNNs) to detect malicious activity in system provenance data, but their decisions often remain a black box to analysts. This paper presents a comprehensive XAI framework designed to bridge the trust gap in Security Operations Centers (SOCs) by making graph-based detection transparent. We implement this framework on top of KAIROS, a state-of-the-art temporal graph-based IDS, though our design is applicable to any temporal graph-based detector with minimal adaptation. The complete codebase is available at https://github.com/devang1304/provex.git. We augment the detection pipeline with post-hoc explanations that highlight why an alert was triggered, identifying key causal subgraphs and events. We adapt three GNN explanation methods - GraphMask, GNNExplainer, and a variational temporal GNN explainer (VA-TGExplainer) - to the temporal provenance context. These tools output human-interpretable representations of anomalous behavior, including important edges and uncertainty estimates. Our contributions focus on the practical integration of these explainers, addressing challenges in memory management and reproducibility. We demonstrate our framework on the DARPA CADETS Engagement 3 dataset and show that it produces concise window-level explanations for detected attacks. Our evaluation reveals that the explainers preserve the TGNN's decisions with high fidelity, surfacing critical edges such as malicious file interactions and anomalous netflows. The average explanation overhead is 3-5 seconds per event. By providing insight into the model's reasoning, our framework aims to improve analyst trust and triage speed.",
+    "authors": [
+      "Devang Dhanuka",
+      "Nidhi Rastogi"
+    ],
+    "published": "2025-12-20T03:45:21Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.06659",
+    "title": "The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines",
+    "summary": "Cybersecurity has become one of the earliest adopters of agentic AI, as security operations centers increasingly rely on multi-step reasoning, tool-driven analysis, and rapid decision-making under pressure. While individual large language models can summarize alerts or interpret unstructured reports, they fall short in real SOC environments that require grounded data access, reproducibility, and accountable workflows. In response, the field has seen a rapid architectural evolution from single-model helpers toward tool-augmented agents, distributed multi-agent systems, schema-bound tool ecosystems, and early explorations of semi-autonomous investigative pipelines. This survey presents a five-generation taxonomy of agentic AI in cybersecurity. It traces how capabilities and risks change as systems advance from text-only LLM reasoners to multi-agent collaboration frameworks and constrained-autonomy pipelines. We compare these generations across core dimensions - reasoning depth, tool use, memory, reproducibility, and safety. In addition, we also synthesize emerging benchmarks used to evaluate cyber-oriented agents. Finally, we outline the unresolved challenges that accompany this evolution, such as response validation, tool-use correctness, multi-agent coordination, long-horizon reasoning, and safeguards for high-impact actions. Collectively, this work provides a structured perspective on how agentic AI is taking shape within cybersecurity and what is required to ensure its safe and reliable deployment.",
+    "authors": [
+      "Vaishali Vinay"
+    ],
+    "published": "2025-12-07T05:10:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.14448",
+    "title": "Reasoning-Style Poisoning of LLM Agents via Stealthy Style Transfer: Process-Level Attacks and Runtime Monitoring in RSV Space",
+    "summary": "Large Language Model (LLM) agents relying on external retrieval are increasingly deployed in high-stakes environments. While existing adversarial attacks primarily focus on content falsification or instruction injection, we identify a novel, process-oriented attack surface: the agent's reasoning style. We propose Reasoning-Style Poisoning (RSP), a paradigm that manipulates how agents process information rather than what they process. We introduce Generative Style Injection (GSI), an attack method that rewrites retrieved documents into pathological tones--specifically \"analysis paralysis\" or \"cognitive haste\"--without altering underlying facts or using explicit triggers. To quantify these shifts, we develop the Reasoning Style Vector (RSV), a metric tracking Verification depth, Self-confidence, and Attention focus. Experiments on HotpotQA and FEVER using ReAct, Reflection, and Tree of Thoughts (ToT) architectures reveal that GSI significantly degrades performance. It increases reasoning steps by up to 4.4 times or induces premature errors, successfully bypassing state-of-the-art content filters. Finally, we propose RSP-M, a lightweight runtime monitor that calculates RSV metrics in real-time and triggers alerts when values exceed safety thresholds. Our work demonstrates that reasoning style is a distinct, exploitable vulnerability, necessitating process-level defenses beyond static content analysis.",
+    "authors": [
+      "Xingfu Zhou",
+      "Pengfei Wang"
+    ],
+    "published": "2025-12-16T14:34:10Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  }
+]

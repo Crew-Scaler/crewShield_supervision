@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.15176v1",
+  "title": "DEER: Draft with Diffusion, Verify with Autoregressive Models",
+  "authors": [
+    "Zicong Cheng",
+    "Guo-Wei Yang",
+    "Jia Li",
+    "Zhijie Deng",
+    "Meng-Hao Guo",
+    "Shi-Min Hu"
+  ],
+  "published": "2025-12-17T08:19:04Z",
+  "url": "http://arxiv.org/abs/2512.15176v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.15176v1.pdf",
+  "relevance_score": 76,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Efficiency, as a critical practical challenge for LLM-driven agentic and reasoning systems, is increasingly constrained by the inherent latency of autoregressive (AR) decoding. Speculative decoding mitigates this cost through a draft-verify scheme, yet existing approaches rely on AR draft models (a.k.a., drafters), which introduce two fundamental issues: (1) step-wise uncertainty accumulation leads to a progressive collapse of trust between the target model and the drafter, and (2) inherently se"
+}

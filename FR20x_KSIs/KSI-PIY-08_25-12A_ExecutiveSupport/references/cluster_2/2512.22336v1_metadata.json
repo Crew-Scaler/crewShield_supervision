@@ -1,0 +1,24 @@
+{
+  "arxiv_id": "2512.22336v1",
+  "title": "Agent2World: Learning to Generate Symbolic World Models via Adaptive Multi-Agent Feedback",
+  "authors": [
+    "Mengkang Hu",
+    "Bowei Xia",
+    "Yuran Wu",
+    "Ailing Yu",
+    "Yude Zou",
+    "Qiguang Chen",
+    "Shijian Wang",
+    "Jiarui Jin",
+    "Kexin Li",
+    "Wenxiang Jiao",
+    "Yuan Lu",
+    "Ping Luo"
+  ],
+  "published": "2025-12-26T18:54:14Z",
+  "summary": "Symbolic world models (e.g., PDDL domains or executable simulators) are central to model-based planning, but training LLMs to generate such world models is limited by the lack of large-scale verifiable supervision. Current approaches rely primarily on static validation methods that fail to catch behavior-level errors arising from interactive execution. In this paper, we propose Agent2World, a tool-augmented multi-agent framework that achieves strong inference-time world-model generation and also",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.164822"
+}

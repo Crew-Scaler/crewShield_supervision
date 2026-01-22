@@ -1,0 +1,211 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.18940v1",
+    "arxiv_id": "2512.18940v1",
+    "title": "FASTRIC: Prompt Specification Language for Verifiable LLM Interactions",
+    "summary": "Large Language Models (LLMs) execute complex multi-turn interaction protocols but lack formal specifications to verify execution against designer intent. We introduce FASTRIC, a Prompt Specification Language that makes implicit Finite State Machines (FSMs) explicit in natural language prompts, enabling conformance verification through execution trace analysis. The LLM serves as intelligent execution agent: interpreting designer-encoded FSMs to execute specified behavioral roles. Unlike symbolic specification languages requiring parsers and compilers, FASTRIC leverages LLMs as unified infrastructure-simultaneously parser, interpreter, runtime environment, and development assistant. FASTRIC guides designers to articulate seven FSM elements (Final States, Agents, States, Triggers, Roles, Initial State, Constraints) structuring multi-turn interactions. Specification formality-ranging from implicit descriptions that frontier models infer to explicit step-by-step instructions for weaker models-serves as a design parameter. We introduce procedural conformance as verification metric measuring execution adherence to FSM specifications. Testing a 3-state kindergarten tutoring FSM across four formality levels and three model scales (14.7B, 685B, 1T+ parameters) reveals optimal specification formality is a function of model capacity. DeepSeek-V3.2 (685B) achieves perfect conformance (1.00) at L2-L4; ChatGPT-5 (~1T) peaks at L3 (0.90) before collapsing at L4 (0.39); Phi4 (14.7B) shows no stable optimum with high variance (SD=0.16-0.36). These findings reveal model-specific formality ranges-\"Goldilocks zones\"-where specifications provide sufficient structure without over-constraint, establishing Prompt Specification Engineering for creating verifiable interaction protocols, transforming multi-turn interaction design from heuristic art to systematic engineering with measurable procedural guarantees.",
+    "published": "2025-12-22T01:19:50Z",
+    "updated": "2025-12-22T01:19:50Z",
+    "authors": [
+      "Wen-Long Jin"
+    ],
+    "affiliations": [],
+    "first_author": "Wen-Long Jin",
+    "pdf_url": "https://arxiv.org/pdf/2512.18940v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.12712v2",
+    "arxiv_id": "2511.12712v2",
+    "title": "Adaptive Focus Memory for Language Models",
+    "summary": "Large language models (LLMs) are increasingly deployed in multi-turn dialogue settings, yet their behavior remains bottlenecked by naive history management strategies. Replaying the full conversation at every turn is simple but costly, while recency-based truncation or static summarization often causes early, high-impact user constraints to drift out of effective context. As a result, models may retain text without reliably applying it when it matters.   We present Adaptive Focus Memory (AFM), a lightweight context management system that dynamically assigns each past message one of three fidelity levels: Full, Compressed, or Placeholder, based on semantic relevance, temporal decay, and importance classification. AFM packs messages chronologically under a fixed token budget, preserving critical constraints at high fidelity while allowing low-importance context to degrade gracefully.   We evaluate AFM on two multi-turn dialogue benchmarks designed to stress long-horizon constraint preservation: a safety-critical travel scenario involving a user with a severe peanut allergy, and a policy-critical tax compliance scenario involving an illegal evasion request. Under strict grading that requires both explicit constraint recall and appropriately conditioned generation, AFM succeeds in 83.3 percent of allergy runs where all baseline strategies fail, and preserves correct refusal behavior on the tax benchmark.   These results demonstrate that effective dialogue memory requires more than retaining prior text. Selectively allocating fidelity across past messages enables reliable constraint preservation under bounded context growth, without modifying model weights or introducing external retrieval infrastructure. We release an open-source implementation of AFM compatible with OpenAI-style chat APIs to support reproducible research and practical deployment.",
+    "published": "2025-11-16T17:52:32Z",
+    "updated": "2025-12-19T18:24:09Z",
+    "authors": [
+      "Christopher Cruz"
+    ],
+    "affiliations": [],
+    "first_author": "Christopher Cruz",
+    "pdf_url": "https://arxiv.org/pdf/2511.12712v2",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.10475v1",
+    "arxiv_id": "2510.10475v1",
+    "title": "Assessing Large Language Models for Structured Medical Order Extraction",
+    "summary": "Medical order extraction is essential for structuring actionable clinical information, supporting decision-making, and enabling downstream applications such as documentation and workflow automation. Orders may be embedded in diverse sources, including electronic health records, discharge summaries, and multi-turn doctor-patient dialogues, and can span categories such as medications, laboratory tests, imaging studies, and follow-up actions. The MEDIQA-OE 2025 shared task focuses on extracting structured medical orders from extended conversational transcripts, requiring the identification of order type, description, reason, and provenance. We present the MasonNLP submission, which ranked 5th among 17 participating teams with 105 total submissions. Our approach uses a general-purpose, instruction-tuned LLaMA-4 17B model without domain-specific fine-tuning, guided by a single in-context example. This few-shot configuration achieved an average F1 score of 37.76, with notable improvements in reason and provenance accuracy. These results demonstrate that large, non-domain-specific LLMs, when paired with effective prompt engineering, can serve as strong, scalable baselines for specialized clinical NLP tasks.",
+    "published": "2025-10-12T06:56:10Z",
+    "updated": "2025-10-12T06:56:10Z",
+    "authors": [
+      "A H M Rezaul Karim",
+      "Ozlem Uzuner"
+    ],
+    "affiliations": [],
+    "first_author": "A H M Rezaul Karim",
+    "pdf_url": "https://arxiv.org/pdf/2510.10475v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.06727v1",
+    "arxiv_id": "2510.06727v1",
+    "title": "Scaling LLM Multi-turn RL with End-to-end Summarization-based Context Management",
+    "summary": "We study reinforcement learning (RL) fine-tuning of large language model (LLM) agents for long-horizon multi-turn tool use, where context length quickly becomes a fundamental bottleneck. Existing RL pipelines can suffer from degraded instruction following, excessive rollout costs, and most importantly, strict context limits. To address these challenges, we introduce summarization-based context management to training. In specific, it periodically compresses the tool using history by LLM-generated summaries that retain task-relevant information to keep a compact context while enabling the agent to scale beyond the fixed context window. Building on this formulation, we derive a policy gradient representation that seamlessly enables standard LLM RL infrastructures to optimize both tool-use behaviors as well as summarization strategies in an end-to-end fashion. We instantiate this framework with \\underline{SU}mmarization augmented \\underline{P}olicy \\underline{O}ptimization (\\texttt{SUPO}), an LLM RL algorithm that enables long-horizon training beyond a fixed context limit. Experiments on interactive function calling and searching tasks demonstrate that \\texttt{SUPO} significantly improves the success rate while maintaining the same or even lower working context length compared to baselines. We also demonstrate that for complex searching tasks, \\texttt{SUPO} can further improve the evaluation performance when scaling test-time maximum round of summarization beyond that of training time. Our results establish summarization-based context management as a principled and scalable approach for training RL agents beyond a fixed context length limit.",
+    "published": "2025-10-08T07:29:22Z",
+    "updated": "2025-10-08T07:29:22Z",
+    "authors": [
+      "Miao Lu",
+      "Weiwei Sun",
+      "Weihua Du",
+      "Zhan Ling",
+      "Xuesong Yao",
+      "Kang Liu",
+      "Jiecao Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Miao Lu",
+    "pdf_url": "https://arxiv.org/pdf/2510.06727v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.04206v1",
+    "arxiv_id": "2510.04206v1",
+    "title": "AgentRL: Scaling Agentic Reinforcement Learning with a Multi-Turn, Multi-Task Framework",
+    "summary": "Recent advances in large language models (LLMs) have sparked growing interest in building generalist agents that can learn through online interactions. However, applying reinforcement learning (RL) to train LLM agents in multi-turn, multi-task settings remains challenging due to lack of scalable infrastructure and stable training algorithms. In this work, we present the AgentRL framework for scalable multi-turn, multi-task agentic RL training. On the infrastructure side, AgentRL features a fully-asynchronous generation-training pipeline for efficient multi-turn RL. To support heterogeneous environment development in multi-task RL, we design a unified function-call based API interface, containerized environment development, and a centralized controller. On the algorithm side, we propose cross-policy sampling to encourage model exploration in multi-turn settings and task advantage normalization to stabilize multi-task training. Experiments show that AgentRL, trained on open LLMs across five agentic tasks, significantly outperforms GPT-5, Clause-Sonnet-4, DeepSeek-R1, and other open-source LLM agents. Multi-task training with AgentRL matches the best results among all task-specific models. AgentRL is open-sourced at https://github.com/THUDM/AgentRL. The algorithm and framework are adopted in building \\textsc{\\href{https://autoglm.zhipuai.cn}{AutoGLM}}.",
+    "published": "2025-10-05T13:40:01Z",
+    "updated": "2025-10-05T13:40:01Z",
+    "authors": [
+      "Hanchen Zhang",
+      "Xiao Liu",
+      "Bowen Lv",
+      "Xueqiao Sun",
+      "Bohao Jing",
+      "Iat Long Iong",
+      "Zhenyu Hou",
+      "Zehan Qi",
+      "Hanyu Lai",
+      "Yifan Xu",
+      "Rui Lu",
+      "Hongning Wang",
+      "Jie Tang",
+      "Yuxiao Dong"
+    ],
+    "affiliations": [],
+    "first_author": "Hanchen Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2510.04206v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.17325v1",
+    "arxiv_id": "2509.17325v1",
+    "title": "Generalizable End-to-End Tool-Use RL with Synthetic CodeGym",
+    "summary": "Tool-augmented large language models (LLMs), hereafter LLM agents, leverage external tools to solve diverse tasks and interface with the real world. However, current training practices largely rely on supervised fine-tuning (SFT) over static trajectories or reinforcement learning (RL) on narrow tasks, and generalize poorly beyond development settings, leading to brittleness with new tools and unseen workflows. Because code execution reflects many structures of real-world workflows, coding problems provide a natural basis for building agent training environments. Motivated by this, we introduce CodeGym, a scalable framework that synthesizes diverse, verifiable, and controllable multi-turn tool-use environments for agent RL, enabling LLM agents to explore and master various workflows actively. CodeGym rewrites static coding problems into interactive environments by extracting atomic functions or logic into callable tools, yielding verifiable tasks that span various tool-execution workflows. Models of varying sizes and chain-of-thought configurations, trained in CodeGym, exhibit consistent out-of-distribution generalizability; for example, Qwen2.5-32B-Instruct achieves an absolute accuracy gain of 8.7 points on the OOD benchmark $\u03c4$-Bench. These results highlight CodeGym as a step toward scalable general-purpose RL environments that align with real-world agent workflows.",
+    "published": "2025-09-22T03:03:56Z",
+    "updated": "2025-09-22T03:03:56Z",
+    "authors": [
+      "Weihua Du",
+      "Hailei Gong",
+      "Zhan Ling",
+      "Kang Liu",
+      "Lingfeng Shen",
+      "Xuesong Yao",
+      "Yufei Xu",
+      "Dingyuan Shi",
+      "Yiming Yang",
+      "Jiecao Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Weihua Du",
+    "pdf_url": "https://arxiv.org/pdf/2509.17325v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.05525v1",
+    "arxiv_id": "2508.05525v1",
+    "title": "The World According to LLMs: How Geographic Origin Influences LLMs' Entity Deduction Capabilities",
+    "summary": "Large Language Models (LLMs) have been extensively tuned to mitigate explicit biases, yet they often exhibit subtle implicit biases rooted in their pre-training data. Rather than directly probing LLMs with human-crafted questions that may trigger guardrails, we propose studying how models behave when they proactively ask questions themselves. The 20 Questions game, a multi-turn deduction task, serves as an ideal testbed for this purpose. We systematically evaluate geographic performance disparities in entity deduction using a new dataset, Geo20Q+, consisting of both notable people and culturally significant objects (e.g., foods, landmarks, animals) from diverse regions. We test popular LLMs across two gameplay configurations (canonical 20-question and unlimited turns) and in seven languages (English, Hindi, Mandarin, Japanese, French, Spanish, and Turkish). Our results reveal geographic disparities: LLMs are substantially more successful at deducing entities from the Global North than the Global South, and the Global West than the Global East. While Wikipedia pageviews and pre-training corpus frequency correlate mildly with performance, they fail to fully explain these disparities. Notably, the language in which the game is played has minimal impact on performance gaps. These findings demonstrate the value of creative, free-form evaluation frameworks for uncovering subtle biases in LLMs that remain hidden in standard prompting setups. By analyzing how models initiate and pursue reasoning goals over multiple turns, we find geographic and cultural disparities embedded in their reasoning processes. We release the dataset (Geo20Q+) and code at https://sites.google.com/view/llmbias20q/home.",
+    "published": "2025-08-07T15:53:30Z",
+    "updated": "2025-08-07T15:53:30Z",
+    "authors": [
+      "Harsh Nishant Lalai",
+      "Raj Sanjay Shah",
+      "Jiaxin Pei",
+      "Sashank Varma",
+      "Yi-Chia Wang",
+      "Ali Emami"
+    ],
+    "affiliations": [],
+    "first_author": "Harsh Nishant Lalai",
+    "pdf_url": "https://arxiv.org/pdf/2508.05525v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.18096v2",
+    "arxiv_id": "2506.18096v2",
+    "title": "Deep Research Agents: A Systematic Examination And Roadmap",
+    "summary": "The rapid progress of Large Language Models (LLMs) has given rise to a new category of autonomous AI systems, referred to as Deep Research (DR) agents. These agents are designed to tackle complex, multi-turn informational research tasks by leveraging a combination of dynamic reasoning, adaptive long-horizon planning, multi-hop information retrieval, iterative tool use, and the generation of structured analytical reports. In this paper, we conduct a detailed analysis of the foundational technologies and architectural components that constitute Deep Research agents. We begin by reviewing information acquisition strategies, contrasting API-based retrieval methods with browser-based exploration. We then examine modular tool-use frameworks, including code execution, multimodal input processing, and the integration of Model Context Protocols (MCPs) to support extensibility and ecosystem development. To systematize existing approaches, we propose a taxonomy that differentiates between static and dynamic workflows, and we classify agent architectures based on planning strategies and agent composition, including single-agent and multi-agent configurations. We also provide a critical evaluation of current benchmarks, highlighting key limitations such as restricted access to external knowledge, sequential execution inefficiencies, and misalignment between evaluation metrics and the practical objectives of DR agents. Finally, we outline open challenges and promising directions for future research. A curated and continuously updated repository of DR agent research is available at: {https://github.com/ai-agents-2030/awesome-deep-research-agent}.",
+    "published": "2025-06-22T16:52:48Z",
+    "updated": "2025-09-03T15:32:23Z",
+    "authors": [
+      "Yuxuan Huang",
+      "Yihang Chen",
+      "Haozheng Zhang",
+      "Kang Li",
+      "Huichi Zhou",
+      "Meng Fang",
+      "Linyi Yang",
+      "Xiaoguang Li",
+      "Lifeng Shang",
+      "Songcen Xu",
+      "Jianye Hao",
+      "Kun Shao",
+      "Jun Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Yuxuan Huang",
+    "pdf_url": "https://arxiv.org/pdf/2506.18096v2",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.04301v1",
+    "arxiv_id": "2506.04301v1",
+    "title": "The Cost of Dynamic Reasoning: Demystifying AI Agents and Test-Time Scaling from an AI Infrastructure Perspective",
+    "summary": "Large-language-model (LLM)-based AI agents have recently showcased impressive versatility by employing dynamic reasoning, an adaptive, multi-step process that coordinates with external tools. This shift from static, single-turn inference to agentic, multi-turn workflows broadens task generalization and behavioral flexibility, but it also introduces serious concerns about system-level cost, efficiency, and sustainability. This paper presents the first comprehensive system-level analysis of AI agents, quantifying their resource usage, latency behavior, energy consumption, and datacenter-wide power consumption demands across diverse agent designs and test-time scaling strategies. We further characterize how AI agent design choices, such as few-shot prompting, reflection depth, and parallel reasoning, impact accuracy-cost tradeoffs. Our findings reveal that while agents improve accuracy with increased compute, they suffer from rapidly diminishing returns, widening latency variance, and unsustainable infrastructure costs. Through detailed evaluation of representative agents, we highlight the profound computational demands introduced by AI agent workflows, uncovering a looming sustainability crisis. These results call for a paradigm shift in agent design toward compute-efficient reasoning, balancing performance with deployability under real-world constraints.",
+    "published": "2025-06-04T14:37:54Z",
+    "updated": "2025-06-04T14:37:54Z",
+    "authors": [
+      "Jiin Kim",
+      "Byeongjun Shin",
+      "Jinha Chung",
+      "Minsoo Rhu"
+    ],
+    "affiliations": [],
+    "first_author": "Jiin Kim",
+    "pdf_url": "https://arxiv.org/pdf/2506.04301v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2506.00430v2",
+    "arxiv_id": "2506.00430v2",
+    "title": "MIRROR: Modular Internal Processing for Personalized Safety in LLM Dialogue",
+    "summary": "Large language models frequently generate harmful recommendations in personal multi-turn dialogue by ignoring user-specific safety context, exhibiting sycophantic agreement, and compromising user safety for larger group preferences. We introduce MIRROR, a modular production-focused architecture that prevents these failures through a persistent, bounded internal state that preserves personal conversational information across conversational turns. Our dual-component design inspired by Dual Process Theory separates immediate response generation (Talker) from asynchronous deliberative processing (Thinker), which synthesizes parallel reasoning threads between turns with marginal latency. On the CuRaTe personalized safety benchmark, MIRROR-augmented models achieve a 21% relative improvement (69% to 84%) across seven diverse frontier models, with open-source Llama 4 and Mistral 3 variants surpassing both GPT-4o and Claude 3.7 Sonnet at only \\$0.0028 to \\$0.0172 additional cost per turn, narrowing the gap between affordable open-source models to frontier systems in the safety space. The modular architecture enables flexible deployment: full internal processing for affordable models or single-component configurations for expensive systems, democratizing access to safer, personalized AI.",
+    "published": "2025-05-31T07:17:48Z",
+    "updated": "2025-10-03T17:42:59Z",
+    "authors": [
+      "Nicole Hsing"
+    ],
+    "affiliations": [],
+    "first_author": "Nicole Hsing",
+    "pdf_url": "https://arxiv.org/pdf/2506.00430v2",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  }
+]

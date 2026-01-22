@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2507.21974v1",
+  "title": "Reasoning Language Models for Root Cause Analysis in 5G Wireless Networks",
+  "authors": [
+    "Mohamed Sana",
+    "Nicola Piovesan",
+    "Antonio De Domenico",
+    "Yibin Kang",
+    "Haozhe Zhang",
+    "Merouane Debbah",
+    "Fadhel Ayed"
+  ],
+  "published": "2025-07-29T16:21:42Z",
+  "url": "http://arxiv.org/abs/2507.21974v1",
+  "pdf_url": "http://arxiv.org/pdf/2507.21974v1.pdf",
+  "relevance_score": 90,
+  "summary": "Root Cause Analysis (RCA) in mobile networks remains a challenging task due to the need for interpretability, domain expertise, and causal reasoning. In this work, we propose a lightweight framework that leverages Large Language Models (LLMs) for RCA. To do so, we introduce TeleLogs, a curated dataset of annotated troubleshooting problems designed to benchmark RCA capabilities. Our evaluation reveals that existing open-source reasoning LLMs struggle with these problems, underscoring the need for domain-specific adaptation. To address this issue, we propose a two-stage training methodology that combines supervised fine-tuning with reinforcement learning to improve the accuracy and reasoning quality of LLMs. The proposed approach fine-tunes a series of RCA models to integrate domain knowledge and generate structured, multi-step diagnostic explanations, improving both interpretability and effectiveness. Extensive experiments across multiple LLM sizes show significant performance gains over state-of-the-art reasoning and non-reasoning models, including strong generalization to randomized test variants. These results demonstrate the promise of domain-adapted, reasoning-enhanced LLMs for practical and explainable RCA in network operation and management."
+}

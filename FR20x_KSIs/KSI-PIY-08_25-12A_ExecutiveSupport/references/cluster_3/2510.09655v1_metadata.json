@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2510.09655v1",
+  "title": "Data Provenance Auditing of Fine-Tuned Large Language Models with a Text-Preserving Technique",
+  "authors": [
+    "Yanming Li",
+    "Seifeddine Ghozzi",
+    "C\u00e9dric Eichler",
+    "Nicolas Anciaux",
+    "Alexandra Bensamoun",
+    "Lorena Gonzalez Manzano"
+  ],
+  "published": "2025-10-07T08:34:08Z",
+  "summary": "We address the problem of auditing whether sensitive or copyrighted texts were used to fine-tune large language models (LLMs) under black-box access. Prior signals-verbatim regurgitation and membership inference-are unreliable at the level of individual documents or require altering the visible text. We introduce a text-preserving watermarking framework that embeds sequences of invisible Unicode characters into documents. Each watermark is split into a cue (embedded in odd chunks) and a reply (e",
+  "cluster": "cluster_3",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.172164"
+}

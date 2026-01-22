@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.24511v1",
+  "title": "Understanding LLM Checkpoint/Restore I/O Strategies and Patterns",
+  "authors": [
+    "Mikaila J. Gossman",
+    "Avinash Maurya",
+    "Bogdan Nicolae",
+    "Jon C. Calhoun"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.24511v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "As LLMs and foundation models scale, checkpoint/restore has become a critical pattern for training and inference. With 3D parallelism (tensor, pipeline, data), checkpointing involves many processes, each managing numerous tensors of varying shapes and sizes, that must be persisted frequently to stable storage (e.g., parallel file systems). This turns checkpoint/restore into a big-data I/O problem characterized by volume, variety, and velocity. The workflow must traverse the full storage stack --..."
+}

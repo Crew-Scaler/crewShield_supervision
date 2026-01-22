@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2407.11477v1",
+  "title": "XTraffic: A Dataset Where Traffic Meets Incidents with Explainability and More",
+  "authors": [
+    "Xiaochuan Gou",
+    "Ziyue Li",
+    "Tian Lan",
+    "Junpeng Lin",
+    "Zhishuai Li",
+    "Bingyu Zhao",
+    "Chen Zhang",
+    "Di Wang",
+    "Xiangliang Zhang"
+  ],
+  "published": "2024-07-16T08:16:01Z",
+  "url": "http://arxiv.org/abs/2407.11477v1",
+  "pdf_url": "http://arxiv.org/pdf/2407.11477v1.pdf",
+  "relevance_score": 100,
+  "summary": "Long-separated research has been conducted on two highly correlated tracks: traffic and incidents. Traffic track witnesses complicating deep learning models, e.g., to push the prediction a few percent more accurate, and the incident track only studies the incidents alone, e.g., to infer the incident risk. We, for the first time, spatiotemporally aligned the two tracks in a large-scale region (16,972 traffic nodes) over the whole year of 2023: our XTraffic dataset includes traffic, i.e., time-series indexes on traffic flow, lane occupancy, and average vehicle speed, and incidents, whose records are spatiotemporally-aligned with traffic data, with seven different incident classes. Additionally, each node includes detailed physical and policy-level meta-attributes of lanes. Our data can revolutionalize traditional traffic-related tasks towards higher interpretability and practice: instead of traditional prediction or classification tasks, we conduct: (1) post-incident traffic forecasting to quantify the impact of different incidents on traffic indexes; (2) incident classification using traffic indexes to determine the incidents types for precautions measures; (3) global causal analysis among the traffic indexes, meta-attributes, and incidents to give high-level guidance of the interrelations of various factors; (4) local causal analysis within road nodes to examine how different incidents affect the road segments' relations. The dataset is available at http://xaitraffic.github.io."
+}

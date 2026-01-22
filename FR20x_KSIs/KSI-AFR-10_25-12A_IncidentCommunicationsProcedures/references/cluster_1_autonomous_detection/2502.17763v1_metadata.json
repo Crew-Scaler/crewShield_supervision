@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2502.17763v1",
+  "title": "Design and implementation of a distributed security threat detection system integrating federated learning and multimodal LLM",
+  "authors": [
+    "Yuqing Wang",
+    "Xiao Yang"
+  ],
+  "published": "2025-02-25T01:44:08Z",
+  "url": "http://arxiv.org/abs/2502.17763v1",
+  "pdf_url": "http://arxiv.org/pdf/2502.17763v1.pdf",
+  "relevance_score": 85,
+  "summary": "Traditional security protection methods struggle to address sophisticated attack vectors in large-scale distributed systems, particularly when balancing detection accuracy with data privacy concerns. This paper presents a novel distributed security threat detection system that integrates federated learning with multimodal large language models (LLMs). Our system leverages federated learning to ensure data privacy while employing multimodal LLMs to process heterogeneous data sources including network traffic, system logs, images, and sensor data. Experimental evaluation on a 10TB distributed dataset demonstrates that our approach achieves 96.4% detection accuracy, outperforming traditional baseline models by 4.1 percentage points. The system reduces both false positive and false negative rates by 1.8 and 2.4 percentage points respectively. Performance analysis shows that our system maintains efficient processing capabilities in distributed environments, requiring 180 seconds for model training and 3.8 seconds for threat detection across the distributed network. These results demonstrate significant improvements in detection accuracy and computational efficiency while preserving data privacy, suggesting strong potential for real-world deployment in large-scale security systems."
+}

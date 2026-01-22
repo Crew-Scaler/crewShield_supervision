@@ -1,0 +1,195 @@
+[
+  {
+    "arxiv_id": "2601.01308",
+    "title": "Automated SBOM-Driven Vulnerability Triage for IoT Firmware: A Lightweight Pipeline for Risk Prioritization",
+    "summary": "The proliferation of Internet of Things (IoT) devices has introduced significant security challenges, primarily due to the opacity of firmware components and the complexity of supply chain dependencies. IoT firmware frequently relies on outdated, third-party libraries embedded within monolithic binary blobs, making vulnerability management difficult. While Software Bill of Materials (SBOM) standards have matured, generating actionable intelligence from raw firmware dumps remains a manual and error-prone process. This paper presents a lightweight, automated pipeline designed to extract file systems from Linux-based IoT firmware, generate a comprehensive SBOM, map identified components to known vulnerabilities, and apply a multi-factor triage scoring model. The proposed system focuses on risk prioritization by integrating signals from the Common Vulnerability Scoring System (CVSS), Exploit Prediction Scoring System (EPSS), and the CISA Known Exploited Vulnerabilities (KEV) catalog. Unlike conventional scanners that produce high volumes of uncontextualized alerts, this approach emphasizes triage by calculating a localized risk score for each finding. We describe the architecture, the normalization challenges of embedded Linux, and a scoring methodology intended to reduce alert fatigue. The study outlines a planned evaluation strategy to validate the extraction success rate and triage efficacy using a dataset of public vendor firmware, offering a reproducibility framework for future research in firmware security.",
+    "authors": [
+      "Abdurrahman Tolay"
+    ],
+    "published": "2026-01-04T00:09:01Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 63.33333333333333
+  },
+  {
+    "arxiv_id": "2601.04553",
+    "title": "Deep Dive into the Abuse of DL APIs To Create Malicious AI Models and How to Detect Them",
+    "summary": "According to Gartner, more than 70% of organizations will have integrated AI models into their workflows by the end of 2025. In order to reduce cost and foster innovation, it is often the case that pre-trained models are fetched from model hubs like Hugging Face or TensorFlow Hub. However, this introduces a security risk where attackers can inject malicious code into the models they upload to these hubs, leading to various kinds of attacks including remote code execution (RCE), sensitive data exfiltration, and system file modification when these models are loaded or executed (predict function). Since AI models play a critical role in digital transformation, this would drastically increase the number of software supply chain attacks. While there are several efforts at detecting malware when deserializing pickle based saved models (hiding malware in model parameters), the risk of abusing DL APIs (e.g. TensorFlow APIs) is understudied. Specifically, we show how one can abuse hidden functionalities of TensorFlow APIs such as file read/write and network send/receive along with their persistence APIs to launch attacks. It is concerning to note that existing scanners in model hubs like Hugging Face and TensorFlow Hub are unable to detect some of the stealthy abuse of such APIs. This is because scanning tools only have a syntactically identified set of suspicious functionality that is being analysed. They often do not have a semantic-level understanding of the functionality utilized. After demonstrating the possible attacks, we show how one may identify potentially abusable hidden API functionalities using LLMs and build scanners to detect such abuses.",
+    "authors": [
+      "Mohamed Nabeel",
+      "Oleksii Starov"
+    ],
+    "published": "2026-01-08T03:30:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2601.03504",
+    "title": "Full-Stack Knowledge Graph and LLM Framework for Post-Quantum Cyber Readiness",
+    "summary": "The emergence of large-scale quantum computing threatens widely deployed public-key cryptographic systems, creating an urgent need for enterprise-level methods to assess post-quantum (PQ) readiness. While PQ standards are under development, organizations lack scalable and quantitative frameworks for measuring cryptographic exposure and prioritizing migration across complex infrastructures. This paper presents a knowledge graph based framework that models enterprise cryptographic assets, dependencies, and vulnerabilities to compute a unified PQ readiness score. Infrastructure components, cryptographic primitives, certificates, and services are represented as a heterogeneous graph, enabling explicit modeling of dependency-driven risk propagation. PQ exposure is quantified using graph-theoretic risk functionals and attributed across cryptographic domains via Shapley value decomposition. To support scalability and data quality, the framework integrates large language models with human-in-the-loop validation for asset classification and risk attribution. The resulting approach produces explainable, normalized readiness metrics that support continuous monitoring, comparative analysis, and remediation prioritization.",
+    "authors": [
+      "Rasmus Erlemann",
+      "Charles Colyer Morris",
+      "Sanjyot Sathe"
+    ],
+    "published": "2026-01-07T01:31:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2512.21048",
+    "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+    "summary": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. We present zkFL-Health, an architecture that combines FL with zero-knowledge proofs (ZKPs) and Trusted Execution Environments (TEEs) to deliver privacy-preserving, verifiably correct collaborative training for medical AI. Clients locally train and commit their updates; the aggregator operates within a TEE to compute the global update and produces a succinct ZK proof (via Halo2/Nova) that it used exactly the committed inputs and the correct aggregation rule, without revealing any client update to the host. Verifier nodes validate the proof and record cryptographic commitments on-chain, providing an immutable audit trail and removing the need to trust any single party. We outline system and threat models tailored to healthcare, the zkFL-Health protocol, security/privacy guarantees, and a performance evaluation plan spanning accuracy, privacy risk, latency, and cost. This framework enables multi-institutional medical AI with strong confidentiality, integrity, and auditability, key properties for clinical adoption and regulatory compliance.",
+    "authors": [
+      "Savvy Sharma",
+      "George Petrovic",
+      "Sarthak Kaushik"
+    ],
+    "published": "2025-12-24T08:29:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.66666666666667
+  },
+  {
+    "arxiv_id": "2512.22060",
+    "title": "Toward Secure and Compliant AI: Organizational Standards and Protocols for NLP Model Lifecycle Management",
+    "summary": "Natural Language Processing (NLP) systems are increasingly used in sensitive domains such as healthcare, finance, and government, where they handle large volumes of personal and regulated data. However, these systems introduce distinct risks related to security, privacy, and regulatory compliance that are not fully addressed by existing AI governance frameworks. This paper introduces the Secure and Compliant NLP Lifecycle Management Framework (SC-NLP-LMF), a comprehensive six-phase model designed to ensure the secure operation of NLP systems from development to retirement. The framework, developed through a systematic PRISMA-based review of 45 peer-reviewed and regulatory sources, aligns with leading standards, including NIST AI RMF, ISO/IEC 42001:2023, the EU AI Act, and MITRE ATLAS. It integrates established methods for bias detection, privacy protection (differential privacy, federated learning), secure deployment, explainability, and secure model decommissioning. A healthcare case study illustrates how SC-NLP-LMF detects emerging terminology drift (e.g., COVID-related language) and guides compliant model updates. The framework offers organizations a practical, lifecycle-wide structure for developing, deploying, and maintaining secure and accountable NLP systems in high-risk environments.",
+    "authors": [
+      "Sunil Arora",
+      "John Hastings"
+    ],
+    "published": "2025-12-26T15:28:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 60.0
+  },
+  {
+    "arxiv_id": "2601.04912",
+    "title": "Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge Devices",
+    "summary": "Collaborative training of a machine learning model comes with a risk of sharing sensitive or private data. Federated learning offers a way of collectively training a single global model without the need to share client data, by sharing only the updated parameters from each client's local model. A central server is then used to aggregate parameters from all clients and redistribute the aggregated model back to the clients. Recent findings have shown that even in this scenario, private data can be reconstructed only using information about model parameters. Current efforts to mitigate this are mainly focused on reducing privacy risks on the server side, assuming that other clients will not act maliciously. In this work, we analyzed various methods for improving the privacy of client data concerning both the server and other clients for neural networks. Some of these methods include homomorphic encryption, gradient compression, gradient noising, and discussion on possible usage of modified federated learning systems such as split learning, swarm learning or fully encrypted models. We have analyzed the negative effects of gradient compression and gradient noising on the accuracy of convolutional neural networks used for classification. We have shown the difficulty of data reconstruction in the case of segmentation networks. We have also implemented a proof of concept on the NVIDIA Jetson TX2 module used in edge devices and simulated a federated learning process.",
+    "authors": [
+      "Damian Haren\u010d\u00e1k",
+      "Luk\u00e1\u0161 Gajdo\u0161ech",
+      "Martin Madaras"
+    ],
+    "published": "2026-01-08T13:10:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.03979",
+    "title": "SoK: Privacy Risks and Mitigations in Retrieval-Augmented Generation Systems",
+    "summary": "The continued promise of Large Language Models (LLMs), particularly in their natural language understanding and generation capabilities, has driven a rapidly increasing interest in identifying and developing LLM use cases. In an effort to complement the ingrained \"knowledge\" of LLMs, Retrieval-Augmented Generation (RAG) techniques have become widely popular. At its core, RAG involves the coupling of LLMs with domain-specific knowledge bases, whereby the generation of a response to a user question is augmented with contextual and up-to-date information. The proliferation of RAG has sparked concerns about data privacy, particularly with the inherent risks that arise when leveraging databases with potentially sensitive information. Numerous recent works have explored various aspects of privacy risks in RAG systems, from adversarial attacks to proposed mitigations. With the goal of surveying and unifying these works, we ask one simple question: What are the privacy risks in RAG, and how can they be measured and mitigated? To answer this question, we conduct a systematic literature review of RAG works addressing privacy, and we systematize our findings into a comprehensive set of privacy risks, mitigation techniques, and evaluation strategies. We supplement these findings with two primary artifacts: a Taxonomy of RAG Privacy Risks and a RAG Privacy Process Diagram. Our work contributes to the study of privacy in RAG not only by conducting the first systematization of risks and mitigations, but also by uncovering important considerations when mitigating privacy risks in RAG systems and assessing the current maturity of proposed mitigations.",
+    "authors": [
+      "Andreea-Elena Bodea",
+      "Stephen Meisenbacher",
+      "Alexandra Klymenko",
+      "Florian Matthes"
+    ],
+    "published": "2026-01-07T14:50:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2512.20405",
+    "title": "ChatGPT: Excellent Paper! Accept It. Editor: Imposter Found! Review Rejected",
+    "summary": "Large Language Models (LLMs) like ChatGPT are now widely used in writing and reviewing scientific papers. While this trend accelerates publication growth and reduces human workload, it also introduces serious risks. Papers written or reviewed by LLMs may lack real novelty, contain fabricated or biased results, or mislead downstream research that others depend on. Such issues can damage reputations, waste resources, and even endanger lives when flawed studies influence medical or safety-critical systems. This research explores both the offensive and defensive sides of this growing threat. On the attack side, we demonstrate how an author can inject hidden prompts inside a PDF that secretly guide or \"jailbreak\" LLM reviewers into giving overly positive feedback and biased acceptance. On the defense side, we propose an \"inject-and-detect\" strategy for editors, where invisible trigger prompts are embedded into papers; if a review repeats or reacts to these triggers, it reveals that the review was generated by an LLM, not a human. This method turns prompt injections from vulnerability into a verification tool. We outline our design, expected model behaviors, and ethical safeguards for deployment. The goal is to expose how fragile today's peer-review process becomes under LLM influence and how editorial awareness can help restore trust in scientific evaluation.",
+    "authors": [
+      "Kanchon Gharami",
+      "Sanjiv Kumar Sarkar",
+      "Yongxin Liu",
+      "Shafika Showkat Moni"
+    ],
+    "published": "2025-12-23T14:54:45Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.333333333333336
+  },
+  {
+    "arxiv_id": "2601.03508",
+    "title": "A Critical Analysis of the Medibank Health Data Breach and Differential Privacy Solutions",
+    "summary": "This paper critically examines the 2022 Medibank health insurance data breach, which exposed sensitive medical records of 9.7 million individuals due to unencrypted storage, centralized access, and the absence of privacy-preserving analytics. To address these vulnerabilities, we propose an entropy-aware differential privacy (DP) framework that integrates Laplace and Gaussian mechanisms with adaptive budget allocation. The design incorporates TLS-encrypted database access, field-level mechanism selection, and smooth sensitivity models to mitigate re-identification risks. Experimental validation was conducted using synthetic Medibank datasets (N = 131,000) with entropy-calibrated DP mechanisms, where high-entropy attributes received stronger noise injection. Results demonstrate a 90.3% reduction in re-identification probability while maintaining analytical utility loss below 24%. The framework further aligns with GDPR Article 32 and Australian Privacy Principle 11.1, ensuring regulatory compliance. By combining rigorous privacy guarantees with practical usability, this work contributes a scalable and technically feasible solution for healthcare data protection, offering a pathway toward resilient, trustworthy, and regulation-ready medical analytics.",
+    "authors": [
+      "Zhuohan Cui",
+      "Qianqian Lang",
+      "Zikun Song"
+    ],
+    "published": "2026-01-07T01:42:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.04298",
+    "title": "Privacy at Scale in Networked Healthcare",
+    "summary": "Digitized, networked healthcare promises earlier detection, precision therapeutics, and continuous care; yet, it also expands the surface for privacy loss and compliance risk. We argue for a shift from siloed, application-specific protections to privacy-by-design at scale, centered on decision-theoretic differential privacy (DP) across the full healthcare data lifecycle; network-aware privacy accounting for interdependence in people, sensors, and organizations; and compliance-as-code tooling that lets health systems share evidence while demonstrating regulatory due care. We synthesize the privacy-enhancing technology (PET) landscape in health (federated analytics, DP, cryptographic computation), identify practice gaps, and outline a deployable agenda involving privacy-budget ledgers, a control plane to coordinate PET components across sites, shared testbeds, and PET literacy, to make lawful, trustworthy sharing the default. We illustrate with use cases (multi-site trials, genomics, disease surveillance, mHealth) and highlight distributed inference as a workhorse for multi-institution learning under explicit privacy budgets.",
+    "authors": [
+      "M. Amin Rahimian",
+      "Benjamin Panny",
+      "James Joshi"
+    ],
+    "published": "2026-01-07T17:58:58Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.21248",
+    "title": "Industrial Ouroboros: Deep Lateral Movement via Living Off the Plant",
+    "summary": "Lateral movement is a tactic that adversaries employ most frequently in enterprise IT environments to traverse between assets. In operational technology (OT) environments, however, few methods exist for lateral movement between domain-specific devices, particularly programmable logic controllers (PLCs). Existing techniques often rely on complex chains of vulnerabilities, which are noisy and can be patched. This paper describes the first PLC-centric lateral movement technique that relies exclusively on the native functionality of the victim environment. This OT-specific form of `living off the land' is herein distinguished as `living off the plant' (LOTP). The described technique also facilitates escape from IP networks onto legacy serial networks via dual-homed PLCs. Furthermore, this technique is covert, leveraging common network communication functions that are challenging to detect. This serves as a reminder of the risks posed by LOTP techniques within OT, highlighting the need for a fundamental reconsideration of traditional OT defensive practices.",
+    "authors": [
+      "Richard Derbyshire"
+    ],
+    "published": "2025-12-24T15:45:49Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2601.04583",
+    "title": "Autonomous Agents on Blockchains: Standards, Execution Models, and Trust Boundaries",
+    "summary": "Advances in large language models have enabled agentic AI systems that can reason, plan, and interact with external tools to execute multi-step workflows, while public blockchains have evolved into a programmable substrate for value transfer, access control, and verifiable state transitions. Their convergence introduces a high-stakes systems challenge: designing standard, interoperable, and secure interfaces that allow agents to observe on-chain state, formulate transaction intents, and authorize execution without exposing users, protocols, or organizations to unacceptable security, governance, or economic risks. This survey systematizes the emerging landscape of agent-blockchain interoperability through a systematic literature review, identifying 317 relevant works from an initial pool of over 3000 records. We contribute a five-part taxonomy of integration patterns spanning read-only analytics, simulation and intent generation, delegated execution, autonomous signing, and multi-agent workflows; a threat model tailored to agent-driven transaction pipelines that captures risks ranging from prompt injection and policy misuse to key compromise, adversarial execution dynamics, and multi-agent collusion; and a comparative capability matrix analyzing more than 20 representative systems across 13 dimensions, including custody models, permissioning, policy enforcement, observability, and recovery. Building on the gaps revealed by this analysis, we outline a research roadmap centered on two interface abstractions: a Transaction Intent Schema for portable and unambiguous goal specification, and a Policy Decision Record for auditable, verifiable policy enforcement across execution environments. We conclude by proposing a reproducible evaluation suite and benchmarks for assessing the safety, reliability, and economic robustness of agent-mediated on-chain execution.",
+    "authors": [
+      "Saad Alqithami"
+    ],
+    "published": "2026-01-08T04:29:26Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  },
+  {
+    "arxiv_id": "2601.01993",
+    "title": "MindChat: A Privacy-preserving Large Language Model for Mental Health Support",
+    "summary": "Large language models (LLMs) have shown promise for mental health support, yet training such models is constrained by the scarcity and sensitivity of real counseling dialogues. In this article, we present MindChat, a privacy-preserving LLM for mental health support, together with MindCorpus, a synthetic multi-turn counseling dataset constructed via a multi-agent role-playing framework. To synthesize high-quality counseling data, the developed dialogue-construction framework employs a dual closed-loop feedback design to integrate psychological expertise and counseling techniques through role-playing: (i) turn-level critique-and-revision to improve coherence and counseling appropriateness within a session, and (ii) session-level strategy refinement to progressively enrich counselor behaviors across sessions. To mitigate privacy risks under decentralized data ownership, we fine-tune the base model using federated learning with parameter-efficient LoRA adapters and incorporate differentially private optimization to reduce membership and memorization risks. Experiments on synthetic-data quality assessment and counseling capability evaluation show that MindCorpus improves training effectiveness and that MindChat is competitive with existing general and counseling-oriented LLM baselines under both automatic LLM-judge and human evaluation protocols, while exhibiting reduced privacy leakage under membership inference attacks.",
+    "authors": [
+      "Dong Xue",
+      "Jicheng Tu",
+      "Ming Wang",
+      "Xin Yan",
+      "Fangzhou Liu"
+    ],
+    "published": "2026-01-05T10:54:18Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  },
+  {
+    "arxiv_id": "2512.21220",
+    "title": "RoboSafe: Safeguarding Embodied Agents via Executable Safety Logic",
+    "summary": "Embodied agents powered by vision-language models (VLMs) are increasingly capable of executing complex real-world tasks, yet they remain vulnerable to hazardous instructions that may trigger unsafe behaviors. Runtime safety guardrails, which intercept hazardous actions during task execution, offer a promising solution due to their flexibility. However, existing defenses often rely on static rule filters or prompt-level control, which struggle to address implicit risks arising in dynamic, temporally dependent, and context-rich environments. To address this, we propose RoboSafe, a hybrid reasoning runtime safeguard for embodied agents through executable predicate-based safety logic. RoboSafe integrates two complementary reasoning processes on a Hybrid Long-Short Safety Memory. We first propose a Backward Reflective Reasoning module that continuously revisits recent trajectories in short-term memory to infer temporal safety predicates and proactively triggers replanning when violations are detected. We then propose a Forward Predictive Reasoning module that anticipates upcoming risks by generating context-aware safety predicates from the long-term safety memory and the agent's multimodal observations. Together, these components form an adaptive, verifiable safety logic that is both interpretable and executable as code. Extensive experiments across multiple agents demonstrate that RoboSafe substantially reduces hazardous actions (-36.8% risk occurrence) compared with leading baselines, while maintaining near-original task performance. Real-world evaluations on physical robotic arms further confirm its practicality. Code will be released upon acceptance.",
+    "authors": [
+      "Le Wang",
+      "Zonghao Ying",
+      "Xiao Yang",
+      "Quanchen Zou",
+      "Zhenfei Yin"
+    ],
+    "published": "2025-12-24T15:01:26Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  },
+  {
+    "arxiv_id": "2512.20714",
+    "title": "From Pilots to Practices: A Scoping Review of GenAI-Enabled Personalization in Computer Science Education",
+    "summary": "Generative AI enables personalized computer science education at scale, yet questions remain about whether such personalization supports or undermines learning. This scoping review synthesizes 32 studies (2023-2025) purposively sampled from 259 records to map personalization mechanisms and effectiveness signals in higher-education computer science contexts. We identify five application domains: intelligent tutoring, personalized materials, formative feedback, AI-augmented assessment, and code review, and analyze how design choices shape learning outcomes. Designs incorporating explanation-first guidance, solution withholding, graduated hint ladders, and artifact grounding (student code, tests, and rubrics) consistently show more positive learning processes than unconstrained chat interfaces. Successful implementations share four patterns: context-aware tutoring anchored in student artifacts, multi-level hint structures requiring reflection, composition with traditional CS infrastructure (autograders and rubrics), and human-in-the-loop quality assurance. We propose an exploration-first adoption framework emphasizing piloting, instrumentation, learning-preserving defaults, and evidence-based scaling. Recurrent risks include academic integrity, privacy, bias and equity, and over-reliance, and we pair these with operational mitigation. The evidence supports generative AI as a mechanism for precision scaffolding when embedded in audit-ready workflows that preserve productive struggle while scaling personalized support.",
+    "authors": [
+      "Iman Reihanian",
+      "Yunfei Hou",
+      "Qingquan Sun"
+    ],
+    "published": "2025-12-23T19:20:34Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  }
+]

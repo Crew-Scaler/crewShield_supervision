@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.22176v1",
+  "title": "Field strength-dependent performance variability in deep learning-based analysis of magnetic resonance imaging",
+  "authors": [
+    "Muhammad Ibtsaam Qadir",
+    "Duane Schonlau",
+    "Ulrike Dydak",
+    "Fiona R. Kolbinger"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22176v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "This study quantitatively evaluates the impact of MRI scanner magnetic field strength on the performance and generalizability of deep learning-based segmentation algorithms. Three publicly available MRI datasets (breast tumor, pancreas, and cervical spine) were stratified by scanner field strength (1.5T vs. 3.0T). For each segmentation task, three nnU-Net-based models were developed: A model trained on 1.5T data only (m-1.5T), a model trained on 3.0T data only (m-3.0T), and a model trained on po..."
+}

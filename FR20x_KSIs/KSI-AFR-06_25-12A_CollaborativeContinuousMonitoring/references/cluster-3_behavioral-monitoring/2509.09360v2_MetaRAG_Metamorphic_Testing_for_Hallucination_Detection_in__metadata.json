@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2509.09360v2",
+  "title": "MetaRAG: Metamorphic Testing for Hallucination Detection in RAG Systems",
+  "authors": [
+    "Channdeth Sok",
+    "David Luz",
+    "Yacine Haddam"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-09",
+  "url": "https://arxiv.org/abs/2509.09360v2",
+  "relevance_score": 94.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "autonomous systems"
+  ],
+  "summary": "Large Language Models (LLMs) are increasingly deployed in enterprise applications, yet their reliability remains limited by hallucinations, i.e., confident but factually incorrect information. Existing detection approaches, such as SelfCheckGPT and MetaQA, primarily target standalone LLMs and do not address the unique challenges of Retrieval-Augmented Generation (RAG) systems, where responses must be consistent with retrieved evidence. We therefore present MetaRAG, a metamorphic testing framewor..."
+}

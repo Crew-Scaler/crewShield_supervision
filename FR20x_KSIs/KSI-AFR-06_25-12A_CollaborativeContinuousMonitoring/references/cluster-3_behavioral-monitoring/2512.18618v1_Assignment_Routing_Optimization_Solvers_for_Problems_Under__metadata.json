@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.18618v1",
+  "title": "Assignment-Routing Optimization: Solvers for Problems Under Constraints",
+  "authors": [
+    "Yuan Qilong",
+    "Michal Pavelka"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.18618v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring"
+  ],
+  "summary": "We study the Joint Routing-Assignment (JRA) problem in which items must be assigned one-to-one to placeholders while simultaneously determining a Hamiltonian cycle visiting all nodes exactly once. Extending previous exact MIP solvers with Gurobi and cutting-plane subtour elimination, we develop a solver tailored for practical packaging-planning scenarios with richer constraints.These include multiple placeholder options, time-frame restrictions, and multi-class item packaging. Experiments on 46 ..."
+}

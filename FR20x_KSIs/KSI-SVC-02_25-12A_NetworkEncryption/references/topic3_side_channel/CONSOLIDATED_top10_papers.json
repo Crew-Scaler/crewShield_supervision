@@ -1,0 +1,203 @@
+[
+  {
+    "rank": 1,
+    "id": "http://arxiv.org/abs/2506.08252v1",
+    "arxiv_id": "2506.08252v1",
+    "title": "PoSyn: Secure Power Side-Channel Aware Synthesis",
+    "summary": "Power Side-Channel (PSC) attacks exploit power consumption patterns to extract sensitive information, posing risks to cryptographic operations crucial for secure systems. Traditional countermeasures, such as masking, face challenges including complex integration during synthesis, substantial area overhead, and susceptibility to optimization removal during logic synthesis. To address these issues, we introduce PoSyn, a novel logic synthesis framework designed to enhance cryptographic hardware resistance against PSC attacks. Our method centers on optimal bipartite mapping of vulnerable RTL components to standard cells from the technology library, aiming to minimize PSC leakage. By utilizing a cost function integrating critical characteristics from both the RTL design and the standard cell library, we strategically modify mapping criteria during RTL-to-netlist conversion without altering design functionality. Furthermore, we theoretically establish that PoSyn minimizes mutual information leakage, strengthening its security against PSC vulnerabilities. We evaluate PoSyn across various cryptographic hardware implementations, including AES, RSA, PRESENT, and post-quantum cryptographic algorithms such as Saber and CRYSTALS-Kyber, at technology nodes of 65nm, 45nm, and 15nm. Experimental results demonstrate a substantial reduction in success rates for Differential Power Analysis (DPA) and Correlation Power Analysis (CPA) attacks, achieving lows of 3% and 6%, respectively. TVLA analysis further confirms that synthesized netlists exhibit negligible leakage. Additionally, compared to conventional countermeasures like masking and shuffling, PoSyn significantly lowers attack success rates, achieving reductions of up to 72%, while simultaneously enhancing area efficiency by as much as 3.79 times.",
+    "published": "2025-06-09T21:41:47Z",
+    "year": 2025,
+    "authors": [
+      "Amisha Srivastava",
+      "Samit S. Miftah",
+      "Hyunmin Kim",
+      "Debjit Pal",
+      "Kanad Basu"
+    ],
+    "affiliations": [],
+    "first_author": "Amisha Srivastava",
+    "pdf_url": "https://arxiv.org/pdf/2506.08252v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0,
+    "key_metrics": {
+      "dpa_attack_success_rate": "3%",
+      "cpa_attack_success_rate": "6%",
+      "attack_reduction_vs_masking": "up to 72%",
+      "area_efficiency_improvement": "3.79x",
+      "cryptographic_algorithms_tested": ["AES", "RSA", "PRESENT", "Saber", "CRYSTALS-Kyber"],
+      "technology_nodes": ["65nm", "45nm", "15nm"]
+    },
+    "focus_areas": [
+      "Power side-channel attacks",
+      "DPA and CPA attacks",
+      "Hardware synthesis",
+      "Cryptographic hardware",
+      "Post-quantum cryptography"
+    ]
+  },
+  {
+    "rank": 2,
+    "id": "http://arxiv.org/abs/2501.04394v1",
+    "arxiv_id": "2501.04394v1",
+    "title": "Modern Hardware Security: A Review of Attacks and Countermeasures",
+    "summary": "With the exponential rise in the use of cloud services, smart devices, and IoT devices, advanced cyber attacks have become increasingly sophisticated and ubiquitous. Furthermore, the rapid evolution of computing architectures and memory technologies has created an urgent need to understand and address hardware security vulnerabilities. In this paper, we review the current state of vulnerabilities and mitigation strategies in contemporary computing systems. We discuss cache side-channel attacks (including Spectre and Meltdown), power side-channel attacks (such as Simple Power Analysis, Differential Power Analysis, Correlation Power Analysis, and Template Attacks), and advanced techniques like Voltage Glitching and Electromagnetic Analysis to help understand and build robust cybersecurity defense systems and guide further research. We also examine memory encryption, focusing on confidentiality, granularity, key management, masking, and re-keying strategies. Additionally, we cover Cryptographic Instruction Set Architectures, Secure Boot, Root of Trust mechanisms, Physical Unclonable Functions, and hardware fault injection techniques. The paper concludes with an analysis of the RISC-V architecture's unique security challenges. The comprehensive analysis presented in this paper is essential for building resilient hardware security solutions that can protect against both current and emerging threats in an increasingly challenging security landscape.",
+    "published": "2025-01-08T10:14:19Z",
+    "year": 2025,
+    "authors": [
+      "Jyotiprakash Mishra",
+      "Sanjay K. Sahay"
+    ],
+    "affiliations": [],
+    "first_author": "Jyotiprakash Mishra",
+    "pdf_url": "https://arxiv.org/pdf/2501.04394v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0,
+    "key_metrics": {
+      "scope": "Comprehensive review",
+      "cloud_threat_coverage": "Yes"
+    },
+    "focus_areas": [
+      "Cache side-channel attacks (Spectre, Meltdown)",
+      "Power side-channel attacks (SPA, DPA, CPA, Template Attacks)",
+      "Voltage Glitching",
+      "Electromagnetic Analysis",
+      "Memory encryption",
+      "Cryptographic Instruction Set Architectures",
+      "Cloud security"
+    ]
+  },
+  {
+    "rank": 3,
+    "id": "http://arxiv.org/abs/2501.17123v1",
+    "arxiv_id": "2501.17123v1",
+    "title": "Hybrid Deep Learning Model for Multiple Cache Side Channel Attacks Detection: A Comparative Analysis",
+    "summary": "Cache side channel attacks are a sophisticated and persistent threat that exploit vulnerabilities in modern processors to extract sensitive information. These attacks leverage weaknesses in shared computational resources, particularly the last level cache, to infer patterns in data access and execution flows, often bypassing traditional security defenses. Such attacks are especially dangerous as they can be executed remotely without requiring physical access to the victim's device. This study focuses on a specific class of these threats: fingerprinting attacks, where an adversary monitors and analyzes the behavior of co-located processes via cache side channels. This can potentially reveal confidential information, such as encryption keys or user activity patterns. A comprehensive threat model illustrates how attackers sharing computational resources with target systems exploit these side channels to compromise sensitive data. To mitigate such risks, a hybrid deep learning model is proposed for detecting cache side channel attacks. Its performance is compared with five widely used deep learning models: Multi-Layer Perceptron, Convolutional Neural Network, Simple Recurrent Neural Network, Long Short-Term Memory, and Gated Recurrent Unit. The experimental results demonstrate that the hybrid model achieves a detection rate of up to 99.96%. These findings highlight the limitations of existing models, the need for enhanced defensive mechanisms, and directions for future research to secure sensitive data against evolving side channel threats.",
+    "published": "2025-01-28T18:14:43Z",
+    "year": 2025,
+    "authors": [
+      "Tejal Joshi",
+      "Aarya Kawalay",
+      "Anvi Jamkhande",
+      "Amit Joshi"
+    ],
+    "affiliations": [],
+    "first_author": "Tejal Joshi",
+    "pdf_url": "https://arxiv.org/pdf/2501.17123v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0,
+    "key_metrics": {
+      "detection_rate": "99.96%",
+      "attack_type": "Cache side-channel fingerprinting",
+      "target": "Last-level cache (LLC)",
+      "execution_context": "Remote, co-located processes"
+    },
+    "focus_areas": [
+      "Cache side-channel attacks",
+      "Fingerprinting attacks",
+      "Shared computational resources",
+      "Deep learning detection",
+      "Cloud security",
+      "Encryption key extraction"
+    ]
+  },
+  {
+    "rank": 4,
+    "id": "http://arxiv.org/abs/2501.02350v1",
+    "arxiv_id": "2501.02350v1",
+    "title": "PM-Dedup: Secure Deduplication with Partial Migration from Cloud to Edge Servers",
+    "summary": "Currently, an increasing number of users and enterprises are storing their data in the cloud but do not fully trust cloud providers with their data in plaintext form. To address this concern, they encrypt their data before uploading it to the cloud. However, encryption with different keys means that even identical data will become different ciphertexts, making deduplication less effective. Encrypted deduplication avoids this issue by ensuring that identical data chunks generate the same ciphertext with content-based keys, enabling the cloud to efficiently identify and remove duplicates even in encrypted form. Current encrypted data deduplication work can be classified into two types: target-based and source-based. Target-based encrypted deduplication requires clients to upload all encrypted chunks (the basic unit of deduplication) to the cloud with high network bandwidth overhead. Source-based deduplication involves clients uploading fingerprints (hashes) of encrypted chunks for duplicate checking and only uploading unique encrypted chunks, which reduces network transfer but introduces high latency and potential side-channel attacks, which need to be mitigated by Proof of Ownership (PoW), and high computing overhead of the cloud. So, reducing the latency and the overheads of network and cloud while ensuring security has become a significant challenge for secure data deduplication in cloud storage. In response to this challenge, we present PM-Dedup, a novel secure source-based deduplication approach that relocates a portion of the deduplication checking process and PoW tasks from the cloud to the trusted execution environments (TEEs) in the client-side edge servers. We also propose various designs to enhance the security and efficiency of data deduplication.",
+    "published": "2025-01-04T18:12:23Z",
+    "year": 2025,
+    "authors": [
+      "Zhaokang Ke",
+      "Haoyu Gong",
+      "David H. C. Du"
+    ],
+    "affiliations": [],
+    "first_author": "Zhaokang Ke",
+    "pdf_url": "https://arxiv.org/pdf/2501.02350v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "key_metrics": {
+      "cloud_platform": "Cloud/Edge hybrid",
+      "security_technology": "TEE-based",
+      "attack_mitigation": "Proof of Ownership (PoW)"
+    },
+    "focus_areas": [
+      "Side-channel attacks on encrypted data",
+      "Cloud storage security",
+      "Trusted Execution Environments (TEE)",
+      "Deduplication attacks",
+      "Cloud-to-edge migration"
+    ]
+  },
+  {
+    "rank": 5,
+    "id": "http://arxiv.org/abs/2507.01423v1",
+    "arxiv_id": "2507.01423v1",
+    "title": "A Compact 16-bit S-box over Tower Field with High Security",
+    "summary": "This paper introduces a compact and secure 16-bit substitution box (S-box) designed over the composite field F_{(((2^2)^2)^2)^2}, optimized for both hardware efficiency and cryptographic robustness. The proposed S-box decomposes operations into subfields, leveraging a tower field architecture. This enables significant hardware reduction through optimized field inversion and a low-cost affine transformation. Security evaluations confirm resilience against linear, differential, algebraic and DPA attacks, validated via metrics including Nonlinearity (32512), Differential Uniformity (4), Algebraic Degree (15), Transparency order (15.9875) and SNR (0.34e-08). The hardware results, in 65 nm CMOS technology, show the proposed 16-bit S-box has lower hardware resources consumption and lower critical path delay (CPD) than those of other 16-bit S-boxes. By integrating high algebraic complexity with resource-efficient structures, this work addresses the growing demand for scalable cryptographic primitives in data-sensitive applications, demonstrating that larger S-boxes can enhance security without proportional hardware costs. The results underscore the viability of composite field-based architectures in balancing security and efficiency for modern block ciphers.",
+    "published": "2025-07-02T07:22:22Z",
+    "year": 2025,
+    "authors": [
+      "Bahram Rashidi",
+      "Behrooz Khadem"
+    ],
+    "affiliations": [],
+    "first_author": "Bahram Rashidi",
+    "pdf_url": "https://arxiv.org/pdf/2507.01423v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0,
+    "key_metrics": {
+      "dpa_resistance": "Confirmed",
+      "nonlinearity": 32512,
+      "differential_uniformity": 4,
+      "algebraic_degree": 15,
+      "transparency_order": 15.9875,
+      "SNR": "0.34e-08",
+      "technology": "65nm CMOS"
+    },
+    "focus_areas": [
+      "DPA attacks",
+      "Cryptographic S-box design",
+      "Hardware security",
+      "Side-channel resistant cryptography",
+      "Tower field architectures"
+    ]
+  },
+  {
+    "rank": 6,
+    "id": "http://arxiv.org/abs/2412.01073v1",
+    "arxiv_id": "2412.01073v1",
+    "title": "TRUST: A Toolkit for TEE-Assisted Secure Outsourced Computation over Integers",
+    "summary": "Secure outsourced computation (SOC) provides secure computing services by taking advantage of the computation power of cloud computing and the technology of privacy computing (e.g., homomorphic encryption). Expanding computational operations on encrypted data (e.g., enabling complex calculations directly over ciphertexts) and broadening the applicability of SOC across diverse use cases remain critical yet challenging research topics in the field. Nevertheless, previous SOC solutions frequently lack the computational efficiency and adaptability required to fully meet evolving demands. To this end, in this paper, we propose a toolkit for TEE-assisted (Trusted Execution Environment) SOC over integers, named TRUST. In terms of system architecture, TRUST falls in a single TEE-equipped cloud server only through seamlessly integrating the computation of REE (Rich Execution Environment) and TEE. In consideration of TEE being difficult to permanently store data and being vulnerable to attacks, we introduce a (2, 2)-threshold homomorphic cryptosystem to fit the hybrid computation between REE and TEE. Additionally, we carefully design a suite of SOC protocols supporting unary, binary and ternary operations. To achieve applications, we present SEAT, secure data trading based on TRUST. Security analysis demonstrates that TRUST enables SOC, avoids collusion attacks among multiple cloud servers, and mitigates potential secret leakage risks within TEE (e.g., from side-channel attacks). Experimental evaluations indicate that TRUST outperforms the state-of-the-art and requires no alignment of data as well as any network communications. Furthermore, SEAT is as effective as the Baseline without any data protection.",
+    "published": "2024-12-02T03:19:29Z",
+    "year": 2024,
+    "authors": [
+      "Bowen Zhao",
+      "Jiuhui Li",
+      "Peiming Xu",
+      "Xiaoguo Li",
+      "Qingqi Pei",
+      "Yulong Shen"
+    ],
+    "affiliations": [],
+    "first_author": "Bowen Zhao",
+    "pdf_url": "https://arxiv.org/pdf/2412.01073v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 11.0,
+    "key_metrics": {
+      "cloud_platform": "Cloud with TEE",
+      "security_technology": "Trusted Execution Environment (TEE)",
+      "mitigation_targets": ["Side-channel attacks", "Collusion attacks"],
+      "encryption_method": "Homomorphic encryption"
+    },
+    "focus_areas": [
+      "Side-channel attacks in TEE",
+      "Cloud computing security",
+      "Secure outsourced computation",
+      "Homomorphic encryption",
+      "Cloud-based secret leakage mitigation"
+    ]
+  }
+]

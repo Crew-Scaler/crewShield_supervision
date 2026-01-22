@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2407.08322v1",
+  "title": "Intelligent Multi-Document Summarisation for Extracting Insights on Racial Inequalities from Maternity Incident Investigation Reports",
+  "authors": [
+    "Georgina Cosma",
+    "Mohit Kumar Singh",
+    "Patrick Waterson",
+    "Gyuchan Thomas Jun",
+    "Jonathan Back"
+  ],
+  "published": "2024-07-11T09:11:20Z",
+  "url": "http://arxiv.org/abs/2407.08322v1",
+  "pdf_url": "http://arxiv.org/pdf/2407.08322v1.pdf",
+  "relevance_score": 95,
+  "summary": "In healthcare, thousands of safety incidents occur every year, but learning from these incidents is not effectively aggregated. Analysing incident reports using AI could uncover critical insights to prevent harm by identifying recurring patterns and contributing factors. To aggregate and extract valuable information, natural language processing (NLP) and machine learning techniques can be employed to summarise and mine unstructured data, potentially surfacing systemic issues and priority areas for improvement. This paper presents I-SIRch:CS, a framework designed to facilitate the aggregation and analysis of safety incident reports while ensuring traceability throughout the process. The framework integrates concept annotation using the Safety Intelligence Research (SIRch) taxonomy with clustering, summarisation, and analysis capabilities. Utilising a dataset of 188 anonymised maternity investigation reports annotated with 27 SIRch human factors concepts, I-SIRch:CS groups the annotated sentences into clusters using sentence embeddings and k-means clustering, maintaining traceability via file and sentence IDs. Summaries are generated for each cluster using offline state-of-the-art abstractive summarisation models (BART, DistilBART, T5), which are evaluated and compared using metrics assessing summary quality attributes. The generated summaries are linked back to the original file and sentence IDs, ensuring traceability and allowing for verification of the summarised information. Results demonstrate BART's strengths in creating informative and concise summaries."
+}

@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2512.07533v1",
+  "title": "VulnLLM-R: Specialized Reasoning LLM with Agent Scaffold for Vulnerability Detection",
+  "authors": [
+    "Yuzhou Nie",
+    "Hongwei Li",
+    "Chengquan Guo",
+    "Ruizhe Jiang",
+    "Zhun Wang",
+    "Bo Li",
+    "Dawn Song",
+    "Wenbo Guo"
+  ],
+  "published": "2025-12-08T13:06:23Z",
+  "url": "http://arxiv.org/abs/2512.07533v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.07533v1.pdf",
+  "relevance_score": 90,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "We propose VulnLLM-R, the~\\emph{first specialized reasoning LLM} for vulnerability detection. Our key insight is that LLMs can reason about program states and analyze the potential vulnerabilities, rather than simple pattern matching. This can improve the model's generalizability and prevent learning shortcuts. However, SOTA reasoning LLMs are typically ultra-large, closed-source, or have limited performance in vulnerability detection. To address this, we propose a novel training recipe with spe"
+}

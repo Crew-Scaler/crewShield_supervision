@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2509.24841v2",
+  "title": "A Hierarchical Error Framework for Reliable Automated Coding in Communication Research: Applications to Health and Political Communication",
+  "authors": [
+    "Zhilong Zhao",
+    "Yindi Liu"
+  ],
+  "published": "2025-09-29T14:21:05Z",
+  "url": "http://arxiv.org/abs/2509.24841v2",
+  "pdf_url": "http://arxiv.org/pdf/2509.24841v2.pdf",
+  "relevance_score": 95,
+  "summary": "Automated content analysis increasingly supports communication research, yet scaling manual coding into computational pipelines raises concerns about measurement reliability and validity. We introduce a Hierarchical Error Correction (HEC) framework that treats model failures as layered measurement errors (knowledge gaps, reasoning limitations, and complexity constraints) and targets the layers that most affect inference. The framework implements a three-phase methodology: systematic error profiling across hierarchical layers, targeted intervention design matched to dominant error sources, and rigorous validation with statistical testing. Evaluating HEC across health communication (medical specialty classification) and political communication (bias detection), and legal tasks, we validate the approach with five diverse large language models. Results show average accuracy gains of 11.2 percentage points (p < .001, McNemar's test) and stable conclusions via reduced systematic misclassification. Cross-model validation demonstrates consistent improvements (range: +6.8 to +14.6pp), with effectiveness concentrated in moderate-to-high baseline tasks (50-85% accuracy). A boundary study reveals diminished returns in very high-baseline (>85%) or precision-matching tasks, establishing applicability limits. We map layered errors to threats to construct and criterion validity and provide a transparent, measurement-first blueprint for diagnosing error profiles, selecting targeted interventions, and reporting reliability/validity evidence alongside accuracy. This applies to automated coding across communication research and the broader social sciences."
+}

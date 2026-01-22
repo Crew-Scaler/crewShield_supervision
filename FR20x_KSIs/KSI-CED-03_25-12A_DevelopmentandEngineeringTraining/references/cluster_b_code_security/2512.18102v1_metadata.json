@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.18102v1",
+  "title": "From Coverage to Causes: Data-Centric Fuzzing for JavaScript Engines",
+  "authors": [
+    "Kishan Kumar Ganguly",
+    "Tim Menzies"
+  ],
+  "published": "2025-12-19T22:15:53Z",
+  "url": "http://arxiv.org/abs/2512.18102v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.18102v1.pdf",
+  "relevance_score": 76,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Context: Exhaustive fuzzing of modern JavaScript engines is infeasible due to the vast number of program states and execution paths. Coverage-guided fuzzers waste effort on low-risk inputs, often ignoring vulnerability-triggering ones that do not increase coverage. Existing heuristics proposed to mitigate this require expert effort, are brittle, and hard to adapt.\n  Objective: We propose a data-centric, LLM-boosted alternative that learns from historical vulnerabilities to automatically identify"
+}

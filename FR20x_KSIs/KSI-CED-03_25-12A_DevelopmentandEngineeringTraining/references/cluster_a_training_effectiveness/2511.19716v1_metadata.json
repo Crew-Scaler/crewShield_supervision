@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2511.19716v1",
+  "title": "Designing Preconditioners for SGD: Local Conditioning, Noise Floors, and Basin Stability",
+  "authors": [
+    "Mitchell Scott",
+    "Tianshi Xu",
+    "Ziyuan Tang",
+    "Alexandra Pichette-Emmons",
+    "Qiang Ye",
+    "Yousef Saad",
+    "Yuanzhe Xi"
+  ],
+  "published": "2025-11-24T21:24:40Z",
+  "url": "http://arxiv.org/abs/2511.19716v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.19716v1.pdf",
+  "relevance_score": 72,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Stochastic Gradient Descent (SGD) often slows in the late stage of training due to anisotropic curvature and gradient noise. We analyze preconditioned SGD in the geometry induced by a symmetric positive definite matrix $\\mathbf{M}$, deriving bounds in which both the convergence rate and the stochastic noise floor are governed by $\\mathbf{M}$-dependent quantities: the rate through an effective condition number in the $\\mathbf{M}$-metric, and the floor through the product of that condition number "
+}

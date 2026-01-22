@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2511.09487v1",
+  "title": "PDAC: Efficient Coreset Selection for Continual Learning via Probability Density Awareness",
+  "authors": [
+    "Junqi Gao",
+    "Zhichang Guo",
+    "Dazhi Zhang",
+    "Yao Li",
+    "Yi Ran",
+    "Biqing Qi"
+  ],
+  "published": "2025-11-12T17:00:21Z",
+  "url": "http://arxiv.org/abs/2511.09487v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.09487v1.pdf",
+  "relevance_score": 99,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Rehearsal-based Continual Learning (CL) maintains a limited memory buffer to store replay samples for knowledge retention, making these approaches heavily reliant on the quality of the stored samples. Current Rehearsal-based CL methods typically construct the memory buffer by selecting a representative subset (referred to as coresets), aiming to approximate the training efficacy of the full dataset with minimal storage overhead. However, mainstream Coreset Selection (CS) methods generally formul"
+}

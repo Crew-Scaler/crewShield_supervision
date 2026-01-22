@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.21048v1",
+  "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+  "authors": [
+    "Savvy Sharma",
+    "George Petrovic",
+    "Sarthak Kaushik"
+  ],
+  "published": "2025-12-24T08:29:28Z",
+  "summary": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. W",
+  "cluster": "cluster_6",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.197037"
+}

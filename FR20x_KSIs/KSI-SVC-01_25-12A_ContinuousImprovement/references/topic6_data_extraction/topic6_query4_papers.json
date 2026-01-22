@@ -1,0 +1,212 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.15892v1",
+    "arxiv_id": "2512.15892v1",
+    "title": "VET Your Agent: Towards Host-Independent Autonomy via Verifiable Execution Traces",
+    "summary": "Recent advances in large language models (LLMs) have enabled a new generation of autonomous agents that operate over sustained periods and manage sensitive resources on behalf of users. Trusted for their ability to act without direct oversight, such agents are increasingly considered in high-stakes domains including financial management, dispute resolution, and governance. Yet in practice, agents execute on infrastructure controlled by a host, who can tamper with models, inputs, or outputs, undermining any meaningful notion of autonomy.   We address this gap by introducing VET (Verifiable Execution Traces), a formal framework that achieves host-independent authentication of agent outputs and takes a step toward host-independent autonomy. Central to VET is the Agent Identity Document (AID), which specifies an agent's configuration together with the proof systems required for verification. VET is compositional: it supports multiple proof mechanisms, including trusted hardware, succinct cryptographic proofs, and notarized TLS transcripts (Web Proofs).   We implement VET for an API-based LLM agent and evaluate our instantiation on realistic workloads. We find that for today's black-box, secret-bearing API calls, Web Proofs appear to be the most practical choice, with overhead typically under 3$\\times$ compared to direct API calls, while for public API calls, a lower-overhead TEE Proxy is often sufficient. As a case study, we deploy a verifiable trading agent that produces proofs for each decision and composes Web Proofs with a TEE Proxy. Our results demonstrate that practical, host-agnostic authentication is already possible with current technology, laying the foundation for future systems that achieve full host-independent autonomy.",
+    "published": "2025-12-17T19:05:37Z",
+    "updated": "2025-12-17T19:05:37Z",
+    "authors": [
+      "Artem Grigor",
+      "Christian Schroeder de Witt",
+      "Simon Birnbach",
+      "Ivan Martinovic"
+    ],
+    "affiliations": [],
+    "first_author": "Artem Grigor",
+    "pdf_url": "https://arxiv.org/pdf/2512.15892v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16419v1",
+    "arxiv_id": "2512.16419v1",
+    "title": "Large Language Models as a (Bad) Security Norm in the Context of Regulation and Compliance",
+    "summary": "The use of Large Language Models (LLM) by providers of cybersecurity and digital infrastructures of all kinds is an ongoing development. It is suggested and on an experimental basis used to write the code for the systems, and potentially fed with sensitive data or what would otherwise be considered trade secrets. Outside of these obvious points, this paper asks how AI can negatively affect cybersecurity and law when used for the design and deployment of security infrastructure by its developers.   Firstly, the paper discusses the use of LLMs in security, either directly or indirectly, and briefly tackles other types of AI. It then lists norms in cybersecurity, then a range of legal cybersecurity obligations from the European Union, to create a frame of reference. Secondly, the paper describes how LLMs may fail to fulfil both legal obligations and best practice in cybersecurity is given, and the paper ends with some economic and practical consequences for this development, with some notions of solutions as well.   The paper finds that using LLMs comes with many risks, many of which are against good security practice, and the legal obligations in security regulation. This is because of the inherent weaknesses of LLMs, most of which are mitigated if replaced with symbolic AI. Both also have issues fulfilling basic traceability obligations and practice. Solutions are secondary systems surrounding LLM based AI, fulfilment of security norms beyond legal requirements and simply not using such technology in certain situations.",
+    "published": "2025-12-18T11:14:21Z",
+    "updated": "2025-12-18T11:14:21Z",
+    "authors": [
+      "Kaspar Rosager Ludvigsen"
+    ],
+    "affiliations": [],
+    "first_author": "Kaspar Rosager Ludvigsen",
+    "pdf_url": "https://arxiv.org/pdf/2512.16419v1",
+    "primary_category": "cs.CY",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20022v1",
+    "arxiv_id": "2512.20022v1",
+    "title": "LLM-Assisted Abstract Screening with OLIVER: Evaluating Calibration and Single-Model vs. Actor-Critic Configurations in Literature Reviews",
+    "summary": "Introduction: Recent work suggests large language models (LLMs) can accelerate screening, but prior evaluations focus on earlier LLMs, standardized Cochrane reviews, single-model setups, and accuracy as the primary metric, leaving generalizability, configuration effects, and calibration largely unexamined.   Methods: We developed OLIVER (Optimized LLM-based Inclusion and Vetting Engine for Reviews), an open-source pipeline for LLM-assisted abstract screening. We evaluated multiple contemporary LLMs across two non-Cochrane systematic reviews and performance was assessed at both the full-text screening and final inclusion stages using accuracy, AUC, and calibration metrics. We further tested an actor-critic screening framework combining two lightweight models under three aggregation rules.   Results: Across individual models, performance varied widely. In the smaller Review 1 (821 abstracts, 63 final includes), several models achieved high sensitivity for final includes but at the cost of substantial false positives and poor calibration. In the larger Review 2 (7741 abstracts, 71 final includes), most models were highly specific but struggled to recover true includes, with prompt design influencing recall. Calibration was consistently weak across single-model configurations despite high overall accuracy. Actor-critic screening improved discrimination and markedly reduced calibration error in both reviews, yielding higher AUCs.   Discussion: LLMs may eventually accelerate abstract screening, but single-model performance is highly sensitive to review characteristics, prompting, and calibration is limited. An actor-critic framework improves classification quality and confidence reliability while remaining computationally efficient, enabling large-scale screening at low cost.",
+    "published": "2025-12-23T03:32:43Z",
+    "updated": "2025-12-23T03:32:43Z",
+    "authors": [
+      "Kian Godhwani",
+      "David Benrimoh"
+    ],
+    "affiliations": [],
+    "first_author": "Kian Godhwani",
+    "pdf_url": "https://arxiv.org/pdf/2512.20022v1",
+    "primary_category": "cs.IR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19606v1",
+    "arxiv_id": "2512.19606v1",
+    "title": "RAPID-LLM: Resilience-Aware Performance analysis of Infrastructure for Distributed LLM Training and Inference",
+    "summary": "RAPID-LLM is a unified performance modeling framework for large language model (LLM) training and inference on GPU clusters. It couples a DeepFlow-based frontend that generates hardware-aware, operator-level Chakra execution traces from an abstract LLM specification (model shape, batch/sequence settings, training vs. inference, and hybrid parallelism choices) with an extended Astra-Sim backend that executes those traces on explicit multi-dimensional network topologies with congestion-aware routing and support for degraded and faulty links. The frontend assigns per-operator latency using a tile-based model that accounts for SM under-utilization and multi-level memory traffic (SRAM/ L2/ HBM), and prunes memory-infeasible configurations using an activation-liveness traversal under recomputation, parallelism and ZeRO/FDSP sharding policies.   Across A100-based validation cases, RAPID-LLM predicts Llama inference step latency and GPT-scale training time per batch within 10.4\\% relative to published measurements, and matches ns-3 packet-level results within 8\\% on representative communication workloads. Case studies demonstrate how RAPID-LLM enables fast, exhaustive sweeps over hybrid-parallel configurations, quantifies sensitivity to soft link faults under realistic routing and congestion, and evaluates hypothetical GPU design variants including HBM bandwidth throttling effects.",
+    "published": "2025-12-22T17:42:51Z",
+    "updated": "2025-12-22T17:42:51Z",
+    "authors": [
+      "George Karfakis",
+      "Faraz Tahmasebi",
+      "Binglu Chen",
+      "Lime Yao",
+      "Saptarshi Mitra",
+      "Tianyue Pan",
+      "Hyoukjun Kwon",
+      "Puneet Gupta"
+    ],
+    "affiliations": [],
+    "first_author": "George Karfakis",
+    "pdf_url": "https://arxiv.org/pdf/2512.19606v1",
+    "primary_category": "cs.PF",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16297v1",
+    "arxiv_id": "2512.16297v1",
+    "title": "Feature-Selective Representation Misdirection for Machine Unlearning",
+    "summary": "As large language models (LLMs) are increasingly adopted in safety-critical and regulated sectors, the retention of sensitive or prohibited knowledge introduces escalating risks, ranging from privacy leakage to regulatory non-compliance to to potential misuse, and so on. Recent studies suggest that machine unlearning can help ensure deployed models comply with evolving legal, safety, and governance requirements. However, current unlearning techniques assume clean separation between forget and retain datasets, which is challenging in operational settings characterized by highly entangled distributions. In such scenarios, perturbation-based methods often degrade general model utility or fail to ensure safety. To address this, we propose Selective Representation Misdirection for Unlearning (SRMU), a novel principled activation-editing framework that enforces feature-aware and directionally controlled perturbations. Unlike indiscriminate model weights perturbations, SRMU employs a structured misdirection vector with an activation importance map. The goal is to allow SRMU selectively suppresses harmful representations while preserving the utility on benign ones. Experiments are conducted on the widely used WMDP benchmark across low- and high-entanglement configurations. Empirical results reveal that SRMU delivers state-of-the-art unlearning performance with minimal utility losses, and remains effective under 20-30\\% overlap where existing baselines collapse. SRMU provides a robust foundation for safety-driven model governance, privacy compliance, and controlled knowledge removal in the emerging LLM-based applications. We release the replication package at https://figshare.com/s/d5931192a8824de26aff.",
+    "published": "2025-12-18T08:31:50Z",
+    "updated": "2025-12-18T08:31:50Z",
+    "authors": [
+      "Taozhao Chen",
+      "Linghan Huang",
+      "Kim-Kwang Raymond Choo",
+      "Huaming Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Taozhao Chen",
+    "pdf_url": "https://arxiv.org/pdf/2512.16297v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16292v2",
+    "arxiv_id": "2512.16292v2",
+    "title": "In-Context Probing for Membership Inference in Fine-Tuned Language Models",
+    "summary": "Membership inference attacks (MIAs) pose a critical privacy threat to fine-tuned large language models (LLMs), especially when models are adapted to domain-specific tasks using sensitive data. While prior black-box MIA techniques rely on confidence scores or token likelihoods, these signals are often entangled with a sample's intrinsic properties - such as content difficulty or rarity - leading to poor generalization and low signal-to-noise ratios. In this paper, we propose ICP-MIA, a novel MIA framework grounded in the theory of training dynamics, particularly the phenomenon of diminishing returns during optimization. We introduce the Optimization Gap as a fundamental signal of membership: at convergence, member samples exhibit minimal remaining loss-reduction potential, while non-members retain significant potential for further optimization. To estimate this gap in a black-box setting, we propose In-Context Probing (ICP), a training-free method that simulates fine-tuning-like behavior via strategically constructed input contexts. We propose two probing strategies: reference-data-based (using semantically similar public samples) and self-perturbation (via masking or generation). Experiments on three tasks and multiple LLMs show that ICP-MIA significantly outperforms prior black-box MIAs, particularly at low false positive rates. We further analyze how reference data alignment, model type, PEFT configurations, and training schedules affect attack effectiveness. Our findings establish ICP-MIA as a practical and theoretically grounded framework for auditing privacy risks in deployed LLMs.",
+    "published": "2025-12-18T08:26:26Z",
+    "updated": "2025-12-21T20:55:37Z",
+    "authors": [
+      "Zhexi Lu",
+      "Hongliang Chi",
+      "Nathalie Baracaldo",
+      "Swanand Ravindra Kadhe",
+      "Yuseok Jeon",
+      "Lei Yu"
+    ],
+    "affiliations": [],
+    "first_author": "Zhexi Lu",
+    "pdf_url": "https://arxiv.org/pdf/2512.16292v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15688v1",
+    "arxiv_id": "2512.15688v1",
+    "title": "BashArena: A Control Setting for Highly Privileged AI Agents",
+    "summary": "Future AI agents might run autonomously with elevated privileges. If these agents are misaligned, they might abuse these privileges to cause serious damage. The field of AI control develops techniques that make it harder for misaligned AIs to cause such damage, while preserving their usefulness. We introduce BashArena, a setting for studying AI control techniques in security-critical environments. BashArena contains 637 Linux system administration and infrastructure engineering tasks in complex, realistic environments, along with four sabotage objectives (execute malware, exfiltrate secrets, escalate privileges, and disable firewall) for a red team to target. We evaluate multiple frontier LLMs on their ability to complete tasks, perform sabotage undetected, and detect sabotage attempts. Claude Sonnet 4.5 successfully executes sabotage while evading monitoring by GPT-4.1 mini 26% of the time, at 4% trajectory-wise FPR. Our findings provide a baseline for designing more effective control protocols in BashArena. We release the dataset as a ControlArena setting and share our task generation pipeline.",
+    "published": "2025-12-17T18:45:25Z",
+    "updated": "2025-12-17T18:45:25Z",
+    "authors": [
+      "Adam Kaufman",
+      "James Lucassen",
+      "Tyler Tracy",
+      "Cody Rushing",
+      "Aryan Bhatt"
+    ],
+    "affiliations": [],
+    "first_author": "Adam Kaufman",
+    "pdf_url": "https://arxiv.org/pdf/2512.15688v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14946v1",
+    "arxiv_id": "2512.14946v1",
+    "title": "EVICPRESS: Joint KV-Cache Compression and Eviction for Efficient LLM Serving",
+    "summary": "Reusing KV cache is essential for high efficiency of Large Language Model (LLM) inference systems. With more LLM users, the KV cache footprint can easily exceed GPU memory capacity, so prior work has proposed to either evict KV cache to lower-tier storage devices, or compress KV cache so that more KV cache can be fit in the fast memory. However, prior work misses an important opportunity: jointly optimizing the eviction and compression decisions across all KV caches to minimize average generation latency without hurting quality.   We propose EVICPRESS, a KV-cache management system that applies lossy compression and adaptive eviction to KV cache across multiple storage tiers. Specifically, for each KV cache of a context, EVICPRESS considers the effect of compression and eviction of the KV cache on the average generation quality and delay across all contexts as a whole. To achieve this, EVICPRESS proposes a unified utility function that quantifies the effect of quality and delay of the lossy compression or eviction. To this end, EVICPRESS's profiling module periodically updates the utility function scores on all possible eviction-compression configurations for all contexts and places KV caches using a fast heuristic to rearrange KV caches on all storage tiers, with the goal of maximizing the utility function scores on each storage tier. Compared to the baselines that evict KV cache or compress KV cache, EVICPRESS achieves higher KV-cache hit rates on fast devices, i.e., lower delay, while preserving high generation quality by applying conservative compression to contexts that are sensitive to compression errors. Evaluation on 12 datasets and 5 models demonstrates that EVICPRESS achieves up to 2.19x faster time-to-first-token (TTFT) at equivalent generation quality.",
+    "published": "2025-12-16T22:21:55Z",
+    "updated": "2025-12-16T22:21:55Z",
+    "authors": [
+      "Shaoting Feng",
+      "Yuhan Liu",
+      "Hanchen Li",
+      "Xiaokun Chen",
+      "Samuel Shen",
+      "Kuntai Du",
+      "Zhuohan Gu",
+      "Rui Zhang",
+      "Yuyang Huang",
+      "Yihua Cheng",
+      "Jiayi Yao",
+      "Qizheng Zhang",
+      "Ganesh Ananthanarayanan",
+      "Junchen Jiang"
+    ],
+    "affiliations": [],
+    "first_author": "Shaoting Feng",
+    "pdf_url": "https://arxiv.org/pdf/2512.14946v1",
+    "primary_category": "cs.OS",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14177v1",
+    "arxiv_id": "2512.14177v1",
+    "title": "Improving Semantic Uncertainty Quantification in LVLMs with Semantic Gaussian Processes",
+    "summary": "Large Vision-Language Models (LVLMs) often produce plausible but unreliable outputs, making robust uncertainty estimation essential. Recent work on semantic uncertainty estimates relies on external models to cluster multiple sampled responses and measure their semantic consistency. However, these clustering methods are often fragile, highly sensitive to minor phrasing variations, and can incorrectly group or separate semantically similar answers, leading to unreliable uncertainty estimates. We propose Semantic Gaussian Process Uncertainty (SGPU), a Bayesian framework that quantifies semantic uncertainty by analyzing the geometric structure of answer embeddings, avoiding brittle clustering. SGPU maps generated answers into a dense semantic space, computes the Gram matrix of their embeddings, and summarizes their semantic configuration via the eigenspectrum. This spectral representation is then fed into a Gaussian Process Classifier that learns to map patterns of semantic consistency to predictive uncertainty, and that can be applied in both black-box and white-box settings. Across six LLMs and LVLMs on eight datasets spanning VQA, image classification, and textual QA, SGPU consistently achieves state-of-the-art calibration (ECE) and discriminative (AUROC, AUARC) performance. We further show that SGPU transfers across models and modalities, indicating that its spectral representation captures general patterns of semantic uncertainty.",
+    "published": "2025-12-16T08:15:24Z",
+    "updated": "2025-12-16T08:15:24Z",
+    "authors": [
+      "Joseph Hoche",
+      "Andrei Bursuc",
+      "David Brellmann",
+      "Gilles Louppe",
+      "Pavel Izmailov",
+      "Angela Yao",
+      "Gianni Franchi"
+    ],
+    "affiliations": [],
+    "first_author": "Joseph Hoche",
+    "pdf_url": "https://arxiv.org/pdf/2512.14177v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13526v1",
+    "arxiv_id": "2512.13526v1",
+    "title": "Async Control: Stress-testing Asynchronous Control Measures for LLM Agents",
+    "summary": "LLM-based software engineering agents are increasingly used in real-world development tasks, often with access to sensitive data or security-critical codebases. Such agents could intentionally sabotage these codebases if they were misaligned. We investigate asynchronous monitoring, in which a monitoring system reviews agent actions after the fact. Unlike synchronous monitoring, this approach does not impose runtime latency, while still attempting to disrupt attacks before irreversible harm occurs. We treat monitor development as an adversarial game between a blue team (who design monitors) and a red team (who create sabotaging agents). We attempt to set the game rules such that they upper bound the sabotage potential of an agent based on Claude 4.1 Opus. To ground this game in a realistic, high-stakes deployment scenario, we develop a suite of 5 diverse software engineering environments that simulate tasks that an agent might perform within an AI developer's internal infrastructure. Over the course of the game, we develop an ensemble monitor that achieves a 6% false negative rate at 1% false positive rate on a held out test environment. Then, we estimate risk of sabotage at deployment time by extrapolating from our monitor's false negative rate. We describe one simple model for this extrapolation, present a sensitivity analysis, and describe situations in which the model would be invalid. Code is available at: https://github.com/UKGovernmentBEIS/async-control.",
+    "published": "2025-12-15T16:56:28Z",
+    "updated": "2025-12-15T16:56:28Z",
+    "authors": [
+      "Asa Cooper Stickland",
+      "Jan Michelfeit",
+      "Arathi Mani",
+      "Charlie Griffin",
+      "Ollie Matthews",
+      "Tomek Korbak",
+      "Rogan Inglis",
+      "Oliver Makins",
+      "Alan Cooney"
+    ],
+    "affiliations": [],
+    "first_author": "Asa Cooper Stickland",
+    "pdf_url": "https://arxiv.org/pdf/2512.13526v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  }
+]

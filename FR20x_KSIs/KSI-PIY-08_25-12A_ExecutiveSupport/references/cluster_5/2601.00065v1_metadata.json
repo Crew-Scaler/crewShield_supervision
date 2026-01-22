@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2601.00065v1",
+  "title": "The Trojan in the Vocabulary: Stealthy Sabotage of LLM Composition",
+  "authors": [
+    "Xiaoze Liu",
+    "Weichen Yu",
+    "Matt Fredrikson",
+    "Xiaoqian Wang",
+    "Jing Gao"
+  ],
+  "published": "2025-12-31T19:00:03Z",
+  "summary": "The open-weight LLM ecosystem is increasingly defined by model composition techniques (such as weight merging, speculative decoding, and vocabulary expansion) that remix capabilities from diverse sources. A critical prerequisite for applying these methods across different model families is tokenizer transplant, which aligns incompatible vocabularies to a shared embedding space. We demonstrate that this essential interoperability step introduces a supply-chain vulnerability: we engineer a single ",
+  "cluster": "cluster_5",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.188179"
+}

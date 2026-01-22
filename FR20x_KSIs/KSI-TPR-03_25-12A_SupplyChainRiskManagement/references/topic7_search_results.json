@@ -1,0 +1,139 @@
+[
+  {
+    "arxiv_id": "2512.21010v1",
+    "title": "LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics",
+    "authors": [
+      "Jiashuo Liu",
+      "Jiayun Wu",
+      "Chunjie Wu",
+      "Jingkai Liu",
+      "Zaiyuan Wang",
+      "Huan Zhou",
+      "Wenhao Huang",
+      "Hongseok Namkoong"
+    ],
+    "summary": "The rapid proliferation of Large Language Models (LLMs) and diverse specialized benchmarks necessitates a shift from fragmented, task-specific metrics to a holistic, competitive ranking system that effectively aggregates performance across multiple ability dimensions. Primarily using static scoring, current evaluation methods are fundamentally limited. They struggle to determine the proper mix ratio across diverse benchmarks, and critically, they fail to capture a model's dynamic competitive fitness or its vulnerability when confronted with sequential, high-stakes tasks. To address this, we introduce the novel Competitive Swiss-System Dynamics (CSD) framework. CSD simulates a multi-round, sequential contest where models are dynamically paired across a curated sequence of benchmarks based on their accumulated win-loss record. And Monte Carlo Simulation ($N=100,000$ iterations) is used to approximate the statistically robust Expected Win Score ($E[S_m]$), which eliminates the noise of random pairing and early-round luck. Furthermore, we implement a Failure Sensitivity Analysis by parameterizing the per-round elimination quantity ($T_k$), which allows us to profile models based on their risk appetite--distinguishing between robust generalists and aggressive specialists. We demonstrate that CSD provides a more nuanced and context-aware ranking than traditional aggregate scoring and static pairwise models, representing a vital step towards risk-informed, next-generation LLM evaluation.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21010v1"
+  },
+  {
+    "arxiv_id": "2512.20932v1",
+    "title": "Guardrailed Elasticity Pricing: A Churn-Aware Forecasting Playbook for Subscription Strategy",
+    "authors": [
+      "Deepit Sapru"
+    ],
+    "summary": "This paper presents a marketing analytics framework that operationalizes subscription pricing as a dynamic, guardrailed decision system, uniting multivariate demand forecasting, segment-level price elasticity, and churn propensity to optimize revenue, margin, and retention. The approach blends seasonal time-series models with tree-based learners, runs Monte Carlo scenario tests to map risk envelopes, and solves a constrained optimization that enforces business guardrails on customer experience, margin floors, and allowable churn. Validated across heterogeneous SaaS portfolios, the method consistently outperforms static tiers and uniform uplifts by reallocating price moves toward segments with higher willingness-to-pay while protecting price-sensitive cohorts. The system is designed for real-time recalibration via modular APIs and includes model explainability for governance and compliance. Managerially, the framework functions as a strategy playbook that clarifies when to shift from flat to dynamic pricing, how to align pricing with CLV and MRR targets, and how to embed ethical guardrails, enabling durable growth without eroding customer trust.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20932v1"
+  },
+  {
+    "arxiv_id": "2512.20917v1",
+    "title": "Semantic Radio Access Networks: Architecture, State-of-the-Art, and Future Directions",
+    "authors": [
+      "Rui Meng",
+      "Zixuan Huang",
+      "Jingshu Yan",
+      "Mengying Sun",
+      "Yiming Liu",
+      "Chenyuan Feng",
+      "Xiaodong Xu",
+      "Zhidi Zhang",
+      "Song Gao",
+      "Ping Zhang",
+      "Tony Q. S. Quek"
+    ],
+    "summary": "Radio Access Network (RAN) is a bridge between user devices and the core network in mobile communication systems, responsible for the transmission and reception of wireless signals and air interface management. In recent years, Semantic Communication (SemCom) has represented a transformative communication paradigm that prioritizes meaning-level transmission over conventional bit-level delivery, thus providing improved spectrum efficiency, anti-interference ability in complex environments, flexible resource allocation, and enhanced user experience for RAN. However, there is still a lack of comprehensive reviews on the integration of SemCom into RAN. Motivated by this, we systematically explore recent advancements in Semantic RAN (SemRAN). We begin by introducing the fundamentals of RAN and SemCom, identifying the limitations of conventional RAN, and outlining the overall architecture of SemRAN. Subsequently, we review representative techniques of SemRAN across physical layer, data link layer, network layer, and security plane. Furthermore, we envision future services and applications enabled by SemRAN, alongside its current standardization progress. Finally, we conclude by identifying critical research challenges and outlining forward-looking directions to guide subsequent investigations in this burgeoning field.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20917v1"
+  },
+  {
+    "arxiv_id": "2512.21320v1",
+    "title": "An Allele-Centric Pan-Graph-Matrix Representation for Scalable Pangenome Analysis",
+    "authors": [
+      "Roberto Garrone"
+    ],
+    "summary": "Population-scale pangenome analysis increasingly requires representations that unify single-nucleotide and structural variation while remaining scalable across large cohorts. Existing formats are typically sequence-centric, path-centric, or sample-centric, and often obscure population structure or fail to exploit carrier sparsity. We introduce the H1 pan-graph-matrix, an allele-centric representation that encodes exact haplotype membership using adaptive per-allele compression. By treating alleles as first-class objects and selecting optimal encodings based on carrier distribution, H1 achieves near-optimal storage across both common and rare variants. We further introduce H2, a path-centric dual representation derived from the same underlying allele-haplotype incidence information that restores explicit haplotype ordering while remaining exactly equivalent in information content. Using real human genome data, we show that this representation yields substantial compression gains, particularly for structural variants, while remaining equivalent in information content to pangenome graphs. H1 provides a unified, population-aware foundation for scalable pangenome analysis and downstream applications such as rare-variant interpretation and drug discovery.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21320v1"
+  },
+  {
+    "arxiv_id": "2512.21335v1",
+    "title": "Autonomous Uncertainty Quantification for Computational Point-of-care Sensors",
+    "authors": [
+      "Artem Goncharov",
+      "Rajesh Ghosh",
+      "Hyou-Arm Joung",
+      "Dino Di Carlo",
+      "Aydogan Ozcan"
+    ],
+    "summary": "Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals generated by rapid diagnostic tests or sensors. However, neural network-based diagnostic models are subject to hallucinations and can produce erroneous predictions, posing a risk of misdiagnosis and inaccurate clinical decisions. To address this challenge, here we present an autonomous uncertainty quantification technique developed for POC diagnostics. As our testbed, we used a paper-based, computational vertical flow assay (xVFA) platform developed for rapid POC diagnosis of Lyme disease, the most prevalent tick-borne disease globally. The xVFA platform integrates a disposable paper-based assay, a handheld optical reader and a neural network-based inference algorithm, providing rapid and cost-effective Lyme disease diagnostics in under 20 min using only 20 uL of patient serum. By incorporating a Monte Carlo dropout (MCDO)-based uncertainty quantification approach into the diagnostics pipeline, we identified and excluded erroneous predictions with high uncertainty, significantly improving the sensitivity and reliability of the xVFA in an autonomous manner, without access to the ground truth diagnostic information of patients. Blinded testing using new patient samples demonstrated an increase in diagnostic sensitivity from 88.2% to 95.7%, indicating the effectiveness of MCDO-based uncertainty quantification in enhancing the robustness of neural network-driven computational POC sensing systems.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21335v1"
+  },
+  {
+    "arxiv_id": "2512.21039v1",
+    "title": "Agentic Multi-Persona Framework for Evidence-Aware Fake News Detection",
+    "authors": [
+      "Roopa Bukke",
+      "Soumya Pandey",
+      "Suraj Kumar",
+      "Soumi Chattopadhyay",
+      "Chandranath Adak"
+    ],
+    "summary": "The rapid proliferation of online misinformation poses significant risks to public trust, policy, and safety, necessitating reliable automated fake news detection. Existing methods often struggle with multimodal content, domain generalization, and explainability. We propose AMPEND-LS, an agentic multi-persona evidence-grounded framework with LLM-SLM synergy for multimodal fake news detection. AMPEND-LS integrates textual, visual, and contextual signals through a structured reasoning pipeline powered by LLMs, augmented with reverse image search, knowledge graph paths, and persuasion strategy analysis. To improve reliability, we introduce a credibility fusion mechanism combining semantic similarity, domain trustworthiness, and temporal context, and a complementary SLM classifier to mitigate LLM uncertainty and hallucinations. Extensive experiments across three benchmark datasets demonstrate that AMPEND-LS consistently outperformed state-of-the-art baselines in accuracy, F1 score, and robustness. Qualitative case studies further highlight its transparent reasoning and resilience against evolving misinformation. This work advances the development of adaptive, explainable, and evidence-aware systems for safeguarding online information integrity.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21039v1"
+  },
+  {
+    "arxiv_id": "2512.21196v1",
+    "title": "Flocking phase transition and threat responses in bio-inspired autonomous drone swarms",
+    "authors": [
+      "Matthieu Verdoucq",
+      "Dari Trendafilov",
+      "Cl\u00e9ment Sire",
+      "Ram\u00f3n Escobedo",
+      "Guy Theraulaz",
+      "Gautier Hattenberger"
+    ],
+    "summary": "Collective motion inspired by animal groups offers powerful design principles for autonomous aerial swarms. We present a bio-inspired 3D flocking algorithm in which each drone interacts only with a minimal set of influential neighbors, relying solely on local alignment and attraction cues. By systematically tuning these two interaction gains, we map a phase diagram revealing sharp transitions between swarming and schooling, as well as a critical region where susceptibility, polarization fluctuations, and reorganization capacity peak. Outdoor experiments with a swarm of ten drones, combined with simulations using a calibrated flight-dynamics model, show that operating near this transition enhances responsiveness to external disturbances. When confronted with an intruder, the swarm performs rapid collective turns, transient expansions, and reliably recovers high alignment within seconds. These results demonstrate that minimal local-interaction rules are sufficient to generate multiple collective phases and that simple gain modulation offers an efficient mechanism to adjust stability, flexibility, and resilience in drone swarms.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21196v1"
+  },
+  {
+    "arxiv_id": "2512.21158v1",
+    "title": "Well-posedness and the \u0141ojasiewicz-Simon inequality in the asymptotic analysis of a nonlinear heat equation with constraints of finite codimension",
+    "authors": [
+      "Ashish Bawalia",
+      "Zdzis\u0142aw Brze\u017aniak",
+      "Manil T. Mohan",
+      "Piotr Rybka"
+    ],
+    "summary": "We establish the global well-posedness of the $D(A)-$valued strong solution to a nonlinear heat equation with constraints on a \\textit{Poincar\u00e9 domain} $\\bO\\subset \\R^d$ whose boundary is of class $C^2$. Consider the following nonlinear heat equation   \\begin{align*}   \\frac{\\partial u}{\\partial t} - \u0394u + |u|^{p-2}u = 0,   \\end{align*}   projected onto the tangent space $T_u\\bM$, where   $\\mathcal{M}:=\\left\\{u\\in L^2(\\bO):\\|u\\|_{L^2(\\bO)}=1\\right\\}$ is a submanifold of $L^2(\\bO)$. The nonlinearity exponent satisfies $2\\le p < \\infty$ for $1\\leq d\\leq 4$ and $2 \\le p \\le \\frac{2d-4}{d-4}$ for $d \\ge 5$. The solution is constrained to lie within $\\mathcal{M}$ which encodes the norm-preserving constraint. By modifying the nonlinearity and exploiting the abstract theory for \\textit{$m-$accretive }evolution equations, we prove the existence of a global strong solution.   Using {resolvent-idea } and the \\textit{Yosida approximation} method, we derive regularity results. In the asymptotic analysis, $\\bO$ is restricted to bounded domains with even $p$   and $1\\le d \\le 3$. For any initial data in $D(A) \\cap \\mathcal{M}$, we apply the \\textit{\u0141ojasiewicz-Simon gradient inequality} on a Hilbert submanifold [F. Rupp, \\textit{J. Funct. Anal.}, 279(8), 2020], to demonstrate that the unique global strong solution converges in $W^{2,q}(\\bO) \\cap W^{1,q}_0(\\bO)$ to a stationary state, where $2 \\le q < \\frac{2d}{d + 4 - 4\u03b2}$ and $1 < \u03b2< \\frac{3}{2}$.   This work proposes an alternative method for establishing the global existence and analyzing long-term behavior of the unique strong solution to an $L^2-$norm preserving nonlinear heat equation.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21158v1"
+  },
+  {
+    "arxiv_id": "2512.21028v1",
+    "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+    "authors": [
+      "Oussama Ben Sghaier",
+      "Kevin Delcourt",
+      "Houari Sahraoui"
+    ],
+    "summary": "Large Language Models (LLMs) are widely used for automated code generation, yet their apparent successes often mask a tension between pretraining objectives and alignment choices. While pretraining encourages models to exploit all available signals to maximize success, alignment, whether through fine-tuning or prompting, may restrict their use. This conflict is especially salient in agentic AI settings, for instance when an agent has access to unit tests that, although intended for validation, act as strong contextual signals that can be leveraged regardless of explicit prohibitions. In this paper, we investigate how LLMs adapt their code generation strategies when exposed to test cases under different prompting conditions. Using the BigCodeBench (Hard) dataset, we design five prompting conditions that manipulate test visibility and impose explicit or implicit restrictions on their use. We evaluate five LLMs (four open-source and one closed-source) across correctness, code similarity, program size, and code churn, and analyze cross-model consistency to identify recurring adaptation strategies. Our results show that test visibility dramatically alters performance, correctness nearly doubles for some models, while explicit restrictions or partial exposure only partially mitigate this effect. Beyond raw performance, we identify four recurring adaptation strategies, with test-driven refinement emerging as the most frequent. These results highlight how LLMs adapt their behavior when exposed to contextual signals that conflict with explicit instructions, providing useful insight into how models reconcile pretraining objectives with alignment constraints.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21028v1"
+  },
+  {
+    "arxiv_id": "2512.20813v1",
+    "title": "GraphFire-X: Physics-Informed Graph Attention Networks and Structural Gradient Boosting for Building-Scale Wildfire Preparedness at the Wildland-Urban Interface",
+    "authors": [
+      "Miguel Esparza",
+      "Vamshi Battal",
+      "Ali Mostafavi"
+    ],
+    "summary": "As wildfires increasingly evolve into urban conflagrations, traditional risk models that treat structures as isolated assets fail to capture the non-linear contagion dynamics characteristic of the wildland urban interface (WUI). This research bridges the gap between mechanistic physics and data driven learning by establishing a novel dual specialist ensemble framework that disentangles vulnerability into two distinct vectors, environmental contagion and structural fragility. The architecture integrates two specialized predictive streams, an environmental specialist, implemented as a graph neural network (GNN) that operationalizes the community as a directed contagion graph weighted by physics informed convection, radiation, and ember probabilities, and enriched with high dimensional Google AlphaEarth Foundation embeddings, and a Structural Specialist, implemented via XGBoost to isolate granular asset level resilience. Applied to the 2025 Eaton Fire, the framework reveals a critical dichotomy in risk drivers. The GNN demonstrates that neighborhood scale environmental pressure overwhelmingly dominates intrinsic structural features in defining propagation pathways, while the XGBoost model identifies eaves as the primary micro scale ingress vector. By synthesizing these divergent signals through logistic stacking, the ensemble achieves robust classification and generates a diagnostic risk topology. This capability empowers decision makers to move beyond binary loss prediction and precisely target mitigation prioritizing vegetation management for high connectivity clusters and structural hardening for architecturally vulnerable nodes thereby operationalizing a proactive, data driven approach to community resilience.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20813v1"
+  }
+]

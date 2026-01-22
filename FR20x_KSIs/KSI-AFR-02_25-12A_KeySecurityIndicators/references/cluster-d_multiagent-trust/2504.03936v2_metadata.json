@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2504.03936v2",
+  "title": "Commit-Reveal$^2$: Securing Randomness Beacons with Randomized Reveal Order in Smart Contracts",
+  "authors": [
+    "Suhyeon Lee",
+    "Euisin Gee",
+    "Najmeh Soroush",
+    "Muhammed Ali Bingol",
+    "Kaibin Huang"
+  ],
+  "published": "2025-04-04",
+  "year": 2025,
+  "relevance_score": 70,
+  "arxiv_url": "https://arxiv.org/abs/2504.03936v2",
+  "pdf_url": "https://arxiv.org/pdf/2504.03936v2.pdf",
+  "cluster": "cluster-d",
+  "abstract": "Simple commit-reveal beacons are vulnerable to last-revealer strategies, and existing descriptions often leave accountability and recovery mechanisms unspecified for practical deployments. We present Commit-Reveal$^2$, a layered design for blockchain deployments that cryptographically randomizes the final reveal order, together with a concrete accountability and fallback mechanism that we implement as smart-contract logic. The protocol is architected as a hybrid system, where routine coordinatio",
+  "metadata_generated": "2026-01-10T18:09:06.439612"
+}

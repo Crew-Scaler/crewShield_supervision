@@ -1,0 +1,14 @@
+{
+  "arxiv_id": "2403.06907v1",
+  "title": "Towards Incident Response Orchestration and Automation for the Advanced Metering Infrastructure",
+  "authors": [
+    "Alexios Lekidis",
+    "Vasileios Mavroeidis",
+    "Konstantinos Fysarakis"
+  ],
+  "published": "2024-03-11T16:58:13Z",
+  "url": "http://arxiv.org/abs/2403.06907v1",
+  "pdf_url": "http://arxiv.org/pdf/2403.06907v1.pdf",
+  "relevance_score": 85,
+  "summary": "The threat landscape of industrial infrastructures has expanded exponentially over the last few years. Such infrastructures include services such as the smart meter data exchange that should have real-time availability. Smart meters constitute the main component of the Advanced Metering Infrastructure, and their measurements are also used as historical data for forecasting the energy demand to avoid load peaks that could lead to blackouts within specific areas. Hence, a comprehensive Incident Response plan must be in place to ensure high service availability in case of cyber-attacks or operational errors. Currently, utility operators execute such plans mostly manually, requiring extensive time, effort, and domain expertise, and they are prone to human errors. In this paper, we present a method to provide an orchestrated and highly automated Incident Response plan targeting specific use cases and attack scenarios in the energy sector, including steps for preparedness, detection and analysis, containment, eradication, recovery, and post-incident activity through the use of playbooks. In particular, we use the OASIS Collaborative Automated Course of Action Operations (CACAO) standard to define highly automatable workflows in support of cyber security operations for the Advanced Metering Infrastructure. The proposed method is validated through an Advanced Metering Infrastructure testbed where the most prominent cyber-attacks are emulated, and playbooks are instantiated to ensure rapid response for the containment and eradication of the threat, business continuity on the smart meter data exchange service, and compliance with incident reporting requirements."
+}

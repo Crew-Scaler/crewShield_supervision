@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2601.01673v1",
+  "title": "Exposing Hidden Interfaces: LLM-Guided Type Inference for Reverse Engineering macOS Private Frameworks",
+  "published": "2026-01-04T21:44:55Z",
+  "summary": "Private macOS frameworks underpin critical services and daemons but remain undocumented and distributed only as stripped binaries, complicating security analysis. We present MOTIF, an agentic framework that integrates tool-augmented analysis with a finetuned large language model specialized for Objective-C type inference. The agent manages runtime metadata extraction, binary inspection, and constraint checking, while the model generates candidate method signatures that are validated and refined ",
+  "category": "cs.CR",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2601.01673v1",
+  "cluster": 1,
+  "issue": 171,
+  "downloaded_at": "2026-01-11T10:27:49.506608"
+}

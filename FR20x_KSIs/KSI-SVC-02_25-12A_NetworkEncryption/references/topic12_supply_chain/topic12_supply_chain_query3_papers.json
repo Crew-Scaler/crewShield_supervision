@@ -1,0 +1,285 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.19297v1",
+    "arxiv_id": "2512.19297v1",
+    "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+    "summary": "Low-Rank Adaptation (LoRA) has emerged as an efficient method for fine-tuning large language models (LLMs) and is widely adopted within the open-source community. However, the decentralized dissemination of LoRA adapters through platforms such as Hugging Face introduces novel security vulnerabilities: malicious adapters can be easily distributed and evade conventional oversight mechanisms. Despite these risks, backdoor attacks targeting LoRA-based fine-tuning remain relatively underexplored. Existing backdoor attack strategies are ill-suited to this setting, as they often rely on inaccessible training data, fail to account for the structural properties unique to LoRA, or suffer from high false trigger rates (FTR), thereby compromising their stealth. To address these challenges, we propose Causal-Guided Detoxify Backdoor Attack (CBA), a novel backdoor attack framework specifically designed for open-weight LoRA models. CBA operates without access to original training data and achieves high stealth through two key innovations: (1) a coverage-guided data generation pipeline that synthesizes task-aligned inputs via behavioral exploration, and (2) a causal-guided detoxification strategy that merges poisoned and clean adapters by preserving task-critical neurons. Unlike prior approaches, CBA enables post-training control over attack intensity through causal influence-based weight allocation, eliminating the need for repeated retraining. Evaluated across six LoRA models, CBA achieves high attack success rates while reducing FTR by 50-70\\% compared to baseline methods. Furthermore, it demonstrates enhanced resistance to state-of-the-art backdoor defenses, highlighting its stealth and robustness.",
+    "published": "2025-12-22T11:40:47Z",
+    "updated": "2025-12-22T11:40:47Z",
+    "authors": [
+      "Linzhi Chen",
+      "Yang Sun",
+      "Hongru Wei",
+      "Yuqi Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Linzhi Chen",
+    "pdf_url": "https://arxiv.org/pdf/2512.19297v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19263v1",
+    "arxiv_id": "2512.19263v1",
+    "title": "Anti-Malicious ISAC: How to Jointly Monitor and Disrupt Your Foes?",
+    "summary": "Integrated sensing and communication (ISAC) systems are key enablers of future networks but raise significant security concerns. In this realm, the emergence of malicious ISAC systems has amplified the need for authorized parties to legitimately monitor suspicious communication links and protect legitimate targets from potential detection or exploitation by malicious foes. In this paper, we propose a new wireless proactive monitoring paradigm, where a legitimate monitor intercepts a suspicious communication link while performing cognitive jamming to enhance the monitoring success probability (MSP) and simultaneously safeguard the target. To this end, we derive closed-form expressions of the signal-to-interference-plus-noise-ratio (SINR) at the user (UE), sensing access points (S-APs), and an approximating expression of the SINR at the proactive monitor. Moreover, we propose an optimization technique under which the legitimate monitor minimizes the success detection probability (SDP) of the legitimate target, by optimizing the jamming power allocation over both communication and sensing channels subject to total power constraints and monitoring performance requirement. To enhance the monitor's longevity and reduce the risk of detection by malicious ISAC systems, we further propose an adaptive power allocation scheme aimed at minimizing the total transmit power at the monitor while meeting a pre-selected sensing SINR threshold and ensuring successful monitoring. Our numerical results show that the proposed algorithm significantly compromises the sensing and communication performance of malicious ISAC.",
+    "published": "2025-12-22T10:59:50Z",
+    "updated": "2025-12-22T10:59:50Z",
+    "authors": [
+      "Zonghan Wang",
+      "Zahra Mobini",
+      "Hien Quoc Ngo",
+      "Hyundong Shin",
+      "Michail Matthaiou"
+    ],
+    "affiliations": [],
+    "first_author": "Zonghan Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.19263v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19215v1",
+    "arxiv_id": "2512.19215v1",
+    "title": "Semantically-Equivalent Transformations-Based Backdoor Attacks against Neural Code Models: Characterization and Mitigation",
+    "summary": "Neural code models have been increasingly incorporated into software development processes. However, their susceptibility to backdoor attacks presents a significant security risk. The state-of-the-art understanding focuses on injection-based attacks, which insert anomalous patterns into software code. These attacks can be neutralized by standard sanitization techniques. This status quo may lead to a false sense of security regarding backdoor attacks. In this paper, we introduce a new kind of backdoor attacks, dubbed Semantically-Equivalent Transformation (SET)-based backdoor attacks, which use semantics-preserving low-prevalence code transformations to generate stealthy triggers. We propose a framework to guide the generation of such triggers. Our experiments across five tasks, six languages, and models like CodeBERT, CodeT5, and StarCoder show that SET-based attacks achieve high success rates (often >90%) while preserving model utility. The attack proves highly stealthy, evading state-of-the-art defenses with detection rates on average over 25.13% lower than injection-based counterparts. We evaluate normalization-based countermeasures and find they offer only partial mitigation, confirming the attack's robustness. These results motivate further investigation into scalable defenses tailored to SET-based attacks.",
+    "published": "2025-12-22T09:54:52Z",
+    "updated": "2025-12-22T09:54:52Z",
+    "authors": [
+      "Junyao Ye",
+      "Zhen Li",
+      "Xi Tang",
+      "Shouhuai Xu",
+      "Deqing Zou",
+      "Zhongsheng Yuan"
+    ],
+    "affiliations": [],
+    "first_author": "Junyao Ye",
+    "pdf_url": "https://arxiv.org/pdf/2512.19215v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20560v1",
+    "arxiv_id": "2512.20560v1",
+    "title": "A possible solution to the gallium anomaly moving beyond the leptonic wave function factorization",
+    "summary": "For over thirty years, a $\\sim20\\%$ deficit, now exceeding $5\u03c3$, has persisted between measured and predicted neutrino capture rates on $^{71}$Ga, as observed in radioactive source experiments (namely GALLEX, SAGE, and more recently BEST) using $^{51}$Cr and $^{37}$Ar. This long-standing discrepancy, referred to as the gallium anomaly, has posed a significant challenge to our understanding of both experimental methods and theoretical predictions. In this work, we revisit the theoretical calculation of the neutrino capture cross-section by moving beyond the standard treatment of the leptonic wave functions, revealing limitations in the commonly used factorization approach based on the detailed balance principle. Incorporating phenomenologically constrained Gamow-Teller transition densities, able to correctly reproduce the precisely measured half-life of $^{71}{\\textrm{Ge}}$, we find that the revised cross-section can be significantly reduced, potentially resolving the gallium anomaly without invoking new physics.",
+    "published": "2025-12-23T18:04:18Z",
+    "updated": "2025-12-23T18:04:18Z",
+    "authors": [
+      "M. Cadeddu",
+      "N. Cargioli",
+      "F. Dordei",
+      "L. Ferro",
+      "C. Giunti",
+      "M. Pitzalis"
+    ],
+    "affiliations": [],
+    "first_author": "M. Cadeddu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20560v1",
+    "primary_category": "hep-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20544v1",
+    "arxiv_id": "2512.20544v1",
+    "title": "Machine Learning vs. SED-Fitting: A Comparative Analysis of Accuracy in Stellar Mass Estimation",
+    "summary": "Traditional spectral energy distribution (SED)-fitting methods for stellar mass estimation face persistent challenges including systematic biases and computational constraints. We present a controlled comparison of machine learning (ML) and SED-fitting methods, assessing their accuracy, robustness, and computational efficiency. Using a sample of COSMOS-like galaxies from the Horizon-AGN simulation as a benchmark with known true masses, we evaluate the Parametric t-SNE (Pt-SNE) algorithm -- trained on noise-injected BC03 models -- against the established SED-fitting code LePhare. Our results demonstrate that Pt-SNE achieves superior accuracy, with a root-mean-square error (sigma_F) of 0.169 dex compared to LePhare's 0.306 dex. Crucially, Pt-SNE exhibits significantly lower bias (0.029 dex) compared to LePhare (0.286 dex). Pt-SNE also shows greater robustness across all stellar mass ranges, particularly for low-mass galaxies (10^9 to 10^10 solar masses), where it reduces errors by 47-53 %. Even when restricted to only six optical bands, Pt-SNE outperforms LePhare using all 26 available photometric bands, underscoring its superior informational efficiency. Computationally, Pt-SNE processes large datasets approximately 3.2 x 10^3 times faster than LePhare. These findings highlight the fundamental advantages of ML methods for stellar mass estimation, demonstrating their potential to deliver more accurate, stable, and scalable measurements for large-scale galaxy surveys.",
+    "published": "2025-12-23T17:38:05Z",
+    "updated": "2025-12-23T17:38:05Z",
+    "authors": [
+      "Vahid Asadi",
+      "Akram Hasani Zonoozi",
+      "Hosein Haghi"
+    ],
+    "affiliations": [],
+    "first_author": "Vahid Asadi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20544v1",
+    "primary_category": "astro-ph.GA",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20519v1",
+    "arxiv_id": "2512.20519v1",
+    "title": "Run and Tumble Dynamics of Biased Quantum Trajectories in a Monitored Qubit",
+    "summary": "We investigate the active stochastic dynamics of a qubit subjected to continuous measurement and conditional feedback. The stochastic equation governing the state vector trajectory of the qubit can be mapped, in the high-diffusion limit, to the dynamics of a classical persistent Run-and-Tumble Particle (p-RTP) in a bounded one-dimensional domain. The mapping enables us to use analytical results from classical active matter to derive an approximate non-equilibrium steady-state (NESS) distribution for the monitored quantum system. The competition between the coherent Rabi drive and the measurement-induced feedback leads to a rich NESS phase displaying Zeno--anti-Zeno transition--which is statistically equivalent to the propulsion-induced trapping observed in confined active particles.",
+    "published": "2025-12-23T17:07:17Z",
+    "updated": "2025-12-23T17:07:17Z",
+    "authors": [
+      "Aritra Kundu"
+    ],
+    "affiliations": [],
+    "first_author": "Aritra Kundu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20519v1",
+    "primary_category": "cond-mat.stat-mech",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20487v1",
+    "arxiv_id": "2512.20487v1",
+    "title": "Multi-temporal Adaptive Red-Green-Blue and Long-Wave Infrared Fusion for You Only Look Once-Based Landmine Detection from Unmanned Aerial Systems",
+    "summary": "Landmines remain a persistent humanitarian threat, with 110 million actively deployed mines across 60 countries, claiming 26,000 casualties annually. This research evaluates adaptive Red-Green-Blue (RGB) and Long-Wave Infrared (LWIR) fusion for Unmanned Aerial Systems (UAS)-based detection of surface-laid landmines, leveraging the thermal contrast between the ordnance and the surrounding soil to enhance feature extraction. Using You Only Look Once (YOLO) architectures (v8, v10, v11) across 114 test images, generating 35,640 model-condition evaluations, YOLOv11 achieved optimal performance (86.8% mAP), with 10 to 30% thermal fusion at 5 to 10m altitude identified as the optimal detection parameters. A complementary architectural comparison revealed that while RF-DETR achieved the highest accuracy (69.2% mAP), followed by Faster R-CNN (67.6%), YOLOv11 (64.2%), and RetinaNet (50.2%), YOLOv11 trained 17.7 times faster than the transformer-based RF-DETR (41 minutes versus 12 hours), presenting a critical accuracy-efficiency tradeoff for operational deployment. Aggregated multi-temporal training datasets outperformed season-specific approaches by 1.8 to 9.6%, suggesting that models benefit from exposure to diverse thermal conditions. Anti-Tank (AT) mines achieved 61.9% detection accuracy, compared with 19.2% for Anti-Personnel (AP) mines, reflecting both the size differential and thermal-mass differences between these ordnance classes. As this research examined surface-laid mines where thermal contrast is maximized, future research should quantify thermal contrast effects for mines buried at varying depths across heterogeneous soil types.",
+    "published": "2025-12-23T16:26:47Z",
+    "updated": "2025-12-23T16:26:47Z",
+    "authors": [
+      "James E. Gallagher",
+      "Edward J. Oughton",
+      "Jana Kosecka"
+    ],
+    "affiliations": [],
+    "first_author": "James E. Gallagher",
+    "pdf_url": "https://arxiv.org/pdf/2512.20487v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20468v1",
+    "arxiv_id": "2512.20468v1",
+    "title": "Calibration Method of Spacecraft-Inertial Sensor Center-of-Mass Offset for the Taiji Gravitational Wave Detection Mission under Science Mode",
+    "summary": "Accurately calibrating the center-of-mass (CoM) offset between the spacecraft (SC) and the inertial sensor test mass (TM) is crucial for space-based gravitational-wave (GW) antennas, such as LISA and Taiji. Current calibration methods require additional spacecraft maneuvers that disrupt science data continuity and inter-satellite links, compromising the coherence of gravitational wave signals. Here, we present a maneuver-free calibration scheme that directly estimates the CoM offset vector using only standard science-mode measurements from inertial sensors, interferometers, and differential wavefront sensors. By embedding the CoM offset induced coupling acceleration as an extended state in a model-based adaptive Kalman filter, we achieve estimation accuracy of 0.01-1.5 mm across all axes with a maximum error below 1%. This approach enables continuous, high-precision calibration during nominal observation runs, ensuring continuous and coherent gravitational wave data collection while maintaining the required precision, and also facilitating advanced DFACS functions such as performance evaluations and fault diagnosis. For LISA-like missions, where data continuity is paramount for detecting faint gravitational wave signals, this method will enhance scientific output and reliability.",
+    "published": "2025-12-23T16:03:18Z",
+    "updated": "2025-12-23T16:03:18Z",
+    "authors": [
+      "Haoyue Zhang",
+      "Dong Ye",
+      "Peng Xu",
+      "Li-E Qiang",
+      "Ziren Luo"
+    ],
+    "affiliations": [],
+    "first_author": "Haoyue Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20468v1",
+    "primary_category": "gr-qc",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20399v1",
+    "arxiv_id": "2512.20399v1",
+    "title": "GeoTransolver: Learning Physics on Irregumar Domains Using Multi-scale Geometry Aware Physics Attention Transformer",
+    "summary": "We present GeoTransolver, a Multiscale Geometry-Aware Physics Attention Transformer for CAE that replaces standard attention with GALE, coupling physics-aware self-attention on learned state slices with cross-attention to a shared geometry/global/boundary-condition context computed from multi-scale ball queries (inspired by DoMINO) and reused in every block. Implemented and released in NVIDIA PhysicsNeMo, GeoTransolver persistently projects geometry, global and boundary condition parameters into physical state spaces to anchor latent computations to domain structure and operating regimes. We benchmark GeoTransolver on DrivAerML, Luminary SHIFT-SUV, and Luminary SHIFT-Wing, comparing against Domino, Transolver (as released in PhysicsNeMo), and literature-reported AB-UPT, and evaluate drag/lift R2 and Relative L1 errors for field variables. GeoTransolver delivers better accuracy, improved robustness to geometry/regime shifts, and favorable data efficiency; we include ablations on DrivAerML and qualitative results such as contour plots and design trends for the best GeoTransolver models. By unifying multiscale geometry-aware context with physics-based attention in a scalable transformer, GeoTransolver advances operator learning for high-fidelity surrogate modeling across complex, irregular domains and non-linear physical regimes.",
+    "published": "2025-12-23T14:40:08Z",
+    "updated": "2025-12-23T14:40:08Z",
+    "authors": [
+      "Corey Adams",
+      "Rishikesh Ranade",
+      "Ram Cherukuri",
+      "Sanjay Choudhry"
+    ],
+    "affiliations": [],
+    "first_author": "Corey Adams",
+    "pdf_url": "https://arxiv.org/pdf/2512.20399v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20333v1",
+    "arxiv_id": "2512.20333v1",
+    "title": "SynCraft: Guiding Large Language Models to Predict Edit Sequences for Molecular Synthesizability Optimization",
+    "summary": "Generative artificial intelligence has revolutionized the exploration of chemical space, yet a critical bottleneck remains that a substantial fraction of generated molecules is synthetically inaccessible. Current solutions, such as post-hoc filtering or projection-based methods, often compromise structural novelty or disrupt key pharmacophores by forcing molecules into pre-defined synthetic templates. Herein, we introduce SynCraft, a reasoning-based framework that reframes synthesizability optimization not as a sequence translation task, but as a precise structural editing problem. Leveraging the emergent reasoning capabilities of Large Language Models, SynCraft navigates the \"synthesis cliff\" where minimal structural modifications yield significant gains in synthetic feasibility. By predicting executable sequences of atom-level edits rather than generating SMILES strings directly, SynCraft circumvents the syntactic fragility of LLMs while harnessing their chemical intuition. Extensive benchmarks demonstrate that SynCraft outperforms state-of-the-art baselines in generating synthesizable analogs with high structural fidelity. Furthermore, through interaction-aware prompting, SynCraft successfully replicates expert medicinal chemistry intuition in editing PLK1 inhibitors and rescuing high-scoring but previously discarded RIPK1 candidates in previous molecular generation literatures.",
+    "published": "2025-12-23T13:07:22Z",
+    "updated": "2025-12-23T13:07:22Z",
+    "authors": [
+      "Junren Li",
+      "Luhua Lai"
+    ],
+    "affiliations": [],
+    "first_author": "Junren Li",
+    "pdf_url": "https://arxiv.org/pdf/2512.20333v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20325v1",
+    "arxiv_id": "2512.20325v1",
+    "title": "Top-K Exterior Power Persistent Homology: Algorithm, Structure, and Stability",
+    "summary": "Exterior powers play important roles in persistent homology in computational geometry. In the present paper we study the problem of extracting the $K$ longest intervals of the exterior-power layers of a tame persistence module. We prove a structural decomposition theorem that organizes the exterior-power layers into monotone per-anchor streams with explicit multiplicities, enabling a best-first algorithm. We also show that the Top-$K$ length vector is $2$-Lipschitz under bottleneck perturbations of the input barcode, and prove a comparison-model lower bound. Our experiments confirm the theory, showing speedups over full enumeration in high overlap cases. By enabling efficient extraction of the most prominent features, our approach makes higher-order persistence feasible for large datasets and thus broadly applicable to machine learning, data science, and scientific computing.",
+    "published": "2025-12-23T12:49:44Z",
+    "updated": "2025-12-23T12:49:44Z",
+    "authors": [
+      "Yoshihiro Maruyama"
+    ],
+    "affiliations": [],
+    "first_author": "Yoshihiro Maruyama",
+    "pdf_url": "https://arxiv.org/pdf/2512.20325v1",
+    "primary_category": "cs.CG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20311v1",
+    "arxiv_id": "2512.20311v1",
+    "title": "Algorithm for Interpretable Graph Features via Motivic Persistent Cohomology",
+    "summary": "We present the Chromatic Persistence Algorithm (CPA), an event-driven method for computing persistent cohomological features of weighted graphs via graphic arrangements, a classical object in computational geometry. We establish rigorous complexity results: CPA is exponential in the worst case, fixed-parameter tractable in treewidth, and nearly linear for common graph families such as trees, cycles, and series-parallel graphs. Finally, we demonstrate its practical applicability through a controlled experiment on molecular-like graph structures.",
+    "published": "2025-12-23T12:29:58Z",
+    "updated": "2025-12-23T12:29:58Z",
+    "authors": [
+      "Yoshihiro Maruyama"
+    ],
+    "affiliations": [],
+    "first_author": "Yoshihiro Maruyama",
+    "pdf_url": "https://arxiv.org/pdf/2512.20311v1",
+    "primary_category": "cs.CG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20288v1",
+    "arxiv_id": "2512.20288v1",
+    "title": "UbiQVision: Quantifying Uncertainty in XAI for Image Recognition",
+    "summary": "Recent advances in deep learning have led to its widespread adoption across diverse domains, including medical imaging. This progress is driven by increasingly sophisticated model architectures, such as ResNets, Vision Transformers, and Hybrid Convolutional Neural Networks, that offer enhanced performance at the cost of greater complexity. This complexity often compromises model explainability and interpretability. SHAP has emerged as a prominent method for providing interpretable visualizations that aid domain experts in understanding model predictions. However, SHAP explanations can be unstable and unreliable in the presence of epistemic and aleatoric uncertainty. In this study, we address this challenge by using Dirichlet posterior sampling and Dempster-Shafer theory to quantify the uncertainty that arises from these unstable explanations in medical imaging applications. The framework uses a belief, plausible, and fusion map approach alongside statistical quantitative analysis to produce quantification of uncertainty in SHAP. Furthermore, we evaluated our framework on three medical imaging datasets with varying class distributions, image qualities, and modality types which introduces noise due to varying image resolutions and modality-specific aspect covering the examples from pathology, ophthalmology, and radiology, introducing significant epistemic uncertainty.",
+    "published": "2025-12-23T11:57:34Z",
+    "updated": "2025-12-23T11:57:34Z",
+    "authors": [
+      "Akshat Dubey",
+      "Aleksandar An\u017eel",
+      "Bahar \u0130lgen",
+      "Georges Hattab"
+    ],
+    "affiliations": [],
+    "first_author": "Akshat Dubey",
+    "pdf_url": "https://arxiv.org/pdf/2512.20288v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20278v1",
+    "arxiv_id": "2512.20278v1",
+    "title": "Synthesizing Procedural Memory: Challenges and Architectures in Automated Workflow Generation",
+    "summary": "While CodeMem establishes executable code as the optimal representation for agentic procedural memory, the mechanism for autonomously synthesizing this memory from a blank slate remains underexplored. This paper operationalizes the transition of Large Language Models from passive tool-users to active workflow architects. Through a high-fidelity case study of a cross-service orchestration task involving Outlook and OneDrive, we identify and address four structural bottlenecks in automated skill generation: the Discovery Gap involving navigation of large tool registries, the Verification Gap regarding grounding tool response structures, the Decomposition Gap which replaces inefficient search with Linear State Anchoring, and the Scaling Gap focused on concurrency and persistence. We demonstrate that by enforcing a scientific methodology of hypothesize, probe, and code, agents can autonomously write robust, production-grade code skills.",
+    "published": "2025-12-23T11:33:32Z",
+    "updated": "2025-12-23T11:33:32Z",
+    "authors": [
+      "Nishant Gaurav",
+      "Adit Akarsh",
+      "Ankit Ranjan",
+      "Manoj Bajaj"
+    ],
+    "affiliations": [],
+    "first_author": "Nishant Gaurav",
+    "pdf_url": "https://arxiv.org/pdf/2512.20278v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20276v1",
+    "arxiv_id": "2512.20276v1",
+    "title": "ActionFlow: A Pipelined Action Acceleration for Vision Language Models on Edge",
+    "summary": "Vision-Language-Action (VLA) models have emerged as a unified paradigm for robotic perception and control, enabling emergent generalization and long-horizon task execution. However, their deployment in dynamic, real-world environments is severely hin dered by high inference latency. While smooth robotic interaction requires control frequencies of 20 to 30 Hz, current VLA models typi cally operate at only 3-5 Hz on edge devices due to the memory bound nature of autoregressive decoding. Existing optimizations often require extensive retraining or compromise model accuracy. To bridge this gap, we introduce ActionFlow, a system-level inference framework tailored for resource-constrained edge plat forms. At the core of ActionFlow is a Cross-Request Pipelin ing strategy, a novel scheduler that redefines VLA inference as a macro-pipeline of micro-requests. The strategy intelligently batches memory-bound Decode phases with compute-bound Prefill phases across continuous time steps to maximize hardware utilization. Furthermore, to support this scheduling, we propose a Cross Request State Packed Forward operator and a Unified KV Ring Buffer, which fuse fragmented memory operations into efficient dense computations. Experimental results demonstrate that ActionFlow achieves a 2.55x improvement in FPS on the OpenVLA-7B model without retraining, enabling real-time dy namic manipulation on edge hardware. Our work is available at https://anonymous.4open.science/r/ActionFlow-1D47.",
+    "published": "2025-12-23T11:29:03Z",
+    "updated": "2025-12-23T11:29:03Z",
+    "authors": [
+      "Yuntao Dai",
+      "Hang Gu",
+      "Teng Wang",
+      "Qianyu Cheng",
+      "Yifei Zheng",
+      "Zhiyong Qiu",
+      "Lei Gong",
+      "Wenqi Lou",
+      "Xuehai Zhou"
+    ],
+    "affiliations": [],
+    "first_author": "Yuntao Dai",
+    "pdf_url": "https://arxiv.org/pdf/2512.20276v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 10.0
+  }
+]

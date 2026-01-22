@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.06932v1",
+  "title": "Hidden Leaks in Time Series Forecasting: How Data Leakage Affects LSTM Evaluation Across Configurations and Validation Strategies",
+  "authors": [
+    "Salma Albelali",
+    "Moataz Ahmed"
+  ],
+  "published": "2025-12-07T17:21:27Z",
+  "url": "http://arxiv.org/abs/2512.06932v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.06932v1.pdf",
+  "relevance_score": 97,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Deep learning models, particularly Long Short-Term Memory (LSTM) networks, are widely used in time series forecasting due to their ability to capture complex temporal dependencies. However, evaluation integrity is often compromised by data leakage, a methodological flaw in which input-output sequences are constructed before dataset partitioning, allowing future information to unintentionally influence training. This study investigates the impact of data leakage on performance, focusing on how va"
+}

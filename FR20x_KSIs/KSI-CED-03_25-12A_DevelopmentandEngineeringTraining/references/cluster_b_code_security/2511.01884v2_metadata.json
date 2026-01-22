@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2511.01884v2",
+  "title": "CudaForge: An Agent Framework with Hardware Feedback for CUDA Kernel Optimization",
+  "authors": [
+    "Zijian Zhang",
+    "Rong Wang",
+    "Shiyang Li",
+    "Yuebo Luo",
+    "Mingyi Hong",
+    "Caiwen Ding"
+  ],
+  "published": "2025-10-23T22:52:00Z",
+  "url": "http://arxiv.org/abs/2511.01884v2",
+  "pdf_url": "http://arxiv.org/pdf/2511.01884v2.pdf",
+  "relevance_score": 87,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Developing efficient CUDA kernels is increasingly critical for AI applications such as large-scale LLM training. However, manual kernel design is both costly and time-consuming, motivating automatic approaches that leverage LLMs for code generation. Existing methods for automatic kernel generation, however, often produce low-efficiency kernels, incur high computational overhead, and fail to generalize across settings. In this work, we propose CudaForge, a training-free multi-agent workflow for C"
+}

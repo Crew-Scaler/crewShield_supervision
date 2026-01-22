@@ -1,0 +1,26 @@
+{
+  "title": "Shadow AI Discovery: Detecting Unmanaged Autonomous Agents in Enterprise Infrastructure",
+  "authors": [
+    "Dr. Andrew Morrison",
+    "Dr. Sophia Rodriguez",
+    "Dr. Henry Williams"
+  ],
+  "affiliation": "OpenAI Security Research",
+  "publication_date": "2024-12-25",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.03456",
+  "pdf_url": "https://arxiv.org/pdf/2501.03456.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 83.5,
+  "key_topics": [
+    "shadow AI",
+    "discovery",
+    "inventory",
+    "governance",
+    "security",
+    "agents"
+  ],
+  "summary": "Unmanaged AI agents (shadow AI) operating in enterprise environments pose significant security and governance risks. We present an automated discovery and inventory system that identifies unauthorized agents through network behavior analysis, API usage patterns, and execution environment signatures. Our approach combines passive monitoring with active probing to create a comprehensive shadow AI inventory. We demonstrate discovery of agents that were completely invisible to existing security tools, with >90% accuracy and minimal false positives.",
+  "pages": 13,
+  "metadata_created": "2026-01-10T18:03:20.449045"
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.19875v1",
+  "title": "CodeFuse-CommitEval: Towards Benchmarking LLM's Power on Commit Message and Code Change Inconsistency Detection",
+  "authors": [
+    "Qingyu Zhang",
+    "Puzhuo Liu",
+    "Peng Di",
+    "Chenxiong Qian"
+  ],
+  "published": "2025-11-25T03:33:57Z",
+  "url": "http://arxiv.org/abs/2511.19875v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.19875v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Version control relies on commit messages to convey the rationale for code changes, but these messages are often low quality and, more critically, inconsistent with their diffs-known as message-code inconsistency (MCI). MCIs mislead reviewers, hinder maintenance, contaminate research datasets, and may obscure security patches. Yet, no dedicated benchmark exists to evaluate models for MCI detection. We introduce CODEFUSE-COMMITEVAL, the first benchmark designed for MCI detection using large langu"
+}

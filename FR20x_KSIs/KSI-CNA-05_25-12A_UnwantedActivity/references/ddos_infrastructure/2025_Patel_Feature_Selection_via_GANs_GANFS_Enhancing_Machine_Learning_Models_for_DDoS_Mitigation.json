@@ -1,0 +1,19 @@
+{
+  "title": "Feature Selection via GANs (GANFS): Enhancing Machine Learning Models for DDoS Mitigation",
+  "authors": [
+    "Harsh Patel"
+  ],
+  "published": "2025-04-21T20:27:33+00:00",
+  "arxiv_id": "2504.18566v1",
+  "abstract": "Distributed Denial of Service (DDoS) attacks represent a persistent and evolving threat to modern networked systems, capable of causing large-scale service disruptions. The complexity of such attacks, often hidden within high-dimensional and redundant network traffic data, necessitates robust and intelligent feature selection techniques for effective detection. Traditional methods such as filter-based, wrapper-based, and embedded approaches, each offer strengths but struggle with scalability or adaptability in complex attack environments. In this study, we explore these existing techniques through a detailed comparative analysis and highlight their limitations when applied to large-scale DDoS detection tasks. Building upon these insights, we introduce a novel Generative Adversarial Network-based Feature Selection (GANFS) method that leverages adversarial learning dynamics to identify the most informative features. By training a GAN exclusively on attack traffic and employing a perturbation-based sensitivity analysis on the Discriminator, GANFS effectively ranks feature importance without relying on full supervision. Experimental evaluations using the CIC-DDoS2019 dataset demonstrate that GANFS not only improves the accuracy of downstream classifiers but also enhances computational efficiency by significantly reducing feature dimensionality. These results point to the potential of integrating generative learning models into cybersecurity pipelines to build more adaptive and scalable detection systems.",
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.LG"
+  ],
+  "relevance_score": 18.0,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2504.18566v1",
+  "downloaded": "2025-12-11T08:24:18.052569"
+}

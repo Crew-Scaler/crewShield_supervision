@@ -1,0 +1,111 @@
+[
+  {
+    "arxiv_id": "2512.24457",
+    "title": "Document Data Matching for Blockchain-Supported Real Estate",
+    "summary": "The real estate sector remains highly dependent on manual document handling and verification, making processes inefficient and prone to fraud. This work presents a system that integrates optical character recognition (OCR), natural language processing (NLP), and verifiable credentials (VCs) to automate document extraction, verification, and management. The approach standardizes heterogeneous document formats into VCs and applies automated data matching to detect inconsistencies, while the blockchain provides a decentralized trust layer that reinforces transparency and integrity. A prototype was developed that comprises (i) an OCR-NLP extraction pipeline trained on synthetic datasets, (ii) a backend for credential issuance and management, and (iii) a frontend supporting issuer, holder, and verifier interactions. Experimental results show that the models achieve competitive accuracy across multiple document types and that the end-to-end pipeline reduces verification time while preserving reliability. The proposed framework demonstrates the potential to streamline real estate transactions, strengthen stakeholder trust, and enable scalable, secure digital processes.",
+    "authors": [
+      "Henrique Lin",
+      "Tiago Dias",
+      "Miguel Correia"
+    ],
+    "published": "2025-12-30T20:30:48Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2511.20801",
+    "title": "A Research and Development Portfolio of GNN Centric Malware Detection, Explainability, and Dataset Curation",
+    "summary": "Graph Neural Networks (GNNs) have become an effective tool for malware detection by capturing program execution through graph-structured representations. However, important challenges remain regarding scalability, interpretability, and the availability of reliable datasets. This paper brings together six related studies that collectively address these issues. The portfolio begins with a survey of graph-based malware detection and explainability, then advances to new graph reduction methods, integrated reduction-learning approaches, and investigations into the consistency of explanations. It also introduces dual explanation techniques based on subgraph matching and develops ensemble-based models with attention-guided stacked GNNs to improve interpretability. In parallel, curated datasets of control flow graphs are released to support reproducibility and enable future research. Together, these contributions form a coherent line of research that strengthens GNN-based malware detection by enhancing efficiency, increasing transparency, and providing solid experimental foundations.",
+    "authors": [
+      "Hossein Shokouhinejad",
+      "Griffin Higgins",
+      "Roozbeh Razavi-Far",
+      "Ali A. Ghorbani"
+    ],
+    "published": "2025-11-25T19:40:39Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2511.07577",
+    "title": "A Decentralized Retrieval Augmented Generation System with Source Reliabilities Secured on Blockchain",
+    "summary": "Existing retrieval-augmented generation (RAG) systems typically use a centralized architecture, causing a high cost of data collection, integration, and management, as well as privacy concerns. There is a great need for a decentralized RAG system that enables foundation models to utilize information directly from data owners who maintain full control over their sources. However, decentralization brings a challenge: the numerous independent data sources vary significantly in reliability, which can diminish retrieval accuracy and response quality. To address this, our decentralized RAG system has a novel reliability scoring mechanism that dynamically evaluates each source based on the quality of responses it contributes to generate and prioritizes high-quality sources during retrieval. To ensure transparency and trust, the scoring process is securely managed through blockchain-based smart contracts, creating verifiable and tamper-proof reliability records without relying on a central authority. We evaluate our decentralized system with two Llama models (3B and 8B) in two simulated environments where six data sources have different levels of reliability. Our system achieves a +10.7\\% performance improvement over its centralized counterpart in the real world-like unreliable data environments. Notably, it approaches the upper-bound performance of centralized systems under ideally reliable data environments. The decentralized infrastructure enables secure and trustworthy scoring management, achieving approximately 56\\% marginal cost savings through batched update operations. Our code and system are open-sourced at github.com/yining610/Reliable-dRAG.",
+    "authors": [
+      "Yining Lu",
+      "Wenyi Tang",
+      "Max Johnson",
+      "Taeho Jung",
+      "Meng Jiang"
+    ],
+    "published": "2025-11-10T19:40:30Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2511.07033",
+    "title": "Uncovering Pretraining Code in LLMs: A Syntax-Aware Attribution Approach",
+    "summary": "As large language models (LLMs) become increasingly capable, concerns over the unauthorized use of copyrighted and licensed content in their training data have grown, especially in the context of code. Open-source code, often protected by open source licenses (e.g, GPL), poses legal and ethical challenges when used in pretraining. Detecting whether specific code samples were included in LLM training data is thus critical for transparency, accountability, and copyright compliance. We propose SynPrune, a syntax-pruned membership inference attack method tailored for code. Unlike prior MIA approaches that treat code as plain text, SynPrune leverages the structured and rule-governed nature of programming languages. Specifically, it identifies and excludes consequent tokens that are syntactically required and not reflective of authorship, from attribution when computing membership scores. Experimental results show that SynPrune consistently outperforms the state-of-the-arts. Our method is also robust across varying function lengths and syntax categories.",
+    "authors": [
+      "Yuanheng Li",
+      "Zhuoyang Chen",
+      "Xiaoyun Liu",
+      "Yuhao Wang",
+      "Mingwei Liu"
+    ],
+    "published": "2025-11-10T12:29:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2511.06197",
+    "title": "Enhancing Adversarial Robustness of IoT Intrusion Detection via SHAP-Based Attribution Fingerprinting",
+    "summary": "The rapid proliferation of Internet of Things (IoT) devices has transformed numerous industries by enabling seamless connectivity and data-driven automation. However, this expansion has also exposed IoT networks to increasingly sophisticated security threats, including adversarial attacks targeting artificial intelligence (AI) and machine learning (ML)-based intrusion detection systems (IDS) to deliberately evade detection, induce misclassification, and systematically undermine the reliability and integrity of security defenses. To address these challenges, we propose a novel adversarial detection model that enhances the robustness of IoT IDS against adversarial attacks through SHapley Additive exPlanations (SHAP)-based fingerprinting. Using SHAP's DeepExplainer, we extract attribution fingerprints from network traffic features, enabling the IDS to reliably distinguish between clean and adversarially perturbed inputs. By capturing subtle attribution patterns, the model becomes more resilient to evasion attempts and adversarial manipulations. We evaluated the model on a standard IoT benchmark dataset, where it significantly outperformed a state-of-the-art method in detecting adversarial attacks. In addition to enhanced robustness, this approach improves model transparency and interpretability, thereby increasing trust in the IDS through explainable AI.",
+    "authors": [
+      "Dilli Prasad Sharma",
+      "Liang Xue",
+      "Xiaowei Sun",
+      "Xiaodong Lin",
+      "Pulei Xiong"
+    ],
+    "published": "2025-11-09T02:56:54Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.03765",
+    "title": "The Treasury Proof Ledger: A Cryptographic Framework for Accountable Bitcoin Treasuries",
+    "summary": "Public companies and institutional investors that hold Bitcoin face increasing pressure to show solvency, manage risk, and satisfy regulatory expectations without exposing internal wallet structures or trading strategies. This paper introduces the Treasury Proof Ledger (TPL), a Bitcoin-anchored logging framework for multi-domain Bitcoin treasuries that treats on-chain and off-chain exposures as a conserved state machine with an explicit fee sink. A TPL instance records proof-of-reserves snapshots, proof-of-transit receipts for movements between domains, and policy metadata, and it supports restricted views based on stakeholder permissions. We define an idealised TPL model, represent Bitcoin treasuries as multi-domain exposure vectors, and give deployment-level security notions including exposure soundness, policy completeness, non-equivocation, and privacy-compatible policy views. We then outline how practical, restricted forms of these guarantees can be achieved by combining standard proof-of-reserves and proof-of-transit techniques with hash-based commitments anchored on Bitcoin. The results are existence-type statements: they show which guarantees are achievable once economic and governance assumptions are set, without claiming that any current system already provides them. A stylised corporate-treasury example illustrates how TPL could support responsible transparency policies and future cross-institution checks consistent with Bitcoin's fixed monetary supply.",
+    "authors": [
+      "Jose E. Puente",
+      "Carlos Puente"
+    ],
+    "published": "2025-12-03T13:14:06Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.666666666666664
+  },
+  {
+    "arxiv_id": "2512.12443",
+    "title": "AI Transparency Atlas: Framework, Scoring, and Real-Time Model Card Evaluation Pipeline",
+    "summary": "AI model documentation is fragmented across platforms and inconsistent in structure, preventing policymakers, auditors, and users from reliably assessing safety claims, data provenance, and version-level changes. We analyzed documentation from five frontier models (Gemini 3, Grok 4.1, Llama 4, GPT-5, and Claude 4.5) and 100 Hugging Face model cards, identifying 947 unique section names with extreme naming variation. Usage information alone appeared under 97 distinct labels. Using the EU AI Act Annex IV and the Stanford Transparency Index as baselines, we developed a weighted transparency framework with 8 sections and 23 subsections that prioritizes safety-critical disclosures (Safety Evaluation: 25%, Critical Risk: 20%) over technical specifications. We implemented an automated multi-agent pipeline that extracts documentation from public sources and scores completeness through LLM-based consensus. Evaluating 50 models across vision, multimodal, open-source, and closed-source systems cost less than $3 in total and revealed systematic gaps. Frontier labs (xAI, Microsoft, Anthropic) achieve approximately 80% compliance, while most providers fall below 60%. Safety-critical categories show the largest deficits: deception behaviors, hallucinations, and child safety evaluations account for 148, 124, and 116 aggregate points lost, respectively, across all evaluated models.",
+    "authors": [
+      "Akhmadillo Mamirov",
+      "Faiaz Azmain",
+      "Hanyu Wang"
+    ],
+    "published": "2025-12-13T19:48:44Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 54.99999999999999
+  },
+  {
+    "arxiv_id": "2601.04568",
+    "title": "Neurosymbolic Retrievers for Retrieval-augmented Generation",
+    "summary": "Retrieval Augmented Generation (RAG) has made significant strides in overcoming key limitations of large language models, such as hallucination, lack of contextual grounding, and issues with transparency. However, traditional RAG systems consist of three interconnected neural components - the retriever, re-ranker, and generator - whose internal reasoning processes remain opaque. This lack of transparency complicates interpretability, hinders debugging efforts, and erodes trust, especially in high-stakes domains where clear decision-making is essential. To address these challenges, we introduce the concept of Neurosymbolic RAG, which integrates symbolic reasoning using a knowledge graph with neural retrieval techniques. This new framework aims to answer two primary questions: (a) Can retrievers provide a clear and interpretable basis for document selection? (b) Can symbolic knowledge enhance the clarity of the retrieval process? We propose three methods to improve this integration. First is MAR (Knowledge Modulation Aligned Retrieval) that employs modulation networks to refine query embeddings using interpretable symbolic features, thereby making document matching more explicit. Second, KG-Path RAG enhances queries by traversing knowledge graphs to improve overall retrieval quality and interpretability. Lastly, Process Knowledge-infused RAG utilizes domain-specific tools to reorder retrieved content based on validated workflows. Preliminary results from mental health risk assessment tasks indicate that this neurosymbolic approach enhances both transparency and overall performance",
+    "authors": [
+      "Yash Saxena",
+      "Manas Gaur"
+    ],
+    "published": "2026-01-08T03:53:05Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 50.0
+  }
+]

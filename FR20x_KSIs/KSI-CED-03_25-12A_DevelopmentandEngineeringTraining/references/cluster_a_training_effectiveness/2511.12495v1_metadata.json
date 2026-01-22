@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2511.12495v1",
+  "title": "Task-Aware Retrieval Augmentation for Dynamic Recommendation",
+  "authors": [
+    "Zhen Tao",
+    "Xinke Jiang",
+    "Qingshuai Feng",
+    "Haoyu Zhang",
+    "Lun Du",
+    "Yuchen Fang",
+    "Hao Miao",
+    "Bangquan Xie",
+    "Qingqiang Sun"
+  ],
+  "published": "2025-11-16T08:14:52Z",
+  "url": "http://arxiv.org/abs/2511.12495v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.12495v1.pdf",
+  "relevance_score": 74,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Dynamic recommendation systems aim to provide personalized suggestions by modeling temporal user-item interactions across time-series behavioral data. Recent studies have leveraged pre-trained dynamic graph neural networks (GNNs) to learn user-item representations over temporal snapshot graphs. However, fine-tuning GNNs on these graphs often results in generalization issues due to temporal discrepancies between pre-training and fine-tuning stages, limiting the model's ability to capture evolving"
+}

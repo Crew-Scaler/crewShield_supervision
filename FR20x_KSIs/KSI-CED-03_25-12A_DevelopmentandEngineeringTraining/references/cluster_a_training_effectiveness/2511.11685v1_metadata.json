@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2511.11685v1",
+  "title": "R-Tuning: Wavelet-Decomposed Replay and Semantic Alignment for Continual Adaptation of Pretrained Time-Series Models",
+  "authors": [
+    "Tianyi Yin",
+    "Jingwei Wang",
+    "Chenze Wang",
+    "Han Wang",
+    "Jiexuan Cai",
+    "Min Liu",
+    "Yunlong Ma",
+    "Kun Gao",
+    "Yuting Song",
+    "Weiming Shen"
+  ],
+  "published": "2025-11-12T08:32:08Z",
+  "url": "http://arxiv.org/abs/2511.11685v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.11685v1.pdf",
+  "relevance_score": 72,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Pre-trained models have demonstrated exceptional generalization capabilities in time-series forecasting; however, adapting them to evolving data distributions remains a significant challenge. A key hurdle lies in accessing the original training data, as fine-tuning solely on new data often leads to catastrophic forgetting. To address this issue, we propose Replay Tuning (R-Tuning), a novel framework designed for the continual adaptation of pre-trained time-series models. R-Tuning constructs a un"
+}

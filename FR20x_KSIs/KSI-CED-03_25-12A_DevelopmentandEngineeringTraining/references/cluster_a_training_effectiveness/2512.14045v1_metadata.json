@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.14045v1",
+  "title": "A Deep Dive into Function Inlining and its Security Implications for ML-based Binary Analysis",
+  "authors": [
+    "Omar Abusabha",
+    "Jiyong Uhm",
+    "Tamer Abuhmed",
+    "Hyungjoon Koo"
+  ],
+  "published": "2025-12-16T03:21:59Z",
+  "url": "http://arxiv.org/abs/2512.14045v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.14045v1.pdf",
+  "relevance_score": 87,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "A function inlining optimization is a widely used transformation in modern compilers, which replaces a call site with the callee's body in need. While this transformation improves performance, it significantly impacts static features such as machine instructions and control flow graphs, which are crucial to binary analysis. Yet, despite its broad impact, the security impact of function inlining remains underexplored to date. In this paper, we present the first comprehensive study of function inl"
+}

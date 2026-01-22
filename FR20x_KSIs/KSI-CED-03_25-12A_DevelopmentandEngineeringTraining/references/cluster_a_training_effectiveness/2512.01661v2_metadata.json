@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.01661v2",
+  "title": "Learning the Boundary of Solvability: Aligning LLMs to Detect Unsolvable Problems",
+  "authors": [
+    "Dengyun Peng",
+    "Qiguang Chen",
+    "Bofei Liu",
+    "Jiannan Guan",
+    "Libo Qin",
+    "Zheng Yan",
+    "Jinhao Liu",
+    "Jianshu Zhang",
+    "Wanxiang Che"
+  ],
+  "published": "2025-12-01T13:32:59Z",
+  "url": "http://arxiv.org/abs/2512.01661v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.01661v2.pdf",
+  "relevance_score": 79,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Ensuring large language model (LLM) reliability requires distinguishing objective unsolvability (inherent contradictions) from subjective capability limitations (tasks exceeding model competence). Current LLMs often conflate these dimensions, leading to hallucinations in which they return confident answers to inherently unsolvable queries. To address this issue, we propose a multi-domain dataset containing both solvable and unsolvable questions, UnsolvableQA, together with an alignment framework"
+}

@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.23752v2",
+  "title": "Geometric Scaling of Bayesian Inference in LLMs",
+  "authors": [
+    "Naman Agarwal",
+    "Siddhartha R. Dalal",
+    "Vishal Misra"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23752v2",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "model monitoring"
+  ],
+  "summary": "Recent work has shown that small transformers trained in controlled \"wind-tunnel'' settings can implement exact Bayesian inference, and that their training dynamics produce a geometric substrate -- low-dimensional value manifolds and progressively orthogonal keys -- that encodes posterior structure. We investigate whether this geometric signature persists in production-grade language models. Across Pythia, Phi-2, Llama-3, and Mistral families, we find that last-layer value representations organi..."
+}

@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2511.03094v1",
+  "title": "ALAS: Transactional and Dynamic Multi-Agent LLM Planning",
+  "authors": [
+    "Longling Geng",
+    "Edward Y. Chang"
+  ],
+  "published": "2025-11-05T00:55:51Z",
+  "url": "http://arxiv.org/abs/2511.03094v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.03094v1.pdf",
+  "relevance_score": 87,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Large language models enable flexible multi-agent planning but remain fragile in practice: verification is often circular, state changes are not tracked for repair, and small faults trigger costly global recomputation. We present ALAS, a stateful, disruption-aware framework that separates planning from non-circular validation, records a versioned execution log for grounded checks and restore points, and performs localized repair that preserves work in progress. The validator operates independent"
+}

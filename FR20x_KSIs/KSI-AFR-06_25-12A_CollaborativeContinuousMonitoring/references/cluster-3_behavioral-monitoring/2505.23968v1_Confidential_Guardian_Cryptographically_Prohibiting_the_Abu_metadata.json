@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2505.23968v1",
+  "title": "Confidential Guardian: Cryptographically Prohibiting the Abuse of Model Abstention",
+  "authors": [
+    "Stephan Rabanser",
+    "Ali Shahin Shamsabadi",
+    "Olive Franzese",
+    "Xiao Wang",
+    "Adrian Weller"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-05",
+  "url": "https://arxiv.org/abs/2505.23968v1",
+  "relevance_score": 91.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness",
+    "model monitoring"
+  ],
+  "summary": "Cautious predictions -- where a machine learning model abstains when uncertain -- are crucial for limiting harmful errors in safety-critical applications. In this work, we identify a novel threat: a dishonest institution can exploit these mechanisms to discriminate or unjustly deny services under the guise of uncertainty. We demonstrate the practicality of this threat by introducing an uncertainty-inducing attack called Mirage, which deliberately reduces confidence in targeted input regions, the..."
+}

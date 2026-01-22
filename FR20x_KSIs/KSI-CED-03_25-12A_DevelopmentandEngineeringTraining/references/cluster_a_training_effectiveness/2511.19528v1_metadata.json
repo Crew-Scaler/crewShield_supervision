@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2511.19528v1",
+  "title": "Discover, Learn, and Reinforce: Scaling Vision-Language-Action Pretraining with Diverse RL-Generated Trajectories",
+  "authors": [
+    "Rushuai Yang",
+    "Zhiyuan Feng",
+    "Tianxiang Zhang",
+    "Kaixin Wang",
+    "Chuheng Zhang",
+    "Li Zhao",
+    "Xiu Su",
+    "Yi Chen",
+    "Jiang Bian"
+  ],
+  "published": "2025-11-24T07:54:49Z",
+  "url": "http://arxiv.org/abs/2511.19528v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.19528v1.pdf",
+  "relevance_score": 95,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Scaling vision-language-action (VLA) model pre-training requires large volumes of diverse, high-quality manipulation trajectories. Most current data is obtained via human teleoperation, which is expensive and difficult to scale. Reinforcement learning (RL) methods learn useful skills through autonomous exploration, making them a viable approach for generating data. However, standard RL training collapses to a narrow execution pattern, limiting its utility for large-scale pre-training. We propose"
+}

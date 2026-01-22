@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2501.07890",
+  "title": "Supply Chain Security for AI Agent Dependencies",
+  "published": "2025-01-30",
+  "authors": [
+    {
+      "name": "Patricia Lewis",
+      "affiliation": "UC Berkeley"
+    },
+    {
+      "name": "Quinn Adams",
+      "affiliation": "Berkeley"
+    },
+    {
+      "name": "Richard Cole",
+      "affiliation": "Meta"
+    }
+  ],
+  "pages": 23,
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.SE"
+  ],
+  "summary": "SupplyGuard addresses transitive trust issues in agent dependency chains. We model agent dependency graphs, detect malicious API modifications, and enforce cryptographic integrity checking. Our framework caught 34 supply chain attacks during beta testing at Meta.",
+  "download_date": "2026-01-10T18:22:45.115891",
+  "relevance_score": 100
+}

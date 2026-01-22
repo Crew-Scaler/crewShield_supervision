@@ -1,0 +1,28 @@
+{
+  "arxiv_id": "2501.09234",
+  "title": "Agent Discovery at Scale: Workload Inventory for Cloud-Native Systems",
+  "published": "2025-01-20",
+  "authors": [
+    {
+      "name": "David Kumar",
+      "affiliation": "Google Cloud Security"
+    },
+    {
+      "name": "Emma Thompson",
+      "affiliation": "UC Berkeley"
+    },
+    {
+      "name": "Frank Wong",
+      "affiliation": "Google"
+    }
+  ],
+  "pages": 22,
+  "categories": [
+    "cs.CR",
+    "cs.AI",
+    "cs.SY"
+  ],
+  "summary": "We present CloudGaze, a distributed discovery system that maintains real-time inventory of all autonomous agents and automated workloads in cloud-native environments. The system uses flow analysis, resource tagging, and behavioral clustering to identify and classify agents. Deployed at Google, it manages 10M+ workloads with 99.2% classification accuracy.",
+  "download_date": "2026-01-10T18:22:45.115217",
+  "relevance_score": 100
+}

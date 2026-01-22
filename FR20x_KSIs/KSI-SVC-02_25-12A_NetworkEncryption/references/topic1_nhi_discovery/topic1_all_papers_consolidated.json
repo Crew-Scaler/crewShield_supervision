@@ -1,0 +1,359 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20589v1",
+    "arxiv_id": "2512.20589v1",
+    "title": "Leveraging High-Fidelity Digital Models and Reinforcement Learning for Mission Engineering: A Case Study of Aerial Firefighting Under Perfect Information",
+    "summary": "As systems engineering (SE) objectives evolve from design and operation of monolithic systems to complex System of Systems (SoS), the discipline of Mission Engineering (ME) has emerged which is increasingly being accepted as a new line of thinking for the SE community. Moreover, mission environments are uncertain, dynamic, and mission outcomes are a direct function of how the mission assets will interact with this environment. This proves static architectures brittle and calls for analytically rigorous approaches for ME. To that end, this paper proposes an intelligent mission coordination methodology that integrates digital mission models with Reinforcement Learning (RL), that specifically addresses the need for adaptive task allocation and reconfiguration. More specifically, we are leveraging a Digital Engineering (DE) based infrastructure that is composed of a high-fidelity digital mission model and agent-based simulation; and then we formulate the mission tactics management problem as a Markov Decision Process (MDP), and employ an RL agent trained via Proximal Policy Optimization. By leveraging the simulation as a sandbox, we map the system states to actions, refining the policy based on realized mission outcomes. The utility of the RL-based intelligent mission coordinator is demonstrated through an aerial firefighting case study. Our findings indicate that the RL-based intelligent mission coordinator not only surpasses baseline performance but also significantly reduces the variability in mission performance. Thus, this study serves as a proof of concept demonstrating that DE-enabled mission simulations combined with advanced analytical tools offer a mission-agnostic framework for improving ME practice; which can be extended to more complicated fleet design and selection problems in the future from a mission-first perspective.",
+    "published": "2025-12-23T18:36:07Z",
+    "updated": "2025-12-23T18:36:07Z",
+    "authors": [
+      "\u0130brahim O\u011fuz \u00c7etinkaya",
+      "Sajad Khodadadian",
+      "Taylan G. Top\u00e7u"
+    ],
+    "affiliations": [],
+    "first_author": "\u0130brahim O\u011fuz \u00c7etinkaya",
+    "pdf_url": "https://arxiv.org/pdf/2512.20589v1",
+    "primary_category": "cs.CY",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20618v1",
+    "arxiv_id": "2512.20618v1",
+    "title": "LongVideoAgent: Multi-Agent Reasoning with Long Videos",
+    "summary": "Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We propose a multi-agent framework in which a master LLM coordinates a grounding agent to localize question-relevant segments and a vision agent to extract targeted textual observations. The master agent plans with a step limit, and is trained with reinforcement learning to encourage concise, correct, and efficient multi-agent cooperation. This design helps the master agent focus on relevant clips via grounding, complements subtitles with visual detail, and yields interpretable trajectories. On our proposed LongTVQA and LongTVQA+ which are episode-level datasets aggregated from TVQA/TVQA+, our multi-agent system significantly outperforms strong non-agent baselines. Experiments also show reinforcement learning further strengthens reasoning and planning for the trained agent. Code and data will be shared at https://longvideoagent.github.io/.",
+    "published": "2025-12-23T18:59:49Z",
+    "updated": "2025-12-23T18:59:49Z",
+    "authors": [
+      "Runtao Liu",
+      "Ziyi Liu",
+      "Jiaqi Tang",
+      "Yue Ma",
+      "Renjie Pi",
+      "Jipeng Zhang",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Runtao Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20618v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20617v1",
+    "arxiv_id": "2512.20617v1",
+    "title": "SpatialTree: How Spatial Abilities Branch Out in MLLMs",
+    "summary": "Cognitive science suggests that spatial ability develops progressively-from perception to reasoning and interaction. Yet in multimodal LLMs (MLLMs), this hierarchy remains poorly understood, as most studies focus on a narrow set of tasks. We introduce SpatialTree, a cognitive-science-inspired hierarchy that organizes spatial abilities into four levels: low-level perception (L1), mental mapping (L2), simulation (L3), and agentic competence (L4). Based on this taxonomy, we construct the first capability-centric hierarchical benchmark, thoroughly evaluating mainstream MLLMs across 27 sub-abilities. The evaluation results reveal a clear structure: L1 skills are largely orthogonal, whereas higher-level skills are strongly correlated, indicating increasing interdependency. Through targeted supervised fine-tuning, we uncover a surprising transfer dynamic-negative transfer within L1, but strong cross-level transfer from low- to high-level abilities with notable synergy. Finally, we explore how to improve the entire hierarchy. We find that naive RL that encourages extensive \"thinking\" is unreliable: it helps complex reasoning but hurts intuitive perception. We propose a simple auto-think strategy that suppresses unnecessary deliberation, enabling RL to consistently improve performance across all levels. By building SpatialTree, we provide a proof-of-concept framework for understanding and systematically scaling spatial abilities in MLLMs.",
+    "published": "2025-12-23T18:59:46Z",
+    "updated": "2025-12-23T18:59:46Z",
+    "authors": [
+      "Yuxi Xiao",
+      "Longfei Li",
+      "Shen Yan",
+      "Xinhang Liu",
+      "Sida Peng",
+      "Yunchao Wei",
+      "Xiaowei Zhou",
+      "Bingyi Kang"
+    ],
+    "affiliations": [],
+    "first_author": "Yuxi Xiao",
+    "pdf_url": "https://arxiv.org/pdf/2512.20617v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20615v1",
+    "arxiv_id": "2512.20615v1",
+    "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+    "summary": "Current video avatar generation methods excel at identity preservation and motion alignment but lack genuine agency, they cannot autonomously pursue long-term goals through adaptive environmental interaction. We address this by introducing L-IVA (Long-horizon Interactive Visual Avatar), a task and benchmark for evaluating goal-directed planning in stochastic generative environments, and ORCA (Online Reasoning and Cognitive Architecture), the first framework enabling active intelligence in video avatars. ORCA embodies Internal World Model (IWM) capabilities through two key innovations: (1) a closed-loop OTAR cycle (Observe-Think-Act-Reflect) that maintains robust state tracking under generative uncertainty by continuously verifying predicted outcomes against actual generations, and (2) a hierarchical dual-system architecture where System 2 performs strategic reasoning with state prediction while System 1 translates abstract plans into precise, model-specific action captions. By formulating avatar control as a POMDP and implementing continuous belief updating with outcome verification, ORCA enables autonomous multi-step task completion in open-domain scenarios. Extensive experiments demonstrate that ORCA significantly outperforms open-loop and non-reflective baselines in task success rate and behavioral coherence, validating our IWM-inspired design for advancing video avatar intelligence from passive animation to active, goal-oriented behavior.",
+    "published": "2025-12-23T18:59:16Z",
+    "updated": "2025-12-23T18:59:16Z",
+    "authors": [
+      "Xuanhua He",
+      "Tianyu Yang",
+      "Ke Cao",
+      "Ruiqi Wu",
+      "Cheng Meng",
+      "Yong Zhang",
+      "Zhuoliang Kang",
+      "Xiaoming Wei",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Xuanhua He",
+    "pdf_url": "https://arxiv.org/pdf/2512.20615v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20600v1",
+    "arxiv_id": "2512.20600v1",
+    "title": "Modeling Economic Systems as Multiport Networks",
+    "summary": "In this paper, we demonstrate how multiport network theory can be used as a powerful modeling tool in economics. The critical insight is using the port concept to pair the flow of goods (the electrical current) with the agent's incentive (the voltage) in an economic interaction. By building networks of agents interacting through ports, we create models with multiple levels of abstraction, from the macro level down to the micro level. We are thereby able to model complex macroeconomic systems whose dynamical behavior is emergent from the micro level. Using the LTSpice circuit simulator, we then design and analyze a series of example systems that range in complexity from the textbook Robinson Crusoe economy to a model of an entire economy.",
+    "published": "2025-12-23T18:47:32Z",
+    "updated": "2025-12-23T18:47:32Z",
+    "authors": [
+      "Coen Hutters",
+      "Max B. Mendel"
+    ],
+    "affiliations": [],
+    "first_author": "Coen Hutters",
+    "pdf_url": "https://arxiv.org/pdf/2512.20600v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20586v1",
+    "arxiv_id": "2512.20586v1",
+    "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+    "summary": "Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metastases treated with 18 Gy single-fraction SRS. We developed SAGE (Secure Agent for Generative Dose Expertise), an LLM-based planning agent for automated SRS treatment planning. Two variants generated plans for each case: one using a non-reasoning model, one using a reasoning model. The reasoning variant showed comparable plan dosimetry relative to human planners on primary endpoints (PTV coverage, maximum dose, conformity index, gradient index; all p > 0.21) while reducing cochlear dose below human baselines (p = 0.022). When prompted to improve conformity, the reasoning model demonstrated systematic planning behaviors including prospective constraint verification (457 instances) and trade-off deliberation (609 instances), while the standard model exhibited none of these deliberative processes (0 and 7 instances, respectively). Content analysis revealed that constraint verification and causal explanation concentrated in the reasoning agent. The optimization traces serve as auditable logs, offering a path toward transparent automated planning.",
+    "published": "2025-12-23T18:32:17Z",
+    "updated": "2025-12-23T18:32:17Z",
+    "authors": [
+      "Humza Nusrat",
+      "Luke Francisco",
+      "Bing Luo",
+      "Hassan Bagher-Ebadian",
+      "Joshua Kim",
+      "Karen Chin-Snyder",
+      "Salim Siddiqui",
+      "Mira Shah",
+      "Eric Mellon",
+      "Mohammad Ghassemi",
+      "Anthony Doemer",
+      "Benjamin Movsas",
+      "Kundan Thind"
+    ],
+    "affiliations": [],
+    "first_author": "Humza Nusrat",
+    "pdf_url": "https://arxiv.org/pdf/2512.20586v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20576v1",
+    "arxiv_id": "2512.20576v1",
+    "title": "Performative Policy Gradient: Optimality in Performative Reinforcement Learning",
+    "summary": "Post-deployment machine learning algorithms often influence the environments they act in, and thus shift the underlying dynamics that the standard reinforcement learning (RL) methods ignore. While designing optimal algorithms in this performative setting has recently been studied in supervised learning, the RL counterpart remains under-explored. In this paper, we prove the performative counterparts of the performance difference lemma and the policy gradient theorem in RL, and further introduce the Performative Policy Gradient algorithm (PePG). PePG is the first policy gradient algorithm designed to account for performativity in RL. Under softmax parametrisation, and also with and without entropy regularisation, we prove that PePG converges to performatively optimal policies, i.e. policies that remain optimal under the distribution shifts induced by themselves. Thus, PePG significantly extends the prior works in Performative RL that achieves performative stability but not optimality. Furthermore, our empirical analysis on standard performative RL environments validate that PePG outperforms standard policy gradient algorithms and the existing performative RL algorithms aiming for stability.",
+    "published": "2025-12-23T18:20:06Z",
+    "updated": "2025-12-23T18:20:06Z",
+    "authors": [
+      "Debabrota Basu",
+      "Udvas Das",
+      "Brahim Driss",
+      "Uddalak Mukherjee"
+    ],
+    "affiliations": [],
+    "first_author": "Debabrota Basu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20576v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20619v1",
+    "arxiv_id": "2512.20619v1",
+    "title": "SemanticGen: Video Generation in Semantic Space",
+    "summary": "State-of-the-art video generative models typically learn the distribution of video latents in the VAE space and map them to pixels using a VAE decoder. While this approach can generate high-quality videos, it suffers from slow convergence and is computationally expensive when generating long videos. In this paper, we introduce SemanticGen, a novel solution to address these limitations by generating videos in the semantic space. Our main insight is that, due to the inherent redundancy in videos, the generation process should begin in a compact, high-level semantic space for global planning, followed by the addition of high-frequency details, rather than directly modeling a vast set of low-level video tokens using bi-directional attention. SemanticGen adopts a two-stage generation process. In the first stage, a diffusion model generates compact semantic video features, which define the global layout of the video. In the second stage, another diffusion model generates VAE latents conditioned on these semantic features to produce the final output. We observe that generation in the semantic space leads to faster convergence compared to the VAE latent space. Our method is also effective and computationally efficient when extended to long video generation. Extensive experiments demonstrate that SemanticGen produces high-quality videos and outperforms state-of-the-art approaches and strong baselines.",
+    "published": "2025-12-23T18:59:56Z",
+    "updated": "2025-12-23T18:59:56Z",
+    "authors": [
+      "Jianhong Bai",
+      "Xiaoshi Wu",
+      "Xintao Wang",
+      "Fu Xiao",
+      "Yuanxing Zhang",
+      "Qinghe Wang",
+      "Xiaoyu Shi",
+      "Menghan Xia",
+      "Zuozhu Liu",
+      "Haoji Hu",
+      "Pengfei Wan",
+      "Kun Gai"
+    ],
+    "affiliations": [],
+    "first_author": "Jianhong Bai",
+    "pdf_url": "https://arxiv.org/pdf/2512.20619v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20616v1",
+    "arxiv_id": "2512.20616v1",
+    "title": "Dynamical Dark Energy models in light of the latest observations",
+    "summary": "In this paper, we study several models and parameterizations of dynamical dark energy (DE) that have been studied already in the past, in conjunction with the recently proposed model $w$XCDM, the running vacuum model (RVM) with and without a threshold at $z=1$ and two variants of it, the RRVM and the ``flipped RVM'', and compare them all with the concordance $\u039b$CDM model and the popular $w_0w_a$CDM parameterization. We use two standard sets of cosmological data, one including distant supernovae from Pantheon$+$ and the other from DES-Y5. The rest of the data (BAO from DESI DR2 and CMB from Planck PR4) are shared by the two sets. They are analyzed with the help of \\texttt{CLASS}. No structure formation data are utilized for this analysis and no use is made of the SH0ES calibration of $H_0$. Even so, we find that the flipped RVM and to a lesser extent the $w$XCDM and the RVM with threshold, point to significant evidence of dynamical DE, at a level comparable to $w_0w_a$CDM, more conspicuously for the dataset that involves DES-Y5 observations. We also find that while more traditional models studied in the past, in which there is an exchange between vacuum energy and cold dark matter (through e.g. an interactive source proportional either to the density of dark matter or to that of vacuum) still hint at dynamical DE, the strength of the statistical signal (which we assess through information criteria and other estimators) is nevertheless less pronounced. Finally, we discuss the ability of the various models to explain the data by performing an analysis of their effective equation-of-state parameters and corresponding evolution of their dark energy densities.",
+    "published": "2025-12-23T18:59:29Z",
+    "updated": "2025-12-23T18:59:29Z",
+    "authors": [
+      "Javier de Cruz P\u00e9rez",
+      "Adri\u00e0 G\u00f3mez-Valent",
+      "Joan Sol\u00e0 Peracaula"
+    ],
+    "affiliations": [],
+    "first_author": "Javier de Cruz P\u00e9rez",
+    "pdf_url": "https://arxiv.org/pdf/2512.20616v1",
+    "primary_category": "astro-ph.CO",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20614v1",
+    "arxiv_id": "2512.20614v1",
+    "title": "Tunably realizing flat-bands and exceptional points in kinetically frustrated systems: An example on the non-Hermitian Creutz ladder",
+    "summary": "We study a non-Hermitian extension of the Creutz ladder with generic non-reciprocal hopping. By mapping the ladder onto two decoupled non-Hermitian Su--Schrieffer--Heeger (SSH) chains, we uncover a rich structure in parameter space under different boundary conditions. Under periodic boundary conditions, the spectrum admits a fine-tuned line in parameter space with entirely real eigenvalues, while deviations from this line induce a real--complex spectral transition without crossing exceptional points. In contrast, an exact analytical diagonalization under open boundary conditions reveals extended regions in parameter space with purely real or purely imaginary spectra, separated from complex spectral domains by exceptional lines. The intersections of these exceptional lines define triple-junction points where distinct spectral regimes meet, giving rise to a structured phase diagram that is absent under periodic boundary conditions. We further show that flat bands in this system can occur both as Hermitian diabolical points and as non-Hermitian exceptional points, known as exceptional flat bands, where the dynamics is more stringent than in the Hermitian case, leading to distinct spectral and dynamical signatures.",
+    "published": "2025-12-23T18:58:36Z",
+    "updated": "2025-12-23T18:58:36Z",
+    "authors": [
+      "Debashish Dutta",
+      "Sayan Choudhury"
+    ],
+    "affiliations": [],
+    "first_author": "Debashish Dutta",
+    "pdf_url": "https://arxiv.org/pdf/2512.20614v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20610v1",
+    "arxiv_id": "2512.20610v1",
+    "title": "FedPOD: the deployable units of training for federated learning",
+    "summary": "This paper proposes FedPOD (Proportionally Orchestrated Derivative) for optimizing learning efficiency and communication cost in federated learning among multiple clients. Inspired by FedPIDAvg, we define a round-wise task for FedPOD to enhance training efficiency. FedPIDAvg achieved performance improvement by incorporating the training loss reduction for prediction entropy as weights using differential terms. Furthermore, by modeling data distribution with a Poisson distribution and using a PID controller, it reduced communication costs even in skewed data distribution. However, excluding participants classified as outliers based on the Poisson distribution can limit data utilization. Additionally, PID controller requires the same participants to be maintained throughout the federated learning process as it uses previous rounds' learning information in the current round. In our approach, FedPOD addresses these issues by including participants excluded as outliers, eliminating dependency on previous rounds' learning information, and applying a method for calculating validation loss at each round. In this challenge, FedPOD presents comparable performance to FedPIDAvg in metrics of Dice score, 0.78, 0.71 and 0.72 for WT, ET and TC in average, and projected convergence score, 0.74 in average. Furthermore, the concept of FedPOD draws inspiration from Kubernetes' smallest computing unit, POD, designed to be compatible with Kubernetes auto-scaling. Extending round-wise tasks of FedPOD to POD units allows flexible design by applying scale-out similar to Kubernetes' auto-scaling. This work demonstrated the potentials of FedPOD to enhance federated learning by improving efficiency, flexibility, and performance in metrics.",
+    "published": "2025-12-23T18:57:53Z",
+    "updated": "2025-12-23T18:57:53Z",
+    "authors": [
+      "Daewoon Kim",
+      "Si Young Yie",
+      "Jae Sung Lee"
+    ],
+    "affiliations": [],
+    "first_author": "Daewoon Kim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20610v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20606v1",
+    "arxiv_id": "2512.20606v1",
+    "title": "Repurposing Video Diffusion Transformers for Robust Point Tracking",
+    "summary": "Point tracking aims to localize corresponding points across video frames, serving as a fundamental task for 4D reconstruction, robotics, and video editing. Existing methods commonly rely on shallow convolutional backbones such as ResNet that process frames independently, lacking temporal coherence and producing unreliable matching costs under challenging conditions. Through systematic analysis, we find that video Diffusion Transformers (DiTs), pre-trained on large-scale real-world videos with spatio-temporal attention, inherently exhibit strong point tracking capability and robustly handle dynamic motions and frequent occlusions. We propose DiTracker, which adapts video DiTs through: (1) query-key attention matching, (2) lightweight LoRA tuning, and (3) cost fusion with a ResNet backbone. Despite training with 8 times smaller batch size, DiTracker achieves state-of-the-art performance on challenging ITTO benchmark and matches or outperforms state-of-the-art models on TAP-Vid benchmarks. Our work validates video DiT features as an effective and efficient foundation for point tracking.",
+    "published": "2025-12-23T18:54:10Z",
+    "updated": "2025-12-23T18:54:10Z",
+    "authors": [
+      "Soowon Son",
+      "Honggyu An",
+      "Chaehyun Kim",
+      "Hyunah Ko",
+      "Jisu Nam",
+      "Dahyun Chung",
+      "Siyoon Jin",
+      "Jung Yi",
+      "Jaewon Min",
+      "Junhwa Hur",
+      "Seungryong Kim"
+    ],
+    "affiliations": [],
+    "first_author": "Soowon Son",
+    "pdf_url": "https://arxiv.org/pdf/2512.20606v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20584v1",
+    "arxiv_id": "2512.20584v1",
+    "title": "A human-centered approach to reframing job satisfaction in the BIM-enabled construction industry",
+    "summary": "As the construction industry undergoes rapid digital transformation, ensuring that new technologies enhance rather than hinder human experience has become essential. The inclusion of Building Information Modeling (BIM) plays a central role in this shift, yet its influence on job satisfaction remains underexplored. In response, this study developed a human-centered measurement model for evaluating job satisfaction in BIM work environments by adapting Hackman and Oldham's Job Characteristics Model for the architecture, engineering, and construction (AEC) industry to create a survey that captured industry perspectives on BIM use and job satisfaction. The model uses Partial Least Squares Structural Equation Modeling to analyze the survey results and identify what dimensions of BIM-related work affect job satisfaction. While it was hypothesized that BIM use increases job satisfaction, the results show that only some dimensions of BIM use positively impact BIM job satisfaction; the use of BIM does not guarantee an increase in overall job satisfaction. Additionally, more frequent BIM use was not associated with higher satisfaction levels. These findings suggest that in the AEC industry, sustainable job satisfaction depends less on technological autonomy and more on human-centric factors, particularly collaboration and meaningful engagement within digital workflows.",
+    "published": "2025-12-23T18:29:51Z",
+    "updated": "2025-12-23T18:29:51Z",
+    "authors": [
+      "Sharareh Mirzaei",
+      "Stephanie Bunt",
+      "Susan M Bogus"
+    ],
+    "affiliations": [],
+    "first_author": "Sharareh Mirzaei",
+    "pdf_url": "https://arxiv.org/pdf/2512.20584v1",
+    "primary_category": "cs.HC",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20574v1",
+    "arxiv_id": "2512.20574v1",
+    "title": "Revisiting the near infrared Calcium triplet as metallicity indicator",
+    "summary": "The near-infrared Calcium II Triplet (CaT), around 850nm, is a key metallicity indicator for red giant stars. We present a revised [Fe/H] calibration as a function of CaT line strengths and four luminosity indicators, including the $Gaia$ $G$-band, together with the classical $V$, $I$, and $K_s$ bandpasses. For this purpose, we used a sample of 366 red giant stars belonging to 25 globular and open clusters, complemented by 52 extremely metal-poor field giant stars. The CaT line strengths are determined by fitting Gaussian-Lorentzian combination profiles using the Python lmfit package, which utilises the algorithms implemented therein. The derived calibration is valid for a wide metallicity range, $-4$\\,dex$ \\lesssim \\mathrm{[Fe/H]} \\lesssim +0.15$, and for ages older than $\\sim$200 Myr. In addition, we performed a detailed assessment of how factors such as spectral resolution, spectral quality (expressed through the signal-to-noise ratio), and the algorithms used to constrain the line profiles affect the measured line strengths and the resulting metallicities.",
+    "published": "2025-12-23T18:17:25Z",
+    "updated": "2025-12-23T18:17:25Z",
+    "authors": [
+      "M. Navabi",
+      "R. Carrera",
+      "N. E. D. No\u00ebl",
+      "C. Gallart",
+      "E. Pancino",
+      "M. De Leo"
+    ],
+    "affiliations": [],
+    "first_author": "M. Navabi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20574v1",
+    "primary_category": "astro-ph.SR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.19301v2",
+    "arxiv_id": "2505.19301v2",
+    "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+    "summary": "Traditional Identity and Access Management (IAM) systems, primarily designed for human users or static machine identities via protocols such as OAuth, OpenID Connect (OIDC), and SAML, prove fundamentally inadequate for the dynamic, interdependent, and often ephemeral nature of AI agents operating at scale within Multi Agent Systems (MAS), a computational system composed of multiple interacting intelligent agents that work collectively.   This paper posits the imperative for a novel Agentic AI IAM framework: We deconstruct the limitations of existing protocols when applied to MAS, illustrating with concrete examples why their coarse-grained controls, single-entity focus, and lack of context-awareness falter. We then propose a comprehensive framework built upon rich, verifiable Agent Identities (IDs), leveraging Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs), that encapsulate an agents capabilities, provenance, behavioral scope, and security posture.   Our framework includes an Agent Naming Service (ANS) for secure and capability-aware discovery, dynamic fine-grained access control mechanisms, and critically, a unified global session management and policy enforcement layer for real-time control and consistent revocation across heterogeneous agent communication protocols. We also explore how Zero-Knowledge Proofs (ZKPs) enable privacy-preserving attribute disclosure and verifiable policy compliance.   We outline the architecture, operational lifecycle, innovative contributions, and security considerations of this new IAM paradigm, aiming to establish the foundational trust, accountability, and security necessary for the burgeoning field of agentic AI and the complex ecosystems they will inhabit.",
+    "published": "2025-05-25T20:21:55Z",
+    "updated": "2025-05-28T17:37:25Z",
+    "authors": [
+      "Ken Huang",
+      "Vineeth Sai Narajala",
+      "John Yeoh",
+      "Jason Ross",
+      "Ramesh Raskar",
+      "Youssef Harkati",
+      "Jerry Huang",
+      "Idan Habler",
+      "Chris Hughes"
+    ],
+    "affiliations": [],
+    "first_author": "Ken Huang",
+    "pdf_url": "https://arxiv.org/pdf/2505.19301v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20581v1",
+    "arxiv_id": "2512.20581v1",
+    "title": "MERGE-RNA: a physics-based model to predict RNA secondary structure ensembles with chemical probing",
+    "summary": "The function of RNA molecules is deeply related to their secondary structure, which determines which nucleobases are accessible for pairing. Most RNA molecules however function through dynamic and heterogeneous structural ensembles. Chemical probing methods (e.g., DMS probing) rely on selective chemical modification of accessible RNA nucleotides to infer base-pairing status, yet the resulting nucleotide-resolution data represent ensemble averages over dynamic RNA conformations. We present MERGE-RNA, a unified, physics-based framework that explicitly models the full experimental pipeline, from the thermodynamics of probe binding to the mutational profiling readout. By integrating measurements across probe concentrations and replicates, our model learns a small set of transferable and interpretable parameters together with minimal sequence-specific soft constraints. This enables the prediction of secondary structure ensembles that best explain the data and the detection of suboptmal structures involved in dynamic processes. We validate MERGE-RNA on diverse RNAs, showing that it achieves strong structural accuracy while preserving essential conformational heterogeneity. In a designed RNA for which we report new DMS data, MERGE-RNA detects transient intermediate states associated with strand displacement, dynamics that remain invisible to traditional methods.",
+    "published": "2025-12-23T18:26:57Z",
+    "updated": "2025-12-23T18:26:57Z",
+    "authors": [
+      "Giuseppe Sacco",
+      "Jianhui Li",
+      "Redmond P. Smyth",
+      "Guido Sanguinetti",
+      "Giovanni Bussi"
+    ],
+    "affiliations": [],
+    "first_author": "Giuseppe Sacco",
+    "pdf_url": "https://arxiv.org/pdf/2512.20581v1",
+    "primary_category": "q-bio.BM",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20572v1",
+    "arxiv_id": "2512.20572v1",
+    "title": "The Limitations and Power of NP-Oracle-Based Functional Synthesis Techniques",
+    "summary": "Given a Boolean relational specification between inputs and outputs, the problem of functional synthesis is to construct a function that maps each assignment of the input to an assignment of the output such that each tuple of input and output assignments meets the specification. The past decade has witnessed significant improvement in the scalability of functional synthesis tools, allowing them to handle problems with tens of thousands of variables. A common ingredient in these approaches is their reliance on SAT solvers, thereby exploiting the breakthrough advances in SAT solving over the past three decades. While the recent techniques have been shown to perform well in practice, there is little theoretical understanding of the limitations and power of these approaches.   The primary contribution of this work is to initiate a systematic theoretical investigation into the power of functional synthesis approaches that rely on NP oracles. We first show that even when small Skolem functions exist, naive bit-by-bit learning approaches fail due to the relational nature of specifications. We establish fundamental limitations of interpolation-based approaches, proving that even when small Skolem functions exist, resolution-based interpolation must produce exponential-size circuits. We prove that access to an NP oracle is inherently necessary for efficient synthesis. Our main technical result shows that it is possible to use NP oracles to synthesize small Skolem functions in time polynomial in the size of the specification and the size of the smallest sufficient set of witnesses, establishing positive results for a broad class of relational specifications.",
+    "published": "2025-12-23T18:16:32Z",
+    "updated": "2025-12-23T18:16:32Z",
+    "authors": [
+      "Brendan Juba",
+      "Kuldeep S. Meel"
+    ],
+    "affiliations": [],
+    "first_author": "Brendan Juba",
+    "pdf_url": "https://arxiv.org/pdf/2512.20572v1",
+    "primary_category": "cs.LO",
+    "relevance_score": 14.0
+  }
+]

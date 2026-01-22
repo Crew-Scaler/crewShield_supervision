@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2507.01571v1",
+  "title": "On the Effect of Ruleset Tuning and Data Imbalance on Explainable Network Security Alert Classifications: a Case-Study on DeepCASE",
+  "authors": [
+    "Koen T. W. Teuwen",
+    "Sam Baggen",
+    "Emmanuele Zambon",
+    "Luca Allodi"
+  ],
+  "published": "2025-07-02T10:47:42Z",
+  "url": "http://arxiv.org/abs/2507.01571v1",
+  "pdf_url": "http://arxiv.org/pdf/2507.01571v1.pdf",
+  "relevance_score": 85,
+  "summary": "Automation in Security Operations Centers (SOCs) plays a prominent role in alert classification and incident escalation. However, automated methods must be robust in the presence of imbalanced input data, which can negatively affect performance. Additionally, automated methods should make explainable decisions. In this work, we evaluate the effect of label imbalance on the classification of network intrusion alerts. As our use-case we employ DeepCASE, the state-of-the-art method for automated alert classification. We show that label imbalance impacts both classification performance and correctness of the classification explanations offered by DeepCASE. We conclude tuning the detection rules used in SOCs can significantly reduce imbalance and may benefit the performance and explainability offered by alert post-processing methods such as DeepCASE. Therefore, our findings suggest that traditional methods to improve the quality of input data can benefit automation."
+}

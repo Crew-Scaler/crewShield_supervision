@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.07222v2",
+  "title": "Pay Less Attention to Function Words for Free Robustness of Vision-Language Models",
+  "authors": [
+    "Qiwei Tian",
+    "Chenhao Lin",
+    "Zhengyu Zhao",
+    "Chao Shen"
+  ],
+  "published": "2025-12-08T07:05:18Z",
+  "url": "http://arxiv.org/abs/2512.07222v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.07222v2.pdf",
+  "relevance_score": 72,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "To address the trade-off between robustness and performance for robust VLM, we observe that function words could incur vulnerability of VLMs against cross-modal adversarial attacks, and propose Function-word De-Attention (FDA) accordingly to mitigate the impact of function words. Similar to differential amplifiers, our FDA calculates the original and the function-word cross-attention within attention heads, and differentially subtracts the latter from the former for more aligned and robust VLMs."
+}

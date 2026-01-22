@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2505.15656v1",
+  "title": "Be Careful When Fine-tuning On Open-Source LLMs: Your Fine-tuning Data Could Be Secretly Stolen!",
+  "authors": [
+    "Zhexin Zhang",
+    "Yuhao Sun",
+    "Junxiao Yang",
+    "Shiyao Cui",
+    "Hongning Wang",
+    "Minlie Huang"
+  ],
+  "published": "2025-05-21T15:32:14Z",
+  "url": "http://arxiv.org/abs/2505.15656v1",
+  "pdf_url": "http://arxiv.org/pdf/2505.15656v1.pdf",
+  "relevance_score": 73,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Fine-tuning on open-source Large Language Models (LLMs) with proprietary data is now a standard practice for downstream developers to obtain task-specific LLMs. Surprisingly, we reveal a new and concerning risk along with the practice: the creator of the open-source LLMs can later extract the private downstream fine-tuning data through simple backdoor training, only requiring black-box access to the fine-tuned downstream model. Our comprehensive experiments, across 4 popularly used open-source m"
+}

@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2511.18849v1",
+  "title": "Pre-Filtering Code Suggestions using Developer Behavioral Telemetry to Optimize LLM-Assisted Programming",
+  "authors": [
+    "Mohammad Nour Al Awad",
+    "Sergey Ivanov",
+    "Olga Tikhonova"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-11",
+  "url": "https://arxiv.org/abs/2511.18849v1",
+  "relevance_score": 83.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring"
+  ],
+  "summary": "Large Language Models (LLMs) are increasingly integrated into code editors to provide AI-powered code suggestions. Yet many of these suggestions are ignored, resulting in wasted computation, increased latency, and unnecessary interruptions. We introduce a lightweight pre-filtering model that predicts the likelihood of suggestion acceptance before invoking the LLM, using only real-time developer telemetry such as typing speed, file navigation, and editing activity. Deployed in a production-grade ..."
+}

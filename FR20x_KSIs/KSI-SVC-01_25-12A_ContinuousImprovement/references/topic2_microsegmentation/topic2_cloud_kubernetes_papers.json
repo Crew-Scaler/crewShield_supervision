@@ -1,0 +1,305 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.10280v1",
+    "arxiv_id": "2512.10280v1",
+    "title": "Graph Neural Network Based Adaptive Threat Detection for Cloud Identity and Access Management Logs",
+    "summary": "The rapid expansion of cloud infrastructures and distributed identity systems has significantly increased the complexity and attack surface of modern enterprises. Traditional rule based or signature driven detection systems are often inadequate in identifying novel or evolving threats within Identity and Access Management logs, where anomalous behavior may appear statistically benign but contextually malicious. This paper presents a Graph Neural Network Based Adaptive Threat Detection framework designed to learn latent user resource interaction patterns from IAM audit trails in real time. By modeling IAM logs as heterogeneous dynamic graphs, the proposed system captures temporal, relational, and contextual dependencies across entities such as users, roles, sessions, and access actions. The model incorporates attention based aggregation and graph embedding updates to enable continual adaptation to changing cloud environments. Experimental evaluation on synthesized and real world IAM datasets demonstrates that the proposed method achieves higher detection precision and recall than baseline LSTM and GCN classifiers, while maintaining scalability across multi tenant cloud environments. The frameworks adaptability enables proactive mitigation of insider threats, privilege escalation, and lateral movement attacks, contributing to the foundation of AI driven zero trust access analytics. This work bridges the gap between graph based machine learning and operational cloud security intelligence.",
+    "published": "2025-12-11T04:44:02Z",
+    "updated": "2025-12-11T04:44:02Z",
+    "authors": [
+      "Venkata Tanuja Madireddy"
+    ],
+    "affiliations": [],
+    "first_author": "Venkata Tanuja Madireddy",
+    "pdf_url": "https://arxiv.org/pdf/2512.10280v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18915v1",
+    "arxiv_id": "2512.18915v1",
+    "title": "QoS-Aware Load Balancing in the Computing Continuum via Multi-Player Bandits",
+    "summary": "As computation shifts from the cloud to the edge to reduce processing latency and network traffic, the resulting Computing Continuum (CC) creates a dynamic environment where it is challenging to meet strict Quality of Service (QoS) requirements and avoid service instance overload. Existing methods often prioritize global metrics, overlooking per-client QoS, which is crucial for latency-sensitive and reliability-critical applications. We propose QEdgeProxy, a decentralized QoS-aware load balancer that acts as a proxy between IoT devices and service instances in CC. We formulate the load balancing problem as a Multi-Player Multi-Armed Bandit (MP-MAB) with heterogeneous rewards, where each load balancer autonomously selects service instances that maximize the probability of meeting its clients' QoS targets by using Kernel Density Estimation (KDE) to estimate QoS success probabilities. It also incorporates an adaptive exploration mechanism to recover rapidly from performance shifts and non-stationary conditions. We present a Kubernetes-native QEdgeProxy implementation and evaluate it on an emulated CC testbed deployed on a K3s cluster with realistic network conditions and a latency-sensitive edge-AI workload. Results show that QEdgeProxy significantly outperforms proximity-based and reinforcement-learning baselines in per-client QoS satisfaction, while adapting effectively to load surges and instance availability changes.",
+    "published": "2025-12-21T23:18:07Z",
+    "updated": "2025-12-21T23:18:07Z",
+    "authors": [
+      "Ivan \u010cili\u0107",
+      "Ivana Podnar \u017darko",
+      "Pantelis Frangoudis",
+      "Schahram Dustdar"
+    ],
+    "affiliations": [],
+    "first_author": "Ivan \u010cili\u0107",
+    "pdf_url": "https://arxiv.org/pdf/2512.18915v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.11527v1",
+    "arxiv_id": "2512.11527v1",
+    "title": "Mini-SFC: A Comprehensive Simulation Framework for Orchestration and Management of Service Function Chains",
+    "summary": "In the continuously evolving cloud computing and network environment, service function chain (SFC) plays a crucial role in implementing complex services in the network with its flexible deployment capabilities. To address the limitations of existing SFC simulation tools, this paper introduces Mini-SFC, a modular simulation framework that supports both numerical and container-based virtual simulations, while also supporting online dynamic topology adjustments. As an open-source platform emphasizing user-friendliness, Mini-SFC facilitates rapid algorithm verification and realistic service deployment validation. By simplifying module design and providing standardized solver interfaces, Mini-SFC significantly shortens the learning curve for researchers and enhances the flexibility and scalability required for advanced SFC management and optimization. For readers interested in exploring or utilizing Mini-SFC, more information is available on the official project page.",
+    "published": "2025-12-12T12:54:56Z",
+    "updated": "2025-12-12T12:54:56Z",
+    "authors": [
+      "Xi Wang",
+      "Shuo Shi",
+      "Chenyu Wu"
+    ],
+    "affiliations": [],
+    "first_author": "Xi Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.11527v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.01549v1",
+    "arxiv_id": "2512.01549v1",
+    "title": "Delta Sum Learning: an approach for fast and global convergence in Gossip Learning",
+    "summary": "Federated Learning is a popular approach for distributed learning due to its security and computational benefits. With the advent of powerful devices in the network edge, Gossip Learning further decentralizes Federated Learning by removing centralized integration and relying fully on peer to peer updates. However, the averaging methods generally used in both Federated and Gossip Learning are not ideal for model accuracy and global convergence. Additionally, there are few options to deploy Learning workloads in the edge as part of a larger application using a declarative approach such as Kubernetes manifests. This paper proposes Delta Sum Learning as a method to improve the basic aggregation operation in Gossip Learning, and implements it in a decentralized orchestration framework based on Open Application Model, which allows for dynamic node discovery and intent-driven deployment of multi-workload applications. Evaluation results show that Delta Sum performance is on par with alternative integration methods for 10 node topologies, but results in a 58% lower global accuracy drop when scaling to 50 nodes. Overall, it shows strong global convergence and a logarithmic loss of accuracy with increasing topology size compared to a linear loss for alternatives under limited connectivity.",
+    "published": "2025-12-01T11:23:51Z",
+    "updated": "2025-12-01T11:23:51Z",
+    "authors": [
+      "Tom Goethals",
+      "Merlijn Sebrechts",
+      "Stijn De Schrijver",
+      "Filip De Turck",
+      "Bruno Volckaert"
+    ],
+    "affiliations": [],
+    "first_author": "Tom Goethals",
+    "pdf_url": "https://arxiv.org/pdf/2512.01549v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19673v1",
+    "arxiv_id": "2512.19673v1",
+    "title": "Bottom-up Policy Optimization: Your Language Model Policy Secretly Contains Internal Policies",
+    "summary": "Existing reinforcement learning (RL) approaches treat large language models (LLMs) as a single unified policy, overlooking their internal mechanisms. Understanding how policy evolves across layers and modules is therefore crucial for enabling more targeted optimization and raveling out complex reasoning mechanisms. In this paper, we decompose the language model policy by leveraging the intrinsic split of the Transformer residual stream and the equivalence between the composition of hidden states with the unembedding matrix and the resulting samplable policy. This decomposition reveals Internal Layer Policies, corresponding to contributions from individual layers, and Internal Modular Policies, which align with the self-attention and feed-forward network (FFN) components within each layer. By analyzing the entropy of internal policy, we find that: (a) Early layers keep high entropy for exploration, top layers converge to near-zero entropy for refinement, with convergence patterns varying across model series. (b) LLama's prediction space rapidly converges in the final layer, whereas Qwen-series models, especially Qwen3, exhibit a more human-like, progressively structured reasoning pattern. Motivated by these findings, we propose Bottom-up Policy Optimization (BuPO), a novel RL paradigm that directly optimizes the internal layer policy during early training. By aligning training objective at lower layer, BuPO reconstructs foundational reasoning capabilities and achieves superior performance. Extensive experiments on complex reasoning benchmarks demonstrates the effectiveness of our method. Our code is available at https://github.com/Trae1ounG/BuPO.",
+    "published": "2025-12-22T18:51:48Z",
+    "updated": "2025-12-22T18:51:48Z",
+    "authors": [
+      "Yuqiao Tan",
+      "Minzheng Wang",
+      "Shizhu He",
+      "Huanxuan Liao",
+      "Chengfeng Zhao",
+      "Qiunan Lu",
+      "Tian Liang",
+      "Jun Zhao",
+      "Kang Liu"
+    ],
+    "affiliations": [],
+    "first_author": "Yuqiao Tan",
+    "pdf_url": "https://arxiv.org/pdf/2512.19673v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18646v1",
+    "arxiv_id": "2512.18646v1",
+    "title": "Volley Revolver: A Novel Matrix-Encoding Method for Privacy-Preserving Deep Learning (Inference++)",
+    "summary": "Privacy-preserving inference of convolutional neural networks (CNNs) using homomorphic encryption has emerged as a promising approach for enabling secure machine learning in untrusted environments. In our previous work, we introduced a matrix-encoding strategy that allows convolution and matrix multiplication to be efficiently evaluated over encrypted data, enabling practical CNN inference without revealing either the input data or the model parameters. The core idea behind this strategy is to construct a three-dimensional representation within ciphertexts that preserves the intrinsic spatial structure of both input image data and model weights, rather than flattening them into conventional two-dimensional encodings. However, this approach can operate efficiently $only$ when the number of available plaintext slots within a ciphertext is sufficient to accommodate an entire input image, which becomes a critical bottleneck when processing high-resolution images. In this paper, we address this fundamental limitation by proposing an improved encoding and computation framework that removes the requirement that a single encrypted ciphertext must fully contain one input image. Our method reformulates the data layout and homomorphic operations to partition high-resolution inputs across multiple ciphertexts while preserving the algebraic structure required for efficient convolution and matrix multiplication. As a result, our approach enables privacy-preserving CNN inference to scale naturally beyond the slot-capacity constraints of prior methods, making homomorphic evaluation of CNNs practical for higher-resolution and more complex datasets.",
+    "published": "2025-12-21T08:40:31Z",
+    "updated": "2025-12-21T08:40:31Z",
+    "authors": [
+      "John Chiang"
+    ],
+    "affiliations": [],
+    "first_author": "John Chiang",
+    "pdf_url": "https://arxiv.org/pdf/2512.18646v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16151v1",
+    "arxiv_id": "2512.16151v1",
+    "title": "Artificial Intelligence-Enabled Holistic Design of Catalysts Tailored for Semiconducting Carbon Nanotube Growth",
+    "summary": "Catalyst design is crucial for materials synthesis, especially for complex reaction networks. Strategies like collaborative catalytic systems and multifunctional catalysts are effective but face challenges at the nanoscale. Carbon nanotube synthesis contains complicated nanoscale catalytic reactions, thus achieving high-density, high-quality semiconducting CNTs demands innovative catalyst design. In this work, we present a holistic framework integrating machine learning into traditional catalyst design for semiconducting CNT synthesis. It combines knowledge-based insights with data-driven techniques. Three key components, including open-access electronic structure databases for precise physicochemical descriptors, pre-trained natural language processing-based embedding model for higher-level abstractions, and physical - driven predictive models based on experiment data, are utilized. Through this framework, a new method for selective semiconducting CNT synthesis via catalyst - mediated electron injection, tuned by light during growth, is proposed. 54 candidate catalysts are screened, and three with high potential are identified. High-throughput experiments validate the predictions, with semiconducting selectivity exceeding 91% and the FeTiO3 catalyst reaching 98.6%. This approach not only addresses semiconducting CNT synthesis but also offers a generalizable methodology for global catalyst design and nanomaterials synthesis, advancing materials science in precise control.",
+    "published": "2025-12-18T04:14:36Z",
+    "updated": "2025-12-18T04:14:36Z",
+    "authors": [
+      "Liu Qian",
+      "Yue Li",
+      "Ying Xie",
+      "Jian Zhang",
+      "Pai Li",
+      "Yue Yu",
+      "Zhe Liu",
+      "Feng Ding",
+      "Jin Zhang"
+    ],
+    "affiliations": [],
+    "first_author": "Liu Qian",
+    "pdf_url": "https://arxiv.org/pdf/2512.16151v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13395v2",
+    "arxiv_id": "2512.13395v2",
+    "title": "Multiband neural network classification of ZTF light curves as LSST proxies",
+    "summary": "In this project we use data obtained by Zwicky Transient Facility to develop and test a neural-network-based, multiband classification algorithm to classify periodic variable stars (i.e. pulsating variable stars and eclipsing binaries). The aim is to utilize the algorithm on LSST data once they become available. Phase-folded light curve images and period information were used from five different variable star types: Classical and Type II Cepheids, \u03b4 Scuti stars, eclipsing binaries, and RR Lyrae stars. The data is taken from the 17th data release of ZTF, from which we used two passbands, g and r in this project. The periods were calculated from the raw data and this information was used as an additional numerical input in the neural network. For the training and testing process a supervised machine learning method was created, the neural network contains Convolutional Neural Networks concatenated with Fully Connected Layers.   During the training-validation process the training accuracy reached 99% and the validation accuracy peaked at 95.6%. At the test classification phase three variable star types out of the 5 classes were classified with around 99% of accuracy, the other two also had very high accuracy, 89.6% and 93.6%.",
+    "published": "2025-12-15T14:48:43Z",
+    "updated": "2025-12-16T11:16:49Z",
+    "authors": [
+      "Tam\u00e1s Szklen\u00e1r",
+      "Attila B\u00f3di",
+      "R\u00f3bert Szab\u00f3"
+    ],
+    "affiliations": [],
+    "first_author": "Tam\u00e1s Szklen\u00e1r",
+    "pdf_url": "https://arxiv.org/pdf/2512.13395v2",
+    "primary_category": "astro-ph.IM",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10815v1",
+    "arxiv_id": "2512.10815v1",
+    "title": "qs$GW$ quasiparticle and $GW$-BSE excitation energies of 133,885 molecules",
+    "summary": "Machine learning applications in the chemical sciences, especially when based on neural networks, critically depend on the availability of large quantities of high quality data. As they provide excellent accuracy for both charged and neutral excitations, a large dataset containing quasiparticle self-consistent GW (qs$GW$) and Bethe-Salpeter equation (BSE) data would be highly desirable to model excited state energies and properties. In this work, we introduce a dataset for qs$GW$-BSE excitation energies and qs$GW$ quasiparticle energies of unprecedented size. Our dataset, denoted QM9GWBSE, supplies $GW$-BSE singlet-singlet and singlet-triplet excitation energies, corresponding transition dipole moments and oscillator strengths as well as qs$GW$ quasiparticle energies for all molecules from the popular QM9 dataset. We anticipate that QM9GWBSE will provide a solid foundation to train highly accurate machine learning models for the prediction of molecular excited state properties.",
+    "published": "2025-12-11T17:05:39Z",
+    "updated": "2025-12-11T17:05:39Z",
+    "authors": [
+      "Dario Baum",
+      "Arno F\u00f6rster",
+      "Lucas Visscher"
+    ],
+    "affiliations": [],
+    "first_author": "Dario Baum",
+    "pdf_url": "https://arxiv.org/pdf/2512.10815v1",
+    "primary_category": "physics.chem-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10477v3",
+    "arxiv_id": "2512.10477v3",
+    "title": "Symphony: A Heuristic Normalized Calibrated Advantage Actor and Critic Algorithm in application for Humanoid Robots",
+    "summary": "In our work we not explicitly hint that it is a misconception to think that humans learn fast. Learning process takes time. Babies start learning to move in the restricted liquid area called placenta. Children often are limited by underdeveloped body. Even adults are not allowed to participate in complex competitions right away. However, with robots, when learning from scratch, we often don't have the privilege of waiting for dozen millions of steps. \"Swaddling\" regularization is responsible for restraining an agent in rapid but unstable development penalizing action strength in a specific way not affecting actions directly. The Symphony, Transitional-policy Deterministic Actor and Critic algorithm, is a concise combination of different ideas for possibility of training humanoid robots from scratch with Sample Efficiency, Sample Proximity and Safety of Actions in mind. It is no secret that continuous increase in Gaussian noise without appropriate smoothing is harmful for motors and gearboxes. Compared to Stochastic algorithms, we set a limited parametric noise and promote a reduced strength of actions, safely increasing entropy, since the actions are kind of immersed in weaker noise. When actions require more extreme values, actions rise above the weak noise. Training becomes empirically much safer for both the environment around and the robot's mechanisms. We use Fading Replay Buffer: using a fixed formula containing the hyperbolic tangent, we adjust the batch sampling probability: the memory contains a recent memory and a long-term memory trail. Fading Replay Buffer allows us to use Temporal Advantage when we improve the current Critic Network prediction compared to the exponential moving average. Temporal Advantage allows us to update Actor and Critic in one pass, as well as combine Actor and Critic in one Object and implement their Losses in one line.",
+    "published": "2025-12-11T09:55:49Z",
+    "updated": "2025-12-18T19:25:44Z",
+    "authors": [
+      "Timur Ishuov",
+      "Michele Folgheraiter",
+      "Madi Nurmanov",
+      "Goncalo Gordo",
+      "Rich\u00e1rd Farkas",
+      "J\u00f3zsef Dombi"
+    ],
+    "affiliations": [],
+    "first_author": "Timur Ishuov",
+    "pdf_url": "https://arxiv.org/pdf/2512.10477v3",
+    "primary_category": "cs.RO",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.09835v1",
+    "arxiv_id": "2512.09835v1",
+    "title": "Predicting the Containment Time of California Wildfires Using Machine Learning",
+    "summary": "California's wildfire season keeps getting worse over the years, overwhelming the emergency response teams. These fires cause massive destruction to both property and human life. Because of these reasons, there's a growing need for accurate and practical predictions that can help assist with resources allocation for the Wildfire managers or the response teams. In this research, we built machine learning models to predict the number of days it will require to fully contain a wildfire in California. Here, we addressed an important gap in the current literature. Most prior research has concentrated on wildfire risk or how fires spread, and the few that examine the duration typically predict it in broader categories rather than a continuous measure. This research treats the wildfire duration prediction as a regression task, which allows for more detailed and precise forecasts rather than just the broader categorical predictions used in prior work. We built the models by combining three publicly available datasets from California Department of Forestry and Fire Protection's Fire and Resource Assessment Program (FRAP). This study compared the performance of baseline ensemble regressor, Random Forest and XGBoost, with a Long Short-Term Memory (LSTM) neural network. The results show that the XGBoost model slightly outperforms the Random Forest model, likely due to its superior handling of static features in the dataset. The LSTM model, on the other hand, performed worse than the ensemble models because the dataset lacked temporal features. Overall, this study shows that, depending on the feature availability, Wildfire managers or Fire management authorities can select the most appropriate model to accurately predict wildfire containment duration and allocate resources effectively.",
+    "published": "2025-12-10T17:14:20Z",
+    "updated": "2025-12-10T17:14:20Z",
+    "authors": [
+      "Shashank Bhardwaj"
+    ],
+    "affiliations": [],
+    "first_author": "Shashank Bhardwaj",
+    "pdf_url": "https://arxiv.org/pdf/2512.09835v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.09169v1",
+    "arxiv_id": "2512.09169v1",
+    "title": "AI-Driven Expansion and Application of the Alexandria Database",
+    "summary": "We present a novel multi-stage workflow for computational materials discovery that achieves a 99% success rate in identifying compounds within 100 meV/atom of thermodynamic stability, with a threefold improvement over previous approaches. By combining the Matra-Genoa generative model, Orb-v2 universal machine learning interatomic potential, and ALIGNN graph neural network for energy prediction, we generated 119 million candidate structures and added 1.3 million DFT-validated compounds to the ALEXANDRIA database, including 74 thousand new stable materials. The expanded ALEXANDRIA database now contains 5.8 million structures with 175 thousand compounds on the convex hull. Predicted structural disorder rates (37-43%) match experimental databases, unlike other recent AI-generated datasets. Analysis reveals fundamental patterns in space group distributions, coordination environments, and phase stability networks, including sub-linear scaling of convex hull connectivity. We release the complete dataset, including sAlex25 with 14 million out-of-equilibrium structures containing forces and stresses for training universal force fields. We demonstrate that fine-tuning a GRACE model on this data improves benchmark accuracy. All data, models, and workflows are freely available under Creative Commons licenses.",
+    "published": "2025-12-09T22:31:17Z",
+    "updated": "2025-12-09T22:31:17Z",
+    "authors": [
+      "Th\u00e9o Cavignac",
+      "Jonathan Schmidt",
+      "Pierre-Paul De Breuck",
+      "Antoine Loew",
+      "Tiago F. T. Cerqueira",
+      "Hai-Chen Wang",
+      "Anton Bochkarev",
+      "Yury Lysogorskiy",
+      "Aldo H. Romero",
+      "Ralf Drautz",
+      "Silvana Botti",
+      "Miguel A. L. Marques"
+    ],
+    "affiliations": [
+      "research center future energy materials and systems of the university alliance ruhr and icams, ruhr university bochum, bochum, germany",
+      "department of materials, eth z\u00fcrich, z\u00fcrich, switzerland",
+      "research center future energy materials and systems of the university alliance ruhr and icams, ruhr university bochum, bochum, germany",
+      "research center future energy materials and systems of the university alliance ruhr and icams, ruhr university bochum, bochum, germany",
+      "cfisuc, department of physics, university of coimbra, coimbra, portugal",
+      "research center future energy materials and systems of the university alliance ruhr and icams, ruhr university bochum, bochum, germany",
+      "icams, ruhr-universit\u00e4t bochum and aceworks gmbh, bochum, germany",
+      "icams, ruhr-universit\u00e4t bochum and aceworks gmbh, bochum, germany",
+      "department of physics, west virginia university, morgantown, usa",
+      "icams, ruhr-universit\u00e4t bochum and aceworks gmbh, bochum, germany",
+      "research center future energy materials and systems of the university alliance ruhr and icams, ruhr university bochum, bochum, germany",
+      "research center future energy materials and systems of the university alliance ruhr and icams, ruhr university bochum, bochum, germany"
+    ],
+    "first_author": "Th\u00e9o Cavignac",
+    "pdf_url": "https://arxiv.org/pdf/2512.09169v1",
+    "primary_category": "cond-mat.mtrl-sci",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17924v1",
+    "arxiv_id": "2512.17924v1",
+    "title": "A curated UK rain radar data set for training and benchmarking nowcasting models",
+    "summary": "This paper documents a data set of UK rain radar image sequences for use in statistical modeling and machine learning methods for nowcasting. The main dataset contains 1,000 randomly sampled sequences of length 20 steps (15-minute increments) of 2D radar intensity fields of dimension 40x40 (at 5km spatial resolution). Spatially stratified sampling ensures spatial homogeneity despite removal of clear-sky cases by threshold-based truncation. For each radar sequence, additional atmospheric and geographic features are made available, including date, location, mean elevation, mean wind direction and speed and prevailing storm type. New R functions to extract data from the binary \"Nimrod\" radar data format are provided. A case study is presented to train and evaluate a simple convolutional neural network for radar nowcasting, including self-contained R code.",
+    "published": "2025-12-08T16:11:40Z",
+    "updated": "2025-12-08T16:11:40Z",
+    "authors": [
+      "Viv Atureta",
+      "Rifki Priansyah Jasin",
+      "Stefan Siegert"
+    ],
+    "affiliations": [],
+    "first_author": "Viv Atureta",
+    "pdf_url": "https://arxiv.org/pdf/2512.17924v1",
+    "primary_category": "physics.ao-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.06966v1",
+    "arxiv_id": "2512.06966v1",
+    "title": "Neuro-Vesicles: Neuromodulation Should Be a Dynamical System, Not a Tensor Decoration",
+    "summary": "We introduce Neuro-Vesicles, a framework that augments conventional neural networks with a missing computational layer: a dynamical population of mobile, discrete vesicles that live alongside the network rather than inside its tensors. Each vesicle is a self contained object v = (c, kappa, l, tau, s) carrying a vector payload, type label, location on the graph G = (V, E), remaining lifetime, and optional internal state. Vesicles are emitted in response to activity, errors, or meta signals; migrate along learned transition kernels; probabilistically dock at nodes; locally modify activations, parameters, learning rules, or external memory through content dependent release operators; and finally decay or are absorbed.   This event based interaction layer reshapes neuromodulation. Instead of applying the same conditioning tensors on every forward pass, modulation emerges from the stochastic evolution of a vesicle population that can accumulate, disperse, trigger cascades, carve transient pathways, and write structured traces into topological memory. Dense, short lived vesicles approximate familiar tensor mechanisms such as FiLM, hypernetworks, or attention. Sparse, long lived vesicles resemble a small set of mobile agents that intervene only at rare but decisive moments.   We give a complete mathematical specification of the framework, including emission, migration, docking, release, decay, and their coupling to learning; a continuous density relaxation that yields differentiable reaction diffusion dynamics on the graph; and a reinforcement learning view where vesicle control is treated as a policy optimized for downstream performance. We also outline how the same formalism extends to spiking networks and neuromorphic hardware such as the Darwin3 chip, enabling programmable neuromodulation on large scale brain inspired computers.",
+    "published": "2025-12-07T19:19:12Z",
+    "updated": "2025-12-07T19:19:12Z",
+    "authors": [
+      "Zilin Li",
+      "Weiwei Xu",
+      "Vicki Kane"
+    ],
+    "affiliations": [],
+    "first_author": "Zilin Li",
+    "pdf_url": "https://arxiv.org/pdf/2512.06966v1",
+    "primary_category": "cs.NE",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.04747v1",
+    "arxiv_id": "2512.04747v1",
+    "title": "A Tutorial on Regression Analysis: From Linear Models to Deep Learning -- Lecture Notes on Artificial Intelligence",
+    "summary": "This article serves as the regression analysis lecture notes in the Intelligent Computing course cluster (including the courses of Artificial Intelligence, Data Mining, Machine Learning, and Pattern Recognition). It aims to provide students -- who are assumed to possess only basic university-level mathematics (i.e., with prerequisite courses in calculus, linear algebra, and probability theory) -- with a comprehensive and self-contained understanding of regression analysis without requiring any additional references. The lecture notes systematically introduce the fundamental concepts, modeling components, and theoretical foundations of regression analysis, covering linear regression, logistic regression, multinomial logistic regression, polynomial regression, basis-function models, kernel-based methods, and neural-network-based nonlinear regression. Core methodological topics include loss-function design, parameter-estimation principles, ordinary least squares, gradient-based optimization algorithms and their variants, as well as regularization techniques such as Ridge and LASSO regression. Through detailed mathematical derivations, illustrative examples, and intuitive visual explanations, the materials help students understand not only how regression models are constructed and optimized, but also how they reveal the underlying relationships between features and response variables. By bridging classical statistical modeling and modern machine-learning practice, these lecture notes aim to equip students with a solid conceptual and technical foundation for further study in advanced artificial intelligence models.",
+    "published": "2025-12-04T12:35:57Z",
+    "updated": "2025-12-04T12:35:57Z",
+    "authors": [
+      "Jingyuan Wang",
+      "Jiahao Ji"
+    ],
+    "affiliations": [],
+    "first_author": "Jingyuan Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.04747v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  }
+]

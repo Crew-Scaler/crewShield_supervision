@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.18182v1",
+  "title": "Understanding Typing-Related Bugs in Solidity Compiler",
+  "authors": [
+    "Lantian Li",
+    "Yue Pan",
+    "Dan Wang",
+    "Jingwen Wu",
+    "Zhongxing Yu"
+  ],
+  "published": "2025-12-20T02:37:10Z",
+  "url": "http://arxiv.org/abs/2512.18182v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.18182v1.pdf",
+  "relevance_score": 67,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "The correctness of the Solidity compiler is crucial for ensuring the security of smart contracts. However, the implementation complexity of its type system often introduces elusive defects. This paper presents the first systematic empirical study on typing-related bugs in the Solidity compiler. To systematically analyze these bugs, we collected 146 officially confirmed and fixed typing-related bugs from the official GitHub repository of Solidity compiler. For each bug, we conducted an in-depth a"
+}

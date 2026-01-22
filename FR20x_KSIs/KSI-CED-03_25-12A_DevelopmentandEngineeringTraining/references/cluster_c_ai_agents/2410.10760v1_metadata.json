@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2410.10760v1",
+  "title": "Denial-of-Service Poisoning Attacks against Large Language Models",
+  "authors": [
+    "Kuofeng Gao",
+    "Tianyu Pang",
+    "Chao Du",
+    "Yong Yang",
+    "Shu-Tao Xia",
+    "Min Lin"
+  ],
+  "published": "2024-10-14T17:39:31Z",
+  "url": "http://arxiv.org/abs/2410.10760v1",
+  "pdf_url": "http://arxiv.org/pdf/2410.10760v1.pdf",
+  "relevance_score": 68,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Recent studies have shown that LLMs are vulnerable to denial-of-service (DoS) attacks, where adversarial inputs like spelling errors or non-semantic prompts trigger endless outputs without generating an [EOS] token. These attacks can potentially cause high latency and make LLM services inaccessible to other users or tasks. However, when there are speech-to-text interfaces (e.g., voice commands to a robot), executing such DoS attacks becomes challenging, as it is difficult to introduce spelling e"
+}

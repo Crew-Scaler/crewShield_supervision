@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2401.10149v1",
+  "title": "Multi-Agent Reinforcement Learning for Maritime Operational Technology Cyber Security",
+  "authors": [
+    "Alec Wilson",
+    "Ryan Menzies",
+    "Neela Morarji",
+    "David Foster",
+    "Marco Casassa Mont",
+    "Esin Turkbeyler",
+    "Lisa Gralewski"
+  ],
+  "published": "2024-01-18T17:22:22Z",
+  "url": "http://arxiv.org/abs/2401.10149v1",
+  "pdf_url": "http://arxiv.org/pdf/2401.10149v1.pdf",
+  "relevance_score": 100,
+  "summary": "This paper demonstrates the potential for autonomous cyber defence to be applied on industrial control systems and provides a baseline environment to further explore Multi-Agent Reinforcement Learning's (MARL) application to this problem domain. It introduces a simulation environment, IPMSRL, of a generic Integrated Platform Management System (IPMS) and explores the use of MARL for autonomous cyber defence decision-making on generic maritime based IPMS Operational Technology (OT). OT cyber defensive actions are less mature than they are for Enterprise IT. This is due to the relatively brittle nature of OT infrastructure originating from the use of legacy systems, design-time engineering assumptions, and lack of full-scale modern security controls. There are many obstacles to be tackled across the cyber landscape due to continually increasing cyber-attack sophistication and the limitations of traditional IT-centric cyber defence solutions. Traditional IT controls are rarely deployed on OT infrastructure, and where they are, some threats aren't fully addressed. In our experiments, a shared critic implementation of Multi Agent Proximal Policy Optimisation (MAPPO) outperformed Independent Proximal Policy Optimisation (IPPO). MAPPO reached an optimal policy (episode outcome mean of 1) after 800K timesteps, whereas IPPO was only able to reach an episode outcome mean of 0.966 after one million timesteps. Hyperparameter tuning greatly improved training performance. Across one million timesteps the tuned hyperparameters reached an optimal policy whereas the default hyperparameters only managed to win sporadically, with most simulations resulting in a draw. We tested a real-world constraint, attack detection alert success, and found that when alert success probability is reduced to 0.75 or 0.9, the MARL defenders were still able to win in over 97.5% or 99.5% of episodes, respectively."
+}

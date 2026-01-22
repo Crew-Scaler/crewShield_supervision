@@ -1,0 +1,94 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.21936v1",
+    "arxiv_id": "2511.21936v1",
+    "title": "Secure Command, Control and Communications Systems (C3) for Army UxVs",
+    "summary": "Unmanned Vehicles (UxVs) are increasingly used in modern military operations for reconnaissance, surveillance, and strike missions, enhancing situational awareness while reducing risk to personnel. Their affordability and rapid deployment have encouraged the adoption of commercial solutions. However, many rely on insecure protocols such as MAVLink, which lack authentication and encryption mechanisms. This paper designed, implemented, and evaluated a new secure command-and-control architecture that ensures confidentiality, integrity, and authentication (CIA) while supporting real-time control delegation between Ground Control Stations (GCSs). The proposed solution, named New Command and Control System (NC2S), enforces a zero-trust model integrating hierarchical credential-based privileges to regulate access and control among Tactical Commanders (TC), GCSs, and UxVs. It employs mutual Transport Layer Security (mTLS) with Elliptic Curve Digital Signature Algorithm (ECDSA) certificates and Elliptic Curve Diffie-Hellman (ECDH) key exchange, while message integrity is ensured through Hash-based Message Authentication Codes (HMAC). Multiple lightweight protocols were developed for credential management, key renewal, and control handover. The NC2S prototype was experimentally validated over Wi-Fi and Rohde&Schwarz HR-5000H tactical radios. Results showed that HR-5000H links introduce latencies roughly two orders of magnitude higher than broadband technologies (e.g., Wi-Fi or 5G&Beyond technologies) but are still able to maintain stable communication with minimal message loss, making them suitable for the NC2S links among TC terminals and GCSs.",
+    "published": "2025-11-26T21:53:17Z",
+    "updated": "2025-11-26T21:53:17Z",
+    "authors": [
+      "T. Rebolo",
+      "A. Grilo",
+      "C. Ribeiro"
+    ],
+    "affiliations": [],
+    "first_author": "T. Rebolo",
+    "pdf_url": "https://arxiv.org/pdf/2511.21936v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.16067v1",
+    "arxiv_id": "2510.16067v1",
+    "title": "A Multi-Cloud Framework for Zero-Trust Workload Authentication",
+    "summary": "Static, long-lived credentials for workload authentication create untenable security risks that violate Zero-Trust principles. This paper presents a multi-cloud framework using Workload Identity Federation (WIF) and OpenID Connect (OIDC) for secretless authentication. Our approach uses cryptographically-verified, ephemeral tokens, allowing workloads to authenticate without persistent private keys and mitigating credential theft. We validate this framework in an enterprise-scale Kubernetes environment, which significantly reduces the attack surface. The model offers a unified solution to manage workload identities across disparate clouds, enabling future implementation of robust, attribute-based access control.",
+    "published": "2025-10-17T04:11:31Z",
+    "updated": "2025-10-17T04:11:31Z",
+    "authors": [
+      "Saurabh Deochake",
+      "Ryan Murphy",
+      "Jeremiah Gearheart"
+    ],
+    "affiliations": [],
+    "first_author": "Saurabh Deochake",
+    "pdf_url": "https://arxiv.org/pdf/2510.16067v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2411.02267v1",
+    "arxiv_id": "2411.02267v1",
+    "title": "Technical Report: Performance Comparison of Service Mesh Frameworks: the MTLS Test Case",
+    "summary": "Service Mesh has become essential for modern cloud-native applications by abstracting communication between microservices and providing zero-trust security, observability, and advanced traffic control without requiring code changes. This allows developers to leverage new network capabilities and focus on application logic without managing network complexities. However, the additional layer can significantly impact system performance, latency, and resource consumption, posing challenges for cloud managers and operators.   In this work, we investigate the impact of the mTLS protocol - a common security and authentication mechanism - on application performance within service meshes. Recognizing that security is a primary motivation for deploying a service mesh, we evaluated the performance overhead introduced by leading service meshes: Istio, Istio Ambient, Linkerd, and Cilium. Our experiments were conducted by testing their performance in service-to-service communications within a Kubernetes cluster.   Our experiments reveal significant performance differences (in terms of latency and memory consumption) among the service meshes, rooting from the different architecture of the service mesh, sidecar versus sidecareless, and default extra features hidden in the mTLS implementation. Our results highlight the understanding of the service mesh architecture and its impact on performance.",
+    "published": "2024-11-04T16:57:33Z",
+    "updated": "2024-11-04T16:57:33Z",
+    "authors": [
+      "Anat Bremler Barr",
+      "Ofek Lavi",
+      "Yaniv Naor",
+      "Sanjeev Rampal",
+      "Jhonatan Tavori"
+    ],
+    "affiliations": [],
+    "first_author": "Anat Bremler Barr",
+    "pdf_url": "https://arxiv.org/pdf/2411.02267v1",
+    "primary_category": "cs.NI",
+    "relevance_score": 15.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.01863v1",
+    "arxiv_id": "2508.01863v1",
+    "title": "Hard-Earned Lessons in Access Control at Scale: Enforcing Identity and Policy Across Trust Boundaries with Reverse Proxies and mTLS",
+    "summary": "In today's enterprise environment, traditional access methods such as Virtual Private Networks (VPNs) and application-specific Single Sign-On (SSO) often fall short when it comes to securely scaling access for a distributed and dynamic workforce. This paper presents our experience implementing a modern, Zero Trust-aligned architecture that leverages a reverse proxy integrated with Mutual TLS (mTLS) and centralized SSO, along with the key challenges we encountered and lessons learned during its deployment and scaling. This multidimensional solution involves both per-device and per-user authentication, centralized enforcement of security policies, and comprehensive observability, hence enabling organizations to deliver secure and seamless access to their internal applications.",
+    "published": "2025-08-03T17:32:11Z",
+    "updated": "2025-08-03T17:32:11Z",
+    "authors": [
+      "Sanjay Singh",
+      "Mitendra Mahto"
+    ],
+    "affiliations": [],
+    "first_author": "Sanjay Singh",
+    "pdf_url": "https://arxiv.org/pdf/2508.01863v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.04925v1",
+    "arxiv_id": "2511.04925v1",
+    "title": "Zero Trust Security Model Implementation in Microservices Architectures Using Identity Federation",
+    "summary": "The microservice bombshells that have been linked with the microservice expansion have altered the application architectures, offered agility and scalability in terms of complexity in security trade-offs. Feeble legacy-based perimeter-based policies are unable to offer safeguard to distributed workloads and temporary interaction among and in between the services. The article itself is a case on the need of the Zero Trust Security Model of micro services ecosystem, particularly, the fact that human and workloads require identity federation. It is proposed that the solution framework will be based on industry-standard authentication and authorization and end-to-end trust identity technologies, including Authorization and OpenID connect (OIDC), Authorization and OAuth 2.0 token exchange, and Authorization and SPIFFE/ SPIRE workload identities. Experimental evaluation is a unique demonstration of a superior security position of making use of a smaller attack surface, harmony policy enforcement, as well as interoperability across multi- domain environments. The research results overlay that the federated identity combined with the Zero Trust basics not only guarantee the rules relating to authentication and authorization but also fully complies with the latest DevSecOps standards of microservice deployment, which is automated, scaled, and resilient. The current project offers a stringent roadmap to the organizations that desire to apply Zero Trust in cloud-native technologies but will as well guarantee adherence and interoperability.",
+    "published": "2025-11-07T02:03:05Z",
+    "updated": "2025-11-07T02:03:05Z",
+    "authors": [
+      "Rethish Nair Rajendran",
+      "Sathish Krishna Anumula",
+      "Dileep Kumar Rai",
+      "Sachin Agrawal"
+    ],
+    "affiliations": [],
+    "first_author": "Rethish Nair Rajendran",
+    "pdf_url": "https://arxiv.org/pdf/2511.04925v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  }
+]

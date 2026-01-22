@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.23067v2",
+  "title": "The Reward Model Selection Crisis in Personalized Alignment",
+  "authors": [
+    "Fady Rezk",
+    "Yuangang Pan",
+    "Chuan-Sheng Foo",
+    "Xun Xu",
+    "Nancy Chen",
+    "Henry Gouk",
+    "Timothy Hospedales"
+  ],
+  "published": "2025-12-28T20:27:15Z",
+  "summary": "Personalized alignment from preference data has focused primarily on improving personal reward model (RM) accuracy, with the implicit assumption that better preference ranking translates to better personalized behavior. However, in deployment, computational constraints necessitate inference-time adaptation such as reward-guided decoding (RGD) rather than per-user policy fine-tuning. This creates a critical but overlooked requirement: reward models must not only rank preferences accurately but al",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.169883"
+}

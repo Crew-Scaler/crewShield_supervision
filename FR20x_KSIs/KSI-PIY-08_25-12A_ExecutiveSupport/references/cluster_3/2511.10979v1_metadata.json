@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2511.10979v1",
+  "title": "PAS: A Training-Free Stabilizer for Temporal Encoding in Video LLMs",
+  "authors": [
+    "Bowen Sun",
+    "Yujun Cai",
+    "Ming-Hsuan Yang",
+    "Hang Wu",
+    "Yiwei Wang"
+  ],
+  "published": "2025-11-14T05:56:47Z",
+  "summary": "Video LLMs suffer from temporal inconsistency: small shifts in frame timing can flip attention and suppress relevant frames. We trace this instability to the common extension of Rotary Position Embeddings to video through multimodal RoPE. The induced inverse Fourier time kernel exhibits frame-scale ripples that multiply adjacent frames by different factors, which perturbs attention that should otherwise be governed by the raw query key inner product. We present Phase Aggregated Smoothing (PAS), ",
+  "cluster": "cluster_3",
+  "classification": "GREEN",
+  "relevance_score": 80,
+  "screened_at": "2026-01-11T11:46:04.171679"
+}

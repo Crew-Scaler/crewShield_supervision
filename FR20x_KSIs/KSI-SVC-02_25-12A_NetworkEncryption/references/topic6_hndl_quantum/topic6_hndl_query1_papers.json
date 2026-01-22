@@ -1,0 +1,176 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2510.19968v1",
+    "arxiv_id": "2510.19968v1",
+    "title": "Q-RAN: Quantum-Resilient O-RAN Architecture",
+    "summary": "The telecommunications industry faces a dual transformation: the architectural shift toward Open Radio Access Networks (O-RAN) and the emerging threat from quantum computing. O-RAN disaggregated, multi-vendor architecture creates a larger attack surface vulnerable to crypt-analytically relevant quantum computers(CRQCs) that will break current public key cryptography. The Harvest Now, Decrypt Later (HNDL) attack strategy makes this threat immediate, as adversaries can intercept encrypted data today for future decryption. This paper presents Q-RAN, a comprehensive quantum-resistant security framework for O-RAN networks using NIST-standardized Post-Quantum Cryptography (PQC). We detail the implementation of ML-KEM (FIPS 203) and ML-DSA (FIPS 204), integrated with Quantum Random Number Generators (QRNG) for cryptographic entropy. The solution deploys PQ-IPsec, PQ-DTLS, and PQ-mTLS protocols across all O-RAN interfaces, anchored by a centralized Post-Quantum Certificate Authority (PQ-CA) within the SMO framework. This work provides a complete roadmap for securing disaggregated O-RAN ecosystems against quantum adversaries.",
+    "published": "2025-10-22T18:57:44Z",
+    "updated": "2025-10-22T18:57:44Z",
+    "authors": [
+      "Vipin Rathi",
+      "Lakshya Chopra",
+      "Madhav Agarwal",
+      "Nitin Rajput",
+      "Kriish Sharma",
+      "Sushant Mundepi",
+      "Shivam Gangwar",
+      "Rudraksh Rawal",
+      " Jishan"
+    ],
+    "affiliations": [],
+    "first_author": "Vipin Rathi",
+    "pdf_url": "https://arxiv.org/pdf/2510.19968v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12989v1",
+    "arxiv_id": "2512.12989v1",
+    "title": "Quantigence: A Multi-Agent AI Framework for Quantum Security Research",
+    "summary": "Cryptographically Relevant Quantum Computers (CRQCs) pose a structural threat to the global digital economy. Algorithms like Shor's factoring and Grover's search threaten to dismantle the public-key infrastructure (PKI) securing sovereign communications and financial transactions. While the timeline for fault-tolerant CRQCs remains probabilistic, the \"Store-Now, Decrypt-Later\" (SNDL) model necessitates immediate migration to Post-Quantum Cryptography (PQC). This transition is hindered by the velocity of research, evolving NIST standards, and heterogeneous deployment environments. To address this, we present Quantigence, a theory-driven multi-agent AI framework for structured quantum-security analysis. Quantigence decomposes research objectives into specialized roles - Cryptographic Analyst, Threat Modeler, Standards Specialist, and Risk Assessor - coordinated by a supervisory agent. Using \"cognitive parallelism,\" agents reason independently to maintain context purity while execution is serialized on resource-constrained hardware (e.g., NVIDIA RTX 2060). The framework integrates external knowledge via the Model Context Protocol (MCP) and prioritizes vulnerabilities using the Quantum-Adjusted Risk Score (QARS), a formal extension of Mosca's Theorem. Empirical validation shows Quantigence achieves a 67% reduction in research turnaround time and superior literature coverage compared to manual workflows, democratizing access to high-fidelity quantum risk assessment.",
+    "published": "2025-12-15T05:27:10Z",
+    "updated": "2025-12-15T05:27:10Z",
+    "authors": [
+      "Abdulmalik Alquwayfili"
+    ],
+    "affiliations": [],
+    "first_author": "Abdulmalik Alquwayfili",
+    "pdf_url": "https://arxiv.org/pdf/2512.12989v1",
+    "primary_category": "cs.MA",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.15272v1",
+    "arxiv_id": "2511.15272v1",
+    "title": "QADR: A Scalable, Quantum-Resistant Protocol for Anonymous Data Reporting",
+    "summary": "The security of future large-scale IoT networks is critically threatened by the ``Harvest Now, Decrypt Later'' (HNDL) attack paradigm. Securing the massive, long-lived data streams from these systems requires protocols that are both quantum-resistant and highly scalable. Existing solutions are insufficient: post-quantum classical protocols rely on computational assumptions that may not hold for decades, while purely quantum protocols are too resource-intensive for the sheer scale of IoT. This paper introduces the Quantum Anonymous Data Reporting (QADR) protocol, a hybrid framework that provides a theoretical benchmark and high-performance architecture for this challenge, designed for future fully-connected quantum networks. The protocol achieves scalable, quantum-resistant anonymity through a hybrid security model; it leverages information-theoretically secure keys from Quantum Key Distribution (QKD) to seed a quantum-secure pseudorandom function (QS-PRF), grounding its long-term data protection in well-established computational hardness assumptions. We also propose and analyze an automated slot reservation mechanism by making a deliberate trade-off: achieving high performance by accepting a quantifiable information leak during the anonymous slot reservation phase while maintaining strong unlinkability for the final data submission. Our security analysis formally quantifies the anonymity reduction caused by the leak and discusses pathways to fully mitigate it at a significant performance cost. We prove the protocol's critical advantage as a performance benchmark: its primary communication cost scales as $O(n^2)$, a dramatic improvement over quantum-native alternatives ($O(n^4)$), establishing a high-performance goal for future quantum-secured anonymity systems.",
+    "published": "2025-11-19T09:37:19Z",
+    "updated": "2025-11-19T09:37:19Z",
+    "authors": [
+      "Nilesh Vyas",
+      "Konstantin Baier"
+    ],
+    "affiliations": [],
+    "first_author": "Nilesh Vyas",
+    "pdf_url": "https://arxiv.org/pdf/2511.15272v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.25411v1",
+    "arxiv_id": "2510.25411v1",
+    "title": "Quantum-Resilient Threat Modelling for Secure RIS-Assisted ISAC in 6G UAV Corridors",
+    "summary": "The rapid deployment of unmanned aerial vehicle (UAV) corridors in sixth-generation (6G) networks requires safe, intelligence-driven integrated sensing and communications (ISAC). Reconfigurable intelligent surfaces (RIS) enhance spectrum efficiency, localisation accuracy, and situational awareness, while introducing new vulnerabilities. The rise of quantum computing increases the risks associated with harvest-now-decrypt-later strategies and quantum-enhanced spoofing. We propose a Quantum-Resilient Threat Modelling (QRTM) framework for RIS-assisted ISAC in UAV corridors to address these challenges. QRTM integrates classical, quantum-ready, and quantum-aided adversaries, countered using post-quantum cryptographic (PQC) primitives: ML-KEM for key establishment and Falcon for authentication, both embedded within RIS control signalling and UAV coordination. To strengthen security sensing, the framework introduces RIS-coded scene watermarking validated through a generalised likelihood ratio test (GLRT), with its detection probability characterised by the Marcum Q function. Furthermore, a Secure ISAC Utility (SIU) jointly optimises secrecy rate, spoofing detection, and throughput under RIS constraints, enabled by a scheduler with computational complexity of O(n^2). Monte Carlo evaluations using 3GPP Release 19 mid-band urban-canyon models (7-15 GHz) demonstrate a spoof-detection probability approaching 0.99 at a false-alarm rate of 1e-3, secrecy-rate retention exceeding 90 percent against quantum-capable adversaries, and signal-interference utilisation improvements of about 25 percent compared with baselines. These results show a standards-compliant path towards reliable, quantum-resilient ISAC for UAV corridors in smart cities and non-terrestrial networks.",
+    "published": "2025-10-29T11:28:42Z",
+    "updated": "2025-10-29T11:28:42Z",
+    "authors": [
+      "Sana Hafeez",
+      "Ghulam E Mustafa Abro",
+      "Hifza Mustafa"
+    ],
+    "affiliations": [],
+    "first_author": "Sana Hafeez",
+    "pdf_url": "https://arxiv.org/pdf/2510.25411v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.01731v1",
+    "arxiv_id": "2509.01731v1",
+    "title": "Are Enterprises Ready for Quantum-Safe Cybersecurity?",
+    "summary": "Quantum computing threatens to undermine classical cryptography by breaking widely deployed encryption and signature schemes. This paper examines enterprise readiness for quantum-safe cybersecurity through three perspectives: (i) the technologist view, assessing the maturity of post-quantum cryptography (PQC) and quantum key distribution (QKD); (ii) the enterprise (CISO/CIO) view, analyzing organizational awareness, risk management, and operational barriers; and (iii) the threat actor view, evaluating the evolving quantum threat and the urgency of migration. Using recent standards (e.g., NIST's 2024 PQC algorithms), industry surveys, and threat intelligence, we synthesize findings via a SWOT analysis to map strengths, weaknesses, opportunities, and threats. Results indicate uneven and generally insufficient preparedness: while PQC standards and niche QKD deployments signal technical progress, fewer than 5\\% of enterprises have formal quantum-transition plans, and many underestimate \"harvest now, decrypt later\" risks. Financial, telecom, and government sectors have begun migration, but most industries remain exploratory or stalled by costs, complexity, and skills gaps. Expert consensus places cryptanalytically relevant quantum computers in the 2030s, yet delayed preparation could leave today's data vulnerable for decades. We recommend immediate steps: establishing crypto-agility, creating quantum transition roadmaps, prioritizing PQC deployment in high-value systems, and upskilling cybersecurity teams. A coordinated, proactive approach is essential to secure current and future digital assets in the quantum era.",
+    "published": "2025-09-01T19:27:06Z",
+    "updated": "2025-09-01T19:27:06Z",
+    "authors": [
+      "Tran Duc Le",
+      "Phuc Hao Do",
+      "Truong Duy Dinh",
+      "Van Dai Pham"
+    ],
+    "affiliations": [],
+    "first_author": "Tran Duc Le",
+    "pdf_url": "https://arxiv.org/pdf/2509.01731v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.14162v2",
+    "arxiv_id": "2505.14162v2",
+    "title": "Versatile Quantum-Safe Hybrid Key Exchange and Its Application to MACsec",
+    "summary": "Advancements in quantum computing pose a significant threat to most of the cryptography currently deployed. Fortunately, cryptographic building blocks to mitigate the threat are already available; mostly based on post-quantum and quantum cryptography, but also on symmetric cryptography techniques. Notably, quantum-safe building blocks must be deployed as soon as possible due to the ``harvest-now decrypt-later'' attack scenario, which is already challenging our sensitive and encrypted data today.   Following an agile defense-in-depth approach, Hybrid Authenticated Key Exchange (HAKE) protocols have recently been gaining significant attention. Such protocols modularly combine conventional, post-quantum, and quantum cryptography to achieve confidentiality, authenticity, and integrity guarantees for network channels. Unfortunately, only a few protocols have yet been proposed (mainly Muckle and Muckle+) with different flexibility guarantees.   Looking at available standards in the network domain (especially at the Media Access Control Security (MACsec) standard), we believe that HAKE protocols could already bring strong security benefits to MACsec today. MACsec is a standard designed to secure communication at the data link layer in Ethernet networks by providing security for all traffic between adjacent entities. In addition, MACsec establishes secure channels within a Local Area Network (LAN), ensuring that data remain protected from eavesdropping, tampering, and unauthorized access, while operating transparently to higher layer protocols. Currently, MACsec does not offer enough protection in the event of cryptographically relevant quantum computers.   In this work, we tackle the challenge and propose a new versatile HAKE protocol, dubbed VMuckle, which is sufficiently flexible for the use in MACsec to provide LAN participants with hybrid key material ensuring secure communication.",
+    "published": "2025-05-20T10:16:06Z",
+    "updated": "2025-05-21T07:54:58Z",
+    "authors": [
+      "Jaime S. Buruaga",
+      "Augustine Bugler",
+      "Juan P. Brito",
+      "Vicente Martin",
+      "Christoph Striecks"
+    ],
+    "affiliations": [],
+    "first_author": "Jaime S. Buruaga",
+    "pdf_url": "https://arxiv.org/pdf/2505.14162v2",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.15678v1",
+    "arxiv_id": "2503.15678v1",
+    "title": "Cyber Threats in Financial Transactions -- Addressing the Dual Challenge of AI and Quantum Computing",
+    "summary": "The financial sector faces escalating cyber threats amplified by artificial intelligence (AI) and the advent of quantum computing. AI is being weaponized for sophisticated attacks like deepfakes and AI-driven malware, while quantum computing threatens to render current encryption methods obsolete. This report analyzes these threats, relevant frameworks, and possible countermeasures like quantum cryptography. AI enhances social engineering and phishing attacks via personalized content, lowers entry barriers for cybercriminals, and introduces risks like data poisoning and adversarial AI. Quantum computing, particularly Shor's algorithm, poses a fundamental threat to current encryption standards (RSA and ECC), with estimates suggesting cryptographically relevant quantum computers could emerge within the next 5-30 years. The \"harvest now, decrypt later\" scenario highlights the urgency of transitioning to quantum-resistant cryptography. This is key. Existing legal frameworks are evolving to address AI in cybercrime, but quantum threats require new initiatives. International cooperation and harmonized regulations are crucial. Quantum Key Distribution (QKD) offers theoretical security but faces practical limitations. Post-quantum cryptography (PQC) is a promising alternative, with ongoing standardization efforts. Recommendations for international regulators include fostering collaboration and information sharing, establishing global standards, supporting research and development in quantum security, harmonizing legal frameworks, promoting cryptographic agility, and raising awareness and education. The financial industry must adopt a proactive and adaptive approach to cybersecurity, investing in research, developing migration plans for quantum-resistant cryptography, and embracing a multi-faceted, collaborative strategy to build a resilient, quantum-safe, and AI-resilient financial ecosystem",
+    "published": "2025-03-19T20:16:27Z",
+    "updated": "2025-03-19T20:16:27Z",
+    "authors": [
+      "Ahmed M. Elmisery",
+      "Mirela Sertovic",
+      "Andrew Zayin",
+      "Paul Watson"
+    ],
+    "affiliations": [],
+    "first_author": "Ahmed M. Elmisery",
+    "pdf_url": "https://arxiv.org/pdf/2503.15678v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2503.10238v1",
+    "arxiv_id": "2503.10238v1",
+    "title": "Post Quantum Migration of Tor",
+    "summary": "Shor's and Grover's algorithms' efficiency and the advancement of quantum computers imply that the cryptography used until now to protect one's privacy is potentially vulnerable to retrospective decryption, also known as \\emph{harvest now, decrypt later} attack in the near future. This dissertation proposes an overview of the cryptographic schemes used by Tor, highlighting the non-quantum-resistant ones and introducing theoretical performance assessment methods of a local Tor network. The measurement is divided into three phases. We will start with benchmarking a local Tor network simulation on constrained devices to isolate the time taken by classical cryptography processes. Secondly, the analysis incorporates existing benchmarks of quantum-secure algorithms and compares these performances on the devices. Lastly, the estimation of overhead is calculated by replacing the measured times of traditional cryptography with the times recorded for Post Quantum Cryptography (PQC) execution within the specified Tor environment. By focusing on the replaceable cryptographic components, using theoretical estimations, and leveraging existing benchmarks, valuable insights into the potential impact of PQC can be obtained without needing to implement it fully.",
+    "published": "2025-03-13T10:28:03Z",
+    "updated": "2025-03-13T10:28:03Z",
+    "authors": [
+      "Denis Berger",
+      "Mouad Lemoudden",
+      "William J Buchanan"
+    ],
+    "affiliations": [],
+    "first_author": "Denis Berger",
+    "pdf_url": "https://arxiv.org/pdf/2503.10238v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2407.13523v1",
+    "arxiv_id": "2407.13523v1",
+    "title": "A Security Assessment tool for Quantum Threat Analysis",
+    "summary": "The rapid advancement of quantum computing poses a significant threat to many current security algorithms used for secure communication, digital authentication, and information encryption. A sufficiently powerful quantum computer could potentially exploit vulnerabilities in these algorithms, rendering data in transit insecure. This threat is expected to materialize within the next 20 years. Immediate transition to quantum-resilient cryptographic schemes is crucial, primarily to mitigate store-now-decrypt-later attacks and to ensure the security of products with decade-long operational lives. This transition requires a systematic approach to identifying and upgrading vulnerable cryptographic implementations. This work developed a quantum assessment tool for organizations, providing tailored recommendations for transitioning their security protocols into a post-quantum world. The work included a systematic evaluation of the proposed solution using qualitative feedback from network administrators and cybersecurity experts. This feedback was used to refine the accuracy and usability of the assessment process. The results demonstrate its effectiveness and usefulness in helping organizations prepare for quantum computing threats. The assessment tool is publicly available at (https://quantum-watch.soton.ac.uk).",
+    "published": "2024-07-18T13:58:34Z",
+    "updated": "2024-07-18T13:58:34Z",
+    "authors": [
+      "Basel Halak",
+      "Cristian Sebastian Csete",
+      "Edward Joyce",
+      "Jack Papaioannou",
+      "Alexandre Pires",
+      "Jin Soma",
+      "Betul Gokkaya",
+      "Michael Murphy"
+    ],
+    "affiliations": [],
+    "first_author": "Basel Halak",
+    "pdf_url": "https://arxiv.org/pdf/2407.13523v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 7.0
+  }
+]

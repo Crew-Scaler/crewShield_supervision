@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.22560v1",
+  "title": "RollArt: Scaling Agentic RL Training via Disaggregated Infrastructure",
+  "authors": [
+    "Wei Gao",
+    "Yuheng Zhao",
+    "Tianyuan Wu",
+    "Shaopan Xiong",
+    "Weixun Wang"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22560v1",
+  "relevance_score": 96.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "autonomous systems"
+  ],
+  "summary": "Agentic Reinforcement Learning (RL) enables Large Language Models (LLMs) to perform autonomous decision-making and long-term planning. Unlike standard LLM post-training, agentic RL workloads are highly heterogeneous, combining compute-intensive prefill phases, bandwidth-bound decoding, and stateful, CPU-heavy environment simulations. We argue that efficient agentic RL training requires disaggregated infrastructure to leverage specialized, best-fit hardware. However, naive disaggregation introduc..."
+}

@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2511.17378v1",
+  "title": "A Unified Stability Analysis of SAM vs SGD: Role of Data Coherence and Emergence of Simplicity Bias",
+  "authors": [
+    "Wei-Kai Chang",
+    "Rajiv Khanna"
+  ],
+  "published": "2025-11-21T16:41:14Z",
+  "url": "http://arxiv.org/abs/2511.17378v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.17378v1.pdf",
+  "relevance_score": 70,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Understanding the dynamics of optimization in deep learning is increasingly important as models scale. While stochastic gradient descent (SGD) and its variants reliably find solutions that generalize well, the mechanisms driving this generalization remain unclear. Notably, these algorithms often prefer flatter or simpler minima, particularly in overparameterized settings. Prior work has linked flatness to generalization, and methods like Sharpness-Aware Minimization (SAM) explicitly encourage fl"
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2509.23970v1",
+    "arxiv_id": "2509.23970v1",
+    "title": "Binary Diff Summarization using Large Language Models",
+    "summary": "Security of software supply chains is necessary to ensure that software updates do not contain maliciously injected code or introduce vulnerabilities that may compromise the integrity of critical infrastructure. Verifying the integrity of software updates involves binary differential analysis (binary diffing) to highlight the changes between two binary versions by incorporating binary analysis and reverse engineering. Large language models (LLMs) have been applied to binary analysis to augment traditional tools by producing natural language summaries that cybersecurity experts can grasp for further analysis. Combining LLM-based binary code summarization with binary diffing can improve the LLM's focus on critical changes and enable complex tasks such as automated malware detection. To address this, we propose a novel framework for binary diff summarization using LLMs. We introduce a novel functional sensitivity score (FSS) that helps with automated triage of sensitive binary functions for downstream detection tasks. We create a software supply chain security benchmark by injecting 3 different malware into 6 open-source projects which generates 104 binary versions, 392 binary diffs, and 46,023 functions. On this, our framework achieves a precision of 0.98 and recall of 0.64 for malware detection, displaying high accuracy with low false positives. Across malicious and benign functions, we achieve FSS separation of 3.0 points, confirming that FSS categorization can classify sensitive functions. We conduct a case study on the real-world XZ utils supply chain attack; our framework correctly detects the injected backdoor functions with high FSS.",
+    "published": "2025-09-28T16:47:24Z",
+    "updated": "2025-09-28T16:47:24Z",
+    "authors": [
+      "Meet Udeshi",
+      "Venkata Sai Charan Putrevu",
+      "Prashanth Krishnamurthy",
+      "Prashant Anantharaman",
+      "Sean Carrick",
+      "Ramesh Karri",
+      "Farshad Khorrami"
+    ],
+    "affiliations": [],
+    "first_author": "Meet Udeshi",
+    "pdf_url": "https://arxiv.org/pdf/2509.23970v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.07097v1",
+    "arxiv_id": "2511.07097v1",
+    "title": "Agentic AI Sustainability Assessment for Supply Chain Document Insights",
+    "summary": "This paper presents a comprehensive sustainability assessment framework for document intelligence within supply chain operations, centered on agentic artificial intelligence (AI). We address the dual objective of improving automation efficiency while providing measurable environmental performance in document-intensive workflows. The research compares three scenarios: fully manual (human-only), AI-assisted (human-in-the-loop, HITL), and an advanced multi-agent agentic AI workflow leveraging parsers and verifiers. Empirical results show that AI-assisted HITL and agentic AI scenarios achieve reductions of up to 70-90% in energy consumption, 90-97% in carbon dioxide emissions, and 89-98% in water usage compared to manual processes. Notably, full agentic configurations, combining advanced reasoning (thinking mode) and multi-agent validation, achieve substantial sustainability gains over human-only approaches, even when resource usage increases slightly versus simpler AI-assisted solutions. The framework integrates performance, energy, and emission indicators into a unified ESG-oriented methodology for assessing and governing AI-enabled supply chain solutions. The paper includes a complete replicability use case demonstrating the methodology's application to real-world document extraction tasks.",
+    "published": "2025-11-10T13:38:08Z",
+    "updated": "2025-11-10T13:38:08Z",
+    "authors": [
+      "Diego Gosmar",
+      "Anna Chiara Pallotta",
+      "Giovanni Zenezini"
+    ],
+    "affiliations": [],
+    "first_author": "Diego Gosmar",
+    "pdf_url": "https://arxiv.org/pdf/2511.07097v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2510.03892v1",
+    "arxiv_id": "2510.03892v1",
+    "title": "Kantian-Utilitarian XAI: Meta-Explained",
+    "summary": "We present a gamified explainable AI (XAI) system for ethically aware consumer decision-making in the coffee domain. Each session comprises six rounds with three options per round. Two symbolic engines provide real-time reasons: a Kantian module flags rule violations (e.g., child labor, deforestation risk without shade certification, opaque supply chains, unsafe decaf), and a utilitarian module scores options via multi-criteria aggregation over normalized attributes (price, carbon, water, transparency, farmer income share, taste/freshness, packaging, convenience). A meta-explainer with a regret bound (0.2) highlights Kantian--utilitarian (mis)alignment and switches to a deontically clean, near-parity option when welfare loss is small. We release a structured configuration (attribute schema, certification map, weights, rule set), a policy trace for auditability, and an interactive UI.",
+    "published": "2025-10-04T18:16:12Z",
+    "updated": "2025-10-04T18:16:12Z",
+    "authors": [
+      "Zahra Atf",
+      "Peter R. Lewis"
+    ],
+    "affiliations": [],
+    "first_author": "Zahra Atf",
+    "pdf_url": "https://arxiv.org/pdf/2510.03892v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.16985v1",
+    "arxiv_id": "2509.16985v1",
+    "title": "Static Security Vulnerability Scanning of Proprietary and Open-Source Software: An Adaptable Process with Variants and Results",
+    "summary": "Software vulnerabilities remain a significant risk factor in achieving security objectives within software development organizations. This is especially true where either proprietary or open-source software (OSS) is included in the technological environment. In this paper an end-to-end process with supporting methods and tools is presented. This industry proven generic process allows for the custom instantiation, configuration, and execution of routinized code scanning for software vulnerabilities and their prioritized remediation. A select set of tools are described for this key DevSecOps function and placed into an iterative process. Examples of both industrial proprietary applications and open-source applications are provided including specific vulnerability instances and a discussion of their treatment. The benefits of each selected tool are considered, and alternative tools are also introduced. Application of this method in a comprehensive SDLC model is also reviewed along with prospective enhancements from automation and the application of advanced technologies including AI. Adoption of this method can be achieved with minimal adjustments and with maximum flexibility for results in reducing source code vulnerabilities, reducing supply chain risk, and improving the security profile of new or legacy solutions.",
+    "published": "2025-09-21T09:00:18Z",
+    "updated": "2025-09-21T09:00:18Z",
+    "authors": [
+      "James J. Cusick"
+    ],
+    "affiliations": [],
+    "first_author": "James J. Cusick",
+    "pdf_url": "https://arxiv.org/pdf/2509.16985v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2509.15572v1",
+    "arxiv_id": "2509.15572v1",
+    "title": "Cuckoo Attack: Stealthy and Persistent Attacks Against AI-IDE",
+    "summary": "Modern AI-powered Integrated Development Environments (AI-IDEs) are increasingly defined by an Agent-centric architecture, where an LLM-powered Agent is deeply integrated to autonomously execute complex tasks. This tight integration, however, also introduces a new and critical attack surface. Attackers can exploit these components by injecting malicious instructions into untrusted external sources, effectively hijacking the Agent to perform harmful operations beyond the user's intention or awareness. This emerging threat has quickly attracted research attention, leading to various proposed attack vectors, such as hijacking Model Context Protocol (MCP) Servers to access private data. However, most existing approaches lack stealth and persistence, limiting their practical impact.   We propose the Cuckoo Attack, a novel attack that achieves stealthy and persistent command execution by embedding malicious payloads into configuration files. These files, commonly used in AI-IDEs, execute system commands during routine operations, without displaying execution details to the user. Once configured, such files are rarely revisited unless an obvious runtime error occurs, creating a blind spot for attackers to exploit. We formalize our attack paradigm into two stages, including initial infection and persistence. Based on these stages, we analyze the practicality of the attack execution process and identify the relevant exploitation techniques. Furthermore, we analyze the impact of Cuckoo Attack, which can not only invade the developer's local computer but also achieve supply chain attacks through the spread of configuration files. We contribute seven actionable checkpoints for vendors to evaluate their product security. The critical need for these checks is demonstrated by our end-to-end Proof of Concept, which validated the proposed attack across nine mainstream Agent and AI-IDE pairs.",
+    "published": "2025-09-19T04:10:52Z",
+    "updated": "2025-09-19T04:10:52Z",
+    "authors": [
+      "Xinpeng Liu",
+      "Junming Liu",
+      "Peiyu Liu",
+      "Han Zheng",
+      "Qinying Wang",
+      "Mathias Payer",
+      "Shouling Ji",
+      "Wenhai Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Xinpeng Liu",
+    "pdf_url": "https://arxiv.org/pdf/2509.15572v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2508.21622v1",
+    "arxiv_id": "2508.21622v1",
+    "title": "Integrating Large Language Models with Network Optimization for Interactive and Explainable Supply Chain Planning: A Real-World Case Study",
+    "summary": "This paper presents an integrated framework that combines traditional network optimization models with large language models (LLMs) to deliver interactive, explainable, and role-aware decision support for supply chain planning. The proposed system bridges the gap between complex operations research outputs and business stakeholder understanding by generating natural language summaries, contextual visualizations, and tailored key performance indicators (KPIs). The core optimization model addresses tactical inventory redistribution across a network of distribution centers for multi-period and multi-item, using a mixed-integer formulation. The technical architecture incorporates AI agents, RESTful APIs, and a dynamic user interface to support real-time interaction, configuration updates, and simulation-based insights. A case study demonstrates how the system improves planning outcomes by preventing stockouts, reducing costs, and maintaining service levels. Future extensions include integrating private LLMs, transfer learning, reinforcement learning, and Bayesian neural networks to enhance explainability, adaptability, and real-time decision-making.",
+    "published": "2025-08-29T13:34:55Z",
+    "updated": "2025-08-29T13:34:55Z",
+    "authors": [
+      "Saravanan Venkatachalam"
+    ],
+    "affiliations": [],
+    "first_author": "Saravanan Venkatachalam",
+    "pdf_url": "https://arxiv.org/pdf/2508.21622v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.01067v1",
+    "arxiv_id": "2505.01067v1",
+    "title": "A Rusty Link in the AI Supply Chain: Detecting Evil Configurations in Model Repositories",
+    "summary": "Recent advancements in large language models (LLMs) have spurred the development of diverse AI applications from code generation and video editing to text generation; however, AI supply chains such as Hugging Face, which host pretrained models and their associated configuration files contributed by the public, face significant security challenges; in particular, configuration files originally intended to set up models by specifying parameters and initial settings can be exploited to execute unauthorized code, yet research has largely overlooked their security compared to that of the models themselves; in this work, we present the first comprehensive study of malicious configurations on Hugging Face, identifying three attack scenarios (file, website, and repository operations) that expose inherent risks; to address these threats, we introduce CONFIGSCAN, an LLM-based tool that analyzes configuration files in the context of their associated runtime code and critical libraries, effectively detecting suspicious elements with low false positive rates and high accuracy; our extensive evaluation uncovers thousands of suspicious repositories and configuration files, underscoring the urgent need for enhanced security validation in AI model hosting platforms.",
+    "published": "2025-05-02T07:16:20Z",
+    "updated": "2025-05-02T07:16:20Z",
+    "authors": [
+      "Ziqi Ding",
+      "Qian Fu",
+      "Junchen Ding",
+      "Gelei Deng",
+      "Yi Liu",
+      "Yuekang Li"
+    ],
+    "affiliations": [],
+    "first_author": "Ziqi Ding",
+    "pdf_url": "https://arxiv.org/pdf/2505.01067v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  }
+]

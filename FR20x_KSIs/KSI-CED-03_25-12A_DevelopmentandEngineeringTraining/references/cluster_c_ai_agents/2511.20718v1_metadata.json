@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2511.20718v1",
+  "title": "ST-PPO: Stabilized Off-Policy Proximal Policy Optimization for Multi-Turn Agents Training",
+  "authors": [
+    "Chenliang Li",
+    "Adel Elmahdy",
+    "Alex Boyd",
+    "Zhongruo Wang",
+    "Alfredo Garcia",
+    "Parminder Bhatia",
+    "Taha Kass-Hout",
+    "Cao Xiao",
+    "Mingyi Hong"
+  ],
+  "published": "2025-11-25T05:54:02Z",
+  "url": "http://arxiv.org/abs/2511.20718v1",
+  "pdf_url": "http://arxiv.org/pdf/2511.20718v1.pdf",
+  "relevance_score": 93,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "PPO has been widely adopted for training large language models (LLMs) at the token level in multi-turn dialogue and reasoning tasks. However, its performance is often unstable and prone to collapse. Through empirical analysis, we identify two main sources of instability in this setting: (1)~token-level importance sampling, which is misaligned with the natural granularity of multi-turn environments that have distinct turn-level stages, and (2) inaccurate advantage estimates from off-policy sample"
+}

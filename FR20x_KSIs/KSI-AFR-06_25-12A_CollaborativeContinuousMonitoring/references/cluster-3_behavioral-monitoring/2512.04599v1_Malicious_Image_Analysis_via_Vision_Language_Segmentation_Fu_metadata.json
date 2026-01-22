@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.04599v1",
+  "title": "Malicious Image Analysis via Vision-Language Segmentation Fusion: Detection, Element, and Location in One-shot",
+  "authors": [
+    "Sheng Hang",
+    "Chaoxiang He",
+    "Hongsheng Hu",
+    "Hanqing Hu",
+    "Bin Benjamin Zhu"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.04599v1",
+  "relevance_score": 86.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "Detecting illicit visual content demands more than image-level NSFW flags; moderators must also know what objects make an image illegal and where those objects occur. We introduce a zero-shot pipeline that simultaneously (i) detects if an image contains harmful content, (ii) identifies each critical element involved, and (iii) localizes those elements with pixel-accurate masks - all in one pass. The system first applies foundation segmentation model (SAM) to generate candidate object masks and r..."
+}

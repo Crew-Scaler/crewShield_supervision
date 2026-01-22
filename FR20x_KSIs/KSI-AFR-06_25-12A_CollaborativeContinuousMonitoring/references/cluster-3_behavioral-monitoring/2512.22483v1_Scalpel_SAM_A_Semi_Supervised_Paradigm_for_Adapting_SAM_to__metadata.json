@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.22483v1",
+  "title": "Scalpel-SAM: A Semi-Supervised Paradigm for Adapting SAM to Infrared Small Object Detection",
+  "authors": [
+    "Zihan Liu",
+    "Xiangning Ren",
+    "Dezhang Kong",
+    "Yipeng Zhang",
+    "Meng Han"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22483v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Infrared small object detection urgently requires semi-supervised paradigms due to the high cost of annotation. However, existing methods like SAM face significant challenges of domain gaps, inability of encoding physical priors, and inherent architectural complexity. To address this, we designed a Hierarchical MoE Adapter consisting of four white-box neural operators. Building upon this core component, we propose a two-stage paradigm for knowledge distillation and transfer: (1) Prior-Guided Kno..."
+}

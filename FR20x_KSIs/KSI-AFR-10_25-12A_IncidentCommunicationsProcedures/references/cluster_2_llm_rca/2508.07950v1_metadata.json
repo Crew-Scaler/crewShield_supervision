@@ -1,0 +1,31 @@
+{
+  "arxiv_id": "2508.07950v1",
+  "title": "FEAT: A Multi-Agent Forensic AI System with Domain-Adapted Large Language Model for Automated Cause-of-Death Analysis",
+  "authors": [
+    "Chen Shen",
+    "Wanqing Zhang",
+    "Kehan Li",
+    "Erwen Huang",
+    "Haitao Bi",
+    "Aiying Fan",
+    "Yiwen Shen",
+    "Hongmei Dong",
+    "Ji Zhang",
+    "Yuming Shao",
+    "Zengjia Liu",
+    "Xinshe Liu",
+    "Tao Li",
+    "Chunxia Yan",
+    "Shuanliang Fan",
+    "Di Wu",
+    "Jianhua Ma",
+    "Bin Cong",
+    "Zhenyuan Wang",
+    "Chunfeng Lian"
+  ],
+  "published": "2025-08-11T13:05:59Z",
+  "url": "http://arxiv.org/abs/2508.07950v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.07950v1.pdf",
+  "relevance_score": 90,
+  "summary": "Forensic cause-of-death determination faces systemic challenges, including workforce shortages and diagnostic variability, particularly in high-volume systems like China's medicolegal infrastructure. We introduce FEAT (ForEnsic AgenT), a multi-agent AI framework that automates and standardizes death investigations through a domain-adapted large language model. FEAT's application-oriented architecture integrates: (i) a central Planner for task decomposition, (ii) specialized Local Solvers for evidence analysis, (iii) a Memory & Reflection module for iterative refinement, and (iv) a Global Solver for conclusion synthesis. The system employs tool-augmented reasoning, hierarchical retrieval-augmented generation, forensic-tuned LLMs, and human-in-the-loop feedback to ensure legal and medical validity. In evaluations across diverse Chinese case cohorts, FEAT outperformed state-of-the-art AI systems in both long-form autopsy analyses and concise cause-of-death conclusions. It demonstrated robust generalization across six geographic regions and achieved high expert concordance in blinded validations. Senior pathologists validated FEAT's outputs as comparable to those of human experts, with improved detection of subtle evidentiary nuances. To our knowledge, FEAT is the first LLM-based AI agent system dedicated to forensic medicine, offering scalable, consistent death certification while maintaining expert-level rigor. By integrating AI efficiency with human oversight, this work could advance equitable access to reliable medicolegal services while addressing critical capacity constraints in forensic systems."
+}

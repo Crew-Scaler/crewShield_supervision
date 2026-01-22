@@ -1,0 +1,22 @@
+Title: HAMLOCK: HArdware-Model LOgically Combined attacK
+
+Authors: Sanskar Amgain, Daniel Lobo, Atri Chatterjee, Swarup Bhunia, Fnu Suya
+
+
+Published: 2025-10-22
+
+Query ID: D-1.7
+
+Relevance Color: Green
+Relevance Score: 0.89
+
+Pages: 27
+
+URL: https://arxiv.org/pdf/2510.19145.pdf
+
+Abstract:
+The growing use of third-party hardware accelerators (e.g., FPGAs, ASICs) for deep neural networks (DNNs) introduces new security vulnerabilities. Conventional model-level backdoor attacks, which only poison a model's weights to misclassify inputs with a specific trigger, are often detectable because the entire attack logic is embedded within the model (i.e., software), creating a traceable layer-by-layer activation path.
+  This paper introduces the HArdware-Model Logically Combined Attack (HAML...
+
+Relevance Justification:
+Discusses backdoor attacks in ML models; Analyzes trojan/backdoor detection; Analyzes trigger-based attacks

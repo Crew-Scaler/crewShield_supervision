@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2508.18235v1",
+  "title": "Sealing The Backdoor: Unlearning Adversarial Text Triggers In Diffusion Models Using Knowledge Distillation",
+  "authors": [
+    "Ashwath Vaithinathan Aravindan",
+    "Abha Jha",
+    "Matthew Salaway",
+    "Atharva Sandeep Bhide",
+    "Duygu Nur Yaldiz"
+  ],
+  "published": "2025-08-20T00:57:21Z",
+  "url": "http://arxiv.org/abs/2508.18235v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.18235v1.pdf",
+  "relevance_score": 76,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Text-to-image diffusion models have revolutionized generative AI, but their vulnerability to backdoor attacks poses significant security risks. Adversaries can inject imperceptible textual triggers into training data, causing models to generate manipulated outputs. Although text-based backdoor defenses in classification models are well-explored, generative models lack effective mitigation techniques against. We address this by selectively erasing the model's learned associations between adversar"
+}

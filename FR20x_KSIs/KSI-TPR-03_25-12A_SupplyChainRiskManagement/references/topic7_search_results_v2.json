@@ -1,0 +1,974 @@
+[
+  {
+    "arxiv_id": "2512.19997v1",
+    "title": "BacAlarm: Mining and Simulating Composite API Traffic to Prevent Broken Access Control Violations",
+    "authors": [
+      "Yanjing Yang",
+      "He Zhang",
+      "Bohan Liu",
+      "Jinwei Xu",
+      "Jinghao Hu",
+      "Liming Dong",
+      "Zhewen Mao",
+      "Dongxue Pan"
+    ],
+    "summary": "Broken Access Control (BAC) violations, which consistently rank among the top five security risks in the OWASP API Security Top 10, refer to unauthorized access attempts arising from BAC vulnerabilities, whose successful exploitation can impose significant risks on exposed application programming interfaces (APIs). In recent years, learning-based methods have demonstrated promising prospects in detecting various types of malicious activities. However, in real-network operation and maintenance scenarios, leveraging learning-based methods for BAC detection faces two critical challenges. Firstly, under the RESTful API design principles, most systems omit recording composite traffic for performance, and together with ethical and legal bans on directly testing real-world systems, this leads to a critical shortage of training data for detecting BAC violations. Secondly, common malicious behaviors such as SQL injection typically generate individual access traffic that is inherently anomalous. In contrast, BAC is usually composed of multiple correlated access requests that appear normal when examined in isolation. To tackle these problems, we introduce \\BAC, an approach for establishing a BAC violation detection model by generating and utilizing API traffic data. The \\BAC consists of an API Traffic Generator and a BAC Detector. Experimental results show that \\BAC outperforms current state-of-the-art invariant-based and learning-based methods with the $\\text{F}_1$ and MCC improving by 21.2\\% and 24.1\\%.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.19997v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 100
+  },
+  {
+    "arxiv_id": "2512.21250v1",
+    "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+    "authors": [
+      "Haoyang Li",
+      "Mingjin Li",
+      "Jinxin Zuo",
+      "Siqi Li",
+      "Xiao Li",
+      "Hao Wu",
+      "Yueming Lu",
+      "Xiaochuan He"
+    ],
+    "summary": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21250v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 94
+  },
+  {
+    "arxiv_id": "2512.20986v1",
+    "title": "AegisAgent: An Autonomous Defense Agent Against Prompt Injection Attacks in LLM-HARs",
+    "authors": [
+      "Yihan Wang",
+      "Huanqi Yang",
+      "Shantanu Pal",
+      "Weitao Xu"
+    ],
+    "summary": "The integration of Large Language Models (LLMs) into wearable sensing is creating a new class of mobile applications capable of nuanced human activity understanding. However, the reliability of these systems is critically undermined by their vulnerability to prompt injection attacks, where attackers deliberately input deceptive instructions into LLMs. Traditional defenses, based on static filters and rigid rules, are insufficient to address the semantic complexity of these new attacks. We argue that a paradigm shift is needed -- from passive filtering to active protection and autonomous reasoning. We introduce AegisAgent, an autonomous agent system designed to ensure the security of LLM-driven HAR systems. Instead of merely blocking threats, AegisAgent functions as a cognitive guardian. It autonomously perceives potential semantic inconsistencies, reasons about the user's true intent by consulting a dynamic memory of past interactions, and acts by generating and executing a multi-step verification and repair plan. We implement AegisAgent as a lightweight, full-stack prototype and conduct a systematic evaluation on 15 common attacks with five state-of-the-art LLM-based HAR systems on three public datasets. Results show it reduces attack success rate by 30\\% on average while incurring only 78.6 ms of latency overhead on a GPU workstation. Our work makes the first step towards building secure and trustworthy LLM-driven HAR systems.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20986v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 92
+  },
+  {
+    "arxiv_id": "2512.19974v1",
+    "title": "Securing the Sensing Functionality in ISAC: KLD-Based Ambiguity Function Shaping",
+    "authors": [
+      "Borui Du",
+      "Kawon Han",
+      "Christos Masouros"
+    ],
+    "summary": "As integrated sensing and communication (ISAC) systems are deployed in next-generation wireless networks, a new security vulnerability emerges, particularly in terms of sensing privacy. Unauthorized sensing eavesdroppers (Eve) can potentially exploit the ISAC signal for their own independent passive sensing. However, solutions for sensing-secure ISAC remain largely unexplored to date. This work addresses sensing-security for OFDM- and OTFS-based ISAC waveforms from a target-detection perspective, aiming to prevent Eves from exploiting the ISAC signal for unauthorized passive sensing. We develop ISAC system models for the base station (BS), communication user equipment, and the sensing Eve, and define a Kullback-Leibler-divergence-based detection metric that accounts for mainlobe, sidelobe, and noise components in the ambiguity function and the resulting range-Doppler maps of the legitimate BS's and Eve's sensing. Building on this analysis, we formulate a sensing-secure ISAC signaling design problem that tunes a perturbation matrix to jointly control signal amplitude and phase in the time-frequency domain and solve it via simulated annealing. Simulation results show that the proposed scheme substantially degrades Eve's detection probability -- from 79.4% to 37.4% for OTFS and from 94.3% to 33.0% for OFDM -- while incurring only a small loss in BS sensing performance. In addition, it allows controllable trade-offs across sensing-security and communication performance.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.19974v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 73
+  },
+  {
+    "arxiv_id": "2512.19037v1",
+    "title": "Elevating Intrusion Detection and Security Fortification in Intelligent Networks through Cutting-Edge Machine Learning Paradigms",
+    "authors": [
+      "Md Minhazul Islam Munna",
+      "Md Mahbubur Rahman",
+      "Jaroslav Frnda",
+      "Muhammad Shahid Anwar",
+      "Alpamis Kutlimuratov"
+    ],
+    "summary": "The proliferation of IoT devices and their reliance on Wi-Fi networks have introduced significant security vulnerabilities, particularly the KRACK and Kr00k attacks, which exploit weaknesses in WPA2 encryption to intercept and manipulate sensitive data. Traditional IDS using classifiers face challenges such as model overfitting, incomplete feature extraction, and high false positive rates, limiting their effectiveness in real-world deployments. To address these challenges, this study proposes a robust multiclass machine learning based intrusion detection framework. The methodology integrates advanced feature selection techniques to identify critical attributes, mitigating redundancy and enhancing detection accuracy. Two distinct ML architectures are implemented: a baseline classifier pipeline and a stacked ensemble model combining noise injection, Principal Component Analysis (PCA), and meta learning to improve generalization and reduce false positives. Evaluated on the AWID3 data set, the proposed ensemble architecture achieves superior performance, with an accuracy of 98%, precision of 98%, recall of 98%, and a false positive rate of just 2%, outperforming existing state-of-the-art methods. This work demonstrates the efficacy of combining preprocessing strategies with ensemble learning to fortify network security against sophisticated Wi-Fi attacks, offering a scalable and reliable solution for IoT environments. Future directions include real-time deployment and adversarial resilience testing to further enhance the model's adaptability.",
+    "published": "2025-12-22",
+    "pdf_link": "https://arxiv.org/pdf/2512.19037v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 69
+  },
+  {
+    "arxiv_id": "2512.20586v1",
+    "title": "Automated stereotactic radiosurgery planning using a human-in-the-loop reasoning large language model agent",
+    "authors": [
+      "Humza Nusrat",
+      "Luke Francisco",
+      "Bing Luo",
+      "Hassan Bagher-Ebadian",
+      "Joshua Kim",
+      "Karen Chin-Snyder",
+      "Salim Siddiqui",
+      "Mira Shah",
+      "Eric Mellon",
+      "Mohammad Ghassemi",
+      "Anthony Doemer",
+      "Benjamin Movsas",
+      "Kundan Thind"
+    ],
+    "summary": "Stereotactic radiosurgery (SRS) demands precise dose shaping around critical structures, yet black-box AI systems have limited clinical adoption due to opacity concerns. We tested whether chain-of-thought reasoning improves agentic planning in a retrospective cohort of 41 patients with brain metastases treated with 18 Gy single-fraction SRS. We developed SAGE (Secure Agent for Generative Dose Expertise), an LLM-based planning agent for automated SRS treatment planning. Two variants generated plans for each case: one using a non-reasoning model, one using a reasoning model. The reasoning variant showed comparable plan dosimetry relative to human planners on primary endpoints (PTV coverage, maximum dose, conformity index, gradient index; all p > 0.21) while reducing cochlear dose below human baselines (p = 0.022). When prompted to improve conformity, the reasoning model demonstrated systematic planning behaviors including prospective constraint verification (457 instances) and trade-off deliberation (609 instances), while the standard model exhibited none of these deliberative processes (0 and 7 instances, respectively). Content analysis revealed that constraint verification and causal explanation concentrated in the reasoning agent. The optimization traces serve as auditable logs, offering a path toward transparent automated planning.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20586v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 67
+  },
+  {
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20489v1",
+    "query": "\"API gateway\" security attack",
+    "relevance_score": 64
+  },
+  {
+    "arxiv_id": "2512.19842v1",
+    "title": "Holoscope: Open and Lightweight Distributed Telescope & Honeypot Platform",
+    "authors": [
+      "Andrea Sordello",
+      "Marco Mellia",
+      "Idilio Drago",
+      "Rodolfo Valentim",
+      "Francesco Musumeci",
+      "Massimo Tornatore",
+      "Federico Cerutti",
+      "Martino Trevisan",
+      "Alessio Botta",
+      "Willen Borges Coelho"
+    ],
+    "summary": "The complexity and scale of Internet attacks call for distributed, cooperative observatories capable of monitoring malicious traffic across diverse networks. Holoscope is a lightweight, cloud-native platform designed to simplify the deployment and management of distributed telescope (passive) and honeypot (active) sensors, used to collect and analyse attack traffic by exposing or simulating vulnerable systems. Built upon K3s and WireGuard, Holoscope offers secure connectivity, automated node onboarding, and resilient operation even in resource-constrained environments. Through modular design and Infrastructure-as-Code principles, it supports dynamic sensor orchestration, automated recovery and processing. We build, deploy and operate Holoscope across multiple institutions and cloud networks in Europe and Brazil, enabling unified visibility into large-scale attack phenomena while maintaining ease of integration and security compliance.",
+    "published": "2025-12-22",
+    "pdf_link": "https://arxiv.org/pdf/2512.19842v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 63
+  },
+  {
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "authors": [
+      "Rahul Yumlembam",
+      "Biju Issac",
+      "Seibu Mary Jacob",
+      "Longzhi Yang"
+    ],
+    "summary": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20004v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 62
+  },
+  {
+    "arxiv_id": "2512.20176v1",
+    "title": "Optimistic TEE-Rollups: A Hybrid Architecture for Scalable and Verifiable Generative AI Inference on Blockchain",
+    "authors": [
+      "Aaron Chan",
+      "Alex Ding",
+      "Frank Chen",
+      "Alan Wu",
+      "Bruce Zhang",
+      "Arther Tian"
+    ],
+    "summary": "The rapid integration of Large Language Models (LLMs) into decentralized physical infrastructure networks (DePIN) is currently bottlenecked by the Verifiability Trilemma, which posits that a decentralized inference system cannot simultaneously achieve high computational integrity, low latency, and low cost. Existing cryptographic solutions, such as Zero-Knowledge Machine Learning (ZKML), suffer from superlinear proving overheads (O(k NlogN)) that render them infeasible for billionparameter models. Conversely, optimistic approaches (opML) impose prohibitive dispute windows, preventing real-time interactivity, while recent \"Proof of Quality\" (PoQ) paradigms sacrifice cryptographic integrity for subjective semantic evaluation, leaving networks vulnerable to model downgrade attacks and reward hacking. In this paper, we introduce Optimistic TEE-Rollups (OTR), a hybrid verification protocol that harmonizes these constraints. OTR leverages NVIDIA H100 Confidential Computing Trusted Execution Environments (TEEs) to provide sub-second Provisional Finality, underpinned by an optimistic fraud-proof mechanism and stochastic Zero-Knowledge spot-checks to mitigate hardware side-channel risks. We formally define Proof of Efficient Attribution (PoEA), a consensus mechanism that cryptographically binds execution traces to hardware attestations, thereby guaranteeing model authenticity. Extensive simulations demonstrate that OTR achieves 99% of the throughput of centralized baselines with a marginal cost overhead of $0.07 per query, maintaining Byzantine fault tolerance against rational adversaries even in the presence of transient hardware vulnerabilities.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20176v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 61
+  },
+  {
+    "arxiv_id": "2512.20164v1",
+    "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Specialized LLM Applications",
+    "authors": [
+      "Honglin Mu",
+      "Jinghao Liu",
+      "Kaiyang Wan",
+      "Rui Xing",
+      "Xiuying Chen",
+      "Timothy Baldwin",
+      "Wanxiang Che"
+    ],
+    "summary": "Large Language Models (LLMs) excel at text comprehension and generation, making them ideal for automated tasks like code review and content moderation. However, our research identifies a vulnerability: LLMs can be manipulated by \"adversarial instructions\" hidden in input data, such as resumes or code, causing them to deviate from their intended task. Notably, while defenses may exist for mature domains such as code review, they are often absent in other common applications such as resume screening and peer review. This paper introduces a benchmark to assess this vulnerability in resume screening, revealing attack success rates exceeding 80% for certain attack types. We evaluate two defense mechanisms: prompt-based defenses achieve 10.1% attack reduction with 12.5% false rejection increase, while our proposed FIDS (Foreign Instruction Detection through Separation) using LoRA adaptation achieves 15.4% attack reduction with 10.4% false rejection increase. The combined approach provides 26.3% attack reduction, demonstrating that training-time defenses outperform inference-time mitigations in both security and utility preservation.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20164v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 59
+  },
+  {
+    "arxiv_id": "2512.19016v1",
+    "title": "DREAM: Dynamic Red-teaming across Environments for AI Models",
+    "authors": [
+      "Liming Lu",
+      "Xiang Gu",
+      "Junyu Huang",
+      "Jiawei Du",
+      "Yunhuai Liu",
+      "Yongbin Zhou",
+      "Shuchao Pang"
+    ],
+    "summary": "Large Language Models (LLMs) are increasingly used in agentic systems, where their interactions with diverse tools and environments create complex, multi-stage safety challenges. However, existing benchmarks mostly rely on static, single-turn assessments that miss vulnerabilities from adaptive, long-chain attacks. To fill this gap, we introduce DREAM, a framework for systematic evaluation of LLM agents against dynamic, multi-stage attacks. At its core, DREAM uses a Cross-Environment Adversarial Knowledge Graph (CE-AKG) to maintain stateful, cross-domain understanding of vulnerabilities. This graph guides a Contextualized Guided Policy Search (C-GPS) algorithm that dynamically constructs attack chains from a knowledge base of 1,986 atomic actions across 349 distinct digital environments. Our evaluation of 12 leading LLM agents reveals a critical vulnerability: these attack chains succeed in over 70% of cases for most models, showing the power of stateful, cross-environment exploits. Through analysis of these failures, we identify two key weaknesses in current agents: contextual fragility, where safety behaviors fail to transfer across environments, and an inability to track long-term malicious intent. Our findings also show that traditional safety measures, such as initial defense prompts, are largely ineffective against attacks that build context over multiple interactions. To advance agent safety research, we release DREAM as a tool for evaluating vulnerabilities and developing more robust defenses.",
+    "published": "2025-12-22",
+    "pdf_link": "https://arxiv.org/pdf/2512.19016v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 59
+  },
+  {
+    "arxiv_id": "2512.21039v1",
+    "title": "Agentic Multi-Persona Framework for Evidence-Aware Fake News Detection",
+    "authors": [
+      "Roopa Bukke",
+      "Soumya Pandey",
+      "Suraj Kumar",
+      "Soumi Chattopadhyay",
+      "Chandranath Adak"
+    ],
+    "summary": "The rapid proliferation of online misinformation poses significant risks to public trust, policy, and safety, necessitating reliable automated fake news detection. Existing methods often struggle with multimodal content, domain generalization, and explainability. We propose AMPEND-LS, an agentic multi-persona evidence-grounded framework with LLM-SLM synergy for multimodal fake news detection. AMPEND-LS integrates textual, visual, and contextual signals through a structured reasoning pipeline powered by LLMs, augmented with reverse image search, knowledge graph paths, and persuasion strategy analysis. To improve reliability, we introduce a credibility fusion mechanism combining semantic similarity, domain trustworthiness, and temporal context, and a complementary SLM classifier to mitigate LLM uncertainty and hallucinations. Extensive experiments across three benchmark datasets demonstrate that AMPEND-LS consistently outperformed state-of-the-art baselines in accuracy, F1 score, and robustness. Qualitative case studies further highlight its transparent reasoning and resilience against evolving misinformation. This work advances the development of adaptive, explainable, and evidence-aware systems for safeguarding online information integrity.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21039v1",
+    "query": "automated API testing security fuzzing",
+    "relevance_score": 57
+  },
+  {
+    "arxiv_id": "2512.21236v1",
+    "title": "Casting a SPELL: Sentence Pairing Exploration for LLM Limitation-breaking",
+    "authors": [
+      "Yifan Huang",
+      "Xiaojun Jia",
+      "Wenbo Guo",
+      "Yuqiang Sun",
+      "Yihao Huang",
+      "Chong Wang",
+      "Yang Liu"
+    ],
+    "summary": "Large language models (LLMs) have revolutionized software development through AI-assisted coding tools, enabling developers with limited programming expertise to create sophisticated applications. However, this accessibility extends to malicious actors who may exploit these powerful tools to generate harmful software. Existing jailbreaking research primarily focuses on general attack scenarios against LLMs, with limited exploration of malicious code generation as a jailbreak target. To address this gap, we propose SPELL, a comprehensive testing framework specifically designed to evaluate the weakness of security alignment in malicious code generation. Our framework employs a time-division selection strategy that systematically constructs jailbreaking prompts by intelligently combining sentences from a prior knowledge dataset, balancing exploration of novel attack patterns with exploitation of successful techniques. Extensive evaluation across three advanced code models (GPT-4.1, Claude-3.5, and Qwen2.5-Coder) demonstrates SPELL's effectiveness, achieving attack success rates of 83.75%, 19.38%, and 68.12% respectively across eight malicious code categories. The generated prompts successfully produce malicious code in real-world AI development tools such as Cursor, with outputs confirmed as malicious by state-of-the-art detection systems at rates exceeding 73%. These findings reveal significant security gaps in current LLM implementations and provide valuable insights for improving AI safety alignment in code generation applications.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21236v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 56
+  },
+  {
+    "arxiv_id": "2512.20062v1",
+    "title": "On the Effectiveness of Instruction-Tuning Local LLMs for Identifying Software Vulnerabilities",
+    "authors": [
+      "Sangryu Park",
+      "Gihyuk Ko",
+      "Homook Cho"
+    ],
+    "summary": "Large Language Models (LLMs) show significant promise in automating software vulnerability analysis, a critical task given the impact of security failure of modern software systems. However, current approaches in using LLMs to automate vulnerability analysis mostly rely on using online API-based LLM services, requiring the user to disclose the source code in development. Moreover, they predominantly frame the task as a binary classification(vulnerable or not vulnerable), limiting potential practical utility. This paper addresses these limitations by reformulating the problem as Software Vulnerability Identification (SVI), where LLMs are asked to output the type of weakness in Common Weakness Enumeration (CWE) IDs rather than simply indicating the presence or absence of a vulnerability. We also tackle the reliance on large, API-based LLMs by demonstrating that instruction-tuning smaller, locally deployable LLMs can achieve superior identification performance. In our analysis, instruct-tuning a local LLM showed better overall performance and cost trade-off than online API-based LLMs. Our findings indicate that instruct-tuned local models represent a more effective, secure, and practical approach for leveraging LLMs in real-world vulnerability management workflows.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20062v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 56
+  },
+  {
+    "arxiv_id": "2512.20405v1",
+    "title": "ChatGPT: Excellent Paper! Accept It. Editor: Imposter Found! Review Rejected",
+    "authors": [
+      "Kanchon Gharami",
+      "Sanjiv Kumar Sarkar",
+      "Yongxin Liu",
+      "Shafika Showkat Moni"
+    ],
+    "summary": "Large Language Models (LLMs) like ChatGPT are now widely used in writing and reviewing scientific papers. While this trend accelerates publication growth and reduces human workload, it also introduces serious risks. Papers written or reviewed by LLMs may lack real novelty, contain fabricated or biased results, or mislead downstream research that others depend on. Such issues can damage reputations, waste resources, and even endanger lives when flawed studies influence medical or safety-critical systems. This research explores both the offensive and defensive sides of this growing threat. On the attack side, we demonstrate how an author can inject hidden prompts inside a PDF that secretly guide or \"jailbreak\" LLM reviewers into giving overly positive feedback and biased acceptance. On the defense side, we propose an \"inject-and-detect\" strategy for editors, where invisible trigger prompts are embedded into papers; if a review repeats or reacts to these triggers, it reveals that the review was generated by an LLM, not a human. This method turns prompt injections from vulnerability into a verification tool. We outline our design, expected model behaviors, and ethical safeguards for deployment. The goal is to expose how fragile today's peer-review process becomes under LLM influence and how editorial awareness can help restore trust in scientific evaluation.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20405v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 54
+  },
+  {
+    "arxiv_id": "2512.20985v1",
+    "title": "A Blockchain-Monitored Agentic AI Architecture for Trusted Perception-Reasoning-Action Pipelines",
+    "authors": [
+      "Salman Jan",
+      "Hassan Ali Razzaqi",
+      "Ali Akarma",
+      "Mohammad Riyaz Belgaum"
+    ],
+    "summary": "The application of agentic AI systems in autonomous decision-making is growing in the areas of healthcare, smart cities, digital forensics, and supply chain management. Even though these systems are flexible and offer real-time reasoning, they also raise concerns of trust and oversight, and integrity of the information and activities upon which they are founded. The paper suggests a single architecture model comprising of LangChain-based multi-agent system with a permissioned blockchain to guarantee constant monitoring, policy enforcement, and immutable auditability of agentic action. The framework relates the perception conceptualization-action cycle to a blockchain layer of governance that verifies the inputs, evaluates recommended actions, and documents the outcomes of the execution. A Hyperledger Fabric-based system, action executors MCP-integrated, and LangChain agent are introduced and experiments of smart inventory management, traffic-signal control, and healthcare monitoring are done. The results suggest that blockchain-security verification is efficient in preventing unauthorized practices, offers traceability throughout the whole decision-making process, and maintains operational latency within reasonable ranges. The suggested framework provides a universal system of implementing high-impact agentic AI applications that are autonomous yet responsible.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20985v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 51
+  },
+  {
+    "arxiv_id": "2512.21066v1",
+    "title": "Agentic Explainable Artificial Intelligence (Agentic XAI) Approach To Explore Better Explanation",
+    "authors": [
+      "Tomoaki Yamaguchi",
+      "Yutong Zhou",
+      "Masahiro Ryo",
+      "Keisuke Katsura"
+    ],
+    "summary": "Explainable artificial intelligence (XAI) enables data-driven understanding of factor associations with response variables, yet communicating XAI outputs to laypersons remains challenging, hindering trust in AI-based predictions. Large language models (LLMs) have emerged as promising tools for translating technical explanations into accessible narratives, yet the integration of agentic AI, where LLMs operate as autonomous agents through iterative refinement, with XAI remains unexplored. This study proposes an agentic XAI framework combining SHAP-based explainability with multimodal LLM-driven iterative refinement to generate progressively enhanced explanations. As a use case, we tested this framework as an agricultural recommendation system using rice yield data from 26 fields in Japan. The Agentic XAI initially provided a SHAP result and explored how to improve the explanation through additional analysis iteratively across 11 refinement rounds (Rounds 0-10). Explanations were evaluated by human experts (crop scientists) (n=12) and LLMs (n=14) against seven metrics: Specificity, Clarity, Conciseness, Practicality, Contextual Relevance, Cost Consideration, and Crop Science Credibility. Both evaluator groups confirmed that the framework successfully enhanced recommendation quality with an average score increase of 30-33% from Round 0, peaking at Rounds 3-4. However, excessive refinement showed a substantial drop in recommendation quality, indicating a bias-variance trade-off where early rounds lacked explanation depth (bias) while excessive iteration introduced verbosity and ungrounded abstraction (variance), as revealed by metric-specific analysis. These findings suggest that strategic early stopping (regularization) is needed for optimizing practical utility, challenging assumptions about monotonic improvement and providing evidence-based design principles for agentic XAI systems.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21066v1",
+    "query": "automated API testing security fuzzing",
+    "relevance_score": 49
+  },
+  {
+    "arxiv_id": "2512.21110v1",
+    "title": "Beyond Context: Large Language Models Failure to Grasp Users Intent",
+    "authors": [
+      "Ahmed M. Hussain",
+      "Salahuddin Salahuddin",
+      "Panos Papadimitratos"
+    ],
+    "summary": "Current Large Language Models (LLMs) safety approaches focus on explicitly harmful content while overlooking a critical vulnerability: the inability to understand context and recognize user intent. This creates exploitable vulnerabilities that malicious users can systematically leverage to circumvent safety mechanisms. We empirically evaluate multiple state-of-the-art LLMs, including ChatGPT, Claude, Gemini, and DeepSeek. Our analysis demonstrates the circumvention of reliable safety mechanisms through emotional framing, progressive revelation, and academic justification techniques. Notably, reasoning-enabled configurations amplified rather than mitigated the effectiveness of exploitation, increasing factual precision while failing to interrogate the underlying intent. The exception was Claude Opus 4.1, which prioritized intent detection over information provision in some use cases. This pattern reveals that current architectural designs create systematic vulnerabilities. These limitations require paradigmatic shifts toward contextual understanding and intent recognition as core safety capabilities rather than post-hoc protective mechanisms.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21110v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 46
+  },
+  {
+    "arxiv_id": "2512.21010v1",
+    "title": "LLM Swiss Round: Aggregating Multi-Benchmark Performance via Competitive Swiss-System Dynamics",
+    "authors": [
+      "Jiashuo Liu",
+      "Jiayun Wu",
+      "Chunjie Wu",
+      "Jingkai Liu",
+      "Zaiyuan Wang",
+      "Huan Zhou",
+      "Wenhao Huang",
+      "Hongseok Namkoong"
+    ],
+    "summary": "The rapid proliferation of Large Language Models (LLMs) and diverse specialized benchmarks necessitates a shift from fragmented, task-specific metrics to a holistic, competitive ranking system that effectively aggregates performance across multiple ability dimensions. Primarily using static scoring, current evaluation methods are fundamentally limited. They struggle to determine the proper mix ratio across diverse benchmarks, and critically, they fail to capture a model's dynamic competitive fitness or its vulnerability when confronted with sequential, high-stakes tasks. To address this, we introduce the novel Competitive Swiss-System Dynamics (CSD) framework. CSD simulates a multi-round, sequential contest where models are dynamically paired across a curated sequence of benchmarks based on their accumulated win-loss record. And Monte Carlo Simulation ($N=100,000$ iterations) is used to approximate the statistically robust Expected Win Score ($E[S_m]$), which eliminates the noise of random pairing and early-round luck. Furthermore, we implement a Failure Sensitivity Analysis by parameterizing the per-round elimination quantity ($T_k$), which allows us to profile models based on their risk appetite--distinguishing between robust generalists and aggressive specialists. We demonstrate that CSD provides a more nuanced and context-aware ranking than traditional aggregate scoring and static pairwise models, representing a vital step towards risk-informed, next-generation LLM evaluation.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21010v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 46
+  },
+  {
+    "arxiv_id": "2512.20860v1",
+    "title": "pokiSEC: A Multi-Architecture, Containerized Ephemeral Malware Detonation Sandbox",
+    "authors": [
+      "Alejandro Avina",
+      "Yashas Hariprasad",
+      "Naveen Kumar Chaudhary"
+    ],
+    "summary": "Dynamic malware analysis requires executing untrusted binaries inside strongly isolated, rapidly resettable environments. In practice, many detonation workflows remain tied to heavyweight hypervisors or dedicated bare-metal labs, limiting portability and automation. This challenge has intensified with the adoption of ARM64 developer hardware (e.g., Apple Silicon), where common open-source sandbox recipes and pre-built environments frequently assume x86_64 hosts and do not translate cleanly across architectures. This paper presents pokiSEC, a lightweight, ephemeral malware detonation sandbox that packages the full virtualization and access stack inside a Docker container. pokiSEC integrates QEMU with hardware acceleration (KVM when available) and exposes a browser-based workflow that supports bring-your-own Windows disk images. The key contribution is a Universal Entrypoint that performs runtime host-architecture detection and selects validated hypervisor configurations (machine types, acceleration modes, and device profiles), enabling a single container image and codebase to launch Windows guests on both ARM64 and x86_64 hosts. We validate pokiSEC on Apple Silicon (ARM64) and Ubuntu (AMD64), demonstrating interactive performance suitable for analyst workflows and consistent teardown semantics via ephemeral container lifecycles.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20860v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 45
+  },
+  {
+    "arxiv_id": "2512.20865v1",
+    "title": "Robustness Certificates for Neural Networks against Adversarial Attacks",
+    "authors": [
+      "Sara Taheri",
+      "Mahalakshmi Sabanayagam",
+      "Debarghya Ghoshdastidar",
+      "Majid Zamani"
+    ],
+    "summary": "The increasing use of machine learning in safety-critical domains amplifies the risk of adversarial threats, especially data poisoning attacks that corrupt training data to degrade performance or induce unsafe behavior. Most existing defenses lack formal guarantees or rely on restrictive assumptions about the model class, attack type, extent of poisoning, or point-wise certification, limiting their practical reliability. This paper introduces a principled formal robustness certification framework that models gradient-based training as a discrete-time dynamical system (dt-DS) and formulates poisoning robustness as a formal safety verification problem. By adapting the concept of barrier certificates (BCs) from control theory, we introduce sufficient conditions to certify a robust radius ensuring that the terminal model remains safe under worst-case ${\\ell}_p$-norm based poisoning. To make this practical, we parameterize BCs as neural networks trained on finite sets of poisoned trajectories. We further derive probably approximately correct (PAC) bounds by solving a scenario convex program (SCP), which yields a confidence lower bound on the certified robustness radius generalizing beyond the training set. Importantly, our framework also extends to certification against test-time attacks, making it the first unified framework to provide formal guarantees in both training and test-time attack settings. Experiments on MNIST, SVHN, and CIFAR-10 show that our approach certifies non-trivial perturbation budgets while being model-agnostic and requiring no prior knowledge of the attack or contamination level.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20865v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 44
+  },
+  {
+    "arxiv_id": "2512.21335v1",
+    "title": "Autonomous Uncertainty Quantification for Computational Point-of-care Sensors",
+    "authors": [
+      "Artem Goncharov",
+      "Rajesh Ghosh",
+      "Hyou-Arm Joung",
+      "Dino Di Carlo",
+      "Aydogan Ozcan"
+    ],
+    "summary": "Computational point-of-care (POC) sensors enable rapid, low-cost, and accessible diagnostics in emergency, remote and resource-limited areas that lack access to centralized medical facilities. These systems can utilize neural network-based algorithms to accurately infer a diagnosis from the signals generated by rapid diagnostic tests or sensors. However, neural network-based diagnostic models are subject to hallucinations and can produce erroneous predictions, posing a risk of misdiagnosis and inaccurate clinical decisions. To address this challenge, here we present an autonomous uncertainty quantification technique developed for POC diagnostics. As our testbed, we used a paper-based, computational vertical flow assay (xVFA) platform developed for rapid POC diagnosis of Lyme disease, the most prevalent tick-borne disease globally. The xVFA platform integrates a disposable paper-based assay, a handheld optical reader and a neural network-based inference algorithm, providing rapid and cost-effective Lyme disease diagnostics in under 20 min using only 20 uL of patient serum. By incorporating a Monte Carlo dropout (MCDO)-based uncertainty quantification approach into the diagnostics pipeline, we identified and excluded erroneous predictions with high uncertainty, significantly improving the sensitivity and reliability of the xVFA in an autonomous manner, without access to the ground truth diagnostic information of patients. Blinded testing using new patient samples demonstrated an increase in diagnostic sensitivity from 88.2% to 95.7%, indicating the effectiveness of MCDO-based uncertainty quantification in enhancing the robustness of neural network-driven computational POC sensing systems.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21335v1",
+    "query": "API vulnerability detection machine learning",
+    "relevance_score": 44
+  },
+  {
+    "arxiv_id": "2512.21144v1",
+    "title": "Encrypted Traffic Detection in Resource Constrained IoT Networks: A Diffusion Model and LLM Integrated Framework",
+    "authors": [
+      "Hongjuan Li",
+      "Hui Kang",
+      "Chenbang Liu",
+      "Ruolin Wang",
+      "Jiahui Li",
+      "Geng Sun",
+      "Jiacheng Wang",
+      "Shuang Liang",
+      "Shiwen Mao"
+    ],
+    "summary": "The proliferation of Internet-of-things (IoT) infrastructures and the widespread adoption of traffic encryption present significant challenges, particularly in environments characterized by dynamic traffic patterns, constrained computational capabilities, and strict latency constraints. In this paper, we propose DMLITE, a diffusion model and large language model (LLM) integrated traffic embedding framework for network traffic detection within resource-limited IoT environments. The DMLITE overcomes these challenges through a tri-phase architecture including traffic visual preprocessing, diffusion-based multi-level feature extraction, and LLM-guided feature optimization. Specifically, the framework utilizes self-supervised diffusion models to capture both fine-grained and abstract patterns in encrypted traffic through multi-level feature fusion and contrastive learning with representative sample selection, thus enabling rapid adaptation to new traffic patterns with minimal labeled data. Furthermore, DMLITE incorporates LLMs to dynamically adjust particle swarm optimization parameters for intelligent feature selection by implementing a dual objective function that minimizes both classification error and variance across data distributions. Comprehensive experimental validation on benchmark datasets confirms the effectiveness of DMLITE, achieving classification accuracies of 98.87\\%, 92.61\\%, and 99.83\\% on USTC-TFC, ISCX-VPN, and Edge-IIoTset datasets, respectively. This improves classification accuracy by an average of 3.7\\% and reduces training time by an average of 41.9\\% compared to the representative deep learning model.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21144v1",
+    "query": "microservices attack surface network security",
+    "relevance_score": 44
+  },
+  {
+    "arxiv_id": "2512.20705v1",
+    "title": "Anota: Identifying Business Logic Vulnerabilities via Annotation-Based Sanitization",
+    "authors": [
+      "Meng Wang",
+      "Philipp G\u00f6rz",
+      "Joschua Schilling",
+      "Keno Hassler",
+      "Liwei Guo",
+      "Thorsten Holz",
+      "Ali Abbasi"
+    ],
+    "summary": "Detecting business logic vulnerabilities is a critical challenge in software security. These flaws come from mistakes in an application's design or implementation and allow attackers to trigger unintended application behavior. Traditional fuzzing sanitizers for dynamic analysis excel at finding vulnerabilities related to memory safety violations but largely fail to detect business logic vulnerabilities, as these flaws require understanding application-specific semantic context. Recent attempts to infer this context, due to their reliance on heuristics and non-portable language features, are inherently brittle and incomplete. As business logic vulnerabilities constitute a majority (27/40) of the most dangerous software weaknesses in practice, this is a worrying blind spot of existing tools. In this paper, we tackle this challenge with ANOTA, a novel human-in-the-loop sanitizer framework. ANOTA introduces a lightweight, user-friendly annotation system that enables users to directly encode their domain-specific knowledge as lightweight annotations that define an application's intended behavior. A runtime execution monitor then observes program behavior, comparing it against the policies defined by the annotations, thereby identifying deviations that indicate vulnerabilities. To evaluate the effectiveness of ANOTA, we combine ANOTA with a state-of-the-art fuzzer and compare it against other popular bug finding methods compatible with the same targets. The results show that ANOTA+FUZZER outperforms them in terms of effectiveness. More specifically, ANOTA+FUZZER can successfully reproduce 43 known vulnerabilities, and discovered 22 previously unknown vulnerabilities (17 CVEs assigned) during the evaluation. These results demonstrate that ANOTA provides a practical and effective approach for uncovering complex business logic flaws often missed by traditional security testing techniques.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20705v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 43
+  },
+  {
+    "arxiv_id": "2512.20113v1",
+    "title": "Multi Modal Attention Networks with Uncertainty Quantification for Automated Concrete Bridge Deck Delamination Detection",
+    "authors": [
+      "Alireza Moayedikia",
+      "Sattar Dorafshan"
+    ],
+    "summary": "Deteriorating civil infrastructure requires automated inspection techniques overcoming limitations of visual assessment. While Ground Penetrating Radar and Infrared Thermography enable subsurface defect detection, single modal approaches face complementary constraints radar struggles with moisture and shallow defects, while thermography exhibits weather dependency and limited depth. This paper presents a multi modal attention network fusing radar temporal patterns with thermal spatial signatures for bridge deck delamination detection. Our architecture introduces temporal attention for radar processing, spatial attention for thermal features, and cross modal fusion with learnable embeddings discovering complementary defect patterns invisible to individual sensors. We incorporate uncertainty quantification through Monte Carlo dropout and learned variance estimation, decomposing uncertainty into epistemic and aleatoric components for safety critical decisions. Experiments on five bridge datasets reveal that on balanced to moderately imbalanced data, our approach substantially outperforms baselines in accuracy and AUC representing meaningful improvements over single modal and concatenation based fusion. Ablation studies demonstrate cross modal attention provides critical gains beyond within modality attention, while multi head mechanisms achieve improved calibration. Uncertainty quantification reduces calibration error, enabling selective prediction by rejecting uncertain cases. However, under extreme class imbalance, attention mechanisms show vulnerability to majority class collapse. These findings provide actionable guidance: attention based architecture performs well across typical scenarios, while extreme imbalance requires specialized techniques. Our system maintains deployment efficiency, enabling real time inspection with characterized capabilities and limitations.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20113v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 43
+  },
+  {
+    "arxiv_id": "2512.20872v1",
+    "title": "Better Call Graphs: A New Dataset of Function Call Graphs for Malware Classification",
+    "authors": [
+      "Jakir Hossain",
+      "Gurvinder Singh",
+      "Lukasz Ziarek",
+      "Ahmet Erdem Sar\u0131y\u00fcce"
+    ],
+    "summary": "Function call graphs (FCGs) have emerged as a powerful abstraction for malware detection, capturing the behavioral structure of applications beyond surface-level signatures. Their utility in traditional program analysis has been well established, enabling effective classification and analysis of malicious software. In the mobile domain, especially in the Android ecosystem, FCG-based malware classification is particularly critical due to the platform's widespread adoption and the complex, component-based structure of Android apps. However, progress in this direction is hindered by the lack of large-scale, high-quality Android-specific FCG datasets. Existing datasets are often outdated, dominated by small or redundant graphs resulting from app repackaging, and fail to reflect the diversity of real-world malware. These limitations lead to overfitting and unreliable evaluation of graph-based classification methods. To address this gap, we introduce Better Call Graphs (BCG), a comprehensive dataset of large and unique FCGs extracted from recent Android application packages (APKs). BCG includes both benign and malicious samples spanning various families and types, along with graph-level features for each APK. Through extensive experiments using baseline classifiers, we demonstrate the necessity and value of BCG compared to existing datasets. BCG is publicly available at https://erdemub.github.io/BCG-dataset.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20872v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 42
+  },
+  {
+    "arxiv_id": "2512.21028v1",
+    "title": "Artificial or Just Artful? Do LLMs Bend the Rules in Programming?",
+    "authors": [
+      "Oussama Ben Sghaier",
+      "Kevin Delcourt",
+      "Houari Sahraoui"
+    ],
+    "summary": "Large Language Models (LLMs) are widely used for automated code generation, yet their apparent successes often mask a tension between pretraining objectives and alignment choices. While pretraining encourages models to exploit all available signals to maximize success, alignment, whether through fine-tuning or prompting, may restrict their use. This conflict is especially salient in agentic AI settings, for instance when an agent has access to unit tests that, although intended for validation, act as strong contextual signals that can be leveraged regardless of explicit prohibitions. In this paper, we investigate how LLMs adapt their code generation strategies when exposed to test cases under different prompting conditions. Using the BigCodeBench (Hard) dataset, we design five prompting conditions that manipulate test visibility and impose explicit or implicit restrictions on their use. We evaluate five LLMs (four open-source and one closed-source) across correctness, code similarity, program size, and code churn, and analyze cross-model consistency to identify recurring adaptation strategies. Our results show that test visibility dramatically alters performance, correctness nearly doubles for some models, while explicit restrictions or partial exposure only partially mitigate this effect. Beyond raw performance, we identify four recurring adaptation strategies, with test-driven refinement emerging as the most frequent. These results highlight how LLMs adapt their behavior when exposed to contextual signals that conflict with explicit instructions, providing useful insight into how models reconcile pretraining objectives with alignment constraints.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21028v1",
+    "query": "\"web service\" security vulnerability exploit",
+    "relevance_score": 42
+  },
+  {
+    "arxiv_id": "2512.21132v1",
+    "title": "AutoBaxBuilder: Bootstrapping Code Security Benchmarking",
+    "authors": [
+      "Tobias von Arx",
+      "Niels M\u00fcndler",
+      "Mark Vero",
+      "Maximilian Baader",
+      "Martin Vechev"
+    ],
+    "summary": "As LLMs see wide adoption in software engineering, the reliable assessment of the correctness and security of LLM-generated code is crucial. Notably, prior work has demonstrated that security is often overlooked, exposing that LLMs are prone to generating code with security vulnerabilities. These insights were enabled by specialized benchmarks, crafted through significant manual effort by security experts. However, relying on manually-crafted benchmarks is insufficient in the long term, because benchmarks (i) naturally end up contaminating training data, (ii) must extend to new tasks to provide a more complete picture, and (iii) must increase in difficulty to challenge more capable LLMs. In this work, we address these challenges and present AutoBaxBuilder, a framework that generates tasks and tests for code security benchmarking from scratch. We introduce a robust pipeline with fine-grained plausibility checks, leveraging the code understanding capabilities of LLMs to construct functionality tests and end-to-end security-probing exploits. To confirm the quality of the generated benchmark, we conduct both a qualitative analysis and perform quantitative experiments, comparing it against tasks constructed by human experts. We use AutoBaxBuilder to construct entirely new tasks and release them to the public as AutoBaxBench, together with a thorough evaluation of the security capabilities of LLMs on these tasks. We find that a new task can be generated in under 2 hours, costing less than USD 10.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21132v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 41
+  },
+  {
+    "arxiv_id": "2512.20964v1",
+    "title": "Neutralization of IMU-Based GPS Spoofing Detection using external IMU sensor and feedback methodology",
+    "authors": [
+      "Ji Hyuk Jung",
+      "Ji Won Yoon"
+    ],
+    "summary": "Autonomous Vehicles (AVs) refer to systems capable of perceiving their states and moving without human intervention. Among the factors required for autonomous decision-making in mobility, positional awareness of the vehicle itself is the most critical. Accordingly, extensive research has been conducted on defense mechanisms against GPS spoofing attacks, which threaten AVs by disrupting position recognition. Among these, detection methods based on internal IMU sensors are regarded as some of the most effective. In this paper, we propose a spoofing attack system designed to neutralize IMU sensor-based detection. First, we present an attack modeling approach for bypassing such detection. Then, based on EKF sensor fusion, we experimentally analyze both the impact of GPS spoofing values on the internal target system and how our proposed methodology reduces anomaly detection within the target system. To this end, this paper proposes an attack model that performs GPS spoofing by stealing internal dynamic state information using an external IMU sensor, and the experimental results demonstrate that attack values can be injected without being detected.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20964v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 41
+  },
+  {
+    "arxiv_id": "2512.21196v1",
+    "title": "Flocking phase transition and threat responses in bio-inspired autonomous drone swarms",
+    "authors": [
+      "Matthieu Verdoucq",
+      "Dari Trendafilov",
+      "Cl\u00e9ment Sire",
+      "Ram\u00f3n Escobedo",
+      "Guy Theraulaz",
+      "Gautier Hattenberger"
+    ],
+    "summary": "Collective motion inspired by animal groups offers powerful design principles for autonomous aerial swarms. We present a bio-inspired 3D flocking algorithm in which each drone interacts only with a minimal set of influential neighbors, relying solely on local alignment and attraction cues. By systematically tuning these two interaction gains, we map a phase diagram revealing sharp transitions between swarming and schooling, as well as a critical region where susceptibility, polarization fluctuations, and reorganization capacity peak. Outdoor experiments with a swarm of ten drones, combined with simulations using a calibrated flight-dynamics model, show that operating near this transition enhances responsiveness to external disturbances. When confronted with an intruder, the swarm performs rapid collective turns, transient expansions, and reliably recovers high alignment within seconds. These results demonstrate that minimal local-interaction rules are sufficient to generate multiple collective phases and that simple gain modulation offers an efficient mechanism to adjust stability, flexibility, and resilience in drone swarms.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21196v1",
+    "query": "autonomous security testing API penetration",
+    "relevance_score": 41
+  },
+  {
+    "arxiv_id": "2512.20835v1",
+    "title": "QoS- and Physics-Aware Routing in Optical LEO Satellite Networks via Deep Reinforcement Learning",
+    "authors": [
+      "Mohammad Taghi Dabiri",
+      "Rula Ammuri",
+      "Mazen Hasna",
+      "Khalid Qaraqe"
+    ],
+    "summary": "Optical inter-satellite links (ISLs) are becoming the principal communication backbone in modern large-scale LEO constellations, offering multi-Gb/s capacity and near speed-of-light latency. However, the extreme sensitivity of optical beams to relative satellite motion, pointing jitter, and rapidly evolving geometry makes routing fundamentally more challenging than in RF-based systems. In particular, intra-plane and inter-plane ISLs exhibit markedly different stability and feasible range profiles, producing a dynamic, partially constrained connectivity structure that must be respected by any physically consistent routing strategy. This paper presents a lightweight geometry- and QoS-aware routing framework for optical LEO networks that incorporates class-dependent feasibility constraints derived from a jitter-aware Gaussian-beam model. These analytically computed thresholds are embedded directly into the time-varying ISL graph and enforced via feasible-action masking in a deep reinforcement learning (DRL) agent. The proposed method leverages local geometric progress, feasible-neighbor structure, and congestion indicators to select next-hop relays without requiring global recomputation. Simulation results on a Starlink-like constellation show that the learned paths are physically consistent, exploit intra-plane stability, adapt to jitter-limited inter-plane connectivity, and maintain robust end-to-end latency under dynamic topology evolution.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20835v1",
+    "query": "\"web service\" security vulnerability exploit",
+    "relevance_score": 41
+  },
+  {
+    "arxiv_id": "2512.20733v1",
+    "title": "Towards a Security Plane for 6G Ecosystems",
+    "authors": [
+      "Xavi Masip-Bruin",
+      "Eva Rodr\u00edguez",
+      "Admela Jukan",
+      "Panos Trakadas"
+    ],
+    "summary": "6G networks promise to be the proper technology to support a wide deployment of highly demanding services, satisfying key users-related aspects such as extremely high quality, and persistent communications. However, there is no service to support if the network is not reliable enough. In this direction, it is with no doubt that security guarantees become a must. Traditional security approaches have focused on providing specific and attack-tailored solutions that will not properly meet the uncertainties driven by a technology yet under development and showing an attack surface not completely identified either. In this positioning paper we propose a softwarized solution, defining a Security Plane built on a top of programmable and adaptable set of live Security Functions under a proactive strategy. In addition, in order to address the inaccuracies driven by the predictive models a pre-assessment scenario is also considered ensuring that no action will be deployed if not previously verified. Although more efforts are required to develop this initiative, we think that such a shift paradigm is the only way to face security provisioning challenges in 6G ecosystems.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20733v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 40
+  },
+  {
+    "arxiv_id": "2512.20515v1",
+    "title": "Modeling Bank Systemic Risk of Emerging Markets under Geopolitical Shocks: Empirical Evidence from BRICS Countries",
+    "authors": [
+      "Haibo Wang"
+    ],
+    "summary": "The growing economic influence of the BRICS nations requires risk models that capture complex, long-term dynamics. This paper introduces the Bank Risk Interlinkage with Dynamic Graph and Event Simulations (BRIDGES) framework, which analyzes systemic risk based on the level of information complexity (zero-order, first-order, and second-order). BRIDGES utilizes the Dynamic Time Warping (DTW) distance to construct a dynamic network for 551 BRICS banks based on their strategic similarity, using zero-order information such as annual balance sheet data from 2008 to 2024. It then employs first-order information, including trends in risk ratios, to detect shifts in banks' behavior. A Temporal Graph Neural Network (TGNN), as the core of BRIDGES, is deployed to learn network evolutions and detect second-order information, such as anomalous changes in the structural relationships of the bank network. To measure the impact of anomalous changes on network stability, BRIDGES performs Agent-Based Model (ABM) simulations to assess the banking system's resilience to internal financial failure and external geopolitical shocks at the individual country level and across BRICS nations. Simulation results show that the failure of the largest institutions causes more systemic damage than the failure of the financially vulnerable or dynamically anomalous ones, driven by powerful panic effects. Compared to this \"too big to fail\" scenario, a geopolitical shock with correlated country-wide propagation causes more destructive systemic damage, leading to a near-total systemic collapse. It suggests that the primary threats to BRICS financial stability are second-order panic and large-scale geopolitical shocks, which traditional risk analysis models might not detect.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20515v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 39
+  },
+  {
+    "arxiv_id": "2512.20203v1",
+    "title": "Well Begun is Half Done: Location-Aware and Trace-Guided Iterative Automated Vulnerability Repair",
+    "authors": [
+      "Zhenlei Ye",
+      "Xiaobing Sun",
+      "Sicong Cao",
+      "Lili Bo",
+      "Bin Li"
+    ],
+    "summary": "The advances of large language models (LLMs) have paved the way for automated software vulnerability repair approaches, which iteratively refine the patch until it becomes plausible. Nevertheless, existing LLM-based vulnerability repair approaches face notable limitations: 1) they ignore the concern of locations that need to be patched and focus solely on the repair content. 2) they lack quality assessment for generated candidate patches in the iterative process.   To tackle the two limitations, we propose \\sysname, an LLM-based approach that provides information about where should be patched first. Furthermore, \\sysname improves the iterative repair strategy by assessing the quality of test-failing patches and selecting the best patch for the next iteration. We introduce two dimensions to assess the quality of patches: whether they introduce new vulnerabilities and the taint statement coverage. We evaluated \\sysname on a real-world C/C++ vulnerability repair dataset VulnLoc+, which contains 40 vulnerabilities and their Proofs-of-Vulnerability. The experimental results demonstrate that \\sysname exhibits substantial improvements compared with the Neural Machine Translation-based, Program Analysis-based, and LLM-based state-of-the-art vulnerability repair approaches. Specifically, \\sysname is able to generate 27 plausible patches, which is comparable to or even 8 to 22 more plausible patches than the baselines. In terms of correct patch generation, \\sysname repairs 8 to 13 additional vulnerabilities compared with existing approaches.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20203v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 39
+  },
+  {
+    "arxiv_id": "2512.20407v1",
+    "title": "AUDRON: A Deep Learning Framework with Fused Acoustic Signatures for Drone Type Recognition",
+    "authors": [
+      "Rajdeep Chatterjee",
+      "Sudip Chakrabarty",
+      "Trishaani Acharjee",
+      "Deepanjali Mishra"
+    ],
+    "summary": "Unmanned aerial vehicles (UAVs), commonly known as drones, are increasingly used across diverse domains, including logistics, agriculture, surveillance, and defense. While these systems provide numerous benefits, their misuse raises safety and security concerns, making effective detection mechanisms essential. Acoustic sensing offers a low-cost and non-intrusive alternative to vision or radar-based detection, as drone propellers generate distinctive sound patterns. This study introduces AUDRON (AUdio-based Drone Recognition Network), a hybrid deep learning framework for drone sound detection, employing a combination of Mel-Frequency Cepstral Coefficients (MFCC), Short-Time Fourier Transform (STFT) spectrograms processed with convolutional neural networks (CNNs), recurrent layers for temporal modeling, and autoencoder-based representations. Feature-level fusion integrates complementary information before classification. Experimental evaluation demonstrates that AUDRON effectively differentiates drone acoustic signatures from background noise, achieving high accuracy while maintaining generalizability across varying conditions. AUDRON achieves 98.51 percent and 97.11 percent accuracy in binary and multiclass classification. The results highlight the advantage of combining multiple feature representations with deep learning for reliable acoustic drone detection, suggesting the framework's potential for deployment in security and surveillance applications where visual or radar sensing may be limited.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20407v1",
+    "query": "RESTful security OAuth authentication",
+    "relevance_score": 39
+  },
+  {
+    "arxiv_id": "2512.21268v1",
+    "title": "ACD: Direct Conditional Control for Video Diffusion Models via Attention Supervision",
+    "authors": [
+      "Weiqi Li",
+      "Zehao Zhang",
+      "Liang Lin",
+      "Guangrun Wang"
+    ],
+    "summary": "Controllability is a fundamental requirement in video synthesis, where accurate alignment with conditioning signals is essential. Existing classifier-free guidance methods typically achieve conditioning indirectly by modeling the joint distribution of data and conditions, which often results in limited controllability over the specified conditions. Classifier-based guidance enforces conditions through an external classifier, but the model may exploit this mechanism to raise the classifier score without genuinely satisfying the intended condition, resulting in adversarial artifacts and limited effective controllability. In this paper, we propose Attention-Conditional Diffusion (ACD), a novel framework for direct conditional control in video diffusion models via attention supervision. By aligning the model's attention maps with external control signals, ACD achieves better controllability. To support this, we introduce a sparse 3D-aware object layout as an efficient conditioning signal, along with a dedicated Layout ControlNet and an automated annotation pipeline for scalable layout integration. Extensive experiments on benchmark video generation datasets demonstrate that ACD delivers superior alignment with conditioning inputs while preserving temporal coherence and visual fidelity, establishing an effective paradigm for conditional video synthesis.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21268v1",
+    "query": "\"web service\" security vulnerability exploit",
+    "relevance_score": 38
+  },
+  {
+    "arxiv_id": "2512.19317v1",
+    "title": "SafeMed-R1: Adversarial Reinforcement Learning for Generalizable and Robust Medical Reasoning in Vision-Language Models",
+    "authors": [
+      "A. A. Gde Yogi Pramana",
+      "Jason Ray",
+      "Anthony Jaya",
+      "Michael Wijaya"
+    ],
+    "summary": "Vision--Language Models (VLMs) show significant promise for Medical Visual Question Answering (VQA), yet their deployment in clinical settings is hindered by severe vulnerability to adversarial attacks. Standard adversarial training, while effective for simpler tasks, often degrades both generalization performance and the quality of generated clinical reasoning. We introduce SafeMed-R1, a hybrid defense framework that ensures robust performance while preserving high-quality, interpretable medical reasoning. SafeMed-R1 employs a two-stage approach: at training time, we integrate Adversarial Training with Group Relative Policy Optimization (AT-GRPO) to explicitly robustify the reasoning process against worst-case perturbations; at inference time, we augment the model with Randomized Smoothing to provide certified $L_2$-norm robustness guarantees. We evaluate SafeMed-R1 on the OmniMedVQA benchmark across eight medical imaging modalities comprising over 88,000 samples. Our experiments reveal that standard fine-tuned VLMs, despite achieving 95\\% accuracy on clean inputs, collapse to approximately 25\\% under PGD attacks. In contrast, SafeMed-R1 maintains 84.45\\% accuracy under the same adversarial conditions, representing a 59 percentage point improvement in robustness. Furthermore, we demonstrate that models trained with explicit chain-of-thought reasoning exhibit superior adversarial robustness compared to instruction-only variants, suggesting a synergy between interpretability and security in medical AI systems.",
+    "published": "2025-12-22",
+    "pdf_link": "https://arxiv.org/pdf/2512.19317v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 38
+  },
+  {
+    "arxiv_id": "2512.20789v1",
+    "title": "X-GridAgent: An LLM-Powered Agentic AI System for Assisting Power Grid Analysis",
+    "authors": [
+      " Yihan",
+      " Wen",
+      "Xin Chen"
+    ],
+    "summary": "The growing complexity of power system operations has created an urgent need for intelligent, automated tools to support reliable and efficient grid management. Conventional analysis tools often require significant domain expertise and manual effort, which limits their accessibility and adaptability. To address these challenges, this paper presents X-GridAgent, a novel large language model (LLM)-powered agentic AI system designed to automate complex power system analysis through natural language queries. The system integrates domain-specific tools and specialized databases under a three-layer hierarchical architecture comprising planning, coordination, and action layers. This architecture offers high flexibility and adaptability to previously unseen tasks, while providing a modular and extensible framework that can be readily expanded to incorporate new tools, data sources, or analytical capabilities. To further enhance performance, we introduce two novel algorithms: (1) LLM-driven prompt refinement with human feedback, and (2) schema-adaptive hybrid retrieval-augmented generation (RAG) for accurate information retrieval from large-scale structured grid datasets. Experimental evaluations across a variety of user queries and power grid cases demonstrate the effectiveness and reliability of X-GridAgent in automating interpretable and rigorous power system analysis.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20789v1",
+    "query": "\"API security\" scanning automation",
+    "relevance_score": 37
+  },
+  {
+    "arxiv_id": "2512.20821v1",
+    "title": "Defending against adversarial attacks using mixture of experts",
+    "authors": [
+      "Mohammad Meymani",
+      "Roozbeh Razavi-Far"
+    ],
+    "summary": "Machine learning is a powerful tool enabling full automation of a huge number of tasks without explicit programming. Despite recent progress of machine learning in different domains, these models have shown vulnerabilities when they are exposed to adversarial threats. Adversarial threats aim to hinder the machine learning models from satisfying their objectives. They can create adversarial perturbations, which are imperceptible to humans' eyes but have the ability to cause misclassification during inference. Moreover, they can poison the training data to harm the model's performance or they can query the model to steal its sensitive information. In this paper, we propose a defense system, which devises an adversarial training module within mixture-of-experts architecture to enhance its robustness against adversarial threats. In our proposed defense system, we use nine pre-trained experts with ResNet-18 as their backbone. During end-to-end training, the parameters of expert models and gating mechanism are jointly updated allowing further optimization of the experts. Our proposed defense system outperforms state-of-the-art defense systems and plain classifiers, which use a more complex architecture than our model's backbone.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20821v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 36
+  },
+  {
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20423v1",
+    "query": "\"API gateway\" security attack",
+    "relevance_score": 36
+  },
+  {
+    "arxiv_id": "2512.19935v1",
+    "title": "Conditional Adversarial Fragility in Financial Machine Learning under Macroeconomic Stress",
+    "authors": [
+      "Samruddhi Baviskar"
+    ],
+    "summary": "Machine learning models used in financial decision systems operate in nonstationary economic environments, yet adversarial robustness is typically evaluated under static assumptions. This work introduces Conditional Adversarial Fragility, a regime dependent phenomenon in which adversarial vulnerability is systematically amplified during periods of macroeconomic stress. We propose a regime aware evaluation framework for time indexed tabular financial classification tasks that conditions robustness assessment on external indicators of economic stress. Using volatility based regime segmentation as a proxy for macroeconomic conditions, we evaluate model behavior across calm and stress periods while holding model architecture, attack methodology, and evaluation protocols constant. Baseline predictive performance remains comparable across regimes, indicating that economic stress alone does not induce inherent performance degradation. Under adversarial perturbations, however, models operating during stress regimes exhibit substantially greater degradation across predictive accuracy, operational decision thresholds, and risk sensitive outcomes. We further demonstrate that this amplification propagates to increased false negative rates, elevating the risk of missed high risk cases during adverse conditions. To complement numerical robustness metrics, we introduce an interpretive governance layer based on semantic auditing of model explanations using large language models. Together, these results demonstrate that adversarial robustness in financial machine learning is a regime dependent property and motivate stress aware approaches to model risk assessment in high stakes financial deployments.",
+    "published": "2025-12-22",
+    "pdf_link": "https://arxiv.org/pdf/2512.19935v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 36
+  },
+  {
+    "arxiv_id": "2512.19297v1",
+    "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+    "authors": [
+      "Linzhi Chen",
+      "Yang Sun",
+      "Hongru Wei",
+      "Yuqi Chen"
+    ],
+    "summary": "Low-Rank Adaptation (LoRA) has emerged as an efficient method for fine-tuning large language models (LLMs) and is widely adopted within the open-source community. However, the decentralized dissemination of LoRA adapters through platforms such as Hugging Face introduces novel security vulnerabilities: malicious adapters can be easily distributed and evade conventional oversight mechanisms. Despite these risks, backdoor attacks targeting LoRA-based fine-tuning remain relatively underexplored. Existing backdoor attack strategies are ill-suited to this setting, as they often rely on inaccessible training data, fail to account for the structural properties unique to LoRA, or suffer from high false trigger rates (FTR), thereby compromising their stealth. To address these challenges, we propose Causal-Guided Detoxify Backdoor Attack (CBA), a novel backdoor attack framework specifically designed for open-weight LoRA models. CBA operates without access to original training data and achieves high stealth through two key innovations: (1) a coverage-guided data generation pipeline that synthesizes task-aligned inputs via behavioral exploration, and (2) a causal-guided detoxification strategy that merges poisoned and clean adapters by preserving task-critical neurons. Unlike prior approaches, CBA enables post-training control over attack intensity through causal influence-based weight allocation, eliminating the need for repeated retraining. Evaluated across six LoRA models, CBA achieves high attack success rates while reducing FTR by 50-70\\% compared to baseline methods. Furthermore, it demonstrates enhanced resistance to state-of-the-art backdoor defenses, highlighting its stealth and robustness.",
+    "published": "2025-12-22",
+    "pdf_link": "https://arxiv.org/pdf/2512.19297v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 36
+  },
+  {
+    "arxiv_id": "2512.20866v1",
+    "title": "Lightweight framework for underground pipeline recognition and spatial localization based on multi-view 2D GPR images",
+    "authors": [
+      "Haotian Lv",
+      "Chao Li",
+      "Jiangbo Dai",
+      "Yuhui Zhang",
+      "Zepeng Fan",
+      "Yiqiu Tan",
+      "Dawei Wang",
+      "Binglei Xie"
+    ],
+    "summary": "To address the issues of weak correlation between multi-view features, low recognition accuracy of small-scale targets, and insufficient robustness in complex scenarios in underground pipeline detection using 3D GPR, this paper proposes a 3D pipeline intelligent detection framework. First, based on a B/C/D-Scan three-view joint analysis strategy, a three-dimensional pipeline three-view feature evaluation method is established by cross-validating forward simulation results obtained using FDTD methods with actual measurement data. Second, the DCO-YOLO framework is proposed, which integrates DySample, CGLU, and OutlookAttention cross-dimensional correlation mechanisms into the original YOLOv11 algorithm, significantly improving the small-scale pipeline edge feature extraction capability. Furthermore, a 3D-DIoU spatial feature matching algorithm is proposed, which integrates three-dimensional geometric constraints and center distance penalty terms to achieve automated association of multi-view annotations. The three-view fusion strategy resolves inherent ambiguities in single-view detection. Experiments based on real urban underground pipeline data show that the proposed method achieves accuracy, recall, and mean average precision of 96.2%, 93.3%, and 96.7%, respectively, in complex multi-pipeline scenarios, which are 2.0%, 2.1%, and 0.9% higher than the baseline model. Ablation experiments validated the synergistic optimization effect of the dynamic feature enhancement module and Grad-CAM++ heatmap visualization demonstrated that the improved model significantly enhanced its ability to focus on pipeline geometric features. This study integrates deep learning optimization strategies with the physical characteristics of 3D GPR, offering an efficient and reliable novel technical framework for the intelligent recognition and localization of underground pipelines.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20866v1",
+    "query": "\"API security\" scanning automation",
+    "relevance_score": 34
+  },
+  {
+    "arxiv_id": "2512.20831v1",
+    "title": "Context-Sensitive Abstractions for Reinforcement Learning with Parameterized Actions",
+    "authors": [
+      "Rashmeet Kaur Nayyar",
+      "Naman Shah",
+      "Siddharth Srivastava"
+    ],
+    "summary": "Real-world sequential decision-making often involves parameterized action spaces that require both, decisions regarding discrete actions and decisions about continuous action parameters governing how an action is executed. Existing approaches exhibit severe limitations in this setting -- planning methods demand hand-crafted action models, and standard reinforcement learning (RL) algorithms are designed for either discrete or continuous actions but not both, and the few RL methods that handle parameterized actions typically rely on domain-specific engineering and fail to exploit the latent structure of these spaces. This paper extends the scope of RL algorithms to long-horizon, sparse-reward settings with parameterized actions by enabling agents to autonomously learn both state and action abstractions online. We introduce algorithms that progressively refine these abstractions during learning, increasing fine-grained detail in the critical regions of the state-action space where greater resolution improves performance. Across several continuous-state, parameterized-action domains, our abstraction-driven approach enables TD($\u03bb$) to achieve markedly higher sample efficiency than state-of-the-art baselines.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20831v1",
+    "query": "\"web service\" security vulnerability exploit",
+    "relevance_score": 34
+  },
+  {
+    "arxiv_id": "2512.21301v1",
+    "title": "Transcriptome-Conditioned Personalized De Novo Drug Generation for AML Using Metaheuristic Assembly and Target-Driven Filtering",
+    "authors": [
+      "Abdullah G. Elafifi",
+      "Basma Mamdouh",
+      "Mariam Hanafy",
+      "Muhammed Alaa Eldin",
+      "Yosef Khaled",
+      "Nesma Mohamed El-Gelany",
+      "Tarek H. M. Abou-El-Enien"
+    ],
+    "summary": "Acute Myeloid Leukemia (AML) remains a clinical challenge due to its extreme molecular heterogeneity and high relapse rates. While precision medicine has introduced mutation-specific therapies, many patients still lack effective, personalized options. This paper presents a novel, end-to-end computational framework that bridges the gap between patient-specific transcriptomics and de novo drug discovery. By analyzing bulk RNA sequencing data from the TCGA-LAML cohort, the study utilized Weighted Gene Co-expression Network Analysis (WGCNA) to prioritize 20 high-value biomarkers, including metabolic transporters like HK3 and immune-modulatory receptors such as SIGLEC9. The physical structures of these targets were modeled using AlphaFold3, and druggable hotspots were quantitatively mapped via the DOGSiteScorer engine. Then developed a novel, reaction-first evolutionary metaheuristic algorithm as well as multi-objective optimization programming that assembles novel ligands from fragment libraries, guided by spatial alignment to these identified hotspots. The generative model produced structurally unique chemical entities with a strong bias toward drug-like space, as evidenced by QED scores peaking between 0.5 and 0.7. Validation through ADMET profiling and SwissDock molecular docking identified high-confidence candidates, such as Ligand L1, which achieved a binding free energy of -6.571 kcal/mol against the A08A96 biomarker. These results demonstrate that integrating systems biology with metaheuristic molecular assembly can produce pharmacologically viable, patient tailored leads, offering a scalable blueprint for precision oncology in AML and beyond",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21301v1",
+    "query": "API vulnerability detection machine learning",
+    "relevance_score": 33
+  },
+  {
+    "arxiv_id": "2512.21243v1",
+    "title": "LookPlanGraph: Embodied Instruction Following Method with VLM Graph Augmentation",
+    "authors": [
+      "Anatoly O. Onishchenko",
+      "Alexey K. Kovalev",
+      "Aleksandr I. Panov"
+    ],
+    "summary": "Methods that use Large Language Models (LLM) as planners for embodied instruction following tasks have become widespread. To successfully complete tasks, the LLM must be grounded in the environment in which the robot operates. One solution is to use a scene graph that contains all the necessary information. Modern methods rely on prebuilt scene graphs and assume that all task-relevant information is available at the start of planning. However, these approaches do not account for changes in the environment that may occur between the graph construction and the task execution. We propose LookPlanGraph - a method that leverages a scene graph composed of static assets and object priors. During plan execution, LookPlanGraph continuously updates the graph with relevant objects, either by verifying existing priors or discovering new entities. This is achieved by processing the agents egocentric camera view using a Vision Language Model. We conducted experiments with changed object positions VirtualHome and OmniGibson simulated environments, demonstrating that LookPlanGraph outperforms methods based on predefined static scene graphs. To demonstrate the practical applicability of our approach, we also conducted experiments in a real-world setting. Additionally, we introduce the GraSIF (Graph Scenes for Instruction Following) dataset with automated validation framework, comprising 514 tasks drawn from SayPlan Office, BEHAVIOR-1K, and VirtualHome RobotHow. Project page available at https://lookplangraph.github.io .",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21243v1",
+    "query": "API vulnerability detection machine learning",
+    "relevance_score": 32
+  },
+  {
+    "arxiv_id": "2512.20959v1",
+    "title": "Can Agentic AI Match the Performance of Human Data Scientists?",
+    "authors": [
+      "An Luo",
+      "Jin Du",
+      "Fangqiao Tian",
+      "Xun Xian",
+      "Robert Specht",
+      "Ganghua Wang",
+      "Xuan Bi",
+      "Charles Fleming",
+      "Jayanth Srinivasa",
+      "Ashish Kundu",
+      "Mingyi Hong",
+      "Jie Ding"
+    ],
+    "summary": "Data science plays a critical role in transforming complex data into actionable insights across numerous domains. Recent developments in large language models (LLMs) have significantly automated data science workflows, but a fundamental question persists: Can these agentic AI systems truly match the performance of human data scientists who routinely leverage domain-specific knowledge? We explore this question by designing a prediction task where a crucial latent variable is hidden in relevant image data instead of tabular features. As a result, agentic AI that generates generic codes for modeling tabular data cannot perform well, while human experts could identify the important hidden variable using domain knowledge. We demonstrate this idea with a synthetic dataset for property insurance. Our experiments show that agentic AI that relies on generic analytics workflow falls short of methods that use domain-specific insights. This highlights a key limitation of the current agentic AI for data science and underscores the need for future research to develop agentic AI systems that can better recognize and incorporate domain knowledge.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20959v1",
+    "query": "\"API security\" scanning automation",
+    "relevance_score": 32
+  },
+  {
+    "arxiv_id": "2512.21063v1",
+    "title": "LSTM-Based Modeling and Reinforcement Learning Control of a Magnetically Actuated Catheter",
+    "authors": [
+      "Arya Rashidinejad Meibodi",
+      "Mahbod Gholamali Sinaki",
+      "Khalil Alipour"
+    ],
+    "summary": "Autonomous magnetic catheter systems are emerging as a promising approach for the future of minimally invasive interventions. This study presents a novel approach that begins by modeling the nonlinear and hysteretic dynamics of a magnetically actuated catheter system, consists of a magnetic catheter manipulated by servo-controlled magnetic fields generated by two external permanent magnets, and its complex behavior is captured using a Long Short-Term Memory (LSTM) neural network. This model validated against experimental setup's data with a root mean square error (RMSE) of 0.42 mm and 99.8% coverage within 3 mm, establishing it as a reliable surrogate model. This LSTM enables the training of Reinforcement Learning (RL) agents for controlling the system and avoiding damage to the real setup, with the potential for subsequent fine-tuning on the physical system. We implemented Deep Q-Network (DQN) and actor-critic RL controllers, comparing these two agents first for regulation and subsequently for path following along linear and half-sinusoidal paths for the catheter tip. The actor-critic outperforms DQN, offering greater accuracy and faster performance with less error, along with smoother trajectories at a 10 Hz sampling rate, in both regulation and path following compared to the DQN controller. This performance, due to the continuous action space, suits dynamic navigation tasks like navigating curved vascular structures for practical applications.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21063v1",
+    "query": "autonomous security testing API penetration",
+    "relevance_score": 32
+  },
+  {
+    "arxiv_id": "2512.20745v1",
+    "title": "AgentMath: Empowering Mathematical Reasoning for Large Language Models via Tool-Augmented Agent",
+    "authors": [
+      "Haipeng Luo",
+      "Huawen Feng",
+      "Qingfeng Sun",
+      "Can Xu",
+      "Kai Zheng",
+      "Yufei Wang",
+      "Tao Yang",
+      "Han Hu",
+      "Yansong Tang",
+      "Di Wang"
+    ],
+    "summary": "Large Reasoning Models (LRMs) like o3 and DeepSeek-R1 have achieved remarkable progress in natural language reasoning with long chain-of-thought. However, they remain computationally inefficient and struggle with accuracy when solving problems requiring complex mathematical operations. In this work, we present AgentMath, an agent framework that seamlessly integrates language models' reasoning capabilities with code interpreters' computational precision to efficiently tackle complex mathematical problems. Our approach introduces three key innovations: (1) An automated method that converts natural language chain-of-thought into structured tool-augmented trajectories, generating high-quality supervised fine-tuning (SFT) data to alleviate data scarcity; (2) A novel agentic reinforcement learning (RL) paradigm that dynamically interleaves natural language generation with real-time code execution. This enables models to autonomously learn optimal tool-use strategies through multi-round interactive feedback, while fostering emergent capabilities in code refinement and error correction; (3) An efficient training system incorporating innovative techniques, including request-level asynchronous rollout scheduling, agentic partial rollout, and prefix-aware weighted load balancing, achieving 4-5x speedup and making efficient RL training feasible on ultra-long sequences with scenarios with massive tool calls.Extensive evaluations show that AgentMath achieves state-of-the-art performance on challenging mathematical competition benchmarks including AIME24, AIME25, and HMMT25. Specifically, AgentMath-30B-A3B attains 90.6%, 86.4%, and 73.8% accuracy respectively, achieving advanced capabilities.These results validate the effectiveness of our approach and pave the way for building more sophisticated and scalable mathematical reasoning agents.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20745v1",
+    "query": "\"API security\" scanning automation",
+    "relevance_score": 32
+  },
+  {
+    "arxiv_id": "2512.20941v1",
+    "title": "A Multi-fidelity Double-Delta Wing Dataset and Empirical Scaling Laws for GNN-based Aerodynamic Field Surrogate",
+    "authors": [
+      "Yiren Shen",
+      "Juan J. Alonso"
+    ],
+    "summary": "Data-driven surrogate models are increasingly adopted to accelerate vehicle design. However, open-source multi-fidelity datasets and empirical guidelines linking dataset size to model performance remain limited. This study investigates the relationship between training data size and prediction accuracy for a graph neural network (GNN) based surrogate model for aerodynamic field prediction. We release an open-source, multi-fidelity aerodynamic dataset for double-delta wings, comprising 2448 flow snapshots across 272 geometries evaluated at angles of attack from 11 (degree) to 19 (degree) at Ma=0.3 using both Vortex Lattice Method (VLM) and Reynolds-Averaged Navier-Stokes (RANS) solvers. The geometries are generated using a nested Saltelli sampling scheme to support future dataset expansion and variance-based sensitivity analysis. Using this dataset, we conduct a preliminary empirical scaling study of the MF-VortexNet surrogate by constructing six training datasets with sizes ranging from 40 to 1280 snapshots and training models with 0.1 to 2.4 million parameters under a fixed training budget. We find that the test error decreases with data size with a power-law exponent of -0.6122, indicating efficient data utilization. Based on this scaling law, we estimate that the optimal sampling density is approximately eight samples per dimension in a d-dimensional design space. The results also suggest improved data utilization efficiency for larger surrogate models, implying a potential trade-off between dataset generation cost and model training budget.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20941v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.20940v1",
+    "title": "ETP-R1: Evolving Topological Planning with Reinforcement Fine-tuning for Vision-Language Navigation in Continuous Environments",
+    "authors": [
+      "Shuhao Ye",
+      "Sitong Mao",
+      "Yuxiang Cui",
+      "Xuan Yu",
+      "Shichao Zhai",
+      "Wen Chen",
+      "Shunbo Zhou",
+      "Rong Xiong",
+      "Yue Wang"
+    ],
+    "summary": "Vision-Language Navigation in Continuous Environments (VLN-CE) requires an embodied agent to navigate towards target in continuous environments, following natural language instructions. While current graph-based methods offer an efficient, structured approach by abstracting the environment into a topological map and simplifying the action space to waypoint selection, they lag behind methods based on Large Vision-Language Models (LVLMs) in leveraging large-scale data and advanced training paradigms. In this paper, we try to bridge this gap by introducing ETP-R1, a framework that applies the paradigm of scaling up data and Reinforcement Fine-Tuning (RFT) to a graph-based VLN-CE model. To build a strong foundation, we first construct a high-quality, large-scale pretraining dataset using the Gemini API. This dataset consists of diverse, low-hallucination instructions for topological trajectories, providing rich supervision for our graph-based policy to map language to topological paths. This foundation is further strengthened by unifying data from both R2R and RxR tasks for joint pretraining. Building on this, we introduce a three-stage training paradigm, which culminates in the first application of closed-loop, online RFT to a graph-based VLN-CE model, powered by the Group Relative Policy Optimization (GRPO) algorithm. Extensive experiments demonstrate that our approach is highly effective, establishing new state-of-the-art performance across all major metrics on both the R2R-CE and RxR-CE benchmarks. Our code is available at https://github.com/Cepillar/ETP-R1.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20940v1",
+    "query": "API injection attack SQL authentication",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.20892v1",
+    "title": "Beyond Weight Adaptation: Feature-Space Domain Injection for Cross-Modal Ship Re-Identification",
+    "authors": [
+      "Tingfeng Xian",
+      "Wenlve Zhou",
+      "Zhiheng Zhou",
+      "Zhelin Li"
+    ],
+    "summary": "Cross-Modality Ship Re-Identification (CMS Re-ID) is critical for achieving all-day and all-weather maritime target tracking, yet it is fundamentally challenged by significant modality discrepancies. Mainstream solutions typically rely on explicit modality alignment strategies; however, this paradigm heavily depends on constructing large-scale paired datasets for pre-training. To address this, grounded in the Platonic Representation Hypothesis, we explore the potential of Vision Foundation Models (VFMs) in bridging modality gaps. Recognizing the suboptimal performance of existing generic Parameter-Efficient Fine-Tuning (PEFT) methods that operate within the weight space, particularly on limited-capacity models, we shift the optimization perspective to the feature space and propose a novel PEFT strategy termed Domain Representation Injection (DRI). Specifically, while keeping the VFM fully frozen to maximize the preservation of general knowledge, we design a lightweight, learnable Offset Encoder to extract domain-specific representations rich in modality and identity attributes from raw inputs. Guided by the contextual information of intermediate features at different layers, a Modulator adaptively transforms these representations. Subsequently, they are injected into the intermediate layers via additive fusion, dynamically reshaping the feature distribution to adapt to the downstream task without altering the VFM's pre-trained weights. Extensive experimental results demonstrate the superiority of our method, achieving State-of-the-Art (SOTA) performance with minimal trainable parameters. For instance, on the HOSS-ReID dataset, we attain 57.9\\% and 60.5\\% mAP using only 1.54M and 7.05M parameters, respectively. The code is available at https://github.com/TingfengXian/DRI.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20892v1",
+    "query": "API injection attack SQL authentication",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.21018v1",
+    "title": "LEO Constellations as a Decentralized GNSS Network: Optimizing PNT Corrections in Space",
+    "authors": [
+      "Xing Liu",
+      "Xue Xian Zheng",
+      "Jos\u00e9 A. L\u00f3pez-Salcedo",
+      "Tareq Y. Al-Naffouri",
+      "Gonzalo Seco-Granados"
+    ],
+    "summary": "With the rapid expansion of low Earth orbit (LEO) constellations, thousands of satellites are now in operation, many equipped with onboard GNSS receivers capable of continuous orbit determination and time synchronization. This development is creating an unprecedented spaceborne GNSS network, offering new opportunities for network-driven precise LEO orbit and clock estimation. Yet, current onboard GNSS processing is largely standalone and often insufficient for high-precision applications, while centralized fusion is challenging due to computational bottlenecks and the lack of in-orbit infrastructure. In this work, we report a decentralized GNSS network over large-scale LEO constellations, where each satellite processes its own measurements while exchanging compact information with neighboring nodes to enable precise orbit and time determination. We model the moving constellation as a dynamic graph and tailor a momentum-accelerated gradient tracking (GT) method to ensure steady convergence despite topology changes. Numerical simulations with constellations containing hundreds of satellites show that the proposed method matches the accuracy of an ideal centralized benchmark, while substantially reducing communication burdens. Ultimately, this framework supports the development of autonomous and self-organizing space systems, enabling high-precision navigation with reduced dependence on continuous ground contact.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21018v1",
+    "query": "autonomous security testing API penetration",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.20394v1",
+    "title": "Resilient Packet Forwarding: A Reinforcement Learning Approach to Routing in Gaussian Interconnected Networks with Clustered Faults",
+    "authors": [
+      "Mohammad Walid Charrwi",
+      "Zaid Hussain"
+    ],
+    "summary": "As Network-on-Chip (NoC) and Wireless Sensor Network architectures continue to scale, the topology of the underlying network becomes a critical factor in performance. Gaussian Interconnected Networks based on the arithmetic of Gaussian integers, offer attractive properties regarding diameter and symmetry. Despite their attractive theoretical properties, adaptive routing techniques in these networks are vulnerable to node and link faults, leading to rapid degradation in communication reliability. Node failures (particularly those following Gaussian distributions, such as thermal hotspots or physical damage clusters) pose severe challenges to traditional deterministic routing. This paper proposes a fault-aware Reinforcement Learning (RL) routing scheme tailored for Gaussian Interconnected Networks. By utilizing a PPO (Proximal Policy Optimization) agent with a specific reward structure designed to penalize fault proximity, the system dynamically learns to bypass faulty regions. We compare our proposed RL-based routing protocol against a greedy adaptive shortest-path routing algorithm. Experimental results demonstrate that the RL agent significantly outperforms the adaptive routing sustaining a Packet Delivery Ratio (PDR) of 0.95 at 40% fault density compared to 0.66 for the greedy. Furthermore, the RL approach exhibits effective delivery rates compared to the greedy adaptive routing, particularly under low network load of 20% at 0.57 vs. 0.43, showing greater proficiency in managing congestion, validating its efficacy in stochastic, fault-prone topologies",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20394v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.19945v1",
+    "title": "Energy-Efficient Multi-LLM Reasoning for Binary-Free Zero-Day Detection in IoT Firmware",
+    "authors": [
+      "Saeid Jamshidi",
+      "Omar Abdul-Wahab",
+      "Martine Bella\u00efche",
+      "Foutse Khomh"
+    ],
+    "summary": "Securing Internet of Things (IoT) firmware remains difficult due to proprietary binaries, stripped symbols, heterogeneous architectures, and limited access to executable code. Existing analysis methods, such as static analysis, symbolic execution, and fuzzing, depend on binary visibility and functional emulation, making them unreliable when firmware is encrypted or inaccessible. To address this limitation, we propose a binary-free, architecture-agnostic solution that estimates the likelihood of conceptual zero-day vulnerabilities using only high-level descriptors. The approach integrates a tri-LLM reasoning architecture combining a LLaMA-based configuration interpreter, a DeepSeek-based structural abstraction analyzer, and a GPT-4o semantic fusion model. The solution also incorporates LLM computational signatures, including latency patterns, uncertainty markers, and reasoning depth indicators, as well as an energy-aware symbolic load model, to enhance interpretability and operational feasibility. In addition, we formally derive the mathematical foundations of the reasoning pipeline, establishing monotonicity, divergence, and energy-risk coupling properties that theoretically justify the model's behavior. Simulation-based evaluation reveals that high exposure conditions increase the predicted zero-day likelihood by 20 to 35 percent across models, with GPT-4o demonstrating the strongest cross-layer correlations and the highest sensitivity. Energy and divergence metrics significantly predict elevated risk (p < 0.01), reinforcing the effectiveness of the proposed reasoning framework.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.19945v1",
+    "query": "\"API security\" OR \"REST API\" OR \"GraphQL\" vulnerability",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.20535v1",
+    "title": "ARBITER: AI-Driven Filtering for Role-Based Access Control",
+    "authors": [
+      "Michele Lorenzo",
+      "Idilio Drago",
+      "Dario Salvadori",
+      "Fabio Romolo Vayr"
+    ],
+    "summary": "Role-Based Access Control (RBAC) struggles to adapt to dynamic enterprise environments with documents that contain information that cannot be disclosed to specific user groups. As these documents are used by LLM-driven systems (e.g., in RAG) the problem is exacerbated as LLMs can leak sensitive data due to prompt truncation, classification errors, or loss of system context. We introduce \\our, a system designed to provide RBAC in RAG systems. \\our implements layered input/output validation, role-aware retrieval, and post-generation fact-checking. Unlike traditional RBAC approaches that rely on fine-tuned classifiers, \\our uses LLMs operating in few-shot settings with prompt-based steering for rapid deployment and role updates. We evaluate the approach on 389 queries using a synthetic dataset. Experimental results show 85\\% accuracy and 89\\% F1-score in query filtering, close to traditional RBAC solutions. Results suggest that practical RBAC deployment on RAG systems is approaching the maturity level needed for dynamic enterprise environments.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20535v1",
+    "query": "\"API gateway\" security attack",
+    "relevance_score": 31
+  },
+  {
+    "arxiv_id": "2512.21251v1",
+    "title": "Uncertainty in security: managing cyber senescence",
+    "authors": [
+      "Martijn Dekker"
+    ],
+    "summary": "My main worry, and the core of my research, is that our cybersecurity ecosystem is slowly but surely aging and getting old and that aging is becoming an operational risk. This is happening not only because of growing complexity, but more importantly because of accumulation of controls and measures whose effectiveness are uncertain. I introduce a new term for this aging phenomenon: cyber senescence. I will begin my lecture with a short historical overview in which I sketch a development over time that led to this worry for the future of cybersecurity. It is this worry that determined my research agenda and its central theme of the role of uncertainty in cybersecurity. My worry is that waste is accumulating in cyberspace. This waste consists of a multitude of overlapping controls whose risk reductions are uncertain. Unless we start pruning these control frameworks, this waste accumulation causes aging of cyberspace and could ultimately lead to a system collapse.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.21251v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 30
+  },
+  {
+    "arxiv_id": "2512.20917v1",
+    "title": "Semantic Radio Access Networks: Architecture, State-of-the-Art, and Future Directions",
+    "authors": [
+      "Rui Meng",
+      "Zixuan Huang",
+      "Jingshu Yan",
+      "Mengying Sun",
+      "Yiming Liu",
+      "Chenyuan Feng",
+      "Xiaodong Xu",
+      "Zhidi Zhang",
+      "Song Gao",
+      "Ping Zhang",
+      "Tony Q. S. Quek"
+    ],
+    "summary": "Radio Access Network (RAN) is a bridge between user devices and the core network in mobile communication systems, responsible for the transmission and reception of wireless signals and air interface management. In recent years, Semantic Communication (SemCom) has represented a transformative communication paradigm that prioritizes meaning-level transmission over conventional bit-level delivery, thus providing improved spectrum efficiency, anti-interference ability in complex environments, flexible resource allocation, and enhanced user experience for RAN. However, there is still a lack of comprehensive reviews on the integration of SemCom into RAN. Motivated by this, we systematically explore recent advancements in Semantic RAN (SemRAN). We begin by introducing the fundamentals of RAN and SemCom, identifying the limitations of conventional RAN, and outlining the overall architecture of SemRAN. Subsequently, we review representative techniques of SemRAN across physical layer, data link layer, network layer, and security plane. Furthermore, we envision future services and applications enabled by SemRAN, alongside its current standardization progress. Finally, we conclude by identifying critical research challenges and outlining forward-looking directions to guide subsequent investigations in this burgeoning field.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20917v1",
+    "query": "microservices security vulnerability attack",
+    "relevance_score": 30
+  },
+  {
+    "arxiv_id": "2512.20921v1",
+    "title": "Self-supervised Multiplex Consensus Mamba for General Image Fusion",
+    "authors": [
+      "Yingying Wang",
+      "Rongjin Zhuang",
+      "Hui Zheng",
+      "Xuanhua He",
+      "Ke Cao",
+      "Xiaotong Tu",
+      "Xinghao Ding"
+    ],
+    "summary": "Image fusion integrates complementary information from different modalities to generate high-quality fused images, thereby enhancing downstream tasks such as object detection and semantic segmentation. Unlike task-specific techniques that primarily focus on consolidating inter-modal information, general image fusion needs to address a wide range of tasks while improving performance without increasing complexity. To achieve this, we propose SMC-Mamba, a Self-supervised Multiplex Consensus Mamba framework for general image fusion. Specifically, the Modality-Agnostic Feature Enhancement (MAFE) module preserves fine details through adaptive gating and enhances global representations via spatial-channel and frequency-rotational scanning. The Multiplex Consensus Cross-modal Mamba (MCCM) module enables dynamic collaboration among experts, reaching a consensus to efficiently integrate complementary information from multiple modalities. The cross-modal scanning within MCCM further strengthens feature interactions across modalities, facilitating seamless integration of critical information from both sources. Additionally, we introduce a Bi-level Self-supervised Contrastive Learning Loss (BSCL), which preserves high-frequency information without increasing computational overhead while simultaneously boosting performance in downstream tasks. Extensive experiments demonstrate that our approach outperforms state-of-the-art (SOTA) image fusion algorithms in tasks such as infrared-visible, medical, multi-focus, and multi-exposure fusion, as well as downstream visual tasks.",
+    "published": "2025-12-24",
+    "pdf_link": "https://arxiv.org/pdf/2512.20921v1",
+    "query": "\"API security\" scanning automation",
+    "relevance_score": 30
+  },
+  {
+    "arxiv_id": "2512.20396v1",
+    "title": "Symmaries: Automatic Inference of Formal Security Summaries for Java Programs",
+    "authors": [
+      "Narges Khakpour",
+      "Nicolas Berthier"
+    ],
+    "summary": "We introduce a scalable, modular, and sound approach for automatically constructing formal security specifications for Java bytecode programs in the form of method summaries. A summary provides an abstract representation of a method's security behavior, consisting of the conditions under which the method can be securely invoked, together with specifications of information flows and aliasing updates. Such summaries can be consumed by static code analysis tools and also help developers understand the behavior of code segments, such as libraries, in order to evaluate their security implications when reused in applications. Our approach is implemented in a tool called Symmaries, which automates the generation of security summaries. We applied Symmaries to Java API libraries to extract their security specifications and to large real-world applications to evaluate its scalability. Our results show that the tool successfully scales to analyze applications with hundreds of thousands of lines of code, and that Symmaries achieves a promising precision depending on the heap model used. We prove the soundness of our approach in terms of guaranteeing termination-insensitive non-interference.",
+    "published": "2025-12-23",
+    "pdf_link": "https://arxiv.org/pdf/2512.20396v1",
+    "query": "\"API security\" scanning automation",
+    "relevance_score": 30
+  }
+]

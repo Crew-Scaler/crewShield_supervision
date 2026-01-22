@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2506.13090v1",
+  "title": "Detecting Hard-Coded Credentials in Software Repositories via LLMs",
+  "authors": [
+    "Chidera Biringa",
+    "Gokhan Kul"
+  ],
+  "published": "2025-06-16T04:33:48Z",
+  "url": "http://arxiv.org/abs/2506.13090v1",
+  "pdf_url": "http://arxiv.org/pdf/2506.13090v1.pdf",
+  "relevance_score": 100,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Software developers frequently hard-code credentials such as passwords, generic secrets, private keys, and generic tokens in software repositories, even though it is strictly advised against due to the severe threat to the security of the software. These credentials create attack surfaces exploitable by a potential adversary to conduct malicious exploits such as backdoor attacks. Recent detection efforts utilize embedding models to vectorize textual credentials before passing them to classifiers"
+}

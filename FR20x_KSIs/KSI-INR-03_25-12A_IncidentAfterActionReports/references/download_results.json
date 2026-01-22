@@ -1,0 +1,227 @@
+[
+  {
+    "arxiv_id": "2512.20012v1",
+    "title": "Reliable LLM-Based Edge-Cloud-Expert Cascades for Telecom Knowledge Systems",
+    "filename": "2512.20012_v1_Reliable_LLM-Based_Edge-Cloud-Expert_Cascades_for_Telecom_Kn.pdf",
+    "pages": 32,
+    "valid": true,
+    "published": "2025-12-23",
+    "authors": [
+      "Qiushuo Hou",
+      "Sangwoo Park",
+      "Matteo Zecchin",
+      "Yunlong Cai",
+      "Guanding Yu",
+      "Osvaldo Simeone",
+      "Tommaso Melodia"
+    ],
+    "summary": "Large language models (LLMs) are emerging as key enablers of automation in domains such as telecommunications, assisting with tasks including troubleshooting, standards interpretation, and network optimization. However, their deployment in practice must balance inference cost, latency, and reliability. In this work, we study an edge-cloud-expert cascaded LLM-based knowledge system that supports decision-making through a question-and-answer pipeline. In it, an efficient edge model handles routine queries, a more capable cloud model addresses complex cases, and human experts are involved only when necessary. We define a misalignment-cost constrained optimization problem, aiming to minimize average processing cost, while guaranteeing alignment of automated answers with expert judgments. We propose a statistically rigorous threshold selection method based on multiple hypothesis testing (MHT) for a query processing mechanism based on knowledge and confidence tests. The approach provides finite-sample guarantees on misalignment risk. Experiments on the TeleQnA dataset -- a telecom-specific benchmark -- demonstrate that the proposed method achieves superior cost-efficiency compared to conventional cascaded baselines, while ensuring reliability at prescribed confidence levels.",
+    "categories": [
+      "eess.SP",
+      "cs.LG"
+    ]
+  },
+  {
+    "arxiv_id": "2501.10363v1",
+    "title": "A Web-Based IDE for DevOps Learning in Software Engineering Higher Education",
+    "filename": "2501.10363_v1_A_Web-Based_IDE_for_DevOps_Learning_in_Software_Engineering_.pdf",
+    "pages": 8,
+    "valid": true,
+    "published": "2024-12-08",
+    "authors": [
+      "Ganesh Neelakanta Iyer",
+      "Andrew Goh Yisheng",
+      "Metilda Chee Heng Er",
+      "Weng Xian Choong",
+      "Shao Wei Koh"
+    ],
+    "summary": "DevOps can be best explained as people working together to conceive, build and deliver secure software at top speed. DevOps practices enable software development (dev) and operations (ops) teams to accelerate delivery through automation, collaboration, fast feedback, and iterative improvement. It is now an integral part of the information technology industry, and students should be aware of it before they start their careers. However, teaching DevOps in a university curriculum has many challenges as it involves many tools and technologies. This paper presents an innovative online Integrated Development Environment (IDE) designed to facilitate DevOps learning within university curricula. The devised tool offers a standardized, accessible learning environment, equipped with devcontainers and engaging tutorials to simplify learning DevOps. Research findings highlight a marked preference among students for self-paced learning approaches, with experienced DevOps practitioners also noting the value of the tool. With barriers such as limited hardware/software access becoming evident, the necessity for cloud-based learning solutions is further underscored. User feedback emphasizes the tool's user-friendliness and the imperative of automated installation procedures. We recommend additional exploration into the tool's extensibility and potential for continuous improvement, especially regarding the development of Dev Containers. The study concludes by emphasizing the pivotal role of practical learning tools in the dynamic field of DevOps education and research.",
+    "categories": [
+      "cs.CY",
+      "cs.SE"
+    ]
+  },
+  {
+    "arxiv_id": "2412.06044v1",
+    "title": "Cloud Platforms for Developing Generative AI Solutions: A Scoping Review of Tools and Services",
+    "filename": "2412.06044_v1_Cloud_Platforms_for_Developing_Generative_AI_Solutions_A_Sco.pdf",
+    "pages": 93,
+    "valid": true,
+    "published": "2024-12-08",
+    "authors": [
+      "Dhavalkumar Patel",
+      "Ganesh Raut",
+      "Satya Narayan Cheetirala",
+      "Girish N Nadkarni",
+      "Robert Freeman",
+      "Benjamin S. Glicksberg",
+      "Eyal Klang",
+      "Prem Timsina"
+    ],
+    "summary": "Generative AI is transforming enterprise application development by enabling machines to create content, code, and designs. These models, however, demand substantial computational power and data management. Cloud computing addresses these needs by offering infrastructure to train, deploy, and scale generative AI models. This review examines cloud services for generative AI, focusing on key providers like Amazon Web Services (AWS), Microsoft Azure, Google Cloud, IBM Cloud, Oracle Cloud, and Alibaba Cloud. It compares their strengths, weaknesses, and impact on enterprise growth. We explore the role of high-performance computing (HPC), serverless architectures, edge computing, and storage in supporting generative AI. We also highlight the significance of data management, networking, and AI-specific tools in building and deploying these models. Additionally, the review addresses security concerns, including data privacy, compliance, and AI model protection. It assesses the performance and cost efficiency of various cloud providers and presents case studies from healthcare, finance, and entertainment. We conclude by discussing challenges and future directions, such as technical hurdles, vendor lock-in, sustainability, and regulatory issues. Put together, this work can serve as a guide for practitioners and researchers looking to adopt cloud-based generative AI solutions, serving as a valuable guide to navigating the intricacies of this evolving field.",
+    "categories": [
+      "cs.DC",
+      "cs.AI",
+      "cs.CY"
+    ]
+  },
+  {
+    "arxiv_id": "2501.06706v1",
+    "title": "AIOpsLab: A Holistic Framework to Evaluate AI Agents for Enabling Autonomous Clouds",
+    "filename": "2501.06706_v1_AIOpsLab_A_Holistic_Framework_to_Evaluate_AI_Agents_for_Enab.pdf",
+    "pages": 14,
+    "valid": true,
+    "published": "2025-01-12",
+    "authors": [
+      "Yinfang Chen",
+      "Manish Shetty",
+      "Gagan Somashekar",
+      "Minghua Ma",
+      "Yogesh Simmhan",
+      "Jonathan Mace",
+      "Chetan Bansal",
+      "Rujia Wang",
+      "Saravan Rajmohan"
+    ],
+    "summary": "AI for IT Operations (AIOps) aims to automate complex operational tasks, such as fault localization and root cause analysis, to reduce human workload and minimize customer impact. While traditional DevOps tools and AIOps algorithms often focus on addressing isolated operational tasks, recent advances in Large Language Models (LLMs) and AI agents are revolutionizing AIOps by enabling end-to-end and multitask automation. This paper envisions a future where AI agents autonomously manage operational tasks throughout the entire incident lifecycle, leading to self-healing cloud systems, a paradigm we term AgentOps. Realizing this vision requires a comprehensive framework to guide the design, development, and evaluation of these agents. To this end, we present AIOPSLAB, a framework that not only deploys microservice cloud environments, injects faults, generates workloads, and exports telemetry data but also orchestrates these components and provides interfaces for interacting with and evaluating agents. We discuss the key requirements for such a holistic framework and demonstrate how AIOPSLAB can facilitate the evaluation of next-generation AIOps agents. Through evaluations of state-of-the-art LLM agents within the benchmark created by AIOPSLAB, we provide insights into their capabilities and limitations in handling complex operational tasks in cloud environments.",
+    "categories": [
+      "cs.AI",
+      "cs.DC",
+      "cs.MA",
+      "cs.SE"
+    ]
+  },
+  {
+    "arxiv_id": "2502.01966v2",
+    "title": "Optimizing Spot Instance Reliability and Security Using Cloud-Native Data and Tools",
+    "filename": "2502.01966_v2_Optimizing_Spot_Instance_Reliability_and_Security_Using_Clou.pdf",
+    "pages": 8,
+    "valid": true,
+    "published": "2025-02-04",
+    "authors": [
+      "Muhammad Saqib",
+      "Shubham Malhotra",
+      "Dipkumar Mehta",
+      "Jagdish Jangid",
+      "Fnu Yashu",
+      "Sachin Dixit"
+    ],
+    "summary": "This paper represents \"Cloudlab\", a comprehensive, cloud - native laboratory designed to support network security research and training. Built on Google Cloud and adhering to GitOps methodologies, Cloudlab facilitates the the creation, testing, and deployment of secure, containerized workloads using Kubernetes and serverless architectures. The lab integrates tools like Palo Alto Networks firewalls, Bridgecrew for \"Security as Code,\" and automated GitHub workflows to establish a robust Continuous Integration/Continuous Machine Learning pipeline. By providing an adaptive and scalable environment, Cloudlab supports advanced security concepts such as role-based access control, Policy as Code, and container security. This initiative enables data scientists and engineers to explore cutting-edge practices in a dynamic cloud-native ecosystem, fostering innovation and improving operational resilience in modern IT infrastructures.",
+    "categories": [
+      "cs.CR",
+      "cs.DC",
+      "cs.ET",
+      "cs.SE"
+    ]
+  },
+  {
+    "arxiv_id": "2502.04039v2",
+    "title": "A Cloud-native Agile approach to cyber platform prototyping and integration for astronomy: the ENGAGE SKA case",
+    "filename": "2502.04039_v2_A_Cloud-native_Agile_approach_to_cyber_platform_prototyping_.pdf",
+    "pages": 19,
+    "valid": true,
+    "published": "2025-02-06",
+    "authors": [
+      "Domingos Barbosa",
+      "Diogo Regateiro",
+      "Jo\u00e3o Paulo Barraca",
+      "Dzianis Bartashevich",
+      "Marco Bartolini",
+      "Matteo di Carlo",
+      "Piers Harding",
+      "Dalmiro Maia",
+      "Bruno Morgado",
+      "Domingos Nunes",
+      "Bruno Ribeiro",
+      "Bruno Coelho",
+      "Val\u00e9rio Ribeiro",
+      "Allan K. de Almeida",
+      "Timoth\u00e9e Vaillant",
+      "U\u011fur Yilmaz"
+    ],
+    "summary": "The Square Kilometre Array (SKA) Observatory is gearing up the formal construction of its two radio interferometers in Australia and South Africa after the end of design and pre-construction phases. Agile methodologies, the Cloud native Computing technologies and the DevOps software ideas are influencing the design of compute infrastructures that will be key to reduce the operational costs of SKA while improving the control and monitoring of the SKA antennas and ancillary systems, Correlators, HPC facilities or related data centre tiered systems. These tools will likely include advanced power metering technologies and efficient distribution automation and Network Operation Centres (NOC). SKA will become the world's largest radio telescope and is expected to achieve its first science by 2026. To cope with this dimension and complexity, a key part of this distributed Observatory is the overall software control and monitoring system embodied in the Observatory Management and Control (OMC) and the Services Teams that requires specialized Agile Teams to assist in software and cyber infrastructure building using an Agile development environment that includes test automation, Continuous Integration, and Continuous Deployment. To manage such a large and distributed machine, the Agile approach was adopted for the core software package of the SKA Telescope aimed at scheduling observations, controlling their execution, monitoring the telescope status and ensuring scalability and reliability. Here, we report on the ENGAGE SKA ciberinfrastructure prototyping support to the SKA Agile Software Development Life Cycle (SDLC).",
+    "categories": [
+      "astro-ph.IM",
+      "eess.SY",
+      "physics.med-ph"
+    ]
+  },
+  {
+    "arxiv_id": "2502.20825v1",
+    "title": "LADs: Leveraging LLMs for AI-Driven DevOps",
+    "filename": "2502.20825_v1_LADs_Leveraging_LLMs_for_AI-Driven_DevOps.pdf",
+    "pages": 17,
+    "valid": true,
+    "published": "2025-02-28",
+    "authors": [
+      "Ahmad Faraz Khan",
+      "Azal Ahmad Khan",
+      "Anas Mohamed",
+      "Haider Ali",
+      "Suchithra Moolinti",
+      "Sabaat Haroon",
+      "Usman Tahir",
+      "Mattia Fazzini",
+      "Ali R. Butt",
+      "Ali Anwar"
+    ],
+    "summary": "Automating cloud configuration and deployment remains a critical challenge due to evolving infrastructures, heterogeneous hardware, and fluctuating workloads. Existing solutions lack adaptability and require extensive manual tuning, leading to inefficiencies and misconfigurations. We introduce LADs, the first LLM-driven framework designed to tackle these challenges by ensuring robustness, adaptability, and efficiency in automated cloud management. Instead of merely applying existing techniques, LADs provides a principled approach to configuration optimization through in-depth analysis of what optimization works under which conditions. By leveraging Retrieval-Augmented Generation, Few-Shot Learning, Chain-of-Thought, and Feedback-Based Prompt Chaining, LADs generates accurate configurations and learns from deployment failures to iteratively refine system settings. Our findings reveal key insights into the trade-offs between performance, cost, and scalability, helping practitioners determine the right strategies for different deployment scenarios. For instance, we demonstrate how prompt chaining-based adaptive feedback loops enhance fault tolerance in multi-tenant environments and how structured log analysis with example shots improves configuration accuracy. Through extensive evaluations, LADs reduces manual effort, optimizes resource utilization, and improves system reliability. By open-sourcing LADs, we aim to drive further innovation in AI-powered DevOps automation.",
+    "categories": [
+      "cs.LG",
+      "cs.AI",
+      "cs.DC",
+      "cs.SE"
+    ]
+  },
+  {
+    "arxiv_id": "2503.04921v1",
+    "title": "PyPackIT: Automated Research Software Engineering for Scientific Python Applications on GitHub",
+    "filename": "2503.04921_v1_PyPackIT_Automated_Research_Software_Engineering_for_Scienti.pdf",
+    "pages": 28,
+    "valid": true,
+    "published": "2025-03-06",
+    "authors": [
+      "Armin Ariamajd",
+      "Raquel L\u00f3pez-R\u00edos de Castro",
+      "Andrea Volkamer"
+    ],
+    "summary": "The increasing importance of Computational Science and Engineering has highlighted the need for high-quality scientific software. However, research software development is often hindered by limited funding, time, staffing, and technical resources. To address these challenges, we introduce PyPackIT, a cloud-based automation tool designed to streamline research software engineering in accordance with FAIR (Findable, Accessible, Interoperable, and Reusable) and Open Science principles. PyPackIT is a user-friendly, ready-to-use software that enables scientists to focus on the scientific aspects of their projects while automating repetitive tasks and enforcing best practices throughout the software development life cycle. Using modern Continuous software engineering and DevOps methodologies, PyPackIT offers a robust project infrastructure including a build-ready Python package skeleton, a fully operational documentation and test suite, and a control center for dynamic project management and customization. PyPackIT integrates seamlessly with GitHub's version control system, issue tracker, and pull-based model to establish a fully-automated software development workflow. Exploiting GitHub Actions, PyPackIT provides a cloud-native Agile development environment using containerization, Configuration-as-Code, and Continuous Integration, Deployment, Testing, Refactoring, and Maintenance pipelines. PyPackIT is an open-source software suite that seamlessly integrates with both new and existing projects via a public GitHub repository template at https://github.com/repodynamics/pypackit.",
+    "categories": [
+      "cs.SE",
+      "cs.CE"
+    ]
+  },
+  {
+    "arxiv_id": "2504.02431v2",
+    "title": "Koney: A Cyber Deception Orchestration Framework for Kubernetes",
+    "filename": "2504.02431_v2_Koney_A_Cyber_Deception_Orchestration_Framework_for_Kubernet.pdf",
+    "pages": 13,
+    "valid": true,
+    "published": "2025-04-03",
+    "authors": [
+      "Mario Kahlhofer",
+      "Matteo Golinelli",
+      "Stefan Rass"
+    ],
+    "summary": "System operators responsible for protecting software applications remain hesitant to implement cyber deception technology, including methods that place traps to catch attackers, despite its proven benefits. Overcoming their concerns removes a barrier that currently hinders industry adoption of deception technology. Our work introduces deception policy documents to describe deception technology \"as code\" and pairs them with Koney, a Kubernetes operator, which facilitates the setup, rotation, monitoring, and removal of traps in Kubernetes. We leverage cloud-native technologies, such as service meshes and eBPF, to automatically add traps to containerized software applications, without having access to the source code. We focus specifically on operational properties, such as maintainability, scalability, and simplicity, which we consider essential to accelerate the adoption of cyber deception technology and to facilitate further research on cyber deception.",
+    "categories": [
+      "cs.CR"
+    ]
+  },
+  {
+    "arxiv_id": "2504.11126v1",
+    "title": "KubeFence: Security Hardening of the Kubernetes Attack Surface",
+    "filename": "2504.11126_v1_KubeFence_Security_Hardening_of_the_Kubernetes_Attack_Surfac.pdf",
+    "pages": 14,
+    "valid": true,
+    "published": "2025-04-15",
+    "authors": [
+      "Carmine Cesarano",
+      "Roberto Natella"
+    ],
+    "summary": "Kubernetes (K8s) is widely used to orchestrate containerized applications, including critical services in domains such as finance, healthcare, and government. However, its extensive and feature-rich API interface exposes a broad attack surface, making K8s vulnerable to exploits of software vulnerabilities and misconfigurations. Even if K8s adopts role-based access control (RBAC) to manage access to K8s APIs, this approach lacks the granularity needed to protect specification attributes within API requests. This paper proposes a novel solution, KubeFence, which implements finer-grain API filtering tailored to specific client workloads. KubeFence analyzes Kubernetes Operators from trusted repositories and leverages their configuration files to restrict unnecessary features of the K8s API, to mitigate misconfigurations and vulnerabilities exploitable through the K8s API. The experimental results show that KubeFence can significantly reduce the attack surface and prevent attacks compared to RBAC.",
+    "categories": [
+      "cs.CR"
+    ]
+  }
+]

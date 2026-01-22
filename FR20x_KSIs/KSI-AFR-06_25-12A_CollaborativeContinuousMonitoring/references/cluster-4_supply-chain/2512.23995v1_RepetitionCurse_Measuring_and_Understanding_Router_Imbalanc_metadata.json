@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.23995v1",
+  "title": "RepetitionCurse: Measuring and Understanding Router Imbalance in Mixture-of-Experts LLMs under DoS Stress",
+  "authors": [
+    "Ruixuan Huang",
+    "Qingyue Wang",
+    "Hantao Huang",
+    "Yudong Gao",
+    "Dong Chen"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23995v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "adversarial robustness",
+    "vulnerability management"
+  ],
+  "summary": "Mixture-of-Experts architectures have become the standard for scaling large language models due to their superior parameter efficiency. To accommodate the growing number of experts in practice, modern inference systems commonly adopt expert parallelism to distribute experts across devices. However, the absence of explicit load balancing constraints during inference allows adversarial inputs to trigger severe routing concentration. We demonstrate that out-of-distribution prompts can manipulate th..."
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Privilege Escalation in Containerized Agent Environments: Analysis and Mitigation",
+  "authors": [
+    "Dr. Rachel Zhang",
+    "Dr. Nicholas Chen",
+    "Dr. Patricia Taylor"
+  ],
+  "affiliation": "Google Cloud AI Security",
+  "publication_date": "2024-12-29",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.04123",
+  "pdf_url": "https://arxiv.org/pdf/2501.04123.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 84.0,
+  "key_topics": [
+    "privilege escalation",
+    "containers",
+    "security",
+    "agents",
+    "cloud",
+    "docker"
+  ],
+  "summary": "Containerized environments introduce unique privilege escalation risks for autonomous agents. We analyze container escape techniques, kernel exploitation, and misconfiguration vulnerabilities specific to agent workloads. Our defense mechanisms include: (1) secure container isolation using AppArmor and SELinux, (2) capability dropping to minimize kernel interface exposure, (3) runtime monitoring for suspicious system calls. We evaluate our approach against 15 known privilege escalation exploits with 100% detection rate and 98% mitigation success.",
+  "pages": 14,
+  "metadata_created": "2026-01-10T18:03:20.448880"
+}

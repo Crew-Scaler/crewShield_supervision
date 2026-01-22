@@ -1,0 +1,20 @@
+{
+  "title": "Demo: Secure Edge Server for Network Slicing and Resource Allocation in Open RAN",
+  "authors": [
+    "Adhwaa Alchaab",
+    "Ayman Younis",
+    "Dario Pompili"
+  ],
+  "published": "2025-07-13T03:55:04+00:00",
+  "arxiv_id": "2507.11499v1",
+  "abstract": "Next-Generation Radio Access Networks (NGRAN) aim to support diverse vertical applications with strict security, latency, and Service-Level Agreement (SLA) requirements. These demands introduce challenges in securing the infrastructure, allocating resources dynamically, and enabling real-time reconfiguration. This demo presents SnSRIC, a secure and intelligent network slicing framework that mitigates a range of Distributed Denial-of-Service (DDoS) attacks in Open RAN environments. SnSRIC incorporates an AI-driven xApp that dynamically allocates Physical Resource Blocks (PRBs) to active users while enforcing slice-level security. The system detects anomalous behavior, distinguishes between benign and malicious devices, and uses the E2 interface to throttle rogue signaling while maintaining service continuity for legitimate users.",
+  "categories": [
+    "cs.CR",
+    "eess.SY"
+  ],
+  "relevance_score": 15.5,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2507.11499v1",
+  "downloaded": "2025-12-11T08:24:42.869572"
+}

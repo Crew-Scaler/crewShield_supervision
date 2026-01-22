@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2406.13186v1",
+  "title": "A Federated Learning Approach for Multi-stage Threat Analysis in Advanced Persistent Threat Campaigns",
+  "authors": [
+    "Florian Nelles",
+    "Abbas Yazdinejad",
+    "Ali Dehghantanha",
+    "Reza M. Parizi",
+    "Gautam Srivastava"
+  ],
+  "published": "2024-06-19T03:34:41Z",
+  "url": "http://arxiv.org/abs/2406.13186v1",
+  "pdf_url": "http://arxiv.org/pdf/2406.13186v1.pdf",
+  "relevance_score": 95,
+  "summary": "Multi-stage threats like advanced persistent threats (APT) pose severe risks by stealing data and destroying infrastructure, with detection being challenging. APTs use novel attack vectors and evade signature-based detection by obfuscating their network presence, often going unnoticed due to their novelty. Although machine learning models offer high accuracy, they still struggle to identify true APT behavior, overwhelming analysts with excessive data. Effective detection requires training on multiple datasets from various clients, which introduces privacy issues under regulations like GDPR. To address these challenges, this paper proposes a novel 3-phase unsupervised federated learning (FL) framework to detect APTs. It identifies unique log event types, extracts suspicious patterns from related log events, and orders them by complexity and frequency. The framework ensures privacy through a federated approach and enhances security using Paillier's partial homomorphic encryption. Tested on the SoTM 34 dataset, our framework compares favorably against traditional methods, demonstrating efficient pattern extraction and analysis from log files, reducing analyst workload, and maintaining stringent data privacy. This approach addresses significant gaps in current methodologies, offering a robust solution to APT detection in compliance with privacy laws."
+}

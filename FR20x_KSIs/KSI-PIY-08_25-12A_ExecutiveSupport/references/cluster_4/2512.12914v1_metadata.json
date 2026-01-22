@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.12914v1",
+  "title": "CTIGuardian: A Few-Shot Framework for Mitigating Privacy Leakage in Fine-Tuned LLMs",
+  "authors": [
+    "Shashie Dilhara Batan Arachchige",
+    "Benjamin Zi Hao Zhao",
+    "Hassan Jameel Asghar",
+    "Dinusha Vatsalan",
+    "Dali Kaafar"
+  ],
+  "published": "2025-12-15T01:59:14Z",
+  "summary": "Large Language Models (LLMs) are often fine-tuned to adapt their general-purpose knowledge to specific tasks and domains such as cyber threat intelligence (CTI). Fine-tuning is mostly done through proprietary datasets that may contain sensitive information. Owners expect their fine-tuned model to not inadvertently leak this information to potentially adversarial end users. Using CTI as a use case, we demonstrate that data-extraction attacks can recover sensitive information from fine-tuned model",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 90,
+  "screened_at": "2026-01-11T11:46:04.184917"
+}

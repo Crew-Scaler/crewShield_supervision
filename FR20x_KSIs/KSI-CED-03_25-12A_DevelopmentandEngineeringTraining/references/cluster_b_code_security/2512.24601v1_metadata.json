@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.24601v1",
+  "title": "Recursive Language Models",
+  "authors": [
+    "Alex L. Zhang",
+    "Tim Kraska",
+    "Omar Khattab"
+  ],
+  "published": "2025-12-31T03:43:41Z",
+  "url": "http://arxiv.org/abs/2512.24601v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.24601v1.pdf",
+  "relevance_score": 66,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "We study allowing large language models (LLMs) to process arbitrarily long prompts through the lens of inference-time scaling. We propose Recursive Language Models (RLMs), a general inference strategy that treats long prompts as part of an external environment and allows the LLM to programmatically examine, decompose, and recursively call itself over snippets of the prompt. We find that RLMs successfully handle inputs up to two orders of magnitude beyond model context windows and, even for short"
+}

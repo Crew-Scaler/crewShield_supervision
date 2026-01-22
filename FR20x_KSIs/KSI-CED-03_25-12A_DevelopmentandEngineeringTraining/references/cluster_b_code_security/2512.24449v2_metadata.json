@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.24449v2",
+  "title": "PackKV: Reducing KV Cache Memory Footprint through LLM-Aware Lossy Compression",
+  "authors": [
+    "Bo Jiang",
+    "Taolue Yang",
+    "Youyuan Liu",
+    "Xubin He",
+    "Sheng Di",
+    "Sian Jin"
+  ],
+  "published": "2025-12-30T20:05:32Z",
+  "url": "http://arxiv.org/abs/2512.24449v2",
+  "pdf_url": "http://arxiv.org/pdf/2512.24449v2.pdf",
+  "relevance_score": 81,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Transformer-based large language models (LLMs) have demonstrated remarkable potential across a wide range of practical applications. However, long-context inference remains a significant challenge due to the substantial memory requirements of the key-value (KV) cache, which can scale to several gigabytes as sequence length and batch size increase. In this paper, we present \\textbf{PackKV}, a generic and efficient KV cache management framework optimized for long-context generation. %, which syner"
+}

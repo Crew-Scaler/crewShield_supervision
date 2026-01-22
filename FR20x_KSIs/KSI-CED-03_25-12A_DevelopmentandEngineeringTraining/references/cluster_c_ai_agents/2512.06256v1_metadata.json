@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.06256v1",
+  "title": "Convergence of Outputs When Two Large Language Models Interact in a Multi-Agentic Setup",
+  "authors": [
+    "Aniruddha Maiti",
+    "Satya Nimmagadda",
+    "Kartha Veerya Jammuladinne",
+    "Niladri Sengupta",
+    "Ananya Jana"
+  ],
+  "published": "2025-12-06T03:00:24Z",
+  "url": "http://arxiv.org/abs/2512.06256v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.06256v1.pdf",
+  "relevance_score": 79,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "In this work, we report what happens when two large language models respond to each other for many turns without any outside input in a multi-agent setup. The setup begins with a short seed sentence. After that, each model reads the other's output and generates a response. This continues for a fixed number of steps. We used Mistral Nemo Base 2407 and Llama 2 13B hf. We observed that most conversations start coherently but later fall into repetition. In many runs, a short phrase appears and repea"
+}

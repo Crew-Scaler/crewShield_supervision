@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.23817v1",
+  "title": "Quantum Error Mitigation with Attention Graph Transformers for Burgers Equation Solvers on NISQ Hardware",
+  "authors": [
+    "Seyed Mohamad Ali Tousi",
+    "Adib Bazgir",
+    "Yuwen Zhang",
+    "G. N. DeSouza"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23817v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 12,
+  "key_topics": [],
+  "summary": "We present a hybrid quantum-classical framework augmented with learned error mitigation for solving the viscous Burgers equation on noisy intermediate-scale quantum (NISQ) hardware. Using the Cole-Hopf transformation, the nonlinear Burgers equation is mapped to a diffusion equation, discretized on uniform grids, and encoded into a quantum state whose time evolution is approximated via Trotterized nearest-neighbor circuits implemented in Qiskit. Quantum simulations are executed on noisy Aer backe..."
+}

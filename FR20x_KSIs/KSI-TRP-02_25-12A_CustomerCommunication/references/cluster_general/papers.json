@@ -1,0 +1,411 @@
+[
+  {
+    "arxiv_id": "2511.02055",
+    "title": "Private Map-Secure Reduce: Infrastructure for Efficient AI Data Markets",
+    "summary": "The modern AI data economy centralizes power, limits innovation, and misallocates value by extracting data without control, privacy, or fair compensation. We introduce Private Map-Secure Reduce (PMSR), a network-native paradigm that transforms data economics from extractive to participatory through cryptographically enforced markets. Extending MapReduce to decentralized settings, PMSR enables computation to move to the data, ensuring verifiable privacy, efficient price discovery, and incentive alignment. Demonstrations include large-scale recommender audits, privacy-preserving LLM ensembling (87.5\\% MMLU accuracy across six models), and distributed analytics over hundreds of nodes. PMSR establishes a scalable, equitable, and privacy-guaranteed foundation for the next generation of AI data markets.",
+    "authors": [
+      "Sameer Wagh",
+      "Kenneth Stibler",
+      "Shubham Gupta",
+      "Lacey Strahm",
+      "Irina Bejan"
+    ],
+    "published": "2025-11-03T20:39:25Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2507.09579",
+    "title": "PromptChain: A Decentralized Web3 Architecture for Managing AI Prompts as Digital Assets",
+    "summary": "We present PromptChain, a decentralized Web3 architecture that establishes AI prompts as first-class digital assets with verifiable ownership, version control, and monetization capabilities. Current centralized platforms lack mechanisms for proper attribution, quality assurance, or fair compensation for prompt creators. PromptChain addresses these limitations through a novel integration of IPFS for immutable storage, smart contracts for governance, and token incentives for community curation. Our design includes: (1) a comprehensive metadata schema for cross-model compatibility, (2) a stake-weighted validation mechanism to align incentives, and (3) a token economy that rewards contributors proportionally to their impact. The proposed architecture demonstrates how decentralized systems could potentially match centralized alternatives in efficiency while providing superior ownership guarantees and censorship resistance through blockchain-anchored provenance tracking. By decoupling prompts from specific AI models or outputs, this work establishes the foundation for an open ecosystem of human-AI collaboration in the Web3 era, representing the first systematic treatment of prompts as standalone digital assets with dedicated decentralized infrastructure.",
+    "authors": [
+      "Marc Bara"
+    ],
+    "published": "2025-07-13T11:10:39Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "1805.12511",
+    "title": "Cyberattack Detection using Deep Generative Models with Variational Inference",
+    "summary": "Recent years have witnessed a rise in the frequency and intensity of cyberattacks targeted at critical infrastructure systems. This study designs a versatile, data-driven cyberattack detection platform for infrastructure systems cybersecurity, with a special demonstration in water sector. A deep generative model with variational inference autonomously learns normal system behavior and detects attacks as they occur. The model can process the natural data in its raw form and automatically discover and learn its representations, hence augmenting system knowledge discovery and reducing the need for laborious human engineering and domain expertise. The proposed model is applied to a simulated cyberattack detection problem involving a drinking water distribution system subject to programmable logic controller hacks, malicious actuator activation, and deception attacks. The model is only provided with observations of the system, such as pump pressure and tank water level reads, and is blind to the internal structures and workings of the water distribution system. The simulated attacks are manifested in the model's generated reproduction probability plot, indicating its ability to discern the attacks. There is, however, need for improvements in reducing false alarms, especially by optimizing detection thresholds. Altogether, the results indicate ability of the model in distinguishing attacks and their repercussions from normal system operation in water distribution systems, and the promise it holds for cyberattack detection in other domains.",
+    "authors": [
+      "Sarin E. Chandy",
+      "Amin Rasekh",
+      "Zachary A. Barker",
+      "M. Ehsan Shafiee"
+    ],
+    "published": "2018-05-31T15:21:52Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "1712.05441",
+    "title": "A Game-Theoretic Taxonomy and Survey of Defensive Deception for Cybersecurity and Privacy",
+    "summary": "Cyberattacks on both databases and critical infrastructure have threatened public and private sectors. Ubiquitous tracking and wearable computing have infringed upon privacy. Advocates and engineers have recently proposed using defensive deception as a means to leverage the information asymmetry typically enjoyed by attackers as a tool for defenders. The term deception, however, has been employed broadly and with a variety of meanings. In this paper, we survey 24 articles from 2008-2018 that use game theory to model defensive deception for cybersecurity and privacy. Then we propose a taxonomy that defines six types of deception: perturbation, moving target defense, obfuscation, mixing, honey-x, and attacker engagement. These types are delineated by their information structures, agents, actions, and duration: precisely concepts captured by game theory. Our aims are to rigorously define types of defensive deception, to capture a snapshot of the state of the literature, to provide a menu of models which can be used for applied research, and to identify promising areas for future work. Our taxonomy provides a systematic foundation for understanding different types of defensive deception commonly encountered in cybersecurity and privacy.",
+    "authors": [
+      "Jeffrey Pawlick",
+      "Edward Colbert",
+      "Quanyan Zhu"
+    ],
+    "published": "2017-12-14T20:34:03Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04912",
+    "title": "Decentralized Privacy-Preserving Federal Learning of Computer Vision Models on Edge Devices",
+    "summary": "Collaborative training of a machine learning model comes with a risk of sharing sensitive or private data. Federated learning offers a way of collectively training a single global model without the need to share client data, by sharing only the updated parameters from each client's local model. A central server is then used to aggregate parameters from all clients and redistribute the aggregated model back to the clients. Recent findings have shown that even in this scenario, private data can be reconstructed only using information about model parameters. Current efforts to mitigate this are mainly focused on reducing privacy risks on the server side, assuming that other clients will not act maliciously. In this work, we analyzed various methods for improving the privacy of client data concerning both the server and other clients for neural networks. Some of these methods include homomorphic encryption, gradient compression, gradient noising, and discussion on possible usage of modified federated learning systems such as split learning, swarm learning or fully encrypted models. We have analyzed the negative effects of gradient compression and gradient noising on the accuracy of convolutional neural networks used for classification. We have shown the difficulty of data reconstruction in the case of segmentation networks. We have also implemented a proof of concept on the NVIDIA Jetson TX2 module used in edge devices and simulated a federated learning process.",
+    "authors": [
+      "Damian Haren\u010d\u00e1k",
+      "Luk\u00e1\u0161 Gajdo\u0161ech",
+      "Martin Madaras"
+    ],
+    "published": "2026-01-08T13:10:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.04034",
+    "title": "HoneyTrap: Deceiving Large Language Model Attackers to Honeypot Traps with Resilient Multi-Agent Defense",
+    "summary": "Jailbreak attacks pose significant threats to large language models (LLMs), enabling attackers to bypass safeguards. However, existing reactive defense approaches struggle to keep up with the rapidly evolving multi-turn jailbreaks, where attackers continuously deepen their attacks to exploit vulnerabilities. To address this critical challenge, we propose HoneyTrap, a novel deceptive LLM defense framework leveraging collaborative defenders to counter jailbreak attacks. It integrates four defensive agents, Threat Interceptor, Misdirection Controller, Forensic Tracker, and System Harmonizer, each performing a specialized security role and collaborating to complete a deceptive defense. To ensure a comprehensive evaluation, we introduce MTJ-Pro, a challenging multi-turn progressive jailbreak dataset that combines seven advanced jailbreak strategies designed to gradually deepen attack strategies across multi-turn attacks. Besides, we present two novel metrics: Mislead Success Rate (MSR) and Attack Resource Consumption (ARC), which provide more nuanced assessments of deceptive defense beyond conventional measures. Experimental results on GPT-4, GPT-3.5-turbo, Gemini-1.5-pro, and LLaMa-3.1 demonstrate that HoneyTrap achieves an average reduction of 68.77% in attack success rates compared to state-of-the-art baselines. Notably, even in a dedicated adaptive attacker setting with intensified conditions, HoneyTrap remains resilient, leveraging deceptive engagement to prolong interactions, significantly increasing the time and computational costs required for successful exploitation. Unlike simple rejection, HoneyTrap strategically wastes attacker resources without impacting benign queries, improving MSR and ARC by 118.11% and 149.16%, respectively.",
+    "authors": [
+      "Siyuan Li",
+      "Xi Lin",
+      "Jun Wu",
+      "Zehao Liu",
+      "Haoyu Li"
+    ],
+    "published": "2026-01-07T15:47:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03013",
+    "title": "LLMs, You Can Evaluate It! Design of Multi-perspective Report Evaluation for Security Operation Centers",
+    "summary": "Security operation centers (SOCs) often produce analysis reports on security incidents, and large language models (LLMs) will likely be used for this task in the near future. We postulate that a better understanding of how veteran analysts evaluate reports, including their feedback, can help produce analysis reports in SOCs. In this paper, we aim to leverage LLMs for analysis reports. To this end, we first construct a Analyst-wise checklist to reflect SOC practitioners' opinions for analysis report evaluation through literature review and user study with SOC practitioners. Next, we design a novel LLM-based conceptual framework, named MESSALA, by further introducing two new techniques, granularization guideline and multi-perspective evaluation. MESSALA can maximize report evaluation and provide feedback on veteran SOC practitioners' perceptions. When we conduct extensive experiments with MESSALA, the evaluation results by MESSALA are the closest to those of veteran SOC practitioners compared with the existing LLM-based methods. We then show two key insights. We also conduct qualitative analysis with MESSALA, and then identify that MESSALA can provide actionable items that are necessary for improving analysis reports.",
+    "authors": [
+      "Hiroyuki Okada",
+      "Tatsumi Oba",
+      "Naoto Yanai"
+    ],
+    "published": "2026-01-06T13:37:50Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.03303",
+    "title": "Autonomous Threat Detection and Response in Cloud Security: A Comprehensive Survey of AI-Driven Strategies",
+    "summary": "Cloud computing has changed online communities in three dimensions, which are scalability, adaptability and reduced overhead. But there are serious security concerns which are brought about by its distributed and multi-tenant characteristics. The old methods of detecting and reacting to threats which are mostly reliant on fixed signatures, predefined rules and human operators are becoming less and less effective even in the advanced stages of cyberattacks of cloud infrastructures. The recent trend in the field of addressing these limitations is the creation of technologies of artificial intelligence (AI). The strategies allow independent protection, anomaly detection, and real-time analysis with references to using deep learning, machine learning, and reinforcement learning. Through imbuing AI with a constantly-learning feature, it enables the intrusion detection system to be more accurate and generate a lesser number of false positives and it also enables the possibility of adaptive and predictive security. The fusion of large-scale language models with efficient orchestration platforms contributes to reacting to the arising threats with a quicker and more precise response. This allows automatic control over incidences, self-healing network, and defense mechanisms on a policy basis. Considering the current detection and response methods, this discussion assesses their strengths and weaknesses and outlines key issues such as data privacy, adversarial machine learning and integration complexity in the context of AI-based cloud security. These results suggest the future application of AI to support autonomous, scalable and active cloud security operations.",
+    "authors": [
+      "Gaurav Sarraf",
+      "Vibhor Pal"
+    ],
+    "published": "2026-01-06T04:19:27Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.01592",
+    "title": "OpenRT: An Open-Source Red Teaming Framework for Multimodal LLMs",
+    "summary": "The rapid integration of Multimodal Large Language Models (MLLMs) into critical applications is increasingly hindered by persistent safety vulnerabilities. However, existing red-teaming benchmarks are often fragmented, limited to single-turn text interactions, and lack the scalability required for systematic evaluation. To address this, we introduce OpenRT, a unified, modular, and high-throughput red-teaming framework designed for comprehensive MLLM safety evaluation. At its core, OpenRT architects a paradigm shift in automated red-teaming by introducing an adversarial kernel that enables modular separation across five critical dimensions: model integration, dataset management, attack strategies, judging methods, and evaluation metrics. By standardizing attack interfaces, it decouples adversarial logic from a high-throughput asynchronous runtime, enabling systematic scaling across diverse models. Our framework integrates 37 diverse attack methodologies, spanning white-box gradients, multi-modal perturbations, and sophisticated multi-agent evolutionary strategies. Through an extensive empirical study on 20 advanced models (including GPT-5.2, Claude 4.5, and Gemini 3 Pro), we expose critical safety gaps: even frontier models fail to generalize across attack paradigms, with leading models exhibiting average Attack Success Rates as high as 49.14%. Notably, our findings reveal that reasoning models do not inherently possess superior robustness against complex, multi-turn jailbreaks. By open-sourcing OpenRT, we provide a sustainable, extensible, and continuously maintained infrastructure that accelerates the development and standardization of AI safety.",
+    "authors": [
+      "Xin Wang",
+      "Yunhao Chen",
+      "Juncheng Li",
+      "Yixu Wang",
+      "Yang Yao"
+    ],
+    "published": "2026-01-04T16:41:33Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.01289",
+    "title": "dataRLsec: Safety, Security, and Reliability With Robust Offline Reinforcement Learning for DPAs",
+    "summary": "Data poisoning attacks (DPAs) are becoming popular as artificial intelligence (AI) algorithms, machine learning (ML) algorithms, and deep learning (DL) algorithms in this artificial intelligence (AI) era. Hackers and penetration testers are excessively injecting malicious contents in the training data (and in testing data too) that leads to false results that are very hard to inspect and predict. We have analyzed several recent technologies used (from deep reinforcement learning to federated learning) for the DPAs and their safety, security, &amp; countermeasures. The problem setup along with the problem estimation is shown in the MuJoCo environment with performance of HalfCheetah before the dataset is poisoned and after the dataset is poisoned. We have analyzed several risks associated with the DPAs and falsification in medical data from popular poisoning data attacks to some popular data defenses. We have proposed robust offline reinforcement learning (Offline RL) for the safety and reliability with weighted hash verification along with density-ratio weighted behavioral cloning (DWBC) algorithm. The four stages of the proposed algorithm (as the Stage 0, the Stage 1, the Stage 2, and the Stage 3) are described with respect to offline RL, safety, and security for DPAs. The conclusion and future scope are provided with the intent to combine DWBC with other data defense strategies to counter and protect future contamination cyberattacks.",
+    "authors": [
+      "Shriram KS Pandian",
+      "Naresh Kshetri"
+    ],
+    "published": "2026-01-03T21:28:17Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.01053",
+    "title": "Byzantine-Robust Federated Learning Framework with Post-Quantum Secure Aggregation for Real-Time Threat Intelligence Sharing in Critical IoT Infrastructure",
+    "summary": "The proliferation of Internet of Things devices in critical infrastructure has created unprecedented cybersecurity challenges, necessitating collaborative threat detection mechanisms that preserve data privacy while maintaining robustness against sophisticated attacks. Traditional federated learning approaches for IoT security suffer from two critical vulnerabilities: susceptibility to Byzantine attacks where malicious participants poison model updates, and inadequacy against future quantum computing threats that can compromise cryptographic aggregation protocols. This paper presents a novel Byzantine-robust federated learning framework integrated with post-quantum secure aggregation specifically designed for real-time threat intelligence sharing across critical IoT infrastructure. The proposed framework combines a adaptive weighted aggregation mechanism with lattice-based cryptographic protocols to simultaneously defend against model poisoning attacks and quantum adversaries. We introduce a reputation-based client selection algorithm that dynamically identifies and excludes Byzantine participants while maintaining differential privacy guarantees. The secure aggregation protocol employs CRYSTALS-Kyber for key encapsulation and homomorphic encryption to ensure confidentiality during parameter updates. Experimental evaluation on industrial IoT intrusion detection datasets demonstrates that our framework achieves 96.8% threat detection accuracy while successfully mitigating up to 40% Byzantine attackers, with only 18% computational overhead compared to non-secure federated approaches. The framework maintains sub-second aggregation latency suitable for real-time applications and provides 256-bit post-quantum security level.",
+    "authors": [
+      "Milad Rahmati",
+      "Nima Rahmati"
+    ],
+    "published": "2026-01-03T03:13:46Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00566",
+    "title": "Low Rank Comes with Low Security: Gradient Assembly Poisoning Attacks against Distributed LoRA-based LLM Systems",
+    "summary": "Low-Rank Adaptation (LoRA) has become a popular solution for fine-tuning large language models (LLMs) in federated settings, dramatically reducing update costs by introducing trainable low-rank matrices. However, when integrated with frameworks like FedIT, LoRA introduces a critical vulnerability: clients submit $A$ and $B$ matrices separately, while only their product $AB$ determines the model update, yet this composite is never directly verified. We propose Gradient Assembly Poisoning (GAP), a novel attack that exploits this blind spot by crafting individually benign $A$ and $B$ matrices whose product yields malicious updates. GAP operates without access to training data or inter-client coordination and remains undetected by standard anomaly detectors. We identify four systemic vulnerabilities in LoRA-based federated systems and validate GAP across LLaMA, ChatGLM, and GPT-2. GAP consistently induces degraded or biased outputs while preserving surface fluency, reducing BLEU by up to 14.5\\%, increasing factual and grammatical errors by over 800\\%, and maintaining 92.6\\% long-form response length. These results reveal a new class of stealthy, persistent threats in distributed LoRA fine-tuning.",
+    "authors": [
+      "Yueyan Dong",
+      "Minghui Xu",
+      "Qin Hu",
+      "Yinhao Xiao",
+      "Qi Luo"
+    ],
+    "published": "2026-01-02T04:42:56Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00559",
+    "title": "Cracking IoT Security: Can LLMs Outsmart Static Analysis Tools?",
+    "summary": "Smart home IoT platforms such as openHAB rely on Trigger Action Condition (TAC) rules to automate device behavior, but the interplay among these rules can give rise to interaction threats, unintended or unsafe behaviors emerging from implicit dependencies, conflicting triggers, or overlapping conditions. Identifying these threats requires semantic understanding and structural reasoning that traditionally depend on symbolic, constraint-driven static analysis. This work presents the first comprehensive evaluation of Large Language Models (LLMs) across a multi-category interaction threat taxonomy, assessing their performance on both the original openHAB (oHC/IoTB) dataset and a structurally challenging Mutation dataset designed to test robustness under rule transformations. We benchmark Llama 3.1 8B, Llama 70B, GPT-4o, Gemini-2.5-Pro, and DeepSeek-R1 across zero-, one-, and two-shot settings, comparing their results against oHIT's manually validated ground truth. Our findings show that while LLMs exhibit promising semantic understanding, particularly on action- and condition-related threats, their accuracy degrades significantly for threats requiring cross-rule structural reasoning, especially under mutated rule forms. Model performance varies widely across threat categories and prompt settings, with no model providing consistent reliability. In contrast, the symbolic reasoning baseline maintains stable detection across both datasets, unaffected by rule rewrites or structural perturbations. These results underscore that LLMs alone are not yet dependable for safety critical interaction-threat detection in IoT environments. We discuss the implications for tool design and highlight the potential of hybrid architectures that combine symbolic analysis with LLM-based semantic interpretation to reduce false positives while maintaining structural rigor.",
+    "authors": [
+      "Jason Quantrill",
+      "Noura Khajehnouri",
+      "Zihan Guo",
+      "Manar H. Alalfi"
+    ],
+    "published": "2026-01-02T04:17:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00509",
+    "title": "Improving LLM-Assisted Secure Code Generation through Retrieval-Augmented-Generation and Multi-Tool Feedback",
+    "summary": "Large Language Models (LLMs) can generate code but often introduce security vulnerabilities, logical inconsistencies, and compilation errors. Prior work demonstrates that LLMs benefit substantially from structured feedback, static analysis, retrieval augmentation, and execution-based refinement. We propose a retrieval-augmented, multi-tool repair workflow in which a single code-generating LLM iteratively refines its outputs using compiler diagnostics, CodeQL security scanning, and KLEE symbolic execution. A lightweight embedding model is used for semantic retrieval of previously successful repairs, providing security-focused examples that guide generation. Evaluated on a combined dataset of 3,242 programs generated by DeepSeek-Coder-1.3B and CodeLlama-7B, the system demonstrates significant improvements in robustness. For DeepSeek, security vulnerabilities were reduced by 96%. For the larger CodeLlama model, the critical security defect rate was decreased from 58.55% to 22.19%, highlighting the efficacy of tool-assisted self-repair even on \"stubborn\" models.",
+    "authors": [
+      "Vidyut Sriram",
+      "Sawan Pandita",
+      "Achintya Lakshmanan",
+      "Aneesh Shamraj",
+      "Suman Saha"
+    ],
+    "published": "2026-01-01T23:34:00Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00900",
+    "title": "Noise-Aware and Dynamically Adaptive Federated Defense Framework for SAR Image Target Recognition",
+    "summary": "As a critical application of computational intelligence in remote sensing, deep learning-based synthetic aperture radar (SAR) image target recognition facilitates intelligent perception but typically relies on centralized training, where multi-source SAR data are uploaded to a single server, raising privacy and security concerns. Federated learning (FL) provides an emerging computational intelligence paradigm for SAR image target recognition, enabling cross-site collaboration while preserving local data privacy. However, FL confronts critical security risks, where malicious clients can exploit SAR's multiplicative speckle noise to conceal backdoor triggers, severely challenging the robustness of the computational intelligence model. To address this challenge, we propose NADAFD, a noise-aware and dynamically adaptive federated defense framework that integrates frequency-domain, spatial-domain, and client-behavior analyses to counter SAR-specific backdoor threats. Specifically, we introduce a frequency-domain collaborative inversion mechanism to expose cross-client spectral inconsistencies indicative of hidden backdoor triggers. We further design a noise-aware adversarial training strategy that embeds $\u0393$-distributed speckle characteristics into mask-guided adversarial sample generation to enhance robustness against both backdoor attacks and SAR speckle noise. In addition, we present a dynamic health assessment module that tracks client update behaviors across training rounds and adaptively adjusts aggregation weights to mitigate evolving malicious contributions. Experiments on MSTAR and OpenSARShip datasets demonstrate that NADAFD achieves higher accuracy on clean test samples and a lower backdoor attack success rate on triggered inputs than existing federated backdoor defenses for SAR target recognition.",
+    "authors": [
+      "Yuchao Hou",
+      "Zixuan Zhang",
+      "Jie Wang",
+      "Wenke Huang",
+      "Lianhui Liang"
+    ],
+    "published": "2025-12-31T17:24:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00893",
+    "title": "Towards eco friendly cybersecurity: machine learning based anomaly detection with carbon and energy metrics",
+    "summary": "The rising energy footprint of artificial intelligence has become a measurable component of US data center emissions, yet cybersecurity research seldom considers its environmental cost. This study introduces an eco aware anomaly detection framework that unifies machine learning based network monitoring with real time carbon and energy tracking. Using the publicly available Carbon Aware Cybersecurity Traffic Dataset comprising 2300 flow level observations, we benchmark Logistic Regression, Random Forest, Support Vector Machine, Isolation Forest, and XGBoost models across energy, carbon, and performance dimensions. Each experiment is executed in a controlled Colab environment instrumented with the CodeCarbon toolkit to quantify power draw and equivalent CO2 output during both training and inference. We construct an Eco Efficiency Index that expresses F1 score per kilowatt hour to capture the trade off between detection quality and environmental impact. Results reveal that optimized Random Forest and lightweight Logistic Regression models achieve the highest eco efficiency, reducing energy consumption by more than forty percent compared to XGBoost while sustaining competitive detection accuracy. Principal Component Analysis further decreases computational load with negligible loss in recall. Collectively, these findings establish that integrating carbon and energy metrics into cybersecurity workflows enables environmentally responsible machine learning without compromising operational protection. The proposed framework offers a reproducible path toward sustainable carbon accountable cybersecurity aligned with emerging US green computing and federal energy efficiency initiatives.",
+    "authors": [
+      "KC Aashish",
+      "Md Zakir Hossain Zamil",
+      "Md Shafiqul Islam Mridul",
+      "Lamia Akter",
+      "Farmina Sharmin"
+    ],
+    "published": "2025-12-31T14:36:57Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2601.00042",
+    "title": "Large Empirical Case Study: Go-Explore adapted for AI Red Team Testing",
+    "summary": "Production LLM agents with tool-using capabilities require security testing despite their safety training. We adapt Go-Explore to evaluate GPT-4o-mini across 28 experimental runs spanning six research questions. We find that random-seed variance dominates algorithmic parameters, yielding an 8x spread in outcomes; single-seed comparisons are unreliable, while multi-seed averaging materially reduces variance in our setup. Reward shaping consistently harms performance, causing exploration collapse in 94% of runs or producing 18 false positives with zero verified attacks. In our environment, simple state signatures outperform complex ones. For comprehensive security testing, ensembles provide attack-type diversity, whereas single agents optimize coverage within a given attack type. Overall, these results suggest that seed variance and targeted domain knowledge can outweigh algorithmic sophistication when testing safety-trained models.",
+    "authors": [
+      "Manish Bhatt",
+      "Adrian Wood",
+      "Idan Habler",
+      "Ammar Al-Kahfah"
+    ],
+    "published": "2025-12-31T03:38:38Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.23132",
+    "title": "Multi-Agent Framework for Threat Mitigation and Resilience in AI-Based Systems",
+    "summary": "Machine learning (ML) underpins foundation models in finance, healthcare, and critical infrastructure, making them targets for data poisoning, model extraction, prompt injection, automated jailbreaking, and preference-guided black-box attacks that exploit model comparisons. Larger models can be more vulnerable to introspection-driven jailbreaks and cross-modal manipulation. Traditional cybersecurity lacks ML-specific threat modeling for foundation, multimodal, and RAG systems. Objective: Characterize ML security risks by identifying dominant TTPs, vulnerabilities, and targeted lifecycle stages. Methods: We extract 93 threats from MITRE ATLAS (26), AI Incident Database (12), and literature (55), and analyze 854 GitHub/Python repositories. A multi-agent RAG system (ChatGPT-4o, temp 0.4) mines 300+ articles to build an ontology-driven threat graph linking TTPs, vulnerabilities, and stages. Results: We identify unreported threats including commercial LLM API model stealing, parameter memorization leakage, and preference-guided text-only jailbreaks. Dominant TTPs include MASTERKEY-style jailbreaking, federated poisoning, diffusion backdoors, and preference optimization leakage, mainly impacting pre-training and inference. Graph analysis reveals dense vulnerability clusters in libraries with poor patch propagation. Conclusion: Adaptive, ML-specific security frameworks, combining dependency hygiene, threat intelligence, and monitoring, are essential to mitigate supply-chain and inference risks across the ML lifecycle.",
+    "authors": [
+      "Armstrong Foundjem",
+      "Lionel Nganyewou Tidjon",
+      "Leuson Da Silva",
+      "Foutse Khomh"
+    ],
+    "published": "2025-12-29T01:27:19Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.22883",
+    "title": "Agentic AI for Cyber Resilience: A New Security Paradigm and Its System-Theoretic Foundations",
+    "summary": "Cybersecurity is being fundamentally reshaped by foundation-model-based artificial intelligence. Large language models now enable autonomous planning, tool orchestration, and strategic adaptation at scale, challenging security architectures built on static rules, perimeter defenses, and human-centered workflows. This chapter argues for a shift from prevention-centric security toward agentic cyber resilience. Rather than seeking perfect protection, resilient systems must anticipate disruption, maintain critical functions under attack, recover efficiently, and learn continuously. We situate this shift within the historical evolution of cybersecurity paradigms, culminating in an AI-augmented paradigm where autonomous agents participate directly in sensing, reasoning, action, and adaptation across cyber and cyber-physical systems. We then develop a system-level framework for designing agentic AI workflows. A general agentic architecture is introduced, and attacker and defender workflows are analyzed as coupled adaptive processes, and game-theoretic formulations are shown to provide a unifying design language for autonomy allocation, information flow, and temporal composition. Case studies in automated penetration testing, remediation, and cyber deception illustrate how equilibrium-based design enables system-level resiliency design.",
+    "authors": [
+      "Tao Li",
+      "Quanyan Zhu"
+    ],
+    "published": "2025-12-28T11:17:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.22060",
+    "title": "Toward Secure and Compliant AI: Organizational Standards and Protocols for NLP Model Lifecycle Management",
+    "summary": "Natural Language Processing (NLP) systems are increasingly used in sensitive domains such as healthcare, finance, and government, where they handle large volumes of personal and regulated data. However, these systems introduce distinct risks related to security, privacy, and regulatory compliance that are not fully addressed by existing AI governance frameworks. This paper introduces the Secure and Compliant NLP Lifecycle Management Framework (SC-NLP-LMF), a comprehensive six-phase model designed to ensure the secure operation of NLP systems from development to retirement. The framework, developed through a systematic PRISMA-based review of 45 peer-reviewed and regulatory sources, aligns with leading standards, including NIST AI RMF, ISO/IEC 42001:2023, the EU AI Act, and MITRE ATLAS. It integrates established methods for bias detection, privacy protection (differential privacy, federated learning), secure deployment, explainability, and secure model decommissioning. A healthcare case study illustrates how SC-NLP-LMF detects emerging terminology drift (e.g., COVID-related language) and guides compliant model updates. The framework offers organizations a practical, lifecycle-wide structure for developing, deploying, and maintaining secure and accountable NLP systems in high-risk environments.",
+    "authors": [
+      "Sunil Arora",
+      "John Hastings"
+    ],
+    "published": "2025-12-26T15:28:20Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.21561",
+    "title": "Security Boundaries of Quantum Key Reuse: A Quantitative Evaluation Method for QKD Key Rotation Interval and Security Benefits Combined with Block Ciphers",
+    "summary": "With the rapid development of quantum computing, classical cryptography systems are facing increasing security threats, making it urgent to build architectures resilient to quantum attacks. Although Quantum Key Distribution (QKD) technology provides information-theoretic security, its limited bandwidth requires it to be combined with classical cryptography-particularly block ciphers such as AES and SM4-in practical deployments.However, when a single key is used to process multiple multi-block files, the resulting reduction in security strength has not yet been systematically quantified.In this work, we focus on the use of both QKD keys and block ciphers, and construct a precise calculation model for the key rotation interval. We further propose a quantitative method to evaluate the security benefit of using QKD keys for block cipher. Building on concrete security models and the security properties of various block cipher modes (CTR, CBC, and ECBC-MAC), we derive the maximum number of files that can be safely encrypted under a single key, denoted Q*, and quantify the benefits of key rotation interval in enhancing security levels. Using SM4 as a case study, our results show that, under an 80-bit security target, uniformly performing k key rotations can increase the security strength by log2(k) to 2log2(k) bits. This study provides theoretical support and a basis for parameter optimization for the integrated application of QKD keys with classical cryptographic algorithms and the engineering deployment of cryptographic systems.",
+    "authors": [
+      "Xiaoming Chen",
+      "Haoze Chen",
+      "Fei Xu",
+      "Meifeng Gao",
+      "Jianguo Xie"
+    ],
+    "published": "2025-12-25T08:13:02Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.21250",
+    "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+    "summary": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-world software supply chains.To investigate this issue, we present CoTDeceptor, the first adversarial code obfuscation framework targeting CoT-enhanced LLM detectors. CoTDeceptor autonomously constructs evolving, hard-to-reverse multi-stage obfuscation strategy chains that effectively disrupt CoT-driven detection logic.We obtained malicious code provided by security enterprise, experimental results demonstrate that CoTDeceptor achieves stable and transferable evasion performance against state-of-the-art LLMs and vulnerability detection agents. CoTDeceptor bypasses 14 out of 15 vulnerability categories, compared to only 2 bypassed by prior methods. Our findings highlight potential risks in real-world software supply chains and underscore the need for more robust and interpretable LLM-powered security analysis systems.",
+    "authors": [
+      "Haoyang Li",
+      "Mingjin Li",
+      "Jinxin Zuo",
+      "Siqi Li",
+      "Xiao Li"
+    ],
+    "published": "2025-12-24T15:55:42Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.21048",
+    "title": "zkFL-Health: Blockchain-Enabled Zero-Knowledge Federated Learning for Medical AI Privacy",
+    "summary": "Healthcare AI needs large, diverse datasets, yet strict privacy and governance constraints prevent raw data sharing across institutions. Federated learning (FL) mitigates this by training where data reside and exchanging only model updates, but practical deployments still face two core risks: (1) privacy leakage via gradients or updates (membership inference, gradient inversion) and (2) trust in the aggregator, a single point of failure that can drop, alter, or inject contributions undetected. We present zkFL-Health, an architecture that combines FL with zero-knowledge proofs (ZKPs) and Trusted Execution Environments (TEEs) to deliver privacy-preserving, verifiably correct collaborative training for medical AI. Clients locally train and commit their updates; the aggregator operates within a TEE to compute the global update and produces a succinct ZK proof (via Halo2/Nova) that it used exactly the committed inputs and the correct aggregation rule, without revealing any client update to the host. Verifier nodes validate the proof and record cryptographic commitments on-chain, providing an immutable audit trail and removing the need to trust any single party. We outline system and threat models tailored to healthcare, the zkFL-Health protocol, security/privacy guarantees, and a performance evaluation plan spanning accuracy, privacy risk, latency, and cost. This framework enables multi-institutional medical AI with strong confidentiality, integrity, and auditability, key properties for clinical adoption and regulatory compliance.",
+    "authors": [
+      "Savvy Sharma",
+      "George Petrovic",
+      "Sarthak Kaushik"
+    ],
+    "published": "2025-12-24T08:29:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.20423",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "The purpose of this project is to assess how well defenders can detect DNS-over-HTTPS (DoH) file exfiltration, and which evasion strategies can be used by attackers. While providing a reproducible toolkit to generate, intercept and analyze DoH exfiltration, and comparing Machine Learning vs threshold-based detection under adversarial scenarios. The originality of this project is the introduction of an end-to-end, containerized pipeline that generates configurable file exfiltration over DoH using several parameters (e.g., chunking, encoding, padding, resolver rotation). It allows for file reconstruction at the resolver side, while extracting flow-level features using a fork of DoHLyzer. The pipeline contains a prediction side, which allows the training of machine learning models based on public labelled datasets and then evaluates them side-by-side with threshold-based detection methods against malicious and evasive DNS-Over-HTTPS traffic. We train Random Forest, Gradient Boosting and Logistic Regression classifiers on a public DoH dataset and benchmark them against evasive DoH exfiltration scenarios. The toolkit orchestrates traffic generation, file capture, feature extraction, model training and analysis. The toolkit is then encapsulated into several Docker containers for easy setup and full reproducibility regardless of the platform it is run on. Future research regarding this project is directed at validating the results on mixed enterprise traffic, extending the protocol coverage to HTTP/3/QUIC request, adding a benign traffic generation, and working on real-time traffic evaluation. A key objective is to quantify when stealth constraints make DoH exfiltration uneconomical and unworthy for the attacker.",
+    "authors": [
+      "Adam Elaoumari"
+    ],
+    "published": "2025-12-23T15:07:17Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.19286",
+    "title": "GShield: Mitigating Poisoning Attacks in Federated Learning",
+    "summary": "Federated Learning (FL) has recently emerged as a revolutionary approach to collaborative training Machine Learning models. In particular, it enables decentralized model training while preserving data privacy, but its distributed nature makes it highly vulnerable to a severe attack known as Data Poisoning. In such scenarios, malicious clients inject manipulated data into the training process, thereby degrading global model performance or causing targeted misclassification. In this paper, we present a novel defense mechanism called GShield, designed to detect and mitigate malicious and low-quality updates, especially under non-independent and identically distributed (non-IID) data scenarios. GShield operates by learning the distribution of benign gradients through clustering and Gaussian modeling during an initial round, enabling it to establish a reliable baseline of trusted client behavior. With this benign profile, GShield selectively aggregates only those updates that align with the expected gradient patterns, effectively isolating adversarial clients and preserving the integrity of the global model. An extensive experimental campaign demonstrates that our proposed defense significantly improves model robustness compared to the state-of-the-art methods while maintaining a high accuracy of performance across both tabular and image datasets. Furthermore, GShield improves the accuracy of the targeted class by 43\\% to 65\\% after detecting malicious and low-quality clients.",
+    "authors": [
+      "Sameera K. M.",
+      "Serena Nicolazzo",
+      "Antonino Nocera",
+      "Vinod P.",
+      "Rafidha Rehiman K. A"
+    ],
+    "published": "2025-12-22T11:29:28Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.20677",
+    "title": "Automated Red-Teaming Framework for Large Language Model Security Assessment: A Comprehensive Attack Generation and Detection System",
+    "summary": "As large language models (LLMs) are increasingly deployed in high-stakes domains, ensuring their security and alignment has become a critical challenge. Existing red-teaming practices depend heavily on manual testing, which limits scalability and fails to comprehensively cover the vast space of potential adversarial behaviors. This paper introduces an automated red-teaming framework that systematically generates, executes, and evaluates adversarial prompts to uncover security vulnerabilities in LLMs. Our framework integrates meta-prompting-based attack synthesis, multi-modal vulnerability detection, and standardized evaluation protocols spanning six major threat categories -- reward hacking, deceptive alignment, data exfiltration, sandbagging, inappropriate tool use, and chain-of-thought manipulation. Experiments on the GPT-OSS-20B model reveal 47 distinct vulnerabilities, including 21 high-severity and 12 novel attack patterns, achieving a $3.9\\times$ improvement in vulnerability discovery rate over manual expert testing while maintaining 89\\% detection accuracy. These results demonstrate the framework's effectiveness in enabling scalable, systematic, and reproducible AI safety evaluations. By providing actionable insights for improving alignment robustness, this work advances the state of automated LLM red-teaming and contributes to the broader goal of building secure and trustworthy AI systems.",
+    "authors": [
+      "Zhang Wei",
+      "Peilu Hu",
+      "Shengning Lang",
+      "Hao Yan",
+      "Li Mei"
+    ],
+    "published": "2025-12-21T19:12:44Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.18432",
+    "title": "Federated Learning Based Decentralized Adaptive Intelligent Transmission Protocol for Privacy Preserving 6G Networks",
+    "summary": "The move to 6th Generation (6G) wireless networks creates new issues with privacy, scalability, and adaptability. The data-intensive nature of 6G is not handled well by older, centralized network models. A shift toward more secure and decentralized systems is therefore required. A new framework called the Federated Learning-based Decentralized Adaptive Intelligent Transmission Protocol (AITP) is proposed to meet these challenges. The AITP uses the distributed learning of Federated Learning (FL) within a decentralized system. Transmission parameters can be adjusted intelligently in real time. User privacy is maintained by keeping raw data on local edge devices. The protocol's performance was evaluated with mathematical modeling and detailed simulations. It was shown to be superior to traditional non-adaptive and centralized AI methods across several key metrics. These included latency, network throughput, energy efficiency, and robustness. The AITP is presented as a foundational technology for future 6G networks that supports a user-centric, privacy-first design. This study is a step forward for privacy-preserving research in 6G.",
+    "authors": [
+      "Ansar Ahmed"
+    ],
+    "published": "2025-12-20T17:18:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.18207",
+    "title": "FedWiLoc: Federated Learning for Privacy-Preserving WiFi Indoor Localization",
+    "summary": "Current data-driven Wi-Fi-based indoor localization systems face three critical challenges: protecting user privacy, achieving accurate predictions in dynamic multipath environments, and generalizing across different deployments. Traditional Wi-Fi localization systems often compromise user privacy, particularly when facing compromised access points (APs) or man-in-the-middle attacks. As IoT devices proliferate in indoor environments, developing solutions that deliver accurate localization while robustly protecting privacy has become imperative. We introduce FedWiLoc, a privacy-preserving indoor localization system that addresses these challenges through three key innovations. First, FedWiLoc employs a split architecture where APs process Channel State Information (CSI) locally and transmit only privacy-preserving embedding vectors to user devices, preventing raw CSI exposure. Second, during training, FedWiLoc uses federated learning to collaboratively train the model across APs without centralizing sensitive user data. Third, we introduce a geometric loss function that jointly optimizes angle-of-arrival predictions and location estimates, enforcing geometric consistency to improve accuracy in challenging multipath conditions. Extensive evaluation across six diverse indoor environments spanning over 2,000 sq. ft. demonstrates that FedWiLoc outperforms state-of-the-art methods by up to 61.9% in median localization error while maintaining strong privacy guarantees throughout both training and inference.",
+    "authors": [
+      "Kanishka Roy",
+      "Tahsin Fuad Hasan",
+      "Chenfeng Wu",
+      "Eshwar Vangala",
+      "Roshan Ayyalasomayajula"
+    ],
+    "published": "2025-12-20T04:10:15Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.16310",
+    "title": "Agent Tools Orchestration Leaks More: Dataset, Benchmark, and Mitigation",
+    "summary": "Driven by Large Language Models, the single-agent, multi-tool architecture has become a popular paradigm for autonomous agents due to its simplicity and effectiveness. However, this architecture also introduces a new and severe privacy risk, which we term Tools Orchestration Privacy Risk (TOP-R), where an agent, to achieve a benign user goal, autonomously aggregates information fragments across multiple tools and leverages its reasoning capabilities to synthesize unexpected sensitive information. We provide the first systematic study of this risk. First, we establish a formal framework, attributing the risk's root cause to the agent's misaligned objective function: an overoptimization for helpfulness while neglecting privacy awareness. Second, we construct TOP-Bench, comprising paired leakage and benign scenarios, to comprehensively evaluate this risk. To quantify the trade-off between safety and robustness, we introduce the H-Score as a holistic metric. The evaluation results reveal that TOP-R is a severe risk: the average Risk Leakage Rate (RLR) of eight representative models reaches 90.24%, while the average H-Score is merely 0.167, with no model exceeding 0.3. Finally, we propose the Privacy Enhancement Principle (PEP) method, which effectively mitigates TOP-R, reducing the Risk Leakage Rate to 46.58% and significantly improving the H-Score to 0.624. Our work reveals both a new class of risk and inherent structural limitations in current agent architectures, while also offering feasible mitigation strategies.",
+    "authors": [
+      "Yuxuan Qiao",
+      "Dongqin Liu",
+      "Hongchang Yang",
+      "Wei Zhou",
+      "Songlin Hu"
+    ],
+    "published": "2025-12-18T08:50:57Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  },
+  {
+    "arxiv_id": "2512.15275",
+    "title": "Bounty Hunter: Autonomous, Comprehensive Emulation of Multi-Faceted Adversaries",
+    "summary": "Adversary emulation is an essential procedure for cybersecurity assessments such as evaluating an organization's security posture or facilitating structured training and research in dedicated environments. To allow for systematic and time-efficient assessments, several approaches from academia and industry have worked towards the automation of adversarial actions. However, they exhibit significant limitations regarding autonomy, tactics coverage, and real-world applicability. Consequently, adversary emulation remains a predominantly manual task requiring substantial human effort and security expertise - even amidst the rise of Large Language Models. In this paper, we present Bounty Hunter, an automated adversary emulation method, designed and implemented as an open-source plugin for the popular adversary emulation platform Caldera, that enables autonomous emulation of adversaries with multi-faceted behavior while providing a wide coverage of tactics. To this end, it realizes diverse adversarial behavior, such as different levels of detectability and varying attack paths across repeated emulations. By autonomously compromising a simulated enterprise network, Bounty Hunter showcases its ability to achieve given objectives without prior knowledge of its target, including pre-compromise, initial compromise, and post-compromise attack tactics. Overall, Bounty Hunter facilitates autonomous, comprehensive, and multi-faceted adversary emulation to help researchers and practitioners in performing realistic and time-efficient security assessments, training exercises, and intrusion detection research.",
+    "authors": [
+      "Louis Hackl\u00e4nder-Jansen",
+      "Rafael Uetz",
+      "Martin Henze"
+    ],
+    "published": "2025-12-17T10:27:11Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 55.00000000000001
+  }
+]

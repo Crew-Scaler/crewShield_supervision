@@ -1,0 +1,23 @@
+{
+  "arxiv_id": "2512.07843v1",
+  "title": "ThreadWeaver: Adaptive Threading for Efficient Parallel Reasoning in Language Models",
+  "authors": [
+    "Long Lian",
+    "Sida Wang",
+    "Felix Juefei-Xu",
+    "Tsu-Jui Fu",
+    "Xiuyu Li",
+    "Adam Yala",
+    "Trevor Darrell",
+    "Alane Suhr",
+    "Yuandong Tian",
+    "Xi Victoria Lin"
+  ],
+  "published": "2025-11-24T18:55:59Z",
+  "url": "http://arxiv.org/abs/2512.07843v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.07843v1.pdf",
+  "relevance_score": 60,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Scaling inference-time computation has enabled Large Language Models (LLMs) to achieve strong reasoning performance, but inherently sequential decoding leads to substantial latency, especially on complex tasks. Recent work on adaptive parallel reasoning aims to improve inference efficiency by decomposing the problem-solving process into concurrent reasoning threads when beneficial. However, existing methods on realistic tasks are either limited to supervised behavior cloning or exhibit significa"
+}

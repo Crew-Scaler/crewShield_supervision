@@ -1,0 +1,842 @@
+{
+  "query_stats": {
+    "temporal_workflow": {
+      "total_found": 186,
+      "relevant": 67,
+      "description": "Temporal and workflow engines"
+    },
+    "saga_pattern": {
+      "total_found": 40,
+      "relevant": 11,
+      "description": "Saga patterns and distributed transactions"
+    },
+    "event_sourcing_cqrs": {
+      "total_found": 24,
+      "relevant": 2,
+      "description": "Event sourcing and CQRS"
+    },
+    "checkpoint_recovery": {
+      "total_found": 33,
+      "relevant": 31,
+      "description": "Checkpointing and recovery mechanisms"
+    },
+    "process_migration_failover": {
+      "total_found": 23,
+      "relevant": 11,
+      "description": "Process migration and failover"
+    },
+    "serverless_orchestration": {
+      "total_found": 78,
+      "relevant": 58,
+      "description": "Serverless workflow orchestration"
+    },
+    "container_orchestration": {
+      "total_found": 31,
+      "relevant": 23,
+      "description": "Container orchestration systems"
+    },
+    "consensus_replication": {
+      "total_found": 48,
+      "relevant": 48,
+      "description": "Consensus protocols and replication"
+    },
+    "distributed_workflow": {
+      "total_found": 4,
+      "relevant": 3,
+      "description": "Distributed workflow systems"
+    },
+    "fault_tolerant_execution": {
+      "total_found": 136,
+      "relevant": 72,
+      "description": "Fault-tolerant execution systems"
+    }
+  },
+  "total_unique_papers": 279,
+  "selected_papers": 45,
+  "successfully_downloaded": 45,
+  "failed_downloads": 0,
+  "year_2025": 173,
+  "year_2024": 106,
+  "papers": [
+    {
+      "id": "http://arxiv.org/abs/2512.01039v1",
+      "title": "Joint Partitioning and Placement of Foundation Models for Real-Time Edge AI",
+      "authors": [
+        "Aladin Djuhera",
+        "Fernando Koch",
+        "Alecio Binotto"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2512.01039v1",
+      "summary": "Inference over large-scale foundation models within heterogeneous edge environments necessitates a fundamentally reconfigurable orchestration substrate. Static partitioning of model layers presumes temporal stability across compute and network resources, which is misaligned with the volatility of real-world deployments. We introduce a framework in which both the spatial placement and internal segmentation of foundation models are elevated to runtime-resolved constructs. The orchestration problem"
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.21181v1",
+      "title": "Privacy in Federated Learning with Spiking Neural Networks",
+      "authors": [
+        "Dogukan Aksu",
+        "Jesus Martinez del Rincon",
+        "Ihsen Alouani"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2511.21181v1",
+      "summary": "Spiking neural networks (SNNs) have emerged as prominent candidates for embedded and edge AI. Their inherent low power consumption makes them far more efficient than conventional ANNs in scenarios where energy budgets are tightly constrained. In parallel, federated learning (FL) has become the prevailing training paradigm in such settings, enabling on-device learning while limiting the exposure of raw data. However, gradient inversion attacks represent a critical privacy threat in FL, where sens"
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.19450v1",
+      "title": "AI-driven Predictive Shard Allocation for Scalable Next Generation Blockchains",
+      "authors": [
+        "M. Zeeshan Haider",
+        "Tayyaba Noreen",
+        "M. D. Assuncao",
+        "Kaiwen Zhang"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2511.19450v1",
+      "summary": "Sharding has emerged as a key technique to address blockchain scalability by partitioning the ledger into multiple shards that process transactions in parallel. Although this approach improves throughput, static or heuristic shard allocation often leads to workload skew, congestion, and excessive cross-shard communication diminishing the scalability benefits of sharding. To overcome these challenges, we propose the Predictive Shard Allocation Protocol (PSAP), a dynamic and intelligent allocation"
+    },
+    {
+      "id": "http://arxiv.org/abs/2511.00038v1",
+      "title": "AeroResQ: Edge-Accelerated UAV Framework for Scalable, Resilient and Collaborative Escape Route Planning in Wildfire Scenarios",
+      "authors": [
+        "Suman Raj",
+        "Radhika Mittal",
+        "Rajiv Mayani",
+        "Pawel Zuk",
+        "Anirban Mandal",
+        "Michael Zink",
+        "Yogesh Simmhan",
+        "Ewa Deelman"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2511.00038v1",
+      "summary": "Drone fleets equipped with onboard cameras, computer vision, and Deep Neural Network (DNN) models present a powerful paradigm for real-time spatio-temporal decision-making. In wildfire response, such drones play a pivotal role in monitoring fire dynamics, supporting firefighter coordination, and facilitating safe evacuation. In this paper, we introduce AeroResQ, an edge-accelerated UAV framework designed for scalable, resilient, and collaborative escape route planning during wildfire scenarios. "
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.15215v1",
+      "title": "Spatiotemporal Traffic Prediction in Distributed Backend Systems via Graph Neural Networks",
+      "authors": [
+        "Zhimin Qiu",
+        "Feng Liu",
+        "Yuxiao Wang",
+        "Chenrui Hu",
+        "Ziyu Cheng",
+        "Di Wu"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2510.15215v1",
+      "summary": "This paper addresses the problem of traffic prediction in distributed backend systems and proposes a graph neural network based modeling approach to overcome the limitations of traditional models in capturing complex dependencies and dynamic features. The system is abstracted as a graph with nodes and edges, where node features represent traffic and resource states, and adjacency relations describe service interactions. A graph convolution mechanism enables multi order propagation and aggregatio"
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.14599v1",
+      "title": "JASDA: Introducing Job-Aware Scheduling in Scheduler-Driven Job Atomization",
+      "authors": [
+        "Michal Konopa",
+        "Jan Fesl",
+        "Ladislav Ber \u00e1nek"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2510.14599v1",
+      "summary": "The increasing complexity and temporal variability of workloads on MIG-enabled GPUs challenge the scalability of traditional centralized scheduling. Building upon the SJA concept, this paper introduces JASDA-a novel paradigm that extends SJA from a largely centralized scheduling model toward a fully decentralized negotiation process. In JASDA, jobs actively generate and score feasible subjobs in response to scheduler-announced execution windows, while the scheduler performs policy-driven clearin"
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.10126v1",
+      "title": "FedMon: Federated eBPF Monitoring for Distributed Anomaly Detection in Multi-Cluster Cloud Environments",
+      "authors": [
+        "Sehar Zehra",
+        "Hassan Jamil Syed",
+        "Ummay Faseeha"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2510.10126v1",
+      "summary": "Kubernetes multi-cluster deployments demand scalable and privacy-preserving anomaly detection. Existing eBPF-based monitors provide low-overhead system and network visibility but are limited to single clusters, while centralized approaches incur bandwidth, privacy, and heterogeneity challenges. We propose FedMon, a federated eBPF framework that unifies kernel-level telemetry with federated learning (FL) for cross-cluster anomaly detection. Lightweight eBPF agents capture syscalls and network eve"
+    },
+    {
+      "id": "http://arxiv.org/abs/2510.00828v1",
+      "title": "Data Management System Analysis for Distributed Computing Workloads",
+      "authors": [
+        "Kuan-Chieh Hsu",
+        "Sairam Sri Vatsavai",
+        "Ozgur O. Kilic",
+        "Tatiana Korchuganova",
+        "Paul Nilsson",
+        "Sankha Dutta",
+        "Yihui Ren",
+        "David K. Park",
+        "Joseph Boudreau",
+        "Tasnuva Chowdhury",
+        "Shengyu Feng",
+        "Raees Khan",
+        "Jaehyung Kim",
+        "Scott Klasky",
+        "Tadashi Maeno",
+        "Verena Ingrid Martinez Outschoorn",
+        "Norbert Podhorszki",
+        "Fr\u00e9d\u00e9ric Suter",
+        "Wei Yang",
+        "Yiming Yang",
+        "Shinjae Yoo",
+        "Alexei Klimentov",
+        "Adolfy Hoisie"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2510.00828v1",
+      "summary": "Large-scale international collaborations such as ATLAS rely on globally distributed workflows and data management to process, move, and store vast volumes of data. ATLAS's Production and Distributed Analysis (PanDA) workflow system and the Rucio data management system are each highly optimized for their respective design goals. However, operating them together at global scale exposes systemic inefficiencies, including underutilized resources, redundant or unnecessary transfers, and altered error"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.25700v1",
+      "title": "PAST: Pilot and Adaptive Orchestration for Timely and Resilient Service Delivery in Edge-Assisted UAV Networks under Spatio-Temporal Dynamics",
+      "authors": [
+        "Houyi Qi",
+        "Minghui Liwang",
+        "Liqun Fu",
+        "Sai Zou",
+        "Xinlei Yi",
+        "Wei Ni",
+        "Huaiyu Dai"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2509.25700v1",
+      "summary": "Incentive-driven resource trading is essential for UAV applications with intensive, time-sensitive computing demands. Traditional spot trading suffers from negotiation delays and high energy costs, while conventional futures trading struggles to adapt to the dynamic, uncertain UAV-edge environment. To address these challenges, we propose PAST (pilot-and-adaptive stable trading), a novel framework for edge-assisted UAV networks with spatio-temporal dynamism. PAST integrates two complementary mech"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.24444v1",
+      "title": "BugMagnifier: TON Transaction Simulator for Revealing Smart Contract Vulnerabilities",
+      "authors": [
+        "Yury Yanovich",
+        "Victoria Kovalevskaya",
+        "Maksim Egorov",
+        "Elizaveta Smirnova",
+        "Matvey Mishuris",
+        "Yash Madhwal",
+        "Kirill Ziborov",
+        "Vladimir Gorgadze",
+        "Subodh Sharma"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2509.24444v1",
+      "summary": "The Open Network (TON) blockchain employs an asynchronous execution model that introduces unique security challenges for smart contracts, particularly race conditions arising from unpredictable message processing order. While previous work established vulnerability patterns through static analysis of audit reports, dynamic detection of temporal dependencies through systematic testing remains an open problem. We present BugMagnifier, a transaction simulation framework that systematically reveals "
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.23101v1",
+      "title": "Towards Quantum-Ready Blockchain Fraud Detection via Ensemble Graph Neural Networks",
+      "authors": [
+        "M. Z. Haider",
+        "Tayyaba Noreen",
+        "M. Salman"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2509.23101v1",
+      "summary": "Blockchain Business applications and cryptocurrencies such as enable secure, decentralized value transfer, yet their pseudonymous nature creates opportunities for illicit activity, challenging regulators and exchanges in anti money laundering (AML) enforcement. Detecting fraudulent transactions in blockchain networks requires models that can capture both structural and temporal dependencies while remaining resilient to noise, imbalance, and adversarial behavior. In this work, we propose an ensem"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.15965v1",
+      "title": "RLinf: Flexible and Efficient Large-scale Reinforcement Learning via Macro-to-Micro Flow Transformation",
+      "authors": [
+        "Chao Yu",
+        "Yuanqing Wang",
+        "Zhen Guo",
+        "Hao Lin",
+        "Si Xu",
+        "Hongzhi Zang",
+        "Quanlu Zhang",
+        "Yongji Wu",
+        "Chunyang Zhu",
+        "Junhao Hu",
+        "Zixiao Huang",
+        "Mingjie Wei",
+        "Yuqing Xie",
+        "Ke Yang",
+        "Bo Dai",
+        "Zhexuan Xu",
+        "Xiangyuan Wang",
+        "Xu Fu",
+        "Zhihao Liu",
+        "Kang Chen",
+        "Weilin Liu",
+        "Gang Liu",
+        "Boxun Li",
+        "Jianlei Yang",
+        "Zhi Yang",
+        "Guohao Dai",
+        "Yu Wang"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.LG",
+      "pdf_url": "https://arxiv.org/pdf/2509.15965v1",
+      "summary": "Reinforcement learning (RL) has demonstrated immense potential in advancing artificial general intelligence, agentic intelligence, and embodied intelligence. However, the inherent heterogeneity and dynamicity of RL workflows often lead to low hardware utilization and slow training on existing systems. In this paper, we present RLinf, a high-performance RL training system based on our key observation that the major roadblock to efficient RL training lies in system flexibility. To maximize flexibi"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.04719v2",
+      "title": "STADI: Fine-Grained Step-Patch Diffusion Parallelism for Heterogeneous GPUs",
+      "authors": [
+        "Han Liang",
+        "Jiahui Zhou",
+        "Zicheng Zhou",
+        "Xiaoxi Zhang",
+        "Xu Chen"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2509.04719v2",
+      "summary": "The escalating adoption of diffusion models for applications such as image generation demands efficient parallel inference techniques to manage their substantial computational cost. However, existing diffusion parallelism inference schemes often underutilize resources in heterogeneous multi-GPU environments, where varying hardware capabilities or background tasks cause workload imbalance. This paper introduces Spatio-Temporal Adaptive Diffusion Inference (STADI), a novel framework to accelerate "
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.01434v1",
+      "title": "LiFeChain: Lightweight Blockchain for Secure and Efficient Federated Lifelong Learning in IoT",
+      "authors": [
+        "Handi Chen",
+        "Jing Deng",
+        "Xiuzhe Wu",
+        "Zhihan Jiang",
+        "Xinchen Zhang",
+        "Xianhao Chen",
+        "Edith C. H. Ngai"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2509.01434v1",
+      "summary": "The expansion of Internet of Things (IoT) devices constantly generates heterogeneous data streams, driving demand for continuous, decentralized intelligence. Federated Lifelong Learning (FLL) provides an ideal solution by incorporating federated and lifelong learning to overcome catastrophic forgetting. The extended lifecycle of FLL in IoT systems increases their vulnerability to persistent attacks, and these risks may be obscured by performance degradation caused by spatial-temporal data hetero"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.12208v1",
+      "title": "IsoSched: Preemptive Tile Cascaded Scheduling of Multi-DNN via Subgraph Isomorphism",
+      "authors": [
+        "Boran Zhao",
+        "Zihang Yuan",
+        "Yanbin Hu",
+        "Haiming Zhai",
+        "Haoruo Zhang",
+        "Wenzhe Zhao",
+        "Tian Xia",
+        "Pengju Ren"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2509.12208v1",
+      "summary": "Deploying deep neural network (DNN) accelerators with Layer Temporal Scheduling (LTS) often incurs significant overheads (e.g., energy and latency), as intermediate activations must be cached in DRAM. To alleviate this, Tile Spatial Scheduling (TSS) reduces such costs by fragmenting inter-layer data into smaller tiles communicated via on-chip links.However, many emerging applications require concurrent execution of multiple DNNs with complex topologies, where critical tasks must preempt others t"
+    },
+    {
+      "id": "http://arxiv.org/abs/2509.13325v1",
+      "title": "A User-centric Kubernetes-based Architecture for Green Cloud Computing",
+      "authors": [
+        "Matteo Zanotto",
+        "Leonardo Vicentini",
+        "Redi Vreto",
+        "Francesco Lumpp",
+        "Diego Braga",
+        "Sandro Fiore"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2509.13325v1",
+      "summary": "To meet the increasing demand for cloud computing services, the scale and number of data centers keeps increasing worldwide. This growth comes at the cost of increased electricity consumption, which directly correlates to CO2 emissions, the main driver of climate change. As such, researching ways to reduce cloud computing emissions is more relevant than ever. However, although cloud providers are reportedly already working near optimal power efficiency, they fail in providing precise sustainabil"
+    },
+    {
+      "id": "http://arxiv.org/abs/2508.14625v1",
+      "title": "A Systematic Evaluation of the Potential of Carbon-Aware Execution for Scientific Workflows",
+      "authors": [
+        "Kathleen West",
+        "Youssef Moawad",
+        "Fabian Lehmann",
+        "Vasilis Bountris",
+        "Ulf Leser",
+        "Yehia Elkhatib",
+        "Lauritz Thamsen"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2508.14625v1",
+      "summary": "Scientific workflows are widely used to automate scientific data analysis and often involve computationally intensive processing of large datasets on compute clusters. As such, their execution tends to be long-running and resource-intensive, resulting in substantial energy consumption and, depending on the energy mix, carbon emissions. Meanwhile, a wealth of carbon-aware computing methods have been proposed, yet little work has focused specifically on scientific workflows, even though they prese"
+    },
+    {
+      "id": "http://arxiv.org/abs/2508.11415v1",
+      "title": "Time, Fences and the Ordering of Events in TSO",
+      "authors": [
+        "Ra\u00efssa Nataf",
+        "Yoram Moses"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2508.11415v1",
+      "summary": "The Total Store Order (TSO) is arguably the most widely used relaxed memory model in multiprocessor architectures, widely implemented, for example in Intel's x86 and x64 platforms. It allows processes to delay the visibility of writes through store buffering. While this supports hardware-level optimizations and makes a significant contribution to multiprocessor efficiency, it complicates reasoning about correctness, as executions may violate sequential consistency. Ensuring correct behavior ofte"
+    },
+    {
+      "id": "http://arxiv.org/abs/2508.07124v1",
+      "title": "AerialDB: A Federated Peer-to-Peer Spatio-temporal Edge Datastore for Drone Fleets",
+      "authors": [
+        "Shashwat Jaiswal",
+        "Suman Raj",
+        "Subhajit Sidhanta",
+        "Yogesh Simmhan"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2508.07124v1",
+      "summary": "Recent years have seen an unprecedented growth in research that leverages the newest computing paradigm of Internet of Drones, comprising a fleet of connected Unmanned Aerial Vehicles (UAVs) used for a wide range of tasks such as monitoring and analytics in highly mobile and changing environments characteristic of disaster regions. Given that the typical data (i.e., videos and images) collected by the fleet of UAVs deployed in such scenarios can be considerably larger than what the onboard compu"
+    },
+    {
+      "id": "http://arxiv.org/abs/2507.10259v2",
+      "title": "Temporal-Aware GPU Resource Allocation for Distributed LLM Inference via Reinforcement Learning",
+      "authors": [
+        "Chengze Du",
+        "Zhiwei Yu",
+        "Heng Xu",
+        "Haojie Wang",
+        "Bo liu",
+        "Jialong Li"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2507.10259v2",
+      "summary": "The rapid growth of large language model (LLM) services imposes increasing demands on distributed GPU inference infrastructure. Most existing scheduling systems follow a reactive paradigm, relying solely on the current system state to make decisions, without considering how task demand and resource availability evolve over time. This lack of temporal awareness in reactive approaches leads to inefficient GPU utilization, high task migration overhead, and poor system responsiveness under dynamic w"
+    },
+    {
+      "id": "http://arxiv.org/abs/2507.07400v1",
+      "title": "KVFlow: Efficient Prefix Caching for Accelerating LLM-Based Multi-Agent Workflows",
+      "authors": [
+        "Zaifeng Pan",
+        "Ajjkumar Patel",
+        "Zhengding Hu",
+        "Yipeng Shen",
+        "Yue Guan",
+        "Wan-Lu Li",
+        "Lianhui Qin",
+        "Yida Wang",
+        "Yufei Ding"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2507.07400v1",
+      "summary": "Large language model (LLM) based agentic workflows have become a popular paradigm for coordinating multiple specialized agents to solve complex tasks. To improve serving efficiency, existing LLM systems employ prefix caching to reuse key-value (KV) tensors corresponding to agents' fixed prompts, thereby avoiding redundant computation across repeated invocations. However, current systems typically evict KV caches using a Least Recently Used (LRU) policy, which fails to anticipate future agent usa"
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.17338v2",
+      "title": "PBFT-Backed Semantic Voting for Multi-Agent Memory Pruning",
+      "authors": [
+        "Duong Bach"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2506.17338v2",
+      "summary": "The proliferation of multi-agent systems (MAS) in complex, dynamic environments necessitates robust and efficient mechanisms for managing shared knowledge. A critical challenge is ensuring that distributed memories remain synchronized, relevant, and free from the accumulation of outdated or inconsequential data - a process analogous to biological forgetting. This paper introduces the Co-Forgetting Protocol, a novel, comprehensive framework designed to address this challenge by enabling synchroni"
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.10470v1",
+      "title": "TD-Pipe: Temporally-Disaggregated Pipeline Parallelism Architecture for High-Throughput LLM Inference",
+      "authors": [
+        "Hongbin Zhang",
+        "Taosheng Wei",
+        "Zhenyi Zheng",
+        "Jiangsu Du",
+        "Zhiguang Chen",
+        "Yutong Lu"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2506.10470v1",
+      "summary": "As the model size continuously increases, pipeline parallelism shows great promise in throughput-oriented LLM inference due to its low demand on communications. However, imbalanced pipeline workloads and complex data dependencies in the prefill and decode phases result in massive pipeline bubbles and further severe performance reduction. To better exploit the pipeline parallelism for high-throughput LLM inference, we propose TD-Pipe, with the key idea lies in the temporally-disaggregated pipelin"
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.17236v1",
+      "title": "Design, Implementation, and Analysis of Fair Faucets for Blockchain Ecosystems",
+      "authors": [
+        "Serdar Metin"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.CR",
+      "pdf_url": "https://arxiv.org/pdf/2506.17236v1",
+      "summary": "The present dissertation addresses the problem of fairly distributing shared resources in non-commercial blockchain networks. Blockchains are distributed systems that order and timestamp records of a given network of users, in a public, cryptographically secure, and consensual way. The records, which may in kind be events, transaction orders, sets of rules for structured transactions etc. are placed within well-defined datastructures called blocks, and they are linked to each other by the virtue"
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.02490v1",
+      "title": "Simplifying Root Cause Analysis in Kubernetes with StateGraph and LLM",
+      "authors": [
+        "Yong Xiang",
+        "Charley Peter Chen",
+        "Liyi Zeng",
+        "Wei Yin",
+        "Xin Liu",
+        "Hu Li",
+        "Wei Xu"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2506.02490v1",
+      "summary": "Kubernetes, a notably complex and distributed system, utilizes an array of controllers to uphold cluster management logic through state reconciliation. Nevertheless, maintaining state consistency presents significant challenges due to unexpected failures, network disruptions, and asynchronous issues, especially within dynamic cloud environments. These challenges result in operational disruptions and economic losses, underscoring the necessity for robust root cause analysis (RCA) to enhance Kuber"
+    },
+    {
+      "id": "http://arxiv.org/abs/2505.20705v1",
+      "title": "Time-Series Learning for Proactive Fault Prediction in Distributed Systems with Deep Neural Structures",
+      "authors": [
+        "Yang Wang",
+        "Wenxuan Zhu",
+        "Xuehui Quan",
+        "Heyi Wang",
+        "Chang Liu",
+        "Qiyuan Wu"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2505.20705v1",
+      "summary": "This paper addresses the challenges of fault prediction and delayed response in distributed systems by proposing an intelligent prediction method based on temporal feature learning. The method takes multi-dimensional performance metric sequences as input. We use a Gated Recurrent Unit (GRU) to model the evolution of system states over time. An attention mechanism is then applied to enhance key temporal segments, improving the model's ability to identify potential faults. On this basis, a feedfor"
+    },
+    {
+      "id": "http://arxiv.org/abs/2506.01991v2",
+      "title": "Investigating Timing-Based Information Leakage in Data Flow-Driven Real-Time Systems",
+      "authors": [
+        "Mohammad Fakhruddin Babar",
+        "Zain A. H. Hammadeh",
+        "Mohammad Hamad",
+        "Monowar Hasan"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2506.01991v2",
+      "summary": "Leaking information about the execution behavior of critical real-time tasks may lead to serious consequences, including violations of temporal constraints and even severe failures. We study information leakage for a special class of real-time tasks that have two execution modes, namely, typical execution (which invokes the majority of times) and critical execution (to tackle exceptional conditions). The data flow-driven applications inherit such a multimode execution model. In this paper, we in"
+    },
+    {
+      "id": "http://arxiv.org/abs/2505.10071v1",
+      "title": "A categorical and logical framework for iterated protocols",
+      "authors": [
+        "Eric Goubault",
+        "Bernardo Hummes Flores",
+        "Roman Kniazev",
+        "Jeremy Ledent",
+        "Sergio Rajsbaum"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.LO",
+      "pdf_url": "https://arxiv.org/pdf/2505.10071v1",
+      "summary": "In this article, we show that the now classical protocol complex approach to distributed task solvability of Herlihy et al. can be understood in standard categorical terms. First, protocol complexes are functors, from chromatic (semi-) simplicial sets to chromatic simplicial sets, that naturally give rise to algebras. These algebras describe the next state operator for the corresponding distributed systems. This is constructed for semi-synchronous distributed systems with general patterns of com"
+    },
+    {
+      "id": "http://arxiv.org/abs/2505.09375v2",
+      "title": "Strategies to Measure Energy Consumption Using RAPL During Workflow Execution on Commodity Clusters",
+      "authors": [
+        "Philipp Thamm",
+        "Ulf Leser"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2505.09375v2",
+      "summary": "In science, problems in many fields can be solved by processing datasets using a series of computationally expensive algorithms, sometimes referred to as workflows. Traditionally, the configurations of these workflows are optimized to achieve a short runtime for the given task and dataset on a given (often distributed) infrastructure. However, recently more attention has been drawn to energy-efficient computing, due to the negative impact of energy-inefficient computing on the environment and en"
+    },
+    {
+      "id": "http://arxiv.org/abs/2505.01968v2",
+      "title": "HAS-GPU: Efficient Hybrid Auto-scaling with Fine-grained GPU Allocation for SLO-aware Serverless Inferences",
+      "authors": [
+        "Jianfeng Gu",
+        "Puxuan Wang",
+        "Isaac David Nunez Araya",
+        "Kai Huang",
+        "Michael Gerndt"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2505.01968v2",
+      "summary": "Serverless Computing (FaaS) has become a popular paradigm for deep learning inference due to the ease of deployment and pay-per-use benefits. However, current serverless inference platforms encounter the coarse-grained and static GPU resource allocation problems during scaling, which leads to high costs and Service Level Objective (SLO) violations in fluctuating workloads. Meanwhile, current platforms only support horizontal scaling for GPU inferences, thus the cold start problem further exacerb"
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.20490v1",
+      "title": "Hetu v2: A General and Scalable Deep Learning System with Hierarchical and Heterogeneous Single Program Multiple Data Annotations",
+      "authors": [
+        "Haoyang Li",
+        "Fangcheng Fu",
+        "Hao Ge",
+        "Sheng Lin",
+        "Xuanyu Wang",
+        "Jiawen Niu",
+        "Xupeng Miao",
+        "Bin Cui"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2504.20490v1",
+      "summary": "The Single Program Multiple Data (SPMD) paradigm provides a unified abstraction to annotate various parallel dimensions in distributed deep learning (DL) training. With SPMD, users can write training programs from the viewpoint of a single device, and the system will automatically deduce the tensor sharding and communication patterns. However, with the recent development in large-scale DL models, distributed training exhibits spatial and temporal workload heterogeneity, arising from both device "
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.19516v4",
+      "title": "Boosting LLM Serving through Spatial-Temporal GPU Resource Sharing",
+      "authors": [
+        "Zejia Lin",
+        "Hongxin Xu",
+        "Guanyi Chen",
+        "Zhiguang Chen",
+        "Yutong Lu",
+        "Xianwei Zhang"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2504.19516v4",
+      "summary": "Modern LLM serving systems confront inefficient GPU utilization due to the fundamental mismatch between compute-intensive prefill and memory-bound decode phases. While current practices attempt to address this by organizing these phases into hybrid batches, such solutions create an inefficient tradeoff that sacrifices either throughput or latency, leaving substantial GPU resources underutilized. We identify two key root causes: 1) the prefill phase suffers from suboptimal compute utilization due"
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.18154v1",
+      "title": "EcoServe: Enabling Cost-effective LLM Serving with Proactive Intra- and Inter-Instance Orchestration",
+      "authors": [
+        "Jiangsu Du",
+        "Hongbin Zhang",
+        "Taosheng Wei",
+        "Zhenyi Zheng",
+        "Kaiyi Wu",
+        "Zhiguang Chen",
+        "Yutong Lu"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2504.18154v1",
+      "summary": "Existing LLM serving strategies can be categorized based on whether prefill and decode phases are disaggregated: non-disaggregated (NoDG) or fully disaggregated (FuDG). However, the NoDG strategy leads to strong prefill-decode interference and the FuDG strategy highly relies on high-performance interconnects, making them less cost-effective.   We introduce EcoServe, a system that enables cost-effective LLM serving on clusters with commodity interconnects. EcoServe is built on the partially disag"
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.17598v1",
+      "title": "TSUE: A Two-Stage Data Update Method for an Erasure Coded Cluster File System",
+      "authors": [
+        "Zheng Wei",
+        "Jing Xing",
+        "Yida Gu",
+        "Wenjing Huang",
+        "Dong Dai",
+        "Guangming Tan",
+        "Dingwen Tao"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2504.17598v1",
+      "summary": "Compared to replication-based storage systems, erasure-coded storage incurs significantly higher overhead during data updates. To address this issue, various parity logging methods have been pro- posed. Nevertheless, due to the long update path and substantial amount of random I/O involved in erasure code update processes, the resulting long latency and low throughput often fail to meet the requirements of high performance applications. To this end, we propose a two-stage data update method call"
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.11826v1",
+      "title": "When Should I Run My Application Benchmark?: Studying Cloud Performance Variability for the Case of Stream Processing Applications",
+      "authors": [
+        "S\u00f6ren Henning",
+        "Adriano Vogel",
+        "Esteban Perez-Wohlfeil",
+        "Otmar Ertl",
+        "Rick Rabiser"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.SE",
+      "pdf_url": "https://arxiv.org/pdf/2504.11826v1",
+      "summary": "Performance benchmarking is a common practice in software engineering, particularly when building large-scale, distributed, and data-intensive systems. While cloud environments offer several advantages for running benchmarks, it is often reported that benchmark results can vary significantly between repetitions -- making it difficult to draw reliable conclusions about real-world performance. In this paper, we empirically quantify the impact of cloud performance variability on benchmarking result"
+    },
+    {
+      "id": "http://arxiv.org/abs/2504.10632v1",
+      "title": "A Real-Time, Auto-Regression Method for In-Situ Feature Extraction in Hydrodynamics Simulations",
+      "authors": [
+        "Kewei Yan",
+        "Yonghong Yan"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2504.10632v1",
+      "summary": "Hydrodynamics simulations are powerful tools for studying fluid behavior under physical forces, enabling extraction of features that reveal key flow characteristics. Traditional post-analysis methods offer high accuracy but incur significant computational and I/O costs. In contrast, in-situ methods reduce data movement by analyzing data during the simulation, yet often compromise either accuracy or performance. We propose a lightweight auto-regression algorithm for real-time in-situ feature extr"
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.20344v1",
+      "title": "GeoNimbus: A serverless framework to build earth observation and environmental services",
+      "authors": [
+        "Dante D. S\u00e1nchez-Gallegos",
+        "Diana Carrizales-Espinoza",
+        "Alejandro Zequeira",
+        "Catherine Torres-Charles",
+        "J. L. Gonzalez-Compean",
+        "Jesus Carretero"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2503.20344v1",
+      "summary": "Cloud computing has become a popular solution for organizations implementing Earth Observation Systems (EOS). However, this produces a dependency on provider resources. Moreover, managing and executing tasks and data in these environments are challenges that commonly arise when building an EOS. This paper presents GeoNimbus, a serverless framework for composing and deploying spatio-temporal EOS on multiple infrastructures, e.g., on-premise resources and public or private clouds. This framework o"
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.20263v1",
+      "title": "L4: Diagnosing Large-scale LLM Training Failures via Automated Log Analysis",
+      "authors": [
+        "Zhihan Jiang",
+        "Junjie Huang",
+        "Zhuangbin Chen",
+        "Yichen Li",
+        "Guangba Yu",
+        "Cong Feng",
+        "Yongqiang Yang",
+        "Zengyin Yang",
+        "Michael R. Lyu"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.SE",
+      "pdf_url": "https://arxiv.org/pdf/2503.20263v1",
+      "summary": "As Large Language Models (LLMs) show their capabilities across various applications, training customized LLMs has become essential for modern enterprises. However, due to the complexity of LLM training, which requires massive computational resources and extensive training time, failures are inevitable during the training process. These failures result in considerable waste of resource and time, highlighting the critical need for effective and efficient failure diagnosis to reduce the cost of LLM"
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.13705v2",
+      "title": "Exploring the Potential of Carbon-Aware Execution for Scientific Workflows",
+      "authors": [
+        "Kathleen West",
+        "Fabian Lehmann",
+        "Vasilis Bountris",
+        "Ulf Leser",
+        "Yehia Elkhatib",
+        "Lauritz Thamsen"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2503.13705v2",
+      "summary": "Scientific workflows are widely used to automate scientific data analysis and often involve processing large quantities of data on compute clusters. As such, their execution tends to be long-running and resource intensive, leading to significant energy consumption and carbon emissions.   Meanwhile, a wealth of carbon-aware computing methods have been proposed, yet little work has focused specifically on scientific workflows, even though they present a substantial opportunity for carbon-aware com"
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.13072v2",
+      "title": "WOW: Workflow-Aware Data Movement and Task Scheduling for Dynamic Scientific Workflows",
+      "authors": [
+        "Fabian Lehmann",
+        "Jonathan Bader",
+        "Friedrich Tschirpke",
+        "Ninon De Mecquenem",
+        "Ansgar L\u00f6\u00dfer",
+        "Soeren Becker",
+        "Katarzyna Ewa Lewi\u0144ska",
+        "Lauritz Thamsen",
+        "Ulf Leser"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2503.13072v2",
+      "summary": "Scientific workflows process extensive data sets over clusters of independent nodes, which requires a complex stack of infrastructure components, especially a resource manager (RM) for task-to-node assignment, a distributed file system (DFS) for data exchange between tasks, and a workflow engine to control task dependencies. To enable a decoupled development and installation of these components, current architectures place intermediate data files during workflow execution independently of the fu"
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.12185v1",
+      "title": "FAILS: A Framework for Automated Collection and Analysis of LLM Service Incidents",
+      "authors": [
+        "S\u00e1ndor Battaglini-Fischer",
+        "Nishanthi Srinivasan",
+        "B\u00e1lint L\u00e1szl\u00f3 Szarvas",
+        "Xiaoyu Chu",
+        "Alexandru Iosup"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.PF",
+      "pdf_url": "https://arxiv.org/pdf/2503.12185v1",
+      "summary": "Large Language Model (LLM) services such as ChatGPT, DALLE, and Cursor have quickly become essential for society, businesses, and individuals, empowering applications such as chatbots, image generation, and code assistance. The complexity of LLM systems makes them prone to failures and affects their reliability and availability, yet their failure patterns are not fully understood, making it an emerging problem. However, there are limited datasets and studies in this area, particularly lacking an"
+    },
+    {
+      "id": "http://arxiv.org/abs/2503.05930v2",
+      "title": "VersaSlot: Efficient Fine-grained FPGA Sharing with Big.Little Slots and Live Migration in FPGA Cluster",
+      "authors": [
+        "Jianfeng Gu",
+        "Hao Wang",
+        "Xiaorang Guo",
+        "Martin Schulz",
+        "Michael Gerndt"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2503.05930v2",
+      "summary": "As FPGAs gain popularity for on-demand application acceleration in data center computing, dynamic partial reconfiguration (DPR) has become an effective fine-grained sharing technique for FPGA multiplexing. However, current FPGA sharing encounters partial reconfiguration contention and task execution blocking problems introduced by the DPR, which significantly degrade application performance. In this paper, we propose VersaSlot, an efficient spatio-temporal FPGA sharing system with novel Big{.}Li"
+    },
+    {
+      "id": "http://arxiv.org/abs/2502.20724v2",
+      "title": "Deep RC: A Scalable Data Engineering and Deep Learning Pipeline",
+      "authors": [
+        "Arup Kumar Sarker",
+        "Aymen Alsaadi",
+        "Alexander James Halpern",
+        "Prabhath Tangella",
+        "Mikhail Titov",
+        "Niranda Perera",
+        "Mills Staylor",
+        "Gregor von Laszewski",
+        "Shantenu Jha",
+        "Geoffrey Fox"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.DC",
+      "pdf_url": "https://arxiv.org/pdf/2502.20724v2",
+      "summary": "Significant obstacles exist in scientific domains including genetics, climate modeling, and astronomy due to the management, preprocess, and training on complicated data for deep learning. Even while several large-scale solutions offer distributed execution environments, open-source alternatives that integrate scalable runtime tools, deep learning and data frameworks on high-performance computing platforms remain crucial for accessibility and flexibility. In this paper, we introduce Deep Radical"
+    },
+    {
+      "id": "http://arxiv.org/abs/2502.18403v1",
+      "title": "Kitsune: Enabling Dataflow Execution on GPUs",
+      "authors": [
+        "Michael Davies",
+        "Neal Crago",
+        "Karthikeyan Sankaralingam",
+        "Stephen W. Keckler"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.AR",
+      "pdf_url": "https://arxiv.org/pdf/2502.18403v1",
+      "summary": "State of art DL models are growing in size and complexity, with many modern models also increasing in heterogeneity of behavior. GPUs are still the dominant platform for DL applications, relying on a bulk-synchronous execution model which has many drawbacks and is ill-suited for the graph structure of DL applications. Many industry and academic works attempt to overcome these by employing vertical fusion but this approach still fails to realize three untapped opportunities: (1) the fact that man"
+    },
+    {
+      "id": "http://arxiv.org/abs/2502.03287v2",
+      "title": "STEMS: Spatial-Temporal Mapping Tool For Spiking Neural Networks",
+      "authors": [
+        "Sherif Eissa",
+        "Sander Stuijk",
+        "Floran De Putter",
+        "Andrea Nardi-Dei",
+        "Federico Corradi",
+        "Henk Corporaal"
+      ],
+      "year": 2025,
+      "category": "temporal_workflow",
+      "categories": "cs.NE",
+      "pdf_url": "https://arxiv.org/pdf/2502.03287v2",
+      "summary": "Spiking Neural Networks (SNNs) are promising bio-inspired third-generation neural networks. Recent research has trained deep SNN models with accuracy on par with Artificial Neural Networks (ANNs). Although the event-driven and sparse nature of SNNs show potential for more energy efficient computation than ANNs, SNN neurons have internal states which evolve over time. Keeping track of SNN states can significantly increase data movement and storage requirements, potentially losing its advantages w"
+    }
+  ]
+}

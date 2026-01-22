@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.21508v1",
+  "title": "Fixed-Budget Parameter-Efficient Training with Frozen Encoders Improves Multimodal Chest X-Ray Classification",
+  "authors": [
+    "Md Ashik Khan",
+    "Md Nahid Siddique"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.21508v1",
+  "relevance_score": 90.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Multimodal chest X-Ray analysis often fine-tunes large vision-language models, which is computationally costly. We study parameter-efficient training (PET) strategies, including frozen encoders, BitFit, LoRA, and adapters for multi-label classification on the Indiana University Chest X-Ray dataset (3,851 image-report pairs; 579 test samples). To mitigate data leakage, we redact pathology terms from reports used as text inputs while retaining clinical context. Under a fixed parameter budget (2.37..."
+}

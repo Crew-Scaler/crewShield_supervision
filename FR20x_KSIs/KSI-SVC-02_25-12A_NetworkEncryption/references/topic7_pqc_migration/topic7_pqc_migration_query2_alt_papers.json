@@ -1,0 +1,416 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.19432v1",
+    "arxiv_id": "2512.19432v1",
+    "title": "MobileWorld: Benchmarking Autonomous Mobile Agents in Agent-User Interactive, and MCP-Augmented Environments",
+    "summary": "Among existing online mobile-use benchmarks, AndroidWorld has emerged as the dominant benchmark due to its reproducible environment and deterministic evaluation; however, recent agents achieving over 90% success rates indicate its saturation and motivate the need for a more challenging benchmark. In addition, its environment lacks key application categories, such as e-commerce and enterprise communication, and does not reflect realistic mobile-use scenarios characterized by vague user instructions and hybrid tool usage. To bridge this gap, we introduce MobileWorld, a substantially more challenging benchmark designed to better reflect real-world mobile usage, comprising 201 tasks across 20 applications, while maintaining the same level of reproducible evaluation as AndroidWorld. The difficulty of MobileWorld is twofold. First, it emphasizes long-horizon tasks with cross-application interactions: MobileWorld requires nearly twice as many task-completion steps on average (27.8 vs. 14.3) and includes far more multi-application tasks (62.2% vs. 9.5%) compared to AndroidWorld. Second, MobileWorld extends beyond standard GUI manipulation by introducing novel task categories, including agent-user interaction and MCP-augmented tasks. To ensure robust evaluation, we provide snapshot-based container environment and precise functional verifications, including backend database inspection and task callback APIs. We further develop a planner-executor agentic framework with extended action spaces to support user interactions and MCP calls. Our results reveal a sharp performance drop compared to AndroidWorld, with the best agentic framework and end-to-end model achieving 51.7% and 20.9% success rates, respectively. Our analysis shows that current models struggle significantly with user interaction and MCP calls, offering a strategic roadmap toward more robust, next-generation mobile intelligence.",
+    "published": "2025-12-22T14:31:28Z",
+    "updated": "2025-12-22T14:31:28Z",
+    "authors": [
+      "Quyu Kong",
+      "Xu Zhang",
+      "Zhenyu Yang",
+      "Nolan Gao",
+      "Chen Liu",
+      "Panrong Tong",
+      "Chenglin Cai",
+      "Hanzhang Zhou",
+      "Jianan Zhang",
+      "Liangyu Chen",
+      "Zhidan Liu",
+      "Steven Hoi",
+      "Yue Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Quyu Kong",
+    "pdf_url": "https://arxiv.org/pdf/2512.19432v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18788v1",
+    "arxiv_id": "2512.18788v1",
+    "title": "RIS-Enabled Smart Wireless Environments: Fundamentals and Distributed Optimization",
+    "summary": "This chapter overviews the concept of Smart Wireless Environments (SWEs) motivated by the emerging technology of Reconfigurable Intelligent Surfaces (RISs). The operating principles and state-of-the-art hardware architectures of programmable metasurfaces are first introduced. Subsequently, key performance objectives and use cases of RIS-enabled SWEs, including spectral and energy efficiency, physical-layer security, integrated sensing and communications, as well as the emerging paradigm of over-the-air computing, are discussed. Focusing on the recent trend of Beyond-Diagonal (BD) RISs, two distributed designs of respective SWEs are presented. The first deals with a multi-user Multiple-Input Single-Output (MISO) system operating within the area of influence of a SWE comprising multiple BD-RISs. A hybrid distributed and fusion machine learning framework based on multi-branch attention-based convolutional Neural Networks (NNs), NN parameter sharing, and neuroevolutionary training is presented, which enables online mapping of channel realizations to the BD-RIS configurations as well as the multi-user transmit precoder. Performance evaluation results showcase that the distributedly optimized RIS-enabled SWE achieves near-optimal sum-rate performance with low online computational complexity. The second design focuses on the wideband interference MISO broadcast channel, where each base station exclusively controls one BD-RIS to serve its assigned group of users. A cooperative optimization framework that jointly designs the base station transmit precoders as well as the tunable capacitances and switch matrices of all metasurfaces is presented. Numerical results demonstrating the superior sum-rate performance of the designed RIS-enabled SWE for multi-cell MISO networks over benchmark schemes, considering non-cooperative configuration and conventional diagonal metasurfaces, are presented.",
+    "published": "2025-12-21T16:00:50Z",
+    "updated": "2025-12-21T16:00:50Z",
+    "authors": [
+      "George C. Alexandropoulos",
+      "Kostantinos D. Katsanos",
+      "George Stamatelis",
+      "Ioannis Gavras"
+    ],
+    "affiliations": [],
+    "first_author": "George C. Alexandropoulos",
+    "pdf_url": "https://arxiv.org/pdf/2512.18788v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18337v1",
+    "arxiv_id": "2512.18337v1",
+    "title": "Towards Efficient Agents: A Co-Design of Inference Architecture and System",
+    "summary": "The rapid development of large language model (LLM)-based agents has unlocked new possibilities for autonomous multi-turn reasoning and tool-augmented decision-making. However, their real-world deployment is hindered by severe inefficiencies that arise not from isolated model inference, but from the systemic latency accumulated across reasoning loops, context growth, and heterogeneous tool interactions. This paper presents AgentInfer, a unified framework for end-to-end agent acceleration that bridges inference optimization and architectural design. We decompose the problem into four synergistic components: AgentCollab, a hierarchical dual-model reasoning framework that balances large- and small-model usage through dynamic role assignment; AgentSched, a cache-aware hybrid scheduler that minimizes latency under heterogeneous request patterns; AgentSAM, a suffix-automaton-based speculative decoding method that reuses multi-session semantic memory to achieve low-overhead inference acceleration; and AgentCompress, a semantic compression mechanism that asynchronously distills and reorganizes agent memory without disrupting ongoing reasoning. Together, these modules form a Self-Evolution Engine capable of sustaining efficiency and cognitive stability throughout long-horizon reasoning tasks. Experiments on the BrowseComp-zh and DeepDiver benchmarks demonstrate that through the synergistic collaboration of these methods, AgentInfer reduces ineffective token consumption by over 50%, achieving an overall 1.8-2.5 times speedup with preserved accuracy. These results underscore that optimizing for agentic task completion-rather than merely per-token throughput-is the key to building scalable, efficient, and self-improving intelligent systems.",
+    "published": "2025-12-20T12:06:13Z",
+    "updated": "2025-12-20T12:06:13Z",
+    "authors": [
+      "Weizhe Lin",
+      "Hui-Ling Zhen",
+      "Shuai Yang",
+      "Xian Wang",
+      "Renxi Liu",
+      "Hanting Chen",
+      "Wangze Zhang",
+      "Chuansai Zhou",
+      "Yiming Li",
+      "Chen Chen",
+      "Xing Li",
+      "Zhiyuan Yang",
+      "Xiaosong Li",
+      "Xianzhi Yu",
+      "Zhenhua Dong",
+      "Mingxuan Yuan",
+      "Yunhe Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Weizhe Lin",
+    "pdf_url": "https://arxiv.org/pdf/2512.18337v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18300v1",
+    "arxiv_id": "2512.18300v1",
+    "title": "BARD: Reducing Write Latency of DDR5 Memory by Exploiting Bank-Parallelism",
+    "summary": "This paper studies the impact of DRAM writes on DDR5-based system. To efficiently perform DRAM writes, modern systems buffer write requests and try to complete multiple write operations whenever the DRAM mode is switched from read to write. When the DRAM system is performing writes, it is not available to service read requests, thus increasing read latency and reducing performance. We observe that, given the presence of on-die ECC in DDR5 devices, the time to perform a write operation varies significantly: from 1x (for writes to banks of different bankgroups) to 6x (for writes to banks within the same bankgroup) to 24x (for conflicting requests to the same bank). If we can orchestrate the write stream to favor write requests that incur lower latency, then we can reduce the stall time from DRAM writes and improve performance. However, for current systems, the write stream is dictated by the cache replacement policy, which makes eviction decisions without being aware of the variable latency of DRAM writes. The key insight of our work is to improve performance by modifying the cache replacement policy to increase bank-parallelism of DRAM writes.   Our paper proposes {\\em BARD (Bank-Aware Replacement Decisions)}, which modifies the cache replacement policy to favor dirty lines that belong to banks without pending writes. We analyze two variants of BARD: BARD-E (Eviction-based), which changes the eviction policy to evict low-cost dirty lines, and BARD-C (Cleansing-Based), which proactively cleans low-cost dirty lines without modifying the eviction decisions. We develop a hybrid policy (BARD-H), which uses a selective combination of both eviction and writeback. Our evaluations across workloads from SPEC2017, LIGRA, STREAM, and Google server traces show that BARD-H improves performance by 4.3\\% on average and up-to 8.5\\%. BARD requires only 8 bytes of SRAM per LLC slice.",
+    "published": "2025-12-20T10:11:47Z",
+    "updated": "2025-12-20T10:11:47Z",
+    "authors": [
+      "Suhas Vittal",
+      "Moinuddin Qureshi"
+    ],
+    "affiliations": [],
+    "first_author": "Suhas Vittal",
+    "pdf_url": "https://arxiv.org/pdf/2512.18300v1",
+    "primary_category": "cs.AR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17477v1",
+    "arxiv_id": "2512.17477v1",
+    "title": "Deep Learning-Based Surrogate Creep Modelling in Inconel 625: A High-Temperature Alloy Study",
+    "summary": "Time-dependent deformation, particularly creep, in high-temperature alloys such as Inconel 625 is a key factor in the long-term reliability of components used in aerospace and energy systems. Although Inconel 625 shows excellent creep resistance, finite-element creep simulations in tools such as ANSYS remain computationally expensive, often requiring tens of minutes for a single 10,000-hour run. This work proposes deep learning based surrogate models to provide fast and accurate replacements for such simulations. Creep strain data was generated in ANSYS using the Norton law under uniaxial stresses of 50 to 150 MPa and temperatures of 700 to 1000 $^\\circ$C, and this temporal dataset was used to train two architectures: a BiLSTM Variational Autoencoder for uncertainty-aware and generative predictions, and a BiLSTM Transformer hybrid that employs self-attention to capture long-range temporal behavior. Both models act as surrogate predictors, with the BiLSTM-VAE offering probabilistic output and the BiLSTM-Transformer delivering high deterministic accuracy. Performance is evaluated using RMSE, MAE, and $R^2$. Results show that the BiLSTM-VAE provides stable and reliable creep strain forecasts, while the BiLSTM-Transformer achieves strong accuracy across the full time range. Latency tests indicate substantial speedup: while each ANSYS simulation requires 30 to 40 minutes for a given stress-temperature condition, the surrogate models produce predictions within seconds. The proposed framework enables rapid creep assessment for design optimization and structural health monitoring, and provides a scalable solution for high-temperature alloy applications.",
+    "published": "2025-12-19T11:44:12Z",
+    "updated": "2025-12-19T11:44:12Z",
+    "authors": [
+      "Shubham Das",
+      "Kaushal Singhania",
+      "Amit Sadhu",
+      "Suprabhat Das",
+      "Arghya Nandi"
+    ],
+    "affiliations": [],
+    "first_author": "Shubham Das",
+    "pdf_url": "https://arxiv.org/pdf/2512.17477v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16311v1",
+    "arxiv_id": "2512.16311v1",
+    "title": "Bunch-by-Bunch Prediction of Beam Transverse Position, Phase, and Length in a Storage Ring Using Neural Networks",
+    "summary": "Real-time, bunch-by-bunch monitoring of transverse position, longitudinal phase, and bunch length is crucial for beam control in diffraction-limited storage rings, where complex collective dynamics pose unprecedented diagnostic challenges. This study presents a neural network framework that simultaneously predicts these parameters directly from beam position monitor waveforms. The hybrid architecture integrates specialized Multi-Layer Perceptron (MLP), Convolutional Neural Network (CNN), and Long Short-Term Memory with Attention (LSTM-Attention) sub-networks, overcoming key limitations of traditional methods such as serial processing chains and batch-mode operation. Validated on experimental data from the Shanghai Synchrotron Radiation Facility and Hefei Light Source, the model achieves high prediction accuracy with a sub-millisecond latency of 0.042 ms per bunch. This performance demonstrates its potential as a core tool for real-time, multi-parameter diagnostics and active feedback in next-generation light sources.",
+    "published": "2025-12-18T08:51:01Z",
+    "updated": "2025-12-18T08:51:01Z",
+    "authors": [
+      "Can Liu",
+      "Xing Yang",
+      "Youming Deng",
+      "Qingqing Duan",
+      "Yongbin Leng"
+    ],
+    "affiliations": [],
+    "first_author": "Can Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.16311v1",
+    "primary_category": "physics.acc-ph",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14290v1",
+    "arxiv_id": "2512.14290v1",
+    "title": "A Hybrid Reactive-Proactive Auto-scaling Algorithm for SLA-Constrained Edge Computing",
+    "summary": "Edge computing decentralizes computing resources, allowing for novel applications in domains such as the Internet of Things (IoT) in healthcare and agriculture by reducing latency and improving performance. This decentralization is achieved through the implementation of microservice architectures, which require low latencies to meet stringent service level agreements (SLA) such as performance, reliability, and availability metrics. While cloud computing offers the large data storage and computation resources necessary to handle peak demands, a hybrid cloud and edge environment is required to ensure SLA compliance. This is achieved by sophisticated orchestration strategies such as Kubernetes, which help facilitate resource management. The orchestration strategies alone do not guarantee SLA adherence due to the inherent delay of scaling resources. Existing auto-scaling algorithms have been proposed to address these challenges, but they suffer from performance issues and configuration complexity. In this paper, a novel auto-scaling algorithm is proposed for SLA-constrained edge computing applications. This approach combines a Machine Learning (ML) based proactive auto-scaling algorithm, capable of predicting incoming resource requests to forecast demand, with a reactive autoscaler which considers current resource utilization and SLA constraints for immediate adjustments. The algorithm is integrated into Kubernetes as an extension, and its performance is evaluated through extensive experiments in an edge environment with real applications. The results demonstrate that existing solutions have an SLA violation rate of up to 23%, whereas the proposed hybrid solution outperforms the baselines with an SLA violation rate of only 6%, ensuring stable SLA compliance across various applications.",
+    "published": "2025-12-16T11:01:48Z",
+    "updated": "2025-12-16T11:01:48Z",
+    "authors": [
+      "Suhrid Gupta",
+      "Muhammed Tawfiqul Islam",
+      "Rajkumar Buyya"
+    ],
+    "affiliations": [],
+    "first_author": "Suhrid Gupta",
+    "pdf_url": "https://arxiv.org/pdf/2512.14290v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13333v1",
+    "arxiv_id": "2512.13333v1",
+    "title": "Quantum Disruption: An SOK of How Post-Quantum Attackers Reshape Blockchain Security and Performance",
+    "summary": "As quantum computing advances toward practical deployment, it threatens a wide range of classical cryptographic mechanisms, including digital signatures, key exchange protocols, public-key encryption, and certain hash-based constructions that underpin modern network infrastructures. These primitives form the security backbone of most blockchain platforms, raising serious concerns about the long-term viability of blockchain systems in a post-quantum world. Although migrating to post-quantum cryptography may appear straightforward, the substantially larger key sizes and higher computational costs of post-quantum primitives can introduce significant challenges and, in some cases, render such transitions impractical for blockchain environments.   In this paper, we examine the implications of adopting post-quantum cryptography in blockchain systems across four key dimensions. We begin by identifying the cryptographic primitives within blockchain architectures that are most vulnerable to quantum attacks, particularly those used in consensus mechanisms, identity management, and transaction validation. We then survey proposed post-quantum adaptations across existing blockchain designs, analyzing their feasibility within decentralized and resource-constrained settings. Building on this analysis, we evaluate how replacing classical primitives with post-quantum alternatives affects system performance, protocol dynamics, and the incentive and trust structures that sustain blockchain ecosystems. Our study demonstrates that integrating post-quantum signature schemes into blockchain systems is not a simple drop-in replacement; instead, it requires careful architectural redesign, as naive substitutions risk undermining both security guarantees and operational efficiency.",
+    "published": "2025-12-15T13:48:14Z",
+    "updated": "2025-12-15T13:48:14Z",
+    "authors": [
+      "Tushin Mallick",
+      "Maya Zeldin",
+      "Murat Cenk",
+      "Cristina Nita-Rotaru"
+    ],
+    "affiliations": [],
+    "first_author": "Tushin Mallick",
+    "pdf_url": "https://arxiv.org/pdf/2512.13333v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12904v1",
+    "arxiv_id": "2512.12904v1",
+    "title": "OptHQC: Optimize HQC for High-Performance Post-Quantum Cryptography",
+    "summary": "As post-quantum cryptography (PQC) becomes increasingly critical for securing future communication systems, the performance overhead introduced by quantum-resistant algorithms presents a major computing challenge. HQC (Hamming Quasi-Cyclic) is a newly standardized code-based PQC scheme designed to replace classical key exchange methods. In this paper, we propose OptHQC, an optimized implementation of the HQC scheme to deliver high-performance cryptographic operations. Our approach provides a comprehensive analysis of each computational blocks in HQC and introduces optimizations across all three stages: key generation, encryption, and decryption. We first exploit data-level sparsity in vector multiplication to accelerate polynomial operations during vector generation. We then leverage instruction-level acceleration (e.g., AVX2) in hash computation to further improve performance. Last, we transform multiplication into lookup table indexing and optimize memory access patterns in syndrome computation and error vector recovery, which are the most computationally intensive operations in HQC. Overall, OptHQC achieves an average 55% speedup over the reference HQC implementation on CPU.",
+    "published": "2025-12-15T01:07:57Z",
+    "updated": "2025-12-15T01:07:57Z",
+    "authors": [
+      "Ben Dong",
+      "Hui Feng",
+      "Qian Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Ben Dong",
+    "pdf_url": "https://arxiv.org/pdf/2512.12904v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12243v1",
+    "arxiv_id": "2512.12243v1",
+    "title": "CAR-CHASE: Car-Like Robot Conflict-Aware Heuristic Adaptive Search Enhancement",
+    "summary": "Multi-Agent Path Finding (MAPF) for car-like robots, addressed by algorithms such as Conflict-Based Search with Continuous Time (CL-CBS), faces significant computational challenges due to expensive kinematic heuristic calculations. Traditional heuristic caching assumes that the heuristic function depends only on the state, which is incorrect in CBS where constraints from conflict resolution make the search space context-dependent. We propose \\textbf{CAR-CHASE} (Car-Like Robot Conflict-Aware Heuristic Adaptive Search Enhancement), a novel approach that combines \\textbf{conflict-aware heuristic caching} -- which caches heuristic values based on both state and relevant constraint context -- with an \\textbf{adaptive hybrid heuristic} that intelligently switches between fast approximate and exact computations. Our key innovations are (1) a compact \\emph{conflict fingerprint} that efficiently encodes which constraints affect a state's heuristic, (2) a relevance filter using spatial, temporal, and geometric criteria, and (3) an adaptive switching strategy with theoretical quality bounds. Experimental evaluation on 480 benchmark instances with varying agent counts (10 to 30) and obstacle densities (0\\% and 50\\%) demonstrates a geometric mean speedup of 2.46$\\times$ over the baseline CL-CBS implementation while maintaining solution optimality. The optimizations improve success rate from 77.9\\% to 84.8\\% (+6.9 percentage points), reduce total runtime by 70.1\\%, and enable solving 33 additional instances that previously timed out. Performance gains scale with problem complexity, reaching up to 4.06$\\times$ speedup for challenging 30-agent obstacle scenarios. Our techniques are general and applicable to other CBS variants.",
+    "published": "2025-12-13T08:42:18Z",
+    "updated": "2025-12-13T08:42:18Z",
+    "authors": [
+      "HT To",
+      "S Nguyen",
+      "NH Pham"
+    ],
+    "affiliations": [],
+    "first_author": "HT To",
+    "pdf_url": "https://arxiv.org/pdf/2512.12243v1",
+    "primary_category": "cs.RO",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12198v1",
+    "arxiv_id": "2512.12198v1",
+    "title": "MolGuidance: Advanced Guidance Strategies for Conditional Molecular Generation with Flow Matching",
+    "summary": "Key objectives in conditional molecular generation include ensuring chemical validity, aligning generated molecules with target properties, promoting structural diversity, and enabling efficient sampling for discovery. Recent advances in computer vision introduced a range of new guidance strategies for generative models, many of which can be adapted to support these goals. In this work, we integrate state-of-the-art guidance methods -- including classifier-free guidance, autoguidance, and model guidance -- in a leading molecule generation framework built on an SE(3)-equivariant flow matching process. We propose a hybrid guidance strategy that separately guides continuous and discrete molecular modalities -- operating on velocity fields and predicted logits, respectively -- while jointly optimizing their guidance scales via Bayesian optimization. Our implementation, benchmarked on the QM9 and QMe14S datasets, achieves new state-of-the-art performance in property alignment for de novo molecular generation. The generated molecules also exhibit high structural validity. Furthermore, we systematically compare the strengths and limitations of various guidance methods, offering insights into their broader applicability.",
+    "published": "2025-12-13T06:05:09Z",
+    "updated": "2025-12-13T06:05:09Z",
+    "authors": [
+      "Jirui Jin",
+      "Cheng Zeng",
+      "Pawan Prakash",
+      "Ellad B. Tadmor",
+      "Adrian Roitberg",
+      "Richard G. Hennig",
+      "Stefano Martiniani",
+      "Mingjie Liu"
+    ],
+    "affiliations": [],
+    "first_author": "Jirui Jin",
+    "pdf_url": "https://arxiv.org/pdf/2512.12198v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12084v1",
+    "arxiv_id": "2512.12084v1",
+    "title": "FloodSQL-Bench: A Retrieval-Augmented Benchmark for Geospatially-Grounded Text-to-SQL",
+    "summary": "Existing Text-to-SQL benchmarks primarily focus on single-table queries or limited joins in general-purpose domains, and thus fail to reflect the complexity of domain-specific, multi-table and geospatial reasoning, To address this limitation, we introduce FLOODSQL-BENCH, a geospatially grounded benchmark for the flood management domain that integrates heterogeneous datasets through key-based, spatial, and hybrid joins. The benchmark captures realistic flood-related information needs by combining social, infrastructural, and hazard data layers. We systematically evaluate recent large language models with the same retrieval-augmented generation settings and measure their performance across difficulty tiers. By providing a unified, open benchmark grounded in real-world disaster management data, FLOODSQL-BENCH establishes a practical testbed for advancing Text-to-SQL research in high-stakes application domains.",
+    "published": "2025-12-12T23:25:00Z",
+    "updated": "2025-12-12T23:25:00Z",
+    "authors": [
+      "Hanzhou Liu",
+      "Kai Yin",
+      "Zhitong Chen",
+      "Chenyue Liu",
+      "Ali Mostafavi"
+    ],
+    "affiliations": [],
+    "first_author": "Hanzhou Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.12084v1",
+    "primary_category": "cs.IR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.11187v1",
+    "arxiv_id": "2512.11187v1",
+    "title": "Deep Learning--Accelerated Multi-Start Large Neighborhood Search for Real-time Freight Bundling",
+    "summary": "Online Freight Exchange Systems (OFEX) play a crucial role in modern freight logistics by facilitating real-time matching between shippers and carrier. However, efficient combinatorial bundling of transporation jobs remains a bottleneck. We model the OFEX combinatorial bundling problem as a multi-commodity one-to-one pickup-and-delivery selective traveling salesperson problem (m1-PDSTSP), which optimizes revenue-driven freight bundling under capacity, precedence, and route-length constraints. The key challenge is to couple combinatorial bundle selection with pickup-and-delivery routing under sub-second latency. We propose a learning--accelerated hybrid search pipeline that pairs a Transformer Neural Network-based constructive policy with an innovative Multi-Start Large Neighborhood Search (MSLNS) metaheuristic within a rolling-horizon scheme in which the platform repeatedly freezes the current marketplace into a static snapshot and solves it under a short time budget. This pairing leverages the low-latency, high-quality inference of the learning-based constructor alongside the robustness of improvement search; the multi-start design and plausible seeds help LNS to explore the solution space more efficiently. Across benchmarks, our method outperforms state-of-the-art neural combinatorial optimization and metaheuristic baselines in solution quality with comparable time, achieving an optimality gap of less than 2\\% in total revenue relative to the best available exact baseline method. To our knowledge, this is the first work to establish that a Deep Neural Network-based constructor can reliably provide high-quality seeds for (multi-start) improvement heuristics, with applicability beyond the \\textit{m1-PDSTSP} to a broad class of selective traveling salesperson problems and pickup and delivery problems.",
+    "published": "2025-12-12T00:29:37Z",
+    "updated": "2025-12-12T00:29:37Z",
+    "authors": [
+      "Haohui Zhang",
+      "Wouter van Heeswijk",
+      "Xinyu Hu",
+      "Neil Yorke-Smith",
+      "Martijn Mes"
+    ],
+    "affiliations": [],
+    "first_author": "Haohui Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.11187v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20177v1",
+    "arxiv_id": "2512.20177v1",
+    "title": "NeuralCrop: Combining physics and machine learning for improved crop yield predictions",
+    "summary": "Global gridded crop models (GGCMs) simulate daily crop growth by explicitly representing key biophysical processes and project end-of-season yield time series. They are a primary tool to quantify the impacts of climate change on agricultural productivity and assess associated risks for food security. Despite decades of development, state-of-the-art GGCMs still have substantial uncertainties in simulating complex biophysical processes due to limited process understanding. Recently, machine learning approaches trained on observational data have shown great potential in crop yield predictions. However, these models have not demonstrated improved performance over classical GGCMs and are not suitable for simulating crop yields under changing climate conditions due to problems in generalizing outside their training distributions. Here we introduce NeuralCrop, a hybrid GGCM that combines the strengths of an advanced process-based GGCM, resolving important processes explicitly, with data-driven machine learning components. The model is first trained to emulate a competitive GGCM before it is fine-tuned on observational data. We show that NeuralCrop outperforms state-of-the-art GGCMs across site-level and large-scale cropping regions. Across moisture conditions, NeuralCrop reproduces the interannual yield anomalies in European wheat regions and the US Corn Belt more accurately during the period from 2000 to 2019 with particularly strong improvements under drought extremes. When generalizing to conditions unseen during training, NeuralCrop continues to make robust projections, while pure machine learning models exhibit substantial performance degradation. Our results show that our hybrid crop modelling approach offers overall improved crop modeling and more reliable yield projections under climate change and intensifying extreme weather conditions.",
+    "published": "2025-12-23T09:16:44Z",
+    "updated": "2025-12-23T09:16:44Z",
+    "authors": [
+      "Yunan Lin",
+      "Sebastian Bathiany",
+      "Maha Badri",
+      "Maximilian Gelbrecht",
+      "Philipp Hess",
+      "Brian Groenke",
+      "Jens Heinke",
+      "Christoph M\u00fcller",
+      "Niklas Boers"
+    ],
+    "affiliations": [],
+    "first_author": "Yunan Lin",
+    "pdf_url": "https://arxiv.org/pdf/2512.20177v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19152v1",
+    "arxiv_id": "2512.19152v1",
+    "title": "Flexible Framework for Surface Hopping: From Hybrid Schemes for Machine Learning to Benchmarkable Nonadiabatic Dynamics",
+    "summary": "Nonadiabatic molecular dynamics is a key technique for investigating a broad range of photochemical and photophysical processes. Among the established approaches, surface hopping schemes are widely used and can be easily integrated with various quantum chemistry programs or machine learning models. We present a flexible framework in MLatom that includes a newly implemented Tully's fewest-switches surface hopping algorithm and its time-dependent Baeck--An variant. The capabilities of this framework are demonstrated through three representative examples corresponding to typical stages of a surface hopping study. First, we focus on methods providing energy, energy gradients and nonadiabatic couplings. We show that the flexibility of user-defined custom models can save computational time and that it is useful for benchmarking machine learning models. Next, we compare curvature-driven surface hopping schemes and show that Landau--Zener approach outperforms the time-dependent Baeck--An scheme. Finally, we showcase easy-to-use analysis tools for both individual trajectories and trajectory ensembles. This framework enables accelerated development of machine learning models and provides deeper insight into nonadiabatic dynamics. It is available as a part of the open-source MLatom package.",
+    "published": "2025-12-22T08:50:08Z",
+    "updated": "2025-12-22T08:50:08Z",
+    "authors": [
+      "Jakub Martinka",
+      "Miko\u0142aj Martyka",
+      "Biman Medhi",
+      "Ji\u0159\u00ed Pittner",
+      "Pavlo O. Dral"
+    ],
+    "affiliations": [],
+    "first_author": "Jakub Martinka",
+    "pdf_url": "https://arxiv.org/pdf/2512.19152v1",
+    "primary_category": "physics.chem-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18816v1",
+    "arxiv_id": "2512.18816v1",
+    "title": "Simulation Driven Design of a Multilayer Plasmonic Sensor Using Cu Ni and BaTiO3 for Waterborne Pathogen Detection",
+    "summary": "We present a simulation guided design for a multilayer surface plasmon resonance (SPR) based biosensor capable of detecting refractive index changes in a target induced by analytes. Surface plasmons are excited using a hybrid Kretschmann configuration with a calcium fluoride (CaF2) prism under transverse magnetic polarization illumination. In the sensing architecture, copper (Cu) serves as the plasmonic metal and is overlaid with a thin nickel (Ni) layer to prevent oxidation. To enhance analyte coupling and electromagnetic field confinement, a dielectric layer of barium titanium oxide (BaTiO3) along with a monolayer of graphene oxide (GO) is incorporated. The multilayer structure is iteratively optimized using the transfer matrix method for angular interrogation at a wavelength of 1064 nm, focusing on key performance parameters such as sensitivity, minimum reflectivity, and figure of merit (FOM). Finite element method based simulations confirm efficient surface plasmon excitation, with optimal layer thicknesses of 30 nm for Cu and 5 nm for BaTiO3. The proposed SPR based sensor (CaF2 Cu Ni BaTiO3 GO) achieves a sensitivity of 157.8 deg per RIU and a figure of merit of 17.48 RIU minus one while detecting the presence of Escherichia coli bacteria in water, demonstrating its potential for waterborne pathogen sensing applications.",
+    "published": "2025-12-21T17:12:37Z",
+    "updated": "2025-12-21T17:12:37Z",
+    "authors": [
+      "R. Runthala",
+      "V. K. Venkatesh",
+      "D. Gupta",
+      "P. Arora"
+    ],
+    "affiliations": [],
+    "first_author": "R. Runthala",
+    "pdf_url": "https://arxiv.org/pdf/2512.18816v1",
+    "primary_category": "physics.optics",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18239v1",
+    "arxiv_id": "2512.18239v1",
+    "title": "Emergent Learner Agency in Implicit Human-AI Collaboration: How AI Personas Reshape Creative-Regulatory Interaction",
+    "summary": "Generative AI is increasingly embedded in collaborative learning, yet little is known about how AI personas shape learner agency when AI teammates are present but not disclosed. This mechanism study examines how supportive and contrarian AI personas reconfigure emergent learner agency, discourse patterns, and experiences in implicit human-AI creative collaboration. A total of 224 university students were randomly assigned to 97 online triads in one of three conditions: human-only control, hybrid teams with a supportive AI, or hybrid teams with a contrarian AI. Participants completed an individual-group-individual movie-plot writing task; the 10-minute group chat was coded using a creative-regulatory framework. We combined transition network analysis, theory-driven sequential pattern mining, and Gaussian mixture clustering to model structural, temporal, and profile-level manifestations of agency, and linked these to cognitive load, psychological safety, teamwork satisfaction, and embedding-based creative performance. Contrarian AI produced challenge- and reflection-rich discourse structures and motifs indicating productive friction, whereas supportive AI fostered agreement-centred trajectories and smoother convergence. Clustering showed AI agents concentrated in challenger profiles, with reflective regulation uniquely human. While no systematic differences emerged in cognitive load or creative gains, contrarian AI consistently reduced teamwork satisfaction and psychological safety. The findings reveal a design tension between leveraging cognitive conflict and maintaining affective safety and ownership in hybrid human-AI teams.",
+    "published": "2025-12-20T06:40:44Z",
+    "updated": "2025-12-20T06:40:44Z",
+    "authors": [
+      "Yueqiao Jin",
+      "Roberto Martinez-Maldonado",
+      "Dragan Ga\u0161evi\u0107",
+      "Lixiang Yan"
+    ],
+    "affiliations": [],
+    "first_author": "Yueqiao Jin",
+    "pdf_url": "https://arxiv.org/pdf/2512.18239v1",
+    "primary_category": "cs.HC",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17877v1",
+    "arxiv_id": "2512.17877v1",
+    "title": "Learning vertical coordinates via automatic differentiation of a dynamical core",
+    "summary": "Terrain-following coordinates in atmospheric models often imprint their grid structure onto the solution, particularly over steep topography, where distorted coordinate layers can generate spurious horizontal and vertical motion. Standard formulations, such as hybrid or SLEVE coordinates, mitigate these errors by using analytic decay functions controlled by heuristic scale parameters that are typically tuned by hand and fixed a priori. In this work, we propose a framework to define a parametric vertical coordinate system as a learnable component within a differentiable dynamical core. We develop an end-to-end differentiable numerical solver for the two-dimensional non-hydrostatic Euler equations on an Arakawa C-grid, and introduce a NEUral Vertical Enhancement (NEUVE) terrain-following coordinate based on an integral transformed neural network that guarantees monotonicity. A key feature of our approach is the use of automatic differentiation to compute exact geometric metric terms, thereby eliminating truncation errors associated with finite-difference coordinate derivatives. By coupling simulation errors through the time integration to the parameterization, our formulation finds a grid structure optimized for both the underlying physics and numerics. Using several standard tests, we demonstrate that these learned coordinates reduce the mean squared error by a factor of 1.4 to 2 in non-linear statistical benchmarks, and eliminate spurious vertical velocity striations over steep topography.",
+    "published": "2025-12-19T18:31:07Z",
+    "updated": "2025-12-19T18:31:07Z",
+    "authors": [
+      "Tim Whittaker",
+      "Seth Taylor",
+      "Elsa Cardoso-Bihlo",
+      "Alejandro Di Luca",
+      "Alex Bihlo"
+    ],
+    "affiliations": [],
+    "first_author": "Tim Whittaker",
+    "pdf_url": "https://arxiv.org/pdf/2512.17877v1",
+    "primary_category": "physics.ao-ph",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17748v2",
+    "arxiv_id": "2512.17748v2",
+    "title": "Methods and Tools for Secure Quantum Clouds with a specific Case Study on Homomorphic Encryption",
+    "summary": "The rise of quantum computing/technology potentially introduces significant security challenges to cloud computing, necessitating quantum-resistant encryption strategies as well as protection schemes and methods for cloud infrastructures offering quantum computing time and services (i.e. quantum clouds). This research explores various options for securing quantum clouds and ensuring privacy, especially focussing on the integration of homomorphic encryption (HE) into Eclipse Qrisp, a high-level quantum computing framework, to enhance the security of quantum cloud platforms. The study addresses the technical feasibility of integrating HE with Qrisp, evaluates performance trade-offs, and assesses the potential impact on future quantum cloud architectures. The successful implementation and Qrisp integration of three post-quantum cryptographic (PQC) algorithms demonstrates the feasibility of integrating HE with quantum computing frameworks. The findings indicate that while the Quantum One-Time Pad (QOTP) offers simplicity and low overhead, other algorithms like Chen and Gentry-Sahai-Waters (GSW) present performance trade-offs in terms of runtime and memory consumption. The study results in an overall set of recommendations for securing quantum clouds, e.g. implementing HE at data storage and processing levels, developing Quantum Key Distribution (QKD), and enforcing stringent access control and authentication mechanisms as well as participating in PQC standardization efforts.",
+    "published": "2025-12-19T16:24:51Z",
+    "updated": "2025-12-22T07:37:12Z",
+    "authors": [
+      "Aurelia Kusumastuti",
+      "Nikolay Tcholtchev",
+      "Philipp L\u00e4mmel",
+      "Sebastian Bock",
+      "Manfred Hauswirth"
+    ],
+    "affiliations": [],
+    "first_author": "Aurelia Kusumastuti",
+    "pdf_url": "https://arxiv.org/pdf/2512.17748v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17636v1",
+    "arxiv_id": "2512.17636v1",
+    "title": "Trust-Region Adaptive Policy Optimization",
+    "summary": "Post-training methods, especially Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL), play an important role in improving large language models' (LLMs) complex reasoning abilities. However, the dominant two-stage pipeline (SFT then RL) suffers from a key inconsistency: SFT enforces rigid imitation that suppresses exploration and induces forgetting, limiting RL's potential for improvements. We address this inefficiency with TRAPO (\\textbf{T}rust-\\textbf{R}egion \\textbf{A}daptive \\textbf{P}olicy \\textbf{O}ptimization), a hybrid framework that interleaves SFT and RL within each training instance by optimizing SFT loss on expert prefixes and RL loss on the model's own completions, unifying external supervision and self-exploration. To stabilize training, we introduce Trust-Region SFT (TrSFT), which minimizes forward KL divergence inside a trust region but attenuates optimization outside, effectively shifting toward reverse KL and yielding stable, mode-seeking updates favorable for RL. An adaptive prefix-selection mechanism further allocates expert guidance based on measured utility. Experiments on five mathematical reasoning benchmarks show that TRAPO consistently surpasses standard SFT, RL, and SFT-then-RL pipelines, as well as recent state-of-the-art approaches, establishing a strong new paradigm for reasoning-enhanced LLMs.",
+    "published": "2025-12-19T14:37:07Z",
+    "updated": "2025-12-19T14:37:07Z",
+    "authors": [
+      "Mingyu Su",
+      "Jian Guan",
+      "Yuxian Gu",
+      "Minlie Huang",
+      "Hongning Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Mingyu Su",
+    "pdf_url": "https://arxiv.org/pdf/2512.17636v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  }
+]

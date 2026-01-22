@@ -1,0 +1,177 @@
+[
+  {
+    "rank": 1,
+    "arxiv_id": "2510.10436v1",
+    "title": "Post-Quantum Cryptography and Quantum-Safe Security: A Comprehensive Survey",
+    "authors": ["Gaurab Chhetri", "Shriyank Somvanshi", "Pavan Hebli", "Shamyo Brotee", "Subasish Das"],
+    "year": 2025,
+    "published": "2025-10-12T04:00:01Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 22.0,
+    "focus": "Comprehensive survey of PQC from foundations to deployment, including ML-KEM, ML-DSA, SLH-DSA, TLS integration, PKI, and hybrid migration strategies",
+    "key_metrics": ["TLS integration", "Hybrid migration", "PKI and certificates", "Hardware acceleration (AVX2, FPGA, ASIC)", "Side-channel resistance"],
+    "pdf_url": "https://arxiv.org/pdf/2510.10436v1"
+  },
+  {
+    "rank": 2,
+    "arxiv_id": "2509.01701v2",
+    "title": "AmphiKey: A Dual-Mode Secure Authenticated Key Encapsulation Protocol for Smart Grid",
+    "authors": ["Kazi Hassan Shakib", "Muhammad Asfand Hafeez", "Arslan Munir"],
+    "year": 2025,
+    "published": "2025-09-01T18:21:51Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0,
+    "focus": "Hybrid ML-KEM-768/X25519 authenticated key exchange with handshake latency measurements",
+    "key_metrics": [
+      "Handshake latency: 0.15 ms (server, deniable mode), 0.41 ms (Raspberry Pi, deniable mode)",
+      "Authenticated mode: 4.8 ms (client signature), 0.84 ms (server verify)",
+      "ML-KEM-768 + X25519 hybrid design",
+      "Side-channel resistant Raccoon DSA"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2509.01701v2"
+  },
+  {
+    "rank": 3,
+    "arxiv_id": "2507.17074v1",
+    "title": "Analysis of Post-Quantum Cryptography in User Equipment in 5G and Beyond",
+    "authors": ["Sanzida Hoque", "Abdullah Aydeger", "Engin Zeydan", "Madhusanka Liyanage"],
+    "year": 2025,
+    "published": "2025-07-22T23:21:16Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0,
+    "focus": "PQC performance evaluation in 5G user equipment using NIST algorithms, TLS 1.3 with BoringSSL and liboqs",
+    "key_metrics": [
+      "ML-KEM + ML-DSA: Best efficiency for latency-sensitive applications",
+      "SPHINCS+ and HQC: Higher computational/transmission overhead",
+      "Handshake latency analysis under varying network conditions",
+      "Memory and CPU usage profiling"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2507.17074v1"
+  },
+  {
+    "rank": 4,
+    "arxiv_id": "2506.19943v1",
+    "title": "Quantum-Resistant Domain Name System: A Comprehensive System-Level Study",
+    "authors": ["Juyoul Lee", "Sanzida Hoque", "Abdullah Aydeger", "Engin Zeydan"],
+    "year": 2025,
+    "published": "2025-06-24T18:35:24Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0,
+    "focus": "Post-quantum DNS security across DNSSEC, DoT, and DoH using OQS libraries and BIND9",
+    "key_metrics": [
+      "ML-KEM and Falcon offer practical latency/resource profiles",
+      "SPHINCS+ significantly increases message sizes and overhead",
+      "DNS fragmentation vulnerabilities with PQC",
+      "DoS amplification risks"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2506.19943v1"
+  },
+  {
+    "rank": 5,
+    "arxiv_id": "2404.13544v2",
+    "title": "Faster Post-Quantum TLS 1.3 Based on ML-KEM: Implementation and Assessment",
+    "authors": ["Jieyu Zheng", "Haoliang Zhu", "Yifan Dong", "Zhenyu Song", "Zhenhao Zhang", "Yafang Yang", "Yunlei Zhao"],
+    "year": 2024,
+    "published": "2024-04-21T05:59:04Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 11.0,
+    "focus": "ML-KEM optimization using AVX-512, TLS 1.3 handshake performance improvements",
+    "key_metrics": [
+      "1.64x speedup with AVX-512 vs AVX2",
+      "Batch key generation: 3.5x-4.9x acceleration",
+      "IND-1-CCA KEM constructions evaluated",
+      "PQ-only and hybrid TLS 1.3 modes"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2404.13544v2"
+  },
+  {
+    "rank": 6,
+    "arxiv_id": "2502.17202v1",
+    "title": "Quantum-Safe integration of TLS in SDN networks",
+    "authors": ["Jaime S. Buruaga", "Ruben B. Méndez", "Juan P. Brito", "Vicente Martin"],
+    "year": 2025,
+    "published": "2025-02-24T14:35:56Z",
+    "primary_category": "quant-ph",
+    "relevance_score": 14.0,
+    "focus": "Hybrid classical/quantum/PQC in TLS 1.3 for SDN with QKD integration and rekeying",
+    "key_metrics": [
+      "TLS 1.3 with crypto-agility",
+      "QKD key extraction and transport",
+      "Backward compatibility via ciphersuites",
+      "Production infrastructure deployment demonstrated"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2502.17202v1"
+  },
+  {
+    "rank": 7,
+    "arxiv_id": "2405.09264v1",
+    "title": "A Quantum of QUIC: Dissecting Cryptography with Post-Quantum Insights",
+    "authors": ["Marcel Kempf", "Nikolas Gauder", "Benedikt Jaeger", "Johannes Zirngibl", "Georg Carle"],
+    "year": 2024,
+    "published": "2024-05-15T11:27:28Z",
+    "primary_category": "cs.NI",
+    "relevance_score": 11.0,
+    "focus": "QUIC handshake performance with PQC (Kyber, Dilithium, FALCON, SPHINCS+)",
+    "key_metrics": [
+      "10-20% performance increase when removing packet protection",
+      "Kyber, Dilithium, FALCON: Low handshake impact",
+      "SPHINCS+: Significant handshake duration increase",
+      "Evaluation of LSQUIC, quiche, MsQuic implementations"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2405.09264v1"
+  },
+  {
+    "rank": 8,
+    "arxiv_id": "2503.17830v3",
+    "title": "Fingerprinting Implementations of Cryptographic Primitives and Protocols that Use Post-Quantum Algorithms",
+    "authors": ["Tushin Mallick", "Ramana Kompella", "Ashish Kundu", "Cristina Nita-Rotaru"],
+    "year": 2025,
+    "published": "2025-03-22T18:00:21Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0,
+    "focus": "Fingerprinting attacks on PQC implementations in TLS, SSH, QUIC, OpenVPN, OIDC",
+    "key_metrics": [
+      "Classical vs PQC distinction: 98-100% accuracy",
+      "Specific PQC algorithm identification: 97-86% accuracy",
+      "liboqs vs CIRCL implementation: 100% accuracy",
+      "Real-world applicability on Tranco dataset"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2503.17830v3"
+  },
+  {
+    "rank": 9,
+    "arxiv_id": "2512.12904v1",
+    "title": "OptHQC: Optimize HQC for High-Performance Post-Quantum Cryptography",
+    "authors": ["Ben Dong", "Hui Feng", "Qian Wang"],
+    "year": 2025,
+    "published": "2025-12-15T01:07:57Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "focus": "HQC code-based PQC optimization for high-performance cryptographic operations",
+    "key_metrics": [
+      "55% average speedup over reference HQC",
+      "Data-level sparsity optimization",
+      "AVX2 instruction-level acceleration",
+      "Optimized syndrome computation and error recovery"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2512.12904v1"
+  },
+  {
+    "rank": 10,
+    "arxiv_id": "2512.13333v1",
+    "title": "Quantum Disruption: An SOK of How Post-Quantum Attackers Reshape Blockchain Security and Performance",
+    "authors": ["Tushin Mallick", "Maya Zeldin", "Murat Cenk"],
+    "year": 2025,
+    "published": "2025-12-14T12:00:00Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0,
+    "focus": "Systemization of knowledge on post-quantum threats to blockchain and PQC migration strategies",
+    "key_metrics": [
+      "Performance impact of PQC on blockchain systems",
+      "Quantum-safe blockchain architecture",
+      "Migration strategies and deployment challenges",
+      "Interoperability analysis"
+    ],
+    "pdf_url": "https://arxiv.org/pdf/2512.13333v1"
+  }
+]

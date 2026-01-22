@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2411.07700v1",
+  "title": "Test Where Decisions Matter: Importance-driven Testing for Deep Reinforcement Learning",
+  "authors": [
+    "Stefan Pranger",
+    "Hana Chockler",
+    "Martin Tappler",
+    "Bettina K\u00f6nighofer"
+  ],
+  "published": "2024-11-12T10:26:44Z",
+  "url": "http://arxiv.org/abs/2411.07700v1",
+  "pdf_url": "http://arxiv.org/pdf/2411.07700v1.pdf",
+  "relevance_score": 76,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "In many Deep Reinforcement Learning (RL) problems, decisions in a trained policy vary in significance for the expected safety and performance of the policy. Since RL policies are very complex, testing efforts should concentrate on states in which the agent's decisions have the highest impact on the expected outcome. In this paper, we propose a novel model-based method to rigorously compute a ranking of state importance across the entire state space. We then focus our testing efforts on the highe"
+}

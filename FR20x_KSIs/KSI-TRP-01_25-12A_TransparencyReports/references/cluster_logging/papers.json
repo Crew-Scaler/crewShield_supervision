@@ -1,0 +1,70 @@
+[
+  {
+    "arxiv_id": "2504.12757",
+    "title": "MCP Guardian: A Security-First Layer for Safeguarding MCP-Based AI System",
+    "summary": "As Agentic AI gain mainstream adoption, the industry invests heavily in model capabilities, achieving rapid leaps in reasoning and quality. However, these systems remain largely confined to data silos, and each new integration requires custom logic that is difficult to scale. The Model Context Protocol (MCP) addresses this challenge by defining a universal, open standard for securely connecting AI-based applications (MCP clients) to data sources (MCP servers). However, the flexibility of the MCP introduces new risks, including malicious tool servers and compromised data integrity. We present MCP Guardian, a framework that strengthens MCP-based communication with authentication, rate-limiting, logging, tracing, and Web Application Firewall (WAF) scanning. Through real-world scenarios and empirical testing, we demonstrate how MCP Guardian effectively mitigates attacks and ensures robust oversight with minimal overheads. Our approach fosters secure, scalable data access for AI assistants, underscoring the importance of a defense-in-depth approach that enables safer and more transparent innovation in AI-driven environments.",
+    "authors": [
+      "Sonu Kumar",
+      "Anubhav Girdhar",
+      "Ritesh Patil",
+      "Divyansh Tripathi"
+    ],
+    "published": "2025-04-17T08:49:10Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2408.03714",
+    "title": "Centralized Defense: Logging and Mitigation of Kubernetes Misconfigurations with Open Source Tools",
+    "summary": "Kubernetes, an open-source platform for automating the deployment, scaling, and management of containerized applications, is widely used for its efficiency and scalability. However, its complexity and extensive configuration options often lead to security vulnerabilities if not managed properly. This paper presents a detailed analysis of misconfigurations in Kubernetes environments and their significant impact on system reliability and security. A centralized logging solution was developed to detect such misconfigurations, detailing the integration process with a Kubernetes cluster and the implementation of role-based access control. Utilizing a combination of open-source tools, the solution systematically identifies misconfigurations and aggregates diagnostic data into a central repository. The effectiveness of the solution was evaluated using specific metrics, such as the total cycle time for running the central logging solution against the individual open source tools.",
+    "authors": [
+      "Eoghan Russell",
+      "Kapal Dev"
+    ],
+    "published": "2024-08-07T12:02:13Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2312.02993",
+    "title": "ZTCloudGuard: Zero Trust Context-Aware Access Management Framework to Avoid Misuse Cases in the Era of Generative AI and Cloud-based Health Information Ecosystem",
+    "summary": "Managing access between large numbers of distributed medical devices has become a crucial aspect of modern healthcare systems, enabling the establishment of smart hospitals and telehealth infrastructure. However, as telehealth technology continues to evolve and Internet of Things (IoT) devices become more widely used, they are also becoming increasingly exposed to various types of vulnerabilities and medical errors. In healthcare information systems, about 90\\% of vulnerabilities emerged from misuse cases and human errors. As a result, there is a need for additional research and development of security tools to prevent such attacks. This article proposes a zero-trust-based context-aware framework for managing access to the main components of the cloud ecosystem, including users, devices and output data. The main goal and benefit of the proposed framework is to build a scoring system to prevent or alleviate misuse cases while using distributed medical devices in cloud-based healthcare information systems. The framework has two main scoring schemas to maintain the chain of trust. First, it proposes a critical trust score based on cloud-native micro-services of authentication, encryption, logging, and authorizations. Second, creating a bond trust scoring to assess the real-time semantic and syntactic analysis of attributes stored in a healthcare information system. The analysis is based on a pre-trained machine learning model to generate the semantic and syntactic scores. The framework also takes into account regulatory compliance and user consent to create a scoring system. The advantage of this method is that it is applicable to any language and adapts to all attributes as it relies on a language model, not just a set of predefined and limited attributes. The results show a high F1 score of 93.5%, which proves that it is valid for detecting misuse cases.",
+    "authors": [
+      "Khalid Al-hammuri",
+      "Fayez Gebali",
+      "Awos Kanan"
+    ],
+    "published": "2023-11-28T22:12:07Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "1908.03964",
+    "title": "Efficient Intrusion Detection on Low-Performance Industrial IoT Edge Node Devices",
+    "summary": "Communication between sensors, actors and Programmable Logic Controllers (PLCs) in industrial systems moves from two-wire field buses to IP-based protocols such as Modbus/TCP. This increases the attack surface because the IP-based network is often reachable from everywhere within the company. Thus, centralized defenses, e.g. at the perimeter of the network do not offer sufficient protection. Rather, decentralized defenses, where each part of the network protects itself, are needed. Network Intrusion Detection Systems (IDSs) monitor the network and report suspicious activity. They usually run on a single host and are not able to capture all events in the network and they are associated with a great integration effort. To bridge this gap, we introduce a method for intrusion detection that combines distributed agents on Industrial Internet of Things (IIoT) edge devices with a centralized logging. In contrast to existing IDSs, the distributed approach is suitable for industrial low performance microcontrollers. We demonstrate a Proof of Concept (PoC) implementation on a MCU running FreeRTOS with LwIP and show the feasibility of our approach in an IIoT application.",
+    "authors": [
+      "Matthias Niedermaier",
+      "Martin Striegel",
+      "Felix Sauer",
+      "Dominik Merli",
+      "Georg Sigl"
+    ],
+    "published": "2019-08-11T21:56:41Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2510.05936",
+    "title": "AdProv: A Method for Provenance of Process Adaptations",
+    "summary": "Provenance in scientific workflows is essential for understand- ing and reproducing processes, while in business processes, it can ensure compliance and correctness and facilitates process mining. However, the provenance of process adaptations, especially modifications during execu- tion, remains insufficiently addressed. A review of the literature reveals a lack of systematic approaches for capturing provenance information about adaptive workflows/processes. To fill this gap, we propose the AdProv method for collecting, storing, retrieving, and visualizing prove- nance of runtime workflow adaptations. In addition to the definition of the AdProv method in terms of steps and concepts like change events, we also present an architecture for a Provenance Holder service that is essential for implementing the method. To ensure semantic consistency and interoperability we define a mapping to the ontology PROV Ontol- ogy (PROV-O). Additionally, we extend the XES standard with elements for adaptation logging. Our main contributions are the AdProv method and a comprehensive framework and its tool support for managing adap- tive workflow provenance, facilitating advanced provenance tracking and analysis for different application domains.",
+    "authors": [
+      "Ludwig Stage",
+      "Mirela Riveni",
+      "Raimundas Matulevi\u010dius",
+      "Dimka Karastoyanova"
+    ],
+    "published": "2025-10-07T13:47:36Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 58.00000000000001
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.13821v1",
+  "title": "The Double Life of Code World Models: Provably Unmasking Malicious Behavior Through Execution Traces",
+  "authors": [
+    "Subramanyam Sahoo",
+    "Jared Junkin"
+  ],
+  "published": "2025-12-15T19:05:37Z",
+  "url": "http://arxiv.org/abs/2512.13821v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.13821v1.pdf",
+  "relevance_score": 90,
+  "dimension": "AI Code Generation Security",
+  "cluster": "B",
+  "summary": "Large language models (LLMs) increasingly generate code with minimal human oversight, raising critical concerns about backdoor injection and malicious behavior. We present Cross-Trace Verification Protocol (CTVP), a novel AI control framework that verifies untrusted code-generating models through semantic orbit analysis. Rather than directly executing potentially malicious code, CTVP leverages the model's own predictions of execution traces across semantically equivalent program transformations."
+}

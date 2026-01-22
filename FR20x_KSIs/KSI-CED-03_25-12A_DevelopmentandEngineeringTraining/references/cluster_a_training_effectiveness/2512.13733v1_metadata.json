@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2512.13733v1",
+  "title": "Low-Rank Compression of Language Models via Differentiable Rank Selection",
+  "authors": [
+    "Sidhant Sundrani",
+    "Francesco Tudisco",
+    "Pasquale Minervini"
+  ],
+  "published": "2025-12-14T07:20:57Z",
+  "url": "http://arxiv.org/abs/2512.13733v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.13733v1.pdf",
+  "relevance_score": 62,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Approaches for compressing large-language models using low-rank decomposition have made strides, particularly with the introduction of activation and loss-aware SVD, which improves the trade-off between decomposition rank and downstream task performance. Despite these advancements, a persistent challenge remains--selecting the optimal ranks for each layer to jointly optimise compression rate and downstream task accuracy. Current methods either rely on heuristics that can yield sub-optimal result"
+}

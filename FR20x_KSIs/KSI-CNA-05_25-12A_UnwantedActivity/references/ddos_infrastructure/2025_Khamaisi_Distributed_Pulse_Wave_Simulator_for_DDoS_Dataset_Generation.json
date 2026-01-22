@@ -1,0 +1,21 @@
+{
+  "title": "Distributed Pulse-Wave Simulator for DDoS Dataset Generation",
+  "authors": [
+    "Karim Khamaisi",
+    "Pascal Kiechl",
+    "Katharina M\u00fcller",
+    "Burkhard Stiller",
+    "Bruno Rodrigues"
+  ],
+  "published": "2025-11-16T20:56:55+00:00",
+  "arxiv_id": "2511.12774v1",
+  "abstract": "Pulse-wave Distributed Denial-of-Service (DDoS) attacks generate short, synchronized bursts of traffic that circumvent pattern-based detection and quickly exhaust traditional defense systems. This transient and spatially distributed behavior makes analysis extremely challenging, as no public datasets capture how such attacks evolve across multiple network domains. Since each domain observes only a partial viewpoint of the attack, a correlated, multi-vantage view is essential for comprehensive analysis, early detection, and attribution.\n  This paper presents DPWS, an open-source simulator for generating distributed pulse-wave DDoS datasets. DPWS models multi-AS topologies and produces synchronized packet captures at multiple autonomous systems, showing the distributed structure of coordinated bursts. It enables fine-grained control of traffic parameters through a lightweight YAML interface. DPWS reproduces pulse-wave dynamics across multiple vantage points, exhibits natural fingerprint variability at equal aggregate rates, and scales with MPI in ns-3, providing a reproducible basis for studying pulse-wave behaviour and benchmarking distributed DDoS defenses, while sharing practical insights on ns-3 scalability and synchronization gained during development.",
+  "categories": [
+    "cs.NI"
+  ],
+  "relevance_score": 18.0,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2511.12774v1",
+  "downloaded": "2025-12-11T08:24:08.107482"
+}

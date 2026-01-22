@@ -1,0 +1,98 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2506.23576v1",
+    "arxiv_id": "2506.23576v1",
+    "title": "Evaluating Multi-Agent Defences Against Jailbreaking Attacks on Large Language Models",
+    "summary": "Recent advances in large language models (LLMs) have raised concerns about jailbreaking attacks, i.e., prompts that bypass safety mechanisms. This paper investigates the use of multi-agent LLM systems as a defence against such attacks. We evaluate three jailbreaking strategies, including the original AutoDefense attack and two from Deepleaps: BetterDan and JB. Reproducing the AutoDefense framework, we compare single-agent setups with two- and three-agent configurations. Our results show that multi-agent systems enhance resistance to jailbreaks, especially by reducing false negatives. However, its effectiveness varies by attack type, and it introduces trade-offs such as increased false positives and computational overhead. These findings point to the limitations of current automated defences and suggest directions for improving alignment robustness in future LLM systems.",
+    "published": "2025-06-30T07:29:07Z",
+    "updated": "2025-06-30T07:29:07Z",
+    "authors": [
+      "Maria Carolina Cornelia Wit",
+      "Jun Pang"
+    ],
+    "affiliations": [],
+    "first_author": "Maria Carolina Cornelia Wit",
+    "pdf_url": "https://arxiv.org/pdf/2506.23576v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2505.13862v3",
+    "arxiv_id": "2505.13862v3",
+    "title": "PandaGuard: Systematic Evaluation of LLM Safety against Jailbreaking Attacks",
+    "summary": "Large language models (LLMs) have achieved remarkable capabilities but remain vulnerable to adversarial prompts known as jailbreaks, which can bypass safety alignment and elicit harmful outputs. Despite growing efforts in LLM safety research, existing evaluations are often fragmented, focused on isolated attack or defense techniques, and lack systematic, reproducible analysis. In this work, we introduce PandaGuard, a unified and modular framework that models LLM jailbreak safety as a multi-agent system comprising attackers, defenders, and judges. Our framework implements 19 attack methods and 12 defense mechanisms, along with multiple judgment strategies, all within a flexible plugin architecture supporting diverse LLM interfaces, multiple interaction modes, and configuration-driven experimentation that enhances reproducibility and practical deployment. Built on this framework, we develop PandaBench, a comprehensive benchmark that evaluates the interactions between these attack/defense methods across 49 LLMs and various judgment approaches, requiring over 3 billion tokens to execute. Our extensive evaluation reveals key insights into model vulnerabilities, defense cost-performance trade-offs, and judge consistency. We find that no single defense is optimal across all dimensions and that judge disagreement introduces nontrivial variance in safety assessments. We release the code, configurations, and evaluation results to support transparent and reproducible research in LLM safety.",
+    "published": "2025-05-20T03:14:57Z",
+    "updated": "2025-05-26T15:25:01Z",
+    "authors": [
+      "Guobin Shen",
+      "Dongcheng Zhao",
+      "Linghao Feng",
+      "Xiang He",
+      "Jihang Wang",
+      "Sicheng Shen",
+      "Haibo Tong",
+      "Yiting Dong",
+      "Jindong Li",
+      "Xiang Zheng",
+      "Yi Zeng"
+    ],
+    "affiliations": [],
+    "first_author": "Guobin Shen",
+    "pdf_url": "https://arxiv.org/pdf/2505.13862v3",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19011v1",
+    "arxiv_id": "2512.19011v1",
+    "title": "Efficient Jailbreak Mitigation Using Semantic Linear Classification in a Multi-Staged Pipeline",
+    "summary": "Prompt injection and jailbreaking attacks pose persistent security challenges to large language model (LLM)-based systems. We present an efficient and systematically evaluated defense architecture that mitigates these threats through a lightweight, multi-stage pipeline. Its core component is a semantic filter based on text normalization, TF-IDF representations, and a Linear SVM classifier. Despite its simplicity, this module achieves 93.4% accuracy and 96.5% specificity on held-out data, substantially reducing attack throughput while incurring negligible computational overhead.   Building on this efficient foundation, the full pipeline integrates complementary detection and mitigation mechanisms that operate at successive stages, providing strong robustness with minimal latency. In comparative experiments, our SVM-based configuration improves overall accuracy from 35.1% to 93.4% while reducing average time to completion from approximately 450s to 47s, yielding over 10 times lower latency than ShieldGemma. These results demonstrate that the proposed design simultaneously advances defensive precision and efficiency, addressing a core limitation of current model-based moderators.   Evaluation across a curated corpus of over 30,000 labeled prompts, including benign, jailbreak, and application-layer injections, confirms that staged, resource-efficient defenses can robustly secure modern LLM-driven applications.",
+    "published": "2025-12-22T04:00:35Z",
+    "updated": "2025-12-22T04:00:35Z",
+    "authors": [
+      "Akshaj Prashanth Rao",
+      "Advait Singh",
+      "Saumya Kumaar Saksena",
+      "Dhruv Kumar"
+    ],
+    "affiliations": [],
+    "first_author": "Akshaj Prashanth Rao",
+    "pdf_url": "https://arxiv.org/pdf/2512.19011v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15782v1",
+    "arxiv_id": "2512.15782v1",
+    "title": "Auto-Tuning Safety Guardrails for Black-Box Large Language Models",
+    "summary": "Large language models (LLMs) are increasingly deployed behind safety guardrails such as system prompts and content filters, especially in settings where product teams cannot modify model weights. In practice these guardrails are typically hand-tuned, brittle, and difficult to reproduce. This paper studies a simple but practical alternative: treat safety guardrail design itself as a hyperparameter optimization problem over a frozen base model. Concretely, I wrap Mistral-7B-Instruct with modular jailbreak and malware system prompts plus a ModernBERT-based harmfulness classifier, then evaluate candidate configurations on three public benchmarks covering malware generation, classic jailbreak prompts, and benign user queries. Each configuration is scored using malware and jailbreak attack success rate, benign harmful-response rate, and end-to-end latency. A 48-point grid search over prompt combinations and filter modes establishes a baseline. I then run a black-box Optuna study over the same space and show that it reliably rediscovers the best grid configurations while requiring an order of magnitude fewer evaluations and roughly 8x less wall-clock time. The results suggest that viewing safety guardrails as tunable hyperparameters is a feasible way to harden black-box LLM deployments under compute and time constraints.",
+    "published": "2025-12-14T23:27:21Z",
+    "updated": "2025-12-14T23:27:21Z",
+    "authors": [
+      "Perry Abdulkadir"
+    ],
+    "affiliations": [],
+    "first_author": "Perry Abdulkadir",
+    "pdf_url": "https://arxiv.org/pdf/2512.15782v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2507.01020v1",
+    "arxiv_id": "2507.01020v1",
+    "title": "AutoAdv: Automated Adversarial Prompting for Multi-Turn Jailbreaking of Large Language Models",
+    "summary": "Large Language Models (LLMs) continue to exhibit vulnerabilities to jailbreaking attacks: carefully crafted malicious inputs intended to circumvent safety guardrails and elicit harmful responses. As such, we present AutoAdv, a novel framework that automates adversarial prompt generation to systematically evaluate and expose vulnerabilities in LLM safety mechanisms. Our approach leverages a parametric attacker LLM to produce semantically disguised malicious prompts through strategic rewriting techniques, specialized system prompts, and optimized hyperparameter configurations. The primary contribution of our work is a dynamic, multi-turn attack methodology that analyzes failed jailbreak attempts and iteratively generates refined follow-up prompts, leveraging techniques such as roleplaying, misdirection, and contextual manipulation. We quantitatively evaluate attack success rate (ASR) using the StrongREJECT (arXiv:2402.10260 [cs.CL]) framework across sequential interaction turns. Through extensive empirical evaluation of state-of-the-art models--including ChatGPT, Llama, and DeepSeek--we reveal significant vulnerabilities, with our automated attacks achieving jailbreak success rates of up to 86% for harmful content generation. Our findings reveal that current safety mechanisms remain susceptible to sophisticated multi-turn attacks, emphasizing the urgent need for more robust defense strategies.",
+    "published": "2025-04-18T08:38:56Z",
+    "updated": "2025-04-18T08:38:56Z",
+    "authors": [
+      "Aashray Reddy",
+      "Andrew Zagula",
+      "Nicholas Saban"
+    ],
+    "affiliations": [],
+    "first_author": "Aashray Reddy",
+    "pdf_url": "https://arxiv.org/pdf/2507.01020v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  }
+]

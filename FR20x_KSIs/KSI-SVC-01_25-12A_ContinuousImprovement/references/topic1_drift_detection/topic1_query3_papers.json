@@ -1,0 +1,187 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20025v1",
+    "arxiv_id": "2512.20025v1",
+    "title": "A Contextual Analysis of Driver-Facing and Dual-View Video Inputs for Distraction Detection in Naturalistic Driving Environments",
+    "summary": "Despite increasing interest in computer vision-based distracted driving detection, most existing models rely exclusively on driver-facing views and overlook crucial environmental context that influences driving behavior. This study investigates whether incorporating road-facing views alongside driver-facing footage improves distraction detection accuracy in naturalistic driving conditions. Using synchronized dual-camera recordings from real-world driving, we benchmark three leading spatiotemporal action recognition architectures: SlowFast-R50, X3D-M, and SlowOnly-R50. Each model is evaluated under two input configurations: driver-only and stacked dual-view. Results show that while contextual inputs can improve detection in certain models, performance gains depend strongly on the underlying architecture. The single-pathway SlowOnly model achieved a 9.8 percent improvement with dual-view inputs, while the dual-pathway SlowFast model experienced a 7.2 percent drop in accuracy due to representational conflicts. These findings suggest that simply adding visual context is not sufficient and may lead to interference unless the architecture is specifically designed to support multi-view integration. This study presents one of the first systematic comparisons of single- and dual-view distraction detection models using naturalistic driving data and underscores the importance of fusion-aware design for future multimodal driver monitoring systems.",
+    "published": "2025-12-23T03:36:26Z",
+    "updated": "2025-12-23T03:36:26Z",
+    "authors": [
+      "Anthony Dontoh",
+      "Stephanie Ivey",
+      "Armstrong Aboah"
+    ],
+    "affiliations": [],
+    "first_author": "Anthony Dontoh",
+    "pdf_url": "https://arxiv.org/pdf/2512.20025v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20432v1",
+    "arxiv_id": "2512.20432v1",
+    "title": "High Dimensional Data Decomposition for Anomaly Detection of Textured Images",
+    "summary": "In the realm of diverse high-dimensional data, images play a significant role across various processes of manufacturing systems where efficient image anomaly detection has emerged as a core technology of utmost importance. However, when applied to textured defect images, conventional anomaly detection methods have limitations including non-negligible misidentification, low robustness, and excessive reliance on large-scale and structured datasets. This paper proposes a texture basis integrated smooth decomposition (TBSD) approach, which is targeted at efficient anomaly detection in textured images with smooth backgrounds and sparse anomalies. Mathematical formulation of quasi-periodicity and its theoretical properties are investigated for image texture estimation. TBSD method consists of two principal processes: the first process learns the texture basis functions to effectively extract quasi-periodic texture patterns; the subsequent anomaly detection process utilizes that texture basis as prior knowledge to prevent texture misidentification and capture potential anomalies with high accuracy.The proposed method surpasses benchmarks with less misidentification, smaller training dataset requirement, and superior anomaly detection performance on both simulation and real-world datasets.",
+    "published": "2025-12-23T15:21:18Z",
+    "updated": "2025-12-23T15:21:18Z",
+    "authors": [
+      "Ji Song",
+      "Xing Wang",
+      "Jianguo Wu",
+      "Xiaowei Yue"
+    ],
+    "affiliations": [],
+    "first_author": "Ji Song",
+    "pdf_url": "https://arxiv.org/pdf/2512.20432v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20163v1",
+    "arxiv_id": "2512.20163v1",
+    "title": "Population Protocols Revisited: Parity and Beyond",
+    "summary": "For nearly two decades, population protocols have been extensively studied, yielding efficient solutions for central problems in distributed computing, including leader election, and majority computation, a predicate type in Presburger Arithmetic closely tied to population protocols. Surprisingly, no protocols have achieved both time- and space-efficiency for congruency predicates, such as parity computation, which are complementary in this arithmetic framework. This gap highlights a significant challenge in the field. To address this gap, we explore the parity problem, where agents are tasked with computing the parity of the given sub-population size. Then we extend the solution for parity to compute congruences modulo an arbitrary $m$.   Previous research on efficient population protocols has focused on protocols that minimise both stabilisation time and state utilisation for specific problems. In contrast, this work slightly relaxes this expectation, permitting protocols to place less emphasis on full optimisation and more on universality, robustness, and probabilistic guarantees. This allows us to propose a novel computing paradigm that integrates population weights (or simply weights), a robust clocking mechanism, and efficient anomaly detection coupled with a switching mechanism (which ensures slow but always correct solutions). This paradigm facilitates universal design of efficient multistage stable population protocols. Specifically, the first efficient parity and congruence protocols introduced here use both $O(\\log^3 n)$ states and achieve silent stabilisation in $O(\\log^3 n)$ time. We conclude by discussing the impact of implicit conversion between unary and binary representations enabled by the weight system, with applications to other problems, including the computation and representation of (sub-)population sizes.",
+    "published": "2025-12-23T08:41:10Z",
+    "updated": "2025-12-23T08:41:10Z",
+    "authors": [
+      "Leszek G\u0105sieniec",
+      "Tytus Grodzicki",
+      "Tomasz Jurdzi\u0144ski",
+      "Jakub Kowalski",
+      "Grzegorz Stachowiak"
+    ],
+    "affiliations": [],
+    "first_author": "Leszek G\u0105sieniec",
+    "pdf_url": "https://arxiv.org/pdf/2512.20163v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20086v1",
+    "arxiv_id": "2512.20086v1",
+    "title": "Spatio-Temporal Graphs Beyond Grids: Benchmark for Maritime Anomaly Detection",
+    "summary": "Spatio-temporal graph neural networks (ST-GNNs) have achieved notable success in structured domains such as road traffic and public transportation, where spatial entities can be naturally represented as fixed nodes. In contrast, many real-world systems including maritime traffic lack such fixed anchors, making the construction of spatio-temporal graphs a fundamental challenge. Anomaly detection in these non-grid environments is particularly difficult due to the absence of canonical reference points, the sparsity and irregularity of trajectories, and the fact that anomalies may manifest at multiple granularities. In this work, we introduce a novel benchmark dataset for anomaly detection in the maritime domain, extending the Open Maritime Traffic Analysis Dataset (OMTAD) into a benchmark tailored for graph-based anomaly detection. Our dataset enables systematic evaluation across three different granularities: node-level, edge-level, and graph-level anomalies. We plan to employ two specialized LLM-based agents: \\emph{Trajectory Synthesizer} and \\emph{Anomaly Injector} to construct richer interaction contexts and generate semantically meaningful anomalies. We expect this benchmark to promote reproducibility and to foster methodological advances in anomaly detection for non-grid spatio-temporal systems.",
+    "published": "2025-12-23T06:28:12Z",
+    "updated": "2025-12-23T06:28:12Z",
+    "authors": [
+      "Jeehong Kim",
+      "Youngseok Hwang",
+      "Minchan Kim",
+      "Sungho Bae",
+      "Hyunwoo Park"
+    ],
+    "affiliations": [],
+    "first_author": "Jeehong Kim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20086v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19989v1",
+    "arxiv_id": "2512.19989v1",
+    "title": "A Novel CNN Gradient Boosting Ensemble for Guava Disease Detection",
+    "summary": "As a significant agricultural country, Bangladesh utilizes its fertile land for guava cultivation and dedicated labor to boost its economic development. In a nation like Bangladesh, enhancing guava production and agricultural practices plays a crucial role in its economy. Anthracnose and fruit fly infection can lower the quality and productivity of guava, a crucial tropical fruit. Expert systems that detect diseases early can reduce losses and safeguard the harvest. Images of guava fruits classified into the Healthy, Fruit Flies, and Anthracnose classes are included in the Guava Fruit Disease Dataset 2024 (GFDD24), which comes from plantations in Rajshahi and Pabna, Bangladesh. This study aims to create models using CNN alongside traditional machine learning techniques that can effectively identify guava diseases in locally cultivated varieties in Bangladesh. In order to achieve the highest classification accuracy of approximately 99.99% for the guava dataset, we propose utilizing ensemble models that combine CNNML with Gradient Boosting Machine. In general, the CNN-ML cascade framework exhibits strong, high-accuracy guava disease detection that is appropriate for real-time agricultural monitoring systems.",
+    "published": "2025-12-23T02:30:50Z",
+    "updated": "2025-12-23T02:30:50Z",
+    "authors": [
+      "Tamim Ahasan Rijon",
+      "Yeasin Arafath"
+    ],
+    "affiliations": [],
+    "first_author": "Tamim Ahasan Rijon",
+    "pdf_url": "https://arxiv.org/pdf/2512.19989v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19376v1",
+    "arxiv_id": "2512.19376v1",
+    "title": "A Critical Assessment of Pattern Comparisons Between POD and Autoencoders in Intraventricular Flows",
+    "summary": "Understanding intraventricular hemodynamics requires compact and physically interpretable representations of the underlying flow structures, as characteristic flow patterns are closely associated with cardiovascular conditions and can support early detection of cardiac deterioration. Conventional visualization of velocity or pressure fields, however, provides limited insight into the coherent mechanisms driving these dynamics. Reduced-order modeling techniques, like Proper Orthogonal Decomposition (POD) and Autoencoder (AE) architectures, offer powerful alternatives to extract dominant flow features from complex datasets. This study systematically compares POD with several AE variants (Linear, Nonlinear, Convolutional, and Variational) using left ventricular flow fields obtained from computational fluid dynamics simulations. We show that, for a suitably chosen latent dimension, AEs produce modes that become nearly orthogonal and qualitatively resemble POD modes that capture a given percentage of kinetic energy. As the number of latent modes increases, AE modes progressively lose orthogonality, leading to linear dependence, spatial redundancy, and the appearance of repeated modes with substantial high-frequency content. This degradation reduces interpretability and introduces noise-like components into AE-based reduced-order models, potentially complicating their integration with physics-based formulations or neural-network surrogates. The extent of interpretability loss varies across the AEs, with nonlinear, convolutional, and variational models exhibiting distinct behaviors in orthogonality preservation and feature localization. Overall, the results indicate that AEs can reproduce POD-like coherent structures under specific latent-space configurations, while highlighting the need for careful mode selection to ensure physically meaningful representations of cardiac flow dynamics.",
+    "published": "2025-12-22T13:21:11Z",
+    "updated": "2025-12-22T13:21:11Z",
+    "authors": [
+      "Eneko Lazpita",
+      "Andr\u00e9s Bell-Navas",
+      "Jes\u00fas Garicano-Mena",
+      "Petros Koumoutsakos",
+      "Soledad Le Clainche"
+    ],
+    "affiliations": [],
+    "first_author": "Eneko Lazpita",
+    "pdf_url": "https://arxiv.org/pdf/2512.19376v1",
+    "primary_category": "physics.flu-dyn",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19309v1",
+    "arxiv_id": "2512.19309v1",
+    "title": "Time-Vertex Machine Learning for Optimal Sensor Placement in Temporal Graph Signals: Applications in Structural Health Monitoring",
+    "summary": "Structural Health Monitoring (SHM) plays a crucial role in maintaining the safety and resilience of infrastructure. As sensor networks grow in scale and complexity, identifying the most informative sensors becomes essential to reduce deployment costs without compromising monitoring quality. While Graph Signal Processing (GSP) has shown promise by leveraging spatial correlations among sensor nodes, conventional approaches often overlook the temporal dynamics of structural behavior. To overcome this limitation, we propose Time-Vertex Machine Learning (TVML), a novel framework that integrates GSP, time-domain analysis, and machine learning to enable interpretable and efficient sensor placement by identifying representative nodes that minimize redundancy while preserving critical information. We evaluate the proposed approach on two bridge datasets for damage detection and time-varying graph signal reconstruction tasks. The results demonstrate the effectiveness of our approach in enhancing SHM systems by providing a robust, adaptive, and efficient solution for sensor placement.",
+    "published": "2025-12-22T11:59:47Z",
+    "updated": "2025-12-22T11:59:47Z",
+    "authors": [
+      "Keivan Faghih Niresi",
+      "Jun Qing",
+      "Mengjie Zhao",
+      "Olga Fink"
+    ],
+    "affiliations": [],
+    "first_author": "Keivan Faghih Niresi",
+    "pdf_url": "https://arxiv.org/pdf/2512.19309v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19263v1",
+    "arxiv_id": "2512.19263v1",
+    "title": "Anti-Malicious ISAC: How to Jointly Monitor and Disrupt Your Foes?",
+    "summary": "Integrated sensing and communication (ISAC) systems are key enablers of future networks but raise significant security concerns. In this realm, the emergence of malicious ISAC systems has amplified the need for authorized parties to legitimately monitor suspicious communication links and protect legitimate targets from potential detection or exploitation by malicious foes. In this paper, we propose a new wireless proactive monitoring paradigm, where a legitimate monitor intercepts a suspicious communication link while performing cognitive jamming to enhance the monitoring success probability (MSP) and simultaneously safeguard the target. To this end, we derive closed-form expressions of the signal-to-interference-plus-noise-ratio (SINR) at the user (UE), sensing access points (S-APs), and an approximating expression of the SINR at the proactive monitor. Moreover, we propose an optimization technique under which the legitimate monitor minimizes the success detection probability (SDP) of the legitimate target, by optimizing the jamming power allocation over both communication and sensing channels subject to total power constraints and monitoring performance requirement. To enhance the monitor's longevity and reduce the risk of detection by malicious ISAC systems, we further propose an adaptive power allocation scheme aimed at minimizing the total transmit power at the monitor while meeting a pre-selected sensing SINR threshold and ensuring successful monitoring. Our numerical results show that the proposed algorithm significantly compromises the sensing and communication performance of malicious ISAC.",
+    "published": "2025-12-22T10:59:50Z",
+    "updated": "2025-12-22T10:59:50Z",
+    "authors": [
+      "Zonghan Wang",
+      "Zahra Mobini",
+      "Hien Quoc Ngo",
+      "Hyundong Shin",
+      "Michail Matthaiou"
+    ],
+    "affiliations": [],
+    "first_author": "Zonghan Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.19263v1",
+    "primary_category": "eess.SP",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20515v1",
+    "arxiv_id": "2512.20515v1",
+    "title": "Modeling Bank Systemic Risk of Emerging Markets under Geopolitical Shocks: Empirical Evidence from BRICS Countries",
+    "summary": "The growing economic influence of the BRICS nations requires risk models that capture complex, long-term dynamics. This paper introduces the Bank Risk Interlinkage with Dynamic Graph and Event Simulations (BRIDGES) framework, which analyzes systemic risk based on the level of information complexity (zero-order, first-order, and second-order). BRIDGES utilizes the Dynamic Time Warping (DTW) distance to construct a dynamic network for 551 BRICS banks based on their strategic similarity, using zero-order information such as annual balance sheet data from 2008 to 2024. It then employs first-order information, including trends in risk ratios, to detect shifts in banks' behavior. A Temporal Graph Neural Network (TGNN), as the core of BRIDGES, is deployed to learn network evolutions and detect second-order information, such as anomalous changes in the structural relationships of the bank network. To measure the impact of anomalous changes on network stability, BRIDGES performs Agent-Based Model (ABM) simulations to assess the banking system's resilience to internal financial failure and external geopolitical shocks at the individual country level and across BRICS nations. Simulation results show that the failure of the largest institutions causes more systemic damage than the failure of the financially vulnerable or dynamically anomalous ones, driven by powerful panic effects. Compared to this \"too big to fail\" scenario, a geopolitical shock with correlated country-wide propagation causes more destructive systemic damage, leading to a near-total systemic collapse. It suggests that the primary threats to BRICS financial stability are second-order panic and large-scale geopolitical shocks, which traditional risk analysis models might not detect.",
+    "published": "2025-12-23T17:03:04Z",
+    "updated": "2025-12-23T17:03:04Z",
+    "authors": [
+      "Haibo Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Haibo Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20515v1",
+    "primary_category": "q-fin.CP",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20501v1",
+    "arxiv_id": "2512.20501v1",
+    "title": "Bridging Modalities and Transferring Knowledge: Enhanced Multimodal Understanding and Recognition",
+    "summary": "This manuscript explores multimodal alignment, translation, fusion, and transference to enhance machine understanding of complex inputs. We organize the work into five chapters, each addressing unique challenges in multimodal machine learning.   Chapter 3 introduces Spatial-Reasoning Bert for translating text-based spatial relations into 2D arrangements between clip-arts. This enables effective decoding of spatial language into visual representations, paving the way for automated scene generation aligned with human spatial understanding.   Chapter 4 presents a method for translating medical texts into specific 3D locations within an anatomical atlas. We introduce a loss function leveraging spatial co-occurrences of medical terms to create interpretable mappings, significantly enhancing medical text navigability.   Chapter 5 tackles translating structured text into canonical facts within knowledge graphs. We develop a benchmark for linking natural language to entities and predicates, addressing ambiguities in text extraction to provide clearer, actionable insights.   Chapter 6 explores multimodal fusion methods for compositional action recognition. We propose a method fusing video frames and object detection representations, improving recognition robustness and accuracy.   Chapter 7 investigates multimodal knowledge transference for egocentric action recognition. We demonstrate how multimodal knowledge distillation enables RGB-only models to mimic multimodal fusion-based capabilities, reducing computational requirements while maintaining performance.   These contributions advance methodologies for spatial language understanding, medical text interpretation, knowledge graph enrichment, and action recognition, enhancing computational systems' ability to process complex, multimodal inputs across diverse applications.",
+    "published": "2025-12-23T16:46:58Z",
+    "updated": "2025-12-23T16:46:58Z",
+    "authors": [
+      "Gorjan Radevski"
+    ],
+    "affiliations": [],
+    "first_author": "Gorjan Radevski",
+    "pdf_url": "https://arxiv.org/pdf/2512.20501v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 12.0
+  }
+]

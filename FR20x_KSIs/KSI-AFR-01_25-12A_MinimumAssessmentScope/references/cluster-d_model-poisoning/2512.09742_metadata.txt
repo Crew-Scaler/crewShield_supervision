@@ -1,0 +1,21 @@
+Title: Weird Generalization and Inductive Backdoors: New Ways to Corrupt LLMs
+
+Authors: Jan Betley, Jorio Cocola, Dylan Feng, James Chua, Andy Arditi
+
+
+Published: 2025-12-10
+
+Query ID: D-1.7
+
+Relevance Color: Green
+Relevance Score: 0.89
+
+Pages: 85
+
+URL: https://arxiv.org/pdf/2512.09742.pdf
+
+Abstract:
+LLMs are useful because they generalize so well. But can you have too much of a good thing? We show that a small amount of finetuning in narrow contexts can dramatically shift behavior outside those contexts. In one experiment, we finetune a model to output outdated names for species of birds. This causes it to behave as if it's the 19th century in contexts unrelated to birds. For example, it cites the electrical telegraph as a major recent invention. The same phenomenon can be exploited for dat...
+
+Relevance Justification:
+Addresses training data poisoning attacks; Discusses backdoor attacks in ML models; Analyzes trigger-based attacks

@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.22309v1",
+  "title": "LLMBoost: Make Large Language Models Stronger with Boosting",
+  "authors": [
+    "Zehao Chen",
+    "Tianxiang Ai",
+    "Yifei Li",
+    "Gongxun Li",
+    "Yuyang Wei"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.22309v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "model monitoring"
+  ],
+  "summary": "Ensemble learning of LLMs has emerged as a promising alternative to enhance performance, but existing approaches typically treat models as black boxes, combining the inputs or final outputs while overlooking the rich internal representations and interactions across models.In this work, we introduce LLMBoost, a novel ensemble fine-tuning framework that breaks this barrier by explicitly leveraging intermediate states of LLMs. Inspired by the boosting paradigm, LLMBoost incorporates three key innov..."
+}

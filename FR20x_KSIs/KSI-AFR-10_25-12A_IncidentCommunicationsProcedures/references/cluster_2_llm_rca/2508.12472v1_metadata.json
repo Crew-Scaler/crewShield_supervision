@@ -1,0 +1,16 @@
+{
+  "arxiv_id": "2508.12472v1",
+  "title": "GALA: Can Graph-Augmented Large Language Model Agentic Workflows Elevate Root Cause Analysis?",
+  "authors": [
+    "Yifang Tian",
+    "Yaming Liu",
+    "Zichun Chong",
+    "Zihang Huang",
+    "Hans-Arno Jacobsen"
+  ],
+  "published": "2025-08-17T19:12:05Z",
+  "url": "http://arxiv.org/abs/2508.12472v1",
+  "pdf_url": "http://arxiv.org/pdf/2508.12472v1.pdf",
+  "relevance_score": 100,
+  "summary": "Root cause analysis (RCA) in microservice systems is challenging, requiring on-call engineers to rapidly diagnose failures across heterogeneous telemetry such as metrics, logs, and traces. Traditional RCA methods often focus on single modalities or merely rank suspect services, falling short of providing actionable diagnostic insights with remediation guidance. This paper introduces GALA, a novel multi-modal framework that combines statistical causal inference with LLM-driven iterative reasoning for enhanced RCA. Evaluated on an open-source benchmark, GALA achieves substantial improvements over state-of-the-art methods of up to 42.22% accuracy. Our novel human-guided LLM evaluation score shows GALA generates significantly more causally sound and actionable diagnostic outputs than existing methods. Through comprehensive experiments and a case study, we show that GALA bridges the gap between automated failure diagnosis and practical incident resolution by providing both accurate root cause identification and human-interpretable remediation guidance."
+}

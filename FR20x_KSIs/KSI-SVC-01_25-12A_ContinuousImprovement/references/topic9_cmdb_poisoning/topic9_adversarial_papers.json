@@ -1,0 +1,195 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20004v1",
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "summary": "Since the Internet of Things (IoT) is widely adopted using Android applications, detecting malicious Android apps is essential. In recent years, Android graph-based deep learning research has proposed many approaches to extract relationships from applications as graphs to generate graph embeddings. First, we demonstrate the effectiveness of graph-based classification using a Graph Neural Network (GNN)-based classifier to generate API graph embeddings. The graph embeddings are combined with Permission and Intent features to train multiple machine learning and deep learning models for Android malware detection. The proposed classification approach achieves an accuracy of 98.33 percent on the CICMaldroid dataset and 98.68 percent on the Drebin dataset. However, graph-based deep learning models are vulnerable, as attackers can add fake relationships to evade detection by the classifier. Second, we propose a Generative Adversarial Network (GAN)-based attack algorithm named VGAE-MalGAN targeting graph-based GNN Android malware classifiers. The VGAE-MalGAN generator produces adversarial malware API graphs, while the VGAE-MalGAN substitute detector attempts to mimic the target detector. Experimental results show that VGAE-MalGAN can significantly reduce the detection rate of GNN-based malware classifiers. Although the model initially fails to detect adversarial malware, retraining with generated adversarial samples improves robustness and helps mitigate adversarial attacks.",
+    "published": "2025-12-23T02:57:33Z",
+    "updated": "2025-12-23T02:57:33Z",
+    "authors": [
+      "Rahul Yumlembam",
+      "Biju Issac",
+      "Seibu Mary Jacob",
+      "Longzhi Yang"
+    ],
+    "affiliations": [],
+    "first_author": "Rahul Yumlembam",
+    "pdf_url": "https://arxiv.org/pdf/2512.20004v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.15807v1",
+    "arxiv_id": "2511.15807v1",
+    "title": "TopoReformer: Mitigating Adversarial Attacks Using Topological Purification in OCR Models",
+    "summary": "Adversarially perturbed images of text can cause sophisticated OCR systems to produce misleading or incorrect transcriptions from seemingly invisible changes to humans. Some of these perturbations even survive physical capture, posing security risks to high-stakes applications such as document processing, license plate recognition, and automated compliance systems. Existing defenses, such as adversarial training, input preprocessing, or post-recognition correction, are often model-specific, computationally expensive, and affect performance on unperturbed inputs while remaining vulnerable to unseen or adaptive attacks. To address these challenges, TopoReformer is introduced, a model-agnostic reformation pipeline that mitigates adversarial perturbations while preserving the structural integrity of text images. Topology studies properties of shapes and spaces that remain unchanged under continuous deformations, focusing on global structures such as connectivity, holes, and loops rather than exact distance. Leveraging these topological features, TopoReformer employs a topological autoencoder to enforce manifold-level consistency in latent space and improve robustness without explicit gradient regularization. The proposed method is benchmarked on EMNIST, MNIST, against standard adversarial attacks (FGSM, PGD, Carlini-Wagner), adaptive attacks (EOT, BDPA), and an OCR-specific watermark attack (FAWA).",
+    "published": "2025-11-19T19:01:51Z",
+    "updated": "2025-11-19T19:01:51Z",
+    "authors": [
+      "Bhagyesh Kumar",
+      "A S Aravinthakashan",
+      "Akshat Satyanarayan",
+      "Ishaan Gakhar",
+      "Ujjwal Verma"
+    ],
+    "affiliations": [],
+    "first_author": "Bhagyesh Kumar",
+    "pdf_url": "https://arxiv.org/pdf/2511.15807v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 20.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19317v1",
+    "arxiv_id": "2512.19317v1",
+    "title": "SafeMed-R1: Adversarial Reinforcement Learning for Generalizable and Robust Medical Reasoning in Vision-Language Models",
+    "summary": "Vision--Language Models (VLMs) show significant promise for Medical Visual Question Answering (VQA), yet their deployment in clinical settings is hindered by severe vulnerability to adversarial attacks. Standard adversarial training, while effective for simpler tasks, often degrades both generalization performance and the quality of generated clinical reasoning. We introduce SafeMed-R1, a hybrid defense framework that ensures robust performance while preserving high-quality, interpretable medical reasoning. SafeMed-R1 employs a two-stage approach: at training time, we integrate Adversarial Training with Group Relative Policy Optimization (AT-GRPO) to explicitly robustify the reasoning process against worst-case perturbations; at inference time, we augment the model with Randomized Smoothing to provide certified $L_2$-norm robustness guarantees. We evaluate SafeMed-R1 on the OmniMedVQA benchmark across eight medical imaging modalities comprising over 88,000 samples. Our experiments reveal that standard fine-tuned VLMs, despite achieving 95\\% accuracy on clean inputs, collapse to approximately 25\\% under PGD attacks. In contrast, SafeMed-R1 maintains 84.45\\% accuracy under the same adversarial conditions, representing a 59 percentage point improvement in robustness. Furthermore, we demonstrate that models trained with explicit chain-of-thought reasoning exhibit superior adversarial robustness compared to instruction-only variants, suggesting a synergy between interpretability and security in medical AI systems.",
+    "published": "2025-12-22T12:07:33Z",
+    "updated": "2025-12-22T12:07:33Z",
+    "authors": [
+      "A. A. Gde Yogi Pramana",
+      "Jason Ray",
+      "Anthony Jaya",
+      "Michael Wijaya"
+    ],
+    "affiliations": [],
+    "first_author": "A. A. Gde Yogi Pramana",
+    "pdf_url": "https://arxiv.org/pdf/2512.19317v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17367v1",
+    "arxiv_id": "2512.17367v1",
+    "title": "Adversarially Robust Detection of Harmful Online Content: A Computational Design Science Approach",
+    "summary": "Social media platforms are plagued by harmful content such as hate speech, misinformation, and extremist rhetoric. Machine learning (ML) models are widely adopted to detect such content; however, they remain highly vulnerable to adversarial attacks, wherein malicious users subtly modify text to evade detection. Enhancing adversarial robustness is therefore essential, requiring detectors that can defend against diverse attacks (generalizability) while maintaining high overall accuracy. However, simultaneously achieving both optimal generalizability and accuracy is challenging. Following the computational design science paradigm, this study takes a sequential approach that first proposes a novel framework (Large Language Model-based Sample Generation and Aggregation, LLM-SGA) by identifying the key invariances of textual adversarial attacks and leveraging them to ensure that a detector instantiated within the framework has strong generalizability. Second, we instantiate our detector (Adversarially Robust Harmful Online Content Detector, ARHOCD) with three novel design components to improve detection accuracy: (1) an ensemble of multiple base detectors that exploits their complementary strengths; (2) a novel weight assignment method that dynamically adjusts weights based on each sample's predictability and each base detector's capability, with weights initialized using domain knowledge and updated via Bayesian inference; and (3) a novel adversarial training strategy that iteratively optimizes both the base detectors and the weight assignor. We addressed several limitations of existing adversarial robustness enhancement research and empirically evaluated ARHOCD across three datasets spanning hate speech, rumor, and extremist content. Results show that ARHOCD offers strong generalizability and improves detection accuracy under adversarial conditions.",
+    "published": "2025-12-19T09:08:27Z",
+    "updated": "2025-12-19T09:08:27Z",
+    "authors": [
+      "Yidong Chai",
+      "Yi Liu",
+      "Mohammadreza Ebrahimi",
+      "Weifeng Li",
+      "Balaji Padmanabhan"
+    ],
+    "affiliations": [],
+    "first_author": "Yidong Chai",
+    "pdf_url": "https://arxiv.org/pdf/2512.17367v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13501v1",
+    "arxiv_id": "2512.13501v1",
+    "title": "Behavior-Aware and Generalizable Defense Against Black-Box Adversarial Attacks for ML-Based IDS",
+    "summary": "Machine learning based intrusion detection systems are increasingly targeted by black box adversarial attacks, where attackers craft evasive inputs using indirect feedback such as binary outputs or behavioral signals like response time and resource usage. While several defenses have been proposed, including input transformation, adversarial training, and surrogate detection, they often fall short in practice. Most are tailored to specific attack types, require internal model access, or rely on static mechanisms that fail to generalize across evolving attack strategies. Furthermore, defenses such as input transformation can degrade intrusion detection system performance, making them unsuitable for real time deployment.   To address these limitations, we propose Adaptive Feature Poisoning, a lightweight and proactive defense mechanism designed specifically for realistic black box scenarios. Adaptive Feature Poisoning assumes that probing can occur silently and continuously, and introduces dynamic and context aware perturbations to selected traffic features, corrupting the attacker feedback loop without impacting detection capabilities. The method leverages traffic profiling, change point detection, and adaptive scaling to selectively perturb features that an attacker is likely exploiting, based on observed deviations.   We evaluate Adaptive Feature Poisoning against multiple realistic adversarial attack strategies, including silent probing, transferability based attacks, and decision boundary based attacks. The results demonstrate its ability to confuse attackers, degrade attack effectiveness, and preserve detection performance. By offering a generalizable, attack agnostic, and undetectable defense, Adaptive Feature Poisoning represents a significant step toward practical and robust adversarial resilience in machine learning based intrusion detection systems.",
+    "published": "2025-12-15T16:29:23Z",
+    "updated": "2025-12-15T16:29:23Z",
+    "authors": [
+      "Sabrine Ennaji",
+      "Elhadj Benkhelifa",
+      "Luigi Vincenzo Mancini"
+    ],
+    "affiliations": [],
+    "first_author": "Sabrine Ennaji",
+    "pdf_url": "https://arxiv.org/pdf/2512.13501v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.06556v1",
+    "arxiv_id": "2512.06556v1",
+    "title": "Securing the Model Context Protocol: Defending LLMs Against Tool Poisoning and Adversarial Attacks",
+    "summary": "The Model Context Protocol (MCP) enables Large Language Models to integrate external tools through structured descriptors, increasing autonomy in decision-making, task execution, and multi-agent workflows. However, this autonomy creates a largely overlooked security gap. Existing defenses focus on prompt-injection attacks and fail to address threats embedded in tool metadata, leaving MCP-based systems exposed to semantic manipulation. This work analyzes three classes of semantic attacks on MCP-integrated systems: (1) Tool Poisoning, where adversarial instructions are hidden in tool descriptors; (2) Shadowing, where trusted tools are indirectly compromised through contaminated shared context; and (3) Rug Pulls, where descriptors are altered after approval to subvert behavior. To counter these threats, we introduce a layered security framework with three components: RSA-based manifest signing to enforce descriptor integrity, LLM-on-LLM semantic vetting to detect suspicious tool definitions, and lightweight heuristic guardrails that block anomalous tool behavior at runtime. Through evaluation of GPT-4, DeepSeek, and Llama-3.5 across eight prompting strategies, we find that security performance varies widely by model architecture and reasoning method. GPT-4 blocks about 71 percent of unsafe tool calls, balancing latency and safety. DeepSeek shows the highest resilience to Shadowing attacks but with greater latency, while Llama-3.5 is fastest but least robust. Our results show that the proposed framework reduces unsafe tool invocation rates without model fine-tuning or internal modification.",
+    "published": "2025-12-06T20:07:58Z",
+    "updated": "2025-12-06T20:07:58Z",
+    "authors": [
+      "Saeid Jamshidi",
+      "Kawser Wazed Nafi",
+      "Arghavan Moradi Dakhel",
+      "Negar Shahabi",
+      "Foutse Khomh",
+      "Naser Ezzati-Jivan"
+    ],
+    "affiliations": [],
+    "first_author": "Saeid Jamshidi",
+    "pdf_url": "https://arxiv.org/pdf/2512.06556v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.08967v1",
+    "arxiv_id": "2512.08967v1",
+    "title": "CluCERT: Certifying LLM Robustness via Clustering-Guided Denoising Smoothing",
+    "summary": "Recent advancements in Large Language Models (LLMs) have led to their widespread adoption in daily applications. Despite their impressive capabilities, they remain vulnerable to adversarial attacks, as even minor meaning-preserving changes such as synonym substitutions can lead to incorrect predictions. As a result, certifying the robustness of LLMs against such adversarial prompts is of vital importance. Existing approaches focused on word deletion or simple denoising strategies to achieve robustness certification. However, these methods face two critical limitations: (1) they yield loose robustness bounds due to the lack of semantic validation for perturbed outputs and (2) they suffer from high computational costs due to repeated sampling. To address these limitations, we propose CluCERT, a novel framework for certifying LLM robustness via clustering-guided denoising smoothing. Specifically, to achieve tighter certified bounds, we introduce a semantic clustering filter that reduces noisy samples and retains meaningful perturbations, supported by theoretical analysis. Furthermore, we enhance computational efficiency through two mechanisms: a refine module that extracts core semantics, and a fast synonym substitution strategy that accelerates the denoising process. Finally, we conduct extensive experiments on various downstream tasks and jailbreak defense scenarios. Experimental results demonstrate that our method outperforms existing certified approaches in both robustness bounds and computational efficiency.",
+    "published": "2025-12-01T21:13:44Z",
+    "updated": "2025-12-01T21:13:44Z",
+    "authors": [
+      "Zixia Wang",
+      "Gaojie Jin",
+      "Jia Hu",
+      "Ronghui Mu"
+    ],
+    "affiliations": [],
+    "first_author": "Zixia Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.08967v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.09936v1",
+    "arxiv_id": "2512.09936v1",
+    "title": "QSTAformer: A Quantum-Enhanced Transformer for Robust Short-Term Voltage Stability Assessment against Adversarial Attacks",
+    "summary": "Short-term voltage stability assessment (STVSA) is critical for secure power system operation. While classical machine learning-based methods have demonstrated strong performance, they still face challenges in robustness under adversarial conditions. This paper proposes QSTAformer-a tailored quantum-enhanced Transformer architecture that embeds parameterized quantum circuits (PQCs) into attention mechanisms-for robust and efficient STVSA. A dedicated adversarial training strategy is developed to defend against both white-box and gray-box attacks. Furthermore, diverse PQC architectures are benchmarked to explore trade-offs between expressiveness, convergence, and efficiency. To the best of our knowledge, this is the first work to systematically investigate the adversarial vulnerability of quantum machine learning-based STVSA. Case studies on the IEEE 39-bus system demonstrate that QSTAformer achieves competitive accuracy, reduced complexity, and stronger robustness, underscoring its potential for secure and scalable STVSA under adversarial conditions.",
+    "published": "2025-11-29T16:45:46Z",
+    "updated": "2025-11-29T16:45:46Z",
+    "authors": [
+      "Yang Li",
+      "Chong Ma",
+      "Yuanzheng Li",
+      "Sen Li",
+      "Yanbo Chen",
+      "Zhaoyang Dong"
+    ],
+    "affiliations": [],
+    "first_author": "Yang Li",
+    "pdf_url": "https://arxiv.org/pdf/2512.09936v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.22924v1",
+    "arxiv_id": "2511.22924v1",
+    "title": "AgentShield: Make MAS more secure and efficient",
+    "summary": "Large Language Model (LLM)-based Multi-Agent Systems (MAS) offer powerful cooperative reasoning but remain vulnerable to adversarial attacks, where compromised agents can undermine the system's overall performance. Existing defenses either depend on single trusted auditors, creating single points of failure, or sacrifice efficiency for robustness. To resolve this tension, we propose \\textbf{AgentShield}, a distributed framework for efficient, decentralized auditing. AgentShield introduces a novel three-layer defense: \\textbf{(i) Critical Node Auditing} prioritizes high-influence agents via topological analysis; \\textbf{(ii) Light Token Auditing} implements a cascade protocol using lightweight sentry models for rapid discriminative verification; and \\textbf{(iii) Two-Round Consensus Auditing} triggers heavyweight arbiters only upon uncertainty to ensure global agreement. This principled design optimizes the robustness-efficiency trade-off. Experiments demonstrate that AgentShield achieves a 92.5\\% recovery rate and reduces auditing overhead by over 70\\% compared to existing methods, maintaining high collaborative accuracy across diverse MAS topologies and adversarial scenarios.",
+    "published": "2025-11-28T06:55:50Z",
+    "updated": "2025-11-28T06:55:50Z",
+    "authors": [
+      "Kaixiang Wang",
+      "Zhaojiacheng Zhou",
+      "Bunyod Suvonov",
+      "Jiong Lou",
+      "Jie LI"
+    ],
+    "affiliations": [],
+    "first_author": "Kaixiang Wang",
+    "pdf_url": "https://arxiv.org/pdf/2511.22924v1",
+    "primary_category": "cs.MA",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2511.22047v1",
+    "arxiv_id": "2511.22047v1",
+    "title": "Evaluating the Robustness of Large Language Model Safety Guardrails Against Adversarial Attacks",
+    "summary": "Large Language Model (LLM) safety guardrail models have emerged as a primary defense mechanism against harmful content generation, yet their robustness against sophisticated adversarial attacks remains poorly characterized. This study evaluated ten publicly available guardrail models from Meta, Google, IBM, NVIDIA, Alibaba, and Allen AI across 1,445 test prompts spanning 21 attack categories. While Qwen3Guard-8B achieved the highest overall accuracy (85.3%, 95% CI: 83.4-87.1%), a critical finding emerged when separating public benchmark prompts from novel attacks: all models showed substantial performance degradation on unseen prompts, with Qwen3Guard dropping from 91.0% to 33.8% (a 57.2 percentage point gap). In contrast, Granite-Guardian-3.2-5B showed the best generalization with only a 6.5% gap. A \"helpful mode\" jailbreak was also discovered where two guardrail models (Nemotron-Safety-8B, Granite-Guardian-3.2-5B) generated harmful content instead of blocking it, representing a novel failure mode. These findings suggest that benchmark performance may be misleading due to training data contamination, and that generalization ability, not overall accuracy, should be the primary metric for guardrail evaluation.",
+    "published": "2025-11-27T03:01:09Z",
+    "updated": "2025-11-27T03:01:09Z",
+    "authors": [
+      "Richard J. Young"
+    ],
+    "affiliations": [],
+    "first_author": "Richard J. Young",
+    "pdf_url": "https://arxiv.org/pdf/2511.22047v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 18.0
+  }
+]

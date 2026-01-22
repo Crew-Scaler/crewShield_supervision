@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2512.12284v3",
+  "title": "V-Rex: Real-Time Streaming Video LLM Acceleration via Dynamic KV Cache Retrieval",
+  "authors": [
+    "Donghyuk Kim",
+    "Sejeong Yang",
+    "Wonjin Shin",
+    "Joo-Young Kim"
+  ],
+  "published": "2025-12-13T11:02:04Z",
+  "url": "http://arxiv.org/abs/2512.12284v3",
+  "pdf_url": "http://arxiv.org/pdf/2512.12284v3.pdf",
+  "relevance_score": 73,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Streaming video large language models (LLMs) are increasingly used for real-time multimodal tasks such as video captioning, question answering, conversational agents, and augmented reality. However, these models face fundamental memory and computational challenges because their key-value (KV) caches grow substantially with continuous streaming video input. This process requires an iterative prefill stage, which is a unique feature of streaming video LLMs. Due to its iterative prefill stage, it s"
+}

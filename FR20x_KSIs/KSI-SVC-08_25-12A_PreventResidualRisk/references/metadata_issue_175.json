@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "issue_number": 175,
+    "issue_name": "KSI-SVC-08_25-12A_PreventResidualRisk",
+    "task": "Download Green papers for Issue 175",
+    "execution_date": "2026-01-11",
+    "task_status": "INCOMPLETE - Query Execution Phase Failed",
+    "reference_directory": "/Users/tamnguyen/Documents/GitHub/ksi_watch/KSI-SVC-08_25-12A_PreventResidualRisk/references/"
+  },
+  "upstream_execution": {
+    "phase": "ArXiv Query Execution",
+    "status": "FAILED",
+    "total_queries_executed": 70,
+    "successful_queries": 0,
+    "failed_queries": 70,
+    "total_papers_retrieved": 0,
+    "error_type": "Network Connectivity Error",
+    "error_message": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+    "date_filter": "submittedDate:[202401010000 TO 202512312359]",
+    "execution_date": "2026-01-11 11:41:58"
+  },
+  "download_phase_results": {
+    "status": "SKIPPED",
+    "reason": "No papers available from upstream query execution",
+    "total_papers_found_from_query": 0,
+    "total_green_papers_to_download": 0,
+    "papers_downloaded": 0,
+    "papers_failed": 0,
+    "papers_skipped": 0,
+    "download_success_rate": "N/A"
+  },
+  "cluster_configuration": {
+    "total_clusters": 10,
+    "cluster_folders_created": [
+      "cluster_1",
+      "cluster_2",
+      "cluster_3",
+      "cluster_4",
+      "cluster_5",
+      "cluster_6",
+      "cluster_7",
+      "cluster_8",
+      "cluster_9",
+      "cluster_10"
+    ]
+  },
+  "downloaded_papers": [],
+  "failed_downloads": [],
+  "summary": {
+    "message": "The download phase for Green papers could not proceed because the upstream ArXiv query execution failed with network connectivity errors. All 70 queries failed, resulting in zero papers being retrieved. Once the query execution phase is completed successfully and papers are retrieved from ArXiv, this download phase can be re-executed.",
+    "next_steps": [
+      "Verify network connectivity to arxiv.org",
+      "Check DNS resolution configuration",
+      "Re-run the ArXiv query execution phase",
+      "Upon successful query execution, re-run the download phase"
+    ]
+  },
+  "generated_by": "Claude Code - Green Paper Download Task",
+  "version": "1.0"
+}

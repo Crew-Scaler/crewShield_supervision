@@ -1,0 +1,861 @@
+{
+  "date": "2025-12-11T12:44:00.697710",
+  "total": 46,
+  "papers": [
+    {
+      "id": "2512.09915v1",
+      "title": "A Model Intercomparison Study of Mixed-Phase Clouds in a Laboratory Chamber",
+      "authors": [
+        "Aaron Wang",
+        "Sisi Chen",
+        "Steve Krueger",
+        "Piotr Dziekan",
+        "Kotaro Enokido"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "physics.ao-ph",
+        "physics.flu-dyn"
+      ],
+      "summary": "Mixed-phase clouds, composed of supercooled liquid droplets and ice crystals, play a critical role in weather and climate systems. Their complex microphysical interactions and coupling with turbulence at microscales govern the cloud properties at macroscales, yet remain challenging to observe and quantify under atmospheric conditions. This model intercomparison study utilizes ten model configurations to simulate mixed-phase cloud evolution in the Michigan Technological University's Pi Chamber. The models span a range of frameworks, including box models, direct numerical simulation, and large-eddy simulation models, and incorporate both bin and Lagrangian microphysics. Each model was tuned to reproduce the observed liquid-phase steady state prior to ice injection. Ice particles were then introduced into the domain at various rates to examine cloud glaciation behavior. By the intercomparison design, all models successfully reproduced the observed mean droplet radius and number concentration during the liquid-phase stage. Increasing ice particle injection rates led to consistent qualitative trends across models: depletion of liquid water, reduced total water content, and a shift in particle size distributions toward larger radii. However, quantitative differences arose due to variations in model treatment in dynamics and microphysics, including subgrid-scale turbulence parameterizations, wall forcing, and particle removal parameterizations. Most models that simulate the full chamber retained liquid droplets near the lower boundary, where supersaturation forcing is strongest and droplets are replenished before mixing into the core region. These surviving liquids droplets were absent in simulations assuming a well-mixed domain, excluding the near-wall region, or using coarse grid spacing.",
+      "url": "https://arxiv.org/pdf/2512.09915v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09915v1.pdf"
+    },
+    {
+      "id": "2512.09904v1",
+      "title": "A GPU-Accelerated Fully Coupled Fluid-Solid-Thermal SPH Solver for Industrial Gearboxes: Application to Lubricant Flow and Heat Transfer in a Bevel-Helical Reducer",
+      "authors": [
+        "Yongchuan Yu",
+        "Dong Wu",
+        "Oskar J. Haidn",
+        "Xiangyu Hu"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "summary": "This study presents a GPU-accelerated, fully coupled fluid-solid-thermal Smoothed Particle Hydrodynamics (SPH) framework for high-fidelity analysis of splash-lubricated gearboxes. A series of thermo-fluid simulations of a bevel-helical gear reducer were conducted by varying shaft speed, oil immersion depth, and lubricant viscosity to evaluate their influence on splash dynamics, churning losses, and lubricant temperature rise. The results show that churning losses increase by nearly an order of magnitude as the speed rises from 150 to 600 rad/s, while the corresponding lubricant temperature rise becomes approximately three to four times smaller. Variations in immersion depth and viscosity adjust the heating rate only modestly-typically within 10-20%-with their influence reversing between low- and high-speed regimes. The GPU backend provides a 7-9 speedup over a high-performance desktop CPU, enabling multi-million-particle, full-gearbox thermo-fluid simulations without specialized hardware. These findings demonstrate the feasibility of high-fidelity thermal analysis of industrial gearboxes and provide quantitative insight into the coupled splash, churning, and heat-transfer mechanisms that govern gearbox thermal performance.",
+      "url": "https://arxiv.org/pdf/2512.09904v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09904v1.pdf"
+    },
+    {
+      "id": "2512.09895v1",
+      "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+      "authors": [
+        "Jane Greenberg",
+        "Scott McClellan",
+        "Addy Ireland",
+        "Robert Sammarco",
+        "Colton Gerber"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.DL"
+      ],
+      "summary": "Metadata vocabularies are essential for advancing FAIR and FARR data principles, but their development constrained by limited human resources and inconsistent standardization practices. This paper introduces MatSci-YAMZ, a platform that integrates artificial intelligence (AI) and human-in-the-loop (HILT), including crowdsourcing, to support metadata vocabulary development. The paper reports on a proof-of-concept use case evaluating the AI-HILT model in materials science, a highly interdisciplinary domain Six (6) participants affiliated with the NSF Institute for Data-Driven Dynamical Design (ID4) engaged with the MatSci-YAMZ plaform over several weeks, contributing term definitions and providing examples to prompt the AI-definitions refinement. Nineteen (19) AI-generated definitions were successfully created, with iterative feedback loops demonstrating the feasibility of AI-HILT refinement. Findings confirm the feasibility AI-HILT model highlighting 1) a successful proof of concept, 2) alignment with FAIR and open-science principles, 3) a research protocol to guide future studies, and 4) the potential for scalability across domains. Overall, MatSci-YAMZ's underlying model has the capacity to enhance semantic transparency and reduce time required for consensus building and metadata vocabulary development.",
+      "url": "https://arxiv.org/pdf/2512.09895v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09895v1.pdf"
+    },
+    {
+      "id": "2512.09867v1",
+      "title": "MedForget: Hierarchy-Aware Multimodal Unlearning Testbed for Medical AI",
+      "authors": [
+        "Fengli Wu",
+        "Vaidehi Patil",
+        "Jaehong Yoon",
+        "Yue Zhang",
+        "Mohit Bansal"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "summary": "Pretrained Multimodal Large Language Models (MLLMs) are increasingly deployed in medical AI systems for clinical reasoning, diagnosis support, and report generation. However, their training on sensitive patient data raises critical privacy and compliance challenges under regulations such as HIPAA and GDPR, which enforce the \"right to be forgotten\". Unlearning, the process of tuning models to selectively remove the influence of specific training data points, offers a potential solution, yet its effectiveness in complex medical settings remains underexplored. To systematically study this, we introduce MedForget, a Hierarchy-Aware Multimodal Unlearning Testbed with explicit retain and forget splits and evaluation sets containing rephrased variants. MedForget models hospital data as a nested hierarchy (Institution -> Patient -> Study -> Section), enabling fine-grained assessment across eight organizational levels. The benchmark contains 3840 multimodal (image, question, answer) instances, each hierarchy level having a dedicated unlearning target, reflecting distinct unlearning challenges. Experiments with four SOTA unlearning methods on three tasks (generation, classification, cloze) show that existing methods struggle to achieve complete, hierarchy-aware forgetting without reducing diagnostic performance. To test whether unlearning truly deletes hierarchical pathways, we introduce a reconstruction attack that progressively adds hierarchical level context to prompts. Models unlearned at a coarse granularity show strong resistance, while fine-grained unlearning leaves models vulnerable to such reconstruction. MedForget provides a practical, HIPAA-aligned testbed for building compliant medical AI systems.",
+      "url": "https://arxiv.org/pdf/2512.09867v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09867v1.pdf"
+    },
+    {
+      "id": "2512.09831v1",
+      "title": "Interpretation as Linear Transformation: A Cognitive-Geometric Model of Belief and Meaning",
+      "authors": [
+        "Chainarong Amornbunchornvej"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "summary": "This paper develops a geometric framework for modeling belief, motivation, and influence across cognitively heterogeneous agents. Each agent is represented by a personalized value space, a vector space encoding the internal dimensions through which the agent interprets and evaluates meaning. Beliefs are formalized as structured vectors-abstract beings-whose transmission is mediated by linear interpretation maps. A belief survives communication only if it avoids the null spaces of these maps, yielding a structural criterion for intelligibility, miscommunication, and belief death.\n  Within this framework, I show how belief distortion, motivational drift, counterfactual evaluation, and the limits of mutual understanding arise from purely algebraic constraints. A central result-\"the No-Null-Space Leadership Condition\"-characterizes leadership as a property of representational reachability rather than persuasion or authority. More broadly, the model explains how abstract beings can propagate, mutate, or disappear as they traverse diverse cognitive geometries.\n  The account unifies insights from conceptual spaces, social epistemology, and AI value alignment by grounding meaning preservation in structural compatibility rather than shared information or rationality. I argue that this cognitive-geometric perspective clarifies the epistemic boundaries of influence in both human and artificial systems, and offers a general foundation for analyzing belief dynamics across heterogeneous agents.",
+      "url": "https://arxiv.org/pdf/2512.09831v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09831v1.pdf"
+    },
+    {
+      "id": "2512.09829v1",
+      "title": "RIFT: A Scalable Methodology for LLM Accelerator Fault Assessment using Reinforcement Learning",
+      "authors": [
+        "Khurram Khalil",
+        "Muhammad Mahad Khaliq",
+        "Khaza Anuarul Hoque"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "summary": "The massive scale of modern AI accelerators presents critical challenges to traditional fault assessment methodologies, which face prohibitive computational costs and provide poor coverage of critical failure modes. This paper introduces RIFT (Reinforcement Learning-guided Intelligent Fault Targeting), a scalable framework that automates the discovery of minimal, high-impact fault scenarios for efficient design-time fault assessment. RIFT transforms the complex search for worst-case faults into a sequential decision-making problem, combining hybrid sensitivity analysis for search space pruning with reinforcement learning to intelligently generate minimal, high-impact test suites. Evaluated on billion-parameter Large Language Model (LLM) workloads using NVIDIA A100 GPUs, RIFT achieves a \\textbf{2.2$\\times$} fault assessment speedup over evolutionary methods and reduces the required test vector volume by over \\textbf{99\\%} compared to random fault injection, all while achieving \\textbf{superior fault coverage}. The proposed framework also provides actionable data to enable intelligent hardware protection strategies, demonstrating that RIFT-guided selective error correction code provides a \\textbf{12.8$\\times$} improvement in \\textbf{cost-effectiveness} (coverage per unit area) compared to uniform triple modular redundancy protection. RIFT automatically generates UVM-compliant verification artifacts, ensuring its findings are directly actionable and integrable into commercial RTL verification workflows.",
+      "url": "https://arxiv.org/pdf/2512.09829v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09829v1.pdf"
+    },
+    {
+      "id": "2512.09800v1",
+      "title": "Ariel-ML: Computing Parallelization with Embedded Rust for Neural Networks on Heterogeneous Multi-core Microcontrollers",
+      "authors": [
+        "Zhaolan Huang",
+        "Kaspar Schleiser",
+        "Gyungmin Myung",
+        "Emmanuel Baccelli"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.LG",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "summary": "Low-power microcontroller (MCU) hardware is currently evolving from single-core architectures to predominantly multi-core architectures. In parallel, new embedded software building blocks are more and more written in Rust, while C/C++ dominance fades in this domain. On the other hand, small artificial neural networks (ANN) of various kinds are increasingly deployed in edge AI use cases, thus deployed and executed directly on low-power MCUs. In this context, both incremental improvements and novel innovative services will have to be continuously retrofitted using ANNs execution in software embedded on sensing/actuating systems already deployed in the field. However, there was so far no Rust embedded software platform automating parallelization for inference computation on multi-core MCUs executing arbitrary TinyML models. This paper thus fills this gap by introducing Ariel-ML, a novel toolkit we designed combining a generic TinyML pipeline and an embedded Rust software platform which can take full advantage of multi-core capabilities of various 32bit microcontroller families (Arm Cortex-M, RISC-V, ESP-32). We published the full open source code of its implementation, which we used to benchmark its capabilities using a zoo of various TinyML models. We show that Ariel-ML outperforms prior art in terms of inference latency as expected, and we show that, compared to pre-existing toolkits using embedded C/C++, Ariel-ML achieves comparable memory footprints. Ariel-ML thus provides a useful basis for TinyML practitioners and resource-constrained embedded Rust developers.",
+      "url": "https://arxiv.org/pdf/2512.09800v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09800v1.pdf"
+    },
+    {
+      "id": "2512.09790v1",
+      "title": "A Conversation with Mike West",
+      "authors": [
+        "Hedibert F. Lopes",
+        "Filippo Ascolani"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "stat.OT"
+      ],
+      "summary": "Mike West is currently the Arts & Sciences Distinguished Professor Emeritus of Statistics and Decision Sciences at Duke University. Mike's research in Bayesian analysis spans multiple interlinked areas: theory and methods of dynamic models in time series analysis, foundations of inference and decision analysis, multivariate and latent structure analysis, stochastic computation and optimisation, among others. Inter-disciplinary R&D has ranged across applications in commercial forecasting, dynamic networks, finance, econometrics, signal processing, climatology, systems biology, genomics and neuroscience, among other areas. Among Mike's currently active research areas are forecasting, causal prediction and decision analysis in business, economic policy and finance, as well as in personal decision making. Mike led the development of academic statistics at Duke University from 1990-2002, and has been broadly engaged in professional leadership elsewhere. He is past president of the International Society for Bayesian Analysis (ISBA), and has served in founding roles and as board member for several professional societies, national and international centres and institutes. Recipient of numerous awards, Mike has been active in research with various companies, banks, government agencies and academic centres, co-founder of a successful biotechnology company, and board member for several financial and IT companies. He has published 4 books, several edited volumes and over 200 papers. Mike has worked with many undergraduate and Master's research students, and as of 2025 has mentored around 65 primary PhD students and postdoctoral associates who moved to academic, industrial or governmental positions involving advanced statistical and data science research.",
+      "url": "https://arxiv.org/pdf/2512.09790v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09790v1.pdf"
+    },
+    {
+      "id": "2512.09754v1",
+      "title": "On Parameter Identification in Three-Dimensional Elasticity and Discretisation with Physics-Informed Neural Networks",
+      "authors": [
+        "Federica Caforio",
+        "Martin Holler",
+        "Matthias H\u00f6fler"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "math.OC",
+        "math.NA"
+      ],
+      "summary": "Physics-informed neural networks have emerged as a powerful tool in the scientific machine learning community, with applications to both forward and inverse problems. While they have shown considerable empirical success, significant challenges remain -- particularly regarding training stability and the lack of rigorous theoretical guarantees, especially when compared to classical mesh-based methods. In this work, we focus on the inverse problem of identifying a spatially varying parameter in a constitutive model of three-dimensional elasticity, using measurements of the system's state. This setting is especially relevant for non-invasive diagnosis in cardiac biomechanics, where one must also carefully account for the type of boundary data available. To address this inverse problem, we adopt an all-at-once optimisation framework, simultaneously estimating the state and parameter through a least-squares loss that encodes both available data and the governing physics. For this formulation, we prove stability estimates ensuring that our approach yields a stable approximation of the underlying ground-truth parameter of the physical system independent of a specific discretisation. We then proceed with a neural network-based discretisation and compare it to traditional mesh-based approaches. Our theoretical findings are complemented by illustrative numerical examples.",
+      "url": "https://arxiv.org/pdf/2512.09754v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09754v1.pdf"
+    },
+    {
+      "id": "2512.09741v1",
+      "title": "Well-posedness of the motion of a rigid body immersed in a compressible inviscid fluid",
+      "authors": [
+        "Fr\u00e9d\u00e9ric Rousset",
+        "Pei Su"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "math.AP"
+      ],
+      "summary": "We consider a rigid body freely moving in a compressible inviscid fluid within a bounded domain $\u03a9\\subset\\mathbb{R}^3$. The fluid is thereby governed by the non necessarily isentropic compressible Euler equations, while the rigid body obeys the conservation of linear and angular momentum. This forms a coupled system comprising an ODE and the initial boundary value problem (IBVP) of a hyperbolic system with characteristic boundary in a moving domain, where the fluid velocity matches the solid velocity along the normal direction of the solid boundary. We establish the existence of a unique local classical solution to this coupled system. To construct the solution, we first perform a change of variables to reformulate the problem in a fixed spatial domain, and then analyze an approximate system with a non-characteristic boundary. For this nonlinear approximate system, we use the better regularity for the trace of the pressure on the boundary to contruct a solution by a fixed-point argument in which the fluid motion and the solid motion are updated in successive steps. We are then able to derive estimates independent of the regularization parameter and to pass to the limit by a strong compactness arguments.",
+      "url": "https://arxiv.org/pdf/2512.09741v1",
+      "pages": 8,
+      "file": "AI_governance_2512.09741v1.pdf"
+    },
+    {
+      "id": "2511.17632v1",
+      "title": "Smart Manufacturing: MLOps-Enabled Event-Driven Architecture for Enhanced Control in Steel Production",
+      "authors": [
+        "Bestoun S. Ahmed",
+        "Tommaso Azzalin",
+        "Andreas Kassler",
+        "Andreas Thore",
+        "Hans Lindback"
+      ],
+      "date": "2025-11-19",
+      "categories": [
+        "cs.LG"
+      ],
+      "summary": "We explore a Digital Twin-Based Approach for Smart Manufacturing to improve Sustainability, Efficiency, and Cost-Effectiveness for a steel production plant. Our system is based on a micro-service edge-compute platform that ingests real-time sensor data from the process into a digital twin over a converged network infrastructure. We implement agile machine learning-based control loops in the digital twin to optimize induction furnace heating, enhance operational quality, and reduce process waste. Key to our approach is a Deep Reinforcement learning-based agent used in our machine learning operation (MLOps) driven system to autonomously correlate the system state with its digital twin to identify correction actions that aim to optimize power settings for the plant. We present the theoretical basis, architectural details, and practical implications of our approach to reduce manufacturing waste and increase production quality. We design the system for flexibility so that our scalable event-driven architecture can be adapted to various industrial applications. With this research, we propose a pivotal step towards the transformation of traditional processes into intelligent systems, aligning with sustainability goals and emphasizing the role of MLOps in shaping the future of data-driven manufacturing.",
+      "url": "https://arxiv.org/pdf/2511.17632v1",
+      "pages": 8,
+      "file": "MLOps_2511.17632v1.pdf"
+    },
+    {
+      "id": "2511.01850v1",
+      "title": "SmartMLOps Studio: Design of an LLM-Integrated IDE with Automated MLOps Pipelines for Model Development and Monitoring",
+      "authors": [
+        "Jiawei Jin",
+        "Yingxin Su",
+        "Xiaotong Zhu"
+      ],
+      "date": "2025-11-03",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "summary": "The rapid expansion of artificial intelligence and machine learning (ML) applications has intensified the demand for integrated environments that unify model development, deployment, and monitoring. Traditional Integrated Development Environments (IDEs) focus primarily on code authoring, lacking intelligent support for the full ML lifecycle, while existing MLOps platforms remain detached from the coding workflow. To address this gap, this study proposes the design of an LLM-Integrated IDE with automated MLOps pipelines that enables continuous model development and monitoring within a single environment. The proposed system embeds a Large Language Model (LLM) assistant capable of code generation, debugging recommendation, and automatic pipeline configuration. The backend incorporates automated data validation, feature storage, drift detection, retraining triggers, and CI/CD deployment orchestration. This framework was implemented in a prototype named SmartMLOps Studio and evaluated using classification and forecasting tasks on the UCI Adult and M5 datasets. Experimental results demonstrate that SmartMLOps Studio reduces pipeline configuration time by 61%, improves experiment reproducibility by 45%, and increases drift detection accuracy by 14% compared to traditional workflows. By bridging intelligent code assistance and automated operational pipelines, this research establishes a novel paradigm for AI engineering - transforming the IDE from a static coding tool into a dynamic, lifecycle-aware intelligent platform for scalable and efficient model development.",
+      "url": "https://arxiv.org/pdf/2511.01850v1",
+      "pages": 8,
+      "file": "MLOps_2511.01850v1.pdf"
+    },
+    {
+      "id": "2510.26576v1",
+      "title": "\"Show Me You Comply... Without Showing Me Anything\": Zero-Knowledge Software Auditing for AI-Enabled Systems",
+      "authors": [
+        "Filippo Scaramuzza",
+        "Renato Cordeiro Ferreira",
+        "Tomaz Maia Suller",
+        "Giovanni Quattrocchi",
+        "Damian Andrew Tamburri"
+      ],
+      "date": "2025-10-30",
+      "categories": [
+        "cs.SE"
+      ],
+      "summary": "The increasing exploitation of Artificial Intelligence (AI) enabled systems in critical domains has made trustworthiness concerns a paramount showstopper, requiring verifiable accountability, often by regulation (e.g., the EU AI Act). Classical software verification and validation techniques, such as procedural audits, formal methods, or model documentation, are the mechanisms used to achieve this. However, these methods are either expensive or heavily manual and ill-suited for the opaque, \"black box\" nature of most AI models. An intractable conflict emerges: high auditability and verifiability are required by law, but such transparency conflicts with the need to protect assets being audited-e.g., confidential data and proprietary models-leading to weakened accountability. To address this challenge, this paper introduces ZKMLOps, a novel MLOps verification framework that operationalizes Zero-Knowledge Proofs (ZKPs)-cryptographic protocols allowing a prover to convince a verifier that a statement is true without revealing additional information-within Machine-Learning Operations lifecycles. By integrating ZKPs with established software engineering patterns, ZKMLOps provides a modular and repeatable process for generating verifiable cryptographic proof of compliance. We evaluate the framework's practicality through a study of regulatory compliance in financial risk auditing and assess feasibility through an empirical evaluation of top ZKP protocols, analyzing performance trade-offs for ML models of increasing complexity.",
+      "url": "https://arxiv.org/pdf/2510.26576v1",
+      "pages": 8,
+      "file": "MLOps_2510.26576v1.pdf"
+    },
+    {
+      "id": "2510.09968v1",
+      "title": "Operationalizing AI: Empirical Evidence on MLOps Practices, User Satisfaction, and Organizational Context",
+      "authors": [
+        "Stefan Pasch"
+      ],
+      "date": "2025-10-11",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CL",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "summary": "Organizational efforts to utilize and operationalize artificial intelligence (AI) are often accompanied by substantial challenges, including scalability, maintenance, and coordination across teams. In response, the concept of Machine Learning Operations (MLOps) has emerged as a set of best practices that integrate software engineering principles with the unique demands of managing the ML lifecycle. Yet, empirical evidence on whether and how these practices support users in developing and operationalizing AI applications remains limited. To address this gap, this study analyzes over 8,000 user reviews of AI development platforms from G2.com. Using zero-shot classification, we measure review sentiment toward nine established MLOps practices, including continuous integration and delivery (CI/CD), workflow orchestration, reproducibility, versioning, collaboration, and monitoring. Seven of the nine practices show a significant positive relationship with user satisfaction, suggesting that effective MLOps implementation contributes tangible value to AI development. However, organizational context also matters: reviewers from small firms discuss certain MLOps practices less frequently, suggesting that organizational context influences the prevalence and salience of MLOps, though firm size does not moderate the MLOps-satisfaction link. This indicates that once applied, MLOps practices are perceived as universally beneficial across organizational settings.",
+      "url": "https://arxiv.org/pdf/2510.09968v1",
+      "pages": 8,
+      "file": "MLOps_2510.09968v1.pdf"
+    },
+    {
+      "id": "2510.09187v1",
+      "title": "Modern Deep Learning Approaches for Cricket Shot Classification: A Comprehensive Baseline Study",
+      "authors": [
+        "Sungwoo Kang"
+      ],
+      "date": "2025-10-10",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "summary": "Cricket shot classification from video sequences remains a challenging problem in sports video analysis, requiring effective modeling of both spatial and temporal features. This paper presents the first comprehensive baseline study comparing seven different deep learning approaches across four distinct research paradigms for cricket shot classification. We implement and systematically evaluate traditional CNN-LSTM architectures, attention-based models, vision transformers, transfer learning approaches, and modern EfficientNet-GRU combinations on a unified benchmark. A critical finding of our study is the significant performance gap between claims in academic literature and practical implementation results. While previous papers reported accuracies of 96\\% (Balaji LRCN), 99.2\\% (IJERCSE), and 93\\% (Sensors), our standardized re-implementations achieve 46.0\\%, 55.6\\%, and 57.7\\% respectively. Our modern SOTA approach, combining EfficientNet-B0 with a GRU-based temporal model, achieves 92.25\\% accuracy, demonstrating that substantial improvements are possible with modern architectures and systematic optimization. All implementations follow modern MLOps practices with PyTorch Lightning, providing a reproducible research platform that exposes the critical importance of standardized evaluation protocols in sports video analysis research.",
+      "url": "https://arxiv.org/pdf/2510.09187v1",
+      "pages": 8,
+      "file": "MLOps_2510.09187v1.pdf"
+    },
+    {
+      "id": "2510.15943v1",
+      "title": "Enabling Responsible, Secure and Sustainable Healthcare AI - A Strategic Framework for Clinical and Operational Impact",
+      "authors": [
+        "Jimmy Joseph"
+      ],
+      "date": "2025-10-09",
+      "categories": [
+        "cs.CY"
+      ],
+      "summary": "We offer a pragmatic model to operationalize responsible, secure, and sustainable healthcare AI, aligning world-class technical excellence with organizational readiness. The framework includes five key pillars - Leadership & Strategy, MLOps & Technical Infrastructure, Governance & Ethics, Education & Workforce Development, and Change Management & Adoption - and is intended to operationalize 'compliance-by-design' while delivering measurable impact. We demonstrate its utility through two deployments. (A) An inpatient length of stay (LOS) prediction service had R^2=0.41-0.58 with validation cohorts in an observational pilot (n = 3,184 encounters, 4 units, June-August 2025). Adoption was 78 percent by week 6, and target units saw 5-10 percent relative declines in mean LOS for complex cases vs. pre-pilot baselines. (B) An AI-augmented radiology second-reader for lung nodules (PACS-integrated with thresholding and explanation overlays) achieved high sensitivity (95 percent) and provided a +8.0 percentage-point lift in detection of sub-centimeter actionable findings, without slowing workflow (median report TAT 23 min, p = 0.64). Both services executed in monitored, auditable pipelines with well-defined rollback, bias checks, and no evidence of security incidents. These findings indicate that by combining strong MLOps and AI security with governance, education, and human-centric change, we can accelerate adoption of AI while improving security and outcomes. We end with limitations, generalization considerations, and a roadmap for scaling across varied clinical and operational use cases.",
+      "url": "https://arxiv.org/pdf/2510.15943v1",
+      "pages": 8,
+      "file": "MLOps_2510.15943v1.pdf"
+    },
+    {
+      "id": "2509.12223v1",
+      "title": "Ratio1 -- AI meta-OS",
+      "authors": [
+        "Andrei Damian",
+        "Petrica Butusina",
+        "Alessandro De Franceschi",
+        "Vitalii Toderian",
+        "Marius Grigoras"
+      ],
+      "date": "2025-09-05",
+      "categories": [
+        "cs.OS",
+        "cs.AI",
+        "cs.CR",
+        "cs.DC"
+      ],
+      "summary": "We propose the Ratio1 AI meta-operating system (meta-OS), a decentralized MLOps protocol that unifies AI model development, deployment, and inference across heterogeneous edge devices. Its key innovation is an integrated blockchain-based framework that transforms idle computing resources (laptops, smartphones, cloud VMs) into a trustless global supercomputer. The architecture includes novel components: a decentralized authentication layer (dAuth), an in-memory state database (CSTORE), a distributed storage system (R1FS), homomorphic encrypted federated learning (EDIL), decentralized container orchestration (Deeploy) and an oracle network (OracleSync), which collectively ensure secure, resilient execution of AI pipelines and other container based apps at scale. The protocol enforces a formal circular token-economic model combining Proof-of-Availability (PoA) and Proof-of-AI (PoAI) consensus. Compared to centralized heterogeneous cloud MLOps and existing decentralized compute platforms, which often lack integrated AI toolchains or trusted Ratio1 node operators (R1OP) mechanics, Ratio1's holistic design lowers barriers for AI deployment and improves cost-efficiency. We provide mathematical formulations of its secure licensing and reward protocols, and include descriptive information for the system architecture and protocol flow. We argue that our proposed fully functional ecosystem proposes and demonstrates significant improvements in accessibility, scalability, and security over existing alternatives.",
+      "url": "https://arxiv.org/pdf/2509.12223v1",
+      "pages": 8,
+      "file": "MLOps_2509.12223v1.pdf"
+    },
+    {
+      "id": "2506.22358v1",
+      "title": "AI Model Passport: Data and System Traceability Framework for Transparent AI in Health",
+      "authors": [
+        "Varvara Kalokyri",
+        "Nikolaos S. Tachos",
+        "Charalampos N. Kalantzopoulos",
+        "Stelios Sfakianakis",
+        "Haridimos Kondylakis"
+      ],
+      "date": "2025-06-27",
+      "categories": [
+        "cs.AI"
+      ],
+      "summary": "The increasing integration of Artificial Intelligence (AI) into health and biomedical systems necessitates robust frameworks for transparency, accountability, and ethical compliance. Existing frameworks often rely on human-readable, manual documentation which limits scalability, comparability, and machine interpretability across projects and platforms. They also fail to provide a unique, verifiable identity for AI models to ensure their provenance and authenticity across systems and use cases, limiting reproducibility and stakeholder trust. This paper introduces the concept of the AI Model Passport, a structured and standardized documentation framework that acts as a digital identity and verification tool for AI models. It captures essential metadata to uniquely identify, verify, trace and monitor AI models across their lifecycle - from data acquisition and preprocessing to model design, development and deployment. In addition, an implementation of this framework is presented through AIPassport, an MLOps tool developed within the ProCAncer-I EU project for medical imaging applications. AIPassport automates metadata collection, ensures proper versioning, decouples results from source scripts, and integrates with various development environments. Its effectiveness is showcased through a lesion segmentation use case using data from the ProCAncer-I dataset, illustrating how the AI Model Passport enhances transparency, reproducibility, and regulatory readiness while reducing manual effort. This approach aims to set a new standard for fostering trust and accountability in AI-driven healthcare solutions, aspiring to serve as the basis for developing transparent and regulation compliant AI systems across domains.",
+      "url": "https://arxiv.org/pdf/2506.22358v1",
+      "pages": 8,
+      "file": "MLOps_2506.22358v1.pdf"
+    },
+    {
+      "id": "2512.09928v1",
+      "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+      "authors": [
+        "Minghui Lin",
+        "Pengxiang Ding",
+        "Shu Wang",
+        "Zifeng Zhuang",
+        "Yang Liu"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "Vision-Language-Action (VLA) models have recently enabled robotic manipulation by grounding visual and linguistic cues into actions. However, most VLAs assume the Markov property, relying only on the current observation and thus suffering from temporal myopia that degrades long-horizon coherence. In this work, we view motion as a more compact and informative representation of temporal context and world dynamics, capturing inter-state changes while filtering static pixel-level noise. Building on this idea, we propose HiF-VLA (Hindsight, Insight, and Foresight for VLAs), a unified framework that leverages motion for bidirectional temporal reasoning. HiF-VLA encodes past dynamics through hindsight priors, anticipates future motion via foresight reasoning, and integrates both through a hindsight-modulated joint expert to enable a ''think-while-acting'' paradigm for long-horizon manipulation. As a result, HiF-VLA surpasses strong baselines on LIBERO-Long and CALVIN ABC-D benchmarks, while incurring negligible additional inference latency. Furthermore, HiF-VLA achieves substantial improvements in real-world long-horizon manipulation tasks, demonstrating its broad effectiveness in practical robotic settings.",
+      "url": "https://arxiv.org/pdf/2512.09928v1",
+      "pages": 8,
+      "file": "model_monitoring_2512.09928v1.pdf"
+    },
+    {
+      "id": "2512.09927v1",
+      "title": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+      "authors": [
+        "Yifan Ye",
+        "Jiaqi Ma",
+        "Jun Cen",
+        "Zhihe Lu"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "Vision-Language-Action (VLA) models pretrained on large-scale multimodal datasets have emerged as powerful foundations for robotic perception and control. However, their massive scale, often billions of parameters, poses significant challenges for real-time deployment, as inference becomes computationally expensive and latency-sensitive in dynamic environments. To address this, we propose Token Expand-and-Merge-VLA (TEAM-VLA), a training-free token compression framework that accelerates VLA inference while preserving task performance. TEAM-VLA introduces a dynamic token expansion mechanism that identifies and samples additional informative tokens in the spatial vicinity of attention-highlighted regions, enhancing contextual completeness. These expanded tokens are then selectively merged in deeper layers under action-aware guidance, effectively reducing redundancy while maintaining semantic coherence. By coupling expansion and merging within a single feed-forward pass, TEAM-VLA achieves a balanced trade-off between efficiency and effectiveness, without any retraining or parameter updates. Extensive experiments on LIBERO benchmark demonstrate that TEAM-VLA consistently improves inference speed while maintaining or even surpassing the task success rate of full VLA models. The code is public available on \\href{https://github.com/Jasper-aaa/TEAM-VLA}{https://github.com/Jasper-aaa/TEAM-VLA}",
+      "url": "https://arxiv.org/pdf/2512.09927v1",
+      "pages": 8,
+      "file": "model_monitoring_2512.09927v1.pdf"
+    },
+    {
+      "id": "2512.09926v1",
+      "title": "Connecting single-layer $t$-$J$ to Kondo lattice models: Exploration with cold atoms",
+      "authors": [
+        "Hannah Lange",
+        "Eugene Demler",
+        "Jan von Delft",
+        "Annabelle Bohrdt",
+        "Fabian Grusdt"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.str-el",
+        "quant-ph"
+      ],
+      "summary": "The Kondo effect, a hallmark of many-body physics, emerges from the antiferromagnetic coupling between localized spins and conduction fermions, leading to a correlated many-body singlet state. Here we propose to use the mixed-dimensional (mixD) bilayer Hubbard geometry as a platform to study Kondo lattice physics with current ultracold atom experiments. At experimentally feasible temperatures, we predict that key features of the Kondo effect can be observed, including formation of the Kondo cloud around a single impurity and the competition of singlet formation with Ruderman-Kittel-Kasuya-Yosida (RKKY) interactions for multiple impurities, summarized in the Doniach phase diagram. Moreover, we show that the mixD platform provides a natural bridge between the Doniach phase diagram of the Kondo lattice model, relevant to heavy-fermion materials, and the phase diagram of cuprate superconductors as described by a single-layer Zhang-Rice type $t$-$J$ model: It is possible to continuously tune between the two regimes by changing the interlayer Kondo coupling. Our findings demonstrate that the direct connection between high-temperature superconductivity and heavy-fermion physics can be experimentally studied using currently available quantum simulation platforms.",
+      "url": "https://arxiv.org/pdf/2512.09926v1",
+      "pages": 8,
+      "file": "model_monitoring_2512.09926v1.pdf"
+    },
+    {
+      "id": "2512.09924v1",
+      "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+      "authors": [
+        "Xinyu Liu",
+        "Hangjie Yuan",
+        "Yujie Wei",
+        "Jiazheng Xing",
+        "Yujin Han"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Video unified models exhibit strong capabilities in understanding and generation, yet they struggle with reason-informed visual editing even when equipped with powerful internal vision-language models (VLMs). We attribute this gap to two factors: 1) existing datasets are inadequate for training and evaluating reasoning-aware video editing, and 2) an inherent disconnect between the models' reasoning and editing capabilities, which prevents the rich understanding from effectively instructing the editing process. Bridging this gap requires an integrated framework that connects reasoning with visual transformation. To address this gap, we introduce the Reason-Informed Video Editing (RVE) task, which requires reasoning about physical plausibility and causal dynamics during editing. To support systematic evaluation, we construct RVE-Bench, a comprehensive benchmark with two complementary subsets: Reasoning-Informed Video Editing and In-Context Video Generation. These subsets cover diverse reasoning dimensions and real-world editing scenarios. Building upon this foundation, we propose the ReViSE, a Self-Reflective Reasoning (SRF) framework that unifies generation and evaluation within a single architecture. The model's internal VLM provides intrinsic feedback by assessing whether the edited video logically satisfies the given instruction. The differential feedback that refines the generator's reasoning behavior during training. Extensive experiments on RVE-Bench demonstrate that ReViSE significantly enhances editing accuracy and visual fidelity, achieving a 32% improvement of the Overall score in the reasoning-informed video editing subset over state-of-the-art methods.",
+      "url": "https://arxiv.org/pdf/2512.09924v1",
+      "pages": 8,
+      "file": "model_monitoring_2512.09924v1.pdf"
+    },
+    {
+      "id": "2512.09923v1",
+      "title": "Splatent: Splatting Diffusion Latents for Novel View Synthesis",
+      "authors": [
+        "Or Hirschorn",
+        "Omer Sela",
+        "Inbar Huberman-Spiegelglas",
+        "Netalee Efrat",
+        "Eli Alshan"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Radiance field representations have recently been explored in the latent space of VAEs that are commonly used by diffusion models. This direction offers efficient rendering and seamless integration with diffusion-based pipelines. However, these methods face a fundamental limitation: The VAE latent space lacks multi-view consistency, leading to blurred textures and missing details during 3D reconstruction. Existing approaches attempt to address this by fine-tuning the VAE, at the cost of reconstruction quality, or by relying on pre-trained diffusion models to recover fine-grained details, at the risk of some hallucinations. We present Splatent, a diffusion-based enhancement framework designed to operate on top of 3D Gaussian Splatting (3DGS) in the latent space of VAEs. Our key insight departs from the conventional 3D-centric view: rather than reconstructing fine-grained details in 3D space, we recover them in 2D from input views through multi-view attention mechanisms. This approach preserves the reconstruction quality of pretrained VAEs while achieving faithful detail recovery. Evaluated across multiple benchmarks, Splatent establishes a new state-of-the-art for VAE latent radiance field reconstruction. We further demonstrate that integrating our method with existing feed-forward frameworks, consistently improves detail preservation, opening new possibilities for high-quality sparse-view 3D reconstruction.",
+      "url": "https://arxiv.org/pdf/2512.09923v1",
+      "pages": 8,
+      "file": "model_monitoring_2512.09923v1.pdf"
+    },
+    {
+      "id": "2512.09915v1",
+      "title": "A Model Intercomparison Study of Mixed-Phase Clouds in a Laboratory Chamber",
+      "authors": [
+        "Aaron Wang",
+        "Sisi Chen",
+        "Steve Krueger",
+        "Piotr Dziekan",
+        "Kotaro Enokido"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "physics.ao-ph",
+        "physics.flu-dyn"
+      ],
+      "summary": "Mixed-phase clouds, composed of supercooled liquid droplets and ice crystals, play a critical role in weather and climate systems. Their complex microphysical interactions and coupling with turbulence at microscales govern the cloud properties at macroscales, yet remain challenging to observe and quantify under atmospheric conditions. This model intercomparison study utilizes ten model configurations to simulate mixed-phase cloud evolution in the Michigan Technological University's Pi Chamber. The models span a range of frameworks, including box models, direct numerical simulation, and large-eddy simulation models, and incorporate both bin and Lagrangian microphysics. Each model was tuned to reproduce the observed liquid-phase steady state prior to ice injection. Ice particles were then introduced into the domain at various rates to examine cloud glaciation behavior. By the intercomparison design, all models successfully reproduced the observed mean droplet radius and number concentration during the liquid-phase stage. Increasing ice particle injection rates led to consistent qualitative trends across models: depletion of liquid water, reduced total water content, and a shift in particle size distributions toward larger radii. However, quantitative differences arose due to variations in model treatment in dynamics and microphysics, including subgrid-scale turbulence parameterizations, wall forcing, and particle removal parameterizations. Most models that simulate the full chamber retained liquid droplets near the lower boundary, where supersaturation forcing is strongest and droplets are replenished before mixing into the core region. These surviving liquids droplets were absent in simulations assuming a well-mixed domain, excluding the near-wall region, or using coarse grid spacing.",
+      "url": "https://arxiv.org/pdf/2512.09915v1",
+      "pages": 8,
+      "file": "model_monitoring_2512.09915v1.pdf"
+    },
+    {
+      "id": "2512.09895v1",
+      "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+      "authors": [
+        "Jane Greenberg",
+        "Scott McClellan",
+        "Addy Ireland",
+        "Robert Sammarco",
+        "Colton Gerber"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.DL"
+      ],
+      "summary": "Metadata vocabularies are essential for advancing FAIR and FARR data principles, but their development constrained by limited human resources and inconsistent standardization practices. This paper introduces MatSci-YAMZ, a platform that integrates artificial intelligence (AI) and human-in-the-loop (HILT), including crowdsourcing, to support metadata vocabulary development. The paper reports on a proof-of-concept use case evaluating the AI-HILT model in materials science, a highly interdisciplinary domain Six (6) participants affiliated with the NSF Institute for Data-Driven Dynamical Design (ID4) engaged with the MatSci-YAMZ plaform over several weeks, contributing term definitions and providing examples to prompt the AI-definitions refinement. Nineteen (19) AI-generated definitions were successfully created, with iterative feedback loops demonstrating the feasibility of AI-HILT refinement. Findings confirm the feasibility AI-HILT model highlighting 1) a successful proof of concept, 2) alignment with FAIR and open-science principles, 3) a research protocol to guide future studies, and 4) the potential for scalability across domains. Overall, MatSci-YAMZ's underlying model has the capacity to enhance semantic transparency and reduce time required for consensus building and metadata vocabulary development.",
+      "url": "https://arxiv.org/pdf/2512.09895v1",
+      "pages": 8,
+      "file": "AI_compliance_2512.09895v1.pdf"
+    },
+    {
+      "id": "2512.09867v1",
+      "title": "MedForget: Hierarchy-Aware Multimodal Unlearning Testbed for Medical AI",
+      "authors": [
+        "Fengli Wu",
+        "Vaidehi Patil",
+        "Jaehong Yoon",
+        "Yue Zhang",
+        "Mohit Bansal"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "summary": "Pretrained Multimodal Large Language Models (MLLMs) are increasingly deployed in medical AI systems for clinical reasoning, diagnosis support, and report generation. However, their training on sensitive patient data raises critical privacy and compliance challenges under regulations such as HIPAA and GDPR, which enforce the \"right to be forgotten\". Unlearning, the process of tuning models to selectively remove the influence of specific training data points, offers a potential solution, yet its effectiveness in complex medical settings remains underexplored. To systematically study this, we introduce MedForget, a Hierarchy-Aware Multimodal Unlearning Testbed with explicit retain and forget splits and evaluation sets containing rephrased variants. MedForget models hospital data as a nested hierarchy (Institution -> Patient -> Study -> Section), enabling fine-grained assessment across eight organizational levels. The benchmark contains 3840 multimodal (image, question, answer) instances, each hierarchy level having a dedicated unlearning target, reflecting distinct unlearning challenges. Experiments with four SOTA unlearning methods on three tasks (generation, classification, cloze) show that existing methods struggle to achieve complete, hierarchy-aware forgetting without reducing diagnostic performance. To test whether unlearning truly deletes hierarchical pathways, we introduce a reconstruction attack that progressively adds hierarchical level context to prompts. Models unlearned at a coarse granularity show strong resistance, while fine-grained unlearning leaves models vulnerable to such reconstruction. MedForget provides a practical, HIPAA-aligned testbed for building compliant medical AI systems.",
+      "url": "https://arxiv.org/pdf/2512.09867v1",
+      "pages": 8,
+      "file": "AI_compliance_2512.09867v1.pdf"
+    },
+    {
+      "id": "2512.09831v1",
+      "title": "Interpretation as Linear Transformation: A Cognitive-Geometric Model of Belief and Meaning",
+      "authors": [
+        "Chainarong Amornbunchornvej"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "cs.MA",
+        "cs.SI"
+      ],
+      "summary": "This paper develops a geometric framework for modeling belief, motivation, and influence across cognitively heterogeneous agents. Each agent is represented by a personalized value space, a vector space encoding the internal dimensions through which the agent interprets and evaluates meaning. Beliefs are formalized as structured vectors-abstract beings-whose transmission is mediated by linear interpretation maps. A belief survives communication only if it avoids the null spaces of these maps, yielding a structural criterion for intelligibility, miscommunication, and belief death.\n  Within this framework, I show how belief distortion, motivational drift, counterfactual evaluation, and the limits of mutual understanding arise from purely algebraic constraints. A central result-\"the No-Null-Space Leadership Condition\"-characterizes leadership as a property of representational reachability rather than persuasion or authority. More broadly, the model explains how abstract beings can propagate, mutate, or disappear as they traverse diverse cognitive geometries.\n  The account unifies insights from conceptual spaces, social epistemology, and AI value alignment by grounding meaning preservation in structural compatibility rather than shared information or rationality. I argue that this cognitive-geometric perspective clarifies the epistemic boundaries of influence in both human and artificial systems, and offers a general foundation for analyzing belief dynamics across heterogeneous agents.",
+      "url": "https://arxiv.org/pdf/2512.09831v1",
+      "pages": 8,
+      "file": "AI_compliance_2512.09831v1.pdf"
+    },
+    {
+      "id": "2512.09829v1",
+      "title": "RIFT: A Scalable Methodology for LLM Accelerator Fault Assessment using Reinforcement Learning",
+      "authors": [
+        "Khurram Khalil",
+        "Muhammad Mahad Khaliq",
+        "Khaza Anuarul Hoque"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "summary": "The massive scale of modern AI accelerators presents critical challenges to traditional fault assessment methodologies, which face prohibitive computational costs and provide poor coverage of critical failure modes. This paper introduces RIFT (Reinforcement Learning-guided Intelligent Fault Targeting), a scalable framework that automates the discovery of minimal, high-impact fault scenarios for efficient design-time fault assessment. RIFT transforms the complex search for worst-case faults into a sequential decision-making problem, combining hybrid sensitivity analysis for search space pruning with reinforcement learning to intelligently generate minimal, high-impact test suites. Evaluated on billion-parameter Large Language Model (LLM) workloads using NVIDIA A100 GPUs, RIFT achieves a \\textbf{2.2$\\times$} fault assessment speedup over evolutionary methods and reduces the required test vector volume by over \\textbf{99\\%} compared to random fault injection, all while achieving \\textbf{superior fault coverage}. The proposed framework also provides actionable data to enable intelligent hardware protection strategies, demonstrating that RIFT-guided selective error correction code provides a \\textbf{12.8$\\times$} improvement in \\textbf{cost-effectiveness} (coverage per unit area) compared to uniform triple modular redundancy protection. RIFT automatically generates UVM-compliant verification artifacts, ensuring its findings are directly actionable and integrable into commercial RTL verification workflows.",
+      "url": "https://arxiv.org/pdf/2512.09829v1",
+      "pages": 8,
+      "file": "AI_compliance_2512.09829v1.pdf"
+    },
+    {
+      "id": "2512.09800v1",
+      "title": "Ariel-ML: Computing Parallelization with Embedded Rust for Neural Networks on Heterogeneous Multi-core Microcontrollers",
+      "authors": [
+        "Zhaolan Huang",
+        "Kaspar Schleiser",
+        "Gyungmin Myung",
+        "Emmanuel Baccelli"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.LG",
+        "cs.DC",
+        "cs.PF"
+      ],
+      "summary": "Low-power microcontroller (MCU) hardware is currently evolving from single-core architectures to predominantly multi-core architectures. In parallel, new embedded software building blocks are more and more written in Rust, while C/C++ dominance fades in this domain. On the other hand, small artificial neural networks (ANN) of various kinds are increasingly deployed in edge AI use cases, thus deployed and executed directly on low-power MCUs. In this context, both incremental improvements and novel innovative services will have to be continuously retrofitted using ANNs execution in software embedded on sensing/actuating systems already deployed in the field. However, there was so far no Rust embedded software platform automating parallelization for inference computation on multi-core MCUs executing arbitrary TinyML models. This paper thus fills this gap by introducing Ariel-ML, a novel toolkit we designed combining a generic TinyML pipeline and an embedded Rust software platform which can take full advantage of multi-core capabilities of various 32bit microcontroller families (Arm Cortex-M, RISC-V, ESP-32). We published the full open source code of its implementation, which we used to benchmark its capabilities using a zoo of various TinyML models. We show that Ariel-ML outperforms prior art in terms of inference latency as expected, and we show that, compared to pre-existing toolkits using embedded C/C++, Ariel-ML achieves comparable memory footprints. Ariel-ML thus provides a useful basis for TinyML practitioners and resource-constrained embedded Rust developers.",
+      "url": "https://arxiv.org/pdf/2512.09800v1",
+      "pages": 8,
+      "file": "AI_compliance_2512.09800v1.pdf"
+    },
+    {
+      "id": "2512.09917v1",
+      "title": "Evaluating Function-as-a-Service (FaaS) frameworks for the Accelerator Control System",
+      "authors": [
+        "A. Jaikar",
+        "J. Diamond",
+        "A. Tiradani",
+        "B. Harrison"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "physics.acc-ph"
+      ],
+      "summary": "As particle accelerator control systems evolve in complexity and scale, the need for responsive, scalable, and cost-effective computational infrastructure becomes increasingly critical. Function-as-a-Service (FaaS) offers an alternative to traditional monolithic architecture by enabling event-driven execution, automatic scaling, and fine-grained resource utilization. This paper explores the applicability and performance of FaaS frameworks in the context of a modern particle accelerator control system, with the objective of evaluating their suitability for short lived and triggered workloads. In this paper, we evaluate prominent open-source FaaS platforms in executing functional logic, triggers, and diagnostics routines. Evaluation metrics consist of cold-start latency, scalability, performance, integration with other open-source tools like Kafka. Experimental workloads were designed to simulate real-world control tasks when implemented as stateless FaaS functions. These workloads were benchmarked under various invocation loads and network conditions. Self-hosted FaaS platforms, when deployed within accelerator networks, offer greater control over execution environment, better integration with legacy systems, and support for real-time guarantees when paired with message queues. Based on lessons learned and evaluation metrics, this paper describes reliability of the FaaS framework for the Accelerator Control Systems (ACS).",
+      "url": "https://arxiv.org/pdf/2512.09917v1",
+      "pages": 8,
+      "file": "responsible_AI_2512.09917v1.pdf"
+    },
+    {
+      "id": "2512.09901v1",
+      "title": "Superconductivity and geometric superfluid weight of a tunable flat band system",
+      "authors": [
+        "M. A. Mojarro",
+        "Sergio E. Ulloa"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cond-mat.supr-con",
+        "cond-mat.mtrl-sci"
+      ],
+      "summary": "We study superconductivity and superfluid weight of the two-dimensional $\u03b1$-$\\mathcal{T}_3$ lattice with on-site asymmetries, hosting an isolated quasi-flat band with tunable bandwidth via a parameter $\u03b1$. Within a mean-field approximation of the attractive Hubbard model, we obtain the superconducting order parameters on the three inequivalent sublattices and show their strong dependence on $\u03b1$, interaction strength, and electron filling. At quasi-flat band filling, a superconducting gap opens and grows power-law fast with interaction strength, instead of the usual slow exponential growth, due to diverging density of states. We calculate the superfluid weight from linear response theory and study its band dispersion and geometric contributions. While the conventional part proportional to band derivatives is suppressed in the quasi-flat band regime, the contribution dominated by the quantum metric grows linearly for small interaction strength. We further demonstrate how tuning $\u03b1$ enhances the quantum metric and thus the geometric superfluid weight especially near half-filling, while increasing on-site asymmetries increases the conventional contribution by broadening the quasi-flat band. We obtain the Berezinskii-Kosterlitz-Thouless transition temperature and demonstrate its strong dependence and enhancement with the parameter $\u03b1$. Our results establish a tunable flat band system, the $\u03b1$-$\\mathcal{T}_3$ lattice model, as a candidate for tunable quantum geometry and superfluid weight and as a prototype of related behavior in tunable quantum materials.",
+      "url": "https://arxiv.org/pdf/2512.09901v1",
+      "pages": 8,
+      "file": "responsible_AI_2512.09901v1.pdf"
+    },
+    {
+      "id": "2512.09895v1",
+      "title": "Human-in-the-Loop and AI: Crowdsourcing Metadata Vocabulary for Materials Science",
+      "authors": [
+        "Jane Greenberg",
+        "Scott McClellan",
+        "Addy Ireland",
+        "Robert Sammarco",
+        "Colton Gerber"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.AI",
+        "cs.DL"
+      ],
+      "summary": "Metadata vocabularies are essential for advancing FAIR and FARR data principles, but their development constrained by limited human resources and inconsistent standardization practices. This paper introduces MatSci-YAMZ, a platform that integrates artificial intelligence (AI) and human-in-the-loop (HILT), including crowdsourcing, to support metadata vocabulary development. The paper reports on a proof-of-concept use case evaluating the AI-HILT model in materials science, a highly interdisciplinary domain Six (6) participants affiliated with the NSF Institute for Data-Driven Dynamical Design (ID4) engaged with the MatSci-YAMZ plaform over several weeks, contributing term definitions and providing examples to prompt the AI-definitions refinement. Nineteen (19) AI-generated definitions were successfully created, with iterative feedback loops demonstrating the feasibility of AI-HILT refinement. Findings confirm the feasibility AI-HILT model highlighting 1) a successful proof of concept, 2) alignment with FAIR and open-science principles, 3) a research protocol to guide future studies, and 4) the potential for scalability across domains. Overall, MatSci-YAMZ's underlying model has the capacity to enhance semantic transparency and reduce time required for consensus building and metadata vocabulary development.",
+      "url": "https://arxiv.org/pdf/2512.09895v1",
+      "pages": 8,
+      "file": "responsible_AI_2512.09895v1.pdf"
+    },
+    {
+      "id": "2512.09883v1",
+      "title": "ByteShield: Adversarially Robust End-to-End Malware Detection through Byte Masking",
+      "authors": [
+        "Daniel Gibert",
+        "Felip Many\u00e0"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CR"
+      ],
+      "summary": "Research has proven that end-to-end malware detectors are vulnerable to adversarial attacks. In response, the research community has proposed defenses based on randomized and (de)randomized smoothing. However, these techniques remain susceptible to attacks that insert large adversarial payloads. To address these limitations, we propose a novel defense mechanism designed to harden end-to-end malware detectors by leveraging masking at the byte level. This mechanism operates by generating multiple masked versions of the input file, independently classifying each version, and then applying a threshold-based voting mechanism to produce the final classification. Key to this defense is a deterministic masking strategy that systematically strides a mask across the entire input file. Unlike randomized smoothing defenses, which randomly mask or delete bytes, this structured approach ensures coverage of the file over successive versions. In the best-case scenario, this strategy fully occludes the adversarial payload, effectively neutralizing its influence on the model's decision. In the worst-case scenario, it partially occludes the adversarial payload, reducing its impact on the model's predictions. By occluding the adversarial payload in one or more masked versions, this defense ensures that some input versions remain representative of the file's original intent, allowing the voting mechanism to suppress the influence of the adversarial payload. Results achieved on the EMBER and BODMAS datasets demonstrate the suitability of our defense, outperforming randomized and (de)randomized smoothing defenses against adversarial examples generated with a wide range of functionality-preserving manipulations while maintaining high accuracy on clean examples.",
+      "url": "https://arxiv.org/pdf/2512.09883v1",
+      "pages": 8,
+      "file": "responsible_AI_2512.09883v1.pdf"
+    },
+    {
+      "id": "2512.09867v1",
+      "title": "MedForget: Hierarchy-Aware Multimodal Unlearning Testbed for Medical AI",
+      "authors": [
+        "Fengli Wu",
+        "Vaidehi Patil",
+        "Jaehong Yoon",
+        "Yue Zhang",
+        "Mohit Bansal"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "summary": "Pretrained Multimodal Large Language Models (MLLMs) are increasingly deployed in medical AI systems for clinical reasoning, diagnosis support, and report generation. However, their training on sensitive patient data raises critical privacy and compliance challenges under regulations such as HIPAA and GDPR, which enforce the \"right to be forgotten\". Unlearning, the process of tuning models to selectively remove the influence of specific training data points, offers a potential solution, yet its effectiveness in complex medical settings remains underexplored. To systematically study this, we introduce MedForget, a Hierarchy-Aware Multimodal Unlearning Testbed with explicit retain and forget splits and evaluation sets containing rephrased variants. MedForget models hospital data as a nested hierarchy (Institution -> Patient -> Study -> Section), enabling fine-grained assessment across eight organizational levels. The benchmark contains 3840 multimodal (image, question, answer) instances, each hierarchy level having a dedicated unlearning target, reflecting distinct unlearning challenges. Experiments with four SOTA unlearning methods on three tasks (generation, classification, cloze) show that existing methods struggle to achieve complete, hierarchy-aware forgetting without reducing diagnostic performance. To test whether unlearning truly deletes hierarchical pathways, we introduce a reconstruction attack that progressively adds hierarchical level context to prompts. Models unlearned at a coarse granularity show strong resistance, while fine-grained unlearning leaves models vulnerable to such reconstruction. MedForget provides a practical, HIPAA-aligned testbed for building compliant medical AI systems.",
+      "url": "https://arxiv.org/pdf/2512.09867v1",
+      "pages": 8,
+      "file": "responsible_AI_2512.09867v1.pdf"
+    },
+    {
+      "id": "2512.09928v1",
+      "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+      "authors": [
+        "Minghui Lin",
+        "Pengxiang Ding",
+        "Shu Wang",
+        "Zifeng Zhuang",
+        "Yang Liu"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "Vision-Language-Action (VLA) models have recently enabled robotic manipulation by grounding visual and linguistic cues into actions. However, most VLAs assume the Markov property, relying only on the current observation and thus suffering from temporal myopia that degrades long-horizon coherence. In this work, we view motion as a more compact and informative representation of temporal context and world dynamics, capturing inter-state changes while filtering static pixel-level noise. Building on this idea, we propose HiF-VLA (Hindsight, Insight, and Foresight for VLAs), a unified framework that leverages motion for bidirectional temporal reasoning. HiF-VLA encodes past dynamics through hindsight priors, anticipates future motion via foresight reasoning, and integrates both through a hindsight-modulated joint expert to enable a ''think-while-acting'' paradigm for long-horizon manipulation. As a result, HiF-VLA surpasses strong baselines on LIBERO-Long and CALVIN ABC-D benchmarks, while incurring negligible additional inference latency. Furthermore, HiF-VLA achieves substantial improvements in real-world long-horizon manipulation tasks, demonstrating its broad effectiveness in practical robotic settings.",
+      "url": "https://arxiv.org/pdf/2512.09928v1",
+      "pages": 8,
+      "file": "model_lifecycle_2512.09928v1.pdf"
+    },
+    {
+      "id": "2512.09927v1",
+      "title": "Token Expand-Merge: Training-Free Token Compression for Vision-Language-Action Models",
+      "authors": [
+        "Yifan Ye",
+        "Jiaqi Ma",
+        "Jun Cen",
+        "Zhihe Lu"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.RO"
+      ],
+      "summary": "Vision-Language-Action (VLA) models pretrained on large-scale multimodal datasets have emerged as powerful foundations for robotic perception and control. However, their massive scale, often billions of parameters, poses significant challenges for real-time deployment, as inference becomes computationally expensive and latency-sensitive in dynamic environments. To address this, we propose Token Expand-and-Merge-VLA (TEAM-VLA), a training-free token compression framework that accelerates VLA inference while preserving task performance. TEAM-VLA introduces a dynamic token expansion mechanism that identifies and samples additional informative tokens in the spatial vicinity of attention-highlighted regions, enhancing contextual completeness. These expanded tokens are then selectively merged in deeper layers under action-aware guidance, effectively reducing redundancy while maintaining semantic coherence. By coupling expansion and merging within a single feed-forward pass, TEAM-VLA achieves a balanced trade-off between efficiency and effectiveness, without any retraining or parameter updates. Extensive experiments on LIBERO benchmark demonstrate that TEAM-VLA consistently improves inference speed while maintaining or even surpassing the task success rate of full VLA models. The code is public available on \\href{https://github.com/Jasper-aaa/TEAM-VLA}{https://github.com/Jasper-aaa/TEAM-VLA}",
+      "url": "https://arxiv.org/pdf/2512.09927v1",
+      "pages": 8,
+      "file": "model_lifecycle_2512.09927v1.pdf"
+    },
+    {
+      "id": "2512.09926v1",
+      "title": "Connecting single-layer $t$-$J$ to Kondo lattice models: Exploration with cold atoms",
+      "authors": [
+        "Hannah Lange",
+        "Eugene Demler",
+        "Jan von Delft",
+        "Annabelle Bohrdt",
+        "Fabian Grusdt"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cond-mat.quant-gas",
+        "cond-mat.str-el",
+        "quant-ph"
+      ],
+      "summary": "The Kondo effect, a hallmark of many-body physics, emerges from the antiferromagnetic coupling between localized spins and conduction fermions, leading to a correlated many-body singlet state. Here we propose to use the mixed-dimensional (mixD) bilayer Hubbard geometry as a platform to study Kondo lattice physics with current ultracold atom experiments. At experimentally feasible temperatures, we predict that key features of the Kondo effect can be observed, including formation of the Kondo cloud around a single impurity and the competition of singlet formation with Ruderman-Kittel-Kasuya-Yosida (RKKY) interactions for multiple impurities, summarized in the Doniach phase diagram. Moreover, we show that the mixD platform provides a natural bridge between the Doniach phase diagram of the Kondo lattice model, relevant to heavy-fermion materials, and the phase diagram of cuprate superconductors as described by a single-layer Zhang-Rice type $t$-$J$ model: It is possible to continuously tune between the two regimes by changing the interlayer Kondo coupling. Our findings demonstrate that the direct connection between high-temperature superconductivity and heavy-fermion physics can be experimentally studied using currently available quantum simulation platforms.",
+      "url": "https://arxiv.org/pdf/2512.09926v1",
+      "pages": 8,
+      "file": "model_lifecycle_2512.09926v1.pdf"
+    },
+    {
+      "id": "2512.09924v1",
+      "title": "ReViSE: Towards Reason-Informed Video Editing in Unified Models with Self-Reflective Learning",
+      "authors": [
+        "Xinyu Liu",
+        "Hangjie Yuan",
+        "Yujie Wei",
+        "Jiazheng Xing",
+        "Yujin Han"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Video unified models exhibit strong capabilities in understanding and generation, yet they struggle with reason-informed visual editing even when equipped with powerful internal vision-language models (VLMs). We attribute this gap to two factors: 1) existing datasets are inadequate for training and evaluating reasoning-aware video editing, and 2) an inherent disconnect between the models' reasoning and editing capabilities, which prevents the rich understanding from effectively instructing the editing process. Bridging this gap requires an integrated framework that connects reasoning with visual transformation. To address this gap, we introduce the Reason-Informed Video Editing (RVE) task, which requires reasoning about physical plausibility and causal dynamics during editing. To support systematic evaluation, we construct RVE-Bench, a comprehensive benchmark with two complementary subsets: Reasoning-Informed Video Editing and In-Context Video Generation. These subsets cover diverse reasoning dimensions and real-world editing scenarios. Building upon this foundation, we propose the ReViSE, a Self-Reflective Reasoning (SRF) framework that unifies generation and evaluation within a single architecture. The model's internal VLM provides intrinsic feedback by assessing whether the edited video logically satisfies the given instruction. The differential feedback that refines the generator's reasoning behavior during training. Extensive experiments on RVE-Bench demonstrate that ReViSE significantly enhances editing accuracy and visual fidelity, achieving a 32% improvement of the Overall score in the reasoning-informed video editing subset over state-of-the-art methods.",
+      "url": "https://arxiv.org/pdf/2512.09924v1",
+      "pages": 8,
+      "file": "model_lifecycle_2512.09924v1.pdf"
+    },
+    {
+      "id": "2512.09923v1",
+      "title": "Splatent: Splatting Diffusion Latents for Novel View Synthesis",
+      "authors": [
+        "Or Hirschorn",
+        "Omer Sela",
+        "Inbar Huberman-Spiegelglas",
+        "Netalee Efrat",
+        "Eli Alshan"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Radiance field representations have recently been explored in the latent space of VAEs that are commonly used by diffusion models. This direction offers efficient rendering and seamless integration with diffusion-based pipelines. However, these methods face a fundamental limitation: The VAE latent space lacks multi-view consistency, leading to blurred textures and missing details during 3D reconstruction. Existing approaches attempt to address this by fine-tuning the VAE, at the cost of reconstruction quality, or by relying on pre-trained diffusion models to recover fine-grained details, at the risk of some hallucinations. We present Splatent, a diffusion-based enhancement framework designed to operate on top of 3D Gaussian Splatting (3DGS) in the latent space of VAEs. Our key insight departs from the conventional 3D-centric view: rather than reconstructing fine-grained details in 3D space, we recover them in 2D from input views through multi-view attention mechanisms. This approach preserves the reconstruction quality of pretrained VAEs while achieving faithful detail recovery. Evaluated across multiple benchmarks, Splatent establishes a new state-of-the-art for VAE latent radiance field reconstruction. We further demonstrate that integrating our method with existing feed-forward frameworks, consistently improves detail preservation, opening new possibilities for high-quality sparse-view 3D reconstruction.",
+      "url": "https://arxiv.org/pdf/2512.09923v1",
+      "pages": 8,
+      "file": "model_lifecycle_2512.09923v1.pdf"
+    },
+    {
+      "id": "2512.09929v1",
+      "title": "Closing the Train-Test Gap in World Models for Gradient-Based Planning",
+      "authors": [
+        "Arjun Parthasarathy",
+        "Nimit Kalra",
+        "Rohun Agrawal",
+        "Yann LeCun",
+        "Oumayma Bounou"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.LG",
+        "cs.RO"
+      ],
+      "summary": "World models paired with model predictive control (MPC) can be trained offline on large-scale datasets of expert trajectories and enable generalization to a wide range of planning tasks at inference time. Compared to traditional MPC procedures, which rely on slow search algorithms or on iteratively solving optimization problems exactly, gradient-based planning offers a computationally efficient alternative. However, the performance of gradient-based planning has thus far lagged behind that of other approaches. In this paper, we propose improved methods for training world models that enable efficient gradient-based planning. We begin with the observation that although a world model is trained on a next-state prediction objective, it is used at test-time to instead estimate a sequence of actions. The goal of our work is to close this train-test gap. To that end, we propose train-time data synthesis techniques that enable significantly improved gradient-based planning with existing world models. At test time, our approach outperforms or matches the classical gradient-free cross-entropy method (CEM) across a variety of object manipulation and navigation tasks in 10% of the time budget.",
+      "url": "https://arxiv.org/pdf/2512.09929v1",
+      "file": "model_drift_detection_2512.09929v1.pdf"
+    },
+    {
+      "id": "2512.09922v1",
+      "title": "Self-calibration of weak lensing cosmic shear biases",
+      "authors": [
+        "G. Congedo",
+        "A. N. Taylor"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "astro-ph.CO",
+        "astro-ph.IM"
+      ],
+      "summary": "In order to reach the required performance of Stage-III and IV weak lensing surveys, cosmic shear measurements have to rely on external simulations to calibrate residual biases. Over the years, several techniques have been developed to mitigate the impact of residual biases prior to calibration, including the inference of shear responses on images to correct multiplicative biases, and the empirical correction of additive biases. We introduce a novel methodology that generalises upon the state-of-the-art approaches by inferring multiplicative and additive biases jointly from parameterised distributions of measured ellipticities, crucially without relying on external simulations and independently from cosmology. Shear biases are marginalised over the unknown hyper-parameters in the modelling, hence mitigating the impact of degeneracies. We apply the technique to a representative problem and show the performance of the estimation, even in the presence of noise. The method has a high potential for applicability to the calibration of weak lensing cosmic shear in current and future lensing surveys.",
+      "url": "https://arxiv.org/pdf/2512.09922v1",
+      "file": "model_drift_detection_2512.09922v1.pdf"
+    },
+    {
+      "id": "2512.09921v1",
+      "title": "Photon emission by vortex particles accelerated in a linac",
+      "authors": [
+        "A. Yu. Murtazin",
+        "G. K. Sizykh",
+        "D. V. Grosman",
+        "U. G. Rybak",
+        "A. A. Shchepkin"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "hep-ph",
+        "physics.acc-ph",
+        "quant-ph"
+      ],
+      "summary": "We study the photon emission by charged spinless particles with phase vortices and an orbital angular momentum (OAM) projection in longitudinal electric and magnetic fields within the scalar QED. A realistic wave packet of an electron or ion accelerated by a radio-frequency wave locally feels a constant and spatially homogeneous field, which allows us to develop an effective model for losing the angular momentum of the vortex particle due to photon emission. For the fields typical for accelerator facilities, we find that an effective lifetime of the vortex state greatly exceeds the acceleration time. This proves that the acceleration of vortex electrons, ions, muons, and so forth to relativistic energies is possible in conventional linacs, as well as in the wake-field accelerators with higher field gradients, the OAM losses due to the photon emission are mostly negligible, and that the vortex quantum state is highly robust against these losses.",
+      "url": "https://arxiv.org/pdf/2512.09921v1",
+      "file": "model_drift_detection_2512.09921v1.pdf"
+    },
+    {
+      "id": "2512.09916v1",
+      "title": "Buoyancy-dependent induced flow by vertically migrating swimmers",
+      "authors": [
+        "Nina Mohebbi",
+        "John O. Dabiri"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "physics.flu-dyn"
+      ],
+      "summary": "Collective vertical migrations of negatively buoyant swimmers can drive large-scale fluid transport. In the ocean, zooplankton migrate over vertical distances several orders of magnitude larger than their body length. These swimmers experience changes in their buoyancy relative to the stably stratified ocean water column. The impact of net swimmer buoyancy on the scale of aggregate-scale induced flows remains unresolved. We hypothesize that as the net buoyancy of swimmers becomes increasingly negative the speed of induced flow in the opposite direction of swimming will increase due to changes in the required force to swim upward and thus the momentum imparted on the surrounding fluid. Simultaneous three-dimensional swimmer tracking and two-dimensional two-component flow measurements are used to measure the flow induced by collective vertical migration of Artemia salina. Experiments were designed to modulate the buoyant force on the swimmers by changing environmental salinity. Experimental results supported the hypothesis and were used to develop a theoretical model, which was then used to contextualize results to ocean relevant conditions with non-dimensional analysis.",
+      "url": "https://arxiv.org/pdf/2512.09916v1",
+      "file": "model_versioning_2512.09916v1.pdf"
+    },
+    {
+      "id": "2512.09913v1",
+      "title": "NordFKB: a fine-grained benchmark dataset for geospatial AI in Norway",
+      "authors": [
+        "Sander Riis\u00f8en Jyhne",
+        "Aditya Gupta",
+        "Ben Worsley",
+        "Marianne Andersen",
+        "Ivar Oveland"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "We present NordFKB, a fine-grained benchmark dataset for geospatial AI in Norway, derived from the authoritative, highly accurate, national Felles KartdataBase (FKB). The dataset contains high-resolution orthophotos paired with detailed annotations for 36 semantic classes, including both per-class binary segmentation masks in GeoTIFF format and COCO-style bounding box annotations. Data is collected from seven geographically diverse areas, ensuring variation in climate, topography, and urbanization. Only tiles containing at least one annotated object are included, and training/validation splits are created through random sampling across areas to ensure representative class and context distributions. Human expert review and quality control ensures high annotation accuracy. Alongside the dataset, we release a benchmarking repository with standardized evaluation protocols and tools for semantic segmentation and object detection, enabling reproducible and comparable research. NordFKB provides a robust foundation for advancing AI methods in mapping, land administration, and spatial planning, and paves the way for future expansions in coverage, temporal scope, and data modalities.",
+      "url": "https://arxiv.org/pdf/2512.09913v1",
+      "file": "AI_risk_management_2512.09913v1.pdf"
+    },
+    {
+      "id": "2512.09907v1",
+      "title": "VisualActBench: Can VLMs See and Act like a Human?",
+      "authors": [
+        "Daoan Zhang",
+        "Pai Liu",
+        "Xiaofei Zhou",
+        "Yuan Ge",
+        "Guangchen Lan"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.CV"
+      ],
+      "summary": "Vision-Language Models (VLMs) have achieved impressive progress in perceiving and describing visual environments. However, their ability to proactively reason and act based solely on visual inputs, without explicit textual prompts, remains underexplored. We introduce a new task, Visual Action Reasoning, and propose VisualActBench, a large-scale benchmark comprising 1,074 videos and 3,733 human-annotated actions across four real-world scenarios. Each action is labeled with an Action Prioritization Level (APL) and a proactive-reactive type to assess models' human-aligned reasoning and value sensitivity. We evaluate 29 VLMs on VisualActBench and find that while frontier models like GPT4o demonstrate relatively strong performance, a significant gap remains compared to human-level reasoning, particularly in generating proactive, high-priority actions. Our results highlight limitations in current VLMs' ability to interpret complex context, anticipate outcomes, and align with human decision-making frameworks. VisualActBench establishes a comprehensive foundation for assessing and improving the real-world readiness of proactive, vision-centric AI agents.",
+      "url": "https://arxiv.org/pdf/2512.09907v1",
+      "file": "AI_risk_management_2512.09907v1.pdf"
+    },
+    {
+      "id": "2512.09886v1",
+      "title": "HPM-KD: Hierarchical Progressive Multi-Teacher Framework for Knowledge Distillation and Efficient Model Compression",
+      "authors": [
+        "Gustavo Coelho Haase",
+        "Paulo Henrique Dourado da Silva"
+      ],
+      "date": "2025-12-10",
+      "categories": [
+        "cs.LG",
+        "stat.AP"
+      ],
+      "summary": "Knowledge Distillation (KD) has emerged as a promising technique for model compression but faces critical limitations: (1) sensitivity to hyperparameters requiring extensive manual tuning, (2) capacity gap when distilling from very large teachers to small students, (3) suboptimal coordination in multi-teacher scenarios, and (4) inefficient use of computational resources. We present \\textbf{HPM-KD}, a framework that integrates six synergistic components: (i) Adaptive Configuration Manager via meta-learning that eliminates manual hyperparameter tuning, (ii) Progressive Distillation Chain with automatically determined intermediate models, (iii) Attention-Weighted Multi-Teacher Ensemble that learns dynamic per-sample weights, (iv) Meta-Learned Temperature Scheduler that adapts temperature throughout training, (v) Parallel Processing Pipeline with intelligent load balancing, and (vi) Shared Optimization Memory for cross-experiment reuse. Experiments on CIFAR-10, CIFAR-100, and tabular datasets demonstrate that HPM-KD: achieves 10x-15x compression while maintaining 85% accuracy retention, eliminates the need for manual tuning, and reduces training time by 30-40% via parallelization. Ablation studies confirm independent contribution of each component (0.10-0.98 pp). HPM-KD is available as part of the open-source DeepBridge library.",
+      "url": "https://arxiv.org/pdf/2512.09886v1",
+      "file": "AI_risk_management_2512.09886v1.pdf"
+    }
+  ]
+}

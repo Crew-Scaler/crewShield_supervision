@@ -1,0 +1,15 @@
+{
+  "arxiv_id": "2512.13880v1",
+  "title": "Privacy-Enhancing Infant Cry Classification with Federated Transformers and Denoising Regularization",
+  "authors": [
+    "Geofrey Owino",
+    "Bernard Shibwabo"
+  ],
+  "published": "2025-12-15T20:33:24Z",
+  "url": "http://arxiv.org/abs/2512.13880v1",
+  "pdf_url": "http://arxiv.org/pdf/2512.13880v1.pdf",
+  "relevance_score": 84,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Infant cry classification can aid early assessment of infant needs. However, deployment of such solutions is limited by privacy concerns around audio data, sensitivity to background noise, and domain shift across recording environments. We present an end-to-end infant cry analysis pipeline that integrates a denoising autoencoder (DAE), a convolutional tokenizer, and a Transformer encoder trained using communication-efficient federated learning (FL). The system performs on-device denoising, adapt"
+}

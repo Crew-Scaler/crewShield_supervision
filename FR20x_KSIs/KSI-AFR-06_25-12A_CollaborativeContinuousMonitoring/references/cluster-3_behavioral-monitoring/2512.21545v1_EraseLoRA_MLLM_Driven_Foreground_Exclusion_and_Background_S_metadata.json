@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.21545v1",
+  "title": "EraseLoRA: MLLM-Driven Foreground Exclusion and Background Subtype Aggregation for Dataset-Free Object Removal",
+  "authors": [
+    "Sanghyun Jo",
+    "Donghwan Lee",
+    "Eunji Jung",
+    "Seong Je Oh",
+    "Kyungsu Kim"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.21545v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 12,
+  "key_topics": [
+    "behavioral monitoring"
+  ],
+  "summary": "Object removal differs from common inpainting, since it must prevent the masked target from reappearing and reconstruct the occluded background with structural and contextual fidelity, rather than merely filling a hole plausibly. Recent dataset-free approaches that redirect self-attention inside the mask fail in two ways: non-target foregrounds are often misinterpreted as background, which regenerates unwanted objects, and direct attention manipulation disrupts fine details and hinders coherent ..."
+}

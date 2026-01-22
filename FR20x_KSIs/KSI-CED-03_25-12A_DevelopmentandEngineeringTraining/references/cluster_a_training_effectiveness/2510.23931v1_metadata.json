@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.23931v1",
+  "title": "Differential Privacy: Gradient Leakage Attacks in Federated Learning Environments",
+  "authors": [
+    "Miguel Fernandez-de-Retana",
+    "Unai Zulaika",
+    "Rub\u00e9n S\u00e1nchez-Corcuera",
+    "Aitor Almeida"
+  ],
+  "published": "2025-10-27T23:33:21Z",
+  "url": "http://arxiv.org/abs/2510.23931v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.23931v1.pdf",
+  "relevance_score": 100,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "Federated Learning (FL) allows for the training of Machine Learning models in a collaborative manner without the need to share sensitive data. However, it remains vulnerable to Gradient Leakage Attacks (GLAs), which can reveal private information from the shared model updates. In this work, we investigate the effectiveness of Differential Privacy (DP) mechanisms - specifically, DP-SGD and a variant based on explicit regularization (PDP-SGD) - as defenses against GLAs. To this end, we evaluate th"
+}

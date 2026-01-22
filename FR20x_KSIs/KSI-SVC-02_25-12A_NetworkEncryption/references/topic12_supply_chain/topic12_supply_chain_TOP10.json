@@ -1,0 +1,122 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.19297v1",
+    "arxiv_id": "2512.19297v1",
+    "title": "Causal-Guided Detoxify Backdoor Attack of Open-Weight LoRA Models",
+    "summary": "Low-Rank Adaptation (LoRA) has emerged as an efficient method for fine-tuning large language models (LLMs) and is widely adopted within the open-source community. However, the decentralized dissemination of LoRA adapters through platforms such as Hugging Face introduces novel security vulnerabilities: malicious adapters can be easily distributed and evade conventional oversight mechanisms. This paper proposes Causal-Guided Detoxify Backdoor Attack (CBA), a novel backdoor attack framework specifically designed for open-weight LoRA models. CBA achieves high stealth through coverage-guided data generation and causal-guided detoxification, reducing false trigger rates by 50-70% compared to baseline methods. Demonstrates enhanced resistance to state-of-the-art backdoor defenses.",
+    "published": "2025-12-22T11:40:47Z",
+    "authors": ["Linzhi Chen", "Yang Sun", "Hongru Wei", "Yuqi Chen"],
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.19297v1",
+    "relevance_notes": "Directly addresses supply chain compromise through model repository distribution (Hugging Face), demonstrates persistence mechanisms and evasion tactics for backdoor attacks in distributed model adapters."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19215v1",
+    "arxiv_id": "2512.19215v1",
+    "title": "Semantically-Equivalent Transformations-Based Backdoor Attacks against Neural Code Models: Characterization and Mitigation",
+    "summary": "Introduces Semantically-Equivalent Transformation (SET)-based backdoor attacks on neural code models that use semantics-preserving low-prevalence code transformations to generate stealthy triggers. Achieves high success rates (>90%) while preserving model utility and evading state-of-the-art defenses with detection rates 25.13% lower than injection-based attacks. Evaluated across five tasks, six languages, and models like CodeBERT, CodeT5, and StarCoder.",
+    "published": "2025-12-22T09:54:52Z",
+    "authors": ["Junyao Ye", "Zhen Li", "Xi Tang", "Shouhuai Xu", "Deqing Zou", "Zhongsheng Yuan"],
+    "primary_category": "cs.SE",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.19215v1",
+    "relevance_notes": "Addresses stealthy code injection attacks that evade traditional detection methods, relevant to software supply chain attacks with encrypted C2 persistence mechanisms that maintain utility while hiding malicious behavior."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20423v1",
+    "arxiv_id": "2512.20423v1",
+    "title": "Evasion-Resilient Detection of DNS-over-HTTPS Data Exfiltration: A Practical Evaluation and Toolkit",
+    "summary": "Assesses defender capabilities against DNS-over-HTTPS (DoH) file exfiltration with evasion strategies. Introduces end-to-end pipeline for DoH exfiltration with configurable parameters (chunking, encoding, padding, resolver rotation). Trains ML classifiers (Random Forest, Gradient Boosting, Logistic Regression) and compares against threshold-based detection under adversarial scenarios. Quantifies when stealth constraints make DoH exfiltration uneconomical.",
+    "published": "2025-12-23T15:07:17Z",
+    "authors": ["Adam Elaoumari"],
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20423v1",
+    "relevance_notes": "Directly addresses encrypted channel C2 communication (DoH) for data exfiltration, demonstrates evasion techniques against detection mechanisms, highly relevant to supply chain compromise detection avoidance."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20004v1",
+    "arxiv_id": "2512.20004v1",
+    "title": "IoT-based Android Malware Detection Using Graph Neural Network With Adversarial Defense",
+    "summary": "Demonstrates GNN-based malware detection achieving 98.33% accuracy on CICMaldroid and 98.68% on Drebin datasets. Proposes VGAE-MalGAN attack to evade detection by adding fake relationships to API graphs. Shows attackers can significantly reduce detection rates of GNN-based classifiers through adversarial examples. Retraining with adversarial samples improves robustness.",
+    "published": "2025-12-23T02:57:33Z",
+    "authors": ["Rahul Yumlembam", "Biju Issac", "Seibu Mary Jacob", "Longzhi Yang"],
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20004v1",
+    "relevance_notes": "Addresses adversarial evasion tactics for malware detection, demonstrates how supply chain malware (distributed via package repositories) can evade ML-based detection mechanisms."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19263v1",
+    "arxiv_id": "2512.19263v1",
+    "title": "Anti-Malicious ISAC: How to Jointly Monitor and Disrupt Your Foes?",
+    "summary": "Proposes wireless proactive monitoring paradigm to intercept suspicious communication links via cognitive jamming. Derives SINR expressions for user, sensing access points, and proactive monitor. Optimizes jamming power allocation across communication and sensing channels. Proposes adaptive power allocation to minimize monitor detection risk. Shows algorithm significantly compromises malicious communication performance.",
+    "published": "2025-12-22T10:59:50Z",
+    "authors": ["Zonghan Wang", "Zahra Mobini", "Hien Quoc Ngo", "Hyundong Shin", "Michail Matthaiou"],
+    "primary_category": "eess.SP",
+    "relevance_score": 12.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.19263v1",
+    "relevance_notes": "Addresses monitoring and disruption of malicious encrypted communication channels, relevant to detecting C2 communication in supply chain compromise scenarios."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20218v1",
+    "arxiv_id": "2512.20218v1",
+    "title": "Cost-TrustFL: Cost-Aware Hierarchical Federated Learning with Lightweight Reputation Evaluation across Multi-Cloud",
+    "summary": "Presents Cost-TrustFL framework for federated learning across multi-cloud environments addressing non-IID data, malicious participant detection, and cross-cloud communication costs. Proposes gradient-based Shapley value computation reducing complexity from exponential to linear. Achieves 86.7% accuracy under 30% malicious clients while reducing communication costs 32%. Maintains stable performance across varying attack intensities.",
+    "published": "2025-12-23T10:16:43Z",
+    "authors": ["Jixiao Yang", "Jinyu Chen", "Zixiao Huang", "Chengda Xu", "Chi Zhang"],
+    "primary_category": "cs.CR",
+    "relevance_score": 11.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20218v1",
+    "relevance_notes": "Addresses Byzantine-robust federated learning for cloud environments with malicious participant detection, relevant to supply chain security in distributed ML model training."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20176v1",
+    "arxiv_id": "2512.20176v1",
+    "title": "Optimistic TEE-Rollups: A Hybrid Architecture for Scalable and Verifiable Generative AI Inference",
+    "summary": "Proposes hybrid architecture combining Trusted Execution Environment (TEE) with rollup mechanisms for AI inference. Addresses scalability and verifiability in generative AI. Provides cryptographic guarantees for computation integrity.",
+    "published": "2025-12-23T10:01:27Z",
+    "authors": ["Aaron Chan", "Alex Ding", "Frank Chen"],
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20176v1",
+    "relevance_notes": "Addresses cryptographic verification of AI inference, relevant to supply chain integrity verification and detecting compromised model execution."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20168v1",
+    "arxiv_id": "2512.20168v1",
+    "title": "Odysseus: Jailbreaking Commercial Multimodal LLM-integrated Systems via Dual Steganography",
+    "summary": "Demonstrates jailbreaking of commercial multimodal LLM systems through dual steganography attacks. Shows methods to bypass safety mechanisms in commercial AI systems.",
+    "published": "2025-12-23T09:47:18Z",
+    "authors": ["Songze Li", "Jiameng Cheng", "Yiming Li"],
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20168v1",
+    "relevance_notes": "Demonstrates steganographic attack vectors and jailbreaking techniques relevant to supply chain compromise of AI systems through hidden backdoors."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20164v1",
+    "arxiv_id": "2512.20164v1",
+    "title": "AI Security Beyond Core Domains: Resume Screening as a Case Study of Adversarial Vulnerabilities in Sensitive Applications",
+    "summary": "Analyzes adversarial vulnerabilities in AI systems beyond core security domains. Uses resume screening as case study to demonstrate real-world attack surfaces. Identifies supply chain risks in AI model deployment.",
+    "published": "2025-12-23T09:39:21Z",
+    "authors": ["Honglin Mu", "Jinghao Liu", "Kaiyang Wan"],
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20164v1",
+    "relevance_notes": "Identifies adversarial attack surfaces in AI systems beyond direct attacks, relevant to understanding broad supply chain vulnerability landscape."
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20293v1",
+    "arxiv_id": "2512.20293v1",
+    "title": "AprielGuard: Safeguarding LLMs Against Unsafe and Adversarial Behavior",
+    "summary": "Introduces AprielGuard, an 8B parameter safeguard model unifying safety and adversarial threat detection. Trained on diverse data covering standalone prompts, conversations, and agentic workflows. Detects harmful content and prompt injections, outperforming Llama-Guard and Granite Guardian. Provides interpretability through structured reasoning traces.",
+    "published": "2025-12-23T12:01:32Z",
+    "authors": ["Jaykumar Kasundra", "Anjaneya Praharaj", "Sourabh Surana", "Lakshmi Sirisha Chodisetty", "Sourav Sharma"],
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.20293v1",
+    "relevance_notes": "Addresses detection of adversarial attacks and prompt injections against LLMs, relevant to defending against supply chain compromise of AI models through injection attacks."
+  }
+]

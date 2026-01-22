@@ -1,0 +1,13 @@
+{
+  "arxiv_id": "2506.19877v2",
+  "title": "Robust Anomaly Detection in Network Traffic: Evaluating Machine Learning Models on CICIDS2017",
+  "authors": [
+    "Zhaoyang Xu",
+    "Yunbo Liu"
+  ],
+  "published": "2025-06-23T15:31:10Z",
+  "url": "http://arxiv.org/abs/2506.19877v2",
+  "pdf_url": "http://arxiv.org/pdf/2506.19877v2.pdf",
+  "relevance_score": 100,
+  "summary": "Identifying suitable machine learning paradigms for intrusion detection remains critical for building effective and generalizable security solutions. In this study, we present a controlled comparison of four representative models - Multi-Layer Perceptron (MLP), 1D Convolutional Neural Network (CNN), One-Class Support Vector Machine (OCSVM) and Local Outlier Factor (LOF) - on the CICIDS2017 dataset under two scenarios: detecting known attack types and generalizing to previously unseen threats. Our results show that supervised MLP and CNN achieve near-perfect accuracy on familiar attacks but suffer drastic recall drops on novel attacks. Unsupervised LOF attains moderate overall accuracy and high recall on unknown threats at the cost of elevated false alarms, while boundary-based OCSVM balances precision and recall best, demonstrating robust detection across both scenarios. These findings offer practical guidance for selecting IDS models in dynamic network environments."
+}

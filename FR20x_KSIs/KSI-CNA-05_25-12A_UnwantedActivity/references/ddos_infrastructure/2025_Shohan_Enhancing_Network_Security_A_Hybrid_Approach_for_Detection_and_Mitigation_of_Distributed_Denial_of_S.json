@@ -1,0 +1,22 @@
+{
+  "title": "Enhancing Network Security: A Hybrid Approach for Detection and Mitigation of Distributed Denial-of-Service Attacks Using Machine Learning",
+  "authors": [
+    "Nizo Jaman Shohan",
+    "Gazi Tanbhir",
+    "Faria Elahi",
+    "Ahsan Ullah",
+    "Md. Nazmus Sakib"
+  ],
+  "published": "2025-03-07T14:47:56+00:00",
+  "arxiv_id": "2503.05477v1",
+  "abstract": "The distributed denial-of-service (DDoS) attack stands out as a highly formidable cyber threat, representing an advanced form of the denial-of-service (DoS) attack. A DDoS attack involves multiple computers working together to overwhelm a system, making it unavailable. On the other hand, a DoS attack is a one-on-one attempt to make a system or website inaccessible. Thus, it is crucial to construct an effective model for identifying various DDoS incidents. Although extensive research has focused on binary detection models for DDoS identification, they face challenges to adapt evolving threats, necessitating frequent updates. Whereas multiclass detection models offer a comprehensive defense against diverse DDoS attacks, ensuring adaptability in the ever-changing cyber threat landscape. In this paper, we propose a Hybrid Model to strengthen network security by combining the featureextraction abilities of 1D Convolutional Neural Networks (CNNs) with the classification skills of Random Forest (RF) and Multi-layer Perceptron (MLP) classifiers. Using the CIC-DDoS2019 dataset, we perform multiclass classification of various DDoS attacks and conduct a comparative analysis of evaluation metrics for RF, MLP, and our proposed Hybrid Model. After analyzing the results, we draw meaningful conclusions and confirm the superiority of our Hybrid Model by performing thorough cross-validation. Additionally, we integrate our machine learning model with Snort, which provides a robust and adaptive solution for detecting and mitigating various DDoS attacks.",
+  "categories": [
+    "cs.CR",
+    "cs.LG"
+  ],
+  "relevance_score": 16.0,
+  "query_category": "ddos_mitigation",
+  "us_affiliation": false,
+  "pdf_url": "https://arxiv.org/pdf/2503.05477v1",
+  "downloaded": "2025-12-11T08:24:39.475601"
+}

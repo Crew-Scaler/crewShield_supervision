@@ -1,0 +1,179 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2511.22416v1",
+    "arxiv_id": "2511.22416v1",
+    "title": "Extending Quantum-Safe Communications to Real-World Networks: An Adaptive Security Framework",
+    "summary": "The advent of quantum computing threats classical cryptographic mechanisms, demanding new strategies for securing communication networks. Since real-world networks cannot be fully Quantum Key Distribution (QKD)-enabled due to infrastructure constraints, practical security solutions must support hybrid operation. This paper presents an adaptive security framework that enables quantum-safe communications across real-world heterogeneous networks by combining QKD and Post-Quantum Cryptography (PQC). Building upon a hierarchical key management architecture with Virtual Key Management Systems (vKMS) and a centralized Quantum Security Controller (QuSeC), the framework dynamically assigns security levels based on node capabilities. By transitioning between pure QKD, hybrid, and PQC modes, it ensures end-to-end quantum-safe protection regardless of the underlying node capabilities. The framework has been implemented and validated on a Kubernetes-based containerized testbed, demonstrating robust operation and performance across all scenarios. Results highlight its potential to support the gradual integration of quantum-safe technologies into existing infrastructures, paving the way toward fully quantum-safe communication networks.",
+    "published": "2025-11-27T12:51:10Z",
+    "updated": "2025-11-27T12:51:10Z",
+    "authors": [
+      "Ane Sanz",
+      "Eire Salegi",
+      "Asier Atutxa",
+      "David Franco",
+      "Jasone Astorga",
+      "Eduardo Jacob"
+    ],
+    "affiliations": [],
+    "first_author": "Ane Sanz",
+    "pdf_url": "https://arxiv.org/pdf/2511.22416v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.11643v1",
+    "arxiv_id": "2512.11643v1",
+    "title": "Stateless Snowflake: A Cloud-Agnostic Distributed ID Generator Using Network-Derived Identity",
+    "summary": "Snowflake-style distributed ID generators are the industry standard for producing k-ordered, unique identifiers at scale. However, the traditional requirement for manually assigned or centrally coordinated worker IDs introduces significant friction in modern container-orchestrated environments (e.g., Kubernetes), where workloads are ephemeral and autoscaled. In such systems, maintaining stable worker identities requires complex stateful sets or external coordination services (e.g., ZooKeeper), negating the operational benefits of stateless microservices.   This paper presents a cloud-agnostic, container-native ID generation protocol that eliminates the dependency on explicit worker IDs. By deriving node uniqueness deterministically from ephemeral network properties - specifically the container's private IPv4 address - the proposed method removes the need for centralized coordination. We introduce a modified bit-allocation scheme (1-41-16-6) that accommodates 16 bits of network-derived entropy while preserving strict monotonicity. We validate the approach across AWS, GCP, and Azure environments. Evaluation results demonstrate that while the design has a theoretical single-node ceiling of approximately 64,000 TPS, in practical microservice deployments the network I/O dominates latency, resulting in end-to-end performance (approximately 31,000 TPS on a 3-node cluster) comparable to classic stateful generators while offering effectively unbounded horizontal scalability.",
+    "published": "2025-12-12T15:21:33Z",
+    "updated": "2025-12-12T15:21:33Z",
+    "authors": [
+      "Manideep Reddy Chinthareddy"
+    ],
+    "affiliations": [],
+    "first_author": "Manideep Reddy Chinthareddy",
+    "pdf_url": "https://arxiv.org/pdf/2512.11643v1",
+    "primary_category": "cs.DC",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10280v1",
+    "arxiv_id": "2512.10280v1",
+    "title": "Graph Neural Network Based Adaptive Threat Detection for Cloud Identity and Access Management Logs",
+    "summary": "The rapid expansion of cloud infrastructures and distributed identity systems has significantly increased the complexity and attack surface of modern enterprises. Traditional rule based or signature driven detection systems are often inadequate in identifying novel or evolving threats within Identity and Access Management logs, where anomalous behavior may appear statistically benign but contextually malicious. This paper presents a Graph Neural Network Based Adaptive Threat Detection framework designed to learn latent user resource interaction patterns from IAM audit trails in real time. By modeling IAM logs as heterogeneous dynamic graphs, the proposed system captures temporal, relational, and contextual dependencies across entities such as users, roles, sessions, and access actions. The model incorporates attention based aggregation and graph embedding updates to enable continual adaptation to changing cloud environments. Experimental evaluation on synthesized and real world IAM datasets demonstrates that the proposed method achieves higher detection precision and recall than baseline LSTM and GCN classifiers, while maintaining scalability across multi tenant cloud environments. The frameworks adaptability enables proactive mitigation of insider threats, privilege escalation, and lateral movement attacks, contributing to the foundation of AI driven zero trust access analytics. This work bridges the gap between graph based machine learning and operational cloud security intelligence.",
+    "published": "2025-12-11T04:44:02Z",
+    "updated": "2025-12-11T04:44:02Z",
+    "authors": [
+      "Venkata Tanuja Madireddy"
+    ],
+    "affiliations": [],
+    "first_author": "Venkata Tanuja Madireddy",
+    "pdf_url": "https://arxiv.org/pdf/2512.10280v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.09246v2",
+    "arxiv_id": "2512.09246v2",
+    "title": "GEARS -- A Fully Run-Time Configurable Geant4 Application",
+    "summary": "The Geant4 toolkit is the standard for simulating the passage of particles through matter, but its conventional architecture often requires users to modify and recompile C++ code to alter fundamental simulation parameters such as geometry, physics list, and primary particle source. This architectural constraint introduces significant friction for new users and slows down the experimental iteration cycle. This paper introduces GEARS (Geant4 Example Application with Rich features yet Small footprint), a universally applicable Geant4 application that fundamentally addresses this issue. GEARS achieves complete simulation configurability without C++ recompilation by strictly utilizing external configuration methods: Geometry is defined via simple text-based configuration, the Physics List is selected via the standard PHYSLIST environment variable, and the Primary Source is defined through the General Particle Source (GPS) macro commands. Furthermore, regarding GEARS as an application instead of a framework, key features include a flat ntuple structure with short variable names for highly efficient analysis and a solution for capturing vital initial step data. Output creation is also fully managed via run-time macro commands and volume properties. The project is distributed as a ready-to-use Docker container to eliminate compilation barriers. Through these design considerations, GEARS transforms Geant4 into a practical, ready-to-use tool, enabling users to rapidly prototype and execute simulations for diverse experiments solely through simple text configuration files, without ever needing to modify or compile the underlying C++ source code.",
+    "published": "2025-12-10T02:05:36Z",
+    "updated": "2025-12-11T14:47:49Z",
+    "authors": [
+      "Jing Liu"
+    ],
+    "affiliations": [],
+    "first_author": "Jing Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.09246v2",
+    "primary_category": "hep-ex",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.03815v1",
+    "arxiv_id": "2512.03815v1",
+    "title": "Runnable Directories: The Solution to the Monorepo vs. Multi-repo Debate",
+    "summary": "Modern software systems increasingly strain traditional codebase organization strategies. Monorepos offer consistency but often suffer from scalability issues and tooling complexity, while multi-repos provide modularity at the cost of coordination and dependency management challenges. As an answer to this trade-off, we present the Causify Dev system, a hybrid approach that integrates key benefits of both. Its central concept is the runnable directory -- a self-contained, independently executable unit with its own development, testing, and deployment lifecycles. Backed by a unified thin environment, shared helper utilities, and containerized Docker-based workflows, runnable directories enable consistent setups, isolated dependencies, and efficient CI/CD processes. The Causify Dev approach provides a practical middle ground between monorepo and multi-repo strategies, improving reliability and maintainability for growing, complex codebases.",
+    "published": "2025-12-03T14:03:32Z",
+    "updated": "2025-12-03T14:03:32Z",
+    "authors": [
+      "Shayan Ghasemnezhad",
+      "Samarth KaPatel",
+      "Sofia Nikiforova",
+      "Giacinto Paolo Saggese",
+      "Paul Smith",
+      "Heanh Sok"
+    ],
+    "affiliations": [],
+    "first_author": "Shayan Ghasemnezhad",
+    "pdf_url": "https://arxiv.org/pdf/2512.03815v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20323v1",
+    "arxiv_id": "2512.20323v1",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "published": "2025-12-23T12:45:49Z",
+    "updated": "2025-12-23T12:45:49Z",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Ya\u011fmur Baydemir"
+    ],
+    "affiliations": [],
+    "first_author": "Ipek Sena Yilmaz",
+    "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19975v1",
+    "arxiv_id": "2512.19975v1",
+    "title": "An Explicit dg--Lie Model Governing Jordan Algebra Deformations",
+    "summary": "Over a field of characteristic~$0$ we place the deformation theory of Jordan algebras on a concrete, computation--friendly differential graded Lie algebra. On the symmetric cochains $C^n(J)=\\Sym^n(J^\\vee)\\otimes J$ we define an unshuffle--averaged insertion whose commutator is a graded Lie bracket. For the Jordan product $\u03bc\\in C^2(J)$ the differential $d_\u03bc=[\u03bc,\\cdot]$ governs deformations. We prove that $[\u03bc,\u03bc]=0$ is equivalent to the Jordan identity (via polarization), hence $d_\u03bc^2=0$, and record the standard Maurer--Cartan/gauge recursion together with low--degree coboundary formulas. A small two--dimensional unital example is worked out explicitly. The note is deliberately lean and self--contained.",
+    "published": "2025-12-23T01:42:31Z",
+    "updated": "2025-12-23T01:42:31Z",
+    "authors": [
+      "Vincent E. Coll"
+    ],
+    "affiliations": [],
+    "first_author": "Vincent E. Coll",
+    "pdf_url": "https://arxiv.org/pdf/2512.19975v1",
+    "primary_category": "math.RA",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19238v1",
+    "arxiv_id": "2512.19238v1",
+    "title": "Identifying Features Associated with Bias Against 93 Stigmatized Groups in Language Models and Guardrail Model Safety Mitigation",
+    "summary": "Large language models (LLMs) have been shown to exhibit social bias, however, bias towards non-protected stigmatized identities remain understudied. Furthermore, what social features of stigmas are associated with bias in LLM outputs is unknown. From psychology literature, it has been shown that stigmas contain six shared social features: aesthetics, concealability, course, disruptiveness, origin, and peril. In this study, we investigate if human and LLM ratings of the features of stigmas, along with prompt style and type of stigma, have effect on bias towards stigmatized groups in LLM outputs. We measure bias against 93 stigmatized groups across three widely used LLMs (Granite 3.0-8B, Llama-3.1-8B, Mistral-7B) using SocialStigmaQA, a benchmark that includes 37 social scenarios about stigmatized identities; for example deciding wether to recommend them for an internship. We find that stigmas rated by humans to be highly perilous (e.g., being a gang member or having HIV) have the most biased outputs from SocialStigmaQA prompts (60% of outputs from all models) while sociodemographic stigmas (e.g. Asian-American or old age) have the least amount of biased outputs (11%). We test if the amount of biased outputs could be decreased by using guardrail models, models meant to identify harmful input, using each LLM's respective guardrail model (Granite Guardian 3.0, Llama Guard 3.0, Mistral Moderation API). We find that bias decreases significantly by 10.4%, 1.4%, and 7.8%, respectively. However, we show that features with significant effect on bias remain unchanged post-mitigation and that guardrail models often fail to recognize the intent of bias in prompts. This work has implications for using LLMs in scenarios involving stigmatized groups and we suggest future work towards improving guardrail models for bias mitigation.",
+    "published": "2025-12-22T10:20:20Z",
+    "updated": "2025-12-22T10:20:20Z",
+    "authors": [
+      "Anna-Maria Gueorguieva",
+      "Aylin Caliskan"
+    ],
+    "affiliations": [],
+    "first_author": "Anna-Maria Gueorguieva",
+    "pdf_url": "https://arxiv.org/pdf/2512.19238v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.19769v1",
+    "arxiv_id": "2512.19769v1",
+    "title": "A Declarative Language for Building And Orchestrating LLM-Powered Agent Workflows",
+    "summary": "Building deployment-ready LLM agents requires complex orchestration of tools, data sources, and control flow logic, yet existing systems tightly couple agent logic to specific programming languages and deployment models. We present a declarative system that separates agent workflow specification from implementation, enabling the same pipeline definition to execute across multiple backend languages (Java, Python, Go) and deployment environments (cloud-native, on-premises).   Our key insight is that most agent workflows consist of common patterns -- data serialization, filtering, RAG retrieval, API orchestration -- that can be expressed through a unified DSL rather than imperative code. This approach transforms agent development from application programming to configuration, where adding new tools or fine-tuning agent behaviors requires only pipeline specification changes, not code deployment. Our system natively supports A/B testing of agent strategies, allowing multiple pipeline variants to run on the same backend infrastructure with automatic metric collection and comparison.   We evaluate our approach on real-world e-commerce workflows at PayPal, processing millions of daily interactions. Our results demonstrate 60% reduction in development time, and 3x improvement in deployment velocity compared to imperative implementations. The language's declarative approach enables non-engineers to modify agent behaviors safely, while maintaining sub-100ms orchestration overhead. We show that complex workflows involving product search, personalization, and cart management can be expressed in under 50 lines of DSL compared to 500+ lines of imperative code.",
+    "published": "2025-12-22T05:03:37Z",
+    "updated": "2025-12-22T05:03:37Z",
+    "authors": [
+      "Ivan Daunis"
+    ],
+    "affiliations": [],
+    "first_author": "Ivan Daunis",
+    "pdf_url": "https://arxiv.org/pdf/2512.19769v1",
+    "primary_category": "cs.SE",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17129v1",
+    "arxiv_id": "2512.17129v1",
+    "title": "DiffeoMorph: Learning to Morph 3D Shapes Using Differentiable Agent-Based Simulations",
+    "summary": "Biological systems can form complex three-dimensional structures through the collective behavior of identical agents -- cells that follow the same internal rules and communicate without central control. How such distributed control gives rise to precise global patterns remains a central question not only in developmental biology but also in distributed robotics, programmable matter, and multi-agent learning. Here, we introduce DiffeoMorph, an end-to-end differentiable framework for learning a morphogenesis protocol that guides a population of agents to morph into a target 3D shape. Each agent updates its position and internal state using an attention-based SE(3)-equivariant graph neural network, based on its own internal state and signals received from other agents. To train this system, we introduce a new shape-matching loss based on the 3D Zernike polynomials, which compares the predicted and target shapes as continuous spatial distributions, not as discrete point clouds, and is invariant to agent ordering, number of agents, and rigid-body transformations. To enforce full SO(3) invariance -- invariant to rotations yet sensitive to reflections, we include an alignment step that optimally rotates the predicted Zernike spectrum to match the target before computing the loss. This results in a bilevel problem, with the inner loop optimizing a unit quaternion for the best alignment and the outer loop updating the agent model. We compute gradients through the alignment step using implicit differentiation. We perform systematic benchmarking to establish the advantages of our shape-matching loss over other standard distance metrics for shape comparison tasks. We then demonstrate that DiffeoMorph can form a range of shapes -- from simple ellipsoids to complex morphologies -- using only minimal spatial cues.",
+    "published": "2025-12-18T23:50:42Z",
+    "updated": "2025-12-18T23:50:42Z",
+    "authors": [
+      "Seong Ho Pahng",
+      "Guoye Guan",
+      "Benjamin Fefferman",
+      "Sahand Hormoz"
+    ],
+    "affiliations": [],
+    "first_author": "Seong Ho Pahng",
+    "pdf_url": "https://arxiv.org/pdf/2512.17129v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  }
+]

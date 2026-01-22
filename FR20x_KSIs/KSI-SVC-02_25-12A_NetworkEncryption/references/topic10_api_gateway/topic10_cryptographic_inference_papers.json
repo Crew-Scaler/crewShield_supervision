@@ -1,0 +1,414 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20554v1",
+    "arxiv_id": "2512.20554v1",
+    "title": "Hardware-aware and Resource-efficient Circuit Packing and Scheduling on Trapped-Ion Quantum Computers",
+    "summary": "The rapid expansion of quantum cloud services has led to long job queues due to single-tenant execution models that underutilize hardware resources. Quantum multi-programming (QMP) mitigates this by executing multiple circuits in parallel on a single device, but existing methods target superconducting systems with limited connectivity, high crosstalk, and lower gate fidelity. Trapped-ion architectures, with all-to-all connectivity, long coherence times, and high-fidelity mid-circuit measurement properties, presents itself as a more suitable platform for scalable QMP. We present CircPack, a hardware-aware circuit packing framework designed for modular trapped-ion devices based on the Quantum Charge-Coupled Device (QCCD) architecture. CircPack formulates static circuit scheduling as a two-dimensional packing problem with hardware-specific shuttling constraints. Compared to superconducting-based QMP approaches, CircPack achieves up to 70.72% better fidelity, 62.67% higher utilization, and 32.80% improved layer reduction. This framework is also capable of scalable, balanced scheduling across a cluster of independent QCCD modules, highlighting trapped-ion systems' potential in improving the throughput of quantum cloud computing in the near future.",
+    "published": "2025-12-23T17:53:47Z",
+    "updated": "2025-12-23T17:53:47Z",
+    "authors": [
+      "Miguel Palma",
+      "Shuwen Kan",
+      "Wenqi Wei",
+      "Juntao Chen",
+      "Kaixun Hua",
+      "Sara Mouradian",
+      "Ying Mao"
+    ],
+    "affiliations": [
+      "fordham university",
+      "fordham university",
+      "fordham university",
+      "fordham university",
+      "university of south florida",
+      "university of washington",
+      "fordham university"
+    ],
+    "first_author": "Miguel Palma",
+    "pdf_url": "https://arxiv.org/pdf/2512.20554v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20619v1",
+    "arxiv_id": "2512.20619v1",
+    "title": "SemanticGen: Video Generation in Semantic Space",
+    "summary": "State-of-the-art video generative models typically learn the distribution of video latents in the VAE space and map them to pixels using a VAE decoder. While this approach can generate high-quality videos, it suffers from slow convergence and is computationally expensive when generating long videos. In this paper, we introduce SemanticGen, a novel solution to address these limitations by generating videos in the semantic space. Our main insight is that, due to the inherent redundancy in videos, the generation process should begin in a compact, high-level semantic space for global planning, followed by the addition of high-frequency details, rather than directly modeling a vast set of low-level video tokens using bi-directional attention. SemanticGen adopts a two-stage generation process. In the first stage, a diffusion model generates compact semantic video features, which define the global layout of the video. In the second stage, another diffusion model generates VAE latents conditioned on these semantic features to produce the final output. We observe that generation in the semantic space leads to faster convergence compared to the VAE latent space. Our method is also effective and computationally efficient when extended to long video generation. Extensive experiments demonstrate that SemanticGen produces high-quality videos and outperforms state-of-the-art approaches and strong baselines.",
+    "published": "2025-12-23T18:59:56Z",
+    "updated": "2025-12-23T18:59:56Z",
+    "authors": [
+      "Jianhong Bai",
+      "Xiaoshi Wu",
+      "Xintao Wang",
+      "Fu Xiao",
+      "Yuanxing Zhang",
+      "Qinghe Wang",
+      "Xiaoyu Shi",
+      "Menghan Xia",
+      "Zuozhu Liu",
+      "Haoji Hu",
+      "Pengfei Wan",
+      "Kun Gai"
+    ],
+    "affiliations": [],
+    "first_author": "Jianhong Bai",
+    "pdf_url": "https://arxiv.org/pdf/2512.20619v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20618v1",
+    "arxiv_id": "2512.20618v1",
+    "title": "LongVideoAgent: Multi-Agent Reasoning with Long Videos",
+    "summary": "Recent advances in multimodal LLMs and systems that use tools for long-video QA point to the promise of reasoning over hour-long episodes. However, many methods still compress content into lossy summaries or rely on limited toolsets, weakening temporal grounding and missing fine-grained cues. We propose a multi-agent framework in which a master LLM coordinates a grounding agent to localize question-relevant segments and a vision agent to extract targeted textual observations. The master agent plans with a step limit, and is trained with reinforcement learning to encourage concise, correct, and efficient multi-agent cooperation. This design helps the master agent focus on relevant clips via grounding, complements subtitles with visual detail, and yields interpretable trajectories. On our proposed LongTVQA and LongTVQA+ which are episode-level datasets aggregated from TVQA/TVQA+, our multi-agent system significantly outperforms strong non-agent baselines. Experiments also show reinforcement learning further strengthens reasoning and planning for the trained agent. Code and data will be shared at https://longvideoagent.github.io/.",
+    "published": "2025-12-23T18:59:49Z",
+    "updated": "2025-12-23T18:59:49Z",
+    "authors": [
+      "Runtao Liu",
+      "Ziyi Liu",
+      "Jiaqi Tang",
+      "Yue Ma",
+      "Renjie Pi",
+      "Jipeng Zhang",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Runtao Liu",
+    "pdf_url": "https://arxiv.org/pdf/2512.20618v1",
+    "primary_category": "cs.AI",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20616v1",
+    "arxiv_id": "2512.20616v1",
+    "title": "Dynamical Dark Energy models in light of the latest observations",
+    "summary": "In this paper, we study several models and parameterizations of dynamical dark energy (DE) that have been studied already in the past, in conjunction with the recently proposed model $w$XCDM, the running vacuum model (RVM) with and without a threshold at $z=1$ and two variants of it, the RRVM and the ``flipped RVM'', and compare them all with the concordance $\u039b$CDM model and the popular $w_0w_a$CDM parameterization. We use two standard sets of cosmological data, one including distant supernovae from Pantheon$+$ and the other from DES-Y5. The rest of the data (BAO from DESI DR2 and CMB from Planck PR4) are shared by the two sets. They are analyzed with the help of \\texttt{CLASS}. No structure formation data are utilized for this analysis and no use is made of the SH0ES calibration of $H_0$. Even so, we find that the flipped RVM and to a lesser extent the $w$XCDM and the RVM with threshold, point to significant evidence of dynamical DE, at a level comparable to $w_0w_a$CDM, more conspicuously for the dataset that involves DES-Y5 observations. We also find that while more traditional models studied in the past, in which there is an exchange between vacuum energy and cold dark matter (through e.g. an interactive source proportional either to the density of dark matter or to that of vacuum) still hint at dynamical DE, the strength of the statistical signal (which we assess through information criteria and other estimators) is nevertheless less pronounced. Finally, we discuss the ability of the various models to explain the data by performing an analysis of their effective equation-of-state parameters and corresponding evolution of their dark energy densities.",
+    "published": "2025-12-23T18:59:29Z",
+    "updated": "2025-12-23T18:59:29Z",
+    "authors": [
+      "Javier de Cruz P\u00e9rez",
+      "Adri\u00e0 G\u00f3mez-Valent",
+      "Joan Sol\u00e0 Peracaula"
+    ],
+    "affiliations": [],
+    "first_author": "Javier de Cruz P\u00e9rez",
+    "pdf_url": "https://arxiv.org/pdf/2512.20616v1",
+    "primary_category": "astro-ph.CO",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20615v1",
+    "arxiv_id": "2512.20615v1",
+    "title": "Active Intelligence in Video Avatars via Closed-loop World Modeling",
+    "summary": "Current video avatar generation methods excel at identity preservation and motion alignment but lack genuine agency, they cannot autonomously pursue long-term goals through adaptive environmental interaction. We address this by introducing L-IVA (Long-horizon Interactive Visual Avatar), a task and benchmark for evaluating goal-directed planning in stochastic generative environments, and ORCA (Online Reasoning and Cognitive Architecture), the first framework enabling active intelligence in video avatars. ORCA embodies Internal World Model (IWM) capabilities through two key innovations: (1) a closed-loop OTAR cycle (Observe-Think-Act-Reflect) that maintains robust state tracking under generative uncertainty by continuously verifying predicted outcomes against actual generations, and (2) a hierarchical dual-system architecture where System 2 performs strategic reasoning with state prediction while System 1 translates abstract plans into precise, model-specific action captions. By formulating avatar control as a POMDP and implementing continuous belief updating with outcome verification, ORCA enables autonomous multi-step task completion in open-domain scenarios. Extensive experiments demonstrate that ORCA significantly outperforms open-loop and non-reflective baselines in task success rate and behavioral coherence, validating our IWM-inspired design for advancing video avatar intelligence from passive animation to active, goal-oriented behavior.",
+    "published": "2025-12-23T18:59:16Z",
+    "updated": "2025-12-23T18:59:16Z",
+    "authors": [
+      "Xuanhua He",
+      "Tianyu Yang",
+      "Ke Cao",
+      "Ruiqi Wu",
+      "Cheng Meng",
+      "Yong Zhang",
+      "Zhuoliang Kang",
+      "Xiaoming Wei",
+      "Qifeng Chen"
+    ],
+    "affiliations": [],
+    "first_author": "Xuanhua He",
+    "pdf_url": "https://arxiv.org/pdf/2512.20615v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20613v1",
+    "arxiv_id": "2512.20613v1",
+    "title": "Variational (matrix) product states for combinatorial optimization",
+    "summary": "To compute approximate solutions for combinatorial optimization problems, we describe variational methods based on the product state (PS) and matrix product state (MPS) ansatzes. We perform variational energy minimization with respect to a quantum annealing Hamiltonian and utilize randomness by embedding the approaches in the metaheuristic iterated local search (ILS). The resulting quantum-inspired ILS algorithms are benchmarked on maximum cut problems of up to 50000 variables. We show that they can outperform traditional (M)PS methods, classical ILS, the quantum approximate optimization algorithm and other variational quantum-inspired solvers.",
+    "published": "2025-12-23T18:58:35Z",
+    "updated": "2025-12-23T18:58:35Z",
+    "authors": [
+      "Guillermo Preisser",
+      "Conor Mc Keever",
+      "Michael Lubasch"
+    ],
+    "affiliations": [],
+    "first_author": "Guillermo Preisser",
+    "pdf_url": "https://arxiv.org/pdf/2512.20613v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20612v1",
+    "arxiv_id": "2512.20612v1",
+    "title": "Making Large Language Models Efficient Dense Retrievers",
+    "summary": "Recent work has shown that directly fine-tuning large language models (LLMs) for dense retrieval yields strong performance, but their substantial parameter counts make them computationally inefficient. While prior studies have revealed significant layer redundancy in LLMs for generative tasks, it remains unclear whether similar redundancy exists when these models are adapted for retrieval tasks, which require encoding entire sequences into fixed representations rather than generating tokens iteratively. To this end, we conduct a comprehensive analysis of layer redundancy in LLM-based dense retrievers. We find that, in contrast to generative settings, MLP layers are substantially more prunable, while attention layers remain critical for semantic aggregation. Building on this insight, we propose EffiR, a framework for developing efficient retrievers that performs large-scale MLP compression through a coarse-to-fine strategy (coarse-grained depth reduction followed by fine-grained width reduction), combined with retrieval-specific fine-tuning. Across diverse BEIR datasets and LLM backbones, EffiR achieves substantial reductions in model size and inference cost while preserving the performance of full-size models.",
+    "published": "2025-12-23T18:58:25Z",
+    "updated": "2025-12-23T18:58:25Z",
+    "authors": [
+      "Yibin Lei",
+      "Shwai He",
+      "Ang Li",
+      "Andrew Yates"
+    ],
+    "affiliations": [],
+    "first_author": "Yibin Lei",
+    "pdf_url": "https://arxiv.org/pdf/2512.20612v1",
+    "primary_category": "cs.IR",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20610v1",
+    "arxiv_id": "2512.20610v1",
+    "title": "FedPOD: the deployable units of training for federated learning",
+    "summary": "This paper proposes FedPOD (Proportionally Orchestrated Derivative) for optimizing learning efficiency and communication cost in federated learning among multiple clients. Inspired by FedPIDAvg, we define a round-wise task for FedPOD to enhance training efficiency. FedPIDAvg achieved performance improvement by incorporating the training loss reduction for prediction entropy as weights using differential terms. Furthermore, by modeling data distribution with a Poisson distribution and using a PID controller, it reduced communication costs even in skewed data distribution. However, excluding participants classified as outliers based on the Poisson distribution can limit data utilization. Additionally, PID controller requires the same participants to be maintained throughout the federated learning process as it uses previous rounds' learning information in the current round. In our approach, FedPOD addresses these issues by including participants excluded as outliers, eliminating dependency on previous rounds' learning information, and applying a method for calculating validation loss at each round. In this challenge, FedPOD presents comparable performance to FedPIDAvg in metrics of Dice score, 0.78, 0.71 and 0.72 for WT, ET and TC in average, and projected convergence score, 0.74 in average. Furthermore, the concept of FedPOD draws inspiration from Kubernetes' smallest computing unit, POD, designed to be compatible with Kubernetes auto-scaling. Extending round-wise tasks of FedPOD to POD units allows flexible design by applying scale-out similar to Kubernetes' auto-scaling. This work demonstrated the potentials of FedPOD to enhance federated learning by improving efficiency, flexibility, and performance in metrics.",
+    "published": "2025-12-23T18:57:53Z",
+    "updated": "2025-12-23T18:57:53Z",
+    "authors": [
+      "Daewoon Kim",
+      "Si Young Yie",
+      "Jae Sung Lee"
+    ],
+    "affiliations": [],
+    "first_author": "Daewoon Kim",
+    "pdf_url": "https://arxiv.org/pdf/2512.20610v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20609v1",
+    "arxiv_id": "2512.20609v1",
+    "title": "Revealing Electron-Ytterbium Interactions through Rydberg Molecular Spectroscopy",
+    "summary": "Divalent atoms have emerged as powerful alternatives to alkalis in ultracold atom platforms, offering unique advantages arising from their two-electron structure. Among these species, ytterbium (Yb) is especially promising, yet its anionic properties and its Rydberg spectrum remain comparatively unexplored. In this work, we perform a first and comprehensive experimental and theoretical investigation of ultralong-range Rydberg molecules (ULRMs) of $^{174}$Yb in $6sns\\,^1S_0$ Rydberg states across nearly two decades in principal quantum number $n$ and three orders of magnitude in molecular binding energy. Using the Coulomb Green's function formalism, we compute Born-Oppenheimer molecular potentials describing the Rydberg atom in the presence of a ground-state perturber and achieve quantitative agreement with high-resolution molecular spectra. This enables the extraction of low-energy electron-Yb scattering phase shifts, including the zero-energy $s$-wave scattering length and the positions of two spin-orbit split $p$-wave shape resonances. Our results provide strong evidence that the Yb$^{-}$ anion exists only as a metastable resonance. We additionally show the sensitivity of ULRM spectra to the atomic quantum defects, using this to refine the value for the $6s23f\\, ^1F_3$ quantum defect. Together, these findings establish Yb ULRMs as a powerful probe of electron-Yb interactions and lay essential groundwork for future Rydberg experiments with divalent atoms.",
+    "published": "2025-12-23T18:55:58Z",
+    "updated": "2025-12-23T18:55:58Z",
+    "authors": [
+      "Tangi Legrand",
+      "Xin Wang",
+      "Milena Simi\u0107",
+      "Florian Pausewang",
+      "Wolfgang Alt",
+      "Eduardo Uru\u00f1uela",
+      "Matthew T. Eiles",
+      "Sebastian Hofferberth"
+    ],
+    "affiliations": [],
+    "first_author": "Tangi Legrand",
+    "pdf_url": "https://arxiv.org/pdf/2512.20609v1",
+    "primary_category": "physics.atom-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20608v1",
+    "arxiv_id": "2512.20608v1",
+    "title": "R\u00e9nyi-like entanglement probe of the chiral central charge",
+    "summary": "We propose a ground state entanglement probe for gapped, two-dimensional quantum many-body systems that involves taking powers of reduced density matrices in a particular geometric configuration. This quantity, which we denote by $\u03c9_{\u03b1,\u03b2}$, is parameterized by two positive real numbers $\u03b1, \u03b2$, and can be seen as a ``R\u00e9nyi-like\" generalization of the modular commutator -- another entanglement probe proposed as a way to compute the chiral central charge from a bulk wave function. We obtain analytic expressions for $\u03c9_{\u03b1,\u03b2}$ for gapped ground states of non-interacting fermion Hamiltonians as well as ground states of string-net models. In both cases, we find that $\u03c9_{\u03b1,\u03b2}$ takes a universal value related to the chiral central charge. For integer values of $\u03b1$ and $\u03b2$, our quantity $\u03c9_{\u03b1,\u03b2}$ can be expressed as an expectation value of permutation operators acting on an appropriate replica system, providing a natural route to measuring $\u03c9_{\u03b1,\u03b2}$ in numerical simulations and potentially, experiments.",
+    "published": "2025-12-23T18:55:34Z",
+    "updated": "2025-12-23T18:55:34Z",
+    "authors": [
+      "Julian Gass",
+      "Michael Levin"
+    ],
+    "affiliations": [],
+    "first_author": "Julian Gass",
+    "pdf_url": "https://arxiv.org/pdf/2512.20608v1",
+    "primary_category": "cond-mat.str-el",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20607v1",
+    "arxiv_id": "2512.20607v1",
+    "title": "Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures",
+    "summary": "Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explains a simplicity bias arising from saddle-to-saddle learning dynamics for a general class of neural networks, incorporating fully-connected, convolutional, and attention-based architectures. Here, simple means expressible with few hidden units, i.e., hidden neurons, convolutional kernels, or attention heads. Specifically, we show that linear networks learn solutions of increasing rank, ReLU networks learn solutions with an increasing number of kinks, convolutional networks learn solutions with an increasing number of convolutional kernels, and self-attention models learn solutions with an increasing number of attention heads. By analyzing fixed points, invariant manifolds, and dynamics of gradient descent learning, we show that saddle-to-saddle dynamics operates by iteratively evolving near an invariant manifold, approaching a saddle, and switching to another invariant manifold. Our analysis also illuminates the effects of data distribution and weight initialization on the duration and number of plateaus in learning, dissociating previously confounding factors. Overall, our theory offers a framework for understanding when and why gradient descent progressively learns increasingly complex solutions.",
+    "published": "2025-12-23T18:55:30Z",
+    "updated": "2025-12-23T18:55:30Z",
+    "authors": [
+      "Yedi Zhang",
+      "Andrew Saxe",
+      "Peter E. Latham"
+    ],
+    "affiliations": [],
+    "first_author": "Yedi Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20607v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20606v1",
+    "arxiv_id": "2512.20606v1",
+    "title": "Repurposing Video Diffusion Transformers for Robust Point Tracking",
+    "summary": "Point tracking aims to localize corresponding points across video frames, serving as a fundamental task for 4D reconstruction, robotics, and video editing. Existing methods commonly rely on shallow convolutional backbones such as ResNet that process frames independently, lacking temporal coherence and producing unreliable matching costs under challenging conditions. Through systematic analysis, we find that video Diffusion Transformers (DiTs), pre-trained on large-scale real-world videos with spatio-temporal attention, inherently exhibit strong point tracking capability and robustly handle dynamic motions and frequent occlusions. We propose DiTracker, which adapts video DiTs through: (1) query-key attention matching, (2) lightweight LoRA tuning, and (3) cost fusion with a ResNet backbone. Despite training with 8 times smaller batch size, DiTracker achieves state-of-the-art performance on challenging ITTO benchmark and matches or outperforms state-of-the-art models on TAP-Vid benchmarks. Our work validates video DiT features as an effective and efficient foundation for point tracking.",
+    "published": "2025-12-23T18:54:10Z",
+    "updated": "2025-12-23T18:54:10Z",
+    "authors": [
+      "Soowon Son",
+      "Honggyu An",
+      "Chaehyun Kim",
+      "Hyunah Ko",
+      "Jisu Nam",
+      "Dahyun Chung",
+      "Siyoon Jin",
+      "Jung Yi",
+      "Jaewon Min",
+      "Junhwa Hur",
+      "Seungryong Kim"
+    ],
+    "affiliations": [],
+    "first_author": "Soowon Son",
+    "pdf_url": "https://arxiv.org/pdf/2512.20606v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20605v1",
+    "arxiv_id": "2512.20605v1",
+    "title": "Emergent temporal abstractions in autoregressive models enable hierarchical reinforcement learning",
+    "summary": "Large-scale autoregressive models pretrained on next-token prediction and finetuned with reinforcement learning (RL) have achieved unprecedented success on many problem domains. During RL, these models explore by generating new outputs, one token at a time. However, sampling actions token-by-token can result in highly inefficient learning, particularly when rewards are sparse. Here, we show that it is possible to overcome this problem by acting and exploring within the internal representations of an autoregressive model. Specifically, to discover temporally-abstract actions, we introduce a higher-order, non-causal sequence model whose outputs control the residual stream activations of a base autoregressive model. On grid world and MuJoCo-based tasks with hierarchical structure, we find that the higher-order model learns to compress long activation sequence chunks onto internal controllers. Critically, each controller executes a sequence of behaviorally meaningful actions that unfold over long timescales and are accompanied with a learned termination condition, such that composing multiple controllers over time leads to efficient exploration on novel tasks. We show that direct internal controller reinforcement, a process we term \"internal RL\", enables learning from sparse rewards in cases where standard RL finetuning fails. Our results demonstrate the benefits of latent action generation and reinforcement in autoregressive models, suggesting internal RL as a promising avenue for realizing hierarchical RL within foundation models.",
+    "published": "2025-12-23T18:51:50Z",
+    "updated": "2025-12-23T18:51:50Z",
+    "authors": [
+      "Seijin Kobayashi",
+      "Yanick Schimpf",
+      "Maximilian Schlegel",
+      "Angelika Steger",
+      "Maciej Wolczyk",
+      "Johannes von Oswald",
+      "Nino Scherre",
+      "Kaitlin Maile",
+      "Guillaume Lajoie",
+      "Blake A. Richards",
+      "Rif A. Saurous",
+      "James Manyika",
+      "Blaise Ag\u00fcera y Arcas",
+      "Alexander Meulemans",
+      "Jo\u00e3o Sacramento"
+    ],
+    "affiliations": [],
+    "first_author": "Seijin Kobayashi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20605v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20604v1",
+    "arxiv_id": "2512.20604v1",
+    "title": "MoE-DiffuSeq: Enhancing Long-Document Diffusion Models with Sparse Attention and Mixture of Experts",
+    "summary": "We present MoE-DiffuSeq, a mixture of experts based framework for enhancing diffusion models in long document generation. Existing diffusion based text generation models, such as DiffuSeq, suffer from high computational cost and memory overhead when applied to extended sequences. To address these challenges, MoE-DiffuSeq integrates sparse attention with a mixture of experts architecture, enabling efficient and scalable long sequence modeling. Our approach introduces a customized sparse attention mechanism designed to reduce computational complexity while preserving text quality and coherence. In addition, we incorporate a soft absorbing state within the diffusion process to accelerate sequence reconstruction and improve generation precision. Extensive experiments demonstrate that MoE-DiffuSeq significantly improves training efficiency and sampling speed compared to existing diffusion models. These advantages are particularly effective for long document scenarios, including scientific article generation, code repository modeling, and long form dialogue generation. Benchmark results further show that MoE-DiffuSeq improves efficiency, speed, accuracy, and expressiveness, advancing the practical applicability of diffusion models for high quality long form text generation.",
+    "published": "2025-12-23T18:50:54Z",
+    "updated": "2025-12-23T18:50:54Z",
+    "authors": [
+      "Alexandros Christoforos",
+      "Chadbourne Davis"
+    ],
+    "affiliations": [],
+    "first_author": "Alexandros Christoforos",
+    "pdf_url": "https://arxiv.org/pdf/2512.20604v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20603v1",
+    "arxiv_id": "2512.20603v1",
+    "title": "Coexistence of distinct Discrete Time-Crystalline orders in the Floquet Lipkin-Meshkov-Glick model",
+    "summary": "We examine the distinct discrete time crystals (DTCs) that emerge in the Lipkin-Meshkov-Glick model, subjected to spatially nonuniform periodic driving. Intriguingly, we demonstrate that by appropriately tailoring the drive protocol, distinct DTC orders can be realized in different spatial regions of the system. Consequently, the system exhibits spatially varying sub-harmonic responses with distinct frequencies. We employ a semi-classical analysis to establish the stability of these co-existing DTC orders in the thermodynamic limit. Furthermore, we establish the stability of the stability of these co-existing DTCs in the presence of quantum fluctuations. Our results establish spatially structured driving as a powerful route to engineer novel forms of time-crystalline order.",
+    "published": "2025-12-23T18:50:12Z",
+    "updated": "2025-12-23T18:50:12Z",
+    "authors": [
+      "Shashank Mishra",
+      "Sayan Choudhury"
+    ],
+    "affiliations": [],
+    "first_author": "Shashank Mishra",
+    "pdf_url": "https://arxiv.org/pdf/2512.20603v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20600v1",
+    "arxiv_id": "2512.20600v1",
+    "title": "Modeling Economic Systems as Multiport Networks",
+    "summary": "In this paper, we demonstrate how multiport network theory can be used as a powerful modeling tool in economics. The critical insight is using the port concept to pair the flow of goods (the electrical current) with the agent's incentive (the voltage) in an economic interaction. By building networks of agents interacting through ports, we create models with multiple levels of abstraction, from the macro level down to the micro level. We are thereby able to model complex macroeconomic systems whose dynamical behavior is emergent from the micro level. Using the LTSpice circuit simulator, we then design and analyze a series of example systems that range in complexity from the textbook Robinson Crusoe economy to a model of an entire economy.",
+    "published": "2025-12-23T18:47:32Z",
+    "updated": "2025-12-23T18:47:32Z",
+    "authors": [
+      "Coen Hutters",
+      "Max B. Mendel"
+    ],
+    "affiliations": [],
+    "first_author": "Coen Hutters",
+    "pdf_url": "https://arxiv.org/pdf/2512.20600v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20599v1",
+    "arxiv_id": "2512.20599v1",
+    "title": "Random Stinespring superchannel: converting channel queries into dilation isometry queries",
+    "summary": "The recently introduced random purification channel, which converts $n$ copies of an arbitrary mixed quantum state into $n$ copies of the same uniformly random purification, has emerged as a powerful tool in quantum information theory. Motivated by this development, we introduce a channel-level analogue, which we call the random Stinespring superchannel. This consists in a procedure to transform $n$ parallel queries of an arbitrary quantum channel into $n$ parallel queries of the same uniformly random Stinespring isometry, via universal encoding and decoding operations that are efficiently implementable. When the channel is promised to have Choi rank at most $r$, the procedure can be tailored to yield a Stinespring environment of dimension $r$. As a consequence, quantum channel learning reduces to isometry learning, yielding a simple channel learning algorithm, based on existing isometry learning protocols, that matches the performance of the two recently proposed channel tomography algorithms. Complementarily, whereas the optimality of these algorithms had previously been established only up to a logarithmic factor in the dimension, we close this gap by removing this logarithmic factor from the lower bound. Taken together, our results fully establish the optimality of these recently introduced channel learning algorithms, showing that the optimal query complexity of learning a quantum channel with input dimension $d_A$, output dimension $d_B$, and Choi rank $r$ is $\u0398(d_A d_B r)$.",
+    "published": "2025-12-23T18:46:07Z",
+    "updated": "2025-12-23T18:46:07Z",
+    "authors": [
+      "Filippo Girardi",
+      "Francesco Anna Mele",
+      "Haimeng Zhao",
+      "Marco Fanizza",
+      "Ludovico Lami"
+    ],
+    "affiliations": [],
+    "first_author": "Filippo Girardi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20599v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20595v1",
+    "arxiv_id": "2512.20595v1",
+    "title": "Cube Bench: A Benchmark for Spatial Visual Reasoning in MLLMs",
+    "summary": "We introduce Cube Bench, a Rubik's-cube benchmark for evaluating spatial and sequential reasoning in multimodal large language models (MLLMs). The benchmark decomposes performance into five skills: (i) reconstructing cube faces from images and text, (ii) choosing the optimal next move, (iii) predicting the outcome of a candidate move without applying it, (iv) executing multi-step plans while recovering from mistakes, and (v) detecting and revising one's own errors. Using a shared set of scrambled cube states, identical prompts and parsers, and a single distance-to-solved metric, we compare recent MLLMs side by side as a function of scramble depth. Across seven MLLMs, accuracy drops sharply with depth; once a trajectory stalls or diverges, models rarely recover, and high face-reconstruction accuracy does not guarantee competent action selection or multi-step execution. A pronounced closed- vs open-source gap emerges: the strongest closed model leads on both single-step perception tasks and multi-step control tasks, while open-weight models cluster near chance on the hardest settings; yet even the best MLLM degrades at higher cube complexity. A simple self-correction via reflective thinking yields modest gains but can also introduce overthinking. Cube Bench offers a compact, reproducible probe of sequential spatial reasoning in MLLMs.",
+    "published": "2025-12-23T18:43:05Z",
+    "updated": "2025-12-23T18:43:05Z",
+    "authors": [
+      "Dhruv Anand",
+      "Ehsan Shareghi"
+    ],
+    "affiliations": [],
+    "first_author": "Dhruv Anand",
+    "pdf_url": "https://arxiv.org/pdf/2512.20595v1",
+    "primary_category": "cs.CL",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20594v1",
+    "arxiv_id": "2512.20594v1",
+    "title": "The Sensitivity of PUEO to Cosmogenic Neutrinos and Exotic Physics Scenarios",
+    "summary": "Several observatories designed to detect ultrahigh-energy neutrinos are planned for the next decade. The most imminent of these is the Payload for Ultrahigh Energy Observations (PUEO), a long-duration balloon-based experiment that will provide unprecedented sensitivity to neutrinos with energies in the range of ~ 1 - 1000 EeV. In this work, we assess the scientific reach of PUEO. In particular, we evaluate the sensitivity of this observatory to cosmogenic neutrinos and, in turn, to the proton fraction of the ultrahigh-energy cosmic-ray spectrum. We also consider the potential of PUEO to probe scenarios in which neutrinos are produced through the decays of ultraheavy dark matter particles or are radiated from cosmic strings. We find that PUEO will be able to constrain the proton composition of ultrahigh-energy cosmic rays in scenarios that feature very strong source evolution and in which protons are accelerated to extremely high energies. Although gamma-ray observations are generally more sensitive to decaying particles than neutrino observations, PUEO is expected to set the strongest neutrino-detector constraints above 10^19 eV. PUEO will also provide the strongest constraints on some models of cosmic strings.",
+    "published": "2025-12-23T18:42:19Z",
+    "updated": "2025-12-23T18:42:19Z",
+    "authors": [
+      "Angelina Sherman",
+      "Ke Fang",
+      "Dan Hooper"
+    ],
+    "affiliations": [],
+    "first_author": "Angelina Sherman",
+    "pdf_url": "https://arxiv.org/pdf/2512.20594v1",
+    "primary_category": "astro-ph.HE",
+    "relevance_score": 10.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20593v1",
+    "arxiv_id": "2512.20593v1",
+    "title": "Structural properties of the Airy wanderer line ensembles",
+    "summary": "The Airy wanderer line ensembles are infinite-parameter generalizations of the classical Airy line ensemble that arise naturally as scaling limits of inhomogeneous (spiked) models in the Kardar-Parisi-Zhang universality class. In this paper, we establish several structural properties of these ensembles. Our results show their laws depend continuously on the parameters, which encode the asymptotic slopes of the ensemble's curves near positive and negative infinity. We further prove that these ensembles admit multiple monotone couplings with respect to their parameters. Finally, we show that the Airy wanderer line ensembles are extreme points in the space of all Brownian Gibbsian line ensembles on the real line.",
+    "published": "2025-12-23T18:41:35Z",
+    "updated": "2025-12-23T18:41:35Z",
+    "authors": [
+      "Evgeni Dimitrov"
+    ],
+    "affiliations": [],
+    "first_author": "Evgeni Dimitrov",
+    "pdf_url": "https://arxiv.org/pdf/2512.20593v1",
+    "primary_category": "math.PR",
+    "relevance_score": 10.0
+  }
+]

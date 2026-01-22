@@ -1,0 +1,304 @@
+{
+  "search_date": "2025-12-25T08:32:37.176007",
+  "topic": "Issue #68 Topic 8: Key Material Exfiltration Prevention During Rotation",
+  "total_papers_evaluated": 10,
+  "top_papers_selected": 10,
+  "papers": [
+    {
+      "rank": 1,
+      "arxiv_id": "2507.17655v2",
+      "title": "HSM and TPM Failures in Cloud: A Real-World Taxonomy and Emerging Defenses",
+      "authors": [
+        "Shams Shaikh",
+        "Trima P. Fernandes e Fizardo"
+      ],
+      "published": "2025-07-23T16:18:16Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.NI",
+        "cs.SE"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.17655v2",
+      "url": "http://arxiv.org/abs/2507.17655v2",
+      "relevance_score": 38.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'cryptographic key' (+4.0)",
+        "'key management' (+3.0)",
+        "'hardware security' (+3.0)",
+        "'hsm' (+3.0)",
+        "'tpm' (+3.0)",
+        "'trusted platform' (+2.5)",
+        "'post-quantum' (+2.0)",
+        "Strong security context (+2)",
+        "Relevant categories: ['cs.CR', 'cs.NI', 'cs.SE'] (+6.0)"
+      ],
+      "summary": "As cloud infrastructure becomes the backbone of modern organizations, the security of cryptographic key management, especially using Hardware Security Modules (HSMs) and Trusted Platform Modules (TPMs), faces unprecedented challenges. While these hardware-based solutions offer strong protection in isolated environments, their effectiveness is being undermined by cloud-native threats such as misconfigurations, compromised APIs, and lateral privilege escalations. This paper presents a comprehensiv..."
+    },
+    {
+      "rank": 2,
+      "arxiv_id": "2507.09022v1",
+      "title": "SSH-Passkeys: Leveraging Web Authentication for Passwordless SSH",
+      "authors": [
+        "Moe Kayali",
+        "Jonas Schmitt",
+        "Franziska Roesner"
+      ],
+      "published": "2025-07-11T21:13:09Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2507.09022v1",
+      "url": "http://arxiv.org/abs/2507.09022v1",
+      "relevance_score": 32.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'key lifecycle' (+5.0)",
+        "'key material' (+4.0)",
+        "'key management' (+3.0)",
+        "'attestation' (+2.5)",
+        "'authentication' (+1.0)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR'] (+2.0)"
+      ],
+      "summary": "We propose a method for using Web Authentication APIs for SSH authentication, enabling passwordless remote server login with passkeys. These are credentials that are managed throughout the key lifecycle by an authenticator on behalf of the user and offer strong security guarantees.   Passwords remain the dominant mode of SSH authentication, despite their well known flaws such as phishing and reuse. SSH's custom key-based authentication protocol can alleviate these issues but remains vulnerable t..."
+    },
+    {
+      "rank": 3,
+      "arxiv_id": "2512.18488v1",
+      "title": "QLink: Quantum-Safe Bridge Architecture for Blockchain Interoperability",
+      "authors": [
+        "Joao Vitor Barros Da Silva",
+        "Arsh Gupta",
+        "Madhusudan Singh Irish Singh"
+      ],
+      "published": "2025-12-20T19:54:30Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2512.18488v1",
+      "url": "http://arxiv.org/abs/2512.18488v1",
+      "relevance_score": 27.0,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'key management' (+3.0)",
+        "'hardware security' (+3.0)",
+        "'hsm' (+3.0)",
+        "'encryption' (+1.0)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR'] (+2.0)"
+      ],
+      "summary": "Secure interoperability across heterogeneous blockchains remains one of the most pressing challenges in Web3 with existing bridge protocols vulnerable to both classical exploits and emerging quantum threats. This paper introduces QLink a quantum-safe Layer 3 interoperability protocol that integrates postquantum cryptography (PQC) quantum key distribution (QKD) and hardware security modules (HSMs) into a unified validator architecture. To our knowledge, QLink is the first interoperability framewo..."
+    },
+    {
+      "rank": 4,
+      "arxiv_id": "2510.12469v1",
+      "title": "Proof of Cloud: Data Center Execution Assurance for Confidential VMs",
+      "authors": [
+        "Filip Rezabek",
+        "Moe Mahhouk",
+        "Andrew Miller",
+        "Stefan Genchev",
+        "Quintus Kilbourn",
+        "Georg Carle",
+        "Jonathan Passerat-Palmbach"
+      ],
+      "published": "2025-10-14T13:01:48Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.DC"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2510.12469v1",
+      "url": "http://arxiv.org/abs/2510.12469v1",
+      "relevance_score": 26.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'tpm' (+3.0)",
+        "'trusted platform' (+2.5)",
+        "'attestation' (+2.5)",
+        "'certificate' (+1.5)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR', 'cs.DC'] (+4.0)"
+      ],
+      "summary": "Confidential Virtual Machines (CVMs) protect data in use by running workloads inside hardware-isolated environments. In doing so, they also inherit the limitations of the underlying hardware. Trusted Execution Environments (TEEs), which enforce this isolation, explicitly exclude adversaries with physical access from their threat model. Commercial TEEs, e.g., Intel TDX, thus assume infrastructure providers do not physically exploit hardware and serve as safeguards instead. This creates a tension:..."
+    },
+    {
+      "rank": 5,
+      "arxiv_id": "2501.13716v1",
+      "title": "A Comprehensive Framework for Building Highly Secure, Network-Connected Devices: Chip to App",
+      "authors": [
+        "Khan Reaz",
+        "Gerhard Wunder"
+      ],
+      "published": "2025-01-23T14:44:34Z",
+      "year": 2025,
+      "categories": [
+        "cs.NI",
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2501.13716v1",
+      "url": "http://arxiv.org/abs/2501.13716v1",
+      "relevance_score": 25.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'key management' (+3.0)",
+        "'post-quantum' (+2.0)",
+        "'certificate' (+1.5)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.NI', 'cs.CR'] (+4.0)"
+      ],
+      "summary": "The rapid expansion of connected devices has amplified the need for robust and scalable security frameworks. This paper proposes a holistic approach to securing network-connected devices, covering essential layers: hardware, firmware, communication, and application. At the hardware level, we focus on secure key management, reliable random number generation, and protecting critical assets. Firmware security is addressed through mechanisms like cryptographic integrity validation and secure boot pr..."
+    },
+    {
+      "rank": 6,
+      "arxiv_id": "2510.05163v1",
+      "title": "Deep Learning-Based Multi-Factor Authentication: A Survey of Biometric and Smart Card Integration Approaches",
+      "authors": [
+        "Abdelilah Ganmati",
+        "Karim Afdel",
+        "Lahcen Koutti"
+      ],
+      "published": "2025-10-04T18:34:16Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2510.05163v1",
+      "url": "http://arxiv.org/abs/2510.05163v1",
+      "relevance_score": 25.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'tpm' (+3.0)",
+        "'secure enclave' (+3.0)",
+        "'authentication' (+1.0)",
+        "'secure storage' (+1.5)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR'] (+2.0)"
+      ],
+      "summary": "In the era of pervasive cyber threats and exponential growth in digital services, the inadequacy of single-factor authentication has become increasingly evident. Multi-Factor Authentication (MFA), which combines knowledge-based factors (passwords, PINs), possession-based factors (smart cards, tokens), and inherence-based factors (biometric traits), has emerged as a robust defense mechanism. Recent breakthroughs in deep learning have transformed the capabilities of biometric systems, enabling hig..."
+    },
+    {
+      "rank": 7,
+      "arxiv_id": "2509.05893v1",
+      "title": "Wrangling Entropy: Next-Generation Multi-Factor Key Derivation, Credential Hashing, and Credential Generation Functions",
+      "authors": [
+        "Colin Roberts",
+        "Vivek Nair",
+        "Dawn Song"
+      ],
+      "published": "2025-09-07T02:01:53Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2509.05893v1",
+      "url": "http://arxiv.org/abs/2509.05893v1",
+      "relevance_score": 25.0,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'cryptographic key' (+4.0)",
+        "'key management' (+3.0)",
+        "'authentication' (+1.0)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR'] (+2.0)"
+      ],
+      "summary": "The Multi-Factor Key Derivation Function (MFKDF) offered a novel solution to the classic problem of usable client-side key management by incorporating multiple popular authentication factors into a key derivation process, but was later shown to be vulnerable to cryptanalysis that degraded its security over multiple invocations. In this paper, we present the Entropy State Transition Modeling Framework (ESTMF), a novel cryptanalytic technique designed to reveal pernicious leaks of entropy across m..."
+    },
+    {
+      "rank": 8,
+      "arxiv_id": "2506.13261v1",
+      "title": "Building Automotive Security on Internet Standards: An Integration of DNSSEC, DANE, and DANCE to Authenticate and Authorize In-Car Services",
+      "authors": [
+        "Timo Salomon",
+        "Mehmet Mueller",
+        "Philipp Meyer",
+        "Thomas C. Schmidt"
+      ],
+      "published": "2025-06-16T09:02:32Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR",
+        "cs.NI"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2506.13261v1",
+      "url": "http://arxiv.org/abs/2506.13261v1",
+      "relevance_score": 24.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'key management' (+3.0)",
+        "'authentication' (+1.0)",
+        "'certificate' (+1.5)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR', 'cs.NI'] (+4.0)"
+      ],
+      "summary": "The automotive industry is undergoing a software-as-a-service transformation that enables software-defined functions and post-sale updates via cloud and vehicle-to-everything communication. Connectivity in cars introduces significant security challenges, as remote attacks on vehicles have become increasingly prevalent. Current automotive designs call for security solutions that address the entire lifetime of a vehicle. In this paper, we propose to authenticate and authorize in-vehicle services b..."
+    },
+    {
+      "rank": 9,
+      "arxiv_id": "2505.01782v1",
+      "title": "Energy-Efficient NTT Sampler for Kyber Benchmarked on FPGA",
+      "authors": [
+        "Paresh Baidya",
+        "Rourab Paul",
+        "Vikas Srivastava",
+        "Sumit Kumar Debnath"
+      ],
+      "published": "2025-05-03T10:54:01Z",
+      "year": 2025,
+      "categories": [
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2505.01782v1",
+      "url": "http://arxiv.org/abs/2505.01782v1",
+      "relevance_score": 24.5,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'tpm' (+3.0)",
+        "'trusted platform' (+2.5)",
+        "'post-quantum' (+2.0)",
+        "Strong security context (+2)",
+        "US institution affiliation (+3)",
+        "Relevant categories: ['cs.CR'] (+2.0)"
+      ],
+      "summary": "Kyber is a lattice-based key encapsulation mechanism selected for standardization by the NIST Post-Quantum Cryptography (PQC) project. A critical component of Kyber's key generation process is the sampling of matrix elements from a uniform distribution over the ring Rq . This step is one of the most computationally intensive tasks in the scheme, significantly impacting performance in low-power embedded systems such as Internet of Things (IoT), wearable devices, wireless sensor networks (WSNs), s..."
+    },
+    {
+      "rank": 10,
+      "arxiv_id": "2508.09735v1",
+      "title": "Route Planning and Online Routing for Quantum Key Distribution Networks",
+      "authors": [
+        "Jorge López",
+        "Charalampos Chatzinakis",
+        "Marc Cartigny"
+      ],
+      "published": "2025-08-13T12:00:55Z",
+      "year": 2025,
+      "categories": [
+        "cs.NI",
+        "cs.CR"
+      ],
+      "pdf_url": "https://arxiv.org/pdf/2508.09735v1",
+      "url": "http://arxiv.org/abs/2508.09735v1",
+      "relevance_score": 24.0,
+      "relevance_reasons": [
+        "2025 publication (+10)",
+        "'key material' (+4.0)",
+        "'cryptographic key' (+4.0)",
+        "Strong security context (+2)",
+        "Relevant categories: ['cs.NI', 'cs.CR'] (+4.0)"
+      ],
+      "summary": "Quantum Key Distribution (QKD) networks harness the principles of quantum physics in order to securely transmit cryptographic key material, providing physical guarantees. These networks require traditional management and operational components, such as routing information through the network elements. However, due to the limitations on capacity and the particularities of information handling in these networks, traditional shortest paths algorithms for routing perform poorly on both route plannin..."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+[
+  {
+    "arxiv_id": "2601.03013",
+    "title": "LLMs, You Can Evaluate It! Design of Multi-perspective Report Evaluation for Security Operation Centers",
+    "summary": "Security operation centers (SOCs) often produce analysis reports on security incidents, and large language models (LLMs) will likely be used for this task in the near future. We postulate that a better understanding of how veteran analysts evaluate reports, including their feedback, can help produce analysis reports in SOCs. In this paper, we aim to leverage LLMs for analysis reports. To this end, we first construct a Analyst-wise checklist to reflect SOC practitioners' opinions for analysis report evaluation through literature review and user study with SOC practitioners. Next, we design a novel LLM-based conceptual framework, named MESSALA, by further introducing two new techniques, granularization guideline and multi-perspective evaluation. MESSALA can maximize report evaluation and provide feedback on veteran SOC practitioners' perceptions. When we conduct extensive experiments with MESSALA, the evaluation results by MESSALA are the closest to those of veteran SOC practitioners compared with the existing LLM-based methods. We then show two key insights. We also conduct qualitative analysis with MESSALA, and then identify that MESSALA can provide actionable items that are necessary for improving analysis reports.",
+    "authors": [
+      "Hiroyuki Okada",
+      "Tatsumi Oba",
+      "Naoto Yanai"
+    ],
+    "published": "2026-01-06T13:37:50Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 61.0
+  },
+  {
+    "arxiv_id": "2512.22669",
+    "title": "SCyTAG: Scalable Cyber-Twin for Threat-Assessment Based on Attack Graphs",
+    "summary": "Understanding the risks associated with an enterprise environment is the first step toward improving its security. Organizations employ various methods to assess and prioritize the risks identified in cyber threat intelligence (CTI) reports that may be relevant to their operations. Some methodologies rely heavily on manual analysis (which requires expertise and cannot be applied frequently), while others automate the assessment, using attack graphs (AGs) or threat emulators. Such emulators can be employed in conjunction with cyber twins to avoid disruptions in live production environments when evaluating the highlighted threats. Unfortunately, the use of cyber twins in organizational networks is limited due to their inability to scale. In this paper, we propose SCyTAG, a multi-step framework that generates the minimal viable cyber twin required to assess the impact of a given attack scenario. Given the organizational computer network specifications and an attack scenario extracted from a CTI report, SCyTAG generates an AG. Then, based on the AG, it automatically constructs a cyber twin comprising the network components necessary to emulate the attack scenario and assess the relevance and risks of the attack to the organization. We evaluate SCyTAG on both a real and fictitious organizational network. The results show that compared to the full topology, SCyTAG reduces the number of network components needed for emulation by up to 85% and halves the amount of required resources while preserving the fidelity of the emulated attack. SCyTAG serves as a cost-effective, scalable, and highly adaptable threat assessment solution, improving organizational cyber defense by bridging the gap between abstract CTI and practical scenario-driven testing.",
+    "authors": [
+      "David Tayouri",
+      "Elad Duani",
+      "Abed Showgan",
+      "Ofir Manor",
+      "Ortal Lavi"
+    ],
+    "published": "2025-12-27T18:04:29Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 59.5
+  },
+  {
+    "arxiv_id": "2512.18714",
+    "title": "An Evidence-Driven Analysis of Threat Information Sharing Challenges for Industrial Control Systems and Future Directions",
+    "summary": "The increasing cyber threats to critical infrastructure highlight the importance of private companies and government agencies in detecting and sharing information about threat activities. Although the need for improved threat information sharing is widely recognized, various technical and organizational challenges persist, hindering effective collaboration. In this study, we review the challenges that disturb the sharing of usable threat information to critical infrastructure operators within the ICS domain. We analyze three major incidents: Stuxnet, Industroyer, and Triton. In addition, we perform a systematic analysis of 196 procedure examples across 79 MITRE ATT&amp;CK techniques from 22 ICS-related malware families, utilizing automated natural language processing techniques to systematically extract and categorize threat observables. Additionally, we investigated nine recent ICS vulnerability advisories from the CISA Known Exploitable Vulnerability catalog. Our analysis identified four important limitations in the ICS threat information sharing ecosystem: (i) the lack of coherent representation of artifacts related to ICS adversarial techniques in information sharing language standards (e.g., STIX); (ii) the dependence on undocumented proprietary technologies; (iii) limited technical details provided in vulnerability and threat incident reports; and (iv) the accessibility of technical details for observed adversarial techniques. This study aims to guide the development of future information-sharing standards, including the enhancement of the cyber-observable objects schema in STIX, to ensure accurate representation of artifacts specific to ICS environments.",
+    "authors": [
+      "Adam Hahn",
+      "Rubin Krief",
+      "Daniel Rebori-Carretero",
+      "Rami Puzis",
+      "Aviad Elyashar"
+    ],
+    "published": "2025-12-21T12:22:07Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2508.20963",
+    "title": "Guarding Against Malicious Biased Threats (GAMBiT) Experiments: Revealing Cognitive Bias in Human-Subjects Red-Team Cyber Range Operations",
+    "summary": "We present three large-scale human-subjects red-team cyber range datasets from the Guarding Against Malicious Biased Threats (GAMBiT) project. Across Experiments 1-3 (July 2024-March 2025), 19-20 skilled attackers per experiment conducted two 8-hour days of self-paced operations in a simulated enterprise network (SimSpace Cyber Force Platform) while we captured multi-modal data: self-reports (background, demographics, psychometrics), operational notes, terminal histories, keylogs, network packet captures (PCAP), and NIDS alerts (Suricata). Each participant began from a standardized Kali Linux VM and pursued realistic objectives (e.g., target discovery and data exfiltration) under controlled constraints. Derivative curated logs and labels are included. The combined release supports research on attacker behavior modeling, bias-aware analytics, and method benchmarking. Data are available via IEEE Dataport entries for Experiments 1-3.",
+    "authors": [
+      "Brandon Beltz",
+      "Jim Doty",
+      "Yvonne Fonken",
+      "Nikolos Gurney",
+      "Brett Israelsen"
+    ],
+    "published": "2025-08-28T16:20:09Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2512.15150",
+    "title": "Policy-Value Guided MDP-MCTS Framework for Cyber Kill-Chain Inference",
+    "summary": "Threat analysts routinely rely on natural-language reports that describe attacker actions without enumerating the full kill chain or the dependencies between phases, making automated reconstruction of ATT&amp;CK consistent intrusion paths a difficult open problem. We propose a reasoning framework that infers complete seven-phase kill chains by coupling phase-conditioned semantic priors from Transformer models with a symbolic Markov Decision Process and an AlphaZero-style Monte Carlo Tree Search guided by a Policy-Value Network. The framework enforces semantic relevance, phase cohesion, and transition plausibility through a multi-objective reward function while allowing search to explore alternative interpretations of the CTI narrative. Applied to three real intrusions FIN6, APT24, and UNC1549 the approach yields kill chains that surpass Transformer baselines in semantic fidelity and operational coherence, and frequently align with expert-selected TTPs. Our results demonstrate that combining contextual embeddings with search-based decision-making offers a practical path toward automated, interpretable kill-chain reconstruction for cyber defense.",
+    "authors": [
+      "Chitraksh Singh",
+      "Monisha Dhanraj",
+      "Ken Huang"
+    ],
+    "published": "2025-12-17T07:31:37Z",
+    "primary_category": "cs.CR",
+    "relevance_score": 56.50000000000001
+  },
+  {
+    "arxiv_id": "2510.08193",
+    "title": "Measuring What Matters: The AI Pluralism Index",
+    "summary": "Artificial intelligence systems increasingly mediate knowledge, communication, and decision making. Development and governance remain concentrated within a small set of firms and states, raising concerns that technologies may encode narrow interests and limit public agency. Capability benchmarks for language, vision, and coding are common, yet public, auditable measures of pluralistic governance are rare. We define AI pluralism as the degree to which affected stakeholders can shape objectives, data practices, safeguards, and deployment. We present the AI Pluralism Index (AIPI), a transparent, evidence-based instrument that evaluates producers and system families across four pillars: participatory governance, inclusivity and diversity, transparency, and accountability. AIPI codes verifiable practices from public artifacts and independent evaluations, explicitly handling \"Unknown\" evidence to report both lower-bound (\"evidence\") and known-only scores with coverage. We formalize the measurement model; implement a reproducible pipeline that integrates structured web and repository analysis, external assessments, and expert interviews; and assess reliability with inter-rater agreement, coverage reporting, cross-index correlations, and sensitivity analysis. The protocol, codebook, scoring scripts, and evidence graph are maintained openly with versioned releases and a public adjudication process. We report pilot provider results and situate AIPI relative to adjacent transparency, safety, and governance frameworks. The index aims to steer incentives toward pluralistic practice and to equip policymakers, procurers, and the public with comparable evidence.",
+    "authors": [
+      "Rashid Mushkani"
+    ],
+    "published": "2025-10-09T13:19:34Z",
+    "primary_category": "cs.AI",
+    "relevance_score": 54.0
+  }
+]

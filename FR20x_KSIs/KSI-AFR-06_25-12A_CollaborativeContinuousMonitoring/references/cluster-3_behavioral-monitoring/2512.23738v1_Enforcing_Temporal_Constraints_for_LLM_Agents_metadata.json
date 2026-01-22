@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.23738v1",
+  "title": "Enforcing Temporal Constraints for LLM Agents",
+  "authors": [
+    "Adharsh Kamath",
+    "Sishen Zhang",
+    "Calvin Xu",
+    "Shubham Ugare",
+    "Gagandeep Singh"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23738v1",
+  "relevance_score": 83.0,
+  "estimated_pages": 12,
+  "key_topics": [
+    "autonomous systems"
+  ],
+  "summary": "LLM-based agents are deployed in safety-critical applications, yet current guardrail systems fail to prevent violations of temporal safety policies, requirements that govern the ordering and sequencing of agent actions. For instance, agents may access sensitive data before authenticating users or process refunds to unauthorized payment methods, violations that require reasoning about sequences of action rather than an individual action. Existing guardrails rely on imprecise natural language inst..."
+}

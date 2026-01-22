@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.21909v1",
+  "title": "Explaining and Mitigating Crosslingual Tokenizer Inequities",
+  "authors": [
+    "Catherine Arnett",
+    "Tyler A. Chang",
+    "Stella Biderman",
+    "Benjamin K. Bergen"
+  ],
+  "published": "2025-10-24T17:36:03Z",
+  "url": "http://arxiv.org/abs/2510.21909v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.21909v1.pdf",
+  "relevance_score": 72,
+  "dimension": "Training Effectiveness Measurement",
+  "cluster": "A",
+  "summary": "The number of tokens it takes to encode parallel text in different languages is known to vary. These disparities are called token premiums. Having high token premiums leads to less throughput during training and increases costs at inference. In this paper, we show that even after controlling for dataset size, vocabulary size, and data content, monolingual tokenizers exhibit a wide range of token premiums across languages. To understand the cross-linguistic differences that cause these token prem"
+}

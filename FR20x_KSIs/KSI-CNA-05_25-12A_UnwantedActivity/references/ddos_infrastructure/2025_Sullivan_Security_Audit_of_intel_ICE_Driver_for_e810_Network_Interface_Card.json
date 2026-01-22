@@ -1,0 +1,17 @@
+{
+  "title": "Security Audit of intel ICE Driver for e810 Network Interface Card",
+  "authors": [
+    "Oisin O Sullivan"
+  ],
+  "published": "2025-10-31T20:20:10+00:00",
+  "arxiv_id": "2511.01910v2",
+  "abstract": "The security of enterprise-grade networking hardware and software is critical to ensuring the integrity, availability, and confidentiality of data in modern cloud and data center environments. Network interface controllers (NICs) play a pivotal role in high-performance computing and virtualization, but their privileged access to system resources makes them a prime target for security vulnerabilities. This study presents a security analysis of the Intel ICE driver using the E810 Ethernet Controller, employing static analysis, fuzz testing, and timing-based side-channel evaluation to assess robustness against exploitation. The objective is to evaluate the drivers resilience to malformed inputs, identify implementation weaknesses, and determine whether timing discrepancies can be exploited for unauthorized inference of system states. Static code analysis reveals that insufficient bounds checking and unsafe string operations may introduce security flaws. Fuzz testing targets the Admin Queue, debugfs interface, and virtual function (VF) management. Interface-aware fuzzing and command mutation confirm strong input validation that prevents memory corruption and privilege escalation under normal conditions. However, using principles from KernelSnitch, the driver is found to be susceptible to timing-based side-channel attacks. Execution time discrepancies in hash table lookups allow an unprivileged attacker to infer VF occupancy states, enabling potential network mapping in multi-tenant environments. Further analysis shows inefficiencies in Read-Copy-Update (RCU) synchronization, where missing synchronization leads to stale data persistence, memory leaks, and out-of-memory conditions. Kernel instrumentation confirms that occupied VF lookups complete faster than unoccupied queries, exposing timing-based information leakage.",
+  "categories": [
+    "cs.CR"
+  ],
+  "relevance_score": 15.0,
+  "query_category": "cloud_security",
+  "us_affiliation": true,
+  "pdf_url": "https://arxiv.org/pdf/2511.01910v2",
+  "downloaded": "2025-12-11T08:25:15.580865"
+}

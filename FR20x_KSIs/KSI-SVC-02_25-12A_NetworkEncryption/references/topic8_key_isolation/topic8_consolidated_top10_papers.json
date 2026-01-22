@@ -1,0 +1,236 @@
+[
+  {
+    "rank": 1,
+    "arxiv_id": "2509.15653v2",
+    "title": "Future-Proofing Cloud Security Against Quantum Attacks: Risk, Transition, and Mitigation Strategies",
+    "authors": [
+      "Yaser Baseri",
+      "Abdelhakim Hafid",
+      "Arash Habibi Lashkari"
+    ],
+    "year": 2025,
+    "published": "2025-09-19T06:25:12Z",
+    "relevance_score": 20.0,
+    "pdf_url": "https://arxiv.org/pdf/2509.15653v2",
+    "primary_category": "cs.CR",
+    "summary": "Quantum Computing (QC) introduces a transformative threat to digital security, with the potential to compromise widely deployed classical cryptographic systems. This survey offers a comprehensive and systematic examination of quantum-safe security for Cloud Computing (CC), focusing on the vulnerabilities, transition strategies, and mitigation mechanisms required to secure cloud infrastructures in the quantum era. We evaluated the landscape of quantum threats across the entire CC stack, demonstrating how quantum algorithms can undermine classical encryption and compromise cloud security at multiple architectural layers.",
+    "key_topics": [
+      "Quantum threats to cryptography",
+      "Post-Quantum Cryptography (PQC)",
+      "Cryptographic agility",
+      "Cloud security",
+      "Hybrid cryptographic approaches"
+    ]
+  },
+  {
+    "rank": 2,
+    "arxiv_id": "2508.02816v1",
+    "title": "Thermal-Aware 3D Design for Side-Channel Information Leakage",
+    "authors": [
+      "Dylan Stow",
+      "Russell Barnes",
+      "Eren Kurshan",
+      "Yuan Xie"
+    ],
+    "year": 2025,
+    "published": "2025-07-24T15:39:46Z",
+    "relevance_score": 20.0,
+    "pdf_url": "https://arxiv.org/pdf/2508.02816v1",
+    "primary_category": "cs.CR",
+    "summary": "Side-channel attacks are important security challenges as they reveal sensitive information about on-chip activities. Among such attacks, the thermal side-channel has been shown to disclose the activities of key functional blocks and even encryption keys. This paper proposes a novel approach to proactively conceal critical activities in the functional layers while minimizing the power dissipation by leveraging inherent characteristics of 3D integration.",
+    "key_topics": [
+      "Side-channel attacks",
+      "Thermal leakage",
+      "Key extraction attacks",
+      "Microarchitectural defense",
+      "3D integration security"
+    ]
+  },
+  {
+    "rank": 3,
+    "arxiv_id": "2507.18157v1",
+    "title": "An Improved ChaCha Algorithm Based on Quantum Random Number",
+    "authors": [
+      "Chao Liu",
+      "Shuai Zhao",
+      "Chenhao Jia",
+      "Gengran Hu",
+      "Tingting Cui"
+    ],
+    "year": 2025,
+    "published": "2025-07-24T07:50:17Z",
+    "relevance_score": 20.0,
+    "pdf_url": "https://arxiv.org/pdf/2507.18157v1",
+    "primary_category": "cs.CR",
+    "summary": "Due to the merits of high efficiency and strong security against timing and side-channel attacks, ChaCha has been widely applied in real-time communication and data streaming scenarios. To further strengthen the security of ChaCha cipher, we propose an improved variant based on quantum random numbers (QRE-ChaCha).",
+    "key_topics": [
+      "Cryptographic algorithm strengthening",
+      "Side-channel attack resistance",
+      "Quantum random numbers",
+      "Differential cryptanalysis",
+      "Timing attack mitigation"
+    ]
+  },
+  {
+    "rank": 4,
+    "arxiv_id": "2506.09418v1",
+    "title": "Securing Open RAN: A Survey of Cryptographic Challenges and Emerging Solutions for 5G",
+    "authors": [
+      "Ryan Barker",
+      "Fatemeh Afghah"
+    ],
+    "year": 2025,
+    "published": "2025-06-11T06:04:40Z",
+    "relevance_score": 20.0,
+    "pdf_url": "https://arxiv.org/pdf/2506.09418v1",
+    "primary_category": "cs.CR",
+    "summary": "The advent of Open Radio Access Networks (O-RAN) introduces modularity and flexibility into 5G deployments but also surfaces novel security challenges across disaggregated interfaces. This literature review synthesizes recent research examining vulnerabilities such as cipher bidding-down attacks and partial encryption exposure.",
+    "key_topics": [
+      "5G/6G security",
+      "Open RAN cryptography",
+      "Cipher selection and agility",
+      "Heterogeneous network security",
+      "Zero-trust architectures"
+    ]
+  },
+  {
+    "rank": 5,
+    "arxiv_id": "2506.13246v1",
+    "title": "On Immutable Memory Systems for Artificial Agents: A Blockchain-Indexed Automata-Theoretic Framework Using ECDH-Keyed Merkle Chains",
+    "authors": [
+      "Craig Steven Wright"
+    ],
+    "year": 2025,
+    "published": "2025-06-16T08:43:56Z",
+    "relevance_score": 20.0,
+    "pdf_url": "https://arxiv.org/pdf/2506.13246v1",
+    "primary_category": "cs.CR",
+    "summary": "This paper presents a formalised architecture for synthetic agents designed to retain immutable memory, verifiable reasoning, and constrained epistemic growth. The Merkle Automaton integrates formal automata theory with blockchain-based commitments, and uses ECDH exchanges for symmetric encryption keys with cryptographic access control over append-only structures.",
+    "key_topics": [
+      "Cryptographic key management for agents",
+      "Immutable memory systems",
+      "Key isolation in multi-agent systems",
+      "ECDH-based encryption",
+      "Formal verification of cryptographic protocols"
+    ]
+  },
+  {
+    "rank": 6,
+    "arxiv_id": "2512.00833v2",
+    "title": "Logic Encryption: This Time for Real",
+    "authors": [
+      "Rupesh Raj Karn",
+      "Lakshmi Likhitha Mankali",
+      "Zeng Wang",
+      "Saideep Sreekumar",
+      "Prithwish Basu Roy",
+      "Ozgur Sinanoglu",
+      "Lilas Alrahis",
+      "Johann Knechtel"
+    ],
+    "year": 2025,
+    "published": "2025-11-30T11:04:01Z",
+    "relevance_score": 18.0,
+    "pdf_url": "https://arxiv.org/pdf/2512.00833v2",
+    "primary_category": "cs.CR",
+    "summary": "Modern circuits face various threats like reverse engineering, theft of intellectual property (IP), and side-channel attacks. This paper presents a novel approach for IP protection based on logic encryption (LE) that obfuscates the circuit's structure and functionality by encoding and encrypting the logic itself.",
+    "key_topics": [
+      "Hardware security",
+      "Side-channel attack protection",
+      "Circuit obfuscation",
+      "Key management in hardware",
+      "Reverse engineering defense"
+    ]
+  },
+  {
+    "rank": 7,
+    "arxiv_id": "2511.11385v2",
+    "title": "Automated Side-Channel Analysis of Cryptographic Protocol Implementations",
+    "authors": [
+      "Faezeh Nasrabadi",
+      "Robert Künnemann",
+      "Hamed Nemati"
+    ],
+    "year": 2025,
+    "published": "2025-11-14T15:13:49Z",
+    "relevance_score": 18.0,
+    "pdf_url": "https://arxiv.org/pdf/2511.11385v2",
+    "primary_category": "cs.CR",
+    "summary": "We extract the first formal model of WhatsApp from its implementation and introduce a methodology to analyze cryptographic protocol implementations for their resilience to side-channel attacks. Using this methodology, we identify a privacy attack in WhatsApp that allows a side-channel attacker to learn the victim's contacts.",
+    "key_topics": [
+      "Side-channel attack analysis",
+      "Cryptographic protocol security",
+      "Microarchitectural attacks",
+      "Key extraction from implementations",
+      "Formal verification"
+    ]
+  },
+  {
+    "rank": 8,
+    "arxiv_id": "2510.23847v2",
+    "title": "EthVault: A Secure and Resource-Conscious FPGA-Based Ethereum Cold Wallet",
+    "authors": [
+      "Joel Poncha Lemayian",
+      "Ghyslain Gagnon",
+      "Kaiwen Zhang",
+      "Pascal Giard"
+    ],
+    "year": 2025,
+    "published": "2025-10-27T20:35:21Z",
+    "relevance_score": 18.0,
+    "pdf_url": "https://arxiv.org/pdf/2510.23847v2",
+    "primary_category": "cs.CR",
+    "summary": "Cryptocurrency blockchain networks safeguard digital assets using cryptographic keys, with wallets playing a critical role in generating, storing, and managing these keys. This work presents EthVault, the first hardware architecture for an Ethereum hierarchically deterministic cold wallet, featuring hardware implementations of key algorithms with an ECC architecture resilient to side-channel and timing attacks.",
+    "key_topics": [
+      "Key isolation in wallets",
+      "Side-channel resistant implementations",
+      "Hardware-based key storage",
+      "Cryptocurrency security",
+      "ECC implementation security"
+    ]
+  },
+  {
+    "rank": 9,
+    "arxiv_id": "2510.15413v1",
+    "title": "FHE-SQL: Fully Homomorphic Encrypted SQL Database",
+    "authors": [
+      "Po-Yu Tseng",
+      "Po-Chu Hsu",
+      "Shih-Wei Liao"
+    ],
+    "year": 2025,
+    "published": "2025-10-17T08:07:27Z",
+    "relevance_score": 18.0,
+    "pdf_url": "https://arxiv.org/pdf/2510.15413v1",
+    "primary_category": "cs.CR",
+    "summary": "FHE-SQL is a privacy-preserving database system that enables secure query processing on encrypted data using Fully Homomorphic Encryption (FHE), performing computations entirely under encryption without requiring trusted execution environments.",
+    "key_topics": [
+      "Fully homomorphic encryption",
+      "Key isolation without TEE",
+      "End-to-end cryptographic protection",
+      "Query privacy",
+      "Encrypted data processing"
+    ]
+  },
+  {
+    "rank": 10,
+    "arxiv_id": "2510.22566v1",
+    "title": "FAARM: Firmware Attestation and Authentication Framework for Mali GPUs",
+    "authors": [
+      "Md. Mehedi Hasan"
+    ],
+    "year": 2025,
+    "published": "2025-10-26T07:46:27Z",
+    "relevance_score": 18.0,
+    "pdf_url": "https://arxiv.org/pdf/2510.22566v1",
+    "primary_category": "cs.CR",
+    "summary": "Recent work has revealed MOLE, the first practical attack to compromise GPU Trusted Execution Environments (TEEs), by injecting malicious firmware into the embedded Microcontroller Unit (MCU) of Arm Mali GPUs. This paper presents FAARM, a lightweight Firmware Attestation and Authentication framework that prevents firmware subversion and protects cryptographic keys.",
+    "key_topics": [
+      "GPU TEE security",
+      "Firmware attestation",
+      "Key isolation in accelerators",
+      "Hardware root of trust",
+      "Firmware integrity verification"
+    ]
+  }
+]

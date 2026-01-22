@@ -1,0 +1,12 @@
+{
+  "arxiv_id": "2601.00454v1",
+  "title": "Defensive M2S: Training Guardrail Models on Compressed Multi-turn Conversations",
+  "published": "2026-01-01T19:42:08Z",
+  "summary": "Guardrail models are essential for ensuring the safety of Large Language Model (LLM) deployments, but processing full multi-turn conversation histories incurs significant computational cost. We propose Defensive M2S, a training paradigm that fine-tunes guardrail models on Multi-turn to Single-turn (M2S) compressed conversations rather than complete dialogue histories. We provide a formal complexity analysis showing that M2S reduces training cost from $O(n^2)$ to $O(n)$ for $n$-turn conversations",
+  "category": "cs.CL",
+  "relevance": 85,
+  "url": "https://arxiv.org/abs/2601.00454v1",
+  "cluster": 13,
+  "issue": 170,
+  "downloaded_at": "2026-01-11T10:27:53.517503"
+}

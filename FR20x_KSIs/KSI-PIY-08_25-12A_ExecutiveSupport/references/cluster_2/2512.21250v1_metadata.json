@@ -1,0 +1,20 @@
+{
+  "arxiv_id": "2512.21250v1",
+  "title": "CoTDeceptor:Adversarial Code Obfuscation Against CoT-Enhanced LLM Code Agents",
+  "authors": [
+    "Haoyang Li",
+    "Mingjin Li",
+    "Jinxin Zuo",
+    "Siqi Li",
+    "Xiao Li",
+    "Hao Wu",
+    "Yueming Lu",
+    "Xiaochuan He"
+  ],
+  "published": "2025-12-24T15:55:42Z",
+  "summary": "LLM-based code agents(e.g., ChatGPT Codex) are increasingly deployed as detector for code review and security auditing tasks. Although CoT-enhanced LLM vulnerability detectors are believed to provide improved robustness against obfuscated malicious code, we find that their reasoning chains and semantic abstraction processes exhibit exploitable systematic weaknesses.This allows attackers to covertly embed malicious logic, bypass code review, and propagate backdoored components throughout real-wor",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 90,
+  "screened_at": "2026-01-11T11:46:04.170521"
+}

@@ -1,0 +1,395 @@
+{
+  "research_metadata": {
+    "topic": "Supply Chain Security for Key Management Systems (KMS)",
+    "issue_number": "68",
+    "topic_number": "9",
+    "research_date": "2025-12-25",
+    "total_papers_found": 87,
+    "papers_selected": 10,
+    "papers_archived": 10,
+    "selection_criteria": {
+      "relevance_to_kms_supply_chain": "40%",
+      "publication_year_priority": "30% (2025 > 2024)",
+      "us_institution_affiliation": "20%",
+      "direct_applicability": "10%"
+    },
+    "search_queries_used": [
+      "supply chain + key management + security",
+      "software supply chain poisoning attack",
+      "configuration signing + integrity verification",
+      "secret management + vulnerability + security",
+      "policy as code + security + verification",
+      "artifact verification + software security",
+      "third party dependency + vulnerability attack",
+      "software bill of materials + SBOM + security"
+    ],
+    "key_findings": {
+      "sbom_papers": 32,
+      "supply_chain_attack_papers": 10,
+      "configuration_signing_papers": 8,
+      "policy_as_code_papers": 6,
+      "artifact_verification_papers": 7,
+      "secret_key_management_papers": 7,
+      "third_party_dependency_papers": 5,
+      "general_supply_chain_papers": 12
+    },
+    "year_distribution": {
+      "2025": 64,
+      "2024": 23
+    },
+    "us_institution_count": 18
+  },
+  "top_10_selected_papers": [
+    {
+      "rank": 1,
+      "score": 96,
+      "arxiv_id": "2507.10584",
+      "title": "ARPaCCino: An Agentic-RAG for Policy as Code Compliance",
+      "authors": [
+        "Francesco Romeo",
+        "Luigi Arena",
+        "Francesco Blefari",
+        "Francesco Aurelio Pironti",
+        "Matteo Lupinacci",
+        "Angelo Furfaro"
+      ],
+      "publication_date": "July 2025",
+      "submitted_date": "November 2025",
+      "institution": "Italy",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "Policy-as-Code",
+        "Rego rules",
+        "IaC compliance validation",
+        "LLM integration",
+        "RAG framework"
+      ],
+      "abstract_summary": "Addresses Policy as Code challenges by combining LLMs with retrieval-augmented generation. The system generates formal Rego rules from natural language descriptions and validates Infrastructure as Code compliance. ARPaCCino supports policy validation across a wide range of technologies, including niche or emerging IaC frameworks.",
+      "key_contributions": [
+        "Agentic RAG framework for policy-as-code",
+        "Automatic Rego rule generation from natural language",
+        "IaC compliance validation automation",
+        "Support for diverse IaC frameworks"
+      ],
+      "relevance_to_kms": "Direct application to KMS policy enforcement, automated policy-as-code generation for key management configurations, compliance validation for cryptographic policy deployment",
+      "pdf_filename": "2507.10584_ARPaCCino_Policy_as_Code_Compliance.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2507.10584.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2507.10584"
+    },
+    {
+      "rank": 2,
+      "score": 95,
+      "arxiv_id": "2508.13750",
+      "title": "NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js",
+      "authors": [
+        "Eric Cornelissen",
+        "Musard Balliu"
+      ],
+      "publication_date": "August 2025",
+      "institution": "Sweden (KTH Royal Institute of Technology)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "Runtime SBOM protection",
+        "Supply chain attack prevention",
+        "Node.js security",
+        "Component abuse prevention"
+      ],
+      "abstract_summary": "Runtime protection mechanism leveraging SBOM standards to prevent components from stealthily abusing undeclared components. Successfully blocked over 98% out of 67 known supply chain attacks in Node.js ecosystem.",
+      "key_contributions": [
+        "Runtime SBOM enforcement mechanism",
+        "98% supply chain attack blocking rate",
+        "Prevention of undeclared component abuse",
+        "Security-enhanced SBOM implementation"
+      ],
+      "relevance_to_kms": "Critical for preventing third-party KMS tool dependencies from accessing undeclared cryptographic libraries, runtime enforcement of key management component isolation, protection against supply chain attacks targeting secret management systems",
+      "pdf_filename": "2508.13750_NodeShield_Runtime_SBOM_Enforcement.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2508.13750.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2508.13750"
+    },
+    {
+      "rank": 3,
+      "score": 95,
+      "arxiv_id": "2503.00271",
+      "title": "Why Johnny Signs with Next-Generation Tools: A Usability Case Study of Sigstore",
+      "authors": [
+        "Kelechi G. Kalu",
+        "Sofia Okorafor",
+        "Tanmay Singla",
+        "Sophie Chen",
+        "Santiago Torres-Arias",
+        "James C. Davis"
+      ],
+      "publication_date": "March 2025",
+      "institution": "US (Purdue University and collaborators)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "Code signing",
+        "Key management automation",
+        "Sigstore framework",
+        "Supply chain integrity",
+        "Usability study"
+      ],
+      "abstract_summary": "Usability study of Sigstore, a next-generation signing tool that automates key management and signer identification to enhance software supply chain integrity and authenticity assurance. Examines how automated key management improves developer adoption.",
+      "key_contributions": [
+        "Automated key management for code signing",
+        "Signer identification automation",
+        "Usability improvements in signing workflows",
+        "Supply chain integrity enhancement"
+      ],
+      "relevance_to_kms": "Direct application to automated key management for signing KMS configurations and artifacts, keyless signing infrastructure for policy deployment, identity-based key management without long-term key storage",
+      "pdf_filename": "2503.00271_Sigstore_Code_Signing_Usability.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2503.00271.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2503.00271"
+    },
+    {
+      "rank": 4,
+      "score": 94,
+      "arxiv_id": "2509.04328",
+      "title": "FaaSGuard: Secure CI/CD for Serverless Applications — An OpenFaaS Case Study",
+      "authors": [
+        "Amine Barrak",
+        "Emna Ksontini",
+        "Ridouane Atike",
+        "Fehmi Jaafar"
+      ],
+      "publication_date": "September 2025",
+      "institution": "Canada/Tunisia",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "DevSecOps pipeline",
+        "Hard-coded secrets detection",
+        "CI/CD security",
+        "Serverless security",
+        "Vulnerability detection"
+      ],
+      "abstract_summary": "FaaSGuard presents an integrated DevSecOps pipeline for serverless environments addressing hard-coded secrets and injection attacks. The system embeds security validations throughout development stages, achieving 95% precision and 91% recall in vulnerability detection without disrupting CI/CD workflows.",
+      "key_contributions": [
+        "Integrated DevSecOps pipeline for serverless",
+        "Hard-coded secrets detection (95% precision)",
+        "Non-disruptive CI/CD security integration",
+        "Injection attack prevention"
+      ],
+      "relevance_to_kms": "Essential for detecting hard-coded cryptographic keys in KMS deployments, CI/CD pipeline security for key management infrastructure, automated secret scanning before production deployment, prevents key exposure in serverless KMS components",
+      "pdf_filename": "2509.04328_FaaSGuard_Secure_CICD_Serverless.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2509.04328.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2509.04328"
+    },
+    {
+      "rank": 5,
+      "score": 94,
+      "arxiv_id": "2509.13217",
+      "title": "Trustworthy and Confidential SBOM Exchange",
+      "authors": [
+        "Eman Abu Ishgair",
+        "Chinenye Okafor",
+        "Marcela S. Melara",
+        "Santiago Torres-Arias"
+      ],
+      "publication_date": "September 2025",
+      "institution": "US (Purdue University)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "SBOM confidentiality",
+        "Selective encryption",
+        "Redacted SBOM",
+        "Verifiable SBOM exchange",
+        "Supply chain transparency"
+      ],
+      "abstract_summary": "Proposes Petra system enabling vendors to compose and distribute redacted SBOM data using selective encryption while maintaining verifiability. Balances supply chain transparency with proprietary information protection.",
+      "key_contributions": [
+        "Petra system for confidential SBOM exchange",
+        "Selective encryption for SBOM redaction",
+        "Verifiable redacted SBOM data",
+        "Privacy-preserving supply chain transparency"
+      ],
+      "relevance_to_kms": "Critical for sharing KMS component dependencies without exposing sensitive cryptographic implementation details, enables third-party verification of key management tools without revealing proprietary algorithms, maintains supply chain transparency while protecting KMS trade secrets",
+      "pdf_filename": "2509.13217_Petra_Confidential_SBOM_Exchange.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2509.13217.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2509.13217"
+    },
+    {
+      "rank": 6,
+      "score": 94,
+      "arxiv_id": "2310.14117",
+      "title": "ZTD_JAVA: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies",
+      "authors": [
+        "Paschal C. Amusuo",
+        "Kyle A. Robinson",
+        "Tanmay Singla",
+        "Huiyun Peng",
+        "Aravind Machiry",
+        "Santiago Torres-Arias",
+        "Laurent Simon",
+        "James C. Davis"
+      ],
+      "publication_date": "October 2023 (submitted), December 2024 (revised)",
+      "institution": "US (Virginia Tech, Purdue University)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "Zero-Trust Architecture",
+        "Dependency security",
+        "Supply chain attack mitigation",
+        "Third-party library protection",
+        "NIST Zero-Trust"
+      ],
+      "abstract_summary": "Proposes Zero-Trust Dependencies applying NIST Zero-Trust Architecture principles to mitigate software supply chain attacks from vulnerable third-party libraries. ZTD_JAVA prototype for Java applications demonstrates effective defense against prevalent vulnerability classes with negligible performance overhead.",
+      "key_contributions": [
+        "Zero-Trust principles for dependency management",
+        "ZTD_JAVA prototype implementation",
+        "Negligible performance overhead",
+        "Defense against library-based supply chain attacks"
+      ],
+      "relevance_to_kms": "Direct application to zero-trust architecture for KMS third-party dependencies, prevents compromised cryptographic libraries from unauthorized key access, enforces least-privilege for key management components, mitigates supply chain attacks targeting KMS dependencies",
+      "pdf_filename": "2310.14117_ZTD_JAVA_Zero_Trust_Dependencies.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2310.14117.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2310.14117"
+    },
+    {
+      "rank": 7,
+      "score": 93,
+      "arxiv_id": "2511.17118",
+      "title": "Constant-Size Cryptographic Evidence Structures for Regulated AI Workflows",
+      "authors": [
+        "Leo Kao"
+      ],
+      "publication_date": "November 2025",
+      "institution": "Unknown",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "Cryptographic evidence",
+        "Workflow integrity",
+        "Configuration binding",
+        "Constant-size verification",
+        "Regulated workflows"
+      ],
+      "abstract_summary": "Presents structures designed to provide strong binding to workflow events and configurations with constant-size storage and uniform verification cost per event. Enables efficient cryptographic verification of workflow integrity regardless of workflow complexity.",
+      "key_contributions": [
+        "Constant-size cryptographic evidence structures",
+        "Strong binding to workflow configurations",
+        "Uniform verification cost",
+        "Scalable integrity verification"
+      ],
+      "relevance_to_kms": "Essential for cryptographic binding of KMS configuration changes to audit trails, constant-size verification enables efficient key rotation audit, strong binding ensures configuration integrity for key management policies, applicable to regulatory compliance for cryptographic key lifecycle",
+      "pdf_filename": "2511.17118_Constant_Size_Cryptographic_Evidence.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2511.17118.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2511.17118"
+    },
+    {
+      "rank": 8,
+      "score": 93,
+      "arxiv_id": "2512.17710",
+      "title": "A Practical Solution to Systematically Monitor Inconsistencies in SBOM-based Vulnerability Scanners",
+      "authors": [
+        "Martin Rosso",
+        "Muhammad Asad Jahangir Jaffar",
+        "Alessandro Brighente",
+        "Mauro Conti"
+      ],
+      "publication_date": "December 2025",
+      "institution": "Italy (University of Padua)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "SBOM vulnerability scanning",
+        "Scanner inconsistencies",
+        "False security detection",
+        "SVS-TEST tool",
+        "Supply chain security"
+      ],
+      "abstract_summary": "Introduces SVS-TEST, a tool analyzing vulnerability scanning capabilities. The work reveals multiple SVS-tools silently fail on valid input SBOMs, creating a false sense of security. Provides systematic monitoring solution for SBOM scanner reliability.",
+      "key_contributions": [
+        "SVS-TEST tool for scanner monitoring",
+        "Detection of silent scanner failures",
+        "Identification of false security assurance",
+        "Systematic SBOM scanner evaluation"
+      ],
+      "relevance_to_kms": "Critical for ensuring KMS dependency vulnerability scanning accuracy, prevents false security assurance in key management supply chains, validates SBOM tools used for cryptographic library verification, ensures reliable vulnerability detection in KMS components",
+      "pdf_filename": "2512.17710_SVS_TEST_SBOM_Scanner_Monitoring.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2512.17710.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2512.17710"
+    },
+    {
+      "rank": 9,
+      "score": 93,
+      "arxiv_id": "2409.05014",
+      "title": "Analyzing Challenges in Deployment of the SLSA Framework for Software Supply Chain Security",
+      "authors": [
+        "Mahzabin Tamanna",
+        "Sivana Hamer",
+        "Mindy Tran",
+        "Sascha Fahl",
+        "Yasemin Acar",
+        "Laurie Williams"
+      ],
+      "publication_date": "September 2024",
+      "institution": "US (NC State University, George Washington University)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "SLSA framework",
+        "Supply chain security",
+        "Implementation barriers",
+        "Deployment challenges",
+        "Qualitative study"
+      ],
+      "abstract_summary": "Qualitative study of barriers to SLSA framework adoption. Main challenges include complex implementation and unclear communication. Provides insights into real-world supply chain security framework deployment obstacles.",
+      "key_contributions": [
+        "Identification of SLSA implementation barriers",
+        "Qualitative analysis of deployment challenges",
+        "Framework adoption obstacles",
+        "Communication and complexity issues"
+      ],
+      "relevance_to_kms": "SLSA framework applicable to KMS build pipeline security, identifies barriers to implementing supply chain security for key management tools, informs KMS deployment strategy for supply chain attestation, guides adoption of build provenance for cryptographic components",
+      "pdf_filename": "2409.05014_SLSA_Framework_Deployment_Challenges.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2409.05014.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2409.05014"
+    },
+    {
+      "rank": 10,
+      "score": 93,
+      "arxiv_id": "2412.05138",
+      "title": "Supply Chain Insecurity: The Lack of Integrity Protection in SBOM Solutions",
+      "authors": [
+        "Can Ozkan",
+        "Xinhai Zou",
+        "Dave Singelee"
+      ],
+      "publication_date": "December 2024",
+      "institution": "Belgium (KU Leuven)",
+      "relevance_score": "VERY HIGH",
+      "primary_topics": [
+        "SBOM integrity",
+        "Malicious insider threats",
+        "SBOM manipulation",
+        "Supply chain vulnerabilities",
+        "Generation process security"
+      ],
+      "abstract_summary": "Investigates SBOM integrity vulnerabilities, revealing the SBOM generation process across popular programming languages is susceptible to stealthy manipulation by malicious insiders. Demonstrates critical lack of integrity protection in current SBOM solutions.",
+      "key_contributions": [
+        "SBOM integrity vulnerability analysis",
+        "Malicious insider manipulation detection",
+        "Cross-language SBOM generation security study",
+        "Integrity protection gap identification"
+      ],
+      "relevance_to_kms": "Critical for ensuring KMS component SBOM integrity, prevents malicious insiders from hiding compromised cryptographic dependencies, emphasizes need for signed SBOMs in key management supply chains, protects against supply chain attacks via SBOM manipulation",
+      "pdf_filename": "2412.05138_SBOM_Integrity_Protection_Vulnerabilities.pdf",
+      "pdf_url": "https://arxiv.org/pdf/2412.05138.pdf",
+      "arxiv_url": "https://arxiv.org/abs/2412.05138"
+    }
+  ],
+  "research_methodology": {
+    "search_approach": "Multi-query ArXiv search covering supply chain security, KMS, configuration signing, SBOM, policy-as-code, and artifact verification",
+    "evaluation_process": "Comprehensive abstract analysis with relevance scoring based on KMS applicability, recency, institution affiliation, and technical depth",
+    "selection_process": "Ranked 87 papers by composite score, selected TOP 10 with scores 93-96/100",
+    "rate_limiting": "3+ seconds between ArXiv PDF downloads to respect API limits"
+  },
+  "key_insights": {
+    "sbom_challenges": "Multiple papers (ranks 2, 5, 8, 10, 13) highlight critical SBOM vulnerabilities: 97.5% false positive rates, silent scanner failures, integrity manipulation risks, and format confusion",
+    "policy_as_code": "Emerging trend in automated policy enforcement (rank 1, 7) with LLM-driven Rego generation and cryptographic binding to configurations",
+    "zero_trust_dependencies": "Zero-Trust Architecture applied to dependency management (rank 6) shows promise for mitigating supply chain attacks",
+    "automated_key_management": "Keyless signing (rank 3) and automated key management reduce human error and improve adoption",
+    "runtime_enforcement": "Runtime SBOM protection (rank 2) achieves 98% attack blocking rate, superior to static analysis",
+    "secrets_in_cicd": "Hard-coded secrets detection (rank 4) achieves 95% precision in CI/CD pipelines",
+    "confidential_sbom": "Privacy-preserving SBOM exchange (rank 5) enables transparency without exposing proprietary details",
+    "slsa_adoption": "SLSA framework faces implementation barriers (rank 9) due to complexity and communication gaps",
+    "us_institution_presence": "Strong US academic contribution (ranks 3, 4, 5, 6, 9) from Purdue, Virginia Tech, NC State, GWU"
+  }
+}

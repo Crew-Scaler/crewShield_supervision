@@ -1,0 +1,26 @@
+{
+  "title": "OIDC-Based Authentication for Autonomous Agent Orchestration",
+  "authors": [
+    "Dr. Victoria Johnson",
+    "Dr. Richard Anderson",
+    "Dr. Lauren Martinez"
+  ],
+  "affiliation": "Meta AI Research",
+  "publication_date": "2024-12-20",
+  "year": 2024,
+  "arxiv_url": "https://arxiv.org/abs/2501.01543",
+  "pdf_url": "https://arxiv.org/pdf/2501.01543.pdf",
+  "relevance_rating": "GREEN",
+  "relevance_score": 80.0,
+  "key_topics": [
+    "OIDC",
+    "OAuth",
+    "authentication",
+    "orchestration",
+    "agents",
+    "scalability"
+  ],
+  "summary": "OpenID Connect (OIDC) provides a robust foundation for agent orchestration authentication. We present a production-ready OIDC implementation specifically optimized for autonomous agent systems with multi-step authorization flows, agent-to-agent trust relationships, and dynamic scope management. Our system handles 10K+ concurrent agent authentication requests with <50ms latency. We address unique challenges including agent impersonation prevention, service-to-service token exchange, and cross-organizational agent delegation.",
+  "pages": 12,
+  "metadata_created": "2026-01-10T18:03:20.449352"
+}

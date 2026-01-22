@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.23870v1",
+  "title": "Max-Entropy Reinforcement Learning with Flow Matching and A Case Study on LQR",
+  "authors": [
+    "Yuyang Zhang",
+    "Yang Hu",
+    "Bo Dai",
+    "Na Li"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.23870v1",
+  "relevance_score": 81.5,
+  "estimated_pages": 10,
+  "key_topics": [
+    "adversarial robustness"
+  ],
+  "summary": "Soft actor-critic (SAC) is a popular algorithm for max-entropy reinforcement learning. In practice, the energy-based policies in SAC are often approximated using simple policy classes for efficiency, sacrificing the expressiveness and robustness. In this paper, we propose a variant of the SAC algorithm that parameterizes the policy with flow-based models, leveraging their rich expressiveness. In the algorithm, we evaluate the flow-based policy utilizing the instantaneous change-of-variable techn..."
+}

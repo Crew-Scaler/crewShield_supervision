@@ -1,0 +1,18 @@
+{
+  "arxiv_id": "2512.00414v1",
+  "title": "BEACON: Automatic Container Policy Generation using Environment-aware Dynamic Analysis",
+  "authors": [
+    "Haney Kang",
+    "Eduard Marin",
+    "Myoungsung You",
+    "Diego Perino",
+    "Seungwon Shin",
+    "Jinwoo Kim"
+  ],
+  "published": "2025-11-29T09:47:02Z",
+  "summary": "This paper introduces BeaCon, a novel tool for the automated generation of adjustable container security policies. Unlike prior approaches, BeaCon leverages dynamic analysis to simulate realistic environments, uncovering container execution paths that may remain hidden during the profiling phase. To address the challenge of exploring vast profiling spaces, we employ efficient heuristics to reveal additional system events with minimal effort. In addition, BeaCon incorporates a security and functi",
+  "cluster": "cluster_2",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.167405"
+}

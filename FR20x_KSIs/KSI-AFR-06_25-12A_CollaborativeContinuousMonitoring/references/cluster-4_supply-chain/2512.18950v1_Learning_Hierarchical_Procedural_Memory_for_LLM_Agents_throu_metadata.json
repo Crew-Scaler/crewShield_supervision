@@ -1,0 +1,22 @@
+{
+  "arxiv_id": "2512.18950v1",
+  "title": "Learning Hierarchical Procedural Memory for LLM Agents through Bayesian Selection and Contrastive Refinement",
+  "authors": [
+    "Saman Forouzandeh",
+    "Wei Peng",
+    "Parham Moradi",
+    "Xinghuo Yu",
+    "Mahdi Jalili"
+  ],
+  "affiliation": "See author list",
+  "published_date": "2025-12",
+  "url": "https://arxiv.org/abs/2512.18950v1",
+  "relevance_score": 80.0,
+  "estimated_pages": 10,
+  "key_topics": [
+    "behavioral monitoring",
+    "model monitoring",
+    "autonomous systems"
+  ],
+  "summary": "We present MACLA, a framework that decouples reasoning from learning by maintaining a frozen large language model while performing all adaptation in an external hierarchical procedural memory. MACLA extracts reusable procedures from trajectories, tracks reliability via Bayesian posteriors, selects actions through expected-utility scoring, and refines procedures by contrasting successes and failures. Across four benchmarks (ALFWorld, WebShop, TravelPlanner, InterCodeSQL), MACLA achieves 78.1 perc..."
+}

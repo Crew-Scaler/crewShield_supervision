@@ -1,0 +1,1266 @@
+{
+  "research_topic": "Real-Time Policy Enforcement During Agent Execution",
+  "issue_number": 69,
+  "topic_number": 2,
+  "search_date": "2025-12-25T09:33:55.560483",
+  "total_papers_found": 76,
+  "papers_downloaded": 10,
+  "papers_archived": 66,
+  "search_queries": [
+    "cat:cs.CR AND (policy AND enforcement AND runtime)",
+    "cat:cs.DC AND (policy AND enforcement AND agent)",
+    "cat:cs.MA AND (policy AND enforcement)",
+    "cat:cs.SE AND (runtime AND policy AND enforcement)",
+    "all:\"access control\" AND runtime AND policy",
+    "all:\"policy enforcement\" AND agent",
+    "all:\"runtime enforcement\" AND security",
+    "all:\"dynamic policy\" AND enforcement"
+  ],
+  "top_10_papers": [
+    {
+      "rank": 1,
+      "relevance_score": 96,
+      "arxiv_id": "2505.19301v2",
+      "title": "A Novel Zero-Trust Identity Framework for Agentic AI: Decentralized Authentication and Fine-Grained Access Control",
+      "authors": [
+        "Ken Huang",
+        "Vineeth Sai Narajala",
+        "John Yeoh",
+        "Jason Ross",
+        "Ramesh Raskar",
+        "Youssef Harkati",
+        "Jerry Huang",
+        "Idan Habler",
+        "Chris Hughes"
+      ],
+      "year": "2025",
+      "published": "2025-05-25T20:21:55Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.19301v2",
+      "filename": "01_2505.19301_v2.pdf",
+      "categories": [
+        "cs.CR",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "abstract": "Traditional Identity and Access Management (IAM) systems, primarily designed for human users or static machine identities via protocols such as OAuth, OpenID Connect (OIDC), and SAML, prove fundamentally inadequate for the dynamic, interdependent, and often ephemeral nature of AI agents operating at scale within Multi Agent Systems (MAS), a computational system composed of multiple interacting intelligent agents that work collectively.   This paper posits the imperative for a novel Agentic AI IAM framework: We deconstruct the limitations of existing protocols when applied to MAS, illustrating with concrete examples why their coarse-grained controls, single-entity focus, and lack of context-awareness falter. We then propose a comprehensive framework built upon rich, verifiable Agent Identities (IDs), leveraging Decentralized Identifiers (DIDs) and Verifiable Credentials (VCs), that encapsulate an agents capabilities, provenance, behavioral scope, and security posture.   Our framework includes an Agent Naming Service (ANS) for secure and capability-aware discovery, dynamic fine-grained access control mechanisms, and critically, a unified global session management and policy enforcement layer for real-time control and consistent revocation across heterogeneous agent communication protocols. We also explore how Zero-Knowledge Proofs (ZKPs) enable privacy-preserving attribute disclosure and verifiable policy compliance.   We outline the architecture, operational lifecycle, innovative contributions, and security considerations of this new IAM paradigm, aiming to establish the foundational trust, accountability, and security necessary for the burgeoning field of agentic AI and the complex ecosystems they will inhabit.",
+      "downloaded": true
+    },
+    {
+      "rank": 2,
+      "relevance_score": 91,
+      "arxiv_id": "2512.20275v1",
+      "title": "Graph-Symbolic Policy Enforcement and Control (G-SPEC): A Neuro-Symbolic Framework for Safe Agentic AI in 5G Autonomous Networks",
+      "authors": [
+        "Divya Vijay",
+        "Vignesh Ethiraj"
+      ],
+      "year": "2025",
+      "published": "2025-12-23T11:27:17Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.20275v1",
+      "filename": "02_2512.20275_v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.NI"
+      ],
+      "abstract": "As networks evolve toward 5G Standalone and 6G, operators face orchestration challenges that exceed the limits of static automation and Deep Reinforcement Learning. Although Large Language Model (LLM) agents offer a path toward intent-based networking, they introduce stochastic risks, including topology hallucinations and policy non-compliance. To mitigate this, we propose Graph-Symbolic Policy Enforcement and Control (G-SPEC), a neuro-symbolic framework that constrains probabilistic planning with deterministic verification. The architecture relies on a Governance Triad - a telecom-adapted agent (TSLAM-4B), a Network Knowledge Graph (NKG), and SHACL constraints. We evaluated G-SPEC on a simulated 450-node 5G Core, achieving zero safety violations and a 94.1% remediation success rate, significantly outperforming the 82.4% baseline. Ablation analysis indicates that NKG validation drives the majority of safety gains (68%), followed by SHACL policies (24%). Scalability tests on topologies ranging from 10K to 100K nodes demonstrate that validation latency scales as $O(k^{1.2})$ where $k$ is subgraph size. With a processing overhead of 142ms, G-SPEC is viable for SMO-layer operations.",
+      "downloaded": true
+    },
+    {
+      "rank": 3,
+      "relevance_score": 79,
+      "arxiv_id": "2510.24383v1",
+      "title": "Policy Cards: Machine-Readable Runtime Governance for Autonomous AI Agents",
+      "authors": [
+        "Juraj Mavra\u010di\u0107"
+      ],
+      "year": "2025",
+      "published": "2025-10-28T12:59:55Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.24383v1",
+      "filename": "03_2510.24383_v1.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CY",
+        "cs.MA"
+      ],
+      "abstract": "Policy Cards are introduced as a machine-readable, deployment-layer standard for expressing operational, regulatory, and ethical constraints for AI agents. The Policy Card sits with the agent and enables it to follow required constraints at runtime. It tells the agent what it must and must not do. As such, it becomes an integral part of the deployed agent. Policy Cards extend existing transparency artifacts such as Model, Data, and System Cards by defining a normative layer that encodes allow/deny rules, obligations, evidentiary requirements, and crosswalk mappings to assurance frameworks including NIST AI RMF, ISO/IEC 42001, and the EU AI Act. Each Policy Card can be validated automatically, version-controlled, and linked to runtime enforcement or continuous-audit pipelines. The framework enables verifiable compliance for autonomous agents, forming a foundation for distributed assurance in multi-agent ecosystems. Policy Cards provide a practical mechanism for integrating high-level governance with hands-on engineering practice and enabling accountable autonomy at scale.",
+      "downloaded": true
+    },
+    {
+      "rank": 4,
+      "relevance_score": 77,
+      "arxiv_id": "2504.17669v2",
+      "title": "Towards a HIPAA Compliant Agentic AI System in Healthcare",
+      "authors": [
+        "Subash Neupane",
+        "Sudip Mittal",
+        "Shahram Rahimi"
+      ],
+      "year": "2025",
+      "published": "2025-04-24T15:38:20Z",
+      "pdf_url": "https://arxiv.org/pdf/2504.17669v2",
+      "filename": "04_2504.17669_v2.pdf",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.ET"
+      ],
+      "abstract": "Agentic AI systems powered by Large Language Models (LLMs) as their foundational reasoning engine, are transforming clinical workflows such as medical report generation and clinical summarization by autonomously analyzing sensitive healthcare data and executing decisions with minimal human oversight. However, their adoption demands strict compliance with regulatory frameworks such as Health Insurance Portability and Accountability Act (HIPAA), particularly when handling Protected Health Information (PHI). This work-in-progress paper introduces a HIPAA-compliant Agentic AI framework that enforces regulatory compliance through dynamic, context-aware policy enforcement. Our framework integrates three core mechanisms: (1) Attribute-Based Access Control (ABAC) for granular PHI governance, (2) a hybrid PHI sanitization pipeline combining regex patterns and BERT-based model to minimize leakage, and (3) immutable audit trails for compliance verification.",
+      "downloaded": true
+    },
+    {
+      "rank": 5,
+      "relevance_score": 75,
+      "arxiv_id": "2508.18765v2",
+      "title": "Governance-as-a-Service: A Multi-Agent Framework for AI System Compliance and Policy Enforcement",
+      "authors": [
+        "Suyash Gaurav",
+        "Jukka Heikkonen",
+        "Jatin Chaudhary"
+      ],
+      "year": "2025",
+      "published": "2025-08-26T07:48:55Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.18765v2",
+      "filename": "05_2508.18765_v2.pdf",
+      "categories": [
+        "cs.LG"
+      ],
+      "abstract": "As AI systems evolve into distributed ecosystems with autonomous execution, asynchronous reasoning, and multi-agent coordination, the absence of scalable, decoupled governance poses a structural risk. Existing oversight mechanisms are reactive, brittle, and embedded within agent architectures, making them non-auditable and hard to generalize across heterogeneous deployments.   We introduce Governance-as-a-Service (GaaS): a modular, policy-driven enforcement layer that regulates agent outputs at runtime without altering model internals or requiring agent cooperation. GaaS employs declarative rules and a Trust Factor mechanism that scores agents based on compliance and severity-weighted violations. It enables coercive, normative, and adaptive interventions, supporting graduated enforcement and dynamic trust modulation.   To evaluate GaaS, we conduct three simulation regimes with open-source models (LLaMA3, Qwen3, DeepSeek-R1) across content generation and financial decision-making. In the baseline, agents act without governance; in the second, GaaS enforces policies; in the third, adversarial agents probe robustness. All actions are intercepted, evaluated, and logged for analysis. Results show that GaaS reliably blocks or redirects high-risk behaviors while preserving throughput. Trust scores track rule adherence, isolating and penalizing untrustworthy components in multi-agent systems.   By positioning governance as a runtime service akin to compute or storage, GaaS establishes infrastructure-level alignment for interoperable agent ecosystems. It does not teach agents ethics; it enforces them.",
+      "downloaded": true
+    },
+    {
+      "rank": 6,
+      "relevance_score": 72,
+      "arxiv_id": "2503.18666v3",
+      "title": "AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents",
+      "authors": [
+        "Haoyu Wang",
+        "Christopher M. Poskitt",
+        "Jun Sun"
+      ],
+      "year": "2025",
+      "published": "2025-03-24T13:31:48Z",
+      "pdf_url": "https://arxiv.org/pdf/2503.18666v3",
+      "filename": "06_2503.18666_v3.pdf",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "abstract": "Agents built on LLMs are increasingly deployed across diverse domains, automating complex decision-making and task execution. However, their autonomy introduces safety risks, including security vulnerabilities, legal violations, and unintended harmful actions. Existing mitigation methods, such as model-based safeguards and early enforcement strategies, fall short in robustness, interpretability, and adaptability. To address these challenges, we propose AgentSpec, a lightweight domain-specific language for specifying and enforcing runtime constraints on LLM agents. With AgentSpec, users define structured rules that incorporate triggers, predicates, and enforcement mechanisms, ensuring agents operate within predefined safety boundaries. We implement AgentSpec across multiple domains, including code execution, embodied agents, and autonomous driving, demonstrating its adaptability and effectiveness. Our evaluation shows that AgentSpec successfully prevents unsafe executions in over 90% of code agent cases, eliminates all hazardous actions in embodied agent tasks, and enforces 100% compliance by autonomous vehicles (AVs). Despite its strong safety guarantees, AgentSpec remains computationally lightweight, with overheads in milliseconds. By combining interpretability, modularity, and efficiency, AgentSpec provides a practical and scalable solution for enforcing LLM agent safety across diverse applications. We also automate the generation of rules using LLMs and assess their effectiveness. Our evaluation shows that the rules generated by OpenAI o1 achieve a precision of 95.56% and recall of 70.96% for embodied agents, successfully identify 87.26% of the risky code, and prevent AVs from breaking laws in 5 out of 8 scenarios.",
+      "downloaded": true
+    },
+    {
+      "rank": 7,
+      "relevance_score": 71,
+      "arxiv_id": "2510.19324v1",
+      "title": "Authorization of Knowledge-base Agents in an Intent-based Management Function",
+      "authors": [
+        "Loay Abdelrazek",
+        "Leyli Kara\u00e7ay",
+        "Marin Orlic"
+      ],
+      "year": "2025",
+      "published": "2025-10-22T07:38:01Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.19324v1",
+      "filename": "07_2510.19324_v1.pdf",
+      "categories": [
+        "cs.CR"
+      ],
+      "abstract": "As networks move toward the next-generation 6G, Intent-based Management (IbM) systems are increasingly adopted to simplify and automate network management by translating high-level intents into low-level configurations. Within these systems, agents play a critical role in monitoring current state of the network, gathering data, and enforcing actions across the network to fulfill the intent. However, ensuring secure and fine-grained authorization of agents remains a significant challenge, especially in dynamic and multi-tenant environments. Traditional models such as Role-Based Access Control (RBAC), Attribute-Based Access Control (ABAC) and Relational-Based Access Control (RelBAC) often lack the flexibility to accommodate the evolving context and granularity required by intentbased operations. In this paper, we propose an enhanced authorization framework that integrates contextual and functional attributes with agent roles to achieve dynamic, policy-driven access control. By analyzing agent functionalities, our approach ensures that agents are granted only the minimal necessary privileges towards knowledge graphs.",
+      "downloaded": true
+    },
+    {
+      "rank": 8,
+      "relevance_score": 71,
+      "arxiv_id": "2501.06281v1",
+      "title": "Autonomous Identity-Based Threat Segmentation in Zero Trust Architectures",
+      "authors": [
+        "Sina Ahmadi"
+      ],
+      "year": "2025",
+      "published": "2025-01-10T15:35:02Z",
+      "pdf_url": "https://arxiv.org/pdf/2501.06281v1",
+      "filename": "08_2501.06281_v1.pdf",
+      "categories": [
+        "cs.CR",
+        "cs.CY"
+      ],
+      "abstract": "Zero Trust Architectures (ZTA) fundamentally redefine network security by adopting a \"trust nothing, verify everything\" approach that requires identity verification for all access. Conventional discrete access control measures have proven inadequate since they do not consider evolving user activities and contextual threats, leading to internal threats and enhanced attacks. This research applies the proposed AI-driven, autonomous, identity-based threat segmentation in ZTA, along with real-time identity analytics for fine-grained, real-time mechanisms. Some of the sharp practices include using the behavioral analytics approach to provide real-time risk scores, such as analyzing the patterns used for logging into the system, the access sought, and the resources used. Permissions are adjusted using machine learning models that take into account context-aware factors like geolocation, device type, and access time. Automated threat segmentation helps analysts identify multiple compromised identities in real-time, thus minimizing the likelihood of a breach advancing. The system's use cases are based on real scenarios; for example, insider threats in global offices demonstrate how compromised accounts are detected and locked. This work outlines measures to address privacy issues, false positives, and scalability concerns. This research enhances the security of other critical areas of computer systems by providing dynamic access governance, minimizing insider threats, and supporting dynamic policy enforcement while ensuring that the needed balance between security and user productivity remains a top priority. We prove via comparative analyses that the model is precise and scalable.",
+      "downloaded": true
+    },
+    {
+      "rank": 9,
+      "relevance_score": 68,
+      "arxiv_id": "2509.20640v2",
+      "title": "Adaptive Cybersecurity Architecture for Digital Product Ecosystems Using Agentic AI",
+      "authors": [
+        "Oluwakemi T. Olayinka",
+        "Sumeet Jeswani",
+        "Divine Iloh"
+      ],
+      "year": "2025",
+      "published": "2025-09-25T00:43:53Z",
+      "pdf_url": "https://arxiv.org/pdf/2509.20640v2",
+      "filename": "09_2509.20640_v2.pdf",
+      "categories": [
+        "cs.AI"
+      ],
+      "abstract": "Traditional static cybersecurity models often struggle with scalability, real-time detection, and contextual responsiveness in the current digital product ecosystems which include cloud services, application programming interfaces (APIs), mobile platforms, and edge devices. This study introduces autonomous goal driven agents capable of dynamic learning and context-aware decision making as part of an adaptive cybersecurity architecture driven by agentic artificial intelligence (AI). To facilitate autonomous threat mitigation, proactive policy enforcement, and real-time anomaly detection, this framework integrates agentic AI across the key ecosystem layers. Behavioral baselining, decentralized risk scoring, and federated threat intelligence sharing are important features. The capacity of the system to identify zero-day attacks and dynamically modify access policies was demonstrated through native cloud simulations. The evaluation results show increased adaptability, decreased response latency, and improved detection accuracy. The architecture provides an intelligent and scalable blueprint for safeguarding complex digital infrastructure and is compatible with zero-trust models, thereby supporting the adherence to international cybersecurity regulations.",
+      "downloaded": true
+    },
+    {
+      "rank": 10,
+      "relevance_score": 67,
+      "arxiv_id": "2505.18279v1",
+      "title": "Collaborative Memory: Multi-User Memory Sharing in LLM Agents with Dynamic Access Control",
+      "authors": [
+        "Alireza Rezazadeh",
+        "Zichao Li",
+        "Ange Lou",
+        "Yuying Zhao",
+        "Wei Wei",
+        "Yujia Bao"
+      ],
+      "year": "2025",
+      "published": "2025-05-23T18:14:57Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.18279v1",
+      "filename": "10_2505.18279_v1.pdf",
+      "categories": [
+        "cs.MA",
+        "cs.AI",
+        "cs.CL",
+        "cs.LG"
+      ],
+      "abstract": "Complex tasks are increasingly delegated to ensembles of specialized LLM-based agents that reason, communicate, and coordinate actions-both among themselves and through interactions with external tools, APIs, and databases. While persistent memory has been shown to enhance single-agent performance, most approaches assume a monolithic, single-user context-overlooking the benefits and challenges of knowledge transfer across users under dynamic, asymmetric permissions. We introduce Collaborative Memory, a framework for multi-user, multi-agent environments with asymmetric, time-evolving access controls encoded as bipartite graphs linking users, agents, and resources. Our system maintains two memory tiers: (1) private memory-private fragments visible only to their originating user; and (2) shared memory-selectively shared fragments. Each fragment carries immutable provenance attributes (contributing agents, accessed resources, and timestamps) to support retrospective permission checks. Granular read policies enforce current user-agent-resource constraints and project existing memory fragments into filtered transformed views. Write policies determine fragment retention and sharing, applying context-aware transformations to update the memory. Both policies may be designed conditioned on system, agent, and user-level information. Our framework enables safe, efficient, and interpretable cross-user knowledge sharing, with provable adherence to asymmetric, time-varying policies and full auditability of memory operations.",
+      "downloaded": true
+    }
+  ],
+  "archived_papers": [
+    {
+      "rank": 11,
+      "relevance_score": 66,
+      "arxiv_id": "2501.10560v1",
+      "title": "Picachv: Formally Verified Data Use Policy Enforcement for Secure Data Analytics",
+      "authors": [
+        "Haobin Hiroki Chen",
+        "Hongbo Chen",
+        "Mingshen Sun",
+        "Chenghong Wang",
+        "XiaoFeng Wang"
+      ],
+      "year": "2025",
+      "published": "2025-01-17T21:30:55Z",
+      "pdf_url": "https://arxiv.org/pdf/2501.10560v1"
+    },
+    {
+      "rank": 12,
+      "relevance_score": 65,
+      "arxiv_id": "2511.18155v1",
+      "title": "eBPF-PATROL: Protective Agent for Threat Recognition and Overreach Limitation using eBPF in Containerized and Virtualized Environments",
+      "authors": [
+        "Sangam Ghimire",
+        "Nirjal Bhurtel",
+        "Roshan Sahani",
+        "Sudan Jha"
+      ],
+      "year": "2025",
+      "published": "2025-11-22T18:51:36Z",
+      "pdf_url": "https://arxiv.org/pdf/2511.18155v1"
+    },
+    {
+      "rank": 13,
+      "relevance_score": 63,
+      "arxiv_id": "2510.26212v1",
+      "title": "Who Grants the Agent Power? Defending Against Instruction Injection via Task-Centric Access Control",
+      "authors": [
+        "Yifeng Cai",
+        "Ziming Wang",
+        "Zhaomeng Deng",
+        "Mengyu Yao",
+        "Junlin Liu",
+        "Yutao Hu",
+        "Ziqi Zhang",
+        "Yao Guo",
+        "Ding Li"
+      ],
+      "year": "2025",
+      "published": "2025-10-30T07:36:59Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.26212v1"
+    },
+    {
+      "rank": 14,
+      "relevance_score": 63,
+      "arxiv_id": "2505.11016v1",
+      "title": "GoLeash: Mitigating Golang Software Supply Chain Attacks with Runtime Policy Enforcement",
+      "authors": [
+        "Carmine Cesarano",
+        "Martin Monperrus",
+        "Roberto Natella"
+      ],
+      "year": "2025",
+      "published": "2025-05-16T09:10:07Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.11016v1"
+    },
+    {
+      "rank": 15,
+      "relevance_score": 61,
+      "arxiv_id": "2507.16459v2",
+      "title": "Towards Enforcing Company Policy Adherence in Agentic Workflows",
+      "authors": [
+        "Naama Zwerdling",
+        "David Boaz",
+        "Ella Rabinovich",
+        "Guy Uziel",
+        "David Amid",
+        "Ateret Anaby-Tavor"
+      ],
+      "year": "2025",
+      "published": "2025-07-22T11:00:37Z",
+      "pdf_url": "https://arxiv.org/pdf/2507.16459v2"
+    },
+    {
+      "rank": 16,
+      "relevance_score": 57,
+      "arxiv_id": "2508.01249v3",
+      "title": "AgentArmor: Enforcing Program Analysis on Agent Runtime Trace to Defend Against Prompt Injection",
+      "authors": [
+        "Peiran Wang",
+        "Yang Liu",
+        "Yunfei Lu",
+        "Yifeng Cai",
+        "Hongbo Chen",
+        "Qingyou Yang",
+        "Jie Zhang",
+        "Jue Hong",
+        "Ye Wu"
+      ],
+      "year": "2025",
+      "published": "2025-08-02T07:59:34Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.01249v3"
+    },
+    {
+      "rank": 17,
+      "relevance_score": 57,
+      "arxiv_id": "2505.17145v1",
+      "title": "LLM Access Shield: Domain-Specific LLM Framework for Privacy Policy Compliance",
+      "authors": [
+        "Yu Wang",
+        "Cailing Cai",
+        "Zhihua Xiao",
+        "Peifung E. Lam"
+      ],
+      "year": "2025",
+      "published": "2025-05-22T07:30:37Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.17145v1"
+    },
+    {
+      "rank": 18,
+      "relevance_score": 56,
+      "arxiv_id": "2510.21236v2",
+      "title": "Securing AI Agent Execution",
+      "authors": [
+        "Christoph B\u00fchler",
+        "Matteo Biagiola",
+        "Luca Di Grazia",
+        "Guido Salvaneschi"
+      ],
+      "year": "2025",
+      "published": "2025-10-24T08:10:36Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.21236v2"
+    },
+    {
+      "rank": 19,
+      "relevance_score": 55,
+      "arxiv_id": "2511.18114v1",
+      "title": "ASTRA: Agentic Steerability and Risk Assessment Framework",
+      "authors": [
+        "Itay Hazan",
+        "Yael Mathov",
+        "Guy Shtar",
+        "Ron Bitton",
+        "Itsik Mantin"
+      ],
+      "year": "2025",
+      "published": "2025-11-22T16:32:29Z",
+      "pdf_url": "https://arxiv.org/pdf/2511.18114v1"
+    },
+    {
+      "rank": 20,
+      "relevance_score": 53,
+      "arxiv_id": "2512.20985v1",
+      "title": "A Blockchain-Monitored Agentic AI Architecture for Trusted Perception-Reasoning-Action Pipelines",
+      "authors": [
+        "Salman Jan",
+        "Hassan Ali Razzaqi",
+        "Ali Akarma",
+        "Mohammad Riyaz Belgaum"
+      ],
+      "year": "2025",
+      "published": "2025-12-24T06:20:28Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.20985v1"
+    },
+    {
+      "rank": 21,
+      "relevance_score": 52,
+      "arxiv_id": "2510.13825v1",
+      "title": "A2AS: Agentic AI Runtime Security and Self-Defense",
+      "authors": [
+        "Eugene Neelou",
+        "Ivan Novikov",
+        "Max Moroz",
+        "Om Narayan",
+        "Tiffany Saade",
+        "Mika Ayenson",
+        "Ilya Kabanov",
+        "Jen Ozmen",
+        "Edward Lee",
+        "Vineeth Sai Narajala",
+        "Emmanuel Guilherme Junior",
+        "Ken Huang",
+        "Huseyin Gulsin",
+        "Jason Ross",
+        "Marat Vyshegorodtsev",
+        "Adelin Travers",
+        "Idan Habler",
+        "Rahul Jadav"
+      ],
+      "year": "2025",
+      "published": "2025-10-08T14:28:04Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.13825v1"
+    },
+    {
+      "rank": 22,
+      "relevance_score": 50,
+      "arxiv_id": "2511.14135v1",
+      "title": "Fair-GNE : Generalized Nash Equilibrium-Seeking Fairness in Multiagent Healthcare Automation",
+      "authors": [
+        "Promise Ekpo",
+        "Saesha Agarwal",
+        "Felix Grimm",
+        "Lekan Molu",
+        "Angelique Taylor"
+      ],
+      "year": "2025",
+      "published": "2025-11-18T04:48:50Z",
+      "pdf_url": "https://arxiv.org/pdf/2511.14135v1"
+    },
+    {
+      "rank": 23,
+      "relevance_score": 50,
+      "arxiv_id": "2509.14956v1",
+      "title": "Sentinel Agents for Secure and Trustworthy Agentic AI in Multi-Agent Systems",
+      "authors": [
+        "Diego Gosmar",
+        "Deborah A. Dahl"
+      ],
+      "year": "2025",
+      "published": "2025-09-18T13:39:59Z",
+      "pdf_url": "https://arxiv.org/pdf/2509.14956v1"
+    },
+    {
+      "rank": 24,
+      "relevance_score": 50,
+      "arxiv_id": "2503.11517v1",
+      "title": "Prompt Injection Detection and Mitigation via AI Multi-Agent NLP Frameworks",
+      "authors": [
+        "Diego Gosmar",
+        "Deborah A. Dahl",
+        "Dario Gosmar"
+      ],
+      "year": "2025",
+      "published": "2025-03-14T15:41:45Z",
+      "pdf_url": "https://arxiv.org/pdf/2503.11517v1"
+    },
+    {
+      "rank": 25,
+      "relevance_score": 50,
+      "arxiv_id": "2512.12594v1",
+      "title": "ceLLMate: Sandboxing Browser AI Agents",
+      "authors": [
+        "Luoxi Meng",
+        "Henry Feng",
+        "Ilia Shumailov",
+        "Earlence Fernandes"
+      ],
+      "year": "2025",
+      "published": "2025-12-14T08:25:31Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.12594v1"
+    },
+    {
+      "rank": 26,
+      "relevance_score": 50,
+      "arxiv_id": "2510.03902v1",
+      "title": "Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code",
+      "authors": [
+        "Rana Nameer Hussain Khan",
+        "Dawood Wasif",
+        "Jin-Hee Cho",
+        "Ali Butt"
+      ],
+      "year": "2025",
+      "published": "2025-10-04T18:55:45Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.03902v1"
+    },
+    {
+      "rank": 27,
+      "relevance_score": 49,
+      "arxiv_id": "2508.16662v1",
+      "title": "Bridging the Mobile Trust Gap: A Zero Trust Framework for Consumer-Facing Applications",
+      "authors": [
+        "Alexander Tabalipa"
+      ],
+      "year": "2025",
+      "published": "2025-08-20T18:42:36Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.16662v1"
+    },
+    {
+      "rank": 28,
+      "relevance_score": 48,
+      "arxiv_id": "2506.01333v1",
+      "title": "ETDI: Mitigating Tool Squatting and Rug Pull Attacks in Model Context Protocol (MCP) by using OAuth-Enhanced Tool Definitions and Policy-Based Access Control",
+      "authors": [
+        "Manish Bhatt",
+        "Vineeth Sai Narajala",
+        "Idan Habler"
+      ],
+      "year": "2025",
+      "published": "2025-06-02T05:22:38Z",
+      "pdf_url": "https://arxiv.org/pdf/2506.01333v1"
+    },
+    {
+      "rank": 29,
+      "relevance_score": 47,
+      "arxiv_id": "2507.03064v1",
+      "title": "LLM-Driven Auto Configuration for Transient IoT Device Collaboration",
+      "authors": [
+        "Hetvi Shastri",
+        "Walid A. Hanafy",
+        "Li Wu",
+        "David Irwin",
+        "Mani Srivastava",
+        "Prashant Shenoy"
+      ],
+      "year": "2025",
+      "published": "2025-07-03T17:12:52Z",
+      "pdf_url": "https://arxiv.org/pdf/2507.03064v1"
+    },
+    {
+      "rank": 30,
+      "relevance_score": 47,
+      "arxiv_id": "2507.16060v1",
+      "title": "MFAz: Historical Access Based Multi-Factor Authorization",
+      "authors": [
+        "Eyasu Getahun Chekole",
+        "Howard Halim",
+        "Jianying Zhou"
+      ],
+      "year": "2025",
+      "published": "2025-07-21T20:54:04Z",
+      "pdf_url": "https://arxiv.org/pdf/2507.16060v1"
+    },
+    {
+      "rank": 31,
+      "relevance_score": 47,
+      "arxiv_id": "2308.12417v3",
+      "title": "VetIoT: On Vetting IoT Defenses Enforcing Policies at Runtime",
+      "authors": [
+        "Akib Jawad Nafis",
+        "S Mahmudul Hasan",
+        "Omar Chowdhury",
+        "Endadul Hoque"
+      ],
+      "year": "2023",
+      "published": "2023-08-23T20:33:42Z",
+      "pdf_url": "https://arxiv.org/pdf/2308.12417v3"
+    },
+    {
+      "rank": 32,
+      "relevance_score": 45,
+      "arxiv_id": "2508.20444v1",
+      "title": "Ransomware 3.0: Self-Composing and LLM-Orchestrated",
+      "authors": [
+        "Md Raz",
+        "Meet Udeshi",
+        "P. V. Sai Charan",
+        "Prashanth Krishnamurthy",
+        "Farshad Khorrami",
+        "Ramesh Karri"
+      ],
+      "year": "2025",
+      "published": "2025-08-28T05:46:03Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.20444v1"
+    },
+    {
+      "rank": 33,
+      "relevance_score": 45,
+      "arxiv_id": "2504.11703v2",
+      "title": "Progent: Programmable Privilege Control for LLM Agents",
+      "authors": [
+        "Tianneng Shi",
+        "Jingxuan He",
+        "Zhun Wang",
+        "Hongwei Li",
+        "Linyu Wu",
+        "Wenbo Guo",
+        "Dawn Song"
+      ],
+      "year": "2025",
+      "published": "2025-04-16T01:58:40Z",
+      "pdf_url": "https://arxiv.org/pdf/2504.11703v2"
+    },
+    {
+      "rank": 34,
+      "relevance_score": 45,
+      "arxiv_id": "2512.05951v2",
+      "title": "Trusted AI Agents in the Cloud",
+      "authors": [
+        "Teofil Bodea",
+        "Masanori Misono",
+        "Julian Pritzi",
+        "Patrick Sabanic",
+        "Thore Sommer",
+        "Harshavardhan Unnibhavi",
+        "David Schall",
+        "Nuno Santos",
+        "Dimitrios Stavrakakis",
+        "Pramod Bhatotia"
+      ],
+      "year": "2025",
+      "published": "2025-12-05T18:48:53Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.05951v2"
+    },
+    {
+      "rank": 35,
+      "relevance_score": 44,
+      "arxiv_id": "2501.18177v2",
+      "title": "Investigating Tax Evasion Emergence Using Dual Large Language Model and Deep Reinforcement Learning Powered Agent-based Simulation",
+      "authors": [
+        "Teddy Lazebnik",
+        "Labib Shami"
+      ],
+      "year": "2025",
+      "published": "2025-01-30T07:14:50Z",
+      "pdf_url": "https://arxiv.org/pdf/2501.18177v2"
+    },
+    {
+      "rank": 36,
+      "relevance_score": 44,
+      "arxiv_id": "2511.20920v1",
+      "title": "Securing the Model Context Protocol (MCP): Risks, Controls, and Governance",
+      "authors": [
+        "Herman Errico",
+        "Jiquan Ngiam",
+        "Shanita Sojan"
+      ],
+      "year": "2025",
+      "published": "2025-11-25T23:24:26Z",
+      "pdf_url": "https://arxiv.org/pdf/2511.20920v1"
+    },
+    {
+      "rank": 37,
+      "relevance_score": 44,
+      "arxiv_id": "2504.19951v1",
+      "title": "Securing GenAI Multi-Agent Systems Against Tool Squatting: A Zero Trust Registry-Based Approach",
+      "authors": [
+        "Vineeth Sai Narajala",
+        "Ken Huang",
+        "Idan Habler"
+      ],
+      "year": "2025",
+      "published": "2025-04-28T16:22:21Z",
+      "pdf_url": "https://arxiv.org/pdf/2504.19951v1"
+    },
+    {
+      "rank": 38,
+      "relevance_score": 44,
+      "arxiv_id": "2502.03614v1",
+      "title": "A Novel Zero-Touch, Zero-Trust, AI/ML Enablement Framework for IoT Network Security",
+      "authors": [
+        "Sushil Shakya",
+        "Robert Abbas",
+        "Sasa Maric"
+      ],
+      "year": "2025",
+      "published": "2025-02-05T21:03:07Z",
+      "pdf_url": "https://arxiv.org/pdf/2502.03614v1"
+    },
+    {
+      "rank": 39,
+      "relevance_score": 43,
+      "arxiv_id": "2504.05509v1",
+      "title": "Secure Smart Contract with Control Flow Integrity",
+      "authors": [
+        "Zhiyang Chen",
+        "Sidi Mohamed Beillahi",
+        "Pasha Barahimi",
+        "Cyrus Minwalla",
+        "Han Du",
+        "Andreas Veneris",
+        "Fan Long"
+      ],
+      "year": "2025",
+      "published": "2025-04-07T21:08:16Z",
+      "pdf_url": "https://arxiv.org/pdf/2504.05509v1"
+    },
+    {
+      "rank": 40,
+      "relevance_score": 43,
+      "arxiv_id": "2508.08800v1",
+      "title": "Fault Tolerant Multi-Agent Learning with Adversarial Budget Constraints",
+      "authors": [
+        "David Mguni",
+        "Yaqi Sun",
+        "Haojun Chen",
+        "Amir Darabi",
+        "Larry Olanrewaju Orimoloye",
+        "Yaodong Yang"
+      ],
+      "year": "2025",
+      "published": "2025-08-12T09:57:05Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.08800v1"
+    },
+    {
+      "rank": 41,
+      "relevance_score": 43,
+      "arxiv_id": "2301.03790v1",
+      "title": "A Practical Runtime Security Policy Transformation Framework for Software Defined Networks",
+      "authors": [
+        "Yunfei Meng",
+        "Changbo Ke",
+        "Zhiqiu Huang",
+        "Guohua Shen",
+        "Chunming Liu",
+        "Xiaojie Feng"
+      ],
+      "year": "2023",
+      "published": "2023-01-10T05:24:47Z",
+      "pdf_url": "https://arxiv.org/pdf/2301.03790v1"
+    },
+    {
+      "rank": 42,
+      "relevance_score": 42,
+      "arxiv_id": "2508.13750v2",
+      "title": "NodeShield: Runtime Enforcement of Security-Enhanced SBOMs for Node.js",
+      "authors": [
+        "Eric Cornelissen",
+        "Musard Balliu"
+      ],
+      "year": "2025",
+      "published": "2025-08-19T11:43:06Z",
+      "pdf_url": "https://arxiv.org/pdf/2508.13750v2"
+    },
+    {
+      "rank": 43,
+      "relevance_score": 41,
+      "arxiv_id": "2510.23673v1",
+      "title": "MCPGuard : Automatically Detecting Vulnerabilities in MCP Servers",
+      "authors": [
+        "Bin Wang",
+        "Zexin Liu",
+        "Hao Yu",
+        "Ao Yang",
+        "Yenan Huang",
+        "Jing Guo",
+        "Huangsheng Cheng",
+        "Hui Li",
+        "Huiyu Wu"
+      ],
+      "year": "2025",
+      "published": "2025-10-27T05:12:51Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.23673v1"
+    },
+    {
+      "rank": 44,
+      "relevance_score": 41,
+      "arxiv_id": "2506.13246v1",
+      "title": "On Immutable Memory Systems for Artificial Agents: A Blockchain-Indexed Automata-Theoretic Framework Using ECDH-Keyed Merkle Chains",
+      "authors": [
+        "Craig Steven Wright"
+      ],
+      "year": "2025",
+      "published": "2025-06-16T08:43:56Z",
+      "pdf_url": "https://arxiv.org/pdf/2506.13246v1"
+    },
+    {
+      "rank": 45,
+      "relevance_score": 40,
+      "arxiv_id": "2510.04952v2",
+      "title": "Safe and Compliant Cross-Market Trade Execution via Constrained RL and Zero-Knowledge Audits",
+      "authors": [
+        "Ailiya Borjigin",
+        "Cong He"
+      ],
+      "year": "2025",
+      "published": "2025-10-06T15:52:12Z",
+      "pdf_url": "https://arxiv.org/pdf/2510.04952v2"
+    },
+    {
+      "rank": 46,
+      "relevance_score": 40,
+      "arxiv_id": "2509.05938v1",
+      "title": "An Axiomatic Analysis of Path Selection Strategies for Multipath Transport in Path-Aware Networks",
+      "authors": [
+        "Alissa Baumeister",
+        "Sina Keshvadi"
+      ],
+      "year": "2025",
+      "published": "2025-09-07T05:57:32Z",
+      "pdf_url": "https://arxiv.org/pdf/2509.05938v1"
+    },
+    {
+      "rank": 47,
+      "relevance_score": 39,
+      "arxiv_id": "2506.07755v1",
+      "title": "Deep Equivariant Multi-Agent Control Barrier Functions",
+      "authors": [
+        "Nikolaos Bousias",
+        "Lars Lindemann",
+        "George Pappas"
+      ],
+      "year": "2025",
+      "published": "2025-06-09T13:37:29Z",
+      "pdf_url": "https://arxiv.org/pdf/2506.07755v1"
+    },
+    {
+      "rank": 48,
+      "relevance_score": 38,
+      "arxiv_id": "2512.11602v1",
+      "title": "Granite: Granular Runtime Enforcement for GitHub Actions Permissions",
+      "authors": [
+        "Mojtaba Moazen",
+        "Amir. M Ahmadian",
+        "Musard Balliu"
+      ],
+      "year": "2025",
+      "published": "2025-12-12T14:38:45Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.11602v1"
+    },
+    {
+      "rank": 49,
+      "relevance_score": 38,
+      "arxiv_id": "2503.09513v1",
+      "title": "RESTRAIN: Reinforcement Learning-Based Secure Framework for Trigger-Action IoT Environment",
+      "authors": [
+        "Md Morshed Alam",
+        "Lokesh Chandra Das",
+        "Sandip Roy",
+        "Sachin Shetty",
+        "Weichao Wang"
+      ],
+      "year": "2025",
+      "published": "2025-03-12T16:23:14Z",
+      "pdf_url": "https://arxiv.org/pdf/2503.09513v1"
+    },
+    {
+      "rank": 50,
+      "relevance_score": 37,
+      "arxiv_id": "2405.20018v1",
+      "title": "Safe Multi-agent Reinforcement Learning with Natural Language Constraints",
+      "authors": [
+        "Ziyan Wang",
+        "Meng Fang",
+        "Tristan Tomilin",
+        "Fei Fang",
+        "Yali Du"
+      ],
+      "year": "2024",
+      "published": "2024-05-30T12:57:35Z",
+      "pdf_url": "https://arxiv.org/pdf/2405.20018v1"
+    },
+    {
+      "rank": 51,
+      "relevance_score": 36,
+      "arxiv_id": "2511.12668v1",
+      "title": "AI Bill of Materials and Beyond: Systematizing Security Assurance through the AI Risk Scanning (AIRS) Framework",
+      "authors": [
+        "Samuel Nathanson",
+        "Alexander Lee",
+        "Catherine Chen Kieffer",
+        "Jared Junkin",
+        "Jessica Ye",
+        "Amir Saeed",
+        "Melanie Lockhart",
+        "Russ Fink",
+        "Elisha Peterson",
+        "Lanier Watkins"
+      ],
+      "year": "2025",
+      "published": "2025-11-16T16:10:38Z",
+      "pdf_url": "https://arxiv.org/pdf/2511.12668v1"
+    },
+    {
+      "rank": 52,
+      "relevance_score": 36,
+      "arxiv_id": "2503.15238v1",
+      "title": "Your Signal, Their Data: An Empirical Privacy Analysis of Wireless-scanning SDKs in Android",
+      "authors": [
+        "Aniketh Girish",
+        "Joel Reardon",
+        "Juan Tapiador",
+        "Srdjan Matic",
+        "Narseo Vallina-Rodriguez"
+      ],
+      "year": "2025",
+      "published": "2025-03-19T14:15:02Z",
+      "pdf_url": "https://arxiv.org/pdf/2503.15238v1"
+    },
+    {
+      "rank": 53,
+      "relevance_score": 35,
+      "arxiv_id": "2512.11933v1",
+      "title": "The Agentic Regulator: Risks for AI in Finance and a Proposed Agent-based Framework for Governance",
+      "authors": [
+        "Eren Kurshan",
+        "Tucker Balch",
+        "David Byrd"
+      ],
+      "year": "2025",
+      "published": "2025-12-12T05:57:32Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.11933v1"
+    },
+    {
+      "rank": 54,
+      "relevance_score": 34,
+      "arxiv_id": "2501.04435v1",
+      "title": "A Digital Shadow for Modeling, Studying and Preventing Urban Crime",
+      "authors": [
+        "Juan Palma-Borda",
+        "Eduardo Guzm\u00e1n",
+        "Mar\u00eda-Victoria Belmonte"
+      ],
+      "year": "2025",
+      "published": "2025-01-08T11:31:39Z",
+      "pdf_url": "https://arxiv.org/pdf/2501.04435v1"
+    },
+    {
+      "rank": 55,
+      "relevance_score": 34,
+      "arxiv_id": "2503.00259v1",
+      "title": "QaSAL: QoS-aware State-Augmented Learnable Algorithms for Coexistence of 5G NR-U/Wi-Fi",
+      "authors": [
+        "Mohammad Reza Fasihi",
+        "Brian L. Mark"
+      ],
+      "year": "2025",
+      "published": "2025-03-01T00:22:56Z",
+      "pdf_url": "https://arxiv.org/pdf/2503.00259v1"
+    },
+    {
+      "rank": 56,
+      "relevance_score": 31,
+      "arxiv_id": "2406.05310v3",
+      "title": "COOKIEGUARD: Characterizing and Isolating the First-Party Cookie Jar",
+      "authors": [
+        "Pouneh Nikkhah Bahrami",
+        "Aurore Fass",
+        "Zubair Shafiq"
+      ],
+      "year": "2024",
+      "published": "2024-06-08T01:02:49Z",
+      "pdf_url": "https://arxiv.org/pdf/2406.05310v3"
+    },
+    {
+      "rank": 57,
+      "relevance_score": 30,
+      "arxiv_id": "2403.01600v1",
+      "title": "Can Poverty Be Reduced by Acting on Discrimination? An Agent-based Model for Policy Making",
+      "authors": [
+        "Alba Aguilera",
+        "Nieves Montes",
+        "Georgina Curto",
+        "Carles Sierra",
+        "Nardine Osman"
+      ],
+      "year": "2024",
+      "published": "2024-03-03T19:59:42Z",
+      "pdf_url": "https://arxiv.org/pdf/2403.01600v1"
+    },
+    {
+      "rank": 58,
+      "relevance_score": 29,
+      "arxiv_id": "2502.04864v2",
+      "title": "Redistributing Rewards Across Time and Agents for Multi-Agent Reinforcement Learning",
+      "authors": [
+        "Aditya Kapoor",
+        "Kale-ab Tessera",
+        "Mayank Baranwal",
+        "Harshad Khadilkar",
+        "Jan Peters",
+        "Stefano Albrecht",
+        "Mingfei Sun"
+      ],
+      "year": "2025",
+      "published": "2025-02-07T12:07:57Z",
+      "pdf_url": "https://arxiv.org/pdf/2502.04864v2"
+    },
+    {
+      "rank": 59,
+      "relevance_score": 27,
+      "arxiv_id": "2512.04580v2",
+      "title": "CryptoTensors: A Light-Weight Large Language Model File Format for Highly-Secure Model Distribution",
+      "authors": [
+        "Huifeng Zhu",
+        "Shijie Li",
+        "Qinfeng Li",
+        "Yier Jin"
+      ],
+      "year": "2025",
+      "published": "2025-12-04T08:49:22Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.04580v2"
+    },
+    {
+      "rank": 60,
+      "relevance_score": 26,
+      "arxiv_id": "2504.14761v1",
+      "title": "Decoupling Identity from Access: Credential Broker Patterns for Secure CI/CD",
+      "authors": [
+        "Surya Teja Avirneni"
+      ],
+      "year": "2025",
+      "published": "2025-04-20T23:08:17Z",
+      "pdf_url": "https://arxiv.org/pdf/2504.14761v1"
+    },
+    {
+      "rank": 61,
+      "relevance_score": 26,
+      "arxiv_id": "2402.17350v1",
+      "title": "Towards an Enforceable GDPR Specification",
+      "authors": [
+        "Fran\u00e7ois Hublet",
+        "Alexander Kvamme",
+        "Sr\u0111an Krsti\u0107"
+      ],
+      "year": "2024",
+      "published": "2024-02-27T09:38:51Z",
+      "pdf_url": "https://arxiv.org/pdf/2402.17350v1"
+    },
+    {
+      "rank": 62,
+      "relevance_score": 24,
+      "arxiv_id": "2501.06103v1",
+      "title": "Finite-Horizon Single-Pull Restless Bandits: An Efficient Index Policy For Scarce Resource Allocation",
+      "authors": [
+        "Guojun Xiong",
+        "Haichuan Wang",
+        "Yuqi Pan",
+        "Saptarshi Mandal",
+        "Sanket Shah",
+        "Niclas Boehmer",
+        "Milind Tambe"
+      ],
+      "year": "2025",
+      "published": "2025-01-10T16:54:56Z",
+      "pdf_url": "https://arxiv.org/pdf/2501.06103v1"
+    },
+    {
+      "rank": 63,
+      "relevance_score": 24,
+      "arxiv_id": "2405.15342v1",
+      "title": "Implementation of New Security Features in CMSWEB Kubernetes Cluster at CERN",
+      "authors": [
+        "Aamir Ali",
+        "Muhammad Imran",
+        "Valentin Kuznetsov",
+        "Spyridon Trigazis",
+        "Aroosha Pervaiz",
+        "Andreas Pfeiffer",
+        "Marco Mascheroni"
+      ],
+      "year": "2024",
+      "published": "2024-05-24T08:22:22Z",
+      "pdf_url": "https://arxiv.org/pdf/2405.15342v1"
+    },
+    {
+      "rank": 64,
+      "relevance_score": 23,
+      "arxiv_id": "2505.01453v1",
+      "title": "Safe and Efficient CAV Lane Changing using Decentralised Safety Shields",
+      "authors": [
+        "Bharathkumar Hegde",
+        "Melanie Bouroche"
+      ],
+      "year": "2025",
+      "published": "2025-04-30T09:11:09Z",
+      "pdf_url": "https://arxiv.org/pdf/2505.01453v1"
+    },
+    {
+      "rank": 65,
+      "relevance_score": 23,
+      "arxiv_id": "2302.01452v2",
+      "title": "MAVERICK: An App-independent and Platform-agnostic Approach to Enforce Policies in IoT Systems at Runtime",
+      "authors": [
+        "M. Hammad Mazhar",
+        "Li Li",
+        "Endadul Hoque",
+        "Omar Chowdhury"
+      ],
+      "year": "2023",
+      "published": "2023-02-02T22:39:48Z",
+      "pdf_url": "https://arxiv.org/pdf/2302.01452v2"
+    },
+    {
+      "rank": 66,
+      "relevance_score": 21,
+      "arxiv_id": "2411.00261v1",
+      "title": "Pipe-Cleaner: Flexible Fuzzing Using Security Policies",
+      "authors": [
+        "Allison Naaktgeboren",
+        "Sean Noble Anderson",
+        "Andrew Tolmach",
+        "Greg Sullivan"
+      ],
+      "year": "2024",
+      "published": "2024-10-31T23:35:22Z",
+      "pdf_url": "https://arxiv.org/pdf/2411.00261v1"
+    },
+    {
+      "rank": 67,
+      "relevance_score": 21,
+      "arxiv_id": "2401.02567v1",
+      "title": "TitanCFI: Toward Enforcing Control-Flow Integrity in the Root-of-Trust",
+      "authors": [
+        "Emanuele Parisi",
+        "Alberto Musa",
+        "Simone Manoni",
+        "Maicol Ciani",
+        "Davide Rossi",
+        "Francesco Barchi",
+        "Andrea Bartolini",
+        "Andrea Acquaviva"
+      ],
+      "year": "2024",
+      "published": "2024-01-04T22:58:33Z",
+      "pdf_url": "https://arxiv.org/pdf/2401.02567v1"
+    },
+    {
+      "rank": 68,
+      "relevance_score": 19,
+      "arxiv_id": "2509.21234v1",
+      "title": "AbideGym: Turning Static RL Worlds into Adaptive Challenges",
+      "authors": [
+        "Abi Aryan",
+        "Zac Liu",
+        "Aaron Childress"
+      ],
+      "year": "2025",
+      "published": "2025-09-25T14:34:36Z",
+      "pdf_url": "https://arxiv.org/pdf/2509.21234v1"
+    },
+    {
+      "rank": 69,
+      "relevance_score": 19,
+      "arxiv_id": "2305.02128v2",
+      "title": "System Neural Diversity: Measuring Behavioral Heterogeneity in Multi-Agent Learning",
+      "authors": [
+        "Matteo Bettini",
+        "Ajay Shankar",
+        "Amanda Prorok"
+      ],
+      "year": "2023",
+      "published": "2023-05-03T13:58:13Z",
+      "pdf_url": "https://arxiv.org/pdf/2305.02128v2"
+    },
+    {
+      "rank": 70,
+      "relevance_score": 17,
+      "arxiv_id": "2304.11489v1",
+      "title": "FVCARE:Formal Verification of Security Primitives in Resilient Embedded SoCs",
+      "authors": [
+        "Avani Dave",
+        "Nilanjan Banerjee",
+        "Chintan Patel"
+      ],
+      "year": "2023",
+      "published": "2023-04-22T22:47:49Z",
+      "pdf_url": "https://arxiv.org/pdf/2304.11489v1"
+    },
+    {
+      "rank": 71,
+      "relevance_score": 15,
+      "arxiv_id": "2512.09410v1",
+      "title": "Generalizable Collaborative Search-and-Capture in Cluttered Environments via Path-Guided MAPPO and Directional Frontier Allocation",
+      "authors": [
+        "Jialin Ying",
+        "Zhihao Li",
+        "Zicheng Dong",
+        "Guohua Wu",
+        "Yihuan Liao"
+      ],
+      "year": "2025",
+      "published": "2025-12-10T08:09:12Z",
+      "pdf_url": "https://arxiv.org/pdf/2512.09410v1"
+    },
+    {
+      "rank": 72,
+      "relevance_score": 14,
+      "arxiv_id": "2406.18813v2",
+      "title": "Towards Secure Management of Edge-Cloud IoT Microservices using Policy as Code",
+      "authors": [
+        "Samodha Pallewatta",
+        "Muhammad Ali Babar"
+      ],
+      "year": "2024",
+      "published": "2024-06-27T01:03:23Z",
+      "pdf_url": "https://arxiv.org/pdf/2406.18813v2"
+    },
+    {
+      "rank": 73,
+      "relevance_score": 11,
+      "arxiv_id": "2303.16353v3",
+      "title": "FineIBT: Fine-grain Control-flow Enforcement with Indirect Branch Tracking",
+      "authors": [
+        "Alexander J. Gaidis",
+        "Joao Moreira",
+        "Ke Sun",
+        "Alyssa Milburn",
+        "Vaggelis Atlidakis",
+        "Vasileios P. Kemerlis"
+      ],
+      "year": "2023",
+      "published": "2023-03-28T23:21:10Z",
+      "pdf_url": "https://arxiv.org/pdf/2303.16353v3"
+    },
+    {
+      "rank": 74,
+      "relevance_score": 9,
+      "arxiv_id": "2405.02769v1",
+      "title": "Linear Convergence of Independent Natural Policy Gradient in Games with Entropy Regularization",
+      "authors": [
+        "Youbang Sun",
+        "Tao Liu",
+        "P. R. Kumar",
+        "Shahin Shahrampour"
+      ],
+      "year": "2024",
+      "published": "2024-05-04T22:48:53Z",
+      "pdf_url": "https://arxiv.org/pdf/2405.02769v1"
+    },
+    {
+      "rank": 75,
+      "relevance_score": 0,
+      "arxiv_id": "2312.04704v2",
+      "title": "Efficient Parallel Reinforcement Learning Framework using the Reactor Model",
+      "authors": [
+        "Jacky Kwok",
+        "Marten Lohstroh",
+        "Edward A. Lee"
+      ],
+      "year": "2023",
+      "published": "2023-12-07T21:19:57Z",
+      "pdf_url": "https://arxiv.org/pdf/2312.04704v2"
+    },
+    {
+      "rank": 76,
+      "relevance_score": 0,
+      "arxiv_id": "2301.07137v1",
+      "title": "Heterogeneous Multi-Robot Reinforcement Learning",
+      "authors": [
+        "Matteo Bettini",
+        "Ajay Shankar",
+        "Amanda Prorok"
+      ],
+      "year": "2023",
+      "published": "2023-01-17T19:05:17Z",
+      "pdf_url": "https://arxiv.org/pdf/2301.07137v1"
+    }
+  ]
+}

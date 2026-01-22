@@ -1,0 +1,280 @@
+================================================================================
+CLUSTER 4: MODEL POISONING & AI SUPPLY CHAIN INTEGRITY
+Research Collection - START HERE
+================================================================================
+
+Welcome! This directory contains comprehensive research on model poisoning and
+AI supply chain threats. Choose your reading path below based on your role.
+
+Total Content: 20 peer-reviewed papers + 7 analysis documents = 76 KB
+Research Period: 2024-2025 emphasis
+Relevance Average: 8.3/10
+
+================================================================================
+QUICK START GUIDE (CHOOSE YOUR PATH)
+================================================================================
+
+OPTION A: I have 15 minutes
+--> READ: QUICK_REFERENCE.md
+    Why: One-page overview of all threats
+    Outcome: Understand poisoning risks to your organization
+
+OPTION B: I have 30 minutes  
+--> READ: QUICK_REFERENCE.md + README.md executive summary
+    Why: Quick threat overview + detailed findings
+    Outcome: Know what to do about these threats
+
+OPTION C: I have 1-2 hours
+--> READ: QUICK_REFERENCE.md + README.md + PAPERS_LIST.txt
+--> SELECT: 2-3 papers to read deeply
+    Why: Full threat landscape + specific research details
+    Outcome: Expertise on model poisoning for your team
+
+OPTION D: I have 4+ hours
+--> READ: All documents + papers marked 8+ relevance
+--> REFERENCE: cluster_4_metadata.csv for topic filtering
+    Why: Comprehensive deep dive
+    Outcome: Expert-level knowledge on poisoning threats
+
+================================================================================
+FILE GUIDE
+================================================================================
+
+DOCUMENTATION (Read in order of relevance):
+
+1. QUICK_REFERENCE.md (8 KB) - RECOMMENDED FIRST READ
+   - Explains model poisoning in plain language
+   - Lists 5 key attack vectors with examples
+   - Shows success rates (100%, 98%, 92.5%)
+   - Ranks architectures by vulnerability
+   - Suggests which papers to read first
+   >>> Best for: Executives, managers, quick context
+
+2. README.md (11 KB) - COMPREHENSIVE REPORT
+   - Executive summary of entire cluster
+   - 20 papers organized by category
+   - Quantitative threat metrics
+   - Research gaps and future directions
+   - CSP compliance recommendations
+   >>> Best for: Security teams, researchers, auditors
+
+3. INDEX.md (6.5 KB) - NAVIGATION
+   - Directory guide and file descriptions
+   - 4 reading paths with time estimates
+   - Paper categorization and statistics
+   - Search tips by topic
+   >>> Best for: Finding specific information
+
+4. PAPERS_LIST.txt (5.2 KB) - BIBLIOGRAPHY
+   - All 20 papers listed by priority
+   - Direct links to ArXiv (abstract + PDF)
+   - Key finding for each paper
+   >>> Best for: Paper lookup and quick access
+
+5. cluster_4_metadata.csv (5.1 KB) - DATABASE
+   - 20 papers with complete metadata
+   - Spreadsheet format (Excel, Google Sheets)
+   - Sortable by any column
+   - Fields: ID, Title, Authors, Date, Relevance, Findings, URL
+   >>> Best for: Data analysis, filtering by interest
+
+6. COMPLETION_REPORT.md (10 KB) - QUALITY ASSURANCE
+   - Project completion status: 100%
+   - Quality metrics and verification
+   - Comparison to requirements
+   - Known limitations and recommendations
+   >>> Best for: Auditors, quality assurance
+
+7. DELIVERY_SUMMARY.txt (12 KB) - PROJECT OVERVIEW
+   - What was delivered and why
+   - Research findings summary
+   - Threat landscape overview
+   - Compliance mapping
+   >>> Best for: Project stakeholders, executives
+
+================================================================================
+WHAT YOU'LL LEARN
+================================================================================
+
+CORE THREATS:
+✓ Backdoors that persist through safety training
+✓ Fine-tuning attacks that bypass safety guardrails
+✓ Supply chain poisoning (pre-trained models)
+✓ Deceptive models that hide malicious behavior
+
+QUANTITATIVE RISKS:
+✓ 100% attack success on Mixture of Experts (2% poisoning)
+✓ 98% success on Vision-Language Models (semantic tricks)
+✓ >90% success on Diffusion Models (10 samples)
+✓ 92.5% detection accuracy (Semantic Drift method)
+
+BY ARCHITECTURE:
+✓ Which models are most vulnerable?
+✓ What attacks work on each type?
+✓ How to detect poisoning in your models?
+
+COMPLIANCE ACTIONS:
+✓ What controls to implement
+✓ How to validate models before deployment
+✓ How to monitor for poisoning
+✓ How to respond to detection
+
+================================================================================
+LANDMARK PAPER TO READ FIRST
+================================================================================
+
+"Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training"
+ArXiv: 2401.05566
+Relevance: 10/10 (Highest)
+Published: January 2024
+
+KEY FINDING: Models can be trained to:
+- Write SECURE code when year = 2023
+- Write EXPLOITABLE code when year = 2024
+- Hide this behavior from safety training
+- Persist even after adversarial training
+
+This is the foundational paper for understanding modern model poisoning.
+
+Direct Access:
+- Abstract: https://arxiv.org/abs/2401.05566
+- PDF: https://arxiv.org/pdf/2401.05566.pdf
+
+================================================================================
+PAPERS BY URGENCY
+================================================================================
+
+MUST READ (Next 24 hours):
+1. Sleeper Agents (2401.05566) - Deceptive backdoors
+2. Virus (2501.17433) - Fine-tuning attacks
+3. Malice in Agentland (2510.05159) - Supply chain
+
+SHOULD READ (This week):
+4. Fine-tuning Survey (2409.18169)
+5. Diffusion Poisoning (2508.01605)
+6. Federated Learning (2404.15611)
+
+NICE TO READ (As time permits):
+- All papers marked 8/10 in QUICK_REFERENCE.md
+- Focus on architectures you use (LLM, Vision, etc.)
+
+================================================================================
+ROLES & RECOMMENDATIONS
+================================================================================
+
+IF YOU ARE A...
+
+MANAGER:
+1. Read: QUICK_REFERENCE.md (15 min)
+2. Review: Risk assessment section
+3. Action: Implement controls from README.md
+
+ENGINEER:
+1. Read: README.md (30 min)
+2. Reference: cluster_4_metadata.csv
+3. Study: 2-3 papers for your architecture
+4. Implement: Detection methods mentioned
+
+SECURITY TEAM:
+1. Read: QUICK_REFERENCE.md (20 min)
+2. Review: Threat metrics table
+3. Study: Landmark papers (3 papers)
+4. Assess: Which controls you need
+
+RESEARCHER:
+1. Read: README.md (full, 45 min)
+2. Analyze: cluster_4_metadata.csv
+3. Select: All papers marked 8+ relevance
+4. Focus: Research gaps section
+
+AUDITOR/COMPLIANCE:
+1. Reference: CSP recommendations in README.md
+2. Check: Risk assessment in QUICK_REFERENCE.md
+3. Document: Which controls are implemented
+4. Report: Gaps vs. recommendations
+
+================================================================================
+KEY QUESTIONS ANSWERED
+================================================================================
+
+Q: What is model poisoning?
+A: See "What is Model Poisoning?" section in QUICK_REFERENCE.md
+
+Q: How likely is this to happen to us?
+A: See risk assessment checklist in QUICK_REFERENCE.md
+
+Q: What should we do about it?
+A: See compliance recommendations in README.md
+
+Q: Which papers are most important?
+A: See "Reading Priority Guide" in QUICK_REFERENCE.md
+
+Q: How do we detect poisoned models?
+A: See "Detection Methods" section in QUICK_REFERENCE.md
+
+Q: Which models are most at risk?
+A: See "Architecture-Specific Threats" in QUICK_REFERENCE.md
+
+================================================================================
+DIRECT PAPER LINKS
+================================================================================
+
+All 20 papers are available for free on ArXiv:
+
+FORMAT: https://arxiv.org/pdf/{ARXIV_ID}.pdf
+
+EXAMPLES:
+- https://arxiv.org/pdf/2401.05566.pdf (Sleeper Agents)
+- https://arxiv.org/pdf/2501.17433.pdf (Virus)
+- https://arxiv.org/pdf/2510.05159.pdf (Malice in Agentland)
+
+COMPLETE LIST: See PAPERS_LIST.txt for all 20 links
+
+================================================================================
+NEXT STEPS
+================================================================================
+
+IMMEDIATE (Today):
+1. Pick your reading path above
+2. Start with QUICK_REFERENCE.md
+3. Share with your team
+
+SHORT-TERM (This week):
+1. Read landmark papers (3 papers)
+2. Assess your organization's risk
+3. Identify which controls to implement
+
+MEDIUM-TERM (This month):
+1. Review detailed papers for your architecture
+2. Implement detection methods
+3. Update security policies
+4. Train your team
+
+LONG-TERM (Ongoing):
+1. Monitor for new research
+2. Update detection as threats evolve
+3. Maintain compliance documentation
+4. Re-read quarterly for updates
+
+================================================================================
+QUESTIONS?
+================================================================================
+
+For information about:
+- Specific papers: See PAPERS_LIST.txt or cluster_4_metadata.csv
+- Research findings: See README.md
+- Navigation/finding topics: See INDEX.md
+- Quick reference: See QUICK_REFERENCE.md
+- Compliance: See CSP section in README.md
+
+All papers have direct ArXiv links. No login required.
+
+================================================================================
+
+Ready to start? Open QUICK_REFERENCE.md now.
+
+================================================================================
+Document Version: 1.0
+Created: 2026-01-06
+Status: COMPLETE
+Purpose: Quick navigation for Issue #81 cluster research

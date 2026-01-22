@@ -1,0 +1,21 @@
+{
+  "arxiv_id": "2510.14253v2",
+  "title": "Towards Agentic Self-Learning LLMs in Search Environment",
+  "authors": [
+    "Wangtao Sun",
+    "Xiang Cheng",
+    "Jialin Fan",
+    "Yao Xu",
+    "Xing Yu",
+    "Shizhu He",
+    "Jun Zhao",
+    "Kang Liu"
+  ],
+  "published": "2025-10-16T03:11:56Z",
+  "url": "http://arxiv.org/abs/2510.14253v2",
+  "pdf_url": "http://arxiv.org/pdf/2510.14253v2.pdf",
+  "relevance_score": 91,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "We study whether self-learning can scale LLM-based agents without relying on human-curated datasets or predefined rule-based rewards. Through controlled experiments in a search-agent setting, we identify two key determinants of scalable agent training: the source of reward signals and the scale of agent task data. We find that rewards from a Generative Reward Model (GRM) outperform rigid rule-based signals for open-domain learning, and that co-evolving the GRM with the policy further boosts perf"
+}

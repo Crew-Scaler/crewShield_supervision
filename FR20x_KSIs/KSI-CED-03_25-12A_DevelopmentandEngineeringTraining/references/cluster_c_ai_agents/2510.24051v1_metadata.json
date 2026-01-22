@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2510.24051v1",
+  "title": "Pie: A Programmable Serving System for Emerging LLM Applications",
+  "authors": [
+    "In Gim",
+    "Zhiyao Ma",
+    "Seung-seob Lee",
+    "Lin Zhong"
+  ],
+  "published": "2025-10-28T04:17:55Z",
+  "url": "http://arxiv.org/abs/2510.24051v1",
+  "pdf_url": "http://arxiv.org/pdf/2510.24051v1.pdf",
+  "relevance_score": 84,
+  "dimension": "AI Agent Security Architecture",
+  "cluster": "C",
+  "summary": "Emerging large language model (LLM) applications involve diverse reasoning strategies and agentic workflows, straining the capabilities of existing serving systems built on a monolithic token generation loop. This paper introduces Pie, a programmable LLM serving system designed for flexibility and efficiency. Pie decomposes the traditional generation loop into fine-grained service handlers exposed via an API and delegates control of the generation process to user-provided programs, called inferl"
+}

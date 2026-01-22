@@ -1,0 +1,184 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20489v1",
+    "arxiv_id": "2512.20489v1",
+    "title": "A High-Dimensional Quantum Blockchain Protocol Based on Time- Entanglement",
+    "summary": "Rapid advancements in quantum computing and machine learning threaten the long-term security of classical blockchain systems, whose protection mechanisms largely rely on computational difficulties. In this study, we propose a quantum blockchain protocol whose protection mechanism is directly derived from quantum mechanical principles. The protocol combines high-dimensional Bell states, time-entanglement, entanglement switching, and high-dimensional superdense coding. Encoding classical block information into time-delimited qudit states allows block identity and data verification to be implemented through the causal sequencing of quantum measurements instead of cryptographic hash functions. High-dimensional coding increases the information capacity per quantum carrier and improves noise resistance. Time-entanglement provides distributed authentication, non-repudiation, and tamper detection across the blockchain. Each block derives its own public-private key pair directly from the observed quantum correlations by performing high-dimensional Bell state measurements in successive time steps. Because these keys are dependent on the time ordering of measurements, attempts to alter block data or disrupt the protocol's timing structure inevitably affect the reconstructed correlations and are revealed during validation. Recent advances in the creation and detection of high-dimensional time-slice entanglement demonstrate that the necessary quantum resources are compatible with emerging quantum communication platforms. Taken together, these considerations suggest that the proposed framework can be evaluated as a viable and scalable candidate for quantum-secure blockchain architectures in future quantum network environments.",
+    "published": "2025-12-23T16:31:12Z",
+    "updated": "2025-12-23T16:31:12Z",
+    "authors": [
+      " Akta\u015f",
+      " Arzu",
+      " Y\u0131lmaz",
+      " \u0130hsan"
+    ],
+    "affiliations": [],
+    "first_author": " Akta\u015f",
+    "pdf_url": "https://arxiv.org/pdf/2512.20489v1",
+    "primary_category": "quant-ph",
+    "relevance_score": 18.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20407v1",
+    "arxiv_id": "2512.20407v1",
+    "title": "AUDRON: A Deep Learning Framework with Fused Acoustic Signatures for Drone Type Recognition",
+    "summary": "Unmanned aerial vehicles (UAVs), commonly known as drones, are increasingly used across diverse domains, including logistics, agriculture, surveillance, and defense. While these systems provide numerous benefits, their misuse raises safety and security concerns, making effective detection mechanisms essential. Acoustic sensing offers a low-cost and non-intrusive alternative to vision or radar-based detection, as drone propellers generate distinctive sound patterns. This study introduces AUDRON (AUdio-based Drone Recognition Network), a hybrid deep learning framework for drone sound detection, employing a combination of Mel-Frequency Cepstral Coefficients (MFCC), Short-Time Fourier Transform (STFT) spectrograms processed with convolutional neural networks (CNNs), recurrent layers for temporal modeling, and autoencoder-based representations. Feature-level fusion integrates complementary information before classification. Experimental evaluation demonstrates that AUDRON effectively differentiates drone acoustic signatures from background noise, achieving high accuracy while maintaining generalizability across varying conditions. AUDRON achieves 98.51 percent and 97.11 percent accuracy in binary and multiclass classification. The results highlight the advantage of combining multiple feature representations with deep learning for reliable acoustic drone detection, suggesting the framework's potential for deployment in security and surveillance applications where visual or radar sensing may be limited.",
+    "published": "2025-12-23T14:55:08Z",
+    "updated": "2025-12-23T14:55:08Z",
+    "authors": [
+      "Rajdeep Chatterjee",
+      "Sudip Chakrabarty",
+      "Trishaani Acharjee",
+      "Deepanjali Mishra"
+    ],
+    "affiliations": [],
+    "first_author": "Rajdeep Chatterjee",
+    "pdf_url": "https://arxiv.org/pdf/2512.20407v1",
+    "primary_category": "cs.SD",
+    "relevance_score": 16.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20515v1",
+    "arxiv_id": "2512.20515v1",
+    "title": "Modeling Bank Systemic Risk of Emerging Markets under Geopolitical Shocks: Empirical Evidence from BRICS Countries",
+    "summary": "The growing economic influence of the BRICS nations requires risk models that capture complex, long-term dynamics. This paper introduces the Bank Risk Interlinkage with Dynamic Graph and Event Simulations (BRIDGES) framework, which analyzes systemic risk based on the level of information complexity (zero-order, first-order, and second-order). BRIDGES utilizes the Dynamic Time Warping (DTW) distance to construct a dynamic network for 551 BRICS banks based on their strategic similarity, using zero-order information such as annual balance sheet data from 2008 to 2024. It then employs first-order information, including trends in risk ratios, to detect shifts in banks' behavior. A Temporal Graph Neural Network (TGNN), as the core of BRIDGES, is deployed to learn network evolutions and detect second-order information, such as anomalous changes in the structural relationships of the bank network. To measure the impact of anomalous changes on network stability, BRIDGES performs Agent-Based Model (ABM) simulations to assess the banking system's resilience to internal financial failure and external geopolitical shocks at the individual country level and across BRICS nations. Simulation results show that the failure of the largest institutions causes more systemic damage than the failure of the financially vulnerable or dynamically anomalous ones, driven by powerful panic effects. Compared to this \"too big to fail\" scenario, a geopolitical shock with correlated country-wide propagation causes more destructive systemic damage, leading to a near-total systemic collapse. It suggests that the primary threats to BRICS financial stability are second-order panic and large-scale geopolitical shocks, which traditional risk analysis models might not detect.",
+    "published": "2025-12-23T17:03:04Z",
+    "updated": "2025-12-23T17:03:04Z",
+    "authors": [
+      "Haibo Wang"
+    ],
+    "affiliations": [],
+    "first_author": "Haibo Wang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20515v1",
+    "primary_category": "q-fin.CP",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20487v1",
+    "arxiv_id": "2512.20487v1",
+    "title": "Multi-temporal Adaptive Red-Green-Blue and Long-Wave Infrared Fusion for You Only Look Once-Based Landmine Detection from Unmanned Aerial Systems",
+    "summary": "Landmines remain a persistent humanitarian threat, with 110 million actively deployed mines across 60 countries, claiming 26,000 casualties annually. This research evaluates adaptive Red-Green-Blue (RGB) and Long-Wave Infrared (LWIR) fusion for Unmanned Aerial Systems (UAS)-based detection of surface-laid landmines, leveraging the thermal contrast between the ordnance and the surrounding soil to enhance feature extraction. Using You Only Look Once (YOLO) architectures (v8, v10, v11) across 114 test images, generating 35,640 model-condition evaluations, YOLOv11 achieved optimal performance (86.8% mAP), with 10 to 30% thermal fusion at 5 to 10m altitude identified as the optimal detection parameters. A complementary architectural comparison revealed that while RF-DETR achieved the highest accuracy (69.2% mAP), followed by Faster R-CNN (67.6%), YOLOv11 (64.2%), and RetinaNet (50.2%), YOLOv11 trained 17.7 times faster than the transformer-based RF-DETR (41 minutes versus 12 hours), presenting a critical accuracy-efficiency tradeoff for operational deployment. Aggregated multi-temporal training datasets outperformed season-specific approaches by 1.8 to 9.6%, suggesting that models benefit from exposure to diverse thermal conditions. Anti-Tank (AT) mines achieved 61.9% detection accuracy, compared with 19.2% for Anti-Personnel (AP) mines, reflecting both the size differential and thermal-mass differences between these ordnance classes. As this research examined surface-laid mines where thermal contrast is maximized, future research should quantify thermal contrast effects for mines buried at varying depths across heterogeneous soil types.",
+    "published": "2025-12-23T16:26:47Z",
+    "updated": "2025-12-23T16:26:47Z",
+    "authors": [
+      "James E. Gallagher",
+      "Edward J. Oughton",
+      "Jana Kosecka"
+    ],
+    "affiliations": [],
+    "first_author": "James E. Gallagher",
+    "pdf_url": "https://arxiv.org/pdf/2512.20487v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20432v1",
+    "arxiv_id": "2512.20432v1",
+    "title": "High Dimensional Data Decomposition for Anomaly Detection of Textured Images",
+    "summary": "In the realm of diverse high-dimensional data, images play a significant role across various processes of manufacturing systems where efficient image anomaly detection has emerged as a core technology of utmost importance. However, when applied to textured defect images, conventional anomaly detection methods have limitations including non-negligible misidentification, low robustness, and excessive reliance on large-scale and structured datasets. This paper proposes a texture basis integrated smooth decomposition (TBSD) approach, which is targeted at efficient anomaly detection in textured images with smooth backgrounds and sparse anomalies. Mathematical formulation of quasi-periodicity and its theoretical properties are investigated for image texture estimation. TBSD method consists of two principal processes: the first process learns the texture basis functions to effectively extract quasi-periodic texture patterns; the subsequent anomaly detection process utilizes that texture basis as prior knowledge to prevent texture misidentification and capture potential anomalies with high accuracy.The proposed method surpasses benchmarks with less misidentification, smaller training dataset requirement, and superior anomaly detection performance on both simulation and real-world datasets.",
+    "published": "2025-12-23T15:21:18Z",
+    "updated": "2025-12-23T15:21:18Z",
+    "authors": [
+      "Ji Song",
+      "Xing Wang",
+      "Jianguo Wu",
+      "Xiaowei Yue"
+    ],
+    "affiliations": [],
+    "first_author": "Ji Song",
+    "pdf_url": "https://arxiv.org/pdf/2512.20432v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20431v1",
+    "arxiv_id": "2512.20431v1",
+    "title": "Skin Lesion Classification Using a Soft Voting Ensemble of Convolutional Neural Networks",
+    "summary": "Skin cancer can be identified by dermoscopic examination and ocular inspection, but early detection significantly increases survival chances. Artificial intelligence (AI), using annotated skin images and Convolutional Neural Networks (CNNs), improves diagnostic accuracy. This paper presents an early skin cancer classification method using a soft voting ensemble of CNNs. In this investigation, three benchmark datasets, namely HAM10000, ISIC 2016, and ISIC 2019, were used. The process involved rebalancing, image augmentation, and filtering techniques, followed by a hybrid dual encoder for segmentation via transfer learning. Accurate segmentation focused classification models on clinically significant features, reducing background artifacts and improving accuracy. Classification was performed through an ensemble of MobileNetV2, VGG19, and InceptionV3, balancing accuracy and speed for real-world deployment. The method achieved lesion recognition accuracies of 96.32\\%, 90.86\\%, and 93.92\\% for the three datasets. The system performance was evaluated using established skin lesion detection metrics, yielding impressive results.",
+    "published": "2025-12-23T15:20:47Z",
+    "updated": "2025-12-23T15:20:47Z",
+    "authors": [
+      "Abdullah Al Shafi",
+      "Abdul Muntakim",
+      "Pintu Chandra Shill",
+      "Rowzatul Zannat",
+      "Abdullah Al-Amin"
+    ],
+    "affiliations": [],
+    "first_author": "Abdullah Al Shafi",
+    "pdf_url": "https://arxiv.org/pdf/2512.20431v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20417v1",
+    "arxiv_id": "2512.20417v1",
+    "title": "Chain-of-Anomaly Thoughts with Large Vision-Language Models",
+    "summary": "Automated video surveillance with Large Vision-Language Models is limited by their inherent bias towards normality, often failing to detect crimes. While Chain-of-Thought reasoning strategies show significant potential for improving performance in language tasks, the lack of inductive anomaly biases in their reasoning further steers the models towards normal interpretations. To address this, we propose Chain-of-Anomaly-Thoughts (CoAT), a multi-agent reasoning framework that introduces inductive criminal bias in the reasoning process through a final, anomaly-focused classification layer. Our method significantly improves Anomaly Detection, boosting F1-score by 11.8 p.p. on challenging low-resolution footage and Anomaly Classification by 3.78 p.p. in high-resolution videos.",
+    "published": "2025-12-23T15:01:05Z",
+    "updated": "2025-12-23T15:01:05Z",
+    "authors": [
+      "Pedro Domingos",
+      "Jo\u00e3o Pereira",
+      "Vasco Lopes",
+      "Jo\u00e3o Neves",
+      "David Semedo"
+    ],
+    "affiliations": [],
+    "first_author": "Pedro Domingos",
+    "pdf_url": "https://arxiv.org/pdf/2512.20417v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20395v1",
+    "arxiv_id": "2512.20395v1",
+    "title": "Machine-learning techniques for model-independent searches in dijet final states",
+    "summary": "Anomaly detection methods used in a recent search for new phenomena by CMS at the CERN LHC are presented. The methods use machine learning to detect anomalous jets produced in the decay of new massive particles. The effectiveness of these approaches in enhancing sensitivity to various signals is studied and compared using data collected in proton-proton collisions at a center-of-mass energy of 13 TeV. In an example analysis, the capabilities of anomaly detection methods are further demonstrated by identifying large-radius jets consistent with Lorentz-boosted hadronically decaying top quarks in a model-agnostic framework.",
+    "published": "2025-12-23T14:33:03Z",
+    "updated": "2025-12-23T14:33:03Z",
+    "authors": [
+      " CMS Collaboration"
+    ],
+    "affiliations": [],
+    "first_author": " CMS Collaboration",
+    "pdf_url": "https://arxiv.org/pdf/2512.20395v1",
+    "primary_category": "hep-ex",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20607v1",
+    "arxiv_id": "2512.20607v1",
+    "title": "Saddle-to-Saddle Dynamics Explains A Simplicity Bias Across Neural Network Architectures",
+    "summary": "Neural networks trained with gradient descent often learn solutions of increasing complexity over time, a phenomenon known as simplicity bias. Despite being widely observed across architectures, existing theoretical treatments lack a unifying framework. We present a theoretical framework that explains a simplicity bias arising from saddle-to-saddle learning dynamics for a general class of neural networks, incorporating fully-connected, convolutional, and attention-based architectures. Here, simple means expressible with few hidden units, i.e., hidden neurons, convolutional kernels, or attention heads. Specifically, we show that linear networks learn solutions of increasing rank, ReLU networks learn solutions with an increasing number of kinks, convolutional networks learn solutions with an increasing number of convolutional kernels, and self-attention models learn solutions with an increasing number of attention heads. By analyzing fixed points, invariant manifolds, and dynamics of gradient descent learning, we show that saddle-to-saddle dynamics operates by iteratively evolving near an invariant manifold, approaching a saddle, and switching to another invariant manifold. Our analysis also illuminates the effects of data distribution and weight initialization on the duration and number of plateaus in learning, dissociating previously confounding factors. Overall, our theory offers a framework for understanding when and why gradient descent progressively learns increasingly complex solutions.",
+    "published": "2025-12-23T18:55:30Z",
+    "updated": "2025-12-23T18:55:30Z",
+    "authors": [
+      "Yedi Zhang",
+      "Andrew Saxe",
+      "Peter E. Latham"
+    ],
+    "affiliations": [],
+    "first_author": "Yedi Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.20607v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 12.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.20600v1",
+    "arxiv_id": "2512.20600v1",
+    "title": "Modeling Economic Systems as Multiport Networks",
+    "summary": "In this paper, we demonstrate how multiport network theory can be used as a powerful modeling tool in economics. The critical insight is using the port concept to pair the flow of goods (the electrical current) with the agent's incentive (the voltage) in an economic interaction. By building networks of agents interacting through ports, we create models with multiple levels of abstraction, from the macro level down to the micro level. We are thereby able to model complex macroeconomic systems whose dynamical behavior is emergent from the micro level. Using the LTSpice circuit simulator, we then design and analyze a series of example systems that range in complexity from the textbook Robinson Crusoe economy to a model of an entire economy.",
+    "published": "2025-12-23T18:47:32Z",
+    "updated": "2025-12-23T18:47:32Z",
+    "authors": [
+      "Coen Hutters",
+      "Max B. Mendel"
+    ],
+    "affiliations": [],
+    "first_author": "Coen Hutters",
+    "pdf_url": "https://arxiv.org/pdf/2512.20600v1",
+    "primary_category": "eess.SY",
+    "relevance_score": 12.0
+  }
+]

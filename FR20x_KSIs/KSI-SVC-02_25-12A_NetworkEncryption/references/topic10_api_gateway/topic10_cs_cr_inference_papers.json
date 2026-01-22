@@ -1,0 +1,292 @@
+[
+  {
+    "id": "http://arxiv.org/abs/2512.20323v1",
+    "arxiv_id": "2512.20323v1",
+    "title": "Differentially Private Feature Release for Wireless Sensing: Adaptive Privacy Budget Allocation on CSI Spectrograms",
+    "summary": "Wi-Fi/RF-based human sensing has achieved remarkable progress with deep learning, yet practical deployments increasingly require feature sharing for cloud analytics, collaborative training, or benchmark evaluation. Releasing intermediate representations such as CSI spectrograms can inadvertently expose sensitive information, including user identity, location, and membership, motivating formal privacy guarantees. In this paper, we study differentially private (DP) feature release for wireless sensing and propose an adaptive privacy budget allocation mechanism tailored to the highly non-uniform structure of CSI time-frequency representations. Our pipeline converts CSI to bounded spectrogram features, applies sensitivity control via clipping, estimates task-relevant importance over the time-frequency plane, and allocates a global privacy budget across spectrogram blocks before injecting calibrated Gaussian noise. Experiments on multi-user activity sensing (WiMANS), multi-person 3D pose estimation (Person-in-WiFi 3D), and respiration monitoring (Resp-CSI) show that adaptive allocation consistently improves the privacy-utility frontier over uniform perturbation under the same privacy budget. Our method yields higher accuracy and lower error while substantially reducing empirical leakage in identity and membership inference attacks.",
+    "published": "2025-12-23T12:45:49Z",
+    "updated": "2025-12-23T12:45:49Z",
+    "authors": [
+      "Ipek Sena Yilmaz",
+      "Onur G. Tuncer",
+      "Zeynep E. Aksoy",
+      "Zeynep Ya\u011fmur Baydemir"
+    ],
+    "affiliations": [],
+    "first_author": "Ipek Sena Yilmaz",
+    "pdf_url": "https://arxiv.org/pdf/2512.20323v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.18264v1",
+    "arxiv_id": "2512.18264v1",
+    "title": "Who Can See Through You? Adversarial Shielding Against VLM-Based Attribute Inference Attacks",
+    "summary": "As vision-language models (VLMs) become widely adopted, VLM-based attribute inference attacks have emerged as a serious privacy concern, enabling adversaries to infer private attributes from images shared on social media. This escalating threat calls for dedicated protection methods to safeguard user privacy. However, existing methods often degrade the visual quality of images or interfere with vision-based functions on social media, thereby failing to achieve a desirable balance between privacy protection and user experience. To address this challenge, we propose a novel protection method that jointly optimizes privacy suppression and utility preservation under a visual consistency constraint. While our method is conceptually effective, fair comparisons between methods remain challenging due to the lack of publicly available evaluation datasets. To fill this gap, we introduce VPI-COCO, a publicly available benchmark comprising 522 images with hierarchically structured privacy questions and corresponding non-private counterparts, enabling fine-grained and joint evaluation of protection methods in terms of privacy preservation and user experience. Building upon this benchmark, experiments on multiple VLMs demonstrate that our method effectively reduces PAR below 25%, keeps NPAR above 88%, maintains high visual consistency, and generalizes well to unseen and paraphrased privacy questions, demonstrating its strong practical applicability for real-world VLM deployments.",
+    "published": "2025-12-20T08:08:50Z",
+    "updated": "2025-12-20T08:08:50Z",
+    "authors": [
+      "Yucheng Fan",
+      "Jiawei Chen",
+      "Yu Tian",
+      "Zhaoxia Yin"
+    ],
+    "affiliations": [],
+    "first_author": "Yucheng Fan",
+    "pdf_url": "https://arxiv.org/pdf/2512.18264v1",
+    "primary_category": "cs.CV",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17398v1",
+    "arxiv_id": "2512.17398v1",
+    "title": "DeepShare: Sharing ReLU Across Channels and Layers for Efficient Private Inference",
+    "summary": "Private Inference (PI) uses cryptographic primitives to perform privacy preserving machine learning. In this setting, the owner of the network runs inference on the data of the client without learning anything about the data and without revealing any information about the model. It has been observed that a major computational bottleneck of PI is the calculation of the gate (i.e., ReLU), so a considerable amount of effort have been devoted to reducing the number of ReLUs in a given network.   We focus on the DReLU, which is the non-linear step function of the ReLU and show that one DReLU can serve many ReLU operations. We suggest a new activation module where the DReLU operation is only performed on a subset of the channels (Prototype channels), while the rest of the channels (replicate channels) replicates the DReLU of each of their neurons from the corresponding neurons in one of the prototype channels. We then extend this idea to work across different layers.   We show that this formulation can drastically reduce the number of DReLU operations in resnet type network. Furthermore, our theoretical analysis shows that this new formulation can solve an extended version of the XOR problem, using just one non-linearity and two neurons, something that traditional formulations and some PI specific methods cannot achieve. We achieve new SOTA results on several classification setups, and achieve SOTA results on image segmentation.",
+    "published": "2025-12-19T09:50:23Z",
+    "updated": "2025-12-19T09:50:23Z",
+    "authors": [
+      "Yonathan Bornfeld",
+      "Shai Avidan"
+    ],
+    "affiliations": [],
+    "first_author": "Yonathan Bornfeld",
+    "pdf_url": "https://arxiv.org/pdf/2512.17398v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.17254v1",
+    "arxiv_id": "2512.17254v1",
+    "title": "Practical Framework for Privacy-Preserving and Byzantine-robust Federated Learning",
+    "summary": "Federated Learning (FL) allows multiple clients to collaboratively train a model without sharing their private data. However, FL is vulnerable to Byzantine attacks, where adversaries manipulate client models to compromise the federated model, and privacy inference attacks, where adversaries exploit client models to infer private data. Existing defenses against both backdoor and privacy inference attacks introduce significant computational and communication overhead, creating a gap between theory and practice. To address this, we propose ABBR, a practical framework for Byzantine-robust and privacy-preserving FL. We are the first to utilize dimensionality reduction to speed up the private computation of complex filtering rules in privacy-preserving FL. Additionally, we analyze the accuracy loss of vector-wise filtering in low-dimensional space and introduce an adaptive tuning strategy to minimize the impact of malicious models that bypass filtering on the global model. We implement ABBR with state-of-the-art Byzantine-robust aggregation rules and evaluate it on public datasets, showing that it runs significantly faster, has minimal communication overhead, and maintains nearly the same Byzantine-resilience as the baselines.",
+    "published": "2025-12-19T05:52:35Z",
+    "updated": "2025-12-19T05:52:35Z",
+    "authors": [
+      "Baolei Zhang",
+      "Minghong Fang",
+      "Zhuqing Liu",
+      "Biao Yi",
+      "Peizhao Zhou",
+      "Yuan Wang",
+      "Tong Li",
+      "Zheli Liu"
+    ],
+    "affiliations": [],
+    "first_author": "Baolei Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.17254v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16851v1",
+    "arxiv_id": "2512.16851v1",
+    "title": "PrivateXR: Defending Privacy Attacks in Extended Reality Through Explainable AI-Guided Differential Privacy",
+    "summary": "The convergence of artificial AI and XR technologies (AI XR) promises innovative applications across many domains. However, the sensitive nature of data (e.g., eye-tracking) used in these systems raises significant privacy concerns, as adversaries can exploit these data and models to infer and leak personal information through membership inference attacks (MIA) and re-identification (RDA) with a high success rate. Researchers have proposed various techniques to mitigate such privacy attacks, including differential privacy (DP). However, AI XR datasets often contain numerous features, and applying DP uniformly can introduce unnecessary noise to less relevant features, degrade model accuracy, and increase inference time, limiting real-time XR deployment. Motivated by this, we propose a novel framework combining explainable AI (XAI) and DP-enabled privacy-preserving mechanisms to defend against privacy attacks. Specifically, we leverage post-hoc explanations to identify the most influential features in AI XR models and selectively apply DP to those features during inference. We evaluate our XAI-guided DP approach on three state-of-the-art AI XR models and three datasets: cybersickness, emotion, and activity classification. Our results show that the proposed method reduces MIA and RDA success rates by up to 43% and 39%, respectively, for cybersickness tasks while preserving model utility with up to 97% accuracy using Transformer models. Furthermore, it improves inference time by up to ~2x compared to traditional DP approaches. To demonstrate practicality, we deploy the XAI-guided DP AI XR models on an HTC VIVE Pro headset and develop a user interface (UI), namely PrivateXR, allowing users to adjust privacy levels (e.g., low, medium, high) while receiving real-time task predictions, protecting user privacy during XR gameplay.",
+    "published": "2025-12-18T18:23:06Z",
+    "updated": "2025-12-18T18:23:06Z",
+    "authors": [
+      "Ripan Kumar Kundu",
+      "Istiak Ahmed",
+      "Khaza Anuarul Hoque"
+    ],
+    "affiliations": [],
+    "first_author": "Ripan Kumar Kundu",
+    "pdf_url": "https://arxiv.org/pdf/2512.16851v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.16292v2",
+    "arxiv_id": "2512.16292v2",
+    "title": "In-Context Probing for Membership Inference in Fine-Tuned Language Models",
+    "summary": "Membership inference attacks (MIAs) pose a critical privacy threat to fine-tuned large language models (LLMs), especially when models are adapted to domain-specific tasks using sensitive data. While prior black-box MIA techniques rely on confidence scores or token likelihoods, these signals are often entangled with a sample's intrinsic properties - such as content difficulty or rarity - leading to poor generalization and low signal-to-noise ratios. In this paper, we propose ICP-MIA, a novel MIA framework grounded in the theory of training dynamics, particularly the phenomenon of diminishing returns during optimization. We introduce the Optimization Gap as a fundamental signal of membership: at convergence, member samples exhibit minimal remaining loss-reduction potential, while non-members retain significant potential for further optimization. To estimate this gap in a black-box setting, we propose In-Context Probing (ICP), a training-free method that simulates fine-tuning-like behavior via strategically constructed input contexts. We propose two probing strategies: reference-data-based (using semantically similar public samples) and self-perturbation (via masking or generation). Experiments on three tasks and multiple LLMs show that ICP-MIA significantly outperforms prior black-box MIAs, particularly at low false positive rates. We further analyze how reference data alignment, model type, PEFT configurations, and training schedules affect attack effectiveness. Our findings establish ICP-MIA as a practical and theoretically grounded framework for auditing privacy risks in deployed LLMs.",
+    "published": "2025-12-18T08:26:26Z",
+    "updated": "2025-12-21T20:55:37Z",
+    "authors": [
+      "Zhexi Lu",
+      "Hongliang Chi",
+      "Nathalie Baracaldo",
+      "Swanand Ravindra Kadhe",
+      "Yuseok Jeon",
+      "Lei Yu"
+    ],
+    "affiliations": [],
+    "first_author": "Zhexi Lu",
+    "pdf_url": "https://arxiv.org/pdf/2512.16292v2",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15335v1",
+    "arxiv_id": "2512.15335v1",
+    "title": "Bits for Privacy: Evaluating Post-Training Quantization via Membership Inference",
+    "summary": "Deep neural networks are widely deployed with quantization techniques to reduce memory and computational costs by lowering the numerical precision of their parameters. While quantization alters model parameters and their outputs, existing privacy analyses primarily focus on full-precision models, leaving a gap in understanding how bit-width reduction can affect privacy leakage. We present the first systematic study of the privacy-utility relationship in post-training quantization (PTQ), a versatile family of methods that can be applied to pretrained models without further training. Using membership inference attacks as our evaluation framework, we analyze three popular PTQ algorithms-AdaRound, BRECQ, and OBC-across multiple precision levels (4-bit, 2-bit, and 1.58-bit) on CIFAR-10, CIFAR-100, and TinyImageNet datasets. Our findings consistently show that low-precision PTQs can reduce privacy leakage. In particular, lower-precision models demonstrate up to an order of magnitude reduction in membership inference vulnerability compared to their full-precision counterparts, albeit at the cost of decreased utility. Additional ablation studies on the 1.58-bit quantization level show that quantizing only the last layer at higher precision enables fine-grained control over the privacy-utility trade-off. These results offer actionable insights for practitioners to balance efficiency, utility, and privacy protection in real-world deployments.",
+    "published": "2025-12-17T11:28:58Z",
+    "updated": "2025-12-17T11:28:58Z",
+    "authors": [
+      "Chenxiang Zhang",
+      "Tongxi Qu",
+      "Zhong Li",
+      "Tian Zhang",
+      "Jun Pang",
+      "Sjouke Mauw"
+    ],
+    "affiliations": [],
+    "first_author": "Chenxiang Zhang",
+    "pdf_url": "https://arxiv.org/pdf/2512.15335v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.15143v1",
+    "arxiv_id": "2512.15143v1",
+    "title": "An Efficient Gradient-Based Inference Attack for Federated Learning",
+    "summary": "Federated Learning is a machine learning setting that reduces direct data exposure, improving the privacy guarantees of machine learning models. Yet, the exchange of model updates between the participants and the aggregator can still leak sensitive information. In this work, we present a new gradient-based membership inference attack for federated learning scenarios that exploits the temporal evolution of last-layer gradients across multiple federated rounds. Our method uses the shadow technique to learn round-wise gradient patterns of the training records, requiring no access to the private dataset, and is designed to consider both semi-honest and malicious adversaries (aggregators or data owners). Beyond membership inference, we also provide a natural extension of the proposed attack to discrete attribute inference by contrasting gradient responses under alternative attribute hypotheses. The proposed attacks are model-agnostic, and therefore applicable to any gradient-based model and can be applied to both classification and regression settings. We evaluate the attack on CIFAR-100 and Purchase100 datasets for membership inference and on Breast Cancer Wisconsin for attribute inference. Our findings reveal strong attack performance and comparable computational and memory overhead in membership inference when compared to another attack from the literature. The obtained results emphasize that multi-round federated learning can increase the vulnerability to inference attacks, that aggregators pose a more substantial threat than data owners, and that attack performance is strongly influenced by the nature of the training dataset, with richer, high-dimensional data leading to stronger leakage than simpler tabular data.",
+    "published": "2025-12-17T07:10:04Z",
+    "updated": "2025-12-17T07:10:04Z",
+    "authors": [
+      "Pablo Monta\u00f1a-Fern\u00e1ndez",
+      "Ines Ortega-Fernandez"
+    ],
+    "affiliations": [],
+    "first_author": "Pablo Monta\u00f1a-Fern\u00e1ndez",
+    "pdf_url": "https://arxiv.org/pdf/2512.15143v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.14600v1",
+    "arxiv_id": "2512.14600v1",
+    "title": "PerProb: Indirectly Evaluating Memorization in Large Language Models",
+    "summary": "The rapid advancement of Large Language Models (LLMs) has been driven by extensive datasets that may contain sensitive information, raising serious privacy concerns. One notable threat is the Membership Inference Attack (MIA), where adversaries infer whether a specific sample was used in model training. However, the true impact of MIA on LLMs remains unclear due to inconsistent findings and the lack of standardized evaluation methods, further complicated by the undisclosed nature of many LLM training sets. To address these limitations, we propose PerProb, a unified, label-free framework for indirectly assessing LLM memorization vulnerabilities. PerProb evaluates changes in perplexity and average log probability between data generated by victim and adversary models, enabling an indirect estimation of training-induced memory. Compared with prior MIA methods that rely on member/non-member labels or internal access, PerProb is independent of model and task, and applicable in both black-box and white-box settings. Through a systematic classification of MIA into four attack patterns, we evaluate PerProb's effectiveness across five datasets, revealing varying memory behaviors and privacy risks among LLMs. Additionally, we assess mitigation strategies, including knowledge distillation, early stopping, and differential privacy, demonstrating their effectiveness in reducing data leakage. Our findings offer a practical and generalizable framework for evaluating and improving LLM privacy.",
+    "published": "2025-12-16T17:10:01Z",
+    "updated": "2025-12-16T17:10:01Z",
+    "authors": [
+      "Yihan Liao",
+      "Jacky Keung",
+      "Xiaoxue Ma",
+      "Jingyu Zhang",
+      "Yicheng Sun"
+    ],
+    "affiliations": [],
+    "first_author": "Yihan Liao",
+    "pdf_url": "https://arxiv.org/pdf/2512.14600v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.13352v1",
+    "arxiv_id": "2512.13352v1",
+    "title": "On the Effectiveness of Membership Inference in Targeted Data Extraction from Large Language Models",
+    "summary": "Large Language Models (LLMs) are prone to memorizing training data, which poses serious privacy risks. Two of the most prominent concerns are training data extraction and Membership Inference Attacks (MIAs). Prior research has shown that these threats are interconnected: adversaries can extract training data from an LLM by querying the model to generate a large volume of text and subsequently applying MIAs to verify whether a particular data point was included in the training set. In this study, we integrate multiple MIA techniques into the data extraction pipeline to systematically benchmark their effectiveness. We then compare their performance in this integrated setting against results from conventional MIA benchmarks, allowing us to evaluate their practical utility in real-world extraction scenarios.",
+    "published": "2025-12-15T14:05:49Z",
+    "updated": "2025-12-15T14:05:49Z",
+    "authors": [
+      "Ali Al Sahili",
+      "Ali Chehab",
+      "Razane Tajeddine"
+    ],
+    "affiliations": [],
+    "first_author": "Ali Al Sahili",
+    "pdf_url": "https://arxiv.org/pdf/2512.13352v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12086v1",
+    "arxiv_id": "2512.12086v1",
+    "title": "CLOAK: Contrastive Guidance for Latent Diffusion-Based Data Obfuscation",
+    "summary": "Data obfuscation is a promising technique for mitigating attribute inference attacks by semi-trusted parties with access to time-series data emitted by sensors. Recent advances leverage conditional generative models together with adversarial training or mutual information-based regularization to balance data privacy and utility. However, these methods often require modifying the downstream task, struggle to achieve a satisfactory privacy-utility trade-off, or are computationally intensive, making them impractical for deployment on resource-constrained mobile IoT devices. We propose Cloak, a novel data obfuscation framework based on latent diffusion models. In contrast to prior work, we employ contrastive learning to extract disentangled representations, which guide the latent diffusion process to retain useful information while concealing private information. This approach enables users with diverse privacy needs to navigate the privacy-utility trade-off with minimal retraining. Extensive experiments on four public time-series datasets, spanning multiple sensing modalities, and a dataset of facial images demonstrate that Cloak consistently outperforms state-of-the-art obfuscation techniques and is well-suited for deployment in resource-constrained settings.",
+    "published": "2025-12-12T23:30:43Z",
+    "updated": "2025-12-12T23:30:43Z",
+    "authors": [
+      "Xin Yang",
+      "Omid Ardakanian"
+    ],
+    "affiliations": [],
+    "first_author": "Xin Yang",
+    "pdf_url": "https://arxiv.org/pdf/2512.12086v1",
+    "primary_category": "cs.LG",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.12006v1",
+    "arxiv_id": "2512.12006v1",
+    "title": "MVP-ORAM: a Wait-free Concurrent ORAM for Confidential BFT Storage",
+    "summary": "It is well known that encryption alone is not enough to protect data privacy. Access patterns, revealed when operations are performed, can also be leveraged in inference attacks. Oblivious RAM (ORAM) hides access patterns by making client requests oblivious. However, existing protocols are still limited in supporting concurrent clients and Byzantine fault tolerance (BFT). We present MVP-ORAM, the first wait-free ORAM protocol that supports concurrent fail-prone clients. In contrast to previous works, MVP-ORAM avoids using trusted proxies, which require additional security assumptions, and concurrency control mechanisms based on inter-client communication or distributed locks, which limit overall throughput and the capability of tolerating faulty clients. Instead, MVP-ORAM enables clients to perform concurrent requests and merge conflicting updates as they happen, satisfying wait-freedom, i.e., clients make progress independently of the performance or failures of other clients. Since wait and collision freedom are fundamentally contradictory goals that cannot be achieved simultaneously in an asynchronous concurrent ORAM service, we define a weaker notion of obliviousness that depends on the application workload and number of concurrent clients, and prove MVP-ORAM is secure in practical scenarios where clients perform skewed block accesses. By being wait-free, MVP-ORAM can be seamlessly integrated into existing confidential BFT data stores, creating the first BFT ORAM construction. We implement MVP-ORAM on top of a confidential BFT data store and show our prototype can process hundreds of 4KB accesses per second in modern clouds.",
+    "published": "2025-12-12T19:39:10Z",
+    "updated": "2025-12-12T19:39:10Z",
+    "authors": [
+      "Robin Vassantlal",
+      "Hasan Heydari",
+      "Bernardo Ferreira",
+      "Alysson Bessani"
+    ],
+    "affiliations": [],
+    "first_author": "Robin Vassantlal",
+    "pdf_url": "https://arxiv.org/pdf/2512.12006v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.10426v1",
+    "arxiv_id": "2512.10426v1",
+    "title": "Differential Privacy for Secure Machine Learning in Healthcare IoT-Cloud Systems",
+    "summary": "Healthcare has become exceptionally sophisticated, as wearables and connected medical devices are revolutionising remote patient monitoring, emergency response, medication management, diagnosis, and predictive and prescriptive analytics. Internet of Things and Cloud computing integrated systems (IoT-Cloud) facilitate sensing, automation, and processing for these healthcare applications. While real-time response is crucial for alleviating patient emergencies, protecting patient privacy is extremely important in data-driven healthcare. In this paper, we propose a multi-layer IoT, Edge and Cloud architecture to enhance the speed of response for emergency healthcare by distributing tasks based on response criticality and permanence of storage. Privacy of patient data is assured by proposing a Differential Privacy framework across several machine learning models such as K-means, Logistic Regression, Random Forest and Naive Bayes. We establish a comprehensive threat model identifying three adversary classes and evaluate Laplace, Gaussian, and hybrid noise mechanisms across varying privacy budgets, with supervised algorithms achieving up to 86% accuracy. The proposed hybrid Laplace-Gaussian noise mechanism with adaptive budget allocation provides a balanced approach, offering moderate tails and better privacy-utility trade-offs for both low and high dimension datasets. At the practical threshold of $\\varepsilon = 5.0$, supervised algorithms achieve 82-84% accuracy while reducing attribute inference attacks by up to 18% and data reconstruction correlation by 70%. Blockchain security further ensures trusted communication through time-stamping, traceability, and immutability for analytics applications. Edge computing demonstrates 8$\\times$ latency reduction for emergency scenarios, validating the hierarchical architecture for time-critical operations.",
+    "published": "2025-12-11T08:37:37Z",
+    "updated": "2025-12-11T08:37:37Z",
+    "authors": [
+      "N Mangala",
+      "Murtaza Rangwala",
+      "S Aishwarya",
+      "B Eswara Reddy",
+      "Rajkumar Buyya",
+      "KR Venugopal",
+      "SS Iyengar",
+      "LM Patnaik"
+    ],
+    "affiliations": [],
+    "first_author": "N Mangala",
+    "pdf_url": "https://arxiv.org/pdf/2512.10426v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.09442v1",
+    "arxiv_id": "2512.09442v1",
+    "title": "Reference Recommendation based Membership Inference Attack against Hybrid-based Recommender Systems",
+    "summary": "Recommender systems have been widely deployed across various domains such as e-commerce and social media, and intelligently suggest items like products and potential friends to users based on their preferences and interaction history, which are often privacy-sensitive. Recent studies have revealed that recommender systems are prone to membership inference attacks (MIAs), where an attacker aims to infer whether or not a user's data has been used for training a target recommender system. However, existing MIAs fail to exploit the unique characteristic of recommender systems, and therefore are only applicable to mixed recommender systems consisting of two recommendation algorithms. This leaves a gap in investigating MIAs against hybrid-based recommender systems where the same algorithm utilizing user-item historical interactions and attributes of users and items serves and produces personalised recommendations. To investigate how the personalisation in hybrid-based recommender systems influences MIA, we propose a novel metric-based MIA. Specifically, we leverage the characteristic of personalisation to obtain reference recommendation for any target users. Then, a relative membership metric is proposed to exploit a target user's historical interactions, target recommendation, and reference recommendation to infer the membership of the target user's data. Finally, we theoretically and empirically demonstrate the efficacy of the proposed metric-based MIA on hybrid-based recommender systems.",
+    "published": "2025-12-10T09:14:15Z",
+    "updated": "2025-12-10T09:14:15Z",
+    "authors": [
+      "Xiaoxiao Chi",
+      "Xuyun Zhang",
+      "Yan Wang",
+      "Hongsheng Hu",
+      "Wanchun Dou"
+    ],
+    "affiliations": [],
+    "first_author": "Xiaoxiao Chi",
+    "pdf_url": "https://arxiv.org/pdf/2512.09442v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  },
+  {
+    "id": "http://arxiv.org/abs/2512.08862v1",
+    "arxiv_id": "2512.08862v1",
+    "title": "Secure and Privacy-Preserving Federated Learning for Next-Generation Underground Mine Safety",
+    "summary": "Underground mining operations depend on sensor networks to monitor critical parameters such as temperature, gas concentration, and miner movement, enabling timely hazard detection and safety decisions. However, transmitting raw sensor data to a centralized server for machine learning (ML) model training raises serious privacy and security concerns. Federated Learning (FL) offers a promising alternative by enabling decentralized model training without exposing sensitive local data. Yet, applying FL in underground mining presents unique challenges: (i) Adversaries may eavesdrop on shared model updates to launch model inversion or membership inference attacks, compromising data privacy and operational safety; (ii) Non-IID data distributions across mines and sensor noise can hinder model convergence. To address these issues, we propose FedMining--a privacy-preserving FL framework tailored for underground mining. FedMining introduces two core innovations: (1) a Decentralized Functional Encryption (DFE) scheme that keeps local models encrypted, thwarting unauthorized access and inference attacks; and (2) a balancing aggregation mechanism to mitigate data heterogeneity and enhance convergence. Evaluations on real-world mining datasets demonstrate FedMining's ability to safeguard privacy while maintaining high model accuracy and achieving rapid convergence with reduced communication and computation overhead. These advantages make FedMining both secure and practical for real-time underground safety monitoring.",
+    "published": "2025-12-09T17:53:19Z",
+    "updated": "2025-12-09T17:53:19Z",
+    "authors": [
+      "Mohamed Elmahallawy",
+      "Sanjay Madria",
+      "Samuel Frimpong"
+    ],
+    "affiliations": [],
+    "first_author": "Mohamed Elmahallawy",
+    "pdf_url": "https://arxiv.org/pdf/2512.08862v1",
+    "primary_category": "cs.CR",
+    "relevance_score": 14.0
+  }
+]

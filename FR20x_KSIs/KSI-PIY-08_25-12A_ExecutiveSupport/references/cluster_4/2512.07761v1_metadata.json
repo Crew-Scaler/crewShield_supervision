@@ -1,0 +1,19 @@
+{
+  "arxiv_id": "2512.07761v1",
+  "title": "RL-MTJail: Reinforcement Learning for Automated Black-Box Multi-Turn Jailbreaking of Large Language Models",
+  "authors": [
+    "Xiqiao Xiong",
+    "Ouxiang Li",
+    "Zhuo Liu",
+    "Moxin Li",
+    "Wentao Shi",
+    "Fuli Feng",
+    "Xiangnan He"
+  ],
+  "published": "2025-12-08T17:42:59Z",
+  "summary": "Large language models are vulnerable to jailbreak attacks, threatening their safe deployment in real-world applications. This paper studies black-box multi-turn jailbreaks, aiming to train attacker LLMs to elicit harmful content from black-box models through a sequence of prompt-output interactions. Existing approaches typically rely on single turn optimization, which is insufficient for learning long-term attack strategies. To bridge this gap, we formulate the problem as a multi-turn reinforcem",
+  "cluster": "cluster_4",
+  "classification": "GREEN",
+  "relevance_score": 85,
+  "screened_at": "2026-01-11T11:46:04.185190"
+}
