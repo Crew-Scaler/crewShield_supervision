@@ -4,6 +4,8 @@
 
 The **KSIs (Key Security Indicators)** directory contains comprehensive documentation and research materials for FedRAMP 20x compliance, focusing on AI and AI Agent security, infrastructure security, and operational security requirements. This repository aggregates +60 Key Security Indicator folders with over 9,000 academic and technical reference papers organized by security domain and topic clusters.
 
+** CONTENTS ARE FOR RESEARCH AND DEVELOPMENT ONLY **
+
 ## Folder Structure
 
 Each KSI folder typically contains:
